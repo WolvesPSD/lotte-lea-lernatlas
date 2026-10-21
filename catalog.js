@@ -72,6 +72,88 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "de-woerter-umfrage",
+      "subjectId": "de",
+      "title": "Drei Wörter für ein Gebäck",
+      "scope": "Freiwilliger, gestützter 7/8-Einstieg zu regionaler Wortwahl und vorsichtigen Aussagen über Sprachwandel. § 2.2.5 nennt diese Ziele bis Ende Klasse 8; Lottes aktuelle Unterrichtseinheit ist unbekannt.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Felsen, Ufer und Park sind erfundene Orte. Die Tabellen sind vollständig erfunden und zeigen keine echte Sprachverteilung. Es geht darum, Angaben und Grenzen sorgfältig zu lesen. Keine Wörter deiner Familie oder deinen Wohnort eintragen.",
+      "introduction": "Für dieselbe Sache können Menschen verschiedene Wörter verwenden. Das ist sprachliche Variation; ein einzelnes Wort beweist nicht, dass jemand einen ganzen Dialekt spricht. Sprachwandel meint eine Veränderung des Sprachgebrauchs über die Zeit. Dafür braucht man vergleichbare Erhebungen. In dieser Übung prüfst du zuerst, was eine erfundene Tabelle tatsächlich zeigt, und formulierst dann für andere Leserinnen und Leser eine faire Erklärung. Offene Texte bewertet die App nicht automatisch.",
+      "passage": "FIKTIVES MATERIAL · Alle Orte, Personen und Zahlen sind erfunden.\n\nGegenstand: ein längliches helles Weizengebäck mit einer Kerbe oben. Die drei Antwortwörter sind „Brötchen“, „Semmel“ und „Schrippe“. Keine Antwort wird hier als die einzig richtige vorgeschrieben.\n\nKARTE A · ERFUNDENE BEFRAGUNG 2026\nIn jedem erfundenen Ort beantworteten 20 freiwillig teilnehmende Personen dieselbe Frage nach genau diesem länglichen Gebäck. Jede Person wählte genau ein Wort.\nOrt Felsen: Brötchen 6 · Semmel 13 · Schrippe 1\nOrt Ufer: Brötchen 12 · Semmel 3 · Schrippe 5\nOrt Park: Brötchen 6 · Semmel 2 · Schrippe 12\n\nKARTE B · ÄLTERE ERFUNDENE BEFRAGUNG IN FELSEN\n2023 antworteten 20 andere Personen auf genau dieselbe Frage nach dem länglichen hellen Weizengebäck mit Kerbe: Brötchen 8 · Semmel 10 · Schrippe 2. Die Fragen und die Gebäckbeschreibung stimmen 2023 und 2026 überein. Es sind aber nicht dieselben Personen. Beide Gruppen sind klein und meldeten sich freiwillig.\n\nKARTE C · FIKTIVE SCHLAGZEILE\n„Seit 2023 verdrängt Semmel das Brötchen in ganz Deutschland. Das beweisen unsere Zahlen aus Felsen. Ursache sind neue Bäckereiketten.“\n\nWORTHILFE · Eine Beobachtung beschreibt die erhobenen Antworten. Eine Verallgemeinerung über alle Menschen oder eine Ursache braucht weitere Belege. Dass sich die Antwortzahlen zwischen zwei kleinen Befragungen ändern, kann ein Hinweis sein, ist aber noch kein sicherer Nachweis für Sprachwandel in der Bevölkerung.",
+      "tasks": [
+        {
+          "id": "de-woerter-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "prompt": "A. Gegenstand und Beleg (4 Kriterienpunkte): Beschreibe die in Karte A gemeinte Gebäckform. Nenne für Felsen und Park jeweils das am häufigsten gewählte Wort mit der richtigen Zahl. Prüfe an einem Ort durch Addieren, ob wirklich 20 Antworten erfasst sind.",
+          "sample": "Gemeint ist ein längliches helles Weizengebäck mit einer Kerbe oben. In Felsen wurde Semmel 13-mal am häufigsten gewählt, in Park Schrippe 12-mal. Für Felsen gilt 6 + 13 + 1 = 20; auch die beiden anderen Zeilen ergeben 20.",
+          "criteria": [
+            "1 Punkt: längliches helles Weizengebäck mit Kerbe als Gegenstand.",
+            "1 Punkt: Felsen mit Semmel und 13 richtig.",
+            "1 Punkt: Park mit Schrippe und 12 richtig.",
+            "1 Punkt: eine der drei Ortszeilen vollständig zu 20 addiert; ein blosses „stimmt“ ohne Rechnung genügt nicht."
+          ]
+        },
+        {
+          "id": "de-woerter-2",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 8,
+          "prompt": "B. Variation ohne Vorurteil (5 Kriterienpunkte): Vergleiche Felsen und Ufer an zwei Antwortwörtern mit Zahlen. Erkläre, warum „In Felsen sagt jeder Semmel“ durch Karte A widerlegt ist. Kann man aus der einen gewählten Bezeichnung sicher auf den ganzen Dialekt einer Person schliessen? Begründe.",
+          "sample": "In Felsen wählten 13 Personen Semmel, in Ufer nur 3. Brötchen wählten in Felsen 6, in Ufer 12. In Felsen nutzten 7 der 20 Personen ein anderes Wort als Semmel; also sagt dort in der Befragung schon nicht jeder Semmel. Eine einzelne Wortwahl belegt keinen ganzen Dialekt, denn eine Person kann verschiedene Wörter kennen oder situationsabhängig wählen.",
+          "criteria": [
+            "2 Punkte: zwei unterschiedliche Wörter mit jeweils korrektem Felsen-Ufer-Vergleich (je 1).",
+            "1 Punkt: „jeder“ anhand der 7 anderen Antworten oder eines konkreten Gegenbelegs aus Felsen widerlegt.",
+            "1 Punkt: einzelnes Wort reicht als Beleg für einen ganzen Dialekt nicht.",
+            "1 Punkt: plausible Begründung, zum Beispiel Variantenkenntnis oder situationsabhängige Wortwahl; keine Person aufgrund des Wortes abwerten."
+          ]
+        },
+        {
+          "id": "de-woerter-3",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "prompt": "C. Schlagzeile prüfen (6 Kriterienpunkte): Nenne die Semmel-Zahlen in Felsen 2023 und 2026 und beschreibe den Unterschied nur für die Befragten. Zeige zwei Behauptungen in Karte C, die die Karten nicht beweisen. Erkläre, warum diese kleinen freiwilligen Gruppen keinen sicheren Schluss über alle Felsener erlauben. Erkläre auch, warum kein Wortwechsel einzelner Personen beobachtet wurde. Formuliere zum Schluss einen vorsichtigen Satz, der trotzdem durch die Tabellen gedeckt ist.",
+          "sample": "2023 wählten in der erfundenen Befragung 10 von 20 Personen Semmel, 2026 waren es 13 von 20; unter diesen Antwortenden sind das drei mehr. Die Schlagzeile belegt weder eine Verdrängung in ganz Deutschland noch Bäckereiketten als Ursache. In jedem Jahr antworteten nur 20 freiwillige Personen; diese nicht zufällig ausgewählten Gruppen vertreten nicht sicher alle Menschen in Felsen. Es waren zudem nicht dieselben Personen, also ist kein Wortwechsel einer bestimmten Person belegt. Vorsichtig wäre: „In den beiden erfundenen Felsener Gruppen wurde Semmel 2026 häufiger gewählt als 2023; ob sich der Gebrauch im ganzen Ort veränderte, bleibt offen.“",
+          "criteria": [
+            "1 Punkt: 10/20 und 13/20 mit Unterschied drei unter den befragten Personen richtig.",
+            "1 Punkt: bundesweite Verdrängung als nicht belegt erkannt.",
+            "1 Punkt: Bäckereiketten als unbelegte Ursache erkannt.",
+            "1 Punkt: kleine freiwillige, nicht zufällig ausgewählte Gruppen erlauben keinen sicheren Schluss über alle Felsener.",
+            "1 Punkt: andere Personen in beiden Jahren, also kein beobachteter Wortwechsel einzelner Personen.",
+            "1 Punkt: vorsichtige Aussage nur über die beiden befragten Gruppen, ohne sicheren Bevölkerungswandel oder Ursache."
+          ]
+        },
+        {
+          "id": "de-woerter-4",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "prompt": "D. Fair erklären (5 Kriterienpunkte): Schreibe einen kurzen Aushang für die erfundene Bäckerei in Felsen. Beschreibe das angebotene Gebäck so, dass auch Gäste ohne Ortskenntnis es erkennen. Nenne mindestens zwei der möglichen Wörter, ohne eines als einzig „richtig“ auszugeben. Schreibe darunter einen Satz, der klarstellt, dass die Zahlen nur aus einer kleinen erfundenen Befragung stammen. Erkläre kurz, warum dein Aushang fairer ist als „Hier heisst das richtig Semmel; alle anderen Wörter sind falsch“.",
+          "sample": "„Längliches helles Weizengebäck mit einer Kerbe oben – bei uns kannst du es auch Brötchen oder Semmel nennen.“ Unterzeile: „Unsere Beispielzahlen stammen nur aus einer kleinen erfundenen Befragung und sind keine Regel für alle Menschen.“ Das ist fairer, weil der Gegenstand beschrieben und niemandes Wort als falsch abgewertet wird.",
+          "criteria": [
+            "1 Punkt: als längliches helles Weizengebäck beschrieben.",
+            "1 Punkt: Kerbe oben genannt, sodass Gäste das Gebäck erkennen können.",
+            "1 Punkt: mindestens zwei Wörter aus dem Material als mögliche Bezeichnungen.",
+            "1 Punkt: deutliche Kennzeichnung der kleinen erfundenen Befragung ohne Allgemeingeltung.",
+            "1 Punkt: faire Begründung ohne Abwertung anderer Wörter oder Sprecher; alternative verständliche Formulierungen gelten."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Deutsch Klasse 7 ab 2026/27. § 2.2.5 PDF-S. 30–31: Sprachvariation und ausgewählte Erscheinungen des Sprachwandels als Ziele bis Ende Klasse 8. § 3.5 PDF-S. 52: Sprache und Sprachgebrauch im 7/8-Bereich; Schulfolge offen.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "de-tauschregal-eroerterung",
       "subjectId": "de",
       "title": "Ein Tauschregal begründet prüfen",

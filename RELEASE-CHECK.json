@@ -1,12 +1,15 @@
 {
-  "builtAt": "2026-10-21T21:53:37.460Z",
-  "releaseVersion": "2026.10.21-m6protocol.2",
-  "newTopicIds": [],
-  "changeLog": [
-    "Mathematik M6: mobiler Wischhinweis fuer die seitlich verschiebbare Protokolltabelle; 20 echte zweistufige Ziehungen, eigene Rechnung vor Kontrolle, Druck und CSV. Freiwilliger Klasse-8-Ausblick."
+  "builtAt": "2026-10-21T22:02:25.616Z",
+  "releaseVersion": "2026.10.22-devariation.1",
+  "newTopicIds": [
+    "de-woerter-umfrage"
   ],
-  "rollbackCommit": "32c42e61cffbcccdc5f245090fdba4eb1f23e6e0",
+  "changeLog": [
+    "Deutsch D-R3: vier offene Aufgaben zu regionaler Wortvariation, vorsichtigen Aussagen ueber Sprachwandel und fairem Sprachgebrauch mit vollstaendig fiktiven Befragungsdaten. Freiwilliger Klasse-7/8-Einstieg."
+  ],
+  "rollbackCommit": "37a1ad7e229e11c7c87c472d6a82513453f52f42",
   "releasedTopics": [
+    "de-woerter-umfrage",
     "de-tauschregal-eroerterung",
     "en-maya-clubs-talk",
     "fr-termin-gespraech",

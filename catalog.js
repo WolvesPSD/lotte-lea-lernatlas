@@ -72,6 +72,101 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "de-leseraeume-diagramm",
+      "subjectId": "de",
+      "title": "Ein interaktives Diagramm lesen",
+      "scope": "Freiwilliger, gestützter 7/8-Fall. Der Lehrplan nennt interaktive Diagramme für Klassen 7/8; Lottes Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Hilfreich sind Brüche und Prozentwerte. Die Rohdatentabelle bleibt als Textalternative lesbar; falls die Schalter nicht funktionieren, kann die digitale Bedienung nicht beurteilt werden.",
+      "introduction": "Öffne das Diagramm im neuen Tab. Wechsle Tag und Messgrösse selbst und lies dabei Überschrift, Skala und Zahlen. Antworte hier oder auf dem Arbeitsblatt. Die Daten sind erfunden; prüfe, welche Schlüsse sie tragen.",
+      "lab": {
+        "path": "assets/de-leseraeume-diagramm.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-leseraeume-diagramm.html",
+        "title": "Leseraum-Diagramm",
+        "description": "Zwei fiktive Tage, zwei Räume und zwei umschaltbare Messgrössen. Die Rohdatentabelle ist auch ohne Schalter lesbar.",
+        "printNote": "Für die Bedienaufgabe Tag und Messgrösse im Browser umschalten. Der Ausdruck enthält nur den Auftrag und die Laboradresse; er belegt keine Schalterbedienung."
+      },
+      "tasks": [
+        {
+          "id": "de-leseraeume-1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "prompt": "Schalter bedienen (2 Beobachtungspunkte): Zeige Montag mit belegten Plätzen, dann Montag mit Anteil. Schalte danach auf Donnerstag; die Messgrösse bleibt zunächst Anteil. Schalte sie nun zurück auf belegte Plätze. Erkläre bei jedem Wechsel, welcher Schalter Überschrift, Skala oder Balken ändert. Was hast du tatsächlich selbst bedient?",
+          "sample": "Zuerst zeigt Montag bei „belegte Plätze“ A 24 und B 18 auf einer 0–30-Skala. Der Messgrössen-Schalter macht daraus A 80 % und B 90 % auf 0–100 %. Der Tag-Schalter zeigt danach Donnerstag mit A 50 % und B 90 %; erst der erneute Messgrössen-Schalter zeigt Donnerstag mit A 15 und B 18 belegten Plätzen. Zwei Bedienpunkte dürfen nur für tatsächlich beobachtetes eigenes Umschalten vergeben werden. Ohne Bedienbeobachtung: nicht erhoben, nicht 0/2.",
+          "criteria": [
+            "1 Beobachtungspunkt nur, wenn das Kind die Messgrösse selbst umschaltet und die Änderung benennt.",
+            "1 Beobachtungspunkt nur, wenn das Kind den Tag selbst umschaltet und die Änderung benennt. Ein Textbericht oder Ausdruck allein belegt beides nicht; bei reiner Tabellenalternative „nicht erhoben“ notieren."
+          ]
+        },
+        {
+          "id": "de-leseraeume-2",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 10,
+          "prompt": "Drei Ansichten lesen (7 Kriterienpunkte): Notiere für Montag/Anzahl die Werte A und B samt Unterschied; für Montag/Anteil beide Prozentwerte samt Unterschied in Prozentpunkten; für Donnerstag/Anzahl beide Werte und den Vergleich mit Montag. Nenne jeweils Tag und Messgrösse.",
+          "sample": "Montag/Anzahl: A 24, B 18, also A sechs belegte Plätze mehr. Montag/Anteil: A 80 %, B 90 %, also B zehn Prozentpunkte höher. Donnerstag/Anzahl: A 15, B 18, also B drei mehr; A hat neun Plätze weniger als am Montag, B bleibt bei 18.",
+          "criteria": [
+            "1 Punkt: Montag/Anzahl A 24 und B 18.",
+            "1 Punkt: A hat dort sechs belegte Plätze mehr.",
+            "1 Punkt: Montag/Anteil A 80 % und B 90 %.",
+            "1 Punkt: B liegt zehn Prozentpunkte höher, nicht zehn Prozent relativ.",
+            "1 Punkt: Donnerstag/Anzahl A 15 und B 18, B drei mehr.",
+            "1 Punkt: A hat gegenüber Montag neun belegte Plätze weniger.",
+            "1 Punkt: B bleibt an beiden Tagen bei 18 belegten Plätzen. Tag und Messgrösse müssen aus der Antwort klar werden; denselben Rechenfehler nicht doppelt abziehen."
+          ]
+        },
+        {
+          "id": "de-leseraeume-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "prompt": "Aussage prüfen (5 Kriterienpunkte): Die erfundene Überschrift lautet „Raum A war am Montag beliebter, denn sein Balken ist länger.“ Rechne die beiden Montag-Anteile aus. Erkläre, warum A bei der Anzahl, B aber beim Anteil vorn liegt. Nenne beide Grundwerte und die Skalen; entscheide, ob „beliebter“ folgt.",
+          "sample": "A: 24 ÷ 30 = 80 %. B: 18 ÷ 20 = 90 %. A hat absolut 24 statt 18 belegte Plätze, doch B hat den grösseren Anteil, weil die Räume 30 beziehungsweise 20 Plätze haben. Die Anzahlansicht nutzt gemeinsam 0–30 Plätze, die Anteilsansicht gemeinsam 0–100 % je Raum. „Beliebter“ folgt nicht: gezählt wurden belegte Plätze in einer Momentaufnahme, nicht Wünsche oder Gründe.",
+          "criteria": [
+            "1 Punkt: A 24/30 = 80 %.",
+            "1 Punkt: B 18/20 = 90 %.",
+            "1 Punkt: Die verschiedenen Grundwerte 30 und 20 erklären den Rangwechsel.",
+            "1 Punkt: beide gemeinsamen Skalen richtig benannt: 0–30 Plätze und 0–100 % je Raum.",
+            "1 Punkt: Beliebtheit/Vorliebe ist aus der Momentaufnahme nicht belegt. Eine in Aufgabe 2 falsche Zahl darf hier als eigenständig richtig korrigierter Rechenschritt gewürdigt werden."
+          ]
+        },
+        {
+          "id": "de-leseraeume-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "prompt": "Quelle und Reichweite (4 Kriterienpunkte): Nenne vier Grenzen für einen echten Bericht: Quelle/Methode, gezählte Personen oder Dauer, Ausschnitt der Beobachtung und Schluss auf Vorlieben oder die ganze Schule. Ein begründeter Satz je Grenze genügt.",
+          "sample": "Es sind vollständig erfundene Übungszahlen; für einen echten Bericht bräuchte es Ort, Datum, Verantwortliche und Zählmethode. Gezählt wurden Plätze um 15:30 Uhr, weder Aufenthaltsdauer noch identische Personen an beiden Tagen. Nur zwei Räume und zwei Zeitpunkte kommen vor. Ob Menschen einen Raum bevorzugen oder was die ganze Schule meint, lässt sich daraus nicht bestimmen.",
+          "criteria": [
+            "1 Punkt: Fiktiver Quellenstatus erkannt; bei echter Erhebung wären Ort, Datum, Verantwortliche und Methode offenzulegen.",
+            "1 Punkt: Belegte Plätze um 15:30 Uhr sind nicht Aufenthaltsdauer oder eindeutig dieselben Personen.",
+            "1 Punkt: Zwei Räume und zwei Zeitpunkte begrenzen den Ausschnitt.",
+            "1 Punkt: keine belastbare Aussage über Vorliebe oder ganze Schule. Andere durch Material gedeckte präzise Grenze zulassen; keine Absicht zur Täuschung oder KI-Herkunft erfinden."
+          ]
+        },
+        {
+          "id": "de-leseraeume-5",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "prompt": "Fairen Titel schreiben (2 Kriterienpunkte): Schreibe genau einen Satz als neue Überschrift. Begrenze ihn auf einen Tag, 15:30 Uhr, die zwei fiktiven Räume und eine Messgrösse. Behaupte weder Vorliebe noch Ursache.",
+          "sample": "In der fiktiven Testwoche waren am Montag um 15:30 Uhr in Raum A 24 und in Raum B 18 Plätze belegt. Ebenso möglich: Am Montag um 15:30 Uhr waren in der fiktiven Zählung 90 % der Plätze in Raum B und 80 % in Raum A belegt.",
+          "criteria": [
+            "1 Punkt: Zahl und gewählte Messgrösse stimmen.",
+            "1 Punkt: Tag/Zeit und fiktive Zwei-Räume-Reichweite sind klar begrenzt; keine Beliebtheits-, Ursachen- oder Schulbehauptung. Gleichwertiger Wortlaut zulässig."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. § 2.2.2, PDF-S. 26–27: nichtlineare Texte, digitale Umgebungen und begrenzte Schlussfolgerungen unter Zielmarke Klasse 8. § 3.2, PDF-S. 48: interaktive Diagramme ausdrücklich in der Spalte Klassenstufen 7/8.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "mbi-farbkarten-tabellenlabor",
       "subjectId": "mbi",
       "title": "Farbkarten: Formel und Vergleich",

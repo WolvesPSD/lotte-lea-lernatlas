@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fiktive Leseraum-Zählung – interaktives Diagramm</title>
+  <style>
+    :root { color-scheme: light; font: 1rem/1.55 system-ui, sans-serif; }
+    body { max-width: 52rem; margin: 0 auto; padding: 1rem; color: #172234; background: #fff; }
+    h1, h2 { line-height: 1.25; }
+    .notice { padding: .75rem 1rem; border-left: .3rem solid #355d84; background: #eff5fa; }
+    .controls { display: flex; flex-wrap: wrap; gap: .5rem; margin: .5rem 0 1rem; }
+    button { border: 2px solid #355d84; background: #fff; color: #172234; border-radius: .4rem; padding: .45rem .8rem; font: inherit; cursor: pointer; }
+    button[aria-pressed="true"] { background: #214e78; color: #fff; }
+    button:focus-visible, summary:focus-visible { outline: 3px solid #a34700; outline-offset: 3px; }
+    fieldset { margin: 1rem 0; border: 1px solid #67788a; }
+    legend { font-weight: 700; }
+    .panel { border: 2px solid #67788a; border-radius: .35rem; padding: 1rem; }
+    .barrow { display: grid; grid-template-columns: 5rem minmax(8rem, 1fr); gap: .2rem .75rem; align-items: center; margin: .8rem 0; }
+    .barrow progress { width: 100%; height: 1.3rem; accent-color: #214e78; }
+    .barrow span { grid-column: 2; }
+    table { border-collapse: collapse; width: 100%; margin: .7rem 0; }
+    th, td { border: 1px solid #596a7c; padding: .4rem; text-align: left; }
+    td.num { text-align: right; font-variant-numeric: tabular-nums; }
+    details { margin-top: 1.2rem; }
+    summary { cursor: pointer; font-weight: 700; }
+    .small { font-size: .93rem; }
+    @media print { body { max-width: none; } fieldset { display: none; } summary:focus-visible { outline: none; } .panel { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Wie voll waren die zwei erfundenen Leserräume?</h1>
+    <p class="notice"><strong>Nur Übungsdaten.</strong> Eine erfundene Redaktion zählte in einer fiktiven Testwoche am Montag und Donnerstag jeweils <strong>um 15:30 Uhr</strong> die belegten Plätze. Raum A hat 30 Plätze, Raum B 20. Es sind Momentaufnahmen; über Aufenthaltsdauer, Gründe oder einzelne Personen sagt die Zählung nichts. Es gibt keine echte Schule, Erhebung oder Kalenderwoche hinter diesen Zahlen.</p>
+
+    <fieldset>
+      <legend>Tag wählen</legend>
+      <div class="controls">
+        <button type="button" data-day="mon" aria-pressed="true">Montag</button>
+        <button type="button" data-day="thu" aria-pressed="false">Donnerstag</button>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Messgrösse wählen</legend>
+      <div class="controls">
+        <button type="button" data-metric="count" aria-pressed="true">Belegte Plätze</button>
+        <button type="button" data-metric="share" aria-pressed="false">Anteil belegter Plätze</button>
+      </div>
+    </fieldset>
+
+    <section class="panel" id="chart" aria-live="polite" aria-atomic="true" aria-label="Diagramm mit zwei Räumen">
+      <h2 id="chart-title">Montag · belegte Plätze</h2>
+      <p id="scale">Gemeinsame Skala: 0 bis 30 belegte Plätze.</p>
+      <div class="barrow">
+        <label for="bar-a">Raum A</label>
+        <progress id="bar-a" max="30" value="24" aria-describedby="label-a">24 von 30</progress>
+        <span id="label-a">24 von 30 Plätzen belegt.</span>
+      </div>
+      <div class="barrow">
+        <label for="bar-b">Raum B</label>
+        <progress id="bar-b" max="30" value="18" aria-describedby="label-b">18 von 20</progress>
+        <span id="label-b">18 von 20 Plätzen belegt.</span>
+      </div>
+      <p id="chart-note" class="small">Die Balken zeigen Anzahlen auf derselben Skala. Die Raumgrössen sind verschieden.</p>
+    </section>
+
+    <details open>
+      <summary>Alle Rohdaten als Textalternative und Druckgrundlage</summary>
+      <table>
+        <caption>Fiktive Momentaufnahmen um 15:30 Uhr; belegte Plätze und Kapazität</caption>
+        <thead><tr><th scope="col">Tag</th><th scope="col">Raum</th><th scope="col">Belegt</th><th scope="col">Plätze insgesamt</th><th scope="col">Anteil belegt</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Montag</th><td>A</td><td class="num">24</td><td class="num">30</td><td class="num">80 %</td></tr>
+          <tr><th scope="row">Montag</th><td>B</td><td class="num">18</td><td class="num">20</td><td class="num">90 %</td></tr>
+          <tr><th scope="row">Donnerstag</th><td>A</td><td class="num">15</td><td class="num">30</td><td class="num">50 %</td></tr>
+          <tr><th scope="row">Donnerstag</th><td>B</td><td class="num">18</td><td class="num">20</td><td class="num">90 %</td></tr>
+        </tbody>
+      </table>
+    </details>
+    <noscript><p class="notice">Die Umschalter benötigen JavaScript. Die Rohdatentabelle oben enthält alle Werte; ohne laufende Umschalter kann nur die Textalternative, nicht die digitale Bedienung beobachtet werden.</p></noscript>
+    <p class="small">Diese Übungsansicht speichert keine Eingaben, benutzt keine externen Dienste und enthält keine persönlichen Daten.</p>
+  </main>
+  <script>
+    "use strict";
+    const observations = {
+      mon: { name: "Montag", a: 24, b: 18 },
+      thu: { name: "Donnerstag", a: 15, b: 18 }
+    };
+    const capacity = { a: 30, b: 20 };
+    const state = { day: "mon", metric: "count" };
+    function render() {
+      const day = observations[state.day];
+      const countMode = state.metric === "count";
+      document.getElementById("chart-title").textContent = day.name + " · " + (countMode ? "belegte Plätze" : "Anteil belegter Plätze");
+      document.getElementById("scale").textContent = countMode ? "Gemeinsame Skala: 0 bis 30 belegte Plätze." : "Gemeinsame Skala: 0 bis 100 % der Plätze je Raum.";
+      for (const room of ["a", "b"]) {
+        const occupied = day[room];
+        const max = capacity[room];
+        const share = occupied / max * 100;
+        const bar = document.getElementById("bar-" + room);
+        const label = document.getElementById("label-" + room);
+        bar.max = countMode ? 30 : 100;
+        bar.value = countMode ? occupied : share;
+        bar.textContent = countMode ? occupied + " belegte Plätze" : share + " Prozent belegt";
+        label.textContent = countMode ? occupied + " von " + max + " Plätzen belegt." : share + " % von " + max + " Plätzen belegt (" + occupied + " Plätze).";
+      }
+      document.getElementById("chart-note").textContent = countMode ? "Die Balken zeigen Anzahlen auf derselben Skala. Die Raumgrössen sind verschieden." : "Die Balken zeigen Anteile an der jeweiligen Raumkapazität. Gleiche Länge wäre nicht automatisch die gleiche Anzahl.";
+      for (const button of document.querySelectorAll("button[data-day]")) button.setAttribute("aria-pressed", String(button.dataset.day === state.day));
+      for (const button of document.querySelectorAll("button[data-metric]")) button.setAttribute("aria-pressed", String(button.dataset.metric === state.metric));
+    }
+    for (const button of document.querySelectorAll("button[data-day]")) button.addEventListener("click", () => { state.day = button.dataset.day; render(); });
+    for (const button of document.querySelectorAll("button[data-metric]")) button.addEventListener("click", () => { state.metric = button.dataset.metric; render(); });
+    render();
+  </script>
+</body>
+</html>

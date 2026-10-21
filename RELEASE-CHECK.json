@@ -1,6 +1,7 @@
 {
-  "builtAt": "2026-10-21T06:19:11.364Z",
+  "builtAt": "2026-10-21T06:31:39.441Z",
   "releasedTopics": [
+    "de-leseraeume-diagramm",
     "mbi-farbkarten-tabellenlabor",
     "de-lesestrategien-bibliothek",
     "de-leseecke-ueberarbeiten",
@@ -33,8 +34,8 @@
     "de-heidi-ganzschrift-begleiter"
   ],
   "subjects": [
-    "mbi",
     "de",
+    "mbi",
     "ma",
     "en",
     "fr"

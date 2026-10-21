@@ -198,4 +198,5 @@ body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="en-library-audio-3"]{break-before:page}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="de-heidi-ganzschrift-2"]{break-before:page}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="mbi-farbkarten-4"]{break-before:page}}
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="de-leseraeume-3"]{break-before:page}}
 @media print{body[data-print-mode^="adult"] .print-practice{break-before:page}.print-practice{break-inside:auto}.print-practice li{break-inside:avoid}}

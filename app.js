@@ -339,6 +339,12 @@
     if (topic.prerequisite) appendText(intro, 'p', 'muted', topic.prerequisite);
     appendText(intro, 'p', '', topic.introduction);
     if (topic.passage) appendText(intro, 'blockquote', 'reading-passage', topic.passage);
+    if (topic.diagram) {
+      const figure = create('figure', 'learning-diagram');
+      const img = create('img'); img.src = topic.diagram.path; img.alt = topic.diagram.alt;
+      figure.append(img); appendText(figure, 'figcaption', '', topic.diagram.caption);
+      intro.append(figure);
+    }
     if (topic.lab) {
       const lab = create('section', 'lab-card');
       appendText(lab, 'h3', '', topic.lab.title);
@@ -446,6 +452,12 @@
       appendText(section, 'p', 'eyebrow', subjectById.get(topic.subjectId).name);
       appendText(section, 'h2', '', topic.title);
       appendText(section, 'p', 'level-tag', levelLabel(topic));
+      if (topic.diagram) {
+        const figure = create('figure', 'learning-diagram');
+        const img = create('img'); img.src = topic.diagram.path; img.alt = topic.diagram.alt;
+        figure.append(img); appendText(figure, 'figcaption', '', topic.diagram.caption);
+        section.append(figure);
+      }
       if (topic.lab) appendText(section, 'p', 'muted', `${topic.lab.title}: Praktische Bedienung im neuen Tab nur nach tatsächlich beobachteten Schritten beurteilen. Geschriebene Antworten belegen die Klicks nicht automatisch.`);
       if (topic.audio) {
         appendText(section, 'p', 'muted', topic.audio.adultNote);
@@ -520,6 +532,12 @@
       if (topic.prerequisite) appendText(section, 'p', 'print-context', topic.prerequisite);
       appendText(section, 'p', 'print-context', topic.introduction);
       if (topic.passage) appendText(section, 'p', 'print-passage', topic.passage);
+      if (topic.diagram) {
+        const figure = create('figure', 'print-diagram');
+        const img = create('img'); img.src = topic.diagram.path; img.alt = topic.diagram.alt;
+        figure.append(img); appendText(figure, 'figcaption', '', topic.diagram.caption);
+        section.append(figure);
+      }
       if (topic.lab) {
         appendText(section, 'p', 'print-context', `${topic.lab.title}: im Online-Lernatlas beim Thema über „${topic.lab.title} in neuem Tab öffnen“ starten. ${topic.lab.printNote} Direktadresse: ${topic.lab.publicUrl}`);
         if (mode === 'adult') {

@@ -72,6 +72,100 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "ma-ausstellungsflaeche",
+      "subjectId": "ma",
+      "title": "Eine sechseckige Fläche planen",
+      "scope": "Ausblick Klasse 8 · freiwillig. Flächeninhalt und Umfang von Drei- und Vierecken stehen in § 2.2.5 unter der Zielmarke Klasse 8; kein Nachweis von Lottes aktuellem Klasse-7-Unterricht.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Hilfreich sind ein Koordinatengitter, Rechteck- und Dreiecksflächen sowie die Unterscheidung von Umfang und Fläche. Zeichne auf Papier mit, wenn du Höhen und Zerlegung besser erkennen möchtest; ein einfacher Taschenrechner darf den Preis kontrollieren.",
+      "introduction": "Eine erfundene Projektgruppe plant auf einem ebenen Hof eine sechseckige Ausstellungsfläche. Im maßhaltigen Plan entspricht jede Koordinateneinheit 1 m. Der äußere Rand verläuft A(0|0) → B(12|0) → C(12|4) → D(9|8) → E(3|8) → F(0|4) → A. Die schrägen Außenkanten CD und EF sind je 5 m lang. Auf AB bleibt ein 2 m breites Tor ohne Zaun; jeder benötigte Zaunmeter kostet 8,50 €. Die Hilfslinie FC darfst du einzeichnen, sie wird aber nicht eingezäunt. Die zweite Figur ist ein getrenntes Parallelogramm mit P(0|0), Q(6|0), R(9|4), S(3|4); die schräge Seite PS ist 5 m lang. Online kannst du eine Skizze in Worten beschreiben; für Zeichnungen nutze das Kinderblatt oder kariertes Papier. Zeige Rechenschritte und Einheiten. Offene Antworten werden nicht automatisch benotet.",
+      "diagram": {
+        "path": "assets/ma-ausstellungsflaeche.svg",
+        "alt": "Maßhaltige Koordinatengitter: links Sechseck A 0,0 B 12,0 C 12,4 D 9,8 E 3,8 F 0,4; rechts getrenntes Parallelogramm P 0,0 Q 6,0 R 9,4 S 3,4. Ein Rasterabstand ist ein Meter. FC und Höhen sind nicht markiert.",
+        "caption": "Zwei getrennte, maßhaltige Pläne. Ein kleiner Rasterabstand entspricht 1 m; ergänze Hilfslinie und senkrechte Höhen selbst."
+      },
+      "tasks": [
+        {
+          "id": "ma-ausstellungsflaeche-1",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "prompt": "Plan und Höhen (3 Kriterienpunkte): Prüfe die Reihenfolge der sechs Randpunkte. Zeichne FC und beide senkrechten Höhen auf einer Papierskizze ein oder beschreibe ihre Lage. Wie hoch sind unteres Rechteck und oberes Trapez? Warum ist die schräge 5-m-Kante keine Trapezhöhe?",
+          "sample": "A–B–C–D–E–F–A bildet den Rand. FC verbindet F(0|4) waagerecht mit C(12|4) im Inneren. Das untere Rechteck reicht von y=0 bis y=4, also 4 m. Das obere Trapez liegt zwischen FC bei y=4 und ED bei y=8, ebenfalls 4 m hoch. CD und EF sind schräg und daher nicht der senkrechte Abstand der parallelen Seiten.",
+          "criteria": [
+            "1 Punkt: alle sechs Randpunkte in korrekter Reihenfolge; Skizze oder klare Beschreibung.",
+            "1 Punkt: FC innen waagerecht bei y=4 sowie beide senkrechten Höhen mit je 4 m.",
+            "1 Punkt: 5 m als schräge Seite statt senkrechter Trapezhöhe erklärt. Kleine Strichungenauigkeit bei Papierzeichnung ist kein Fehler."
+          ]
+        },
+        {
+          "id": "ma-ausstellungsflaeche-2",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 11,
+          "prompt": "Fläche auf zwei Wegen (8 Kriterienpunkte): Berechne (a) unteres Rechteck plus oberes Trapez und (b) umschließendes 12×8-m-Rechteck minus zwei Eckdreiecke. Erkläre an einem 3×4-m-Eckdreieck, warum seine Fläche halb so groß wie das passende Rechteck ist. Stimmen beide Ergebnisse überein?",
+          "sample": "Unten: 12·4 = 48 m². Oben: (12+6)÷2·4 = 36 m²; auch 6·4 + 2·(3·4÷2) = 36 m². Ein Eckdreieck nimmt genau die Hälfte eines 3×4-Rechtecks ein und hat 6 m². Zusammen 48+36 = 84 m². Kontrollweg: 12·8 = 96 m² minus zwei fehlende Eckdreiecke zu je 6 m² = 84 m². Beide Zerlegungen stimmen.",
+          "criteria": [
+            "2 Punkte: unteres Rechteck 12·4 = 48 m² mit passender Begründung und Einheit.",
+            "2 Punkte: oberes Trapez 36 m² aus passender Zerlegung oder Formel mit senkrechter Höhe 4 m.",
+            "1 Punkt: ein 3×4-m-Eckdreieck als Hälfte seines Rechtecks begründet und mit 6 m² berechnet.",
+            "2 Punkte: umschließendes Rechteck 96 m² minus zweimal 6 m² als zweiter Weg.",
+            "1 Punkt: beide Wege ergeben dieselben 84 m². Andere vollständig begründete, überlappungsfreie Zerlegungen gelten."
+          ]
+        },
+        {
+          "id": "ma-ausstellungsflaeche-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "prompt": "Rand und Kosten (5 Kriterienpunkte): Addiere die äußeren Kanten zu einem Umfang. Wie viele Meter Zaun sind nach dem 2-m-Tor nötig, und was kostet er? Warum zählt FC nicht mit? Nenne die verschiedenen Einheiten von Umfang und Fläche.",
+          "sample": "AB+BC+CD+DE+EF+FA = 12+4+5+6+5+4 = 36 m Umfang. FC ist eine innere Hilfslinie, keine Außenkante. Zaun: 36−2 = 34 m. Preis: 34·8,50 € = 289,00 €. Umfang und Zaunlänge stehen in m, Flächeninhalt in m².",
+          "criteria": [
+            "1 Punkt: alle sechs äußeren Seiten vollständig und ohne FC zusammengestellt.",
+            "1 Punkt: Umfang 36 m.",
+            "1 Punkt: Zaunlänge 34 m nach Abzug des Tores.",
+            "1 Punkt: Preis 289,00 €.",
+            "1 Punkt: FC als innere Linie begründet und m gegenüber m² passend unterschieden."
+          ]
+        },
+        {
+          "id": "ma-ausstellungsflaeche-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "prompt": "Transfer zur zweiten Figur (4 Kriterienpunkte): Berechne den Flächeninhalt des getrennten Parallelogramms PQRS. Welche Grundseite und welche senkrechte Höhe verwendest du? Erkläre, weshalb 6 m · 5 m trotz der 5-m-Seite PS falsch wäre. Eine Zerlegung und Verschiebung ist erlaubt.",
+          "sample": "PQ ist 6 m lang; der senkrechte Abstand zu SR zwischen y=0 und y=4 beträgt 4 m. Fläche: 6·4 = 24 m². Die 5-m-Seite PS ist schräg und nicht die Höhe. Man kann das linke Dreieck abschneiden und rechts ansetzen; so entsteht ein 6×4-m-Rechteck mit derselben Fläche.",
+          "criteria": [
+            "1 Punkt: Grundseite PQ = 6 m.",
+            "1 Punkt: senkrechte Höhe 4 m aus y=0 und y=4.",
+            "1 Punkt: Fläche 24 m².",
+            "1 Punkt: 5 m als schräge, nicht senkrechte Seite erklärt oder gleichwertiges Umlegeargument."
+          ]
+        },
+        {
+          "id": "ma-ausstellungsflaeche-5",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "prompt": "Zwei Denkfehler (4 Kriterienpunkte): Lin rechnet für die Hauptfläche 12·4 + (12+6)÷2·5 = 93 m² und zählt FC zusätzlich zum äußeren Zaunrand. Erkläre beide Fehler und gib den richtigen Flächeninhalt und Umfang an.",
+          "sample": "Lin nimmt beim Trapez die schräge 5-m-Seite statt der senkrechten Höhe 4 m; richtig sind 48+36 = 84 m². FC liegt innerhalb der Figur und ist keine Außenkante; richtig ist 36 m Umfang. Mit dem Tor wären 34 m Zaun nötig.",
+          "criteria": [
+            "1 Punkt: falsche 5-m-Trapezhöhe als Fehler erklärt.",
+            "1 Punkt: FC als innere, nicht äußere Linie erklärt.",
+            "1 Punkt: Fläche zu 84 m² korrigiert.",
+            "1 Punkt: äußerer Umfang zu 36 m korrigiert. Zahlen allein ohne Fehlererklärung genügen nicht für die Erklärpunkte."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Mathematik für Klasse 7 ab 2026/27, für Klasse 8 ab 2027/28. § 2.2.5 auf PDF-S. 27 unter „Klassenstufe 8“: Flächen und Umfänge von Dreieck, Parallelogramm, Trapez und zusammengesetzten Figuren, Formelbegründung und sinnvolle Einheiten.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "ma-experimentierkaesten-terme",
       "subjectId": "ma",
       "title": "Zwei Preise mit Termen vergleichen",

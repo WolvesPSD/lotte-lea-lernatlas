@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-21T08:58:14.214Z",
-  "releaseVersion": "2026.10.21-ens.1",
+  "builtAt": "2026-10-21T09:13:56.334Z",
+  "releaseVersion": "2026.10.21-frl.1",
   "newTopicIds": [
-    "en-garden-poster-dialogue"
+    "fr-livre-pour-samedi"
   ],
   "changeLog": [
-    "Englisch EN-S: mit getrennten Rollenkarten einen fiktiven Postertermin mündlich vereinbaren, neue Angaben aufgreifen und den ersten Schritt festhalten.",
-    "Die geheime Partnerinformation steht nur in der Erwachsenenansicht; das Beobachtungsraster bewertet ein wirklich geführtes Gespräch, keine schriftliche Notiz."
+    "Französisch FR-L: eine fiktive kurze Bibliotheksgeschichte mit Zeilenbelegen, Personenabsichten und Aussagegrenzen lesen.",
+    "Eine geänderte Textzeile trennt Raumstatus und Buchstandort; die Aufgaben bleiben ein gestützter freiwilliger 7/8-Einstieg ohne behaupteten aktuellen Schulstoff."
   ],
-  "rollbackCommit": "1530b3261d97bb30556812359dfbe167fb16ad5b",
+  "rollbackCommit": "6d912e0f4efc113c75f057b2022d6f9a0155d15d",
   "releasedTopics": [
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
@@ -29,6 +29,7 @@
     "de-namensschild-deutung",
     "mbi-quellen-ki",
     "fr-message-fixture",
+    "fr-livre-pour-samedi",
     "de-quellen-fixture",
     "de-meldung-termin",
     "en-update-fixture",

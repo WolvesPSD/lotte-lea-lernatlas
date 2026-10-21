@@ -1585,6 +1585,113 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "fr-livre-pour-samedi",
+      "subjectId": "fr",
+      "title": "Un livre pour samedi – eine Geschichte genau lesen",
+      "scope": "Freiwilliger, gestützter Leseeinstieg im 7/8-Rahmen der zweiten Fremdsprache. § 3.2.2 nennt kurze einfache Geschichten und Leseverfahren mit Zielmarke Ende Klasse 8; weder Lottes individueller Lernstand noch eine aktuelle Klasse-7-Unterrichtseinheit sind belegt.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Lies zuerst die sechs Zeilen ohne Lösung. Antworten auf Deutsch oder mit einfachen französischen Wörtern gelten, denn hier wird Lesen geübt, nicht französisches Schreiben benotet. Ein Wörterbuch und die Wortstütze sind erlaubt. Gib zu deinen Gedanken die passende Zeile an.",
+      "introduction": "Lies die erfundene Geschichte und suche zu jeder Antwort die Textstelle. Wortstütze bei Bedarf: bibliothèque = Bibliothek; quartier = Stadtviertel; étoiles = Sterne; panneau = Schild; salle = Raum; fermée = geschlossen; ouverte = geöffnet; aujourd’hui = heute; à midi = um zwölf Uhr mittags; emprunter = ausleihen; chez elle = bei ihr zu Hause. Versuche vor dem Wörterbuch zuerst, die gesuchte Zeile zu finden. Offene Antworten werden nicht automatisch benotet.",
+      "passage": "UN LIVRE POUR SAMEDI · erfundene Geschichte\nL1 Samedi matin, Lina et Samir vont à la bibliothèque du quartier.\nL2 Lina cherche un livre de sciences sur les étoiles. Samir cherche une histoire de pirates.\nL3 Un panneau dit : « Aujourd'hui, la salle des sciences est fermée. Aujourd'hui, les livres de sciences sont dans la salle 2. »\nL4 Samir trouve son histoire dans la salle 1. Lina trouve son livre dans la salle 2.\nL5 À onze heures cinquante, Lina veut commencer à lire. Mais la bibliothèque ferme à midi.\nL6 Alors, elle emprunte le livre et le lit chez elle. Samir emprunte aussi son histoire.",
+      "tasks": [
+        {
+          "id": "fr-livre-samedi-1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "prompt": "A. Worum geht es insgesamt (2 Kriterienpunkte)? Nenne den Ort und die gemeinsame Handlung. Gib eine passende Zeile an.",
+          "sample": "Lina und Samir gehen am Samstagvormittag in die Bibliothek (L1), um Bücher zu suchen und später auszuleihen (L2, L4, L6). Eine Ausstellung wird nicht erwähnt.",
+          "criteria": [
+            "1 Punkt: Bibliothek als Ort aus L1.",
+            "1 Punkt: Bücher suchen/finden oder ausleihen als gemeinsame Handlung mit passendem Zeilenbezug. Keine erfundene Ausstellung."
+          ]
+        },
+        {
+          "id": "fr-livre-samedi-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "prompt": "B. Wer sucht welches Buch und findet es in welchem Raum (4 Kriterienpunkte)? Notiere für Lina und Samir je Buchart, Raum und Textzeilen. Verwechsle den geschlossenen Wissenschaftsraum nicht mit dem Fundort.",
+          "sample": "Lina sucht ein Wissenschaftsbuch über Sterne (L2) und findet es in Raum 2 (L4). Samir sucht eine Piratengeschichte (L2) und findet sie in Raum 1 (L4). L3 beschreibt zusätzlich den heutigen Hinweis auf die Wissenschaftsbücher.",
+          "criteria": [
+            "1 Punkt: Lina sucht ein Wissenschaftsbuch über Sterne.",
+            "1 Punkt: Lina findet es in Raum 2.",
+            "1 Punkt: Samir sucht eine Piratengeschichte.",
+            "1 Punkt: Samir findet sie in Raum 1. Fehlende Zeilenangaben als Lernschritt anmerken, sachlich richtige Angaben nicht zusätzlich abwerten."
+          ]
+        },
+        {
+          "id": "fr-livre-samedi-3",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "prompt": "C. Warum hilft der Aushang Lina (2 Kriterienpunkte)? Verbinde L2, L3 und L4. Behaupte keinen früheren Standort der Bücher.",
+          "sample": "Lina sucht ein Wissenschaftsbuch über Sterne (L2). Der Aushang sagt, dass heute die Wissenschaftsbücher in Raum 2 stehen (L3); dort findet Lina ihr Buch (L4). Der Wissenschaftsraum ist heute geschlossen, doch das ist nur zusätzlicher Kontext. Wo die Bücher vorher standen, bleibt offen.",
+          "criteria": [
+            "1 Punkt: L3 nennt Raum 2 ausdrücklich als heutigen Standort der Wissenschaftsbücher; die Schliessung des Wissenschaftsraums ist Kontext, keine Pflicht für diesen Punkt.",
+            "1 Punkt: Verbindung zu Linas Suche und Fund aus L2/L4, ohne einen früheren Standort zu erfinden."
+          ]
+        },
+        {
+          "id": "fr-livre-samedi-4",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "prompt": "D. Was tut Lina kurz vor zwölf, und warum passt Lesen zu Hause zu ihrer Entscheidung (2 Kriterienpunkte)? Nutze L5–L6 und unterscheide Wunsch und Handlung.",
+          "sample": "Um 11:50 Uhr möchte Lina anfangen zu lesen, doch die Bibliothek schliesst um 12:00 Uhr (L5). Sie leiht das Buch aus und liest es zu Hause (L6). Der Text behauptet keine genaue Lesezeit zu Hause.",
+          "criteria": [
+            "1 Punkt: tatsächliches Ausleihen und Lesen zu Hause aus L6.",
+            "1 Punkt: Zeitbezug aus L5: nur zehn Minuten bis zur Schliessung, ohne unbelegte zusätzliche Zeitangabe."
+          ]
+        },
+        {
+          "id": "fr-livre-samedi-5",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "prompt": "E. Jemand sagt: „Die Wissenschaftsbücher stehen immer in Raum 2.“ Ist das belegt (2 Kriterienpunkte)? Nenne das begrenzende französische Wort und die Zeile.",
+          "sample": "Nein. Der Aushang sagt „Aujourd’hui“ – heute – in L3. Er belegt Raum 2 für diesen Tag, nicht für immer.",
+          "criteria": [
+            "1 Punkt: „immer“ als unbelegte Verallgemeinerung zurückgewiesen.",
+            "1 Punkt: „Aujourd’hui“ in L3 als zeitliche Grenze genannt."
+          ]
+        },
+        {
+          "id": "fr-livre-samedi-6",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 4,
+          "prompt": "F. Auf wen bezieht sich „elle“ in L6 (1 Kriterienpunkt)? Begründe kurz mit L5–L6.",
+          "sample": "„Elle“ meint Lina: L5 handelt von ihrem Lesewunsch, und L6 setzt mit „elle emprunte le livre“ ihre Handlung fort. Samir wird erst danach wieder genannt.",
+          "criteria": [
+            "1 Punkt: Lina als Bezug, mit L5/L6 oder einem gleichwertigen Zusammenhang begründet."
+          ]
+        },
+        {
+          "id": "fr-livre-samedi-7",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "prompt": "G. Variante und Aussagegrenze (5 Kriterienpunkte): Ersetze nur L3 durch „Un panneau dit : « Aujourd’hui, la salle des sciences est ouverte. Aujourd’hui, les livres de sciences sont dans la salle 2. »“ Alle anderen Zeilen bleiben gleich. Ist der Wissenschaftsraum nun geschlossen? Wo findet Lina ihr Buch? Warum darfst du aus dem Raumstatus allein nicht auf den Buchstandort schliessen? Ist „immer in Raum 2“ jetzt belegt? Vergleiche neue L3 mit L4.",
+          "sample": "Der Wissenschaftsraum ist heute geöffnet („est ouverte“, neue L3). Lina findet ihr Buch weiterhin in Raum 2 (L4), denn die neue L3 nennt den Buchstandort ausdrücklich. Geöffnet/geschlossen beschreibt den Raum, nicht automatisch den Standort der Bücher. „Immer“ folgt auch jetzt nicht, weil das zweite „Aujourd’hui“ den Buchstandort auf heute begrenzt.",
+          "criteria": [
+            "1 Punkt: Wissenschaftsraum heute geöffnet aus „est ouverte“.",
+            "1 Punkt: Lina findet das Buch weiterhin in Raum 2 aus L4.",
+            "1 Punkt: neue L3 nennt Raum 2 ausdrücklich als heutigen Standort der Wissenschaftsbücher.",
+            "1 Punkt: Raumstatus und Buchstandort als zwei getrennte Aussagen erklärt; keine Verlegung behauptet.",
+            "1 Punkt: „immer“ erneut mit dem zweiten „Aujourd’hui“ als unbelegt erkannt. Die Variante ändert nur L3; andere Zeilen bleiben erhalten."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Inkraftsetzung für Klasse 7 ab 2026/27. Französisch als zweite Fremdsprache, § 3.2.2 PDF-S. 60: kurze einfache Geschichten global, selektiv und detailliert lesen, Schlüsselwörter nutzen und Zusammenhänge erschliessen; § 3.2 S. 59 setzt A2 als Ziel Ende Klasse 8.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "de-quellen-fixture",
       "subjectId": "de",
       "title": "Aussagen und Belege prüfen",

@@ -72,6 +72,78 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "en-maya-clubs-talk",
+      "subjectId": "en",
+      "title": "Explain two clubs to Maya",
+      "scope": "Freiwillige, gestützte 7/8-Übung: einen kurzen englischen Vortrag vorbereiten und mit zwei Rückfragen vor einer zuhörenden Person halten. Das Lehrplanziel gilt bis Ende Klasse 8; die Klasse-7-Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Lies Uhrzeiten auf Englisch und kläre bei Bedarf late entry, sign up und cancelled. Du brauchst für den mündlichen Teil eine echte Zuhörperson. Die erfundenen Angaben sind keine Schulveranstaltung; verwende keine echten Pläne oder Namen.",
+      "introduction": "Maya möchte am Dienstag nach der Schule etwas ausprobieren. Erkläre ihr zwei erfundene AG-Angebote auf Englisch. Bereite eine kleine Stichwortkarte vor und sprich anschließend mit einer echten Zuhörperson. Die App hört dich nicht und bewertet keinen Vortrag automatisch. Ein Platz oder die Durchführung bei Regen sind nicht bestätigt.",
+      "passage": "FICTIONAL CLUB NOTICE · Monday, 5:00 pm\nMaya can arrive at the school gate on Tuesday at 3:50 pm. She must leave by 5:00 pm. She likes art and being outdoors. You do not know whether she has signed up.\n\nART LAB · Tuesday, 3:30–4:15 pm · Room 8\nMake a collage. Be there at the start; no late entry. Twelve places. Bring an old magazine. Sign up by Monday, 6:00 pm.\n\nMAP WALK · Tuesday, 4:00–4:45 pm · meet at the school gate\nExplore a simple map of the neighbourhood. Be there at the start; no late entry. Twenty places. Cancelled in heavy rain. Sign up by Monday, 6:00 pm.\n\nThe notice does not tell you whether a place is free, whether Maya has signed up, or what Tuesday's weather will be.\n\nWORD HELP · starts / ends / arrive / leave / late entry / sign up / a free place / heavy rain / cancelled / I recommend … because … / We still need to check … . You may use other understandable words.",
+      "tasks": [
+        {
+          "id": "en-maya-clubs-talk-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "prompt": "A. Speaking card (4 schriftliche Kriterienpunkte): Schreibe nur kurze englische Stichwörter oder Satzanfänge für diese vier Teile: Maya ansprechen, beide Angebote mit dem entscheidenden Zeitunterschied vergleichen, eine begründete Empfehlung geben, mindestens zwei offene Bedingungen nennen. Halte danach einen kurzen Vortrag mit der Karte; lies keinen fertigen Text ab.",
+          "sample": "Hi Maya → Art Lab 3:30, you arrive at 3:50, no late entry → Map Walk 4:00–4:45, school gate → recommend Walk because time fits → check sign-up/free place and heavy rain. Auch andere klare Stichwörter und eine vorsichtige Empfehlung sind möglich.",
+          "criteria": [
+            "1 Punkt: erkennbarer Einstieg für Maya.",
+            "1 Punkt: beide Angebote mit richtigem Zeitkonflikt beziehungsweise passendem Zeitfenster.",
+            "1 Punkt: sachlich begründete Empfehlung ohne Teilnahmengarantie.",
+            "1 Punkt: mindestens zwei offene Bedingungen, etwa Anmeldung/Platz und Wetter. Eine Stichwortkarte belegt keine gesprochene Leistung."
+          ]
+        },
+        {
+          "id": "en-maya-clubs-talk-2",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "B. Erst nach einem wirklich gehörten Vortrag und den Rückfragen (3 schriftliche Reflexionspunkte): Notiere eine Frage der Zuhörperson, deine sinngemäße mündliche Antwort und eine Aushangstelle, die deine Antwort stützt. Schreibe außerdem einen Satz, den du beim nächsten Versuch klarer sagen würdest. Ohne Gespräch bleibt B „nicht erhoben“; eine vorweg geschriebene Antwort zählt nicht.",
+          "sample": "Question: Is Maya definitely on the Map Walk already? Spoken answer: No, we do not know if she has signed up or if a place is free. Notice: Maya has not told you whether she has signed up; the Map Walk lists twenty places and a Monday, 6:00 pm sign-up deadline. Next time: I will say clearly that the deadline has not passed, but a place is not guaranteed. Gleichwertige echte Rückfragen und reflektierte Antworten gelten.",
+          "criteria": [
+            "1 Punkt: tatsächlich gestellte Rückfrage zutreffend notiert; ohne Gespräch nicht erhoben.",
+            "1 Punkt: eigene hörbar gegebene Antwort mit passender Aushangstelle abgeglichen, ohne eine Garantie zu erfinden.",
+            "1 Punkt: konkrete sprachliche oder sachliche Verbesserung für den nächsten Versuch. Schriftliche Nacharbeit bleibt getrennt von der Sprechbeobachtung."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Praxis: Maya mündlich beraten",
+        "childNote": "Nutze deine Stichwortkarte und erkläre die Wahl auf Englisch einer anwesenden Person. Sie stellt danach zwei Fragen. Eine andere natürliche Vortragslänge ist in Ordnung; die App kann weder deine Stimme noch dein Verstehen der Fragen prüfen. Ohne Gespräch bleiben alle Sprechkriterien „nicht erhoben“.",
+        "childSteps": [
+          "Bitte eine zuhörende Person, den Aushang und die zwei festen Fragen im Erwachsenenbereich zu lesen. Die Fragen soll sie erst nach deinem Vortrag stellen.",
+          "Erkläre Maya auf Englisch beide Möglichkeiten, den Zeitunterschied, deine Empfehlung und was noch geprüft werden muss. Schau auf Stichwörter, wenn du sie brauchst.",
+          "Beantworte die beiden Fragen mündlich. Bitte um Wiederholung oder formuliere um, wenn nötig.",
+          "Fülle Aufgabe B erst nach dem Gespräch aus und besprecht eine konkrete Stärke sowie eine nächste Verbesserung."
+        ],
+        "observationMax": 16,
+        "observationLabel": "Kurzvortrag",
+        "adultNote": "Nur eine tatsächlich gehörte englische Mitteilung bewerten. Als Übungsrahmen sind etwa 60–90 Sekunden vorgeschlagen, nicht als starre Lehrplanvorgabe. Stelle nach dem Vortrag beide festen Fragen: “Is Maya definitely on the Map Walk already?” und “If there is heavy rain, is Art Lab a confirmed replacement for Maya?” Tragfähige Antworten: Nein, Anmeldung/freier Platz sind unbestätigt. Nein, Art Lab ist kein bestätigter Ersatz; Maya käme nach Beginn und die Karte verbietet späten Eintritt. Der Grundfall erlaubt vor Montag 18 Uhr noch eine Nachfrage, aber keine Platzgarantie. Map Walk passt 16:00–16:45 Uhr; starker Regen kann ihn absagen. Je Kriterium 2 = verständlich gezeigt, 1 = teilweise oder nach fairer Nachfrage geklärt, 0 = trotz fairer Gelegenheit nicht gezeigt, — = keine faire Gelegenheit. Bei — keine künstliche Gesamtsumme. Ohne Gespräch alles nicht erhoben, nie 0/16. Für Verständlichkeit und Aussprache ist eine englischkundige Beobachtung nötig; ohne ausreichende Sprachkenntnisse diese Punkte mit —/„nicht sicher beurteilbar“ statt einer Punktzahl kennzeichnen. Vorher vereinbarte Hilfen dokumentieren und nicht pauschal abwerten. Akzent, Dialekt, Nervosität oder kleine Grammatikfehler ohne Bedeutungsverlust sind allein keine Fehler. Formative Rückmeldung, keine Schulnote und keine Aufnahme.",
+        "adultCriteria": [
+          "Maya adressieren und den Zweck der Erklärung eröffnen: 0/1/2 oder —.",
+          "Art Lab: 15:30 Uhr Beginn, Mayas 15:50 Uhr und kein später Eintritt richtig verknüpfen: 0/1/2 oder —.",
+          "Map Walk: 16:00–16:45 Uhr und Schultor als passend darstellen: 0/1/2 oder —.",
+          "Eine begründete Empfehlung geben, ohne Teilnahme als sicher zu behaupten: 0/1/2 oder —.",
+          "Offene Anmeldung/freier Platz und mögliche Regenabsage erkennbar nennen: 0/1/2 oder —.",
+          "Fakten und Gründe in zusammenhängendem, für Maya verständlichem Englisch mitteilen; Stichwortkarte ist erlaubt: 0/1/2 oder —.",
+          "Auf die erste feste Frage hörbar erklären, dass Anmeldung und freier Platz unbestätigt sind: 0/1/2 oder —.",
+          "Auf die zweite feste Frage Art Lab als unbestätigten Ersatz einordnen und die verspätete Ankunft bzw. das Eintrittsverbot begründen: 0/1/2 oder —."
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Englisch Klasse 7 ab 2026/27. Erste Fremdsprache § 2.2.3 PDF-S. 27–28: zusammenhängendes Sprechen, vorbereitete Präsentation, Redeplan und adressatengerechtes Darstellen unter Zielmarke Klassenstufe 8.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "fr-termin-gespraech",
       "subjectId": "fr",
       "title": "Parler et trouver un rendez-vous",

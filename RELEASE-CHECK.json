@@ -1,14 +1,15 @@
 {
-  "builtAt": "2026-10-21T12:06:15.234Z",
-  "releaseVersion": "2026.10.21-frs.1",
+  "builtAt": "2026-10-21T21:20:15.833Z",
+  "releaseVersion": "2026.10.21-enmonologue.1",
   "newTopicIds": [
-    "fr-termin-gespraech"
+    "en-maya-clubs-talk"
   ],
   "changeLog": [
-    "Französisch FR-S: fiktiver Termin-Dialog mit verdeckter Partnerkarte, zwei schriftlichen Vorbereitungs-/Sachaufgaben und getrenntem 14-Punkte-Beobachtungsbogen für ein wirklich gehörtes Gespräch; freiwilliger gestützter 7/8-Teilfall."
+    "Englisch EN-S: fiktiver AG-Aushang für einen kurzen Vortrag mit Stichwortkarte, zwei schriftlichen Aufgaben und getrenntem 16-Punkte-Bogen für eine tatsächlich gehörte Mitteilung mit Rückfragen; freiwilliger gestützter 7/8-Teilfall."
   ],
-  "rollbackCommit": "eaa38fb983f2b8f63985b49d4cd4774b188fb487",
+  "rollbackCommit": "92b3333e31072e90186e7070910520c0ee855df3",
   "releasedTopics": [
+    "en-maya-clubs-talk",
     "fr-termin-gespraech",
     "de-textzusammenhang-register",
     "de-textuntersuchung-bank",
@@ -68,11 +69,11 @@
     "de-bibliotheksregal-erklaeren"
   ],
   "subjects": [
+    "en",
     "fr",
     "de",
     "ma",
-    "mbi",
-    "en"
+    "mbi"
   ],
   "grade8OutlookTopics": [
     "ma-koerper-modell",

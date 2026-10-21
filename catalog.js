@@ -2054,6 +2054,75 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "en-friday-activity-email",
+      "subjectId": "en",
+      "title": "Which Friday activity? Write to Ms Reed",
+      "scope": "Freiwillige, gestützte Schreibübung im 7/8-Rahmen. Informieren, begründet empfehlen und überarbeiten gehören zu § 2.2.4 mit Zielmarke Ende Klasse 8. Keine belegte aktuelle Klasse-7-Unterrichtseinheit.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Alle Personen, Angebote und Orte sind erfunden. Schreibe nur einen Übungsentwurf; die E-Mail wird nicht versendet. Bei Bedarf helfen die Wörter und Satzanfänge. Eine eigene höfliche, sachlich richtige Formulierung zählt mehr als das Auswendiglernen des Musters.",
+      "introduction": "Read the fictional notice below. Help Ms Reed choose one activity. First note what is known and what remains open; then write a polite English email. A good recommendation can favour either option if it explains the capacity and weather limits honestly. Optional words: signed up = angemeldet, attend = teilnehmen, seats/places = Plätze, heavy rain = starker Regen, cancelled = abgesagt, backup plan = Ersatzplan. Optional structure: fact → recommendation with a reason → fair point for the other option → useful question. Write your own message; no email is sent and open answers receive no automatic grade.",
+      "passage": "FICTIONAL NOTICE · Wednesday, 4:00 pm\n24 students have signed up for one group activity on Friday from 3:30 to 4:15 pm. Ms Reed must choose one activity by Wednesday, 5:00 pm. We do not know how many students will actually attend on Friday.\n\nIndoor Poster Lab | Room 12 | 20 seats | Paper and pens provided | Not affected by rain | No second session is planned.\nNature Sketch Walk | Meet at the school gate | 30 places | Clipboards and pencils provided | Cancelled in heavy rain | Weather decision still open; no backup plan confirmed.\n\nThese facts are invented for this exercise. Do not send a real email.",
+      "tasks": [
+        {
+          "id": "en-friday-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "prompt": "A. Plan before writing (4 criteria points): Make four short notes: how many students have signed up; what 20 seats mean if all 24 attend; one confirmed advantage of the walk; and one open condition that prevents a guarantee. Notes may be short. Do not write the email yet.",
+          "sample": "24 students have signed up, but actual attendance is unknown. If all 24 attend, the Poster Lab is four seats short (24 − 20 = 4). The walk has 30 places and provides clipboards and pencils. It may be cancelled in heavy rain; the weather decision and a backup remain open.",
+          "criteria": [
+            "1 point: 24 sign-ups, without claiming 24 certain attendees.",
+            "1 point: four seats short at the lab if all 24 attend.",
+            "1 point: one confirmed walk advantage, such as 30 places or provided materials.",
+            "1 point: heavy-rain cancellation or unconfirmed backup as an open condition."
+          ]
+        },
+        {
+          "id": "en-friday-2",
+          "kind": "reflection",
+          "points": 16,
+          "writingLines": 14,
+          "inputRows": 14,
+          "prompt": "B. Write to Ms Reed (16 criteria points): Write a short English email. Explain the situation, recommend one activity with a reason, give a fair argument for the other option, and ask a useful question about an open problem. Keep sign-ups separate from certain attendance. Do not promise free seats, good weather, a second session or a backup. About 90–130 words may help you plan, but content and clarity count, not a strict word limit. Optional starters: “Dear Ms Reed”, “If all 24 attend”, “I recommend”, “On the other hand”, “Could you please ...?”.",
+          "sample": "Dear Ms Reed,\n\nI am writing about Friday's group activity. Twenty-four students have signed up, but we do not know how many will attend. If all 24 come, the Indoor Poster Lab cannot take everyone because it has only 20 seats. I recommend the Nature Sketch Walk: it has 30 places, and clipboards and pencils are provided. The Poster Lab would be more reliable in heavy rain, but no second session is planned. The walk may be cancelled in heavy rain, and we do not have a confirmed backup plan. Could you please tell us whether a backup is possible before the choice is final?\n\nBest wishes,\nAlex",
+          "criteria": [
+            "1 point: polite address to Ms Reed.",
+            "1 point: purpose of choosing one Friday activity clear.",
+            "1 point: 24 sign-ups distinguished from unknown attendance.",
+            "2 points: 20 lab seats and, if all 24 attend, four seats short (one each).",
+            "2 points: 30 walk places and one further confirmed walk advantage (one each).",
+            "2 points: recognisable recommendation and a matching fact-based reason (one each); either option can be justified conditionally.",
+            "2 points: fair advantage of the other option and an understandable trade-off (one each).",
+            "2 points: heavy-rain cancellation and weather/backup uncertainty kept open (one each).",
+            "1 point: useful question that does not assume an answer.",
+            "1 point: understandable order and English; minor language errors without loss of meaning are not extra fact errors.",
+            "1 point: polite closing. Equal wording and a shorter complete email count. One fact error is not deducted twice."
+          ]
+        },
+        {
+          "id": "en-friday-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "prompt": "C. Revise two unsupported claims (4 criteria points): For each incorrect practice sentence, name what the notice does not support and rewrite it in English: (1) “The Poster Lab can take all 24 students in one session.” (2) “The Nature Sketch Walk will definitely happen on Friday.” These sentences are separate from your own draft; check your own email too.",
+          "sample": "1. The lab has only 20 seats: “If all 24 students attend, four would not have a seat in the Poster Lab.” 2. The walk is not certain: “The Nature Sketch Walk may be cancelled in heavy rain, and the weather decision is still open.” A missing backup may also be mentioned.",
+          "criteria": [
+            "1 point: identifies the unsupported 24-in-one-session claim.",
+            "1 point: rewrites the lab statement with 20 seats and a correct condition.",
+            "1 point: identifies “definitely happen” as unsupported.",
+            "1 point: rewrites the walk statement with the heavy-rain/open-decision condition."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. Englisch als erste Fremdsprache, § 2.2.4 PDF-S. 29–30: informierendes Schreiben, Meinung begründen, adressatengerechter Informationsaustausch, Planen und Überarbeiten als Ziel Ende Klasse 8. Ein Sprach- oder Unterrichtsstand für Lotte ist daraus nicht abzuleiten.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "fr-theo-erlebnisbericht",
       "subjectId": "fr",
       "title": "Théo raconte son atelier",

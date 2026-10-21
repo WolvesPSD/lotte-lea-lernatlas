@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-21T07:32:24.603Z",
-  "releaseVersion": "2026.10.21-i2.1",
+  "builtAt": "2026-10-21T07:48:53.529Z",
+  "releaseVersion": "2026.10.21-enw.1",
   "newTopicIds": [
-    "mbi-lesepause-medienwerkstatt"
+    "en-friday-activity-email"
   ],
   "changeLog": [
-    "MBI I2: freiwilliger Klasse-8-Ausblick mit fünf Aufgaben und einer Werkstatt für eine eigene fiktive HTML-Infokarte.",
-    "Lokaler Download und sichtbarer Vergleich zweier Fassungen; tatsächliche Kinderproduktion bleibt offen."
+    "Englisch EN-W: gestützte freiwillige 7/8-Schreibübung mit Faktenplan, begründeter E-Mail und Revision unbelegter Aussagen.",
+    "Langer Online-Schreibraum und gegliedertes Muster; tatsächliche Kinderantwort bleibt offen."
   ],
-  "rollbackCommit": "7f97111c63325421cc65aee3b9d10813683edd06",
+  "rollbackCommit": "cd8902411bd78b85494256650d494652c422281b",
   "releasedTopics": [
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
@@ -36,6 +36,7 @@
     "ma-tank-zuordnung",
     "ma-prozent-fixture",
     "en-maya-repair-cafe",
+    "en-friday-activity-email",
     "fr-theo-erlebnisbericht",
     "ma-quader-aussparung-grundlagen",
     "ma-kuehlkasten-rationale-zahlen",

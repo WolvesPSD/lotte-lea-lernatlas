@@ -185,6 +185,7 @@ body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="de-monolog-2"]{break-before:page}body[data-print-mode^="adult"] .print-task[data-task-id="de-monolog-3"]{break-inside:avoid}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="ma-kuehlkasten-2"]{break-before:page}}
 .task-card[data-task-id="de-leserbrief-2"] .sample-answer,.adult-task[data-task-id="de-leserbrief-2"] .sample-answer,.print-task[data-task-id="de-leserbrief-2"] .sample-answer{white-space:pre-line}
+.task-card[data-task-id="en-friday-2"] .sample-answer,.adult-task[data-task-id="en-friday-2"] .sample-answer,.print-task[data-task-id="en-friday-2"] .sample-answer{white-space:pre-line}
 .work-actions{grid-column:2;display:flex;flex-wrap:wrap;align-items:center;gap:.55rem;padding:.8rem 1rem;background:#eaf4f0;border:1px solid var(--line);border-radius:.8rem}.work-actions button{min-height:44px;padding:.6rem .85rem;border:1px solid var(--petrol);border-radius:.6rem;background:#fffdf9;color:var(--petrol);font-weight:700}.work-actions button:hover{background:#fff}.work-actions p{margin:0;color:#4e5d5b;font-size:.85rem}
 @media(max-width:740px){.work-actions{grid-column:1;display:grid;grid-template-columns:1fr;gap:.45rem}.work-actions button{width:100%}}
 .home-quick-links{grid-template-columns:repeat(4,minmax(0,1fr))}

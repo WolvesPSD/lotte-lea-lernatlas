@@ -1,14 +1,16 @@
 {
-  "builtAt": "2026-10-21T11:22:34.090Z",
-  "releaseVersion": "2026.10.21-dw3.1",
+  "builtAt": "2026-10-21T11:43:46.198Z",
+  "releaseVersion": "2026.10.21-dr3orthography.1",
   "newTopicIds": [
-    "de-textuntersuchung-bank"
+    "de-textzusammenhang-register"
   ],
   "changeLog": [
-    "Deutsch D-W3: eine selbst verfasste kurze Erzählung mit 19 Zeilen und drei offenen Aufgaben zu Textbeobachtung, Gestaltungsmitteln und vorsichtiger Deutung; freiwilliger 7/8-Fall mit Ziel bis Ende Klasse 8."
+    "Deutsch D-R3: fiktiver Büchertisch mit vier offenen Aufgaben zu gleichem Sachkern, Textzusammenhang und passender Ansprache für zwei Adressaten; freiwilliger 7/8-Teilfall mit Ziel bis Ende Klasse 8.",
+    "Deutsch-Schreibweise: 123 eindeutig geprüfte Schweizer ss-Wortformen im öffentlichen Katalog für die in Deutschland geltende Orthografie korrigiert; Aufgaben, Punktzahlen und Funktionen unverändert."
   ],
-  "rollbackCommit": "8df9f5f844b345a5fa6cf318733e64859b619b4a",
+  "rollbackCommit": "5862efe389aeb5c5268ab0a30839993de727c77e",
   "releasedTopics": [
+    "de-textzusammenhang-register",
     "de-textuntersuchung-bank",
     "ma-koerper-modell",
     "ma-wahrscheinlichkeitsbaum",

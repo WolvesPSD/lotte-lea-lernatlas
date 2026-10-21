@@ -72,6 +72,86 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "de-textzusammenhang-register",
+      "subjectId": "de",
+      "title": "Büchertisch: gleiche Fakten, zwei Adressaten",
+      "scope": "Freiwilliger, gestützter 7/8-Teilfall zu Textzusammenhang und Register. Die Einzelkompetenzen in § 2.2.5 sind Ziele bis Ende Klasse 8; keine belegte aktuelle Klasse-7-Unterrichtseinheit.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Du brauchst keine Fachbegriffe auswendig zu können. Adressat heißt: Wer liest? Register heißt hier: Welche Ausdrucksweise passt zum Zweck? Prüfe bei Verweiswörtern wie dort oder sie, worauf sie sich eindeutig beziehen. Eine lockere Nachricht ist für eine Gruppe nicht automatisch schlechter als eine formelle.",
+      "introduction": "Freiwillige 7/8-Übung zu einem Ziel bis Ende Klasse 8; ob ihr das gerade behandelt, ist offen. Die zwei Nachrichten und alle Angaben sind erfunden und werden nicht verschickt. Lies zuerst die verbindliche Sachnotiz, dann die Entwürfe. In A und B beobachtest und vergleichst du; in C reparierst du unklare Bezüge; in D schreibst du zwei eigene Endfassungen. Offene Antworten bewertet die App nicht automatisch. Vergleiche sie mit dem Muster und den Kriterien, gern zusammen mit einer erwachsenen Person.",
+      "passage": "Ein freiwilliger Büchertisch – alle Angaben und Personen sind erfunden.\n\nVERBINDLICHE SACHNOTIZ\nDie Projektgruppe richtet am Freitag, 13. November 2026, von 14:30 bis 15:15 Uhr in der Bibliothek einen Büchertisch ein. Es können höchstens acht Freiwillige helfen. Wer mithelfen möchte, meldet sich bis Donnerstag, 12:00 Uhr, an der Ausleihe an. Nora bringt die Beschriftungen. Andere brauchen kein Material mitzubringen. Ob eine Lehrkraft die Ankündigung in der Klasse bekannt gibt, ist noch offen.\n\nENTWURF A · Gruppenchat an Mitschülerinnen und Mitschüler\n„Hey zusammen! Am Freitag, 13. November, richten wir von 14:30 bis 15:15 Uhr den Büchertisch in der Bibliothek ein. Dort können höchstens acht Leute helfen. Deshalb meldet euch bitte bis Donnerstag, 12 Uhr, an der Ausleihe an. Nora hat Mila geschrieben, dass sie die Schilder mitbringt. Ihr braucht sonst nichts. Kommt einfach vorbei!“\n\nENTWURF B · Mitteilung an Frau Braun\n„Sehr geehrte Frau Braun, am Freitag, 13. November, richtet unsere Projektgruppe von 14:30 bis 15:15 Uhr einen Büchertisch in der Bibliothek ein. Dort können höchstens acht Freiwillige mithelfen. Daher bitten wir Interessierte, sich bis Donnerstag, 12 Uhr, an der Ausleihe anzumelden. Die Beschriftungen bringt Nora mit; weiteres Material wird nicht benötigt. Könnten Sie diese Information bitte in der Klasse bekannt geben? Mit freundlichen Grüßen, die Projektgruppe“\n\nBeide Texte sind nur Entwürfe. Prüfe auch, was die Sachnotiz gerade NICHT verspricht: keine Teilnahme ohne Anmeldung, keine Platzgarantie und keine Zusage von Frau Braun. Auch die angebliche Nachricht von Nora an Mila ist nur eine unbelegte Zusatzangabe aus Entwurf A.",
+      "tasks": [
+        {
+          "id": "de-textzusammenhang-register-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "prompt": "A. Sachkern und Adressat (4 Kriterienpunkte): Nenne für Entwurf A und B jeweils Adressat und Zweck. Notiere mindestens vier Sachangaben, die in beiden überarbeiteten Nachrichten richtig bleiben müssen. Zeige für eine dieser Angaben die Stelle in der Sachnotiz.",
+          "sample": "A richtet sich an die Mitschülergruppe und wirbt um freiwillige Hilfe. B richtet sich an Frau Braun und bittet sie, die Information in der Klasse bekannt zu geben. Gemeinsame Fakten sind z. B. Freitag, 13. November 2026, 14:30–15:15 Uhr; Bibliothek; höchstens acht Helfende; Anmeldung bis Donnerstag 12:00 Uhr an der Ausleihe; Nora bringt die Beschriftungen; andere brauchen kein Material. Die Sachnotiz nennt die Anmeldung ausdrücklich im dritten Satz. Frau Brauns Zusage ist noch offen.",
+          "criteria": [
+            "1 Punkt: Entwurf A mit Mitschülergruppe und Zweck freiwillige Hilfe zutreffend beschrieben.",
+            "1 Punkt: Entwurf B mit Frau Braun und Zweck Bitte um Bekanntgabe zutreffend beschrieben; keine Zusage unterstellt.",
+            "1 Punkt: mindestens vier gemeinsame, mit der Sachnotiz übereinstimmende Fakten; Teilpunkte für zwei oder drei richtige Fakten möglich.",
+            "1 Punkt: eine konkrete Sachnotizstelle passend zu einer genannten Angabe belegt."
+          ]
+        },
+        {
+          "id": "de-textzusammenhang-register-2",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 12,
+          "inputRows": 12,
+          "prompt": "B. Register mit Wirkung (6 Kriterienpunkte): Vergleiche drei unterschiedliche Formulierungsentscheidungen aus A und B. Zitiere für jedes Paar eine konkrete Stelle aus BEIDEN Entwürfen und erkläre die mögliche Wirkung für den jeweiligen Adressaten. Du kannst Anrede, Pronomen, Aufforderung, Bitte oder Verknüpfungen untersuchen. „Formell ist immer besser“ reicht nicht; beide Tonlagen können passend sein.",
+          "sample": "„Hey zusammen!“ spricht die Gruppe locker und unmittelbar an; „Sehr geehrte Frau Braun“ ist für die Lehrkraft eine distanziertere, höfliche Anrede. „euch“ in A wendet sich direkt an mögliche Helfende, „Sie“ in der Bitte an Frau Braun bezeichnet eine andere angesprochene Person und Handlung. „Meldet euch bitte ... an“ fordert Freiwillige direkt zur Anmeldung auf, während „Könnten Sie ... bekannt geben?“ Frau Braun höflich um eine Ankündigung bittet. Auch „Deshalb“ und „Daher“ können verglichen werden: beide verbinden die begrenzte Zahl mit der Anmeldung, wirken hier aber unterschiedlich förmlich. Keine Variante ist ohne Rücksicht auf die Situation grundsätzlich besser.",
+          "criteria": [
+            "2 Punkte: erstes konkretes Vergleichspaar mit Stellen aus A und B und treffender Wirkung.",
+            "2 Punkte: zweites, davon verschiedenes Vergleichspaar mit beiden Stellen und treffender Wirkung.",
+            "2 Punkte: drittes, davon verschiedenes Vergleichspaar mit beiden Stellen und treffender Wirkung. Pro Paar zählt nicht bloß ein Stil-Etikett; Adressat und Funktion müssen nachvollziehbar sein."
+          ]
+        },
+        {
+          "id": "de-textzusammenhang-register-3",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "prompt": "C. Zusammenhalt und Stolperstellen (6 Kriterienpunkte): Worauf verweist „Dort“ in beiden Entwürfen? Welche vorherige Information führen „Deshalb/Daher“ als Begründung für die Anmeldung an, und was daran bleibt nur eine plausible Erklärung? Warum ist „sie“ in „Nora hat Mila geschrieben, dass sie die Schilder mitbringt“ mehrdeutig? Formuliere diesen Satz so um, dass eindeutig Nora die Beschriftungen bringt und die unbelegte Nachricht an Mila entfällt. Prüfe „Kommt einfach vorbei!“ gegen die Sachnotiz: Was könnte jemand falsch verstehen und wie korrigierst du den Schluss?",
+          "sample": "„Dort“ meint die Bibliothek bzw. den Büchertisch dort. „Deshalb/Daher“ knüpft an höchstens acht mögliche Helfende an. Dass die Anmeldung gerade wegen dieser Grenze eingeführt wurde, ist eine plausible Erklärung der Entwürfe, steht aber nicht ausdrücklich in der Sachnotiz. „sie“ kann Nora oder Mila meinen; auch dass Nora Mila geschrieben hat, ist in der Sachnotiz nicht belegt. Eindeutig und sachlich rein ist „Nora bringt die Beschriftungen mit.“ „Kommt einfach vorbei!“ könnte Teilnahme ohne Anmeldung versprechen. Passender Schluss: „Wenn ihr mithelfen möchtet, meldet euch bis Donnerstag, 12 Uhr, an der Ausleihe an. Viele Grüße!“ Eine Anmeldung ist noch keine Platzgarantie.",
+          "criteria": [
+            "1 Punkt: „Dort“ auf Bibliothek/Büchertisch bezogen.",
+            "1 Punkt: „Deshalb/Daher“ mit höchstens acht möglichen Helfenden und Anmeldung verbunden, den behaupteten Grund aber als plausible Erklärung statt belegte Tatsache erkannt.",
+            "1 Punkt: beide möglichen Bezüge von „sie“ (Nora und Mila) erkannt.",
+            "1 Punkt: eindeutiger Ersatzsatz legt Nora als Person mit den Beschriftungen fest und lässt die unbelegte Nachricht an Mila weg.",
+            "1 Punkt: „Kommt einfach vorbei!“ als mögliche Teilnahme ohne Anmeldung erkannt.",
+            "1 Punkt: Schluss nennt die Anmeldung korrekt, ohne einen sicheren Platz zu versprechen."
+          ]
+        },
+        {
+          "id": "de-textzusammenhang-register-4",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 22,
+          "inputRows": 15,
+          "prompt": "D. Zwei fertige Kurzfassungen (8 Kriterienpunkte): Schreibe eine Nachricht für die Mitschülergruppe und eine für Frau Braun. Beide brauchen Zeit, Ort, Obergrenze und genauen Anmeldeweg. Mach klar, dass Nora die Beschriftungen bringt und andere kein Material brauchen. Wähle je eine passende Anrede und einen passenden Schluss. Frau Braun darf um Bekanntgabe gebeten werden; behaupte keine Zusage. Übernimm die Fehler aus den Entwürfen nicht. Eine andere gut verständliche Länge ist zulässig.",
+          "sample": "Für die Mitschülergruppe: „Hey zusammen! Am Freitag, 13. November 2026, richten wir von 14:30 bis 15:15 Uhr in der Bibliothek einen Büchertisch ein. Höchstens acht Freiwillige können helfen; meldet euch deshalb bitte bis Donnerstag, 12 Uhr, an der Ausleihe an. Nora bringt die Beschriftungen, und ihr braucht sonst kein Material. Viele Grüße, die Projektgruppe.“\n\nFür Frau Braun: „Sehr geehrte Frau Braun, am Freitag, 13. November 2026, richtet unsere Projektgruppe von 14:30 bis 15:15 Uhr in der Bibliothek einen Büchertisch ein. Höchstens acht Freiwillige können helfen. Interessierte melden sich bitte bis Donnerstag, 12 Uhr, an der Ausleihe an. Nora bringt die Beschriftungen; weiteres Material wird nicht benötigt. Könnten Sie diese Information bitte in der Klasse bekannt geben? Mit freundlichen Grüßen, die Projektgruppe.“ Beide Fassungen sind Beispiele; sachlich richtige Varianten zählen ebenfalls.",
+          "criteria": [
+            "2 Punkte: Zeit und Ort in beiden Fassungen korrekt; je 1 Punkt pro vollständiger Fassung.",
+            "2 Punkte: Obergrenze und Anmeldeweg in beiden Fassungen korrekt; je 1 Punkt pro vollständiger Fassung.",
+            "1 Punkt: Nora/Materialregel in beiden Fassungen zutreffend.",
+            "1 Punkt: für Gruppe und Lehrkraft passende Anrede, Bitte und Schlussform.",
+            "1 Punkt: eindeutige Bezüge und keine Einladung ohne Anmeldung.",
+            "1 Punkt: keine unbelegte Zusage von Frau Braun oder Platzgarantie. Denselben Sachfehler nicht doppelt bestrafen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. § 2.2.5 PDF-S. 30–31: Kohäsion, Stil und situations-/adressatengerechte Sprachwahl unter der Zielmarke Klassenstufe 8. § 3.5 PDF-S. 52: Registerbeispiele; § 3 PDF-S. 46: exemplarische Orientierung ohne feste Schulfolge.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "de-textuntersuchung-bank",
       "subjectId": "de",
       "title": "Ein Platz für alle: eine Erzählung untersuchen",
@@ -80,7 +160,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "released": true,
       "prerequisite": "Hilfreich sind Zeilenbelege und kurze Absätze. Ein Gestaltungsmittel ist hier eine erkennbare Textentscheidung, etwa ein Gegensatz oder direkte Rede. Trenne beobachtete Textstelle, mögliche Wirkung und Deutung. Eine Wirkung ist zu begründen; sie ist nicht für alle Leserinnen und Leser zwingend.",
       "introduction": "Freiwillige 7/8-Übung zu einem Ziel bis Ende Klasse 8; ob ihr das gerade im Unterricht behandelt, ist offen. Lies die ganze erfundene Erzählung und danach noch einmal mit der Leitfrage: Wie verändert sich Nelas Umgang mit dem freien Platz, und wie macht der Text diese Veränderung sichtbar? Die eckigen Zahlen sind Zeilenangaben. Ein Beleg braucht eine passende Stelle und eine Erklärung, wie sie deine Aussage trägt. Unterscheide sichere Beobachtung von möglicher Deutung. In B schreibst du einen gegliederten Text; die App bewertet offene Antworten nicht automatisch. Vergleiche sie mit Muster und Kriterien, gern gemeinsam mit einer erwachsenen Person.",
-      "passage": "Ein Platz für alle – selbst verfasste kurze Erzählung\n\n[01] Vor der Bibliothek stand seit Montag eine neue Bank. Auf dem Schild an der Lehne stand: „Ein Platz für alle.“\n[02] Der grüne Lack roch noch frisch, und die Sonne teilte die Sitzfläche in Licht und Schatten.\n[03] Nela setzte sich auf die helle Seite und legte ihr Heft auf den Platz neben sich.\n[04] Sie wollte vor der nächsten Stunde zwei Seiten lesen, doch sie blätterte nur hin und her.\n[05] Als Amir mit einem Buch aus der Bibliothek kam, blieb er vor der Bank stehen.\n[06] „Ist hier frei?“, fragte er und zeigte auf das Heft.\n[07] Nela sah erst auf das Schild und dann auf ihr Heft. „Ich warte noch“, sagte sie.\n[08] Sie hatte sich mit niemandem verabredet. Warum hatte sie das gerade gesagt?\n[09] Amir nickte und blieb neben der Bank stehen. Er schlug sein Buch auf, ohne sich zu setzen.\n[10] Der Wind hob die erste Seite von Nelas Heft an. Sie drückte sie mit der Hand fest.\n[11] „Du kannst dich ruhig setzen“, begann sie, aber das Wort ruhig klang in ihren Ohren seltsam.\n[12] „Ich dachte, du brauchst den Platz“, sagte Amir.\n[13] Nela schob das Heft auf ihre Knie. Ein schmaler Streifen Schatten blieb zwischen ihr und dem freien Platz.\n[14] „Mein Heft braucht wohl keine eigene Bank“, sagte sie.\n[15] Amir setzte sich. Er liess etwas Abstand und hielt das Buch auf seinen Knien.\n[16] Nela betrachtete das Schild noch einmal. Die Farbe auf dem Wort alle glänzte.\n[17] „Ich dachte zuerst, du willst lieber allein sein“, sagte Amir.\n[18] „Vielleicht wollte ich das auch“, antwortete Nela. „Ich weiss es gerade nicht genau.“\n[19] Dann lasen beide. Als Nela die zweite Seite umblätterte, blieb ihr Heft auf ihren Knien.",
+      "passage": "Ein Platz für alle – selbst verfasste kurze Erzählung\n\n[01] Vor der Bibliothek stand seit Montag eine neue Bank. Auf dem Schild an der Lehne stand: „Ein Platz für alle.“\n[02] Der grüne Lack roch noch frisch, und die Sonne teilte die Sitzfläche in Licht und Schatten.\n[03] Nela setzte sich auf die helle Seite und legte ihr Heft auf den Platz neben sich.\n[04] Sie wollte vor der nächsten Stunde zwei Seiten lesen, doch sie blätterte nur hin und her.\n[05] Als Amir mit einem Buch aus der Bibliothek kam, blieb er vor der Bank stehen.\n[06] „Ist hier frei?“, fragte er und zeigte auf das Heft.\n[07] Nela sah erst auf das Schild und dann auf ihr Heft. „Ich warte noch“, sagte sie.\n[08] Sie hatte sich mit niemandem verabredet. Warum hatte sie das gerade gesagt?\n[09] Amir nickte und blieb neben der Bank stehen. Er schlug sein Buch auf, ohne sich zu setzen.\n[10] Der Wind hob die erste Seite von Nelas Heft an. Sie drückte sie mit der Hand fest.\n[11] „Du kannst dich ruhig setzen“, begann sie, aber das Wort ruhig klang in ihren Ohren seltsam.\n[12] „Ich dachte, du brauchst den Platz“, sagte Amir.\n[13] Nela schob das Heft auf ihre Knie. Ein schmaler Streifen Schatten blieb zwischen ihr und dem freien Platz.\n[14] „Mein Heft braucht wohl keine eigene Bank“, sagte sie.\n[15] Amir setzte sich. Er ließ etwas Abstand und hielt das Buch auf seinen Knien.\n[16] Nela betrachtete das Schild noch einmal. Die Farbe auf dem Wort alle glänzte.\n[17] „Ich dachte zuerst, du willst lieber allein sein“, sagte Amir.\n[18] „Vielleicht wollte ich das auch“, antwortete Nela. „Ich weiß es gerade nicht genau.“\n[19] Dann lasen beide. Als Nela die zweite Seite umblätterte, blieb ihr Heft auf ihren Knien.",
       "tasks": [
         {
           "id": "de-textuntersuchung-bank-1",
@@ -102,7 +182,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "points": 18,
           "writingLines": 22,
           "inputRows": 15,
-          "prompt": "B. Schriftliche Textuntersuchung (18 Kriterienpunkte): Schreibe einen gegliederten Text von ungefähr 150–220 Wörtern; eine ebenso vollständige kürzere oder längere Lösung ist zulässig. Formuliere eine vorsichtige Hauptaussage zu Nelas Veränderung und beschreibe die Ereignisfolge. Untersuche mindestens zwei unterschiedliche Gestaltungsmittel mit Zeilenbeleg, zum Beispiel Schild und Handlung, Heftbewegung und direkte Rede oder Licht und Schatten. Erkläre jeweils: Was steht da? Welche Wirkung oder Bedeutung ist im Zusammenhang plausibel? Was bleibt offen? Beschreibe Nela anhand ihres Handelns und ihrer Worte. Stelle eine andere vertretbare Lesart mit Zeilenbeleg daneben und schliesse begrenzt. Hilfe, falls nötig: „Zunächst … (Z. …). Der Gegensatz zwischen … und … (Z. …) lässt vermuten, dass … . Eine andere Lesart ist …, denn … (Z. …). Sicher sagt der Text nur … .“ Keine Fortsetzung der Geschichte schreiben.",
+          "prompt": "B. Schriftliche Textuntersuchung (18 Kriterienpunkte): Schreibe einen gegliederten Text von ungefähr 150–220 Wörtern; eine ebenso vollständige kürzere oder längere Lösung ist zulässig. Formuliere eine vorsichtige Hauptaussage zu Nelas Veränderung und beschreibe die Ereignisfolge. Untersuche mindestens zwei unterschiedliche Gestaltungsmittel mit Zeilenbeleg, zum Beispiel Schild und Handlung, Heftbewegung und direkte Rede oder Licht und Schatten. Erkläre jeweils: Was steht da? Welche Wirkung oder Bedeutung ist im Zusammenhang plausibel? Was bleibt offen? Beschreibe Nela anhand ihres Handelns und ihrer Worte. Stelle eine andere vertretbare Lesart mit Zeilenbeleg daneben und schließe begrenzt. Hilfe, falls nötig: „Zunächst … (Z. …). Der Gegensatz zwischen … und … (Z. …) lässt vermuten, dass … . Eine andere Lesart ist …, denn … (Z. …). Sicher sagt der Text nur … .“ Keine Fortsetzung der Geschichte schreiben.",
           "sample": "In der kurzen Erzählung „Ein Platz für alle“ belegt Nela den Platz neben sich zunächst mit ihrem Heft, lässt Amir am Ende aber neben sich lesen. Das wirkt wie ein kleiner Schritt von einer abwehrenden oder unsicheren Reaktion zu einer Einladung. Warum sie zuerst ausweicht, bleibt offen.\n\nDas Schild verspricht in Z. 1 einen Platz „für alle“, während Nelas Heft den zweiten Sitz zunächst besetzt (Z. 3). Dieser Gegensatz lenkt den Blick darauf, dass ein allgemeines Versprechen erst durch Verhalten eingelöst wird. Als Amir fragt, sagt Nela „Ich warte noch“, obwohl sie mit niemandem verabredet ist (Z. 7–8). Die erzählte Frage nach ihrem Grund kann auf Unsicherheit hindeuten, erklärt sie aber nicht vollständig.\n\nDas Heft wandert in Z. 13 auf Nelas Knie; erst danach setzt Amir sich (Z. 15). Auch die direkte Rede verändert sich: Aus „Ich warte noch“ wird die möglicherweise scherzhafte Bemerkung, ihr Heft brauche keine eigene Bank (Z. 14). Dadurch kann sie den Platz freigeben, ohne ihre erste Antwort ausführlich zu rechtfertigen. Man könnte darin Einsicht in einen unfair besetzten Platz sehen. Ebenso könnte sie zunächst tatsächlich allein lesen gewollt und diesen Wunsch geändert haben: In Z. 18 lässt sie beides offen. Der Text zeigt die Öffnung des Platzes, aber keinen sicheren Grund für ihren ersten Impuls.",
           "criteria": [
             "2 Punkte: vorsichtige Hauptaussage mit Veränderung (1) und erkennbarem Motivvorbehalt (1). Auch anfängliches Ruhebedürfnis ist zulässig.",
@@ -119,8 +199,8 @@ window.LOTTE_CATALOG = Object.freeze({
           "kind": "reflection",
           "points": 2,
           "writingLines": 6,
-          "prompt": "C. Eine überzogene Behauptung überarbeiten (2 Kriterienpunkte): „Nela mag Amir nicht und will ihn vom Lesen ausschliessen.“ Schreibe eine vorsichtigere, textgebundene Fassung und nenne eine begründende Zeile. Erkläre in einem Halbsatz, welcher Teil der ursprünglichen Behauptung nicht belegt ist.",
-          "sample": "„Nela hält den Platz zunächst mit dem Heft besetzt und sagt, sie warte noch, obwohl sie mit niemandem verabredet ist (Z. 3, 7–8). Vielleicht wollte sie allein bleiben; ob sie Amir persönlich nicht mag oder verletzen will, sagt der Text nicht.“ Auch Unsicherheit und späteres Umdenken sind mit Z. 8 und 13–18 vereinbar. Ein blosses „Die Aussage ist falsch“ ohne begrenzten Ersatz reicht nicht.",
+          "prompt": "C. Eine überzogene Behauptung überarbeiten (2 Kriterienpunkte): „Nela mag Amir nicht und will ihn vom Lesen ausschließen.“ Schreibe eine vorsichtigere, textgebundene Fassung und nenne eine begründende Zeile. Erkläre in einem Halbsatz, welcher Teil der ursprünglichen Behauptung nicht belegt ist.",
+          "sample": "„Nela hält den Platz zunächst mit dem Heft besetzt und sagt, sie warte noch, obwohl sie mit niemandem verabredet ist (Z. 3, 7–8). Vielleicht wollte sie allein bleiben; ob sie Amir persönlich nicht mag oder verletzen will, sagt der Text nicht.“ Auch Unsicherheit und späteres Umdenken sind mit Z. 8 und 13–18 vereinbar. Ein bloßes „Die Aussage ist falsch“ ohne begrenzten Ersatz reicht nicht.",
           "criteria": [
             "1 Punkt: vorsichtige, mit dem Text verträgliche Ersatzbehauptung samt tragfähiger Zeile.",
             "1 Punkt: unbelegtes Motiv der ursprünglichen Behauptung ausdrücklich benannt; mögliche Alternativen nicht als Gewissheit ausgegeben."
@@ -1024,7 +1104,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "liveReading": {
         "title": "Vorleseübung ohne Aufnahme",
         "childNote": "Vor dem ersten Hören: Schreibe in Aufgabe 4 eine Vermutung mit „vielleicht“. Beim ersten Hören: nur Thema und Zweck erfassen. Beim zweiten Hören: alt und neu als Stichwörter trennen; Unklares mit „?“ markieren. Falls nötig, darf die Nachricht ein drittes Mal vorgelesen werden. Notiere die Hörzahl. Ohne tatsächliches Vorlesen ist Hörverstehen nicht beurteilbar.",
-        "childPrintNote": "Nur das Kinderblatt ansehen. Eine erwachsene Person liest die Nachricht zweimal vor, bei Bedarf dreimal. Vorher eine Vermutung mit „vielleicht“ notieren; beim zweiten Hören alt/neu trennen. Das Vorleseskript steht ausschliesslich auf dem Erwachsenenblatt.",
+        "childPrintNote": "Nur das Kinderblatt ansehen. Eine erwachsene Person liest die Nachricht zweimal vor, bei Bedarf dreimal. Vorher eine Vermutung mit „vielleicht“ notieren; beim zweiten Hören alt/neu trennen. Das Vorleseskript steht ausschließlich auf dem Erwachsenenblatt.",
         "adultNote": "Den Kinderbereich allein zeigen oder ausdrucken und das Skript vor Lotte verdecken. Die Nachricht zweimal natürlich und deutlich vorlesen, mit kurzer Notizpause. Alte und neue Angaben nicht besonders betonen. Bei Bedarf ein drittes Mal lesen und die Hilfe notieren. Keine Aufnahme, kein Upload und keine persönlichen Daten nötig. Wenn niemand vorliest oder Lotte das Skript liest, nur Lesen dokumentieren; Hörverstehen bleibt nicht erhoben.",
         "script": "Hallo, hier ist Mira aus der Bibliotheksgruppe. Unser Kartentausch war zuerst für Mittwoch um 15 Uhr im kleinen Leseraum geplant. Das ändert sich: Der kleine Leseraum wird an diesem Nachmittag für eine Autorenlesung gebraucht. Der Kartentausch findet deshalb Donnerstag um 15:30 Uhr am langen Tisch im Eingangsbereich statt. Er endet um 16:10 Uhr. Bringt, wenn ihr mögt, eine selbst geschriebene Empfehlungskarte mit. Ein eigenes Buch müsst ihr nicht mitbringen; die Karten beschreiben Bücher, die bereits in der Bibliothek stehen. Die neuen Angaben hängen ab morgen auch am Aushang. Erzählt bitte nur den geänderten Termin weiter."
       },
@@ -1103,13 +1183,13 @@ window.LOTTE_CATALOG = Object.freeze({
       "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Hilfreich sind Brüche und Prozentwerte. Die Rohdatentabelle bleibt als Textalternative lesbar; falls die Schalter nicht funktionieren, kann die digitale Bedienung nicht beurteilt werden.",
-      "introduction": "Öffne das Diagramm im neuen Tab. Wechsle Tag und Messgrösse selbst und lies dabei Überschrift, Skala und Zahlen. Antworte hier oder auf dem Arbeitsblatt. Die Daten sind erfunden; prüfe, welche Schlüsse sie tragen.",
+      "introduction": "Öffne das Diagramm im neuen Tab. Wechsle Tag und Messgröße selbst und lies dabei Überschrift, Skala und Zahlen. Antworte hier oder auf dem Arbeitsblatt. Die Daten sind erfunden; prüfe, welche Schlüsse sie tragen.",
       "lab": {
         "path": "assets/de-leseraeume-diagramm.html",
         "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-leseraeume-diagramm.html",
         "title": "Leseraum-Diagramm",
-        "description": "Zwei fiktive Tage, zwei Räume und zwei umschaltbare Messgrössen. Die Rohdatentabelle ist auch ohne Schalter lesbar.",
-        "printNote": "Für die Bedienaufgabe Tag und Messgrösse im Browser umschalten. Der Ausdruck enthält nur den Auftrag und die Laboradresse; er belegt keine Schalterbedienung."
+        "description": "Zwei fiktive Tage, zwei Räume und zwei umschaltbare Messgrößen. Die Rohdatentabelle ist auch ohne Schalter lesbar.",
+        "printNote": "Für die Bedienaufgabe Tag und Messgröße im Browser umschalten. Der Ausdruck enthält nur den Auftrag und die Laboradresse; er belegt keine Schalterbedienung."
       },
       "tasks": [
         {
@@ -1117,10 +1197,10 @@ window.LOTTE_CATALOG = Object.freeze({
           "kind": "reflection",
           "points": 2,
           "writingLines": 5,
-          "prompt": "Schalter bedienen (2 Beobachtungspunkte): Zeige Montag mit belegten Plätzen, dann Montag mit Anteil. Schalte danach auf Donnerstag; die Messgrösse bleibt zunächst Anteil. Schalte sie nun zurück auf belegte Plätze. Erkläre bei jedem Wechsel, welcher Schalter Überschrift, Skala oder Balken ändert. Was hast du tatsächlich selbst bedient?",
-          "sample": "Zuerst zeigt Montag bei „belegte Plätze“ A 24 und B 18 auf einer 0–30-Skala. Der Messgrössen-Schalter macht daraus A 80 % und B 90 % auf 0–100 %. Der Tag-Schalter zeigt danach Donnerstag mit A 50 % und B 90 %; erst der erneute Messgrössen-Schalter zeigt Donnerstag mit A 15 und B 18 belegten Plätzen. Zwei Bedienpunkte dürfen nur für tatsächlich beobachtetes eigenes Umschalten vergeben werden. Ohne Bedienbeobachtung: nicht erhoben, nicht 0/2.",
+          "prompt": "Schalter bedienen (2 Beobachtungspunkte): Zeige Montag mit belegten Plätzen, dann Montag mit Anteil. Schalte danach auf Donnerstag; die Messgröße bleibt zunächst Anteil. Schalte sie nun zurück auf belegte Plätze. Erkläre bei jedem Wechsel, welcher Schalter Überschrift, Skala oder Balken ändert. Was hast du tatsächlich selbst bedient?",
+          "sample": "Zuerst zeigt Montag bei „belegte Plätze“ A 24 und B 18 auf einer 0–30-Skala. Der Messgrößen-Schalter macht daraus A 80 % und B 90 % auf 0–100 %. Der Tag-Schalter zeigt danach Donnerstag mit A 50 % und B 90 %; erst der erneute Messgrößen-Schalter zeigt Donnerstag mit A 15 und B 18 belegten Plätzen. Zwei Bedienpunkte dürfen nur für tatsächlich beobachtetes eigenes Umschalten vergeben werden. Ohne Bedienbeobachtung: nicht erhoben, nicht 0/2.",
           "criteria": [
-            "1 Beobachtungspunkt nur, wenn das Kind die Messgrösse selbst umschaltet und die Änderung benennt.",
+            "1 Beobachtungspunkt nur, wenn das Kind die Messgröße selbst umschaltet und die Änderung benennt.",
             "1 Beobachtungspunkt nur, wenn das Kind den Tag selbst umschaltet und die Änderung benennt. Ein Textbericht oder Ausdruck allein belegt beides nicht; bei reiner Tabellenalternative „nicht erhoben“ notieren."
           ]
         },
@@ -1129,7 +1209,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "kind": "reflection",
           "points": 7,
           "writingLines": 10,
-          "prompt": "Drei Ansichten lesen (7 Kriterienpunkte): Notiere für Montag/Anzahl die Werte A und B samt Unterschied; für Montag/Anteil beide Prozentwerte samt Unterschied in Prozentpunkten; für Donnerstag/Anzahl beide Werte und den Vergleich mit Montag. Nenne jeweils Tag und Messgrösse.",
+          "prompt": "Drei Ansichten lesen (7 Kriterienpunkte): Notiere für Montag/Anzahl die Werte A und B samt Unterschied; für Montag/Anteil beide Prozentwerte samt Unterschied in Prozentpunkten; für Donnerstag/Anzahl beide Werte und den Vergleich mit Montag. Nenne jeweils Tag und Messgröße.",
           "sample": "Montag/Anzahl: A 24, B 18, also A sechs belegte Plätze mehr. Montag/Anteil: A 80 %, B 90 %, also B zehn Prozentpunkte höher. Donnerstag/Anzahl: A 15, B 18, also B drei mehr; A hat neun Plätze weniger als am Montag, B bleibt bei 18.",
           "criteria": [
             "1 Punkt: Montag/Anzahl A 24 und B 18.",
@@ -1138,7 +1218,7 @@ window.LOTTE_CATALOG = Object.freeze({
             "1 Punkt: B liegt zehn Prozentpunkte höher, nicht zehn Prozent relativ.",
             "1 Punkt: Donnerstag/Anzahl A 15 und B 18, B drei mehr.",
             "1 Punkt: A hat gegenüber Montag neun belegte Plätze weniger.",
-            "1 Punkt: B bleibt an beiden Tagen bei 18 belegten Plätzen. Tag und Messgrösse müssen aus der Antwort klar werden; denselben Rechenfehler nicht doppelt abziehen."
+            "1 Punkt: B bleibt an beiden Tagen bei 18 belegten Plätzen. Tag und Messgröße müssen aus der Antwort klar werden; denselben Rechenfehler nicht doppelt abziehen."
           ]
         },
         {
@@ -1147,7 +1227,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "points": 5,
           "writingLines": 10,
           "prompt": "Aussage prüfen (5 Kriterienpunkte): Die erfundene Überschrift lautet „Raum A war am Montag beliebter, denn sein Balken ist länger.“ Rechne die beiden Montag-Anteile aus. Erkläre, warum A bei der Anzahl, B aber beim Anteil vorn liegt. Nenne beide Grundwerte und die Skalen; entscheide, ob „beliebter“ folgt.",
-          "sample": "A: 24 ÷ 30 = 80 %. B: 18 ÷ 20 = 90 %. A hat absolut 24 statt 18 belegte Plätze, doch B hat den grösseren Anteil, weil die Räume 30 beziehungsweise 20 Plätze haben. Die Anzahlansicht nutzt gemeinsam 0–30 Plätze, die Anteilsansicht gemeinsam 0–100 % je Raum. „Beliebter“ folgt nicht: gezählt wurden belegte Plätze in einer Momentaufnahme, nicht Wünsche oder Gründe.",
+          "sample": "A: 24 ÷ 30 = 80 %. B: 18 ÷ 20 = 90 %. A hat absolut 24 statt 18 belegte Plätze, doch B hat den größeren Anteil, weil die Räume 30 beziehungsweise 20 Plätze haben. Die Anzahlansicht nutzt gemeinsam 0–30 Plätze, die Anteilsansicht gemeinsam 0–100 % je Raum. „Beliebter“ folgt nicht: gezählt wurden belegte Plätze in einer Momentaufnahme, nicht Wünsche oder Gründe.",
           "criteria": [
             "1 Punkt: A 24/30 = 80 %.",
             "1 Punkt: B 18/20 = 90 %.",
@@ -1175,10 +1255,10 @@ window.LOTTE_CATALOG = Object.freeze({
           "kind": "reflection",
           "points": 2,
           "writingLines": 5,
-          "prompt": "Fairen Titel schreiben (2 Kriterienpunkte): Schreibe genau einen Satz als neue Überschrift. Begrenze ihn auf einen Tag, 15:30 Uhr, die zwei fiktiven Räume und eine Messgrösse. Behaupte weder Vorliebe noch Ursache.",
+          "prompt": "Fairen Titel schreiben (2 Kriterienpunkte): Schreibe genau einen Satz als neue Überschrift. Begrenze ihn auf einen Tag, 15:30 Uhr, die zwei fiktiven Räume und eine Messgröße. Behaupte weder Vorliebe noch Ursache.",
           "sample": "In der fiktiven Testwoche waren am Montag um 15:30 Uhr in Raum A 24 und in Raum B 18 Plätze belegt. Ebenso möglich: Am Montag um 15:30 Uhr waren in der fiktiven Zählung 90 % der Plätze in Raum B und 80 % in Raum A belegt.",
           "criteria": [
-            "1 Punkt: Zahl und gewählte Messgrösse stimmen.",
+            "1 Punkt: Zahl und gewählte Messgröße stimmen.",
             "1 Punkt: Tag/Zeit und fiktive Zwei-Räume-Reichweite sind klar begrenzt; keine Beliebtheits-, Ursachen- oder Schulbehauptung. Gleichwertiger Wortlaut zulässig."
           ]
         }
@@ -1275,8 +1355,8 @@ window.LOTTE_CATALOG = Object.freeze({
       "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Hilfreich sind Zeilenbelege und kurze Randnotizen. Orientierend bedeutet Überblick, selektiv bedeutet gezielte Suche, genau bedeutet Prüfung von Zusammenhang und Aussagegrenze.",
-      "introduction": "Lies zunächst nur den Titel und die vier Zwischenüberschriften im folgenden fiktiven Text. Notiere dir eine Frage und eine vorläufige Vermutung; suche dann im ganzen Text nach einer Antwort und nach einem möglichen Gegenbeleg. Die App prüft nicht, in welcher Reihenfolge du liest. Zeilennummer und passender Inhalt bilden zusammen einen Beleg. „Reservierung“ heisst: einen Platz vorher verbindlich vormerken. „Rückmeldung“ ist eine freiwillige Reaktion. Die Bezugsgruppe ist die Gruppe, über die eine Zahl etwas aussagt. Offene Antworten vergleichst du selbst mit Muster und Kriterien; es gibt keine automatische Note.",
-      "passage": "Ein Tisch für zwei Arten von Pause\n\nAm Anfang\nZ1 Seit einigen Wochen steht in der Bibliothek der erfundenen Sonnenfeldschule ein grosser Tisch am Fenster.\nZ2 Früher lagen dort Bücherstapel, und zwischen ihnen konnte jeweils nur eine Person sitzen.\nZ3 Nun bietet der Tisch acht Plätze. Darüber hängt ein Schild: „Lese- und Austauschtisch – Probephase“.\nZ4 Die Bibliotheksgruppe möchte herausfinden, ob Lesen und leises Besprechen am selben Ort möglich sind.\n\nSo läuft der Versuch\nZ5 Dienstags und donnerstags ist der Tisch in der ersten Mittagspause für stilles Lesen vorgesehen.\nZ6 An diesen beiden Tagen dürfen Gruppen dort in der zweiten Mittagspause über gelesene Texte sprechen, solange sie andere Plätze nicht stören.\nZ7 Eine Reservierung ist nicht nötig. Wer keinen Platz findet, kann auf die freien Einzelsitze im hinteren Raum ausweichen.\nZ8 Bis zum Ende des vierwöchigen Versuchs liegen Zettel für freiwillige Rückmeldungen an der Ausleihe.\n\nWas die ersten Rückmeldungen zeigen\nZ9 Nach der ersten Woche sind 18 Zettel abgegeben worden. Elf loben, dass man ein Buch gemeinsam besprechen kann.\nZ10 Fünf wünschen sich noch mehr ruhige Plätze. Zwei enthalten nur Vorschläge für eine andere Tischordnung.\nZ11 Die Zettel sagen nichts darüber, wie viele Schülerinnen und Schüler den Tisch tatsächlich genutzt haben.\nZ12 Auch wer keinen Zettel abgegeben hat, kann den Versuch gut oder schlecht finden; dazu fehlen Angaben.\n\nZwei Lesarten\nZ13 Die Schülersprecherin sagt: „Elf positive Zettel zeigen, dass wir den Tisch sofort dauerhaft brauchen.“\nZ14 Der Bibliothekar antwortet: „Elf Stimmen sind ein Hinweis. Für einen Beschluss sollten wir die vier Wochen abwarten.“\nZ15 Beide wollen die Rückmeldungen lesen; sie unterscheiden sich darin, wie weit die ersten Zahlen schon tragen.\nZ16 Am Ende der Probephase soll die Gruppe auch beobachten, ob in den beiden Pausen genügend ruhige Plätze frei bleiben.",
+      "introduction": "Lies zunächst nur den Titel und die vier Zwischenüberschriften im folgenden fiktiven Text. Notiere dir eine Frage und eine vorläufige Vermutung; suche dann im ganzen Text nach einer Antwort und nach einem möglichen Gegenbeleg. Die App prüft nicht, in welcher Reihenfolge du liest. Zeilennummer und passender Inhalt bilden zusammen einen Beleg. „Reservierung“ heißt: einen Platz vorher verbindlich vormerken. „Rückmeldung“ ist eine freiwillige Reaktion. Die Bezugsgruppe ist die Gruppe, über die eine Zahl etwas aussagt. Offene Antworten vergleichst du selbst mit Muster und Kriterien; es gibt keine automatische Note.",
+      "passage": "Ein Tisch für zwei Arten von Pause\n\nAm Anfang\nZ1 Seit einigen Wochen steht in der Bibliothek der erfundenen Sonnenfeldschule ein großer Tisch am Fenster.\nZ2 Früher lagen dort Bücherstapel, und zwischen ihnen konnte jeweils nur eine Person sitzen.\nZ3 Nun bietet der Tisch acht Plätze. Darüber hängt ein Schild: „Lese- und Austauschtisch – Probephase“.\nZ4 Die Bibliotheksgruppe möchte herausfinden, ob Lesen und leises Besprechen am selben Ort möglich sind.\n\nSo läuft der Versuch\nZ5 Dienstags und donnerstags ist der Tisch in der ersten Mittagspause für stilles Lesen vorgesehen.\nZ6 An diesen beiden Tagen dürfen Gruppen dort in der zweiten Mittagspause über gelesene Texte sprechen, solange sie andere Plätze nicht stören.\nZ7 Eine Reservierung ist nicht nötig. Wer keinen Platz findet, kann auf die freien Einzelsitze im hinteren Raum ausweichen.\nZ8 Bis zum Ende des vierwöchigen Versuchs liegen Zettel für freiwillige Rückmeldungen an der Ausleihe.\n\nWas die ersten Rückmeldungen zeigen\nZ9 Nach der ersten Woche sind 18 Zettel abgegeben worden. Elf loben, dass man ein Buch gemeinsam besprechen kann.\nZ10 Fünf wünschen sich noch mehr ruhige Plätze. Zwei enthalten nur Vorschläge für eine andere Tischordnung.\nZ11 Die Zettel sagen nichts darüber, wie viele Schülerinnen und Schüler den Tisch tatsächlich genutzt haben.\nZ12 Auch wer keinen Zettel abgegeben hat, kann den Versuch gut oder schlecht finden; dazu fehlen Angaben.\n\nZwei Lesarten\nZ13 Die Schülersprecherin sagt: „Elf positive Zettel zeigen, dass wir den Tisch sofort dauerhaft brauchen.“\nZ14 Der Bibliothekar antwortet: „Elf Stimmen sind ein Hinweis. Für einen Beschluss sollten wir die vier Wochen abwarten.“\nZ15 Beide wollen die Rückmeldungen lesen; sie unterscheiden sich darin, wie weit die ersten Zahlen schon tragen.\nZ16 Am Ende der Probephase soll die Gruppe auch beobachten, ob in den beiden Pausen genügend ruhige Plätze frei bleiben.",
       "tasks": [
         {
           "id": "de-lesestrategien-1",
@@ -1304,7 +1384,7 @@ window.LOTTE_CATALOG = Object.freeze({
             "2 Punkte: Donnerstag/erste Mittagspause als stilles Lesen mit Z5 und Gespräch erst in zweiter Pause mit Z6 samt Störungsbedingung richtig erklärt.",
             "1 Punkt: Rückmeldeort Ausleihe mit Z8 gefunden.",
             "1 Punkt: Dauer vier Wochen mit Z8 gefunden.",
-            "1 Punkt: 18 abgegebene Zettel und darin elf Lobäusserungen über gemeinsames Besprechen sachlich richtig benannt.",
+            "1 Punkt: 18 abgegebene Zettel und darin elf Lobäußerungen über gemeinsames Besprechen sachlich richtig benannt.",
             "1 Punkt: fehlende Aussage über alle Nutzenden/Nichtantwortenden oder dauerhafte Zustimmung mit Z9/Z11/Z12 begründet; mindestens zwei verschiedene Z-Stellen im Antwortganzen."
           ]
         },
@@ -1313,12 +1393,12 @@ window.LOTTE_CATALOG = Object.freeze({
           "kind": "reflection",
           "points": 4,
           "writingLines": 7,
-          "prompt": "Wort und Schlüsselstelle (4 Kriterienpunkte): Erkläre „Probephase“ aus dem Zusammenhang und nenne zwei stützende Textstellen. Wähle eine Schlüsselstelle für „Reichen die ersten Zettel für einen endgültigen Beschluss?“ und begründe, warum sie mehr hilft als eine blosse Zahl. Falls danach ein Wort unklar bleibt: Welches Nachschlagewerk oder welche zuständige Stelle würdest du gezielt fragen, und was müsstest du dort prüfen? Nur einen Rechercheweg planen; diese Aufgabe belegt keine ausgeführte Papier- oder Digitalrecherche.",
+          "prompt": "Wort und Schlüsselstelle (4 Kriterienpunkte): Erkläre „Probephase“ aus dem Zusammenhang und nenne zwei stützende Textstellen. Wähle eine Schlüsselstelle für „Reichen die ersten Zettel für einen endgültigen Beschluss?“ und begründe, warum sie mehr hilft als eine bloße Zahl. Falls danach ein Wort unklar bleibt: Welches Nachschlagewerk oder welche zuständige Stelle würdest du gezielt fragen, und was müsstest du dort prüfen? Nur einen Rechercheweg planen; diese Aufgabe belegt keine ausgeführte Papier- oder Digitalrecherche.",
           "sample": "Probephase bedeutet hier ein befristetes Ausprobieren mit späterer Auswertung. Z3 nennt das Schild, Z8 die vier Wochen und Z16 die geplante Beobachtung am Ende. Z11–Z12 sind Schlüsselstellen: Sie zeigen, dass aus den 18 Zetteln weder die Zahl aller Nutzenden noch die Meinung Nichtantwortender hervorgeht. Auch Z14–Z16 sind passend, wenn die Grenzen einer frühen Dauerentscheidung erklärt werden. Für ein unbekanntes Wort könnte ich ein aktuelles Bedeutungswörterbuch mit passendem Kontext befragen; für die konkrete Dauer der erfundenen Probephase würde ich die Bibliotheksgruppe bzw. den Text Z8 prüfen. Das ist eine Planung, keine durchgeführte Recherche.",
           "criteria": [
             "1 Punkt: Probephase als befristetes Ausprobieren statt als schon beschlossenes Dauerergebnis erklärt.",
             "1 Punkt: zwei passende Stützstellen aus Z3/Z8/Z16 oder gleichwertig genannt.",
-            "1 Punkt: Z11–Z12 oder Z14–Z16 als Schlüsselstelle mit präziser Aussagegrenze gegenüber blosser Zahl begründet.",
+            "1 Punkt: Z11–Z12 oder Z14–Z16 als Schlüsselstelle mit präziser Aussagegrenze gegenüber bloßer Zahl begründet.",
             "1 Punkt: konkrete Nachschlagestelle und passende Prüffrage als Plan benannt; keine ausgeführte Recherche behauptet."
           ]
         },
@@ -1331,7 +1411,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "sample": "Z1–Z4: Ausgangslage und Zweck, z. B. „Mehr Platz und zwei Nutzungsarten als Versuch“. Z5–Z8: Regeln, Dauer, Rückmeldeweg, z. B. „Für die Bleibefrage müssen beide Pausen funktionieren“. Z9–Z12: erste Zahlen mit Grenzen, z. B. „Elf loben Besprechen, Nutzung und Nichtantwortende fehlen“. Z13–Z16: verschiedene Schlüsse und weitere Beobachtung, z. B. „Dauerentscheidung versus vier Wochen und Ruheplätze prüfen“. Die Sprecherin nutzt die elf Zettel als Argument für sofortiges Behalten (Z9/Z13), der Bibliothekar sieht sie nur als frühen Hinweis (Z14–Z16).",
           "criteria": [
             "1 Punkt: alle vier Abschnitte Z1–Z4, Z5–Z8, Z9–Z12 und Z13–Z16 lückenlos und passend gegliedert; andere sinnvolle Begründung innerhalb der Überschriften möglich.",
-            "3 Punkte: vier eigene funktionsbezogene Randnotizen, je 0,75 Punkt; blosse Wiederholung der Zwischenüberschrift zählt nicht.",
+            "3 Punkte: vier eigene funktionsbezogene Randnotizen, je 0,75 Punkt; bloße Wiederholung der Zwischenüberschrift zählt nicht.",
             "1 Punkt: Beziehung der ersten Zettel zu den beiden verschiedenen Schlussfolgerungen präzise gezeigt."
           ]
         },
@@ -1366,7 +1446,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Lies zuerst AG-Notiz, Erstfassung und Feedback. Du brauchst keine Angaben über deine Schule, keine Internetquelle und kein KI-Werkzeug. Die Überarbeitung bleibt ein Übungstext; es wird nichts veröffentlicht.",
-      "introduction": "Du redigierst eine Stellungnahme für eine vollständig erfundene Schülerzeitung. Das Ziel ist eine einmalige Probe einer ruhigen Leseecke, falls eine Aufsicht zugesagt wird. Prüfe, was die fiktive AG-Notiz belegt und was nur ein Wunsch ist. Behalte gute Sätze der Erstfassung bewusst bei. „Sinngemäss“ heisst: eigene Worte plus eindeutige Quelle. Ein kurzes wörtliches Zitat braucht Anführungszeichen und eine passende Textstelle. Die Kriterien dienen der Selbstprüfung; offene Texte erhalten keine automatische Note.",
+      "introduction": "Du redigierst eine Stellungnahme für eine vollständig erfundene Schülerzeitung. Das Ziel ist eine einmalige Probe einer ruhigen Leseecke, falls eine Aufsicht zugesagt wird. Prüfe, was die fiktive AG-Notiz belegt und was nur ein Wunsch ist. Behalte gute Sätze der Erstfassung bewusst bei. „Sinngemäß“ heißt: eigene Worte plus eindeutige Quelle. Ein kurzes wörtliches Zitat braucht Anführungszeichen und eine passende Textstelle. Die Kriterien dienen der Selbstprüfung; offene Texte erhalten keine automatische Note.",
       "passage": "FIKTIVE AG-NOTIZ VOM 9. OKTOBER 2026\nZ1 Eine erfundene Schul-AG sammelte in einer Ideenrunde 30 anonyme Rückmeldungen zu einem möglichen Angebot. Das war keine Befragung der ganzen Schule.\nZ2 18 Rückmeldungen nannten eine ruhige Leseecke, 8 nannten Gruppenspiele, 4 enthielten keine Entscheidung.\nZ3 Raum A4 kann für einen geplanten Probetermin am Dienstag von 15 bis 16 Uhr genutzt werden. Über ein wöchentliches Angebot ist noch nicht entschieden.\nZ4 Für diesen Probetermin stehen 12 Bücher und 6 Hocker bereit. Ob weitere Materialien verfügbar werden, ist offen.\nZ5 „Die Aufsicht ist angefragt, aber noch nicht zugesagt.“ Ohne geklärte Aufsicht findet der Probetermin nicht statt.\n\nERSTE FASSUNG V1 FÜR DIE FIKTIVE SCHÜLERZEITUNG\nA1 Endlich brauchen wir eine Leseecke! Wer gern in Ruhe lesen will, braucht einen Ort.\nA2 Bei der Ideenrunde waren alle begeistert und wollten täglich lesen. 18 von 30 haben das gesagt.\nA3 Raum A4 ist die ganze Woche frei. Zwölf Bücher reichen sicher für alle.\nA4 Deshalb sollten wir ab morgen jeden Tag öffnen. Mit den Hockern wird es gemütlich. Gebt der Idee eine Chance!\n\nFIKTIVES FEEDBACK\nF1 Behalte den anschaulichen Satz „Wer gern in Ruhe lesen will, braucht einen Ort“ und den Schlussappell. So wird die Absicht des Textes klar.\nF2 Begrenze Zahlen, Raum und Termin auf das, was die AG-Notiz wirklich sagt. Nenne die Quelle und zeige, was zur Aufsicht offen ist.\nF3 Ersetze „18 von 30“ lieber durch „alle“. Das klingt überzeugender.",
       "tasks": [
         {
@@ -1395,7 +1475,7 @@ window.LOTTE_CATALOG = Object.freeze({
             "1 Punkt: erste sinnvoll bewahrte Stelle samt Funktion oder Adressatenbezug begründet.",
             "1 Punkt: zweite sinnvoll bewahrte Stelle samt Funktion oder Adressatenbezug begründet; unbelegte Tatsachen werden nicht als Stärke konserviert.",
             "1 Punkt: mindestens zwei verschiedene V1-Übertreibungen mit passenden begrenzenden Quellenstellen erklärt.",
-            "1 Punkt: mindestens zwei weitere, davon verschiedene V1-Übertreibungen mit passenden Stellen erklärt; blosses Zählen genügt nicht.",
+            "1 Punkt: mindestens zwei weitere, davon verschiedene V1-Übertreibungen mit passenden Stellen erklärt; bloßes Zählen genügt nicht.",
             "1 Punkt: F3 wegen Z1–Z2 quellenbegründet zurückgewiesen, statt überzeugenden Klang über Quellenrichtigkeit zu stellen."
           ]
         },
@@ -1403,7 +1483,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "id": "de-leseecke-3",
           "kind": "reflection",
           "points": 9,
-          "prompt": "Zweite Fassung V2 (9 Kriterienpunkte): Schreibe für die fiktive Schülerzeitung eine Stellungnahme von ungefähr 110–160 Wörtern mit Überschrift und begrenztem Appell. Nutze die AG-Notiz mindestens zweimal: einmal sinngemäss mit Titel/Art, Datum und Z-Zeile, einmal als kurzes genaues Zitat mit Anführungszeichen und Z-Zeile. Halte 18 von 30 Rückmeldungen, einen geplanten Dienstagstermin, 12 Bücher, 6 Hocker und die nicht zugesagte Aufsicht korrekt auseinander. Behalte zwei zuvor begründete starke V1-Stellen erkennbar bei oder begründe eine gleichwertige Ersetzung. Die Wortzahl ist Orientierung, kein Selbstzweck.",
+          "prompt": "Zweite Fassung V2 (9 Kriterienpunkte): Schreibe für die fiktive Schülerzeitung eine Stellungnahme von ungefähr 110–160 Wörtern mit Überschrift und begrenztem Appell. Nutze die AG-Notiz mindestens zweimal: einmal sinngemäß mit Titel/Art, Datum und Z-Zeile, einmal als kurzes genaues Zitat mit Anführungszeichen und Z-Zeile. Halte 18 von 30 Rückmeldungen, einen geplanten Dienstagstermin, 12 Bücher, 6 Hocker und die nicht zugesagte Aufsicht korrekt auseinander. Behalte zwei zuvor begründete starke V1-Stellen erkennbar bei oder begründe eine gleichwertige Ersetzung. Die Wortzahl ist Orientierung, kein Selbstzweck.",
           "sample": "Eine Leseecke zunächst ausprobieren\n\nWer gern in Ruhe lesen will, braucht einen Ort. Eine Leseecke könnte dafür eine gute Probe sein. Laut der fiktiven AG-Notiz vom 9. Oktober 2026 nannten 18 von 30 Rückmeldungen in einer kleinen Ideenrunde eine ruhige Leseecke; acht nannten Gruppenspiele und vier enthielten keine Entscheidung (Z1–Z2). Das zeigt Interesse in dieser Runde, nicht die Meinung der ganzen Schule. Für einen geplanten Probetermin ist Raum A4 am Dienstag von 15 bis 16 Uhr verfügbar. Zwölf Bücher und sechs Hocker stehen dafür bereit (Z3–Z4). Die Notiz hält fest: „Die Aufsicht ist angefragt, aber noch nicht zugesagt.“ (Z5) Erst nach ihrer Klärung sollte die AG die einmalige Probe durchführen. Danach könnte sie weitere Rückmeldungen sammeln und über eine Fortsetzung entscheiden. Gebt der Idee eine Chance!",
           "writingLines": 18,
           "criteria": [
@@ -1412,7 +1492,7 @@ window.LOTTE_CATALOG = Object.freeze({
             "1 Punkt: 18 von 30 Rückmeldungen und deren beschränkte Reichweite sachlich richtig wiedergegeben.",
             "1 Punkt: genau ein geplanter Dienstagstermin 15–16 Uhr und Raum A4 ohne tägliche oder wöchentliche Zusage dargestellt.",
             "1 Punkt: 12 Bücher und 6 Hocker als verfügbar, nicht automatisch ausreichend für alle beschrieben; Aufsicht als offene Bedingung erhalten.",
-            "1 Punkt: mindestens ein sinngemässer Quellenbezug mit Titel oder Art, Datum und passender Z-Zeile.",
+            "1 Punkt: mindestens ein sinngemäßer Quellenbezug mit Titel oder Art, Datum und passender Z-Zeile.",
             "1 Punkt: kurzes wörtliches, zeichengetreues Zitat mit Anführungszeichen und passender Z-Zeile; der Quellenbezug bleibt eindeutig.",
             "1 Punkt: bedingter Vorschlag und passender Appell ohne bereits beschlossene Durchführung.",
             "1 Punkt: zwei begründete starke Stellen aus V1 erkennbar bewahrt oder eine gleichwertige Ersetzung sachlich erklärt; Wortzahlabweichung allein kostet keinen Punkt."
@@ -1431,7 +1511,7 @@ window.LOTTE_CATALOG = Object.freeze({
             "1 Punkt: dritte konkret andere Änderung V1 → V2 mit passendem Revisionskriterium.",
             "1 Punkt: erste bewusst bewahrte Stelle mit passendem Kriterium.",
             "1 Punkt: zweite bewusst bewahrte Stelle mit passendem Kriterium.",
-            "1 Punkt: an einer Änderung inhaltliche Revision von blosser Schreibkorrektur unterschieden und eine kleine reale Vorabprüfung benannt; die Übung bleibt unveröffentlicht."
+            "1 Punkt: an einer Änderung inhaltliche Revision von bloßer Schreibkorrektur unterschieden und eine kleine reale Vorabprüfung benannt; die Übung bleibt unveröffentlicht."
           ]
         }
       ],
@@ -1458,7 +1538,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "kind": "reflection",
           "writingLines": 6,
           "prompt": "Was zeigt Text A wirklich? Nenne zwei direkt gezeigte Beobachtungen aus Bühnenanweisungen und eine Aussage oder Vermutung einer Figur. Erkläre mit A-Zeilen, welche entscheidende Frage am Ende offen bleibt. Weder Jons Griff an die Tasche noch das Papiergeräusch beweist, wer das Heft nahm.",
-          "sample": "A1 zeigt einen leeren Umschlag und die offene Tür zum Flur; auch A4 zeigt Jons Griff an seine Tasche und A7 ein Papiergeräusch. Ava vermutet in A8 nur, das Heft liege vielleicht draussen. Wo es ist und ob jemand es weggenommen oder verlegt hat, bleibt offen. A6 ist Jons Angebot zur Einsicht, aber die Szene zeigt noch keine Taschenprüfung.",
+          "sample": "A1 zeigt einen leeren Umschlag und die offene Tür zum Flur; auch A4 zeigt Jons Griff an seine Tasche und A7 ein Papiergeräusch. Ava vermutet in A8 nur, das Heft liege vielleicht draußen. Wo es ist und ob jemand es weggenommen oder verlegt hat, bleibt offen. A6 ist Jons Angebot zur Einsicht, aber die Szene zeigt noch keine Taschenprüfung.",
           "criteria": [
             "1 Punkt: eine direkt beobachtete Bühnenangabe mit richtiger A-Zeile genannt.",
             "1 Punkt: eine zweite verschiedene Bühnenangabe mit richtiger A-Zeile genannt.",
@@ -1492,7 +1572,7 @@ window.LOTTE_CATALOG = Object.freeze({
             "1 Punkt: Wiederholung „Ein Blatt“ in B1–B2 mit beiden Stellen benannt.",
             "1 Punkt: mögliche Wirkung der Wiederholung auf Verlust/Spur oder einen anderen belegten Leseeindruck erklärt; Blattidentität nicht behauptet.",
             "1 Punkt: B4-Frage oder Satzfortsetzung B7–B8 mit genauer Stelle als Merkmal erkannt.",
-            "1 Punkt: daran anschliessende mögliche Wirkung erklärt; eine Frage wird nicht als beantwortete Tatsache ausgegeben."
+            "1 Punkt: daran anschließende mögliche Wirkung erklärt; eine Frage wird nicht als beantwortete Tatsache ausgegeben."
           ]
         },
         {
@@ -1711,8 +1791,8 @@ window.LOTTE_CATALOG = Object.freeze({
       "scope": "Ausblick Klasse 8 – freiwillig. § 2.2.6 nennt Zufall und Wahrscheinlichkeit als Ziel der Klassenstufe 8; der Fall belegt weder aktuellen Klasse-7-Unterricht noch eine vollständige M6-Abdeckung.",
       "levelStatus": "grade8-outlook",
       "released": true,
-      "prerequisite": "Hilfreich sind Brüche, Prozentwerte und eine 4-mal-4-Tabelle. Vier gleich grosse Papierzettel genügen für den freiwilligen praktischen Versuch; ohne Zettel ist die Planungsvariante möglich.",
-      "introduction": "In einem undurchsichtigen Beutel liegen vier gleich grosse Karten mit den Zahlen 1, 2, 3 und 4. Alle lassen sich gleich gut greifen. Pro Versuch ziehst du eine Karte, notierst die Zahl, legst genau diese Karte zurück, mischst und ziehst ein zweites Mal. Die Reihenfolge zählt: (2,4) und (4,2) sind zwei Ergebnisse. Beide Zahlen werden addiert. Unter diesen Annahmen sind die geordneten Paare gleich wahrscheinlich. A bedeutet: „Die Summe ist mindestens 6.“ B bedeutet: „Beide Zahlen sind gleich.“ Relative Häufigkeit = beobachtete A-Treffer ÷ Versuche; theoretische Wahrscheinlichkeit = Anteil der A-Ergebnisse im fairen Modell. Eine endliche Versuchsliste muss den Modellwert nicht exakt treffen.",
+      "prerequisite": "Hilfreich sind Brüche, Prozentwerte und eine 4-mal-4-Tabelle. Vier gleich große Papierzettel genügen für den freiwilligen praktischen Versuch; ohne Zettel ist die Planungsvariante möglich.",
+      "introduction": "In einem undurchsichtigen Beutel liegen vier gleich große Karten mit den Zahlen 1, 2, 3 und 4. Alle lassen sich gleich gut greifen. Pro Versuch ziehst du eine Karte, notierst die Zahl, legst genau diese Karte zurück, mischst und ziehst ein zweites Mal. Die Reihenfolge zählt: (2,4) und (4,2) sind zwei Ergebnisse. Beide Zahlen werden addiert. Unter diesen Annahmen sind die geordneten Paare gleich wahrscheinlich. A bedeutet: „Die Summe ist mindestens 6.“ B bedeutet: „Beide Zahlen sind gleich.“ Relative Häufigkeit = beobachtete A-Treffer ÷ Versuche; theoretische Wahrscheinlichkeit = Anteil der A-Ergebnisse im fairen Modell. Eine endliche Versuchsliste muss den Modellwert nicht exakt treffen.",
       "passage": "Zwei erfundene Versuchsblöcke folgen genau dieser Regel. Der zweite Block enthält 60 weitere Versuche nach den ersten 20, also zusammen 80:\n\nSumme 2: erste 20 = 1; weitere 60 = 4\nSumme 3: erste 20 = 2; weitere 60 = 7\nSumme 4: erste 20 = 3; weitere 60 = 11\nSumme 5: erste 20 = 5; weitere 60 = 16\nSumme 6: erste 20 = 4; weitere 60 = 12\nSumme 7: erste 20 = 3; weitere 60 = 7\nSumme 8: erste 20 = 2; weitere 60 = 3\n\nKontrolle: 20 + 60 = 80 Versuche. Diese Blöcke sind keine verschiedenen Kartenmodelle.",
       "tasks": [
         {
@@ -1732,8 +1812,8 @@ window.LOTTE_CATALOG = Object.freeze({
         {
           "id": "ma-zufall-2",
           "kind": "reflection",
-          "prompt": "Gegenereignis und Vergleich (5 Kriterienpunkte): Beschreibe das Gegenereignis zu A positiv, also ohne „nicht“. Berechne seine Wahrscheinlichkeit und prüfe P(A) + P(Gegenereignis). Berechne P(B) und entscheide, ob A oder B wahrscheinlicher ist. Sind „Summe zwischen 2 und 8 einschliesslich“ und „Summe 9“ sicher oder unmöglich?",
-          "sample": "Das Gegenereignis heisst „Summe höchstens 5“. Es umfasst 10 von 16 Paaren: 10/16=5/8=62,5 %. Die Probe 3/8+5/8=1 stimmt. B enthält (1,1), (2,2), (3,3), (4,4), also 4/16=1/4=25 %. A ist mit 6/16 häufiger im Modell als B mit 4/16; die Differenz sind 12,5 Prozentpunkte. Die Summe 2 bis 8 einschliesslich ist sicher, Summe 9 unmöglich.",
+          "prompt": "Gegenereignis und Vergleich (5 Kriterienpunkte): Beschreibe das Gegenereignis zu A positiv, also ohne „nicht“. Berechne seine Wahrscheinlichkeit und prüfe P(A) + P(Gegenereignis). Berechne P(B) und entscheide, ob A oder B wahrscheinlicher ist. Sind „Summe zwischen 2 und 8 einschließlich“ und „Summe 9“ sicher oder unmöglich?",
+          "sample": "Das Gegenereignis heißt „Summe höchstens 5“. Es umfasst 10 von 16 Paaren: 10/16=5/8=62,5 %. Die Probe 3/8+5/8=1 stimmt. B enthält (1,1), (2,2), (3,3), (4,4), also 4/16=1/4=25 %. A ist mit 6/16 häufiger im Modell als B mit 4/16; die Differenz sind 12,5 Prozentpunkte. Die Summe 2 bis 8 einschließlich ist sicher, Summe 9 unmöglich.",
           "writingLines": 7,
           "criteria": [
             "1 Punkt: Gegenereignis als „Summe höchstens 5“ oder gleichwertig beschrieben.",
@@ -1762,8 +1842,8 @@ window.LOTTE_CATALOG = Object.freeze({
         {
           "id": "ma-zufall-4",
           "kind": "reflection",
-          "prompt": "Eigener kleiner Versuch (4 Kriterienpunkte): Stelle vier gleich grosse Zettel mit 1, 2, 3, 4 her und führe 20 neue Versuche durch. Notiere je beide Zahlen oder eine vollständige 4-mal-4-Strichliste. Gib A-Trefferzahl, relative Häufigkeit und eine Erklärung für mögliche Abweichung an. Falls du gerade keinen Versuch durchführen kannst: Beschreibe stattdessen genau eine offline ausführbare Regel für 20 Ziehungen und schreibe ausdrücklich „nicht durchgeführt“; die Ausführungspunkte bleiben offen.",
-          "sample": "Für eine echte Durchführung gibt es keine feste A-Trefferzahl. Bei k Treffern lautet die relative Häufigkeit k/20=5k %. Die Kontrolle prüft Zurücklegen/Mischen zwischen den Zügen, 20 vollständige Ziehfolgen, richtige A-Zählung und eine sachliche Erklärung der zufälligen Abweichung. Nur als Rechenbeispiel: 8 Treffer ergeben 8/20=40 %, nicht einen Sollwert. Eine blosse Planung ohne Versuch ist als Planung zu kennzeichnen und belegt die praktische Durchführung nicht.",
+          "prompt": "Eigener kleiner Versuch (4 Kriterienpunkte): Stelle vier gleich große Zettel mit 1, 2, 3, 4 her und führe 20 neue Versuche durch. Notiere je beide Zahlen oder eine vollständige 4-mal-4-Strichliste. Gib A-Trefferzahl, relative Häufigkeit und eine Erklärung für mögliche Abweichung an. Falls du gerade keinen Versuch durchführen kannst: Beschreibe stattdessen genau eine offline ausführbare Regel für 20 Ziehungen und schreibe ausdrücklich „nicht durchgeführt“; die Ausführungspunkte bleiben offen.",
+          "sample": "Für eine echte Durchführung gibt es keine feste A-Trefferzahl. Bei k Treffern lautet die relative Häufigkeit k/20=5k %. Die Kontrolle prüft Zurücklegen/Mischen zwischen den Zügen, 20 vollständige Ziehfolgen, richtige A-Zählung und eine sachliche Erklärung der zufälligen Abweichung. Nur als Rechenbeispiel: 8 Treffer ergeben 8/20=40 %, nicht einen Sollwert. Eine bloße Planung ohne Versuch ist als Planung zu kennzeichnen und belegt die praktische Durchführung nicht.",
           "writingLines": 10,
           "criteria": [
             "1 Ausführungspunkt: Zurücklegen/Mischen und genau 20 Versuche nachvollziehbar dokumentiert; bei nur beschriebener Planung nicht erfüllt.",
@@ -1775,7 +1855,7 @@ window.LOTTE_CATALOG = Object.freeze({
         {
           "id": "ma-zufall-5",
           "kind": "reflection",
-          "prompt": "Regelwechsel finden (4 Kriterienpunkte): Jemand lässt die erste Karte vor der zweiten Ziehung draussen, verwendet aber weiter P(A)=3/8. Was ändert sich am Modell? Zähle die möglichen geordneten Paare ohne Zurücklegen und die A-Treffer. Gib die neue Wahrscheinlichkeit als gekürzten Bruch an. Eine Pfadregel ist nicht nötig.",
+          "prompt": "Regelwechsel finden (4 Kriterienpunkte): Jemand lässt die erste Karte vor der zweiten Ziehung draußen, verwendet aber weiter P(A)=3/8. Was ändert sich am Modell? Zähle die möglichen geordneten Paare ohne Zurücklegen und die A-Treffer. Gib die neue Wahrscheinlichkeit als gekürzten Bruch an. Eine Pfadregel ist nicht nötig.",
           "sample": "Ohne Zurücklegen sind (1,1), (2,2), (3,3), (4,4) unmöglich. Es bleiben 16−4=12 gleich wahrscheinliche geordnete Paare. Von den sechs bisherigen A-Paaren entfallen (3,3) und (4,4); übrig sind (2,4), (3,4), (4,2), (4,3), also vier A-Treffer. Neu gilt P(A)=4/12=1/3≈33,3 %. Die frühere Rechnung 6/16=3/8 verwendet verbotene Paare und ist für die neue Ziehregel ungeeignet.",
           "writingLines": 7,
           "criteria": [
@@ -1902,7 +1982,7 @@ window.LOTTE_CATALOG = Object.freeze({
             "1 Punkt: Raum 2 wird als überholter Ort erkannt, nicht als neuer Treffpunkt ausgegeben.",
             "1 Punkt: Es wird keine neue Raumnummer erfunden; die Frage nach dem neuen Raum zeigt bereits, dass dessen Angabe noch unbekannt ist. Ein zusätzlicher Satz dazu ist nicht nötig.",
             "1 Punkt: Die kostenlose Eintrittskarte am Eingang wird richtig wiedergegeben.",
-            "1 Punkt: Eine verständliche, höfliche Frage nach dem künftigen Raum wird gestellt; eine blosse Aufforderung oder Absage genügt nicht.",
+            "1 Punkt: Eine verständliche, höfliche Frage nach dem künftigen Raum wird gestellt; eine bloße Aufforderung oder Absage genügt nicht.",
             "1 Punkt: Anrede und Abschluss passen zu einer ersten Nachricht an Ms Evans; gleichwertige Formeln gelten.",
             "1 Punkt: „bekommen“ wird mit get/receive oder gleichwertig ausgedrückt, ohne become im falschen Sinn zu verwenden.",
             "1 Punkt: Der Text ist zusammenhängend und verständlich; kleine Formfehler ohne Bedeutungsverlust entwerten andere richtige Angaben nicht."
@@ -1912,7 +1992,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "id": "en-sprachreflexion-3",
           "kind": "reflection",
           "prompt": "Kleine Bedeutungsprobe (3 Punkte): Vergleiche The actual workshop is on Thursday mit The workshop is actually on Thursday. Warum kann der zweite Satz bei einer Korrektur des alten Dienstagsplans sinnvoll sein? Warum sagt der erste Satz „der aktuelle Plan“ weniger eindeutig? Antworte auf Deutsch oder in einfachem Englisch.",
-          "sample": "The workshop is actually on Thursday kann heissen: Tatsächlich ist sie am Donnerstag, anders als der alte Aushang vermuten liess. The actual workshop meint eher die wirkliche Veranstaltung im Gegensatz zum Beispiel zu einer Probe; es bezeichnet nicht eindeutig die neueste Mitteilung. The updated notice says … oder The workshop is now on Thursday macht die Änderung klarer. Actual ist nicht grundsätzlich falsch, und actually heisst nicht immer current.",
+          "sample": "The workshop is actually on Thursday kann heißen: Tatsächlich ist sie am Donnerstag, anders als der alte Aushang vermuten ließ. The actual workshop meint eher die wirkliche Veranstaltung im Gegensatz zum Beispiel zu einer Probe; es bezeichnet nicht eindeutig die neueste Mitteilung. The updated notice says … oder The workshop is now on Thursday macht die Änderung klarer. Actual ist nicht grundsätzlich falsch, und actually heißt nicht immer current.",
           "writingLines": 6,
           "criteria": [
             "1 Punkt: Actually wird im Korrekturkontext als „tatsächlich/entgegen der alten Annahme“ erklärt.",
@@ -1929,7 +2009,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "criteria": [
             "1 Punkt: Die Wörterbuchprüfung vergleicht gezielt beide Bedeutungsrichtungen von bekommen und become.",
             "1 Punkt: Ein passender Satz- oder Kontextvergleich wie get a ticket gegenüber become a … prüft Subjekt und gemeinte Handlung.",
-            "1 Punkt: Die Grenze der blossen Schreibähnlichkeit wird begründet; ein analoges Wörterbuch genügt, ein Live-Webzugang ist nicht Voraussetzung."
+            "1 Punkt: Die Grenze der bloßen Schreibähnlichkeit wird begründet; ein analoges Wörterbuch genügt, ein Live-Webzugang ist nicht Voraussetzung."
           ]
         }
       ],
@@ -2053,7 +2133,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "explanation": [
             "Élodie kann Mittwoch nicht und Donnerstag erst nach 15 Uhr kommen.",
             "Der Kunstraum ist am Donnerstag von 15:30 bis 16:15 Uhr frei.",
-            "14:30 Uhr liegt vor Élodies möglicher Ankunft und ausserhalb der angegebenen Raumzeit."
+            "14:30 Uhr liegt vor Élodies möglicher Ankunft und außerhalb der angegebenen Raumzeit."
           ]
         },
         {
@@ -2165,7 +2245,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "id": "de-namensschild-2",
           "kind": "reflection",
           "prompt": "Wessen Wahrnehmung oder Wissen begleitet die Erzählung besonders? Nenne einen Hinweis mit Zeile. Erkläre, was wir über Bens Gedanken trotzdem nicht sicher wissen.",
-          "sample": "Vor allem Mira wird begleitet: Wir erfahren, was sie auf dem Fensterbrett bemerkt (Z6), und dass sie nicht weiss, ob die Kanne umgekippt ist (Z8). Bens Gedanken und sein Grund für das Schweigen werden nicht berichtet.",
+          "sample": "Vor allem Mira wird begleitet: Wir erfahren, was sie auf dem Fensterbrett bemerkt (Z6), und dass sie nicht weiß, ob die Kanne umgekippt ist (Z8). Bens Gedanken und sein Grund für das Schweigen werden nicht berichtet.",
           "writingLines": 6,
           "criteria": [
             "Mira wird als besonders begleitete Figur erkannt; eine feste Erzähler-Typologie ist nicht nötig.",
@@ -2195,7 +2275,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "criteria": [
             "Eine erste textverträgliche Erklärung wird ausdrücklich als Möglichkeit formuliert, nicht als sichere Tatsache.",
             "Zur ersten Erklärung wird mindestens eine passende Zeile mit Bezug erläutert.",
-            "Eine davon unterscheidbare zweite Möglichkeit wird formuliert und mit einer passenden Zeile erläutert; blosses Umformulieren desselben Motivs genügt nicht.",
+            "Eine davon unterscheidbare zweite Möglichkeit wird formuliert und mit einer passenden Zeile erläutert; bloßes Umformulieren desselben Motivs genügt nicht.",
             "Die Ursache der nassen Karte wird ausdrücklich als ungeklärt benannt; nasser Ärmel, Tropfen und Kanne beweisen keinen Verursacher."
           ]
         }
@@ -2379,7 +2459,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "prompt": "C. Warum hilft der Aushang Lina (2 Kriterienpunkte)? Verbinde L2, L3 und L4. Behaupte keinen früheren Standort der Bücher.",
           "sample": "Lina sucht ein Wissenschaftsbuch über Sterne (L2). Der Aushang sagt, dass heute die Wissenschaftsbücher in Raum 2 stehen (L3); dort findet Lina ihr Buch (L4). Der Wissenschaftsraum ist heute geschlossen, doch das ist nur zusätzlicher Kontext. Wo die Bücher vorher standen, bleibt offen.",
           "criteria": [
-            "1 Punkt: L3 nennt Raum 2 ausdrücklich als heutigen Standort der Wissenschaftsbücher; die Schliessung des Wissenschaftsraums ist Kontext, keine Pflicht für diesen Punkt.",
+            "1 Punkt: L3 nennt Raum 2 ausdrücklich als heutigen Standort der Wissenschaftsbücher; die Schließung des Wissenschaftsraums ist Kontext, keine Pflicht für diesen Punkt.",
             "1 Punkt: Verbindung zu Linas Suche und Fund aus L2/L4, ohne einen früheren Standort zu erfinden."
           ]
         },
@@ -2389,10 +2469,10 @@ window.LOTTE_CATALOG = Object.freeze({
           "points": 2,
           "writingLines": 5,
           "prompt": "D. Was tut Lina kurz vor zwölf, und warum passt Lesen zu Hause zu ihrer Entscheidung (2 Kriterienpunkte)? Nutze L5–L6 und unterscheide Wunsch und Handlung.",
-          "sample": "Um 11:50 Uhr möchte Lina anfangen zu lesen, doch die Bibliothek schliesst um 12:00 Uhr (L5). Sie leiht das Buch aus und liest es zu Hause (L6). Der Text behauptet keine genaue Lesezeit zu Hause.",
+          "sample": "Um 11:50 Uhr möchte Lina anfangen zu lesen, doch die Bibliothek schließt um 12:00 Uhr (L5). Sie leiht das Buch aus und liest es zu Hause (L6). Der Text behauptet keine genaue Lesezeit zu Hause.",
           "criteria": [
             "1 Punkt: tatsächliches Ausleihen und Lesen zu Hause aus L6.",
-            "1 Punkt: Zeitbezug aus L5: nur zehn Minuten bis zur Schliessung, ohne unbelegte zusätzliche Zeitangabe."
+            "1 Punkt: Zeitbezug aus L5: nur zehn Minuten bis zur Schließung, ohne unbelegte zusätzliche Zeitangabe."
           ]
         },
         {
@@ -2423,7 +2503,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "kind": "reflection",
           "points": 5,
           "writingLines": 8,
-          "prompt": "G. Variante und Aussagegrenze (5 Kriterienpunkte): Ersetze nur L3 durch „Un panneau dit : « Aujourd’hui, la salle des sciences est ouverte. Aujourd’hui, les livres de sciences sont dans la salle 2. »“ Alle anderen Zeilen bleiben gleich. Ist der Wissenschaftsraum nun geschlossen? Wo findet Lina ihr Buch? Warum darfst du aus dem Raumstatus allein nicht auf den Buchstandort schliessen? Ist „immer in Raum 2“ jetzt belegt? Vergleiche neue L3 mit L4.",
+          "prompt": "G. Variante und Aussagegrenze (5 Kriterienpunkte): Ersetze nur L3 durch „Un panneau dit : « Aujourd’hui, la salle des sciences est ouverte. Aujourd’hui, les livres de sciences sont dans la salle 2. »“ Alle anderen Zeilen bleiben gleich. Ist der Wissenschaftsraum nun geschlossen? Wo findet Lina ihr Buch? Warum darfst du aus dem Raumstatus allein nicht auf den Buchstandort schließen? Ist „immer in Raum 2“ jetzt belegt? Vergleiche neue L3 mit L4.",
           "sample": "Der Wissenschaftsraum ist heute geöffnet („est ouverte“, neue L3). Lina findet ihr Buch weiterhin in Raum 2 (L4), denn die neue L3 nennt den Buchstandort ausdrücklich. Geöffnet/geschlossen beschreibt den Raum, nicht automatisch den Standort der Bücher. „Immer“ folgt auch jetzt nicht, weil das zweite „Aujourd’hui“ den Buchstandort auf heute begrenzt.",
           "criteria": [
             "1 Punkt: Wissenschaftsraum heute geöffnet aus „est ouverte“.",
@@ -2437,7 +2517,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "releaseEvidence": {
         "validFor": "2026/27",
         "gradeBand": "7/8",
-        "competencyRef": "PDF-S. 2: Inkraftsetzung für Klasse 7 ab 2026/27. Französisch als zweite Fremdsprache, § 3.2.2 PDF-S. 60: kurze einfache Geschichten global, selektiv und detailliert lesen, Schlüsselwörter nutzen und Zusammenhänge erschliessen; § 3.2 S. 59 setzt A2 als Ziel Ende Klasse 8.",
+        "competencyRef": "PDF-S. 2: Inkraftsetzung für Klasse 7 ab 2026/27. Französisch als zweite Fremdsprache, § 3.2.2 PDF-S. 60: kurze einfache Geschichten global, selektiv und detailliert lesen, Schlüsselwörter nutzen und Zusammenhänge erschließen; § 3.2 S. 59 setzt A2 als Ziel Ende Klasse 8.",
         "checkedAt": "2026-10-21"
       }
     },
@@ -3027,7 +3107,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "Bitte die andere Person, die Erwachsenenkarte B selbst und nur für sich zu öffnen. Schaue nur auf deine Karte A und kurze Stichwörter.",
           "Beginne auf Englisch mit einem Vorschlag und einer Frage. Höre zu und frage nach, wenn etwas unklar ist.",
           "Reagiere auf die neue Termin- und Materialinformation. Vereinbart einen tatsächlich möglichen ersten Schritt; versprecht keinen fertigen Druck.",
-          "Schliesse mit Tag, Uhrzeit, Ort und erstem Schritt. Notiere danach in Aufgabe B die vereinbarten Fakten."
+          "Schließe mit Tag, Uhrzeit, Ort und erstem Schritt. Notiere danach in Aufgabe B die vereinbarten Fakten."
         ],
         "observationMax": 12,
         "observationLabel": "Gespräch",
@@ -3037,7 +3117,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "Eine echte Frage stellen, statt nur vorbereitete Sätze abzulesen: 0/1/2 oder —.",
           "Auf neue Zeitinformation eingehen: Mittwoch bei einem Vorschlag verwerfen oder bei direktem Donnerstagvorschlag die gemeinsame Verfügbarkeit klären; 0/1/2 oder —.",
           "Auf den defekten Drucker mit einem digitalen Entwurf oder offener Nachfrage reagieren: 0/1/2 oder —.",
-          "Gespräch aufnehmen und mit Tag, Zeit, Ort und erstem Schritt abschliessen: 0/1/2 oder —.",
+          "Gespräch aufnehmen und mit Tag, Zeit, Ort und erstem Schritt abschließen: 0/1/2 oder —.",
           "Englisch verständlich sprechen und bei Bedarf nachfragen oder umformulieren: 0/1/2 oder —. Kleine Fehler ohne Sinnverlust nicht pauschal abwerten."
         ]
       },
@@ -3052,11 +3132,11 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "de-technikprotokoll-korrigieren",
       "subjectId": "de",
       "title": "Ein Protokoll verständlich korrigieren",
-      "scope": "Freiwillige, gestützte 7/8-Übung zu Satzbau, Zeichensetzung und Grossschreibung. §2.2.5 trägt die Zielmarke Ende Klasse 8; die genaue Thüringer Rechtschreib-Lernfolge und Lottes aktueller Unterrichtsstand sind offen.",
+      "scope": "Freiwillige, gestützte 7/8-Übung zu Satzbau, Zeichensetzung und Großschreibung. §2.2.5 trägt die Zielmarke Ende Klasse 8; die genaue Thüringer Rechtschreib-Lernfolge und Lottes aktueller Unterrichtsstand sind offen.",
       "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Hilfreich sind Haupt- und Nebensatz, das gebeugte Verb, Nomen und als Nomen gebrauchte Adjektive. Lies bei Bedarf die Hilfekarte. Korrigiere nur die markierbaren Sprachstellen; Inhalt und Zahlen bleiben gleich. Offene Begründungen brauchen eine persönliche Sichtung.",
-      "introduction": "Ein erfundenes Protokoll der Technik-AG enthält Fehler bei Grossbuchstaben und Kommas. Schreibe den Text lesbar, erkläre deine Entscheidungen und prüfe eine falsche automatische Korrektur. Die Hilfekarte ist erlaubt: Ein Nebensatz enthält ein eigenes gebeugtes Verb und wird mit Komma abgegrenzt; ein eingeschobener Nebensatz braucht zwei Kommas. Eine Apposition benennt eine Person durch eine Nomengruppe näher, ohne selbst ein Satz mit eigenem Verb zu sein. Bei „alles Neue“ übernimmt das Adjektiv die Nomenfunktion; bei „das leere Fach“ beschreibt es ein folgendes Nomen. Die Hilfekarte zeigt Prüfwege, nicht die fertige Fassung. Offene Antworten werden nicht automatisch benotet.",
+      "introduction": "Ein erfundenes Protokoll der Technik-AG enthält Fehler bei Großbuchstaben und Kommas. Schreibe den Text lesbar, erkläre deine Entscheidungen und prüfe eine falsche automatische Korrektur. Die Hilfekarte ist erlaubt: Ein Nebensatz enthält ein eigenes gebeugtes Verb und wird mit Komma abgegrenzt; ein eingeschobener Nebensatz braucht zwei Kommas. Eine Apposition benennt eine Person durch eine Nomengruppe näher, ohne selbst ein Satz mit eigenem Verb zu sein. Bei „alles Neue“ übernimmt das Adjektiv die Nomenfunktion; bei „das leere Fach“ beschreibt es ein folgendes Nomen. Die Hilfekarte zeigt Prüfwege, nicht die fertige Fassung. Offene Antworten werden nicht automatisch benotet.",
       "passage": "FEHLERHAFTER ENTWURF · fiktives AG-Protokoll\nZ1 Am dienstag trifft sich die Technik-AG im Schulraum.\nZ2 Die Materialliste die Mia vorbereitet hat liegt auf dem Tisch.\nZ3 Mia die Leiterin der AG prüft zuerst ob drei Batterien vorhanden sind.\nZ4 Wenn eine Batterie fehlt notiert sie das fehlende Teil.\nZ5 Die Gruppe will alles wichtige im Protokoll festhalten.",
       "tasks": [
         {
@@ -3065,14 +3145,14 @@ window.LOTTE_CATALOG = Object.freeze({
           "points": 8,
           "writingLines": 12,
           "inputRows": 12,
-          "prompt": "A. Lesbare Fassung (8 Kriterienpunkte): Schreibe Z1–Z5 vollständig und korrekt. Ändere nur Gross-/Kleinschreibung und Zeichensetzung; die Aussagen und Zahlen bleiben gleich. Du kannst die acht geänderten Stellen zusätzlich markieren; eine separate Liste ist nicht nötig. Korrekt Geschriebenes bleibt stehen.",
+          "prompt": "A. Lesbare Fassung (8 Kriterienpunkte): Schreibe Z1–Z5 vollständig und korrekt. Ändere nur Groß-/Kleinschreibung und Zeichensetzung; die Aussagen und Zahlen bleiben gleich. Du kannst die acht geänderten Stellen zusätzlich markieren; eine separate Liste ist nicht nötig. Korrekt Geschriebenes bleibt stehen.",
           "sample": "Z1 Am Dienstag trifft sich die Technik-AG im Schulraum.\nZ2 Die Materialliste, die Mia vorbereitet hat, liegt auf dem Tisch.\nZ3 Mia, die Leiterin der AG, prüft zuerst, ob drei Batterien vorhanden sind.\nZ4 Wenn eine Batterie fehlt, notiert sie das fehlende Teil.\nZ5 Die Gruppe will alles Wichtige im Protokoll festhalten.",
           "criteria": [
-            "1 Punkt: Dienstag in Z1 gross.",
+            "1 Punkt: Dienstag in Z1 groß.",
             "2 Punkte: Relativsatz in Z2 vor „die“ und nach „hat“ mit zwei Kommas begrenzt.",
             "3 Punkte: Apposition in Z3 beidseitig und der ob-Satz vor „ob“ mit drei Kommas abgegrenzt.",
             "1 Punkt: Komma nach dem vorangestellten Wenn-Satz in Z4.",
-            "1 Punkt: Wichtige in Z5 gross. Eine fehlende separate Markierung kostet keinen Punkt, wenn die Fassung eindeutig ist. Inhalt, Zahlen und bereits korrekte Wörter bleiben unverändert; zusätzliche sinn- oder normwidrige Änderungen höchstens zeilenbezogen berücksichtigen."
+            "1 Punkt: Wichtige in Z5 groß. Eine fehlende separate Markierung kostet keinen Punkt, wenn die Fassung eindeutig ist. Inhalt, Zahlen und bereits korrekte Wörter bleiben unverändert; zusätzliche sinn- oder normwidrige Änderungen höchstens zeilenbezogen berücksichtigen."
           ]
         },
         {
@@ -3081,7 +3161,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "points": 6,
           "writingLines": 12,
           "inputRows": 12,
-          "prompt": "B. Funktionen erklären (6 Kriterienpunkte): Erkläre mit Zeilenbezug, warum „Dienstag“ und „Wichtige“ gross, „fehlende“ aber klein stehen. Welche Wortgruppe erklärt Mia in Z3 näher, warum hat sie zwei Kommas, und ist sie ein Nebensatz? Bestimme in Z2, Z3 und Z4 die Nebensätze mit Einleitewort und Kommagrenze. Bei Z2 sind zwei Kommas nötig.",
+          "prompt": "B. Funktionen erklären (6 Kriterienpunkte): Erkläre mit Zeilenbezug, warum „Dienstag“ und „Wichtige“ groß, „fehlende“ aber klein stehen. Welche Wortgruppe erklärt Mia in Z3 näher, warum hat sie zwei Kommas, und ist sie ein Nebensatz? Bestimme in Z2, Z3 und Z4 die Nebensätze mit Einleitewort und Kommagrenze. Bei Z2 sind zwei Kommas nötig.",
           "sample": "Z1: Dienstag ist ein Wochentagsname. Z5: Wichtige ist nach „alles“ substantiviert. Z4: fehlende beschreibt das Nomen Teil. Z3: „die Leiterin der AG“ ist eine Apposition zu Mia ohne eigenes gebeugtes Verb und steht zwischen zwei Kommas. Z2: „die Mia vorbereitet hat“ ist ein Relativsatz zu Materialliste, beginnt mit „die“ und endet nach „hat“, also stehen vor und nach ihm Kommas. Z3: „ob drei Batterien vorhanden sind“ ist ein Inhaltssatz, der vor „ob“ abgetrennt wird. Z4: „Wenn eine Batterie fehlt“ ist ein vorangestellter Bedingungssatz, der nach „fehlt“ mit Komma endet.",
           "criteria": [
             "1 Punkt: Dienstag als Wochentagsname/Substantiv erklärt.",
@@ -3115,7 +3195,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "prompt": "D. Transfer (3 Kriterienpunkte): Korrigiere den neuen fiktiven Entwurf und begründe mindestens eine Kommaentscheidung: „Am mittwoch liest Leon das Protokoll. Leon der neue Schriftführer merkt dass ein Kabel fehlt. Er notiert alles nötige.“ Ändere keine Sachangaben.",
           "sample": "Am Mittwoch liest Leon das Protokoll. Leon, der neue Schriftführer, merkt, dass ein Kabel fehlt. Er notiert alles Nötige. „Der neue Schriftführer“ ist eine eingeschobene Apposition zu Leon und braucht links und rechts ein Komma; vor dem Nebensatz mit „dass“ steht ebenfalls ein Komma.",
           "criteria": [
-            "1 Punkt: Mittwoch und Nötige beide gross; eine richtige Stelle allein genügt für diesen Punkt nicht.",
+            "1 Punkt: Mittwoch und Nötige beide groß; eine richtige Stelle allein genügt für diesen Punkt nicht.",
             "1 Punkt: beide Kommas um „der neue Schriftführer“.",
             "1 Punkt: Komma vor „dass“ und eine zutreffende Erklärung mindestens einer Kommafunktion. Inhalt bleibt gleich."
           ]
@@ -3136,7 +3216,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Der Aushang und Alex sind erfunden. Wähle nur die Informationen aus, die Alex für seine Fragen braucht. Eine wörtliche Übersetzung ist nicht nötig; eine echte Nachricht wird nicht versendet.",
-      "introduction": "Alex ist 13 und versteht den deutschen Aushang nicht gut. Alex fragt auf Englisch: “What is this event? Can I join? When and where is it? Is it free? I do not have a game. Can I play a game on my tablet there? Do I have to sign up?” Hilf ihm mit den wichtigen Angaben auf Englisch. Sprachhilfe bei Bedarf: youth centre/center = Jugendhaus; board game = Brettspiel; card game = Kartenspiel; reception/front desk = Empfang. Satzanfänge: “You can …”, “You do not need to …”, “Please sign up …”. Du darfst ein zweisprachiges Wörterbuch benutzen. Der Aushang sagt nichts über das blosse Mitbringen eines Tablets. Offene Antworten werden nicht automatisch benotet.",
+      "introduction": "Alex ist 13 und versteht den deutschen Aushang nicht gut. Alex fragt auf Englisch: “What is this event? Can I join? When and where is it? Is it free? I do not have a game. Can I play a game on my tablet there? Do I have to sign up?” Hilf ihm mit den wichtigen Angaben auf Englisch. Sprachhilfe bei Bedarf: youth centre/center = Jugendhaus; board game = Brettspiel; card game = Kartenspiel; reception/front desk = Empfang. Satzanfänge: “You can …”, “You do not need to …”, “Please sign up …”. Du darfst ein zweisprachiges Wörterbuch benutzen. Der Aushang sagt nichts über das bloße Mitbringen eines Tablets. Offene Antworten werden nicht automatisch benotet.",
       "passage": "FIKTIVER AUSHANG · Spielenachmittag im Jugendhaus\nFür Kinder von 11 bis 14 Jahren.\nFreitag, 15:30–17:00 Uhr, Gruppenraum 2 im Jugendhaus.\nDie Teilnahme ist kostenlos.\nDu kannst eigene Brett- oder Kartenspiele mitbringen, musst aber nicht. Elektronische Spiele sind nicht erlaubt.\nEine Anmeldung ist nötig: Melde dich spätestens am Mittwoch um 18:00 Uhr am Empfang des Jugendhauses an. Die Plätze sind begrenzt.",
       "tasks": [
         {
@@ -3158,7 +3238,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "points": 11,
           "writingLines": 10,
           "inputRows": 10,
-          "prompt": "B. Nachricht an Alex (11 Kriterienpunkte): Schreibe wenige freundliche englische Sätze oder klare Stichpunkte, die Alex’ Fragen sinngemäss beantworten. Erfinde keine Adresse, keinen Preis und kein allgemeines Tablet-Verbot. Mit 13 passt Alex zur Altersgruppe; ein Platz ist wegen der Begrenzung nicht sicher.",
+          "prompt": "B. Nachricht an Alex (11 Kriterienpunkte): Schreibe wenige freundliche englische Sätze oder klare Stichpunkte, die Alex’ Fragen sinngemäß beantworten. Erfinde keine Adresse, keinen Preis und kein allgemeines Tablet-Verbot. Mit 13 passt Alex zur Altersgruppe; ein Platz ist wegen der Begrenzung nicht sicher.",
           "sample": "Hi Alex, it is a games afternoon for children aged 11 to 14, so you are old enough to take part. It is on Friday from 3:30 to 5:00 pm in group room 2 at the youth centre. It is free, and you do not need to bring a game. You may bring a board or card game, but you cannot play electronic games there, including a game on your tablet. You need to sign up at the youth centre reception by Wednesday at 6:00 pm because places are limited.",
           "criteria": [
             "1 Punkt: Spielenachmittag als Veranstaltung richtig erklärt.",
@@ -3171,14 +3251,14 @@ window.LOTTE_CATALOG = Object.freeze({
             "1 Punkt: keine elektronischen Spiele, also kein Tablet-Spiel; kein allgemeines Geräteverbot.",
             "1 Punkt: Anmeldung als Pflicht erkannt.",
             "1 Punkt: Anmeldung am Empfang spätestens Mittwoch um 18 Uhr, Ort und Frist zusammen.",
-            "1 Punkt: verständliche englische Mitteilung direkt an Alex; sinngemässe Varianten und kleine Fehler ohne Sinnverlust gelten. Sachfehler nicht doppelt abziehen."
+            "1 Punkt: verständliche englische Mitteilung direkt an Alex; sinngemäße Varianten und kleine Fehler ohne Sinnverlust gelten. Sachfehler nicht doppelt abziehen."
           ]
         }
       ],
       "releaseEvidence": {
         "validFor": "2026/27",
         "gradeBand": "7/8",
-        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. Englisch als erste Fremdsprache, § 2.2.5 PDF-S. 30–31: sinngemässe adressatengerechte Sprachmittlung in vertrauter zweisprachiger Situation als Ziel bis Ende Klasse 8.",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. Englisch als erste Fremdsprache, § 2.2.5 PDF-S. 30–31: sinngemäße adressatengerechte Sprachmittlung in vertrauter zweisprachiger Situation als Ziel bis Ende Klasse 8.",
         "checkedAt": "2026-10-21"
       }
     },
@@ -3189,8 +3269,8 @@ window.LOTTE_CATALOG = Object.freeze({
       "scope": "Freiwillige, stark gestützte Sprachmittlung im 7/8-Rahmen. § 3.2.5 nennt ein Ziel bis Ende Klasse 8; die deutsche Nachricht belegt weder französisches Schreiben noch Sprechen.",
       "levelStatus": "grade78-flex",
       "released": true,
-      "prerequisite": "Der Aushang und Mila sind erfunden. Übertrage nur Milas benötigte Informationen sinngemäss ins Deutsche. Die Wortstütze hilft beim Lesen und ist kein Beleg für selbstständiges französisches Leseverstehen.",
-      "introduction": "Mila versteht den französischen Aushang nicht. Sie fragt auf Deutsch: „Was ist das? Wann und wo kann ich mitmachen? Was brauche ich? Darf mein Hund mitkommen? Kostet es etwas, und muss ich mich anmelden?“ Du brauchst keine wörtliche Übersetzung. Wortstütze bei Bedarf: atelier de dessin = Zeichenwerkstatt; maison des jeunes = Jugendhaus; un crayon = ein Stift; une feuille = ein Blatt Papier; animal vivant = lebendes Tier; gratuite = kostenlos; inscription obligatoire = Anmeldung nötig; jusqu’à mardi inclus = bis einschliesslich Dienstag. Abgeschriebene Wortlisten allein beantworten Milas Fragen nicht. Offene Antworten werden nicht automatisch benotet.",
+      "prerequisite": "Der Aushang und Mila sind erfunden. Übertrage nur Milas benötigte Informationen sinngemäß ins Deutsche. Die Wortstütze hilft beim Lesen und ist kein Beleg für selbstständiges französisches Leseverstehen.",
+      "introduction": "Mila versteht den französischen Aushang nicht. Sie fragt auf Deutsch: „Was ist das? Wann und wo kann ich mitmachen? Was brauche ich? Darf mein Hund mitkommen? Kostet es etwas, und muss ich mich anmelden?“ Du brauchst keine wörtliche Übersetzung. Wortstütze bei Bedarf: atelier de dessin = Zeichenwerkstatt; maison des jeunes = Jugendhaus; un crayon = ein Stift; une feuille = ein Blatt Papier; animal vivant = lebendes Tier; gratuite = kostenlos; inscription obligatoire = Anmeldung nötig; jusqu’à mardi inclus = bis einschließlich Dienstag. Abgeschriebene Wortlisten allein beantworten Milas Fragen nicht. Offene Antworten werden nicht automatisch benotet.",
       "passage": "FIKTIVER AUSHANG · Atelier de dessin : les animaux\nJeudi, de 16 h à 17 h. Salle 4 de la maison des jeunes.\nApportez un crayon et une feuille. N'apportez pas d'animal vivant.\nParticipation gratuite. Inscription obligatoire au bureau jusqu'à mardi inclus.",
       "tasks": [
         {
@@ -3212,7 +3292,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "points": 9,
           "writingLines": 9,
           "inputRows": 9,
-          "prompt": "B. Nachricht an Mila (9 Kriterienpunkte): Schreibe eine kurze natürliche Nachricht auf Deutsch, die ihre Fragen sinngemäss beantwortet. Erfinde keinen Preis und keine Anmeldeadresse. Lebende Tiere dürfen nicht mitkommen; Tierzeichnungen sind nicht verboten.",
+          "prompt": "B. Nachricht an Mila (9 Kriterienpunkte): Schreibe eine kurze natürliche Nachricht auf Deutsch, die ihre Fragen sinngemäß beantwortet. Erfinde keinen Preis und keine Anmeldeadresse. Lebende Tiere dürfen nicht mitkommen; Tierzeichnungen sind nicht verboten.",
           "sample": "Hallo Mila, das ist eine Zeichenwerkstatt zum Thema Tiere. Sie ist am Donnerstag von 16 bis 17 Uhr in Raum 4 des Jugendhauses. Bring einen Stift und ein Blatt Papier mit; einen lebenden Hund darfst du nicht mitbringen. Die Teilnahme ist kostenlos, aber du musst dich spätestens am Dienstag im Büro anmelden.",
           "criteria": [
             "1 Punkt: Zeichenwerkstatt zum Thema Tiere.",
@@ -3222,15 +3302,15 @@ window.LOTTE_CATALOG = Object.freeze({
             "1 Punkt: Stift und Blatt Papier, beides.",
             "1 Punkt: kein lebendes Tier, damit auch kein Hund; kein Verbot von Tierzeichnungen behaupten.",
             "1 Punkt: Teilnahme kostenlos.",
-            "1 Punkt: Anmeldung im Büro bis einschliesslich Dienstag als Pflicht, Ort und Frist zusammen.",
-            "1 Punkt: verständliche deutsche Nachricht an Mila mit sinngemässer Auswahl ohne erfundene Fakten; kleine Fehler ohne Sinnverlust gelten. Sachfehler nicht doppelt abziehen."
+            "1 Punkt: Anmeldung im Büro bis einschließlich Dienstag als Pflicht, Ort und Frist zusammen.",
+            "1 Punkt: verständliche deutsche Nachricht an Mila mit sinngemäßer Auswahl ohne erfundene Fakten; kleine Fehler ohne Sinnverlust gelten. Sachfehler nicht doppelt abziehen."
           ]
         }
       ],
       "releaseEvidence": {
         "validFor": "2026/27",
         "gradeBand": "7/8",
-        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. Französisch als zweite Fremdsprache, § 3.2.5 PDF-S. 63: sinngemässe Übertragung kurzer einfacher Äusserungen in vertrauter zweisprachiger Situation als Ziel bis Ende Klasse 8.",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. Französisch als zweite Fremdsprache, § 3.2.5 PDF-S. 63: sinngemäße Übertragung kurzer einfacher Äußerungen in vertrauter zweisprachiger Situation als Ziel bis Ende Klasse 8.",
         "checkedAt": "2026-10-21"
       }
     },
@@ -3305,17 +3385,17 @@ window.LOTTE_CATALOG = Object.freeze({
       "released": true,
       "prerequisite": "Hilfreich sind Rechteckfläche Länge mal Breite, Umfang als Randlänge und Multiplikation dreier Kantenlängen. Eine Skizze auf kariertem Papier ist erlaubt; die App wertet Zeichnungen nicht automatisch aus.",
       "introduction": "Zwei fiktive Skizzen, keine realen Baupläne. Beim Quader sind alle sechs Seiten geschlossen; Klebelaschen und Materialdicke werden nicht gerechnet. Bei der zweiten Figur wird ein rechteckiges Stück oben aus einem 8 m breiten und 6 m hohen Rechteck herausgenommen. Zeichne dir die Figuren bei Bedarf auf kariertem Papier. Schreibe neben jede Zahl die richtige Einheit. Offene Rechenwege vergleichst du mit Muster und Kriterien; die App vergibt keine automatische Note.",
-      "passage": "Figur A · geschlossener Quader\nLänge 6 cm · Breite 4 cm · Höhe 3 cm.\nGegenüberliegende Flächen sind jeweils gleich gross.\n\nFigur B · rechteckige Fläche mit Einbuchtung\nAusgangsrechteck: 8 m breit und 6 m hoch.\nOben mittig fehlt ein 2 m breites, 2 m tiefes Rechteck.\nAm oberen Rand bleiben links 3 m und rechts 3 m stehen.\nGehe für den Umfang am tatsächlichen Rand entlang: unten 8 m, rechts 6 m, oben rechts 3 m, in die Einbuchtung 2 m hinunter, dort 2 m quer, 2 m hinauf, oben links 3 m, links 6 m hinunter.",
+      "passage": "Figur A · geschlossener Quader\nLänge 6 cm · Breite 4 cm · Höhe 3 cm.\nGegenüberliegende Flächen sind jeweils gleich groß.\n\nFigur B · rechteckige Fläche mit Einbuchtung\nAusgangsrechteck: 8 m breit und 6 m hoch.\nOben mittig fehlt ein 2 m breites, 2 m tiefes Rechteck.\nAm oberen Rand bleiben links 3 m und rechts 3 m stehen.\nGehe für den Umfang am tatsächlichen Rand entlang: unten 8 m, rechts 6 m, oben rechts 3 m, in die Einbuchtung 2 m hinunter, dort 2 m quer, 2 m hinauf, oben links 3 m, links 6 m hinunter.",
       "tasks": [
         {
           "id": "ma-quader-1",
           "kind": "reflection",
           "points": 4,
           "writingLines": 7,
-          "prompt": "Quader-Oberfläche (4 Kriterienpunkte): Nenne die drei verschiedenen Rechteckgrössen auf Figur A, erkläre, warum jede zweimal vorkommt, und berechne die gesamte Oberfläche mit Einheit.",
-          "sample": "Die Flächenpaare sind 6·4 = 24 cm², 6·3 = 18 cm² und 4·3 = 12 cm². Vorder- und Rückseite, oben und unten sowie die beiden Seiten sind jeweils gleich gross. Insgesamt O = 2·(24+18+12) = 108 cm².",
+          "prompt": "Quader-Oberfläche (4 Kriterienpunkte): Nenne die drei verschiedenen Rechteckgrößen auf Figur A, erkläre, warum jede zweimal vorkommt, und berechne die gesamte Oberfläche mit Einheit.",
+          "sample": "Die Flächenpaare sind 6·4 = 24 cm², 6·3 = 18 cm² und 4·3 = 12 cm². Vorder- und Rückseite, oben und unten sowie die beiden Seiten sind jeweils gleich groß. Insgesamt O = 2·(24+18+12) = 108 cm².",
           "criteria": [
-            "1 Punkt: 6×4, 6×3 und 4×3 als drei Flächengrössen richtig zugeordnet.",
+            "1 Punkt: 6×4, 6×3 und 4×3 als drei Flächengrößen richtig zugeordnet.",
             "1 Punkt: 24, 18 und 12 cm² richtig berechnet.",
             "1 Punkt: je zwei gegenüberliegende Flächen für den geschlossenen Quader berücksichtigt.",
             "1 Punkt: Summe 108 cm² mit Flächeneinheit; gleichwertige Reihenfolge gilt."
@@ -3327,7 +3407,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "points": 3,
           "writingLines": 6,
           "prompt": "Quader-Volumen (3 Kriterienpunkte): Berechne, wie viele Kubikzentimeter in Figur A passen. Erkläre mit einem Satz, warum das Ergebnis cm³ und die Oberfläche aus Aufgabe 1 cm² trägt.",
-          "sample": "V = 6 cm · 4 cm · 3 cm = 72 cm³. Das Volumen zählt Rauminhalt in Kubikzentimetern; die Oberfläche misst die sechs äusseren Flächen in Quadratzentimetern.",
+          "sample": "V = 6 cm · 4 cm · 3 cm = 72 cm³. Das Volumen zählt Rauminhalt in Kubikzentimetern; die Oberfläche misst die sechs äußeren Flächen in Quadratzentimetern.",
           "criteria": [
             "1 Punkt: 6·4·3 als passende Rechnung.",
             "1 Punkt: Ergebnis 72 cm³.",
@@ -3346,7 +3426,7 @@ window.LOTTE_CATALOG = Object.freeze({
             "1 Punkt: Ausgangsfläche 48 m² und entnommene Fläche 4 m² richtig.",
             "1 Punkt: verbleibende Fläche 44 m² mit Einheit.",
             "1 Punkt: alle tatsächlichen Randstücke ergeben 32 m mit Längeneinheit.",
-            "1 Punkt: die zusätzlichen zwei 2-m-Tiefenkanten erklären die 4 m Unterschied zum ursprünglichen Umfang; sinngemässe Beschreibung gilt."
+            "1 Punkt: die zusätzlichen zwei 2-m-Tiefenkanten erklären die 4 m Unterschied zum ursprünglichen Umfang; sinngemäße Beschreibung gilt."
           ]
         }
       ],
@@ -3705,13 +3785,13 @@ window.LOTTE_CATALOG = Object.freeze({
           "kind": "reflection",
           "points": 5,
           "writingLines": 8,
-          "prompt": "C. Prüfen und verbessern (5 Kriterienpunkte): Vergleiche die erste und eine überarbeitete gespeicherte Fassung. Nenne eine konkrete Änderung und ihren Nutzen. Was siehst du bei schmalem und breitem Fenster? Bleiben Zeit und Ort auch ohne Farbe lesbar? Warum kann reiner Bildtext beim Vergrössern oder Vorlesen schwieriger sein?",
+          "prompt": "C. Prüfen und verbessern (5 Kriterienpunkte): Vergleiche die erste und eine überarbeitete gespeicherte Fassung. Nenne eine konkrete Änderung und ihren Nutzen. Was siehst du bei schmalem und breitem Fenster? Bleiben Zeit und Ort auch ohne Farbe lesbar? Warum kann reiner Bildtext beim Vergrößern oder Vorlesen schwieriger sein?",
           "sample": "In der ersten Fassung stand die Einladung vor Zeit und Ort; in der zweiten wähle ich Zeit und Ort zuerst, damit der Termin schneller zu finden ist. Beide Fenster zeigen die Angaben als Text ohne Überlagerung. Die Farbe hilft nur bei der Ordnung; „Mittwoch“ und „Raum A4“ stehen ausgeschrieben. Bildtext kann beim Zoomen unscharf sein oder ohne Textalternative nicht sinnvoll vorgelesen werden. Eine echte Revision braucht zwei eigene Fassungen; diese Beschreibung ist nur ein Muster.",
           "criteria": [
             "2 Punkte: schmale und breite Sicht tatsächlich geprüft und je ein konkreter Befund oder eine klare Grenze genannt.",
             "1 Punkt: Zeit/Ort und weitere Fakten ohne Farbsignal lesbar erkannt oder korrigiert.",
             "1 Punkt: konkrete Verbesserung gegenüber erster Fassung mit Nutzen und zwei Fassungen nachvollziehbar.",
-            "1 Punkt: Grenze von reinem Bildtext beim Vergrössern oder Vorlesen richtig erklärt; keine pauschale Behauptung, alle PDFs seien unzugänglich."
+            "1 Punkt: Grenze von reinem Bildtext beim Vergrößern oder Vorlesen richtig erklärt; keine pauschale Behauptung, alle PDFs seien unzugänglich."
           ]
         },
         {
@@ -3720,13 +3800,13 @@ window.LOTTE_CATALOG = Object.freeze({
           "points": 6,
           "writingLines": 8,
           "prompt": "D. Datei und Technik (6 Kriterienpunkte): Was ist das Format deiner Datei und wofür steht UTF-8 im Kopf? Notiere die Bytezahl deiner neuen Fassung. Wozu könnte ZIP dienen und warum ist es nicht direkt die Lesefassung? Braucht diese ruhende Karte Streaming? Begründe eine Grenze, wenn man sie nur als Bilddatei speichern würde.",
-          "sample": "Meine Datei ist HTML; die tatsächliche Bytezahl lese ich in der Werkstatt für meine zweite Fassung ab. meta charset=\"utf-8\" benennt die Zeichencodierung für Umlaute. ZIP kann Dateien komprimiert verpacken, muss zum direkten Lesen meist erst entpackt werden. Eine ruhende Textkarte braucht kein Audio- oder Videostreaming. Ein Bild könnte lesbaren, vergrösserbaren Text und Struktur verlieren; die genaue Wirkung hängt vom Format und der Umsetzung ab.",
+          "sample": "Meine Datei ist HTML; die tatsächliche Bytezahl lese ich in der Werkstatt für meine zweite Fassung ab. meta charset=\"utf-8\" benennt die Zeichencodierung für Umlaute. ZIP kann Dateien komprimiert verpacken, muss zum direkten Lesen meist erst entpackt werden. Eine ruhende Textkarte braucht kein Audio- oder Videostreaming. Ein Bild könnte lesbaren, vergrößerbaren Text und Struktur verlieren; die genaue Wirkung hängt vom Format und der Umsetzung ab.",
           "criteria": [
             "2 Punkte: HTML als eigenes Format und UTF-8 als Zeichencodierung richtig erklärt (je 1).",
             "1 Punkt: Bytezahl der eigenen neuen Datei tatsächlich ermittelt, nicht aus der Musterkarte übernommen.",
             "1 Punkt: ZIP-Zweck und Grenze als direkte Lesefassung erklärt; ein ZIP-Export ist nicht Pflicht.",
             "1 Punkt: Streaming für eine ruhende Textkarte zutreffend abgelehnt und begründet.",
-            "1 Punkt: konkrete Grenze eines blossen Bildformats oder eine gleichwertige Formatabwägung."
+            "1 Punkt: konkrete Grenze eines bloßen Bildformats oder eine gleichwertige Formatabwägung."
           ]
         },
         {
@@ -3735,7 +3815,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "points": 6,
           "writingLines": 9,
           "prompt": "E. Reichweite und Verantwortung (6 Kriterienpunkte): Vergleiche nur gedanklich lokal zeigen, einen schulisch vorgesehenen internen Bereich und öffentliches Web. Nenne je Reichweite, Nutzen und eine Prüfung vor echter Weitergabe. Welcher Weg wäre für diese fiktive Zielgruppe passend? Prüfe an deiner Karte fremdes Material und echte Daten. Welche Wirkung hat der Satz über ein optionales Buch? Nichts hochladen.",
-          "sample": "Lokal zeigen erreicht wenige und eignet sich zum Prüfen; zuvor die Lesbarkeit kontrollieren. Ein schulisch vorgesehener interner Bereich erreicht die Zielgruppe besser, braucht aber Schulfreigabe sowie Material- und Zugänglichkeitsprüfung. Öffentliches Web wäre für die fiktive interne Einladung unnötig weitreichend und verlangte vor einer realen Freigabe weitere Prüfungen. Meine Karte nutzt nur eigene Formulierungen und erfundene Angaben. Der Hinweis, dass man ohne Buch zuhören darf, schliesst niemanden wegen eines fehlenden Buchs aus.",
+          "sample": "Lokal zeigen erreicht wenige und eignet sich zum Prüfen; zuvor die Lesbarkeit kontrollieren. Ein schulisch vorgesehener interner Bereich erreicht die Zielgruppe besser, braucht aber Schulfreigabe sowie Material- und Zugänglichkeitsprüfung. Öffentliches Web wäre für die fiktive interne Einladung unnötig weitreichend und verlangte vor einer realen Freigabe weitere Prüfungen. Meine Karte nutzt nur eigene Formulierungen und erfundene Angaben. Der Hinweis, dass man ohne Buch zuhören darf, schließt niemanden wegen eines fehlenden Buchs aus.",
           "criteria": [
             "3 Punkte: alle drei gedachten Wege mit Reichweite, Nutzen und mindestens einer passenden Prüfung verglichen (je 1).",
             "1 Punkt: begründete Wahl passend zur fiktiven Zielgruppe, ohne eine echte Veröffentlichung auszuführen.",
@@ -3759,7 +3839,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "levelStatus": "grade8-outlook",
       "released": true,
       "prerequisite": "Die ganze Plattform SimuNet ist erfunden. Es gibt kein Konto, keine echten Profile, keine Anmeldung und keinen Upload. Verwende keinen echten Namen, Ort, Kontakt, Bild oder eigenen Medienbericht. Du entscheidest nur anhand der vorgegebenen Schalter.",
-      "introduction": "Eine erfundene Jugendliche möchte in einer erfundenen Hobbygruppe eine selbst gezeichnete Fantasieinsel zeigen und nach Farben fragen. Auf der Zeichnung sind keine Menschen, echten Orte, Schulnamen oder persönlichen Merkmale. Du spielst die Entscheidung nur gedanklich durch; lade nichts hoch und ändere keine wirklichen Geräte- oder Kontoeinstellungen. Du darfst auch entscheiden, gar nichts online zu teilen und direkt um Rückmeldung zu bitten. Beurteile dann trotzdem die sieben hypothetischen Schalter. „Wähle“ heisst passend entscheiden, „begründe“ heisst Wahl und Grund verbinden, „beurteile“ heisst Nutzen, Grenzen und Urteil abwägen. Freie Antworten werden nicht automatisch benotet.",
+      "introduction": "Eine erfundene Jugendliche möchte in einer erfundenen Hobbygruppe eine selbst gezeichnete Fantasieinsel zeigen und nach Farben fragen. Auf der Zeichnung sind keine Menschen, echten Orte, Schulnamen oder persönlichen Merkmale. Du spielst die Entscheidung nur gedanklich durch; lade nichts hoch und ändere keine wirklichen Geräte- oder Kontoeinstellungen. Du darfst auch entscheiden, gar nichts online zu teilen und direkt um Rückmeldung zu bitten. Beurteile dann trotzdem die sieben hypothetischen Schalter. „Wähle“ heißt passend entscheiden, „begründe“ heißt Wahl und Grund verbinden, „beurteile“ heißt Nutzen, Grenzen und Urteil abwägen. Freie Antworten werden nicht automatisch benotet.",
       "passage": "FIKTIVER EINSTELLUNGSBILDSCHIRM · SimuNet\n1 Anzeigename: voller echter Name ODER erlaubter Fantasiename „Kartenfuchs“. Ein Anzeigename ist für einen Beitrag nötig.\n2 Profilbild: eigenes Gesichtsbild ODER kein Profilbild. Das Feld ist freiwillig.\n3 Ort: Wohnort und genauer Standort ODER leer lassen. Das Feld ist freiwillig.\n4 Kontakte: Geräteadressbuch freigeben ODER nicht freigeben. Die Freigabe ist freiwillig.\n5 Sichtbarkeit: alle Nutzenden ODER nur die fiktive Hobbygruppe. Gruppenmitglieder können den Beitrag sehen und weitergeben; SimuNet verarbeitet ihn weiterhin.\n6 Personalisierte Anzeigen: einschalten ODER ausschalten. Bei „ein“ nutzt SimuNet in dieser Simulation angesehene Themen und Klicks für Werbeprofile. „Aus“ verhindert hier nur diese Anzeigenanpassung; technische Nutzungsdaten können weiter anfallen.\n7 Inhalt: nur Fantasieinsel und Farbfrage ODER zusätzlich persönlicher Alltag und echte Orte. Für das Ziel genügt die Fantasieinsel mit der Frage.\n\nFIKTIVER FEED · Nach drei angesehenen Beiträgen über Zeichenstifte erscheint: „Gesponsert: Wir kennen deinen Geschmack! Schalte Standort, Kontakte und öffentliche Sichtbarkeit ein – dann werden deine Empfehlungen perfekt und alle finden dein Bild.“ Das ist Werbetext im erfundenen Fall und kein belegtes Versprechen einer realen Plattform.",
       "tasks": [
         {
@@ -3768,7 +3848,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "points": 7,
           "writingLines": 10,
           "inputRows": 10,
-          "prompt": "A. Sieben Entscheidungen (7 Kriterienpunkte): Wähle für jedes nummerierte Feld 1–7 eine Einstellung, die das Ziel mit möglichst wenigen persönlichen Angaben erreicht. Schreibe z. B. „1 …; 2 …“. Wenn du gar nichts online posten möchtest, nenne das als Alternative und gib zusätzlich an, welche sieben SimuNet-Einstellungen du nur hypothetisch wählen würdest. Verwende ausschliesslich die fiktiven Vorgaben.",
+          "prompt": "A. Sieben Entscheidungen (7 Kriterienpunkte): Wähle für jedes nummerierte Feld 1–7 eine Einstellung, die das Ziel mit möglichst wenigen persönlichen Angaben erreicht. Schreibe z. B. „1 …; 2 …“. Wenn du gar nichts online posten möchtest, nenne das als Alternative und gib zusätzlich an, welche sieben SimuNet-Einstellungen du nur hypothetisch wählen würdest. Verwende ausschließlich die fiktiven Vorgaben.",
           "sample": "Ich könnte die Fantasieinsel lieber direkt zeigen und gar nichts online posten. Falls ich die fiktive Plattform für dieses Ziel dennoch verwenden würde: 1 Kartenfuchs; 2 kein Gesichtsbild; 3 Ort leer; 4 kein Adressbuchzugriff; 5 nur Hobbygruppe; 6 personalisierte Anzeigen aus; 7 nur Fantasieinsel und Farbfrage. Für einen SimuNet-Beitrag sind hier nur Anzeigename und Beitrag nötig.",
           "criteria": [
             "1 Punkt: Fantasiename „Kartenfuchs“ statt echter Name.",
@@ -3806,7 +3886,7 @@ window.LOTTE_CATALOG = Object.freeze({
             "1 Punkt: angesehene Stiftbeiträge oder Klicks als mögliche Datenspur.",
             "1 Punkt: Bezug zu Werbeprofil oder datenbasiertem Geschäftsmodell.",
             "1 Punkt: möglicher Nutzen passender Hinweise für das Hobby.",
-            "1 Punkt: zwei begründete Grenzen/Risiken zusammen, etwa unbelegte „perfekte“ Empfehlung plus unnötige Datenfreigabe oder grössere Öffentlichkeit.",
+            "1 Punkt: zwei begründete Grenzen/Risiken zusammen, etwa unbelegte „perfekte“ Empfehlung plus unnötige Datenfreigabe oder größere Öffentlichkeit.",
             "1 Punkt: zum Ziel passende begründete Handlungsoption. Offline-Rückfrage ist zulässig. „Anzeigen aus“ bedeutet nicht automatisch keine Datenverarbeitung."
           ]
         }
@@ -3826,14 +3906,14 @@ window.LOTTE_CATALOG = Object.freeze({
       "levelStatus": "grade8-outlook",
       "released": true,
       "prerequisite": "Du brauchst nur die Regeln in diesem Thema. Sensor = Messgerät; Aktor = Teil, das etwas bewegt. Öffne das lokale Lüfterlabor und baue dort deine Regelkarten. Verbinde keine echte Schaltung. Die Temperaturgrenzen sind erfundene Übungswerte.",
-      "introduction": "Eine Modell-AG entwirft einen fiktiven Lüfter. Der gedachte Sensor meldet eine Temperatur in °C oder „kein Wert“. Der Lüfter startet AUS. Bei 28 °C oder mehr soll er AN werden; bei 25 °C oder weniger AUS. Dazwischen behält er den Zustand unmittelbar vor diesem Schritt. Nur Werte von −10 bis 50 °C einschliesslich sind gültig. Ein fehlender oder ungültiger Wert führt zu AUS und zur Warnung „Sensorwert ungültig – prüfen“. Diese zwei Schaltgrenzen verhindern dauerndes Hin und Her. Öffne das Lüfterlabor, setze die Regelkarten selbst und starte den Test. Die App kann deine Laborbedienung nicht beobachten oder automatisch benoten; notiere deshalb deine Schritte und Beobachtungen. Keine echte Schaltung bauen.",
+      "introduction": "Eine Modell-AG entwirft einen fiktiven Lüfter. Der gedachte Sensor meldet eine Temperatur in °C oder „kein Wert“. Der Lüfter startet AUS. Bei 28 °C oder mehr soll er AN werden; bei 25 °C oder weniger AUS. Dazwischen behält er den Zustand unmittelbar vor diesem Schritt. Nur Werte von −10 bis 50 °C einschließlich sind gültig. Ein fehlender oder ungültiger Wert führt zu AUS und zur Warnung „Sensorwert ungültig – prüfen“. Diese zwei Schaltgrenzen verhindern dauerndes Hin und Her. Öffne das Lüfterlabor, setze die Regelkarten selbst und starte den Test. Die App kann deine Laborbedienung nicht beobachten oder automatisch benoten; notiere deshalb deine Schritte und Beobachtungen. Keine echte Schaltung bauen.",
       "passage": "TESTFOLGE · 24, 28, 27, 26, 25, 26, kein Wert, 30, 51, 27 °C. Beginne bei AUS. Für jeden Wert gilt der Zustand nach dem vorigen Schritt als „davor“. Die zwei Fehlerwerte sind „kein Wert“ und 51 °C. Ein angezeigter AN-Befehl beweist noch keine wirkliche Lüfterbewegung.",
       "lab": {
         "path": "assets/mbi-luefterregler.html",
         "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/mbi-luefterregler.html",
         "title": "Lüfterlabor",
         "description": "Baue in einem neuen Tab vier sichtbare Regelkarten und teste die fiktive Zehn-Schritt-Folge. Kehre für deine Erklärungen in den Lernatlas zurück. Das Labor speichert nichts dauerhaft und steuert kein Gerät.",
-        "printNote": "Die Regelkarten und der Test laufen nur im Browser. Das Blatt allein belegt keine eigene Bedienung. Keine echte Schaltung anschliessen."
+        "printNote": "Die Regelkarten und der Test laufen nur im Browser. Das Blatt allein belegt keine eigene Bedienung. Keine echte Schaltung anschließen."
       },
       "tasks": [
         {
@@ -3858,10 +3938,10 @@ window.LOTTE_CATALOG = Object.freeze({
           "writingLines": 10,
           "inputRows": 10,
           "prompt": "B. Regelkarten bauen (7 Kriterienpunkte): Baue im Lüfterlabor alle vier Karten. Teste die Zehn-Schritt-Folge. Notiere deine Werte/Schalter für Fehler, obere Grenze, untere Grenze und Zwischenbereich. Zeichne zusätzlich ein kleines Ablaufbild mit den vier Pfaden Fehler, AN, AUS, Beibehalten oder beschreibe die Verzweigung eindeutig in Worten. Falls das Labor nicht öffnet, plane dieselben Regeln ausdrücklich nur auf Papier; kennzeichne die nicht ausgeführte Bedienung.",
-          "sample": "Fehlerkarte: AUS mit sichtbarer Warnung für fehlende/nicht endliche oder ausserhalb −10 bis 50 °C liegende Werte. Obere Karte: ≥28 °C → AN. Untere Karte: ≤25 °C → AUS. Sonst: vorherigen Zustand beibehalten. Reihenfolge: erst Gültigkeit, dann obere, dann untere Grenze, sonst Halten; danach Zustand und Status ausgeben und den Zustand für den nächsten Schritt merken. Im Browser ergaben sich 10/10 passende Schritte; dieses Ergebnis allein wäre durch Bedienprotokoll zu belegen.",
+          "sample": "Fehlerkarte: AUS mit sichtbarer Warnung für fehlende/nicht endliche oder außerhalb −10 bis 50 °C liegende Werte. Obere Karte: ≥28 °C → AN. Untere Karte: ≤25 °C → AUS. Sonst: vorherigen Zustand beibehalten. Reihenfolge: erst Gültigkeit, dann obere, dann untere Grenze, sonst Halten; danach Zustand und Status ausgeben und den Zustand für den nächsten Schritt merken. Im Browser ergaben sich 10/10 passende Schritte; dieses Ergebnis allein wäre durch Bedienprotokoll zu belegen.",
           "criteria": [
             "1 Punkt: Fehlerwert zuerst und sicherer Übungsausgang AUS.",
-            "1 Punkt: gültiger Bereich −10 bis 50 °C einschliesslich und sichtbare Warnung.",
+            "1 Punkt: gültiger Bereich −10 bis 50 °C einschließlich und sichtbare Warnung.",
             "1 Punkt: obere Regel ≥28 °C führt zu AN.",
             "1 Punkt: untere Regel ≤25 °C führt zu AUS.",
             "1 Punkt: Zwischenbereich übernimmt den Zustand direkt vor diesem Schritt.",
@@ -3899,7 +3979,7 @@ window.LOTTE_CATALOG = Object.freeze({
             "1 Punkt: Schritt 3 als erster gültiger Fehler.",
             "1 Punkt: fehlende Halteregel erklärt.",
             "1 Punkt: beide 27-°C-Tests mit verschiedenen Vorzuständen und Ergebnissen.",
-            "1 Punkt: fehlender oder ausserhalb des Bereichs liegender Wert als konkreter Test für AUS plus Warnung."
+            "1 Punkt: fehlender oder außerhalb des Bereichs liegender Wert als konkreter Test für AUS plus Warnung."
           ]
         },
         {
@@ -4144,7 +4224,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "de-eigene-ganzschrift-arbeitsweg",
       "subjectId": "de",
       "title": "Dein erzählendes Buch ganz lesen und verstehen",
-      "scope": "Freiwilliger Arbeitsweg zu einem tatsächlich gewählten erzählenden Kinder- oder Jugendbuch. Die jährliche Klasse-7-Ganzschrift ist eine Unterrichtsanforderung; die App weiss weder, welches Buch die Schule wählt, noch ob es ganz gelesen und im Unterricht behandelt wurde. Für anders aufgebaute Werke braucht es einen anderen Arbeitsweg.",
+      "scope": "Freiwilliger Arbeitsweg zu einem tatsächlich gewählten erzählenden Kinder- oder Jugendbuch. Die jährliche Klasse-7-Ganzschrift ist eine Unterrichtsanforderung; die App weiß weder, welches Buch die Schule wählt, noch ob es ganz gelesen und im Unterricht behandelt wurde. Für anders aufgebaute Werke braucht es einen anderen Arbeitsweg.",
       "levelStatus": "grade7",
       "released": true,
       "prerequisite": "Du brauchst ein vollständiges Buch und deine Ausgabe zum Nachschlagen. Du kannst mit dem ersten Teil beginnen. Fragen zum ganzen Werk bearbeitest du erst nach der vollständigen Lektüre. Die App kennt dein Buch nicht und kann deine Angaben nicht automatisch prüfen.",
@@ -4157,11 +4237,11 @@ window.LOTTE_CATALOG = Object.freeze({
           "points": 2,
           "writingLines": 6,
           "inputRows": 5,
-          "prompt": "A. Buch und Lesestand (2 Kriterienpunkte): Nenne Titel, Autorin oder Autor und deine Ausgabe so, dass eine erwachsene Person dieselben Stellen finden kann. Schreibe, was du wirklich gelesen hast. Weisst du, ob die Schule genau dieses Buch im Unterricht behandelt? „Weiss ich nicht“ ist erlaubt.",
+          "prompt": "A. Buch und Lesestand (2 Kriterienpunkte): Nenne Titel, Autorin oder Autor und deine Ausgabe so, dass eine erwachsene Person dieselben Stellen finden kann. Schreibe, was du wirklich gelesen hast. Weißt du, ob die Schule genau dieses Buch im Unterricht behandelt? „Weiß ich nicht“ ist erlaubt.",
           "sample": "Johanna Spyri, Heidis Lehr- und Wanderjahre, digitale Ausgabe Project Gutenberg 7500 mit 14 Kapiteln; gelesen: Kapitel 1–14. Ob die Schule gerade dieses Werk behandelt, ist unbekannt. Für dein Buch müssen Titel, Ausgabe und Lesestand anders lauten.",
           "criteria": [
             "1 Punkt: Titel, Autorin/Autor und Ausgabe ermöglichen einen überprüfbaren Textabgleich; eine ungenaue Seitenzahl ohne Ausgabe reicht nicht.",
-            "1 Punkt: wirklicher Lesestand klar benannt und schulische Behandlung getrennt als belegt, unbelegt oder unbekannt markiert. „Weiss ich nicht“ ist kein Fehler."
+            "1 Punkt: wirklicher Lesestand klar benannt und schulische Behandlung getrennt als belegt, unbelegt oder unbekannt markiert. „Weiß ich nicht“ ist kein Fehler."
           ]
         },
         {
@@ -4172,7 +4252,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "writingLines": 11,
           "inputRows": 12,
           "prompt": "B. Drei Fundstellen (9 Kriterienpunkte bei vollständiger Lektüre): Wähle eine Leitfrage zu einer Figur, Beziehung oder einem Konflikt. Notiere aus Anfang, Mitte und Schluss je eine andere konkrete Handlung oder Beobachtung, die Fundstelle aus deiner Ausgabe und eine vorsichtige Erklärung. Ohne Kapitel kannst du eine eindeutig benannte Szene verwenden. Noch ungelesene Bereiche markierst du ehrlich als „noch nicht gelesen“ und ergänzt sie später.",
-          "sample": "Leitfrage „Wie verändert sich Zugehörigkeit?“ Anfang, Kap. 2: Heidi erlebt mit dem Grossvater einen gemeinsamen Alltag; das begrenzt die Warnungen des Dorfes. Mitte, Kap. 5 und 10–12: In Frankfurt entstehen Beziehungen zu Klara und Grossmama, aber Heidi hat Heimweh. Schluss, Kap. 14: Heidi liest Peters Grossmutter vor; nach der Rückkehr verändern sich Beziehungen erneut. Andere Bücher brauchen eigene überprüfte Stellen.",
+          "sample": "Leitfrage „Wie verändert sich Zugehörigkeit?“ Anfang, Kap. 2: Heidi erlebt mit dem Großvater einen gemeinsamen Alltag; das begrenzt die Warnungen des Dorfes. Mitte, Kap. 5 und 10–12: In Frankfurt entstehen Beziehungen zu Klara und Großmama, aber Heidi hat Heimweh. Schluss, Kap. 14: Heidi liest Peters Großmutter vor; nach der Rückkehr verändern sich Beziehungen erneut. Andere Bücher brauchen eigene überprüfte Stellen.",
           "criteria": [
             "Je 1 Punkt für eine im gewählten Buch zutreffende konkrete Handlung oder Beobachtung aus Anfang, Mitte und Schluss (3).",
             "Je 1 Punkt für eine in derselben Ausgabe auffindbare Kapitel-, Seiten- oder Szenenangabe (3).",
@@ -4186,8 +4266,8 @@ window.LOTTE_CATALOG = Object.freeze({
           "points": 8,
           "writingLines": 22,
           "inputRows": 16,
-          "prompt": "C. Zusammenhang im ganzen Werk (8 Kriterienpunkte, erst nach vollständiger Lektüre): Erkläre, was sich zwischen Anfang und Schluss verändert oder gleich bleibt. Verknüpfe mindestens drei verschiedene Stellen aus Anfang, Mitte und Schluss durch eine Ursache, Entscheidung oder Beziehung. Beziehe eine weitere Person oder Perspektive ein, unterscheide Textbeobachtung und eigene Deutung und schliesse mit einer begrenzten Aussage. Die Wortzahl allein entscheidet nicht.",
-          "sample": "Dete bringt Heidi zum Grossvater (Kap. 1), mit dem sie einen Alltag aufbaut (Kap. 2). Nach dem Weggang nach Frankfurt (Kap. 5) helfen ihr Klara und Grossmama, doch das Heimweh wächst; der Arzt rät zur Rückkehr (Kap. 10–12). Zurück auf der Alm liest Heidi Peters Grossmutter vor, und der Grossvater sucht Dorfkontakt (Kap. 14). Das lässt eine veränderte Zugehörigkeit vermuten. Ob damit jeder spätere Konflikt gelöst ist, sagt der Text nicht. Für ein anderes Buch zählt nur ein am Werk überprüfbarer eigener Zusammenhang.",
+          "prompt": "C. Zusammenhang im ganzen Werk (8 Kriterienpunkte, erst nach vollständiger Lektüre): Erkläre, was sich zwischen Anfang und Schluss verändert oder gleich bleibt. Verknüpfe mindestens drei verschiedene Stellen aus Anfang, Mitte und Schluss durch eine Ursache, Entscheidung oder Beziehung. Beziehe eine weitere Person oder Perspektive ein, unterscheide Textbeobachtung und eigene Deutung und schließe mit einer begrenzten Aussage. Die Wortzahl allein entscheidet nicht.",
+          "sample": "Dete bringt Heidi zum Großvater (Kap. 1), mit dem sie einen Alltag aufbaut (Kap. 2). Nach dem Weggang nach Frankfurt (Kap. 5) helfen ihr Klara und Großmama, doch das Heimweh wächst; der Arzt rät zur Rückkehr (Kap. 10–12). Zurück auf der Alm liest Heidi Peters Großmutter vor, und der Großvater sucht Dorfkontakt (Kap. 14). Das lässt eine veränderte Zugehörigkeit vermuten. Ob damit jeder spätere Konflikt gelöst ist, sagt der Text nicht. Für ein anderes Buch zählt nur ein am Werk überprüfbarer eigener Zusammenhang.",
           "criteria": [
             "Je 1 Punkt für sachlich passende, auffindbare Fundstellen aus Anfang, Mitte und Schluss (3).",
             "1 Punkt: eine konkrete Veränderung oder begründete Konstanz benannt.",
@@ -4205,7 +4285,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "writingLines": 12,
           "inputRows": 10,
           "prompt": "D. Eine Deutung prüfen (5 Kriterienpunkte, erst nach vollständiger Lektüre): Formuliere eine zunächst plausible, aber vielleicht zu allgemeine Aussage über eine Figur oder einen Konflikt. Zeige mit einer Stelle, was sie stützt, und mit einer anderen Stelle, was sie begrenzt. Nenne beide Fundstellen und formuliere ein genaueres Urteil.",
-          "sample": "„Frankfurt ist nur schlecht und die Alm nur gut“ wirkt durch Heidis Heimweh in Frankfurt plausibel (Kap. 11–12). Klaras Freundschaft und die Hilfe der Grossmama begrenzen das „nur schlecht“ (etwa Kap. 10). Die frühen Warnungen und Spannungen um den Grossvater (Kap. 1 und 5) begrenzen auch „Alm nur gut“. Die Alm wird für Heidi ein wichtiges Zuhause, aber beide Orte sind keine pauschalen Charakterurteile. Für dein Buch muss die Ausgangsaussage aus deinen eigenen Szenen überprüft werden.",
+          "sample": "„Frankfurt ist nur schlecht und die Alm nur gut“ wirkt durch Heidis Heimweh in Frankfurt plausibel (Kap. 11–12). Klaras Freundschaft und die Hilfe der Großmama begrenzen das „nur schlecht“ (etwa Kap. 10). Die frühen Warnungen und Spannungen um den Großvater (Kap. 1 und 5) begrenzen auch „Alm nur gut“. Die Alm wird für Heidi ein wichtiges Zuhause, aber beide Orte sind keine pauschalen Charakterurteile. Für dein Buch muss die Ausgangsaussage aus deinen eigenen Szenen überprüft werden.",
           "criteria": [
             "1 Punkt: eine am gewählten Werk prüfbare Ausgangsdeutung.",
             "1 Punkt: ein passender stützender Befund.",
@@ -4231,7 +4311,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "released": true,
       "prerequisite": "Du brauchst eine zweite Person für Rolle B. Sie liest ihre verdeckte Karte selbst im Erwachsenenbereich; du siehst zuerst nur Karte A. Sprich miteinander statt einen fertigen Dialog abzulesen. Ohne Gespräch bleibt die mündliche Übung „nicht erhoben“.",
       "introduction": "Ihr plant einen erfundenen 30-minütigen Lesetreff in der Mondtal-Bibliothek. Eine zweite Person kennt Angaben, die nicht auf deiner Karte stehen. Erfrage sie, höre zu und reagiere auf einen Einwand. Ein anderer begründeter Plan ist möglich, wenn er zu allen im Gespräch bekannt gewordenen Bedingungen passt. Schreibe keine echten Namen oder Schuldaten hinein.",
-      "passage": "DEINE ROLLENKARTE A\nSechs Personen möchten teilnehmen. Du hast sechs selbst geschriebene Empfehlungskarten dabei.\nZur Wahl stehen Dienstag oder Donnerstag, jeweils 15:30–16:00 Uhr. Du selbst kannst an beiden Tagen.\nDu schlägst vor: zehn Minuten still lesen und danach zwanzig Minuten Empfehlungen austauschen. Erkläre, warum dir ein ruhiger Anfang wichtig ist. Die Reihenfolge ist verhandelbar.\nDu weisst noch nicht, wann der Leseraum frei ist, ob ein Aushang fertig ist und was Rolle B am Ablauf wichtig findet.\n\nSatzhilfen: „Ich schlage ... vor, weil ...“ · „Ist der Raum dann frei?“ · „Du meinst also, dass ...?“ · „Wir könnten ...“ · „Wir halten fest: ...“",
+      "passage": "DEINE ROLLENKARTE A\nSechs Personen möchten teilnehmen. Du hast sechs selbst geschriebene Empfehlungskarten dabei.\nZur Wahl stehen Dienstag oder Donnerstag, jeweils 15:30–16:00 Uhr. Du selbst kannst an beiden Tagen.\nDu schlägst vor: zehn Minuten still lesen und danach zwanzig Minuten Empfehlungen austauschen. Erkläre, warum dir ein ruhiger Anfang wichtig ist. Die Reihenfolge ist verhandelbar.\nDu weißt noch nicht, wann der Leseraum frei ist, ob ein Aushang fertig ist und was Rolle B am Ablauf wichtig findet.\n\nSatzhilfen: „Ich schlage ... vor, weil ...“ · „Ist der Raum dann frei?“ · „Du meinst also, dass ...?“ · „Wir könnten ...“ · „Wir halten fest: ...“",
       "tasks": [
         {
           "id": "de-lesetreff-dialog-1",
@@ -4258,7 +4338,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "prompt": "B. Nur nach einem wirklichen Gespräch (5 schriftliche Sachpunkte): Notiere den vereinbarten Tag, die Zeit, den Ort und einen machbaren Ablauf. Passen die Plätze für alle sechs Personen? Schreibe einen Einwand von B und deine Antwort dazu auf. Was ist über den Aushang sicher, und was bleibt offen? Ohne zweite Person und Gespräch lasse dieses Feld leer; rate nicht, was auf Karte B steht.",
           "sample": "Eine mögliche Einigung: Donnerstag 15:30–16:00 Uhr im Leseraum, sechs Plätze für sechs Personen. Zuerst zehn Minuten still lesen, danach zwanzig Minuten Empfehlungen austauschen (10 + 20 = 30). B hatte Sorge, dass zu wenig Austauschzeit bleibt; A begründete die ruhige Anfangszeit und B stimmte zu. Papier und Stifte sind da, ein handschriftlicher Hinweis kann vorbereitet werden; ein gedruckter oder bereits ausgehängter Aushang und eine echte Genehmigung sind nicht belegt. Auch ein vereinbarter 5+25-Minuten-Plan ist möglich.",
           "criteria": [
-            "1 Punkt: Donnerstag 15:30–16:00 Uhr als gemeinsam bestätigtes Zeitfenster; ein neuer Termin ausserhalb der Karte wäre erst nach weiterer Bestätigung möglich.",
+            "1 Punkt: Donnerstag 15:30–16:00 Uhr als gemeinsam bestätigtes Zeitfenster; ein neuer Termin außerhalb der Karte wäre erst nach weiterer Bestätigung möglich.",
             "1 Punkt: Leseraum und sechs Plätze für sechs Personen korrekt.",
             "1 Punkt: machbare, von beiden getragene Aufteilung innerhalb von 30 Minuten; 10+20 und 5+25 sind Beispiele, kein Pflichtwortlaut.",
             "1 Punkt: Bs Zeit-Einwand zutreffend erfasst und eine tatsächlich besprochene Antwort oder ein Kompromiss notiert.",
@@ -4282,7 +4362,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "Gespräch eröffnen und verständlichen Vorschlag mit Ziel geben: 0/1/2 oder —; ein tatsächlich gehörter Beleg: ____",
           "Eine unbekannte Angabe wirklich erfragen und die Antwort später aufgreifen: 0/1/2 oder —; Beleg: ____",
           "Neue Termin-/Raumangabe korrekt verarbeiten: Dienstag nach Sperrinfo verwerfen oder direkte Donnerstagverfügbarkeit bestätigen; 0/1/2 oder —; Beleg: ____",
-          "Bs Zeit-Einwand sinngemäss und fair wiedergeben: 0/1/2 oder —; Beleg: ____",
+          "Bs Zeit-Einwand sinngemäß und fair wiedergeben: 0/1/2 oder —; Beleg: ____",
           "Auf den Einwand mit begründetem, innerhalb von 30 Minuten möglichem Vorschlag reagieren: 0/1/2 oder —; Beleg: ____",
           "B ausreden lassen, anknüpfen und verständlich sprechen; Missverständnisse bei Bedarf reparieren: 0/1/2 oder —; Beleg: ____",
           "Tag, Zeit, Ort und Kernablauf begrenzt zusammenfassen, ohne offenen Aushang als Tatsache auszugeben: 2 = alle Angaben stimmig; 1 = zwei Terminangaben und Ablauf richtig oder alle drei Terminangaben richtig ohne Ablauf oder Aushanggrenze erst nach neutralem Hinweis geklärt; 0 = keine tragfähige Einigung trotz Gelegenheit; — = keine Schlussgelegenheit. Beleg: ____"
@@ -4337,11 +4417,11 @@ window.LOTTE_CATALOG = Object.freeze({
       ],
       "practice": {
         "title": "Praxis: eine Regel frei erklären",
-        "childNote": "Erkläre ungefähr 90–150 Sekunden lang für eine jüngere Person die Nachnamenregel mit mindestens zwei verschiedenen Buchbeispielen. Zeige den möglichen Titelfehler und sage, was die Karte über die heutige Verfügbarkeit nicht weiss. Eine andere verständliche Dauer ist kein automatischer Fehler. Nutze nur Regelkarte und Stichwörter; die feste Rückfrage stellt die zuhörende Person erst danach. Ohne gehörte Erklärung gibt es keine mündliche Wertung.",
+        "childNote": "Erkläre ungefähr 90–150 Sekunden lang für eine jüngere Person die Nachnamenregel mit mindestens zwei verschiedenen Buchbeispielen. Zeige den möglichen Titelfehler und sage, was die Karte über die heutige Verfügbarkeit nicht weiß. Eine andere verständliche Dauer ist kein automatischer Fehler. Nutze nur Regelkarte und Stichwörter; die feste Rückfrage stellt die zuhörende Person erst danach. Ohne gehörte Erklärung gibt es keine mündliche Wertung.",
         "childSteps": [
           "Beginne bei der Frage der jüngeren Person. Nenne die Nachnamenregel statt nur die richtigen Regale aufzuzählen.",
           "Erkläre mindestens zwei verschiedene Buch-Regal-Zuordnungen mit dem jeweiligen Nachnamen und den Titelfehler bei „Zugvogel“.",
-          "Schliesse mit der Grenze: „Gehört zu diesem Abschnitt“ heisst nicht „steht heute dort“. Schau nur kurz auf deine Stichwörter.",
+          "Schließe mit der Grenze: „Gehört zu diesem Abschnitt“ heißt nicht „steht heute dort“. Schau nur kurz auf deine Stichwörter.",
           "Antworte nach der Erklärung mündlich auf die feste Rückfrage der zuhörenden Person. Sage danach eine Stärke und einen konkreten nächsten Übungsschritt; die Selbstreflexion bekommt keine Extra-Punkte."
         ],
         "observationMax": 12,
@@ -4352,7 +4432,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "Nachvollziehbare Folge (0–1): 1 = Regel → Beispiele → begrenzter Schluss erkennbar verbunden; sonst 0 oder —.",
           "Sortierregel und Titelfehler (0–2): je 1 für „Nachname statt Titel“ und richtig erklärten Zugvogel-Gegenfall; — wenn nicht beobachtbar.",
           "Beispiele im Vortrag (0–2): je 1 für zwei verschiedene richtig begründete Buch-Regal-Zuordnungen mit Nachnamen; Regal allein reicht nicht; — ohne Gelegenheit.",
-          "Wissensgrenze (0–1): 1 = Verfügbarkeit ausdrücklich als aus der Karte unbekannt erklärt; blosses Weglassen genügt nicht; sonst 0 oder —.",
+          "Wissensgrenze (0–1): 1 = Verfügbarkeit ausdrücklich als aus der Karte unbekannt erklärt; bloßes Weglassen genügt nicht; sonst 0 oder —.",
           "Verständlichkeit und Tempo (0–2): 2 = gut hörbar mit sinnvollen Pausen; 1 = einzelne schwierige Stellen, Kern verständlich; 0 = Kern trotz Nachfrage unverständlich; — ohne Durchführung.",
           "Stichwortnutzung (0–1): 1 = eigenständig aus Stichwörtern erklärt statt vollständigen Text abgelesen; kurze Blicke und vereinbarte Sprechhilfen sind erlaubt; sonst 0 oder —.",
           "Feste Rückfrage (0–2): je 1 für Berg/B → A–F trotz Titel-Z und „heutige Verfügbarkeit unbekannt“; verständliche sinngleiche Antwort gilt; — wenn Frage nicht gestellt."

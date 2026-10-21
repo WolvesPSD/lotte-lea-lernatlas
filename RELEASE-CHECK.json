@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-10-21T03:33:38.689Z",
+  "builtAt": "2026-10-21T04:18:13.814Z",
   "releasedTopics": [
     "de-lesestrategien-bibliothek",
     "de-leseecke-ueberarbeiten",
@@ -20,7 +20,9 @@
     "en-update-fixture",
     "en-sketchbook-story",
     "ma-tank-zuordnung",
-    "ma-prozent-fixture"
+    "ma-prozent-fixture",
+    "en-maya-repair-cafe",
+    "fr-theo-erlebnisbericht"
   ],
   "subjects": [
     "de",

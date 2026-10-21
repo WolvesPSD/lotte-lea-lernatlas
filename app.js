@@ -440,14 +440,14 @@
     }
   }
 
-  function preparePrint(mode) {
+  function preparePrint(mode, ids = state.selected) {
     if (activeProfile !== 'lotte') return;
-    if (state.selected.length === 0) { show('choose'); return; }
+    if (ids.length === 0) { show('choose'); return; }
     const page = $('#print-surface'); page.replaceChildren();
     appendText(page, 'p', 'print-kicker', preview ? 'Lotte & Lea · Prüfmodus: kann ungeprüfte Aufgaben enthalten' : 'Lotte & Lea · Lernmaterial mit Quellenstand im Themenkatalog');
     appendText(page, 'h1', '', mode === 'child' ? 'Arbeitsblatt' : 'Lösungsblatt für Erwachsene');
     appendText(page, 'p', '', mode === 'child' ? 'Name: ____________________   Datum: __________' : 'Diese Musterlösungen erklären die Schritte. Offene Antworten brauchen eine persönliche Prüfung.');
-    for (const id of state.selected) {
+    for (const id of ids) {
       const topic = topicById.get(id); const section = create('section', 'print-topic');
       appendText(section, 'h2', '', `${subjectById.get(topic.subjectId).name} · ${topic.title}`);
       appendText(section, 'p', 'print-level', levelLabel(topic));
@@ -476,6 +476,8 @@
   }
   $('#print-children').addEventListener('click', () => preparePrint('child'));
   $('#print-adult').addEventListener('click', () => preparePrint('adult'));
+  $('#print-current-child').addEventListener('click', () => preparePrint('child', state.active ? [state.active] : []));
+  $('#print-home-child').addEventListener('click', () => preparePrint('child', state.active ? [state.active] : []));
 
   $('#export-progress').addEventListener('click', () => {
     if (activeProfile !== 'lotte') return;
@@ -530,6 +532,17 @@
     heading.tabIndex = -1; heading.focus({ preventScroll: true });
     heading.scrollIntoView({ block: 'start', behavior: 'smooth' });
   }));
+  function openLotteFeedback() {
+    if (activeProfile !== 'lotte') return;
+    show('feedback');
+    $('[data-contact-choice="feedback"]').click();
+    $('#feedback-profile').value = 'Lotte';
+    $('#feedback-profile').dispatchEvent(new Event('change'));
+    $('#feedback-topic').value = state.active || '';
+    $('#feedback-area').value = 'Lernen und Antwortprüfung';
+  }
+  $('#feedback-from-work').addEventListener('click', openLotteFeedback);
+  $('#feedback-from-home').addEventListener('click', openLotteFeedback);
   function prepareDraft(kind, subject, body) {
     const previewBox = $(`#${kind}-preview`);
     const status = $(`#${kind}-status`);

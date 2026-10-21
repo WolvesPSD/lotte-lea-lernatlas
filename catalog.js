@@ -1512,6 +1512,162 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "Inkraftsetzung S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. § 2.2.4 S. 26–27 nennt Prozentrechnung, Grundwert/Prozentsatz/Prozentwert und Rabatt ausdrücklich als Klassenstufe-8-Ziele.",
         "checkedAt": "2026-10-21"
       }
+    },
+    {
+      "id": "en-maya-repair-cafe",
+      "subjectId": "en",
+      "title": "Maya’s blog and the repair café programme",
+      "scope": "Freiwillige Leseübung im 7/8-Rahmen. Blog und Programm gehören zu § 2.2.2; A2, punktuell B1, ist erst Ziel am Ende von Klasse 8. Lottes aktuelle Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Hilfswörter und Zeilenangaben stehen im Material. Bei Bedarf zuerst die Aufgaben 1 und 2 lösen; weitere Deutungen können später folgen.",
+      "introduction": "Read the blog and the programme. Short English answers are enough. Name a line (L1–L8) or programme entry that supports your answer. Words to help: repair café = event for fixing things; arrow = Pfeil; fell off = fiel herunter; guided = führte; volunteers = Helfende. A dictionary is allowed. The people and school are invented. Open answers are compared with examples and criteria, without an automatic grade.",
+      "passage": "Maya’s blog: A small sign, a big help\nL1 On Saturday, our school held a repair café.\nL2 I took photos for the school blog because I did not like talking to visitors.\nL3 At 3:20 pm, the sign for the bicycle workshop fell off the wall.\nL4 Two families followed an old arrow to Room C. They wanted to repair their bikes, but Room C was for clothes.\nL5 I drew a new sign and guided them to Room B before the workshop started at 3:30 pm.\nL6 Later I took photos of the volunteers at work.\nL7 My camera was useful, but the paper sign helped the families more at that moment.\nL8 Next month I want to make clear signs before the doors open. I still like taking photos, but I can talk to visitors when they need help.\n\nRepair café programme\nActivity | Room | Starts\nBicycle workshop | B | 3:30 pm\nClothes workshop | C | 3:30 pm\nBook exchange | A | 4:00 pm",
+      "tasks": [
+        {
+          "id": "en-maya-1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "prompt": "Find Maya’s first job and why she chose it. Give a line number.",
+          "sample": "She took photos for the school blog because she did not like talking to visitors (L2).",
+          "criteria": [
+            "1 point: photos for the school blog.",
+            "1 point: reason and L2 or an equally clear text reference. “Uncomfortable talking” is a possible interpretation, not Maya’s exact wording."
+          ]
+        },
+        {
+          "id": "en-maya-2",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 5,
+          "prompt": "The two families went to the wrong room. Name the wrong room and the right room. Did Maya help before the bicycle workshop began? Use the blog and the programme.",
+          "sample": "They first went to Room C (L4), but bicycles were in Room B (L5 and the programme). Yes, Maya guided them there before the 3:30 pm start (L5). L3 gives the time the sign fell, not the families’ arrival.",
+          "criteria": [
+            "1 point: Room C as the wrong room.",
+            "1 point: Room B as the correct bicycle room.",
+            "1 point: before the start, with L5 and the programme; do not assign the families an exact arrival time."
+          ]
+        },
+        {
+          "id": "en-maya-3",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "prompt": "Why did the paper sign help more at that moment? Does Maya say her camera was useless? Support your answer with a line.",
+          "sample": "The sign and Maya’s guidance led the families to the right room before the workshop (L4–L5). She later used her camera for photos (L6) and calls it useful (L7). The sign helped the families more only in that situation.",
+          "criteria": [
+            "1 point: immediate help from sign or guidance.",
+            "1 point: camera remained useful.",
+            "1 point: L5–L7 or equivalent evidence limits the comparison to that moment."
+          ]
+        },
+        {
+          "id": "en-maya-4",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "prompt": "Compare Maya at the beginning with her plan for next month. What changes, and what does she still like? Give lines for both moments.",
+          "sample": "At first she did not like talking to visitors and took photos (L2). Next month she wants to prepare signs and can talk when people need help (L8). She still likes taking photos (L8).",
+          "criteria": [
+            "1 point: initial job and reluctance, L2.",
+            "1 point: new plan or willingness to help visitors, L8.",
+            "1 point: continuing interest in photos, with appropriate references; “she always enjoys talking” goes too far."
+          ]
+        },
+        {
+          "id": "en-maya-5",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "prompt": "A friend says, “All visitors went to the wrong room.” Does the blog prove that? Explain what we know and what we do not know.",
+          "sample": "No. L4 says that two families went to Room C. The blog does not say how many other visitors came or where they went.",
+          "criteria": [
+            "1 point: reject “all” using the two families in L4.",
+            "1 point: explain that other visitors and their routes are unknown."
+          ]
+        },
+        {
+          "id": "en-maya-6",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "prompt": "Name one thing Maya’s blog tells us that the programme does not. Give a line.",
+          "sample": "L2 explains why Maya chose to take photos; the programme only lists activities, rooms and start times. Her view of the sign (L7) or next month’s plan (L8) would also work.",
+          "criteria": [
+            "1 point: a concrete personal blog detail absent from the programme.",
+            "1 point: a matching line and clear contrast with the programme; the bicycle room alone is already in the table."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. § 2.2.2 PDF-S. 26–27: Blogs, Pläne/Tabellen, globales und gezieltes Lesen, Textfunktion und Belege als Ziel bis Ende Klasse 8; A2/punktuell B1 PDF-S. 25.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
+      "id": "fr-theo-erlebnisbericht",
+      "subjectId": "fr",
+      "title": "Théo raconte son atelier",
+      "scope": "Freiwillige, stark gestützte 7/8-Schreibübung. Einfache Erlebnisberichte und passé composé sind Ziele bis Ende Klasse 8; die Formen werden bereitgestellt. Kein Beleg für Lottes bereits behandelten Stoff.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Die Ereigniskarte und Satzhilfen bleiben beim Schreiben sichtbar. Ein eigener Bericht mit diesen Hilfen zeigt eine gestützte Leistung, nicht die selbstständige Beherrschung der Zeitform.",
+      "introduction": "Schreibe als die erfundene Figur Théo für ein fiktives Atelierheft. Nutze nur die Ereigniskarte; erzähle nichts Persönliches über dich. Satzhilfe bei Bedarf: un atelier de cartes postales = Postkarten-Atelier; la médiathèque = Mediathek; j’ai participé (teilgenommen), j’ai choisi (gewählt), j’ai dessiné (gezeichnet), j’ai perdu (verloren), Zoé a trouvé (gefunden), j’ai terminé (beendet), j’ai montré (gezeigt); d’abord / ensuite / puis / enfin = zuerst / danach / dann / schließlich; parce que = weil. Weitere Wörter: du papier rouge = rotes Papier; un oiseau bleu = blauer Vogel; un crayon bleu = blauer Stift; sous la table = unter dem Tisch. Die Formen sind Hilfe, keine fertige Antwort. Offene Texte erhalten keine automatische Schulnote.",
+      "passage": "Ereigniskarte – Théo und Zoé im Postkarten-Atelier\nSamstag 10:00 | Théo nimmt mit Zoé am Atelier in der Mediathek teil.\n10:10 | Théo wählt rotes Papier.\n10:20 | Théo zeichnet darauf einen blauen Vogel.\n10:30 | Théo verliert seinen blauen Stift.\n10:35 | Zoé findet den Stift unter dem Tisch.\n10:50 | Théo beendet die Postkarte und zeigt sie Zoé.\nDanach | Théo fand das Atelier schön, weil Zoé half und die Postkarte fertig wurde.",
+      "tasks": [
+        {
+          "id": "fr-theo-1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "prompt": "A. Planen (2 Punkte): Notiere auf Deutsch oder Französisch drei Stationen: Anfang – Problem/Hilfe – Ende. Markiere, wer den Stift verloren und wer ihn gefunden hat. Noch kein ausformulierter Bericht.",
+          "sample": "Anfang: Samstag 10 Uhr, Mediathek, Zoé, rotes Papier und blauer Vogel. Problem/Hilfe/Ende: Théo verliert seinen Stift um 10:30; Zoé findet ihn um 10:35 unter dem Tisch; um 10:50 ist die Karte fertig.",
+          "criteria": [
+            "1 Punkt: erkennbarer Anfang mit Zeit/Ort oder erster Handlung.",
+            "1 Punkt: richtige Folge von Théo als Verlierer, Zoé als Finderin und Schluss. Deutsche Stichwörter gelten; eine ungeordnete Abschrift ist noch kein Plan."
+          ]
+        },
+        {
+          "id": "fr-theo-2",
+          "kind": "reflection",
+          "points": 16,
+          "writingLines": 13,
+          "prompt": "B. Bericht (16 Punkte): Schreibe als Théo einen französischen Ich-Bericht von ungefähr 6–9 kurzen Sätzen. Nenne Zeit, Ort und Zoé, dann Papier, Vogel, verlorenen Stift, Zoés Hilfe und die fertige Karte in der richtigen Reihenfolge. Beende mit Théos Reaktion und einem Grund. Nutze mindestens zwei passende Zeitmarker. Die Satzanzahl ist nur eine Hilfe; erfinde keine weiteren Personen oder eigenen Erlebnisse.",
+          "sample": "Samedi à 10 h, j’ai participé à un atelier de cartes postales à la médiathèque avec Zoé. D’abord, j’ai choisi du papier rouge. Ensuite, j’ai dessiné un oiseau bleu. À 10 h 30, j’ai perdu mon crayon bleu. Cinq minutes plus tard, Zoé a trouvé le crayon sous la table. Enfin, à 10 h 50, j’ai terminé ma carte postale et j’ai montré ma carte à Zoé. J’ai aimé l’atelier parce que Zoé m’a aidé et que j’ai pu terminer ma carte.",
+          "criteria": [
+            "3 Punkte: Samstag um 10 Uhr, Mediathek und Teilnahme mit Zoé (je 1).",
+            "2 Punkte: rotes Papier und blauer Vogel (je 1).",
+            "1 Punkt: Théo/je verliert um 10:30 den eigenen blauen Stift; ohne Uhrzeit bei richtiger Handlung ein halber Punkt.",
+            "2 Punkte: Zoé findet den Stift unter dem Tisch nach dem Verlust (Finderin und Ort/Folge je 1).",
+            "2 Punkte: Karte um 10:50 fertig und Zoé gezeigt (je 1).",
+            "2 Punkte: richtige Ereignisfolge und mindestens zwei sinnvolle Zeitmarker (je 1).",
+            "2 Punkte: zwei verständliche Vergangenheitsformen für verschiedene Ereignisse, bereitgestellte Satzhilfen erlaubt (je 1).",
+            "1 Punkt: passende positive Reaktion mit belegtem Grund.",
+            "1 Punkt: zusammenhängender, verständlicher französischer Ich-Bericht; kleine Sprachfehler nicht doppelt abziehen. Gleichwertige Formulierungen gelten."
+          ]
+        },
+        {
+          "id": "fr-theo-3",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "prompt": "C. Zwei Sachfehler verbessern (2 Punkte): In einem fremden Text steht: “J’ai choisi du papier bleu. J’ai trouvé mon crayon sous la table.” Nenne die beiden falschen Angaben und schreibe zwei richtige französische Sätze für Théo.",
+          "sample": "Falsch sind bleu beim Papier und J’ai trouvé als Finderrolle. Richtig: “J’ai choisi du papier rouge. Zoé a trouvé mon crayon bleu sous la table.”",
+          "criteria": [
+            "1 Punkt: rotes statt blaues Papier in einem richtigen französischen Satz.",
+            "1 Punkt: Zoé statt Théo als Finderin in einem richtigen französischen Satz. „Je l’ai perdu“ allein korrigiert die Finderrolle nicht."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. Zweite Fremdsprache § 3.2.4 PDF-S. 62: einfacher Erfahrungs-/Erlebnisbericht und angeleitetes Planen/Überarbeiten als Ziel bis Ende Klasse 8; A2 PDF-S. 59, passé composé und Zeitmarker PDF-S. 82.",
+        "checkedAt": "2026-10-21"
+      }
     }
   ]
 });

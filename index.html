@@ -35,7 +35,7 @@
         </div>
         <aside class="home-progress" aria-labelledby="home-progress-heading"><h2 id="home-progress-heading">Dein Lernstand</h2><div id="home-progress-ring" class="progress-ring"><strong id="home-progress-count">–</strong><span>Thema wählen</span></div><p id="home-progress-text">Wähle zuerst ein Thema.</p><button id="home-progress-button" type="button" class="primary">Lernen öffnen →</button><button type="button" data-nav="choose" class="secondary">Themen wählen</button></aside>
       </div>
-      <div class="home-quick-links"><button type="button" data-nav="choose"><strong>Alle Themen</strong><span>Übersicht nach Fächern →</span></button><button type="button" data-nav="adult"><strong>Für Erwachsene</strong><span>Erklärungen und Druck →</span></button><button type="button" data-nav="feedback"><strong>Rückmeldung</strong><span>Fragen und Hinweise →</span></button></div>
+      <div class="home-quick-links"><button type="button" data-nav="choose"><strong>Alle Themen</strong><span>Übersicht nach Fächern →</span></button><button id="print-home-child" type="button"><strong>Mein Arbeitsblatt</strong><span>Aktuelles Thema ohne Lösungen drucken →</span></button><button id="feedback-from-home" type="button"><strong>Meine Rückmeldung</strong><span>Selbst schreiben →</span></button><button type="button" data-nav="adult"><strong>Für Erwachsene</strong><span>Lösungen und Begleitung →</span></button></div>
       <p class="privacy-note">Lernstand bleibt in diesem Browser. Auf einem anderen Gerät erscheint er nicht automatisch. Hier gibt es kein Konto und keine Cloud-Synchronisierung.</p>
     </section>
     <section id="lea-view" class="view" hidden aria-labelledby="lea-heading">
@@ -52,7 +52,7 @@
     <section id="work-view" class="view" hidden aria-labelledby="work-heading">
       <div class="section-heading"><p class="eyebrow">Deine Lerneinheit</p><h1 id="work-heading">Schritt für Schritt.</h1><p>Antworten werden auf diesem Gerät gespeichert. Du kannst das Thema wechseln und später zurückkommen.</p></div>
       <div id="work-empty" class="empty-state" hidden><p>Wähle zuerst mindestens ein Thema.</p><button type="button" data-nav="choose">Zur Themenauswahl</button></div>
-      <div id="work-layout" class="work-layout"><div class="work-route"><button id="switch-topic" type="button" aria-expanded="false" aria-controls="topic-tabs">Thema wechseln</button><nav id="topic-tabs" aria-label="Themen dieser Lerneinheit"></nav></div><div id="work-content"></div></div>
+      <div id="work-layout" class="work-layout"><div class="work-route"><button id="switch-topic" type="button" aria-expanded="false" aria-controls="topic-tabs">Thema wechseln</button><nav id="topic-tabs" aria-label="Themen dieser Lerneinheit"></nav></div><div id="work-content"></div><div class="work-actions" aria-label="Deine Werkzeuge"><button id="print-current-child" type="button">Dieses Arbeitsblatt drucken</button><button id="feedback-from-work" type="button">Selbst Rückmeldung schreiben</button><p>Das Arbeitsblatt enthält keine Lösungen. Die Rückmeldung schreibst und prüfst du selbst.</p></div></div>
     </section>
     <section id="adult-view" class="view" hidden aria-labelledby="adult-heading">
       <div class="section-heading"><p class="eyebrow">Begleitung</p><h1 id="adult-heading">Für Erwachsene.</h1><p>Alle Musterlösungen und Rechenschritte sind hier getrennt vom Arbeitsbereich erklärt. Diese Ansicht ist nicht mit einem Passwort geschützt.</p></div>

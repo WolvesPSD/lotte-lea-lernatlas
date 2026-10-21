@@ -1,15 +1,14 @@
 {
-  "builtAt": "2026-10-21T07:58:28.417Z",
-  "releaseVersion": "2026.10.21-med.1",
+  "builtAt": "2026-10-21T08:12:12.246Z",
+  "releaseVersion": "2026.10.21-der2.1",
   "newTopicIds": [
-    "en-alex-games-mediation",
-    "fr-mila-drawing-mediation"
+    "de-technikprotokoll-korrigieren"
   ],
   "changeLog": [
-    "Englisch EN-M: fiktiven deutschen Aushang für Alex auf Englisch sinngemäss erklären; Altersgrenze, elektronische Spiele und Anmeldung präzise übertragen.",
-    "Französisch FR-M: fiktiven französischen Aushang für Mila auf Deutsch zusammenfassen; Pflichtanmeldung bis einschliesslich Dienstag und Verbot lebender Tiere beachten."
+    "Deutsch D-R2: fiktives AG-Protokoll regelgeleitet korrigieren, Satzfunktionen erklären und eine fehlerhafte automatische Korrektur prüfen.",
+    "Vier offene Aufgaben mit Hilfekarte und 20 Kriterienpunkten; keine automatische Freitextnote oder behauptete Klasse-7-Stofffolge."
   ],
-  "rollbackCommit": "009a9f52d1211fbe299f84ae854de6c9624c8d30",
+  "rollbackCommit": "c1660ed6a033626aecdb65187a13ced35561a13f",
   "releasedTopics": [
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
@@ -38,6 +37,7 @@
     "ma-prozent-fixture",
     "en-maya-repair-cafe",
     "en-friday-activity-email",
+    "de-technikprotokoll-korrigieren",
     "en-alex-games-mediation",
     "fr-mila-drawing-mediation",
     "fr-theo-erlebnisbericht",

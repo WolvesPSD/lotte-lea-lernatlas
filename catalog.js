@@ -2123,6 +2123,86 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "de-technikprotokoll-korrigieren",
+      "subjectId": "de",
+      "title": "Ein Protokoll verständlich korrigieren",
+      "scope": "Freiwillige, gestützte 7/8-Übung zu Satzbau, Zeichensetzung und Grossschreibung. §2.2.5 trägt die Zielmarke Ende Klasse 8; die genaue Thüringer Rechtschreib-Lernfolge und Lottes aktueller Unterrichtsstand sind offen.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Hilfreich sind Haupt- und Nebensatz, das gebeugte Verb, Nomen und als Nomen gebrauchte Adjektive. Lies bei Bedarf die Hilfekarte. Korrigiere nur die markierbaren Sprachstellen; Inhalt und Zahlen bleiben gleich. Offene Begründungen brauchen eine persönliche Sichtung.",
+      "introduction": "Ein erfundenes Protokoll der Technik-AG enthält Fehler bei Grossbuchstaben und Kommas. Schreibe den Text lesbar, erkläre deine Entscheidungen und prüfe eine falsche automatische Korrektur. Die Hilfekarte ist erlaubt: Ein Nebensatz enthält ein eigenes gebeugtes Verb und wird mit Komma abgegrenzt; ein eingeschobener Nebensatz braucht zwei Kommas. Eine Apposition benennt eine Person durch eine Nomengruppe näher, ohne selbst ein Satz mit eigenem Verb zu sein. Bei „alles Neue“ übernimmt das Adjektiv die Nomenfunktion; bei „das leere Fach“ beschreibt es ein folgendes Nomen. Die Hilfekarte zeigt Prüfwege, nicht die fertige Fassung. Offene Antworten werden nicht automatisch benotet.",
+      "passage": "FEHLERHAFTER ENTWURF · fiktives AG-Protokoll\nZ1 Am dienstag trifft sich die Technik-AG im Schulraum.\nZ2 Die Materialliste die Mia vorbereitet hat liegt auf dem Tisch.\nZ3 Mia die Leiterin der AG prüft zuerst ob drei Batterien vorhanden sind.\nZ4 Wenn eine Batterie fehlt notiert sie das fehlende Teil.\nZ5 Die Gruppe will alles wichtige im Protokoll festhalten.",
+      "tasks": [
+        {
+          "id": "de-technikprotokoll-1",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 12,
+          "inputRows": 12,
+          "prompt": "A. Lesbare Fassung (8 Kriterienpunkte): Schreibe Z1–Z5 vollständig und korrekt. Ändere nur Gross-/Kleinschreibung und Zeichensetzung; die Aussagen und Zahlen bleiben gleich. Du kannst die acht geänderten Stellen zusätzlich markieren; eine separate Liste ist nicht nötig. Korrekt Geschriebenes bleibt stehen.",
+          "sample": "Z1 Am Dienstag trifft sich die Technik-AG im Schulraum.\nZ2 Die Materialliste, die Mia vorbereitet hat, liegt auf dem Tisch.\nZ3 Mia, die Leiterin der AG, prüft zuerst, ob drei Batterien vorhanden sind.\nZ4 Wenn eine Batterie fehlt, notiert sie das fehlende Teil.\nZ5 Die Gruppe will alles Wichtige im Protokoll festhalten.",
+          "criteria": [
+            "1 Punkt: Dienstag in Z1 gross.",
+            "2 Punkte: Relativsatz in Z2 vor „die“ und nach „hat“ mit zwei Kommas begrenzt.",
+            "3 Punkte: Apposition in Z3 beidseitig und der ob-Satz vor „ob“ mit drei Kommas abgegrenzt.",
+            "1 Punkt: Komma nach dem vorangestellten Wenn-Satz in Z4.",
+            "1 Punkt: Wichtige in Z5 gross. Eine fehlende separate Markierung kostet keinen Punkt, wenn die Fassung eindeutig ist. Inhalt, Zahlen und bereits korrekte Wörter bleiben unverändert; zusätzliche sinn- oder normwidrige Änderungen höchstens zeilenbezogen berücksichtigen."
+          ]
+        },
+        {
+          "id": "de-technikprotokoll-2",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 12,
+          "inputRows": 12,
+          "prompt": "B. Funktionen erklären (6 Kriterienpunkte): Erkläre mit Zeilenbezug, warum „Dienstag“ und „Wichtige“ gross, „fehlende“ aber klein stehen. Welche Wortgruppe erklärt Mia in Z3 näher, warum hat sie zwei Kommas, und ist sie ein Nebensatz? Bestimme in Z2, Z3 und Z4 die Nebensätze mit Einleitewort und Kommagrenze. Bei Z2 sind zwei Kommas nötig.",
+          "sample": "Z1: Dienstag ist ein Wochentagsname. Z5: Wichtige ist nach „alles“ substantiviert. Z4: fehlende beschreibt das Nomen Teil. Z3: „die Leiterin der AG“ ist eine Apposition zu Mia ohne eigenes gebeugtes Verb und steht zwischen zwei Kommas. Z2: „die Mia vorbereitet hat“ ist ein Relativsatz zu Materialliste, beginnt mit „die“ und endet nach „hat“, also stehen vor und nach ihm Kommas. Z3: „ob drei Batterien vorhanden sind“ ist ein Inhaltssatz, der vor „ob“ abgetrennt wird. Z4: „Wenn eine Batterie fehlt“ ist ein vorangestellter Bedingungssatz, der nach „fehlt“ mit Komma endet.",
+          "criteria": [
+            "1 Punkt: Dienstag als Wochentagsname/Substantiv erklärt.",
+            "1 Punkt: Wichtige nach „alles“ als Substantivierung erklärt.",
+            "1 Punkt: fehlende als Adjektiv zum folgenden Nomen Teil erklärt.",
+            "1 Punkt: „die Leiterin der AG“ als nähere Benennung/Apposition ohne eigenes finites Verb mit zwei Kommas erkannt.",
+            "1 Punkt: Z2-Relativsatz mit Einleitewort „die“, Ende nach „hat“ und beiden Kommas erkannt.",
+            "1 Punkt: ob-Satz in Z3 und Wenn-Satz in Z4 samt Einleitewörtern und Trennstellen erkannt; bei nur einem Fall ein halber Punkt als Lernfeedback möglich. Gleichwertige Alltagserklärungen gelten."
+          ]
+        },
+        {
+          "id": "de-technikprotokoll-3",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "inputRows": 6,
+          "prompt": "C. Automatische Hilfe prüfen (3 Kriterienpunkte): Sie schlägt „Die Materialliste, die Mia vorbereitet hat liegt, auf dem Tisch.“ vor. Was ist an der Kommagrenze falsch? Schreibe Z2 richtig und erkläre, zu welchem Satzteil „liegt“ gehört.",
+          "sample": "Richtig: „Die Materialliste, die Mia vorbereitet hat, liegt auf dem Tisch.“ Das erste Komma öffnet den Relativsatz nach „Materialliste“, das zweite beendet ihn nach „hat“. „Liegt“ ist das gebeugte Verb des Hauptsatzes „Die Materialliste liegt auf dem Tisch“ und gehört nicht in den Relativsatz.",
+          "criteria": [
+            "1 Punkt: erstes Komma nach Materialliste als Beginn des eingeschobenen Relativsatzes.",
+            "1 Punkt: zweites Komma direkt nach hat statt nach liegt als Ende des Relativsatzes.",
+            "1 Punkt: liegt als finites Verb des Hauptsatzes erklärt; der falsche Vorschlag wird nicht blind übernommen."
+          ]
+        },
+        {
+          "id": "de-technikprotokoll-4",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 8,
+          "inputRows": 8,
+          "prompt": "D. Transfer (3 Kriterienpunkte): Korrigiere den neuen fiktiven Entwurf und begründe mindestens eine Kommaentscheidung: „Am mittwoch liest Leon das Protokoll. Leon der neue Schriftführer merkt dass ein Kabel fehlt. Er notiert alles nötige.“ Ändere keine Sachangaben.",
+          "sample": "Am Mittwoch liest Leon das Protokoll. Leon, der neue Schriftführer, merkt, dass ein Kabel fehlt. Er notiert alles Nötige. „Der neue Schriftführer“ ist eine eingeschobene Apposition zu Leon und braucht links und rechts ein Komma; vor dem Nebensatz mit „dass“ steht ebenfalls ein Komma.",
+          "criteria": [
+            "1 Punkt: Mittwoch und Nötige beide gross; eine richtige Stelle allein genügt für diesen Punkt nicht.",
+            "1 Punkt: beide Kommas um „der neue Schriftführer“.",
+            "1 Punkt: Komma vor „dass“ und eine zutreffende Erklärung mindestens einer Kommafunktion. Inhalt bleibt gleich."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. §2.2.5 PDF-S. 30–31: regelgeleitete Wortschreibung, Zeichensetzung, Satzbau und Überarbeitung als Ziel bis Ende Klasse 8. §3.5 PDF-S. 51–52: Appositionen in 7/8, Satzgefüge und Interpunktion als fortgeführte Grundlagen.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "en-alex-games-mediation",
       "subjectId": "en",
       "title": "Explain the games afternoon to Alex",

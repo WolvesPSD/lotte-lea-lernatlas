@@ -2826,6 +2826,73 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-simunet-datensparsam",
+      "subjectId": "mbi",
+      "title": "SimuNet: Daten sparsam auswählen",
+      "scope": "Ausblick Klasse 8 · freiwillig. §2.2.3 Social Media trägt ausdrücklich die Zielmarke Klasse 8; dies ist ein fiktiver Entscheidungsfall, kein Nachweis für reale Plattformbedienung oder Lottes aktuellen Unterricht.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Die ganze Plattform SimuNet ist erfunden. Es gibt kein Konto, keine echten Profile, keine Anmeldung und keinen Upload. Verwende keinen echten Namen, Ort, Kontakt, Bild oder eigenen Medienbericht. Du entscheidest nur anhand der vorgegebenen Schalter.",
+      "introduction": "Eine erfundene Jugendliche möchte in einer erfundenen Hobbygruppe eine selbst gezeichnete Fantasieinsel zeigen und nach Farben fragen. Auf der Zeichnung sind keine Menschen, echten Orte, Schulnamen oder persönlichen Merkmale. Du spielst die Entscheidung nur gedanklich durch; lade nichts hoch und ändere keine wirklichen Geräte- oder Kontoeinstellungen. Du darfst auch entscheiden, gar nichts online zu teilen und direkt um Rückmeldung zu bitten. Beurteile dann trotzdem die sieben hypothetischen Schalter. „Wähle“ heisst passend entscheiden, „begründe“ heisst Wahl und Grund verbinden, „beurteile“ heisst Nutzen, Grenzen und Urteil abwägen. Freie Antworten werden nicht automatisch benotet.",
+      "passage": "FIKTIVER EINSTELLUNGSBILDSCHIRM · SimuNet\n1 Anzeigename: voller echter Name ODER erlaubter Fantasiename „Kartenfuchs“. Ein Anzeigename ist für einen Beitrag nötig.\n2 Profilbild: eigenes Gesichtsbild ODER kein Profilbild. Das Feld ist freiwillig.\n3 Ort: Wohnort und genauer Standort ODER leer lassen. Das Feld ist freiwillig.\n4 Kontakte: Geräteadressbuch freigeben ODER nicht freigeben. Die Freigabe ist freiwillig.\n5 Sichtbarkeit: alle Nutzenden ODER nur die fiktive Hobbygruppe. Gruppenmitglieder können den Beitrag sehen und weitergeben; SimuNet verarbeitet ihn weiterhin.\n6 Personalisierte Anzeigen: einschalten ODER ausschalten. Bei „ein“ nutzt SimuNet in dieser Simulation angesehene Themen und Klicks für Werbeprofile. „Aus“ verhindert hier nur diese Anzeigenanpassung; technische Nutzungsdaten können weiter anfallen.\n7 Inhalt: nur Fantasieinsel und Farbfrage ODER zusätzlich persönlicher Alltag und echte Orte. Für das Ziel genügt die Fantasieinsel mit der Frage.\n\nFIKTIVER FEED · Nach drei angesehenen Beiträgen über Zeichenstifte erscheint: „Gesponsert: Wir kennen deinen Geschmack! Schalte Standort, Kontakte und öffentliche Sichtbarkeit ein – dann werden deine Empfehlungen perfekt und alle finden dein Bild.“ Das ist Werbetext im erfundenen Fall und kein belegtes Versprechen einer realen Plattform.",
+      "tasks": [
+        {
+          "id": "mbi-simunet-1",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 10,
+          "inputRows": 10,
+          "prompt": "A. Sieben Entscheidungen (7 Kriterienpunkte): Wähle für jedes nummerierte Feld 1–7 eine Einstellung, die das Ziel mit möglichst wenigen persönlichen Angaben erreicht. Schreibe z. B. „1 …; 2 …“. Wenn du gar nichts online posten möchtest, nenne das als Alternative und gib zusätzlich an, welche sieben SimuNet-Einstellungen du nur hypothetisch wählen würdest. Verwende ausschliesslich die fiktiven Vorgaben.",
+          "sample": "Ich könnte die Fantasieinsel lieber direkt zeigen und gar nichts online posten. Falls ich die fiktive Plattform für dieses Ziel dennoch verwenden würde: 1 Kartenfuchs; 2 kein Gesichtsbild; 3 Ort leer; 4 kein Adressbuchzugriff; 5 nur Hobbygruppe; 6 personalisierte Anzeigen aus; 7 nur Fantasieinsel und Farbfrage. Für einen SimuNet-Beitrag sind hier nur Anzeigename und Beitrag nötig.",
+          "criteria": [
+            "1 Punkt: Fantasiename „Kartenfuchs“ statt echter Name.",
+            "1 Punkt: kein Gesichts-Profilbild.",
+            "1 Punkt: Ortsfeld leer.",
+            "1 Punkt: kein Adressbuchzugriff.",
+            "1 Punkt: Sichtbarkeit nur in der fiktiven Hobbygruppe gewählt.",
+            "1 Punkt: personalisierte Anzeigen ausgeschaltet.",
+            "1 Punkt: Inhalt nur Fantasieinsel und Farbfrage. Eine Offline-Alternative kostet keinen Punkt, wenn die sieben hypothetischen Wahlen ebenso genannt sind. Keine echten Personendaten verlangen."
+          ]
+        },
+        {
+          "id": "mbi-simunet-2",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 7,
+          "inputRows": 7,
+          "prompt": "B. Begründung (3 Kriterienpunkte): Welche Angaben braucht die Farbfrage in diesem erfundenen Dienst wirklich? Warum ist „nur Hobbygruppe“ weniger offen als „alle“, aber keine vollständige Geheimhaltung? Warum macht ein Fantasiename allein niemanden sicher anonym? Etwa zwei bis vier Sätze können helfen; die Vollständigkeit zählt, nicht die Satzanzahl.",
+          "sample": "Für die Farbfrage reichen die Fantasiezeichnung, eine kurze Frage und der bei SimuNet nötige Anzeigename. Die Hobbygruppe begrenzt die zunächst sichtbare Leserschaft, aber Mitglieder können den Beitrag weitergeben und der Dienst verarbeitet ihn. Ein Fantasiename garantiert keine Anonymität, weil Nutzungsdaten oder andere Angaben eine Zuordnung ermöglichen könnten.",
+          "criteria": [
+            "1 Punkt: Ziel und wirklich erforderliche Angaben im fiktiven Dienst benannt.",
+            "1 Punkt: Gruppensichtbarkeit begrenzt die Sichtbarkeit, garantiert wegen Weitergabe und Dienstverarbeitung aber keine Geheimhaltung.",
+            "1 Punkt: Fantasiename allein ist keine Anonymitätsgarantie; mögliche Zuordnung durch andere Daten oder Kontext plausibel erklärt. Sinnvolle Varianten gelten."
+          ]
+        },
+        {
+          "id": "mbi-simunet-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "prompt": "C. Gesponserte Meldung beurteilen (5 Kriterienpunkte): Welche sichtbaren Nutzungsdaten könnten für ein Werbeprofil verwendet werden? Nenne einen möglichen Vorteil passender Vorschläge und zwei begründete Grenzen oder Risiken des Versprechens. Entscheide, wie du im fiktiven Fall handelst. Etwa drei bis fünf Sätze können helfen; die Vollständigkeit zählt, nicht die Satzanzahl. Behaupte nichts über eine echte Plattform.",
+          "sample": "SimuNet könnte die angesehenen Stiftbeiträge und Klicks für ein Werbeprofil verwenden. Passende Hinweise zu Zeichenmaterial könnten nützlich sein. Drei angesehene Beiträge beweisen aber nicht, dass eine Empfehlung perfekt passt. Standort und Kontakte würden mehr Angaben preisgeben, die für die Farbfrage nicht nötig sind; öffentliche Sichtbarkeit erreicht zudem mehr Menschen, ohne zu garantieren, dass alle das Bild finden. Ich lasse die Zusatzfreigaben aus und frage höchstens die Hobbygruppe oder direkt eine Person nach Farben.",
+          "criteria": [
+            "1 Punkt: angesehene Stiftbeiträge oder Klicks als mögliche Datenspur.",
+            "1 Punkt: Bezug zu Werbeprofil oder datenbasiertem Geschäftsmodell.",
+            "1 Punkt: möglicher Nutzen passender Hinweise für das Hobby.",
+            "1 Punkt: zwei begründete Grenzen/Risiken zusammen, etwa unbelegte „perfekte“ Empfehlung plus unnötige Datenfreigabe oder grössere Öffentlichkeit.",
+            "1 Punkt: zum Ziel passende begründete Handlungsoption. Offline-Rückfrage ist zulässig. „Anzeigen aus“ bedeutet nicht automatisch keine Datenverarbeitung."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Einführung für Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. §2.2.3 PDF-S. 25–26: Social Media, algorithmische Steuerung, Chancen/Risiken, personenbezogene Daten, Tracking/Profilbildung, Werbung und Datensparsamkeit als Ziel unter Klassenstufe 8.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "mbi-buchdaten-labor",
       "subjectId": "mbi",
       "title": "Buchdaten filtern und ändern",

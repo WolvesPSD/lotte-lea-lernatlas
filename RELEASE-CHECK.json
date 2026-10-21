@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-21T08:12:12.246Z",
-  "releaseVersion": "2026.10.21-der2.1",
+  "builtAt": "2026-10-21T08:22:42.687Z",
+  "releaseVersion": "2026.10.21-i3.1",
   "newTopicIds": [
-    "de-technikprotokoll-korrigieren"
+    "mbi-simunet-datensparsam"
   ],
   "changeLog": [
-    "Deutsch D-R2: fiktives AG-Protokoll regelgeleitet korrigieren, Satzfunktionen erklären und eine fehlerhafte automatische Korrektur prüfen.",
-    "Vier offene Aufgaben mit Hilfekarte und 20 Kriterienpunkten; keine automatische Freitextnote oder behauptete Klasse-7-Stofffolge."
+    "MBI I3: fiktive Social-Media-Einstellungen, Gruppensichtbarkeit und gesponserte Empfehlung anhand eines klaren Datensparsamkeitsziels beurteilen.",
+    "Sieben feste SimuNet-Entscheidungen ohne echte Konten, Fotos, Kontakte oder Uploads; Offline-Alternative und Grenzen der Simulation ausdrücklich sichtbar."
   ],
-  "rollbackCommit": "c1660ed6a033626aecdb65187a13ced35561a13f",
+  "rollbackCommit": "333546c1cbd588d76b159a07159aedf682f3d119",
   "releasedTopics": [
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
@@ -47,6 +47,7 @@
     "de-leserbrief-tauschregal",
     "de-innerer-monolog-projekttisch",
     "mbi-lesepause-medienwerkstatt",
+    "mbi-simunet-datensparsam",
     "mbi-buchdaten-labor",
     "de-karte-im-regen-vortrag",
     "de-heidi-ganzschrift-begleiter"
@@ -72,6 +73,7 @@
     "ma-prozent-fixture",
     "ma-kuehlkasten-rationale-zahlen",
     "mbi-lesepause-medienwerkstatt",
+    "mbi-simunet-datensparsam",
     "mbi-buchdaten-labor"
   ],
   "note": "Struktur, lokaler PDF-Hash und Lösungsfelder geprüft. Fach-, Geräte-, Datenschutz- und Veröffentlichungsfreigabe getrennt dokumentieren."

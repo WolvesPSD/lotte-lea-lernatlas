@@ -1,6 +1,7 @@
 {
-  "builtAt": "2026-10-21T06:41:39.929Z",
+  "builtAt": "2026-10-21T06:50:35.542Z",
   "releasedTopics": [
+    "ma-experimentierkaesten-terme",
     "de-hoernachricht-live",
     "de-leseraeume-diagramm",
     "mbi-farbkarten-tabellenlabor",
@@ -35,13 +36,14 @@
     "de-heidi-ganzschrift-begleiter"
   ],
   "subjects": [
+    "ma",
     "de",
     "mbi",
-    "ma",
     "en",
     "fr"
   ],
   "grade8OutlookTopics": [
+    "ma-experimentierkaesten-terme",
     "mbi-farbkarten-tabellenlabor",
     "ma-binomische-flaechen",
     "ma-zufall-80-versuche",

@@ -72,6 +72,103 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "ma-experimentierkaesten-terme",
+      "subjectId": "ma",
+      "title": "Zwei Preise mit Termen vergleichen",
+      "scope": "Ausblick Klasse 8 · freiwillig. Terme und Gleichungen sind im gültigen Mathematikplan ein Ziel bis Ende Klasse 8; Lottes aktuelle Unterrichtsfolge ist unbekannt. Kein Beitrag zur belegten Klasse-7-Jahresabdeckung.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Hilfreich sind Dezimalzahlen, einfache Variablen und gleiche Rechenoperationen auf beiden Gleichungsseiten. Du kannst mit der Tabelle beginnen und die Gleichung danach bearbeiten.",
+      "introduction": "Ein erfundener Lernclub bestellt 1 bis 40 gleichartige Experimentierkästen, immer eine ganze Anzahl. Anbieter A verlangt 18 € feste Buchungsgebühr und 2 € pro Kasten. Anbieter B verlangt 42 € feste Buchungsgebühr und 0,50 € pro Kasten. Es gibt keine weiteren Kosten oder Rabatte. Nenne die Anzahl n, schreibe Einheiten zu deinen Ergebnissen und zeige deine Rechenschritte. Schreibe Antworten hier oder auf dem Kinderblatt; offene Antworten werden nicht automatisch benotet.",
+      "tasks": [
+        {
+          "id": "ma-experimentierkaesten-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "prompt": "Von Text zu Mathematik (4 Kriterienpunkte): Welcher Bereich ist für n erlaubt? Schreibe die beiden Preisterme in Euro auf. Was bedeutet 0,50n bei B? Erkläre den Unterschied zwischen einem Preisterm und einer Gleichung für gleich hohe Preise.",
+          "sample": "n ∈ {1, 2, …, 40}. A(n) = (18 + 2n) € und B(n) = (42 + 0,50n) €. 0,50n bedeutet n-mal 0,50 € variable Kosten für n Kästen. Ein Term gibt bei eingesetztem n einen Preis an; die Gleichung 18 + 2n = 42 + 0,50n fordert, dass beide Preise gleich sind.",
+          "criteria": [
+            "1 Punkt: n ist eine ganze Zahl von 1 bis 40.",
+            "1 Punkt: A(n) = (18 + 2n) € oder gleichwertig.",
+            "1 Punkt: B(n) = (42 + 0,50n) € oder gleichwertig.",
+            "0,5 Punkt: 0,50n als n-mal 0,50 € erklärt; 0,5 Punkt: Term und Gleichung sachlich unterschieden. Gleichwertige Schreibweisen gelten."
+          ]
+        },
+        {
+          "id": "ma-experimentierkaesten-2",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "prompt": "Wertetabelle (3 Kriterienpunkte): Berechne für n = 8, 16 und 24 jeweils die Preise von A und B. Eine kleine Tabelle oder drei beschriftete Zeilen genügen.",
+          "sample": "n = 8: A = 18 + 16 = 34 €, B = 42 + 4 = 46 €. n = 16: A = 18 + 32 = 50 €, B = 42 + 8 = 50 €. n = 24: A = 18 + 48 = 66 €, B = 42 + 12 = 54 €.",
+          "criteria": [
+            "1 Punkt: bei n = 8 beide Preise 34 € und 46 €.",
+            "1 Punkt: bei n = 16 beide Preise 50 €.",
+            "1 Punkt: bei n = 24 beide Preise 66 € und 54 €. Innerhalb jeder Zeile je 0,5 Punkt pro richtigem Anbieterpreis."
+          ]
+        },
+        {
+          "id": "ma-experimentierkaesten-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "prompt": "Gleicher Preis (5 Kriterienpunkte): Stelle eine Gleichung für gleich hohe Preise auf und löse sie schrittweise. Setze dein Ergebnis zur Probe in beide ursprünglichen Preisterme ein. Prüfe, ob die Anzahl im erlaubten Bereich liegt.",
+          "sample": "18 + 2n = 42 + 0,50n. Nach Abziehen von 0,50n und 18 folgt 1,50n = 24, also n = 16. Probe: A(16) = 18 + 32 = 50 €, B(16) = 42 + 8 = 50 €. 16 ist ganzzahlig und liegt zwischen 1 und 40.",
+          "criteria": [
+            "1 Punkt: Gleichung 18 + 2n = 42 + 0,50n.",
+            "2 Punkte: gleiche Operation auf beiden Seiten und korrektes Zwischenresultat 1,50n = 24; nachvollziehbare gleichwertige Umformung gilt.",
+            "1 Punkt: n = 16 und zulässiger Grundbereich geprüft.",
+            "1 Punkt: beide ursprünglichen Preise ergeben bei n = 16 jeweils 50 €."
+          ]
+        },
+        {
+          "id": "ma-experimentierkaesten-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "prompt": "Entscheiden (4 Kriterienpunkte): Der Club bestellt einmal 12 und später 24 Kästen. Berechne für beide Fälle A und B. Welcher Anbieter ist jeweils günstiger, und wie viel spart der Club?",
+          "sample": "Bei 12 Kästen kostet A 42 € und B 48 €: A ist 6 € günstiger. Bei 24 Kästen kostet A 66 € und B 54 €: B ist 12 € günstiger.",
+          "criteria": [
+            "Bei n = 12: 0,5 Punkt für A = 42 € und 0,5 für B = 48 €.",
+            "Bei n = 12: 0,5 Punkt für A als günstigeren Anbieter und 0,5 für 6 € Ersparnis.",
+            "Bei n = 24: 0,5 Punkt für A = 66 € und 0,5 für B = 54 €.",
+            "Bei n = 24: 0,5 Punkt für B als günstigeren Anbieter und 0,5 für 12 € Ersparnis."
+          ]
+        },
+        {
+          "id": "ma-experimentierkaesten-5",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "prompt": "Fehler finden (2 Kriterienpunkte): Jona behauptet 18 + 2n = 20n, weil „18 plus 2 gleich 20“ sei. Prüfe beide Seiten mit n = 2. Klammere den richtigen A-Term anschließend so aus, dass eine gleichwertige Form entsteht, und multipliziere zur Kontrolle zurück.",
+          "sample": "Bei n = 2 kostet A nach dem ursprünglichen Term 18 + 2 · 2 = 22 €, aber 20 · 2 = 40 €. Jona multipliziert die feste Gebühr fälschlich mit. Richtig: 18 + 2n = 2(9 + n); zurückmultipliziert ergibt das 18 + 2n.",
+          "criteria": [
+            "1 Punkt: Gegenbeispiel n = 2 mit 22 € und 40 € und dem Unterschied zwischen fester und variabler Gebühr.",
+            "1 Punkt: 2(9 + n) oder 2(n + 9) und richtige Rückmultiplikation."
+          ]
+        },
+        {
+          "id": "ma-experimentierkaesten-6",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "prompt": "Formel umstellen (2 Kriterienpunkte): Für Anbieter A gilt P = 18 + 2n. Stelle die Formel nach n um. Wie viele Kästen wurden für P = 58 € bestellt? Prüfe deinen Wert in der ursprünglichen Formel und im erlaubten Bereich.",
+          "sample": "P − 18 = 2n und n = (P − 18) ÷ 2. Für P = 58 € ergibt sich n = (58 − 18) ÷ 2 = 20 Kästen. Probe: 18 + 2 · 20 = 58 €. 20 liegt im Bereich 1 bis 40.",
+          "criteria": [
+            "1 Punkt: n = (P − 18) ÷ 2 mit nachvollziehbarem Umstellen.",
+            "1 Punkt: n = 20 samt Probe 58 € und zulässigem Bereich."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. § 2.2.3, PDF-S. 25–26, unter „Klassenstufe 8“: Variablen, Terme und Gleichungen; Sachverhalte modellieren, Werte berechnen, äquivalent umformen, Formeln umstellen und Ergebnisse kontrollieren.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "de-hoernachricht-live",
       "subjectId": "de",
       "title": "Eine geänderte Nachricht hören",

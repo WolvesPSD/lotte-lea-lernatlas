@@ -314,6 +314,98 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "en-art-display-report",
+      "subjectId": "en",
+      "title": "A changed art display: report and call",
+      "scope": "Freiwillige, gestützte 7/8-Schreibübung: aus einer fiktiven Vorankündigung und einem Nachbericht einen sachlichen Bericht sowie einen vorsichtigen Aufruf verfassen. § 2.2.4 ist ein Ende-8-Ziel; Lottes aktuelle Klasse-7-Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Hilfreich sind einfache Vergangenheitsformen, Zahlen und ein kurzer Textplan. Wortstützen stehen im Material. Falls der Stoff noch nicht eingeführt wurde, beginne nur mit Aufgabe A und B. Keine echte Schulveranstaltung oder persönliche Erfahrung ist nötig.",
+      "introduction": "Du arbeitest für eine erfundene englischsprachige Schulzeitung. Karte A wurde vor der Ausstellung geschrieben, Karte B danach. Nur Karte B belegt, was tatsächlich stattfand. Trenne Planung, Beobachtung und offene Zukunft. Schreibe den Bericht für Leserinnen und Leser, die nicht dabei waren; der spätere Aufruf lädt nur zum Mitplanen ein. Wortstütze bei Bedarf: display = Ausstellung; poster = Plakat; guest list = Gästeliste; signed = unterschrieben; may = möglicherweise.",
+      "passage": "FIKTIVE KARTEN · Keine reale Schule, Veranstaltung oder Person.\n\nCARD A · MONDAY NOTICE BEFORE THE DISPLAY\n“Our school art display is planned for Friday, 3:00–4:30 p.m., in the library. We hope to show 20 posters. We may organise another display in December, but no date has been chosen.”\n\nCARD B · FRIDAY EVENT LOG AFTER THE DISPLAY\n“The library was closed, so the display moved to the school hall. It ran from 3:00 to 4:30 p.m. Eighteen students showed 12 posters. Forty-three different visitors signed the guest list; some other visitors may not have signed, so the total number of visitors is unknown. We collected nine written comments. No date or room has been chosen for another display.”\n\nCARD C · UNCHECKED MESSAGE\n“Twenty posters were shown in the library. Exactly 43 people visited. The next display is on 12 December.”\n\nLANGUAGE HELP · planned = war geplant · moved = zog um / wurde verlegt · showed = zeigten · collected = sammelten · at least = mindestens · not confirmed = nicht bestätigt. Use your own clear English; a shorter complete answer is acceptable.",
+      "tasks": [
+        {
+          "id": "en-art-display-1",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 7,
+          "prompt": "A. Fact check (6 criteria points): Check the three sentences in Card C against A and B. For each, write what is wrong or still unknown and give the correct information from the cards. In particular, separate the number of signatures from the total number of visitors.",
+          "sample": "The display was in the school hall, not the library; the library was only the planned place. Twelve posters were actually shown by 18 students, not 20; 20 was only a hope in Card A. Forty-three different visitors signed, but the total number of visitors is unknown. The next display may happen, but 12 December and a room have not been chosen.",
+          "criteria": [
+            "2 Punkte: Bibliothek als Plan und Schulhalle als tatsächlicher Ort klar getrennt.",
+            "1 Punkt: 20 als Hoffnung vorab und 12 als tatsächlich gezeigte Plakate unterschieden.",
+            "1 Punkt: 43 verschiedene Unterschreibende richtig genannt.",
+            "1 Punkt: gesamte Besucherzahl als unbekannt bezeichnet, nicht genau 43 gesetzt.",
+            "1 Punkt: 12. Dezember als unbelegt und weiterer Termin/Ort als offen erkannt."
+          ]
+        },
+        {
+          "id": "en-art-display-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "inputRows": 6,
+          "prompt": "B. Plan a report (4 criteria points): Write four short notes in English for a school newsletter. Include when and where the display actually happened, who and what was shown, one careful visitor fact, and one detail about the change of plan. Do not copy Card C as evidence.",
+          "sample": "Friday 3:00–4:30 p.m.; school hall after the library closed. Eighteen students showed 12 posters. Forty-three different visitors signed the guest list; the total is unknown. The display moved from the planned library to the hall.",
+          "criteria": [
+            "1 Punkt: Freitag 3:00–4:30 Uhr und tatsächliche Schulhalle.",
+            "1 Punkt: 18 Schülerinnen/Schüler und 12 Plakate.",
+            "1 Punkt: 43 unterschiedliche Gästelisten-Unterschriften mit offener Gesamtzahl.",
+            "1 Punkt: Verlegung wegen geschlossener Bibliothek als Planänderung, nicht als zwei Ausstellungen."
+          ]
+        },
+        {
+          "id": "en-art-display-3",
+          "kind": "reflection",
+          "points": 12,
+          "writingLines": 16,
+          "inputRows": 14,
+          "prompt": "C. Write the report (12 criteria points): Write a short English school-news report about what happened, using your plan from B. Begin with a clear lead, include the time, place, students, posters and a careful visitor sentence. Explain the move from the library and mention the nine written comments. End without inventing the next date. About 80–130 words can help you plan, but there is no word-count threshold. Use simple past forms where they fit and check your facts against Card B.",
+          "sample": "Last Friday, our school art display took place in the school hall from 3:00 to 4:30 p.m. The library was the planned place, but it was closed, so the display moved to the hall. Eighteen students showed 12 posters. Forty-three different visitors signed the guest list. The event log lists nine written comments. The total number of visitors is unknown because some people may not have signed. On Monday, the notice said, “We hope to show 20 posters.” On Friday, students showed 12. Another display is possible, but there is no date or room yet.",
+          "criteria": [
+            "1 Punkt: Lead nennt die tatsächlich durchgeführte Ausstellung.",
+            "1 Punkt: Freitag und Zeit 3:00–4:30 p.m. richtig.",
+            "1 Punkt: Schulhalle als tatsächlicher Ort.",
+            "1 Punkt: Bibliothek als ursprünglicher Plan und Schliessung als Grund der Verlegung.",
+            "1 Punkt: 18 Schülerinnen und Schüler als Ausstellende.",
+            "1 Punkt: 12 tatsächlich gezeigte Plakate.",
+            "1 Punkt: 43 verschiedene Personen unterschrieben die Gästeliste.",
+            "1 Punkt: gesamte Besucherzahl unbekannt; mindestens 43 Unterschreibende nicht mit genau 43 insgesamt verwechseln.",
+            "1 Punkt: neun schriftliche Kommentare sachlich richtig.",
+            "1 Punkt: Zukunft nicht als festes Datum/Ort behauptet.",
+            "1 Punkt: zusammenhängender Bericht für die Schulzeitung mit passender Informationsfolge, keine blosse Stichwortliste.",
+            "1 Punkt: vergangene Ereignisse überwiegend verständlich in Vergangenheit beschrieben und selbst kontrolliert; einzelne Sprachfehler nicht mehrfach zählen. Alternative klare Formulierungen gelten."
+          ]
+        },
+        {
+          "id": "en-art-display-4",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 11,
+          "inputRows": 10,
+          "prompt": "D. A careful call for ideas (8 criteria points): Write a short English notice asking other students to help plan a possible future art display. Say what the last display showed, invite ideas or help, and state clearly that the next date and room are not confirmed. Do not announce a new event as certain. About 45–80 words are a guide, not a pass mark. Explain in one sentence why the tone differs from the factual report.",
+          "sample": "Would you like to help plan a possible next art display? At the last display, 18 students showed 12 posters. Share an idea for a new poster or offer to help welcome visitors. Another display is only a possibility; no date or room has been confirmed. This notice asks people to help, while the report explains what happened.",
+          "criteria": [
+            "1 Punkt: mögliche nächste Ausstellung statt fest zugesagtem Termin.",
+            "1 Punkt: 18 Schülerinnen und Schüler und 12 Plakate beim vergangenen Ereignis richtig.",
+            "1 Punkt: konkrete Bitte um Ideen oder Mithilfe.",
+            "1 Punkt: klare Handlungsaufforderung an andere Schülerinnen und Schüler.",
+            "1 Punkt: Datum ausdrücklich nicht bestätigt.",
+            "1 Punkt: Raum ausdrücklich nicht bestätigt.",
+            "1 Punkt: verständliche, höfliche englische Form mit adressatengerechtem Ton.",
+            "1 Punkt: Unterschied zwischen einladendem Aufruf und sachlichem Rückblick erklärt; Wortzahl nicht als versteckte Hürde."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Englisch Klasse 7 ab 2026/27. Erste Fremdsprache § 2.2.4 PDF-S. 29–30: über Ereignisse berichten, einen Aufruf verfassen, adressatengerecht planen und Texte kontrollieren/überarbeiten; Zielmarke Klassenstufe 8. A2/punktuell B1 ist erst Ziel Ende 8.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
       "id": "en-maya-clubs-talk",
       "subjectId": "en",
       "title": "Explain two clubs to Maya",

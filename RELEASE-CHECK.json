@@ -1,17 +1,18 @@
 {
-  "builtAt": "2026-10-21T22:47:44.681Z",
-  "releaseVersion": "2026.10.22-maheftpreis.1",
+  "builtAt": "2026-10-21T22:56:55.390Z",
+  "releaseVersion": "2026.10.22-enreportcall.1",
   "newTopicIds": [
-    "ma-heftpreis-bruecke"
+    "en-art-display-report"
   ],
   "changeLog": [
-    "Freiwillige Mathe-Grundlagenbrücke zu Stückpreis, Gegenprobe und Überschlag; kein zusätzlicher Klasse-7-Jahresbereich."
+    "Freiwilliger Englisch-Schreibfall 7/8 zu sachlichem Bericht und vorsichtigem Aufruf aus fiktiven Karten; kein bestätigter aktueller Klasse-7-Stoff."
   ],
-  "rollbackCommit": "3003c071d8c7581723189be01a428b68827b96d3",
+  "rollbackCommit": "d4c165596c7e83b2ba949ade682cb2e745637a25",
   "releasedTopics": [
     "mbi-festbezug-karten",
     "de-woerter-umfrage",
     "de-tauschregal-eroerterung",
+    "en-art-display-report",
     "en-maya-clubs-talk",
     "fr-termin-gespraech",
     "de-textzusammenhang-register",

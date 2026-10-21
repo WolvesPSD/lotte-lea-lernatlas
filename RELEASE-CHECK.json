@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-21T08:36:34.880Z",
-  "releaseVersion": "2026.10.21-i5.1",
+  "builtAt": "2026-10-21T08:58:14.214Z",
+  "releaseVersion": "2026.10.21-ens.1",
   "newTopicIds": [
-    "mbi-luefterregler-gestalten"
+    "en-garden-poster-dialogue"
   ],
   "changeLog": [
-    "MBI I5: fiktive Lüfterregeln aus vier sichtbaren Karten bauen, eine Zehn-Schritt-Folge testen und Grenz- und Fehlerfälle erklären.",
-    "Das lokale Browserlabor steuert keine Hardware; Kinderblatt, Erwachsenenlösung und Grenzen der Bildschirm-Simulation sind ausdrücklich sichtbar."
+    "Englisch EN-S: mit getrennten Rollenkarten einen fiktiven Postertermin mündlich vereinbaren, neue Angaben aufgreifen und den ersten Schritt festhalten.",
+    "Die geheime Partnerinformation steht nur in der Erwachsenenansicht; das Beobachtungsraster bewertet ein wirklich geführtes Gespräch, keine schriftliche Notiz."
   ],
-  "rollbackCommit": "31606656b32299be7bbb29f9c1a556e12950a29a",
+  "rollbackCommit": "1530b3261d97bb30556812359dfbe167fb16ad5b",
   "releasedTopics": [
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
@@ -37,6 +37,7 @@
     "ma-prozent-fixture",
     "en-maya-repair-cafe",
     "en-friday-activity-email",
+    "en-garden-poster-dialogue",
     "de-technikprotokoll-korrigieren",
     "en-alex-games-mediation",
     "fr-mila-drawing-mediation",

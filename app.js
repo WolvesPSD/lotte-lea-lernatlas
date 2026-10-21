@@ -279,7 +279,7 @@
 
   function taskResult(task, value) {
     if (!value || !String(value).trim()) return { status: 'empty', label: 'Noch nicht beantwortet.' };
-    if (task.kind === 'reflection') return { status: 'manual', label: 'Offene Antwort: Vergleiche mit Musterlösung und Kriterien. Keine automatische Bewertung.' };
+    if (task.kind === 'reflection') return { status: 'manual', label: task.adultOnlySolution ? 'Offene Antwort: Besprecht die Sachlösung nach dem wirklichen Gespräch im Erwachsenenbereich. Keine automatische Bewertung.' : 'Offene Antwort: Vergleiche mit Musterlösung und Kriterien. Keine automatische Bewertung.' };
     if (task.kind === 'decimal') {
       const normalized = String(value).trim().replace(/\u2212/g, '-').replace(',', '.');
       if (!/^[+-]?\d+(?:\.\d{1,2})?$/.test(normalized)) return { status: 'invalid', label: 'Bitte einen Eurobetrag mit höchstens zwei Nachkommastellen eingeben.' };
@@ -425,6 +425,8 @@
           appendText(result, 'p', 'muted', 'Prüfe zuerst, ob du eigene Kapitelbelege aus der vollständigen Lektüre notiert hast. Die App kann das Lesen nicht feststellen.');
           const reveal = button('Musterlösung bewusst öffnen', () => { reveal.remove(); showSolution(); }, 'reveal-sample');
           result.append(reveal);
+        } else if (task.adultOnlySolution) {
+          appendText(result, 'p', 'muted', 'Die Sachlösung steht nur im Erwachsenenbereich. Besprecht sie nach dem wirklichen Gespräch; die App kann keine mündliche Leistung prüfen.');
         } else showSolution();
       }
     }, 'check-button'));
@@ -592,10 +594,12 @@
         (mode === 'child' ? topic.practice.childSteps : topic.practice.adultCriteria).forEach(step => appendText(list, 'li', '', mode === 'child' ? step : `${step}  Punkte: ____`));
         practiceSection.append(list);
         if (mode === 'adult') {
-          appendText(practiceSection, 'p', '', 'Beobachtung: ☐ gesehen  ☐ mit Hilfe  ☐ offen  ☐ nicht erhoben. Ohne Vortrag keine 0/16 eintragen.');
+          const observationMax = Number.isInteger(topic.practice.observationMax) ? topic.practice.observationMax : 16;
+          const observationLabel = topic.practice.observationLabel || 'Vortrag';
+          appendText(practiceSection, 'p', '', `Beobachtung: ☐ gesehen  ☐ mit Hilfe  ☐ offen  ☐ nicht erhoben. Ohne ${observationLabel} keine Punktzahl eintragen.`);
           appendText(practiceSection, 'p', '', 'Vorher vereinbarte Hilfen / verwendete Stichwortstützen: ____________________________________________________');
           appendText(practiceSection, 'p', '', 'Nachgereichte Hinweise und tatsächlich Gehörtes: _______________________________________________________');
-          appendText(practiceSection, 'p', '', 'Nur bei Durchführung: Summe mündliche Übung ____ / 16. Kein automatisches Urteil und keine Schulnote.');
+          appendText(practiceSection, 'p', '', `Nur bei Durchführung: Summe mündliche Übung ____ / ${observationMax}. Kein automatisches Urteil und keine Schulnote.`);
         }
         section.append(practiceSection);
       }

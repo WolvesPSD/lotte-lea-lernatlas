@@ -209,3 +209,4 @@ body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="mbi-simunet-2"]{break-before:page}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="mbi-luefter-2"],body[data-print-mode^="adult"] .print-task[data-task-id="mbi-luefter-4"]{break-before:page}}
 @media print{body[data-print-mode^="adult"] .print-practice{break-before:page}.print-practice{break-inside:auto}.print-practice li{break-inside:avoid}}
+@media print{body[data-print-mode^="child"] #print-surface:has(.print-task[data-task-id="en-garden-dialogue-2"]) .print-practice{break-before:page}}

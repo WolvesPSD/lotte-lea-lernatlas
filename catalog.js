@@ -2123,6 +2123,75 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "en-garden-poster-dialogue",
+      "subjectId": "en",
+      "title": "Talk and make a poster plan",
+      "scope": "Freiwillige, gestützte Sprechübung im gültigen 7/8-Rahmen. Dialogisches Sprechen steht in § 2.2.3 unter der Zielmarke Klasse 8; der aktuelle Klasse-7-Unterricht ist unbekannt. Die App bereitet das Gespräch vor, sie bewertet keine mündliche Leistung.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Du brauchst eine Person für Rolle B. Lies vorher nur deine Karte A; die andere Person liest ihre Karte im Erwachsenenbereich. Die Sätze sind Hilfen, kein Dialog zum Auswendiglernen. Eine geschriebene Antwort allein beweist kein englisches Sprechen.",
+      "introduction": "You and a partner want to START a poster for a fictional garden club. Speak in English and find a session you can both attend. Ask a real question, respond to new information and finish with day, time, place and first step. You may use the word help. Do not use real school plans. Your partner has a separate card; do not open the adult solution before the conversation.",
+      "passage": "YOUR CARD · Student A\nWednesday, 3:30–4:15 pm · Art Room · Paper and coloured pens · You would like to draw a paper poster.\nThursday, 4:00–4:45 pm · Library · A laptop · You could make a digital first draft.\n\nYou do not know when Student B is free or whether all equipment works. Start by suggesting a time and asking about it. Today's aim is a first draft, not a finished printed poster.\n\nWORD HELP · Could we meet on ...? · Are you free then? · What can we use there? · Sorry, could you say that again? · We could ... instead. · So we will meet ... and ... .",
+      "tasks": [
+        {
+          "id": "en-garden-dialogue-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 5,
+          "prompt": "A. Prepare, then speak (4 written preparation points): Note one possible first proposal, one genuine question for your partner, a phrase for asking for repetition, and a possible way to close the conversation. Use short notes rather than a complete script. Then do the spoken role play below.",
+          "sample": "Could we meet on Wednesday at 3:30 in the Art Room? / Are you free then? / Sorry, could you say that again? / So we will meet on [agreed day] at [agreed time] in [agreed place] and start [agreed first step]. The closing must be filled with the actual agreement, not guessed in advance.",
+          "criteria": [
+            "1 point: understandable proposal with one card-A time and place.",
+            "1 point: genuine question that lets the partner supply information.",
+            "1 point: suitable repetition or clarification phrase.",
+            "1 point: useful closing frame with blanks for the actual agreement; do not invent the partner’s answer before speaking. These are written preparation points, not evidence of spoken delivery."
+          ]
+        },
+        {
+          "id": "en-garden-dialogue-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "prompt": "B. Only after a real conversation (4 written fact points): Write the agreed day, time, place and first step. Note how you reacted to your partner’s new information. What remains open about printing? If no partner was available, leave this answer blank; do not guess Student B’s card.",
+          "adultOnlySolution": true,
+          "sample": "Thursday, 4:00–4:45 pm, Library: make a digital first draft. Student B cannot meet on Wednesday because of a music lesson; if A proposed Thursday first, A can simply confirm that both are free then. The Library printer is broken, so printing remains to be checked later. This written note does not score speaking.",
+          "criteria": [
+            "1 point: Thursday and the shared 4:00–4:45 pm window.",
+            "1 point: Library and digital first draft.",
+            "1 point: a correct reaction to new partner information: Wednesday excluded after it was proposed, or Thursday availability confirmed if Thursday came first.",
+            "1 point: broken printer and later printing left open. Without a real dialogue, leave the answer blank and do not award these points."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Praxis: ein englisches Gespräch führen",
+        "childNote": "Eine echte Person übernimmt Student B. Sprich mit ihr, statt den Dialog aufzuschreiben oder ein Muster abzulesen. Ohne Gespräch bleibt die mündliche Übung „nicht erhoben“; deine Notizen sind nur Vorbereitung.",
+        "childSteps": [
+          "Bitte die andere Person, die Erwachsenenkarte B selbst und nur für sich zu öffnen. Schaue nur auf deine Karte A und kurze Stichwörter.",
+          "Beginne auf Englisch mit einem Vorschlag und einer Frage. Höre zu und frage nach, wenn etwas unklar ist.",
+          "Reagiere auf die neue Termin- und Materialinformation. Vereinbart einen tatsächlich möglichen ersten Schritt; versprecht keinen fertigen Druck.",
+          "Schliesse mit Tag, Uhrzeit, Ort und erstem Schritt. Notiere danach in Aufgabe B die vereinbarten Fakten."
+        ],
+        "observationMax": 12,
+        "observationLabel": "Gespräch",
+        "adultNote": "Verdeckte Partnerkarte B: Du kannst Mittwoch wegen einer Musikstunde nicht. Donnerstag von 4:00 bis 4:45 pm bist du frei. Der Laptop in der Library funktioniert, der Drucker ist kaputt. Verrate diese Angaben erst im Gespräch. Antworte in einfachem Englisch, etwa „I have a music lesson on Wednesday. I can meet on Thursday at four.“ Sobald Donnerstag erwogen wird, erwähne auf Englisch den kaputten Drucker auch ohne Nachfrage, damit das Kind fair reagieren kann. Akzeptiere einen digitalen Erstentwurf und lasse Drucken offen. Wiederhole bei Bedarf. Nur ein wirklich gehörtes Gespräch beobachten: 2 = selbstständig und verständlich, 1 = teilweise oder mit Stütze, 0 = trotz fairer Gelegenheit nicht gezeigt, — = keine faire Gelegenheit. Ohne Gespräch alles „nicht erhoben“ lassen; keine Summe oder Schulnote ableiten. Keine Aufnahme nötig.",
+        "adultCriteria": [
+          "Gespräch eröffnen und verständlichen Vorschlag machen: 0/1/2 oder — ohne faire Gelegenheit.",
+          "Eine echte Frage stellen, statt nur vorbereitete Sätze abzulesen: 0/1/2 oder —.",
+          "Auf neue Zeitinformation eingehen: Mittwoch bei einem Vorschlag verwerfen oder bei direktem Donnerstagvorschlag die gemeinsame Verfügbarkeit klären; 0/1/2 oder —.",
+          "Auf den defekten Drucker mit einem digitalen Entwurf oder offener Nachfrage reagieren: 0/1/2 oder —.",
+          "Gespräch aufnehmen und mit Tag, Zeit, Ort und erstem Schritt abschliessen: 0/1/2 oder —.",
+          "Englisch verständlich sprechen und bei Bedarf nachfragen oder umformulieren: 0/1/2 oder —. Kleine Fehler ohne Sinnverlust nicht pauschal abwerten."
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Englisch-Lehrplan für Klasse 7 ab 2026/27. Erste Fremdsprache, § 2.2.3 PDF-S. 27–28: zu vertrauten Themen Gespräche beginnen, aufrechterhalten und beenden, nachfragen, Vorschläge machen und auf neue Angaben reagieren; Zielmarke Klassenstufe 8.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "de-technikprotokoll-korrigieren",
       "subjectId": "de",
       "title": "Ein Protokoll verständlich korrigieren",

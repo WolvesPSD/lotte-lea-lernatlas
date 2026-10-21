@@ -19,6 +19,7 @@
   input[type=number]{background:#e8f3ff}#formula{background:#fff5cf}
   textarea{min-height:5.5rem;resize:vertical}button{padding:.5rem .9rem;background:#165e78;color:white;cursor:pointer;font-weight:650}
   button.secondary{background:white;color:#165e78}button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #d48700;outline-offset:2px}
+  .download{display:inline-block;min-height:44px;padding:.6rem .9rem;border-radius:.3rem;background:#165e78;color:white;font-weight:650;text-decoration:none}.download:focus-visible{outline:3px solid #d48700;outline-offset:2px}
   .controls{display:flex;gap:.6rem;flex-wrap:wrap}.result{font-size:1.15rem;font-weight:750;min-height:1.6rem}
   .formula-message{min-height:1.6rem;color:#8a3800;font-weight:600}.hint{color:#405965}
   @media print{body{background:white}.card{break-inside:avoid}button{display:none}main{max-width:none}}
@@ -27,6 +28,7 @@
 <body><main>
 <h1>Farbkarten in einer Tabelle</h1>
 <p class="note">Freiwilliger Einstieg in Tabellenkalkulation, Ziel bis Ende Klasse 8. Alle Zahlen sind erfunden. Dieses kleine Übungslabor arbeitet nur in diesem Browser-Tab; es ist kein vollständiges Tabellenprogramm. Beim Neuladen beginnt der Fall wieder von vorn. Gib keine echten Personendaten ein.</p>
+<section class="card" aria-labelledby="datei"><h2 id="datei">In Excel oder Calc üben</h2><p>Lade das lösungsfreie Startblatt herunter und öffne eine eigene Kopie in einem Tabellenprogramm. Die Zellen B8 und B10 sind leer, damit du Formel und Urteil selbst einträgst. Die Datei enthält nur erfundene Zahlen.</p><p><a class="download" href="mbi-farbkarten-startblatt.xlsx" download="mbi-farbkarten-startblatt.xlsx" type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">Startblatt als Excel-Datei herunterladen</a></p><p class="hint">Auf dem Handy kannst du die Datei zunächst speichern; zum Bearbeiten brauchst du eine Tabellen-App. Dein bearbeitetes Blatt bleibt bei dir.</p></section>
 <section class="card" aria-labelledby="auftrag"><h2 id="auftrag">Dein Auftrag</h2>
 <ol><li>Prüfe, welche Zellen Text und welche Zahlen enthalten.</li><li>Gib bei B8 eine <strong>Formel</strong> für die Summe von B5 bis B7 ein. Die Hilfe <code>=SUMME(B5:B7)</code> zeigt die Schreibweise; <code>=SUM(B5:B7)</code> funktioniert ebenfalls.</li><li>Vergleiche Blau mit Rot und Grün <strong>zusammen</strong>. Notiere dein Urteil in B10.</li><li>Ändere nur B6 von 6 auf 7. Prüfe, ob B8 neu berechnet wird, und ändere dein Urteil.</li><li>Stelle <strong>B6 selbst</strong> auf 6 zurück, ohne die Formel zu löschen. Prüfe B8 erneut und ändere B10 auf das erste Urteil zurück. Die Neustarttaste gehört nicht zu diesem Schritt.</li></ol>
 <p class="hint">Eine Formel beginnt mit <code>=</code> und verweist auf Zellen. Eine eingetippte Ergebniszahl zählt nicht als Formel. Das Labor zeigt das Ergebnis gesondert, damit Formel und berechneter Wert nebeneinander sichtbar bleiben.</p></section>

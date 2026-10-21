@@ -1,15 +1,12 @@
 {
-  "builtAt": "2026-10-21T10:16:53.471Z",
-  "releaseVersion": "2026.10.21-m9m10.1",
-  "newTopicIds": [
-    "ma-reelle-zahlen",
-    "ma-kreisweg"
-  ],
+  "builtAt": "2026-10-21T10:25:53.196Z",
+  "releaseVersion": "2026.10.21-mbixlsx.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Mathematik M9: fiktive Quadratplatten und Würfel mit fünf Aufgaben zu Wurzeln, exakten Werten, Schranken, Rundung und irrationalen Zahlen.",
-    "Mathematik M10: fiktiver Kreisweg mit fünf Aufgaben zu π, Umfang, Kreisringfläche und begrenzter Materialschätzung; beide Themen sind freiwillige Ende-8-Ausblicke."
+    "MBI-Farbkartenlabor: direkter Download eines lösungsfreien XLSX-Startblatts mit erfundenen Zahlen für Excel oder Calc.",
+    "Die unveränderte Kinderdatei wird beim Release-Bau mit SHA-256 geprüft; die App-Themen und Aufgaben bleiben gleich."
   ],
-  "rollbackCommit": "f718c50393275e1d2eedea77af82c5695bef96ec",
+  "rollbackCommit": "54b3d6755f13cc7c6123e7b43731a7bab5684f68",
   "releasedTopics": [
     "ma-kreisweg",
     "ma-reelle-zahlen",

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Buchkatalog – lokales Kinderlabor</title>
+<style>
+  :root{font-family:system-ui,Arial,sans-serif;color:#17232c;background:#f5f7f8}
+  *{box-sizing:border-box}body{margin:0}main{max-width:960px;margin:auto;padding:1rem}
+  h1{font-size:1.7rem}h2{font-size:1.25rem;margin-top:2rem}p{line-height:1.5}
+  .note{background:#e7f4f1;border-left:5px solid #157766;padding:.7rem 1rem}
+  .card{background:white;border:1px solid #cad4d8;border-radius:.5rem;padding:1rem;margin:1rem 0}
+  .controls{display:flex;flex-wrap:wrap;gap:.75rem;align-items:end}
+  label{display:flex;flex-direction:column;gap:.3rem;font-weight:600}
+  select,button{font:inherit;padding:.55rem;min-height:44px;border:1px solid #596e78;border-radius:.25rem;background:white;color:#17232c}
+  button{cursor:pointer;background:#145b75;color:white;border-color:#145b75;font-weight:600}
+  button.secondary{background:#fff;color:#145b75}
+  button:focus-visible,select:focus-visible{outline:3px solid #d58400;outline-offset:2px}
+  .scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;margin:.6rem 0}th,td{border:1px solid #aab9bf;padding:.5rem;text-align:left}th{background:#e6eef1}
+  #message{font-weight:700;color:#124d64;min-height:1.6rem}
+  @media print{body{background:white}.card{break-inside:avoid}button{display:none}main{max-width:none}}
+</style>
+</head>
+<body><main>
+<h1>Eine Buchdatenbank selbst befragen</h1>
+<p class="note">Alle Bücher und Exemplare sind erfunden. Dieses lokale Übungslabor speichert keine Namen und sendet keine Daten. Beim Öffnen wird der fiktive Startzustand wiederhergestellt. Der Lehrplan nennt Datenbanken unter der Zielmarke Klasse 8; dies ist ein freiwilliger Ausblick.</p>
+<section class="card"><h2>1. Zwei verknüpfte Tabellen</h2><p>Die Buch-ID verbindet einen Titel mit seinen konkreten Exemplaren. Ein Buch kann mehrere Exemplare besitzen.</p><div class="scroll"><table><caption>Buch</caption><thead><tr><th scope="col">Buch-ID</th><th scope="col">Titel</th><th scope="col">Art</th></tr></thead><tbody id="books"></tbody></table></div><div class="scroll"><table><caption>Exemplar – aktueller Zustand</caption><thead><tr><th scope="col">Exemplar-ID</th><th scope="col">Buch-ID</th><th scope="col">Regal</th><th scope="col">Status</th></tr></thead><tbody id="copies"></tbody></table></div></section>
+<section class="card"><h2>2. Eine Anfrage ausführen</h2><p>Stelle die drei Bedingungen ein. Erst der Klick auf „Anfrage ausführen“ liest den aktuellen Datenbankzustand neu.</p><div class="controls"><label>Art<select id="kind"><option value="">Alle</option><option>Sachbuch</option><option>Roman</option></select></label><label>Regal<select id="shelf"><option value="">Alle</option><option>A</option><option>B</option><option>C</option></select></label><label>Status<select id="status"><option value="">Alle</option><option>bereit</option><option>ausgeliehen</option></select></label><button type="button" id="query">Anfrage ausführen</button></div><p id="message" role="status" aria-live="polite"></p><div class="scroll"><table><caption>Ergebnis der letzten Anfrage</caption><thead><tr><th scope="col">Exemplar-ID</th><th scope="col">Titel</th></tr></thead><tbody id="results"></tbody></table></div></section>
+<section class="card"><h2>3. Eine Änderung ausprobieren</h2><p>Ändere nur das fiktive Exemplar X04. Führe danach die Anfrage aus Schritt 2 <strong>noch einmal</strong> aus. Vergleiche die Treffer vor und nach der Änderung.</p><div class="controls"><label>Neuer Status von X04<select id="new-status"><option value="ausgeliehen">ausgeliehen</option><option value="bereit">bereit</option></select></label><button type="button" id="update">X04 ändern</button><button type="button" class="secondary" id="reset">Startzustand wiederherstellen</button></div><p>Begründe auf deinem Blatt: Warum verschwindet X04 aus der Anfrage „Sachbuch, A, bereit“, wenn sein Status geändert wurde? Bleibt der Titel in der Buch-Tabelle erhalten?</p></section>
+<p>Dieses Labor zeigt eine kleine lokale Datenbankoperation. Es bildet nicht alle Ziele des Bereichs I6 ab und enthält keine echte Schul- oder Bibliotheksinformation.</p>
+</main><script>
+(() => {
+  'use strict';
+  const dbName = 'lotte-lea-103-fiktiver-buchkatalog';
+  const seedBooks = [
+    {id:'B1',title:'Sternenkarte',kind:'Sachbuch'},
+    {id:'B2',title:'Rätsel am Fluss',kind:'Roman'},
+    {id:'B3',title:'Musik im Alltag',kind:'Sachbuch'},
+    {id:'B4',title:'Roboter im Garten',kind:'Sachbuch'}
+  ];
+  const seedCopies = [
+    {id:'X01',bookId:'B1',shelf:'A',status:'bereit'},
+    {id:'X02',bookId:'B1',shelf:'B',status:'ausgeliehen'},
+    {id:'X03',bookId:'B2',shelf:'A',status:'bereit'},
+    {id:'X04',bookId:'B3',shelf:'A',status:'bereit'},
+    {id:'X05',bookId:'B4',shelf:'C',status:'bereit'}
+  ];
+  const byId = id => document.getElementById(id);
+  const say = message => { byId('message').textContent = message; };
+  const request = indexedDB.open(dbName,1);
+  request.onupgradeneeded = () => {
+    const db = request.result;
+    if (!db.objectStoreNames.contains('books')) db.createObjectStore('books',{keyPath:'id'});
+    if (!db.objectStoreNames.contains('copies')) db.createObjectStore('copies',{keyPath:'id'});
+  };
+  request.onerror = () => say('Die lokale Datenbank ist hier nicht verfügbar. Bitte in einem aktuellen Browser öffnen.');
+  request.onsuccess = async () => {
+    const db = request.result;
+    function all(store) { return new Promise((resolve,reject) => {
+      const tx=db.transaction(store,'readonly');const req=tx.objectStore(store).getAll();
+      req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);
+    });}
+    function write(store,value) { return new Promise((resolve,reject) => {
+      const tx=db.transaction(store,'readwrite');tx.objectStore(store).put(value);
+      tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);
+    });}
+    function resetDb() { return new Promise((resolve,reject) => {
+      const tx=db.transaction(['books','copies'],'readwrite');
+      const books=tx.objectStore('books'),copies=tx.objectStore('copies');
+      books.clear();copies.clear();seedBooks.forEach(item=>books.put(item));seedCopies.forEach(item=>copies.put(item));
+      tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);
+    });}
+    function rows(container, values) {
+      const target=byId(container);target.replaceChildren();
+      for(const valuesRow of values) {const tr=document.createElement('tr');for(const value of valuesRow){const td=document.createElement('td');td.textContent=value;tr.append(td);}target.append(tr);}
+    }
+    async function refresh() {
+      const [books,copies]=await Promise.all([all('books'),all('copies')]);
+      rows('books',books.map(b=>[b.id,b.title,b.kind]));
+      rows('copies',copies.map(c=>[c.id,c.bookId,c.shelf,c.status]));
+    }
+    async function query() {
+      const [books,copies]=await Promise.all([all('books'),all('copies')]);
+      const bookMap=new Map(books.map(b=>[b.id,b]));
+      const kind=byId('kind').value,shelf=byId('shelf').value,status=byId('status').value;
+      const matches=copies.filter(c=>{const b=bookMap.get(c.bookId);return b && (!kind||b.kind===kind) && (!shelf||c.shelf===shelf) && (!status||c.status===status);}).sort((a,b)=>a.id.localeCompare(b.id));
+      rows('results',matches.map(c=>[c.id,bookMap.get(c.bookId).title]));
+      say(matches.length+' Treffer aus dem aktuellen Datenbankzustand.');
+    }
+    try {
+      await resetDb();await refresh();rows('results',[]);say('Startzustand bereit. Stelle die Filter ein.');
+      byId('query').addEventListener('click',()=>query().catch(()=>say('Anfrage fehlgeschlagen.')));
+      byId('update').addEventListener('click',async()=>{try{await write('copies',{id:'X04',bookId:'B3',shelf:'A',status:byId('new-status').value});await refresh();say('X04 geändert. Führe die Anfrage erneut aus.');}catch{say('Änderung fehlgeschlagen.');}});
+      byId('reset').addEventListener('click',async()=>{try{await resetDb();await refresh();rows('results',[]);say('Startzustand wiederhergestellt. Führe die Anfrage erneut aus.');}catch{say('Zurücksetzen fehlgeschlagen.');}});
+    } catch { say('Startdaten konnten nicht geladen werden.'); }
+  };
+})();
+</script></body></html>

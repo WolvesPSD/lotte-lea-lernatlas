@@ -2475,6 +2475,85 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-buchdaten-labor",
+      "subjectId": "mbi",
+      "title": "Buchdaten filtern und ändern",
+      "scope": "Ausblick Klasse 8 · freiwillig. Die MBI-Erprobungsfassung setzt für Klasse 7 im Schuljahr 2026/27 ein; Datenbanken stehen darin ausdrücklich unter der Zielmarke Klasse 8. Keine belegte aktuelle Schulfolge und keine vollständige Datenbankkompetenz.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Für diese Übung öffnest du das fiktive Buchlabor. Es speichert nur erfundene Buch- und Exemplarzeilen im Browser und setzt sie beim Öffnen zurück. Falls dein Browser die lokale Datenbank sperrt, ist der praktische Teil hier nicht durchführbar.",
+      "introduction": "Öffne zuerst das Buchlabor über den Link unten. Arbeite dort mit zwei erfundenen Tabellen: „Buch“ beschreibt Titel, „Exemplar“ konkrete Stücke. Eine Buch-ID verbindet beide. Stelle die Filter ein, führe jede Anfrage bewusst aus und beobachte, was eine Änderung an X04 bewirkt. Schreibe deine Beobachtung hier auf oder nutze das Kinderblatt. Die App kann nicht sehen, ob du die Labor-Schritte wirklich ausgeführt hast; die Antworten erhalten keine automatische Note.",
+      "lab": {
+        "path": "assets/mbi-buchlabor.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/mbi-buchlabor.html",
+        "title": "Buchlabor",
+        "description": "Das Labor öffnet in einem neuen Tab. Kehre danach für die Antworten in diesen Lernatlas zurück. Alle Daten sind erfunden; beim Öffnen oder Zurücksetzen beginnt das Labor wieder mit dem Startzustand.",
+        "printNote": "Alle Daten sind erfunden. Das Labor setzt sich beim Öffnen und mit dem Knopf „Startzustand wiederherstellen“ zurück. Die Direktadresse funktioniert erst nach Veröffentlichung dieses Pakets."
+      },
+      "tasks": [
+        {
+          "id": "mbi-buchlabor-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "prompt": "Buch und Exemplar verstehen (4 Kriterienpunkte): Suche Buch-ID B1. Welche Exemplar-IDs gehören dazu? Erkläre, warum B1 und X01 verschiedene Dinge bezeichnen, und nenne das Feld, das die Tabellen verbindet.",
+          "sample": "B1 ist das Buch „Sternenkarte“. Seine Exemplare sind X01 und X02. B1 steht für den Titel-Datensatz, X01 für ein konkretes Exemplar. Das Feld „Buch-ID“ in der Exemplar-Tabelle verweist auf die Buch-ID der Buch-Tabelle.",
+          "criteria": [
+            "2 Punkte: X01 und X02 als beide Exemplare zu B1 gefunden (je 1).",
+            "1 Punkt: Titel-Datensatz und konkretes Exemplar unterschieden.",
+            "1 Punkt: Buch-ID als Verweisfeld der Exemplar-Tabelle genannt."
+          ]
+        },
+        {
+          "id": "mbi-buchlabor-2",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "prompt": "Drei Bedingungen als eine Anfrage (6 Kriterienpunkte): Stelle Art = Sachbuch, Regal = A und Status = bereit ein und klicke „Anfrage ausführen“. Nenne beide Exemplar-IDs mit Titeln. Warum erscheinen X03 und X02 nicht? Beschreibe, welche Filter du wirklich gesetzt hast.",
+          "sample": "Mit Sachbuch, A und bereit erscheinen X01 – Sternenkarte und X04 – Musik im Alltag. X03 steht zwar in Regal A und ist bereit, gehört aber zum Roman B2. X02 gehört zum Sachbuch B1, steht jedoch in Regal B und hat Status ausgeliehen. Alle drei Filter müssen gemeinsam gelten.",
+          "criteria": [
+            "2 Punkte: drei Bedingungen tatsächlich gesetzt und Anfrage ausgeführt; reine Vermutung ohne Bedienung als schriftliche Vorbereitung markieren.",
+            "2 Punkte: X01/Sternenkarte und X04/Musik im Alltag als Treffer (je 1).",
+            "2 Punkte: X03 wegen Roman und X02 wegen Regal B/ausgeliehen ausgeschlossen (je 1)."
+          ]
+        },
+        {
+          "id": "mbi-buchlabor-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "prompt": "Ändern und neu abfragen (5 Kriterienpunkte): Setze X04 auf ausgeliehen und klicke „X04 ändern“. Ohne die drei Filter zu ändern, führe die Anfrage erneut aus. Was ändert sich in der Exemplar-Tabelle und in der Ergebnisliste? Welche ID bleibt, warum verschwindet X04, und bleibt der Titel „Musik im Alltag“ bestehen?",
+          "sample": "Die Exemplar-Zeile X04 zeigt nun ausgeliehen. Nach einer neuen Anfrage bleibt nur X01 – Sternenkarte, weil der Filter weiter Status = bereit verlangt. X04 ist noch ein Exemplar und Buch B3 „Musik im Alltag“ bleibt unverändert in der Buch-Tabelle. Eine alte Trefferliste mit X04 zeigt nur die vorige Anfrage; sie wird erst beim erneuten Ausführen aktualisiert.",
+          "criteria": [
+            "1 Punkt: geänderte Exemplar-Zeile X04 mit ausgeliehen beobachtet.",
+            "1 Punkt: Anfrage nach der Änderung wirklich neu ausgeführt.",
+            "1 Punkt: X01 als einziger neuer Treffer.",
+            "1 Punkt: X04 fällt wegen Statusfilter bereit heraus.",
+            "1 Punkt: Buch B3/Titel bleibt trotz Statusänderung eines Exemplars erhalten."
+          ]
+        },
+        {
+          "id": "mbi-buchlabor-4",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 7,
+          "prompt": "Zurückstellen und einordnen (5 Kriterienpunkte): Klicke „Startzustand wiederherstellen“ und führe dieselbe Sachbuch-A-bereit-Anfrage erneut aus. Was steht jetzt bei X04 und welche zwei Treffer erscheinen? Nenne zwei Dinge, die dieses fiktive Labor über die Daten einer echten Bibliothek nicht beweist.",
+          "sample": "Nach Zurücksetzen steht X04 in der Exemplar-Tabelle wieder auf bereit. Die neue Anfrage zeigt wieder X01 – Sternenkarte und X04 – Musik im Alltag. Das Labor beweist beispielsweise nicht, welche Personendaten echte Bibliotheken speichern, wer Zugriff hat oder wie lange Daten behalten werden; es enthält gar keine Ausleihenden.",
+          "criteria": [
+            "2 Punkte: Startzustand wiederhergestellt und gleiche Anfrage erneut ausgeführt.",
+            "1 Punkt: X04 wieder bereit sowie X01 und X04 als Treffer erkannt.",
+            "2 Punkte: zwei konkrete Grenzen zu realer Bibliotheks-Datenerfassung oder Zugriff/Aufbewahrung genannt (je 1); keine erfundene allgemeine Rechtsbehauptung."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Erprobungsfassung für Klasse 7 ab 2026/27. § 2.2.6 auf PDF-S. 27–28: Datenbanken, verknüpfte Daten, Abfragen und Ändern unter Klassenstufe 8. Dieses Labor zeigt nur Verknüpfung zweier Tabellen, kombinierten Filter und Statusänderung; der Filter läuft im Browser-JavaScript, nicht als vom Kind erstellte Datenbankabfrage.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "de-karte-im-regen-vortrag",
       "subjectId": "de",
       "title": "Einen Text verstehen und auswendig vortragen",

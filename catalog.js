@@ -72,6 +72,89 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "de-hoernachricht-live",
+      "subjectId": "de",
+      "title": "Eine geänderte Nachricht hören",
+      "scope": "Freiwilliger, gestützter 7/8-Fall zu Hörstrategien. Der Lehrplan gilt für Klasse 7, beschreibt das Hörziel aber bis Ende Klasse 8; die Schulfolge ist offen.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Hilfreich sind Wochentage, Uhrzeiten und der Unterschied zwischen „zuerst geplant“ und „jetzt gültig“. „Empfehlungskarte“ darf vorab als kurze schriftliche Buchempfehlung erklärt werden.",
+      "introduction": "Eine erwachsene Person liest dir eine erfundene Bibliotheksnachricht zweimal vor. Der Vorlesetext steht nur im Erwachsenenbereich. Schau ihn vor deiner Antwort nicht an. Deine Vermutung und Antworten kannst du hier oder auf dem Kinderblatt notieren.",
+      "liveReading": {
+        "title": "Vorleseübung ohne Aufnahme",
+        "childNote": "Vor dem ersten Hören: Schreibe in Aufgabe 4 eine Vermutung mit „vielleicht“. Beim ersten Hören: nur Thema und Zweck erfassen. Beim zweiten Hören: alt und neu als Stichwörter trennen; Unklares mit „?“ markieren. Falls nötig, darf die Nachricht ein drittes Mal vorgelesen werden. Notiere die Hörzahl. Ohne tatsächliches Vorlesen ist Hörverstehen nicht beurteilbar.",
+        "childPrintNote": "Nur das Kinderblatt ansehen. Eine erwachsene Person liest die Nachricht zweimal vor, bei Bedarf dreimal. Vorher eine Vermutung mit „vielleicht“ notieren; beim zweiten Hören alt/neu trennen. Das Vorleseskript steht ausschliesslich auf dem Erwachsenenblatt.",
+        "adultNote": "Den Kinderbereich allein zeigen oder ausdrucken und das Skript vor Lotte verdecken. Die Nachricht zweimal natürlich und deutlich vorlesen, mit kurzer Notizpause. Alte und neue Angaben nicht besonders betonen. Bei Bedarf ein drittes Mal lesen und die Hilfe notieren. Keine Aufnahme, kein Upload und keine persönlichen Daten nötig. Wenn niemand vorliest oder Lotte das Skript liest, nur Lesen dokumentieren; Hörverstehen bleibt nicht erhoben.",
+        "script": "Hallo, hier ist Mira aus der Bibliotheksgruppe. Unser Kartentausch war zuerst für Mittwoch um 15 Uhr im kleinen Leseraum geplant. Das ändert sich: Der kleine Leseraum wird an diesem Nachmittag für eine Autorenlesung gebraucht. Der Kartentausch findet deshalb Donnerstag um 15:30 Uhr am langen Tisch im Eingangsbereich statt. Er endet um 16:10 Uhr. Bringt, wenn ihr mögt, eine selbst geschriebene Empfehlungskarte mit. Ein eigenes Buch müsst ihr nicht mitbringen; die Karten beschreiben Bücher, die bereits in der Bibliothek stehen. Die neuen Angaben hängen ab morgen auch am Aushang. Erzählt bitte nur den geänderten Termin weiter."
+      },
+      "tasks": [
+        {
+          "id": "de-hoernachricht-1",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "prompt": "Hauptsache und Absicht (3 Kriterienpunkte): Worum geht es in der gehörten Nachricht? Was hat sich geändert? Was sollen die Zuhörenden mit der neuen Angabe tun? Antworte in zwei bis drei kurzen Sätzen.",
+          "sample": "Die erfundene Bibliotheksgruppe informiert über einen Kartentausch. Der ursprünglich geplante Termin wurde geändert. Die Zuhörenden sollen nur den neuen Termin weitererzählen.",
+          "criteria": [
+            "1 Punkt: fiktive Bibliotheksnachricht zum Kartentausch als Thema.",
+            "1 Punkt: Änderung des Plans/Termins als Hauptsache, ohne alle Einzelheiten vorwegzunehmen.",
+            "1 Punkt: nur den neuen Termin weitergeben. „Karten zu Büchern“ allein beschreibt noch nicht die Änderungsabsicht."
+          ]
+        },
+        {
+          "id": "de-hoernachricht-2",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 10,
+          "inputRows": 8,
+          "prompt": "Alt und neu (7 Kriterienpunkte): Notiere für den zuerst geplanten und den jetzt gültigen Kartentausch je Tag, Beginn und Ort. Wann endet der neue Termin? Verwende zwei klar benannte Spalten oder Zeilen „zuerst“ und „jetzt“.",
+          "sample": "Zuerst: Mittwoch, 15:00 Uhr, kleiner Leseraum. Jetzt: Donnerstag, 15:30 Uhr, langer Tisch im Eingangsbereich. Neuer Schluss: 16:10 Uhr.",
+          "criteria": [
+            "Je 1 Punkt für Mittwoch, 15:00 Uhr und kleiner Leseraum in der Spalte „zuerst“ (3).",
+            "Je 1 Punkt für Donnerstag, 15:30 Uhr und langer Tisch im Eingangsbereich in der Spalte „jetzt“ (3).",
+            "1 Punkt für Ende 16:10 Uhr. „Am Eingang“ ist gleichwertig, wenn der Ort klar bleibt; richtig gehörte, aber falsch zugeordnete Werte als Teilstärke rückmelden."
+          ]
+        },
+        {
+          "id": "de-hoernachricht-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "prompt": "Genau hören und Grenzen erkennen (5 Kriterienpunkte): Warum blieb der frühere Ort nicht? Ist eine Empfehlungskarte freiwillig? Muss man ein eigenes Buch mitbringen? Belegt die Nachricht eine Autorenlesung am Donnerstag am langen Tisch? Kann man aus „ab morgen“ ein genaues Kalenderdatum ableiten? Begründe die beiden letzten Antworten.",
+          "sample": "Der kleine Leseraum wird an jenem Nachmittag für eine Autorenlesung gebraucht. Eine Empfehlungskarte ist freiwillig („wenn ihr mögt“); ein eigenes Buch ist nicht nötig. Die Autorenlesung am Donnerstag am langen Tisch ist nicht belegt: Der lange Tisch ist der neue Ort des Kartentauschs. „Ab morgen“ ergibt ohne Sprechdatum kein Kalenderdatum.",
+          "criteria": [
+            "1 Punkt: früherer kleiner Leseraum wird für eine Autorenlesung gebraucht.",
+            "1 Punkt: Empfehlungskarte ist freiwillig.",
+            "1 Punkt: eigenes Buch ist nicht nötig, weil Karten Bücher der Bibliothek beschreiben.",
+            "1 Punkt: Autorenlesung am Donnerstag am langen Tisch ist unbelegt; Lesung und neuer Kartentausch-Ort nicht vermischen.",
+            "1 Punkt: „ab morgen“ ist ohne Datum der gesprochenen Nachricht kein bestimmtes Kalenderdatum."
+          ]
+        },
+        {
+          "id": "de-hoernachricht-4",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 8,
+          "prompt": "Hörstrategie und Weitergabe (5 Kriterienpunkte): Schreibe VOR dem Hören eine Vermutung mit „vielleicht“ hier hinein. Ergänze DANACH: War sie bestätigt, widerlegt oder nicht entscheidbar? Nenne eine gehörte Angabe. Welche zwei Signalformulierungen trennen den alten vom neuen Plan? Formuliere einen Satz an eine fiktive Person mit nur dem gültigen Tag, Beginn und Ort. Notiere, ob du zwei- oder dreimal gehört hast.",
+          "sample": "Vorher etwa: „Vielleicht ändert sich der Ort.“ Danach: Die Vermutung ist bestätigt, denn der kleine Leseraum wird gebraucht und der Kartentausch ist nun am langen Tisch. „war zuerst ... geplant“ kündigt den alten Plan an; „Das ändert sich / findet deshalb ... statt“ den neuen. Weitergabe: „Der Kartentausch ist am Donnerstag um 15:30 Uhr am langen Tisch im Eingangsbereich.“ Zwei- oder dreimaliges Hören nur als Hilfeinformation notieren.",
+          "criteria": [
+            "1 Punkt: eine vorab notierte Vermutung wird passend zu einer gehörten Angabe als bestätigt, widerlegt oder nicht entscheidbar begründet; ein erst nachträglich erfundener Vorher-Eintrag ist nicht als beobachtete Vorstrategie zu werten.",
+            "1 Punkt: ein Signal für den alten Plan, z. B. „war zuerst geplant“.",
+            "1 Punkt: ein Signal für den neuen Plan, z. B. „Das ändert sich“ oder „findet deshalb statt“.",
+            "2 Punkte: gültigen Donnerstag, 15:30 Uhr und langen Tisch im Eingangsbereich vollständig in einem Satz weitergegeben; für zwei richtige Angaben 1 Punkt, für weniger oder eine alte Angabe als gültig 0 Punkte.",
+            "Die Hörzahl ist Hilfeinformation ohne Zusatzpunkt; Rechtschreibfehler ohne Bedeutungsverlust nicht als Hörfehler werten."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. § 2.2.1, PDF-S. 25–26: globales, selektives und detailliertes Hör-/Hörsehverstehen sowie Strategien vor, während und nach dem Hören unter Zielmarke Klassenstufe 8.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "de-leseraeume-diagramm",
       "subjectId": "de",
       "title": "Ein interaktives Diagramm lesen",

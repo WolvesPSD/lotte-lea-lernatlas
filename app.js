@@ -358,6 +358,12 @@
       appendText(audioCard, 'p', 'muted', 'Falls der Ton nicht startet, ist die Aufgabe als Hörverstehen nicht beurteilbar.');
       intro.append(audioCard);
     }
+    if (topic.liveReading) {
+      const listeningCard = create('section', 'live-reading-card');
+      appendText(listeningCard, 'h3', '', topic.liveReading.title);
+      appendText(listeningCard, 'p', '', topic.liveReading.childNote);
+      intro.append(listeningCard);
+    }
     if (topic.reading) {
       const readingCard = create('section', 'reading-card');
       appendText(readingCard, 'h3', '', topic.reading.title);
@@ -446,6 +452,11 @@
         appendText(section, 'h3', '', 'Transkript – erst nach der Hörbearbeitung zeigen');
         appendText(section, 'p', 'audio-transcript', topic.audio.transcript);
       }
+      if (topic.liveReading) {
+        appendText(section, 'p', 'muted', topic.liveReading.adultNote);
+        appendText(section, 'h3', '', 'Vorlesetext – vor der Hörbearbeitung verdecken');
+        appendText(section, 'p', 'live-reading-script', topic.liveReading.script);
+      }
       if (topic.reading) appendText(section, 'p', 'muted', topic.reading.adultNote);
       for (const [index, task] of topic.tasks.entries()) {
         const item = create('article', 'adult-task'); item.dataset.taskId = task.id;
@@ -525,6 +536,13 @@
         if (mode === 'adult') {
           appendText(section, 'p', 'print-context', topic.audio.adultNote);
           appendText(section, 'p', 'print-audio-transcript', `Transkript – erst nach der Hörbearbeitung zeigen:\n${topic.audio.transcript}`);
+        }
+      }
+      if (topic.liveReading) {
+        appendText(section, 'p', 'print-context', `${topic.liveReading.title}: ${topic.liveReading.childPrintNote}`);
+        if (mode === 'adult') {
+          appendText(section, 'p', 'print-context', topic.liveReading.adultNote);
+          appendText(section, 'p', 'print-live-reading-script', `Vorlesetext – vor der Hörbearbeitung verdecken:\n${topic.liveReading.script}`);
         }
       }
       if (topic.reading) {

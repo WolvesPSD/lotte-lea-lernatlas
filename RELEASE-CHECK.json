@@ -1,13 +1,11 @@
 {
-  "builtAt": "2026-10-21T21:33:52.013Z",
-  "releaseVersion": "2026.10.21-deroerterung.1",
-  "newTopicIds": [
-    "de-tauschregal-eroerterung"
-  ],
+  "builtAt": "2026-10-21T21:49:46.313Z",
+  "releaseVersion": "2026.10.21-m6protocol.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Deutsch D-W2: fiktive sechswoechige Tauschregalfrage mit drei Materialkarten, vollstaendigen Ja-/Nein-Mustertexten und fairer Ueberarbeitung; freiwillige gestuetzte 7/8-Uebung zur einfachen linearen Eroerterung."
+    "Mathematik M6: optionales druckbares Protokoll fuer 20 echte zweistufige Ziehungen; eigene Trefferrechnung vor der Kontrolle, vollstaendige CSV nur nach 20 Reihen. Freiwilliger Klasse-8-Ausblick, keine automatische Durchfuehrungsbestaetigung."
   ],
-  "rollbackCommit": "81dc8d3eb4607f7e29bc38ba46b8f726e7274ac5",
+  "rollbackCommit": "d8cd1e1e5b37a6b2f6694a179b865c850176f003",
   "releasedTopics": [
     "de-tauschregal-eroerterung",
     "en-maya-clubs-talk",

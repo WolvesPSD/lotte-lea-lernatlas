@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>20 Ziehungen protokollieren · Lotte & Lea</title>
+<style>
+  :root{font-family:system-ui,Arial,sans-serif;color:#173047;background:#f4f8f6}
+  *{box-sizing:border-box}body{margin:0}main{max-width:960px;margin:auto;padding:1rem}
+  h1{font-size:clamp(1.6rem,4vw,2.3rem);line-height:1.18}h2{font-size:1.2rem}p,li{line-height:1.48}
+  .note,.card{padding:.8rem 1rem;border-radius:.55rem;margin:1rem 0}.note{background:#e5f3ec;border-left:5px solid #277454}.card{background:#fff;border:1px solid #c9d8d4}
+  .table-wrap{overflow-x:auto}.log{width:100%;border-collapse:collapse;min-width:410px}.log th,.log td{border:1px solid #9cb5b3;padding:.35rem;text-align:center}.log th{background:#eaf3f2}.log td:first-child{font-weight:700}
+  select,input,button{font:inherit;min-height:42px;border-radius:.35rem}select,input{padding:.2rem .4rem;border:1px solid #6b8581}select{min-width:4rem}input{width:6rem}button{padding:.55rem .8rem;border:1px solid #075c68;background:#075c68;color:#fff;font-weight:700;cursor:pointer}button.secondary{background:white;color:#075c68}button:disabled{opacity:.55;cursor:not-allowed}
+  :focus-visible{outline:3px solid #ad6500;outline-offset:2px}.actions,.own-check{display:flex;gap:.7rem;flex-wrap:wrap;align-items:center}.own-check label{display:flex;gap:.35rem;align-items:center}.summary{font-weight:700;font-size:1.1rem}.muted{color:#45616b}.done{color:#126344}.print-only{display:none}
+  @media(max-width:520px){main{padding:.7rem}.log th,.log td{padding:.22rem}.card{padding:.7rem}}
+  @media print{@page{size:A4;margin:13mm}:root{background:white}body{background:white;color:#111;font:9pt Georgia,serif}main{padding:0}.note,.card{border:1px solid #888;background:white;margin:.3rem 0;padding:.25rem}.note p,.card p{line-height:1.25}.log{min-width:0}.log th,.log td{padding:.1rem;height:19px}select,input{border:0;background:none;appearance:none;min-height:0;text-align:center}.actions,.screen-only{display:none!important}.print-only{display:block}h1{font-size:16pt;margin:.2rem 0}h2{font-size:11pt;margin:.2rem 0}.summary{font-size:9pt}.card{break-inside:avoid}}
+</style>
+</head>
+<body><main>
+<h1>20 Ziehungen protokollieren</h1>
+<p class="note">Dieses Blatt hält <strong>deine Eingaben</strong> fest. Es zieht keine Karten und erzeugt keine Zufallszahlen. Nur wenn du die Karten wirklich gezogen hast, ist es ein Versuchsprotokoll. Die App kann die Durchführung, das Zurücklegen und das Mischen nicht beobachten. Keine Namen oder persönlichen Angaben eintragen.</p>
+<section class="card" aria-labelledby="rule-heading">
+<h2 id="rule-heading">Versuchsregel</h2>
+<p>Vier gleich große Zettel tragen 1, 2, 3 und 4. Ziehe die erste Zahl, notiere sie, lege <strong>denselben Zettel zurück</strong>, mische und ziehe die zweite Zahl. Lege auch den zweiten Zettel zurück und mische vor dem nächsten Versuch erneut. Wiederhole das für 20 Versuche. A bedeutet: <strong>Summe mindestens 6</strong>. Notiere die Zahlen in der gezogenen Reihenfolge.</p>
+</section>
+<section class="card" aria-labelledby="log-heading">
+<h2 id="log-heading">Deine 20 Reihen</h2>
+<p class="screen-only muted">Wähle pro Reihe zuerst die erste und danach die zweite gezogene Zahl. Leere Reihen bleiben ungezählt. Du kannst die Tabelle auch vor dem Versuch leer drucken.</p>
+<div class="table-wrap"><table class="log"><thead><tr><th scope="col">Nr.</th><th scope="col">1. Zahl</th><th scope="col">2. Zahl</th><th scope="col">Summe</th><th scope="col">A?</th></tr></thead><tbody id="rows"></tbody></table></div>
+<p id="summary" class="summary" role="status" aria-live="polite">0 von 20 Reihen vollständig.</p>
+<p class="muted">Zähle nach 20 vollständigen Reihen A selbst und berechne deine relative Häufigkeit. Öffne erst danach die Kontrolle.</p>
+<p class="print-only">Meine A-Treffer: __________ &nbsp;&nbsp; Meine relative Häufigkeit: ______ / 20 = ______ %</p>
+<div class="own-check screen-only"><label>Meine A-Treffer <input id="own-hits" type="number" min="0" max="20" step="1" inputmode="numeric"></label><label>Mein Prozentwert <input id="own-percent" type="number" min="0" max="100" step="0.1" inputmode="decimal"> %</label><button id="check" type="button" disabled>Meine Rechnung prüfen</button></div>
+<p id="interpretation" class="muted" role="status" aria-live="polite">Das Protokoll zeigt vor der Kontrolle keine berechneten Ergebnisse.</p>
+</section>
+<div class="actions"><button id="download" type="button" disabled>Protokoll als CSV herunterladen</button><button id="print" type="button" class="secondary">Tabelle drucken</button><button id="reset" type="button" class="secondary">Eingaben löschen</button></div>
+<p class="muted screen-only">Die CSV gibt es nach deiner Rechnung und Kontrolle für 20 vollständige Reihen. Sie enthält nur die eingegebenen Zahlen und berechneten Spalten und lässt sich in Excel oder LibreOffice Calc öffnen. Sie lässt sich hier nicht wieder einlesen. Das Blatt speichert nichts dauerhaft und sendet nichts. Vor einem Neuladen kannst du drucken oder die vollständige CSV herunterladen.</p>
+</main>
+<script>
+(() => {
+  'use strict';
+  const rows = document.getElementById('rows');
+  const summary = document.getElementById('summary');
+  const interpretation = document.getElementById('interpretation');
+  const ownHits = document.getElementById('own-hits');
+  const ownPercent = document.getElementById('own-percent');
+  const checkButton = document.getElementById('check');
+  const downloadButton = document.getElementById('download');
+  const selects = [];
+  let checked = false;
+  for (let number = 1; number <= 20; number += 1) {
+    const tr = document.createElement('tr');
+    const index = document.createElement('td'); index.textContent = String(number); tr.append(index);
+    const pair = [];
+    for (const label of ['erste', 'zweite']) {
+      const td = document.createElement('td');
+      const select = document.createElement('select');
+      select.setAttribute('aria-label', `Versuch ${number}: ${label} Zahl`);
+      const blank = document.createElement('option'); blank.value = ''; blank.textContent = '–'; select.append(blank);
+      for (let value = 1; value <= 4; value += 1) {
+        const option = document.createElement('option'); option.value = String(value); option.textContent = String(value); select.append(option);
+      }
+      select.addEventListener('change', update); td.append(select); tr.append(td); pair.push(select);
+    }
+    const sum = document.createElement('td'); sum.textContent = '–'; tr.append(sum);
+    const event = document.createElement('td'); event.textContent = '–'; tr.append(event);
+    rows.append(tr); selects.push({ pair, sum, event });
+  }
+  function countComplete() {
+    return selects.filter(row => row.pair.every(select => select.value !== '')).length;
+  }
+  function update() {
+    checked = false;
+    const complete = countComplete();
+    for (const row of selects) {
+      row.sum.textContent = '–'; row.event.textContent = '–';
+    }
+    summary.textContent = `${complete} von 20 Reihen vollständig.`;
+    summary.classList.toggle('done', complete === 20);
+    checkButton.disabled = complete !== 20;
+    downloadButton.disabled = true;
+    interpretation.textContent = complete === 20
+      ? 'Trage zuerst deine eigene A-Trefferzahl und den Prozentwert ein. Danach kannst du prüfen.'
+      : 'Das Protokoll zeigt vor der Kontrolle keine berechneten Ergebnisse.';
+  }
+  function invalidateOwnAnswer() {
+    if (!checked) return;
+    checked = false;
+    downloadButton.disabled = true;
+    interpretation.textContent = 'Deine eigene Rechnung wurde geändert. Prüfe sie erneut, bevor du die CSV herunterlädst.';
+  }
+  ownHits.addEventListener('input', invalidateOwnAnswer);
+  ownPercent.addEventListener('input', invalidateOwnAnswer);
+  checkButton.addEventListener('click', () => {
+    if (countComplete() !== 20) return;
+    const guessedHits = Number(ownHits.value);
+    const guessedPercent = Number(ownPercent.value.replace(',', '.'));
+    if (ownHits.value.trim() === '' || ownPercent.value.trim() === '' || !Number.isInteger(guessedHits) || guessedHits < 0 || guessedHits > 20 || !Number.isFinite(guessedPercent) || guessedPercent < 0 || guessedPercent > 100) {
+      interpretation.textContent = 'Trage eine ganze Trefferzahl von 0 bis 20 und einen Prozentwert von 0 bis 100 ein.';
+      return;
+    }
+    let hits = 0;
+    for (const row of selects) {
+      const value = Number(row.pair[0].value) + Number(row.pair[1].value);
+      const hit = value >= 6;
+      row.sum.textContent = String(value); row.event.textContent = hit ? 'Ja' : 'Nein';
+      if (hit) hits += 1;
+    }
+    checked = true;
+    downloadButton.disabled = false;
+    const tally = guessedHits === hits ? 'Deine Trefferzahl stimmt.' : `Prüfe deine Trefferzählung: Es sind ${hits} A-Treffer.`;
+    const percent = Math.abs(guessedPercent - hits * 5) < 0.001 ? 'Dein Prozentwert stimmt.' : `Prüfe deinen Prozentwert: ${hits}/20 = ${hits * 5} %.`;
+    interpretation.textContent = `${tally} ${percent} Modellwert: 3/8 = 37,5 %. Erkläre eine mögliche Abweichung. Die Eingaben allein belegen keinen tatsächlich durchgeführten Versuch.`;
+  });
+  downloadButton.addEventListener('click', () => {
+    if (!checked || countComplete() !== 20) return;
+    const lines = ['Versuch;Erste Zahl;Zweite Zahl;Summe;A (Summe mindestens 6)'];
+    selects.forEach((row, index) => {
+      const [first, second] = row.pair.map(select => select.value);
+      const sum = first && second ? String(Number(first) + Number(second)) : '';
+      const hit = sum ? (Number(sum) >= 6 ? '1' : '0') : '';
+      lines.push([index + 1, first, second, sum, hit].join(';'));
+    });
+    const blob = new Blob(['\ufeff', lines.join('\r\n'), '\r\n'], { type: 'text/csv;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a'); a.href = url; a.download = 'm6-20-ziehungen.csv'; a.click();
+    setTimeout(() => URL.revokeObjectURL(url), 60000);
+  });
+  document.getElementById('print').addEventListener('click', () => window.print());
+  document.getElementById('reset').addEventListener('click', () => {
+    if (!window.confirm('Alle 20 Eingabereihen wirklich löschen? Lade vorher bei Bedarf die CSV herunter.')) return;
+    selects.forEach(row => row.pair.forEach(select => { select.value = ''; }));
+    ownHits.value = ''; ownPercent.value = ''; update();
+  });
+  update();
+})();
+</script>
+</body>
+</html>

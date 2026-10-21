@@ -2015,6 +2015,13 @@ window.LOTTE_CATALOG = Object.freeze({
       "released": true,
       "prerequisite": "Hilfreich sind Brüche, Prozentwerte und eine 4-mal-4-Tabelle. Vier gleich große Papierzettel genügen für den freiwilligen praktischen Versuch; ohne Zettel ist die Planungsvariante möglich.",
       "introduction": "In einem undurchsichtigen Beutel liegen vier gleich große Karten mit den Zahlen 1, 2, 3 und 4. Alle lassen sich gleich gut greifen. Pro Versuch ziehst du eine Karte, notierst die Zahl, legst genau diese Karte zurück, mischst und ziehst ein zweites Mal. Die Reihenfolge zählt: (2,4) und (4,2) sind zwei Ergebnisse. Beide Zahlen werden addiert. Unter diesen Annahmen sind die geordneten Paare gleich wahrscheinlich. A bedeutet: „Die Summe ist mindestens 6.“ B bedeutet: „Beide Zahlen sind gleich.“ Relative Häufigkeit = beobachtete A-Treffer ÷ Versuche; theoretische Wahrscheinlichkeit = Anteil der A-Ergebnisse im fairen Modell. Eine endliche Versuchsliste muss den Modellwert nicht exakt treffen.",
+      "lab": {
+        "path": "assets/ma-zufall-protokoll.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-zufall-protokoll.html",
+        "title": "Ziehprotokoll für 20 eigene Versuche",
+        "description": "Freiwillige Tabelle zum Eintragen echter Ziehfolgen. Erst selbst zählen und rechnen, dann kontrollieren. Druck und CSV sind möglich; es gibt keinen Zufallsgenerator und keine dauerhafte Speicherung.",
+        "printNote": "Das optionale Ziehprotokoll enthält 20 leere Reihen für echte Ziehfolgen. Ein Ausdruck oder eine gefüllte Tabelle beweist die tatsächliche Durchführung nicht."
+      },
       "passage": "Zwei erfundene Versuchsblöcke folgen genau dieser Regel. Der zweite Block enthält 60 weitere Versuche nach den ersten 20, also zusammen 80:\n\nSumme 2: erste 20 = 1; weitere 60 = 4\nSumme 3: erste 20 = 2; weitere 60 = 7\nSumme 4: erste 20 = 3; weitere 60 = 11\nSumme 5: erste 20 = 5; weitere 60 = 16\nSumme 6: erste 20 = 4; weitere 60 = 12\nSumme 7: erste 20 = 3; weitere 60 = 7\nSumme 8: erste 20 = 2; weitere 60 = 3\n\nKontrolle: 20 + 60 = 80 Versuche. Diese Blöcke sind keine verschiedenen Kartenmodelle.",
       "tasks": [
         {
@@ -2064,7 +2071,7 @@ window.LOTTE_CATALOG = Object.freeze({
         {
           "id": "ma-zufall-4",
           "kind": "reflection",
-          "prompt": "Eigener kleiner Versuch (4 Kriterienpunkte): Stelle vier gleich große Zettel mit 1, 2, 3, 4 her und führe 20 neue Versuche durch. Notiere je beide Zahlen oder eine vollständige 4-mal-4-Strichliste. Gib A-Trefferzahl, relative Häufigkeit und eine Erklärung für mögliche Abweichung an. Falls du gerade keinen Versuch durchführen kannst: Beschreibe stattdessen genau eine offline ausführbare Regel für 20 Ziehungen und schreibe ausdrücklich „nicht durchgeführt“; die Ausführungspunkte bleiben offen.",
+          "prompt": "Eigener kleiner Versuch (4 Kriterienpunkte): Stelle vier gleich große Zettel mit 1, 2, 3, 4 her und führe 20 neue Versuche durch. Notiere je beide Zahlen oder eine vollständige 4-mal-4-Strichliste; dafür kannst du das optionale Ziehprotokoll öffnen oder leer drucken. Zähle A zuerst selbst und berechne die relative Häufigkeit, bevor du im Protokoll die Kontrolle öffnest. Erkläre eine mögliche Abweichung. Falls du gerade keinen Versuch durchführen kannst: Beschreibe stattdessen genau eine offline ausführbare Regel für 20 Ziehungen und schreibe ausdrücklich „nicht durchgeführt“; die Ausführungspunkte bleiben offen.",
           "sample": "Für eine echte Durchführung gibt es keine feste A-Trefferzahl. Bei k Treffern lautet die relative Häufigkeit k/20=5k %. Die Kontrolle prüft Zurücklegen/Mischen zwischen den Zügen, 20 vollständige Ziehfolgen, richtige A-Zählung und eine sachliche Erklärung der zufälligen Abweichung. Nur als Rechenbeispiel: 8 Treffer ergeben 8/20=40 %, nicht einen Sollwert. Eine bloße Planung ohne Versuch ist als Planung zu kennzeichnen und belegt die praktische Durchführung nicht.",
           "writingLines": 10,
           "criteria": [

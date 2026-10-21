@@ -72,6 +72,192 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "ma-kreisweg",
+      "subjectId": "ma",
+      "title": "Ein Beet mit rundem Weg",
+      "scope": "Ausblick Klasse 8 · freiwillig. Kreisumfang, Kreisfläche und π stehen in § 2.2.10 unter der Zielmarke Klasse 8; Lottes aktuelle Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Unterscheide Radius und Durchmesser sowie Länge in m und Fläche in m². Du darfst U = π·d = 2π·r und A = π·r² als Formelkartenhilfe nutzen. Für Näherungen gilt hier π ≈ 3,14159; runde Endergebnisse auf zwei Nachkommastellen. Skizzen zeichnest du auf Papier und zeigst sie getrennt zur Sichtprüfung.",
+      "introduction": "Ein erfundener Plan zeigt ein kreisrundes Beet mit Radius 3 m. Ein rundum 1 m breiter Weg liegt außerhalb des Beets; seine Breite wird vom Beetrand radial nach außen gemessen. Beide Kreislinien haben denselben Mittelpunkt. Für den mathematisch idealen Weg liegen 24 m² Belag bereit; nur der äußere Wegrand soll eingefasst werden. Einfassung wird in ganzen Metern abgegeben. Zwei andere fiktive Kreise liefern gerundete Anschauungswerte für Umfang und Durchmesser: kleiner Kreis d = 2,00 m, U = 6,28 m; großer Kreis d = 4,00 m, U = 12,57 m. Diese Werte gehören nicht zu Beet und Weg. Rechne exakt mit π und anschließend näherungsweise. Es wird nichts real gebaut oder vermessen. Offene Antworten bleiben ohne automatische Note.",
+      "diagram": {
+        "path": "assets/ma-rundes-beet.svg",
+        "alt": "Schematische Draufsicht: zwei Kreise mit gemeinsamem Mittelpunkt M. Die innere grüne Scheibe ist das Beet; vom Mittelpunkt bis zum Beetrand ist der Radius 3 m. Außen liegt ein blauer Kreisring als Weg, dessen radiale Breite vom Beetrand bis zum äußeren Rand 1 m beträgt. Der äußere Radius ist nicht eingetragen.",
+        "caption": "Schematische, proportionale Draufsicht: Beetradius 3 m und radiale Wegbreite 1 m. Kein Druckmaßstab; den äußeren Radius bestimmst du selbst."
+      },
+      "tasks": [
+        {
+          "id": "ma-kreisweg-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "prompt": "Plan und Maße (4 Kriterienpunkte): Skizziere auf Papier zwei Kreise mit gemeinsamem Mittelpunkt. Markiere Beet, Weg und äußeren Rand. Gib inneren und äußeren Radius sowie beide Durchmesser an. Warum ist der äußere Radius nicht 3 m + 2 m? Zeige die Skizze getrennt zur Sichtprüfung; ein Textfeld belegt sie nicht.",
+          "sample": "Innen r = 3 m, außen r = 3 m + 1 m = 4 m. Die Durchmesser sind 6 m und 8 m. Der Radius wächst nur um die einmal radial gemessene Wegbreite 1 m. Der Durchmesser wächst um 2 m, weil die Breite links und rechts hinzukommt. Beide Kreislinien haben denselben Mittelpunkt; eine schematische Skizze genügt.",
+          "criteria": [
+            "1 Punkt: innerer Radius 3 m.",
+            "1 Punkt: äußerer Radius 4 m mit Wegbreitenbezug.",
+            "1 Punkt: innere und äußere Durchmesser 6 m und 8 m.",
+            "1 Punkt: Papier-Skizze separat tatsächlich ansehen: gemeinsame Mitte und Unterschied zwischen Radius- und Durchmesserzuwachs; ein App-Textfeld belegt die Zeichnung nicht."
+          ]
+        },
+        {
+          "id": "ma-kreisweg-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "prompt": "Warum π? (4 Kriterienpunkte): Teile bei beiden gerundeten Anschauungswerten den Umfang durch den Durchmesser. Vergleiche die Ergebnisse. Erkläre, warum beim idealen Kreis U = π·d gilt und warum die gerundeten Werte π nicht exakt festlegen.",
+          "sample": "Kleiner Beispielkreis: 6,28 : 2,00 = 3,14. Großer Beispielkreis: 12,57 : 4,00 = 3,1425. Beide Quotienten liegen nahe bei π ≈ 3,14159. Beim idealen Kreis ist U/d = π; daher U = π·d und mit d = 2r auch U = 2πr. Die angegebenen Umfänge sind gerundet und könnten zusätzlich Messfehler enthalten, also bestimmen ihre Quotienten π nicht exakt.",
+          "criteria": [
+            "1 Punkt: Quotient 3,14 für den kleinen Beispielkreis.",
+            "1 Punkt: Quotient 3,1425 für den großen Beispielkreis.",
+            "1 Punkt: gemeinsames ungefähres Verhältnis π und daraus U = π·d erklärt.",
+            "1 Punkt: Rundungs- oder Messgrenze für die exakte Bestimmung benannt."
+          ]
+        },
+        {
+          "id": "ma-kreisweg-3",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "prompt": "Zwei Umfänge (6 Kriterienpunkte): Berechne den Umfang des Beetrands und des äußeren Wegrands, jeweils zuerst exakt mit π und dann ungefähr in m. Wie viele ganze Meter Einfassung müssen für die ideale äußere Kreislinie mindestens abgegeben werden? Der innere Rand erhält keine Einfassung.",
+          "sample": "Beetrand: U innen = 2π·3 m = 6π m ≈ 18,85 m. Äußerer Rand: U außen = 2π·4 m = 8π m ≈ 25,13 m. Nur außen wird eingefasst. Ganze Meter müssen auf 26 m aufgerundet werden, denn 25 m sind kürzer als die ideale Kreislinie. Verschnitt oder Überlappungen sind nicht eingerechnet.",
+          "criteria": [
+            "1 Punkt: innerer exakter Umfang 6π m.",
+            "1 Punkt: äußerer exakter Umfang 8π m.",
+            "1 Punkt: innerer Näherungswert 18,85 m.",
+            "1 Punkt: äußerer Näherungswert 25,13 m.",
+            "1 Punkt: auf 26 ganze Meter aufgerundet, nicht auf 25 m.",
+            "1 Punkt: Längeneinheit und nur äußere Einfassung richtig."
+          ]
+        },
+        {
+          "id": "ma-kreisweg-4",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "prompt": "Wegfläche (6 Kriterienpunkte): Berechne die Beetfläche, die Fläche bis zum äußeren Rand und ihre Differenz als Wegfläche, zuerst exakt mit π und dann ungefähr in m². Erkläre A = π·r² anschaulich: Denke dir den Kreis in viele schmale Sektoren zerlegt und abwechselnd fast rechteckig gelegt. Welche ungefähren Seitenlängen hat diese Form?",
+          "sample": "Beet: 9π m² ≈ 28,27 m². Bis außen: 16π m² ≈ 50,27 m². Weg als Kreisring: 16π − 9π = 7π m² ≈ 21,99 m². Viele abwechselnd gelegte schmale Sektoren ergeben annähernd ein Rechteck: Höhe ungefähr r, Grundseite ungefähr halber Umfang U/2 = πr. Darum ist die Fläche ungefähr r·πr = πr²; erst im Grenzgedanken wird die Beziehung exakt.",
+          "criteria": [
+            "1 Punkt: Beetfläche 9π m².",
+            "1 Punkt: äußere Gesamtfläche 16π m².",
+            "1 Punkt: Weg als richtige Ringdifferenz 7π m².",
+            "1 Punkt: Näherungswert 21,99 m² mit Flächeneinheit.",
+            "1 Punkt: Sektor- und Fast-Rechteckvorstellung erläutert.",
+            "1 Punkt: Höhe r, Grundseite U/2 = πr und daraus A = πr² verständlich verbunden. Gleichwertige Veranschaulichungen gelten."
+          ]
+        },
+        {
+          "id": "ma-kreisweg-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "prompt": "Zwei Fehler und eine Entscheidung (6 Kriterienpunkte): Prüfe: „Der Weg ist 1 m breit, also hat er die Fläche π·1² m².“ Und: „Der äußere Radius ist 4 m, also ist der äußere Umfang 4π m.“ Korrigiere beide mit Rechnung. Reichen 24 m² Belag für die ideale Wegfläche? Warum ist das noch keine sichere Materialzusage für eine echte Baustelle? Runde für den Vergleich erst am Schluss.",
+          "sample": "π·1² beschreibt einen eigenen Kreis mit Radius 1 m, nicht den Ring um das Beet. Der Ring hat 7π m² ≈ 21,99 m². Beim Umfang fehlt in 4π m der Faktor 2: U außen = 2π·4 m = 8π m. Im idealen Flächenmodell gilt 7π m² < 24 m²; rechnerisch bleiben 24 − 7π ≈ 2,01 m². Zuschnitt, Fugen und Verlust sind nicht quantifiziert, deshalb folgt daraus keine reale Materialzusage.",
+          "criteria": [
+            "2 Punkte: ersten Satz als falsches Ringmodell erklärt und 7π m² korrigiert.",
+            "2 Punkte: fehlenden Faktor 2 im zweiten Satz erklärt und 8π m korrigiert.",
+            "1 Punkt: 7π m² < 24 m² mit ausreichend genauer Rechnung oder exaktem Vergleich.",
+            "1 Punkt: konkrete reale Materialgrenze ohne erfundene Verlustquote benannt."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Inkraftsetzung 2026/27 für Klasse 7, 2027/28 für Klasse 8. § 2.2.10, PDF-S. 30 unter „Klassenstufe 8“: π als Umfang-Durchmesser-Verhältnis, Umfangs- und Flächenformeln anschaulich erklären und anwenden, Einheiten und sinnvolle Rundung.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
+      "id": "ma-reelle-zahlen",
+      "subjectId": "ma",
+      "title": "Quadratplatten, Wurzeln und Würfel",
+      "scope": "Ausblick Klasse 8 · freiwillig. Quadrat- und Kubikwurzeln sowie irrationale Zahlen stehen in § 2.2.9 unter der Zielmarke Klasse 8. Lottes aktueller Unterrichtsstoff ist unbekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst A = s² für Quadrate, V = a³ für Würfel, Dezimalzahlen und Runden. √x bezeichnet für x ≥ 0 die nichtnegative Zahl, deren Quadrat x ist. „Exakt“ heißt ohne Rundungsverlust; eine Näherung ist nur ungefähr gleich. Rational heißt als Bruch ganzer Zahlen darstellbar, irrational heißt nicht so darstellbar. Ein Taschenrechner darf Dezimalprodukte kontrollieren, ersetzt aber keine Begründung.",
+      "introduction": "Eine erfundene Ausstellung verwendet zwei quadratische Platten. A hat genau 2 dm² Fläche, B genau 8 dm² Fläche. Daneben stehen zwei ideale Würfel mit genau 27 dm³ und 64 dm³ Volumen. Rechne mit diesen Angaben; ein Bildschirmbild wäre nicht maßstabsgetreu. Schreibe Rechenweg, Einheiten und Unterschied zwischen exaktem Wert und Näherung auf. Offene Antworten werden nicht automatisch benotet.",
+      "tasks": [
+        {
+          "id": "ma-reelle-zahlen-1",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "prompt": "Exakte Seiten (5 Kriterienpunkte): Gib die Seitenlängen beider Platten zuerst als Wurzelausdruck mit dm an. Zeige mit den Flächen, weshalb die Seite von B doppelt so lang wie die von A ist. Schreibe die exakte Gleichung zwischen den Wurzeln auf. Weshalb ist 8 dm² nicht selbst eine Seitenlänge?",
+          "sample": "s_A² = 2 dm², also s_A = √2 dm. s_B² = 8 dm², also s_B = √8 dm. Weil 8 = 4·2 und (2√2)² = 8, gilt √8 = 2√2. B hat viermal die Fläche und deshalb bei quadratischer Form die doppelte Seite. 8 dm² misst Fläche; eine Seite braucht dm. 8 dm als Seite ergäben 64 dm².",
+          "criteria": [
+            "1 Punkt: √2 dm als Länge von A.",
+            "1 Punkt: √8 dm als Länge von B.",
+            "1 Punkt: √8 = 2√2 korrekt und exakt begründet.",
+            "1 Punkt: vierfache Quadratfläche führt zur doppelten Seitenlänge.",
+            "1 Punkt: dm² von dm unterschieden; 8 dm² ist keine Länge."
+          ]
+        },
+        {
+          "id": "ma-reelle-zahlen-2",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 11,
+          "prompt": "Schranken statt voreiligem Runden (7 Kriterienpunkte): Gegeben sind 1,414² = 1,999396 und 1,415² = 2,002225. Schließe daraus eine untere und obere Schranke für √2. Runde dann die Seiten von A und B auf Hundertstel dm; nutze für B erst den exakten Zusammenhang aus Aufgabe 1. Weshalb führt 2·1,41 = 2,82 hier zum falschen Hundertstelwert für B? Quadriere die beiden gerundeten Längen zurück und vergleiche mit 2 dm² und 8 dm².",
+          "sample": "1,999396 < 2 < 2,002225; bei nichtnegativen Längen folgt 1,414 < √2 < 1,415. Daher ist A auf Hundertstel 1,41 dm. Aus √8 = 2√2 folgt 2,828 < √8 < 2,830; B rundet zu 2,83 dm. Erst 1,41 zu runden und dann zu verdoppeln verliert die Information oberhalb 1,414: 2,82 ist hier falsch gerundet. Rückproben: 1,41² = 1,9881 dm² und 2,83² = 8,0089 dm². Beide sind wegen Rundung nur nahe bei den exakten Flächen.",
+          "criteria": [
+            "2 Punkte: aus beiden Quadratvergleichen die Schranke 1,414 < √2 < 1,415 begründet.",
+            "1 Punkt: A = 1,41 dm auf Hundertstel.",
+            "2 Punkte: B aus 2√2 mit Schranke 2,828 < √8 < 2,830 zu 2,83 dm gerundet.",
+            "1 Punkt: Informationsverlust durch vorzeitiges Runden zu 2·1,41 erklärt.",
+            "1 Punkt: beide Rückquadrate 1,9881 dm² und 8,0089 dm² als Näherungen eingeordnet."
+          ]
+        },
+        {
+          "id": "ma-reelle-zahlen-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "prompt": "Zahlbereiche (4 Kriterienpunkte): Für diese Aufgabe ist der Satz „√2 ist irrational“ gegeben; du musst ihn nicht beweisen. Ordne 1,41 und √2 als rational oder irrational ein. Begründe aus √8 = 2√2, weshalb auch √8 irrational ist. Warum kann die exakte Seite von A nicht als Bruch ganzer Zahlen geschrieben werden? Eine lange Taschenrechneranzeige allein ist kein Beweis.",
+          "sample": "1,41 = 141/100 ist rational. √2 ist laut Vorgabe irrational. Wäre √8 = 2√2 rational, wäre durch Teilen durch 2 auch √2 rational; das widerspricht der Vorgabe. Die exakte Seite √2 dm braucht deshalb eine irrationale Zahl. 1,41 dm ist nur eine rationale Näherung.",
+          "criteria": [
+            "1 Punkt: 1,41 = 141/100 rational.",
+            "1 Punkt: √2 gemäß gegebener Aussage irrational.",
+            "1 Punkt: √8 über Division durch 2 und Widerspruch als irrational begründet.",
+            "1 Punkt: exakten √2-Wert von rationaler Näherung getrennt; keine Rechneranzeige als Beweis benutzt."
+          ]
+        },
+        {
+          "id": "ma-reelle-zahlen-4",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "prompt": "Wurzelregel prüfen (5 Kriterienpunkte): Berechne √2 · √8 exakt auf zwei sinnvolle Weisen. Jemand behauptet √(9+16) = √9 + √16. Berechne beide Seiten dieser Behauptung getrennt und erkläre den Fehler. Die Produktregel, die du nutzt, gilt hier für nichtnegative Zahlen.",
+          "sample": "Weg 1: √2·√8 = √(2·8) = √16 = 4. Weg 2: √8 = 2√2, also √2·√8 = 2(√2)² = 4. Für die Behauptung ist links √25 = 5, rechts 3+4 = 7. Da 5 ≠ 7, darf man die Wurzel nicht über eine Summe verteilen. Hier wurde die Produktregel für nichtnegative Radikanden verwendet.",
+          "criteria": [
+            "2 Punkte: Produktregel korrekt auf √(2·8) angewendet und Ergebnis 4.",
+            "1 Punkt: zweiter Weg über 2(√2)² mit Ergebnis 4.",
+            "1 Punkt: beide Seiten der falschen Gleichung separat als 5 und 7 berechnet.",
+            "1 Punkt: Summenfehler erklärt und vom gültigen Produktfall unterschieden."
+          ]
+        },
+        {
+          "id": "ma-reelle-zahlen-5",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "prompt": "Würfelkanten (4 Kriterienpunkte): Bestimme die exakten Kantenlängen der Würfel mit 27 dm³ und 64 dm³ Volumen. Zeige für jede Kante eine Potenzprobe samt Einheit. Warum ist die Quadratwurzel hier die falsche Umkehrung?",
+          "sample": "Aus a³ = 27 dm³ folgt a = ∛(27 dm³) = 3 dm; (3 dm)³ = 27 dm³. Aus a³ = 64 dm³ folgt a = ∛(64 dm³) = 4 dm; (4 dm)³ = 64 dm³. Die dritte Potenz wird durch die Kubikwurzel umgekehrt; die Quadratwurzel kehrt eine zweite Potenz um.",
+          "criteria": [
+            "2 Punkte: 3 dm für 27 dm³ und Potenzprobe (3 dm)³ = 27 dm³.",
+            "1 Punkt: 4 dm für 64 dm³ und Potenzprobe (4 dm)³ = 64 dm³.",
+            "1 Punkt: dritte Potenz und Kubikwurzel gegenüber Quadratwurzel richtig erklärt."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Fassung ab 2026/27 für Klasse 7 und ab 2027/28 für Klasse 8. § 2.2.9, PDF-S. 30, unter „Klassenstufe 8“: Quadrat- und Kubikwurzeln, irrationale Zahlen, Rechengesetze und kritische Kontrolle von Ergebnissen.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "ma-prismenbox",
       "subjectId": "ma",
       "title": "Eine dreieckige Prisma-Box planen",

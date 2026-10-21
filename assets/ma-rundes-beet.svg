@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 410" role="img" aria-labelledby="title desc">
+  <title id="title">Schematischer Plan: kreisrundes Beet und äußerer Weg</title>
+  <desc id="desc">Zwei konzentrische Kreise. Vom Mittelpunkt M bis zum Beetrand sind es 3 Meter. Der umlaufende Weg misst von dort radial weitere 1 Meter bis zum äußeren Rand. Die Kreise und die beiden radialen Teilstrecken sind proportional 3 zu 1 gezeichnet, aber nicht als Druckmaßstab geeignet.</desc>
+  <rect x="1" y="1" width="638" height="408" rx="18" fill="#fffdf9" stroke="#d2ded8" stroke-width="2"/>
+  <circle cx="300" cy="200" r="160" fill="#e4f3f3" stroke="#14636a" stroke-width="4"/>
+  <circle cx="300" cy="200" r="120" fill="#eef6dd" stroke="#48763b" stroke-width="4"/>
+  <circle cx="300" cy="200" r="5" fill="#143f43"/>
+  <text x="284" y="184" fill="#143f43" font-family="Arial, sans-serif" font-size="22" font-weight="700">M</text>
+  <line x1="300" y1="200" x2="420" y2="200" stroke="#143f43" stroke-width="4"/>
+  <line x1="420" y1="200" x2="460" y2="200" stroke="#bf5d27" stroke-width="5"/>
+  <circle cx="420" cy="200" r="5" fill="#48763b"/>
+  <circle cx="460" cy="200" r="5" fill="#14636a"/>
+  <text x="338" y="187" fill="#143f43" font-family="Arial, sans-serif" font-size="20" font-weight="700">3 m</text>
+  <text x="425" y="185" fill="#9c3f16" font-family="Arial, sans-serif" font-size="19" font-weight="700">1 m</text>
+  <text x="260" y="280" fill="#315c27" font-family="Arial, sans-serif" font-size="22" font-weight="700">Beet</text>
+  <text x="480" y="100" fill="#14636a" font-family="Arial, sans-serif" font-size="20" font-weight="700">Weg</text>
+  <path d="M 476 106 L 447 125" stroke="#14636a" stroke-width="2" fill="none"/>
+  <text x="118" y="376" fill="#3c5756" font-family="Arial, sans-serif" font-size="17">Schematisch; Radien und Wegbreite im Verhältnis 3:1.</text>
+</svg>

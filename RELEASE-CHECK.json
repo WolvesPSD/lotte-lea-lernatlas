@@ -1,15 +1,18 @@
 {
-  "builtAt": "2026-10-21T10:04:52.252Z",
-  "releaseVersion": "2026.10.21-m7.1",
+  "builtAt": "2026-10-21T10:16:53.471Z",
+  "releaseVersion": "2026.10.21-m9m10.1",
   "newTopicIds": [
-    "ma-prismenbox"
+    "ma-reelle-zahlen",
+    "ma-kreisweg"
   ],
   "changeLog": [
-    "Mathematik M7: fiktive dreieckige Prisma-Box mit sechs Aufgaben zu Körper, maßstäblichem Papiernetz, Oberfläche, Volumen und Kartonbedarf.",
-    "Freiwilliger Ende-8-Ausblick; die Papierzeichnung wird separat geprüft und eine reale Füllbarkeit wird nicht behauptet."
+    "Mathematik M9: fiktive Quadratplatten und Würfel mit fünf Aufgaben zu Wurzeln, exakten Werten, Schranken, Rundung und irrationalen Zahlen.",
+    "Mathematik M10: fiktiver Kreisweg mit fünf Aufgaben zu π, Umfang, Kreisringfläche und begrenzter Materialschätzung; beide Themen sind freiwillige Ende-8-Ausblicke."
   ],
-  "rollbackCommit": "0c7028e6339a54d94242cde663a3395ba5802864",
+  "rollbackCommit": "f718c50393275e1d2eedea77af82c5695bef96ec",
   "releasedTopics": [
+    "ma-kreisweg",
+    "ma-reelle-zahlen",
     "ma-prismenbox",
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
@@ -67,6 +70,8 @@
     "fr"
   ],
   "grade8OutlookTopics": [
+    "ma-kreisweg",
+    "ma-reelle-zahlen",
     "ma-prismenbox",
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",

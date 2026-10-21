@@ -3471,6 +3471,79 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "PDF-S. 2: Inkraftsetzung für Klasse 7 ab 2026/27. § 3.2 PDF-S. 47: In Klassen 5–7 jährlich mindestens ein Werk der Kinder- und Jugendliteratur als Ganzschrift im Unterricht behandeln. § 2.2.2 S. 26–27: literarische Texte und begründete Deutungen im Zielhorizont Ende Klasse 8.",
         "checkedAt": "2026-10-21"
       }
+    },
+    {
+      "id": "de-lesetreff-planungsgespraech",
+      "subjectId": "de",
+      "title": "Einen Lesetreff im Gespräch planen",
+      "scope": "Freiwillige, gestützte 7/8-Sprechübung. Dialogisches Sprechen steht im gültigen Deutschlehrplan unter der Zielmarke Ende Klasse 8; ob es gerade Lottes Schulstoff ist, bleibt offen. Die App bereitet vor und sichert Sachangaben, sie hört und bewertet kein Gespräch.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Du brauchst eine zweite Person für Rolle B. Sie liest ihre verdeckte Karte selbst im Erwachsenenbereich; du siehst zuerst nur Karte A. Sprich miteinander statt einen fertigen Dialog abzulesen. Ohne Gespräch bleibt die mündliche Übung „nicht erhoben“.",
+      "introduction": "Ihr plant einen erfundenen 30-minütigen Lesetreff in der Mondtal-Bibliothek. Eine zweite Person kennt Angaben, die nicht auf deiner Karte stehen. Erfrage sie, höre zu und reagiere auf einen Einwand. Ein anderer begründeter Plan ist möglich, wenn er zu allen im Gespräch bekannt gewordenen Bedingungen passt. Schreibe keine echten Namen oder Schuldaten hinein.",
+      "passage": "DEINE ROLLENKARTE A\nSechs Personen möchten teilnehmen. Du hast sechs selbst geschriebene Empfehlungskarten dabei.\nZur Wahl stehen Dienstag oder Donnerstag, jeweils 15:30–16:00 Uhr. Du selbst kannst an beiden Tagen.\nDu schlägst vor: zehn Minuten still lesen und danach zwanzig Minuten Empfehlungen austauschen. Erkläre, warum dir ein ruhiger Anfang wichtig ist. Die Reihenfolge ist verhandelbar.\nDu weisst noch nicht, wann der Leseraum frei ist, ob ein Aushang fertig ist und was Rolle B am Ablauf wichtig findet.\n\nSatzhilfen: „Ich schlage ... vor, weil ...“ · „Ist der Raum dann frei?“ · „Du meinst also, dass ...?“ · „Wir könnten ...“ · „Wir halten fest: ...“",
+      "tasks": [
+        {
+          "id": "de-lesetreff-dialog-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "inputRows": 5,
+          "prompt": "A. Vorbereitung (4 schriftliche Kriterienpunkte): Notiere einen ersten Vorschlag mit einem der beiden Tage, eine echte Frage zu einer unbekannten Angabe, einen Grund für deinen ruhigen Anfang und einen offenen Satz, mit dem du später eine gemeinsame Entscheidung zusammenfassen könntest. Schreibe keinen fertigen Dialog und erfinde Bs Antwort nicht.",
+          "sample": "„Ich schlage Dienstag 15:30 Uhr vor.“ / „Ist der Leseraum dann frei?“ / „Wenn ich zuerst ruhig lese, kann ich meine Empfehlung danach besser begründen.“ / „Wir haben uns auf [Tag, Zeit, Ort und Ablauf] geeinigt; offen ist noch [ungeklärter Punkt].“ Die Lücken werden erst nach dem Gespräch gefüllt.",
+          "criteria": [
+            "1 Punkt: verständlicher Vorschlag mit einem Tag und dem bekannten Zeitfenster.",
+            "1 Punkt: echte Rückfrage zu Raum, Aushang oder Bs Sicht; die Antwort ist auf A unbekannt.",
+            "1 Punkt: nachvollziehbarer Grund für die gewünschte Lesezeit.",
+            "1 Punkt: Zusammenfassungsrahmen mit Platz für die wirkliche Vereinbarung und einen möglichen offenen Punkt. Schriftliche Vorbereitung beweist kein gesprochenes Reagieren."
+          ]
+        },
+        {
+          "id": "de-lesetreff-dialog-2",
+          "kind": "reflection",
+          "adultOnlySolution": true,
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 7,
+          "prompt": "B. Nur nach einem wirklichen Gespräch (5 schriftliche Sachpunkte): Notiere den vereinbarten Tag, die Zeit, den Ort und einen machbaren Ablauf. Passen die Plätze für alle sechs Personen? Schreibe einen Einwand von B und deine Antwort dazu auf. Was ist über den Aushang sicher, und was bleibt offen? Ohne zweite Person und Gespräch lasse dieses Feld leer; rate nicht, was auf Karte B steht.",
+          "sample": "Eine mögliche Einigung: Donnerstag 15:30–16:00 Uhr im Leseraum, sechs Plätze für sechs Personen. Zuerst zehn Minuten still lesen, danach zwanzig Minuten Empfehlungen austauschen (10 + 20 = 30). B hatte Sorge, dass zu wenig Austauschzeit bleibt; A begründete die ruhige Anfangszeit und B stimmte zu. Papier und Stifte sind da, ein handschriftlicher Hinweis kann vorbereitet werden; ein gedruckter oder bereits ausgehängter Aushang und eine echte Genehmigung sind nicht belegt. Auch ein vereinbarter 5+25-Minuten-Plan ist möglich.",
+          "criteria": [
+            "1 Punkt: Donnerstag 15:30–16:00 Uhr als gemeinsam bestätigtes Zeitfenster; ein neuer Termin ausserhalb der Karte wäre erst nach weiterer Bestätigung möglich.",
+            "1 Punkt: Leseraum und sechs Plätze für sechs Personen korrekt.",
+            "1 Punkt: machbare, von beiden getragene Aufteilung innerhalb von 30 Minuten; 10+20 und 5+25 sind Beispiele, kein Pflichtwortlaut.",
+            "1 Punkt: Bs Zeit-Einwand zutreffend erfasst und eine tatsächlich besprochene Antwort oder ein Kompromiss notiert.",
+            "1 Punkt: handschriftlichen Hinweis als Möglichkeit und gedruckten/veröffentlichten Aushang beziehungsweise echte Genehmigung als offen unterschieden. Ohne wirkliches Gespräch die Notiz nicht bewerten."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Praxis: ein deutsches Planungsgespräch führen",
+        "childNote": "Die zweite Person öffnet nur für sich die Erwachsenenkarte B. Sprich mit ihr über den Plan, frage wirklich nach und höre den Einwand an. Ein geschriebenes Drehbuch und die Notiz danach ersetzen das Gespräch nicht. Die App macht keine Aufnahme und vergibt keine mündlichen Punkte.",
+        "childSteps": [
+          "Gib der zweiten Person Zeit, Karte B allein zu lesen. Schau nur auf Karte A und kurze Stichwörter.",
+          "Beginne mit einem Vorschlag und einer echten Frage. Lass B antworten und frage bei Unklarheit nach.",
+          "Gib Bs Einwand fair wieder. Begründe deinen Vorschlag oder ändere ihn so, dass die halbe Stunde für beide passt.",
+          "Fasse Tag, Uhrzeit, Ort, Ablauf und einen noch offenen Punkt zusammen. Notiere erst danach die Sachangaben in Aufgabe B."
+        ],
+        "observationMax": 14,
+        "observationLabel": "Gespräch",
+        "adultNote": "VERDECKTE PARTNERKARTE B: Der Leseraum ist Dienstag 15:30–16:00 Uhr belegt und Donnerstag 15:30–16:00 Uhr frei; ein Tisch hat sechs Plätze. Der gedruckte Aushang ist nicht fertig, Papier und Stifte sind vorhanden. Du fürchtest, dass zehn Minuten Stille zu wenig Zeit für den Austausch lassen. Antworte auf Fragen. Gib diese drei Informationen spätestens im Gespräch, aber nicht als Monolog vor der ersten Kinderfrage oder dem ersten Vorschlag. Falls A direkt Donnerstag nennt, bestätige den freien Raum und bringe dennoch Aushanggrenze und Zeiteinwand ein. Akzeptiere einen machbaren Kompromiss und lass A am Ende zusammenfassen. Nur das wirklich gehörte Gespräch beurteilen: 2 = selbstständig/deutlich, 1 = teilweise oder nach zusätzlicher neutraler Hilfe, 0 = trotz fairer Gelegenheit nicht gezeigt, — = Gelegenheit nicht gegeben. Vorab erlaubte Satzhilfen deckeln nicht automatisch; bei — keine vergleichbare Gesamtsumme. Ohne Gespräch alles „nicht erhoben“ lassen. Formative Rückmeldung, keine Schulnote und keine Aufnahme nötig.",
+        "adultCriteria": [
+          "Gespräch eröffnen und verständlichen Vorschlag mit Ziel geben: 0/1/2 oder —; ein tatsächlich gehörter Beleg: ____",
+          "Eine unbekannte Angabe wirklich erfragen und die Antwort später aufgreifen: 0/1/2 oder —; Beleg: ____",
+          "Neue Termin-/Raumangabe korrekt verarbeiten: Dienstag nach Sperrinfo verwerfen oder direkte Donnerstagverfügbarkeit bestätigen; 0/1/2 oder —; Beleg: ____",
+          "Bs Zeit-Einwand sinngemäss und fair wiedergeben: 0/1/2 oder —; Beleg: ____",
+          "Auf den Einwand mit begründetem, innerhalb von 30 Minuten möglichem Vorschlag reagieren: 0/1/2 oder —; Beleg: ____",
+          "B ausreden lassen, anknüpfen und verständlich sprechen; Missverständnisse bei Bedarf reparieren: 0/1/2 oder —; Beleg: ____",
+          "Tag, Zeit, Ort und Kernablauf begrenzt zusammenfassen, ohne offenen Aushang als Tatsache auszugeben: 2 = alle Angaben stimmig; 1 = zwei Terminangaben und Ablauf richtig oder alle drei Terminangaben richtig ohne Ablauf oder Aushanggrenze erst nach neutralem Hinweis geklärt; 0 = keine tragfähige Einigung trotz Gelegenheit; — = keine Schlussgelegenheit. Beleg: ____"
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Inkraftsetzung für Klasse 7 ab 2026/27. § 2.2.3 PDF-S. 28: dialogisch sprechen, zuhören, anknüpfen und sachlich auf Gegenpositionen reagieren, Ziel Ende Klasse 8. § 3.3 PDF-S. 48–49: Planungsgespräche als Beispiel in der 7/8-Spalte.",
+        "checkedAt": "2026-10-21"
+      }
     }
   ]
 });

@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-21T09:33:51.145Z",
-  "releaseVersion": "2026.10.21-debook.1",
+  "builtAt": "2026-10-21T09:45:23.506Z",
+  "releaseVersion": "2026.10.21-ds1.1",
   "newTopicIds": [
-    "de-eigene-ganzschrift-arbeitsweg"
+    "de-lesetreff-planungsgespraech"
   ],
   "changeLog": [
-    "Deutsch Klasse 7: freiwilliger Arbeitsweg für Lottes tatsächlich gewähltes erzählendes Kinder- oder Jugendbuch mit Fundstellen aus Anfang, Mitte und Schluss.",
-    "Die App zeigt nur nach bewusster Freigabe ein Heidi-Methodenbeispiel. Das Erwachsenenblatt erklärt die manuelle Prüfung; Lektüre und schulische Behandlung bleiben offen."
+    "Deutsch D-S1: ein fiktives Planungsgespräch mit getrennten Rollenkarten, schriftlicher Vorbereitung und Sachnotiz üben.",
+    "Nur eine anwesende Person kann das gesprochene Gespräch anhand von sieben Kriterien beobachten; bei fehlender Gelegenheit bleibt eine Gesamtsumme offen."
   ],
-  "rollbackCommit": "599db3d6df32cea0a5d7ee868702bb13224fda80",
+  "rollbackCommit": "714d1f83165ce0f6903f318408a7489f57cddf15",
   "releasedTopics": [
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
@@ -54,7 +54,8 @@
     "mbi-buchdaten-labor",
     "de-karte-im-regen-vortrag",
     "de-heidi-ganzschrift-begleiter",
-    "de-eigene-ganzschrift-arbeitsweg"
+    "de-eigene-ganzschrift-arbeitsweg",
+    "de-lesetreff-planungsgespraech"
   ],
   "subjects": [
     "ma",

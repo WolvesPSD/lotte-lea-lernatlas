@@ -72,6 +72,213 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "ma-pythagoras-plan",
+      "subjectId": "ma",
+      "title": "Eine Diagonale im Ausstellungsplan prüfen",
+      "scope": "Ausblick Klasse 8 · freiwillig. Satz und Umkehrung des Pythagoras stehen in § 2.2.12 unter der Zielmarke Klasse 8; Lottes aktuelle Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Hilfreich sind rechtwinklige Dreiecke, Quadrate und Quadratwurzeln sowie der Maßstab 1:30. Für die Papierzeichnung brauchst du Lineal und kariertes Papier. Hilfe: Wenn ein rechter Winkel bereits gesichert ist, darfst du für Katheten a,b und Hypotenuse c die Gleichung c²=a²+b² anwenden. Ist bei drei exakten Seitenlängen der Winkel unbekannt, prüfst du erst die Umkehrung.",
+      "introduction": "Ein erfundener Papierplan zeigt eine rechteckige Ausstellungstafel: genau 2,4 m breit und 1,8 m hoch, alle Ecken recht. Eine gedachte Diagonale läuft von links unten nach rechts oben. Zeichne und rechne nur am Modell; es wird nichts gebaut. Zwei getrennte Dreiecke P und Q bestehen aus Papierstreifen mit exakt angegebenen Modelllängen, aber ohne markierten Winkel: P hat 1,8 m, 2,4 m und 3,0 m; Q hat 1,8 m, 2,4 m und 2,9 m. Die Bildschirm-Skizze ist nur Orientierung. Die Maßstabszeichnung 1:30 erstellst du selbst auf Papier und zeigst sie getrennt. Offene Antworten werden nicht automatisch benotet.",
+      "diagram": {
+        "path": "assets/ma-pythagoras-plan.svg",
+        "alt": "Schematischer Papierplan eines Rechtecks mit 2,4 m Breite und 1,8 m Höhe. Die Diagonale läuft von Ecke A links unten nach C rechts oben. Bei B rechts unten ist der gegebene rechte Winkel zwischen waagerechter und senkrechter Kante markiert. Die Diagonale ist mit Fragezeichen, nicht mit einem Ergebnis beschriftet. Dieses Bild ist keine maßstäbliche 1:30-Zeichnung.",
+        "caption": "Nur zur Orientierung: gegebener rechter Winkel bei B, unbekannte Diagonale AC. Für Aufgabe 1 zeichnest du selbst im Maßstab 1:30 auf Papier; die Bildschirmgrafik ersetzt diesen Nachweis nicht."
+      },
+      "tasks": [
+        {
+          "id": "ma-pythagoras-plan-1",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 7,
+          "prompt": "Papierplan im Maßstab 1:30 (5 Kriterienpunkte): Rechne 2,4 m Breite und 1,8 m Höhe in Zeichenlängen in cm um. Zeichne das Rechteck mit Diagonale auf kariertem Papier, markiere den gegebenen rechten Winkel bei B sowie Katheten und Hypotenuse des Dreiecks unter der Diagonale. Ergänze die Zeichenlänge der Diagonale nach Aufgabe 2. Notiere hier die drei Zeichenmaße und deine Zuordnung. Zeige die Papierzeichnung separat; dieses Textfeld belegt sie nicht.",
+          "sample": "2,4 m = 240 cm; im Maßstab 1:30 werden daraus 8 cm. 1,8 m = 180 cm werden 6 cm. Das Dreieck A-B-C unter AC hat bei B einen gegebenen rechten Winkel; AB und BC sind Katheten, AC ist die Hypotenuse. Nach Aufgabe 2: 3,0 m = 300 cm werden 10 cm Diagonale. Eine tatsächlich gezeichnete und beschriftete Papierfigur ist getrennt zu prüfen; richtige Zahlen im Text allein beweisen keine Zeichnung.",
+          "criteria": [
+            "1 Punkt: 8 cm gezeichnete Breite aus 240:30 korrekt.",
+            "1 Punkt: 6 cm gezeichnete Höhe aus 180:30 korrekt.",
+            "1 Punkt: Rechteck mit Diagonale auf Papier tatsächlich gezeichnet und separat gesehen; richtige Zahlen allein reichen dafür nicht.",
+            "1 Punkt: rechter Winkel bei B sowie AB/BC als Katheten und AC als Hypotenuse richtig markiert.",
+            "1 Punkt: nach Aufgabe 2 gezeichnete Diagonale mit 10 cm Zeichenlänge ergänzt und als solche bezeichnet."
+          ]
+        },
+        {
+          "id": "ma-pythagoras-plan-2",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "prompt": "Diagonale berechnen (6 Kriterienpunkte): Berechne AC zunächst aus den Modellmaßen in m. Zeige die Gleichung mit den quadrierten Längen, die Quadratsumme und die anschließende Wurzel samt Einheit. Jemand rechnet 2,4+1,8=4,2 m und nennt das die Diagonale. Erkläre, welcher Weg 4,2 m lang wäre und warum die direkte Diagonale anders berechnet wird.",
+          "sample": "Bei B ist der Winkel zwischen AB und BC recht; AC ist die Hypotenuse. AC²=(2,4 m)²+(1,8 m)²=5,76 m²+3,24 m²=9,00 m², also AC=√(9,00 m²)=3,0 m. 2,4+1,8=4,2 m ist der geknickte Weg entlang zweier Rechteckkanten, nicht die gerade Diagonale.",
+          "criteria": [
+            "1 Punkt: gegebenen rechten Winkel und AC als Hypotenuse erkannt.",
+            "1 Punkt: AC²=(2,4 m)²+(1,8 m)² passend aufgestellt.",
+            "1 Punkt: Quadrate 5,76 m² und 3,24 m² korrekt.",
+            "1 Punkt: Summe 9,00 m² korrekt.",
+            "1 Punkt: positive Wurzel 3,0 m mit Längeneinheit gezogen.",
+            "1 Punkt: 4,2 m als Weg entlang zweier Kanten statt direkter Diagonale erklärt."
+          ]
+        },
+        {
+          "id": "ma-pythagoras-plan-3",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "prompt": "Rechten Winkel prüfen (6 Kriterienpunkte): Bei den getrennten Papierdreiecken P und Q ist kein rechter Winkel vorgegeben. P hat die exakten Modellseiten 1,8/2,4/3,0 m, Q 1,8/2,4/2,9 m. Bestimme jeweils zuerst die längste Seite. Vergleiche ihr Quadrat mit der Summe der anderen beiden Quadrate. Entscheide, ob der Winkel gegenüber der längsten Seite im exakten Modell recht ist; unterscheide den Schluss aus der Umkehrung bei Gleichheit von der Widerlegung durch Ungleichheit. Ein gezeichneter Eindruck genügt nicht.",
+          "sample": "Für P ist 3,0 m am längsten; 1,8²+2,4²=3,24+5,76=9,00 m² und 3,0²=9,00 m². Nach der Umkehrung ist der Winkel gegenüber 3,0 m recht. Für Q ist 2,9 m am längsten; die Quadratsumme der kürzeren Seiten ist 9,00 m², aber 2,9²=8,41 m². Wäre der Winkel gegenüber 2,9 m recht, müsste nach dem Satz die Gleichheit gelten; weil sie nicht gilt, ist er im exakten Modell nicht recht. Reale gerundete Messwerte erlaubten diese exakte Schlussfolgerung nicht automatisch.",
+          "criteria": [
+            "1 Punkt: bei P 3,0 m als längste Seite bestimmt.",
+            "1 Punkt: bei P 9,00 m² = 9,00 m² verglichen.",
+            "1 Punkt: bei P nach der Umkehrung den gegenüberliegenden Winkel als recht erkannt.",
+            "1 Punkt: bei Q 2,9 m als längste Seite bestimmt.",
+            "1 Punkt: bei Q 9,00 m² und 8,41 m² korrekt verglichen.",
+            "1 Punkt: bei Q den gegenüberliegenden Winkel wegen Ungleichheit als nicht recht beurteilt."
+          ]
+        },
+        {
+          "id": "ma-pythagoras-plan-4",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "prompt": "Zweites Rechteck rückwärts rechnen (5 Kriterienpunkte): Ein zweiter fiktiver Papierplan zeigt ein Rechteck mit 1,5 m Breite und 2,5 m Diagonale. Seine Höhe h ist unbekannt. Bestimme, welche Strecke die Hypotenuse ist; stelle eine Gleichung auf, berechne h und prüfe mit allen drei Seiten. Begründe, weshalb die Diagonale keine kürzere Kathete sein kann.",
+          "sample": "Die Diagonale 2,5 m ist die Hypotenuse. h²+(1,5 m)²=(2,5 m)²; h²=6,25−2,25=4,00 m², also h=2,0 m als positive Länge. Probe: 1,5²+2,0²=2,25+4,00=6,25=2,5², jeweils in m². Die Diagonale liegt dem rechten Winkel gegenüber und ist im rechtwinkligen Dreieck die längste Seite.",
+          "criteria": [
+            "1 Punkt: 2,5 m als Hypotenuse erkannt.",
+            "1 Punkt: passende Gleichung mit h² aufgestellt.",
+            "1 Punkt: 6,25−2,25=4,00 m² korrekt.",
+            "1 Punkt: h=2,0 m als positive Länge mit Einheit.",
+            "1 Punkt: Drei-Seiten-Probe und Hypotenusenbegründung nachvollziehbar."
+          ]
+        },
+        {
+          "id": "ma-pythagoras-plan-5",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "prompt": "Satz, Umkehrung und Modellgrenze (4 Kriterienpunkte): Erkläre am Ausstellungsplan und an P/Q den Unterschied zwischen dem Satz des Pythagoras und seiner Umkehrung. Nenne zwei konkrete Gründe, warum die Rechnung nicht beweist, dass ein wirklich gebauter Rahmen exakt rechtwinklig, stabil oder sicher ist. Es wird keine Bauanleitung verlangt.",
+          "sample": "Im Rechteck ist der rechte Winkel bei B vorgegeben; der Satz erlaubt daraus AC²=AB²+BC² und die Diagonale. Bei P/Q ist kein Winkel gegeben: P erfüllt die Quadratgleichheit, also folgt der rechte Winkel aus der Umkehrung. Q erfüllt sie nicht; wäre Q rechtwinklig, müsste nach dem Satz Gleichheit gelten. Für einen echten Rahmen könnten Maße nur gerundet oder ungenau gemessen sein; er könnte sich verziehen; Material, Verbindungen und Belastung fehlen im Modell. Deshalb ist aus der Modellrechnung weder genaue Rechtwinkligkeit noch Stabilität oder Sicherheit bewiesen.",
+          "criteria": [
+            "1 Punkt: Satz beim vorgegebenen rechten Winkel des Rechtecks richtig erläutert.",
+            "1 Punkt: bei P die Umkehrung und bei Q die Widerlegung eines rechten Winkels durch Ungleichheit unterschieden.",
+            "1 Punkt: erste konkrete Grenze der Übertragung auf einen wirklichen Rahmen.",
+            "1 Punkt: zweite eigenständige konkrete Grenze der Übertragung; keine Sicherheitszusage aus der Rechnung."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Inkraftsetzung 2026/27 für Klasse 7, 2027/28 für Klasse 8. § 2.2.12 auf PDF-S. 31–32, unter „Klassenstufe 8“: Satz und Umkehrung des Pythagoras bei Zeichnungen, Berechnungen, Begründungen und Sachproblemen anwenden.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
+      "id": "ma-lineare-funktionen",
+      "subjectId": "ma",
+      "title": "Zwei Tarife als lineare Funktionen",
+      "scope": "Ausblick Klasse 8 · freiwillig. Lineare Funktionen stehen in § 2.2.11 unter der Zielmarke Klasse 8. Ob Lotte das Thema schon behandelt, ist unbekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst Koordinaten (x|y), Dezimalzahlen und einfache Gleichungen. Die Hilfe y = m·x + n bedeutet: m ist die Änderung pro zusätzlicher x-Einheit, n der Wert bei x = 0. Hier gilt x in km und y in €. Zeichne den Graphen auf Papier oder auf einem Ausdruck des Gitters; zeige die Zeichnung zusätzlich, denn das Antwortfeld kann sie nicht prüfen.",
+      "introduction": "Eine erfundene Gruppe vergleicht zwei Fahrpreise für 0 bis 12 km, ohne Rundung auf ganze Kilometer und ohne weitere Kosten. Auch Bruchteile eines Cents dürfen im mathematischen Modell als Zwischenwerte auftreten; alle hier verlangten Vergleichsstrecken ergeben ganze Eurobeträge. x ist die Streckenlänge in km, y der Preis in €. Tarif A hat die Tabellenpunkte (2|7) und (6|15). Beim Graphen von Tarif B sind (0|11) und (8|19) gegeben. Für beide Tarife ist der Graph im ganzen Bereich 0 ≤ x ≤ 12 eine gerade Strecke. Die dritte Liste C enthält nur die Paare (0|3), (2|7), (4|13), (6|21); Zwischenwerte sind unbekannt. Alle Angaben sind fiktiv. Die Grafik zeigt nur die vorgegebenen vier Tarifpunkte; zeichne die Strecken selbst. Schreibe Rechenwege und Einheiten; offene Antworten werden nicht automatisch benotet.",
+      "diagram": {
+        "path": "assets/ma-lineare-tarife.svg",
+        "alt": "Koordinatengitter von 0 bis 12 km waagerecht und 0 bis 30 Euro senkrecht. Es sind nur vier vorgegebene Punkte markiert: Tarif A bei 2 km und 7 Euro sowie 6 km und 15 Euro; Tarif B bei 0 km und 11 Euro sowie 8 km und 19 Euro. Es sind keine Geraden oder Schnittpunkte eingezeichnet. Die Listenwerte C gehören nicht zu diesem Graphen.",
+        "caption": "Vorgegebene Punkte, noch keine Lösungslinien. Die Achsen sind in km und € beschriftet; ergänze die geraden Tarifstrecken nur von 0 bis 12 km auf Papier."
+      },
+      "tasks": [
+        {
+          "id": "ma-lineare-funktionen-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "prompt": "Funktion und Bereich (4 Kriterienpunkte): Warum ordnen A und B in diesem Modell jeder zugelassenen Strecke genau einen Preis zu? Gib den Definitionsbereich an. Weshalb sind negative Strecken ausgeschlossen und weshalb kannst du für 15 km keinen angebotenen Preis behaupten?",
+          "sample": "A und B sind Funktionen, weil jeder Strecke im vereinbarten Bereich jeweils genau ein Preis zugeordnet ist. Für beide gilt D = [0;12] als Zahlenwerte in km. Negative Strecken sind hier sachlich ausgeschlossen. 15 km liegen außerhalb dieses Bereichs; die Geraden algebraisch zu verlängern wäre eine nicht belegte Extrapolation, keine Tarifangabe.",
+          "criteria": [
+            "1 Punkt: Eindeutigkeit jeder Zuordnung im vereinbarten Bereich.",
+            "1 Punkt: D = [0;12] km für beide Tarife.",
+            "1 Punkt: negative Strecken im Modell ausgeschlossen.",
+            "1 Punkt: 15 km außerhalb des Bereichs; rechnerische Fortsetzung nicht als belegten Preis ausgegeben."
+          ]
+        },
+        {
+          "id": "ma-lineare-funktionen-2",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "prompt": "A aus der Tabelle (5 Kriterienpunkte): Bestimme aus (2|7) und (6|15) die Preisänderung pro km. Berechne die Grundgebühr bei x = 0, schreibe A(x) und prüfe beide gegebenen Punkte. Was bedeuten Steigung und Grundgebühr im Fall?",
+          "sample": "m_A = (15−7) € / (6−2) km = 2 €/km. Aus 7 = 2·2+n folgt n = 3 €. Also A(x) = 2x+3 für 0 ≤ x ≤ 12. A(2)=7 € und A(6)=15 €. Die Steigung sind 2 € je zusätzlichem km, die modellierte Grundgebühr beträgt 3 € bei x=0.",
+          "criteria": [
+            "1 Punkt: Differenz 8 € auf 4 km und daraus 2 €/km.",
+            "1 Punkt: Grundgebühr 3 € aus einem Tabellenpunkt.",
+            "1 Punkt: A(x)=2x+3 im gültigen Bereich.",
+            "1 Punkt: beide Tabellenpunkte eingesetzt und bestätigt.",
+            "1 Punkt: Steigung und Grundgebühr mit Einheit sachlich gedeutet."
+          ]
+        },
+        {
+          "id": "ma-lineare-funktionen-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "prompt": "B aus zwei Graphpunkten (4 Kriterienpunkte): Bestimme Steigung und Achsenabschnitt aus (0|11) und (8|19). Schreibe B(x), prüfe den zweiten Punkt und erkläre (0|11). Warum wäre ein B-Graph durch (0|0) falsch?",
+          "sample": "m_B = (19−11) € / 8 km = 1 €/km. Der Punkt bei x=0 liefert n_B=11 €. Somit B(x)=x+11 im gültigen Bereich. B(8)=19 €. (0|11) zeigt die modellierte Grundgebühr von 11 €; deshalb verläuft B nicht durch den Ursprung.",
+          "criteria": [
+            "1 Punkt: Steigung 1 €/km aus den beiden Punkten.",
+            "1 Punkt: Achsenabschnitt 11 € erkannt.",
+            "1 Punkt: B(x)=x+11 im gültigen Bereich.",
+            "1 Punkt: B(8)=19 € geprüft und (0|11) als Grundgebühr statt Ursprung gedeutet."
+          ]
+        },
+        {
+          "id": "ma-lineare-funktionen-4",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "prompt": "Graph und Wertebereiche (5 Kriterienpunkte): Zeichne A und B in dasselbe Koordinatensystem für 0 ≤ x ≤ 12. Nutze die vorgegebenen Punkte und ergänze die geraden Strecken. Beschrifte Achsen und Einheiten. Bestimme aus deinen Vorschriften für jeden Tarif den kleinsten und größten Preis und damit den Wertebereich. Zeige die Papierzeichnung separat; der Text allein belegt sie nicht.",
+          "sample": "A verbindet unter anderem (0|3) mit (8|19), B verbindet (0|11) mit (8|19), jeweils nur im Bereich 0 bis 12 km. A steigt von 3 € auf A(12)=27 €, also W_A=[3;27] €. B steigt von 11 € auf B(12)=23 €, also W_B=[11;23] €. Achsen zeigen x in km und y in €. Die Zeichnung muss tatsächlich angesehen werden; sie wird nicht aus einem Textfeld erschlossen.",
+          "criteria": [
+            "1 Punkt: mindestens zwei korrekte A-Punkte auf der tatsächlich gezeigten Zeichnung.",
+            "1 Punkt: mindestens zwei korrekte B-Punkte auf der tatsächlich gezeigten Zeichnung.",
+            "1 Punkt: beide gerade Abschnitte im Bereich 0 bis 12 km sowie Achsen und Einheiten erkennbar; Ausdruck oder Papier separat ansehen.",
+            "1 Punkt: W_A=[3;27] € aus A(0) und A(12).",
+            "1 Punkt: W_B=[11;23] € aus B(0) und B(12)."
+          ]
+        },
+        {
+          "id": "ma-lineare-funktionen-5",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "prompt": "Gleichstand und Wahl (5 Kriterienpunkte): Stelle A(x)=B(x) auf, löse die Gleichung und gib Strecke sowie Preis am Schnittpunkt an. Vergleiche außerdem bei 4 km und 12 km. Welcher Tarif ist jeweils günstiger? Bleibe bei deiner Empfehlung innerhalb des vereinbarten Bereichs.",
+          "sample": "2x+3=x+11 ergibt x=8 km. Beide Preise sind dort 19 €, der Schnittpunkt ist (8|19). Bei 4 km gilt A(4)=11 €, B(4)=15 €: A ist günstiger. Bei 12 km gilt A(12)=27 €, B(12)=23 €: B ist günstiger. Für längere Strecken ist aus diesem Modell keine angebotene Regel belegt.",
+          "criteria": [
+            "1 Punkt: Gleichung 2x+3=x+11.",
+            "1 Punkt: x=8 km im Bereich richtig gelöst.",
+            "1 Punkt: gemeinsamer Preis 19 € und Schnitt (8|19).",
+            "1 Punkt: 4-km-Preise 11/15 € und A günstiger.",
+            "1 Punkt: 12-km-Preise 27/23 € und B günstiger."
+          ]
+        },
+        {
+          "id": "ma-lineare-funktionen-6",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 7,
+          "prompt": "Liste C prüfen (2 Kriterienpunkte): Ist C für die vier genannten Eingaben eine Funktion? Liegen die vier Punkte auf einer gemeinsamen Geraden? Vergleiche die Preiszuwächse bei gleichen 2-km-Schritten. Welche Aussage über nicht aufgeführte Strecken bleibt offen?",
+          "sample": "Für die vier aufgeführten x-Werte gibt es je genau einen y-Wert, also ist C auf dieser diskreten Menge eine Funktion. Die Zuwächse bei gleichen 2-km-Schritten sind 4 €, 6 € und 8 €; sie sind nicht konstant. Deshalb liegen die vier Punkte nicht auf einer Geraden. Ein Preis etwa bei 1 km ist nicht gegeben; über Zwischenstrecken legt die Liste keine Regel fest.",
+          "criteria": [
+            "1 Punkt: Funktionseigenschaft nur für die vier aufgeführten x-Werte richtig begründet.",
+            "1 Punkt: Zuwächse 4/6/8 € verglichen, gemeinsame Gerade ausgeschlossen und unbekannte Zwischenwerte nicht erfunden."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Erprobungslehrplan gilt 2026/27 für Klasse 7, 2027/28 für Klasse 8. § 2.2.11, PDF-S. 31 unter „Klassenstufe 8“: Funktionen beurteilen, lineare Zusammenhänge aus Punkten/Tabelle/Graph/Vorschrift bestimmen, Steigung und Achsenabschnitt deuten, begrenzten Definitions- und Wertebereich, Graph und Schnitt zweier Geraden prüfen.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "ma-kreisweg",
       "subjectId": "ma",
       "title": "Ein Beet mit rundem Weg",

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" role="img" aria-labelledby="title desc">
+  <title id="title">Rechteckiger Papierplan mit unbekannter Diagonale</title>
+  <desc id="desc">Schematisches Rechteck ABCD. A liegt links unten, B rechts unten, C rechts oben, D links oben. Die Breite AB ist 2,4 Meter und die Höhe BC 1,8 Meter. Die Diagonale AC ist noch unbekannt. Bei B ist ein rechter Winkel markiert. Die Zeichnung ist keine maßstäbliche Papierzeichnung im Verhältnis eins zu dreißig.</desc>
+  <rect width="760" height="500" rx="18" fill="#f7fbfa"/>
+  <text x="38" y="45" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#193044">Fiktiver Papierplan · Orientierung</text>
+  <text x="38" y="75" font-family="Arial, sans-serif" font-size="16" fill="#405965">Schematisch, kein Druckmaßstab 1:30</text>
+  <rect x="160" y="105" width="440" height="330" fill="#e5f3f4" stroke="#1c6274" stroke-width="4"/>
+  <path d="M160 435 L600 105" fill="none" stroke="#c4652c" stroke-width="5"/>
+  <path d="M566 435 L566 401 L600 401" fill="none" stroke="#1c6274" stroke-width="4"/>
+  <circle cx="160" cy="435" r="6" fill="#193044"/>
+  <circle cx="600" cy="435" r="6" fill="#193044"/>
+  <circle cx="600" cy="105" r="6" fill="#193044"/>
+  <circle cx="160" cy="105" r="6" fill="#193044"/>
+  <g font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#193044">
+    <text x="131" y="461">A</text>
+    <text x="608" y="462">B</text>
+    <text x="608" y="112">C</text>
+    <text x="130" y="108">D</text>
+  </g>
+  <text x="335" y="473" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#193044">2,4 m</text>
+  <text x="617" y="283" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#193044">1,8 m</text>
+  <rect x="332" y="254" width="93" height="36" rx="8" fill="#fffaf1" stroke="#ca9251"/>
+  <text x="346" y="279" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#984d1f">AC = ?</text>
+</svg>

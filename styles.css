@@ -214,3 +214,4 @@ body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="de-eigene-ganzschrift-3"]{break-before:page}}
 @media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-lesetreff-dialog-2"]){font-size:9.5pt;line-height:1.14}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-lesetreff-dialog-2"]) .print-task{margin-bottom:.55rem}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="ma-reelle-zahlen-4"],body[data-print-mode^="adult"] .print-task[data-task-id="ma-kreisweg-2"]{break-before:page}}
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="ma-lineare-funktionen-2"]{break-before:page}}

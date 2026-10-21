@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 525" role="img" aria-labelledby="title desc">
+  <title id="title">Koordinatengitter mit vier vorgegebenen Tarifpunkten</title>
+  <desc id="desc">Waagerecht 0 bis 12 Kilometer, senkrecht 0 bis 30 Euro. Tarif A: Kreis bei 2 Kilometer, 7 Euro und Kreis bei 6 Kilometer, 15 Euro. Tarif B: Quadrat bei 0 Kilometer, 11 Euro und Quadrat bei 8 Kilometer, 19 Euro. Keine Tarifgerade ist eingezeichnet. Der gültige Bereich endet bei 12 Kilometer.</desc>
+  <rect x="1" y="1" width="738" height="523" rx="16" fill="#fffdf9" stroke="#c9d8d9" stroke-width="2"/>
+  <text x="80" y="34" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#193f4a">Zwei Tarife – ergänze die Geraden selbst</text>
+  <circle cx="99" cy="59" r="6" fill="#14636a"/>
+  <text x="114" y="65" font-family="Arial, sans-serif" font-size="17" fill="#193f4a">Tarif A: Tabellenpunkte</text>
+  <rect x="358" y="53" width="12" height="12" fill="#b65723"/>
+  <text x="380" y="65" font-family="Arial, sans-serif" font-size="17" fill="#193f4a">Tarif B: Graphpunkte</text>
+  <rect x="80" y="95" width="600" height="360" fill="#fff" stroke="#aebfc3" stroke-width="1"/>
+  <g fill="none" stroke="#dce6e8" stroke-width="1">
+    <path d="M180 95V455 M280 95V455 M380 95V455 M480 95V455 M580 95V455"/>
+    <path d="M80 119H680 M80 143H680 M80 167H680 M80 191H680 M80 215H680 M80 239H680 M80 263H680 M80 287H680 M80 311H680 M80 335H680 M80 359H680 M80 383H680 M80 407H680 M80 431H680"/>
+  </g>
+  <path d="M80 95V455H680" fill="none" stroke="#244f5b" stroke-width="3"/>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#244f5b" text-anchor="middle">
+    <text x="80" y="479">0</text><text x="180" y="479">2</text><text x="280" y="479">4</text>
+    <text x="380" y="479">6</text><text x="480" y="479">8</text><text x="580" y="479">10</text><text x="680" y="479">12</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#244f5b" text-anchor="end">
+    <text x="69" y="460">0</text><text x="69" y="436">2</text><text x="69" y="412">4</text>
+    <text x="69" y="388">6</text><text x="69" y="364">8</text><text x="69" y="340">10</text>
+    <text x="69" y="316">12</text><text x="69" y="292">14</text><text x="69" y="268">16</text>
+    <text x="69" y="244">18</text><text x="69" y="220">20</text><text x="69" y="196">22</text>
+    <text x="69" y="172">24</text><text x="69" y="148">26</text><text x="69" y="124">28</text>
+    <text x="69" y="100">30</text>
+  </g>
+  <text x="609" y="508" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#193f4a">x in km</text>
+  <text x="16" y="89" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#193f4a">y in €</text>
+  <g fill="#14636a" stroke="#fff" stroke-width="2">
+    <circle cx="180" cy="371" r="8"/><circle cx="380" cy="275" r="8"/>
+  </g>
+  <g fill="#b65723" stroke="#fff" stroke-width="2">
+    <rect x="72" y="315" width="16" height="16"/><rect x="472" y="219" width="16" height="16"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="17" font-weight="700">
+    <text x="194" y="365" fill="#0f5359">A (2|7)</text><text x="394" y="269" fill="#0f5359">A (6|15)</text>
+    <text x="99" y="323" fill="#a2441b">B (0|11)</text><text x="494" y="224" fill="#a2441b">B (8|19)</text>
+  </g>
+</svg>

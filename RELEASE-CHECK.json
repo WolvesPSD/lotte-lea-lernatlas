@@ -1,13 +1,18 @@
 {
-  "builtAt": "2026-10-21T10:25:53.196Z",
-  "releaseVersion": "2026.10.21-mbixlsx.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "MBI-Farbkartenlabor: direkter Download eines lösungsfreien XLSX-Startblatts mit erfundenen Zahlen für Excel oder Calc.",
-    "Die unveränderte Kinderdatei wird beim Release-Bau mit SHA-256 geprüft; die App-Themen und Aufgaben bleiben gleich."
+  "builtAt": "2026-10-21T10:38:57.872Z",
+  "releaseVersion": "2026.10.21-m11m12.1",
+  "newTopicIds": [
+    "ma-lineare-funktionen",
+    "ma-pythagoras-plan"
   ],
-  "rollbackCommit": "54b3d6755f13cc7c6123e7b43731a7bab5684f68",
+  "changeLog": [
+    "Mathematik M11: zwei fiktive Tarife als lineare Funktionen mit sechs Aufgaben und einem beschrifteten Koordinatengitter ohne Lösungslinien.",
+    "Mathematik M12: fiktiver Papierplan zum Satz und zur Umkehrung des Pythagoras mit fünf Aufgaben und einer schematischen Orientierungsskizze; beide Themen sind freiwillige Ende-8-Ausblicke."
+  ],
+  "rollbackCommit": "c1f981f8efe295814e05275b1e2c5822cba6f486",
   "releasedTopics": [
+    "ma-pythagoras-plan",
+    "ma-lineare-funktionen",
     "ma-kreisweg",
     "ma-reelle-zahlen",
     "ma-prismenbox",
@@ -67,6 +72,8 @@
     "fr"
   ],
   "grade8OutlookTopics": [
+    "ma-pythagoras-plan",
+    "ma-lineare-funktionen",
     "ma-kreisweg",
     "ma-reelle-zahlen",
     "ma-prismenbox",

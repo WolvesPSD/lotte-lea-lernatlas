@@ -186,11 +186,13 @@
   }
   $('#home-progress-button').addEventListener('click', () => show('work'));
 
-  let openGroupsBeforeSearch = null;
+  let openGroupsBeforeFilter = null;
   function applyTopicSearch() {
     const query = $('#topic-search-input').value.trim().toLocaleLowerCase('de');
+    const stage = $('#topic-stage-filter').value;
+    const filtering = !!query || stage !== 'all';
     const groups = [...document.querySelectorAll('#topic-list .subject-group')];
-    if (query && openGroupsBeforeSearch === null) openGroupsBeforeSearch = new Map(groups.map(group => [group.dataset.subjectId, group.open]));
+    if (filtering && openGroupsBeforeFilter === null) openGroupsBeforeFilter = new Map(groups.map(group => [group.dataset.subjectId, group.open]));
     let matches = 0;
     for (const group of groups) {
       const subject = subjectById.get(group.dataset.subjectId);
@@ -198,23 +200,24 @@
       for (const card of group.querySelectorAll('.topic-card')) {
         const topic = topicById.get(card.querySelector('input').value);
         const haystack = [subject.name, topic.title, topic.scope, levelLabel(topic)].join(' ').toLocaleLowerCase('de');
-        card.hidden = !!query && !haystack.includes(query);
+        card.hidden = (!!query && !haystack.includes(query)) || (stage !== 'all' && topic.levelStatus !== stage);
         if (!card.hidden) groupMatches++;
       }
-      group.hidden = !!query && groupMatches === 0;
-      if (query && groupMatches) group.open = true;
+      group.hidden = filtering && groupMatches === 0;
+      if (filtering && groupMatches) group.open = true;
       matches += groupMatches;
     }
-    if (!query && openGroupsBeforeSearch !== null) {
-      for (const group of groups) group.open = openGroupsBeforeSearch.get(group.dataset.subjectId) || false;
-      openGroupsBeforeSearch = null;
+    if (!filtering && openGroupsBeforeFilter !== null) {
+      for (const group of groups) group.open = openGroupsBeforeFilter.get(group.dataset.subjectId) || false;
+      openGroupsBeforeFilter = null;
     }
     $('#topic-search-clear').disabled = !query;
-    $('#topic-search-status').textContent = query
+    $('#topic-search-status').textContent = filtering
       ? `${matches} von ${availableTopics.length} Themen gefunden. Deine Auswahl bleibt erhalten.`
       : `${availableTopics.length} Themen in ${groups.filter(group => group.querySelector('.topic-card')).length} Fächern verfügbar.`;
   }
   $('#topic-search-input').addEventListener('input', applyTopicSearch);
+  $('#topic-stage-filter').addEventListener('change', applyTopicSearch);
   $('#topic-search-clear').addEventListener('click', () => { $('#topic-search-input').value = ''; applyTopicSearch(); $('#topic-search-input').focus(); });
   function renderChoose() {
     const host = $('#topic-list'); host.replaceChildren();

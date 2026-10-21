@@ -1,13 +1,11 @@
 {
-  "builtAt": "2026-10-21T22:02:25.616Z",
-  "releaseVersion": "2026.10.22-devariation.1",
-  "newTopicIds": [
-    "de-woerter-umfrage"
-  ],
+  "builtAt": "2026-10-21T22:12:21.008Z",
+  "releaseVersion": "2026.10.22-stagefilter.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Deutsch D-R3: vier offene Aufgaben zu regionaler Wortvariation, vorsichtigen Aussagen ueber Sprachwandel und fairem Sprachgebrauch mit vollstaendig fiktiven Befragungsdaten. Freiwilliger Klasse-7/8-Einstieg."
+    "Jahrgangsfilter in der Themenwahl: die drei Klasse-7-Anker, freiwillige 7/8-Angebote und Klasse-8-Ausblicke sind getrennt auffindbar. Suche und Filter wirken zusammen; die freie Mehrfachauswahl bleibt erhalten."
   ],
-  "rollbackCommit": "37a1ad7e229e11c7c87c472d6a82513453f52f42",
+  "rollbackCommit": "c9741e891dfba46920dba87a48f16fe8f2b52272",
   "releasedTopics": [
     "de-woerter-umfrage",
     "de-tauschregal-eroerterung",

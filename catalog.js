@@ -72,6 +72,110 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "ma-prismenbox",
+      "subjectId": "ma",
+      "title": "Eine dreieckige Prisma-Box planen",
+      "scope": "Ausblick Klasse 8 · freiwillig. Gerade Prismen, Netze, Oberfläche und Volumen sind ein Ende-8-Ziel in § 2.2.7; Lottes aktueller Unterrichtsstoff ist unbekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Hilfreich sind Rechteck- und rechtwinklige Dreiecksflächen, Maßstab 1:2 und die Einheiten cm², cm³, ml und m². Für das Netz brauchst du kariertes Papier; der Satz des Pythagoras wird nicht vorausgesetzt.",
+      "introduction": "Eine erfundene Werkstatt plant eine geschlossene, gerade dreieckige Prisma-Box. Die zwei gleichen, parallelen Dreiecke haben einen rechten Winkel; ihre Katheten sind 6 cm und 8 cm lang, die dritte Seite ist mit 10 cm vorgegeben. Die drei Kanten dazwischen sind je 15 cm lang und stehen senkrecht auf den Dreiecksflächen. Rechne zuerst mit einer idealen Box ohne Wandstärke, Klebelaschen oder Schnittverlust. Für das maßstäbliche Netz nutze kariertes Papier; schreibe online deine Maße und Faltbegründung auf. Offene Antworten werden nicht automatisch benotet.",
+      "tasks": [
+        {
+          "id": "ma-prismenbox-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "prompt": "Körper erkennen (4 Kriterienpunkte): Woran erkennst du ein gerades dreieckiges Prisma? Wie viele Flächen, Kanten und Ecken hat es? Nenne die Formen seiner Flächen und erkläre deine Zählung.",
+          "sample": "Zwei kongruente, parallele Dreiecke sind durch drei senkrechte Kanten verbunden: ein gerades Prisma. Es hat 5 Flächen (2 Dreiecke, 3 Rechtecke), 9 Kanten (3 an jedem Dreieck und 3 Verbindungen) und 6 Ecken (je 3 am Dreieck).",
+          "criteria": [
+            "1 Punkt: gerade Form über parallele gleiche Dreiecke und senkrechte Verbindungen begründet.",
+            "1 Punkt: zwei Dreiecke und drei Rechtecke.",
+            "1 Punkt: fünf Flächen und sechs Ecken richtig.",
+            "1 Punkt: neun Kanten nachvollziehbar gezählt."
+          ]
+        },
+        {
+          "id": "ma-prismenbox-2",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 10,
+          "prompt": "Netz im Maßstab 1:2 (7 Kriterienpunkte): Zeichne auf kariertem Papier ohne Klebelaschen drei zusammenhängende Mantelrechtecke. Ihre Originalbreiten sind 6, 8 und 10 cm; jedes ist 15 cm lang. Hänge an die beiden 8-cm-Kanten des mittleren Rechtecks je ein passendes 6–8–10-Dreieck. Beschrifte Original- und Zeichenmaße, markiere Falt- und Schnittkanten unterschiedlich und prüfe auf Überlappung. Notiere hier die halbierten Maße und erkläre, welche Kanten beim Falten zusammenkommen. Ein anderes korrektes Netz ist erlaubt. Zeige die Papierzeichnung zur separaten Prüfung; das Textfeld ersetzt sie nicht.",
+          "sample": "Ein mögliches Netz hat einen Streifen aus Rechtecken 3×7,5 cm, 4×7,5 cm und 5×7,5 cm. Oben und unten am mittleren Rechteck hängen Dreiecke mit gezeichneten Seiten 3, 4 und 5 cm an den 4-cm-Kanten. Sie liegen außerhalb des Streifens und überlappen ihn nicht. Die drei Mantelrechtecke treffen an Faltkanten aufeinander; die freien seitlichen Streifenenden bilden die Mantelnaht. Die freien 3- und 5-cm-Dreieckskanten treffen auf die passenden freien Kanten der benachbarten Rechtecke. Außenkanten sind Schnittkanten. Spiegelung und andere passende Netze gelten.",
+          "criteria": [
+            "2 Punkte: alle drei Mantelrechtecke mit halbierten Breiten 3/4/5 cm und Länge 7,5 cm.",
+            "1 Punkt: zwei passende Dreiecke mit Seiten 3/4/5 cm.",
+            "1 Punkt: zusammenhängender Streifen.",
+            "1 Punkt: Dreiecke passend angesetzt, ohne Überlappung.",
+            "1 Punkt: Original- und Zeichenmaße an der Papierzeichnung erkennbar.",
+            "1 Punkt: Falt- und Schnittkanten sowie die zusammenkommenden Kanten richtig erklärt. Die Papierzeichnung separat ansehen; ein ausgefülltes App-Textfeld belegt ihre Ausführung nicht."
+          ]
+        },
+        {
+          "id": "ma-prismenbox-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "prompt": "Oberfläche (5 Kriterienpunkte): Berechne die Fläche eines Dreiecks und die Summe der drei Mantelrechtecke. Wie groß ist die gesamte Oberfläche der geschlossenen idealen Box in cm²? Warum kommt die Dreiecksfläche zweimal vor?",
+          "sample": "Dreieck G = 6·8÷2 = 24 cm². Mantel = 6·15 + 8·15 + 10·15 = 90+120+150 = 360 cm². Boden und Deckel sind je ein Dreieck: O = 2·24+360 = 408 cm².",
+          "criteria": [
+            "1 Punkt: Dreiecksfläche halbiert zu 24 cm².",
+            "1 Punkt: drei rechteckige Seitenflächen richtig angesetzt.",
+            "1 Punkt: Mantel 360 cm².",
+            "1 Punkt: beide Dreiecke addiert zu 408 cm².",
+            "1 Punkt: cm² und Boden/Deckel erklärt."
+          ]
+        },
+        {
+          "id": "ma-prismenbox-4",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "prompt": "Rauminhalt als Gedankenmodell (5 Kriterienpunkte): Berechne das ideale Volumen in cm³ und ml. Würden rechnerisch 300 ml hineinpassen, und wie viel Platz bliebe idealerweise frei? Nenne eine Grenze für einen wirklich gebauten Karton. Führe keinen Füllversuch mit Flüssigkeit durch.",
+          "sample": "G = 24 cm²; V = G·15 cm = 360 cm³ = 360 ml. Im idealen Modell bleiben nach 300 ml rechnerisch 60 ml frei. Wandstärke und Innenmaße können den nutzbaren Raum verändern; gewöhnlicher Karton ist zudem nicht als wasserdicht belegt. Eine praktische Füllbarkeit ist nicht nachgewiesen.",
+          "criteria": [
+            "1 Punkt: Dreiecksfläche als Querschnitt verwendet.",
+            "1 Punkt: mit 15 cm multipliziert.",
+            "1 Punkt: 360 cm³ mit kubischer Einheit.",
+            "1 Punkt: 360 ml und rechnerisch 60 ml Rest.",
+            "1 Punkt: reale Grenze der Modellübertragung benannt."
+          ]
+        },
+        {
+          "id": "ma-prismenbox-5",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "prompt": "Kartonbedarf schätzen (4 Kriterienpunkte): Für 12 Boxen werden zuerst die idealen Oberflächen addiert. Danach gibt die Werkstatt 15 % Zuschlag für Laschen und Verschnitt vor. Berechne die Schätzung in cm² und m². Reicht die Flächenzahl allein, um zu wissen, ob ein bestimmter rechteckiger Kartonbogen für alle Netze ausreicht?",
+          "sample": "12·408 = 4896 cm²; 15 % davon sind 734,4 cm². Zusammen 5630,4 cm² = 0,56304 m². Die Zahl allein beweist nicht, dass die Netze in Form und Anordnung auf einen bestimmten Bogen passen; 15 % sind nur die vorgegebene Reserve.",
+          "criteria": [
+            "1 Punkt: zwölf ideale Oberflächen = 4896 cm².",
+            "1 Punkt: 15 % = 734,4 cm² oder direkter Faktor 1,15.",
+            "1 Punkt: 5630,4 cm² und 0,56304 m².",
+            "1 Punkt: Form-/Zuschnittgrenze erklärt."
+          ]
+        },
+        {
+          "id": "ma-prismenbox-6",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "prompt": "Denkfehler finden (2 Kriterienpunkte): Jemand sagt: „Die Box fasst 360 cm³, also reichen 360 cm² Karton.“ Warum folgt das nicht? Wie groß ist die Summe der sechs Außenflächen im idealen Modell ohne Laschen und Verluste?",
+          "sample": "cm³ misst Raum, cm² Fläche. Die gleiche Zahl 360 ergibt hier zufällig auch die Mantelfläche; Boden und Deckel zu je 24 cm² fehlen. Die gesamte ideale Oberfläche beträgt 408 cm².",
+          "criteria": [
+            "1 Punkt: Fläche und Volumen samt Einheiten klar getrennt.",
+            "1 Punkt: beide Dreiecke ergänzt und 408 cm² angegeben."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Fassung 2026/27 für Klasse 7, 2027/28 für Klasse 8. § 2.2.7, PDF-S. 28–29, unter „Klassenstufe 8“: gerade Prismen, maßstäbliche Netze, Oberfläche, Volumen und Einheiten.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "ma-ausstellungsflaeche",
       "subjectId": "ma",
       "title": "Eine sechseckige Fläche planen",

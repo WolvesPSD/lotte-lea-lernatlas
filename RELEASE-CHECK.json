@@ -1,15 +1,16 @@
 {
-  "builtAt": "2026-10-21T09:55:41.193Z",
-  "releaseVersion": "2026.10.21-ds2.1",
+  "builtAt": "2026-10-21T10:04:52.252Z",
+  "releaseVersion": "2026.10.21-m7.1",
   "newTopicIds": [
-    "de-bibliotheksregal-erklaeren"
+    "ma-prismenbox"
   ],
   "changeLog": [
-    "Deutsch D-S2: eine fiktive Bibliotheksregel mit Buchbeispielen und einer Stichwortkarte verständlich erklären.",
-    "Acht Punkte betreffen nur schriftliche Vorbereitung; zwölf mündliche Beobachtungspunkte setzen eine tatsächlich gehörte Erklärung und feste Rückfrage voraus."
+    "Mathematik M7: fiktive dreieckige Prisma-Box mit sechs Aufgaben zu Körper, maßstäblichem Papiernetz, Oberfläche, Volumen und Kartonbedarf.",
+    "Freiwilliger Ende-8-Ausblick; die Papierzeichnung wird separat geprüft und eine reale Füllbarkeit wird nicht behauptet."
   ],
-  "rollbackCommit": "240e61fb95f528ff2af2f5b030e8cb57faefc8b0",
+  "rollbackCommit": "0c7028e6339a54d94242cde663a3395ba5802864",
   "releasedTopics": [
+    "ma-prismenbox",
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
     "de-hoernachricht-live",
@@ -66,6 +67,7 @@
     "fr"
   ],
   "grade8OutlookTopics": [
+    "ma-prismenbox",
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
     "mbi-farbkarten-tabellenlabor",

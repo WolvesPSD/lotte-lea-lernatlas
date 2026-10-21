@@ -358,6 +358,14 @@
       appendText(audioCard, 'p', 'muted', 'Falls der Ton nicht startet, ist die Aufgabe als Hörverstehen nicht beurteilbar.');
       intro.append(audioCard);
     }
+    if (topic.reading) {
+      const readingCard = create('section', 'reading-card');
+      appendText(readingCard, 'h3', '', topic.reading.title);
+      appendText(readingCard, 'p', '', topic.reading.childNote);
+      const link = create('a', 'reading-open', `${topic.reading.linkLabel} ↗`);
+      link.href = topic.reading.publicUrl; link.target = '_blank'; link.rel = 'noopener noreferrer';
+      readingCard.append(link); intro.append(readingCard);
+    }
     host.append(intro);
     for (const [index, task] of topic.tasks.entries()) host.append(renderTask(topic, task, index));
     if (topic.practice) host.append(renderPractice(topic.practice, false));
@@ -396,9 +404,16 @@
       result.replaceChildren(); result.dataset.status = outcome.status;
       appendText(result, 'p', '', outcome.label);
       if (outcome.status !== 'empty' && outcome.status !== 'invalid') {
-        if (task.sample) appendText(result, 'p', 'sample-answer', `Musterlösung: ${task.sample}`);
-        const steps = task.explanation || task.criteria || [];
-        const ol = create('ol'); steps.forEach(step => appendText(ol, 'li', '', step)); result.append(ol);
+        const showSolution = () => {
+          if (task.sample) appendText(result, 'p', 'sample-answer', `Musterlösung: ${task.sample}`);
+          const steps = task.explanation || task.criteria || [];
+          const ol = create('ol'); steps.forEach(step => appendText(ol, 'li', '', step)); result.append(ol);
+        };
+        if (topic.reading) {
+          appendText(result, 'p', 'muted', 'Prüfe zuerst, ob du eigene Kapitelbelege aus der vollständigen Lektüre notiert hast. Die App kann das Lesen nicht feststellen.');
+          const reveal = button('Musterlösung bewusst öffnen', () => { reveal.remove(); showSolution(); }, 'reveal-sample');
+          result.append(reveal);
+        } else showSolution();
       }
     }, 'check-button'));
     card.append(result); return card;
@@ -431,6 +446,7 @@
         appendText(section, 'h3', '', 'Transkript – erst nach der Hörbearbeitung zeigen');
         appendText(section, 'p', 'audio-transcript', topic.audio.transcript);
       }
+      if (topic.reading) appendText(section, 'p', 'muted', topic.reading.adultNote);
       for (const [index, task] of topic.tasks.entries()) {
         const item = create('article', 'adult-task'); item.dataset.taskId = task.id;
         appendText(item, 'h3', '', `${index + 1}. ${task.prompt}`);
@@ -503,6 +519,10 @@
           appendText(section, 'p', 'print-context', topic.audio.adultNote);
           appendText(section, 'p', 'print-audio-transcript', `Transkript – erst nach der Hörbearbeitung zeigen:\n${topic.audio.transcript}`);
         }
+      }
+      if (topic.reading) {
+        appendText(section, 'p', 'print-context', `${topic.reading.title}: ${topic.reading.printNote} Leseadresse: ${topic.reading.publicUrl}`);
+        if (mode === 'adult') appendText(section, 'p', 'print-context', topic.reading.adultNote);
       }
       for (const [index, task] of topic.tasks.entries()) {
         const item = create('div', 'print-task'); item.dataset.taskId = task.id; appendText(item, 'h3', '', `${index + 1}. ${task.prompt}`);

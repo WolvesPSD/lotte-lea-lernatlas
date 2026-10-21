@@ -2091,6 +2091,79 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "PDF-S. 2: Inkraftsetzung 2026/27 für Klasse 7. § 3.2 PDF-S. 47: In Klasse 5 bis 9 jedes Schuljahr mindestens ein Text angemessenen Umfangs auswendig lernen und präsentieren. Text und Umfang dieser Übung sind eigene Entscheidungen; schulische Anerkennung offen.",
         "checkedAt": "2026-10-21"
       }
+    },
+    {
+      "id": "de-heidi-ganzschrift-begleiter",
+      "subjectId": "de",
+      "title": "Eine ganze Erzählung lesen: Heidi",
+      "scope": "Freiwilliger Lese- und Schreibweg zu einem Werk der Kinder- und Jugendliteratur. Der Deutsch-Lehrplan verlangt in Klasse 7 jährlich die Behandlung einer Ganzschrift im Unterricht; ob die Schule Heidi gewählt hat und ob das Werk tatsächlich ganz gelesen und behandelt wurde, ist unbekannt. Die App bescheinigt dies nicht.",
+      "levelStatus": "grade7",
+      "released": true,
+      "prerequisite": "Lies zuerst alle 14 Kapitel von Johanna Spyris Heidis Lehr- und Wanderjahre in der verlinkten Fassung oder einer eigenen vollständigen Ausgabe. Bei einer anderen Ausgabe können Seitenzahlen und Schreibweise abweichen; nenne Kapitel statt nur Seiten. Der Text enthält Sprache und Vorstellungen des 19. Jahrhunderts. Du kannst unbekannte Wörter klären, ohne eine Zusammenfassung an Stelle des Buchs zu lesen.",
+      "introduction": "Lies das ganze Buch in Etappen: Kapitel 1–4 (Alm), 5–12 (Weggang und Frankfurt), 13–14 (Rückkehr). Halte nach jeder Etappe eine offene Frage fest und schau später, ob der Text sie beantwortet. Für die drei Aufgaben wählst du eigene Kapitelbelege aus Anfang, Mitte und Schluss. Wenn du erst einen Teil gelesen hast, notiere den Stand und bearbeite nur diesen Teil. Das Lesen einer Zusammenfassung oder ein Hörspiel ersetzt die Ganzlektüre nicht. Die Antworten bleiben in diesem Browser.",
+      "reading": {
+        "publicUrl": "https://www.gutenberg.org/ebooks/7500",
+        "title": "Vollständiges Buch lesen",
+        "linkLabel": "Heidi bei Project Gutenberg öffnen",
+        "childNote": "Der Link führt zu einer externen kostenlosen Leseansicht mit allen 14 Kapiteln. Er öffnet sich erst, wenn du klickst. Du kannst auch eine eigene vollständige Ausgabe verwenden. Die App übernimmt keinen Romantext und sendet keine Lernantworten an die Buchseite.",
+        "printNote": "Zuerst alle 14 Kapitel in einer vollständigen Ausgabe lesen; der Ausdruck enthält den Roman nicht. Eine eigene vollständige Druckausgabe ist ebenso geeignet. Kapitelangaben dienen als Belege.",
+        "adultNote": "Diese Aufgaben setzen eine selbst gelesene vollständige Ausgabe voraus. Nur tatsächlich vorliegende Kapitelbelege beurteilen; ohne Ganzlektüre lediglich Teilbearbeitung vermerken. Die freiwillige Heimlektüre belegt nicht, dass die Schule ihre jährliche Ganzschrift im Unterricht behandelt hat. Kein automatischer Leistungsnachweis und keine Schulnote."
+      },
+      "tasks": [
+        {
+          "id": "de-heidi-ganzschrift-1",
+          "kind": "reflection",
+          "points": 9,
+          "writingLines": 13,
+          "inputRows": 10,
+          "prompt": "A. Drei Leseetappen (9 Kriterienpunkte): Nenne aus jeder Etappe 1–4, 5–12 und 13–14 je eine andere konkrete Handlung oder Situation, das passende Kapitel und eine vorsichtige Erklärung: Was zeigt die Stelle über Heidis Beziehung oder Zugehörigkeit? Formuliere drei eigene Kapitelbelege.",
+          "sample": "Kapitel 1–4: In Kap. 2 entsteht beim Großvater ein gemeinsamer Alltag; die anfänglichen Warnungen des Dorfes sind nicht sein ganzes Bild. Kapitel 5–12: Heidi wird in Kap. 5 nach Frankfurt gebracht; Klara und ihre Großmama bieten ihr später Beziehungen, dennoch wächst das Heimweh (Kap. 10–12). Kapitel 13–14: Nach der Rückkehr liest Heidi Peters Großmutter vor; der Großvater nähert sich dem Dorf wieder (Kap. 14). Andere zutreffende Situationen sind ebenso möglich.",
+          "criteria": [
+            "Je Etappe 1 Punkt für eine konkrete zutreffende Situation statt nur Ortsname (3).",
+            "Je Etappe 1 Punkt für ein passendes Kapitel oder den passenden Kapiteltitel (3).",
+            "Je Etappe 1 Punkt für eine begrenzte Erklärung zu Beziehung oder Zugehörigkeit (3). Andere passende eigene Belege gelten."
+          ]
+        },
+        {
+          "id": "de-heidi-ganzschrift-2",
+          "kind": "reflection",
+          "points": 10,
+          "writingLines": 28,
+          "inputRows": 18,
+          "prompt": "B. Zusammenhang im ganzen Buch (10 Kriterienpunkte): Schreibe eine zusammenhängende Antwort zur Frage: Wie verändern sich Heidis Beziehungen und ihr Gefühl von Zugehörigkeit zwischen Alm, Frankfurt und Rückkehr? Verbinde Weggang und Rückkehr als Ursache und Folge, belege mindestens drei passende Kapitel über alle drei Etappen und beziehe mindestens eine andere Person ein. Trenne eine Textbeobachtung von einer vorsichtigen Deutung. Beende mit einer begrenzten Aussage zum Schluss. Etwa 220–320 Wörter helfen beim Planen, sind aber keine Punkteschwelle.",
+          "sample": "Zu Beginn bringt Dete Heidi zum Großvater auf die Alm (Kap. 1). Im Dorf wird er misstrauisch beschrieben; die gemeinsamen Tage zeigen jedoch, dass er mit Heidi einen Alltag aufbaut (Kap. 2). Mit Peter und dessen Großmutter entstehen weitere Beziehungen (Kap. 3–4). Als Dete Heidi nach Frankfurt holt (Kap. 5), findet sie dort nicht nur Ablehnung: Klara wird ihr wichtig und die Großmama hilft ihr beim Lesen (etwa Kap. 10). Trotzdem wächst das Heimweh. Der Arzt rät in Kap. 12 zur Rückkehr; in Kap. 13 geschieht sie. In Kap. 14 liest Heidi Peters Großmutter vor und der Großvater sucht wieder Kontakt zum Dorf. Daraus lässt sich eine Veränderung auf beiden Seiten deuten. Ob danach alle Konflikte dauerhaft gelöst sind, erzählt das Buch nicht. Andere begründete Lesarten zählen.",
+          "criteria": [
+            "2 Punkte: Alm, Weggang nach Frankfurt und Rückkehr werden mit Ursache und Folge verbunden, nicht nur aufgezählt.",
+            "Je 1 Punkt: drei passende Kapitelbelege aus Anfang, Mitte und Schluss (3).",
+            "2 Punkte: Veränderungen Heidis und mindestens einer anderen Beziehung werden sachlich erläutert.",
+            "1 Punkt: Beobachtung und Deutung oder eine vertretbare Gegenlesart sind unterscheidbar.",
+            "1 Punkt: Schluss bleibt beim Belegten und erfindet keine dauerhafte Zukunft.",
+            "1 Punkt: Zusammenhängender, verständlicher Text. Länge ist keine feste Punktegrenze; denselben Fehler nicht doppelt abziehen."
+          ]
+        },
+        {
+          "id": "de-heidi-ganzschrift-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 8,
+          "prompt": "C. Pauschale Lesart prüfen (5 Kriterienpunkte): Jemand sagt: „Frankfurt ist im Buch nur schlecht und die Alm nur gut.“ Nenne eine Stelle mit Kapitel, die diese Aussage teilweise stützt, und eine andere Stelle mit Kapitel, die sie begrenzt. Erkläre beide und formuliere ein ausgewogeneres Urteil. Du musst die religiösen oder erzieherischen Wertungen des alten Textes nicht übernehmen.",
+          "sample": "Heidis Heimweh in Frankfurt (Kap. 11–12) stützt ihre schwierige Lage. Klaras Freundschaft oder die Hilfe ihrer Großmama (z. B. Kap. 10) begrenzt aber „nur schlecht“. Auch die frühen Warnungen und Spannungen um den Großvater (Kap. 1/5) verhindern „Alm nur gut“. Ausgewogen: Die Alm wird für Heidi ein wichtiges Zuhause und Frankfurt überfordert sie, doch in Frankfurt gibt es hilfreiche Menschen und auf der Alm Konflikte.",
+          "criteria": [
+            "1 Punkt: stützender Befund mit passendem Kapitel.",
+            "1 Punkt: Erklärung, weshalb er die pauschale Aussage teilweise stützt.",
+            "1 Punkt: anderer begrenzender Befund mit passendem Kapitel.",
+            "1 Punkt: Erklärung, weshalb dieser Befund die Pauschalisierung begrenzt.",
+            "1 Punkt: ausgewogenes Urteil ohne bloßes Gegenteil. Historische Textwertung und eigene Meinung dürfen unterschieden werden."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. § 3.2 PDF-S. 47: in Klasse 5 bis 7 jährlich mindestens ein Werk der Kinder- und Jugendliteratur als Ganzschrift im Unterricht behandeln. § 2.2.2 S. 26–27: literarische Texte, Figuren und Deutung bis Ende Klasse 8 erschließen.",
+        "checkedAt": "2026-10-21"
+      }
     }
   ]
 });

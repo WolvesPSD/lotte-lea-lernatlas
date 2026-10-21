@@ -72,6 +72,88 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "mbi-festbezug-karten",
+      "subjectId": "mbi",
+      "title": "Farbkarten: ein fester Zellbezug",
+      "scope": "Freiwilliger Klasse-8-Ausblick zu relativen und absoluten Zellbezügen beim Kopieren von Formeln. Keine Aussage über Lottes aktuelle Unterrichtsfolge.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Das Farbkartenlabor ist ein guter Einstieg. Dieses neue Startblatt hat andere Zelladressen: Papier pro Karte steht als Zahl in B4, die Farbdaten in den Zeilen 7 bis 9. Ein Tabellenprogramm wie Excel oder Calc wird benötigt.",
+      "introduction": "Öffne das Blatt „Ein Wert für jede Farbkarte“ und lade das lösungsfreie Excel-Startblatt herunter. Trage die Formel in C7 ein, kopiere sie nach C8/C9, ergänze zwei Summen und beobachte die Wirkung einer Änderung in B4. Die Website kann deine Arbeit im Tabellenprogramm nicht sehen; schreibe deine Beobachtungen hier auf oder auf dem Kinderblatt.",
+      "lab": {
+        "path": "assets/mbi-festbezug.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/mbi-festbezug.html",
+        "title": "Farbkarten: Festbezug und Excel-Startblatt",
+        "description": "Lösungsfreies Arbeitsblatt für Excel oder Calc mit drei Kartenfarben, einem gemeinsamen Papierwert und leeren Formelzellen.",
+        "printNote": "Excel-Datei separat herunterladen. Der Kinder-Ausdruck enthält den Auftrag, aber keine Beobachtung der Arbeit im Tabellenprogramm."
+      },
+      "tasks": [
+        {
+          "id": "mbi-festbezug-1",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 5,
+          "prompt": "Orientieren (3 Kriterienpunkte): Welche Zellen enthalten die drei Kartenzahlen? Wo steht der gemeinsame Papierwert als Zahl, und wo ist die Einheit erklärt? Warum darf in B4 nicht „2 g“ als Text stehen?",
+          "sample": "B7=4, B8=6 und B9=2 sind die Kartenzahlen. B4 enthält die Zahl 2; A4 erklärt „Papier pro Karte (g)“. Mit dem Text „2 g“ statt einer Zahl könnte die Multiplikationsformel nicht zuverlässig rechnen.",
+          "criteria": [
+            "1 Punkt: B7:B9 mit 4, 6, 2 zugeordnet.",
+            "1 Punkt: B4 als gemeinsame Zahl und A4 als Einheitenbeschriftung erkannt.",
+            "1 Punkt: Zahl und Einheit für die Berechnung getrennt gehalten."
+          ]
+        },
+        {
+          "id": "mbi-festbezug-2",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 8,
+          "prompt": "Formeln kopieren (7 Kriterienpunkte): Schreibe die Formel in C7 und die Formeln, die nach dem Kopieren in C8 und C9 stehen. Welche Bezüge wechseln, welcher bleibt fest? Nenne die drei anfänglichen Papierwerte in Gramm. Prüfe dabei die Formeln im Tabellenprogramm; die App sieht sie nicht.",
+          "sample": "C7 =B7*$B$4, C8 =B8*$B$4, C9 =B9*$B$4. B7 wandert beim Kopieren zu B8 und B9; $B$4 bleibt dieselbe Zelle. So ergeben sich 8 g, 12 g und 4 g. Das Beispiel in C7 ist vorgegeben; es belegt keine selbstständige Formelherleitung.",
+          "criteria": [
+            "1 Punkt: C7-Formel korrekt übernommen.",
+            "2 Punkte: C8 und C9 mit den passenden relativen B8/B9-Bezügen, je einer.",
+            "1 Punkt: $B$4 bleibt in allen drei Formeln fest.",
+            "1 Punkt: relative Bewegung beim Kopieren erklärt.",
+            "2 Punkte: 8, 12 und 4 g vollständig und richtig, ein Punkt bei zwei richtigen Werten."
+          ]
+        },
+        {
+          "id": "mbi-festbezug-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "prompt": "Summen (4 Kriterienpunkte): Welche Summenformeln gehören in B10 und C10? Wie viele Karten und wie viel Gramm Papier sind es bei B4=2? Begründe, weshalb 12 Karten und 24 g verschiedene Grössen sind.",
+          "sample": "B10 =SUMME(B7:B9) beziehungsweise =SUM(B7:B9) ergibt 12 Karten. C10 =SUMME(C7:C9) beziehungsweise =SUM(C7:C9) ergibt 24 g. Stückzahl und Papiermasse haben verschiedene Einheiten.",
+          "criteria": [
+            "1 Punkt: Summenformel B7:B9.",
+            "1 Punkt: Summenformel C7:C9.",
+            "1 Punkt: 12 Karten und 24 g richtig.",
+            "1 Punkt: Einheiten beziehungsweise Grössen unterschieden."
+          ]
+        },
+        {
+          "id": "mbi-festbezug-4",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "prompt": "Ändern und zurückstellen (6 Kriterienpunkte): Stelle B4 von 2 auf 3. Was zeigen C7, C8, C9 und C10 nun? Stelle B4 auf 2 zurück. Welche Werte kehren wieder? Warum genügt es, nur B4 zu ändern? Beschreibe nur Beobachtungen, die du wirklich gemacht hast.",
+          "sample": "Bei B4=3 zeigen C7=12 g, C8=18 g, C9=6 g und C10=36 g. Nach der Rückstellung auf 2 kehren 8 g, 12 g, 4 g und 24 g zurück; B10 bleibt bei 12 Karten. Die Formeln beziehen sich alle auf dieselbe B4 und berechnen neu. Der Ablauf 24 → 36 → 24 g ist nur praktisch belegt, wenn er im Programm beobachtet wurde.",
+          "criteria": [
+            "2 Punkte: C7:C9 bei B4=3 mit 12/18/6 g richtig, ein Punkt bei zwei richtigen Werten.",
+            "1 Punkt: C10=36 g.",
+            "1 Punkt: C7:C9 nach B4=2 wieder 8/12/4 g.",
+            "1 Punkt: C10 wieder 24 g und B10 weiter 12 Karten.",
+            "1 Punkt: Neuberechnung über festen Bezug auf B4 erklärt; praktische Beobachtung nur bei tatsächlicher Bedienung."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 8 ab 2027/28. § 2.2.1, PDF-S. 24: relative und absolute Zellbezüge und Summen in der Tabellenkalkulation unter Zielmarke Klassenstufe 8.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
       "id": "de-woerter-umfrage",
       "subjectId": "de",
       "title": "Drei Wörter für ein Gebäck",

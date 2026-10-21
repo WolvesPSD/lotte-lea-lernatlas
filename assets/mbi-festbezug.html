@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Farbkarten · Fester Zellbezug</title>
+<style>
+  :root{font-family:system-ui,Arial,sans-serif;color:#193044;background:#f3f7f6}
+  *{box-sizing:border-box}body{margin:0}main{max-width:820px;margin:auto;padding:1rem}
+  h1{font-size:clamp(1.5rem,5vw,2rem)}h2{font-size:1.2rem;margin-top:0}p,li{line-height:1.5}
+  .note{background:#e2f2ec;border-left:5px solid #27745d;padding:.8rem 1rem}
+  .card{background:#fff;border:1px solid #bed0d1;border-radius:.75rem;padding:1rem;margin:1rem 0}
+  .scroll{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed}
+  caption{overflow-wrap:anywhere}th,td{overflow-wrap:anywhere}
+  th,td{border:1px solid #abbfc7;padding:.5rem;text-align:left}th{background:#e8eff3}td:nth-child(2),td:nth-child(3){text-align:right}
+  .entry{background:#fff5cf}.given{background:#e8f3ff}.download{display:inline-block;min-height:44px;padding:.6rem .9rem;border-radius:.3rem;background:#165e78;color:white;font-weight:650;text-decoration:none}
+  .download:focus-visible{outline:3px solid #d48700;outline-offset:2px}.hint{color:#405965}
+  code{background:#edf3f5;padding:.1em .25em;border-radius:.2em}
+  @media print{body{background:white}.card{break-inside:avoid}main{max-width:none}}
+</style>
+</head>
+<body><main>
+<h1>Ein Wert für jede Farbkarte</h1>
+<p class="note">Freiwilliger Ausblick auf Klasse 8. Dieses Blatt baut auf dem Farbkartenlabor auf, benutzt aber <strong>andere Zelladressen</strong>. Alle Farben und Zahlen sind erfunden. Keine echten Personendaten eintragen.</p>
+<section class="card" aria-labelledby="datei"><h2 id="datei">Startblatt herunterladen</h2>
+<p>Öffne eine eigene Kopie in Excel oder Calc. Die gelben Zellen sind absichtlich leer: Formeln und Ergebnisse sollen von dir kommen. Das Startblatt enthält keine Lösungen und sendet keine Eingaben an die Website.</p>
+<p><a class="download" href="mbi-festbezug-startblatt.xlsx" download="mbi-festbezug-startblatt.xlsx" type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">Excel-Startblatt herunterladen</a></p>
+<p class="hint">Auf dem Handy kannst du die Datei speichern. Zum Bearbeiten brauchst du eine Tabellen-App; das Ausfüllen am PC ist oft leichter.</p></section>
+<section class="card" aria-labelledby="daten"><h2 id="daten">Die Daten im Startblatt</h2>
+<p>In <strong>B4</strong> steht die Zahl 2. Die Beschriftung in A4 erklärt die Einheit: Gramm Papier pro Karte. Das <code>g</code> steht deshalb nicht in B4.</p>
+<div class="scroll"><table><caption>Farbkarten und Papierbedarf · Zelladressen wie in der Datei</caption><thead><tr><th scope="col">Zeile</th><th scope="col">A · Farbe</th><th scope="col">B · Karten (Stück)</th><th scope="col">C · Papier (g)</th></tr></thead><tbody>
+<tr><th scope="row">7</th><td>Rot</td><td class="given">4</td><td class="entry">eigene Formel</td></tr>
+<tr><th scope="row">8</th><td>Blau</td><td class="given">6</td><td class="entry">Formel kopieren</td></tr>
+<tr><th scope="row">9</th><td>Grün</td><td class="given">2</td><td class="entry">Formel kopieren</td></tr>
+<tr><th scope="row">10</th><td>Gesamt</td><td class="entry">eigene Summe</td><td class="entry">eigene Summe</td></tr>
+</tbody></table></div></section>
+<section class="card" aria-labelledby="schritte"><h2 id="schritte">Arbeitsweg</h2>
+<ol><li>Gib in C7 <code>=B7*$B$4</code> ein. B7 ist die Kartenzahl dieser Zeile, B4 der Papierwert pro Karte.</li><li>Kopiere C7 nach C8 und C9. Die Zeile der Kartenzahl soll mitwandern; <code>$B$4</code> soll B4 bleiben. Prüfe die <strong>Formeln</strong> in C8 und C9, nicht nur angezeigte Zahlen.</li><li>Gib in B10 und C10 je eine Summenformel ein. Je nach Sprache der Tabellen-App heisst die Funktion <code>SUMME</code> oder <code>SUM</code>.</li><li>Notiere die Werte. Ändere <strong>nur B4</strong> von 2 auf 3 und beobachte alle drei Papierwerte und C10. Stelle B4 danach auf 2 zurück, ohne eine Formel neu zu tippen.</li><li>Erkläre, warum B4 beim Kopieren nach unten gleich bleibt. Die beiden Dollarzeichen markieren einen festen Bezug; hier siehst du besonders, dass Zeile 4 fest bleibt.</li></ol>
+<p class="hint">Die Website kann deine Arbeit in Excel oder Calc nicht beobachten. Vergleiche deine Formeln und Werte danach mit der Musterlösung im Erwachsenenbereich oder besprecht sie zusammen.</p></section>
+</main></body></html>

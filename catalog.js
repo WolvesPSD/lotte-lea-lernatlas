@@ -1668,6 +1668,67 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. Zweite Fremdsprache § 3.2.4 PDF-S. 62: einfacher Erfahrungs-/Erlebnisbericht und angeleitetes Planen/Überarbeiten als Ziel bis Ende Klasse 8; A2 PDF-S. 59, passé composé und Zeitmarker PDF-S. 82.",
         "checkedAt": "2026-10-21"
       }
+    },
+    {
+      "id": "ma-quader-aussparung-grundlagen",
+      "subjectId": "ma",
+      "title": "Quader und Flächen: Grundlagen wiederholen",
+      "scope": "Freiwillige Wiederholung und Vertiefung für Klasse 7 aus den im aktuellen Lehrplan ausdrücklich als Klasse-6-Ziel markierten Grundlagen. Kein Beleg für Lottes früheren Unterricht und kein neuer Klasse-7-Jahresbereich.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Hilfreich sind Rechteckfläche Länge mal Breite, Umfang als Randlänge und Multiplikation dreier Kantenlängen. Eine Skizze auf kariertem Papier ist erlaubt; die App wertet Zeichnungen nicht automatisch aus.",
+      "introduction": "Zwei fiktive Skizzen, keine realen Baupläne. Beim Quader sind alle sechs Seiten geschlossen; Klebelaschen und Materialdicke werden nicht gerechnet. Bei der zweiten Figur wird ein rechteckiges Stück oben aus einem 8 m breiten und 6 m hohen Rechteck herausgenommen. Zeichne dir die Figuren bei Bedarf auf kariertem Papier. Schreibe neben jede Zahl die richtige Einheit. Offene Rechenwege vergleichst du mit Muster und Kriterien; die App vergibt keine automatische Note.",
+      "passage": "Figur A · geschlossener Quader\nLänge 6 cm · Breite 4 cm · Höhe 3 cm.\nGegenüberliegende Flächen sind jeweils gleich gross.\n\nFigur B · rechteckige Fläche mit Einbuchtung\nAusgangsrechteck: 8 m breit und 6 m hoch.\nOben mittig fehlt ein 2 m breites, 2 m tiefes Rechteck.\nAm oberen Rand bleiben links 3 m und rechts 3 m stehen.\nGehe für den Umfang am tatsächlichen Rand entlang: unten 8 m, rechts 6 m, oben rechts 3 m, in die Einbuchtung 2 m hinunter, dort 2 m quer, 2 m hinauf, oben links 3 m, links 6 m hinunter.",
+      "tasks": [
+        {
+          "id": "ma-quader-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "prompt": "Quader-Oberfläche (4 Kriterienpunkte): Nenne die drei verschiedenen Rechteckgrössen auf Figur A, erkläre, warum jede zweimal vorkommt, und berechne die gesamte Oberfläche mit Einheit.",
+          "sample": "Die Flächenpaare sind 6·4 = 24 cm², 6·3 = 18 cm² und 4·3 = 12 cm². Vorder- und Rückseite, oben und unten sowie die beiden Seiten sind jeweils gleich gross. Insgesamt O = 2·(24+18+12) = 108 cm².",
+          "criteria": [
+            "1 Punkt: 6×4, 6×3 und 4×3 als drei Flächengrössen richtig zugeordnet.",
+            "1 Punkt: 24, 18 und 12 cm² richtig berechnet.",
+            "1 Punkt: je zwei gegenüberliegende Flächen für den geschlossenen Quader berücksichtigt.",
+            "1 Punkt: Summe 108 cm² mit Flächeneinheit; gleichwertige Reihenfolge gilt."
+          ]
+        },
+        {
+          "id": "ma-quader-2",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "prompt": "Quader-Volumen (3 Kriterienpunkte): Berechne, wie viele Kubikzentimeter in Figur A passen. Erkläre mit einem Satz, warum das Ergebnis cm³ und die Oberfläche aus Aufgabe 1 cm² trägt.",
+          "sample": "V = 6 cm · 4 cm · 3 cm = 72 cm³. Das Volumen zählt Rauminhalt in Kubikzentimetern; die Oberfläche misst die sechs äusseren Flächen in Quadratzentimetern.",
+          "criteria": [
+            "1 Punkt: 6·4·3 als passende Rechnung.",
+            "1 Punkt: Ergebnis 72 cm³.",
+            "1 Punkt: cm³ als Rauminhalt und cm² als Fläche sachlich unterschieden."
+          ]
+        },
+        {
+          "id": "ma-quader-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "prompt": "Fläche mit Einbuchtung (5 Kriterienpunkte): Skizziere Figur B auf Papier oder beschreibe ihren Rand. Berechne ihren Flächeninhalt und Umfang. Erkläre, warum der Umfang nicht einfach 28 m wie beim Ausgangsrechteck bleibt.",
+          "sample": "Die Fläche ist 8·6 − 2·2 = 48 − 4 = 44 m². Der Rand läuft über 8+6+3+2+2+2+3+6 = 32 m. Im Vergleich zum 28-m-Rechteck ersetzt die Einbuchtung einen geraden 2-m-Abschnitt durch 2 m hinunter, 2 m quer und 2 m hinauf. Das verlängert den Rand um 4 m.",
+          "criteria": [
+            "1 Punkt: eine mittige obere 2×2-m-Einbuchtung, mit je 3 m oberem Rand links und rechts, richtig skizziert oder beschrieben.",
+            "1 Punkt: Ausgangsfläche 48 m² und entnommene Fläche 4 m² richtig.",
+            "1 Punkt: verbleibende Fläche 44 m² mit Einheit.",
+            "1 Punkt: alle tatsächlichen Randstücke ergeben 32 m mit Längeneinheit.",
+            "1 Punkt: die zusätzlichen zwei 2-m-Tiefenkanten erklären die 4 m Unterschied zum ursprünglichen Umfang; sinngemässe Beschreibung gilt."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "6-Grundlage, 7-Wiederholung",
+        "competencyRef": "PDF-S. 2: Einführung der Erprobungsfassung 2026/27. § 2.1.4 PDF-S. 19 markiert Klassenstufe 6: Fläche und Umfang zusammengesetzter Figuren sowie Oberfläche und Volumen von Würfel/Quader. Das Paket verwendet einen geschlossenen Quader und eine rechtwinklige Aussparung, ohne Netzzeichnen oder Faltprobe zu beanspruchen.",
+        "checkedAt": "2026-10-21"
+      }
     }
   ]
 });

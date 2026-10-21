@@ -545,6 +545,8 @@
             ? 'Geschriebene Antworten beweisen Formeleingabe und Neuberechnung nach B6-Änderung nicht.'
             : topic.id === 'de-leseraeume-diagramm'
               ? 'Geschriebene Antworten beweisen den Wechsel von Tag und Messgrösse nicht.'
+              : topic.id === 'mbi-lesepause-medienwerkstatt'
+                ? 'Geschriebene Antworten beweisen Herunterladen, Wiederöffnen und Überarbeiten zweier eigener HTML-Fassungen nicht.'
               : 'Geschriebene Antworten beweisen Filter-, Änderungs- und Rückstellklicks nicht.';
           appendText(section, 'p', 'print-context', `Praktische Bedienpunkte nur nach tatsächlich beobachteten Schritten vergeben. Ohne beobachtete Durchführung: „nicht erhoben“ statt 0 Punkte oder einer scheinbar vollständigen Gesamtsumme. ${observationNote}`);
         }

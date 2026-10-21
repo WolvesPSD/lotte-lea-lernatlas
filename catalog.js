@@ -2475,6 +2475,102 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-lesepause-medienwerkstatt",
+      "subjectId": "mbi",
+      "title": "Eine digitale Infokarte herstellen",
+      "scope": "Ausblick Klasse 8 · freiwillig. Die MBI-Erprobungsfassung gilt für Klasse 7 ab 2026/27, nennt Planen und Erstellen digitaler Inhalte aber unter Klassenstufe 8. Die Werkstatt ist ein gestützter Teilfall; kein freies HTML-Coding, keine echte Veröffentlichung und kein Nachweis der aktuellen Schulfolge.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst einen Browser, der lokale HTML-Dateien herunterladen und wieder öffnen kann. Nutze nur die erfundenen Angaben. Eine erwachsene Person kann beim Finden der gespeicherten Datei helfen; die Entscheidungen zu Text und Gestaltung sollen von dir kommen.",
+      "introduction": "Die erfundene Lese-AG plant eine digitale Infokarte für Mitschülerinnen und Mitschüler. Nur diese fiktiven Angaben gelten: Titel „Lesepause“; Mittwoch, 14:10–14:30 Uhr; Raum A4; man darf selbst lesen oder einfach zuhören; ein Buch ist nur nötig, wenn man selbst lesen möchte; Teilnahme freiwillig und für diese Übung ohne Anmeldung. In der Werkstatt erstellst du daraus eine eigene HTML-Datei. Lade eine erste Fassung herunter, verbessere sie und öffne die gespeicherte neue Fassung erneut. Keine echten Namen, Fotos oder Termine verwenden und nichts veröffentlichen.",
+      "lab": {
+        "path": "assets/mbi-lesepause-werkstatt.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/mbi-lesepause-werkstatt.html",
+        "title": "Medienwerkstatt",
+        "description": "Die Werkstatt öffnet in einem neuen Tab. Dort gestaltest du Text, Reihenfolge und Farbe, prüfst eine Vorschau und lädst deine eigene HTML-Karte nur auf dein Gerät herunter. Kehre für die Antworten hierher zurück. Eingaben werden beim Neuladen zurückgesetzt.",
+        "printNote": "Die Werkstatt erzeugt eine lokale HTML-Datei; ein Download allein belegt kein Wiederöffnen oder Überarbeiten. Alle Veranstaltungsangaben sind erfunden. Die Direktadresse funktioniert erst nach Veröffentlichung dieses Pakets."
+      },
+      "tasks": [
+        {
+          "id": "mbi-medienkarte-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "prompt": "A. Planen (4 Kriterienpunkte): Für wen ist deine Infokarte? Welche zwei Angaben sollen zuerst auffallen und warum? Entscheide, ob Zeit/Ort oder Einladung zuerst steht, und nenne die Funktion deiner Farbe. Antworte in etwa zwei bis vier Sätzen.",
+          "sample": "Meine Karte richtet sich an Mitschülerinnen und Mitschüler am Handy oder Schulrechner. Titel, Zeit und Ort sollen schnell auffallen, damit niemand den Termin suchen muss. Ich wähle „Zeit und Ort zuerst“; die Farbe ordnet nur, denn alle wichtigen Angaben stehen auch als Wörter da.",
+          "criteria": [
+            "2 Punkte: Zielgruppe und zwei zuerst benötigte Informationen begründet (je 1).",
+            "1 Punkt: eigene Reihenfolge oder Struktur mit nachvollziehbarem Grund.",
+            "1 Punkt: Farbe/Gestaltung als Unterstützung erklärt, nicht als einzige Information."
+          ]
+        },
+        {
+          "id": "mbi-medienkarte-2",
+          "kind": "reflection",
+          "points": 9,
+          "writingLines": 11,
+          "inputRows": 9,
+          "prompt": "B. Eigene Datei (9 Kriterienpunkte): Erstelle in der Medienwerkstatt deine Karte, lade eine erste HTML-Fassung herunter und öffne die gespeicherte Datei erneut. Notiere Dateiname und angezeigte Bytezahl. Welche sechs fiktiven Angaben stehen darin? Was hast du bei der wieder geöffneten Datei tatsächlich gesehen? Wenn Download oder Wiederöffnen nicht gelang, sage es offen.",
+          "sample": "Beispiel einer tatsächlich geprüften Datei: lesepause-fassung-1.html, die Bytezahl wird von der Werkstatt für genau meine Fassung angezeigt. Der Text enthält Lesepause, Mittwoch 14:10–14:30 Uhr, Raum A4, Lesen oder Zuhören, ein Buch nur bei eigenem Lesen und freiwillige Teilnahme ohne Anmeldung. Nach dem erneuten Öffnen sehe ich dieselben Angaben als Text. Die genaue Bytezahl und die beobachtete Handlung müssen am eigenen Produkt ermittelt werden; aus einem Muster kann man sie nicht übernehmen.",
+          "criteria": [
+            "2 Punkte: eigene HTML-Datei wirklich heruntergeladen und gespeicherte Datei erneut geöffnet; ohne Beobachtung oder nachvollziehbare Beschreibung „nicht erhoben“ statt automatisch 0.",
+            "4 Punkte: Titel und sechs korrekte Fakten insgesamt: Titel/Zeit/Ort (je 1) sowie Einladung, optionales Buch und freiwillig/keine Anmeldung zusammen (1).",
+            "2 Punkte: Fakten bleiben als lesbarer Text in sinnvoller Struktur; bei schmaler Ansicht nicht abgeschnitten.",
+            "1 Punkt: eigene Formulierungs- oder Gestaltungsentscheidung erkennbar und keine fremden oder echten Personendaten."
+          ]
+        },
+        {
+          "id": "mbi-medienkarte-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "prompt": "C. Prüfen und verbessern (5 Kriterienpunkte): Vergleiche die erste und eine überarbeitete gespeicherte Fassung. Nenne eine konkrete Änderung und ihren Nutzen. Was siehst du bei schmalem und breitem Fenster? Bleiben Zeit und Ort auch ohne Farbe lesbar? Warum kann reiner Bildtext beim Vergrössern oder Vorlesen schwieriger sein?",
+          "sample": "In der ersten Fassung stand die Einladung vor Zeit und Ort; in der zweiten wähle ich Zeit und Ort zuerst, damit der Termin schneller zu finden ist. Beide Fenster zeigen die Angaben als Text ohne Überlagerung. Die Farbe hilft nur bei der Ordnung; „Mittwoch“ und „Raum A4“ stehen ausgeschrieben. Bildtext kann beim Zoomen unscharf sein oder ohne Textalternative nicht sinnvoll vorgelesen werden. Eine echte Revision braucht zwei eigene Fassungen; diese Beschreibung ist nur ein Muster.",
+          "criteria": [
+            "2 Punkte: schmale und breite Sicht tatsächlich geprüft und je ein konkreter Befund oder eine klare Grenze genannt.",
+            "1 Punkt: Zeit/Ort und weitere Fakten ohne Farbsignal lesbar erkannt oder korrigiert.",
+            "1 Punkt: konkrete Verbesserung gegenüber erster Fassung mit Nutzen und zwei Fassungen nachvollziehbar.",
+            "1 Punkt: Grenze von reinem Bildtext beim Vergrössern oder Vorlesen richtig erklärt; keine pauschale Behauptung, alle PDFs seien unzugänglich."
+          ]
+        },
+        {
+          "id": "mbi-medienkarte-4",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "prompt": "D. Datei und Technik (6 Kriterienpunkte): Was ist das Format deiner Datei und wofür steht UTF-8 im Kopf? Notiere die Bytezahl deiner neuen Fassung. Wozu könnte ZIP dienen und warum ist es nicht direkt die Lesefassung? Braucht diese ruhende Karte Streaming? Begründe eine Grenze, wenn man sie nur als Bilddatei speichern würde.",
+          "sample": "Meine Datei ist HTML; die tatsächliche Bytezahl lese ich in der Werkstatt für meine zweite Fassung ab. meta charset=\"utf-8\" benennt die Zeichencodierung für Umlaute. ZIP kann Dateien komprimiert verpacken, muss zum direkten Lesen meist erst entpackt werden. Eine ruhende Textkarte braucht kein Audio- oder Videostreaming. Ein Bild könnte lesbaren, vergrösserbaren Text und Struktur verlieren; die genaue Wirkung hängt vom Format und der Umsetzung ab.",
+          "criteria": [
+            "2 Punkte: HTML als eigenes Format und UTF-8 als Zeichencodierung richtig erklärt (je 1).",
+            "1 Punkt: Bytezahl der eigenen neuen Datei tatsächlich ermittelt, nicht aus der Musterkarte übernommen.",
+            "1 Punkt: ZIP-Zweck und Grenze als direkte Lesefassung erklärt; ein ZIP-Export ist nicht Pflicht.",
+            "1 Punkt: Streaming für eine ruhende Textkarte zutreffend abgelehnt und begründet.",
+            "1 Punkt: konkrete Grenze eines blossen Bildformats oder eine gleichwertige Formatabwägung."
+          ]
+        },
+        {
+          "id": "mbi-medienkarte-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "prompt": "E. Reichweite und Verantwortung (6 Kriterienpunkte): Vergleiche nur gedanklich lokal zeigen, einen schulisch vorgesehenen internen Bereich und öffentliches Web. Nenne je Reichweite, Nutzen und eine Prüfung vor echter Weitergabe. Welcher Weg wäre für diese fiktive Zielgruppe passend? Prüfe an deiner Karte fremdes Material und echte Daten. Welche Wirkung hat der Satz über ein optionales Buch? Nichts hochladen.",
+          "sample": "Lokal zeigen erreicht wenige und eignet sich zum Prüfen; zuvor die Lesbarkeit kontrollieren. Ein schulisch vorgesehener interner Bereich erreicht die Zielgruppe besser, braucht aber Schulfreigabe sowie Material- und Zugänglichkeitsprüfung. Öffentliches Web wäre für die fiktive interne Einladung unnötig weitreichend und verlangte vor einer realen Freigabe weitere Prüfungen. Meine Karte nutzt nur eigene Formulierungen und erfundene Angaben. Der Hinweis, dass man ohne Buch zuhören darf, schliesst niemanden wegen eines fehlenden Buchs aus.",
+          "criteria": [
+            "3 Punkte: alle drei gedachten Wege mit Reichweite, Nutzen und mindestens einer passenden Prüfung verglichen (je 1).",
+            "1 Punkt: begründete Wahl passend zur fiktiven Zielgruppe, ohne eine echte Veröffentlichung auszuführen.",
+            "1 Punkt: eigener/fremder Inhalt und echte Namen, Bilder, Kontakte oder Termine am eigenen Produkt konkret kontrolliert.",
+            "1 Punkt: Wirkung des optionalen Buchhinweises auf Personen ohne eigenes Buch nachvollziehbar erklärt."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Inkraftsetzung für Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. § 2.2.2 auf PDF-S. 24–25 unter Klassenstufe 8: digitale Inhalte planen/erstellen, Formate und technische Aspekte, Zugänglichkeit, Veröffentlichungswege und Wirkung auf Zielgruppen.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "mbi-buchdaten-labor",
       "subjectId": "mbi",
       "title": "Buchdaten filtern und ändern",

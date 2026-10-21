@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Medienwerkstatt – fiktive Lesepause</title>
+<style>
+  :root{font-family:system-ui,Arial,sans-serif;color:#172b35;background:#f4f7f6}
+  *{box-sizing:border-box}body{margin:0}main{max-width:1050px;margin:auto;padding:1rem}
+  h1{font-size:clamp(1.65rem,3vw,2.35rem);line-height:1.16}h2{font-size:1.2rem;margin-top:0}
+  p,li{line-height:1.5}.note{background:#e5f2ee;border-left:5px solid #18735f;padding:.8rem 1rem}
+  .card{background:#fff;border:1px solid #cbd8d5;border-radius:.7rem;padding:1rem;margin:1rem 0}
+  .facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.6rem}.facts p{margin:.25rem 0;padding:.5rem;background:#f0f5f3}
+  .fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem}
+  label{display:flex;flex-direction:column;gap:.3rem;font-weight:650}
+  input,textarea,select,button{font:inherit;border:1px solid #657a81;border-radius:.3rem;padding:.65rem;color:#172b35;min-height:44px}
+  textarea{resize:vertical;min-height:5rem}button{background:#07566c;color:white;border-color:#07566c;font-weight:700;cursor:pointer}
+  button.secondary{background:white;color:#07566c}button:disabled{opacity:.55;cursor:not-allowed}
+  :focus-visible{outline:3px solid #b56a00;outline-offset:2px}.actions{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:1rem}
+  #message{min-height:1.7rem;font-weight:650}#revision{background:#fff5df;padding:.7rem;margin-top:.7rem}
+  iframe{width:100%;min-height:430px;border:1px solid #8ca7aa;border-radius:.4rem;background:white}
+  .small{font-size:.94rem;color:#36535c}
+  @media(max-width:640px){.facts,.fields{grid-template-columns:1fr}main{padding:.8rem}}
+  @media print{body{background:white}.card{break-inside:avoid}button,iframe{display:none}}
+</style>
+</head>
+<body><main>
+<h1>Eine digitale Infokarte selbst herstellen</h1>
+<p class="note">Nur eine Übung mit erfundenen Angaben. Die Werkstatt sendet nichts und speichert deine Eingaben nicht dauerhaft. Verwende keine echten Namen, Fotos, Kontakte oder Schultermine. Deine HTML-Datei wird nur auf dein Gerät heruntergeladen; eine Veröffentlichung ist hier nicht möglich. Freiwilliger Ausblick auf Klasse 8.</p>
+<section class="card" aria-labelledby="source-heading">
+<h2 id="source-heading">1. Die fiktive Auftragskarte</h2>
+<p>Eine erfundene Lese-AG möchte eine Karte für Mitschülerinnen und Mitschüler am Handy und Schulrechner. Übernimm alle Angaben sinngemäss und verständlich. Gestalte die Reihenfolge selbst.</p>
+<div class="facts">
+<p><strong>Titel:</strong> Lesepause</p><p><strong>Zeit:</strong> Mittwoch, 14:10–14:30 Uhr</p>
+<p><strong>Ort:</strong> Raum A4</p><p><strong>Einladung:</strong> Du kannst selbst lesen oder einfach zuhören.</p>
+<p><strong>Buch:</strong> Nur mitbringen, wenn du selbst lesen möchtest.</p><p><strong>Teilnahme:</strong> Freiwillig; in dieser Übung keine Anmeldung.</p>
+</div>
+</section>
+<section class="card" aria-labelledby="editor-heading">
+<h2 id="editor-heading">2. Deine eigene Fassung</h2>
+<p>Schreibe die sechs Angaben in eigenen, klaren Worten. Die Werkstatt prüft nur, ob Felder ausgefüllt sind; Inhalt, Verständlichkeit und Zugänglichkeit musst du selbst prüfen.</p>
+<div class="fields">
+<label>Titel<input id="title" autocomplete="off" maxlength="80" placeholder="Worum geht es?"></label>
+<label>Zeit<input id="when" autocomplete="off" maxlength="100" placeholder="Tag und Uhrzeit"></label>
+<label>Ort<input id="where" autocomplete="off" maxlength="100" placeholder="Raum"></label>
+<label>Einladung<textarea id="activity" maxlength="220" placeholder="Was kann man dort tun?"></textarea></label>
+<label>Buchhinweis<textarea id="bring" maxlength="220" placeholder="Ist ein Buch nötig?"></textarea></label>
+<label>Teilnahme<textarea id="participation" maxlength="220" placeholder="Freiwillig? Anmeldung?"></textarea></label>
+<label>Reihenfolge<select id="order"><option value="time-first">Zeit und Ort zuerst</option><option value="activity-first">Einladung zuerst</option></select></label>
+<label>Farbstil<select id="style"><option value="teal">Petrol</option><option value="purple">Violett</option><option value="orange">Orange</option></select></label>
+</div>
+<div class="actions"><button id="preview" type="button">Vorschau erstellen</button><button id="download" type="button" disabled>HTML-Datei herunterladen</button><button id="reset" class="secondary" type="button">Eingaben zurücksetzen</button></div>
+<p id="message" role="status" aria-live="polite">Beginne mit den sechs Angaben.</p>
+<p id="revision" hidden></p>
+</section>
+<section class="card" aria-labelledby="view-heading">
+<h2 id="view-heading">3. Prüfen und überarbeiten</h2>
+<p>Vergleiche die Vorschau mit der Auftragskarte. Prüfe schmale und breite Ansicht, Textreihenfolge und lesbare Wörter ohne Farbhilfe. Lade eine erste Version herunter, verbessere mindestens eine konkrete Stelle und lade die neue Fassung herunter. Öffne die gespeicherte Datei danach selbst erneut und prüfe sie.</p>
+<iframe id="result" title="Vorschau deiner fiktiven Infokarte" sandbox="" referrerpolicy="no-referrer"></iframe>
+<p class="small">Die Vorschau ist abgesichert; sie führt keine Skripte aus. Eine gespeicherte Datei enthält nur HTML und CSS, keine Verbindungen zu fremden Diensten. Dateigrösse und Änderungen werden nach dem Erstellen angezeigt. Ein blosses Ausfüllen ersetzt die eigene Sichtprüfung nicht.</p>
+</section>
+</main><script>
+(() => {
+  'use strict';
+  const ids=['title','when','where','activity','bring','participation'];
+  const names={title:'Titel',when:'Zeit',where:'Ort',activity:'Einladung',bring:'Buchhinweis',participation:'Teilnahme',order:'Reihenfolge',style:'Farbstil'};
+  const get=id=>document.getElementById(id);
+  const read=()=>Object.fromEntries([...ids,'order','style'].map(id=>[id,get(id).value.trim()]));
+  const escape=value=>value.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
+  const palettes={teal:['#07566c','#e9f3f5'],purple:['#5d386d','#f1ebf4'],orange:['#804600','#fff2dd']};
+  let generated='',firstVersion=null,current=null,downloadCount=0;
+  const message=text=>{get('message').textContent=text;};
+  function makeDocument(data){
+    const [dark,light]=palettes[data.style];
+    const section=(heading,body)=>`<section><h2>${heading}</h2><p>${escape(body)}</p></section>`;
+    const time=`<section><h2>Zeit und Ort</h2><dl><div><dt>Wann</dt><dd>${escape(data.when)}</dd></div><div><dt>Wo</dt><dd>${escape(data.where)}</dd></div></dl></section>`;
+    const invitation=section('Das kannst du tun',data.activity)+section('Buch mitbringen?',data.bring)+section('Teilnahme',data.participation);
+    const content=data.order==='time-first'?time+invitation:invitation+time;
+    return `<!doctype html>\n<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${escape(data.title)} – fiktive Übung</title><style>*{box-sizing:border-box}body{margin:0;font:1rem/1.5 system-ui,Arial,sans-serif;color:#172b35;background:#fff}main{max-width:700px;margin:auto;padding:1.4rem}header{background:${light};padding:1.2rem;border-left:7px solid ${dark}}h1{font-size:clamp(1.7rem,5vw,2.5rem);line-height:1.14;margin:.3rem 0}h2{font-size:1.15rem;color:${dark}}section{padding:.35rem 0;border-bottom:1px solid #b7c9cb}dl{margin:0}dl div{margin:.5rem 0}dt{font-weight:700}dd{margin:0}p,h1,h2,dt,dd{overflow-wrap:anywhere}@media print{main{max-width:none}}</style></head><body><main><header><p>Fiktive Übung · keine echte Schulveranstaltung</p><h1>${escape(data.title)}</h1></header>${content}</main></body></html>`;
+  }
+  for(const id of [...ids,'order','style']) get(id).addEventListener(id==='order'||id==='style'?'change':'input',()=>{
+    generated='';get('download').disabled=true;message('Eingaben geändert. Erstelle die Vorschau neu.');
+  });
+  get('preview').addEventListener('click',()=>{
+    const data=read();const missing=ids.filter(id=>!data[id]);
+    if(missing.length){message('Noch leer: '+missing.map(id=>names[id]).join(', ')+'.');get(missing[0]).focus();return;}
+    generated=makeDocument(data);current=data;
+    get('result').srcdoc=generated;
+    get('download').disabled=false;
+    const bytes=new Blob([generated],{type:'text/html;charset=utf-8'}).size;
+    message('Vorschau erstellt. HTML-Datei: '+bytes+' Byte. Prüfe die Inhalte selbst.');
+    if(firstVersion){
+      const changed=Object.keys(data).filter(id=>data[id]!==firstVersion[id]).map(id=>names[id]);
+      get('revision').hidden=false;
+      get('revision').textContent=changed.length?'Seit dem ersten Downloadversuch geändert: '+changed.join(', ')+'. Prüfe, ob die Änderung den Auftrag verbessert.':'Noch keine Änderung gegenüber dem ersten Downloadversuch.';
+    }
+  });
+  get('download').addEventListener('click',()=>{
+    if(!generated||!current)return;
+    const blob=new Blob([generated],{type:'text/html;charset=utf-8'});
+    const url=URL.createObjectURL(blob);const link=document.createElement('a');
+    link.href=url;link.download='lesepause-fassung-'+(++downloadCount)+'.html';document.body.append(link);link.click();link.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),60000);
+    if(!firstVersion)firstVersion={...current};
+    message('Download angestossen ('+blob.size+' Byte). Prüfe, ob die Datei gespeichert wurde, und öffne sie erneut. Dieser Klick beweist die Prüfung noch nicht.');
+  });
+  get('reset').addEventListener('click',()=>{
+    for(const id of ids)get(id).value='';get('order').value='time-first';get('style').value='teal';
+    generated='';current=null;firstVersion=null;downloadCount=0;get('download').disabled=true;get('result').removeAttribute('srcdoc');
+    get('revision').hidden=true;get('revision').textContent='';message('Startzustand wiederhergestellt.');get('title').focus();
+  });
+})();
+</script></body></html>

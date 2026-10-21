@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-21T07:14:32.872Z",
-  "releaseVersion": "2026.10.21-i6.1",
+  "builtAt": "2026-10-21T07:32:24.603Z",
+  "releaseVersion": "2026.10.21-i2.1",
   "newTopicIds": [
-    "mbi-buchdaten-labor"
+    "mbi-lesepause-medienwerkstatt"
   ],
   "changeLog": [
-    "MBI I6: freiwilliger Klasse-8-Ausblick mit vier Aufgaben zum Verknüpfen, Filtern, Ändern und Zurücksetzen fiktiver Buchdaten.",
-    "Zurücksetzbares Buchlabor im Browser; tatsächliche Kinderbedienung bleibt offen."
+    "MBI I2: freiwilliger Klasse-8-Ausblick mit fünf Aufgaben und einer Werkstatt für eine eigene fiktive HTML-Infokarte.",
+    "Lokaler Download und sichtbarer Vergleich zweier Fassungen; tatsächliche Kinderproduktion bleibt offen."
   ],
-  "rollbackCommit": "0c2119e61712a2fc4475b96983d2a785c8ca2122",
+  "rollbackCommit": "7f97111c63325421cc65aee3b9d10813683edd06",
   "releasedTopics": [
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
@@ -42,6 +42,7 @@
     "de-kommentar-leseraum",
     "de-leserbrief-tauschregal",
     "de-innerer-monolog-projekttisch",
+    "mbi-lesepause-medienwerkstatt",
     "mbi-buchdaten-labor",
     "de-karte-im-regen-vortrag",
     "de-heidi-ganzschrift-begleiter"
@@ -66,6 +67,7 @@
     "ma-tank-zuordnung",
     "ma-prozent-fixture",
     "ma-kuehlkasten-rationale-zahlen",
+    "mbi-lesepause-medienwerkstatt",
     "mbi-buchdaten-labor"
   ],
   "note": "Struktur, lokaler PDF-Hash und Lösungsfelder geprüft. Fach-, Geräte-, Datenschutz- und Veröffentlichungsfreigabe getrennt dokumentieren."

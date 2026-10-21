@@ -347,6 +347,17 @@
       link.href = topic.lab.path; link.target = '_blank'; link.rel = 'noopener noreferrer';
       lab.append(link); intro.append(lab);
     }
+    if (topic.audio) {
+      const audioCard = create('section', 'audio-card');
+      appendText(audioCard, 'h3', '', topic.audio.title);
+      appendText(audioCard, 'p', '', topic.audio.childNote);
+      const player = create('audio');
+      player.controls = true; player.preload = 'metadata'; player.src = topic.audio.path;
+      player.setAttribute('aria-label', topic.audio.title);
+      audioCard.append(player);
+      appendText(audioCard, 'p', 'muted', 'Falls der Ton nicht startet, ist die Aufgabe als Hörverstehen nicht beurteilbar.');
+      intro.append(audioCard);
+    }
     host.append(intro);
     for (const [index, task] of topic.tasks.entries()) host.append(renderTask(topic, task, index));
     if (topic.practice) host.append(renderPractice(topic.practice, false));
@@ -415,6 +426,11 @@
       appendText(section, 'h2', '', topic.title);
       appendText(section, 'p', 'level-tag', levelLabel(topic));
       if (topic.lab) appendText(section, 'p', 'muted', `${topic.lab.title}: Praktische Bedienung im neuen Tab nur nach tatsächlich beobachteten Schritten beurteilen. Geschriebene Antworten belegen die Klicks nicht automatisch.`);
+      if (topic.audio) {
+        appendText(section, 'p', 'muted', topic.audio.adultNote);
+        appendText(section, 'h3', '', 'Transkript – erst nach der Hörbearbeitung zeigen');
+        appendText(section, 'p', 'audio-transcript', topic.audio.transcript);
+      }
       for (const [index, task] of topic.tasks.entries()) {
         const item = create('article', 'adult-task'); item.dataset.taskId = task.id;
         appendText(item, 'h3', '', `${index + 1}. ${task.prompt}`);
@@ -480,6 +496,13 @@
       if (topic.lab) {
         appendText(section, 'p', 'print-context', `${topic.lab.title}: im Online-Lernatlas beim Thema über „${topic.lab.title} in neuem Tab öffnen“ starten. ${topic.lab.printNote} Direktadresse: ${topic.lab.publicUrl}`);
         if (mode === 'adult') appendText(section, 'p', 'print-context', 'Praktische Bedienpunkte nur nach tatsächlich beobachteten Schritten vergeben. Ohne beobachtete Durchführung: „nicht erhoben“ statt 0 Punkte oder einer scheinbar vollständigen Gesamtsumme. Geschriebene Antworten beweisen Filter-, Änderungs- und Rückstellklicks nicht.');
+      }
+      if (topic.audio) {
+        appendText(section, 'p', 'print-context', `${topic.audio.title}: ${topic.audio.childPrintNote}${topic.released ? ` Audio im Online-Lernatlas: ${topic.audio.publicUrl}` : ''}`);
+        if (mode === 'adult') {
+          appendText(section, 'p', 'print-context', topic.audio.adultNote);
+          appendText(section, 'p', 'print-audio-transcript', `Transkript – erst nach der Hörbearbeitung zeigen:\n${topic.audio.transcript}`);
+        }
       }
       for (const [index, task] of topic.tasks.entries()) {
         const item = create('div', 'print-task'); item.dataset.taskId = task.id; appendText(item, 'h3', '', `${index + 1}. ${task.prompt}`);

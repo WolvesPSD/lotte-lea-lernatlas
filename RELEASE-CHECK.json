@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-10-21T05:29:55.582Z",
+  "builtAt": "2026-10-21T05:50:35.670Z",
   "releasedTopics": [
     "de-lesestrategien-bibliothek",
     "de-leseecke-ueberarbeiten",
@@ -24,6 +24,7 @@
     "en-maya-repair-cafe",
     "fr-theo-erlebnisbericht",
     "ma-quader-aussparung-grundlagen",
+    "ma-kuehlkasten-rationale-zahlen",
     "de-kommentar-leseraum",
     "de-leserbrief-tauschregal",
     "de-innerer-monolog-projekttisch",
@@ -44,7 +45,8 @@
     "fr-reponse-elodie",
     "mbi-quellen-ki",
     "ma-tank-zuordnung",
-    "ma-prozent-fixture"
+    "ma-prozent-fixture",
+    "ma-kuehlkasten-rationale-zahlen"
   ],
   "note": "Struktur, lokaler PDF-Hash und Lösungsfelder geprüft. Fach-, Geräte-, Datenschutz- und Veröffentlichungsfreigabe getrennt dokumentieren."
 }

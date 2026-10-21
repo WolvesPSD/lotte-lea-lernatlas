@@ -1731,6 +1731,79 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-kuehlkasten-rationale-zahlen",
+      "subjectId": "ma",
+      "title": "Messwerte unter null vergleichen",
+      "scope": "Freiwilliger Ausblick auf § 2.2.2 Rationale Zahlen als Ziel bis Ende Klasse 8. Der Mathematik-Lehrplan 2026 gilt 2026/27 für Klasse 7 und erst 2027/28 für Klasse 8. Keine belegte aktuelle Klasse-7-Unterrichtseinheit.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du solltest einfache Brüche und Dezimalzahlen vergleichen und auf einer Zahlengeraden markieren können. Negative Zahlen, Betrag, Koordinaten und Potenzen können neu sein: Bearbeite dann zunächst A mit einer Erklärung. Für Zahlengerade und Koordinatensystem brauchst du kariertes Papier und einen Stift. Alle Messwerte sind erfunden.",
+      "introduction": "Ein Temperaturunterschied ist hier späterer Wert minus früherer Wert. Ein positives Ergebnis bedeutet Anstieg, ein negatives Abfall. Der Betrag nennt nur die Größe ohne Richtung. Die vier Werte sind einzelne Messungen; zwischen ihnen liegen keine Messdaten. Die App bewertet deine Zeichnungen und offenen Antworten nicht automatisch.",
+      "passage": "FIKTIVER FORSCHUNGSCLUB · Kühlkasten-Messwerte\nMessung A · Zeit 0 h · Temperatur −3/2 °C\nMessung B · Zeit 1/2 h · Temperatur −0,75 °C\nMessung C · Zeit 5/4 h · Temperatur −9/4 °C\nMessung D · Zeit 2 h · Temperatur +0,5 °C\n\nZeit und Temperatur sind absichtlich als Bruch oder Dezimalzahl angegeben. Es gibt keine Messung bei 1 h und keine Angabe darüber, wie sich die Temperatur zwischen den vier Zeitpunkten verhielt. Zeichnungen entstehen auf zusätzlichem kariertem Papier; das Arbeitsblatt enthält Schreiblinien für Erklärungen und Ergebnisse.",
+      "tasks": [
+        {
+          "id": "ma-kuehlkasten-1",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 9,
+          "prompt": "A. Zahlen lesen und ordnen (7 Kriterienpunkte): Schreibe A und C als Dezimalzahlen sowie B und D als vollständig gekürzte Brüche; zeige für C einen kurzen Weg. Ordne die vier Temperaturen von kalt nach warm. Zeichne auf kariertem Papier eine Zahlengerade von −2,5 bis +0,5 °C in Viertelschritten und markiere A–D. Runde C auf ganze Grad und kennzeichne die Näherung.",
+          "sample": "A = −1,5 °C; B = −3/4 °C; C = −9 ÷ 4 = −2,25 °C; D = +1/2 °C. Von kalt nach warm: C (−2,25), A (−1,5), B (−0,75), D (+0,5). Auf der Viertel-Zahlengeraden liegen diese vier Markierungen in derselben Reihenfolge; 0 und −2,5/+0,5 müssen zur Skala passen. C auf ganze Grad gerundet: etwa −2 °C; der Messwert bleibt exakt −2,25 °C.",
+          "criteria": [
+            "4 Punkte: A = −1,5, B = −3/4, C = −2,25 mit kurzem Rechenweg und D = +1/2; je eine korrekte Umwandlung, bei C gehört der Weg zum Punkt.",
+            "1 Punkt: C < A < B < D richtig geordnet.",
+            "1 Punkt: alle vier Punkte mit Vorzeichen auf einer passend beschrifteten Viertel-Zahlengeraden; alternative maßstäbliche Skala gilt.",
+            "1 Punkt: C als etwa −2 °C gerundet und ausdrücklich nicht als exakter Messwert ausgegeben."
+          ]
+        },
+        {
+          "id": "ma-kuehlkasten-2",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 12,
+          "prompt": "B. Koordinaten und Änderungen (7 Kriterienpunkte): Zeichne auf kariertem Papier Zeit 0–2 h waagrecht und Temperatur −2,5 bis +0,5 °C senkrecht, in Viertelschritten. Trage A–D als (Zeit | Temperatur) ein, ohne die Punkte als gemessene Kurve zu verbinden. Berechne A→B, B→C und C→D jeweils als später minus früher mit Vorzeichen und Einheit. Welche Änderung ist dem Betrag nach am größten, und in welche Richtung geht sie? Kannst du den exakten Wert bei 1 h oder den genauen Zeitpunkt eines Nulldurchgangs bestimmen?",
+          "sample": "Punkte: A(0 | −1,5), B(0,5 | −0,75), C(1,25 | −2,25), D(2 | +0,5), Achsen mit h und °C. A→B: −3/4 − (−3/2) = +3/4 °C. B→C: −9/4 − (−3/4) = −3/2 °C. C→D: +1/2 − (−9/4) = +11/4 °C. Der größte Betrag ist 11/4 °C bei C→D, ein Anstieg. Bei 1 h gibt es keine Messung; ein genauer Nulldurchgang ist nicht bestimmbar. Eine Kurve oder lineare Verbindung wäre eine zusätzliche Modellannahme.",
+          "criteria": [
+            "2 Punkte: alle vier Zeitkoordinaten (1) sowie alle vier Temperaturkoordinaten mit Achsen und Einheiten (1) korrekt; Punkte nicht als echte Messkurve verbunden.",
+            "3 Punkte: +3/4, −3/2 und +11/4 °C, je ein Punkt für richtigen Wert mit Vorzeichen und Einheit; exakte Dezimalwerte gelten.",
+            "1 Punkt: C→D als größte Änderung nach Betrag mit Anstiegsrichtung und 11/4 °C erkannt.",
+            "1 Punkt: weder exakter Wert bei 1 h noch genauer Nulldurchgang aus vier Einzelmessungen behauptet; Modellannahme oder neue Messung benannt."
+          ]
+        },
+        {
+          "id": "ma-kuehlkasten-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "prompt": "C. Behauptung prüfen (4 Kriterienpunkte): Mika sagt: „Bei C war es wärmer als bei A, denn 9/4 ist größer als 3/2.“ Zeige mit Vergleich oder Rechnung den Fehler. Berechne außerdem den Betrag von C und die Gegenzahl von C. Erkläre, warum die beiden Begriffe hier zwar dieselbe positive Zahl liefern, aber etwas Verschiedenes meinen.",
+          "sample": "Die Temperaturen sind negativ: C = −9/4 = −2,25 °C ist kleiner als A = −3/2 = −1,5 °C. C war kälter. Als Gegenprobe: −9/4 − (−3/2) = −3/4 °C. Der Betrag |−9/4| = 9/4 ist der Abstand von 0; die Gegenzahl zu −9/4 ist +9/4, weil beide zusammen 0 ergeben. Bei einer positiven Zahl wären Betrag und Gegenzahl verschieden.",
+          "criteria": [
+            "1 Punkt: zutreffende Deutung „C war kälter als A“ statt Mikas Behauptung.",
+            "1 Punkt: die Deutung durch einen exakten Vergleich negativer Werte oder eine Rechnung begründet, zum Beispiel −9/4 < −3/2 oder C−A = −3/4 °C. Eine einzige dieser beiden Begründungen genügt.",
+            "1 Punkt: Betrag 9/4 mit Abstandsbedeutung.",
+            "1 Punkt: Gegenzahl +9/4 mit Additions-zu-0-Bedeutung; bloß zweimal +9/4 ohne Erklärung reicht nicht."
+          ]
+        },
+        {
+          "id": "ma-kuehlkasten-4",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "prompt": "D. Klammern zählen (2 Kriterienpunkte): Berechne (−3/2)² und −(3/2)². Erkläre den Unterschied der Vorzeichen durch die Stellung der Klammern.",
+          "sample": "(−3/2)² = (−3/2)·(−3/2) = +9/4. Dagegen ist −(3/2)² = −((3/2)·(3/2)) = −9/4. Im ersten Ausdruck gehört das Minus zur quadrierten Basis; im zweiten steht es vor der positiven Potenz.",
+          "criteria": [
+            "1 Punkt: (−3/2)² = +9/4 mit dem Minus in der quadrierten Basis erklärt.",
+            "1 Punkt: −(3/2)² = −9/4 mit Minus vor der positiven Potenz erklärt."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. § 2.2.2 PDF-S. 24–25: rationale Zahlen darstellen, vergleichen, runden, koordinatisieren, Betrag/Gegenzahl, rechnen und Potenzen; Zielmarke Klassenstufe 8.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "de-kommentar-leseraum",
       "subjectId": "de",
       "title": "Ein Kommentar: Was belegen Besuchszahlen?",

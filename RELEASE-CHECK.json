@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-21T21:49:46.313Z",
-  "releaseVersion": "2026.10.21-m6protocol.1",
+  "builtAt": "2026-10-21T21:53:37.460Z",
+  "releaseVersion": "2026.10.21-m6protocol.2",
   "newTopicIds": [],
   "changeLog": [
-    "Mathematik M6: optionales druckbares Protokoll fuer 20 echte zweistufige Ziehungen; eigene Trefferrechnung vor der Kontrolle, vollstaendige CSV nur nach 20 Reihen. Freiwilliger Klasse-8-Ausblick, keine automatische Durchfuehrungsbestaetigung."
+    "Mathematik M6: mobiler Wischhinweis fuer die seitlich verschiebbare Protokolltabelle; 20 echte zweistufige Ziehungen, eigene Rechnung vor Kontrolle, Druck und CSV. Freiwilliger Klasse-8-Ausblick."
   ],
-  "rollbackCommit": "d8cd1e1e5b37a6b2f6694a179b865c850176f003",
+  "rollbackCommit": "32c42e61cffbcccdc5f245090fdba4eb1f23e6e0",
   "releasedTopics": [
     "de-tauschregal-eroerterung",
     "en-maya-clubs-talk",

@@ -3157,6 +3157,72 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-heftpreis-bruecke",
+      "subjectId": "ma",
+      "title": "Heftpreise: Stückpreis und Gegenprobe",
+      "scope": "Freiwillige Wiederholung einer im aktuellen Lehrplan als Klasse-6-Ziel markierten direkten Zuordnung. Für Klasse 7 als Einstieg vor schwierigeren 7/8-Aufgaben gedacht; keine belegte aktuelle Unterrichtseinheit und kein neuer Klasse-7-Jahresbereich.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Hilfreich sind Division und Multiplikation mit Geldbeträgen. Rechne zuerst selbst; ab Klasse 7 darfst du einen Rechner freiwillig zur Kontrolle nutzen.",
+      "introduction": "Ein erfundener Papierladen verkauft gleiche Hefte zum festen Stückpreis, ohne Mengenrabatt oder Zusatzkosten. Zwei Preiszeilen sind richtig, eine wurde falsch abgeschrieben. Finde den Stückpreis und prüfe die Aussagen. Alle Preise sind erfunden.",
+      "passage": "Richtige Preisliste: 2 Hefte = 3,60 € · 5 Hefte = 9,00 € · 8 Hefte = ?\nAbgeschrieben: 6 Hefte = 11,80 €\nAngebliche Rechneranzeigen für 8 Hefte: A = 14,40 € · B = 144,00 €. Beide sind erfunden.",
+      "tasks": [
+        {
+          "id": "ma-heftpreis-1",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 4,
+          "inputRows": 6,
+          "prompt": "A. Stückpreis und fehlender Wert (5 Kriterienpunkte): Berechne den Preis für ein Heft einmal aus der 2er- und einmal aus der 5er-Zeile. Vergleiche die Ergebnisse. Was kosten 8 Hefte bei gleichem Stückpreis? Schreibe Rechnungen und Geldeinheiten auf.",
+          "sample": "3,60 € ÷ 2 = 1,80 € je Heft und 9,00 € ÷ 5 = 1,80 € je Heft. Beide richtigen Zeilen haben denselben Stückpreis. 8 · 1,80 € = 14,40 € für 8 Hefte.",
+          "criteria": [
+            "1 Punkt: 3,60 € ÷ 2 = 1,80 €.",
+            "1 Punkt: 9,00 € ÷ 5 = 1,80 €.",
+            "1 Punkt: beide Zeilen als gleicher Stückpreis verglichen.",
+            "1 Punkt: 8 · 1,80 als passender Rechenweg.",
+            "1 Punkt: 14,40 € für 8 Hefte mit richtiger Geldeinheit."
+          ]
+        },
+        {
+          "id": "ma-heftpreis-2",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 4,
+          "inputRows": 7,
+          "prompt": "B. Abschreibfehler prüfen (5 Kriterienpunkte): Passt „6 Hefte = 11,80 €“ zur richtigen Preisliste? Berechne den passenden 6er-Preis, die Abweichung der Behauptung und erkläre, warum die beiden richtigen Zeilen weiterhin zusammenpassen.",
+          "sample": "Bei 1,80 € je Heft kosten 6 Hefte 6 · 1,80 € = 10,80 €. Die behaupteten 11,80 € sind um 1,00 € zu hoch. Die 2er- und 5er-Zeile bleiben konsistent, weil beide 1,80 € je Heft ergeben; nur die abgeschriebene 6er-Zeile widerspricht ihnen.",
+          "criteria": [
+            "1 Punkt: 6 · 1,80 als passende Rechnung.",
+            "1 Punkt: richtiger 6er-Preis 10,80 €.",
+            "1 Punkt: 11,80 € als unpassend erkannt.",
+            "1 Punkt: Abweichung 1,00 € zu hoch.",
+            "1 Punkt: 2er- und 5er-Zeile weiterhin über denselben Stückpreis begründet."
+          ]
+        },
+        {
+          "id": "ma-heftpreis-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 4,
+          "inputRows": 6,
+          "prompt": "C. Überschlag und Kontrolle (4 Kriterienpunkte): Überschlage mit 8 · 2,00 €. Welche angebliche Anzeige (A 14,40 €; B 144,00 €) passt zu deiner exakten Rechnung? Begründe. Falls ein echter Rechner anders anzeigt, was prüfst du? Rechnernutzung ist freiwillig; beschreibe nur tatsächlich ausgeführte Schritte.",
+          "sample": "8 · 2,00 € = 16,00 € ist ein grober oberer Vergleich, weil 1,80 € je Heft kleiner ist. 14,40 € liegt sinnvoll darunter; 144,00 € ist rund zehnmal zu groß. Bei einer abweichenden Anzeige würde ich Eingabe, Dezimaltrennzeichen und Rechenart kontrollieren und 8 · 1,80 erneut eingeben. Das beschreibt einen Prüfweg, keine beobachtete Rechnerbedienung.",
+          "criteria": [
+            "1 Punkt: 8 · 2,00 € = 16,00 € als Überschlag.",
+            "1 Punkt: 14,40 € als passender Betrag mit 8 · 1,80 € aus Aufgabe A beziehungsweise eigener exakter Rechnung begründet.",
+            "1 Punkt: 144,00 € als deutlich unplausibel beziehungsweise zehnfach zu groß.",
+            "1 Punkt: konkrete Kontrolle von Eingabe/Dezimaltrennzeichen und erneute Gegenrechnung, ohne unbeobachtete Bedienung als Tatsache auszugeben."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "6-Grundlage, 7-Wiederholung",
+        "competencyRef": "PDF-S. 2: Mathematikfassung 2026/27 für Klasse 7 in Kraft. § 2.1.8 PDF-S. 23: direkte proportionale Zuordnungen mit Tabelle und Dreisatz als Klasse-6-Ziel. PDF-S. 15 Fussnote 12: wissenschaftlicher Taschenrechner ab Klasse 7 beim Arbeiten mit Hilfsmitteln; daraus folgt kein eigener Fachinhalt.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
       "id": "ma-tank-zuordnung",
       "subjectId": "ma",
       "title": "Wie viele Pumpen braucht der Tank?",

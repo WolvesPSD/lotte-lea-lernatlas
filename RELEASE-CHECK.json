@@ -1,11 +1,13 @@
 {
-  "builtAt": "2026-10-21T22:37:46.069Z",
-  "releaseVersion": "2026.10.22-frschulweg.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Französisch-Zweig durch Suhler Schulbrief zur zweiten Fremdsprache ab Klasse 6 besser belegt; individueller Beginn und Lernstand bleiben offen."
+  "builtAt": "2026-10-21T22:47:44.681Z",
+  "releaseVersion": "2026.10.22-maheftpreis.1",
+  "newTopicIds": [
+    "ma-heftpreis-bruecke"
   ],
-  "rollbackCommit": "9946d42e248c98373ce2bb1634881cb1f48f2235",
+  "changeLog": [
+    "Freiwillige Mathe-Grundlagenbrücke zu Stückpreis, Gegenprobe und Überschlag; kein zusätzlicher Klasse-7-Jahresbereich."
+  ],
+  "rollbackCommit": "3003c071d8c7581723189be01a428b68827b96d3",
   "releasedTopics": [
     "mbi-festbezug-karten",
     "de-woerter-umfrage",
@@ -45,6 +47,7 @@
     "de-meldung-termin",
     "en-update-fixture",
     "en-sketchbook-story",
+    "ma-heftpreis-bruecke",
     "ma-tank-zuordnung",
     "ma-prozent-fixture",
     "en-maya-repair-cafe",

@@ -597,7 +597,7 @@
         if (mode === 'adult') {
           const observationMax = Number.isInteger(topic.practice.observationMax) ? topic.practice.observationMax : 16;
           const observationLabel = topic.practice.observationLabel || 'Vortrag';
-          appendText(practiceSection, 'p', '', `Beobachtung: ☐ gesehen  ☐ mit Hilfe  ☐ offen  ☐ nicht erhoben. Ohne ${observationLabel} keine Punktzahl eintragen.`);
+          appendText(practiceSection, 'p', '', `Beobachtung: ☐ gehört  ☐ mit Hilfe  ☐ offen  ☐ nicht erhoben. Ohne ${observationLabel} keine Punktzahl eintragen.`);
           appendText(practiceSection, 'p', '', 'Vorher vereinbarte Hilfen / verwendete Stichwortstützen: ____________________________________________________');
           appendText(practiceSection, 'p', '', 'Nachgereichte Hinweise und tatsächlich Gehörtes: _______________________________________________________');
           appendText(practiceSection, 'p', '', `Nur bei Durchführung und fairer Gelegenheit für alle Kriterien: Summe mündliche Übung ____ / ${observationMax}. Bei „—“ keine vergleichbare Gesamtsumme. Kein automatisches Urteil und keine Schulnote.`);

@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-21T09:45:23.506Z",
-  "releaseVersion": "2026.10.21-ds1.1",
+  "builtAt": "2026-10-21T09:55:41.193Z",
+  "releaseVersion": "2026.10.21-ds2.1",
   "newTopicIds": [
-    "de-lesetreff-planungsgespraech"
+    "de-bibliotheksregal-erklaeren"
   ],
   "changeLog": [
-    "Deutsch D-S1: ein fiktives Planungsgespräch mit getrennten Rollenkarten, schriftlicher Vorbereitung und Sachnotiz üben.",
-    "Nur eine anwesende Person kann das gesprochene Gespräch anhand von sieben Kriterien beobachten; bei fehlender Gelegenheit bleibt eine Gesamtsumme offen."
+    "Deutsch D-S2: eine fiktive Bibliotheksregel mit Buchbeispielen und einer Stichwortkarte verständlich erklären.",
+    "Acht Punkte betreffen nur schriftliche Vorbereitung; zwölf mündliche Beobachtungspunkte setzen eine tatsächlich gehörte Erklärung und feste Rückfrage voraus."
   ],
-  "rollbackCommit": "714d1f83165ce0f6903f318408a7489f57cddf15",
+  "rollbackCommit": "240e61fb95f528ff2af2f5b030e8cb57faefc8b0",
   "releasedTopics": [
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
@@ -55,7 +55,8 @@
     "de-karte-im-regen-vortrag",
     "de-heidi-ganzschrift-begleiter",
     "de-eigene-ganzschrift-arbeitsweg",
-    "de-lesetreff-planungsgespraech"
+    "de-lesetreff-planungsgespraech",
+    "de-bibliotheksregal-erklaeren"
   ],
   "subjects": [
     "ma",

@@ -3544,6 +3544,76 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "PDF-S. 2: Inkraftsetzung für Klasse 7 ab 2026/27. § 2.2.3 PDF-S. 28: dialogisch sprechen, zuhören, anknüpfen und sachlich auf Gegenpositionen reagieren, Ziel Ende Klasse 8. § 3.3 PDF-S. 48–49: Planungsgespräche als Beispiel in der 7/8-Spalte.",
         "checkedAt": "2026-10-21"
       }
+    },
+    {
+      "id": "de-bibliotheksregal-erklaeren",
+      "subjectId": "de",
+      "title": "Ein Bücherregal verständlich erklären",
+      "scope": "Freiwillige, gestützte 7/8-Sprechübung im gültigen Deutschlehrplan. Zusammenhängendes Erklären steht unter der Zielmarke Ende Klasse 8; Lottes aktuelle Unterrichtsfolge ist unbekannt. Der Redeplan ist Vorbereitung und keine beobachtete Sprechleistung.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Du brauchst eine zuhörende Person. Du darfst die fiktive Regelkarte und höchstens acht Stichwörter nutzen, sollst aber keinen fertigen Absatz ablesen. Die anwesende Person stellt erst nach der Erklärung die feste Rückfrage. Ohne mündliche Durchführung bleibt der Beobachtungsbogen „nicht erhoben“.",
+      "introduction": "Eine jüngere Person besucht eine erfundene Bibliothek und fragt: „Wie finde ich die Bücher, ohne nach dem ersten Buchstaben des Titels zu raten?“ Bereite eine verständliche Erklärung vor. Sprich später zu einer wirklich anwesenden Person und antworte auf ihre Rückfrage. Die App kann weder deine Stimme hören noch einen Vortrag als erledigt markieren. Alle Bücher und Regeln sind erfunden.",
+      "passage": "REGELKARTE · FIKTIVE EIBENWALD-BIBLIOTHEK\nDie Bücher werden nach dem Nachnamen der Autorin oder des Autors einsortiert. Der Titelanfang entscheidet nicht. Es gibt drei Regalabschnitte: A–F, G–M und N–Z.\nDie Regelkarte sagt nur, wo ein Buch hingehört. Sie sagt nicht, ob es gerade dort steht oder ausgeliehen ist.\n\nBuch 1: „Zugvogel“ · Ada Berg\nBuch 2: „Die Wolkenwiese“ · Miro Kern\nBuch 3: „Atlas der Schatten“ · Nele Winter",
+      "tasks": [
+        {
+          "id": "de-regal-erklaeren-1",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 7,
+          "inputRows": 6,
+          "prompt": "A. Sachkern vor dem Sprechen (5 schriftliche Kriterienpunkte): Ordne jedem der drei Bücher seinen Regalabschnitt zu und nenne jeweils den entscheidenden Nachnamen. Warum führt der Titel „Zugvogel“ nicht zu N–Z? Was kannst du aus der Regelkarte über die heutige Verfügbarkeit nicht wissen?",
+          "sample": "„Zugvogel“: Berg → A–F. „Die Wolkenwiese“: Kern → G–M. „Atlas der Schatten“: Winter → N–Z. Bei „Zugvogel“ beginnt der Titel zwar mit Z, sortiert wird aber nach Berg/B. Die Karte sagt nicht, ob das Buch heute im Regal steht oder ausgeliehen ist.",
+          "criteria": [
+            "Je 1 Punkt für die richtige Zuordnung mit entscheidendem Nachnamen: Berg → A–F, Kern → G–M, Winter → N–Z (3).",
+            "1 Punkt: Der Titelanfang Z wird ausdrücklich von der Nachnamenregel Berg/B unterschieden.",
+            "1 Punkt: aktuelle Verfügbarkeit oder tatsächlicher heutiger Regalbestand bleibt aus dieser Karte unbekannt. Eine richtige Regalnennung ohne Nachnamen genügt beim jeweiligen Punkt nicht."
+          ]
+        },
+        {
+          "id": "de-regal-erklaeren-2",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "inputRows": 5,
+          "prompt": "B. Stichwortkarte (3 schriftliche Kriterienpunkte): Notiere höchstens acht Stichwörter oder kurze Wortgruppen in der Folge Frage/Regel → mindestens zwei richtige Buchbeispiele → Schluss mit der Verfügbarkeitsgrenze. Plane einen kurzen Übergang. Schreibe keinen fertigen Redetext; du darfst bei der Erklärung auf die Karte schauen.",
+          "sample": "Frage: Titel oder Autor? · Regel: Nachname · Berg → A–F · Kern → G–M · Winter → N–Z · Titel „Zugvogel“ täuscht · Regalabschnitt laut Regel ja, heutiger Bestand offen. Das sind sieben kurze Einträge; zwei richtig erklärte Beispiele würden für den Sprechauftrag genügen.",
+          "criteria": [
+            "1 Punkt: Frage und Nachnamenregel als knapper Redeanfang erkennbar.",
+            "1 Punkt: mindestens zwei richtige Buch-/Regalbeispiele in nachvollziehbarer Folge; andere Reihenfolge gilt.",
+            "1 Punkt: knapper Schluss begrenzt die Verfügbarkeitsaussage. Ein fertiges Skript erfüllt die verlangte Stichwortform nicht automatisch. Diese drei Punkte bewerten nur die schriftliche Karte."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Praxis: eine Regel frei erklären",
+        "childNote": "Erkläre ungefähr 90–150 Sekunden lang für eine jüngere Person die Nachnamenregel mit mindestens zwei verschiedenen Buchbeispielen. Zeige den möglichen Titelfehler und sage, was die Karte über die heutige Verfügbarkeit nicht weiss. Eine andere verständliche Dauer ist kein automatischer Fehler. Nutze nur Regelkarte und Stichwörter; die feste Rückfrage stellt die zuhörende Person erst danach. Ohne gehörte Erklärung gibt es keine mündliche Wertung.",
+        "childSteps": [
+          "Beginne bei der Frage der jüngeren Person. Nenne die Nachnamenregel statt nur die richtigen Regale aufzuzählen.",
+          "Erkläre mindestens zwei verschiedene Buch-Regal-Zuordnungen mit dem jeweiligen Nachnamen und den Titelfehler bei „Zugvogel“.",
+          "Schliesse mit der Grenze: „Gehört zu diesem Abschnitt“ heisst nicht „steht heute dort“. Schau nur kurz auf deine Stichwörter.",
+          "Antworte nach der Erklärung mündlich auf die feste Rückfrage der zuhörenden Person. Sage danach eine Stärke und einen konkreten nächsten Übungsschritt; die Selbstreflexion bekommt keine Extra-Punkte."
+        ],
+        "observationMax": 12,
+        "observationLabel": "Erklärung",
+        "adultNote": "Nur nach tatsächlich gehörter Erklärung ausfüllen. Stelle danach unverändert die feste Rückfrage: „Warum gehört Zugvogel zu A–F, obwohl der Titel mit Z beginnt? Und kannst du mit dieser Karte wissen, ob es heute im Regal steht?“ Sie zählt nicht zur ungefähren Vortragszeit. Eine normale Wiederholung ist erlaubt und wird als Hilfe notiert. Bewerte Gehörtes, nicht die vorbereiteten Textfelder. Akzent, Dialekt, Nervosität und vereinbarte barrierearme Sprechhilfen sind allein keine Fehler. Falls die Rückfrage nicht gestellt wurde, ihre zwei Punkte als „—“ markieren und keine vergleichbare Gesamtsumme bilden. Ohne Erklärung alles „nicht erhoben“, nie 0/12. Formatives Feedback, keine Schulnote oder Aufnahme.",
+        "adultCriteria": [
+          "Einstieg und Adressat (0–1): 1 = Frage/Ziel für eine jüngere neue Person verständlich eingeführt; sonst 0 oder — ohne Gelegenheit.",
+          "Nachvollziehbare Folge (0–1): 1 = Regel → Beispiele → begrenzter Schluss erkennbar verbunden; sonst 0 oder —.",
+          "Sortierregel und Titelfehler (0–2): je 1 für „Nachname statt Titel“ und richtig erklärten Zugvogel-Gegenfall; — wenn nicht beobachtbar.",
+          "Beispiele im Vortrag (0–2): je 1 für zwei verschiedene richtig begründete Buch-Regal-Zuordnungen mit Nachnamen; Regal allein reicht nicht; — ohne Gelegenheit.",
+          "Wissensgrenze (0–1): 1 = Verfügbarkeit ausdrücklich als aus der Karte unbekannt erklärt; blosses Weglassen genügt nicht; sonst 0 oder —.",
+          "Verständlichkeit und Tempo (0–2): 2 = gut hörbar mit sinnvollen Pausen; 1 = einzelne schwierige Stellen, Kern verständlich; 0 = Kern trotz Nachfrage unverständlich; — ohne Durchführung.",
+          "Stichwortnutzung (0–1): 1 = eigenständig aus Stichwörtern erklärt statt vollständigen Text abgelesen; kurze Blicke und vereinbarte Sprechhilfen sind erlaubt; sonst 0 oder —.",
+          "Feste Rückfrage (0–2): je 1 für Berg/B → A–F trotz Titel-Z und „heutige Verfügbarkeit unbekannt“; verständliche sinngleiche Antwort gilt; — wenn Frage nicht gestellt."
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Inkraftsetzung für Klasse 7 ab 2026/27. § 2.2.3 PDF-S. 28: monologisches Informieren/Erklären, Redeplanung und Feedback, Ziel Ende Klasse 8. § 3.3 PDF-S. 48–49: Erklärungen und Anweisungen als Beispiele der 7/8-Spalte.",
+        "checkedAt": "2026-10-21"
+      }
     }
   ]
 });

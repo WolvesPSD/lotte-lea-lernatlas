@@ -1,16 +1,18 @@
 {
-  "builtAt": "2026-10-21T10:38:57.872Z",
-  "releaseVersion": "2026.10.21-m11m12.1",
+  "builtAt": "2026-10-21T10:54:20.186Z",
+  "releaseVersion": "2026.10.21-m13m14.1",
   "newTopicIds": [
-    "ma-lineare-funktionen",
-    "ma-pythagoras-plan"
+    "ma-wahrscheinlichkeitsbaum",
+    "ma-koerper-modell"
   ],
   "changeLog": [
-    "Mathematik M11: zwei fiktive Tarife als lineare Funktionen mit sechs Aufgaben und einem beschrifteten Koordinatengitter ohne Lösungslinien.",
-    "Mathematik M12: fiktiver Papierplan zum Satz und zur Umkehrung des Pythagoras mit fünf Aufgaben und einer schematischen Orientierungsskizze; beide Themen sind freiwillige Ende-8-Ausblicke."
+    "Mathematik M13: fiktiver Beutel mit Zurücklegen, vier Aufgaben zu Pfadregel, Ereignissen und Venn-Diagramm sowie ein lösungsfreies Materialbild.",
+    "Mathematik M14: vier ideale Körper, fünf Aufgaben zu Netzen, Volumen, Oberfläche und Modellgrenzen mit einer maßbeschrifteten Übersicht; beide Themen sind freiwillige Ende-8-Ausblicke."
   ],
-  "rollbackCommit": "c1f981f8efe295814e05275b1e2c5822cba6f486",
+  "rollbackCommit": "4a784b31ba8db7a1fe23ac42926de9ceaf754db4",
   "releasedTopics": [
+    "ma-koerper-modell",
+    "ma-wahrscheinlichkeitsbaum",
     "ma-pythagoras-plan",
     "ma-lineare-funktionen",
     "ma-kreisweg",
@@ -72,6 +74,8 @@
     "fr"
   ],
   "grade8OutlookTopics": [
+    "ma-koerper-modell",
+    "ma-wahrscheinlichkeitsbaum",
     "ma-pythagoras-plan",
     "ma-lineare-funktionen",
     "ma-kreisweg",

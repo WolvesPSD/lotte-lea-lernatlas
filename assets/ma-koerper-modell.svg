@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Vier geschlossene Modellkörper mit gegebenen Maßen</title>
+  <desc id="desc">Vier schematische Karten zeigen Zylinder, Kegel, Kugel und gerade quadratische Pyramide. Zylinder: Radius 3 Zentimeter, senkrechte Höhe 4 Zentimeter. Kegel: Radius 3, senkrechte Höhe 4, schräge Mantellinie 5. Kugel: Radius 3. Pyramide: quadratische Grundkante 6, senkrechte Höhe 4, Höhe jeder seitlichen Dreiecksfläche 5. Es sind keine Oberflächen oder Volumina eingetragen; die Zeichnungen sind nicht maßstäblich.</desc>
+  <rect width="900" height="650" rx="18" fill="#f4f8f7"/>
+  <text x="30" y="38" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#173747">Vier fiktive Körper · gegebene Maße</text>
+  <text x="30" y="64" font-family="Arial, sans-serif" font-size="16" fill="#405965">Massiv und geschlossen · schematisch, kein Maßstab · noch keine Flächen oder Volumina</text>
+
+  <rect x="25" y="84" width="415" height="245" rx="14" fill="#ffffff" stroke="#b9cdcf" stroke-width="2"/>
+  <text x="46" y="118" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#164f5a">Z · Zylinder</text>
+  <ellipse cx="150" cy="264" rx="65" ry="21" fill="#bce3e5" stroke="#246576" stroke-width="3"/>
+  <path d="M85 175 V264 M215 175 V264" fill="none" stroke="#246576" stroke-width="3"/>
+  <ellipse cx="150" cy="175" rx="65" ry="21" fill="#dff3f2" stroke="#246576" stroke-width="3"/>
+  <path d="M150 175 H215" fill="none" stroke="#286b9c" stroke-width="3"/>
+  <circle cx="150" cy="175" r="4" fill="#286b9c"/>
+  <path d="M230 175 V264" fill="none" stroke="#a94441" stroke-width="3" stroke-dasharray="6 5"/>
+  <text x="255" y="185" font-family="Arial, sans-serif" font-size="18" fill="#173747">r = 3 cm</text>
+  <text x="255" y="217" font-family="Arial, sans-serif" font-size="18" fill="#173747">h = 4 cm</text>
+  <text x="255" y="246" font-family="Arial, sans-serif" font-size="15" fill="#8d3735">h senkrecht</text>
+
+  <rect x="460" y="84" width="415" height="245" rx="14" fill="#ffffff" stroke="#b9cdcf" stroke-width="2"/>
+  <text x="481" y="118" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#164f5a">K · gerader Kegel</text>
+  <path d="M595 142 L531 263 Q595 293 659 263 Z" fill="#d6e9f1" stroke="#246576" stroke-width="3"/>
+  <ellipse cx="595" cy="263" rx="64" ry="19" fill="#e5f3f4" stroke="#246576" stroke-width="3"/>
+  <path d="M595 142 V263" fill="none" stroke="#a94441" stroke-width="3" stroke-dasharray="6 5"/>
+  <path d="M595 142 L659 263" fill="none" stroke="#be6a24" stroke-width="4"/>
+  <path d="M595 263 H659" fill="none" stroke="#286b9c" stroke-width="3"/>
+  <text x="687" y="177" font-family="Arial, sans-serif" font-size="18" fill="#173747">r = 3 cm</text>
+  <text x="687" y="211" font-family="Arial, sans-serif" font-size="18" fill="#173747">h = 4 cm</text>
+  <text x="687" y="245" font-family="Arial, sans-serif" font-size="18" fill="#173747">s = 5 cm</text>
+  <text x="687" y="274" font-family="Arial, sans-serif" font-size="15" fill="#9c511d">s schräg</text>
+
+  <rect x="25" y="350" width="415" height="270" rx="14" fill="#ffffff" stroke="#b9cdcf" stroke-width="2"/>
+  <text x="46" y="384" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#164f5a">S · Kugel</text>
+  <circle cx="150" cy="500" r="76" fill="#d6e9f1" stroke="#246576" stroke-width="3"/>
+  <ellipse cx="150" cy="500" rx="76" ry="24" fill="none" stroke="#67919e" stroke-width="2" stroke-dasharray="5 5"/>
+  <path d="M150 500 H226" fill="none" stroke="#286b9c" stroke-width="3"/>
+  <circle cx="150" cy="500" r="4" fill="#286b9c"/>
+  <text x="258" y="490" font-family="Arial, sans-serif" font-size="19" fill="#173747">r = 3 cm</text>
+  <text x="258" y="520" font-family="Arial, sans-serif" font-size="15" fill="#405965">Keine ebene Grundfläche</text>
+
+  <rect x="460" y="350" width="415" height="270" rx="14" fill="#ffffff" stroke="#b9cdcf" stroke-width="2"/>
+  <text x="481" y="384" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#164f5a">P · quadratische Pyramide</text>
+  <path d="M520 565 L680 565 L715 515 L555 515 Z" fill="#e5f3f4" stroke="#246576" stroke-width="2"/>
+  <path d="M617 407 L520 565 L680 565 Z" fill="#cfe6ef" stroke="#246576" stroke-width="3"/>
+  <path d="M617 407 L680 565 L715 515 Z" fill="#b9dbe4" stroke="#246576" stroke-width="3"/>
+  <path d="M617 407 L555 515 M617 407 L715 515" fill="none" stroke="#246576" stroke-width="2" stroke-dasharray="5 5"/>
+  <path d="M617 407 V539" fill="none" stroke="#a94441" stroke-width="3" stroke-dasharray="6 5"/>
+  <path d="M617 407 L697 540" fill="none" stroke="#be6a24" stroke-width="4"/>
+  <circle cx="617" cy="539" r="4" fill="#a94441"/>
+  <text x="737" y="444" font-family="Arial, sans-serif" font-size="17" fill="#173747">a = 6 cm</text>
+  <text x="737" y="475" font-family="Arial, sans-serif" font-size="17" fill="#173747">h = 4 cm</text>
+  <text x="737" y="506" font-family="Arial, sans-serif" font-size="17" fill="#173747">m = 5 cm</text>
+  <text x="737" y="535" font-family="Arial, sans-serif" font-size="14" fill="#9c511d">m: Flächenhöhe</text>
+  <text x="737" y="556" font-family="Arial, sans-serif" font-size="14" fill="#8d3735">h: senkrecht</text>
+</svg>

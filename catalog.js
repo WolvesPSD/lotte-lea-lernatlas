@@ -72,6 +72,196 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "ma-koerper-modell",
+      "subjectId": "ma",
+      "title": "Vier Körper: Außenfläche und Rauminhalt",
+      "scope": "Ausblick Klasse 8 · freiwillig. Pyramide, Zylinder, Kegel und Kugel stehen in § 2.2.14 unter der Zielmarke Klasse 8; Lottes aktuelle Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Hilfreich sind Kreisumfang und Kreisfläche, Quadrat- und Dreiecksflächen sowie senkrechte und schräge Längen. Die Formeln stehen als Hilfe im Auftrag; ihre Bereitstellung belegt kein Vorwissen. Für die beiden Netze brauchst du Papier, Lineal und Zirkel. Rechne exakt mit π, für Näherungen mit π≈3,14159 und runde erst das Endergebnis auf zwei Dezimalen.",
+      "introduction": "Eine fiktive Ausstellung vergleicht vier massive, geschlossene Idealkörper mit Maßen in cm. Zylinder Z: Radius r=3, senkrechte Höhe h=4. Gerader Kegel K: r=3, h=4, Mantellinie s=5. Kugel S: r=3. Gerade quadratische Pyramide P: Grundkante a=6, senkrechte Höhe h=4, Höhe jeder seitlichen Dreiecksfläche m=5. Bei K und P passen 3²+4²=5²; die 5 ist schräg und keine Volumenhöhe. Es gibt im Modell keine Öffnung, Klebelasche, Materialdicke oder Verschnitt. Hilfe: V_Z=πr²h, O_Z=2πr²+2πrh; V_K=(πr²h)/3, O_K=πr²+πrs; V_S=(4πr³)/3, O_S=4πr²; V_P=Gh/3 mit G=a². Eine Pyramidenoberfläche bestimmst du aus dem Netz. Diese Formeln sind eine Lernhilfe, kein Test auswendig gelernter Formeln. Rechne Flächen in cm² und Rauminhalte in cm³. Offene Antworten werden nicht automatisch benotet.",
+      "diagram": {
+        "path": "assets/ma-koerper-modell.svg",
+        "alt": "Vier schematische Körperkarten ohne Ergebnisse: Zylinder Z mit Kreisradius 3 cm und senkrechter Höhe 4 cm; gerader Kegel K mit Radius 3 cm, senkrechter Höhe 4 cm und schräger Mantellinie 5 cm; Kugel S mit Radius 3 cm; gerade quadratische Pyramide P mit Grundkante 6 cm, senkrechter Höhe 4 cm und Höhe jeder seitlichen Dreiecksfläche 5 cm. Die Karten sind nicht maßstabsgetreu und zeigen keine Oberflächen oder Volumina.",
+        "caption": "Gegebene Maße ohne Rechenergebnisse. h ist senkrecht; s und m verlaufen schräg. Die Skizze ist nicht maßstäblich und ersetzt die eigenen Zylinder- und Pyramidennetze nicht."
+      },
+      "tasks": [
+        {
+          "id": "ma-koerper-modell-1",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "prompt": "Körper und Längen (5 Kriterienpunkte): Nenne für Z, K, S und P je ein kennzeichnendes geometrisches Merkmal. Zeige mit 3²+4²=5², weshalb beim Kegel s=5 und bei der Pyramide die Höhe jeder seitlichen Dreiecksfläche m=5 möglich sind. Unterscheide h=4 als senkrechte Höhe von den schrägen Längen. Berechne die quadratische Grundfläche von P. Warum ist m nicht automatisch eine Pyramiden-Seitenkante zur Ecke?",
+          "sample": "Z hat zwei parallele gleich große Kreisflächen; K hat eine Kreisgrundfläche und eine Spitze; die Oberfläche von S besteht aus Punkten mit Abstand r vom Mittelpunkt; P hat ein Grundquadrat und vier seitliche Dreiecksflächen. Beim Kegel bilden Radius r=3 und senkrechte Höhe h=4 Katheten; s=√(3²+4²)=5 liegt schräg auf dem Mantel. Bei P sind halbe Grundkante a/2=3 und h=4 die Katheten; m=5 ist die Höhe einer seitlichen Dreiecksfläche vom Spitzenpunkt zur Mitte einer Grundkante, nicht die Seitenkante zur Ecke. G_P=6²=36 cm².",
+          "criteria": [
+            "1 Punkt: für jeden der vier Körper ein passendes geometrisches Merkmal genannt.",
+            "1 Punkt: beim Kegel r=3 und h=4 mit 3²+4²=5² auf s=5 bezogen.",
+            "1 Punkt: bei P a/2=3 und h=4 mit 3²+4²=5² auf die Flächenhöhe m=5 bezogen.",
+            "1 Punkt: senkrechte Höhe h von schräger Mantellinie s und Flächenhöhe m unterschieden; m nicht als Seitenkante zur Ecke ausgegeben.",
+            "1 Punkt: Pyramiden-Grundfläche G_P=36 cm²."
+          ]
+        },
+        {
+          "id": "ma-koerper-modell-2",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "prompt": "Zwei Netze auf Papier (6 Kriterienpunkte): Zeichne ein maßstäblich beschriftetes Zylindernetz aus Mantelrechteck und zwei Kreisen. Gib Rechtecklänge, Rechteckhöhe und Kreisradius an. Zeichne daneben ein Pyramidennetz aus Grundquadrat und vier seitlichen Dreiecken; beschrifte Grundkante und jeweilige Dreieckshöhe. Erkläre, warum eine Kugel mit diesen einfachen ebenen Stücken kein exaktes Netz erhält. Zeige beide Papierzeichnungen separat; Maßzahlen im Textfeld allein belegen keine Netze.",
+          "sample": "Das Zylindernetz hat ein Mantelrechteck mit Länge 2πr=6π cm≈18,85 cm und Höhe 4 cm. An die beiden langen Mantelkanten kommt je ein Kreis mit Radius 3 cm. Das Pyramidennetz hat ein Grundquadrat 6×6 cm und an jeder Quadratseite ein gleichschenkliges Dreieck mit Grundseite 6 cm und Flächenhöhe 5 cm. Kugeloberfläche lässt sich aus solchen ebenen Polygon-/Kreisstücken nicht ohne Verzerrung exakt ausbreiten. Beschriftete Zeichnungen tatsächlich ansehen; Papier- oder Druckmaßstab separat prüfen.",
+          "criteria": [
+            "1 Punkt: am gezeigten Zylindernetz Mantelrechteck-Länge 6π cm bzw. etwa 18,85 cm.",
+            "1 Punkt: am gezeigten Zylindernetz Rechteckhöhe 4 cm.",
+            "1 Punkt: zwei Kreise mit Radius 3 cm an passenden Mantelkanten.",
+            "1 Punkt: am gezeigten Pyramidennetz Grundquadrat 6×6 cm.",
+            "1 Punkt: vier passende Dreiecke mit Grundseite 6 cm und Flächenhöhe 5 cm.",
+            "1 Punkt: kein exaktes Kugelnetz aus den einfachen ebenen Stücken behauptet; beide Zeichnungen separat angesehen."
+          ]
+        },
+        {
+          "id": "ma-koerper-modell-3",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 12,
+          "prompt": "Rauminhalt (8 Kriterienpunkte): Berechne V für Z, K, S und P zuerst exakt, dann näherungsweise in cm³. Vergleiche K und Z mit gleicher Kreisgrundfläche und gleicher senkrechter Höhe. Welche zwei verschieden geformten Körper haben hier genau denselben Rauminhalt? Begründe, warum s=5 und m=5 nicht anstelle von h=4 in die Volumenformeln gehören.",
+          "sample": "V_Z=π·3²·4=36π cm³≈113,10 cm³. V_K=(π·3²·4)/3=12π cm³≈37,70 cm³. V_S=(4π·3³)/3=36π cm³≈113,10 cm³. G_P=36 cm², daher V_P=36·4/3=48 cm³. Für gleiche Kreisgrundfläche und senkrechte Höhe ist V_K ein Drittel von V_Z. Z und S haben hier beide genau 36π cm³ trotz unterschiedlicher Form. Die schrägen s/m messen keine senkrechte Raumhöhe; sie gehören nicht statt h in die Volumenformel.",
+          "criteria": [
+            "1 Punkt: Zylindervolumen exakt 36π cm³.",
+            "1 Punkt: Kegelvolumen exakt 12π cm³.",
+            "1 Punkt: Kugelvolumen exakt 36π cm³.",
+            "1 Punkt: Pyramidenvolumen 48 cm³.",
+            "1 Punkt: passende Näherungen 113,10/37,70/113,10/48 cm³ mit cm³ und sinnvoller Endrundung.",
+            "1 Punkt: K hat bei gleicher Grundfläche und Höhe genau ein Drittel des Z-Volumens.",
+            "1 Punkt: Z und S als verschiedene Formen mit gleichem exaktem Volumen 36π cm³ identifiziert.",
+            "1 Punkt: s/m als schräge Längen statt senkrechter Höhe in der Volumenformel ausgeschlossen."
+          ]
+        },
+        {
+          "id": "ma-koerper-modell-4",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 12,
+          "prompt": "Geschlossene Außenflächen (7 Kriterienpunkte): Berechne O von Z, K, S und P exakt und auf zwei Dezimalen in cm². Bei Z zählen zwei Kreise und das Mantelrechteck, bei K Grundkreis und Mantel, bei P Grundquadrat und vier Dreiecke. Erkläre bei Z und P, welche Stücke deines Netzes zu den Flächensummanden gehören. Warum wäre cm³ hier die falsche Einheit?",
+          "sample": "Z: zwei Kreise 2·π·3²=18π cm², Mantel 2π·3·4=24π cm², O_Z=42π cm²≈131,95 cm². K: Grundkreis 9π plus Mantel π·3·5=15π, O_K=24π cm²≈75,40 cm². S: O_S=4π·3²=36π cm²≈113,10 cm². P: Grundquadrat 36 plus vier Dreiecke 4·(6·5/2)=60, O_P=96 cm². Die Z-/P-Summanden entsprechen jeweils den Stücken ihrer geschlossenen Netze. cm² misst Oberfläche; cm³ misst Rauminhalt.",
+          "criteria": [
+            "1 Punkt: Z mit zwei Kreisscheiben 18π cm² und Mantel 24π cm² aus den Netzstücken zusammengesetzt.",
+            "1 Punkt: Z-Summe 42π cm²≈131,95 cm².",
+            "1 Punkt: K-Grundkreis und Mantel zu 24π cm²≈75,40 cm².",
+            "1 Punkt: S-Oberfläche 36π cm²≈113,10 cm².",
+            "1 Punkt: P-Grundquadrat 36 cm² und vier Dreiecke zu je 15 cm² aus Netzstücken angesetzt.",
+            "1 Punkt: P-Summe 96 cm².",
+            "1 Punkt: alle Ergebnisse sinnvoll gerundet und Oberfläche in cm² statt cm³ erklärt."
+          ]
+        },
+        {
+          "id": "ma-koerper-modell-5",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "prompt": "Gleiches Volumen, anderer Materialbedarf? (4 Kriterienpunkte): Eine Person sagt: „Zylinder und Kugel haben hier dasselbe Volumen, also brauchen sie gleich viel Außenhaut.“ Prüfe beide Teile der Aussage mit exakten Ergebnissen. Welcher der vier Körper hat in diesem Modell die kleinste geschlossene Außenfläche? Nenne eine konkrete Grenze für die Übertragung auf eine reale Materialentscheidung, ohne einen Verlustprozentsatz zu erfinden.",
+          "sample": "V_Z=V_S=36π cm³ ist richtig. Aber O_Z=42π cm² und O_S=36π cm² sind verschieden; Z hat 6π cm²≈18,85 cm² mehr ideale Außenfläche. Im Vergleich mit O_K=24π≈75,40 cm² und O_P=96 cm² ist K am kleinsten. Eine reale Materialentscheidung müsste zum Beispiel Nähte, Klebelaschen, Materialdicke, Öffnungen oder Verschnitt beachten; dafür sind keine Mengen vorgegeben. Aus diesen Modellflächen folgen keine Kosten oder Sicherheitseigenschaften.",
+          "criteria": [
+            "1 Punkt: Volumengleichheit Z/S mit 36π cm³ richtig bestätigt.",
+            "1 Punkt: unterschiedliche Außenflächen 42π/36π cm² und Differenz 6π cm² erkannt.",
+            "1 Punkt: K mit 24π cm² als kleinste der vier Oberflächen identifiziert.",
+            "1 Punkt: eine konkrete reale Grenze ohne erfundene Prozentzahl oder Kosten-/Sicherheitszusage benannt."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Inkraftsetzung 2026/27 für Klasse 7, 2027/28 für Klasse 8. § 2.2.14 beginnt auf PDF-S. 32; auf PDF-S. 33 stehen die M14-Kompetenzen direkt unter „Klassenstufe 8“: Körper erkennen, Netze von Pyramide/Zylinder maßstäblich zeichnen, Oberfläche und Volumen berechnen, Formeln erläutern, sinnvoll runden.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
+      "id": "ma-wahrscheinlichkeitsbaum",
+      "subjectId": "ma",
+      "title": "Zwei Ziehungen: Pfade und Ereignisse",
+      "scope": "Ausblick Klasse 8 · freiwillig. Baumdiagramme, Pfadregeln und verknüpfte Ereignisse stehen in § 2.2.13 unter der Zielmarke Klasse 8. Lottes aktuelle Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst Brüche, Multiplikation und Addition von Brüchen. R, B, G sind Farben; A bedeutet mindestens einmal Rot, F gleiche Farbe. A ∩ F heißt „A und F“, A ∪ F heißt „A oder F oder beides“. Zeichne Baum und Venn-Bild auf Papier und zeige sie getrennt: Das Textfeld kann Zeichnungen nicht prüfen. Zurücklegen heißt: Nach Zug 1 liegt das Plättchen wieder im Beutel, bevor Zug 2 beginnt.",
+      "introduction": "In einem erfundenen undurchsichtigen Beutel liegen sechs gleichartige Plättchen: R1, R2, R3 sind rot, B1, B2 blau und G1 grün. Jedes einzelne Plättchen ist bei jeder Ziehung gleich wahrscheinlich. Ziehe gedanklich ein Plättchen, notiere seine Farbe, lege es zurück, mische und ziehe ein zweites Mal. Die Reihenfolge zählt: RB heißt erst Rot, dann Blau. A bedeutet „mindestens einmal Rot“; F bedeutet „beide Male dieselbe Farbe“. Ein Farbpfad wie RB bündelt mehrere genau bezeichnete Einzelpfade wie R2–B1. Rechne das ideale Modell; 36 Einzelpfade sind Möglichkeiten und keine echten Versuchsdaten. Das Schaubild zeigt nur Material und Ablauf, keine Wahrscheinlichkeitslösung. Schreibe Rechenwege auf und zeige Papierzeichnungen getrennt; die App benotet offene Antworten nicht automatisch.",
+      "diagram": {
+        "path": "assets/ma-wahrscheinlichkeitsbaum.svg",
+        "alt": "Schematischer Inhalt eines undurchsichtigen fiktiven Beutels: sechs einzeln beschriftete Plättchen R1, R2, R3 in Rot, B1, B2 in Blau, G1 in Grün. Daneben der Ablauf: erste Ziehung, Farbe notieren, Plättchen zurücklegen und mischen, zweite Ziehung. Es stehen keine Astwahrscheinlichkeiten, fertigen Farbpfade, Ereignismengen oder Ergebniswerte im Bild.",
+        "caption": "Nur Material und Regel mit Zurücklegen. Erstelle Baum und Venn-Diagramm selbst auf Papier; das Bild enthält keine Pfadlösung."
+      },
+      "tasks": [
+        {
+          "id": "ma-wahrscheinlichkeitsbaum-1",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "prompt": "Baum und Gewichte (6 Kriterienpunkte): Zeichne auf Papier erst drei Farbäste und von jedem wieder drei; beschrifte alle Äste mit ihrer Wahrscheinlichkeit. Liste die neun geordneten Farbpfade auf. Berechne P(RB) und P(BG) mit der Pfadregel. Weshalb sind die neun Farbpfade nicht gleich wahrscheinlich, obwohl es 36 gleich wahrscheinliche geordnete Paare einzelner Plättchen gibt? Zeige den Baum getrennt zur Sichtprüfung.",
+          "sample": "Bei jedem Zug: P(R)=3/6=1/2, P(B)=2/6=1/3, P(G)=1/6. Wegen Zurücklegen wiederholen sich diese drei Gewichte nach jedem Ast. Die Farbpfade sind RR,RB,RG,BR,BB,BG,GR,GB,GG. P(RB)=(3/6)(2/6)=6/36=1/6; P(BG)=(2/6)(1/6)=2/36=1/18. Sechs Plättchenidentitäten geben 6·6=36 gleich wahrscheinliche geordnete Einzelpaare; ein Farbpfad bündelt unterschiedlich viele davon. Der tatsächlich gezeichnete Baum muss separat angesehen werden.",
+          "criteria": [
+            "1 Punkt: erste drei Astgewichte 3/6, 2/6, 1/6.",
+            "1 Punkt: zweite Ebene nach jedem ersten Ast wegen Zurücklegen korrekt wiederholt; Papierbaum tatsächlich gesehen.",
+            "1 Punkt: alle neun geordneten Farbpfade vollständig.",
+            "1 Punkt: P(RB)=6/36=1/6 mit Produktregel.",
+            "1 Punkt: P(BG)=2/36=1/18 mit Produktregel.",
+            "1 Punkt: 36 gleichgewichtete Einzelpaare von ungleichgewichteten Farbgruppen unterschieden."
+          ]
+        },
+        {
+          "id": "ma-wahrscheinlichkeitsbaum-2",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 12,
+          "prompt": "Ereignisse (8 Kriterienpunkte): Schreibe die Farbpfade in A („mindestens einmal Rot“), F („gleiche Farbe“) und A ∩ F auf. Berechne P(A) auch über das Gegenereignis „kein Rot“, P(F) und P(A ∩ F). Gib gekürzte Brüche und entsprechende Anteile von 36 Einzelpfaden an. Können A und F zugleich eintreten?",
+          "sample": "A={RR,RB,RG,BR,GR}. Kein Rot: BB,BG,GB,GG; P(kein R)=(3/6)²=9/36=1/4, also P(A)=27/36=3/4. F={RR,BB,GG} hat Gewichte 9/36+4/36+1/36=14/36=7/18. A ∩ F={RR} mit 9/36=1/4. RR gehört zu beiden; A und F sind nicht unvereinbar. Die Mengenklammern bezeichnen Farbpfade; bei der Rechnung zählen ihre verschieden großen Einzelpfadgruppen.",
+          "criteria": [
+            "1 Punkt: A-Farbpfade vollständig und ohne fremde Pfade.",
+            "1 Punkt: F-Farbpfade RR, BB, GG.",
+            "1 Punkt: A ∩ F={RR} und gemeinsame Möglichkeit erklärt.",
+            "1 Punkt: Gegenereignis „kein Rot“ aus zwei nichtroten Ziehungen korrekt.",
+            "1 Punkt: P(A)=27/36=3/4.",
+            "1 Punkt: F-Gewichte 9/36, 4/36, 1/36 passend addiert.",
+            "1 Punkt: P(F)=14/36=7/18.",
+            "1 Punkt: P(A ∩ F)=9/36=1/4."
+          ]
+        },
+        {
+          "id": "ma-wahrscheinlichkeitsbaum-3",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 13,
+          "prompt": "Venn-Bild und Vereinigung (7 Kriterienpunkte): Zeichne zwei überschneidende Kreise A und F in einem Rechteck für alle 36 Einzelpfade. Trage die Anzahlen für „nur A“, „A ∩ F“, „nur F“ und „weder A noch F“ ein. Berechne P(A ∪ F) erst mit P(A)+P(F)−P(A ∩ F), dann über das Gegenereignis. Prüfe, dass die vier Regionen zusammen 36 ergeben. Zeige dein Venn-Bild getrennt; der Text allein belegt es nicht.",
+          "sample": "Nur A umfasst RB,RG,BR,GR mit 6+3+6+3=18 Einzelpfaden. A ∩ F ist RR mit 9. Nur F: BB,GG mit 4+1=5. Weder noch: BG,GB mit 2+2=4. Probe 18+9+5+4=36. P(A ∪ F)=27/36+14/36−9/36=32/36=8/9. Das Gegenereignis umfasst BG und GB, also 4/36; daher 1−4/36=32/36=8/9. Der Schnitt wird beim einfachen Addieren doppelt gezählt. Die Papierzeichnung braucht eigene Sichtprüfung.",
+          "criteria": [
+            "1 Punkt: nur A mit 18 Einzelpfaden im tatsächlich gezeigten Venn-Bild.",
+            "1 Punkt: Schnitt A ∩ F mit 9.",
+            "1 Punkt: nur F mit 5.",
+            "1 Punkt: weder A noch F mit 4.",
+            "1 Punkt: Vereinigungsregel mit Schnittkorrektur und Ergebnis 32/36=8/9.",
+            "1 Punkt: zweiter Weg über BG/GB und 1−4/36.",
+            "1 Punkt: vier Regionen als 18+9+5+4=36 überprüft."
+          ]
+        },
+        {
+          "id": "ma-wahrscheinlichkeitsbaum-4",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "prompt": "Drei falsche Abkürzungen (6 Kriterienpunkte): Prüfe jede Aussage und korrigiere sie mit einer Zahl oder einem Pfad: (a) „P(A ∪ F)=P(A)+P(F), weil A und F verschieden sind.“ (b) „Jeder der neun Farbpfade hat 1/9.“ (c) „Nach einem roten Plättchen liegen vor Zug 2 nur noch zwei rote unter fünf Plättchen.“ Erkläre bei (c) die Rolle des Zurücklegens.",
+          "sample": "(a) A und F teilen RR, daher muss 9/36 einmal abgezogen werden: 27/36+14/36−9/36=32/36=8/9; bloßes Addieren ergäbe 41/36>1. (b) P(RR)=9/36=1/4, P(GG)=1/36; Farbpfade bündeln verschieden viele der 36 gleich wahrscheinlichen Einzelpaare. (c) Nach Zurücklegen sind wieder sechs Plättchen im Beutel, davon drei rot: P(R bei Zug 2)=3/6=1/2. 2/5 wäre der rote Folgeanteil ohne Zurücklegen nach einem roten ersten Zug und gehört nicht zum gegebenen Modell.",
+          "criteria": [
+            "2 Punkte: bei (a) gemeinsamen Pfad RR erkannt und 32/36=8/9 durch Abzug des Schnitts korrigiert.",
+            "2 Punkte: bei (b) ungleiche Farbpfadgewichte mit RR=9/36 und GG=1/36 oder gleichwertigem Gegenbeispiel belegt.",
+            "2 Punkte: bei (c) Rückgabe vor Zug 2 berücksichtigt, 3/6 statt 2/5 mit passendem Unterschied zum Versuch ohne Zurücklegen erklärt."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Inkraftsetzung 2026/27 für Klasse 7, 2027/28 für Klasse 8. § 2.2.13, PDF-S. 32 unter „Klassenstufe 8“: Wahrscheinlichkeiten mehrstufiger Zufallsexperimente mit Baumdiagramm und Pfadregeln; verknüpfte Ereignisse als Schnitt, Vereinigung, Komplement und im Venn-Diagramm.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "ma-pythagoras-plan",
       "subjectId": "ma",
       "title": "Eine Diagonale im Ausstellungsplan prüfen",

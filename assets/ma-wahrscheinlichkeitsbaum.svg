@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" role="img" aria-labelledby="title desc">
+  <title id="title">Sechs fiktive Plättchen und der Ablauf mit Zurücklegen</title>
+  <desc id="desc">Links liegen drei rote Plättchen R1, R2, R3, zwei blaue B1, B2 und ein grünes G1 als schematischer Beutelinhalt. Rechts vier Schritte: erstes Plättchen ziehen, Farbe notieren, Plättchen zurücklegen und mischen, zweites Plättchen ziehen. Weder Astwahrscheinlichkeiten noch Pfade oder Lösungen stehen im Bild.</desc>
+  <rect x="1" y="1" width="758" height="438" rx="18" fill="#fffdf9" stroke="#c9d8d9" stroke-width="2"/>
+  <text x="30" y="39" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#193044">Zweimal ziehen – dazwischen zurücklegen</text>
+  <rect x="28" y="65" width="300" height="335" rx="20" fill="#f3f8f6" stroke="#96b4ac" stroke-width="2"/>
+  <text x="53" y="98" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#193044">6 Plättchen im Beutel</text>
+  <text x="53" y="123" font-family="Arial, sans-serif" font-size="15" fill="#405965">Beim Ziehen undurchsichtig.</text>
+  <g font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">
+    <circle cx="87" cy="181" r="34" fill="#f8d9d1" stroke="#b64d36" stroke-width="3"/>
+    <circle cx="177" cy="181" r="34" fill="#f8d9d1" stroke="#b64d36" stroke-width="3"/>
+    <circle cx="267" cy="181" r="34" fill="#f8d9d1" stroke="#b64d36" stroke-width="3"/>
+    <text x="87" y="188" fill="#772b1d">R1</text><text x="177" y="188" fill="#772b1d">R2</text><text x="267" y="188" fill="#772b1d">R3</text>
+    <circle cx="116" cy="269" r="34" fill="#dbeaf8" stroke="#2e638e" stroke-width="3"/>
+    <circle cx="238" cy="269" r="34" fill="#dbeaf8" stroke="#2e638e" stroke-width="3"/>
+    <text x="116" y="276" fill="#254d72">B1</text><text x="238" y="276" fill="#254d72">B2</text>
+    <circle cx="177" cy="351" r="34" fill="#e6f0d7" stroke="#567734" stroke-width="3"/>
+    <text x="177" y="358" fill="#36541d">G1</text>
+  </g>
+  <text x="375" y="87" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#193044">Ablauf für das Baumdiagramm</text>
+  <g font-family="Arial, sans-serif" font-size="18" font-weight="650" fill="#193044">
+    <rect x="375" y="105" width="340" height="54" rx="10" fill="#e9f3f5" stroke="#7da9b1" stroke-width="2"/>
+    <text x="394" y="139">1. Plättchen ziehen</text>
+    <rect x="375" y="183" width="340" height="54" rx="10" fill="#e9f3f5" stroke="#7da9b1" stroke-width="2"/>
+    <text x="394" y="217">Farbe notieren</text>
+    <rect x="375" y="261" width="340" height="54" rx="10" fill="#fff0df" stroke="#b4773d" stroke-width="2"/>
+    <text x="394" y="295">Plättchen zurücklegen + mischen</text>
+    <rect x="375" y="339" width="340" height="54" rx="10" fill="#e9f3f5" stroke="#7da9b1" stroke-width="2"/>
+    <text x="394" y="373">2. Plättchen ziehen</text>
+  </g>
+  <g fill="none" stroke="#4d7079" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M545 159V177 M539 171L545 177L551 171"/>
+    <path d="M545 237V255 M539 249L545 255L551 249"/>
+    <path d="M545 315V333 M539 327L545 333L551 327"/>
+  </g>
+</svg>

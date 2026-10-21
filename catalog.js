@@ -72,6 +72,83 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "mbi-farbkarten-tabellenlabor",
+      "subjectId": "mbi",
+      "title": "Farbkarten: Formel und Vergleich",
+      "scope": "Ausblick Klasse 8 · freiwillig. Ein enger Einstieg in Tabellenkalkulation; der Lehrplan gilt für Klasse 7, markiert I1 aber als Ziel bis Ende Klasse 8. Die Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Hilfreich sind Zelladressen wie B6 und das Addieren ganzer Zahlen; die Formelhilfe steht im Labor.",
+      "introduction": "Öffne das Farbkartenlabor. Gib in B8 eine Summenformel ein, vergleiche Blau mit Rot und Grün zusammen, ändere B6 von 6 auf 7 und stelle es wieder zurück. Begründe deine Beobachtungen hier oder auf dem Kinderblatt. Die App bewertet freie Antworten nicht automatisch und erkennt nicht, wer das Labor bedient.",
+      "lab": {
+        "path": "assets/mbi-farbkarten.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/mbi-farbkarten.html",
+        "title": "Farbkartenlabor",
+        "description": "Drei fiktive Zahlen, eine selbst eingegebene Summenformel und ein Datenvergleich. Alles bleibt im Browser-Tab und startet beim Neuladen neu.",
+        "printNote": "Im Labor die B8-Formel selbst eingeben, B6 von 6 auf 7 ändern und wieder zurückstellen. Der Ausdruck zeigt nur den Auftrag, nicht die tatsächliche Bedienung."
+      },
+      "tasks": [
+        {
+          "id": "mbi-farbkarten-1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "prompt": "Orientieren (2 Kriterienpunkte): Welche der Zellen A5, B5, A6 und B6 enthalten Text, welche Zahlen? Was bedeutet die Einheit „Stück“ hier? Prüfe vor deiner Eingabe, dass B8 und B10 leer sind.",
+          "sample": "A5 („Rot“) und A6 („Blau“) sind Text; B5 (4) und B6 (6) sind ganze Zahlen. „Stück“ zählt die erfundenen Karten, nicht Personen. B8 und B10 sind vor Beginn leer.",
+          "criteria": [
+            "1 Punkt: A5/A6 als Text und B5/B6 als Zahlen richtig zugeordnet.",
+            "1 Punkt: Stück als Kartenzahl erklärt und die leeren Zielfelder vor Beginn tatsächlich geprüft; die App beobachtet diesen Blick nicht."
+          ]
+        },
+        {
+          "id": "mbi-farbkarten-2",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 5,
+          "prompt": "Formel (3 Kriterienpunkte): Schreibe die Formel, die du in B8 eingegeben hast, und das berechnete Ergebnis für 4, 6 und 2 Karten. Weshalb wäre eine fest eingetippte „12“ keine gleichwertige Lösung für diese Bedienaufgabe?",
+          "sample": "=SUMME(B5:B7), in einer englischen Oberfläche =SUM(B5:B7), ergibt 4+6+2=12 Stück. Die Formel verweist auf die drei Zellen und rechnet beim Ändern eines Eingabewerts erneut. Eine fest eingegebene 12 bleibt 12.",
+          "criteria": [
+            "1 Punkt: echte Summenfunktion mit dem Bereich B5:B7 genannt.",
+            "1 Punkt: 12 Stück aus 4+6+2 berechnet.",
+            "1 Punkt: Unterschied zwischen referenzierender Formel und fester Ergebniszahl richtig erklärt; tatsächliche Eingabe muss zusätzlich beobachtet werden."
+          ]
+        },
+        {
+          "id": "mbi-farbkarten-3",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "prompt": "Anfangsvergleich (2 Kriterienpunkte): Ist „Blau sind mehr Karten als Rot und Grün zusammen“ bei B5=4, B6=6 und B7=2 richtig? Begründe mit einem Vergleich und trage dein Urteil im Labor in B10 ein.",
+          "sample": "Nein. Blau hat 6 Karten; Rot und Grün haben zusammen 4+2=6. Es sind gleich viele, also ist „mehr“ falsch. Ein möglicher B10-Text ist „gleich viele: 6 = 4+2“.",
+          "criteria": [
+            "1 Punkt: 6 und 4+2=6 genau verglichen.",
+            "1 Punkt: Gleichheit erkannt und die Ausgangsaussage „mehr“ als falsch beurteilt; B10-Eingabe nur bei beobachteter Bedienung zählen."
+          ]
+        },
+        {
+          "id": "mbi-farbkarten-4",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "prompt": "Ändern und zurückstellen (5 Kriterienpunkte): Ändere nur B6 von 6 auf 7. Welchen Wert zeigt B8 ohne neue Formeleingabe? Was gilt nun für Blau gegenüber Rot und Grün zusammen? Stelle danach B6 auf 6 und B10 auf das erste Urteil zurück. Beschreibe, welche Werte du tatsächlich gesehen hast.",
+          "sample": "Nach B6=7 berechnet die unveränderte Formel 4+7+2=13 Stück. Blau hat jetzt 7, Rot+Grün 6 Karten; die Aussage „Blau sind mehr“ gilt in dieser Variante. Nach dem Zurückstellen von B6 auf 6 zeigt B8 wieder 12; B10 muss wieder Gleichheit ausdrücken. Die Folge 12 → 13 → 12 ist nur als beobachtete Laborhandlung belegt, wenn jemand die Schritte selbst ausgeführt oder gesehen hat.",
+          "criteria": [
+            "1 Punkt: nur B6 wird auf 7 geändert; andere Eingabezellen und die Formel bleiben gleich.",
+            "1 Punkt: B8 zeigt nach Neuberechnung 13 Stück.",
+            "1 Punkt: 7 > 4+2 begründet das geänderte Urteil in B10.",
+            "1 Punkt: B6=6 und B8=12 nach Rückstellung.",
+            "1 Punkt: B10 beschreibt wieder Gleichheit; die praktische Neuberechnung nicht allein aus einem geschriebenen Bericht als beobachtet markieren."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: MBI ab 2026/27 für Klasse 7, ab 2027/28 für Klasse 8. § 2.2.1 auf PDF-S. 24: Tabellenkalkulation unter Zielmarke Klassenstufe 8; Daten tabellarisch erfassen, mit Formeln auswerten und Ergebnisse deuten.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "de-lesestrategien-bibliothek",
       "subjectId": "de",
       "title": "Welche Lesestrategie hilft bei dieser Frage?",

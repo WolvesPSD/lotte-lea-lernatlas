@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Farbkarten – Tabellenlabor</title>
+<style>
+  :root{font-family:system-ui,Arial,sans-serif;color:#193044;background:#f3f7f6}
+  *{box-sizing:border-box}body{margin:0}main{max-width:820px;margin:auto;padding:1rem}
+  h1{font-size:clamp(1.5rem,5vw,2rem)}h2{font-size:1.2rem;margin-top:0}p,li{line-height:1.5}
+  .note{background:#e2f2ec;border-left:5px solid #27745d;padding:.8rem 1rem}
+  .card{background:#fff;border:1px solid #bed0d1;border-radius:.75rem;padding:1rem;margin:1rem 0}
+  .scroll{overflow-x:auto}table{width:100%;border-collapse:collapse;min-width:340px}
+  th,td{border:1px solid #abbfc7;padding:.45rem;text-align:left}th{background:#e8eff3}
+  th[scope=row]{width:3.2rem;text-align:center;background:#e8eff3}
+  td:first-of-type{width:48%}td:last-of-type{width:52%}
+  input,textarea,button{font:inherit;min-height:44px;border:1px solid #547083;border-radius:.3rem}
+  input,textarea{width:100%;padding:.45rem;background:white;color:#193044}
+  input[type=number]{background:#e8f3ff}#formula{background:#fff5cf}
+  textarea{min-height:5.5rem;resize:vertical}button{padding:.5rem .9rem;background:#165e78;color:white;cursor:pointer;font-weight:650}
+  button.secondary{background:white;color:#165e78}button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #d48700;outline-offset:2px}
+  .controls{display:flex;gap:.6rem;flex-wrap:wrap}.result{font-size:1.15rem;font-weight:750;min-height:1.6rem}
+  .formula-message{min-height:1.6rem;color:#8a3800;font-weight:600}.hint{color:#405965}
+  @media print{body{background:white}.card{break-inside:avoid}button{display:none}main{max-width:none}}
+</style>
+</head>
+<body><main>
+<h1>Farbkarten in einer Tabelle</h1>
+<p class="note">Freiwilliger Einstieg in Tabellenkalkulation, Ziel bis Ende Klasse 8. Alle Zahlen sind erfunden. Dieses kleine Übungslabor arbeitet nur in diesem Browser-Tab; es ist kein vollständiges Tabellenprogramm. Beim Neuladen beginnt der Fall wieder von vorn. Gib keine echten Personendaten ein.</p>
+<section class="card" aria-labelledby="auftrag"><h2 id="auftrag">Dein Auftrag</h2>
+<ol><li>Prüfe, welche Zellen Text und welche Zahlen enthalten.</li><li>Gib bei B8 eine <strong>Formel</strong> für die Summe von B5 bis B7 ein. Die Hilfe <code>=SUMME(B5:B7)</code> zeigt die Schreibweise; <code>=SUM(B5:B7)</code> funktioniert ebenfalls.</li><li>Vergleiche Blau mit Rot und Grün <strong>zusammen</strong>. Notiere dein Urteil in B10.</li><li>Ändere nur B6 von 6 auf 7. Prüfe, ob B8 neu berechnet wird, und ändere dein Urteil.</li><li>Stelle <strong>B6 selbst</strong> auf 6 zurück, ohne die Formel zu löschen. Prüfe B8 erneut und ändere B10 auf das erste Urteil zurück. Die Neustarttaste gehört nicht zu diesem Schritt.</li></ol>
+<p class="hint">Eine Formel beginnt mit <code>=</code> und verweist auf Zellen. Eine eingetippte Ergebniszahl zählt nicht als Formel. Das Labor zeigt das Ergebnis gesondert, damit Formel und berechneter Wert nebeneinander sichtbar bleiben.</p></section>
+<section class="card" aria-labelledby="tabelle"><h2 id="tabelle">Bearbeitbare Übungstabelle</h2><div class="scroll"><table>
+<caption>Farbkarten · Stückzahlen</caption><thead><tr><th scope="col">Zeile</th><th scope="col">A</th><th scope="col">B</th></tr></thead><tbody>
+<tr><th scope="row">4</th><td>Farbe</td><td>Karten (Stück)</td></tr>
+<tr><th scope="row">5</th><td>Rot</td><td><input id="b5" aria-label="B5: rote Karten" type="number" inputmode="numeric" min="0" max="99" step="1" value="4"></td></tr>
+<tr><th scope="row">6</th><td>Blau</td><td><input id="b6" aria-label="B6: blaue Karten" type="number" inputmode="numeric" min="0" max="99" step="1" value="6"></td></tr>
+<tr><th scope="row">7</th><td>Grün</td><td><input id="b7" aria-label="B7: grüne Karten" type="number" inputmode="numeric" min="0" max="99" step="1" value="2"></td></tr>
+<tr><th scope="row">8</th><td>Gesamt · Formel</td><td><input id="formula" aria-label="B8: eigene Summenformel" type="text" spellcheck="false" autocomplete="off" placeholder="=SUMME(B5:B7)"></td></tr>
+<tr><th scope="row">10</th><td>Blau im Vergleich zu Rot + Grün</td><td><textarea id="judgment" aria-label="B10: dein Vergleich und deine Begründung" placeholder="Dein Urteil mit den Zahlen begründen"></textarea></td></tr>
+</tbody></table></div>
+<p id="formula-message" class="formula-message" role="status" aria-live="polite"></p>
+<p>Berechnetes Ergebnis aus B8: <output id="total" class="result" aria-live="polite">noch keine gültige Formel</output></p>
+<div class="controls"><button id="check" type="button">Meinen Datenstand prüfen</button><button id="reset" class="secondary" type="button">Neu beginnen · alles leeren</button></div>
+<p id="status" role="status" aria-live="polite">Startzahlen: 4, 6 und 2. B8 und B10 sind leer.</p></section>
+<p class="hint">Beurteile auf deinem Arbeitsblatt auch, <em>warum</em> sich das Urteil zwischen den Datenständen ändern muss. Dieses Labor benotet deinen freien Text nicht und beobachtet nicht, wer die Eingaben gemacht hat.</p>
+</main><script>
+(() => {
+  'use strict';
+  const $ = id => document.getElementById(id);
+  const numbers = ['b5','b6','b7'];
+  const cellNumber = id => {
+    const raw = $(id).value.trim();
+    if (!/^(?:0|[1-9][0-9]?)$/.test(raw)) return null;
+    const n = Number(raw);
+    return n <= 99 ? n : null;
+  };
+  const hasSumFunction = () => /^=\s*(?:SUMME|SUM)\s*\(\s*B5\s*:\s*B7\s*\)$/i.test($('formula').value.trim());
+  function update() {
+    const values = numbers.map(cellNumber);
+    const validNumbers = values.every(value => value !== null);
+    const validFormula = hasSumFunction();
+    $('total').textContent = validFormula && validNumbers ? `${values.reduce((a,b) => a+b, 0)} Stück` : 'noch keine gültige Formel';
+    $('formula-message').textContent = $('formula').value.trim() && !validFormula
+      ? 'B8 braucht eine Summenfunktion mit genau dem Bereich B5:B7. Eine feste Zahl wird nicht neu berechnet.'
+      : !validNumbers ? 'B5 bis B7 brauchen ganze Stückzahlen zwischen 0 und 99.' : '';
+  }
+  for (const id of [...numbers,'formula']) $(id).addEventListener('input', update);
+  $('check').addEventListener('click', () => {
+    update();
+    const values = numbers.map(cellNumber);
+    if (!hasSumFunction() || values.some(value => value === null)) {
+      $('status').textContent = 'Prüfe zuerst die Formel in B8 und die drei Stückzahlen.';
+      return;
+    }
+    const [red,blue,green] = values;
+    const relation = blue > red+green ? 'mehr' : blue < red+green ? 'weniger' : 'gleich viele';
+    const note = $('judgment').value.trim();
+    $('status').textContent = `B8 berechnet ${red+blue+green} Stück. Vergleich: Blau hat ${relation} Karten wie Rot und Grün zusammen. ${note ? 'Vergleiche deine Begründung mit genau diesem Datenstand.' : 'Deine Begründung in B10 fehlt noch.'}`;
+  });
+  $('reset').addEventListener('click', () => {
+    ['4','6','2'].forEach((value,index) => { $(numbers[index]).value = value; });
+    $('formula').value = '';
+    $('judgment').value = '';
+    $('status').textContent = 'Startzahlen wiederhergestellt. B8 und B10 sind leer.';
+    update();
+    $('formula').focus();
+  });
+  ['4','6','2'].forEach((value,index) => { $(numbers[index]).value = value; });
+  $('formula').value = '';
+  $('judgment').value = '';
+  update();
+})();
+</script></body></html>

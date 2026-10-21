@@ -511,7 +511,9 @@
       if (topic.passage) appendText(section, 'p', 'print-passage', topic.passage);
       if (topic.lab) {
         appendText(section, 'p', 'print-context', `${topic.lab.title}: im Online-Lernatlas beim Thema über „${topic.lab.title} in neuem Tab öffnen“ starten. ${topic.lab.printNote} Direktadresse: ${topic.lab.publicUrl}`);
-        if (mode === 'adult') appendText(section, 'p', 'print-context', 'Praktische Bedienpunkte nur nach tatsächlich beobachteten Schritten vergeben. Ohne beobachtete Durchführung: „nicht erhoben“ statt 0 Punkte oder einer scheinbar vollständigen Gesamtsumme. Geschriebene Antworten beweisen Filter-, Änderungs- und Rückstellklicks nicht.');
+        if (mode === 'adult') appendText(section, 'p', 'print-context', topic.id === 'mbi-farbkarten-tabellenlabor'
+          ? 'Praktische Bedienpunkte nur nach tatsächlich beobachteten Schritten vergeben. Ohne beobachtete Durchführung: „nicht erhoben“ statt 0 Punkte oder einer scheinbar vollständigen Gesamtsumme. Geschriebene Antworten beweisen Formeleingabe und Neuberechnung nach B6-Änderung nicht.'
+          : 'Praktische Bedienpunkte nur nach tatsächlich beobachteten Schritten vergeben. Ohne beobachtete Durchführung: „nicht erhoben“ statt 0 Punkte oder einer scheinbar vollständigen Gesamtsumme. Geschriebene Antworten beweisen Filter-, Änderungs- und Rückstellklicks nicht.');
       }
       if (topic.audio) {
         appendText(section, 'p', 'print-context', `${topic.audio.title}: ${topic.audio.childPrintNote}${topic.released ? ` Audio im Online-Lernatlas: ${topic.audio.publicUrl}` : ''}`);

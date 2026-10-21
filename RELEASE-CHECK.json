@@ -1,6 +1,7 @@
 {
-  "builtAt": "2026-10-21T06:03:29.549Z",
+  "builtAt": "2026-10-21T06:19:11.364Z",
   "releasedTopics": [
+    "mbi-farbkarten-tabellenlabor",
     "de-lesestrategien-bibliothek",
     "de-leseecke-ueberarbeiten",
     "de-drama-lyrik-spuren",
@@ -32,13 +33,14 @@
     "de-heidi-ganzschrift-begleiter"
   ],
   "subjects": [
+    "mbi",
     "de",
     "ma",
     "en",
-    "fr",
-    "mbi"
+    "fr"
   ],
   "grade8OutlookTopics": [
+    "mbi-farbkarten-tabellenlabor",
     "ma-binomische-flaechen",
     "ma-zufall-80-versuche",
     "en-sprachreflexion-lesewerkstatt",

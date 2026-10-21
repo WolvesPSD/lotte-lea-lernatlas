@@ -197,4 +197,5 @@ body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body
 .reveal-sample{min-height:44px;padding:.55rem .8rem;border:1px solid #075b61;border-radius:.55rem;background:#fff;color:#075b61;font-weight:700;cursor:pointer}.reveal-sample:hover,.reveal-sample:focus-visible{background:#edf6f4}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="en-library-audio-3"]{break-before:page}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="de-heidi-ganzschrift-2"]{break-before:page}}
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="mbi-farbkarten-4"]{break-before:page}}
 @media print{body[data-print-mode^="adult"] .print-practice{break-before:page}.print-practice{break-inside:auto}.print-practice li{break-inside:avoid}}

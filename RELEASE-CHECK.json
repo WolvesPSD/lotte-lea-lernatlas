@@ -1,12 +1,15 @@
 {
-  "builtAt": "2026-10-21T11:08:55.472Z",
-  "releaseVersion": "2026.10.21-topicsearch.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Die Themenauswahl kann nach Fach, Titel, Jahrgangshinweis und Inhalt durchsucht werden. Die Suche zeigt Trefferzahlen und lässt bereits gewählte Themen unverändert."
+  "builtAt": "2026-10-21T11:22:34.090Z",
+  "releaseVersion": "2026.10.21-dw3.1",
+  "newTopicIds": [
+    "de-textuntersuchung-bank"
   ],
-  "rollbackCommit": "5a3c0e0bc69e6092655a2f7cacd1b1015c2c2272",
+  "changeLog": [
+    "Deutsch D-W3: eine selbst verfasste kurze Erzählung mit 19 Zeilen und drei offenen Aufgaben zu Textbeobachtung, Gestaltungsmitteln und vorsichtiger Deutung; freiwilliger 7/8-Fall mit Ziel bis Ende Klasse 8."
+  ],
+  "rollbackCommit": "8df9f5f844b345a5fa6cf318733e64859b619b4a",
   "releasedTopics": [
+    "de-textuntersuchung-bank",
     "ma-koerper-modell",
     "ma-wahrscheinlichkeitsbaum",
     "ma-pythagoras-plan",
@@ -63,8 +66,8 @@
     "de-bibliotheksregal-erklaeren"
   ],
   "subjects": [
-    "ma",
     "de",
+    "ma",
     "mbi",
     "en",
     "fr"

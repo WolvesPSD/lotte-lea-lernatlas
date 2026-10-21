@@ -72,6 +72,69 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "de-textuntersuchung-bank",
+      "subjectId": "de",
+      "title": "Ein Platz für alle: eine Erzählung untersuchen",
+      "scope": "Freiwilliger, gestützter 7/8-Fall zur schriftlichen Textuntersuchung. § 2.2.4 nennt Untersuchen und Deuten als Ziel bis Ende Klasse 8; § 3.4 zeigt 7/8-Beispiele. Das ist kein belegter aktueller Klasse-7-Unterrichtsstoff.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Hilfreich sind Zeilenbelege und kurze Absätze. Ein Gestaltungsmittel ist hier eine erkennbare Textentscheidung, etwa ein Gegensatz oder direkte Rede. Trenne beobachtete Textstelle, mögliche Wirkung und Deutung. Eine Wirkung ist zu begründen; sie ist nicht für alle Leserinnen und Leser zwingend.",
+      "introduction": "Freiwillige 7/8-Übung zu einem Ziel bis Ende Klasse 8; ob ihr das gerade im Unterricht behandelt, ist offen. Lies die ganze erfundene Erzählung und danach noch einmal mit der Leitfrage: Wie verändert sich Nelas Umgang mit dem freien Platz, und wie macht der Text diese Veränderung sichtbar? Die eckigen Zahlen sind Zeilenangaben. Ein Beleg braucht eine passende Stelle und eine Erklärung, wie sie deine Aussage trägt. Unterscheide sichere Beobachtung von möglicher Deutung. In B schreibst du einen gegliederten Text; die App bewertet offene Antworten nicht automatisch. Vergleiche sie mit Muster und Kriterien, gern gemeinsam mit einer erwachsenen Person.",
+      "passage": "Ein Platz für alle – selbst verfasste kurze Erzählung\n\n[01] Vor der Bibliothek stand seit Montag eine neue Bank. Auf dem Schild an der Lehne stand: „Ein Platz für alle.“\n[02] Der grüne Lack roch noch frisch, und die Sonne teilte die Sitzfläche in Licht und Schatten.\n[03] Nela setzte sich auf die helle Seite und legte ihr Heft auf den Platz neben sich.\n[04] Sie wollte vor der nächsten Stunde zwei Seiten lesen, doch sie blätterte nur hin und her.\n[05] Als Amir mit einem Buch aus der Bibliothek kam, blieb er vor der Bank stehen.\n[06] „Ist hier frei?“, fragte er und zeigte auf das Heft.\n[07] Nela sah erst auf das Schild und dann auf ihr Heft. „Ich warte noch“, sagte sie.\n[08] Sie hatte sich mit niemandem verabredet. Warum hatte sie das gerade gesagt?\n[09] Amir nickte und blieb neben der Bank stehen. Er schlug sein Buch auf, ohne sich zu setzen.\n[10] Der Wind hob die erste Seite von Nelas Heft an. Sie drückte sie mit der Hand fest.\n[11] „Du kannst dich ruhig setzen“, begann sie, aber das Wort ruhig klang in ihren Ohren seltsam.\n[12] „Ich dachte, du brauchst den Platz“, sagte Amir.\n[13] Nela schob das Heft auf ihre Knie. Ein schmaler Streifen Schatten blieb zwischen ihr und dem freien Platz.\n[14] „Mein Heft braucht wohl keine eigene Bank“, sagte sie.\n[15] Amir setzte sich. Er liess etwas Abstand und hielt das Buch auf seinen Knien.\n[16] Nela betrachtete das Schild noch einmal. Die Farbe auf dem Wort alle glänzte.\n[17] „Ich dachte zuerst, du willst lieber allein sein“, sagte Amir.\n[18] „Vielleicht wollte ich das auch“, antwortete Nela. „Ich weiss es gerade nicht genau.“\n[19] Dann lasen beide. Als Nela die zweite Seite umblätterte, blieb ihr Heft auf ihren Knien.",
+      "tasks": [
+        {
+          "id": "de-textuntersuchung-bank-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "prompt": "A. Beobachtung oder Deutung? (4 Kriterienpunkte) Ordne jede Aussage als sichere Textbeobachtung (B) oder Deutung/Vermutung (D) ein. Gib für jede Aussage eine passende Zeile an. Erkläre bei einer Deutung zusätzlich, weshalb die Textstelle sie nicht sicher beweist: (1) Nela legt ihr Heft auf den Platz neben sich. (2) Nela will Amir absichtlich verletzen. (3) Amir setzt sich erst, nachdem Nela das Heft auf ihre Knie geschoben hat. (4) Nela ist möglicherweise unsicher, ob sie Gesellschaft möchte.",
+          "sample": "(1) B, Z. 3: Das Heft liegt auf dem Nachbarplatz; Nelas Grund bleibt offen. (2) D, unbelegt: Z. 7–8 zeigen Nelas Aussage und ihre eigene Frage nach dem Grund, keinen Wunsch, Amir zu verletzen; Z. 14–15 zeigen eine spätere Einladung. (3) B, Z. 13–15: Erst wandert das Heft auf Nelas Knie, danach setzt Amir sich. Daraus folgt nicht sicher, dass das Heft sein einziger Grund war. (4) D, plausibel, nicht sicher: Z. 8 und 18 lassen Unsicherheit zu; ein anfänglicher Wunsch nach Ruhe wäre ebenfalls möglich.",
+          "criteria": [
+            "1 Punkt: Aussage 1 als B mit Z. 3 und ohne erfundenes Motiv eingeordnet.",
+            "1 Punkt: Aussage 2 als unbelegte D erkannt und die Motivgrenze an Z. 7–8 oder Z. 14–15 erklärt.",
+            "1 Punkt: Aussage 3 als B mit zeitlicher Folge Z. 13–15 eingeordnet, ohne Amirs Grund als Tatsache zu behaupten.",
+            "1 Punkt: Aussage 4 als plausible, nicht sichere D mit Z. 8/18 oder gleichwertigem Beleg erklärt. Je Aussage zählen Kategorie und tragfähige Begründung zusammen; nur eine richtige Kategorie ohne Beleg höchstens 0,5 Punkt."
+          ]
+        },
+        {
+          "id": "de-textuntersuchung-bank-2",
+          "kind": "reflection",
+          "points": 18,
+          "writingLines": 22,
+          "inputRows": 15,
+          "prompt": "B. Schriftliche Textuntersuchung (18 Kriterienpunkte): Schreibe einen gegliederten Text von ungefähr 150–220 Wörtern; eine ebenso vollständige kürzere oder längere Lösung ist zulässig. Formuliere eine vorsichtige Hauptaussage zu Nelas Veränderung und beschreibe die Ereignisfolge. Untersuche mindestens zwei unterschiedliche Gestaltungsmittel mit Zeilenbeleg, zum Beispiel Schild und Handlung, Heftbewegung und direkte Rede oder Licht und Schatten. Erkläre jeweils: Was steht da? Welche Wirkung oder Bedeutung ist im Zusammenhang plausibel? Was bleibt offen? Beschreibe Nela anhand ihres Handelns und ihrer Worte. Stelle eine andere vertretbare Lesart mit Zeilenbeleg daneben und schliesse begrenzt. Hilfe, falls nötig: „Zunächst … (Z. …). Der Gegensatz zwischen … und … (Z. …) lässt vermuten, dass … . Eine andere Lesart ist …, denn … (Z. …). Sicher sagt der Text nur … .“ Keine Fortsetzung der Geschichte schreiben.",
+          "sample": "In der kurzen Erzählung „Ein Platz für alle“ belegt Nela den Platz neben sich zunächst mit ihrem Heft, lässt Amir am Ende aber neben sich lesen. Das wirkt wie ein kleiner Schritt von einer abwehrenden oder unsicheren Reaktion zu einer Einladung. Warum sie zuerst ausweicht, bleibt offen.\n\nDas Schild verspricht in Z. 1 einen Platz „für alle“, während Nelas Heft den zweiten Sitz zunächst besetzt (Z. 3). Dieser Gegensatz lenkt den Blick darauf, dass ein allgemeines Versprechen erst durch Verhalten eingelöst wird. Als Amir fragt, sagt Nela „Ich warte noch“, obwohl sie mit niemandem verabredet ist (Z. 7–8). Die erzählte Frage nach ihrem Grund kann auf Unsicherheit hindeuten, erklärt sie aber nicht vollständig.\n\nDas Heft wandert in Z. 13 auf Nelas Knie; erst danach setzt Amir sich (Z. 15). Auch die direkte Rede verändert sich: Aus „Ich warte noch“ wird die möglicherweise scherzhafte Bemerkung, ihr Heft brauche keine eigene Bank (Z. 14). Dadurch kann sie den Platz freigeben, ohne ihre erste Antwort ausführlich zu rechtfertigen. Man könnte darin Einsicht in einen unfair besetzten Platz sehen. Ebenso könnte sie zunächst tatsächlich allein lesen gewollt und diesen Wunsch geändert haben: In Z. 18 lässt sie beides offen. Der Text zeigt die Öffnung des Platzes, aber keinen sicheren Grund für ihren ersten Impuls.",
+          "criteria": [
+            "2 Punkte: vorsichtige Hauptaussage mit Veränderung (1) und erkennbarem Motivvorbehalt (1). Auch anfängliches Ruhebedürfnis ist zulässig.",
+            "2 Punkte: richtige Ereignisfolge: Heft blockiert den Nachbarplatz und Amir wartet (1); Heft auf Knien, Amir setzt sich (1).",
+            "4 Punkte: zwei unterscheidbare Gestaltungsmittel mit passender Fundstelle, je 2 Punkte. Möglich sind Schild/Handlung Z. 1/3, direkte Rede Z. 7/14/17/18, Heft Z. 3/13/19, Licht/Schatten Z. 2/13 oder Schildwiederkehr Z. 1/16. Schild/Handlung und Schildwiederkehr sind zusammen nur ein Mittel.",
+            "4 Punkte: zu jedem der zwei Mittel eine begründete mögliche Wirkung oder Bedeutung für Veränderung, Distanz oder Unsicherheit, je 2 Punkte. Keine persönliche Leserwirkung als festen Fakt verlangen.",
+            "2 Punkte: Nelas beobachtbares Verhalten und Worte treffen (1), ihr kein unbelegtes festes Motiv als Tatsache zuschreiben (1).",
+            "2 Punkte: eine andere vertretbare Lesart (1) mit konkretem Zeilenbeleg (1), etwa Ruhebedürfnis Z. 18 oder spontane Unsicherheit Z. 8. Z. 8 beweist keine Bosheit.",
+            "2 Punkte: geordnete Absätze oder klare Gedankenfolge (1) und verständliche sachliche Formulierungen (1). Wortzahl ist keine Punkteschwelle; denselben Sachfehler nicht doppelt bestrafen."
+          ]
+        },
+        {
+          "id": "de-textuntersuchung-bank-3",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "prompt": "C. Eine überzogene Behauptung überarbeiten (2 Kriterienpunkte): „Nela mag Amir nicht und will ihn vom Lesen ausschliessen.“ Schreibe eine vorsichtigere, textgebundene Fassung und nenne eine begründende Zeile. Erkläre in einem Halbsatz, welcher Teil der ursprünglichen Behauptung nicht belegt ist.",
+          "sample": "„Nela hält den Platz zunächst mit dem Heft besetzt und sagt, sie warte noch, obwohl sie mit niemandem verabredet ist (Z. 3, 7–8). Vielleicht wollte sie allein bleiben; ob sie Amir persönlich nicht mag oder verletzen will, sagt der Text nicht.“ Auch Unsicherheit und späteres Umdenken sind mit Z. 8 und 13–18 vereinbar. Ein blosses „Die Aussage ist falsch“ ohne begrenzten Ersatz reicht nicht.",
+          "criteria": [
+            "1 Punkt: vorsichtige, mit dem Text verträgliche Ersatzbehauptung samt tragfähiger Zeile.",
+            "1 Punkt: unbelegtes Motiv der ursprünglichen Behauptung ausdrücklich benannt; mögliche Alternativen nicht als Gewissheit ausgegeben."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Deutsch-Fassung für Klasse 7 ab 2026/27. § 2.2.4 PDF-S. 29–30: unter Zielmarke Klassenstufe 8 untersuchen, erklären, deuten und kriteriengeleitet überarbeiten. § 3.4 PDF-S. 50: in der 7/8-Spalte Textgestaltung beschreiben, Text(ausschnitte) deuten/werten und literarisch charakterisieren. PDF-S. 46: exemplarische Orientierung, keine feste Jahresfolge.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "ma-koerper-modell",
       "subjectId": "ma",
       "title": "Vier Körper: Außenfläche und Rauminhalt",

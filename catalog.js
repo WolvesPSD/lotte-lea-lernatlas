@@ -72,6 +72,78 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "fr-termin-gespraech",
+      "subjectId": "fr",
+      "title": "Parler et trouver un rendez-vous",
+      "scope": "Freiwillige, gestützte französische Gesprächsvorbereitung im gültigen 7/8-Rahmen. § 3.2.3 ist ein Ziel bis Ende Klasse 8; die aktuelle Klasse-7-Folge und Lottes Lernjahr sind unbekannt. Nur ein wirklich gehörtes Gespräch kann Sprechen belegen.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Du brauchst eine zweite Person. Lies nur Karte A; sie liest Karte B im Erwachsenenbereich. Die Wortstütze hilft, ist aber kein Dialog zum Ablesen. Wochentage und Uhrzeiten werden vor der Probe bei Bedarf geübt. Keine echten Schul- oder Stundenplandaten verwenden.",
+      "introduction": "Camille und Sam möchten in einem erfundenen Kunstraum ein Plakat für einen Büchertausch vorbereiten. Führt auf Französisch ein kurzes Gespräch und findet selbst einen Termin, der für beide und für den Raum passt. Fragt nach, wenn eine Angabe fehlt oder unklar ist. Lest keinen fertigen Dialog ab. Eure Notizen sind Vorbereitung und Selbstkontrolle; die App hört und bewertet kein Sprechen.",
+      "passage": "CARTE A · Camille · nur du ansehen\nDu kannst Dienstag 15:00–15:45 Uhr oder Donnerstag 15:30–16:15 Uhr.\nDer Kunstraum ist Donnerstag 15:30–16:15 Uhr frei; für Dienstag gibt es keine Raumzusage.\nFrage, wann Sam kann. Schlagt gemeinsam einen möglichen Tag, Beginn, Ende und Ort vor.\nDu bringst Papier. Frage, ob Sam einen Farbstift mitbringt.\n\nWORTHILFE · Tu peux mardi/jeudi ? – Kannst du Dienstag/Donnerstag? · Et jeudi ? – Und Donnerstag? · de quinze heures trente à seize heures quinze – von 15:30 bis 16:15 · dans la salle d'arts plastiques – im Kunstraum · Tu peux répéter, s'il te plaît ? – Kannst du bitte wiederholen? · J'apporte le papier. – Ich bringe das Papier. · Tu peux apporter un crayon de couleur ? – Kannst du einen Farbstift mitbringen?\nAndere verständliche Formulierungen gelten. Eine sprachkundige Person darf Zahlen und Aussprache vor der Probe mit euch üben; haltet diese Hilfe fest.",
+      "tasks": [
+        {
+          "id": "fr-termin-gespraech-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "inputRows": 6,
+          "prompt": "A. Kurz vorbereiten (4 schriftliche Punkte): Notiere auf Französisch einen möglichen ersten Vorschlag von Karte A, eine echte Frage nach Sams Verfügbarkeit, eine Bitte um Wiederholung und einen Satzrahmen für den Abschluss mit Lücken für den tatsächlich vereinbarten Plan. Schreibe keinen vollständigen Dialog und erfinde Sams Antwort nicht. Sprecht danach wirklich miteinander.",
+          "sample": "Tu peux jeudi, de quinze heures trente à seize heures quinze ? / Et toi, tu peux quand ? / Tu peux répéter, s'il te plaît ? / Alors, on se voit [jour] de [début] à [fin], dans [lieu]. Die Lücken werden erst nach dem Gespräch gefüllt; ein direkter Donnerstagvorschlag ist ebenfalls möglich.",
+          "criteria": [
+            "1 Punkt: ein mit Karte A vereinbarer Vorschlag.",
+            "1 Punkt: echte Frage, auf die Sam selbst antworten kann.",
+            "1 Punkt: verständliche Bitte um Wiederholung.",
+            "1 Punkt: Abschlussrahmen mit offenen Angaben statt erfundener B-Antwort. Das sind Vorbereitungs-, keine Sprechpunkte."
+          ]
+        },
+        {
+          "id": "fr-termin-gespraech-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "B. Erst nach einem echten Gespräch (4 schriftliche Sachpunkte): Notiere den gemeinsam bestätigten Tag, Anfang, Ende und Ort. Wer bringt Papier, wer den Farbstift? Schreibe außerdem eine Frage auf, die nach dem Gespräch noch offen ist. Wenn keine zweite Person mit dir gesprochen hat, lass dieses Feld frei und rate nicht über ihre Karte.",
+          "sample": "Jeudi, de 15 h 30 à 16 h 15, dans la salle d'arts plastiques. Camille apporte le papier; Sam apporte un crayon de couleur. Offene Frage: Qui apporte les livres ? Die Karten geben darauf keine Antwort. Ohne tatsächlich geführten Dialog keine Punkte für B.",
+          "criteria": [
+            "1 Punkt: Donnerstag als gemeinsam möglicher Tag.",
+            "1 Punkt: 15:30–16:15 als vollständiges Zeitfenster.",
+            "1 Punkt: Kunstraum und Materialverteilung Camille/Papier, Sam/Farbstift.",
+            "1 Punkt: sinnvolle echte offene Frage, ohne eine Kartenaussage zu erfinden. Ohne Gespräch bleibt B nicht erhoben."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Praxis: ein französisches Gespräch führen",
+        "childNote": "Eine echte Person übernimmt Sam mit einer eigenen, verdeckten Karte. Sprich frei mit Wortstütze; lies kein Muster ab. Ohne Gespräch bleibt die mündliche Übung „nicht erhoben“; die Textfelder belegen nur Vorbereitung und Sachnotiz.",
+        "childSteps": [
+          "Bitte eine zweite Person, Karte B im Erwachsenenbereich nur für sich anzusehen. Du liest nur Karte A.",
+          "Beginne auf Französisch mit einem Vorschlag und einer Frage. Hör zu und bitte bei Bedarf um Wiederholung.",
+          "Findet gemeinsam Tag, Anfang, Ende und Ort; klärt Papier und Farbstift. Wenn ein Vorschlag nicht passt, sucht eine andere Möglichkeit.",
+          "Bestätigt den Plan und verabschiedet euch. Erst danach füllst du Aufgabe B aus."
+        ],
+        "observationMax": 14,
+        "observationLabel": "Gespräch",
+        "adultNote": "Verdeckte Karte B · Sam: Dienstag kannst du nicht; Donnerstag ab 15:00 Uhr kannst du. Die Aufgabe gibt keinen Grund für Dienstag vor: erfinde keinen als Pflichtangabe. Höre auf Tag, Anfang, Ende und Ort; frage nach, wenn Camille etwas auslässt. Du kannst einen Farbstift mitbringen. Frage, wer das Papier mitbringt. Wiederhole am Ende den wirklich vereinbarten Plan. Antworte in einfachen französischen Sätzen und langsam genug. Verrate Dienstag/Donnerstag nicht vor dem Gespräch. Ein direkter Donnerstagvorschlag ist zulässig; dann bestätige deine Verfügbarkeit und stelle eine echte Rückfrage zu Zeit, Raum oder Material. Der mögliche Plan ist Donnerstag 15:30–16:15 im Kunstraum, Camille/Papier, Sam/Farbstift. Eine mögliche Form: « Salut Camille ! Mardi, je ne peux pas. Et jeudi ? » oder bei direktem Donnerstagvorschlag « Oui, jeudi, je peux. À quelle heure on finit ? »; « Qui apporte le papier ? »; « Donc, jeudi de quinze heures trente à seize heures quinze, dans la salle d'arts plastiques. À jeudi ! » Nur ein wirklich gehörtes Gespräch beobachten. Je Kriterium: 2 = selbstständig/verständlich, 1 = teilweise oder mit Stütze, 0 = trotz fairer Gelegenheit nicht gezeigt, — = keine faire Gelegenheit. Ohne Gespräch alles nicht erhoben lassen; keine Summe oder Schulnote ableiten. Ohne Französischkenntnisse lieber „nicht sicher beurteilbar“ eintragen. Keine Aufnahme nötig.",
+        "adultCriteria": [
+          "Gespräch eröffnen und auf Sams tatsächliche Antwort eingehen: 0/1/2 oder —.",
+          "Einen verständlichen Termin vorschlagen und Sams Verfügbarkeit erfragen: 0/1/2 oder —.",
+          "Auf ein unpassendes Zeitangebot reagieren oder einen direkten Donnerstagvorschlag gemeinsam klären: 0/1/2 oder —; keinen erfundenen Dienstagsgrund verlangen.",
+          "Eine echte Klärungsfrage stellen oder eine unklare Angabe passend nachfragen: 0/1/2 oder —.",
+          "Gemeinsam einen gültigen Tag mit Anfang, Ende und Kunstraum bestätigen: 0/1/2 oder —; bei Teilangaben nur teilweise.",
+          "Papier/Farbstift richtig zuordnen und das Gespräch gemeinsam abschließen: 0/1/2 oder —.",
+          "Für das Gegenüber verständlich Französisch sprechen, bei Bedarf wiederholen oder umformulieren: 0/1/2 oder —; Akzent allein ist kein Fehler."
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Französisch-Klasse 7 ab 2026/27. Zweite Fremdsprache § 3.2.3 PDF-S. 61–62: Fragen, Vorschlagen, Zustimmen/Ablehnen und bei langsamem Gegenüber ein kurzes Gespräch führen; Zielmarke Klassenstufe 8. § 3.5.2 S. 82 gibt 7/8-Sprachmittel als Orientierung, keine Klasse-7-Reihenfolge.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "de-textzusammenhang-register",
       "subjectId": "de",
       "title": "Büchertisch: gleiche Fakten, zwei Adressaten",

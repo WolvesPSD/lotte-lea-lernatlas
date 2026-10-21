@@ -1,15 +1,15 @@
 {
-  "builtAt": "2026-10-21T11:43:46.198Z",
-  "releaseVersion": "2026.10.21-dr3orthography.1",
+  "builtAt": "2026-10-21T12:06:15.234Z",
+  "releaseVersion": "2026.10.21-frs.1",
   "newTopicIds": [
-    "de-textzusammenhang-register"
+    "fr-termin-gespraech"
   ],
   "changeLog": [
-    "Deutsch D-R3: fiktiver Büchertisch mit vier offenen Aufgaben zu gleichem Sachkern, Textzusammenhang und passender Ansprache für zwei Adressaten; freiwilliger 7/8-Teilfall mit Ziel bis Ende Klasse 8.",
-    "Deutsch-Schreibweise: 123 eindeutig geprüfte Schweizer ss-Wortformen im öffentlichen Katalog für die in Deutschland geltende Orthografie korrigiert; Aufgaben, Punktzahlen und Funktionen unverändert."
+    "Französisch FR-S: fiktiver Termin-Dialog mit verdeckter Partnerkarte, zwei schriftlichen Vorbereitungs-/Sachaufgaben und getrenntem 14-Punkte-Beobachtungsbogen für ein wirklich gehörtes Gespräch; freiwilliger gestützter 7/8-Teilfall."
   ],
-  "rollbackCommit": "5862efe389aeb5c5268ab0a30839993de727c77e",
+  "rollbackCommit": "eaa38fb983f2b8f63985b49d4cd4774b188fb487",
   "releasedTopics": [
+    "fr-termin-gespraech",
     "de-textzusammenhang-register",
     "de-textuntersuchung-bank",
     "ma-koerper-modell",
@@ -68,11 +68,11 @@
     "de-bibliotheksregal-erklaeren"
   ],
   "subjects": [
+    "fr",
     "de",
     "ma",
     "mbi",
-    "en",
-    "fr"
+    "en"
   ],
   "grade8OutlookTopics": [
     "ma-koerper-modell",

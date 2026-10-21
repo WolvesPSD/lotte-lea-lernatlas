@@ -1,14 +1,15 @@
 {
-  "builtAt": "2026-10-21T21:20:15.833Z",
-  "releaseVersion": "2026.10.21-enmonologue.1",
+  "builtAt": "2026-10-21T21:33:52.013Z",
+  "releaseVersion": "2026.10.21-deroerterung.1",
   "newTopicIds": [
-    "en-maya-clubs-talk"
+    "de-tauschregal-eroerterung"
   ],
   "changeLog": [
-    "Englisch EN-S: fiktiver AG-Aushang für einen kurzen Vortrag mit Stichwortkarte, zwei schriftlichen Aufgaben und getrenntem 16-Punkte-Bogen für eine tatsächlich gehörte Mitteilung mit Rückfragen; freiwilliger gestützter 7/8-Teilfall."
+    "Deutsch D-W2: fiktive sechswoechige Tauschregalfrage mit drei Materialkarten, vollstaendigen Ja-/Nein-Mustertexten und fairer Ueberarbeitung; freiwillige gestuetzte 7/8-Uebung zur einfachen linearen Eroerterung."
   ],
-  "rollbackCommit": "92b3333e31072e90186e7070910520c0ee855df3",
+  "rollbackCommit": "81dc8d3eb4607f7e29bc38ba46b8f726e7274ac5",
   "releasedTopics": [
+    "de-tauschregal-eroerterung",
     "en-maya-clubs-talk",
     "fr-termin-gespraech",
     "de-textzusammenhang-register",
@@ -69,9 +70,9 @@
     "de-bibliotheksregal-erklaeren"
   ],
   "subjects": [
+    "de",
     "en",
     "fr",
-    "de",
     "ma",
     "mbi"
   ],

@@ -72,6 +72,84 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "de-tauschregal-eroerterung",
+      "subjectId": "de",
+      "title": "Ein Tauschregal begründet prüfen",
+      "scope": "Freiwilliger, gestützter 7/8-Einstieg in die einfache lineare Erörterung. § 2.2.4 ist ein Ziel bis Ende Klasse 8; § 3.4 nennt diese Textform als Beispiel für 7/8. Die aktuelle Klasse-7-Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Alle Personen, Gegenstände, Zahlen und Entscheidungen dieser Übung sind erfunden. Sie ist unabhängig von anderen Tauschregal-Aufgaben im Katalog; verwende nur die Karten K1–K3. Keine echten Schul-, Familien- oder Personendaten eintragen.",
+      "introduction": "Soll die erfundene Sonnenfeldschule ein Tauschregal für sechs Wochen testen? Du darfst Ja oder Nein wählen. Eine einfache lineare Erörterung führt mehrere unterschiedliche Gründe für deine Position in sinnvoller Folge aus und beantwortet einen ernsthaften Einwand. Zu jedem Grund gehören Behauptung, passende Angabe und Erklärung ihrer Bedeutung. Ein Einwand macht deinen Text genauer; du musst deshalb nicht beide Seiten gleich lang behandeln. Die App kann deinen offenen Text nicht automatisch bewerten.",
+      "passage": "FIKTIVER FALL · Nur diese drei Karten gelten für diese Übung\nDie Sonnenfeldschule erwägt ein betreutes Tauschregal für saubere, unbeschriftete und noch nutzbare Schulmaterialien. Soll sie es sechs Wochen lang testweise öffnen? Über eine dauerhafte Einführung wird hier nicht entschieden.\n\nK1 · EIN PROBETAG\nBei einer eintägigen Sammel- und Tauschaktion wurden 36 intakte, unbeschriftete Gegenstände angenommen: leere Hefte, Mappen und Lineale. 24 Gegenstände wurden mitgenommen, 12 blieben liegen. Die Zahl verschiedener Personen wurde nicht erfasst. Der eine Tag zeigt keine Entwicklung über mehrere Wochen.\n\nK2 · BEDINGTES BETREUUNGSANGEBOT\nDie Bibliothekarin könnte das Regal dienstags und donnerstags je 20 Minuten betreuen, wenn die AG die Stücke vorher auf Nutzbarkeit und persönliche Beschriftungen prüft. Die Schulleitung hat die sechswöchige Probephase noch nicht genehmigt. Die AG könnte nach jeder Öffnung die Stückzahlen angenommener und mitgenommener Gegenstände ohne Namen notieren.\n\nK3 · OFFENE FRAGEN\nReichen zwei kurze Öffnungen pro Woche? Was geschieht mit beschädigten oder übrig gebliebenen Gegenständen? Es gibt keine Daten dazu, ob Käufe, Kosten oder Abfall tatsächlich eingespart würden. Ein Bedarf aller Klassen ist nicht belegt.\n\nSCHREIBHILFE · Grund → Beleg → Bedeutung. Einleitung: „Soll … sechs Wochen …?“ · Grund: „K1 zeigt … Das spricht für/gegen …, weil …“ · Einwand: „Allerdings …“ · Antwort: „Daher müsste … / Trotzdem reicht … noch nicht …“ · Schluss: „Ich empfehle …; danach wäre … zu prüfen.“ Dies sind Hilfen, kein Pflichtwortlaut.",
+      "tasks": [
+        {
+          "id": "de-tauschregal-eroerterung-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "prompt": "A. Material prüfen (4 Kriterienpunkte): Nenne eine Beobachtung aus K1 mit dem Bezugswort Gegenstände, eine Grenze dieser Zahl, die noch fehlende Entscheidung aus K2 und eine offene Frage aus K3. Behaupte nicht, 24 Lernende hätten etwas gebraucht.",
+          "sample": "K1: Von 36 angenommenen Gegenständen wurden am einen Probetag 24 mitgenommen. Das sagt nichts Sicheres über die Zahl verschiedener Personen oder über sechs Wochen. K2: Die Schulleitung hat den Versuch noch nicht genehmigt. K3: Was soll mit übrig gebliebenen Gegenständen geschehen?",
+          "criteria": [
+            "1 Punkt: eine richtige K1-Beobachtung ausdrücklich über Gegenstände.",
+            "1 Punkt: eine echte Grenze der Eintageszahl, etwa unbekannte Personenzahl oder Verlauf.",
+            "1 Punkt: fehlende Genehmigung durch die Schulleitung; bedingte Betreuung ist keine Genehmigung.",
+            "1 Punkt: eine offene Frage aus K3 ohne erfundene Antwort."
+          ]
+        },
+        {
+          "id": "de-tauschregal-eroerterung-2",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 10,
+          "inputRows": 10,
+          "prompt": "B. Schreibplan (3 Kriterienpunkte): Wähle Ja oder Nein. Ordne drei verschiedene Gründe von einem Anfangsgrund bis zu deinem stärksten Grund. Notiere zu jedem Grund eine passende Karte und erkläre, was deren Angabe für deine Position bedeutet. Nenne außerdem einen ernsthaften Einwand gegen deine Position und eine vorsichtige Antwort. Eine bloße Zahlenliste genügt nicht.",
+          "sample": "Ja, aber nur für einen genehmigten Test: (1) K1 zeigt Mitnahme von Gegenständen; das ist ein erster, begrenzter Hinweis auf Interesse. (2) K2 nennt mögliche Betreuung unter Bedingungen; der Ablauf könnte nach Genehmigung organisiert werden. (3) K3 zeigt offene Fragen zu Öffnungszeiten und Resten; ein befristeter Versuch könnte diese Fragen besser beantworten, wenn der Umgang mit Resten und die praktische Vorprüfung vorher geklärt sind. Einwand: Zwei kurze Öffnungen könnten zu wenig sein. Antwort: Dies muss im Versuch geprüft und gegebenenfalls geändert werden. Ein ebenso gut begründeter Nein-Plan ist gleichwertig.",
+          "criteria": [
+            "1 Punkt: Ja oder Nein als klare Position.",
+            "1 Punkt: drei unterschiedliche Grund–Beleg–Bedeutung-Skizzen in nachvollziehbarer Folge; mindestens zwei Karten sinnvoll genutzt.",
+            "1 Punkt: wirklicher Einwand gegen die eigene Position und passende Antwort, ohne offene Punkte wegzubehaupten."
+          ]
+        },
+        {
+          "id": "de-tauschregal-eroerterung-3",
+          "kind": "reflection",
+          "points": 16,
+          "writingLines": 22,
+          "inputRows": 18,
+          "prompt": "C. Einfache lineare Erörterung (16 Kriterienpunkte): Schreibe einen zusammenhängenden Text für den fiktiven Schulrat. Beginne mit der Frage nach dem sechswöchigen Test und deiner Position. Führe drei verschiedene Gründe in sinnvoller Folge aus, jeweils mit Materialangabe und Erklärung. Nimm einen Einwand ernst und antworte darauf. Schließe mit einem konkreten, begrenzten nächsten Schritt: Bei Ja nenne eine vorher zu prüfende Bedingung und eine Beobachtung nach sechs Wochen; bei Nein nenne den nächsten belegbaren Schritt vor einer neuen Entscheidung. Verwende mindestens zwei Karten. Eine andere Textlänge ist in Ordnung, wenn die Gedanken klar entwickelt sind. Die Lösung zeigt beide möglichen Positionen; du musst keine davon übernehmen.",
+          "sample": "MÖGLICHE JA-POSITION\nSoll die Sonnenfeldschule das Tauschregal sechs Wochen testen? Ich befürworte eine befristete Probe, falls die Schulleitung vorher zustimmt und Regeln feststehen.\nErstens wurden am Probetag 24 von 36 angenommenen Gegenständen mitgenommen (K1). Das ist ein erster Hinweis auf Interesse, aber kein Beweis für 24 verschiedene Personen oder langfristigen Bedarf.\nZweitens könnte die Bibliothekarin zweimal pro Woche je 20 Minuten betreuen, wenn die AG die Stücke prüft (K2). So wäre ein überschaubarer Ablauf denkbar. Die Zusage ist jedoch bedingt, und die Genehmigung fehlt noch.\nDrittens sind Fragen zu Reststücken und tatsächlichem Nutzen offen (K3). Gerade ein begrenzter Test könnte bessere Stückzahlen liefern, wenn die AG vorher eine Restregel vereinbart und ohne Namen zählt. Das bewiese noch keine Einsparung von Kosten oder Abfall.\nEin Einwand ist, dass zwei kurze Öffnungen kaum reichen könnten. Deshalb müsste die AG nach sechs Wochen neben den Stückzahlen auch prüfen, ob Öffnungszeiten und Betreuung funktioniert haben. Ich empfehle nur einen genehmigten, befristeten Versuch mit klarer Restregel und danach eine neue Entscheidung.\n\nMÖGLICHE NEIN-POSITION\nDie Sonnenfeldschule sollte das Regal jetzt noch nicht sechs Wochen öffnen. Für diese konkrete Probe fehlen wichtige Voraussetzungen.\nErstens stammen die 24 mitgenommenen Stücke nur aus einem Probetag (K1). Diese Zahl sagt nichts Sicheres über verschiedene Personen oder sechs Wochen Bedarf.\nZweitens bietet die Bibliothekarin Betreuung nur an, wenn die AG Stücke prüft; außerdem fehlt die Genehmigung der Schulleitung (K2). Ohne geklärte Zuständigkeit kann die Schule keinen tragfähigen Ablauf annehmen.\nDrittens sind kurze Öffnungszeiten und der Umgang mit beschädigten oder übrigen Stücken ungeklärt (K3). Die Kriterien „sauber, unbeschriftet und nutzbar“ sowie eine Vorprüfung durch die AG sind schon vorgesehen (K1/K2); wie beides praktisch gelingt und was mit Resten geschieht, muss vor einem Start geklärt werden. Auch eine Einsparung von Käufen oder Abfall ist nicht belegt.\nFür eine Probe spricht, dass am Testtag Stücke mitgenommen wurden. Diesen Hinweis würde ich nicht übergehen. Er ersetzt aber keine Organisation und Genehmigung. Ich empfehle zuerst Aufsicht, praktische Vorprüfung, Restregel und Zustimmung zu klären. Danach kann die Schule erneut über einen befristeten Test entscheiden.",
+          "criteria": [
+            "2 Punkte: Frage nach der sechswöchigen Probe (1) und klare Position (1).",
+            "9 Punkte: je drei unterschiedliche Gründe mit passendem Sachkern, richtiger Angabe aus K1/K2/K3 und erklärter Bedeutung (je 3). Mindestens zwei verschiedene Karten sinnvoll nutzen; drei Fassungen derselben Zahl sind keine drei Gründe.",
+            "2 Punkte: echter Einwand gegen die eigene Position (1) und Antwort oder Bedingung, die ihn nicht wegbehauptet (1).",
+            "2 Punkte: umsetzbarer nächster Schritt zur Position (1) und Trennung zwischen beobachteter Angabe und offener Frage/Genehmigung (1).",
+            "1 Punkt: zusammenhängende, verständliche einseitige Begründung. Kleine Sprachfehler ohne Sinnverlust nicht zusätzlich als Sachfehler abziehen. Andere überzeugende Ja-/Nein-Lösungen gelten."
+          ]
+        },
+        {
+          "id": "de-tauschregal-eroerterung-4",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 8,
+          "inputRows": 8,
+          "prompt": "D. Überarbeiten (3 Kriterienpunkte): Prüfe drei Grenzen: K1 zählt Gegenstände, nicht Personen; K2 nennt nur bedingte Betreuung und noch keine Genehmigung; K3 belegt keine Einsparung. Zeige zu jeder Grenze eine passende Stelle in deinem C-Text oder schreibe eine kurze Randnotiz, wie du die Grenze berücksichtigt hast. Eine Karte muss nicht in deinem C-Text vorkommen, damit du ihren Prüfpunkt beantworten kannst. Entdeckst du einen Fehler, verbessere die Stelle.",
+          "sample": "K1: „24 von 36 Gegenständen wurden mitgenommen; die Personenzahl ist unbekannt.“ K2: „Die Bibliothekarin könnte unter Bedingungen betreuen; die Schulleitung hat noch nicht zugestimmt.“ K3: „Eine Einsparung von Käufen oder Abfall ist mit diesen Karten nicht bewiesen.“ Gleichwertige eigene Stellen oder echte Korrekturen gelten.",
+          "criteria": [
+            "1 Punkt: K1-Grenze zwischen Stückzahl und Personenzahl korrekt markiert oder in einer Randnotiz erklärt.",
+            "1 Punkt: K2-Grenze zwischen bedingtem Angebot und fehlender Genehmigung korrekt markiert oder in einer Randnotiz erklärt.",
+            "1 Punkt: K3-Grenze unbelegter Einsparung korrekt markiert oder in einer Randnotiz erklärt. Eine im Text nicht genutzte Karte darf als Randnotiz geprüft werden; tatsächliche Revision gilt ebenso. Denselben Sachfehler nicht mehrfach abziehen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Deutsch Klasse 7 ab 2026/27. § 2.2.4 PDF-S. 29–30: argumentierendes Schreiben, Planen und Überarbeiten als Ziel bis Ende Klasse 8. § 3.4 PDF-S. 50: lineare Erörterung einfacher Sachverhalte als exemplarische 7/8-Textsorte; PDF-S. 46: Unterrichtsfolge durch Lehrkräfte.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "en-maya-clubs-talk",
       "subjectId": "en",
       "title": "Explain two clubs to Maya",

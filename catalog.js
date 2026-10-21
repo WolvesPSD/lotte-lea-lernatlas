@@ -25,7 +25,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "fr",
       "name": "Französisch",
       "plan": "Gymnasium 2026, Erprobungsfassung; Klasse 7 ab 2026/27",
-      "scope": "wahrscheinlich zweite Fremdsprache seit Klasse 6; § 3.2 Ziel A2 Ende 8, individueller Lernstand offen"
+      "scope": "Schulhinweis für Lottes Jahrgang: zweite Fremdsprache ab Klasse 6 angeboten; dieser Zweig ist wahrscheinlich. Persönlicher Beginn und Lernstand offen; § 3.2 Ziel A2 Ende 8"
     },
     {
       "id": "et",

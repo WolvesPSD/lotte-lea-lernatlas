@@ -1,13 +1,11 @@
 {
-  "builtAt": "2026-10-21T22:26:12.836Z",
-  "releaseVersion": "2026.10.22-mbifestbezug.1",
-  "newTopicIds": [
-    "mbi-festbezug-karten"
-  ],
+  "builtAt": "2026-10-21T22:37:46.069Z",
+  "releaseVersion": "2026.10.22-frschulweg.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Freiwilliger MBI-Klasse-8-Ausblick: Festbezug beim Kopieren von Tabellenformeln mit lösungsfreiem Excel-Startblatt."
+    "Französisch-Zweig durch Suhler Schulbrief zur zweiten Fremdsprache ab Klasse 6 besser belegt; individueller Beginn und Lernstand bleiben offen."
   ],
-  "rollbackCommit": "89e6ccbb503328f50523bd9dd87f22b85c089342",
+  "rollbackCommit": "9946d42e248c98373ce2bb1634881cb1f48f2235",
   "releasedTopics": [
     "mbi-festbezug-karten",
     "de-woerter-umfrage",

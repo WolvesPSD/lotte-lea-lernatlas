@@ -540,6 +540,13 @@
       link.href = overview; link.target = '_blank'; link.rel = 'noopener noreferrer';
       card.append(link);
       appendText(card, 'p', 'source-small', 'Ein öffentlicher Direktlink zur hier beschriebenen Fachfassung wurde nicht sicher geprüft. Der Link führt zur amtlichen Fachübersicht; die erreichbare Datei kann davon abweichen.');
+      if (subject.id === 'fr') {
+        appendText(card, 'p', 'source-status', 'Schulischer Sprachweg: Ein Elternbrief für Klasse 5 im Schuljahr 2024/25 nennt Französisch als zweite Fremdsprache ab Klasse 6. Bei regulärem Jahrgangsverlauf passt das zu Lottes aktuellem Fach. Ihr persönlicher Beginn und Lernstand sind nicht belegt.');
+        const schoolLink = create('a', 'source-link school-source-link', 'Suhler Elternbrief zur zweiten Fremdsprache öffnen ↗');
+        schoolLink.href = 'https://www.eulegym.de/_files/ugd/e0a47f_542a0be4579b47a8b3b706cafe2fff68.pdf';
+        schoolLink.target = '_blank'; schoolLink.rel = 'noopener noreferrer';
+        card.append(schoolLink);
+      }
       const topics = catalog.topics.filter(topic => topic.subjectId === subject.id && topic.released);
       appendText(card, 'p', 'source-status', `Themenableitung: ${topics.length ? topics.map(topic => topic.title).join('; ') : 'Noch kein nutzbares Themenpaket aus diesem Fach.'}`);
       appendText(card, 'p', 'source-status', `Aufgabenprüfung: ${topics.length ? `${topics.length} fachlich freigegeben${topics.length === 1 ? 'es Paket' : 'e Pakete'} mit Musterlösung` : 'Keine Aufgabe freigegeben'}. Keine Aussage über den aktuellen Schulstoff.`);

@@ -341,6 +341,7 @@
     if (topic.passage) appendText(intro, 'blockquote', 'reading-passage', topic.passage);
     host.append(intro);
     for (const [index, task] of topic.tasks.entries()) host.append(renderTask(topic, task, index));
+    if (topic.practice) host.append(renderPractice(topic.practice, false));
     const storage = appendText(host, 'p', 'privacy-note', 'Deine Antworten werden nur in diesem Browser gespeichert.'); storage.id = 'storage-status';
   }
   function renderTask(topic, task, index) {
@@ -384,6 +385,18 @@
     card.append(result); return card;
   }
 
+  function renderPractice(practice, adult) {
+    const section = create('section', adult ? 'adult-practice' : 'practice-card');
+    appendText(section, 'p', 'eyebrow', adult ? 'Nur bei echter Beobachtung' : 'Praxis ausserhalb des Textfelds');
+    appendText(section, 'h3', '', practice.title);
+    appendText(section, 'p', '', adult ? practice.adultNote : practice.childNote);
+    const list = create('ol');
+    (adult ? practice.adultCriteria : practice.childSteps).forEach(step => appendText(list, 'li', '', step));
+    section.append(list);
+    if (adult) appendText(section, 'p', 'muted', 'Pro Kriterium die tatsächlich beobachteten Punkte und Hilfen auf dem Lösungsblatt notieren. Ohne durchgeführte Beobachtung: nicht erhoben. Keine automatische Punktzahl.');
+    return section;
+  }
+
   function renderAdult() {
     renderSources();
     const host = $('#adult-content'); host.replaceChildren();
@@ -404,6 +417,7 @@
         if (task.kind === 'reflection') appendText(item, 'p', 'muted', 'Offene Antwort: Kriterien gemeinsam prüfen; keine sichere automatische Note.');
         section.append(item);
       }
+      if (topic.practice) section.append(renderPractice(topic.practice, true));
       host.append(section);
     }
   }
@@ -468,6 +482,21 @@
           const ol = create('ol'); (task.explanation || task.criteria || []).forEach(step => appendText(ol, 'li', '', step)); item.append(ol);
         }
         section.append(item);
+      }
+      if (topic.practice) {
+        const practiceSection = create('section', 'print-practice');
+        appendText(practiceSection, 'h3', '', topic.practice.title);
+        appendText(practiceSection, 'p', '', mode === 'child' ? topic.practice.childNote : topic.practice.adultNote);
+        const list = create('ol');
+        (mode === 'child' ? topic.practice.childSteps : topic.practice.adultCriteria).forEach(step => appendText(list, 'li', '', mode === 'child' ? step : `${step}  Punkte: ____`));
+        practiceSection.append(list);
+        if (mode === 'adult') {
+          appendText(practiceSection, 'p', '', 'Beobachtung: ☐ gesehen  ☐ mit Hilfe  ☐ offen  ☐ nicht erhoben. Ohne Vortrag keine 0/16 eintragen.');
+          appendText(practiceSection, 'p', '', 'Vorher vereinbarte Hilfen / verwendete Stichwortstützen: ____________________________________________________');
+          appendText(practiceSection, 'p', '', 'Nachgereichte Hinweise und tatsächlich Gehörtes: _______________________________________________________');
+          appendText(practiceSection, 'p', '', 'Nur bei Durchführung: Summe mündliche Übung ____ / 16. Kein automatisches Urteil und keine Schulnote.');
+        }
+        section.append(practiceSection);
       }
       page.append(section);
     }

@@ -1729,6 +1729,70 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "PDF-S. 2: Einführung der Erprobungsfassung 2026/27. § 2.1.4 PDF-S. 19 markiert Klassenstufe 6: Fläche und Umfang zusammengesetzter Figuren sowie Oberfläche und Volumen von Würfel/Quader. Das Paket verwendet einen geschlossenen Quader und eine rechtwinklige Aussparung, ohne Netzzeichnen oder Faltprobe zu beanspruchen.",
         "checkedAt": "2026-10-21"
       }
+    },
+    {
+      "id": "de-karte-im-regen-vortrag",
+      "subjectId": "de",
+      "title": "Einen Text verstehen und auswendig vortragen",
+      "scope": "Freiwillige Vorbereitung einer ausdrücklich jährlichen Klasse-7-Anforderung. Der eigens verfasste Text ist nicht als Schultext bestätigt; nur ein tatsächlich beobachteter Vortrag kann die mündliche Leistung belegen.",
+      "levelStatus": "grade7",
+      "released": true,
+      "prerequisite": "Du brauchst Zeit zum Üben und eine zuhörende Person. Ein Foto, Audio, Konto oder Upload ist nicht nötig. Die Schule kann einen anderen Text verlangen.",
+      "introduction": "Der folgende Text ist für diese Übung geschrieben. Du bearbeitest erst zwei kurze Vorbereitungsaufgaben. Danach übst du das Sprechen mit einer Person. Die App kann nicht hören, ob du den Text auswendig vorgetragen hast; die mündliche Beobachtung bleibt deshalb getrennt und wird hier nicht als erledigt markiert.",
+      "passage": "Die Karte im Regen\n\nAm Tor hing eine Karte, vom Regen leicht verwischt.\nEin Pfeil zeigte zum Hügel, ein zweiter an den Bach.\n„Der kurze Weg ist schneller“, sagte jemand hinter mir.\nIch wollte dem Pfeil schon folgen, blieb aber stehen.\n\nAm Bach stand eine Brücke, die gestern noch ganz war.\nJetzt fehlten ihr drei Bretter, und das Wasser stieg darunter.\nDer Bachweg glänzte hell, doch niemand stand am Rand.\nIch las die Karte noch einmal, diesmal langsam.\n\nDer Hügelweg war länger, mit Steinen und mit Wind.\nDort sah ich frische Fußspuren und die Spur eines Rads.\nIch fragte eine Frau, die mit dem Hund zurückkam:\n„Kommt man dort sicher weiter?“ Sie nickte und erklärte den Weg.\n\nSo wählte ich den Umweg und kam vor Dunkelheit ans Ziel.\nDie Karte half beim Fragen, doch sie wusste nichts vom Regen.\nEin Pfeil kann Richtung geben, nicht den Boden unter deinen Schuhen.\nSeitdem prüfe ich den Weg, bevor ich ihm folge.",
+      "tasks": [
+        {
+          "id": "de-karte-regen-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "prompt": "Vorbereitung A (4 Kriterienpunkte): Schreibe zu jeder der vier Strophen einen knappen Handlungsschritt. Was ändert sich zwischen Karte, Brücke, Nachfrage und Entscheidung?",
+          "sample": "Strophe 1: Die Karte zeigt zwei Wege; die Person hält vor dem Folgen inne. Strophe 2: Die Brücke am Bach ist beschädigt und das Wasser steigt. Strophe 3: Auf dem längeren Hügelweg fragt die Person eine zurückkehrende Frau nach dem Weiterweg. Strophe 4: Sie wählt den Umweg und erkennt, dass die Karte aktuelle Bedingungen nicht kennt.",
+          "criteria": [
+            "1 Punkt: Karte und Innehalten in Strophe 1.",
+            "1 Punkt: beschädigte Brücke und Gefahr in Strophe 2.",
+            "1 Punkt: Nachfrage zum Hügelweg in Strophe 3.",
+            "1 Punkt: begründeter Umweg und Grenze der Karte in Strophe 4. Sinngemäße Antworten gelten."
+          ]
+        },
+        {
+          "id": "de-karte-regen-2",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "prompt": "Vorbereitung B (2 Kriterienpunkte): Welches Textdetail spricht gegen den scheinbar kurzen Bachweg, und in welcher Strophe fällt die endgültige Entscheidung? Wähle außerdem eine Stelle für eine Pause oder Betonung und erkläre, was dadurch hörbar wird.",
+          "sample": "Die fehlenden drei Bretter und das steigende Wasser in Strophe 2 sprechen gegen den Bachweg. Die endgültige Entscheidung für den Umweg steht in Strophe 4. Eine Pause nach „fehlten ihr drei Bretter“ kann die Gefahr hörbar machen; eine Betonung von „nicht“ in „nicht den Boden“ zeigt die Grenze der Karte. Andere passende Gestaltungen zählen.",
+          "criteria": [
+            "1 Punkt: Brückenschaden oder steigendes Wasser als Grund gegen den Bachweg und die endgültige Entscheidung in Strophe 4 unterschieden.",
+            "1 Punkt: konkrete Pause oder Betonung mit nachvollziehbarer Wirkung statt bloß „laut sprechen“."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Praxis: auswendig vortragen",
+        "childNote": "Das Üben kannst du selbst steuern. Die eigentliche Leistung entsteht erst beim Vortrag vor einer zuhörenden Person; ein geschriebener Text und Vorlesen mit voller Vorlage zählen dafür nicht.",
+        "childSteps": [
+          "Gliedere den Text in Karte, Brücke, Nachfrage und Entscheidung. Sprich jeden Teil erst mit Vorlage, dann aus dem Gedächtnis.",
+          "Verbinde die vier Teile. Eine vereinbarte knappe Gedächtnisstütze ohne vollständige Verse darf bereitliegen.",
+          "Trage alle vier Strophen einer anwesenden Person vor, ohne den vollständigen Text abzulesen. Gestalte mindestens zwei sinnvolle Stellen hörbar.",
+          "Sage danach mündlich, welche Stelle schwer zu erinnern war und wie du beim nächsten Mal gezielt üben würdest."
+        ],
+        "adultNote": "Nur nach einem wirklich gehörten Vortrag ausfüllen. Ohne Durchführung „nicht erhoben“ ankreuzen, nie 0/16 aus einer fehlenden Beobachtung ableiten. Vorher vereinbarte Hilfen sachlich notieren; die Rubrik ist formative Übungsrückmeldung, keine Schulnote.",
+        "adultCriteria": [
+          "Vollständigkeit und Sinnfolge (0–4): 4 = alle vier Strophen, Sinnwechsel erkennbar, höchstens zwei bedeutungsneutrale Wortvarianten; 3 = alle Strophen mit kleinen Auslassungen, Sinnfolge bleibt; 2 = längere Auslassung, Karte → Brücke → Nachfrage → Umweg noch erkennbar; 1 = nur Teile ohne Zusammenhang; 0 = kein zusammenhängender Vortrag.",
+          "Gedächtnisleistung (0–4): 4 = ohne vollständige Vorlage und ohne nachgereichte Vershinweise; 3 = ein kurzer nachgereichter Hinweis, danach eigenständig; 2 = mehrere Hinweise, wesentliche Teile selbst erinnert; 1 = größere Passagen abgelesen oder vorgesagt; 0 = überwiegend abgelesen oder fremdgesprochen. Vereinbarte knappe Stichwort- oder behinderungsbedingte Hilfen sachlich gesondert notieren, nicht pauschal abwerten.",
+          "Verständliche Artikulation (0–2): 2 = durchgehend verständlich; 1 = einzelne Stellen unklar, Kern verständlich; 0 = Kern auch nach normaler Nachfrage nicht verständlich. Dialekt, Akzent, Nervosität oder vereinbarte Sprechhilfe allein sind keine Fehler.",
+          "Tempo und Pausen (0–2): 2 = Handlung gut folgbar und mindestens zwei passende Pausen; 1 = im Wesentlichen folgbar, streckenweise gehetzt oder monoton; 0 = Verlauf kaum folgbar. Persönliche Sprechgeschwindigkeit allein nicht abwerten.",
+          "Bedeutungsbezogene Betonung (0–2): 2 = mindestens zwei hörbare passende Akzente; 1 = ein passender Akzent; 0 = keine erkennbare Gestaltung oder sinnverdrehende Akzente. Eine andere plausible Gestaltung gilt ebenso.",
+          "Mündliche Reflexion (0–2): je 1 Punkt für eine konkrete schwere Erinnerungs- oder Sprechstelle und einen dazu passenden nächsten Übungsschritt; allgemeines „mehr üben“ allein genügt nicht."
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7",
+        "competencyRef": "PDF-S. 2: Inkraftsetzung 2026/27 für Klasse 7. § 3.2 PDF-S. 47: In Klasse 5 bis 9 jedes Schuljahr mindestens ein Text angemessenen Umfangs auswendig lernen und präsentieren. Text und Umfang dieser Übung sind eigene Entscheidungen; schulische Anerkennung offen.",
+        "checkedAt": "2026-10-21"
+      }
     }
   ]
 });

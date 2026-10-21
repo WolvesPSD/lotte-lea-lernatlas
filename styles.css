@@ -183,3 +183,6 @@ body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body
 @media(max-width:740px){.work-actions{grid-column:1;display:grid;grid-template-columns:1fr;gap:.45rem}.work-actions button{width:100%}}
 .home-quick-links{grid-template-columns:repeat(4,minmax(0,1fr))}
 @media(max-width:740px){.home-quick-links{grid-template-columns:1fr}}
+.work-tools-jump{color:var(--petrol);font-weight:700;text-decoration:underline;text-underline-offset:2px}.work-tools-jump:focus-visible{outline:3px solid #1e7889;outline-offset:2px}#work-actions{scroll-margin-top:1rem}
+.practice-card,.adult-practice{border:1px solid var(--line);border-radius:.9rem;background:#f3f6f1;padding:1.1rem 1.3rem;margin:1rem 0}.practice-card h3,.adult-practice h3{font-family:ui-serif,Georgia,serif;font-size:1.5rem;font-weight:500;margin:.15rem 0 .65rem}.practice-card ol,.adult-practice ol,.print-practice ol{padding-left:1.35rem}.practice-card li+li,.adult-practice li+li,.print-practice li+li{margin-top:.5rem}.print-practice{border-top:1px solid #cbd7d0;margin-top:1rem;padding-top:.8rem}.print-practice h3{font-size:12pt}
+@media print{body[data-print-mode^="adult"] .print-practice{break-before:page}.print-practice{break-inside:auto}.print-practice li{break-inside:avoid}}

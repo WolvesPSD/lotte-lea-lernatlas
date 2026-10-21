@@ -186,6 +186,36 @@
   }
   $('#home-progress-button').addEventListener('click', () => show('work'));
 
+  let openGroupsBeforeSearch = null;
+  function applyTopicSearch() {
+    const query = $('#topic-search-input').value.trim().toLocaleLowerCase('de');
+    const groups = [...document.querySelectorAll('#topic-list .subject-group')];
+    if (query && openGroupsBeforeSearch === null) openGroupsBeforeSearch = new Map(groups.map(group => [group.dataset.subjectId, group.open]));
+    let matches = 0;
+    for (const group of groups) {
+      const subject = subjectById.get(group.dataset.subjectId);
+      let groupMatches = 0;
+      for (const card of group.querySelectorAll('.topic-card')) {
+        const topic = topicById.get(card.querySelector('input').value);
+        const haystack = [subject.name, topic.title, topic.scope, levelLabel(topic)].join(' ').toLocaleLowerCase('de');
+        card.hidden = !!query && !haystack.includes(query);
+        if (!card.hidden) groupMatches++;
+      }
+      group.hidden = !!query && groupMatches === 0;
+      if (query && groupMatches) group.open = true;
+      matches += groupMatches;
+    }
+    if (!query && openGroupsBeforeSearch !== null) {
+      for (const group of groups) group.open = openGroupsBeforeSearch.get(group.dataset.subjectId) || false;
+      openGroupsBeforeSearch = null;
+    }
+    $('#topic-search-clear').disabled = !query;
+    $('#topic-search-status').textContent = query
+      ? `${matches} von ${availableTopics.length} Themen gefunden. Deine Auswahl bleibt erhalten.`
+      : `${availableTopics.length} Themen in ${groups.filter(group => group.querySelector('.topic-card')).length} Fächern verfügbar.`;
+  }
+  $('#topic-search-input').addEventListener('input', applyTopicSearch);
+  $('#topic-search-clear').addEventListener('click', () => { $('#topic-search-input').value = ''; applyTopicSearch(); $('#topic-search-input').focus(); });
   function renderChoose() {
     const host = $('#topic-list'); host.replaceChildren();
     if (availableTopics.length === 0) appendText(host, 'p', 'empty-state', 'Noch keine fachlich freigegebenen Themen. Der Jahreskatalog wird geprüft.');
@@ -240,6 +270,7 @@
       list.append(row);
     }
     updateSelection();
+    applyTopicSearch();
   }
   function updateSelection() {
     $('#selection-summary').textContent = state.selected.length === 0 ? 'Noch kein Thema ausgewählt.' : `${state.selected.length} Thema${state.selected.length === 1 ? '' : 'en'} ausgewählt`;

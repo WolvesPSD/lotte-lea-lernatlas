@@ -1,15 +1,11 @@
 {
-  "builtAt": "2026-10-21T10:54:20.186Z",
-  "releaseVersion": "2026.10.21-m13m14.1",
-  "newTopicIds": [
-    "ma-wahrscheinlichkeitsbaum",
-    "ma-koerper-modell"
-  ],
+  "builtAt": "2026-10-21T11:08:55.472Z",
+  "releaseVersion": "2026.10.21-topicsearch.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Mathematik M13: fiktiver Beutel mit Zurücklegen, vier Aufgaben zu Pfadregel, Ereignissen und Venn-Diagramm sowie ein lösungsfreies Materialbild.",
-    "Mathematik M14: vier ideale Körper, fünf Aufgaben zu Netzen, Volumen, Oberfläche und Modellgrenzen mit einer maßbeschrifteten Übersicht; beide Themen sind freiwillige Ende-8-Ausblicke."
+    "Die Themenauswahl kann nach Fach, Titel, Jahrgangshinweis und Inhalt durchsucht werden. Die Suche zeigt Trefferzahlen und lässt bereits gewählte Themen unverändert."
   ],
-  "rollbackCommit": "4a784b31ba8db7a1fe23ac42926de9ceaf754db4",
+  "rollbackCommit": "5a3c0e0bc69e6092655a2f7cacd1b1015c2c2272",
   "releasedTopics": [
     "ma-koerper-modell",
     "ma-wahrscheinlichkeitsbaum",

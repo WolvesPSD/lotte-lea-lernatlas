@@ -21,6 +21,7 @@ body[data-view=adult] .adult-entry{display:none}
 .profile-chip.later{background:#eeece7;color:#666d6a}
 body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body[data-profile=lea] footer button{display:none!important}
 .subject-groups{display:grid;gap:.7rem}
+.topic-search{margin:-.7rem 0 1.4rem;max-width:46rem}.topic-search label{display:block;font-weight:700;margin-bottom:.45rem}.topic-search-controls{display:flex;gap:.6rem}.topic-search input{min-width:0;flex:1;border:1px solid #abbdb2;border-radius:.65rem;background:#fff;color:#17272a;padding:.75rem}.topic-search button{border:1px solid #a7b8b2;border-radius:.65rem;background:#fff;color:#17463f;padding:.7rem .9rem;font-weight:650}.topic-search p{margin:.5rem 0 0;color:#536169;font-size:.88rem}.topic-card[hidden],.subject-group[hidden]{display:none!important}@media(max-width:480px){.topic-search-controls{flex-wrap:wrap}.topic-search input{flex-basis:100%}}
 .subject-group{border:1px solid #dce4df;background:#fff;border-radius:.9rem;overflow:hidden}
 .subject-group[open]{border-color:#9dbeb0}
 .subject-group-heading{display:flex;align-items:center;justify-content:space-between;gap:.7rem;cursor:pointer;padding:1rem 1.2rem;list-style:none}

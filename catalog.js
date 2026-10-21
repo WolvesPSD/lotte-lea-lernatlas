@@ -1830,6 +1830,132 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "de-leserbrief-tauschregal",
+      "subjectId": "de",
+      "title": "Einen begründeten Leserbrief entwerfen",
+      "scope": "Freiwilliger, gestützter 7/8-Einstieg in appellierendes Schreiben. § 3.4 nennt Leserbriefe als Beispiel für 7/8; die Schreibkompetenzen sind bis Ende Klasse 8 markiert. Keine belegte aktuelle Klasse-7-Unterrichtseinheit.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Die Zeitung, Regal-AG, Orte, Personen, Daten und Zahlen sind für diese Aufgabe erfunden. Schreibe nur einen Entwurf; es wird nichts an eine echte Redaktion gesendet. Verwende keine echten Namen oder Schulangaben.",
+      "introduction": "Ein Leserbrief reagiert auf eine veröffentlichte Meldung und richtet eine begründete Meinung an die Redaktion. Eine Zahl belegt nur, was tatsächlich gezählt wurde. Der Entwurf soll einen kleinen Versuch vorschlagen und die noch offenen Bedingungen benennen. Verwende Quelle A und B getrennt, nenne ihre Daten richtig und prüfe die Reichweite deiner Aussagen. Die App bewertet offene Texte nicht automatisch.",
+      "passage": "FIKTIVE QUELLE A · Meldung der erfundenen Schülerzeitung „Kleeblatt“ vom Mittwoch, 4. November 2026\nDie erfundene Regal-AG öffnet das Tauschregal derzeit mittwochs von 12:30 bis 13:00 Uhr. Ob eine längere Öffnung möglich ist, wurde noch nicht entschieden. Dafür müsste die AG zuerst klären, ob genügend Helfende Zeit haben.\n\nFIKTIVE QUELLE B · Zählnotiz der erfundenen Regal-AG vom Freitag, 6. November 2026, über Mittwoch, 4. November\nAn diesem einen Mittwoch wurden 18 Besuche am Tauschregal gezählt. Sieben davon fanden zwischen 12:50 und 13:00 Uhr statt. Wir haben nicht gefragt, ob die Besuchenden eine längere Öffnung wünschen. Dieselbe Person könnte mehrfach vorbeigekommen sein.\n\nSCHREIBSITUATION · Entwirf einen Leserbrief an die Redaktion „Kleeblatt“. Schlage vor, eine Öffnung bis 13:15 Uhr an vier Mittwochen als mögliche Probe zu prüfen. Ob Schule und AG dies mit genügend Helfenden erlauben, ist offen. Eine Zählung an nur einem Mittwoch beweist noch keinen dauerhaften Bedarf.",
+      "tasks": [
+        {
+          "id": "de-leserbrief-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "prompt": "A. Belegplan (4 Kriterienpunkte): Notiere vier kurze Punkte: Was sagt Quelle A sicher? Was zählt Quelle B für genau einen Mittwoch? Was folgt aus den sieben späten Besuchen nicht? Welche Entscheidung ist vor der Probe offen? Nenne bei A und B Datum oder Quellenart.",
+          "sample": "Quelle A, Meldung vom 4. November: Das Regal ist mittwochs 12:30–13:00 Uhr geöffnet; eine Verlängerung ist nicht beschlossen. Quelle B, Notiz vom 6. November über Mittwoch, 4. November: 18 Besuche an diesem einen Mittwoch, davon sieben in den letzten zehn Minuten. Daraus folgen weder sieben verschiedene Personen noch sieben Wünsche nach längerer Öffnung oder ein Wochenmuster. AG und Schule müssen klären, ob eine vierwöchige Probe und genügend Helfende möglich sind.",
+          "criteria": [
+            "1 Punkt: Quelle A samt Datum/Art und gegenwärtiger Öffnungszeit mit offener Verlängerung richtig.",
+            "1 Punkt: Quelle B samt Notiz- und Beobachtungstag, 18 Besuche und sieben späte Besuche richtig.",
+            "1 Punkt: Besuche nicht zu verschiedenen Personen oder geäußerten Wünschen umgedeutet.",
+            "1 Punkt: Machbarkeit und Helferfrage als offene Entscheidung erkannt."
+          ]
+        },
+        {
+          "id": "de-leserbrief-2",
+          "kind": "reflection",
+          "points": 14,
+          "writingLines": 16,
+          "inputRows": 12,
+          "prompt": "B. Leserbrief (14 Kriterienpunkte): Schreibe nur einen Entwurf an die Redaktion „Kleeblatt“. Nenne Anlass und Meinung, stütze sie mit beiden Quellen und formuliere eine höfliche Bitte: AG und Schule sollen eine vierwöchige Probe bis 13:15 Uhr mit verfügbaren Helfenden prüfen. Sage, was die Zählung nicht zeigt. Schlage namenlose Besuchszählung und getrennte freiwillige Rückmeldungen während einer möglichen Probe vor. Ein Richtwert von 120–170 Wörtern hilft beim Planen, ist aber keine Punkteschwelle. Erfinde keine Zustimmung oder Wünsche.",
+          "sample": "An die Redaktion des Kleeblatts\nBetreff: Eine längere Öffnung des Tauschregals ausprobieren?\n\nLiebes Redaktionsteam,\n\neure Meldung vom 4. November berichtet, dass das Tauschregal mittwochs von 12:30 bis 13:00 Uhr geöffnet ist. Ich fände es sinnvoll, eine etwas längere Öffnung zu erproben. Laut der Zählnotiz der Regal-AG vom 6. November gab es am Mittwoch, 4. November, 18 Besuche; sieben davon lagen in den letzten zehn Minuten. Das zeigt, dass kurz vor Schluss noch etwas los war. Es zeigt aber weder den Wunsch dieser Menschen nach mehr Zeit noch, ob es an anderen Tagen genauso wäre.\n\nKönnte die AG mit der Schule prüfen, ob genug Helfende für eine vierwöchige Probe bis 13:15 Uhr Zeit hätten? Während der Probe könnten Besuche und freiwillige Rückmeldungen ohne Namen getrennt erfasst werden. Danach ließe sich besser entscheiden, ob sich die zusätzliche Viertelstunde lohnt. Ich freue mich, wenn ihr diesen Vorschlag an die AG weitergebt.\n\nViele Grüße\nEine Leserin der erfundenen Zeitung",
+          "criteria": [
+            "2 Punkte: Redaktion/Leserbrief erkennbar (1), Meldung als Anlass klar (1).",
+            "2 Punkte: eigener Standpunkt verständlich (1), Beleg, Grenze und Bitte sinnvoll verbunden (1).",
+            "2 Punkte: Quelle A mit mittwochs 12:30–13:00 Uhr (1) und offener Entscheidung/Helferfrage (1) richtig.",
+            "2 Punkte: Quelle B mit 18 Besuchen an einem Mittwoch (1) und sieben in den letzten zehn Minuten (1) richtig.",
+            "2 Punkte: keine sieben Wünsche oder Personen als belegt (1), keine Verallgemeinerung auf alle Tage/Wochen (1).",
+            "2 Punkte: vier Mittwoche bis 13:15 Uhr als Probe/Prüfung (1), AG/Schule und Helferfrage realistisch einbezogen (1).",
+            "2 Punkte: namenlose Zählung und freiwillige Rückmeldungen getrennt vorgeschlagen (1), höflicher verständlicher Schluss (1). Andere gleichwertige Formulierungen gelten; Wortzahl ist keine Punkteschwelle."
+          ]
+        },
+        {
+          "id": "de-leserbrief-3",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "prompt": "C. Einen Schluss überarbeiten (2 Kriterienpunkte): Warum ist dieser Satz ungeeignet? Formuliere eine vorsichtige belegte Alternative: „Sieben Schülerinnen und Schüler wollten am 6. November länger bleiben, also muss das Regal jetzt jeden Tag eine Stunde länger öffnen.“",
+          "sample": "Der Satz macht aus sieben Besuchen sieben Personen mit Wünschen, verwechselt das Datum der Freitagsnotiz mit dem beobachteten Mittwoch und verallgemeinert eine Zählung auf jeden Tag. Eine belegte Alternative lautet: „Laut der Notiz vom 6. November lagen am Mittwoch, 4. November, sieben von 18 Besuchen in den letzten zehn Minuten. Deshalb schlage ich vor, eine um 15 Minuten längere Öffnung an vier Mittwochen zu prüfen, wenn genügend Helfende Zeit haben.“",
+          "criteria": [
+            "1 Punkt: mindestens einen sachlichen Fehler verständlich erklärt, etwa Besuche ≠ Personen/Wünsche, falscher Tag oder unbelegte tägliche Stunde.",
+            "1 Punkt: eine mit den Quellen vereinbare, begrenzte Alternative mit möglicher Probe formuliert."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. § 2.2.4 PDF-S. 29–30: adressaten- und intentionsgerechtes Schreiben, Begründen, Appellieren und Überarbeiten als Ziel Ende Klasse 8. § 3.4 PDF-S. 49: Leserbrief als exemplarischer appellierender Text in der 7/8-Spalte. PDF-S. 46: keine feste Unterrichtsfolge.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
+      "id": "de-innerer-monolog-projekttisch",
+      "subjectId": "de",
+      "title": "Minas Gedanken am Projekttisch",
+      "scope": "Freiwilliger, gestützter Einstieg in einen exemplarischen 7/8-Bereich. Der innere Monolog steht in § 3.4 in der 7/8-Spalte; die Schreibziele gelten bis Ende Klasse 8. Kein belegter aktueller Klasse-7-Unterrichtsstoff.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Alle Figuren und der Ausgangstext sind erfunden. Du schreibst Minas mögliche Gedanken, keine Behauptung über wirkliche Personen. Die App bewertet deinen offenen Text nicht automatisch.",
+      "introduction": "Ein innerer Monolog zeigt die Gedanken einer Figur in einem bestimmten Augenblick. Schreibe in der Ich-Form und bleibe bei dem, was Mina bis jetzt wissen kann. Zeige eine Frage oder Unsicherheit, ein passendes Gefühl und einen begründeten nächsten Schritt. Trenne dabei: Was weiß ich? Was vermute ich? Was fühle ich? Was tue ich als Nächstes?",
+      "passage": "FIKTIVER AUSGANGSTEXT · Der Zettel am Projekttisch\nIn der Projektgruppe baut Mina mit Jo und Eren ein kleines Modell aus Karton. Mina hat die Zeichnung mit den Maßen vorbereitet. Am Dienstag legt sie sie in die gemeinsame Mappe. Am Mittwoch liegt die Mappe offen auf dem Tisch, aber die Zeichnung fehlt. Daneben klebt ein Zettel: „Wir haben schon etwas geändert. Reden wir nach der Pause.“ Der Zettel trägt keinen Namen. Jo und Eren sind gerade nicht im Raum. Mina sieht, dass noch zwölf Minuten bis zum Ende der Pause bleiben.\n\nDer Text sagt nicht, wer den Zettel geschrieben, wer die Zeichnung genommen oder was die Gruppe geändert hat. Schreibe diese Vermutungen nicht als Tatsache.",
+      "tasks": [
+        {
+          "id": "de-monolog-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "prompt": "A. Vor dem Schreiben (4 Kriterienpunkte): Notiere zwei gesicherte Textangaben, eine offene Frage und ein mögliches Gefühl Minas. Trenne Beobachtung und Vermutung.",
+          "sample": "Sicher: Die Zeichnung lag am Dienstag in der gemeinsamen Mappe. Sicher: Am Mittwoch fehlt sie in der offenen Mappe; ein namenloser Zettel liegt daneben. Offen: Wer schrieb den Zettel und wo ist die Zeichnung? Mögliches Gefühl: Mina könnte besorgt sein, weil sie die Maße braucht.",
+          "criteria": [
+            "1 Punkt je zutreffender, ausdrücklich gesicherter Textangabe (2). Auch die zwölf Minuten bis Pausenende sind sicher.",
+            "1 Punkt für eine wirklich offene Frage zu Zettel, Zeichnung oder Änderung.",
+            "1 Punkt für ein als Möglichkeit formuliertes, zur Situation passendes Gefühl."
+          ]
+        },
+        {
+          "id": "de-monolog-2",
+          "kind": "reflection",
+          "points": 12,
+          "writingLines": 15,
+          "inputRows": 12,
+          "prompt": "B. Innerer Monolog (12 Kriterienpunkte): Schreibe Minas Gedanken genau jetzt am Projekttisch in der Ich-Form. Nutze die fehlende Zeichnung und den namenlosen Zettel. Zeige mindestens eine Unsicherheit, ein nachvollziehbares Gefühl und einen ausführbaren nächsten Schritt ohne unbelegte Schuldzuweisung. Etwa 80–130 Wörter helfen bei der Planung, sind aber keine Punkteschwelle.",
+          "sample": "Wo ist meine Zeichnung? Gestern habe ich sie doch in unsere Mappe gelegt. Jetzt liegt hier nur dieser Zettel: Wir haben etwas geändert. Was genau heißt das? Vielleicht haben Jo und Eren eine andere Idee für das Modell. Aber ich weiß nicht einmal, wer den Zettel geschrieben hat. Ich ärgere mich, weil ich die Maße nachsehen wollte, und gleichzeitig bin ich neugierig auf die Änderung. Soll ich sofort eine neue Zeichnung machen? Das wäre vielleicht doppelte Arbeit. Ich schaue erst, ob die Zeichnung zwischen den anderen Blättern liegt. Nach der Pause frage ich die beiden ruhig, was geändert wurde und wo wir die Zeichnung finden.",
+          "criteria": [
+            "2 Punkte: Ich-Form und als Gedanken erkennbare Darstellung (1); im Augenblick am Tisch verankert (1).",
+            "2 Punkte: fehlende Zeichnung (1) und namenloser Zettel oder unklare Änderung (1) sinnvoll aufgenommen.",
+            "2 Punkte: mindestens eine Frage oder Unsicherheit (1) und eine mögliche Überlegung dazu (1).",
+            "2 Punkte: passende Gefühlsregung (1) und durch die Situation nachvollziehbar (1).",
+            "2 Punkte: nächster Schritt konkret ausführbar (1) und zur Klärung geeignet (1).",
+            "2 Punkte: keine unbelegte Schuld oder fremde Gedanken als Tatsache (1); Text zusammenhängend und verständlich (1). Kleine Sprachfehler ohne Sinnverlust nicht nochmals abziehen. Andere passende Gefühle und Schritte gelten ebenfalls."
+          ]
+        },
+        {
+          "id": "de-monolog-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "prompt": "C. Zwei Sätze überarbeiten (4 Kriterienpunkte): Erkläre zu jedem Satz kurz das Problem und schreibe eine bessere Ich-Formulierung für Mina. 1. „Jo hat meine Zeichnung gestohlen. Das steht ja auf dem Zettel.“ 2. „Mina fühlte sich schlecht und wartete.“",
+          "sample": "1. Der namenlose Zettel nennt weder Jo noch einen Diebstahl. Besser: „Vielleicht weiß jemand aus der Gruppe etwas über die Zeichnung, aber zuerst muss ich fragen, was mit ihr passiert ist.“ 2. Der Satz berichtet über Mina, statt ihre Gedanken zu zeigen. Besser: „Ich bin unruhig. Soll ich jetzt nach der Zeichnung suchen oder nach der Pause die anderen fragen?“",
+          "criteria": [
+            "1 Punkt: Beim ersten Satz unbelegte Schuldzuweisung erklärt.",
+            "1 Punkt: Erster Satz als vorsichtiger, passender Ich-Gedanke überarbeitet.",
+            "1 Punkt: Beim zweiten Satz fehlende innere Perspektive oder Ich-Form erklärt.",
+            "1 Punkt: Zweiter Satz als nachvollziehbarer Ich-Gedanke überarbeitet."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. § 2.2.4 PDF-S. 29–30: Schreiben als Ziel bis Ende Klasse 8. § 3.4 PDF-S. 50: innerer Monolog als exemplarische Textform in der 7/8-Spalte. PDF-S. 46: keine feste Unterrichtsfolge.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "de-karte-im-regen-vortrag",
       "subjectId": "de",
       "title": "Einen Text verstehen und auswendig vortragen",

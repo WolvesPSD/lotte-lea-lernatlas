@@ -353,7 +353,7 @@
     const storage = appendText(host, 'p', 'privacy-note', 'Deine Antworten werden nur in diesem Browser gespeichert.'); storage.id = 'storage-status';
   }
   function renderTask(topic, task, index) {
-    const card = create('article', 'task-card');
+    const card = create('article', 'task-card'); card.dataset.taskId = task.id;
     appendText(card, 'span', 'task-count', `Aufgabe ${index + 1} von ${topic.tasks.length}`);
     appendText(card, 'h3', '', task.prompt);
     let input;
@@ -373,7 +373,7 @@
       input.value = state.answers[task.id] || '';
       input.addEventListener('input', () => { state.answers[task.id] = input.value; save(); result.replaceChildren(); });
     } else {
-      input = create('textarea', 'answer-input'); input.rows = 4; input.setAttribute('aria-label', `Antwort auf Aufgabe ${index + 1}`);
+      input = create('textarea', 'answer-input'); input.rows = Number.isInteger(task.inputRows) && task.inputRows >= 4 && task.inputRows <= 18 ? task.inputRows : 4; input.setAttribute('aria-label', `Antwort auf Aufgabe ${index + 1}`);
       input.value = state.answers[task.id] || '';
       input.addEventListener('input', () => { state.answers[task.id] = input.value; save(); result.replaceChildren(); });
     }
@@ -385,7 +385,7 @@
       result.replaceChildren(); result.dataset.status = outcome.status;
       appendText(result, 'p', '', outcome.label);
       if (outcome.status !== 'empty' && outcome.status !== 'invalid') {
-        if (task.sample) appendText(result, 'p', '', `Musterlösung: ${task.sample}`);
+        if (task.sample) appendText(result, 'p', 'sample-answer', `Musterlösung: ${task.sample}`);
         const steps = task.explanation || task.criteria || [];
         const ol = create('ol'); steps.forEach(step => appendText(ol, 'li', '', step)); result.append(ol);
       }
@@ -416,11 +416,11 @@
       appendText(section, 'p', 'level-tag', levelLabel(topic));
       if (topic.lab) appendText(section, 'p', 'muted', `${topic.lab.title}: Praktische Bedienung im neuen Tab nur nach tatsächlich beobachteten Schritten beurteilen. Geschriebene Antworten belegen die Klicks nicht automatisch.`);
       for (const [index, task] of topic.tasks.entries()) {
-        const item = create('article', 'adult-task');
+        const item = create('article', 'adult-task'); item.dataset.taskId = task.id;
         appendText(item, 'h3', '', `${index + 1}. ${task.prompt}`);
         const answer = state.answers[task.id];
         appendText(item, 'p', 'muted', `Eingabe im Kinderbereich: ${answer ? String(answer) : 'noch keine'}`);
-        appendText(item, 'p', '', `Lösung: ${task.sample || task.correctLabel || task.correct}`);
+        appendText(item, 'p', 'sample-answer', `Lösung: ${task.sample || task.correctLabel || task.correct}`);
         const steps = task.explanation || task.criteria || [];
         const ol = create('ol'); steps.forEach(step => appendText(ol, 'li', '', step)); item.append(ol);
         if (task.kind === 'reflection') appendText(item, 'p', 'muted', 'Offene Antwort: Kriterien gemeinsam prüfen; keine sichere automatische Note.');
@@ -491,7 +491,7 @@
             item.append(lines);
           }
         } else {
-          appendText(item, 'p', '', `Lösung: ${task.sample || task.correctLabel || task.correct}`);
+          appendText(item, 'p', 'sample-answer', `Lösung: ${task.sample || task.correctLabel || task.correct}`);
           const ol = create('ol'); (task.explanation || task.criteria || []).forEach(step => appendText(ol, 'li', '', step)); item.append(ol);
         }
         section.append(item);

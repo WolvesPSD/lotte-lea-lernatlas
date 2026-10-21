@@ -2123,6 +2123,112 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "en-alex-games-mediation",
+      "subjectId": "en",
+      "title": "Explain the games afternoon to Alex",
+      "scope": "Freiwillige, gestützte Sprachmittlung im 7/8-Rahmen. § 2.2.5 beschreibt ein Ziel bis Ende Klasse 8; die Übung ist kein Nachweis des aktuellen Klasse-7-Unterrichts.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Der Aushang und Alex sind erfunden. Wähle nur die Informationen aus, die Alex für seine Fragen braucht. Eine wörtliche Übersetzung ist nicht nötig; eine echte Nachricht wird nicht versendet.",
+      "introduction": "Alex ist 13 und versteht den deutschen Aushang nicht gut. Alex fragt auf Englisch: “What is this event? Can I join? When and where is it? Is it free? I do not have a game. Can I play a game on my tablet there? Do I have to sign up?” Hilf ihm mit den wichtigen Angaben auf Englisch. Sprachhilfe bei Bedarf: youth centre/center = Jugendhaus; board game = Brettspiel; card game = Kartenspiel; reception/front desk = Empfang. Satzanfänge: “You can …”, “You do not need to …”, “Please sign up …”. Du darfst ein zweisprachiges Wörterbuch benutzen. Der Aushang sagt nichts über das blosse Mitbringen eines Tablets. Offene Antworten werden nicht automatisch benotet.",
+      "passage": "FIKTIVER AUSHANG · Spielenachmittag im Jugendhaus\nFür Kinder von 11 bis 14 Jahren.\nFreitag, 15:30–17:00 Uhr, Gruppenraum 2 im Jugendhaus.\nDie Teilnahme ist kostenlos.\nDu kannst eigene Brett- oder Kartenspiele mitbringen, musst aber nicht. Elektronische Spiele sind nicht erlaubt.\nEine Anmeldung ist nötig: Melde dich spätestens am Mittwoch um 18:00 Uhr am Empfang des Jugendhauses an. Die Plätze sind begrenzt.",
+      "tasks": [
+        {
+          "id": "en-alex-1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 4,
+          "prompt": "A. Schlüsselstellen (2 Kriterienpunkte): Nenne zwei unterschiedliche Stellen im Aushang und sage zu jeder kurz, welche Frage von Alex sie beantwortet. Deutsch genügt.",
+          "sample": "„Für Kinder von 11 bis 14 Jahren“ beantwortet Alex’ Altersfrage. „Elektronische Spiele sind nicht erlaubt“ beantwortet seine Frage nach einem Spiel auf dem Tablet. Auch passende Angaben zu Zeit, Ort, Kosten, eigenem Spiel oder Anmeldung gelten.",
+          "criteria": [
+            "1 Punkt: erste passende Schlüsselstelle mit richtiger Zuordnung zu einer Frage.",
+            "1 Punkt: zweite unterschiedliche passende Schlüsselstelle mit richtiger Zuordnung. Gleichwertige Stellen gelten."
+          ]
+        },
+        {
+          "id": "en-alex-2",
+          "kind": "reflection",
+          "points": 11,
+          "writingLines": 10,
+          "inputRows": 10,
+          "prompt": "B. Nachricht an Alex (11 Kriterienpunkte): Schreibe wenige freundliche englische Sätze oder klare Stichpunkte, die Alex’ Fragen sinngemäss beantworten. Erfinde keine Adresse, keinen Preis und kein allgemeines Tablet-Verbot. Mit 13 passt Alex zur Altersgruppe; ein Platz ist wegen der Begrenzung nicht sicher.",
+          "sample": "Hi Alex, it is a games afternoon for children aged 11 to 14, so you are old enough to take part. It is on Friday from 3:30 to 5:00 pm in group room 2 at the youth centre. It is free, and you do not need to bring a game. You may bring a board or card game, but you cannot play electronic games there, including a game on your tablet. You need to sign up at the youth centre reception by Wednesday at 6:00 pm because places are limited.",
+          "criteria": [
+            "1 Punkt: Spielenachmittag als Veranstaltung richtig erklärt.",
+            "1 Punkt: Alter 11–14 oder Alex mit 13 als altersberechtigt; keine Platzgarantie behauptet.",
+            "1 Punkt: Freitag richtig.",
+            "1 Punkt: vollständiges Zeitfenster 15:30–17:00 Uhr.",
+            "1 Punkt: Gruppenraum 2 im Jugendhaus, beide Ortsangaben.",
+            "1 Punkt: Teilnahme kostenlos.",
+            "1 Punkt: eigenes Brett- oder Kartenspiel nicht nötig.",
+            "1 Punkt: keine elektronischen Spiele, also kein Tablet-Spiel; kein allgemeines Geräteverbot.",
+            "1 Punkt: Anmeldung als Pflicht erkannt.",
+            "1 Punkt: Anmeldung am Empfang spätestens Mittwoch um 18 Uhr, Ort und Frist zusammen.",
+            "1 Punkt: verständliche englische Mitteilung direkt an Alex; sinngemässe Varianten und kleine Fehler ohne Sinnverlust gelten. Sachfehler nicht doppelt abziehen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. Englisch als erste Fremdsprache, § 2.2.5 PDF-S. 30–31: sinngemässe adressatengerechte Sprachmittlung in vertrauter zweisprachiger Situation als Ziel bis Ende Klasse 8.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
+      "id": "fr-mila-drawing-mediation",
+      "subjectId": "fr",
+      "title": "Mila die Zeichenwerkstatt erklären",
+      "scope": "Freiwillige, stark gestützte Sprachmittlung im 7/8-Rahmen. § 3.2.5 nennt ein Ziel bis Ende Klasse 8; die deutsche Nachricht belegt weder französisches Schreiben noch Sprechen.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Der Aushang und Mila sind erfunden. Übertrage nur Milas benötigte Informationen sinngemäss ins Deutsche. Die Wortstütze hilft beim Lesen und ist kein Beleg für selbstständiges französisches Leseverstehen.",
+      "introduction": "Mila versteht den französischen Aushang nicht. Sie fragt auf Deutsch: „Was ist das? Wann und wo kann ich mitmachen? Was brauche ich? Darf mein Hund mitkommen? Kostet es etwas, und muss ich mich anmelden?“ Du brauchst keine wörtliche Übersetzung. Wortstütze bei Bedarf: atelier de dessin = Zeichenwerkstatt; maison des jeunes = Jugendhaus; un crayon = ein Stift; une feuille = ein Blatt Papier; animal vivant = lebendes Tier; gratuite = kostenlos; inscription obligatoire = Anmeldung nötig; jusqu’à mardi inclus = bis einschliesslich Dienstag. Abgeschriebene Wortlisten allein beantworten Milas Fragen nicht. Offene Antworten werden nicht automatisch benotet.",
+      "passage": "FIKTIVER AUSHANG · Atelier de dessin : les animaux\nJeudi, de 16 h à 17 h. Salle 4 de la maison des jeunes.\nApportez un crayon et une feuille. N'apportez pas d'animal vivant.\nParticipation gratuite. Inscription obligatoire au bureau jusqu'à mardi inclus.",
+      "tasks": [
+        {
+          "id": "fr-mila-1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 4,
+          "prompt": "A. Schlüsselstellen (2 Kriterienpunkte): Nenne zwei verschiedene Stellen des Aushangs und erkläre jeweils kurz auf Deutsch, welche Frage von Mila sie beantworten.",
+          "sample": "„Jeudi, de 16 h à 17 h“ beantwortet die Frage nach der Zeit. „N’apportez pas d’animal vivant“ beantwortet die Frage nach einem lebenden Hund. Andere richtig zugeordnete Stellen zu Raum, Material, Kosten oder Anmeldung gelten ebenfalls.",
+          "criteria": [
+            "1 Punkt: erste passende Schlüsselstelle mit korrekter Frage.",
+            "1 Punkt: zweite unterschiedliche Schlüsselstelle mit korrekter Frage. Gleichwertige Stellen gelten."
+          ]
+        },
+        {
+          "id": "fr-mila-2",
+          "kind": "reflection",
+          "points": 9,
+          "writingLines": 9,
+          "inputRows": 9,
+          "prompt": "B. Nachricht an Mila (9 Kriterienpunkte): Schreibe eine kurze natürliche Nachricht auf Deutsch, die ihre Fragen sinngemäss beantwortet. Erfinde keinen Preis und keine Anmeldeadresse. Lebende Tiere dürfen nicht mitkommen; Tierzeichnungen sind nicht verboten.",
+          "sample": "Hallo Mila, das ist eine Zeichenwerkstatt zum Thema Tiere. Sie ist am Donnerstag von 16 bis 17 Uhr in Raum 4 des Jugendhauses. Bring einen Stift und ein Blatt Papier mit; einen lebenden Hund darfst du nicht mitbringen. Die Teilnahme ist kostenlos, aber du musst dich spätestens am Dienstag im Büro anmelden.",
+          "criteria": [
+            "1 Punkt: Zeichenwerkstatt zum Thema Tiere.",
+            "1 Punkt: Donnerstag.",
+            "1 Punkt: vollständiges Zeitfenster 16–17 Uhr.",
+            "1 Punkt: Raum 4 im Jugendhaus, beide Angaben.",
+            "1 Punkt: Stift und Blatt Papier, beides.",
+            "1 Punkt: kein lebendes Tier, damit auch kein Hund; kein Verbot von Tierzeichnungen behaupten.",
+            "1 Punkt: Teilnahme kostenlos.",
+            "1 Punkt: Anmeldung im Büro bis einschliesslich Dienstag als Pflicht, Ort und Frist zusammen.",
+            "1 Punkt: verständliche deutsche Nachricht an Mila mit sinngemässer Auswahl ohne erfundene Fakten; kleine Fehler ohne Sinnverlust gelten. Sachfehler nicht doppelt abziehen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. Französisch als zweite Fremdsprache, § 3.2.5 PDF-S. 63: sinngemässe Übertragung kurzer einfacher Äusserungen in vertrauter zweisprachiger Situation als Ziel bis Ende Klasse 8.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "fr-theo-erlebnisbericht",
       "subjectId": "fr",
       "title": "Théo raconte son atelier",

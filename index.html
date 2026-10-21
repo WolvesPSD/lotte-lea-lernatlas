@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Lotte & Lea – Lernraum</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt</a>
+  <header class="site-header">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">L<span class="brand-dot">·</span>L</span><span>Lotte & Lea <small>Familien-Lernraum</small></span></div>
+    <button class="adult-entry" type="button" data-nav="adult">Für Erwachsene</button>
+    <div class="header-context" role="group" aria-label="Lernbereich wählen"><button class="profile-chip active" type="button" data-profile="lotte" aria-pressed="true">Lotte · Klasse 7</button><button class="profile-chip later" type="button" data-profile="lea" aria-pressed="false">Lea · folgt später</button><span class="device-chip">● Nur auf diesem Gerät</span></div>
+    <nav aria-label="Hauptnavigation">
+      <button type="button" data-nav="home"><span aria-hidden="true">⌂</span> Start</button>
+      <button type="button" data-nav="choose"><span aria-hidden="true">▦</span> Themen</button>
+      <button type="button" data-nav="work"><span aria-hidden="true">✎</span> Lernen</button>
+      <button type="button" data-nav="adult"><span aria-hidden="true">◌</span> Erwachsene</button>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <div id="release-status" class="status-banner" role="status">Interner Technikstand · noch keine fachlich freigegebene Jahresversion.</div>
+    <section id="home-view" class="view" aria-labelledby="home-heading">
+      <div class="hero">
+        <div><p class="eyebrow">Deine Lernroute für heute</p><h1 id="home-heading">Heute lernen.</h1><p class="lead" id="home-lead">Wähle aus, was du heute üben möchtest. Themen aus mehreren Fächern passen in eine Lerneinheit.</p><button class="primary" type="button" data-nav="choose">Themen auswählen <span aria-hidden="true">→</span></button></div>
+        <div class="hero-art" aria-hidden="true"><img src="assets/learning-atlas.webp" width="640" height="960" alt="" loading="eager" decoding="async"></div>
+      </div>
+      <div class="home-dashboard">
+        <div class="home-main">
+          <div class="home-block-heading"><h2>Deine Themen</h2><button type="button" data-nav="choose">Auswahl anpassen →</button></div>
+          <div id="home-topic-cards" class="home-topic-cards"></div>
+          <section class="home-next" aria-labelledby="home-next-heading"><p class="eyebrow">Nächster Schritt</p><h2 id="home-next-heading">Deine aktuelle Aufgabe</h2><p id="home-next-text"></p><button id="home-next-button" type="button" class="primary">Zum Lernen →</button></section>
+        </div>
+        <aside class="home-progress" aria-labelledby="home-progress-heading"><h2 id="home-progress-heading">Dein Lernstand</h2><div id="home-progress-ring" class="progress-ring"><strong id="home-progress-count">–</strong><span>Thema wählen</span></div><p id="home-progress-text">Wähle zuerst ein Thema.</p><button id="home-progress-button" type="button" class="primary">Lernen öffnen →</button><button type="button" data-nav="choose" class="secondary">Themen wählen</button></aside>
+      </div>
+      <div class="home-quick-links"><button type="button" data-nav="choose"><strong>Alle Themen</strong><span>Übersicht nach Fächern →</span></button><button type="button" data-nav="adult"><strong>Für Erwachsene</strong><span>Erklärungen und Druck →</span></button><button type="button" data-nav="feedback"><strong>Rückmeldung</strong><span>Fragen und Hinweise →</span></button></div>
+      <p class="privacy-note">Lernstand bleibt in diesem Browser. Auf einem anderen Gerät erscheint er nicht automatisch. Hier gibt es kein Konto und keine Cloud-Synchronisierung.</p>
+    </section>
+    <section id="lea-view" class="view" hidden aria-labelledby="lea-heading">
+      <div class="section-heading"><p class="eyebrow">Lea · eigener Bereich</p><h1 id="lea-heading">Leas Lernbereich folgt.</h1><p>Für Lea sind noch keine geprüften Aufgaben freigegeben. Hier erscheinen keine Themen, Antworten oder Sicherungen von Lotte.</p></div>
+      <button class="primary" type="button" data-profile="lotte">Zu Lottes Bereich</button>
+      <p class="privacy-note">Die Bereiche verwenden getrennte Lernstände in diesem Browser. Beim Wechsel zu Lotte wird nur Lottes Stand angezeigt.</p>
+    </section>
+    <section id="choose-view" class="view" hidden aria-labelledby="choose-heading">
+      <div class="section-heading"><p class="eyebrow">Lotte · Klasse 7</p><h1 id="choose-heading">Was steht heute an?</h1><p id="choose-description">Fachlich freigegebene Jahresmodule werden hier nach Prüfung auswählbar.</p></div>
+      <div class="choose-workspace"><div id="topic-list" class="subject-groups"></div>
+      <aside class="selection-bar" aria-label="Deine Lernroute"><div><h2>Deine Lernroute</h2><p id="selection-summary" aria-live="polite"></p><p id="selection-by-subject" class="selection-detail"></p><ol id="selected-route-list"></ol></div><button class="primary" id="start-learning" type="button">Lerneinheit öffnen</button></aside></div>
+      <details class="coverage"><summary>Fächer und Quellenstand ansehen</summary><div id="subject-list"></div><button type="button" data-nav="adult" class="source-jump">Amtliche Lehrplanlinks für Erwachsene</button></details>
+    </section>
+    <section id="work-view" class="view" hidden aria-labelledby="work-heading">
+      <div class="section-heading"><p class="eyebrow">Deine Lerneinheit</p><h1 id="work-heading">Schritt für Schritt.</h1><p>Antworten werden auf diesem Gerät gespeichert. Du kannst das Thema wechseln und später zurückkommen.</p></div>
+      <div id="work-empty" class="empty-state" hidden><p>Wähle zuerst mindestens ein Thema.</p><button type="button" data-nav="choose">Zur Themenauswahl</button></div>
+      <div id="work-layout" class="work-layout"><div class="work-route"><button id="switch-topic" type="button" aria-expanded="false" aria-controls="topic-tabs">Thema wechseln</button><nav id="topic-tabs" aria-label="Themen dieser Lerneinheit"></nav></div><div id="work-content"></div></div>
+    </section>
+    <section id="adult-view" class="view" hidden aria-labelledby="adult-heading">
+      <div class="section-heading"><p class="eyebrow">Begleitung</p><h1 id="adult-heading">Für Erwachsene.</h1><p>Alle Musterlösungen und Rechenschritte sind hier getrennt vom Arbeitsbereich erklärt. Diese Ansicht ist nicht mit einem Passwort geschützt.</p></div>
+      <nav class="adult-jumps" aria-label="Bereiche für Erwachsene"><button type="button" data-adult-jump="sources">Quellen</button><button type="button" data-adult-jump="print">Drucken</button><button type="button" data-adult-jump="backup">Sicherung</button><button type="button" data-nav="feedback">Rückmeldung</button></nav>
+      <details class="source-panel"><summary id="sources-heading">Woher stammen die Lehrpläne?</summary><p>Die amtlichen Links führen zum Thüringer Schulportal. Unsere Themen sind daraus abgeleitete, eigens verfasste Übungen. „Fachlich freigegeben“ bezeichnet die geprüfte Aufgabe in dieser App; es bestätigt weder Lottes Unterrichtsfolge noch eine vollständige Jahresabdeckung. Die öffentlichen Fachdokumente konnten nicht mit allen lokalen Arbeitskopien bytegleich abgeglichen werden.</p><div id="parent-source-list" class="source-grid"></div></details>
+      <div id="adult-content"></div>
+      <div class="adult-actions"><button id="print-children" type="button">Kinder-Arbeitsblatt drucken</button><button id="print-adult" type="button">Lösungsblatt drucken</button><button type="button" data-nav="feedback">Rückmeldung vorbereiten</button></div>
+      <section class="backup-panel" aria-labelledby="backup-heading"><h2 id="backup-heading" tabindex="-1">Lottes Lernstand sichern</h2><p>Diese Sicherung gehört nur zu Lotte. Antworten liegen nur in diesem Browserprofil. Andere Personen mit demselben Browserprofil können sie sehen; beim Löschen der Websitedaten können sie verloren gehen. Du kannst eine private JSON-Sicherung speichern und später bewusst auf einem anderen Gerät in Lottes Bereich importieren. Der Import ersetzt dort Lottes Stand vollständig.</p><div class="adult-actions"><button id="export-progress" type="button">Lottes private Sicherung herunterladen</button><label class="import-button" for="import-progress">Lottes Sicherung auswählen</label><input id="import-progress" type="file" accept="application/json,.json"></div><p id="backup-status" role="status"></p></section>
+    </section>
+    <section id="feedback-view" class="view" hidden aria-labelledby="feedback-heading">
+      <div class="section-heading"><p class="eyebrow">Kontakt</p><h1 id="feedback-heading">Hilf uns, es passend zu machen.</h1><p>Wähle den passenden Weg. Ein Klick öffnet nur einen E-Mail-Entwurf an Robert. Lotte oder ihre Mutter prüfen ihn und senden ihn selbst. Fotos oder Arbeitsblätter können danach im E-Mail-Programm manuell angehängt werden; die App übernimmt keine Anhänge.</p></div>
+      <div class="contact-route-choices" role="group" aria-label="Kontaktweg wählen"><button type="button" data-contact-choice="feedback" aria-controls="feedback-form" aria-expanded="false"><strong>Feedback zur App</strong><span>Fehler, Unklarheit oder Verbesserung melden →</span></button><button type="button" data-contact-choice="material" aria-controls="material-form" aria-expanded="false"><strong>Unterrichtsinformation fehlt</strong><span>Fach, Thema oder Materialstand ergänzen →</span></button></div>
+      <div class="contact-grid">
+        <form id="feedback-form" class="contact-form"><h2>Feedback zur App</h2><p>Für Fazit, Fehler und Ideen. Die App übernimmt keine Lernantworten.</p><label for="feedback-profile">Bereich</label><select id="feedback-profile"><option value="Lotte">Lotte</option><option value="Lea">Lea</option><option value="Allgemein">Allgemein</option></select><label for="feedback-type">Art der Rückmeldung</label><select id="feedback-type" required><option value="">Bitte wählen</option><option>Fehler</option><option>Unklare Stelle</option><option>Verbesserung</option><option>Fehlende Information</option></select><label for="feedback-area">App-Bereich</label><select id="feedback-area"><option value="">Optional wählen</option><option>Start</option><option>Fach- und Themenwahl</option><option>Lernen und Antwortprüfung</option><option>Erwachsenenbereich</option><option>Drucken</option><option>Datensicherung</option><option>Kontakt</option></select><label for="feedback-topic">Fach und Thema</label><select id="feedback-topic"><option value="">Optional wählen</option></select><label for="feedback-task">Aufgabe oder Stelle</label><input id="feedback-task" maxlength="100" placeholder="Optional, zum Beispiel Aufgabe 2"><label for="feedback-conclusion">Dein Fazit</label><textarea id="feedback-conclusion" rows="2" maxlength="1000" placeholder="Was klappt gut oder weniger gut?"></textarea><label for="feedback-error">Beschreibung</label><textarea id="feedback-error" rows="3" maxlength="1000" placeholder="Was ist passiert oder war unklar?"></textarea><label for="feedback-wish">Erwartetes Verhalten oder Vorschlag</label><textarea id="feedback-wish" rows="3" maxlength="1000" placeholder="Was würde dir helfen?"></textarea><label for="feedback-device">Gerät oder Browser</label><input id="feedback-device" maxlength="100" placeholder="Optional, ohne persönliche Angaben"><button class="primary" type="submit">E-Mail vorab ansehen</button><div id="feedback-preview" class="mail-preview" hidden><h3>E-Mail-Inhalt prüfen</h3><pre></pre><a id="feedback-open-mail" class="mail-open-link" href="#">E-Mail-Entwurf öffnen</a></div><p id="feedback-status" role="status"></p></form>
+        <form id="material-form" class="contact-form"><h2>Unterrichtsinformation fehlt</h2><p>Für fehlende Fächer, Themen oder freiwillig geteilte Materialien.</p><label for="material-profile">Bereich</label><select id="material-profile"><option value="Lotte">Lotte</option><option value="Lea">Lea</option></select><label for="material-subject">Fach</label><input id="material-subject" type="text" maxlength="80" required placeholder="Zum Beispiel Mathematik"><label for="material-topic">Thema</label><input id="material-topic" type="text" maxlength="120" required placeholder="Zum Beispiel Bruchrechnung"><label for="material-missing">Welche Information fehlt?</label><textarea id="material-missing" rows="3" maxlength="1000" required placeholder="Zum Beispiel aktuelles Unterrichtsthema oder Aufgabentyp"></textarea><label for="material-known">Was ist dazu bereits bekannt?</label><textarea id="material-known" rows="3" maxlength="1000" placeholder="Optional: Buchkapitel, Themenliste oder eigene Beobachtung; keine Noten oder Namen nötig."></textarea><label for="material-use">Welche Ergänzung wäre hilfreich?</label><textarea id="material-use" rows="3" maxlength="1000" placeholder="Optional: Übung, Erklärung oder anderer Wunsch"></textarea><label for="material-note">Freiwilliger Hinweis</label><textarea id="material-note" rows="2" maxlength="1000" placeholder="Optional, ohne private Angaben."></textarea><p class="attachment-note">Fotos oder Arbeitsblätter nur bei Bedarf im E-Mail-Programm selbst anhängen.</p><button class="primary" type="submit">E-Mail vorab ansehen</button><div id="material-preview" class="mail-preview" hidden><h3>E-Mail-Inhalt prüfen</h3><pre></pre><a id="material-open-mail" class="mail-open-link" href="#">E-Mail-Entwurf öffnen</a></div><p id="material-status" role="status"></p></form>
+      </div>
+      <p id="contact-setup-status" class="privacy-note" role="status"></p>
+    </section>
+  </main>
+  <footer><span>Lotte & Lea · lokale Arbeitsfassung</span><button type="button" data-nav="feedback">Rückmeldung</button></footer>
+  <div id="print-surface" aria-hidden="true"></div>
+  <script src="catalog.js"></script><script src="contact.js"></script><script src="app.js"></script>
+</body>
+</html>

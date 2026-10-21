@@ -1,0 +1,43 @@
+{
+  "builtAt": "2026-10-21T03:33:38.689Z",
+  "releasedTopics": [
+    "de-lesestrategien-bibliothek",
+    "de-leseecke-ueberarbeiten",
+    "de-drama-lyrik-spuren",
+    "de-roter-faden-epik",
+    "ma-binomische-flaechen",
+    "ma-zufall-80-versuche",
+    "de-sprachreflexion-bericht",
+    "en-sprachreflexion-lesewerkstatt",
+    "fr-sprachreflexion-einladung",
+    "fr-reponse-elodie",
+    "de-inhaltsangabe-wegkarte",
+    "de-namensschild-deutung",
+    "mbi-quellen-ki",
+    "fr-message-fixture",
+    "de-quellen-fixture",
+    "de-meldung-termin",
+    "en-update-fixture",
+    "en-sketchbook-story",
+    "ma-tank-zuordnung",
+    "ma-prozent-fixture"
+  ],
+  "subjects": [
+    "de",
+    "ma",
+    "en",
+    "fr",
+    "mbi"
+  ],
+  "grade8OutlookTopics": [
+    "ma-binomische-flaechen",
+    "ma-zufall-80-versuche",
+    "en-sprachreflexion-lesewerkstatt",
+    "fr-sprachreflexion-einladung",
+    "fr-reponse-elodie",
+    "mbi-quellen-ki",
+    "ma-tank-zuordnung",
+    "ma-prozent-fixture"
+  ],
+  "note": "Struktur, lokaler PDF-Hash und Lösungsfelder geprüft. Fach-, Geräte-, Datenschutz- und Veröffentlichungsfreigabe getrennt dokumentieren."
+}

@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-21T08:22:42.687Z",
-  "releaseVersion": "2026.10.21-i3.1",
+  "builtAt": "2026-10-21T08:36:34.880Z",
+  "releaseVersion": "2026.10.21-i5.1",
   "newTopicIds": [
-    "mbi-simunet-datensparsam"
+    "mbi-luefterregler-gestalten"
   ],
   "changeLog": [
-    "MBI I3: fiktive Social-Media-Einstellungen, Gruppensichtbarkeit und gesponserte Empfehlung anhand eines klaren Datensparsamkeitsziels beurteilen.",
-    "Sieben feste SimuNet-Entscheidungen ohne echte Konten, Fotos, Kontakte oder Uploads; Offline-Alternative und Grenzen der Simulation ausdrücklich sichtbar."
+    "MBI I5: fiktive Lüfterregeln aus vier sichtbaren Karten bauen, eine Zehn-Schritt-Folge testen und Grenz- und Fehlerfälle erklären.",
+    "Das lokale Browserlabor steuert keine Hardware; Kinderblatt, Erwachsenenlösung und Grenzen der Bildschirm-Simulation sind ausdrücklich sichtbar."
   ],
-  "rollbackCommit": "333546c1cbd588d76b159a07159aedf682f3d119",
+  "rollbackCommit": "31606656b32299be7bbb29f9c1a556e12950a29a",
   "releasedTopics": [
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
@@ -48,6 +48,7 @@
     "de-innerer-monolog-projekttisch",
     "mbi-lesepause-medienwerkstatt",
     "mbi-simunet-datensparsam",
+    "mbi-luefterregler-gestalten",
     "mbi-buchdaten-labor",
     "de-karte-im-regen-vortrag",
     "de-heidi-ganzschrift-begleiter"
@@ -74,6 +75,7 @@
     "ma-kuehlkasten-rationale-zahlen",
     "mbi-lesepause-medienwerkstatt",
     "mbi-simunet-datensparsam",
+    "mbi-luefterregler-gestalten",
     "mbi-buchdaten-labor"
   ],
   "note": "Struktur, lokaler PDF-Hash und Lösungsfelder geprüft. Fach-, Geräte-, Datenschutz- und Veröffentlichungsfreigabe getrennt dokumentieren."

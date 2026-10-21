@@ -2893,6 +2893,112 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-luefterregler-gestalten",
+      "subjectId": "mbi",
+      "title": "Lüfterregler: Regeln bauen und prüfen",
+      "scope": "Ausblick Klasse 8 · freiwillig. §2.2.5 Eingebettete Systeme trägt die Zielmarke Klasse 8. Der Browser zeigt nur eine fiktive Regel-Simulation; echte Hardware, grafische Programmierung in einer allgemeinen Entwicklungsumgebung und Lottes aktueller Unterricht sind nicht belegt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst nur die Regeln in diesem Thema. Sensor = Messgerät; Aktor = Teil, das etwas bewegt. Öffne das lokale Lüfterlabor und baue dort deine Regelkarten. Verbinde keine echte Schaltung. Die Temperaturgrenzen sind erfundene Übungswerte.",
+      "introduction": "Eine Modell-AG entwirft einen fiktiven Lüfter. Der gedachte Sensor meldet eine Temperatur in °C oder „kein Wert“. Der Lüfter startet AUS. Bei 28 °C oder mehr soll er AN werden; bei 25 °C oder weniger AUS. Dazwischen behält er den Zustand unmittelbar vor diesem Schritt. Nur Werte von −10 bis 50 °C einschliesslich sind gültig. Ein fehlender oder ungültiger Wert führt zu AUS und zur Warnung „Sensorwert ungültig – prüfen“. Diese zwei Schaltgrenzen verhindern dauerndes Hin und Her. Öffne das Lüfterlabor, setze die Regelkarten selbst und starte den Test. Die App kann deine Laborbedienung nicht beobachten oder automatisch benoten; notiere deshalb deine Schritte und Beobachtungen. Keine echte Schaltung bauen.",
+      "passage": "TESTFOLGE · 24, 28, 27, 26, 25, 26, kein Wert, 30, 51, 27 °C. Beginne bei AUS. Für jeden Wert gilt der Zustand nach dem vorigen Schritt als „davor“. Die zwei Fehlerwerte sind „kein Wert“ und 51 °C. Ein angezeigter AN-Befehl beweist noch keine wirkliche Lüfterbewegung.",
+      "lab": {
+        "path": "assets/mbi-luefterregler.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/mbi-luefterregler.html",
+        "title": "Lüfterlabor",
+        "description": "Baue in einem neuen Tab vier sichtbare Regelkarten und teste die fiktive Zehn-Schritt-Folge. Kehre für deine Erklärungen in den Lernatlas zurück. Das Labor speichert nichts dauerhaft und steuert kein Gerät.",
+        "printNote": "Die Regelkarten und der Test laufen nur im Browser. Das Blatt allein belegt keine eigene Bedienung. Keine echte Schaltung anschliessen."
+      },
+      "tasks": [
+        {
+          "id": "mbi-luefter-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "inputRows": 6,
+          "prompt": "A. System und EVAS (4 Kriterienpunkte): Ordne Sensormesswert, Recheneinheit mit Regel, Lüfterbefehl und gemerkten Zustand den Schritten Eingabe, Verarbeitung, Ausgabe und Speicherung zu. Warum beweist der Befehl AN noch keine echte Lüfterbewegung?",
+          "sample": "Eingabe ist der gedachte Temperatursensorwert. Die Recheneinheit verarbeitet ihn mit Gültigkeits- und Schaltregel. Ausgabe sind AN/AUS-Befehl und gegebenenfalls Warnung. Gespeichert wird der Zustand nach dem Schritt für die nächste Entscheidung. Eine wirkliche Bewegung müsste man am echten Aktor getrennt beobachten; ein defekter Lüfter könnte trotz Befehl stehen bleiben.",
+          "criteria": [
+            "1 Punkt: Sensormesswert als Eingabe.",
+            "1 Punkt: Regelprüfung in der gedachten Recheneinheit als Verarbeitung.",
+            "1 Punkt: Lüfterbefehl und Fehlerwarnung als Ausgaben.",
+            "1 Punkt: Zustand als Speicherung und fehlende Beobachtung echter Aktorwirkung richtig verbunden."
+          ]
+        },
+        {
+          "id": "mbi-luefter-2",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 10,
+          "inputRows": 10,
+          "prompt": "B. Regelkarten bauen (7 Kriterienpunkte): Baue im Lüfterlabor alle vier Karten. Teste die Zehn-Schritt-Folge. Notiere deine Werte/Schalter für Fehler, obere Grenze, untere Grenze und Zwischenbereich. Zeichne zusätzlich ein kleines Ablaufbild mit den vier Pfaden Fehler, AN, AUS, Beibehalten oder beschreibe die Verzweigung eindeutig in Worten. Falls das Labor nicht öffnet, plane dieselben Regeln ausdrücklich nur auf Papier; kennzeichne die nicht ausgeführte Bedienung.",
+          "sample": "Fehlerkarte: AUS mit sichtbarer Warnung für fehlende/nicht endliche oder ausserhalb −10 bis 50 °C liegende Werte. Obere Karte: ≥28 °C → AN. Untere Karte: ≤25 °C → AUS. Sonst: vorherigen Zustand beibehalten. Reihenfolge: erst Gültigkeit, dann obere, dann untere Grenze, sonst Halten; danach Zustand und Status ausgeben und den Zustand für den nächsten Schritt merken. Im Browser ergaben sich 10/10 passende Schritte; dieses Ergebnis allein wäre durch Bedienprotokoll zu belegen.",
+          "criteria": [
+            "1 Punkt: Fehlerwert zuerst und sicherer Übungsausgang AUS.",
+            "1 Punkt: gültiger Bereich −10 bis 50 °C einschliesslich und sichtbare Warnung.",
+            "1 Punkt: obere Regel ≥28 °C führt zu AN.",
+            "1 Punkt: untere Regel ≤25 °C führt zu AUS.",
+            "1 Punkt: Zwischenbereich übernimmt den Zustand direkt vor diesem Schritt.",
+            "1 Punkt: neuen Zustand/Status ausgeben und als nächsten Vorzustand verwenden.",
+            "1 Punkt: vier Pfade als kleine Grafik oder eindeutige Verzweigung; tatsächliche Laborbedienung nur bei eigener Testbeobachtung annehmen. Ein Papierplan bleibt als Plan bewertbar, nicht als Bediennachweis."
+          ]
+        },
+        {
+          "id": "mbi-luefter-3",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 10,
+          "inputRows": 10,
+          "prompt": "C. Zustandsfolge (7 Kriterienpunkte): Schreibe für die zehn Werte der Testfolge den Lüfterzustand nach jedem Schritt als Folge von AN/AUS auf. Nenne bei welchen Schritten die Warnung erscheint. Erkläre kurz, weshalb 27 °C in Schritt 3 anders ausgeht als 27 °C in Schritt 10.",
+          "sample": "1 AUS, 2 AN, 3 AN, 4 AN, 5 AUS, 6 AUS, 7 AUS mit Warnung, 8 AN, 9 AUS mit Warnung, 10 AUS. Bei 27 °C wird der vorherige Zustand behalten: In Schritt 3 ist er nach 28 °C AN, in Schritt 10 nach dem Fehler bei 51 °C AUS.",
+          "criteria": [
+            "1 Punkt: Schritte 1–2 AUS, AN.",
+            "1 Punkt: Schritte 3–4 AN, AN durch Halten.",
+            "1 Punkt: Schritte 5–6 AUS, AUS.",
+            "1 Punkt: Schritt 7 AUS mit Warnung.",
+            "1 Punkt: Schritt 8 AN.",
+            "1 Punkt: Schritt 9 AUS mit Warnung.",
+            "1 Punkt: Schritt 10 AUS und verschiedene Vorzustände bei 27 °C erklärt. Folgefehler nicht mehrfach abziehen, wenn die Regel verstanden ist."
+          ]
+        },
+        {
+          "id": "mbi-luefter-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "prompt": "D. Fehler suchen (4 Kriterienpunkte): Eine fremde Kurzregel lautet „ab 28 °C AN, sonst AUS“ und prüft fehlende Werte nicht. Nenne den ersten falschen Schritt der Testfolge mit gültigem Wert, erkläre den Fehler und gib zwei Tests bei 27 °C mit verschiedenem Zustand davor an. Welcher Zusatztest zeigt die fehlende Fehlerbehandlung?",
+          "sample": "Schritt 3 ist der erste Fehler: Nach Schritt 2 ist der Zustand AN und muss bei 27 °C gehalten werden. Die Kurzregel setzt ihn fälschlich AUS. Zwei Tests: 27 °C nach AN → AN und 27 °C nach AUS → AUS. Ein fehlender Wert oder 51 °C nach AN muss AUS plus Warnung ergeben; die Kurzregel hat keinen solchen Fehlerpfad.",
+          "criteria": [
+            "1 Punkt: Schritt 3 als erster gültiger Fehler.",
+            "1 Punkt: fehlende Halteregel erklärt.",
+            "1 Punkt: beide 27-°C-Tests mit verschiedenen Vorzuständen und Ergebnissen.",
+            "1 Punkt: fehlender oder ausserhalb des Bereichs liegender Wert als konkreter Test für AUS plus Warnung."
+          ]
+        },
+        {
+          "id": "mbi-luefter-5",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "inputRows": 6,
+          "prompt": "E. Nutzen und Nachweis (3 Kriterienpunkte): Nenne einen möglichen Nutzen und ein konkretes Risiko der gedachten Automatik. Welche drei Dinge müssten bei einem späteren beaufsichtigten echten Aufbau zusammenpassen, bevor ihr behaupten dürft, dass der Lüfter wirklich richtig schaltet? Baue oder verbinde hier nichts.",
+          "sample": "Eine Automatik kann nach festgelegten Regeln auf Temperaturänderungen reagieren. Ein fehlerhafter Sensor oder klemmender Lüfter kann trotzdem zu falscher Wirkung führen. Bei einer sicheren beaufsichtigten Prüfung müssten tatsächlicher Messwert oder definierte Testeingabe, angezeigter Programmbefehl und beobachtete Lüfterbewegung zusammenpassen, auch an den Grenzen und bei Fehlerwerten.",
+          "criteria": [
+            "1 Punkt: plausibler Nutzen fester automatischer Reaktion.",
+            "1 Punkt: konkretes Sensor- oder Aktorrisiko.",
+            "1 Punkt: reale Eingabe, angezeigter Befehl und beobachtete Wirkung als drei getrennte Nachweise unter Aufsicht."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.5 PDF-S. 26–27: Sensor/Aktor, EVAS, Problemzerlegung, Algorithmus in Wort und Grafik, Implementierung, systematische Tests und Fehlersuche unter Klassenstufe 8.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "mbi-buchdaten-labor",
       "subjectId": "mbi",
       "title": "Buchdaten filtern und ändern",

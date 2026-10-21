@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fiktiver Lüfterregler · Lotte & Lea</title>
+  <style>
+    :root{font:16px/1.5 system-ui,sans-serif;color:#17313a;background:#f3f6f2}*{box-sizing:border-box}body{margin:0}main{max-width:920px;margin:auto;padding:1.2rem}h1,h2{line-height:1.2}h1{font-size:clamp(1.6rem,4vw,2.4rem)}.notice,.block,.results{background:white;border:1px solid #baccc4;border-radius:.8rem;padding:1rem;margin:1rem 0}.notice{border-left:5px solid #17695e}.flow{display:grid;gap:.8rem}.block{margin:0;border-left:5px solid #3a756a}.block strong{display:block;font-size:1.12rem;margin-bottom:.4rem}.block p{margin:.3rem 0}.arrow{text-align:center;font-weight:800;color:#4c655e}label{display:inline-flex;align-items:center;gap:.35rem;flex-wrap:wrap;margin:.3rem .6rem .3rem 0}input[type=number],select{font:inherit;min-height:44px;border:1px solid #78948c;border-radius:.35rem;background:white;color:#17313a;padding:.35rem}input[type=number]{width:5.5rem}button{font:inherit;font-weight:700;min-height:44px;border:0;border-radius:.45rem;background:#17695e;color:white;padding:.6rem 1rem;cursor:pointer;margin:.3rem .6rem .3rem 0}button.secondary{background:#415c62}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #e39424;outline-offset:2px}.hint{font-size:.9rem;color:#435e58}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;min-width:520px}th,td{text-align:left;border-bottom:1px solid #d4e0da;padding:.4rem}tr.fail{background:#fff0e9}tr.ok{background:#f0f8f2}.status{font-weight:700}footer{margin:2rem 0;color:#435e58;font-size:.9rem}@media print{body{background:white}main{max-width:none}.block,.notice,.results{break-inside:avoid}button{display:none}}
+  </style>
+</head>
+<body>
+<main>
+  <p><a href="../index.html">← Zurück zum Lernatlas</a></p>
+  <h1>Fiktiver Lüfterregler</h1>
+  <div class="notice"><strong>Nur eine Bildschirm-Simulation.</strong> Kein Sensor, Lüfter, Mikrocontroller oder Konto ist verbunden. Es gibt keine Netzwerkübertragung. Die Temperaturgrenzen sind erfundene Übungswerte und keine Empfehlung für ein echtes Gewächshaus. Baue oder verbinde keine Schaltung.</div>
+  <p>Baue die vier Regelkarten. Der gedachte Sensor liefert eine Zahl in °C oder „kein Wert“. Der Startzustand ist <strong>AUS</strong>. Gültige Übungswerte reichen von −10 bis 50 °C einschliesslich. Eine Karte wird pro Messschritt von oben nach unten geprüft. Die erste passende Entscheidung gilt. „Beibehalten“ übernimmt den Zustand <em>vor diesem Messschritt</em>.</p>
+  <div class="flow" aria-label="Regelablauf von oben nach unten">
+    <div class="block"><strong>1 · Sensorwert prüfen</strong><p>Falls kein Wert, keine endliche Zahl oder ausserhalb −10 bis 50 °C:</p><label>Ausgabe <select id="invalid-action"><option value="">Bitte wählen</option><option value="off">AUS</option><option value="on">AN</option><option value="keep">Beibehalten</option></select></label><label><input id="warning" type="checkbox"> sichtbare Meldung „Sensorwert ungültig – prüfen“</label></div>
+    <div class="arrow" aria-hidden="true">↓ sonst</div>
+    <div class="block"><strong>2 · Obere Grenze</strong><label>Temperatur <select id="upper-compare"><option value="">Vergleich wählen</option><option value="gte">≥</option><option value="gt">&gt;</option></select> <input id="upper-value" type="number" step="1" aria-label="Obere Grenze in Grad Celsius"> °C</label><label>dann <select id="upper-action"><option value="">Ausgabe wählen</option><option value="on">AN</option><option value="off">AUS</option><option value="keep">Beibehalten</option></select></label></div>
+    <div class="arrow" aria-hidden="true">↓ sonst</div>
+    <div class="block"><strong>3 · Untere Grenze</strong><label>Temperatur <select id="lower-compare"><option value="">Vergleich wählen</option><option value="lte">≤</option><option value="lt">&lt;</option></select> <input id="lower-value" type="number" step="1" aria-label="Untere Grenze in Grad Celsius"> °C</label><label>dann <select id="lower-action"><option value="">Ausgabe wählen</option><option value="on">AN</option><option value="off">AUS</option><option value="keep">Beibehalten</option></select></label></div>
+    <div class="arrow" aria-hidden="true">↓ sonst</div>
+    <div class="block"><strong>4 · Zwischen den Grenzen</strong><label>dann <select id="middle-action"><option value="">Ausgabe wählen</option><option value="keep">Beibehalten</option><option value="off">AUS</option><option value="on">AN</option></select></label></div>
+  </div>
+  <p><button id="test" type="button">Meine Regeln testen</button><button id="reset" class="secondary" type="button">Eingaben leeren</button></p>
+  <div class="results" aria-live="polite"><h2>Testprotokoll</h2><p id="summary">Noch kein Test ausgeführt. Wähle zuerst für jede Karte eine Regel.</p><div class="table-wrap"><table id="table" hidden><thead><tr><th>Schritt</th><th>Wert</th><th>Davor</th><th>Danach</th><th>Status</th><th>Prüfung</th></tr></thead><tbody></tbody></table></div><h3 id="probe-heading" hidden>Gezielte Grenzproben</h3><ul id="probes"></ul></div>
+  <p class="hint">Die Tabelle zeigt zehn aufeinanderfolgende simulierte Messungen. Die Grenzproben prüfen zusätzlich 27 °C mit zwei Vorzuständen, 27,5 °C und die Enden des gültigen Bereichs. Eine Markierung zeigt, ob die Ausgabe zu den Übungsregeln passt; sie ersetzt keine Erklärung. Ein richtiger Bildschirmbefehl beweist keine echte Lüfterbewegung.</p>
+  <footer>Lotte & Lea · fiktiver lokaler Übungsfall · keine Speicherung nach dem Schliessen oder Neuladen dieser Laborseite.</footer>
+</main>
+<script>
+(() => {
+  'use strict';
+  const $ = id => document.getElementById(id);
+  const ids = ['invalid-action','upper-compare','upper-value','upper-action','lower-compare','lower-value','lower-action','middle-action'];
+  const values = [24,28,27,26,25,26,null,30,51,27];
+  const expected = [false,true,true,true,false,false,false,true,false,false];
+  const expectedWarning = [false,false,false,false,false,false,true,false,true,false];
+  const probeCases = [
+    { label:'27 °C nach AN', value:27, before:true, expected:true, warning:false },
+    { label:'27 °C nach AUS', value:27, before:false, expected:false, warning:false },
+    { label:'27,5 °C nach AUS', value:27.5, before:false, expected:false, warning:false },
+    { label:'−10 °C nach AN', value:-10, before:true, expected:false, warning:false },
+    { label:'50 °C nach AUS', value:50, before:false, expected:true, warning:false },
+    { label:'−11 °C nach AN', value:-11, before:true, expected:false, warning:true }
+  ];
+  const action = (kind, previous) => kind === 'on' ? true : kind === 'off' ? false : previous;
+  const compare = (kind, value, limit) => kind === 'gte' ? value >= limit : kind === 'gt' ? value > limit : kind === 'lte' ? value <= limit : value < limit;
+  function settings() {
+    const missing = ids.filter(id => $(id).value === '');
+    if (missing.length) { $('summary').textContent = 'Bitte alle acht Regelangaben ausfüllen. Die Warnmeldung ist eine zusätzliche bewusste Wahl.'; $('table').hidden = true; $('probe-heading').hidden = true; $('probes').replaceChildren(); $(missing[0]).focus(); return null; }
+    const upper = Number($('upper-value').value), lower = Number($('lower-value').value);
+    if (!Number.isFinite(upper) || !Number.isFinite(lower) || lower >= upper) { $('summary').textContent = 'Die untere Grenze muss kleiner als die obere sein.'; $('table').hidden = true; $('probe-heading').hidden = true; $('probes').replaceChildren(); $('lower-value').focus(); return null; }
+    return { invalidAction:$('invalid-action').value, warning:$('warning').checked, upperCompare:$('upper-compare').value, upper, upperAction:$('upper-action').value, lowerCompare:$('lower-compare').value, lower, lowerAction:$('lower-action').value, middleAction:$('middle-action').value };
+  }
+  function step(value, previous, s) {
+    if (typeof value !== 'number' || !Number.isFinite(value) || value < -10 || value > 50) return { state: action(s.invalidAction, previous), warning:s.warning };
+    if (compare(s.upperCompare,value,s.upper)) return { state:action(s.upperAction,previous), warning:false };
+    if (compare(s.lowerCompare,value,s.lower)) return { state:action(s.lowerAction,previous), warning:false };
+    return { state:action(s.middleAction,previous), warning:false };
+  }
+  $('test').addEventListener('click', () => {
+    const s=settings(); if (!s) return;
+    const body=$('table').querySelector('tbody'); body.replaceChildren(); let previous=false, correct=0;
+    values.forEach((value,index) => {
+      const before=previous, result=step(value,before,s), ok=result.state===expected[index] && result.warning===expectedWarning[index];
+      if (ok) correct++;
+      const row=document.createElement('tr'); row.className=ok?'ok':'fail';
+      [String(index+1),value===null?'kein Wert':`${value} °C`,before?'AN':'AUS',result.state?'AN':'AUS',result.warning?'Sensorwert ungültig – prüfen':'normal',ok?'passt':'prüfen'].forEach(cell => { const td=document.createElement('td'); td.textContent=cell; row.append(td); });
+      body.append(row); previous=result.state;
+    });
+    $('table').hidden=false;
+    const probeList=$('probes'); probeList.replaceChildren(); let probeCorrect=0;
+    probeCases.forEach(test => {
+      const result=step(test.value,test.before,s), ok=result.state===test.expected && result.warning===test.warning;
+      if (ok) probeCorrect++;
+      const item=document.createElement('li'); item.textContent=`${test.label}: ${result.state?'AN':'AUS'}${result.warning?' mit Warnung':''} – ${ok?'passt':'prüfen'}`; item.dataset.result=ok?'ok':'fail'; probeList.append(item);
+    });
+    $('probe-heading').hidden=false;
+    $('summary').textContent=`${correct} von 10 Schritten und ${probeCorrect} von 6 Grenzproben passen zu den Übungsregeln. ${correct===10 && probeCorrect===6?'Erkläre, warum 27 °C in den Schritten 3 und 10 verschieden ausgeht.':'Suche den ersten markierten Fehler und ändere eine passende Regelkarte.'}`;
+  });
+  $('reset').addEventListener('click', () => { ids.forEach(id => { $(id).value=''; }); $('warning').checked=false; $('table').hidden=true; $('table').querySelector('tbody').replaceChildren(); $('probe-heading').hidden=true; $('probes').replaceChildren(); $('summary').textContent='Eingaben geleert. Noch kein Test ausgeführt.'; });
+})();
+</script>
+</body>
+</html>

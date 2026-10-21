@@ -339,6 +339,14 @@
     if (topic.prerequisite) appendText(intro, 'p', 'muted', topic.prerequisite);
     appendText(intro, 'p', '', topic.introduction);
     if (topic.passage) appendText(intro, 'blockquote', 'reading-passage', topic.passage);
+    if (topic.lab) {
+      const lab = create('section', 'lab-card');
+      appendText(lab, 'h3', '', topic.lab.title);
+      appendText(lab, 'p', '', topic.lab.description);
+      const link = create('a', 'lab-open', `${topic.lab.title} in neuem Tab öffnen ↗`);
+      link.href = topic.lab.path; link.target = '_blank'; link.rel = 'noopener noreferrer';
+      lab.append(link); intro.append(lab);
+    }
     host.append(intro);
     for (const [index, task] of topic.tasks.entries()) host.append(renderTask(topic, task, index));
     if (topic.practice) host.append(renderPractice(topic.practice, false));
@@ -406,6 +414,7 @@
       appendText(section, 'p', 'eyebrow', subjectById.get(topic.subjectId).name);
       appendText(section, 'h2', '', topic.title);
       appendText(section, 'p', 'level-tag', levelLabel(topic));
+      if (topic.lab) appendText(section, 'p', 'muted', `${topic.lab.title}: Praktische Bedienung im neuen Tab nur nach tatsächlich beobachteten Schritten beurteilen. Geschriebene Antworten belegen die Klicks nicht automatisch.`);
       for (const [index, task] of topic.tasks.entries()) {
         const item = create('article', 'adult-task');
         appendText(item, 'h3', '', `${index + 1}. ${task.prompt}`);
@@ -468,6 +477,10 @@
       if (topic.prerequisite) appendText(section, 'p', 'print-context', topic.prerequisite);
       appendText(section, 'p', 'print-context', topic.introduction);
       if (topic.passage) appendText(section, 'p', 'print-passage', topic.passage);
+      if (topic.lab) {
+        appendText(section, 'p', 'print-context', `${topic.lab.title}: im Online-Lernatlas beim Thema über „${topic.lab.title} in neuem Tab öffnen“ starten. ${topic.lab.printNote} Direktadresse: ${topic.lab.publicUrl}`);
+        if (mode === 'adult') appendText(section, 'p', 'print-context', 'Praktische Bedienpunkte nur nach tatsächlich beobachteten Schritten vergeben. Ohne beobachtete Durchführung: „nicht erhoben“ statt 0 Punkte oder einer scheinbar vollständigen Gesamtsumme. Geschriebene Antworten beweisen Filter-, Änderungs- und Rückstellklicks nicht.');
+      }
       for (const [index, task] of topic.tasks.entries()) {
         const item = create('div', 'print-task'); item.dataset.taskId = task.id; appendText(item, 'h3', '', `${index + 1}. ${task.prompt}`);
         if (mode === 'child') {

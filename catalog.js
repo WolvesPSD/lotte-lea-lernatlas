@@ -1731,6 +1731,105 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "de-kommentar-leseraum",
+      "subjectId": "de",
+      "title": "Ein Kommentar: Was belegen Besuchszahlen?",
+      "scope": "Freiwilliger, gestützter Einstieg in lineare pragmatische Texte im gültigen 7/8-Rahmen. Die Kompetenzen aus § 2.2.2 sind als Ziel bis Ende Klasse 8 markiert; der Kommentar ist ein Beispiel in der 7/8-Spalte. Kein belegter aktueller Klasse-7-Unterrichtsstoff.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Der Kommentar, die Verfasserin, das Portal, der Leseraum, das angegebene Datum und alle Zahlen sind erfunden. Eine erwähnte Zählnotiz liegt nicht als eigene Quelle vor. Du brauchst keine echten Angaben über dich oder deine Schule.",
+      "introduction": "Lesefrage: Was will die Verfasserin erreichen, und was lässt sich aus ihren Angaben tatsächlich schließen? Ein Kommentar verbindet berichtete Angaben mit einer Meinung. Eine Sachangabe ist eine im Text prüfbare Behauptung, aber dadurch noch keine außerhalb des Textes bewiesene Tatsache. Eine Wertung ist eine Einschätzung. Nenne bei Belegen die Zeile und erkläre, was sie trägt. Ein Besuch ist ein gezählter Vorgang und nicht zwingend eine andere Person. Die Kriterien helfen beim Vergleichen; es gibt keine automatische Note.",
+      "passage": "FIKTIVER KOMMENTAR · QUELLE A\nA01 Länger offen? Erst weiter testen!\nA02 Kommentar von Mila Winter im erfundenen Jugendportal „Fensterplatz“, 29. September 2026.\nA03 Der erfundene Leseraum Nordbogen schließt mittwochs gewöhnlich um 16 Uhr.\nA04 Für einen Test im September blieb er an drei Mittwochen bis 17 Uhr offen.\nA05 Eine hier nicht beigelegte Zählnotiz meldet für die zusätzliche Stunde 12, 9 und 15 Besuche.\nA06 Zusammen sind das 36 Besuche in diesen drei Stunden; ob Personen mehrfach kamen, steht dort nicht.\nA07 Ich finde, das ist ein guter Grund, den späteren Mittwoch weiter auszuprobieren.\nA08 Deshalb wünsche ich mir vier weitere Test-Mittwoche.\nA09 Ob die Besuchenden nach einem Kurs kamen, weiß ich nicht; dazu fehlen Angaben.\nA10 Vor einer dauerhaften Entscheidung sollte geklärt werden, ob Personal und Räume für die zusätzliche Stunde verfügbar sind.\nA11 Ein Erfolg für alle Jugendlichen ist mit diesen drei Stunden nicht bewiesen.",
+      "tasks": [
+        {
+          "id": "de-kommentar-1",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 5,
+          "prompt": "Textsteckbrief (3 Kriterienpunkte): Nenne Textsorte, Verfasserin, Veröffentlichungsort und das im Kommentar angegebene Datum. Was davon ist in dieser Übung erfunden?",
+          "sample": "A02 nennt einen Kommentar von Mila Winter im Jugendportal „Fensterplatz“, datiert auf den 29. September 2026. Portal, Verfasserin, Datum als Publikationssituation und der Leseraum sind für diese Übung erfunden; es ist kein echter Online-Artikel.",
+          "criteria": [
+            "1 Punkt: Textsorte Kommentar.",
+            "1 Punkt: Mila Winter und das fiktive Portal „Fensterplatz“ zusammen richtig genannt.",
+            "1 Punkt: 29. September 2026 als Textdatum mit fiktivem Status eingeordnet; keine echte Veröffentlichung behauptet."
+          ]
+        },
+        {
+          "id": "de-kommentar-2",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 7,
+          "prompt": "Aufbau (3 Kriterienpunkte): Gib A03–A06, A07–A08 und A09–A11 je eine kurze Überschrift. Erkläre zu jedem Teil mit einem Satz seine Aufgabe im Gedankengang.",
+          "sample": "A03–A06: „Ausgangslage und Testzahlen“ – gewöhnliche Zeit, Probe und berichtete Besuche bilden die Grundlage. A07–A08: „Meinung und Vorschlag“ – Mila bewertet die Zahlen und wünscht vier weitere Tests. A09–A11: „Grenzen und Bedingung“ – Besuchsgründe sind unbekannt, Personal und Räume offen; eine Dauerentscheidung ist nicht bewiesen. Der Gang lautet Angaben → Bewertung/Vorschlag → Vorbehalt.",
+          "criteria": [
+            "1 Punkt: A03–A06 mit passender Überschrift und Funktion der berichteten Ausgangs- und Testangaben.",
+            "1 Punkt: A07–A08 mit passender Überschrift und Funktion von Bewertung und weiterem Testvorschlag.",
+            "1 Punkt: A09–A11 mit passender Überschrift und Funktion von Grenzen/Bedingungen. Andere sinngemäße Titel gelten."
+          ]
+        },
+        {
+          "id": "de-kommentar-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "prompt": "Sachangabe und Wertung (4 Kriterienpunkte): Nenne zwei verschiedene Sachangaben aus A03–A06 und eine Wertung aus A07–A11 mit jeweiliger Zeile. Erkläre, woran du die Wertung erkennst. Sind die Sachangaben damit außerhalb des erfundenen Textes bewiesen?",
+          "sample": "A03 nennt die gewöhnliche Schließzeit 16 Uhr, A04 drei Test-Mittwoche bis 17 Uhr; auch die in A05 berichteten 12, 9 und 15 Besuche oder die nachrechenbare Summe 36 aus A06 sind Sachangaben im Text. A07 „Ich finde ... guter Grund“ ist Milas Einschätzung: „finde“ und „gut“ bewerten die Angaben. A08 „wünsche“ und A10 „sollte“ können mit Erklärung ebenfalls als Empfehlung gelten. A11 allein ist eher eine begrenzende Beurteilung der Beweislage. Keine dieser fiktiven Angaben belegt eine wirkliche Bibliothek.",
+          "criteria": [
+            "1 Punkt: erste passende Sachangabe mit A-Zeile.",
+            "1 Punkt: zweite andere Sachangabe mit A-Zeile; eine Zählnotiz außerhalb des Textes wird nicht erfunden.",
+            "1 Punkt: A07 oder begründet A08/A10 als Wertungs-/Empfehlungsstelle mit Zeile.",
+            "1 Punkt: Bewertungsmerkmal erklärt und Textstatus der Sachangaben nicht mit externem Beweis verwechselt."
+          ]
+        },
+        {
+          "id": "de-kommentar-4",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "prompt": "Absicht (3 Kriterienpunkte): Was möchte Mila als nächsten Schritt? Nenne eine Formulierung, an der ihre Haltung sichtbar wird. Warum verlangt sie damit noch keine dauerhafte Öffnung? Belege am Text.",
+          "sample": "Mila wünscht vier weitere Test-Mittwoche (A08). Ihre Haltung zeigt „Ich finde ... guter Grund“ (A07) oder „wünsche ich mir“ (A08). A08 nennt ausdrücklich Tests; A10 fordert vor einer dauerhaften Entscheidung die Prüfung von Personal und Räumen, A11 begrenzt die Aussagekraft.",
+          "criteria": [
+            "1 Punkt: vier weitere Test-Mittwoche als nächster Schritt.",
+            "1 Punkt: passende Haltungsformulierung mit A-Zeile.",
+            "1 Punkt: Test und Daueröffnung anhand A08, A10 oder A11 unterschieden."
+          ]
+        },
+        {
+          "id": "de-kommentar-5",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "prompt": "Behauptung prüfen (4 Kriterienpunkte): Eine fiktive Person sagt: „Die 36 Besuche beweisen, dass 36 verschiedene Jugendliche dauerhaft bis 17 Uhr kommen wollen.“ Prüfe diese Aussage in drei getrennten Punkten und stütze sie mit A-Zeilen.",
+          "sample": "A05–A06 berichten 36 Besuche, nicht 36 verschiedene Personen; Mehrfachbesuche sind offen. Das Alter der Besuchenden steht nicht da. A05–A09 enthalten keine Befragung nach Wünschen; A09 nennt sogar unbekannte Gründe. A08 fordert vier weitere Tests statt einer Daueröffnung; A10–A11 nennen Vorbehalte. Besuche, Personen, Wünsche und dauerhafter Bedarf sind verschiedene Aussagen.",
+          "criteria": [
+            "1 Punkt: Besuche von verschiedenen Personen getrennt; unbekanntes Alter ist ein zusätzlicher richtiger Einwand, aber nicht Pflicht.",
+            "1 Punkt: fehlender Beleg für Wünsche/Absichten erkannt.",
+            "1 Punkt: weitere Tests von dauerhaftem Bedarf/Öffnen unterschieden.",
+            "1 Punkt: passende A-Zeilen für die drei Trennungen zusammen."
+          ]
+        },
+        {
+          "id": "de-kommentar-6",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 7,
+          "prompt": "Begrenzter Schluss (3 Kriterienpunkte): Antworte in zwei bis drei Sätzen auf die Lesefrage. Trenne eine Angabe, die im Kommentar berichtet wird, von Milas Bewertung oder Vorschlag. Nenne eine offene Frage für eine spätere Dauerentscheidung.",
+          "sample": "Im erfundenen Kommentar werden für drei zusätzliche Öffnungsstunden 12, 9 und 15 Besuche berichtet, zusammen 36 (A05–A06). Mila Winter wertet dies als Grund für vier weitere Test-Mittwoche, nicht als Beweis für eine Daueröffnung (A07–A08, A10–A11). Vor einer Dauerentscheidung müsste beispielsweise geklärt werden, ob Personal und Räume verfügbar sind (A10).",
+          "criteria": [
+            "1 Punkt: berichtete Angabe mit Textstatus und passender Zeile.",
+            "1 Punkt: Milas Bewertung oder Vorschlag davon getrennt.",
+            "1 Punkt: konkrete offene Prüffrage, zum Beispiel Personal, Raum, Mehrfachbesuche oder weiterer Bedarf."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Fassung für Klasse 7 ab 2026/27. § 2.2.2, PDF-S. 26–27: pragmatische Texte, Textfunktion, Absicht, Aufbau, Sachinformation/Wertung und begründeter Schluss als Ziel bis Ende Klasse 8. § 3.2, PDF-S. 47–48: Kommentar als exemplarische 7/8-Textsorte. PDF-S. 46: Unterrichtsfolge durch Lehrkräfte.",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
       "id": "de-karte-im-regen-vortrag",
       "subjectId": "de",
       "title": "Einen Text verstehen und auswendig vortragen",

@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-21T09:13:56.334Z",
-  "releaseVersion": "2026.10.21-frl.1",
+  "builtAt": "2026-10-21T09:33:51.145Z",
+  "releaseVersion": "2026.10.21-debook.1",
   "newTopicIds": [
-    "fr-livre-pour-samedi"
+    "de-eigene-ganzschrift-arbeitsweg"
   ],
   "changeLog": [
-    "Französisch FR-L: eine fiktive kurze Bibliotheksgeschichte mit Zeilenbelegen, Personenabsichten und Aussagegrenzen lesen.",
-    "Eine geänderte Textzeile trennt Raumstatus und Buchstandort; die Aufgaben bleiben ein gestützter freiwilliger 7/8-Einstieg ohne behaupteten aktuellen Schulstoff."
+    "Deutsch Klasse 7: freiwilliger Arbeitsweg für Lottes tatsächlich gewähltes erzählendes Kinder- oder Jugendbuch mit Fundstellen aus Anfang, Mitte und Schluss.",
+    "Die App zeigt nur nach bewusster Freigabe ein Heidi-Methodenbeispiel. Das Erwachsenenblatt erklärt die manuelle Prüfung; Lektüre und schulische Behandlung bleiben offen."
   ],
-  "rollbackCommit": "6d912e0f4efc113c75f057b2022d6f9a0155d15d",
+  "rollbackCommit": "599db3d6df32cea0a5d7ee868702bb13224fda80",
   "releasedTopics": [
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
@@ -53,7 +53,8 @@
     "mbi-luefterregler-gestalten",
     "mbi-buchdaten-labor",
     "de-karte-im-regen-vortrag",
-    "de-heidi-ganzschrift-begleiter"
+    "de-heidi-ganzschrift-begleiter",
+    "de-eigene-ganzschrift-arbeitsweg"
   ],
   "subjects": [
     "ma",

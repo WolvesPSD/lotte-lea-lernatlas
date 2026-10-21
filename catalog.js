@@ -3389,6 +3389,88 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. § 3.2 PDF-S. 47: in Klasse 5 bis 7 jährlich mindestens ein Werk der Kinder- und Jugendliteratur als Ganzschrift im Unterricht behandeln. § 2.2.2 S. 26–27: literarische Texte, Figuren und Deutung bis Ende Klasse 8 erschließen.",
         "checkedAt": "2026-10-21"
       }
+    },
+    {
+      "id": "de-eigene-ganzschrift-arbeitsweg",
+      "subjectId": "de",
+      "title": "Dein erzählendes Buch ganz lesen und verstehen",
+      "scope": "Freiwilliger Arbeitsweg zu einem tatsächlich gewählten erzählenden Kinder- oder Jugendbuch. Die jährliche Klasse-7-Ganzschrift ist eine Unterrichtsanforderung; die App weiss weder, welches Buch die Schule wählt, noch ob es ganz gelesen und im Unterricht behandelt wurde. Für anders aufgebaute Werke braucht es einen anderen Arbeitsweg.",
+      "levelStatus": "grade7",
+      "released": true,
+      "prerequisite": "Du brauchst ein vollständiges Buch und deine Ausgabe zum Nachschlagen. Du kannst mit dem ersten Teil beginnen. Fragen zum ganzen Werk bearbeitest du erst nach der vollständigen Lektüre. Die App kennt dein Buch nicht und kann deine Angaben nicht automatisch prüfen.",
+      "introduction": "Nimm ein erzählendes Kinder- oder Jugendbuch zur Hand, das du wirklich liest – falls die Schule eines gewählt hat, am besten dieses. Für eine Gedichtsammlung oder ein anders aufgebautes Werk passt dieser Fragenweg möglicherweise nicht. Notiere Kapitel, Seite oder eine eindeutig auffindbare Szene aus deiner Ausgabe. Eine Seitenzahl ohne beschriebenen Inhalt genügt nicht. Schreibe keine langen Buchstellen ab. Wenn du noch nicht fertig bist, notiere deinen ehrlichen Lesestand und bearbeite nur gelesene Bereiche. Die Heidi-Beispiele in den Prüfhinweisen zeigen die Methode, sind aber keine Lösung für ein anderes Buch. Deine Eingaben bleiben lokal in diesem Browser.",
+      "tasks": [
+        {
+          "id": "de-eigene-ganzschrift-1",
+          "kind": "reflection",
+          "manualBookReview": true,
+          "points": 2,
+          "writingLines": 6,
+          "inputRows": 5,
+          "prompt": "A. Buch und Lesestand (2 Kriterienpunkte): Nenne Titel, Autorin oder Autor und deine Ausgabe so, dass eine erwachsene Person dieselben Stellen finden kann. Schreibe, was du wirklich gelesen hast. Weisst du, ob die Schule genau dieses Buch im Unterricht behandelt? „Weiss ich nicht“ ist erlaubt.",
+          "sample": "Johanna Spyri, Heidis Lehr- und Wanderjahre, digitale Ausgabe Project Gutenberg 7500 mit 14 Kapiteln; gelesen: Kapitel 1–14. Ob die Schule gerade dieses Werk behandelt, ist unbekannt. Für dein Buch müssen Titel, Ausgabe und Lesestand anders lauten.",
+          "criteria": [
+            "1 Punkt: Titel, Autorin/Autor und Ausgabe ermöglichen einen überprüfbaren Textabgleich; eine ungenaue Seitenzahl ohne Ausgabe reicht nicht.",
+            "1 Punkt: wirklicher Lesestand klar benannt und schulische Behandlung getrennt als belegt, unbelegt oder unbekannt markiert. „Weiss ich nicht“ ist kein Fehler."
+          ]
+        },
+        {
+          "id": "de-eigene-ganzschrift-2",
+          "kind": "reflection",
+          "manualBookReview": true,
+          "points": 9,
+          "writingLines": 11,
+          "inputRows": 12,
+          "prompt": "B. Drei Fundstellen (9 Kriterienpunkte bei vollständiger Lektüre): Wähle eine Leitfrage zu einer Figur, Beziehung oder einem Konflikt. Notiere aus Anfang, Mitte und Schluss je eine andere konkrete Handlung oder Beobachtung, die Fundstelle aus deiner Ausgabe und eine vorsichtige Erklärung. Ohne Kapitel kannst du eine eindeutig benannte Szene verwenden. Noch ungelesene Bereiche markierst du ehrlich als „noch nicht gelesen“ und ergänzt sie später.",
+          "sample": "Leitfrage „Wie verändert sich Zugehörigkeit?“ Anfang, Kap. 2: Heidi erlebt mit dem Grossvater einen gemeinsamen Alltag; das begrenzt die Warnungen des Dorfes. Mitte, Kap. 5 und 10–12: In Frankfurt entstehen Beziehungen zu Klara und Grossmama, aber Heidi hat Heimweh. Schluss, Kap. 14: Heidi liest Peters Grossmutter vor; nach der Rückkehr verändern sich Beziehungen erneut. Andere Bücher brauchen eigene überprüfte Stellen.",
+          "criteria": [
+            "Je 1 Punkt für eine im gewählten Buch zutreffende konkrete Handlung oder Beobachtung aus Anfang, Mitte und Schluss (3).",
+            "Je 1 Punkt für eine in derselben Ausgabe auffindbare Kapitel-, Seiten- oder Szenenangabe (3).",
+            "Je 1 Punkt für eine durch die jeweilige Stelle gestützte, begrenzte Erklärung zur eigenen Leitfrage (3). Ungelesene Bereiche bleiben nicht erhoben statt als falsche Buchbehauptung zu zählen."
+          ]
+        },
+        {
+          "id": "de-eigene-ganzschrift-3",
+          "kind": "reflection",
+          "manualBookReview": true,
+          "points": 8,
+          "writingLines": 22,
+          "inputRows": 16,
+          "prompt": "C. Zusammenhang im ganzen Werk (8 Kriterienpunkte, erst nach vollständiger Lektüre): Erkläre, was sich zwischen Anfang und Schluss verändert oder gleich bleibt. Verknüpfe mindestens drei verschiedene Stellen aus Anfang, Mitte und Schluss durch eine Ursache, Entscheidung oder Beziehung. Beziehe eine weitere Person oder Perspektive ein, unterscheide Textbeobachtung und eigene Deutung und schliesse mit einer begrenzten Aussage. Die Wortzahl allein entscheidet nicht.",
+          "sample": "Dete bringt Heidi zum Grossvater (Kap. 1), mit dem sie einen Alltag aufbaut (Kap. 2). Nach dem Weggang nach Frankfurt (Kap. 5) helfen ihr Klara und Grossmama, doch das Heimweh wächst; der Arzt rät zur Rückkehr (Kap. 10–12). Zurück auf der Alm liest Heidi Peters Grossmutter vor, und der Grossvater sucht Dorfkontakt (Kap. 14). Das lässt eine veränderte Zugehörigkeit vermuten. Ob damit jeder spätere Konflikt gelöst ist, sagt der Text nicht. Für ein anderes Buch zählt nur ein am Werk überprüfbarer eigener Zusammenhang.",
+          "criteria": [
+            "Je 1 Punkt für sachlich passende, auffindbare Fundstellen aus Anfang, Mitte und Schluss (3).",
+            "1 Punkt: eine konkrete Veränderung oder begründete Konstanz benannt.",
+            "1 Punkt: mindestens zwei Ereignisse oder Beziehungen nachvollziehbar als Ursache, Folge oder Wechselbeziehung verbunden.",
+            "1 Punkt: Textbeobachtung und eigene Deutung erkennbar getrennt.",
+            "1 Punkt: weitere Person oder Gegenperspektive sachlich einbezogen.",
+            "1 Punkt: begrenzter Schluss ohne unbelegte Totalbehauptung. Bei Teillektüre nicht erheben."
+          ]
+        },
+        {
+          "id": "de-eigene-ganzschrift-4",
+          "kind": "reflection",
+          "manualBookReview": true,
+          "points": 5,
+          "writingLines": 12,
+          "inputRows": 10,
+          "prompt": "D. Eine Deutung prüfen (5 Kriterienpunkte, erst nach vollständiger Lektüre): Formuliere eine zunächst plausible, aber vielleicht zu allgemeine Aussage über eine Figur oder einen Konflikt. Zeige mit einer Stelle, was sie stützt, und mit einer anderen Stelle, was sie begrenzt. Nenne beide Fundstellen und formuliere ein genaueres Urteil.",
+          "sample": "„Frankfurt ist nur schlecht und die Alm nur gut“ wirkt durch Heidis Heimweh in Frankfurt plausibel (Kap. 11–12). Klaras Freundschaft und die Hilfe der Grossmama begrenzen das „nur schlecht“ (etwa Kap. 10). Die frühen Warnungen und Spannungen um den Grossvater (Kap. 1 und 5) begrenzen auch „Alm nur gut“. Die Alm wird für Heidi ein wichtiges Zuhause, aber beide Orte sind keine pauschalen Charakterurteile. Für dein Buch muss die Ausgangsaussage aus deinen eigenen Szenen überprüft werden.",
+          "criteria": [
+            "1 Punkt: eine am gewählten Werk prüfbare Ausgangsdeutung.",
+            "1 Punkt: ein passender stützender Befund.",
+            "1 Punkt: ein passender begrenzender Befund aus einer anderen Stelle.",
+            "1 Punkt: beide Fundstellen in derselben Ausgabe auffindbar.",
+            "1 Punkt: genaueres Urteil aus beiden Befunden; eine andere begründete Lesart zählt. Bei Teillektüre nicht erheben."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7",
+        "competencyRef": "PDF-S. 2: Inkraftsetzung für Klasse 7 ab 2026/27. § 3.2 PDF-S. 47: In Klassen 5–7 jährlich mindestens ein Werk der Kinder- und Jugendliteratur als Ganzschrift im Unterricht behandeln. § 2.2.2 S. 26–27: literarische Texte und begründete Deutungen im Zielhorizont Ende Klasse 8.",
+        "checkedAt": "2026-10-21"
+      }
     }
   ]
 });

@@ -279,7 +279,7 @@
 
   function taskResult(task, value) {
     if (!value || !String(value).trim()) return { status: 'empty', label: 'Noch nicht beantwortet.' };
-    if (task.kind === 'reflection') return { status: 'manual', label: task.adultOnlySolution ? 'Offene Antwort: Besprecht die Sachlösung nach dem wirklichen Gespräch im Erwachsenenbereich. Keine automatische Bewertung.' : 'Offene Antwort: Vergleiche mit Musterlösung und Kriterien. Keine automatische Bewertung.' };
+    if (task.kind === 'reflection') return { status: 'manual', label: task.manualBookReview ? 'Offene Buchantwort: Die App kennt deine Ausgabe nicht und kann den Inhalt nicht bewerten. Prüfe die Stellen im Buch mit einer erwachsenen Person.' : task.adultOnlySolution ? 'Offene Antwort: Besprecht die Sachlösung nach dem wirklichen Gespräch im Erwachsenenbereich. Keine automatische Bewertung.' : 'Offene Antwort: Vergleiche mit Musterlösung und Kriterien. Keine automatische Bewertung.' };
     if (task.kind === 'decimal') {
       const normalized = String(value).trim().replace(/\u2212/g, '-').replace(',', '.');
       if (!/^[+-]?\d+(?:\.\d{1,2})?$/.test(normalized)) return { status: 'invalid', label: 'Bitte einen Eurobetrag mit höchstens zwei Nachkommastellen eingeben.' };
@@ -410,20 +410,20 @@
     }
     card.append(input);
     const result = create('div', 'task-result'); result.setAttribute('aria-live', 'polite');
-    card.append(button('Antwort prüfen', () => {
+    card.append(button(task.manualBookReview ? 'Prüfweg ansehen' : 'Antwort prüfen', () => {
       const value = state.answers[task.id] || '';
       const outcome = taskResult(task, value);
       result.replaceChildren(); result.dataset.status = outcome.status;
       appendText(result, 'p', '', outcome.label);
       if (outcome.status !== 'empty' && outcome.status !== 'invalid') {
         const showSolution = () => {
-          if (task.sample) appendText(result, 'p', 'sample-answer', `Musterlösung: ${task.sample}`);
+          if (task.sample) appendText(result, 'p', 'sample-answer', `${task.manualBookReview ? 'Methodenbeispiel zu Heidi (kein Lösungsschlüssel für dein Buch)' : 'Musterlösung'}: ${task.sample}`);
           const steps = task.explanation || task.criteria || [];
           const ol = create('ol'); steps.forEach(step => appendText(ol, 'li', '', step)); result.append(ol);
         };
-        if (topic.reading) {
-          appendText(result, 'p', 'muted', 'Prüfe zuerst, ob du eigene Kapitelbelege aus der vollständigen Lektüre notiert hast. Die App kann das Lesen nicht feststellen.');
-          const reveal = button('Musterlösung bewusst öffnen', () => { reveal.remove(); showSolution(); }, 'reveal-sample');
+        if (topic.reading || task.manualBookReview) {
+          appendText(result, 'p', 'muted', task.manualBookReview ? 'Prüfe erst deine eigenen Fundstellen. Das folgende Heidi-Beispiel bewertet dein Buch nicht und beweist keine Ganzlektüre.' : 'Prüfe zuerst, ob du eigene Kapitelbelege aus der vollständigen Lektüre notiert hast. Die App kann das Lesen nicht feststellen.');
+          const reveal = button(task.manualBookReview ? 'Methodenbeispiel bewusst öffnen' : 'Musterlösung bewusst öffnen', () => { reveal.remove(); showSolution(); }, 'reveal-sample');
           result.append(reveal);
         } else if (task.adultOnlySolution) {
           appendText(result, 'p', 'muted', 'Die Sachlösung steht nur im Erwachsenenbereich. Besprecht sie nach dem wirklichen Gespräch; die App kann keine mündliche Leistung prüfen.');
@@ -477,7 +477,7 @@
         appendText(item, 'h3', '', `${index + 1}. ${task.prompt}`);
         const answer = state.answers[task.id];
         appendText(item, 'p', 'muted', `Eingabe im Kinderbereich: ${answer ? String(answer) : 'noch keine'}`);
-        appendText(item, 'p', 'sample-answer', `Lösung: ${task.sample || task.correctLabel || task.correct}`);
+        appendText(item, 'p', 'sample-answer', `${task.manualBookReview ? 'Methodenbeispiel zu Heidi, kein Inhaltsschlüssel für dieses Buch' : 'Lösung'}: ${task.sample || task.correctLabel || task.correct}`);
         const steps = task.explanation || task.criteria || [];
         const ol = create('ol'); steps.forEach(step => appendText(ol, 'li', '', step)); item.append(ol);
         if (task.kind === 'reflection') appendText(item, 'p', 'muted', 'Offene Antwort: Kriterien gemeinsam prüfen; keine sichere automatische Note.');
@@ -524,9 +524,10 @@
     if (activeProfile !== 'lotte') return;
     if (ids.length === 0) { show('choose'); return; }
     const page = $('#print-surface'); page.replaceChildren();
+    const manualBookOnly = ids.every(id => topicById.get(id)?.tasks.every(task => task.manualBookReview));
     appendText(page, 'p', 'print-kicker', preview ? 'Lotte & Lea · Prüfmodus: kann ungeprüfte Aufgaben enthalten' : 'Lotte & Lea · Lernmaterial mit Quellenstand im Themenkatalog');
-    appendText(page, 'h1', '', mode === 'child' ? 'Arbeitsblatt' : 'Lösungsblatt für Erwachsene');
-    appendText(page, 'p', '', mode === 'child' ? 'Name: ____________________   Datum: __________' : 'Diese Musterlösungen erklären die Schritte. Offene Antworten brauchen eine persönliche Prüfung.');
+    appendText(page, 'h1', '', mode === 'child' ? 'Arbeitsblatt' : manualBookOnly ? 'Prüfblatt für Erwachsene' : 'Lösungsblatt für Erwachsene');
+    appendText(page, 'p', '', mode === 'child' ? 'Name: ____________________   Datum: __________' : manualBookOnly ? 'Die Heidi-Beispiele zeigen die Methode. Inhaltliche Antworten nur mit dem tatsächlich gewählten Buch und derselben Ausgabe prüfen.' : 'Diese Musterlösungen erklären die Schritte. Offene Antworten brauchen eine persönliche Prüfung.');
     for (const id of ids) {
       const topic = topicById.get(id); const section = create('section', 'print-topic');
       appendText(section, 'h2', '', `${subjectById.get(topic.subjectId).name} · ${topic.title}`);
@@ -581,7 +582,7 @@
             item.append(lines);
           }
         } else {
-          appendText(item, 'p', 'sample-answer', `Lösung: ${task.sample || task.correctLabel || task.correct}`);
+          appendText(item, 'p', 'sample-answer', `${task.manualBookReview ? 'Methodenbeispiel zu Heidi, kein Inhaltsschlüssel für dieses Buch' : 'Lösung'}: ${task.sample || task.correctLabel || task.correct}`);
           const ol = create('ol'); (task.explanation || task.criteria || []).forEach(step => appendText(ol, 'li', '', step)); item.append(ol);
         }
         section.append(item);

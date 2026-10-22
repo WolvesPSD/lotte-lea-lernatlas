@@ -1,14 +1,15 @@
 {
-  "builtAt": "2026-10-22T10:42:01.499Z",
-  "releaseVersion": "2026.10.22-geografiezusatz.1",
+  "builtAt": "2026-10-22T10:59:55.326Z",
+  "releaseVersion": "2026.10.22-sportregel.1",
   "newTopicIds": [
-    "go-gradnetz-modellorte"
+    "sp-basketball-regelkarte-papier"
   ],
   "changeLog": [
-    "Freiwilliger Geografie-Gradnetzfall aus dem älteren Fachplan: sechs erfundene Markierungen in eigener Modellkarte und gleichwertigem Textweg lesen, 20 Haupt- und sechs spätere Zusatzpunkte. Die Geltung 2026/27 und Lottes Schuleinheit bleiben ungeklärt; keine bestätigte Klasse-7-Abdeckung.",
-    "Interne unabhängige Quellen-, Karten- und Lösungsprüfung sowie lokale Mobil-/Desktop-, Stufen-, Kinder-/Erwachsenendruck- und Paketgates. Der Fall ersetzt keine echte topografische Karte; Familien-, Screenreader-, externe Fach- und Kinderprüfung bleiben offen."
+    "Freiwilliger Sport-Papierfall aus dem älteren Fachplan: vier fiktive FIBA-2026-Regelszenen, 20 schriftliche Haupt- und sechs spätere Zusatzpunkte. Die Schulspielwahl und Lehrplangeltung 2026/27 bleiben ungeklärt; kein Nachweis von Bewegung, Sicherheit oder Sportleistung.",
+    "Punktfreier Rückblicks- und Beobachtungsweg nur nach regulärer betreuter Sportstunde; fünf leere Beobachtungszeilen ohne Summe oder Sportnote. Ein unabhängiger P2 im Zweipunkte-Abwurfort wurde behoben und nachgeprüft. Lokale Mobil-/Desktop-, Stufen-, Druck- und Gesamttests bestanden; reale Kinder- und Sportfachprüfung stehen aus.",
+    "Veraltete Verfügbarkeitstexte bei Sport und MNT an die bereits vorhandenen freiwilligen Fälle angepasst, ohne aktuelle Klasse-7-Abdeckung zu behaupten."
   ],
-  "rollbackCommit": "7ee21e9eecfa04a773b232481736e21712ea9dfd",
+  "rollbackCommit": "85c3ff14316dbcce3a958058634939cdcda6236c",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -95,7 +96,8 @@
     "ma-schraegbild-darstellungen",
     "et-jugendrat-budgetwerte",
     "go-gradnetz-modellorte",
-    "mnt-bionik-leichtbau-modell"
+    "mnt-bionik-leichtbau-modell",
+    "sp-basketball-regelkarte-papier"
   ],
   "subjects": [
     "mnt",
@@ -108,7 +110,8 @@
     "fr",
     "ma",
     "et",
-    "go"
+    "go",
+    "sp"
   ],
   "grade8OutlookTopics": [
     "mbi-speicherplan-zwei-modelle",
@@ -141,7 +144,8 @@
   ],
   "unclearValidityTopics": [
     "et-jugendrat-budgetwerte",
-    "go-gradnetz-modellorte"
+    "go-gradnetz-modellorte",
+    "sp-basketball-regelkarte-papier"
   ],
   "note": "Struktur, lokaler PDF-Hash und Lösungsfelder geprüft. Fach-, Geräte-, Datenschutz- und Veröffentlichungsfreigabe getrennt dokumentieren."
 }

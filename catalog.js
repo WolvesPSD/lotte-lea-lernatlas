@@ -41,7 +41,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "plan": "2016 (2025/26)",
       "scope": "7/8-Bereiche im Original geprüft; Stand 2026/27 und schulische Wahlbereiche offen",
       "availabilityLabel": "Lehrplan 2026/27 ungeklärt",
-      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Sport-Lehrplan gilt. Welche Sportspiele und Wahlbereiche die Schule gewählt hat, wissen wir ebenfalls nicht. Deshalb gibt es hier noch keine freigegebene Aufgabe."
+      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Sport-Lehrplan gilt oder welche Spiele die Schule gewählt hat. Die freiwillige Regelkartenübung ist nur ein Papierfall und keine bestätigte aktuelle Klasse-7-Einheit oder Sportleistung."
     },
     {
       "id": "mnt",
@@ -49,7 +49,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "plan": "Gymnasium 2026, Erprobungsfassung; Klasse 5 ab 2026/27",
       "scope": "Schulfach im aktuellen Klasse-7-Plan bestätigt; passender Klasse-7-Lehrplanbezug offen",
       "availabilityLabel": "Klasse-7-Zuordnung offen",
-      "availabilityReason": "MNT steht auf Lottes Klasse-7-Stundenplan. Der neue MNT-Lehrplan startet 2026/27 aber mit Klasse 5. Welche Fachlehrpläne die Schule in dieser Klasse-7-Stunde nutzt, ist noch offen. Deshalb gibt es hier noch keine freigegebene Aufgabe."
+      "availabilityReason": "MNT steht auf Lottes Klasse-7-Stundenplan. Der neue MNT-Lehrplan startet 2026/27 aber mit Klasse 5. Welche Fachlehrpläne die Schule in dieser Klasse-7-Stunde nutzt, ist noch offen. Freiwillige Ende-6-Brücken sind keine bestätigten Klasse-7-Einheiten."
     },
     {
       "id": "bi",
@@ -7275,6 +7275,136 @@ window.LOTTE_CATALOG = Object.freeze({
         "validFor": "2026/27: Klasse 5; 2027/28: Klasse 6",
         "gradeBand": "MNT-Ende-6, 7-Brücke",
         "competencyRef": "PDF-S.2: MNT-Erprobungsfassung 2026/27 nur Klasse 5, 2027/28 Klasse 6. §2.2.10.2 PDF-S.31: Klassenstufe 6; Naturvorbilder, Leichtbau durch Struktur/Faltung, Funktionsmodelle und fachpraktische Prüfung. Keine amtliche Klasse-7-Geltung.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
+      "id": "sp-basketball-regelkarte-papier",
+      "subjectId": "sp",
+      "title": "Was gilt auf der erfundenen Basketball-Karte?",
+      "scope": "Freiwilliger 7/8-Papierfall zu Sportspiel 1 mit Ziel Ende Klasse 8. Ob der Thüringer Sportplan 2016 im Schuljahr 2026/27 gilt und ob Lottes Schule Basketball wählt, ist ungeklärt. Die Aufgabe prüft nur Regelverständnis am erfundenen Fall, keine Bewegung oder Sportleistung.",
+      "levelStatus": "additional-unclear",
+      "released": true,
+      "prerequisite": "Die Geltung des Sport-Lehrplans 2026/27 ist ungeklärt. FIBA-Regeln gelten hier nur für die erfundene Karte; die Schule legt tatsächliche Sportspiele und vereinfachte Regeln fest. Spiele oder trainiere nicht allein nach diesem Blatt. Reale Bewegung und Sicherheit gehören in den betreuten Unterricht. Keine Namen, Gesundheitsdaten, Fotos oder Sportnoten eingeben.",
+      "introduction": "Diese erfundene Karte verwendet vereinfachte Auszüge aus den FIBA Basketballregeln 2026, Version 1.1. Sie ist keine Anleitung für euer Schulspiel. Ein Treffer aus dem 2-Punkte-Bereich zählt zwei, aus dem 3-Punkte-Bereich drei Punkte; die 3-Punkte-Linie gehört zum 2-Punkte-Bereich. Die Seitenlinie gehört nicht zum Spielfeld. Berührt der Ball die Linie, ist er aus; normalerweise erhält die Gegenseite der zuletzt berührenden Person einen Einwurf nahe der Stelle. Nach einem beendeten Dribbling darf dieselbe Person nicht einfach erneut dribbeln. Ausnahmen setzen einen Ballkontrollverlust wegen eines Wurfs, einer Gegnerberührung oder eines Passes beziehungsweise versehentlichen Ballverlusts mit Berührung durch eine andere Person voraus. Alle Antworten beziehen sich nur auf diese Regelkarte. 20 Haupt- und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Sportnote.",
+      "passage": "ERFUNDENE SPIELKARTE · Blau greift den gegnerischen Korb an. Niemand begeht ein Foul. Ein Wurf ist nur dann als Treffer bezeichnet, wenn der Ball von oben durch den Korb geht.\n\nA: Blau wirft und trifft. Beim Abwurf stehen beide Füße im Spielfeld vollständig jenseits der 3-Punkte-Linie.\nB: Blau wirft und trifft. Beim Abwurf berührt ein Fuß die 3-Punkte-Linie.\nC: Blau dribbelt. Danach nimmt Blau den Ball mit beiden Händen auf. Kein anderer Mensch berührt den Ball. Blau lässt ihn wieder auf den Boden tippen und dribbelt weiter.\nD: Rot berührt einen Pass zuletzt. Danach landet der Ball auf der Seitenlinie. Es gibt keinen weiteren Kontakt.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGE ÄNDERUNG NACH A–D · In B berührt nun kein Fuß die Linie; beide Füße stehen beim Abwurf im Spielfeld vollständig jenseits der 3-Punkte-Linie und der Wurf trifft. In D berührt nun Blau den Pass zuletzt, bevor der Ball die Seitenlinie berührt. A und C bleiben unverändert."
+      },
+      "tasks": [
+        {
+          "id": "sp-basketball-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Punkte statt Eindruck (4 schriftliche Hauptpunkte): Bestimme für Szene A und B die jeweilige Punktzahl. Begründe beide Entscheidungen mit je einer Beobachtung und der Regelkarte.",
+          "sample": "A zählt drei Punkte, weil beide Füße beim Abwurf im Spielfeld vollständig jenseits der 3-Punkte-Linie stehen. B zählt zwei Punkte, weil ein Fuß die Linie berührt und die Linie zum 2-Punkte-Bereich gehört.",
+          "criteria": [
+            "1 Punkt für A = 3.",
+            "1 Punkt für A mit Standort und Regel begründet.",
+            "1 Punkt für B = 2.",
+            "1 Punkt für B mit Linienberührung und Regel begründet."
+          ]
+        },
+        {
+          "id": "sp-basketball-2",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Dribbling und Fortsetzung (5 schriftliche Hauptpunkte): Was ist in Szene C regelbezogen problematisch? Nenne die beobachtete Handlung, die passende Regel und die Folge für den Ball. Erkläre, weshalb die Ausnahme hier nicht hilft.",
+          "sample": "Blau beendet das Dribbling durch das Aufnehmen mit beiden Händen. Das erneute Tippen ist ohne passende Ausnahme ein zweites, unzulässiges Dribbling. Rot erhält bei dieser Regelübertretung einen Einwurf nahe der Stelle. Ein Wurf, eine Gegnerberührung oder eine andere Person bei Pass/versehentlichem Ballverlust kommt in C nicht vor.",
+          "criteria": [
+            "1 Punkt für Beenden durch Aufnehmen mit beiden Händen.",
+            "1 Punkt für erneutes Dribbling als problematische Handlung.",
+            "1 Punkt für die passende Zweitdribbling-Regel.",
+            "1 Punkt für Einwurf Rot nahe der Stelle.",
+            "1 Punkt für die konkret ausgeschlossenen Ausnahmen; bloß „keine Ausnahme“ reicht nicht."
+          ]
+        },
+        {
+          "id": "sp-basketball-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Linie und Einwurf (5 schriftliche Hauptpunkte): Entscheide für D, ob der Ball aus ist, wer das Aus verursacht und welches Team den Einwurf erhält. Begründe mit der Regelkarte und nenne den Ort des Einwurfs.",
+          "sample": "Der Ball ist aus, sobald er die Seitenlinie berührt; diese gehört nicht zum Spielfeld. Rot hat den Ball zuletzt berührt und verursacht das Aus. Blau bekommt den Einwurf nahe der Stelle.",
+          "criteria": [
+            "1 Punkt für Ball aus.",
+            "1 Punkt für Seitenlinie gehört nicht zum Spielfeld.",
+            "1 Punkt für Rot als letzte berührende Seite/Verursacher.",
+            "1 Punkt für Einwurf Blau.",
+            "1 Punkt für nahe der Aus-Stelle."
+          ]
+        },
+        {
+          "id": "sp-basketball-4",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "D · Taktik auf Papier (6 schriftliche Hauptpunkte): Beim erfundenen Spielstand Blau 18 : Rot 20 gibt es zwei noch nicht ausgeführte Möglichkeiten: Pass zu einer freien Person im 2-Punkte-Bereich, die von dort einen Wurf versuchen könnte; oder Wurfversuch einer bedrängten Person vollständig hinter der 3-Punkte-Linie. Rechne für je einen erfolgreichen Treffer den neuen Spielstand. Beschreibe Vorteil und Risiko beider Wege und empfehle einen mit Begründung. Ein Versuch ist kein sicherer Treffer.",
+          "sample": "Erfolgreicher Zweipunktewurf: 20:20, Gleichstand; freie Person kann günstiger werfen, ein Fehlschuss bleibt möglich. Erfolgreicher Dreipunktewurf: 21:20, Führung; bedrängter Wurf und Distanz können den Versuch erschweren. Beide Empfehlungen sind bei sachlicher Abwägung vertretbar.",
+          "criteria": [
+            "1 Punkt für 20:20 bei erfolgreichem Zweipunktewurf.",
+            "1 Punkt für 21:20 bei erfolgreichem Dreipunktewurf.",
+            "1 Punkt für Vorteil/Risiko des freien Zweipunktewurfs.",
+            "1 Punkt für Vorteil/Risiko des bedrängten Dreipunktewurfs.",
+            "1 Punkt für eine kohärent begründete Empfehlung; beide Wahlen möglich.",
+            "1 Punkt für ausdrückliche Unsicherheit des Treffers, keine Garantie."
+          ]
+        },
+        {
+          "id": "sp-basketball-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Variante nach A–D · sechs getrennte Zusatzpunkte: Bestimme mit der Änderungskarte den Trefferwert in B, den Verursacher des Aus in D und das Einwurfteam. Begründe jeweils. Erkläre, ob aus diesem Papierfall folgt, dass Lottes Schule Basketball nach FIBA-Regeln spielt.",
+          "sample": "B ist nun ein Dreipunktetreffer, weil beide Füße beim Abwurf im Spielfeld vollständig jenseits der Linie stehen. Blau berührt in D zuletzt; die Seitenlinie macht den Ball aus, also erhält Rot den Einwurf. Die Schulspielwahl und Schulregeln sind aus dieser FIBA-Übung nicht bekannt.",
+          "criteria": [
+            "1 Zusatzpunkt für B = 3.",
+            "1 Zusatzpunkt für den Standort vollständig jenseits der Linie.",
+            "1 Zusatzpunkt für Blau als letzte Berührung.",
+            "1 Zusatzpunkt für Seitenlinie als Aus-Grenze.",
+            "1 Zusatzpunkt für Einwurf Rot.",
+            "1 Zusatzpunkt für die Grenze: keine belegte Schulspielwahl oder FIBA-Übernahme."
+          ]
+        }
+      ],
+      "practice": {
+        "unscored": true,
+        "title": "Unbewerteter Rückblick nach einer regulären Sportstunde",
+        "childNote": "Nur nach einer betreuten Sportstunde und nur, wenn die Lehrkraft diese Rückblickart erlaubt. Keine zusätzliche Probe, kein Filmen und keine Namen oder Gesundheitsdaten. Beantworte die Fragen bei Bedarf auf einem separaten Blatt; sie belegen keine gelungene Bewegung.",
+        "childSteps": [
+          "Welches Sportspiel und welche Schulregel galten wirklich? Wenn du die Regel nicht kennst, notiere „unbekannt“.",
+          "Beschreibe eine beobachtete eigene Spielsituation ohne Namen: Spielziel, Ball/Spielgerät und deine Möglichkeiten.",
+          "Was hast du versucht? Trenne, was du wirklich bemerkt hast, von einer Vermutung.",
+          "Gab es eine Lehrkraftrückmeldung? Sonst „keine Rückmeldung“. Was möchtest du im nächsten regulären Unterricht klären?"
+        ],
+        "adultNote": "Leeres, unbewertetes Raster nur für die zuständige Person in einer zulässigen regulären Unterrichtsbeobachtung. Vorher tatsächlich gewähltes Schulspiel und vereinfachte Regel/Quelle klären. Ohne Gelegenheit bleibt eine Zeile „keine Gelegenheit“; „nicht beobachtet“ gilt nur für einen tatsächlich beobachteten Ausschnitt. Kein Schluss auf dauerhafte Fähigkeit, Sicherheit oder Sportnote. Keine Namen, Gesundheits- oder Leistungsdaten in die App eingeben oder hochladen.",
+        "adultCriteria": [
+          "Sich in eine freie Position bewegen oder beim Rückschlagspiel zum kommenden Ball ausrichten; nur wenn die Spielform das verlangt.",
+          "Ball oder Spielgerät situationsgerecht weiterspielen oder einen Abschluss vorbereiten.",
+          "Bei einem konkreten Regelanlass eine Schulregel sichtbar anwenden oder nach Lehrkraftrückmeldung korrigieren; bloß ausbleibender Pfiff genügt nicht.",
+          "Mit anderen im beobachteten Spielabschnitt kooperieren, soweit die Spielform dies verlangt.",
+          "Eine eigene Entscheidung nach der Situation sachlich erläutern."
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2025/26 amtlich belegt; 2026/27 ungeklärt",
+        "gradeBand": "7/8, Ziel Ende Klasse 8",
+        "competencyRef": "Sport Gymnasium 2016, PDF-S. 9–10 und 21–27: Sportspiel 1/2, schulische Spielwahl, Regelanwendung, einfache taktische Entscheidungen und tatsächliches Spielen. FIBA Official Basketball Rules 2026 v1.1, Art. 2.5.1/2.5.4, 16.2.1, 22.2, 23.1–23.2 und 24.1–24.2 nur als Regelkarte für den fiktiven Papierfall.",
         "checkedAt": "2026-10-22"
       }
     }

@@ -564,7 +564,9 @@
     const list = create('ol');
     (adult ? practice.adultCriteria : practice.childSteps).forEach(step => appendText(list, 'li', '', step));
     section.append(list);
-    if (adult) appendText(section, 'p', 'muted', 'Pro Kriterium die tatsächlich beobachteten Punkte und Hilfen auf dem Lösungsblatt notieren. Ohne durchgeführte Beobachtung: nicht erhoben. Keine automatische Punktzahl.');
+    if (adult) appendText(section, 'p', 'muted', practice.unscored === true
+      ? 'Nur eine zulässige Unterrichtsbeobachtung eintragen. Keine Gelegenheit und nicht beobachtet unterscheiden; keine Punkte, Summe oder Sportnote ableiten.'
+      : 'Pro Kriterium die tatsächlich beobachteten Punkte und Hilfen auf dem Lösungsblatt notieren. Ohne durchgeführte Beobachtung: nicht erhoben. Keine automatische Punktzahl.');
     return section;
   }
 
@@ -757,15 +759,23 @@
         appendText(practiceSection, 'h3', '', topic.practice.title);
         appendText(practiceSection, 'p', '', mode === 'child' ? topic.practice.childNote : topic.practice.adultNote);
         const list = create('ol');
-        (mode === 'child' ? topic.practice.childSteps : topic.practice.adultCriteria).forEach(step => appendText(list, 'li', '', mode === 'child' ? step : `${step}  Punkte: ____`));
+        (mode === 'child' ? topic.practice.childSteps : topic.practice.adultCriteria).forEach(step => appendText(list, 'li', '', mode === 'child' ? step : topic.practice.unscored === true
+          ? `${step}  ☐ beobachtet  ☐ nicht beobachtet  ☐ keine Gelegenheit  ☐ nicht anwendbar. Namenlose Kurznotiz: ____________________`
+          : `${step}  Punkte: ____`));
         practiceSection.append(list);
         if (mode === 'adult') {
-          const observationMax = Number.isInteger(topic.practice.observationMax) ? topic.practice.observationMax : 16;
-          const observationLabel = topic.practice.observationLabel || 'Vortrag';
-          appendText(practiceSection, 'p', '', `Beobachtung: ☐ gehört  ☐ mit Hilfe  ☐ offen  ☐ nicht erhoben. Ohne ${observationLabel} keine Punktzahl eintragen.`);
-          appendText(practiceSection, 'p', '', 'Vorher vereinbarte Hilfen / verwendete Stichwortstützen: ____________________________________________________');
-          appendText(practiceSection, 'p', '', 'Nachgereichte Hinweise und tatsächlich Gehörtes: _______________________________________________________');
-          appendText(practiceSection, 'p', '', `Nur bei Durchführung und fairer Gelegenheit für alle Kriterien: Summe mündliche Übung ____ / ${observationMax}. Bei „—“ keine vergleichbare Gesamtsumme. Kein automatisches Urteil und keine Schulnote.`);
+          if (topic.practice.unscored === true) {
+            appendText(practiceSection, 'p', '', 'Je Zeile nur nach zulässiger Beobachtung markieren; „keine Gelegenheit“ ist keine Fehlleistung.');
+            appendText(practiceSection, 'p', '', 'Schulspiel und geltende Schulregel/Quelle: ______________________________________________');
+            appendText(practiceSection, 'p', '', 'Ohne Unterrichtsbeobachtung: nicht erhoben; das Raster bleibt leer. Selbstbericht ist kein Bewegungsnachweis. Keine Punkte, Summe oder Sportnote.');
+          } else {
+            const observationMax = Number.isInteger(topic.practice.observationMax) ? topic.practice.observationMax : 16;
+            const observationLabel = topic.practice.observationLabel || 'Vortrag';
+            appendText(practiceSection, 'p', '', `Beobachtung: ☐ gehört  ☐ mit Hilfe  ☐ offen  ☐ nicht erhoben. Ohne ${observationLabel} keine Punktzahl eintragen.`);
+            appendText(practiceSection, 'p', '', 'Vorher vereinbarte Hilfen / verwendete Stichwortstützen: ____________________________________________________');
+            appendText(practiceSection, 'p', '', 'Nachgereichte Hinweise und tatsächlich Gehörtes: _______________________________________________________');
+            appendText(practiceSection, 'p', '', `Nur bei Durchführung und fairer Gelegenheit für alle Kriterien: Summe mündliche Übung ____ / ${observationMax}. Bei „—“ keine vergleichbare Gesamtsumme. Kein automatisches Urteil und keine Schulnote.`);
+          }
         }
         section.append(practiceSection);
       }

@@ -7329,6 +7329,118 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ge-toledo-uebersetzungsquellen",
+      "subjectId": "ge",
+      "title": "Wer arbeitete an der Übersetzung?",
+      "scope": "Freiwilliger, gestützter 7/8-Quellenfall zum Mittelalter aus dem datierten Geschichte-Lehrplan 2021. Die amtliche Geltung 2026/27 ist ungeklärt; Lottes Unterrichtsfolge ist offen. Der Fall prüft Belegarten und Grenzen eines Übersetzungsprojekts, nicht das Zusammenleben aller Gruppen oder einen muslimischen Übersetzer am selben Tisch.",
+      "levelStatus": "additional-unclear",
+      "released": true,
+      "prerequisite": "Freiwillige Zusatzübung: Die Geltung des Geschichte-Lehrplans 2021 für 2026/27 ist ungeklärt. Du brauchst keine Religionszugehörigkeit aus Namen zu erraten. Lies die drei Karten als unterschiedlich vermittelte Belege. Unsere deutsche Inhaltsangabe der heutigen Katalogabschrift ist kein von uns geprüftes Foto der Handschrift; astrologische Vorhersagen werden nicht als Tatsachen behandelt. 20 Haupt- und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "introduction": "Ein altes Übersetzungsprojekt kann zeigen, wie Wissen zwischen Sprachen wanderte. Ein Schlussvermerk am Ende einer Handschrift nennt Beteiligte und manchmal eine Zeit. Ein heutiger Katalog schreibt den alten Text ab; Karte B gibt einen Teil davon nochmals in eigenen deutschen Worten wieder. Ohne Bild der Handschrift können wir die alten Buchstaben nicht selbst vergleichen. „Kastilisch“ bezeichnet hier die Sprache des übersetzten Textes. Unterscheide bei jeder Aussage: Was sagt eine Karte wirklich, und was wäre ein zusätzlicher Schluss?",
+      "lab": {
+        "path": "assets/ge-toledo-quellenkarte.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ge-toledo-quellenkarte.html",
+        "title": "Quellenkarte zu A–C",
+        "description": "Die genauen Fundstellen von BDPI, BNE und Universität samt ihren Aussagegrenzen stehen in einer getrennten, lesbaren Quellenkarte. Die Karte öffnet nur auf deinen Klick; externe Originalseiten ebenfalls.",
+        "printNote": "Die genauen Webadressen stehen in der Quellenkarte im Lernatlas. Die gedruckten Karten A–C enthalten alle Angaben, die für die Aufgaben nötig sind.",
+        "scoredInteraction": false
+      },
+      "passage": "KARTE A · HEUTIGER KATALOG IN EIGENEN WORTEN (BDPI, Libro de las cruzes): Der Katalog datiert ein Pergamentmanuskript auf 1259. Ein arabischsprachiger Text wurde im Auftrag König Alfons’ X. ins Kastilische übertragen. Der Schlussvermerk nennt Jhuda und Maestre Johan Daspa als Beteiligte; Johan heißt dort clérigo (Kleriker). Er nennt den 26. Februar im siebten Regierungsjahr. Der Katalog setzt den Ort als [Toledo] in eckige Klammern: Das ist eine erschlossene Ortsangabe.\n\nKARTE B · EIGENE DEUTSCHE INHALTSANGABE EINES TEILS DES ALTEN SCHLUSSVERMERKS, NACH DER HEUTIGEN BDPI-KATALOGABSCHRIFT: Im Vermerk wird Jhuda als Sohn von Mosse al Choen bezeichnet. Maestre Johan Daspa wird als sein Mitarbeiter an der Übersetzung und als Kleriker genannt. Diese Sätze sind unsere heutige sinngemäße Wiedergabe, kein wörtlicher Handschriftentext und kein selbst geprüftes Foto des Pergaments. Königsauftrag und Datum stehen im längeren Vermerk beziehungsweise in Karte A, nicht in diesem Teil der Inhaltsangabe.\n\nKARTE C · HEUTIGE FORSCHUNG: Das Portal der Universität Pompeu Fabra ordnet Yehudà ben Mosé als jüdischen Übersetzer und Juan de Aspa der christlichen Hofgruppe zu. Nach der dort beschriebenen Auswertung des längeren Prologs übersetzte Yehudà aus dem Arabischen; Juan gliederte den Text in Kapitel und erstellte eine Übersicht. Diese genaue Arbeitsteilung steht nicht vollständig in B. Die BNE-Werkliste nennt Ubayd Allah b. Jalaf als Autor der arabischen Vorlage. A–C sagen nicht, ob er 1259 lebte, welche Religion er hatte, wo er war oder ob er die beiden Bearbeiter traf.\n\nQUELLENWEG · BDPI-Katalogdatensatz, BNE-Werkliste und universitäre PHTE-Porträts; die genauen Adressen und Prüfschranken stehen in der getrennt öffnenden Quellenkarte. Keine Handschriftenabbildung wird gezeigt.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "SPÄTERER FIKTIVER MUSEUMSZETTEL NACH A–D · „Das königliche Buch beweist, dass 1259 ein muslimischer Autor, ein jüdischer Übersetzer und ein christlicher Kleriker gemeinsam in Toledo an einem Tisch saßen.“ Diese Behauptung ist eine Übungskarte, kein historischer Beleg."
+      },
+      "tasks": [
+        {
+          "id": "ge-toledo-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Belegarten (4 Hauptpunkte): Welche Angaben in B stammen ihrem Inhalt nach aus dem alten Schlussvermerk, und auf welchen zwei heutigen Vermittlungsschritten beruhen unsere deutschen Sätze? Welche Rollen haben A und C? Nenne einen sinnvollen Grund, das Foto der Handschrift später zu prüfen.",
+          "sample": "Die Angaben zu Jhuda und Johan stammen dem Inhalt nach aus dem alten Schlussvermerk; B beruht zuerst auf der heutigen Katalogabschrift und dann auf unserer deutschen Inhaltsangabe. A fasst den Katalog zusammen; C ist heutige Forschung. Ein Foto könnte Wortlaut, Schrift und mögliche Abschreibfehler kontrollierbar machen.",
+          "criteria": [
+            "1 Punkt für Angaben aus dem historischen Schlussvermerk als Inhalt von B.",
+            "1 Punkt für die zwei Vermittlungsschritte Katalogabschrift und eigene Inhaltsangabe.",
+            "1 Punkt für A als Katalogdarstellung und C als heutige Forschung.",
+            "1 Punkt für einen konkreten Prüfnutzen des Faksimiles; „Originalquelle“ allein ist zu grob."
+          ]
+        },
+        {
+          "id": "ge-toledo-2",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Arbeitskette (5 Hauptpunkte): Zeichne oder schreibe eine Pfeilfolge mit arabischem Text, Übersetzen, kastilischem Text, Königsauftrag und den in A–C genannten Personen. Setze ein Fragezeichen an unbelegte Behauptungen über Ubayd Allahs Religion und persönliche Anwesenheit 1259. Erkläre: Warum bedeutet „arabische Sprache“ nicht „ein Muslim saß am Tisch“?",
+          "sample": "Arabische Vorlage (Ubayd Allah wird als Autor zugeschrieben) → Übersetzungsprojekt im Auftrag Alfons’ X. → Jhuda und Johan als im Schlussvermerk genannte Beteiligte → kastilischer Text. Fragezeichen bei Ubayd Allahs Religion und Anwesenheit 1259: Sprache und Autorname belegen weder Glauben noch gemeinsames Treffen.",
+          "criteria": [
+            "1 Punkt für Arabisch → Kastilisch.",
+            "1 Punkt für Alfons’ Auftrag, nicht Alleinautorschaft.",
+            "1 Punkt für Jhuda und Johan als Beteiligte.",
+            "1 Punkt dafür, Ubayd Allah nicht als persönlich anwesenden Übersetzer einzuzeichnen.",
+            "1 Punkt für die begründete Trennung von Sprache, Religion und Anwesenheit samt Fragezeichen."
+          ]
+        },
+        {
+          "id": "ge-toledo-3",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 12,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "C · Fünf Schlagzeilen (7 Hauptpunkte): Ordne a–e jeweils als „belegt“, „Deutung/unsicher“ oder „durch A–C nicht belegt“ ein. Nenne zu jeder Einordnung ein Kartendetail oder eine Lücke. Schreibe danach eine vorsichtige eigene Überschrift. a) „1259 nennt ein Schlussvermerk Jhuda und Johan als Beteiligte.“ b) „Alfons X. schrieb den ganzen Text allein.“ c) „Der arabische Autor übersetzte 1259 persönlich mit.“ d) „Das Manuskript entstand sicher in Toledo, weil der Ort im Katalog steht.“ e) „Alle drei Religionen lebten damals überall friedlich und gleichberechtigt zusammen.“",
+          "sample": "a belegt durch A/B und Katalogdatierung in A; b nicht belegt, Auftrag ist nicht Alleinautorschaft; c nicht belegt, Autor der Vorlage ist nicht nachweislich Mitarbeiter 1259; d unsicher, [Toledo] ist erschlossen; e nicht belegt, ein Projekt trägt keine Aussage über alle Orte und Zeiten. Vorsichtige Überschrift: „Ein auf 1259 datiertes Übersetzungswerk nennt Jhuda und Johan unter Alfons’ Auftrag als Beteiligte.“",
+          "criteria": [
+            "Je Schlagzeile 1 Punkt für passende Kategorie mit Kartendetail oder konkreter Lücke; bei bloßer Kategorie höchstens ein halber Punkt.",
+            "1 Punkt für eine Überschrift mit Zusammenarbeit und Datierungsgrenze.",
+            "1 Punkt für eine Überschrift ohne erfundene sichere Orts-, Religions- oder Friedensbehauptung. Bei d „nicht sicher belegt“ zulassen."
+          ]
+        },
+        {
+          "id": "ge-toledo-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Urteil mit Grenze (4 Hauptpunkte): Schreibe drei Sätze. Was zeigt der Fall über Sprach- und Wissensweitergabe am Königshof? Welche konkrete Zusammenarbeit lässt sich aus B ableiten? Welche zusätzliche Quelle bräuchtest du für eine muslimische Perspektive oder das Zusammenleben der Gruppen, und was müsstest du an ihr prüfen?",
+          "sample": "Ein arabischsprachiger Text wurde im Auftrag Alfons’ X. ins Kastilische übertragen. B nennt Jhuda und Johan als Beteiligte desselben Projekts, ohne ihre tägliche gemeinsame Arbeit zu zeigen. Für eine muslimische Perspektive bräuchte ich eine datierte Äußerung einer als muslimisch belegten Person; Herkunft und Aussagebereich müsste ich prüfen.",
+          "criteria": [
+            "1 Punkt für Sprach-/Wissensweg.",
+            "1 Punkt für konkrete Beteiligung Jhudas und Johans ohne erfundenes Treffen mit dem arabischen Autor.",
+            "1 Punkt für eine passende weitere Quellenart.",
+            "1 Punkt für deren Herkunft, Datierung oder Aussagegrenze vor einer Verallgemeinerung."
+          ]
+        },
+        {
+          "id": "ge-toledo-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Variante nach A–D · sechs getrennte Zusatzpunkte: Untersuche den erfundenen Museumszettel. Nenne zwei belegte Kerne und drei unbelegte Sprünge. Schreibe dann eine vorsichtige Ersatzfassung. Nutze nur A–C; deute Namen oder Sprache nicht als Religionsbeweis.",
+          "sample": "Belegt sind Alfons’ Auftrag und Jhuda/Johan als Beteiligte an einer Übersetzung. Unbelegt sind Ubayd Allahs Religion und Anwesenheit, ein gemeinsames Treffen an einem Tisch und [Toledo] als sicherer Arbeitsort. Ersatz: „Der Schlussvermerk des auf 1259 datierten Werkes nennt Jhuda und Johan als Beteiligte einer unter Alfons X. beauftragten Übersetzung aus dem Arabischen ins Kastilische. Ob der arabische Autor dabei war und wo genau alle arbeiteten, bleibt offen.“",
+          "criteria": [
+            "2 Zusatzpunkte für Auftrag und Beteiligung als zwei belegte Kerne.",
+            "Je 1 Zusatzpunkt für drei konkret benannte Sprünge: Religion/Anwesenheit des Autors, gemeinsamer Tisch, sicherer Arbeitsort Toledo.",
+            "1 Zusatzpunkt für eine quellennahe Ersatzfassung ohne diese Sprünge. Zusatzpunkte getrennt von 20 Hauptpunkten ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2025/26 belegt; 2026/27 ungeklärt",
+        "gradeBand": "7/8, Ziel Ende Klasse 8",
+        "competencyRef": "Geschichte Gymnasium 2021, §2.2.1 PDF-S.19–20 zu Quellen, Darstellungen und Perspektiven; §2.2.2 PDF-S.21 zu Begegnungen im mittelalterlichen Europa. Geltung 2026/27 und Schuleinheit offen.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
       "id": "mnt-bionik-leichtbau-modell",
       "subjectId": "mnt",
       "title": "Welche Papierform hält im erfundenen Modelltest?",

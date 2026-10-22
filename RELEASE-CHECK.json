@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-22T11:50:34.192Z",
-  "releaseVersion": "2026.10.22-ensummary.1",
+  "builtAt": "2026-10-22T21:38:00.221Z",
+  "releaseVersion": "2026.10.22-historytoledo.1",
   "newTopicIds": [
-    "en-summary-eastfield-bookshelf"
+    "ge-toledo-uebersetzungsquellen"
   ],
   "changeLog": [
-    "Freiwilliger Englisch-7/8-Schriftfall: Den eigenen fiktiven Eastfield-Text auf Englisch für eine neue freiwillige Person zusammenfassen und zwei unbelegte Behauptungen am Text prüfen. 16+4 manuell bewertete Kriterienpunkte, kein automatisches Sprachurteil.",
-    "Zahlen und Einheiten bleiben quellengebunden: 36 Bücher anfangs, acht Spenden, 30 am Ende; keine belegte Zahl von Entleihenden oder Lesenden. Kinder- und Erwachsenendruck getrennt, Wortzahl nur Planungshilfe, keine bestätigte Klasse-7-Unterrichtsfolge oder Jahresleistung."
+    "Freiwilliger Geschichte-7/8-Quellenfall: An einer mittelalterlichen Übersetzung zwischen historischer Schlussvermerkangabe, heutiger Katalogabschrift, eigener deutscher Inhaltsangabe und heutiger Forschung unterscheiden. 20 Haupt- und sechs getrennte Zusatzpunkte mit menschlichem Feedback.",
+    "Der wörtliche Katalogauszug wird nicht übernommen; die Quellenkarte verlinkt BDPI, BNE und Universität mit Beweisgrenzen. Geltung des Geschichte-Lehrplans 2021 für 2026/27 und Lottes Unterrichtsfolge sind ungeklärt; kein Nachweis für einen muslimischen Übersetzer am selben Tisch oder Geschichts-Jahresabdeckung."
   ],
-  "rollbackCommit": "7609c9d47a3b182e1671103bf5ecbfc2f02588b7",
+  "rollbackCommit": "2654261327b643740e91540cf544877d2c9e62af",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -97,6 +97,7 @@
     "ma-schraegbild-darstellungen",
     "et-jugendrat-budgetwerte",
     "go-gradnetz-modellorte",
+    "ge-toledo-uebersetzungsquellen",
     "mnt-bionik-leichtbau-modell",
     "mu09-bass-triole-taktwechsel",
     "sp-basketball-regelkarte-papier"
@@ -113,6 +114,7 @@
     "ma",
     "et",
     "go",
+    "ge",
     "mu",
     "sp"
   ],
@@ -148,6 +150,7 @@
   "unclearValidityTopics": [
     "et-jugendrat-budgetwerte",
     "go-gradnetz-modellorte",
+    "ge-toledo-uebersetzungsquellen",
     "mu09-bass-triole-taktwechsel",
     "sp-basketball-regelkarte-papier"
   ],

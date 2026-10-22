@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-22T22:17:28.555Z",
-  "releaseVersion": "2026.10.23-m13medienkarte.1",
-  "newTopicIds": [
-    "ma-medienwahrscheinlichkeit"
-  ],
+  "builtAt": "2026-10-22T22:30:06.454Z",
+  "releaseVersion": "2026.10.23-cacheurls.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Freiwilliger Mathematik-M13-Ausblick: Eine ausdrücklich erfundene Medienkarte trennt 11/20=55 % beobachtete Simulationshäufigkeit von 4/10=40 % Modellchance und prüft die Behauptung «fast sicher». Drei Hauptaufgaben mit 4+4+4 Kriterienpunkten und ein erst später sichtbarer Transfer mit vier getrennten Zusatzpunkten.",
-    "Kinder- und Erwachsenendruck sowie Mobil-/Desktop-Browser lokal geprüft. Das Ende-Klasse-8-Ziel ist keine bestätigte aktuelle Klasse-7-Schuleinheit; echte Familien- und Kinderbearbeitung sind noch offen."
+    "Auslieferungswartung ohne neue Aufgaben: Im erzeugten index.html erhalten CSS und JavaScript eine feste Release-Kennung in der URL, damit ein frisch geladenes HTML nicht versehentlich alte lokale Asset-Kopien wiederverwendet.",
+    "Der Stand bleibt bei 93 Themen und 382 Aufgaben. Eine beobachtete Verzögerung früherer GitHub-Pages-Updates wird dadurch nicht rückwirkend erklärt; die tatsächliche Anzeige auf Familiengeräten muss getrennt geprüft werden."
   ],
-  "rollbackCommit": "87c7a8b66e3f51b62a75d35480836ae53c03534d",
+  "rollbackCommit": "b4cf83122072f8f7453cd371166f30f7801b5860",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",

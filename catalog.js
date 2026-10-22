@@ -6625,6 +6625,212 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "PDF-S. 2: Französisch für Klasse 7 ab 2026/27. Zweite Fremdsprache § 3.2.3, PDF-S. 61: kurzer eingeübter Vortrag, Redeplan, einfaches Berichten und Beschreiben zu Gegenwart/Vergangenheit/Zukunft; Zielmarke Klassenstufe 8. § 3.5.2, PDF-S. 82: Sprachmittel nur Orientierung für 7/8.",
         "checkedAt": "2026-10-22"
       }
+    },
+    {
+      "id": "en-small-note-poem",
+      "subjectId": "en",
+      "title": "A small note · ein Gedicht lesen",
+      "scope": "Freiwilliger, gestützter Klasse-7-Einstieg in Gedichte als englische Lesetexte; § 2.2.2 hat die Zielmarke Ende Klasse 8. Keine bestätigte aktuelle Schuleinheit.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Das Gedicht, die Papierbrücke und alle Personen sind erfunden. Die Papierbrücke ist ein Modell, keine echte Brücke. Kurze englische Antworten oder deutsche Erklärungen sind bei dieser Leseübung erlaubt. Die spätere Karte erscheint nach A–D; die App bewertet freie Antworten nicht automatisch.",
+      "introduction": "Lies das kurze erfundene Gedicht und beantworte A–D mit Zeilenbelegen. „Folded“ heißt gefaltet, „weighs“ wiegt, „bridge“ Brücke. „A line“ bedeutet Gedichtzeile. Der Zettel und die Papierbrücke haben unterschiedliche Rollen. Bei einer Deutung reicht eine mögliche, begründete Lesart; du musst nichts Persönliches erzählen. 20 Hauptpunkte und 6 getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "passage": "EIGENS VERFASSTES GEDICHT · A small note\nL1 · In my pocket: a folded note.\nL2 · In blue: “Try again.”\nL3 · It weighs less than my house key,\nL4 · but feels heavy when I want to stop.\nL5 · On Monday, our paper bridge falls.\nL6 · Sam holds one side; I hold the other.\nL7 · We start again, slowly this time.\nL8 · By lunch, the bridge can stand.\nL9 · The note cannot hold the paper.\nL10 · It helps me say, “Please help.”\nL11 · On Tuesday, I write a note for Sam:\nL12 · “Thank you.” I leave it by the bridge.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGE ZUSATZKARTE NACH A–D · Word help: bends = biegt sich; stronger = stärker.\nL13 · On Wednesday, rain wets the bridge.\nL14 · Its paper bends; we put it away.\nL15 · Sam says, “Next time, stronger paper.”\nL16 · I keep the blue note and start a new plan."
+      },
+      "tasks": [
+        {
+          "id": "en-small-note-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Worum geht es? (4 Hauptpunkte): Wähle die passendste Hauptaussage und nenne zwei verschiedene Zeilen als Belege. (a) Ein Zettel repariert die Brücke von selbst. (b) Ein Satz auf dem Zettel hilft der erzählenden Person, nach einem Fehler gemeinsam mit Sam weiterzumachen. (c) Sam baut die Brücke allein und bekommt dafür eine Nachricht. Erkläre kurz, warum ein falscher Vorschlag dem Text widerspricht.",
+          "sample": "(b) passt: Nach dem Einsturz L5 beginnen beide erneut L6–L7; L9–L10 erklären, dass der Zettel beim Bitten um Hilfe hilft. (a) widerspricht L9, weil der Zettel das Papier nicht trägt. Alternativ widerspricht (c) L6–L7, weil beide zusammenarbeiten.",
+          "criteria": [
+            "1 Punkt für (b).",
+            "Je 1 Punkt für zwei verschiedene einschlägige Zeilen mit erkennbarem Bezug zur Hauptaussage; bloße Nummern ohne Bezug genügen nicht.",
+            "1 Punkt für die richtige Widerlegung von (a) oder (c) mit Textbezug. Andere zutreffende Formulierungen gelten."
+          ]
+        },
+        {
+          "id": "en-small-note-2",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Was steht wirklich im Text? (6 Hauptpunkte): 1. Was passiert am Montag zuerst mit der Papierbrücke, und was tun die beiden danach? Nenne passende Zeilen. 2. Nenne eine Handlung der erzählenden Person am Dienstag mit Zeile. 3. Berichtige „The note holds the paper bridge up“ mit zwei Zeilen, die zeigen, was der Zettel nicht und was er stattdessen bewirkt. Je Teilfrage 2 Punkte.",
+          "sample": "1. Die Brücke fällt L5; beide halten sie und beginnen langsam neu L6–L7. 2. Am Dienstag schreibt die Ich-Person Sam einen Zettel L11 oder legt den Dankeszettel bei der Brücke ab L12. 3. L9: Der Zettel trägt kein Papier. L10: Er hilft der Person, um Hilfe zu bitten.",
+          "criteria": [
+            "2 Punkte für die zwei zeitlich richtigen Montagsschritte mit passenden Zeilen, je 1.",
+            "2 Punkte für eine richtige Dienstagshandlung (1) und ihre passende Zeile L11 oder L12 (1).",
+            "2 Punkte: L9 und L10 mit jeweils richtig erklärter Funktion, je 1. L8 beweist kein dauerhaftes Stehen der Brücke."
+          ]
+        },
+        {
+          "id": "en-small-note-3",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C · Eine Gedichtstelle deuten (6 Hauptpunkte): L3–L4 vergleichen den Zettel mit einem Schlüssel. Was bedeutet „weighs less“ wörtlich? Was könnte „feels heavy“ über ein Gefühl oder einen Gedanken sagen? Belege deine mögliche Deutung mit einer weiteren Zeile aus L5–L10. Erkläre, warum das eine Deutung und keine zweite Messung des Zettelgewichts ist.",
+          "sample": "Der Zettel wiegt wörtlich weniger als der Hausschlüssel L3. „Heavy“ kann bedeuten, dass der Satz wichtig, belastend oder drängend wirkt, wenn die Person aufgeben möchte L4. Nach dem Einsturz bittet sie um Hilfe L5/L10 und macht mit Sam weiter L6–L7. Das gefühlte Gewicht kann man nicht wiegen; dies ist eine mögliche Lesart.",
+          "criteria": [
+            "1 Punkt für die wörtliche Gewichtsaussage „leichter als der Schlüssel“.",
+            "1 Punkt für eine plausible gefühlte Bedeutung von „heavy“; positive und belastende Lesarten sind möglich.",
+            "1 Punkt für den Bezug zu „want to stop“.",
+            "1 Punkt für eine weitere passende Zeile aus L5–L10 mit Bezug.",
+            "1 Punkt für die Unterscheidung zwischen „feels“ und messbarem Gewicht.",
+            "1 Punkt für die erkennbare Kennzeichnung der Gefühlsdeutung als Möglichkeit. Keine einzig richtige Emotion verlangen."
+          ]
+        },
+        {
+          "id": "en-small-note-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "D · Was lässt sich über die Figuren sagen? (4 Hauptpunkte): Eine Person sagt „The sister built the bridge.“ Eine andere sagt „Sam helped build it.“ Sister heißt Schwester. Welche Aussage ist belegt? Gib zwei Zeilen an: eine für Sams Handlung und eine für die Rolle des Zettels. Prüfe auch die Aussage zur Schwester: Was lässt sich aus dem Gedicht dazu sagen?",
+          "sample": "Sams Hilfe ist belegt: L6 nennt seine Handlung, L7 das gemeinsame Neuanfangen. L9–L10 zeigen, dass der Zettel das Papier nicht trägt, sondern beim Bitten um Hilfe hilft. Eine Schwester oder ihr Bauanteil wird nicht erwähnt; die Behauptung ist unbelegt, nicht sicher widerlegt.",
+          "criteria": [
+            "1 Punkt für „Sam helped“ als belegte Aussage.",
+            "1 Punkt für L6 oder L7 als Sams Handlung.",
+            "1 Punkt für L9 oder L10 als andere Rolle des Zettels.",
+            "1 Punkt für „Schwester/Bauanteil nicht belegt“. Nicht behaupten, eine Schwester existiere sicher nicht."
+          ]
+        },
+        {
+          "id": "en-small-note-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Zusatzkarte nach A–D · 6 getrennte Punkte: 1. Nenne zwei neue sichere Informationen aus L13–L16. 2. Prüfe: „Because the bridge stood on Monday, it will remain standing even after Wednesday’s rain.“ Was ist nun widerlegt? Nenne die entscheidende neue Zeile. 3. Erkläre in ein bis zwei Sätzen, wie L15–L16 das Motiv „Try again“ fortführen; belege beide Teile.",
+          "sample": "1. Regen macht die Brücke nass L13; ihr Papier biegt sich und beide legen sie weg L14. Auch L15 und L16 enthalten neue Fakten. 2. Montags L8 stand die Brücke; nach dem Regen zeigt L14, dass ihr Papier sich biegt und beide sie weglegen. L13 allein reicht als Statusbeleg nicht. 3. Sam schlägt stärkeres Papier vor L15; die Ich-Person behält den Zettel und beginnt einen neuen Plan L16. Ob der nächste Versuch klappt, bleibt offen.",
+          "criteria": [
+            "2 Zusatzpunkte für zwei verschiedene richtige neue Aussagen aus L13–L16, je 1.",
+            "2 Zusatzpunkte: 1 für die Berichtigung des dauerhaften Stehens nach dem Regen, 1 für L14 als entscheidenden Beleg; L13 allein reicht nicht.",
+            "2 Zusatzpunkte: L15 als mögliche Bauänderung und L16 als neuer Plan, je 1 mit Zeilenbezug. Keine Erfolgsgarantie erfinden."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Englisch Klasse 7 ab 2026/27. § 2.2.2 PDF-S. 26–27 nennt Gedichte als literarisch-ästhetische Lesetexte unter dem Ende-8-Ziel.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
+      "id": "fr-parapluie-poeme",
+      "subjectId": "fr",
+      "title": "Sous le parapluie · ein Gedicht lesen",
+      "scope": "Freiwilliger, gestützter Klasse-7-Einstieg in Gedichte als Lesetexte der wahrscheinlichen zweiten Fremdsprache; § 3.2.2 hat die Zielmarke Ende Klasse 8. Persönlicher Lernbeginn und aktuelle Schuleinheit sind offen.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Zoé und die Ich-Person sind erfunden. Kurze deutsche Antworten oder einfache französische Wörter genügen; hier übst du Leseverstehen mit Textbelegen. Der individuelle Wortschatz und Lernbeginn sind unbekannt. Die Karte zum nächsten Tag erscheint erst nach A–D; die App bewertet freie Antworten nicht automatisch.",
+      "introduction": "Lis le poème. Marque les lignes utiles. Lies das erfundene Gedicht und markiere Zeilen für A–D. Wortstütze: la cour = Schulhof; un parapluie = Regenschirm; le mien = meiner; le vent = Wind; mouillées = nass; sec = trocken; demain = morgen. Die Wörter helfen beim Lesen, sind noch keine Lösung. Kurze deutsche Erklärungen zählen. 20 Hauptpunkte und 6 getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "passage": "EIGENS VERFASSTES GEDICHT · Sous le parapluie\nL1 · Ce matin, il pleut dans la cour.\nL2 · J'ai un parapluie rouge.\nL3 · Zoé n'a pas de parapluie.\nL4 · Je dis : « Viens sous le mien. »\nL5 · Nous allons à la bibliothèque.\nL6 · Le vent pousse le parapluie à gauche.\nL7 · Nos chaussures sont mouillées,\nL8 · mais le livre dans mon sac reste sec.\nL9 · Zoé dit : « Demain, j'apporte un parapluie bleu. »\nL10 · Je demande : « Pour nous deux ? »\nL11 · Elle répond : « Oui, pour nous deux. »\nL12 · Le vent souffle encore. Nous rions.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGE ZUSATZKARTE NACH A–D · Wortstütze: le lendemain = am nächsten Tag; fermé = geschlossen; ensemble = zusammen.\nL13 · Le lendemain, il ne pleut pas.\nL14 · Zoé apporte le parapluie bleu.\nL15 · Nous le laissons fermé.\nL16 · « On marche ensemble », dit-elle."
+      },
+      "tasks": [
+        {
+          "id": "fr-parapluie-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Gesamtsinn (4 Hauptpunkte): Welche Kurzfassung passt? (a) Zoé geht allein mit einem blauen Schirm nach Hause. (b) Zwei Kinder gehen im Regen zusammen zur Bibliothek; Zoé kündigt für morgen einen blauen Schirm an. (c) Der Regen macht das Buch in der Tasche nass. Wähle eine Antwort und finde selbst je eine Belegzeile für den Weg zur Bibliothek und die Ankündigung für morgen. Erkläre kurz, warum eine falsche Kurzfassung nicht passt.",
+          "sample": "(b) passt. L5 belegt den gemeinsamen Weg zur Bibliothek, L9 die Ankündigung für morgen. (c) ist falsch, denn L8 sagt, das Buch bleibt trocken. L1 zeigt zusätzlich den Regen, L4 die Einladung unter den Schirm; beide ersetzen L5 und L9 nicht.",
+          "criteria": [
+            "1 Punkt für (b).",
+            "1 Punkt für L5 als Beleg des gemeinsamen Wegs zur Bibliothek.",
+            "1 Punkt für L9 als Beleg der morgigen Ankündigung; L1 und L4 können ergänzen, ersetzen die Kernbelege nicht.",
+            "1 Punkt für eine richtig erklärte Widerlegung von (a) oder (c) mit Textbezug. Die sichere Mitnahme des blauen Schirms ist in L1–L12 noch nicht gezeigt."
+          ]
+        },
+        {
+          "id": "fr-parapluie-2",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Drei genaue Notizen (6 Hauptpunkte): Notiere zu jeder Frage eine kurze Antwort und passende Zeile(n): 1. Wer hat am Morgen keinen Regenschirm? 2. Wohin gehen die beiden? 3. Was ist nass, was bleibt trocken? Für die dritte Notiz brauchst du zwei verschiedene Zeilen, eine für nass und eine für trocken. Jede vollständige Notiz bringt 2 Punkte.",
+          "sample": "1. Zoé hat keinen Schirm, L3. 2. Beide gehen zur Bibliothek, L5. 3. Die Schuhe sind nass L7; das Buch in der Tasche bleibt trocken L8.",
+          "criteria": [
+            "2 Punkte: Zoé (1) und L3 (1).",
+            "2 Punkte: Bibliothek (1) und L5 (1).",
+            "2 Punkte: Schuhe nass und Buch trocken (1) sowie beide passenden Zeilen L7 und L8 (1). Bei nur einem richtigen Paar je 0,5 für Inhalt und Zeile. Kurze deutsche Notizen sind vollwertig."
+          ]
+        },
+        {
+          "id": "fr-parapluie-3",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C · Behauptung und Zeitgrenze (6 Hauptpunkte): Prüfe jede Aussage als richtig, falsch oder nicht belegt, nenne eine passende Zeile und eine genaue Berichtigung oder Grenze. 1. « Le livre est mouillé. » (Das Buch ist nass.) 2. « Zoé apporte un parapluie bleu ce matin. » (Zoé bringt heute Morgen einen blauen Schirm mit.) Je Aussage 3 Punkte.",
+          "sample": "1. Falsch: Das Buch in der Tasche bleibt trocken L8; L7 betrifft die Schuhe. 2. Falsch für heute Morgen: Zoé hat keinen Schirm L3 und kündigt erst für morgen einen blauen an L9. Ob sie ihn dann wirklich mitbringt, zeigen L1–L12 noch nicht.",
+          "criteria": [
+            "Aussage 1: 1 Punkt für falsch, 1 für „Buch bleibt trocken“, 1 für L8.",
+            "Aussage 2: 1 Punkt für falsch zur Zeitangabe ce matin, 1 für „heute ohne Schirm, morgen angekündigt“, 1 für L3 oder L9 mit richtiger Erklärung.",
+            "Wer „für morgen angekündigt, tatsächliche Mitnahme offen“ schreibt, benennt die Grenze. „Nicht belegt“ ohne Zurückweisung von ce matin erhält den Zeitstatuspunkt nicht, kann aber die anderen Punkte bei genauer Erklärung erhalten."
+          ]
+        },
+        {
+          "id": "fr-parapluie-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "D · « Pour nous deux » (4 Hauptpunkte): Was meinen die Figuren damit in L10–L11? Verbinde die Stelle mit einer Handlung vorher im Gedicht. Erkläre, was über den nächsten Tag erst angekündigt und noch nicht gezeigt wird. Nenne für beide Teile passende Zeilen. Eine kurze deutsche Erklärung genügt.",
+          "sample": "Der für morgen angekündigte blaue Schirm soll für beide sein L10–L11. Zuvor teilt die Ich-Person ihren roten Schirm: Rot steht in L2, die Einladung darunter in L4. Zoé kündigt den blauen Schirm für morgen an L9; tatsächliche Mitnahme ist in L1–L12 nicht gezeigt.",
+          "criteria": [
+            "1 Punkt für „für beide gemeinsam“ in L10–L11.",
+            "1 Punkt für das frühere Teilen beziehungsweise die Einladung unter den roten Schirm in L4.",
+            "1 Punkt für die Grenze: für morgen angekündigt, tatsächliche Mitnahme noch nicht gezeigt.",
+            "1 Punkt für L9 als Zukunftsbeleg und eine passende Zeile zum früheren Teilen. Dauerhafte Freundschaft ist keine sichere Textinformation."
+          ]
+        },
+        {
+          "id": "fr-parapluie-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Zusatzkarte nach A–D · 6 getrennte Punkte: 1. Nenne zwei neue sichere Informationen aus L13–L16 mit Zeilen. 2. Jemand behauptet: „Am zweiten Tag gehen beide bei Regen unter dem geöffneten blauen Schirm.“ Prüfe beide Teile mit je einer neuen Zeile. 3. Was kann « pour nous deux » nun auch ohne Regen bedeuten? Gib eine vorsichtige Deutung mit L16 und einer früheren passenden Zeile.",
+          "sample": "1. Am nächsten Tag regnet es nicht L13; Zoé bringt den blauen Schirm L14. Auch L15/L16 sind neue Fakten. 2. Kein Regen laut L13; der Schirm bleibt geschlossen L15. 3. L10–L11 meinen zunächst den Schirm für beide. L16 zeigt, dass beide ohne Regen zusammen weitergehen; das kann zusätzlich gemeinsames Unterwegssein bedeuten, beweist aber keine dauerhafte Freundschaft.",
+          "criteria": [
+            "2 Zusatzpunkte für zwei verschiedene neue Angaben mit passenden Zeilen aus L13–L16, je 1.",
+            "2 Zusatzpunkte: kein Regen mit L13 (1) und Schirm geschlossen mit L15 (1).",
+            "2 Zusatzpunkte: vorsichtige Deutung des gemeinsamen Unterwegsseins aus L16 (1) verbunden mit L10–L11 oder L4 (1). Keine dauerhafte Beziehung behaupten."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Französisch Klasse 7 ab 2026/27. Zweite Fremdsprache § 3.2.2 PDF-S. 60 nennt Gedichte und gestütztes Leseverstehen unter dem Ende-8-Ziel; A2 ist kein bestätigter Iststand.",
+        "checkedAt": "2026-10-22"
+      }
     }
   ]
 });

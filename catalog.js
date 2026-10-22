@@ -8077,6 +8077,95 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "Sport Gymnasium 2016, PDF-S. 9–10 und 21–27: Sportspiel 1/2, schulische Spielwahl, Regelanwendung, einfache taktische Entscheidungen und tatsächliches Spielen. FIBA Official Basketball Rules 2026 v1.1, Art. 2.5.1/2.5.4, 16.2.1, 22.2, 23.1–23.2 und 24.1–24.2 nur als Regelkarte für den fiktiven Papierfall.",
         "checkedAt": "2026-10-22"
       }
+    },
+    {
+      "id": "mnt-wasser-teilchenmodell",
+      "subjectId": "mnt",
+      "title": "Was zeigen drei Wassermodelle?",
+      "scope": "Freiwillige Klasse-7-Brücke auf dem belegten MNT-Ende-6-Niveau: Aggregatzustände und Zustandswechsel von Wasser im Teilchenmodell. MNT steht laut Robert auf Lottes Klasse-7-Stundenplan. Der ministerielle Erprobungsplan beginnt 2026/27 aber mit Klasse 5 und erreicht Klasse 6 erst 2027/28; die tatsächliche Klasse-7-Schulfolge ist offen.",
+      "levelStatus": "grade6-bridge",
+      "released": true,
+      "prerequisite": "Die drei Karten und die verschlossene Kammer sind erfundene Modelle, keine Messung. Du brauchst keine Stoffe oder Geräte. Es gibt keine amtliche Klasse-7-Zuordnung aus diesem MNT-Plan; nutze den Fall freiwillig als anspruchsvolle Brücke. Schreibe nur fiktive Antworten ohne Fotos oder echte Messdaten. Offene Antworten brauchen menschliches Feedback.",
+      "introduction": "Jedes ○ steht in allen drei Karten für dasselbe modellierte Wasserteilchen. Die Zeichen sind keine Atome oder Fotos und nicht maßstabsgetreu; Zahl und Abstände sind keine Messwerte. X, Y und Z beschreiben drei Zustände derselben Wasserprobe. Wortstütze: fest, flüssig und gasförmig sind Aggregatzustände; Schmelzen bedeutet fest → flüssig, Gefrieren flüssig → fest, Verdampfen flüssig → gasförmig und Kondensieren gasförmig → flüssig. Bei der Frage nach Wärme geht es immer um die Wasserprobe, nicht die Umgebung. 20 Haupt- und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "diagram": {
+        "path": "assets/mnt-wasser-teilchenmodell.svg",
+        "alt": "Drei erfundene Wassermodelle X, Y und Z: X im Raum verteilt, Y geordnet an Plätzen, Z mit wechselnden Nachbarn",
+        "caption": "Die Zeichnung ergänzt die vollständigen Textbeschreibungen; Kreise, Anzahl und Abstände sind keine Messwerte."
+      },
+      "passage": "KARTE X · Die ○ sind im ganzen verfügbaren Raum verteilt und bewegen sich in verschiedene Richtungen.\n\nKARTE Y · Die ○ bilden ein geordnetes Muster. Sie bewegen sich um ihre Plätze, wechseln aber ihre Nachbarn im Modell kaum.\n\nKARTE Z · Die ○ können ihre Nachbarn wechseln und aneinander vorbeigleiten; die Ansammlung kann fließen.\n\nFür Aufgabe B gelten vier Pfeile: Y → Z, Z → X, X → Z und Z → Y. Bei jedem Pfeil wird Wärme an die Wasserprobe abgegeben oder ihr entzogen. Die Karten zeigen keine tatsächliche Temperatur, Zeit, Masse oder Teilchengröße.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "text": "SPÄTERER FIKTIVER TRANSFER NACH A–C · In einer verschlossenen Modellkammer mit ausschließlich Wasser ist zunächst ein Teil der Wasserteilchen als Gas dargestellt. Nach dem Abkühlen der Kammerwand zeigt ein zweites Modell dort mehr flüssiges Wasser und weniger Wasserteilchen im Gas. Die Gesamtzahl der modellierten Wasserteilchen bleibt gleich. Es gibt keine Temperatur-, Zeit- oder Massenmessungen."
+      },
+      "tasks": [
+        {
+          "id": "mnt-wasser-1",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A · Karten zuordnen (6 Hauptpunkte): Ordne X, Y und Z jeweils fest, flüssig oder gasförmig zu. Nenne für jede Zuordnung genau ein passendes Merkmal aus der Modellkarte. Drei Zustandswörter allein reichen nicht.",
+          "sample": "X ist gasförmig: Die Teilchen sind im verfügbaren Raum verteilt und bewegen sich in verschiedene Richtungen. Y ist fest: Das Muster ist geordnet, die Nachbarn wechseln kaum. Z ist flüssig: Die Nachbarn können wechseln und die Ansammlung fließt.",
+          "criteria": [
+            "Je Karte 1 Punkt für den richtigen Zustand und 1 Punkt für ein passendes Kartenmerkmal. Nur drei Zustandswörter: höchstens 3 von 6."
+          ]
+        },
+        {
+          "id": "mnt-wasser-2",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 11,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "B · Vier Veränderungen (8 Hauptpunkte): Ergänze für Y → Z, Z → X, X → Z und Z → Y jeweils den Vorgangsnamen und ob die Wasserprobe Wärme aufnimmt oder abgibt. Begründe einen Pfeil zusätzlich mit Bewegung oder Anordnung; diese Denkhilfe gibt keinen Extrapunkt.",
+          "sample": "Y → Z: Schmelzen, die Probe nimmt Wärme auf. Z → X: Verdampfen, sie nimmt Wärme auf. X → Z: Kondensieren, sie gibt Wärme ab. Z → Y: Gefrieren, sie gibt Wärme ab. Beim Schmelzen verlieren die Teilchen ihre weitgehend festen Nachbarplätze.",
+          "criteria": [
+            "Je Pfeil 1 Punkt für den passenden Vorgang und 1 Punkt für die richtige Wärmerichtung bezogen auf die Wasserprobe.",
+            "Die zusätzliche Modellbegründung ist eine Denkhilfe ohne eigenen Punkt. Eine eindeutige fachlich richtige Umschreibung darf für den Vorgangspunkt gelten."
+          ]
+        },
+        {
+          "id": "mnt-wasser-3",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "C · Modellgrenzen (6 Hauptpunkte): Prüfe „Beim Verdampfen werden die Wasserteilchen selbst größer“ in zwei getrennten Sätzen: Was zeigt die Karte, und was kann sie über wirkliche Teilchengröße belegen? Prüfe „Beim Kondensieren entsteht ein neuer Stoff“ anhand der Symbolbedeutung. Nenne zwei verschiedene Dinge, die sich aus den Zeichnungen nicht messen oder sicher ablesen lassen.",
+          "sample": "Die Karte benutzt vor und nach dem Wechsel dasselbe ○ und zeigt eine andere Verteilung, kein größer gezeichnetes Teilchen. Sie ist nicht maßstäblich und misst keine wirkliche Molekülgröße. ○ bleibt Wasserteilchen; Kondensieren ändert den Zustand, nicht die Stoffidentität. Weder genaue Temperatur noch vergangene Zeit lassen sich aus dem Modell ablesen.",
+          "criteria": [
+            "2 Punkte: Kartenaussage und getrennte Grenze für reale Teilchengröße.",
+            "2 Punkte: unveränderte Wasserteilchen und Zustands- statt Stoffänderung.",
+            "Je 1 Punkt für zwei unterschiedliche Modellgrenzen, etwa Größe, Abstand, Kräfte, Geschwindigkeit, Temperatur, Zeit oder echte Beobachtung. Doppelte Formulierungen zählen nur einmal."
+          ]
+        },
+        {
+          "id": "mnt-wasser-4",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer nach A–C · sechs getrennte Zusatzpunkte: Benenne den Zustandswechsel an der Wand und die Wärmerichtung für den betroffenen Wasseranteil. Warum folgt nicht „Die Wand hat neues Wasser hergestellt“? Was zeigt die unveränderte Gesamtzahl nur im verschlossenen Modell? Nenne zwei Angaben, die du trotz der sichtbaren Änderung nicht bestimmen kannst.",
+          "sample": "An der Wand kondensiert Wasserdampf; der betroffene Anteil gibt Wärme ab. Das flüssige Wasser kann aus dem vorhandenen Gas stammen. Die gleiche Gesamtzahl zeigt in diesem verschlossenen Modell, dass keine modellierten Teilchen hineinkamen oder verschwanden; es ist keine reale Massenmessung. Genaue Temperatur und vergangene Zeit bleiben unbekannt.",
+          "criteria": [
+            "1 Zusatzpunkt für Kondensieren.",
+            "1 Zusatzpunkt für Wärmeabgabe der betroffenen Wasserprobe.",
+            "1 Zusatzpunkt für vorhandenes gasförmiges Wasser als mögliche Quelle statt einer herstellenden Wand.",
+            "1 Zusatzpunkt für die unveränderte Teilchenzahl ausdrücklich nur im verschlossenen Modell.",
+            "Je 1 Zusatzpunkt für zwei verschiedene nicht bestimmbare Größen, etwa Temperatur, Zeit, Masse oder Wärmebetrag. Zusatzpunkte getrennt ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27: Klasse 5; 2027/28: Klasse 6",
+        "gradeBand": "MNT-Ende-6, 7-Brücke",
+        "competencyRef": "MNT-Erprobungsfassung 2026, PDF-S. 2, 15 und §2.2.3 PDF-S. 17–18: Ende Klasse 6 Körperzustände, Kugelteilchenmodell, Bewegung und Anordnung sowie Schmelzen, Verdampfen, Kondensieren und Gefrieren von Wasser. Keine amtliche Klasse-7-Zuordnung.",
+        "checkedAt": "2026-10-23"
+      }
     }
   ]
 });

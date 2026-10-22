@@ -4295,6 +4295,61 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "en-summary-eastfield-bookshelf",
+      "subjectId": "en",
+      "title": "A short summary: the Eastfield bookshelf",
+      "scope": "Freiwillige, gestützte 7/8-Schreibübung: einen englischen Sachtext auf Englisch knapp zusammenfassen und unbelegte Folgerungen erkennen. EN-W ist ein Ziel bis Ende Klasse 8; Lottes aktuelle Klasse-7-Unterrichtsfolge ist unbekannt. Kein Übersetzen und keine bestätigte Jahresleistung.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Alle Orte, Zahlen und Vorgänge sind erfunden. Die Wortzahl 45–70 ist eine Planungshilfe, keine technische Sperre. Schreibe in eigenen englischen Worten; freie Texte werden nicht automatisch bewertet. Antworten bleiben im Browserprofil von Lotte. Keine echten Personen- oder Reisedaten eingeben.",
+      "introduction": "Read the short fictional text. Summarise it in English for a new volunteer, then check two confident claims against the source. Keep counts of books, people and reading separate. Word help is optional. About 45–70 words may help you plan, but a shorter complete summary is also accepted. These are 20 formative feedback points, not a school grade.",
+      "passage": "A SHARED BOOKSHELF AT EASTFIELD STATION · fictional text\n\nL1 Eastfield is a fictional station. For four weeks, staff tested a shared bookshelf in its covered waiting area. The aim was to give passengers something to read while they waited.\n\nL2 The shelf began with 36 books. Passengers could take a book and bring it back later. They did not have to register or give their names.\n\nL3 Volunteers checked the shelf every Monday and Friday. People donated eight more books during the trial.\n\nL4 At the final check, volunteers found 30 books on the shelf. They had not recorded each book that left or came back or counted how many people used the shelf. They did not ask whether anyone finished a book.\n\nL5 The station team has not decided whether the shelf will stay. It will discuss the space and the time volunteers can offer before making a decision.\n\nOPTIONAL WORD HELP · trial = a short test; covered = with a roof; donated = gave for free; recorded = wrote information down; register = gave your name to join a list.",
+      "tasks": [
+        {
+          "id": "en-eastfield-summary-1",
+          "kind": "reflection",
+          "points": 16,
+          "inputRows": 12,
+          "writingLines": 12,
+          "adultOnlySolution": true,
+          "prompt": "Write a short English summary for a new station volunteer who missed the trial. Use your own words. About 45–70 words can help you plan; a shorter complete summary is accepted. Include purpose and length, the important book counts, what the records cannot show, and whether a decision has been made. Do not add an opinion or facts from outside L1–L5.",
+          "sample": "Eastfield Station tested a shared bookshelf for four weeks to give waiting passengers something to read. It began with 36 books, and eight more books were donated during the trial. At the final check, 30 books were on the shelf. Volunteers did not track individual book movements or count users, and they did not ask whether anyone finished a book. The team has not decided whether to keep it.",
+          "criteria": [
+            "2 points: purpose and four-week duration.",
+            "3 points: 36 books at the start, eight donated during the trial, 30 on the shelf at the final check; each number keeps its unit and time.",
+            "2 points: individual book movements and user numbers were not recorded; completed reading was not asked about.",
+            "2 points: no precise borrower, loan or reading count is inferred from 36 + 8 − 30.",
+            "2 points: the team has not decided whether the shelf will stay.",
+            "1 point: selects the central facts without retelling every line.",
+            "2 points: own wording and a sensible order.",
+            "2 points: understandable English; minor language slips do not erase correct content and the same factual error is not deducted twice."
+          ]
+        },
+        {
+          "id": "en-eastfield-summary-2",
+          "kind": "reflection",
+          "points": 4,
+          "inputRows": 6,
+          "writingLines": 6,
+          "adultOnlySolution": true,
+          "prompt": "Someone writes: “The difference proves that exactly 14 passengers borrowed and read books. The station team will keep the shelf.” Are these two claims supported, contradicted or not established by L1–L5? Explain briefly, then write one source-bounded correction.",
+          "sample": "Both claims are not established. The difference is between book counts, not a count of passengers or completed reading; L4 says these were not recorded. L5 says the team has not decided whether to keep the shelf. A careful sentence is: “The final check found 30 books on the shelf, but the team has not decided whether it will stay.”",
+          "criteria": [
+            "1 point: exactly 14 passengers borrowing and reading is not established.",
+            "1 point: book-count difference is not a people or completed-reading count; L4 names the missing records.",
+            "1 point: keeping the shelf is not established because L5 says no decision has been made.",
+            "1 point: one accurate correction stays within L1–L5."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "Englisch Gymnasium 2026, PDF-S. 2: Klasse 7 ab 2026/27; erste Fremdsprache §2.2.4, PDF-S. 29: informative Texte zusammenfassen als Ziel bis Ende Klasse 8.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
       "id": "en-amina-notebook-story",
       "subjectId": "en",
       "title": "Amina’s red notebook – read the clues",

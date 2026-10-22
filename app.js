@@ -235,7 +235,7 @@
       appendText(summary, 'strong', '', subject.name);
       appendText(summary, 'span', 'subject-group-count', '');
       group.append(summary);
-      if (topics.length === 0) appendText(group, 'p', 'subject-group-empty', 'Noch keine geprüften Aufgaben für dieses Fach.');
+      if (topics.length === 0) appendText(group, 'p', 'subject-group-empty', subject.availabilityReason || 'Noch keine geprüften Aufgaben für dieses Fach.');
       else {
         const grid = create('div', 'topic-grid');
         for (const topic of topics) {
@@ -298,7 +298,7 @@
       const chosen = state.selected.filter(id => topicById.get(id)?.subjectId === subject.id).length;
       group.querySelector('.subject-group-count').textContent = total
         ? `${total} Thema${total === 1 ? '' : 'en'} · ${chosen} gewählt`
-        : 'Noch keine geprüften Aufgaben';
+        : subject.availabilityLabel || 'Noch keine geprüften Aufgaben';
     }
     $('#start-learning').disabled = state.selected.length === 0;
     $('#choose-view').classList.toggle('has-selection', state.selected.length > 0);

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Folie und Handout – fiktiver Pausenraum</title>
+<style>
+*{box-sizing:border-box}:root{font:1rem/1.5 system-ui,Arial,sans-serif;color:#19313b;background:#f3f7f7}body{margin:0}main{max-width:1100px;margin:auto;padding:1rem}h1{font-size:clamp(1.7rem,4vw,2.4rem);line-height:1.17}h2{font-size:1.25rem;margin-top:0}.notice,.card{padding:1rem;margin:1rem 0;border-radius:.7rem}.notice{background:#e5f3ef;border-left:5px solid #176f60}.card{background:white;border:1px solid #c5d5d7}.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.55rem}.facts p{margin:0;padding:.55rem;background:#f2f7f7}.editors,.previews{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.fields{display:grid;gap:.65rem}label{display:grid;gap:.25rem;font-weight:650}input,textarea,button{font:inherit;color:inherit;border:1px solid #67818a;border-radius:.35rem;padding:.65rem;min-width:0}input,button{min-height:44px}textarea{min-height:5.5rem;resize:vertical}#handout-body{min-height:15rem}.actions{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1rem}button{background:#075b70;color:white;border-color:#075b70;font-weight:700;cursor:pointer}button.secondary{background:white;color:#075b70}button:disabled{opacity:.55;cursor:not-allowed}iframe{width:100%;min-height:440px;border:1px solid #a8c1c4;background:white}.previews p{margin:.3rem 0 .6rem}.small{font-size:.93rem;color:#38515a}#message{min-height:1.5em;font-weight:650}:focus-visible{outline:3px solid #b46400;outline-offset:2px}@media(max-width:720px){.facts,.editors,.previews{grid-template-columns:1fr}main{padding:.75rem}}@media print{body{background:white}button,iframe{display:none}.card{break-inside:avoid}}
+</style></head><body><main>
+<h1>Folie und Handout selbst gestalten</h1>
+<p class="notice">Nur eine Übung mit erfundenen Daten. Die Werkstatt sendet nichts und speichert Eingaben nicht dauerhaft. Verwende keine echten Namen, Kontakte oder Schulbefragungen. Lade beide HTML-Dateien auf dein eigenes Gerät und öffne sie zum Prüfen oder Drucken erneut. Die Texte werden nicht automatisch auf Richtigkeit bewertet.</p>
+<section class="card" aria-labelledby="facts-heading"><h2 id="facts-heading">1. Fiktive Datenkarte · Stand 20. Oktober 2026</h2>
+<div class="facts"><p>Zwei Wochen Test eines Pausenraums.</p><p>30 Teilnehmende gaben freiwillig je eine anonyme Rückmeldekarte ab.</p><p>18: ruhiger Leseplatz · 9: Brettspiele · 3: keine Präferenz.</p><p>Genau eine Antwort je Karte. Gesamtzahl aller Nutzenden unbekannt; keine Befragung der ganzen Schule.</p><p>Dauerangebot noch nicht beschlossen.</p><p>Raum und Betreuung noch ungeklärt.</p></div>
+<p class="small">Frage: „Was sollte der Raum künftig besonders bieten?“ Quelle: fiktive Datenkarte der erfundenen Projektgruppe. Rechne Anteile auf 30 Karten, falls du Prozentwerte verwendest. Die freiwillige Variante mit 40 Karten bearbeitest du getrennt im Lernatlas.</p></section>
+<section class="card" aria-labelledby="edit-heading"><h2 id="edit-heading">2. Zwei Fassungen schreiben</h2><p>Entscheide selbst, welche Fakten du wie formulierst. Die Folie hat höchstens drei Stichpunktzeilen. Das Handout erklärt in ganzen Sätzen und ist für jemanden ohne Vortrag verständlich. Trage in beiden Fassungen die Bezugsmenge und eine Quelle mit richtigem Stand ein.</p>
+<div class="editors"><div class="fields"><h3>Folie</h3><label>Überschrift<input id="slide-title" maxlength="100" autocomplete="off" placeholder="Thema und Bezugsmenge"></label><label>Stichpunkt 1<input id="bullet-1" maxlength="170" autocomplete="off"></label><label>Stichpunkt 2<input id="bullet-2" maxlength="170" autocomplete="off"></label><label>Stichpunkt 3 (freiwillig)<input id="bullet-3" maxlength="170" autocomplete="off"></label><label>Quellenzeile<input id="slide-source" maxlength="190" autocomplete="off" placeholder="Fiktive Datenkarte, Stand …"></label></div>
+<div class="fields"><h3>Handout</h3><label>Überschrift<input id="handout-title" maxlength="100" autocomplete="off"></label><label>Erklärung in ganzen Sätzen<textarea id="handout-body" maxlength="2500" placeholder="Test, Rückmeldungen, Aussagegrenze und offener Entscheid …"></textarea></label><label>Quellenzeile<input id="handout-source" maxlength="190" autocomplete="off" placeholder="Fiktive Datenkarte, Stand …"></label><p id="words" class="small">0 Wörter im Handouttext. Etwa 80–120 Wörter helfen beim Planen; Vollständigkeit zählt mehr.</p></div></div>
+<div class="actions"><button id="preview" type="button">Beide Vorschauen erstellen</button><button id="download-slide" type="button" disabled>Folie als HTML laden</button><button id="download-handout" type="button" disabled>Handout als HTML laden</button><button id="reset" class="secondary" type="button">Eingaben zurücksetzen</button></div><p id="message" role="status" aria-live="polite">Beginne mit deinen eigenen Formulierungen.</p></section>
+<section class="card" aria-labelledby="check-heading"><h2 id="check-heading">3. Selbst prüfen</h2><p>Vergleiche beide Vorschauen mit der Datenkarte: Stimmen 18/9/3, die Bezugsmenge 30 freiwillige Karten, die Aussagegrenze und der offene Entscheid? Prüfe die gespeicherten Dateien auch nach dem Wiederöffnen. Auf dem Handy kann die Folie schmal angezeigt werden; beim Drucken nutzt sie Querformat, das Handout Hochformat.</p><div class="previews"><div><h3>Folie</h3><iframe id="slide-view" title="Vorschau der fiktiven Folie" sandbox="" referrerpolicy="no-referrer"></iframe></div><div><h3>Handout</h3><iframe id="handout-view" title="Vorschau des fiktiven Handouts" sandbox="" referrerpolicy="no-referrer"></iframe></div></div><p class="small">Die Vorschauen führen keine Skripte aus. Die Downloads enthalten nur Text, HTML und CSS. Ein erzeugter Entwurf ist noch kein gehaltener Vortrag.</p></section>
+</main><script>
+(()=>{'use strict';
+const ids=['slide-title','bullet-1','bullet-2','bullet-3','slide-source','handout-title','handout-body','handout-source'];
+const needed=ids.filter(id=>id!=='bullet-3');
+const $=id=>document.getElementById(id);
+const esc=value=>value.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
+const data=()=>Object.fromEntries(ids.map(id=>[id,$(id).value.trim()]));
+const status=value=>{$('message').textContent=value;};
+let documents=null,downloads={slide:0,handout:0};
+function shell(title,body,kind){
+const slide=kind==='slide';
+return `<!doctype html>\n<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(title)} – fiktive Übung</title><style>*{box-sizing:border-box}body{margin:0;background:#fff;color:#17313a;font:1rem/1.5 system-ui,Arial,sans-serif}main{max-width:${slide?'1000':'720'}px;margin:auto;padding:clamp(1rem,4vw,2.3rem)}header{border-left:8px solid #08707b;padding:.5rem 1rem;background:#eaf6f5}h1{font-size:clamp(1.7rem,4vw,3rem);line-height:1.16;margin:.2rem 0}p,li,h1{overflow-wrap:anywhere}ul{font-size:clamp(1.1rem,2vw,1.55rem);padding-left:1.35rem}li{margin:.8rem 0}article{white-space:pre-wrap;line-height:1.6}footer{border-top:1px solid #9bb7bd;margin-top:1.5rem;padding-top:.7rem;font-size:.88rem}small{color:#38555d}@page{size:A4 ${slide?'landscape':'portrait'};margin:16mm}@media print{main{max-width:none;padding:0}body{print-color-adjust:exact}}</style></head><body><main><header><small>Fiktive Übung · keine echte Schulbefragung</small><h1>${esc(title)}</h1></header>${body}</main></body></html>`;
+}
+function build(d){
+const bullets=['bullet-1','bullet-2','bullet-3'].filter(id=>d[id]).map(id=>`<li>${esc(d[id])}</li>`).join('');
+return {slide:shell(d['slide-title'],`<ul>${bullets}</ul><footer>Quelle: ${esc(d['slide-source'])}</footer>`,'slide'),handout:shell(d['handout-title'],`<article>${esc(d['handout-body'])}</article><footer>Quelle: ${esc(d['handout-source'])}</footer>`,'handout')};
+}
+for(const id of ids)$(id).addEventListener('input',()=>{
+documents=null;$('download-slide').disabled=true;$('download-handout').disabled=true;
+const count=$('handout-body').value.trim().split(/\s+/u).filter(Boolean).length;
+$('words').textContent=`${count} Wörter im Handouttext. Etwa 80–120 Wörter helfen beim Planen; Vollständigkeit zählt mehr.`;
+status('Eingaben geändert. Erstelle die Vorschau neu.');
+});
+$('preview').addEventListener('click',()=>{
+const d=data();const missing=needed.filter(id=>!d[id]);
+if(missing.length){status('Bitte ergänze zuerst: '+missing.map(id=>document.querySelector(`label:has(#${id})`)?.firstChild.textContent.trim()||id).join(', ')+'.');$(missing[0]).focus();return;}
+documents=build(d);$('slide-view').srcdoc=documents.slide;$('handout-view').srcdoc=documents.handout;
+$('download-slide').disabled=false;$('download-handout').disabled=false;
+status('Zwei Vorschauen erstellt. Prüfe Fakten, Bezugsmenge, Quelle und Lesbarkeit selbst.');
+});
+function download(kind){if(!documents)return;const blob=new Blob([documents[kind]],{type:'text/html;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=`pausenraum-${kind}-fassung-${++downloads[kind]}.html`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);status('Download angestossen. Öffne die gespeicherte Datei erneut und prüfe sie.');}
+$('download-slide').addEventListener('click',()=>download('slide'));
+$('download-handout').addEventListener('click',()=>download('handout'));
+$('reset').addEventListener('click',()=>{for(const id of ids)$(id).value='';documents=null;downloads={slide:0,handout:0};$('download-slide').disabled=true;$('download-handout').disabled=true;$('slide-view').removeAttribute('srcdoc');$('handout-view').removeAttribute('srcdoc');$('words').textContent='0 Wörter im Handouttext. Etwa 80–120 Wörter helfen beim Planen; Vollständigkeit zählt mehr.';status('Startzustand wiederhergestellt.');$('slide-title').focus();});
+})();
+</script></body></html>

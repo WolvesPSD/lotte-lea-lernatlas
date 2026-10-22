@@ -31,37 +31,49 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "et",
       "name": "Ethik",
       "plan": "2012 (2025/26)",
-      "scope": "7/8; Stand 2026/27 offen"
+      "scope": "7/8; Stand 2026/27 offen",
+      "availabilityLabel": "Lehrplan 2026/27 ungeklärt",
+      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Ethik-Lehrplan gilt. Deshalb gibt es hier noch keine freigegebene Aufgabe."
     },
     {
       "id": "sp",
       "name": "Sport",
       "plan": "2016 (2025/26)",
-      "scope": "Jahrgangsgliederung offen"
+      "scope": "7/8-Bereiche im Original geprüft; Stand 2026/27 und schulische Wahlbereiche offen",
+      "availabilityLabel": "Lehrplan 2026/27 ungeklärt",
+      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Sport-Lehrplan gilt. Welche Sportspiele und Wahlbereiche die Schule gewählt hat, wissen wir ebenfalls nicht. Deshalb gibt es hier noch keine freigegebene Aufgabe."
     },
     {
       "id": "mnt",
       "name": "Mensch–Natur–Technik",
       "plan": "Gymnasium 2026, Erprobungsfassung; Klasse 5 ab 2026/27",
-      "scope": "Schulfach im aktuellen Klasse-7-Plan bestätigt; passender Klasse-7-Lehrplanbezug offen"
+      "scope": "Schulfach im aktuellen Klasse-7-Plan bestätigt; passender Klasse-7-Lehrplanbezug offen",
+      "availabilityLabel": "Klasse-7-Zuordnung offen",
+      "availabilityReason": "MNT steht auf Lottes Klasse-7-Stundenplan. Der neue MNT-Lehrplan startet 2026/27 aber mit Klasse 5. Welche Fachlehrpläne die Schule in dieser Klasse-7-Stunde nutzt, ist noch offen. Deshalb gibt es hier noch keine freigegebene Aufgabe."
     },
     {
       "id": "mu",
       "name": "Musik",
       "plan": "2012 (2025/26)",
-      "scope": "7/8; Stand 2026/27 offen"
+      "scope": "7/8; Stand 2026/27 offen",
+      "availabilityLabel": "Lehrplan 2026/27 ungeklärt",
+      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Musik-Lehrplan gilt. Deshalb gibt es hier noch keine freigegebene Aufgabe."
     },
     {
       "id": "ge",
       "name": "Geschichte",
       "plan": "2021 (2025/26)",
-      "scope": "7/8; Stand 2026/27 offen"
+      "scope": "7/8; Stand 2026/27 offen",
+      "availabilityLabel": "Lehrplan 2026/27 ungeklärt",
+      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Geschichte-Lehrplan gilt. Deshalb gibt es hier noch keine freigegebene Aufgabe."
     },
     {
       "id": "go",
       "name": "Geografie",
       "plan": "2012 (2025/26)",
-      "scope": "7/8; Stand 2026/27 offen"
+      "scope": "7/8; Stand 2026/27 offen",
+      "availabilityLabel": "Lehrplan 2026/27 ungeklärt",
+      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Geografie-Lehrplan gilt. Deshalb gibt es hier noch keine freigegebene Aufgabe."
     },
     {
       "id": "mbi",
@@ -2704,6 +2716,102 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "de-samira-charakterisierung",
+      "subjectId": "de",
+      "title": "Samira mit Textbelegen charakterisieren",
+      "scope": "Freiwilliger, gestützter Einstieg in die 7/8-Beispieltextsorten Personencharakterisierung und literarische Charakteristik. Die Schreibziele gelten bis Ende Klasse 8; Lottes aktuelle Unterrichtseinheit ist unbekannt. Keine bestätigte Klasse-7-Jahresabdeckung.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Alle Personen, Ereignisse und Jahreszahlen sind erfunden. Beschreibe nur Samira im vorliegenden Text, keine reale Person. Eine Handlung ist beobachtbar; eine Eigenschaft musst du mit Textstellen begründen. Wörter wie „immer“ und „nie“ brauchen besonders starke Belege. Die App bewertet offene Texte nicht automatisch.",
+      "introduction": "Lies den fiktiven Kurztext. Trenne, was Samira tatsächlich tut oder sagt, von einer möglichen Deutung ihrer Eigenschaften. Nenne bei jeder Deutung eine passende Z-Zeile. Beschränke dein Urteil auf diesen Ausschnitt; über Samiras verborgene Motive oder ihren allgemeinen Charakter wissen wir zu wenig.",
+      "passage": "Vor dem Rundgang\nZ1 Am Freitagmorgen bereiten Samira, Ben und Tarek eine Schulausstellung vor. Samira schreibt die Zeiten und Zuständigkeiten auf eine Tafel. Gemeinsam stellen die drei Bilder an die markierten Plätze.\n\nZ2 Ben bemerkt, dass eine Stellwand den Eingang zum Leseraum verengt. „Wir beginnen in zehn Minuten“, sagt Samira. „Lass uns erst nachsehen, bevor wir alles verschieben.“\n\nZ3 Tarek versucht, eine Materialkiste durch den Eingang zu tragen; sie passt nicht hindurch. „Dann stellen wir die Wand um“, sagt Samira. Die Lehrkraft prüft den neuen Platz und stimmt zu. Samira und Ben versetzen die Wand und zeichnen die Wegpfeile neu.\n\nZ4 Auf einer Infokarte zur Ausstellung steht „2018“, in der Inventarliste „2019“. Samira vergleicht beide Angaben. „Ich habe die Zahl falsch übertragen“, sagt sie, und korrigiert die Karte nach der Liste, bevor die Gäste kommen.\n\nDie Inventarliste und Jahreszahlen sind erfundene Bestandteile der Geschichte; sie belegen keine reale Ausstellung.",
+      "tasks": [
+        {
+          "id": "de-samira-1",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "prompt": "A. Beobachtbare Stellen (5 Kriterienpunkte): Nenne aus Z1 eine Vorbereitungshandlung Samiras, aus Z2 ihre Zeitangabe, aus Z3 eine beobachtbare Reaktion nach Tareks Versuch und aus Z4 eine Handlung zur falschen Jahreszahl. Gib jeweils die Zeile an. Erkläre danach in einem Satz, warum „Samira ist immer perfekt vorbereitet“ nicht belegt ist.",
+          "sample": "Z1: Samira schreibt Zeiten und Zuständigkeiten auf die Tafel. Z2: Sie sagt, dass der Rundgang in zehn Minuten beginnt. Z3: Nach Tareks Versuch schlägt sie das Umstellen vor und hilft Ben dabei. Z4: Sie vergleicht Karte und Liste, nennt ihren Übertragungsfehler und korrigiert die Karte. „Immer perfekt“ folgt aus diesem kurzen Ausschnitt nicht; in Z4 ist sogar ein eigener Fehler zu sehen.",
+          "criteria": [
+            "1 Punkt: Vorbereitungshandlung mit Z1 richtig.",
+            "1 Punkt: zehn Minuten mit Z2 richtig.",
+            "1 Punkt: beobachtbare Reaktion nach dem Kistenversuch mit Z3 richtig.",
+            "1 Punkt: Vergleich, Fehlerbenennung oder Korrektur mit Z4 richtig.",
+            "1 Punkt: „immer“ als aus dem kurzen Ausschnitt nicht beweisbar begründet; Z4 zeigt zudem einen Fehler."
+          ]
+        },
+        {
+          "id": "de-samira-2",
+          "kind": "reflection",
+          "points": 9,
+          "writingLines": 16,
+          "inputRows": 12,
+          "prompt": "B. Charakterisierung (9 Kriterienpunkte): Schreibe ungefähr sechs bis acht zusammenhängende Sätze über Samira. Nenne Text und Rolle. Beschreibe mit Z1 eine mögliche Stärke, mit Z2 ihre erste Reaktion unter Zeitdruck, mit Z3 den Umgang mit der neu beobachteten Schwierigkeit und mit Z4 den eigenen Fehler. Schließe mit einem ausgewogenen Urteil nur über diesen Textausschnitt. Verknüpfe Deutungen mit Zeilen und erfinde keine verborgenen Motive. Eine andere Satzanzahl ist richtig, wenn alles verständlich und belegt ist.",
+          "sample": "Im fiktiven Text „Vor dem Rundgang“ bereitet Samira mit Ben und Tarek eine Schulausstellung vor. Sie wirkt planvoll, denn sie schreibt Zeiten und Zuständigkeiten auf (Z1). Als Ben den engen Zugang anspricht, weist sie auf die nur noch zehn Minuten hin und schlägt zunächst Nachsehen vor (Z2). Nachdem Tareks Kiste nicht hindurchpasst, schlägt sie eine Änderung vor (Z3). Mit Ben versetzt sie die Wand und zeichnet die Pfeile neu (Z3). Bei der falschen Jahreszahl nennt sie ihren Übertragungsfehler und korrigiert die Karte nach einem Vergleich (Z4). In diesem Ausschnitt handelt Samira zunächst prüfend, kann aber auf neue Hinweise reagieren und einen eigenen Fehler berichtigen; über ihr Verhalten in jeder anderen Lage sagt der Text nichts.",
+          "criteria": [
+            "1 Punkt: Text und Samiras Rolle werden genannt.",
+            "1 Punkt: eine mögliche Stärke wird mit der konkreten Handlung aus Z1 verbunden.",
+            "1 Punkt: erste Reaktion samt Zeitkontext aus Z2 wird richtig beschrieben.",
+            "1 Punkt: Tareks Kiste als neue Beobachtung aus Z3 wird richtig genannt.",
+            "1 Punkt: Samiras darauf folgende Planänderung oder Mithilfe wird mit Z3 belegt.",
+            "1 Punkt: der eigene Übertragungsfehler aus Z4 wird erkannt.",
+            "1 Punkt: Vergleich und Korrektur der Zahl aus Z4 werden genannt.",
+            "1 Punkt: ausgewogenes Urteil gilt erkennbar nur für diesen Ausschnitt; kein unbelegtes „immer“ oder Motiv.",
+            "1 Punkt: verständliche zusammenhängende Sätze verknüpfen Aussagen und Textbelege. Gleichwertige Deutungen sind zulässig; die ungefähre Satzanzahl ist keine starre Schwelle."
+          ]
+        },
+        {
+          "id": "de-samira-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 10,
+          "prompt": "C. Drei Deutungen prüfen (4 Kriterienpunkte): Ordne jede Aussage als gestützt, widerlegt oder nicht entscheidbar ein und begründe mit Zeile oder Beleglücke: 1. „Samira hilft Ben beim Versetzen der Wand.“ 2. „Samira will die Gäste absichtlich vom Leseraum fernhalten.“ 3. „Samira bestreitet, dass sie die falsche Jahreszahl geschrieben hat.“ Erkläre bei einer Aussage zusätzlich den Unterschied zwischen Textinformation und Deutung.",
+          "sample": "1. Gestützt: Samira und Ben versetzen die Wand (Z3). 2. Nicht entscheidbar: Der Eingang ist enger, aber eine Absicht gegen die Gäste wird nicht genannt; die Wand wird später umgestellt (Z2–Z3). 3. Widerlegt: Samira sagt selbst, sie habe die Zahl falsch übertragen (Z4). Das Umstellen in Z3 ist eine berichtete Handlung; „sie ist offen für Hinweise“ ist eine mögliche Deutung dieses Verhaltens.",
+          "criteria": [
+            "1 Punkt: Aussage 1 als gestützt mit Z3 begründet.",
+            "1 Punkt: Aussage 2 als nicht entscheidbar mit fehlendem Absichtsbeleg begründet; Wirkung ist nicht Motiv.",
+            "1 Punkt: Aussage 3 als widerlegt mit Z4 begründet.",
+            "1 Punkt: Beobachtung/Textinformation und Deutung werden an einem Beispiel klar unterschieden. Ein bloßes Label ohne Grund reicht nicht."
+          ]
+        },
+        {
+          "id": "de-samira-4",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 7,
+          "prompt": "D. Übertreibung verbessern (2 Kriterienpunkte): Schreibe „Samira ist immer stur und schiebt ihre Fehler auf andere“ in zwei sachliche Sätze um. Nutze Z2–Z3 für ihren Umgang mit dem Vorschlag und Z4 für die Jahreszahl. Wiederhole die Beschimpfung nicht bloß mit einem freundlicheren Wort.",
+          "sample": "Samira nennt die knappe Zeit und schlägt zuerst Nachsehen vor; nach Tareks Versuch ändert sie den Plan und hilft Ben beim Umstellen (Z2–Z3). Die falsche Jahreszahl nennt sie ihren eigenen Übertragungsfehler und korrigiert sie (Z4).",
+          "criteria": [
+            "1 Punkt: Samiras zeitlich und sachlich richtiger Umgang mit dem Vorschlag aus Z2–Z3.",
+            "1 Punkt: eigene Fehleranerkennung und Korrektur aus Z4. „Immer“ oder ein erfundener Vorwurf darf nicht stehen bleiben."
+          ]
+        },
+        {
+          "id": "de-samira-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "prompt": "E. Freiwilliger Transfer (6 Zusatzpunkte, getrennt von A–D): Nur hier kommt die spätere fiktive Notiz N1 hinzu: „Am nächsten Vorbereitungstag merkt Samira, dass sie die neuen Beschriftungskarten zu Hause gelassen hat. Sie sagt es der Gruppe sofort, bittet Ben um leere Karten und schreibt neue. Der Beginn verzögert sich nicht.“ Prüfe „Samira vergisst nie etwas“. Was ändert N1 an deiner Charakterisierung, und welche gut belegte Aussage aus Z1–Z4 bleibt bestehen? Schreibe zwei ergänzende Sätze mit Z-/N1-Belegen und nenne eine allgemeine Charakterbehauptung, die auch jetzt nicht sicher folgt.",
+          "sample": "„Samira vergisst nie etwas“ ist durch N1 widerlegt. Beim ersten Aufbau plant sie sichtbar mit Tafel und Zuständigkeiten (Z1), reagiert später auf den engen Zugang und korrigiert eine eigene Jahreszahl (Z3–Z4). Am nächsten Vorbereitungstag vergisst sie Karten, sagt es offen, bittet Ben um leere Karten und schreibt neue (N1); daraus folgt weder, dass sie nie etwas vergisst, noch dass sie immer schlecht vorbereitet ist.",
+          "criteria": [
+            "1 Punkt: das konkrete Vergessen der Karten aus N1 wird genannt.",
+            "1 Punkt: „nie“ wird durch N1 als widerlegt erkannt.",
+            "1 Punkt: mindestens eine weiterhin gestützte Handlung aus Z1–Z4 bleibt richtig.",
+            "1 Punkt: ein sachlicher Ergänzungssatz enthält einen passenden Z-Beleg.",
+            "1 Punkt: ein weiterer sachlicher Ergänzungssatz enthält den N1-Beleg.",
+            "1 Punkt: die Grenze einer allgemeinen Charakterbehauptung wird ausdrücklich erklärt. Die Zitateinleitung darf zusätzlich zu den zwei Ergänzungssätzen stehen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. § 2.2.4 PDF-S. 29–30: Schreiben als Ziel bis Ende Klasse 8. § 3.4 PDF-S. 49–50: „Personencharakteristiken“ und „literarische Charakteristiken“ als exemplarische 7/8-Textsorten. Keine festgelegte Klasse-7-Unterrichtsfolge.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
       "id": "de-namensschild-deutung",
       "subjectId": "de",
       "title": "Figuren und Deutungen im Erzähltext",
@@ -4224,6 +4332,288 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "de-spielenachmittag-werbetext",
+      "subjectId": "de",
+      "title": "Einladen, ohne etwas zu versprechen",
+      "scope": "Freiwilliger, gestützter Einstieg in appellatives Schreiben im gültigen 7/8-Rahmen. Werbetexte sind ein exemplarisches 7/8-Beispiel; die Schreibziele gelten bis Ende Klasse 8. Kein Nachweis für Lottes aktuelle Unterrichtseinheit.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Die Spiele-AG, Schule, Zahlen und Anmeldung sind vollständig erfunden. Schreibe nur für diese Übung. Gib keine echten Kontaktdaten ein und versende oder veröffentliche nichts. Die App bewertet freie Texte nicht automatisch.",
+      "introduction": "Ein Werbetext darf Interesse wecken, aber keine unbelegten Tatsachen oder Garantien erfinden. Prüfe Angaben zu Zeit, Ort, Preis und Plätzen an der fiktiven Faktenkarte. „Stand“ sagt, wann eine Zahl galt; sie kann sich später ändern. Eine Einladung ist noch kein Beweis, dass alle kommen oder einen Platz bekommen.",
+      "passage": "FIKTIVE FAKTENKARTE der erfundenen Spiele-AG · Stand 10. November 2026, 12:00 Uhr\n- Spielenachmittag: Freitag, 13. November 2026, 15:00–16:30 Uhr.\n- Ort: Schulbibliothek der erfundenen Schule.\n- Angebot: Die AG stellt Wortpfad, Zahleninsel und Bilderrätsel bereit. Welches Spiel einzelne Personen spielen können, ist noch offen.\n- Teilnahme: kostenlos; insgesamt 16 Plätze. Am genannten Kartenstand sind 8 Plätze noch frei.\n- Anmeldung: für einen Platz bei der erfundenen Spiele-AG bis 12. November, 18:00 Uhr nötig. Die Karte enthält keinen echten Kontaktweg. Erst eine Bestätigung gibt einen Platz.\n\nSCHLECHTER ENTWURF: „Alle lieben unsere Spiele! Am Freitag, 13. November, ab 15 Uhr im Musikraum. Jede und jeder bekommt garantiert einen Platz und gewinnt einen tollen Preis. Eintritt: 2 Euro.“\n\nAlle Angaben sind Übungsdaten. Nichts beschreibt ein reales Schulangebot.",
+      "tasks": [
+        {
+          "id": "de-spielenachmittag-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "prompt": "A. Behauptungen prüfen (4 Kriterienpunkte): Finde vier unterschiedliche Aussagen im schlechten Entwurf, die der Faktenkarte widersprechen oder aus ihr nicht belegbar sind. Schreibe jeweils die zutreffende Kartenangabe oder die genaue Beleglücke. Du darfst wählen, welche vier du prüfst.",
+          "sample": "„Alle lieben“ ist nicht belegt. „Musikraum“ widerspricht der Schulbibliothek. Ein garantierter Platz widerspricht Anmeldung, Bestätigung und begrenzter Kapazität. Ein Preisgewinn steht nirgends auf der Karte. Auch „2 Euro“ wäre falsch, denn die Teilnahme ist kostenlos. „Ab 15 Uhr“ ist dagegen nicht falsch, nur ohne Endzeit unvollständig.",
+          "criteria": [
+            "Bis zu 4 Punkte: je 1 für eine andere, richtig begründete Korrektur aus Beliebtheit, Raum, Platzgarantie, Gewinn oder Eintritt. Vier verschiedene Korrekturen genügen; dieselbe Garantie nicht doppelt zählen. „Ab 15 Uhr“ allein ist unvollständig, kein sachlicher Widerspruch."
+          ]
+        },
+        {
+          "id": "de-spielenachmittag-2",
+          "kind": "reflection",
+          "points": 10,
+          "writingLines": 15,
+          "inputRows": 12,
+          "prompt": "B. Eigener Werbetext (10 Kriterienpunkte): Schreibe eine Überschrift und ungefähr 60–90 Wörter für einen freundlichen Aushang an andere Schülerinnen und Schüler. Nenne Veranstaltung, Datum, Beginn und Ende, Schulbibliothek, Kosten, Spieleangebot, begrenzte Plätze mit Stand der freien Zahl und die Anmeldebedingung. Formuliere eine Einladung und einen passenden nächsten Schritt nur innerhalb der fiktiven Situation. Prüfe konkrete Behauptungen an der Karte. Ein kürzerer vollständiger Text ist ebenso richtig; die Wortzahl ist keine Punkteschwelle.",
+          "sample": "Spielenachmittag in der Schulbibliothek\nLust auf Brettspiele? Am Freitag, 13. November 2026, von 15:00 bis 16:30 Uhr lädt die erfundene Spiele-AG zu Wortpfad, Zahleninsel und Bilderrätsel ein. Die Teilnahme ist kostenlos. Insgesamt gibt es 16 Plätze; Stand 10. November, 12:00 Uhr, waren 8 davon noch frei. Wenn du in dieser erfundenen Situation mitspielen möchtest, melde dich bis 12. November, 18:00 Uhr bei der AG an und warte auf eine Bestätigung. Welches Spiel du spielen kannst, wird noch geklärt.",
+          "criteria": [
+            "1 Punkt: Überschrift, Adressat und Einladung erkennbar.",
+            "1 Punkt: Freitag, 13. November 2026, richtig.",
+            "1 Punkt: Beginn 15:00 und Ende 16:30 Uhr richtig.",
+            "1 Punkt: Schulbibliothek als Ort.",
+            "1 Punkt: kostenlose Teilnahme.",
+            "1 Punkt: die drei bereitgestellten Spiele ohne Wunschspiel-Garantie.",
+            "1 Punkt: insgesamt 16 Plätze und 8 damals noch frei.",
+            "1 Punkt: Stand 10. November, 12:00 Uhr, der freien Zahl erkennbar.",
+            "1 Punkt: Anmeldung bis 12. November, 18:00 Uhr, samt nötiger Bestätigung.",
+            "1 Punkt: verständlicher, ansprechender Text ohne erfundene Beliebtheit, Gewinne oder Platzgarantie. Wortzahl und Mustersatzbau sind keine starren Schwellen."
+          ]
+        },
+        {
+          "id": "de-spielenachmittag-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "prompt": "C. Wirkung und Beleg trennen (4 Kriterienpunkte): Zeige an zwei eigenen Formulierungen aus deinem Text: Welche macht neugierig, ohne eine Tatsache zu behaupten? Welche nennt eine überprüfbare Information, und wo steht sie auf der Karte? Wähle dann eine pauschale Behauptung aus dem schlechten Entwurf und erkläre ihre Beleglücke. Erkläre außerdem, warum „8 Plätze frei“ ohne Kartenstand eine stärkere Behauptung wäre.",
+          "sample": "„Lust auf Brettspiele?“ macht neugierig, behauptet aber keine Beliebtheit. „Die Teilnahme ist kostenlos“ ist eine prüfbare Information aus der Kartenzeile Teilnahme. „Alle lieben unsere Spiele“ ist nicht belegt; die Karte enthält keine Umfrage. Die acht freien Plätze galten am 10. November um 12:00 Uhr. Nach weiteren Anmeldungen könnte sich die Zahl ändern.",
+          "criteria": [
+            "1 Punkt: eigene neugierig machende Formulierung samt Grenze, ohne falsche Tatsache.",
+            "1 Punkt: konkrete prüfbare Angabe aus dem eigenen Text mit passender Kartenzeile.",
+            "1 Punkt: Beleglücke einer pauschalen Behauptung aus dem schlechten Entwurf verständlich.",
+            "1 Punkt: zeitliche Aussagegrenze der acht freien Plätze erklärt. Eine Einladung ist kein Tatsachenbeleg."
+          ]
+        },
+        {
+          "id": "de-spielenachmittag-4",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "prompt": "D. Eine Zusage überarbeiten (2 Kriterienpunkte): Ersetze „Du spielst garantiert dein Lieblingsspiel“ durch einen einladenden, aber sachlich vertretbaren Satz. Begründe kurz, welche Information für diese Garantie auf der Karte fehlt.",
+          "sample": "Melde dich für den Spielenachmittag mit Wortpfad, Zahleninsel und Bilderrätsel an. Die Karte sagt nicht, welches Spiel für jede Person tatsächlich verfügbar sein wird.",
+          "criteria": [
+            "1 Punkt: einladender Satz ohne Wunschspiel-Garantie.",
+            "1 Punkt: fehlende Information zur Verteilung oder Verfügbarkeit für einzelne Personen benannt."
+          ]
+        },
+        {
+          "id": "de-spielenachmittag-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "prompt": "E. Freiwilliger Transfer (6 Zusatzpunkte, getrennt von A–D): Nur hier gilt eine neue fiktive Nachricht der AG vom 12. November 2026, 09:00 Uhr. Der Spielenachmittag bleibt Freitag, 13. November, kostenlos und mit denselben drei Spielen. Er findet jetzt 15:30–17:00 Uhr in Raum 5 statt. Von 16 Plätzen sind nach diesem neuen Stand noch 3 frei. Anmeldung bei der erfundenen AG weiterhin bis 12. November, 18:00 Uhr; ohne Bestätigung kein Platz. Schreibe zwei bis drei kurze Werbesätze nur für diese neue Lage. Nenne Datum, neue Zeit, neuen Ort, Kosten, Stand/Plätze und Anmeldebedingung ohne Garantie.",
+          "sample": "Am Freitag, 13. November, lädt die erfundene Spiele-AG zum kostenlosen Spielenachmittag ein. Gespielt wird jetzt 15:30–17:00 Uhr in Raum 5; am 12. November um 09:00 Uhr waren von 16 Plätzen noch 3 frei. Melde dich bis 12. November, 18:00 Uhr bei der fiktiven AG an; einen Platz hast du erst nach Bestätigung.",
+          "criteria": [
+            "1 Punkt: Freitag, 13. November, richtig.",
+            "1 Punkt: neues Zeitfenster 15:30–17:00 Uhr.",
+            "1 Punkt: Raum 5 statt Schulbibliothek.",
+            "1 Punkt: kostenlos bleibt korrekt.",
+            "1 Punkt: 3 freie Plätze mit neuem Stand 12. November, 09:00 Uhr.",
+            "1 Punkt: Anmeldung/Frist und nötige Bestätigung ohne Platzgarantie. Die drei Spielenamen müssen im Kurztransfer nicht wiederholt werden."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. § 2.2.4 PDF-S. 29–30: adressaten-, situations- und intentionsgerechtes Schreiben als Ziel bis Ende Klasse 8. § 3.4 PDF-S. 49: „Werbetexte“ als exemplarische Textform der 7/8-Spalte.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
+      "id": "de-buechersammlung-meldung",
+      "subjectId": "de",
+      "title": "42 Bücher: eine Meldung mit aktuellem Stand",
+      "scope": "Freiwilliger, gestützter Teilfall informierenden Schreibens im gültigen 7/8-Rahmen. Nachrichten/Meldungen sind exemplarische 7/8-Textformen; Schreibziele gelten bis Ende Klasse 8. Keine bestätigte aktuelle Klasse-7-Einheit.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Projektgruppe, Schule, Sammlung und alle Zahlen sind erfunden. Schreibe keine echte Schulmeldung und veröffentliche nichts. Die App bewertet freie Texte nicht automatisch.",
+      "introduction": "Eine sachliche Meldung beantwortet wichtige W-Fragen und nennt für veränderliche Zahlen den Quellenstand. Prüfe bei jeder Angabe, was genau gezählt wurde, welcher Zeitpunkt zu ihr gehört und ob eine Behauptung durch A oder B gestützt wird. Schreibe nach dem letzten verfügbaren Stand.",
+      "passage": "FIKTIVE NOTIZ A · erfundene Projektgruppe · Montag, 16. November 2026, 16:30 Uhr\nUnsere Projektgruppe organisierte heute von 13:00 bis 15:00 Uhr in der Schulbibliothek einen Büchersammeltag für ein mögliches Tauschregal. 42 Bücher wurden abgegeben. Davon sind 27 bereits freigegeben; 15 warten noch auf Prüfung. Die Zahl der spendenden Personen wurde nicht erfasst.\n\nFIKTIVE AKTUALISIERUNG B · dieselbe Projektgruppe · Dienstag, 17. November 2026, 10:00 Uhr\nVon den bislang 15 ungeprüften Büchern wurden 8 zusätzlich freigegeben und 2 nicht freigegeben. 5 bleiben ungeprüft. Es kamen keine Bücher hinzu. Gründe für die zwei Nichtfreigaben wurden nicht festgehalten. Ob und wann ein dauerhaftes Tauschregal eröffnet wird, ist nicht entschieden.\n\nSCHLECHTER ENTWURF C\n„42 Schülerinnen und Schüler spendeten Bücher. Alle 42 Bücher sind schon für das mögliche Tauschregal freigegeben. Zwei Bücher waren beschädigt. Am Mittwoch eröffnet das Regal dauerhaft!“\n\nSchreibe aus Sicht von Dienstag, 17. November, nach 10:00 Uhr. Die Quellen sind erfunden; nichts veröffentlichen.",
+      "tasks": [
+        {
+          "id": "de-buechermeldung-1",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "prompt": "1. Neuesten Stand ermitteln (5 Kriterienpunkte): Berechne, wie viele der 42 Bücher jetzt freigegeben, nicht freigegeben und noch ungeprüft sind. Zeige die Rechnung für mindestens eine Kategorie. Nenne zwei sichere Angaben aus A zum Sammeltag, die B nicht ersetzt.",
+          "sample": "27 + 8 = 35 freigegeben; 0 + 2 = 2 nicht freigegeben; 15 − 8 − 2 = 5 ungeprüft. Kontrolle: 35 + 2 + 5 = 42 Bücher. Bleibende Angaben aus A sind zum Beispiel Montag, 16. November, als Sammeltag und die Schulbibliothek als Ort. Auch 13:00–15:00 Uhr, die Projektgruppe oder 42 abgegebene Bücher bleiben richtig.",
+          "criteria": [
+            "Je 1 Punkt: 35 freigegeben, 2 nicht freigegeben, 5 ungeprüft.",
+            "Je 1 Punkt: zwei verschiedene bleibende Angaben aus A. Mindestens ein Rechenschritt muss sichtbar sein; ohne ihn den betreffenden Zahlenpunkt nicht als gesichert ansehen."
+          ]
+        },
+        {
+          "id": "de-buechermeldung-2",
+          "kind": "reflection",
+          "points": 9,
+          "writingLines": 15,
+          "inputRows": 12,
+          "prompt": "2. Eigene sachliche Meldung (9 Kriterienpunkte): Schreibe eine Überschrift und ungefähr 75–110 Wörter für eine fiktive Schulnachricht. Wer organisierte was, wann und wo? Wie viele Bücher wurden abgegeben und wie lautet der aktuelle Prüfstand? Nenne A und B mit ihrem jeweiligen Zeitpunkt. Was bleibt beim künftigen Regal offen? Schreibe neutral; die Wortspanne ist eine Hilfe, keine starre Punktschwelle.",
+          "sample": "Büchersammlung: 35 Bücher für mögliches Tauschregal freigegeben\nDie erfundene Projektgruppe sammelte am Montag, 16. November 2026, von 13:00 bis 15:00 Uhr in der Schulbibliothek 42 Bücher für ein mögliches Tauschregal. Ihre erste Notiz vom Montagnachmittag meldete 27 freigegebene und 15 noch ungeprüfte Bücher. Laut der aktualisierten Notiz vom Dienstag, 17. November, 10:00 Uhr, sind nun 35 freigegeben, 2 nicht freigegeben und 5 ungeprüft. Die Zahl der spendenden Personen und Gründe für Nichtfreigaben wurden nicht erfasst. Ob und wann das Regal dauerhaft eröffnet wird, ist noch offen.",
+          "criteria": [
+            "1 Punkt: sachliche Überschrift.",
+            "1 Punkt: Projektgruppe und Sammlung.",
+            "1 Punkt: Montag, 16.11., mit Zeitfenster.",
+            "1 Punkt: Schulbibliothek.",
+            "1 Punkt: 42 Bücher statt 42 Personen.",
+            "1 Punkt: drei richtige aktuelle Statuszahlen.",
+            "1 Punkt: ältere und neuere Quelle zeitlich unterscheidbar.",
+            "1 Punkt: offene Regalentscheidung und Beleggrenzen.",
+            "1 Punkt: neutraler zusammenhängender Nachrichtentext. Eine andere vollständige Länge ist zulässig."
+          ]
+        },
+        {
+          "id": "de-buechermeldung-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 10,
+          "prompt": "3. Vier Fehler im schlechten Entwurf (4 Kriterienpunkte): Prüfe die vier Sätze aus C einzeln. Ist die Aussage durch A und B gestützt? Nenne jeweils die zutreffende Angabe oder die genaue Beleglücke. Unterscheide ausdrücklich zwischen widerlegt und nicht belegt.",
+          "sample": "1. Nicht belegt/falsche Einheit: 42 Bücher wurden gezählt, nicht 42 spendende Personen; ihre Zahl ist unbekannt. 2. Widerlegt: Von 42 abgegebenen Büchern sind nach B nur 35 freigegeben, 2 nicht und 5 noch ungeprüft. 3. Nicht belegt: Die zwei Nichtfreigaben sind bekannt, aber ein Schaden als Grund nicht. 4. Nicht belegt: Eine dauerhafte Eröffnung und ein Termin sind nicht beschlossen.",
+          "criteria": [
+            "Je 1 Punkt für jeden der vier Sätze mit korrektem Belegstatus und konkreter Begründung. Bei Satz 2 den Unterschied zwischen 35 freigegebenen und 42 abgegebenen Büchern zeigen."
+          ]
+        },
+        {
+          "id": "de-buechermeldung-4",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "prompt": "4. Zwischenstand einordnen (2 Kriterienpunkte): Eine ältere Meldung vom Montagnachmittag lautete „27 Bücher sind freigegeben, 15 warten auf Prüfung.“ Ergänze sie mit einem Satz zum Dienstagstand samt Uhrzeit. Erkläre in einem Halbsatz, warum der Montagssatz nicht zwingend falsch war.",
+          "sample": "Stand Dienstag, 17. November 2026, 10:00 Uhr: Von 42 Büchern sind jetzt 35 freigegeben, 2 nicht freigegeben und 5 noch ungeprüft. Der Montagssatz beschrieb den damals dokumentierten Zwischenstand.",
+          "criteria": [
+            "1 Punkt: aktueller Statussatz mit Dienstag, 17.11., 10:00 Uhr.",
+            "1 Punkt: damaliger Zwischenstand als Erklärung, keine unbelegte Lügenbehauptung."
+          ]
+        },
+        {
+          "id": "de-buechermeldung-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "prompt": "5. Freiwillige Variante (6 Zusatzpunkte, getrennt von 1–4): Nur hier teilt die erfundene Projektgruppe am Mittwoch, 18. November 2026, 09:00 Uhr mit: Die fünf ungeprüften Bücher wurden geprüft; drei davon freigegeben, zwei nicht. Keine neuen Bücher, kein Beschluss zur dauerhaften Eröffnung und keine bekannten Nichtfreigabegründe. Berechne die drei neuen Statuszahlen und schreibe eine sachliche Meldung in zwei Sätzen mit Gesamtzahl, neuem Stand samt Uhrzeit und der offenen Zukunftsfrage.",
+          "sample": "35 + 3 = 38 freigegeben; 2 + 2 = 4 nicht freigegeben; 5 − 3 − 2 = 0 ungeprüft. Stand Mittwoch, 18. November 2026, 09:00 Uhr: Von den 42 am Montag gesammelten Büchern sind nach der letzten Prüfung 38 für ein mögliches Tauschregal freigegeben, 4 nicht freigegeben und keines mehr ungeprüft. Ob und wann das Regal dauerhaft eröffnet wird, ist weiterhin nicht entschieden; Gründe für die Nichtfreigaben sind nicht genannt.",
+          "criteria": [
+            "1 Punkt: 38 freigegeben.",
+            "1 Punkt: 4 nicht freigegeben.",
+            "1 Punkt: 0 ungeprüft.",
+            "1 Punkt: 42 unveränderte Bücher statt neue Spenden.",
+            "1 Punkt: Mittwoch, 18.11., 09:00 Uhr.",
+            "1 Punkt: zwei neutrale Sätze mit offener Regalentscheidung und ohne erfundene Gründe."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. § 2.2.4 PDF-S. 29–30: adressaten- und zweckgerechtes informierendes Schreiben, Quellengebrauch und Überarbeitung als Ziele bis Ende Klasse 8. § 3.4 PDF-S. 49: „Nachrichten/Meldungen“ exemplarisch in 7/8.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
+      "id": "de-pausenraum-folie-handout",
+      "subjectId": "de",
+      "title": "30 Karten: eine Folie und ein Handout",
+      "scope": "Freiwilliger, gestützter Teilfall des informierenden Schreibens im gültigen 7/8-Rahmen. Präsentationsfolien und Handouts sind exemplarische Textformen der 7/8-Spalte; Schreibziele gelten bis Ende Klasse 8. Keine bestätigte aktuelle Klasse-7-Einheit.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Alle Angaben zum Pausenraum, zur Projektgruppe und zu Rückmeldungen sind erfunden. Nutze keine echten Namen, Erhebungen oder Schulangaben. Die Werkstatt sendet nichts; freie Texte werden nicht automatisch bewertet.",
+      "introduction": "Eine Folie zeigt beim Zuhören nur die Kernangaben. Ein Handout erklärt den Zusammenhang in ganzen Sätzen zum Nachlesen. Bei jeder Zahl muss klar sein, worauf sie sich bezieht: 30 freiwillige Rückmeldekarten sind keine Befragung der ganzen Schule. Die Werkstatt öffnet sich extra; dort kannst du beide Entwürfe als HTML-Dateien auf dein Gerät laden, selbst öffnen und drucken. Ein Entwurf belegt noch keinen gehaltenen Vortrag.",
+      "passage": "FIKTIVE DATENKARTE der erfundenen Projektgruppe · Stand 20. Oktober 2026\n- Ein Pausenraum wurde zwei Wochen lang testweise genutzt.\n- Danach gaben 30 Teilnehmende freiwillig je eine anonyme Rückmeldekarte ab. Wie viele Personen den Raum insgesamt nutzten, ist unbekannt. Die Karten sind keine Befragung der ganzen Schule.\n- Frage: Was sollte der Raum künftig besonders bieten? Genau eine Antwort je Karte.\n- 18 Karten: ruhiger Platz zum Lesen. 9 Karten: Tisch für Brettspiele. 3 Karten: keine Präferenz.\n- Über ein Dauerangebot wurde noch nicht entschieden; Raum und Betreuung sind ungeklärt.\nAlle Angaben sind Übungsdaten. Nichts an eine echte Schule senden.",
+      "lab": {
+        "path": "assets/de-folie-handout-werkstatt.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-folie-handout-werkstatt.html",
+        "title": "Folie und Handout gestalten",
+        "description": "Schreibe die zwei Fassungen selbst. Die Werkstatt zeigt eine abgesicherte Vorschau und bietet zwei HTML-Downloads für dein Gerät. Öffne und drucke sie bei Bedarf. Eingaben verschwinden beim Neuladen.",
+        "printNote": "Die Werkstatt benötigt einen Browser. Beide lokalen HTML-Dateien sind druckbar. Ein Download beweist weder eine inhaltlich richtige Fassung noch das Wiederöffnen. Die Direktadresse funktioniert erst nach Veröffentlichung eines neuen Pakets."
+      },
+      "tasks": [
+        {
+          "id": "de-folie-handout-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "prompt": "A. Zahlen und Aussagegrenze (4 Kriterienpunkte): Berechne die drei Anteile an den 30 Rückmeldekarten in Prozent. Zeige mindestens einen Rechenschritt. Prüfe den Satz „Die Mehrheit der ganzen Schule will einen Leseraum“: Was zeigen die Karten und was nicht?",
+          "sample": "18 ÷ 30 = 0,60 = 60 % ruhiger Leseplatz; 9 ÷ 30 = 30 % Brettspiele; 3 ÷ 30 = 10 % keine Präferenz. Die 18 sind eine Mehrheit unter den 30 Antwortenden, aber die Meinung der ganzen Schule und aller Raumnutzenden ist unbekannt.",
+          "criteria": [
+            "Je 1 Punkt für 60, 30 und 10 Prozent mit richtiger Kategorie und Bezugsmenge; mindestens ein Rechenschritt sichtbar.",
+            "1 Punkt für die Grenze Antwortende ≠ ganze Schule. Fehlt der Rechenschritt beim betreffenden Anteil nachfragen, nicht global doppelt abziehen."
+          ]
+        },
+        {
+          "id": "de-folie-handout-2",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 12,
+          "inputRows": 9,
+          "prompt": "B. Folie als Textentwurf (7 Kriterienpunkte): Schreibe eine Überschrift, höchstens drei kurze Stichpunktzeilen und eine Quellenzeile für einen fiktiven Klassenrat. Zeige Test, wichtigstes Ergebnis mit Bezugsmenge, die anderen Antworten und den offenen Entscheidungsstand. Ordne knapp und behaupte keine Meinung der ganzen Schule. Du kannst deinen Text zusätzlich in der Werkstatt gestalten.",
+          "sample": "Pausenraum: Was zeigen 30 Karten?\n• Zwei Wochen Test; 30 freiwillige Rückmeldungen\n• 18 ruhiger Leseplatz · 9 Brettspieltisch · 3 keine Präferenz\n• Dauerangebot offen; Raum und Betreuung ungeklärt\nQuelle: fiktive Datenkarte der Projektgruppe, Stand 20.10.2026; je eine Antwort pro Karte.",
+          "criteria": [
+            "1 Punkt: passende Überschrift.",
+            "1 Punkt: Test- und Rückmeldekontext.",
+            "1 Punkt: 18 mit richtiger Kategorie.",
+            "1 Punkt: 9 und 3 mit richtigen Kategorien.",
+            "1 Punkt: Bezugsmenge 30 Karten/Antwortende und keine Schulmehrheit.",
+            "1 Punkt: offener Entscheidungsstand.",
+            "1 Punkt: Quelle mit Stand und knappe, schnell lesbare Ordnung; kein ästhetischer Geschmackspunkt."
+          ]
+        },
+        {
+          "id": "de-folie-handout-3",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 15,
+          "inputRows": 12,
+          "prompt": "C. Handout in ganzen Sätzen (7 Kriterienpunkte): Schreibe für jemanden ohne Vortrag etwa 80–120 Wörter. Erkläre den Test, die freiwillige Rückmeldung, alle drei Ergebnisse mit Bezugsmenge, die Grenze der Karten, den offenen Entscheidungsstand und die fiktive Quelle samt Datum. Die Wortspanne hilft beim Planen, ist aber keine starre Punkteschwelle. Du kannst deinen Text zusätzlich in der Werkstatt gestalten.",
+          "sample": "Die erfundene Projektgruppe testete einen Pausenraum zwei Wochen lang. Danach gaben 30 Teilnehmende freiwillig je eine anonyme Karte ab. Auf die Frage, was der Raum künftig besonders bieten soll, nannten 18 einen ruhigen Platz zum Lesen, 9 einen Tisch für Brettspiele und 3 keine Präferenz. Das entspricht 60, 30 und 10 Prozent der Rückmeldekarten. Die Gesamtzahl aller Nutzenden und die Meinung der ganzen Schule kennen wir nicht. Über eine dauerhafte Nutzung wurde noch nicht entschieden; Raum und Betreuung müssen geklärt werden. Quelle: fiktive Datenkarte der Projektgruppe, Stand 20. Oktober 2026.",
+          "criteria": [
+            "1 Punkt: Test und Zweck.",
+            "1 Punkt: Freiwilligkeit, eine Karte je Person und 30 als Basis.",
+            "2 Punkte: 18/9/3 und alle Kategorien.",
+            "1 Punkt: korrekt begrenzte Mengen- oder Prozentformulierung.",
+            "1 Punkt: fehlende Repräsentativität/Gesamtzahl.",
+            "1 Punkt: offener Entscheid und Quelle mit Stand; eine kürzere vollständige Fassung verliert keinen eigenen Wortzahlpunkt."
+          ]
+        },
+        {
+          "id": "de-folie-handout-4",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "prompt": "D. Medienentscheidung (2 Kriterienpunkte): Erkläre in zwei Sätzen, warum deine Folie kürzer als dein Handout ist und welche Bezugsinformation in beiden Fassungen stehen muss.",
+          "sample": "Die Folie zeigt Kernzahlen als Lesehilfe zum Vortrag; das Handout erklärt Erhebung und Aussagegrenze zum Nachlesen. In beiden Fassungen muss klar sein, dass es um 30 freiwillige Karten und nicht die ganze Schule geht.",
+          "criteria": [
+            "1 Punkt: funktionaler Unterschied von Folie und Handout.",
+            "1 Punkt: Bezugsmenge und Reichweite in beiden Fassungen."
+          ]
+        },
+        {
+          "id": "de-folie-handout-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "prompt": "E. Freiwilliger Transfer (6 Zusatzpunkte, getrennt von A–D): Nur hier kommen bis 22. Oktober 2026 zehn weitere freiwillige Karten hinzu. Die neue Gesamtauswertung umfasst 40 Karten: 20 ruhiger Platz, 15 Brettspiele, 5 keine Präferenz. Frage und Ein-Antwort-Regel bleiben gleich; keine Entscheidung zum Dauerangebot. Berechne neue Anteile, schreibe eine Ersatzzeile und aktualisierte Quellenzeile für die Folie und zwei erklärende Handout-Sätze. Vergleiche einen Anteil vorsichtig mit dem alten Stand und nenne beide Quellenstände korrekt.",
+          "sample": "20 ÷ 40 = 50 %; 15 ÷ 40 = 37,5 %; 5 ÷ 40 = 12,5 %. Folie: „40 freiwillige Karten: 20 ruhiger Platz · 15 Brettspiele · 5 keine Präferenz.“ Quelle: fiktive Datenkarte der Projektgruppe, Stand 22.10.2026. Handout: „In der neuen Gesamtauswertung der fiktiven Datenkarte mit Stand 22. Oktober nennen 20 von 40 Rückmeldenden einen ruhigen Platz (50 Prozent); beim ersten Datenkartenstand vom 20. Oktober waren es 18 von 30 (60 Prozent). Der Anteil unter den eingegangenen Karten sank, doch daraus folgt weder ein Trend für die Schule noch eine Entscheidung über das Dauerangebot.“",
+          "criteria": [
+            "Je 1 Punkt für drei neue Anteile 50 %, 37,5 % und 12,5 %.",
+            "1 Punkt: Ersatzzeile mit 40 und neuen Zahlen sowie neuer Quellenstand 22.10.",
+            "1 Punkt: richtiger Vergleich alter/neuer Anteil mit beiden Nennern.",
+            "1 Punkt: zwei verständliche Handout-Sätze, beide Quellenstände richtig zugeordnet und Reichweite sowie offener Entscheid erkennbar."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. § 2.2.4 PDF-S. 29–30: informierendes Schreiben, Planung und Quellengebrauch als Ziele bis Ende Klasse 8. § 3.4 PDF-S. 49: „Präsentationsfolien“ und „Handouts (➜ Sprechen)“ exemplarisch in 7/8.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
       "id": "de-innerer-monolog-projekttisch",
       "subjectId": "de",
       "title": "Minas Gedanken am Projekttisch",
@@ -4994,6 +5384,77 @@ window.LOTTE_CATALOG = Object.freeze({
         "gradeBand": "7/8",
         "competencyRef": "PDF-S. 2: Inkraftsetzung für Klasse 7 ab 2026/27. § 2.2.3 PDF-S. 28: monologisches Informieren/Erklären, Redeplanung und Feedback, Ziel Ende Klasse 8. § 3.3 PDF-S. 48–49: Erklärungen und Anweisungen als Beispiele der 7/8-Spalte.",
         "checkedAt": "2026-10-21"
+      }
+    },
+    {
+      "id": "fr-bilderausstellung-vortrag",
+      "subjectId": "fr",
+      "title": "Présenter une petite exposition",
+      "scope": "Freiwilliger, gestützter 7/8-Kurzvortrag für Französisch als zweite Fremdsprache. § 3.2.3 beschreibt ein Ziel bis Ende Klasse 8; Lottes aktuelle Einheit und ihre Sprachformen sind unbekannt.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Nutze bei Bedarf die französischen Satzbausteine und übe Aussprache mit einer sprachkundigen Person. Du brauchst eine echte Zuhörperson für den mündlichen Teil. Keine eigenen Bilder, Namen oder Aufnahmen nötig.",
+      "introduction": "Stell einer fiktiven Besucherin eine kleine Bilderausstellung auf Französisch vor. Erkläre mit einer Stichwortkarte Montag, heute und den Plan für Freitag. Sprich danach mit einer echten Zuhörperson; sie stellt zwei kurze Fragen. Die App hört dich nicht und bewertet keinen Vortrag automatisch. Alle Angaben sind erfunden.",
+      "passage": "INFORMATIONSKARTE · ALLES ERFUNDEN\nDu sprichst als Lina. Du brauchst keine eigenen Zeichnungen.\n\nMONTAG · Lina hat einen blauen Baum gemalt. Hugo hat ein rotes Haus gemalt.\nHEUTE, DIENSTAG · Diese zwei Bilder sind fertig und liegen auf dem Tisch. Ein Plakat ist noch nicht fertig.\nGEPLANT, FREITAG · Ihr möchtet die zwei Bilder in Raum 3 zeigen. Ob der Raum am Freitag frei ist, wisst ihr noch nicht. Die Ausstellung ist noch nicht eröffnet.\n\nWORTSTÜTZE BEI BEDARF · Bonjour ! · lundi / aujourd'hui / vendredi · j'ai dessiné ... · Hugo a dessiné ... · les dessins sont ... · l'affiche n'est pas encore ... · nous allons montrer ... · on ne sait pas encore si ... · Merci ! · Tu peux répéter, s'il te plaît ?\nDies sind Satzanfänge, kein abzulesender Mustervortrag. Andere verständliche einfache Sätze sind möglich. Notiere die tatsächlich genutzte Hilfe. Ein vollständig vorgegebenes Skript wäre eine angeleitete Vorlesevariante.",
+      "tasks": [
+        {
+          "id": "fr-bilder-vortrag-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "prompt": "A. Stichwortkarte (4 schriftliche Kriterienpunkte): Notiere kurze französische Stichwörter oder Satzanfänge für drei Zeitfelder: Montag, heute, Freitag. Ordne beide Bilder, den aktuellen Stand und die unbekannte Raumverfügbarkeit richtig zu. Füge Gruss und knappen Schluss hinzu. Schreibe keinen fertigen Vortrag ab; nutze die Karte beim echten Sprechen.",
+          "sample": "Bonjour → lundi: moi, arbre bleu; Hugo, maison rouge → aujourd'hui: deux dessins prêts; affiche pas encore → vendredi: montrer en salle 3? salle libre inconnue → merci. Andere verständliche Stichwortkarten sind richtig.",
+          "criteria": [
+            "1 Punkt: Gruss und Schluss als Redeplan.",
+            "1 Punkt: Montag mit Lina/blauem Baum und Hugo/rotem Haus richtig.",
+            "1 Punkt: Dienstag mit zwei fertigen Bildern und unfertigem Plakat.",
+            "1 Punkt: Freitag als Plan für Raum 3 bei unbekannter Verfügbarkeit. Das sind schriftliche Vorbereitungspunkte; ein fertiges Skript erfüllt die Stichwortform nicht automatisch."
+          ]
+        },
+        {
+          "id": "fr-bilder-vortrag-2",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "B. Nur nach einem echten Vortrag mit Fragen (3 schriftliche Reflexionspunkte): Notiere eine tatsächlich gestellte Frage, deine sinngemässe mündliche Antwort und die passende Stelle der Informationskarte. Nenne eine Stelle, die du beim nächsten Versuch klarer sagen möchtest. Ohne Zuhörperson und Fragen bleibt B „nicht erhoben“.",
+          "sample": "Frage: Combien de dessins sont prêts aujourd'hui ? Antwort: Deux dessins. Beleg: Dienstag, zwei Bilder fertig. Nächstes Mal spreche ich „deux dessins“ langsamer. Andere echte Fragen mit passender Antwort und Karte gelten.",
+          "criteria": [
+            "1 Punkt: wirklich gestellte Frage, nicht vorab erfundene Musterfrage.",
+            "1 Punkt: eigene hörbar gegebene Antwort und richtiger Kartenbeleg.",
+            "1 Punkt: konkrete Verbesserung für den nächsten Versuch. Ohne Live-Rede keine 0/3, sondern nicht erhoben."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Praxis: eine Bilderausstellung mündlich vorstellen",
+        "childNote": "Zeige einer echten Zuhörperson die fiktive Ausstellung auf Französisch: Was war am Montag, was ist heute fertig, was ist für Freitag nur geplant? Nutze Stichwörter statt eines fertigen Skripts. Danach hörst du zwei Fragen und antwortest. Ohne Gespräch bleibt Sprechen „nicht erhoben“.",
+        "childSteps": [
+          "Bitte eine zuhörende Person, die Informationskarte und zwei Fragen im Erwachsenenbereich vorher zu lesen. Die Fragen kommen erst nach deinem Vortrag.",
+          "Sprich in einfachen französischen Sätzen mit deiner Stichwortkarte: Montag, heute, Freitag. Sage ausdrücklich, dass die Verfügbarkeit von Raum 3 noch unbekannt ist.",
+          "Beantworte die zwei Fragen. Bitte um Wiederholung, wenn du etwas nicht verstanden hast.",
+          "Schreibe Aufgabe B erst danach und besprecht eine beobachtete Stärke und eine konkrete Verbesserung."
+        ],
+        "observationMax": 14,
+        "observationLabel": "Kurzvortrag",
+        "adultNote": "Nur wirklich gehörte französische Rede bewerten; etwa 30–60 Sekunden sind ein möglicher Übungsrahmen, keine starre Grenze. Feste Fragen erst danach stellen: « Combien de dessins sont prêts aujourd'hui ? » (deux) und « Est-ce que la salle numéro trois est libre vendredi ? » (nous ne savons pas encore). Langsam wiederholen, aber Antworten nicht vorsagen. Bei anderen echten Fragen Antwort/Kartenbeleg festhalten. Je Kriterium 2 = selbstständig und verständlich, 1 = teilweise/nach fairer Stütze, 0 = trotz Gelegenheit nicht gezeigt, — = keine faire Gelegenheit oder sprachlich nicht sicher beurteilbar. Bei — keine künstliche Gesamtsumme; ohne Rede alles nicht erhoben. Ohne ausreichend französischkundige Beobachtung jede sprachlich nicht sicher beurteilbare Zeile mit — markieren, nicht nur Aussprache. Akzent, Nervosität und kleine Fehler ohne Bedeutungsverlust allein nicht bestrafen. Hilfen und Versuche lokal notieren, keine Aufnahme oder Weitergabe nötig. Formatives Feedback, keine Schulnote.",
+        "adultCriteria": [
+          "Gruss, verständlicher Redeanfang und erkennbarer Schluss: 0/1/2 oder —.",
+          "Montag: blauer Baum von Lina und rotes Haus von Hugo richtig: 0/1/2 oder —.",
+          "Dienstag: zwei fertige Bilder und unfertiges Plakat getrennt: 0/1/2 oder —.",
+          "Freitag: Raum 3 nur als Plan bei unbekannter Verfügbarkeit, keine sichere Eröffnung: 0/1/2 oder —.",
+          "Montag, heute und Freitag nachvollziehbar verbunden; gestützte Zeitformen gelten, Stichwörter statt durchgehendem Ablesen: 0/1/2 oder —.",
+          "Für die Zuhörperson verständliches Französisch, bei Bedarf wiederholen/umschreiben; sprachkundige Beobachtung nötig: 0/1/2 oder —.",
+          "Auf zwei tatsächlich gestellte Fragen passend antworten oder um Wiederholung bitten und dann antworten: 0/1/2 oder —."
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Französisch für Klasse 7 ab 2026/27. Zweite Fremdsprache § 3.2.3, PDF-S. 61: kurzer eingeübter Vortrag, Redeplan, einfaches Berichten und Beschreiben zu Gegenwart/Vergangenheit/Zukunft; Zielmarke Klassenstufe 8. § 3.5.2, PDF-S. 82: Sprachmittel nur Orientierung für 7/8.",
+        "checkedAt": "2026-10-22"
       }
     }
   ]

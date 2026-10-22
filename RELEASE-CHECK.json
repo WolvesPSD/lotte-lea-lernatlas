@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-22T02:51:22.500Z",
-  "releaseVersion": "2026.10.22-mbispeicher.1",
+  "builtAt": "2026-10-22T03:00:05.864Z",
+  "releaseVersion": "2026.10.22-enmediation.1",
   "newTopicIds": [
-    "mbi-speicherplan-zwei-modelle"
+    "en-paper-workshop-mediation"
   ],
   "changeLog": [
-    "Freiwilliger Klasse-8-Ausblick in Medienbildung und Informatik: zwei eigene Speicherplan-Modelle aus fiktiven Daten, Formeltabelle, XY- und Säulendiagramm, begrenzte Entscheidung und getrennte Änderungsprobe. 20 Haupt- plus sechs Zusatzpunkte.",
-    "Ein leeres XLSX-Startblatt steht als Download bereit. Es enthält keine Modellantworten oder Formeln; tatsächliche Tabellen- und Diagrammarbeit muss beobachtet oder an einer Kind-Datei mit geklärter Herkunft geprüft werden. Keine privaten Fotos oder Konten nötig."
+    "Freiwilliger, gestützter Englisch-7/8-Fall zur schriftlichen Sprachmittlung Englisch nach Deutsch: einen fiktiven Aushang adressatengerecht erklären, Informationen auswählen und unbelegte Behauptungen prüfen. 20 Hauptpunkte; sechs getrennte Zusatzpunkte für eine spätere Korrektur.",
+    "Die spätere Korrektur wird im Lernweg erst nach den drei Hauptantworten sichtbar; im Kinder-Druckblatt steht sie auf einer getrennten Zusatzseite. Freie Formulierungen benötigen menschliche Prüfung, mündliche Vermittlung und aktuelle Unterrichtseinheit sind nicht belegt."
   ],
-  "rollbackCommit": "e039d864d4a9d560793b37641e924c9fa939ca19",
+  "rollbackCommit": "1b5e1bbbf6635abad0a9a5ba949578611286a1ea",
   "releasedTopics": [
     "mbi-speicherplan-zwei-modelle",
     "mbi-festbezug-karten",
@@ -60,6 +60,7 @@
     "en-friday-activity-email",
     "en-garden-poster-dialogue",
     "de-technikprotokoll-korrigieren",
+    "en-paper-workshop-mediation",
     "en-alex-games-mediation",
     "fr-mila-drawing-mediation",
     "fr-theo-erlebnisbericht",

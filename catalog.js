@@ -4184,6 +4184,89 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "en-paper-workshop-mediation",
+      "subjectId": "en",
+      "title": "Explain the paper workshop in German",
+      "scope": "Freiwillige, gestützte schriftliche Sprachmittlung Englisch → Deutsch im gültigen 7/8-Rahmen. § 2.2.5 nennt ein Ziel bis Ende Klasse 8; keine bestätigte aktuelle Klasse-7-Einheit und kein Nachweis mündlicher Vermittlung.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Der englische Aushang und die Nachbarin sind erfunden. Du brauchst keine wörtliche Übersetzung. Ein zweisprachiges Wörterbuch darf helfen; die Wortstütze zeigt keinen individuellen Lernstand. Es wird keine echte Nachricht versendet.",
+      "introduction": "Eine deutschsprachige Nachbarin fragt für ihre 13-jährige Tochter: „Was ist das? Darf sie hin? Wann und wo? Kostet es etwas? Muss sie Material mitbringen? Wie meldet sie sich an?“ Antworte auf Deutsch. Wähle die wichtigen Angaben aus dem englischen fiktiven Aushang und unterscheide belegte Angaben von unbekannten Zusagen. Wortstütze bei Bedarf: workshop = Werkstatt/Kurs; community library = öffentliche Bibliothek; provided = wird bereitgestellt; sign up = sich anmelden; library desk = Bibliothekstheke; places are limited = Plätze sind begrenzt. 20 Hauptpunkte und 6 getrennte freiwillige Zusatzpunkte sind Lernrückmeldung, keine Schulnote.",
+      "passage": "FIKTIVER AUSHANG · Paper model workshop at the community library\nFor young people aged 11 to 14.\nSaturday, 10:00–11:30, in room 3 at the community library.\nThe workshop is free. Paper, glue and pens are provided. You do not need to bring materials.\nPlease sign up at the library desk by Thursday, 17:00. Places are limited.",
+      "stagedUpdate": {
+        "text": "SPÄTERE FIKTIVE KORREKTUR · Nur für die freiwillige Zusatzaufgabe:\nSaturday, 11:00–12:30, in room 4. All other details stay the same."
+      },
+      "tasks": [
+        {
+          "id": "en-paper-workshop-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "prompt": "A · Auswahlplan (4 Hauptpunkte): Notiere vier kurze englische Textstellen oder sinngemäße Stichwörter und die jeweilige Frage der Nachbarin: (a) Alter, (b) Zeit sowie Bibliothek und Raum, (c) Kosten und Material, (d) Anmeldeort und Frist. Die Notizen dürfen deutsch sein.",
+          "sample": "(a) „aged 11 to 14“ → Alter. (b) „Saturday, 10:00–11:30, in room 3 at the community library“ → Zeit und Ort. (c) „free“ und „Paper, glue and pens are provided / You do not need to bring materials“ → Kosten und Material. (d) „sign up at the library desk by Thursday, 17:00“ → Anmeldeort und Frist.",
+          "criteria": [
+            "Je 1 Punkt für (a) Alter mit Frage, (b) vollständige Zeit sowie Bibliothek und Raum mit Frage, (c) Kosten und Material mit Frage, (d) Anmeldeort und Frist mit Frage. Bei (b), (c) oder (d) nur einem der gefragten Teile 0 für diese Gruppe und gezieltes Feedback. „Places are limited“ ersetzt keine Frist."
+          ]
+        },
+        {
+          "id": "en-paper-workshop-2",
+          "kind": "reflection",
+          "points": 12,
+          "writingLines": 12,
+          "inputRows": 12,
+          "prompt": "B · Vermittlung (12 Hauptpunkte): Schreibe der Nachbarin eine kurze, verständliche deutsche Nachricht mit Antworten auf ihre sechs Fragen. Prüfe dabei, was das genannte Alter und die begrenzte Platzzahl über eine Teilnahme aussagen. Formuliere sinngemäß statt Satz für Satz.",
+          "sample": "In der öffentlichen Bibliothek gibt es am Samstag von 10:00 bis 11:30 Uhr in Raum 3 eine Papiermodell-Werkstatt. Sie ist für 11- bis 14-Jährige; deine 13-jährige Tochter passt vom Alter her. Der Kurs ist kostenlos. Papier, Kleber und Stifte werden gestellt, sie muss kein Material mitbringen. Melde sie bitte bis Donnerstag um 17:00 Uhr an der Bibliothekstheke an. Die Plätze sind begrenzt; eine Zusage steht im Aushang nicht.",
+          "criteria": [
+            "2 Punkte: Papiermodell-Werkstatt (1) sowie öffentliche Bibliothek und Raum 3 (1).",
+            "2 Punkte: Samstag (1) und vollständige Zeit 10:00–11:30 Uhr (1).",
+            "2 Punkte: Altersgruppe 11–14 oder 13 darin (1) und keine sichere Teilnahme behauptet (1).",
+            "2 Punkte: kostenlos (1) sowie Papier/Kleber/Stifte gestellt, kein Material mitzubringen (1).",
+            "2 Punkte: Anmeldung an der Bibliothekstheke (1) bis Donnerstag 17:00 Uhr (1).",
+            "2 Punkte: direkte respektvolle deutsche Antwort an die Nachbarin (1) und wesentliche Angaben zusammenhängend sinngemäß ausgewählt (1). Kleine Formfehler ohne Bedeutungsverlust nicht nochmals von Sachpunkten abziehen; die fehlende Platzgarantie nur im Alterskriterium werten."
+          ]
+        },
+        {
+          "id": "en-paper-workshop-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "prompt": "C · Behauptungsgrenze (4 Hauptpunkte): Jemand sagt „Die Tochter hat sicher einen Platz“ und „Man muss Kleber mitbringen“. Erkläre zu jedem Satz, was der Aushang tatsächlich belegt, und formuliere eine richtige Alternative.",
+          "sample": "Ein Platz ist nicht sicher: Die Plätze sind begrenzt, und der Aushang ist keine persönliche Zusage. Die Tochter passt nur vom Alter her und muss sich rechtzeitig anmelden. Kleber wird ausdrücklich gestellt; Material muss sie nicht mitbringen.",
+          "criteria": [
+            "1 Punkt: „sicherer Platz“ als unbelegt mit begrenzten Plätzen/fehlender Zusage erklärt.",
+            "1 Punkt: richtige Alternative: Alterseignung und Anmeldung, keine Platzgarantie.",
+            "1 Punkt: Mitbringbehauptung mit „glue ... provided“ und „You do not need to bring materials“ widerlegt.",
+            "1 Punkt: richtige Alternative: Kleber wird gestellt, kein Material nötig. C ersetzt keine fehlende B-Nachricht."
+          ]
+        },
+        {
+          "id": "en-paper-workshop-4",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "prompt": "Freiwillige spätere Korrektur · 6 Zusatzpunkte, getrennt von A–C: Lies die neu gezeigte Korrektur. Schreibe der Nachbarin eine kurze deutsche Änderungsnachricht: Nenne neue Start- und Endzeit, neuen Raum, die ersetzte alte Zeit und den alten Raum sowie die unveränderten Angaben. Vermische die Fassungen nicht.",
+          "sample": "Korrektur zur fiktiven Papiermodell-Werkstatt: Sie findet am Samstag nun von 11:00 bis 12:30 Uhr in Raum 4 der öffentlichen Bibliothek statt. Die früheren Angaben 10:00–11:30 Uhr und Raum 3 gelten nicht mehr. Kostenfreiheit, bereitgestelltes Material, Altersgruppe und Anmeldung bis Donnerstag 17:00 Uhr an der Bibliothekstheke bleiben gleich.",
+          "criteria": [
+            "1 Zusatzpunkt: neue Startzeit 11:00 Uhr.",
+            "1 Zusatzpunkt: neue Endzeit 12:30 Uhr.",
+            "1 Zusatzpunkt: neuer Raum 4.",
+            "1 Zusatzpunkt: alte Zeit 10:00–11:30 Uhr als ersetzt markiert.",
+            "1 Zusatzpunkt: alter Raum 3 als ersetzt markiert.",
+            "1 Zusatzpunkt: unveränderte Kosten, Material, Alter und Anmeldung richtig eingegrenzt, ohne neue Behauptung. Zusatzpunkte nicht zur Hauptsumme addieren."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. § 2.2.5 PDF-S. 30–31: sinngemäße Übertragung in die andere Sprache, Auswahl wesentlicher Informationen, Notizen und Adressatenorientierung unter Zielmarke Klassenstufe 8.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
       "id": "en-alex-games-mediation",
       "subjectId": "en",
       "title": "Explain the games afternoon to Alex",

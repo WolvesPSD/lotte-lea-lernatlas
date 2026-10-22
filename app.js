@@ -481,7 +481,7 @@
       if (updateShown) mainInputs.forEach(input => { input.readOnly = true; });
       host.append(mainTasks);
       const mainComplete = () => topic.tasks.slice(0, -1).every(task => String(state.answers[task.id] || '').trim());
-      const updateButton = button('Hauptantworten festhalten und Korrektur zeigen', () => {
+      const updateButton = button(`Hauptantworten festhalten und ${topic.stagedUpdate.kind === 'variant' ? 'Variante' : 'Korrektur'} zeigen`, () => {
         if (!mainComplete()) return;
         state.answers[marker] = 'ja'; save();
         mainInputs.forEach(input => { input.readOnly = true; });
@@ -672,7 +672,7 @@
         }
       }
       if (topic.stagedReading && mode === 'child') appendText(section, 'p', 'print-context', 'Druckfolge: Seite mit Titel und Vermutung zuerst bearbeiten. Die folgende Textseite erst danach ansehen; den Änderungstext erst nach den Hauptaufgaben ansehen. Eine bedruckte Seite allein beweist diese Reihenfolge nicht.');
-      if (topic.stagedUpdate && mode === 'child') appendText(section, 'p', 'print-context', 'Druckfolge: Zuerst die Hauptaufgaben A–C auf den ersten Seiten bearbeiten. Die spätere Korrektur auf der Zusatzseite erst danach ansehen. Papier allein beweist diese Reihenfolge nicht.');
+      if (topic.stagedUpdate && mode === 'child') appendText(section, 'p', 'print-context', `Druckfolge: Zuerst die Hauptaufgaben A–C auf den ersten Seiten bearbeiten. Die spätere ${topic.stagedUpdate.kind === 'variant' ? 'Variante' : 'Korrektur'} auf der Zusatzseite erst danach ansehen. Papier allein beweist diese Reihenfolge nicht.`);
       if (topic.diagram && (mode === 'child' || topic.diagram.adultPrint !== false)) {
         const figure = create('figure', 'print-diagram');
         const img = create('img'); img.src = topic.diagram.path; img.alt = topic.diagram.alt;

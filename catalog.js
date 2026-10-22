@@ -52,6 +52,12 @@ window.LOTTE_CATALOG = Object.freeze({
       "availabilityReason": "MNT steht auf Lottes Klasse-7-Stundenplan. Der neue MNT-Lehrplan startet 2026/27 aber mit Klasse 5. Welche Fachlehrpläne die Schule in dieser Klasse-7-Stunde nutzt, ist noch offen. Deshalb gibt es hier noch keine freigegebene Aufgabe."
     },
     {
+      "id": "bi",
+      "name": "Biologie · freiwillig",
+      "plan": "Gymnasium 2026, Erprobungsfassung; Klasse 7 ab 2026/27",
+      "scope": "Zusätzlich wählbar; kein bestätigtes eigenes Unterrichtsfach von Lotte. § 2.1 Ziele bis Ende Klasse 8; MNT-Zuordnung offen."
+    },
+    {
       "id": "mu",
       "name": "Musik",
       "plan": "2012 (2025/26)",
@@ -83,6 +89,86 @@ window.LOTTE_CATALOG = Object.freeze({
     }
   ],
   "topics": [
+    {
+      "id": "bi-wirbellose-bluehstreifen",
+      "subjectId": "bi",
+      "title": "Wer lebt am erfundenen Blühstreifen?",
+      "scope": "Freiwilliger, gestützter Biologie-7/8-Einstieg. Der Fachplan beginnt 2026/27 mit Klasse 7 und beschreibt das Ziel bis Ende Klasse 8. Biologie ist kein bestätigtes eigenes Unterrichtsfach von Lotte; die MNT-Zuordnung bleibt offen.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Alle Karten und Zahlen sind erfunden. Du brauchst keine Tiere zu fangen, anzufassen oder zu bestimmen. Die Übung zeigt keine echten Messungen, Arten oder Schulorte; offene Antworten werden von Menschen geprüft, nicht automatisch benotet.",
+      "introduction": "Diese freiwillige Übung nutzt erfundene Tierkarten und zwei erfundene Blühstreifen. Die Merkmals-Hilfe vereinfacht die Vielfalt der Wirbellosen für diesen Fall; sie ist keine Bestimmungstabelle für echte Arten. Wirbellose haben keine Wirbelsäule. Begründe Zuordnungen mit sichtbaren Merkmalen und trenne beobachtete Besuche von möglichen Erklärungen. 20 Hauptpunkte und 6 getrennte Zusatzpunkte dienen als Lernrückmeldung, nicht als Schulnote.",
+      "passage": "MERKMALS-HILFE FÜR DIESE ÜBUNG\nInsekten: sechs gegliederte Beine; Kopf, Brust und Hinterleib; Fühler.\nSpinnentiere: acht gegliederte Beine; Vorder- und Hinterkörper; keine Fühler.\nRingelwürmer: weicher Körper mit vielen erkennbaren Ringabschnitten; keine gegliederten Beine.\nWeichtiere: weicher Körper und muskulöser Kriechfuß; ein Gehäuse kann, muss aber nicht vorhanden sein.\n\nFIKTIVE BEOBACHTUNGSKARTEN · Bei A–E ist keine Wirbelsäule vorhanden.\nA · Sechs gegliederte Beine, zwei Fühler; Kopf, Brust und Hinterleib erkennbar.\nB · Acht gegliederte Beine, keine Fühler; Vorder- und Hinterkörper erkennbar.\nC · Weicher, langer Körper mit vielen ringförmigen Abschnitten; keine gegliederten Beine.\nD · Weicher Körper, deutlich sichtbarer muskulöser Kriechfuß; kein Gehäuse zu sehen.\nE · Unter einem Blatt bewegt sich etwas; Beine und Körperbau sind verdeckt.\n\nFIKTIVE ZÄHLUNG · Eine Person beobachtete am selben Tag zwei gleich große Blühstreifen je 10 Minuten. Gezählt sind Blütenbesuche von Insekten, nicht verschiedene Tiere.\nStreifen X: 12 offene Blüten, 8 Besuche.\nStreifen Y: 2 offene Blüten, 1 Besuch.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "text": "SPÄTERE FIKTIVE VARIANTE · Karte F: keine Wirbelsäule, acht gegliederte Beine, keine Fühler, Vorder- und Hinterkörper. Am nächsten Tag wurden bei X 5 und bei Y 3 Blütenbesuche in je 10 Minuten gezählt. Die Blütenzahl wurde am zweiten Tag nicht neu erhoben."
+      },
+      "tasks": [
+        {
+          "id": "bi-bluehstreifen-1",
+          "kind": "reflection",
+          "points": 10,
+          "writingLines": 12,
+          "inputRows": 12,
+          "prompt": "A · Beobachtungskarten (10 Hauptpunkte): Ordne A–D je einer Gruppe zu und nenne für jede ein tragendes Merkmal aus der Karte. Erkläre bei E, warum eine sichere Gruppe noch nicht bestimmbar ist, und nenne eine konkrete zusätzliche Beobachtung, die helfen würde. Benenne keine bestimmte Art.",
+          "sample": "A: Insekt wegen sechs gegliederter Beine. B: Spinnentier wegen acht gegliederter Beine. C: Ringelwurm wegen der vielen Ringabschnitte. D: Weichtier wegen des muskulösen Kriechfußes zusammen mit dem weichen Körper; ein sichtbares Gehäuse ist nicht nötig. E: Beine und Körperbau sind verdeckt; etwa die Zahl gegliederter Beine oder einen Kriechfuß müsste man sehen.",
+          "criteria": [
+            "A–D je 1 Punkt für die passende Gruppe und 1 Punkt für ein tatsächlich genanntes, hinreichend unterscheidendes Kartenmerkmal; zusammen 8. A: sechs gegliederte Beine oder Körperdreiteilung mit Fühlern; B: acht gegliederte Beine oder Vorder-/Hinterkörper ohne Fühler; C: viele Ringabschnitte, bei Bedarf mit fehlenden gegliederten Beinen; D: weicher Körper mit muskulösem Kriechfuß. Fühler, fehlende Fühler, weicher Körper oder fehlende gegliederte Beine allein genügen nicht.",
+            "E 1 Punkt für die fehlenden sichtbaren Körpermerkmale beziehungsweise die Unsicherheit; 1 Punkt für eine konkrete zusätzliche Beobachtung. Fundort allein genügt nicht."
+          ]
+        },
+        {
+          "id": "bi-bluehstreifen-2",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 12,
+          "inputRows": 12,
+          "prompt": "B · Zwei fiktive Zählungen (8 Hauptpunkte): 1. Wo gab es mehr Besuche, und um wie viele? 2. Formuliere eine mögliche Erklärung, die Blüten und Besuche verbindet, ohne eine sichere Ursache zu behaupten. 3. Nenne eine andere mögliche Einflussgröße oder Zählgrenze und erkläre ihre Wirkung. 4. Schlage eine schonende Lebensraummaßnahme vor und begründe, wie sie Tieren helfen könnte.",
+          "sample": "X hatte 8, Y 1 Besuch; das sind bei X 7 mehr. Mehr offene Blüten könnten mehr Anflugstellen bieten, doch die kleine Zählung beweist keine Ursache. Wind, Blütenart oder Tageszeit könnten Besuche ebenfalls beeinflussen; eine zehnminütige Zählung kann Zufall enthalten. Einen Teil der Blühfläche länger stehen zu lassen könnte Nahrung oder Unterschlupf bieten, ohne eine bestimmte Tierzahl zu garantieren.",
+          "criteria": [
+            "2 Punkte: X mit mehr gezählten Besuchen (1) und Differenz 7 (1). Besuche sind keine Zahl verschiedener Tiere.",
+            "2 Punkte: passender Bezug zwischen Blütenangebot und Besuchen (1) sowie vorsichtige Formulierung als mögliche Erklärung (1).",
+            "2 Punkte: konkrete andere Größe oder Zählgrenze (1) und deren mögliche Wirkung auf Vergleich/Besuche (1).",
+            "2 Punkte: schonende plausible Maßnahme (1) und mögliche Unterstützung von Nahrung, Schutz oder Lebensraum (1). Kein sicherer Effekt behauptet."
+          ]
+        },
+        {
+          "id": "bi-bluehstreifen-3",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "inputRows": 6,
+          "prompt": "C · Fairer nächster Vergleich (2 Hauptpunkte): Welche zwei verschiedenen Bedingungen würdest du bei einer zweiten Zählung gleich halten oder wiederholen, damit X und Y fairer verglichen werden? Du musst nichts anfassen oder sammeln.",
+          "sample": "Ich würde an mehreren Tagen je 10 Minuten zur gleichen Tageszeit beobachten und dieselbe Zählweise für beide gleich großen Flächen verwenden. Auch vergleichbares Wetter wäre eine passende Bedingung.",
+          "criteria": [
+            "Je 1 Punkt für zwei verschiedene konkrete Bedingungen oder Wiederholungen, etwa gleiche Tageszeit, gleiche Dauer, vergleichbares Wetter, gleiche Zählweise oder weitere Tage. Sehr ähnliche Angaben wie Wetter und Temperatur nicht doppelt werten."
+          ]
+        },
+        {
+          "id": "bi-bluehstreifen-4",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "prompt": "Freiwillige spätere Variante · 6 getrennte Zusatzpunkte: Lies Karte F und die Zahlen des zweiten Tages. (1) Ordne F mit einem tragenden Merkmal zu. (2) Berechne den Unterschied zwischen X und Y am zweiten Tag. (3) Vergleiche diesen Unterschied mit dem ersten Tag. (4) Kann allein die Blütenzahl als Ursache sicher gelten? Begründe. (5) Nenne eine konkrete Verbesserung für eine weitere Zählung.",
+          "sample": "F passt zu Spinnentieren wegen acht gegliederter Beine. Am zweiten Tag ist der Besuchsunterschied 5 − 3 = 2; am ersten Tag war er 8 − 1 = 7, der Abstand sank also von 7 auf 2. Die Blütenzahl des zweiten Tages ist nicht erhoben; auch Wetter, Blütenarten, Tageszeit oder Zufall könnten mitwirken. Bei einer weiteren Zählung würde ich die Blütenzahlen an beiden Tagen erfassen und die gleiche Tageszeit festhalten.",
+          "criteria": [
+            "1 Zusatzpunkt: F als Spinnentier.",
+            "1 Zusatzpunkt: tragendes Kartenmerkmal wie acht gegliederte Beine.",
+            "1 Zusatzpunkt: zweiter Tagesunterschied 2 Besuche.",
+            "1 Zusatzpunkt: Abstand von 7 auf 2 beziehungsweise um 5 kleiner.",
+            "1 Zusatzpunkt: keine sichere Alleinursache Blütenzahl, mit konkreter Grenze begründet.",
+            "1 Zusatzpunkt: konkrete bessere Beobachtung oder Wiederholung. Zusatzpunkte nicht zur 20er-Hauptsumme addieren."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. § 2.1 PDF-S. 24: Ziel bis Ende Klasse 8. § 2.1.1.1 PDF-S. 24–25: Wirbellose nach begründeten Merkmalen ordnen und Beziehungen zum Lebensraum sowie Schutz betrachten.",
+        "checkedAt": "2026-10-22"
+      }
+    },
     {
       "id": "mbi-speicherplan-zwei-modelle",
       "subjectId": "mbi",

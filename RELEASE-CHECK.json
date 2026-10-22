@@ -1,15 +1,16 @@
 {
-  "builtAt": "2026-10-22T03:00:05.864Z",
-  "releaseVersion": "2026.10.22-enmediation.1",
+  "builtAt": "2026-10-22T03:12:24.157Z",
+  "releaseVersion": "2026.10.22-biozusatz.1",
   "newTopicIds": [
-    "en-paper-workshop-mediation"
+    "bi-wirbellose-bluehstreifen"
   ],
   "changeLog": [
-    "Freiwilliger, gestützter Englisch-7/8-Fall zur schriftlichen Sprachmittlung Englisch nach Deutsch: einen fiktiven Aushang adressatengerecht erklären, Informationen auswählen und unbelegte Behauptungen prüfen. 20 Hauptpunkte; sechs getrennte Zusatzpunkte für eine spätere Korrektur.",
-    "Die spätere Korrektur wird im Lernweg erst nach den drei Hauptantworten sichtbar; im Kinder-Druckblatt steht sie auf einer getrennten Zusatzseite. Freie Formulierungen benötigen menschliche Prüfung, mündliche Vermittlung und aktuelle Unterrichtseinheit sind nicht belegt."
+    "Neues freiwilliges Zusatzfach Biologie mit einem gestützten 7/8-Fall zu fiktiven Wirbellosenkarten und Blühstreifenbesuchen. 20 Hauptpunkte und sechs getrennte Zusatzpunkte; keine echte Arten-, Praxis- oder Unterrichtsleistung behauptet.",
+    "Die spätere Variante erscheint nach drei Hauptantworten und auf einer getrennten Kinder-Druckseite. Das Fach ist kein bestätigtes eigenes Unterrichtsfach von Lotte; die Zuordnung zu MNT bleibt offen."
   ],
-  "rollbackCommit": "1b5e1bbbf6635abad0a9a5ba949578611286a1ea",
+  "rollbackCommit": "ebf10ea86138187acaaa95ff832a15cad5b6ebef",
   "releasedTopics": [
+    "bi-wirbellose-bluehstreifen",
     "mbi-speicherplan-zwei-modelle",
     "mbi-festbezug-karten",
     "de-woerter-umfrage",
@@ -84,6 +85,7 @@
     "fr-bilderausstellung-vortrag"
   ],
   "subjects": [
+    "bi",
     "mbi",
     "de",
     "en",

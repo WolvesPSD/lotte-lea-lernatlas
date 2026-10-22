@@ -1585,7 +1585,7 @@ window.LOTTE_CATALOG = Object.freeze({
     {
       "id": "de-hoernachricht-live",
       "subjectId": "de",
-      "title": "Eine geänderte Nachricht hören",
+      "title": "Eine Nachricht aus der Bibliothek hören",
       "scope": "Freiwilliger, gestützter 7/8-Fall zu Hörstrategien. Der Lehrplan gilt für Klasse 7, beschreibt das Hörziel aber bis Ende Klasse 8; die Schulfolge ist offen.",
       "levelStatus": "grade78-flex",
       "released": true,
@@ -1631,7 +1631,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "kind": "reflection",
           "points": 5,
           "writingLines": 9,
-          "prompt": "Genau hören und Grenzen erkennen (5 Kriterienpunkte): Warum blieb der frühere Ort nicht? Ist eine Empfehlungskarte freiwillig? Muss man ein eigenes Buch mitbringen? Belegt die Nachricht eine Autorenlesung am Donnerstag am langen Tisch? Kann man aus „ab morgen“ ein genaues Kalenderdatum ableiten? Begründe die beiden letzten Antworten.",
+          "prompt": "Genau hören und Grenzen erkennen (5 Kriterienpunkte): Warum kann der zuerst geplante Ort nicht für den Kartentausch genutzt werden? Ist eine Empfehlungskarte freiwillig? Muss man ein eigenes Buch mitbringen? Ein Kind behauptet, eine andere erwähnte Veranstaltung finde am neuen Tag und Ort des Kartentauschs statt. Belegt die Nachricht das? Kann man aus „ab morgen“ ein genaues Kalenderdatum ableiten? Begründe die beiden letzten Antworten.",
           "sample": "Der kleine Leseraum wird an jenem Nachmittag für eine Autorenlesung gebraucht. Eine Empfehlungskarte ist freiwillig („wenn ihr mögt“); ein eigenes Buch ist nicht nötig. Die Autorenlesung am Donnerstag am langen Tisch ist nicht belegt: Der lange Tisch ist der neue Ort des Kartentauschs. „Ab morgen“ ergibt ohne Sprechdatum kein Kalenderdatum.",
           "criteria": [
             "1 Punkt: früherer kleiner Leseraum wird für eine Autorenlesung gebraucht.",

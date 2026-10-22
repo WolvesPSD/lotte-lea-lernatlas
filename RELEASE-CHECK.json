@@ -1,18 +1,11 @@
 {
-  "builtAt": "2026-10-22T02:06:07.990Z",
-  "releaseVersion": "2026.10.22-familytools.1",
-  "newTopicIds": [
-    "en-amina-notebook-story",
-    "ma-druckzeit-zuordnungen"
-  ],
+  "builtAt": "2026-10-22T02:46:02.415Z",
+  "releaseVersion": "2026.10.22-hoerhinweise.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Freiwillige Englisch-7/8-Erzähltextübung zu Textbelegen und Schlussfolgerungen mit fünf Aufgaben. Freie Antworten erfordern menschliche Prüfung; keine bestätigte aktuelle Klasse-7-Einheit.",
-    "Freiwilliger Mathematik-Ausblick Klasse 8 zu direkter und umgekehrter Proportionalität: 20 Hauptpunkte und sechs getrennte Transferpunkte. Kein Beitrag zur bestätigten Klasse-7-Abdeckung.",
-    "Zwei leere Koordinatengitter sind im Kinderblatt und separat als druckbare A4-Seite verfügbar. Der SVG-Link ist im Paket enthalten; der tatsächliche Download im Familienbrowser muss noch geprüft werden.",
-    "Die Themenwahl zeigt Klasse-6-Wiederholungen getrennt von Klasse-7- und 7/8-Wegen; die fachliche Jahrgangsmarke bleibt auf jeder Karte sichtbar.",
-    "Beim titelunabhängigen Ganzschriftweg gibt es ein leeres, beliebig oft druckbares Leselog als HTML-Download. Es speichert keine Buchangaben und bescheinigt keine Ganzlektüre oder schulische Behandlung."
+    "Im freigegebenen Deutsch-Hörfall verraten Titel und Kinderfrage C weder die Planänderung noch die andere Veranstaltung und ihren vermuteten Tag/Ort. Skript und Auswertung bleiben im Erwachsenenbereich. Die Aufgabe braucht weiterhin tatsächliches Vorlesen und menschliche Hörbeobachtung."
   ],
-  "rollbackCommit": "c849314271428b48eafc355ad996c452fa075669",
+  "rollbackCommit": "d10f60e51161ad38c7df2d5631b134164fc9b48a",
   "releasedTopics": [
     "mbi-festbezug-karten",
     "de-woerter-umfrage",

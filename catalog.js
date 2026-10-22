@@ -5570,6 +5570,88 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "de-online-news-aktualisierung",
+      "subjectId": "de",
+      "title": "Eine Online-Meldung sichtbar korrigieren",
+      "scope": "Freiwilliger, gestützter D-W1-Einstieg im gültigen Deutsch-7/8-Rahmen. „Online-News“ sind eine exemplarische Textform; Schreiben und Überarbeiten sind Ziele bis Ende Klasse 8. Lottes aktuelle Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Bibliothek, Treffen, Belege und erste Online-Seite sind erfunden. Es wird nichts veröffentlicht oder versendet. Nutze keine echten Namen, Kontakte oder Schulereignisse. Offene Texte werden nicht automatisch bewertet.",
+      "introduction": "Du gestaltest die neue Fassung einer fiktiven Online-Meldung für den 4. November 2026, 10:00 Uhr. Die erste Webseite enthielt schon beim Veröffentlichen einen Fehler. Später änderte die Bibliothek ihren tatsächlichen Plan. Diese zwei Vorgänge gehören getrennt in die Korrektur- und Änderungsnotiz. In der Werkstatt kannst du deine Meldung mit zwei funktionierenden internen Beleglinks als lokales HTML ansehen und herunterladen. 20 Kriterienpunkte sind Lernfeedback, keine Schulnote.",
+      "passage": "FIKTIVE QUELLEN · Bibliothek am Lindenplatz.\nBeleg A · Erste Mitteilung der Bibliothek · Stand 3. November 2026, 09:00 Uhr: Samstag, 7. November, 10:00–11:00 Uhr, kostenloses Reparaturtreffen in Raum 4. Bitte einen kleinen Schraubenzieher mitbringen.\nErste Online-Fassung · Veröffentlicht 3. November 2026, 11:00 Uhr: „Reparaturtreffen in Raum 3“. Der Text nennt denselben Samstag und dieselbe Zeit, kostenlos, Raum 3 und einen mitzubringenden Schraubenzieher.\nBeleg B · Aktualisierte Mitteilung der Bibliothek · Stand 4. November 2026, 09:00 Uhr: Das Treffen bleibt Samstag, 7. November, 10:00–11:00 Uhr, nun in Raum 2. Werkzeuge werden bereitgestellt; niemand muss einen Schraubenzieher mitbringen. Alle anderen Angaben aus A bleiben gleich.\nDeine neue Seitenfassung: veröffentlicht 3. November 2026, 11:00 Uhr; aktualisiert 4. November 2026, 10:00 Uhr. Keine echte Nachricht versenden.",
+      "lab": {
+        "path": "assets/de-online-news-werkstatt.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-online-news-werkstatt.html",
+        "title": "Online-Meldung als lokale Seite gestalten",
+        "description": "Überschrift, Kurzvorschau, Meldung und Korrekturhinweis werden als lokale Vorschau zusammengesetzt. Zwei interne Links führen zu den datierten Belegkarten. Die fertige HTML-Datei lässt sich herunterladen und ausdrucken; nichts wird veröffentlicht.",
+        "printNote": "Das App-Kinderblatt enthält die Belege als Text. Die Werkstattdatei enthält beide Belegkarten und ihre Linktitel für einen Offline-Ausdruck. Ein Download beweist keine inhaltlich richtige Meldung.",
+        "scoredInteraction": false
+      },
+      "tasks": [
+        {
+          "id": "de-online-news-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Belege und Zeitfolge (4 Kriterienpunkte): Nenne den Raum in Beleg A und in der ersten Online-Fassung. Welche Angabe der ersten Webseite war bereits am 3. November unbelegt? Was änderte die Bibliothek erst am 4. November? Halte fest, welche Zeit- und Kostenangaben gleich bleiben und was nun für Werkzeuge gilt.",
+          "sample": "A nannte Raum 4, die erste Webseite aber Raum 3. Raum 3 war schon am 3. November um 11:00 Uhr nicht durch A gedeckt. Am 4. November um 09:00 Uhr verlegte die Bibliothek das Treffen von Raum 4 nach Raum 2 und stellte Werkzeuge bereit. Samstag, 7. November, 10:00–11:00 Uhr und kostenlos bleiben gleich; niemand muss einen Schraubenzieher mitbringen.",
+          "criteria": [
+            "1 Punkt: A Raum 4 und erste Online-Fassung Raum 3 richtig getrennt.",
+            "1 Punkt: Raum 3 als bereits beim Veröffentlichen bestehenden Redaktionsfehler mit A als Beleg erkannt.",
+            "1 Punkt: spätere tatsächliche Änderung Raum 4 zu Raum 2 mit Datum benannt.",
+            "1 Punkt: unveränderte Zeit und Kostenfreiheit sowie ersetzte Werkzeugangabe erkannt."
+          ]
+        },
+        {
+          "id": "de-online-news-2",
+          "kind": "reflection",
+          "points": 12,
+          "writingLines": 18,
+          "inputRows": 15,
+          "adultOnlySolution": true,
+          "prompt": "B · Deine aktualisierte Online-Seite (12 Kriterienpunkte): Schreibe getrennt Überschrift, Kurzvorschau, Meldungstext und Korrektur-/Änderungsnotiz. Zeige „Veröffentlicht: 3.11.2026, 11:00 Uhr“ und „Aktualisiert: 4.11.2026, 10:00 Uhr“. Benenne zwei interne Links so, dass Quelle und Stand erkennbar sind. Die Werkstatt verknüpft die Belege tatsächlich; prüfe dort dein Seitenprodukt.",
+          "sample": "Titel: Reparaturtreffen zieht in Raum 2 um. Kurzvorschau: Das kostenlose Reparaturtreffen bleibt Samstag, 7. November, 10–11 Uhr. Die Bibliothek am Lindenplatz verlegt es in Raum 2 und stellt Werkzeuge bereit. Veröffentlicht: 3.11.2026, 11:00 Uhr. Aktualisiert: 4.11.2026, 10:00 Uhr. Meldung: Das kostenlose Treffen findet weiterhin am Samstag, 7. November, von 10 bis 11 Uhr statt. Neu ist Raum 2 statt Raum 4; Werkzeuge werden gestellt. Links: „Erste Mitteilung · 3.11., 09:00 Uhr“ zu A und „Aktualisierte Mitteilung · 4.11., 09:00 Uhr“ zu B. Hinweis: Die erste Online-Fassung nannte Raum 3 fälschlich, obwohl A Raum 4 nannte. Erst danach verlegte die Bibliothek das Treffen von Raum 4 nach Raum 2.",
+          "criteria": [
+            "1 Punkt: aktuelle Überschrift ohne Raum 3 als gültigen Ort.",
+            "1 Punkt: Kurzvorschau nennt Anlass und aktuelle Zeit.",
+            "1 Punkt: Kurzvorschau oder erster Satz nennt Raum 2.",
+            "1 Punkt: Meldung bewahrt Anlass und Samstag, 7. November.",
+            "1 Punkt: Meldung nennt 10:00–11:00 Uhr unverändert.",
+            "1 Punkt: Kostenfreiheit bleibt korrekt.",
+            "1 Punkt: Werkzeuge werden gestellt; eigener Schraubenzieher ist nicht nötig.",
+            "1 Punkt: Veröffentlichungs- und Aktualisierungszeit getrennt.",
+            "2 Punkte: zwei aussagekräftige interne Beleglinks führen zu den richtigen Karten und zeigen deren Stand.",
+            "1 Punkt: Korrekturhinweis nennt Raum 3 als Fehler der ersten Webseite und Raum 4 aus A.",
+            "1 Punkt: Änderungsnotiz trennt den späteren Umzug Raum 4 zu Raum 2 vom ersten Fehler."
+          ]
+        },
+        {
+          "id": "de-online-news-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Zwei Behauptungen prüfen (4 Kriterienpunkte): 1. „Raum 2 war von Anfang an der richtige Raum.“ 2. „Raum 3 war richtig, bis die Bibliothek das Treffen verlegt hat.“ Entscheide für jede Behauptung belegt, widerlegt oder nicht belegt und begründe mit A, B und den Zeiten.",
+          "sample": "1 widerlegt: A vom 3.11., 09:00 Uhr nennt Raum 4; Raum 2 steht erst in B vom 4.11., 09:00 Uhr. 2 widerlegt: A nannte Raum 4, bevor die erste Online-Fassung mit Raum 3 erschien. B belegt einen späteren Umzug von Raum 4 nach Raum 2, nicht von Raum 3.",
+          "criteria": [
+            "1 Punkt: Behauptung 1 widerlegt.",
+            "1 Punkt: A und B samt Zeitfolge dafür richtig zugeordnet.",
+            "1 Punkt: Behauptung 2 widerlegt.",
+            "1 Punkt: ursprünglichen Webseitenfehler und spätere Planänderung begründet getrennt."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Deutsch für Klasse 7 ab 2026/27. § 2.2.4 und § 3.4/PDF-S. 49: informierendes Schreiben, Überarbeiten und „Online-News“ als exemplarische 7/8-Textform; Zielhorizont Ende Klasse 8.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
       "id": "ma-diagrammrevision-pausenraum",
       "subjectId": "ma",
       "title": "Zwei Diagramme, eine erfundene Befragung",

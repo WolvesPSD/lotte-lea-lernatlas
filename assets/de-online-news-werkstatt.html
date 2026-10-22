@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Online-News-Werkstatt · fiktive Bibliothek</title>
+  <style>
+    *{box-sizing:border-box}
+    :root{font:1rem/1.5 system-ui,Arial,sans-serif;color:#19313b;background:#f3f7f7}
+    body{margin:0}
+    main{max-width:1080px;margin:auto;padding:1rem}
+    h1{font-size:clamp(1.75rem,4vw,2.5rem);line-height:1.16}
+    h2{font-size:1.25rem;margin:.1rem 0 .65rem}
+    h3{font-size:1.08rem}
+    p,li,blockquote{overflow-wrap:anywhere}
+    .notice,.card{padding:1rem;margin:1rem 0;border-radius:.75rem}
+    .notice{background:#e5f3ef;border-left:5px solid #176f60}
+    .card{background:white;border:1px solid #c5d5d7}
+    .source{border-left:4px solid #8aaab0;padding:.7rem 1rem;margin:.75rem 0;background:#f4f8f8}
+    .source blockquote{margin:.45rem 0;white-space:pre-line}
+    .stamp{font-weight:650;color:#274e5a}
+    .fields{display:grid;gap:.85rem}
+    label{display:grid;gap:.3rem;font-weight:650}
+    input,textarea,button{font:inherit;color:inherit;min-width:0;border:1px solid #67818a;border-radius:.4rem;padding:.65rem}
+    input,button{min-height:44px}
+    textarea{resize:vertical;min-height:6rem}
+    #news-body{min-height:11rem}
+    #change-note{min-height:8rem}
+    button{background:#075b70;border-color:#075b70;color:white;font-weight:700;cursor:pointer}
+    button.secondary{background:white;color:#075b70}
+    button:disabled{opacity:.55;cursor:not-allowed}
+    .actions{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:1rem}
+    .small{font-size:.93rem;color:#38515a}
+    .timestamps{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;padding:.7rem;background:#eef5f5;border-radius:.4rem}
+    .timestamps p{margin:0}
+    #message{min-height:1.5em;font-weight:650}
+    iframe{width:100%;min-height:650px;border:1px solid #a8c1c4;background:white}
+    :focus-visible{outline:3px solid #b46400;outline-offset:2px}
+    @media(max-width:720px){main{padding:.75rem}.notice,.card{padding:.8rem}iframe{min-height:580px}}
+    @media print{body{background:white}.card{break-inside:avoid}.actions,iframe{display:none}}
+  </style>
+</head>
+<body><main>
+  <h1>Online-News selbst aktualisieren</h1>
+  <p class="notice">Dies ist eine Übung mit erfundenen Angaben. Die Werkstatt veröffentlicht und versendet nichts. Deine Eingaben bleiben nur in diesem geöffneten Tab; ein Neuladen löscht sie. Verwende keine echten Namen, Kontakte oder Webadressen. Es gibt keine automatische Bewertung.</p>
+
+  <section class="card" aria-labelledby="sources-heading">
+    <h2 id="sources-heading">1. Belege und erste Online-Fassung lesen</h2>
+    <p>Die erste Webseite enthielt bereits bei Veröffentlichung eine unbelegte Raumangabe. Danach änderte die Bibliothek den tatsächlichen Plan. Unterscheide die beiden Vorgänge.</p>
+    <article id="beleg-a" class="source" aria-labelledby="beleg-a-heading">
+      <h3 id="beleg-a-heading">Beleg A · erste Mitteilung der Bibliothek</h3>
+      <p class="stamp">Bibliothek am Lindenplatz (fiktiv) · Stand: 3. November 2026, 09:00 Uhr</p>
+      <blockquote>Am Samstag, 7. November, findet von 10:00 bis 11:00 Uhr ein kostenloses Reparaturtreffen im Raum 4 statt. Bitte einen kleinen Schraubenzieher mitbringen.</blockquote>
+    </article>
+    <article id="beleg-b" class="source" aria-labelledby="beleg-b-heading">
+      <h3 id="beleg-b-heading">Beleg B · aktualisierte Mitteilung der Bibliothek</h3>
+      <p class="stamp">Bibliothek am Lindenplatz (fiktiv) · Stand: 4. November 2026, 09:00 Uhr</p>
+      <blockquote>Das Reparaturtreffen bleibt am Samstag, 7. November, von 10:00 bis 11:00 Uhr. Es findet jetzt in Raum 2 statt. Werkzeuge werden bereitgestellt; niemand muss einen Schraubenzieher mitbringen. Alle anderen Angaben der ersten Mitteilung bleiben gleich.</blockquote>
+    </article>
+    <article id="erste-fassung" class="source" aria-labelledby="erste-fassung-heading">
+      <h3 id="erste-fassung-heading">Erste Online-Fassung</h3>
+      <p class="stamp">Veröffentlicht: 3. November 2026, 11:00 Uhr</p>
+      <blockquote><strong>Reparaturtreffen in Raum 3</strong><br>Am Samstag, 7. November, von 10:00 bis 11:00 Uhr bietet die Bibliothek am Lindenplatz ein kostenloses Reparaturtreffen in Raum 3 an. Bitte einen kleinen Schraubenzieher mitbringen.</blockquote>
+    </article>
+  </section>
+
+  <section class="card" aria-labelledby="edit-heading">
+    <h2 id="edit-heading">2. Deine aktualisierte Online-Seite schreiben</h2>
+    <p>Schreibe die Fassung, die am <strong>4. November 2026 um 10:00 Uhr</strong> sichtbar wäre. Die beiden Zeitstempel sind vorgegeben. Benenne deine beiden Beleglinks so, dass Quelle und Datum erkennbar sind. Die Vorschau verlinkt sie mit den Karten im selben Dokument.</p>
+    <div class="fields">
+      <label for="news-title">Überschrift<input id="news-title" maxlength="140" autocomplete="off" placeholder="Deine aktuelle Überschrift"></label>
+      <label for="news-teaser">Kurzvorschau für die Nachrichtenliste<textarea id="news-teaser" maxlength="420" placeholder="Die wichtigste aktuelle Information in wenigen Sätzen"></textarea></label>
+      <label for="news-body">Meldungstext<textarea id="news-body" maxlength="3500" placeholder="Dein belegter Meldungstext"></textarea></label>
+      <div class="timestamps" aria-label="Feste Zeitangaben"><p><strong>Veröffentlicht:</strong> 3. November 2026, 11:00 Uhr</p><p><strong>Aktualisiert:</strong> 4. November 2026, 10:00 Uhr</p></div>
+      <label for="link-a">Dein Linktext für Beleg A<input id="link-a" maxlength="170" autocomplete="off" placeholder="Quelle und Stand von Beleg A"></label>
+      <label for="link-b">Dein Linktext für Beleg B<input id="link-b" maxlength="170" autocomplete="off" placeholder="Quelle und Stand von Beleg B"></label>
+      <label for="change-note">Korrektur- und Änderungsnotiz<textarea id="change-note" maxlength="1600" placeholder="Erster Webseitenfehler und spätere Änderung getrennt erklären"></textarea></label>
+    </div>
+    <div class="actions"><button id="preview" type="button">Seite als Vorschau prüfen</button><button id="download" type="button" disabled>Offline-HTML herunterladen</button><button id="reset" class="secondary" type="button">Eingaben zurücksetzen</button></div>
+    <p id="message" role="status" aria-live="polite">Beginne mit deinen eigenen Formulierungen.</p>
+  </section>
+
+  <section class="card" aria-labelledby="check-heading">
+    <h2 id="check-heading">3. Vorschau und Selbstprüfung</h2>
+    <p>Prüfe selbst: Stimmen aktueller Ort, Zeit, Kosten und Werkzeuge mit den Belegen überein? Trennst du den Fehler der ersten Webseite von der späteren Planänderung? Öffnen beide Links die richtigen Karten? Der HTML-Download lässt sich ohne Internet öffnen und drucken.</p>
+    <iframe id="news-view" title="Vorschau deiner fiktiven Online-News-Seite" sandbox="" referrerpolicy="no-referrer"></iframe>
+    <p class="small">Die Vorschau führt keine Skripte aus. Der Download enthält nur deinen eingegebenen Text, die fiktiven Belege und Druckgestaltung. Drucke bei Bedarf die heruntergeladene Datei; die Belegkarten und ihre Daten stehen darin vollständig.</p>
+  </section>
+</main>
+<script>
+(()=>{'use strict';
+  const ids=['news-title','news-teaser','news-body','link-a','link-b','change-note'];
+  const $=id=>document.getElementById(id);
+  const esc=value=>value.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
+  const status=value=>{$('message').textContent=value;};
+  let generated=null;
+  function build(d){
+    // Every authored value is escaped before insertion. The generated file has no scripts or external resources.
+    const sourceA='Erste Mitteilung der Bibliothek · 3. November 2026, 09:00 Uhr';
+    const sourceB='Aktualisierte Mitteilung der Bibliothek · 4. November 2026, 09:00 Uhr';
+    return `<!doctype html>\n<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(d['news-title'])} · fiktive Übung</title><style>*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:#19313b;font:1rem/1.55 system-ui,Arial,sans-serif}main{max-width:800px;margin:auto;padding:clamp(1rem,4vw,2.5rem)}h1{font-size:clamp(1.65rem,4vw,2.6rem);line-height:1.17}h2{font-size:1.25rem}h3{font-size:1.08rem}h1,h2,h3,p,blockquote,a{overflow-wrap:anywhere}.eyebrow{color:#38616a;font-weight:700}.teaser{font-size:1.12rem;font-weight:600;background:#e9f4f2;padding:1rem;border-left:5px solid #176f60}.stamps{display:flex;flex-wrap:wrap;gap:.3rem 1.2rem;border-block:1px solid #a8c1c4;padding:.6rem 0}.stamps p{margin:0}.body,.note{white-space:pre-wrap}.note{padding:1rem;background:#f3f7f7;border-left:5px solid #506e78}.sources{border-top:2px solid #a8c1c4;margin-top:1.6rem}.sources article{padding:.65rem 0;border-bottom:1px solid #c5d5d7;scroll-margin-top:1rem}.sources blockquote{margin:.35rem 0;white-space:pre-line}.source-date{font-weight:650}.links li{margin:.4rem 0}a{color:#075b70;text-decoration:underline;text-underline-offset:.15em}:focus-visible{outline:3px solid #b46400;outline-offset:2px}@page{size:A4 portrait;margin:16mm}@media print{body{color:#000}main{max-width:none;padding:0}.sources article{break-inside:avoid}a{color:#000}a::after{content:" [im Dokument: " attr(href) "]";font-size:.8em}}</style></head><body><main><p class="eyebrow">Fiktive Online-News-Übung · keine echte Veröffentlichung</p><header><h1>${esc(d['news-title'])}</h1><p class="teaser">${esc(d['news-teaser'])}</p><div class="stamps"><p><strong>Veröffentlicht:</strong> 3. November 2026, 11:00 Uhr</p><p><strong>Aktualisiert:</strong> 4. November 2026, 10:00 Uhr</p></div></header><article aria-label="Aktuelle Meldung"><h2>Meldung</h2><p class="body">${esc(d['news-body'])}</p></article><section aria-labelledby="links-heading"><h2 id="links-heading">Belege</h2><ul class="links"><li><a href="#beleg-a">${esc(d['link-a'])}</a> <span>(${sourceA})</span></li><li><a href="#beleg-b">${esc(d['link-b'])}</a> <span>(${sourceB})</span></li></ul></section><section aria-labelledby="note-heading"><h2 id="note-heading">Korrektur und Änderung</h2><p class="note">${esc(d['change-note'])}</p></section><section class="sources" aria-labelledby="cards-heading"><h2 id="cards-heading">Belegkarten und erste Fassung</h2><article id="beleg-a" aria-labelledby="a-heading"><h3 id="a-heading">Beleg A · erste Mitteilung der Bibliothek</h3><p class="source-date">Bibliothek am Lindenplatz (fiktiv) · Stand: 3. November 2026, 09:00 Uhr</p><blockquote>Am Samstag, 7. November, findet von 10:00 bis 11:00 Uhr ein kostenloses Reparaturtreffen im Raum 4 statt. Bitte einen kleinen Schraubenzieher mitbringen.</blockquote></article><article id="beleg-b" aria-labelledby="b-heading"><h3 id="b-heading">Beleg B · aktualisierte Mitteilung der Bibliothek</h3><p class="source-date">Bibliothek am Lindenplatz (fiktiv) · Stand: 4. November 2026, 09:00 Uhr</p><blockquote>Das Reparaturtreffen bleibt am Samstag, 7. November, von 10:00 bis 11:00 Uhr. Es findet jetzt in Raum 2 statt. Werkzeuge werden bereitgestellt; niemand muss einen Schraubenzieher mitbringen. Alle anderen Angaben der ersten Mitteilung bleiben gleich.</blockquote></article><article id="erste-fassung" aria-labelledby="first-heading"><h3 id="first-heading">Erste Online-Fassung</h3><p class="source-date">Veröffentlicht: 3. November 2026, 11:00 Uhr</p><blockquote><strong>Reparaturtreffen in Raum 3</strong><br>Am Samstag, 7. November, von 10:00 bis 11:00 Uhr bietet die Bibliothek am Lindenplatz ein kostenloses Reparaturtreffen in Raum 3 an. Bitte einen kleinen Schraubenzieher mitbringen.</blockquote></article></section></main></body></html>`;
+  }
+  for(const id of ids)$(id).addEventListener('input',()=>{generated=null;$('download').disabled=true;status('Eingaben geändert. Erstelle die Vorschau erneut.');});
+  $('preview').addEventListener('click',()=>{
+    const d=Object.fromEntries(ids.map(id=>[id,$(id).value.trim()]));
+    const missing=ids.find(id=>!d[id]);
+    if(missing){status('Bitte fülle alle sechs eigenen Felder aus.');$(missing).focus();return;}
+    generated=build(d);
+    // srcdoc otherwise resolves #beleg-a/#beleg-b against this workshop's file URL.
+    // The downloaded document deliberately has no base element and keeps its own anchors.
+    $('news-view').srcdoc=generated.replace('<head>','<head><base href="about:srcdoc">');
+    $('download').disabled=false;
+    status('Vorschau erstellt. Prüfe Inhalt, beide Beleglinks und die Korrektur selbst.');
+  });
+  $('download').addEventListener('click',()=>{
+    if(!generated)return;
+    const url=URL.createObjectURL(new Blob([generated],{type:'text/html;charset=utf-8'}));
+    const link=document.createElement('a');link.href=url;link.download='online-news-lindenplatz-uebung.html';document.body.append(link);link.click();link.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),60000);
+    status('Download angestossen. Öffne die Datei offline und prüfe Links und Druckvorschau.');
+  });
+  $('reset').addEventListener('click',()=>{for(const id of ids)$(id).value='';generated=null;$('download').disabled=true;$('news-view').removeAttribute('srcdoc');status('Startzustand wiederhergestellt.');$('news-title').focus();});
+})();
+</script>
+</body></html>

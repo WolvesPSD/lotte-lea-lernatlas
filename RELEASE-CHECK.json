@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-22T21:38:00.221Z",
-  "releaseVersion": "2026.10.22-historytoledo.1",
+  "builtAt": "2026-10-22T21:59:03.617Z",
+  "releaseVersion": "2026.10.22-deonlinenews.1",
   "newTopicIds": [
-    "ge-toledo-uebersetzungsquellen"
+    "de-online-news-aktualisierung"
   ],
   "changeLog": [
-    "Freiwilliger Geschichte-7/8-Quellenfall: An einer mittelalterlichen Übersetzung zwischen historischer Schlussvermerkangabe, heutiger Katalogabschrift, eigener deutscher Inhaltsangabe und heutiger Forschung unterscheiden. 20 Haupt- und sechs getrennte Zusatzpunkte mit menschlichem Feedback.",
-    "Der wörtliche Katalogauszug wird nicht übernommen; die Quellenkarte verlinkt BDPI, BNE und Universität mit Beweisgrenzen. Geltung des Geschichte-Lehrplans 2021 für 2026/27 und Lottes Unterrichtsfolge sind ungeklärt; kein Nachweis für einen muslimischen Übersetzer am selben Tisch oder Geschichts-Jahresabdeckung."
+    "Freiwilliger Deutsch-7/8-Online-News-Fall: Die erste fiktive Webseite enthielt schon bei Veröffentlichung einen unbelegten Raum; die Bibliothek änderte ihren Plan erst später. Drei Aufgaben mit 4+12+4 formativen Kriterienpunkten trennen Redaktionsfehler, Quellenstand und echte Änderung.",
+    "Eine lokale Werkstatt erzeugt eine scriptfreie HTML-Meldung mit getrennten Veröffentlichungs- und Aktualisierungszeiten, zwei funktionierenden internen Beleglinks und gedruckten Belegkarten. Nichts wird veröffentlicht oder versendet; die Familie und ein Kind haben diese neue Fassung noch nicht geprüft."
   ],
-  "rollbackCommit": "2654261327b643740e91540cf544877d2c9e62af",
+  "rollbackCommit": "5a6d27d01107465bea7745f1d52be18ee52ef741",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -77,6 +77,7 @@
     "de-spielenachmittag-werbetext",
     "de-buechersammlung-meldung",
     "de-pausenraum-folie-handout",
+    "de-online-news-aktualisierung",
     "ma-diagrammrevision-pausenraum",
     "de-verlaufsprotokoll-ausleihplatz",
     "de-rollenbiografie-nila",

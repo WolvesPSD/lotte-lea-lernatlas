@@ -7522,6 +7522,128 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "et-jugendhaus-doppeltermin",
+      "subjectId": "et",
+      "title": "Zwei Gruppen, ein Raum",
+      "scope": "Freiwilliger gestützter Einstieg in Konfliktursachen, Perspektivwechsel und faire Entscheidungen nach dem älteren Thüringer Ethik-Lehrplan 2012, Ziel Ende Klasse 8. Die amtliche Geltung 2026/27 und Lottes tatsächliche Unterrichtsfolge sind ungeklärt; keine bestätigte Klasse-7-Einheit.",
+      "levelStatus": "additional-unclear",
+      "released": true,
+      "prerequisite": "Diese Zusatzübung ist freiwillig. Ob sie zu deinem jetzigen Unterricht passt, wissen wir noch nicht. Der Ethik-Lehrplan von 2012 nennt das Ziel Ende Klasse 8; seine Geltung 2026/27 und Lottes Unterrichtsfolge sind ungeklärt. Schreibe nur über die erfundenen Gruppen: Du brauchst nichts über eigene Beziehungen, Streitfälle, Gefühle oder Haltungen mitzuteilen. Beide Raumbestätigungen gelten; unbekannte Ausweichorte und Stimmen sind keine Fakten. Keine Schulnote.",
+      "introduction": "Im erfundenen Jugendhaus „Linde“ haben Gruppe A mit sechs Jugendlichen und Gruppe B mit acht Jugendlichen für denselben Donnerstag von 16:00 bis 17:00 Uhr dieselbe schriftliche Raumbestätigung erhalten. Heute gibt es keinen zweiten geeigneten Raum. Beide können ihn nicht gleichzeitig nutzen: Bewegung beim Aufbau würde die ruhige Aufnahme stören. Beide Projekte sollen morgen beim offenen Haus vorgestellt werden. Lies die Karten genau; unbekannte Ausweichorte und fremde Absichten sind keine Fakten. 24 Kriterienpunkte sind Lernfeedback, keine Schulnote.",
+      "passage": "FIKTIVE FALLKARTE · A – Hörgeschichte: Die Gruppe will eine selbst geschriebene Geschichte aufnehmen. Dafür braucht sie 50 Minuten am Stück Ruhe und Aufnahmeplatz. Ob die Aufnahme bis morgen woanders möglich wäre, ist offen.\n\nB – Ausstellung: Die Gruppe will leichte Bildtafeln zusammenstellen; gefährliche Werkzeuge sind nicht vorgesehen. Dafür braucht sie 50 Minuten am Stück Platz. Ob der Aufbau bis morgen woanders möglich wäre, ist offen.\n\nDREI STIMMEN UM 15:45 UHR · A: „Wir brauchen den Raum. Unsere Aufnahme muss ruhig sein.“ B: „Wir brauchen den Raum. Die Tafeln liegen heute bereit.“ Eine dritte Person: „B hat acht Leute, A nur sechs. Dann ist B automatisch wichtiger; A soll einfach still sein.“\n\nWÖRTERHILFE · Eine Position ist eine verlangte Lösung („Wir bekommen den Raum“). Ein Interesse erklärt, was eine Gruppe erreichen möchte. Eine Ursache ist ein belegbarer Beitrag zum Konflikt; eine vermutete böse Absicht ist noch kein Beleg. Eine Ich-Botschaft benennt eigene Wahrnehmung und Bedarf ohne unterstelltes Motiv. Aktives Zuhören prüft das Verstehen der anderen Sicht. Ein demokratischer Entscheid braucht einen vorher klaren, für Betroffene fairen Weg.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–E",
+        "childPrintAfterUnlock": true,
+        "text": "GETRENNTE FREIWILLIGE VARIANTE NACH A–E · Neue fiktive Fakten vor der Beratung: Die Hausleitung bestätigt schriftlich, dass der Raum nun bis 17:30 Uhr offen bleiben darf. Gruppe B hat nachweislich einen Teil ihrer Bildtafeln außerhalb des Raums vorbereitet und braucht dort jetzt nur noch 30 Minuten am Stück. Gruppe A braucht weiter 50 Minuten am Stück. Das ändert die ursprünglichen Hauptantworten nicht."
+      },
+      "tasks": [
+        {
+          "id": "et-raum-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Beobachtung und Unterstellung trennen (4 Punkte): Berechne, wie viele Minuten beide vollständigen Pläne nacheinander benötigen und wie viele Minuten gegenüber der bestätigten Raumzeit fehlen. Weshalb erfüllt „jede Gruppe erhält 30 Minuten“ beide beschriebenen Pläne nicht? Nenne die aus den Karten belegbare organisatorische Ursache und eine unbelegte Schuldbehauptung, die man vermeiden muss.",
+          "sample": "50 + 50 = 100 Minuten bei 60 Minuten Raumzeit; 40 Minuten fehlen. 30 Minuten sind für jede Gruppe 20 Minuten zu kurz. Die zwei schriftlichen Bestätigungen für denselben Raum und dieselbe Stunde verursachen die Doppelbelegung. Unbelegt wäre etwa, A oder B habe absichtlich falsch gebucht.",
+          "criteria": [
+            "1 Punkt für 100 gegenüber 60 und die Lücke von 40 Minuten.",
+            "1 Punkt für 30 statt benötigter 50 Minuten je Gruppe.",
+            "1 Punkt für die doppelte schriftliche Raumbestätigung als belegte organisatorische Ursache.",
+            "1 Punkt für eine klar als unbelegt zurückgewiesene Schuldunterstellung. Die Buchungsreihenfolge ist nicht bekannt."
+          ]
+        },
+        {
+          "id": "et-raum-2",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Unter die Positionen schauen (5 Punkte): Schreibe für A und B je die sichtbare Position und ein Interesse aus den Karten. Nenne eine weitere mögliche Sorge nur als Frage, nicht als Tatsache. Weshalb prüft der Satz der dritten Person die beiden Anliegen nicht ausreichend?",
+          "sample": "Beide Gruppen verlangen den Raum. A möchte die Geschichte ruhig und zusammenhängend aufnehmen; B möchte die Tafeln mit genug Platz fertigstellen. Offene Frage: Wäre eine Aufnahme bis morgen an einem anderen Ort möglich? Die Gruppengröße 8 statt 6 ist ein Gesichtspunkt, beweist allein aber nicht, welches Interesse schwerer wiegt; A darf nicht einfach zum Schweigen gebracht werden.",
+          "criteria": [
+            "1 Punkt für die sichtbare Raumforderung beider Gruppen.",
+            "1 Punkt für A-Interesse und 1 Punkt für B-Interesse.",
+            "1 Punkt für eine ausdrücklich offene, nicht als Fakt ausgegebene Frage.",
+            "1 Punkt für die begrenzte Kritik am 8:6-Argument ohne pauschales Abwerten der größeren Gruppe."
+          ]
+        },
+        {
+          "id": "et-raum-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C · Ein Gespräch eröffnen (5 Punkte): Formuliere je eine Ich-Botschaft für die erfundenen Gruppen A und B und eine prüfende Rückfrage des aktiven Zuhörens an die andere Gruppe. Berichte keinen eigenen Streit.",
+          "sample": "A: „Ich bin besorgt, dass unsere Aufnahme morgen fehlt, weil wir heute 50 Minuten Ruhe brauchen. Ich möchte eine faire Entscheidung finden.“ B: „Ich bin besorgt, dass unsere Tafeln morgen nicht bereit sind, weil wir heute 50 Minuten Platz brauchen. Ich möchte, dass auch unser Plan gehört wird.“ Rückfrage: „Habe ich richtig verstanden, dass ihr für die Aufnahme 50 Minuten ohne Unterbrechung braucht?“ Andere materialtreue Formulierungen gelten ebenso.",
+          "criteria": [
+            "2 Punkte für A: eigene Sicht und Bedarf sowie keine Motivunterstellung.",
+            "2 Punkte für B: eigene Sicht und Bedarf sowie keine Motivunterstellung.",
+            "1 Punkt für eine konkrete prüfende Rückfrage statt behaupteter Kenntnis der anderen Sicht."
+          ]
+        },
+        {
+          "id": "et-raum-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 11,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "D · Einen Entscheidungsweg planen (4 Punkte): Beschreibe vier Schritte, mit denen die 14 Beteiligten auf derselben Tatsachengrundlage beraten und entscheiden können. Was wird vor einer Abstimmung geklärt? Wie berücksichtigst du die Gruppengrößen 6 und 8 bei der Verfahrenswahl? Wie wird die nicht gewählte Gruppe danach respektvoll behandelt?",
+          "sample": "Zuerst beide Bestätigungen, Zeitbedarfe und offene Ausweichfragen gemeinsam prüfen. Dann beide Gruppen ohne Unterbrechung anhören. Vor einer Entscheidung mit Gruppen und Hausleitung eine transparente Regel vereinbaren; ein Kopfzahlvotum aller 14 ist wegen 8:6 nicht automatisch sachlich fair. Eine gleich große Vertretung mit neutraler Moderation und Gleichstandsregel wäre eine Möglichkeit, keine gesicherte Pflicht. Das Ergebnis begründen und der nicht gewählten Gruppe bei einer neuen Planung helfen, ohne Erfolg zu versprechen. Stimmen und Rechte sind nicht bekannt.",
+          "criteria": [
+            "1 Punkt für gemeinsame Tatsachen und offene Fragen vor der Abstimmung.",
+            "1 Punkt für gleiches Gehör und Perspektivwechsel.",
+            "1 Punkt für vorab vereinbarte Regel mit Beachtung der 8:6-Asymmetrie; keine automatische B-Mehrheit als Sachbeweis.",
+            "1 Punkt für respektvollen Umgang mit der nicht gewählten Gruppe ohne erfundene Erfolgsgarantie."
+          ]
+        },
+        {
+          "id": "et-raum-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 12,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "E · Eine vorläufige Wahl begründen (6 Punkte): Entscheide für diese Stunde A oder B. Nenne zwei verschiedene Gründe aus den Karten, eine Folge für die andere Gruppe, das stärkste Gegenargument und eine Information, die deine Entscheidung später ändern könnte. Begründe, weshalb deine Wahl dennoch vertretbar ist. Für A statt B gibt es keine Punkte.",
+          "sample": "Musterwahl A: Die Aufnahme braucht 50 Minuten zusammenhängende Ruhe; ein anderer ruhiger Ort bis zur Vorstellung morgen ist nicht bestätigt. B kann dann den geplanten Aufbau nicht durchführen; auch für B ist kein Ausweichplatz bestätigt. Starkes Gegenargument: B hat dieselbe Bestätigung und ebenfalls einen morgigen Termin. Ich gewichte die ununterbrochene Aufnahme diesmal höher. Eine tatsächlich bestätigte ruhige Alternative für A könnte die Wahl ändern. Ebenso ist B mit zwei belegten Gründen, Folge für A, starkem Gegenargument und Gewichtung vertretbar.",
+          "criteria": [
+            "1 Punkt für eine klare vorläufige Wahl A oder B, nicht für deren Richtung.",
+            "2 Punkte für zwei verschiedene Materialgründe.",
+            "1 Punkt für eine konkrete Folge für die andere Gruppe.",
+            "1 Punkt für das stärkste materialgestützte Gegenargument.",
+            "1 Punkt für begründete Gewichtung trotz Gegenargument und eine mögliche belegbare Änderungsinformation. Keine unbekannten Ausweichorte oder Stimmen als Fakten ausgeben."
+          ]
+        },
+        {
+          "id": "et-raum-6",
+          "kind": "reflection",
+          "points": 0,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Variante nach A–E · ohne zusätzliche Punkte: Passen beide neuen Zeitbedarfe nacheinander in die nun bestätigte Öffnungszeit? Schreibe einen konkreten Zeitplan mit Beginn und Ende beider Gruppen. Was ändert sich gegenüber dem ersten Fall am Konflikt und am fairen Entscheidungsweg, und welcher organisatorische Fehler bleibt? Formuliere eine respektvolle Rückfrage bei Uneinigkeit über die Reihenfolge. Erfinde keine Umrüstzeiten oder schon abgegebenen Stimmen.",
+          "sample": "A 50 + B 30 = 80 Minuten, verfügbar sind 90; 10 Minuten bleiben. Beispiel: A 16:00–16:50, B 16:50–17:20; bis 17:30 bleiben 10 Minuten. Auch B 16:00–16:30, A 16:30–17:20 passt rechnerisch. Unter den vereinfachten Angaben können beide Arbeitsblöcke gelingen; eine Wahl nur zwischen A und B ist nicht mehr zwingend. Die ursprüngliche Doppelbestätigung war dennoch ein Organisationsfehler. Beide müssen die neuen Fakten prüfen und können bei Uneinigkeit fair über die Reihenfolge entscheiden. Rückfrage: „Welche konkrete Schwierigkeit hätte B nach A für euch?“ Zusätzliche reale Wechselzeiten sind unbekannt.",
+          "criteria": [
+            "50 + 30 = 80 Minuten gegenüber 90, Reserve 10 Minuten.",
+            "Zwei nicht überlappende ununterbrochene Blöcke innerhalb 16:00–17:30.",
+            "Der harte Entweder-oder-Konflikt fällt unter den vereinfachten Angaben weg; Reihenfolge kann weiter strittig sein.",
+            "Die ursprüngliche Doppelbestätigung bleibt ein Organisationsfehler.",
+            "Respektvolle konkrete Rückfrage; keine erfundenen Zeiten, Ausweichräume oder Stimmen. Die Variante hat keine Zusatzpunkte."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2012er Original; Geltung im Schuljahr 2026/27 ungeklärt",
+        "gradeBand": "7/8, Ziel Ende Klasse 8",
+        "competencyRef": "Ethik Gymnasium 2012, §2.2.2, PDF-S.16/Drucks.17: Konflikte und Ursachen, Ich-Botschaft, aktives Zuhören, Perspektivwechsel, Debatte/Abstimmung und Respekt; Zielmarke Klassenstufe 8.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "go-gradnetz-modellorte",
       "subjectId": "go",
       "title": "Orte im erfundenen Gradnetz finden",

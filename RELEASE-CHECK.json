@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-22T23:28:30.541Z",
-  "releaseVersion": "2026.10.23-mbiblocks.1",
+  "builtAt": "2026-10-22T23:49:10.720Z",
+  "releaseVersion": "2026.10.23-ethikraum.1",
   "newTopicIds": [
-    "mbi-blockprogramm-regler"
+    "et-jugendhaus-doppeltermin"
   ],
   "changeLog": [
-    "Freiwilliger MBI-Klasse-8-Ausblick: Lotte ordnet sechs Blockbausteine, wählt Bedingungen und prüft eine eigene fiktive Zustandsfolge im begrenzten Browserlabor.",
-    "Ein neues Thema mit 20 Haupt- und 6 Zusatzpunkten; vorhandene 95 Themen bleiben unverändert. Browsermodell, Scratch-Projekt und echte Sensor-/Aktorwirkung sind getrennte Nachweise."
+    "Freiwilliger Ethik-7/8-Konfliktfall: zwei Gruppen mit derselben Raumbestätigung, begründete Perspektiven und ein faires Entscheidungsverfahren.",
+    "24 Hauptpunkte und eine erst danach sichtbare punktfreie Variante; die Geltung des älteren Ethikplans 2026/27, reale Gespräche und Schuleinheit bleiben ungeklärt."
   ],
-  "rollbackCommit": "28a9dd9b5bc3e451aba0734654bacba9bf08f7cf",
+  "rollbackCommit": "165312c2e6d5383f48a90bc79fb671d60a6e53f7",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -99,6 +99,7 @@
     "fr-parapluie-poeme",
     "ma-schraegbild-darstellungen",
     "et-jugendrat-budgetwerte",
+    "et-jugendhaus-doppeltermin",
     "go-gradnetz-modellorte",
     "go-drei-gesteinswege",
     "ge-toledo-uebersetzungsquellen",
@@ -156,6 +157,7 @@
   ],
   "unclearValidityTopics": [
     "et-jugendrat-budgetwerte",
+    "et-jugendhaus-doppeltermin",
     "go-gradnetz-modellorte",
     "go-drei-gesteinswege",
     "ge-toledo-uebersetzungsquellen",

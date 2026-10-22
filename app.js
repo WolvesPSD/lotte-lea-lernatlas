@@ -42,7 +42,7 @@
   $('#release-status').textContent = preview
     ? 'Interner Prüfmodus · diese Ansicht kann ungeprüfte Aufgaben enthalten.'
     : availableTopics.length
-      ? `${availableTopics.length} fachlich geprüfte Themen verfügbar · Die Jahresabdeckung ist noch im Aufbau.`
+      ? `${availableTopics.length} intern geprüfte Übungsthemen verfügbar · Die Jahresabdeckung ist noch im Aufbau.`
       : 'Noch keine fachlich freigegebenen Jahresmodule. Interne Prüfaufgaben sind in dieser Ansicht gesperrt.';
   $('#choose-description').textContent = preview
     ? 'Interner Prüfmodus: Zusätzlich sind gesperrte Entwürfe zur Technik- und Fachprüfung sichtbar.'

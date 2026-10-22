@@ -5397,6 +5397,194 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-diagrammrevision-pausenraum",
+      "subjectId": "ma",
+      "title": "Zwei Diagramme, eine erfundene Befragung",
+      "scope": "Freiwilliger 7/8-Lernweg zur Diagrammprüfung und -revision; M4-Zielhorizont Ende Klasse 8. Keine bestätigte aktuelle Unterrichtseinheit oder vollständige M4-Abdeckung.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Die Befragung und alle Personen sind erfunden. Für die Rechnung helfen Bruch Teil/Ganzes, 100 % und 360°. Papier und Lineal genügen; ein Rechner ist zur Kontrolle erlaubt, wenn du Grundwert und Rechenweg nennst. Das Antwortfeld beweist keine tatsächlich gezeichnete Grafik.",
+      "introduction": "Für einen fiktiven Pausenraum wurden 250 Personen eingeladen; 200 antworteten und wählten je genau eine Möglichkeit. Die übrigen Eingeladenen gaben keine Antwort; ihre Meinung ist unbekannt. Zwei fertige Diagramme enthalten jeweils mindestens einen prüfbaren Fehler. Der Kreis zeigt nur die Sektoren A–D. Der Streifen steht im Modell für 10 cm; seine tatsächliche Drucklänge kann abweichen. Rechne mit der Tabelle und schätze keine Winkel aus dem Bild. Grundwert = das gemeinte Ganze; Anteil = Stimmen ÷ Grundwert × 100; Kreiswinkel = Stimmen ÷ Grundwert × 360°. 20 Haupt- und 6 getrennte Zusatzpunkte sind Lernrückmeldung, keine Schulnote.",
+      "passage": "FIKTIVE BEFRAGUNG · 250 Eingeladene, 200 Antwortende, je eine Antwort.\nA · Musik-Ecke: 80 Stimmen\nB · Bewegungsecke: 50 Stimmen\nC · Ruhiger Platz: 40 Stimmen\nD · Keine Änderung: 30 Stimmen\nÜber die Meinung der Nichtantwortenden ist nichts bekannt. Die Entwurfsgrafiken unten sollen geprüft und verbessert werden.",
+      "diagram": {
+        "path": "assets/ma-diagrammrevision-entwurf.svg",
+        "alt": "Zwei Entwurfsgrafiken zur fiktiven Befragung. Der Kreis zeigt vier Sektoren A bis D; darüber steht der Titel 250 Eingeladene. Der 10-cm-Modellstreifen für 200 Antwortende ist mit A 40 Prozent, B 25 Prozent, C 25 Prozent und D 10 Prozent beschriftet. Die Datenwerte stehen zusätzlich im Text.",
+        "caption": "Zwei Entwürfe mit prüfbaren Fehlern. Der Streifen bedeutet im Modell 10 cm; die gedruckte Bildlänge ist kein Massstab. Verwende für genaue Rechnungen die Datentabelle."
+      },
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGER TRANSFER NACH A–D · Eine neue Darstellung soll wirklich alle 250 Eingeladenen umfassen. Ergänze zu A–D eine fünfte Kategorie „keine Antwort“ für die 50 fehlenden Rückmeldungen. Das ist keine bekannte Meinung und bleibt von D getrennt."
+      },
+      "tasks": [
+        {
+          "id": "ma-diagrev-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A · Grundwert (4 Hauptpunkte): Prüfe die Stimmensumme und bestimme die Zahl der Nichtantworten. Welcher Grundwert gehört zu einer Verteilung unter den Antwortenden? Warum wäre 250 dafür falsch?",
+          "sample": "80 + 50 + 40 + 30 = 200 Stimmen. 250 − 200 = 50 Personen antworteten nicht. Für die Verteilung unter den Antwortenden ist 200 der Grundwert. 250 wäre der Grundwert aller Eingeladenen; dafür fehlt in den vier Grafikkategorien die fünfte Gruppe ohne Antwort.",
+          "criteria": [
+            "Je 1 Punkt: Stimmensumme 200, Nichtantworten 50, Grundwert 200 für Antwortverteilung, Erklärung der anderen Bezugsfrage bei 250."
+          ]
+        },
+        {
+          "id": "ma-diagrev-2",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 16,
+          "inputRows": 14,
+          "adultOnlySolution": true,
+          "prompt": "B · Streifen lesen und reparieren (8 Hauptpunkte): Lies die vier gedruckten Prozentanteile im Entwurf ab. Berechne die vier richtigen Anteile aus den Stimmen unter den 200 Antwortenden; zeige mindestens einen Bruch und die Umrechnung in Prozent. Benenne beide falschen Abschnitte. Zeichne einen korrigierten 10-cm-Modellstreifen oder beschreibe seine vier aufeinanderfolgenden Längen und alle Abschnittsgrenzen vom linken Rand. Beschrifte Ganzes und Abschnitte. Wenn du zeichnest, zeige das Blatt zusätzlich; dieses Textfeld kann die Zeichnung nicht prüfen.",
+          "sample": "Entwurf: A 40 %, B 25 %, C 25 %, D 10 %. Richtig: A 80/200 = 40 %, B 50/200 = 25 %, C 40/200 = 20 %, D 30/200 = 15 %. C ist im Entwurf um 5 Prozentpunkte zu groß, D um 5 Prozentpunkte zu klein. Korrigierte Modelllängen: A 4,0 cm von 0–4,0; B 2,5 cm von 4,0–6,5; C 2,0 cm von 6,5–8,5; D 1,5 cm von 8,5–10,0. Ganzes: 200 Antwortende = 100 % = 10 cm.",
+          "criteria": [
+            "1 Punkt: alle vier gedruckten Entwurfsanteile 40/25/25/10 richtig abgelesen.",
+            "4 Punkte: die aus der Tabelle berechneten Anteile 40/25/20/15, je Kategorie 1.",
+            "1 Punkt: C und D als beide falsche Entwurfsabschnitte erkannt, je 0,5.",
+            "1 Punkt: vier korrigierte Modelllängen 4,0/2,5/2,0/1,5 cm.",
+            "0,5 Punkt: alle Grenzen 0/4,0/6,5/8,5/10,0 cm mit Kennungen und Grundwert.",
+            "0,5 Punkt: mindestens eine nachvollziehbare Rechnung Stimmen/200 × 100 oder gleichwertiger Weg. Eine vollständige Textreparatur ist gleichwertig zur Zeichnung, belegt aber keine gezeichnete Grafik."
+          ]
+        },
+        {
+          "id": "ma-diagrev-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 11,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "C · Kreis prüfen (5 Hauptpunkte): Was ist am Kreistitel falsch? Gib eine passende Überschrift an, falls die vier Sektoren A–D bleiben. Berechne für jeden Sektor den genauen Mittelpunktswinkel aus der Tabelle und prüfe die Winkelsumme. Warum macht ein bloßes Umbenennen in „alle Eingeladenen“ die fehlenden Antworten nicht sichtbar?",
+          "sample": "Der vierteilige Kreis zeigt die 200 Antwortenden, nicht alle 250 Eingeladenen. Passender Titel: „200 Antwortende · 100 %“. Winkel: A 80/200 × 360° = 144°, B 50/200 × 360° = 90°, C 40/200 × 360° = 72°, D 30/200 × 360° = 54°. Summe 144 + 90 + 72 + 54 = 360°. Für 250 Eingeladene fehlte eine fünfte Kategorie für 50 Nichtantworten.",
+          "criteria": [
+            "Je 1 Punkt für die vier richtigen Winkel 144/90/72/54 Grad.",
+            "1 Punkt zusammen für falschen Kreistitel, Korrektur auf 200 Antwortende, 360°-Probe und Erklärung der fehlenden fünften Gruppe; unvollständige Teilleistung offen rückmelden."
+          ]
+        },
+        {
+          "id": "ma-diagrev-4",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Aussagegrenze (3 Hauptpunkte): Beurteile „Die Nichtantwortenden wollten bestimmt keine Änderung.“ Begründe dein Urteil. Formuliere eine korrekte Aussage über die Musik-Ecke und nenne darin den passenden Grundwert.",
+          "sample": "Aus einer Nichtantwort folgt keine Meinung. „80 von 200 Antwortenden, also 40 %, wählten die Musik-Ecke“ ist korrekt. Ebenfalls korrekt: „80 von 250 Eingeladenen, also 32 %, gaben Musik-Ecke an“, wenn der andere Grundwert ausdrücklich genannt ist.",
+          "criteria": [
+            "1 Punkt: Nichtantwort bedeutet unbekannte Meinung.",
+            "1 Punkt: sachlich korrekte Aussage zu A.",
+            "1 Punkt: passender Grundwert und Anteil oder Anzahl eindeutig im Satz."
+          ]
+        },
+        {
+          "id": "ma-diagrev-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 13,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer · 6 getrennte Zusatzpunkte: Zeige wirklich alle 250 Eingeladenen in einem Kreis mit fünf Kategorien A–D plus „keine Antwort“. Berechne für alle fünf Kategorieanteile und Mittelpunktswinkel. Prüfe 100 % und 360°. Erkläre, warum D und „keine Antwort“ verschieden bleiben.",
+          "sample": "A: 80/250 = 32 %, 115,2°; B: 50/250 = 20 %, 72°; C: 40/250 = 16 %, 57,6°; D: 30/250 = 12 %, 43,2°; keine Antwort: 50/250 = 20 %, 72°. Summe 100 % und 360°. D ist eine abgegebene Stimme gegen Änderung, während für 50 Eingeladene keine Meinung mitgeteilt wurde.",
+          "criteria": [
+            "5 Zusatzpunkte: fünf richtige Prozent-Winkel-Paare, je 1.",
+            "1 Zusatzpunkt: 100-%- und 360°-Probe sowie begründete Trennung von D und Nichtantwort. Zusatzpunkte nicht zu 20 Hauptpunkten addieren."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Mathematik Klasse 7 ab 2026/27. § 2.2.4 PDF-S. 26–27: Ende-Klasse-8-Ziel zu Anteilen in Kreis- und Streifendiagrammen, Grundwert/Prozentsatz/Prozentwert sowie selbstständiger Diagrammprüfung und -verbesserung.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
+      "id": "de-verlaufsprotokoll-ausleihplatz",
+      "subjectId": "de",
+      "title": "Wie aus der Flurkiste ein bedingter Plan wurde",
+      "scope": "Freiwilliger, gestützter Klasse-7-Einstieg in eine exemplarische 7/8-Textsorte mit Schreibziel bis Ende Klasse 8. Die aktuelle Schuleinheit und Lottes Vorkenntnisse sind unbekannt.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Alle Personen, Orte und Termine sind erfunden. Verwende keine echten Namen oder Sitzungsdaten. Du führst keine echte Besprechung durch; die App bewertet offene Texte nicht automatisch.",
+      "introduction": "Ein Verlaufsprotokoll erklärt für eine abwesende Person in zeitlicher Reihenfolge, wie wichtige Vorschläge, Einwände und Änderungen zu einer Entscheidung führten. Es ist kein Wortprotokoll; erfinde keinen wörtlichen Dialog. Ein Ergebnisprotokoll ordnet Ergebnisse stärker nach Themen. Wortstütze: verworfen = nicht weiterverfolgt; unter Vorbehalt = nur gültig, wenn Bedingungen erfüllt sind; offen = noch nicht entschieden. Nutze bei Bedarf zuerst, daraufhin, anschließend und am Ende. Die Minuten in den Notizen helfen bei der Reihenfolge; nur wichtige müssen in den Text.",
+      "passage": "FIKTIVE BESPRECHUNG · Ausleihplatz für vollständige Gesellschaftsspiele. Raum K2, 10. November 2026, 13:30–13:55 Uhr. Anwesend: Aylin (Leitung), Ben, Liva und Niko (Protokoll). Eine Bestätigung von außerhalb der Runde liegt nicht vor.\n\nN1 · 13:33 · Ben schlug eine unbeaufsichtigte Ausleihkiste im Flur ab 23. November vor.\nN2 · 13:38 · Liva wandte ein, dass Spielteile fehlen könnten und die Kiste den Durchgang verengen würde. Die Runde verwarf den Flur als Ort.\nN3 · 13:42 · Niko schlug einen betreuten Tisch in der Schulbibliothek vor. Er nannte 26. November und 3. Dezember als mögliche Termine. Aylin hielt fest: Eine Zustimmung der Bibliotheksleitung liegt noch nicht vor.\nN4 · 13:47 · Die Runde einigte sich auf einen einzigen Test am 26. November, 14:30–15:15 Uhr, am betreuten Bibliothekstisch, aber nur wenn die Bibliotheksleitung zustimmt und bis zum 20. November zwei Helfende feststehen.\nN5 · 13:50 · Ben fragt die Bibliotheksleitung bis 16. November. Liva sucht bis 20. November zwei Helfende. Aylin bereitet bis 23. November ein Schild mit der Bitte „Nur vollständige Spiele mitbringen“ vor.\nN6 · 13:53 · Die nächste Planungsbesprechung ist am 24. November, 13:30 Uhr, Raum K2. Die Farbe des Schilds blieb offen. Um 13:55 endete die Sitzung.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "text": "NEUE FIKTIVE NACHRICHT VOM 21. NOVEMBER 2026 · Nach Ablauf des vereinbarten Stichtags: Die Bibliotheksleitung hat dem betreuten Tisch zugestimmt. Bis zum Ablauf des 20. November hat Liva aber nur eine verbindlich helfende Person gefunden. Über eine Ersatzlösung wurde noch nicht gesprochen."
+      },
+      "tasks": [
+        {
+          "id": "de-verlauf-1",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "A · Entscheidungsweg (5 Hauptpunkte): Notiere vier Stationen in richtiger Reihenfolge: erster Vorschlag, wichtiger Einwand mit Folge, geänderter Vorschlag, bedingte Einigung. Kennzeichne zusätzlich eine noch offene Voraussetzung. Stichwörter genügen.",
+          "sample": "N1: Ben schlägt eine unbeaufsichtigte Flurkiste ab 23. November vor. N2: Liva befürchtet fehlende Teile und einen verengten Durchgang; die Runde verwirft den Flur als Ort. N3: Niko schlägt einen betreuten Bibliothekstisch vor. N4: Die Runde einigt sich unter Vorbehalt auf einen Test am 26. November; offen ist noch die Zustimmung der Bibliotheksleitung oder die Gewinnung zweier Helfender bis 20. November.",
+          "criteria": [
+            "Je 1 Punkt für die vier sachlich richtigen, geordneten Stationen N1–N4.",
+            "1 Punkt für mindestens eine ausdrücklich offen genannte Voraussetzung. Beide zu nennen ist gut, aber für diesen Punkt nicht nötig."
+          ]
+        },
+        {
+          "id": "de-verlauf-2",
+          "kind": "reflection",
+          "points": 12,
+          "writingLines": 22,
+          "inputRows": 16,
+          "adultOnlySolution": true,
+          "prompt": "B · Verlaufsprotokoll (12 Hauptpunkte): Schreibe für eine abwesende Person ein sachliches Protokoll mit Titel, Datum, Sitzungszeit, Ort, Anwesenden, Leitung und Protokollführung. Stelle den wichtigen Verlauf in zeitlicher Reihenfolge dar und erkläre, warum aus der Flurkiste ein betreuter Bibliothekstisch wurde. Trenne den vorgeschlagenen 3. Dezember vom nur bedingt vereinbarten 26. November. Halte drei Arbeitsaufträge mit Person und Frist sowie die nächste Besprechung fest. Etwa 120–180 Wörter helfen beim Planen, sind aber keine Punkteschwelle.",
+          "sample": "Verlaufsprotokoll: Ausleihplatz für Gesellschaftsspiele. 10. November 2026, 13:30–13:55 Uhr, Raum K2. Anwesend: Aylin (Leitung), Ben, Liva, Niko (Protokoll). Zunächst schlug Ben eine unbeaufsichtigte Ausleihkiste im Flur ab 23. November vor. Liva wies darauf hin, dass Spielteile fehlen könnten und die Kiste den Durchgang verengen könnte. Die Runde verwarf den Flur als Ort. Danach regte Niko einen betreuten Tisch in der Schulbibliothek an; 26. November und 3. Dezember waren mögliche Termine. Eine Bibliothekszustimmung lag noch nicht vor. Unter Vorbehalt einigte sich die Runde auf einen Test am 26. November von 14:30 bis 15:15 Uhr, falls die Bibliotheksleitung zustimmt und bis 20. November zwei Helfende feststehen. Für den 3. Dezember fiel kein Beschluss. Ben fragt die Leitung bis 16. November; Liva sucht bis 20. November zwei Helfende; Aylin bereitet bis 23. November ein Schild vor. Die nächste Besprechung ist am 24. November um 13:30 Uhr in Raum K2. Die Sitzung endete um 13:55 Uhr.",
+          "criteria": [
+            "2 Punkte Protokollkopf: 1 für treffenden Titel, Datum, Zeit und Ort; 1 für vier Anwesende samt Leitung und Protokollführung.",
+            "3 Punkte ursprünglicher Weg: 1 Bens Flurkiste als Vorschlag; 1 Livas zwei Einwände; 1 Verwerfung des Flurs ohne allgemeines Ausleihverbot.",
+            "3 Punkte Änderung und Beschlussweg: 1 Nikos betreuter Bibliothekstisch; 1 ein Test am 26. November 14:30–15:15; 0,5 beide Bedingungen (bei nur einer 0,25); 0,5 der 3. Dezember bleibt Vorschlag.",
+            "2 Punkte Arbeitsstand und Folge: 1 alle drei Personen mit richtiger Handlung und Frist (zwei vollständige Paare 0,5); 1 Folgetermin mit Datum, Zeit und Raum.",
+            "2 Punkte Textfunktion: 1 nachvollziehbare zeitliche Folge mit Ursache und Änderung; 1 sachlich für Abwesende verständlich ohne erfundene Zitate oder offene Punkte als Tatsachen. Kleine Schreibfehler ohne Sinnverlust nicht doppelt werten."
+          ]
+        },
+        {
+          "id": "de-verlauf-3",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 9,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C · Behauptungen prüfen (3 Hauptpunkte): Eine andere Person schreibt: „Die Bibliothek hat den Test genehmigt. Am 3. Dezember findet sicher ein zweiter Test statt.“ Nenne für jede Behauptung die passende Notiznummer, erkläre kurz den Fehler und formuliere eine sachlich richtige Fassung.",
+          "sample": "1. N3/N4: Die Bibliotheksleitung hat noch nicht zugestimmt; die Runde plant einen Test nur falls sie zustimmt und zwei Helfende feststehen. 2. N3 und N4: Der 3. Dezember wurde nur als möglicher Termin genannt; ein zweiter Test wurde nicht beschlossen.",
+          "criteria": [
+            "Je Behauptung 1,5 Punkte: 0,5 passende Notiznummer, 0,5 präzise Fehlerbenennung, 0,5 sachlich richtige Fassung. Für Behauptung 1 kann N3 oder N4 passen; für Behauptung 2 N4 allein oder N3 mit Verweis auf den einzigen N4-Test."
+          ]
+        },
+        {
+          "id": "de-verlauf-4",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige spätere Nachricht · 6 getrennte Zusatzpunkte: 1. Nenne die beiden Bedingungen aus N4 und ihren Stand nach der Nachricht vom 21. November. 2. Darf das Protokoll nun behaupten, dass der Test am 26. November stattfindet? Begründe. 3. Formuliere zwei sachliche Sätze für einen datierten Nachtrag, ohne den ursprünglichen Gesprächsverlauf rückwirkend umzuschreiben.",
+          "sample": "Die Bibliotheksleitung hat zugestimmt (erste Bedingung erfüllt). Bis 20. November wurde nur eine helfende Person gefunden (zweite Bedingung nicht erfüllt). Deshalb ist der Test nach N4 nicht gesichert; beide Bedingungen sind mit „und“ verbunden. Nachtrag vom 21. November 2026: Die Bibliotheksleitung hat dem betreuten Tisch zugestimmt. Bis zum Ablauf des 20. November wurde jedoch nur eine helfende Person gefunden; der zuvor bedingt vereinbarte Test ist auf dieser Quellenlage nicht gesichert.",
+          "criteria": [
+            "2 Zusatzpunkte: 1 für erfüllte Bibliothekszustimmung, 1 für nicht erfüllte Zwei-Helfenden-Bedingung zum Stichtag.",
+            "2 Zusatzpunkte: 1 für Nein beziehungsweise „nicht gesichert“, 1 für die Begründung mit beiden durch und verknüpften Bedingungen.",
+            "2 Zusatzpunkte: 1 für datierten getrennten Nachtrag samt Zustimmung, 1 für fehlende zweite helfende Person und begrenzte Schlussfolgerung. Keine endgültige Absage, neuen Termin oder neuen Helfer erfinden."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Deutsch Klasse 7 ab 2026/27. § 2.2.4 PDF-S. 29–30: Schreibziele bis Ende Klasse 8. § 3.4 PDF-S. 50: Verlaufs- und Ergebnisprotokolle als exemplarische Textsorten 7/8.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
       "id": "de-innerer-monolog-projekttisch",
       "subjectId": "de",
       "title": "Minas Gedanken am Projekttisch",

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+  <title id="title">Zwei Entwurfsgrafiken zur fiktiven Pausenraumbefragung</title>
+  <desc id="desc">Links ein Kreis mit vier Sektoren A, B, C und D und der Aufschrift 250 Eingeladene. Rechts ein Streifen, der im Modell zehn Zentimeter bedeutet, mit den gedruckten Anteilen A 40 Prozent, B 25 Prozent, C 25 Prozent und D 10 Prozent. Die Daten stehen getrennt im Kinderblatt; beide Grafiken sollen geprüft werden.</desc>
+  <style>text{font-family:Arial,sans-serif;fill:#17253a} .head{font-size:19px;font-weight:bold} .small{font-size:15px} .sector{stroke:#17253a;stroke-width:1.7} .line{stroke:#17253a;stroke-width:2} .letter{font-size:20px;font-weight:bold;text-anchor:middle;dominant-baseline:middle} .tiny{font-size:13px}</style>
+  <rect x="1" y="1" width="798" height="418" fill="white" stroke="#8995a5"/>
+  <text x="35" y="45" class="head">Kreisdiagramm</text>
+  <text x="35" y="73" class="small">250 Eingeladene · 100 %</text>
+  <path class="sector" fill="#dce8f7" d="M 155 188 L 155 98 A 90 90 0 0 1 207.901 260.812 Z"/>
+  <path class="sector" fill="#bdd0e9" d="M 155 188 L 207.901 260.812 A 90 90 0 0 1 82.188 240.901 Z"/>
+  <path class="sector" fill="#e8dce9" d="M 155 188 L 82.188 240.901 A 90 90 0 0 1 82.188 135.099 Z"/>
+  <path class="sector" fill="#e6e1c6" d="M 155 188 L 82.188 135.099 A 90 90 0 0 1 155 98 Z"/>
+  <text x="207" y="171" class="letter">A</text>
+  <text x="146" y="242" class="letter">B</text>
+  <text x="100" y="188" class="letter">C</text>
+  <text x="128" y="143" class="letter">D</text>
+  <text x="35" y="314" class="tiny">Sektoren: A / B / C / D</text>
+  <text x="35" y="338" class="tiny">Winkel aus der Tabelle berechnen.</text>
+  <line x1="350" y1="26" x2="350" y2="385" stroke="#ccd4de"/>
+  <text x="385" y="45" class="head">Streifendiagramm</text>
+  <text x="385" y="73" class="small">200 Antwortende · 100 %</text>
+  <text x="385" y="127" class="small">10 cm insgesamt</text>
+  <rect x="385" y="157" width="160" height="96" fill="#dce8f7" stroke="#17253a"/>
+  <rect x="545" y="157" width="100" height="96" fill="#bdd0e9" stroke="#17253a"/>
+  <rect x="645" y="157" width="100" height="96" fill="#e8dce9" stroke="#17253a"/>
+  <rect x="745" y="157" width="40" height="96" fill="#e6e1c6" stroke="#17253a"/>
+  <text x="465" y="205" class="letter">A</text>
+  <text x="595" y="205" class="letter">B</text>
+  <text x="695" y="205" class="letter">C</text>
+  <text x="765" y="205" class="letter">D</text>
+  <text x="385" y="286" class="tiny">A: 40 %</text>
+  <text x="480" y="286" class="tiny">B: 25 %</text>
+  <text x="575" y="286" class="tiny">C: 25 %</text>
+  <text x="670" y="286" class="tiny">D: 10 %</text>
+  <text x="385" y="338" class="tiny">Abschnittslängen und Grundwert prüfen.</text>
+</svg>

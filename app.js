@@ -660,6 +660,8 @@
     appendText(page, 'p', '', mode === 'child' ? 'Name: ____________________   Datum: __________' : manualBookOnly ? 'Die Heidi-Beispiele zeigen die Methode. Inhaltliche Antworten nur mit dem tatsächlich gewählten Buch und derselben Ausgabe prüfen.' : 'Diese Musterlösungen erklären die Schritte. Offene Antworten brauchen eine persönliche Prüfung.');
     for (const id of ids) {
       const topic = topicById.get(id); const section = create('section', 'print-topic');
+      const hideChildUpdate = mode === 'child' && topic.stagedUpdate?.childPrintAfterUnlock === true
+        && state.answers[`${topic.tasks[0].id}-update-gezeigt`] !== 'ja';
       appendText(section, 'h2', '', `${subjectById.get(topic.subjectId).name} · ${topic.title}`);
       appendText(section, 'p', 'print-level', levelLabel(topic));
       if (topic.prerequisite) appendText(section, 'p', 'print-context', topic.prerequisite);
@@ -675,7 +677,9 @@
         }
       }
       if (topic.stagedReading && mode === 'child') appendText(section, 'p', 'print-context', 'Druckfolge: Seite mit Titel und Vermutung zuerst bearbeiten. Die folgende Textseite erst danach ansehen; den Änderungstext erst nach den Hauptaufgaben ansehen. Eine bedruckte Seite allein beweist diese Reihenfolge nicht.');
-      if (topic.stagedUpdate && mode === 'child') appendText(section, 'p', 'print-context', `Druckfolge: Zuerst die Hauptaufgaben ${topic.stagedUpdate.mainLabel || 'A–C'} auf den ersten Seiten bearbeiten. Die spätere ${topic.stagedUpdate.kind === 'variant' ? 'Variante' : 'Korrektur'} auf der Zusatzseite erst danach ansehen. Papier allein beweist diese Reihenfolge nicht.`);
+      if (topic.stagedUpdate && mode === 'child') appendText(section, 'p', 'print-context', hideChildUpdate
+        ? `Druckfolge: Zuerst die Hauptaufgaben ${topic.stagedUpdate.mainLabel || 'A–C'} bearbeiten. Die Zusatzseite wird nach dem Festhalten dieser Antworten im Übungsraum freigegeben.`
+        : `Druckfolge: Zuerst die Hauptaufgaben ${topic.stagedUpdate.mainLabel || 'A–C'} auf den ersten Seiten bearbeiten. Die spätere ${topic.stagedUpdate.kind === 'variant' ? 'Variante' : 'Korrektur'} auf der Zusatzseite erst danach ansehen. Papier allein beweist diese Reihenfolge nicht.`);
       if (topic.diagram && (mode === 'child' || topic.diagram.adultPrint !== false)) {
         const figure = create('figure', 'print-diagram');
         const img = create('img'); img.src = topic.diagram.path; img.alt = topic.diagram.alt;
@@ -716,6 +720,7 @@
         if (mode === 'adult') appendText(section, 'p', 'print-context', topic.reading.adultNote);
       }
       for (const [index, task] of topic.tasks.entries()) {
+        if (hideChildUpdate && index === topic.tasks.length - 1) continue;
         const item = create('div', 'print-task'); item.dataset.taskId = task.id;
         if (topic.stagedUpdate && mode === 'adult' && index === topic.tasks.length - 2) item.classList.add('print-keep-together');
         appendText(item, 'h3', '', `${index + 1}. ${task.prompt}`);
@@ -743,7 +748,7 @@
         if (topic.stagedReading && index === topic.tasks.length - 2) {
           appendText(section, 'p', mode === 'child' ? 'print-staged-update print-passage' : 'print-passage', topic.stagedReading.updateText);
         }
-        if (topic.stagedUpdate && index === topic.tasks.length - 2) {
+        if (topic.stagedUpdate && index === topic.tasks.length - 2 && !hideChildUpdate) {
           appendText(section, 'p', mode === 'child' ? 'print-staged-update print-passage' : 'print-passage', topic.stagedUpdate.text);
         }
       }

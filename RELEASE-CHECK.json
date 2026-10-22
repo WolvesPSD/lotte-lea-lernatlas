@@ -1,14 +1,15 @@
 {
-  "builtAt": "2026-10-22T03:46:34.056Z",
-  "releaseVersion": "2026.10.22-mntbruecke.1",
+  "builtAt": "2026-10-22T04:00:21.012Z",
+  "releaseVersion": "2026.10.22-pilotintegration.1",
   "newTopicIds": [
-    "mnt-gemisch-forschungsweg"
+    "ma-diagrammrevision-pausenraum",
+    "de-verlaufsprotokoll-ausleihplatz"
   ],
   "changeLog": [
-    "Neue freiwillige MNT-Brücke für Lottes bestätigtes Stundenplanfach: fiktiver Gemischbericht auf dem amtlich dokumentierten Ende-6-Niveau, mit 20 Hauptpunkten und sechs getrennten Zusatzpunkten. Der neue Fachplan gilt 2026/27 erst für Klasse 5 und bestätigt keine Klasse-7-Einheit.",
-    "Die geänderte Datenkarte erscheint nach drei Hauptantworten auf einer getrennten Kinder-Druckseite. Der Jahrgangsfilter zeigt die Brücke ausdrücklich; der Quellenbereich kennzeichnet die freiwilligen Naturwissenschaften korrekt."
+    "Zwei geprüfte Piloten aus den Unterstützungschats: freiwilliges Deutsch-Verlaufsprotokoll und Mathematik-Diagrammrevision mit selbst erstellter SVG. Je 20 Haupt- und sechs getrennte Zusatzpunkte; beide sind 7/8-Lernwege mit Zielhorizont Ende Klasse 8 und keine bestätigten aktuellen Schuleinheiten.",
+    "Die Kinder-Druckausgabe enthält bei beiden Piloten die Zusatzseite erst nach Freigabe im Übungsraum. Fehler in der Deutsch-Belegrubrik und vorzeitiger Druck wurden korrigiert; 76 ältere Themen bleiben unverändert."
   ],
-  "rollbackCommit": "716a2b35166cf2f2923be9fcc3c395afa38ed9e1",
+  "rollbackCommit": "7ac2da5e6dd4ad6bc4059f6724f4701bbef6688b",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -75,6 +76,8 @@
     "de-spielenachmittag-werbetext",
     "de-buechersammlung-meldung",
     "de-pausenraum-folie-handout",
+    "ma-diagrammrevision-pausenraum",
+    "de-verlaufsprotokoll-ausleihplatz",
     "de-innerer-monolog-projekttisch",
     "mbi-lesepause-medienwerkstatt",
     "mbi-simunet-datensparsam",

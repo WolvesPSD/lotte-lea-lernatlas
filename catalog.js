@@ -91,7 +91,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "plan": "2012 (2025/26)",
       "scope": "7/8; Stand 2026/27 offen",
       "availabilityLabel": "Lehrplan 2026/27 ungeklärt",
-      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Geografie-Lehrplan gilt. Der freiwillige Gradnetzfall aus der älteren Fassung ist deshalb keine bestätigte aktuelle Klasse-7-Einheit."
+      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Geografie-Lehrplan gilt. Die freiwilligen Fälle aus der älteren Fassung sind deshalb keine bestätigten aktuellen Klasse-7-Einheiten."
     },
     {
       "id": "mbi",
@@ -7497,6 +7497,108 @@ window.LOTTE_CATALOG = Object.freeze({
         "gradeBand": "7/8, Ziel Ende Klasse 8",
         "competencyRef": "Geografie Gymnasium 2012, §2.2 PDF-S.16/Drucks.18: Lage ausgewählter topografischer Objekte beschreiben und mithilfe des Gradnetzes bestimmen, Methodenkompetenz unter Klassenstufe 8.",
         "checkedAt": "2026-10-22"
+      }
+    },
+    {
+      "id": "go-drei-gesteinswege",
+      "subjectId": "go",
+      "title": "Drei Gesteinswege im Modell prüfen",
+      "scope": "Freiwilliger, gestützter Klasse-7-Einstieg in einen engen G-06-Teilfall mit Zielmarke Ende Klasse 8. Die Geltung des Geografieplans von 2012 für 2026/27 und Lottes aktuelle Schuleinheit sind ungeklärt.",
+      "levelStatus": "additional-unclear",
+      "released": true,
+      "prerequisite": "Die Geltung des älteren Geografieplans für 2026/27 ist ungeklärt. P, Q und R sind erfundene Modellnotizen, keine echten Fundorte oder Gesteinsproben. Du brauchst weder Steine noch einen Versuch. Die Grafik und der Textweg enthalten dieselben Prozesse. Aus dem Modell folgt keine Entscheidung über eine wirkliche Schultreppe.",
+      "introduction": "Gestein kann sich auf verschiedenen Wegen verändern. Schmelze kann beim Abkühlen magmatisches Gestein bilden. Verwittertes Material kann abgelagert und verfestigt werden; Wärme und Druck können vorhandenes Gestein ohne Schmelzen umwandeln. Es gibt keine einzige feste Reihenfolge. Lies die drei erfundenen Fundnotizen und entscheide jeweils, welche Vorgänge aus den Karten wirklich folgen. 20 Haupt- und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "diagram": {
+        "path": "assets/geografie-g06-gesteinswege.svg",
+        "alt": "Drei getrennte mögliche Gesteinswege: Schmelze kühlt ab und bildet magmatisches Gestein; loses Sediment wird abgelagert und verfestigt zu Sedimentgestein; vorhandenes Gestein wird durch Wärme und Druck ohne Schmelzen metamorph. Ein Hinweis sagt: keine feste Reihenfolge.",
+        "caption": "Eigenes Schema möglicher Übergänge. Die gleichwertigen Wege stehen ausgeschrieben in Karte A; kein Pfeil behauptet eine einzige feste Folge."
+      },
+      "passage": "KARTE A · MÖGLICHE WEGE\nSchmelze → Abkühlen und Erstarren → magmatisches Gestein.\nGestein → Verwitterung und Abtragung → loses Material → Ablagerung, Verdichtung und Verkittung → Sedimentgestein.\nVorhandenes Gestein → Wärme und Druck ohne Schmelzen → metamorphes Gestein.\nBeim Schmelzen entsteht dagegen zunächst wieder Schmelze. Die Wege haben keine einzige feste Reihenfolge.\nQuelle für die drei Gruppen und Prozesse: British Geological Survey, „Rocks and minerals“, und US National Park Service, „Activity 1: Types of Rocks“; beide am 23.10.2026 geprüft.\n\nKARTE B · ERFUNDENE FUNDNOTIZEN\nP: Eine Schmelze kühlt unter der Erdoberfläche ab. Das Modell nennt das entstandene Gestein Granit.\nQ: Quarzreicher Sand wird abgelagert, verdichtet und verkittet. Das Modell nennt das entstandene Gestein Sandstein.\nR: Geeigneter quarzreicher Sandstein gerät unter hohe Wärme und Druck, ohne zu schmelzen. Das Modell nennt das entstandene Gestein Quarzit.\nSandstein kann aus verfestigtem Sand entstehen; geeigneter Sandstein kann unter passenden Bedingungen Quarzit werden. Nicht jeder Sandstein wird automatisch Quarzit. Quellen: USGS-Gesteins-FAQ und National Park Service, Great Smoky Mountains; geprüft am 23.10.2026.\n\nKARTE C · NUTZUNG UND GRENZE\nUSGS führt Granit und Sandstein als Arten von Werksteinen. Daraus folgt nicht, dass eine unbekannte Platte einer dieser Arten als stark benutzte Schultreppe geeignet ist. Für eine konkrete Nutzung braucht es Eigenschaften der konkreten Platte und die Einsatzanforderungen. Quelle: USGS, „Dimension Stone Statistics and Information“, geprüft am 23.10.2026.\n\nWÖRTER · Sediment = zunächst loses abgelagertes Material. Metamorph = im hier betrachteten Weg durch Wärme/Druck verändert, ohne zu schmelzen. Magmatisch = aus abkühlender Schmelze erstarrt.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGE NEUE MODELLKARTE NACH A–D · Ein bereits metamorphes Gestein liegt später offen, verwittert zu Sand; dieser wird abgelagert und zu Sandstein verfestigt. Danach sei sicher wieder genau derselbe Quarzit wie vorher entstanden. Prüfe diese letzte Behauptung mit den Bedingungen aus Karte A und B. Es wird kein echter Stein untersucht."
+      },
+      "tasks": [
+        {
+          "id": "go-gesteinswege-1",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Bildungsart bestimmen (6 Hauptpunkte): Ordne P, Q und R je einer Gruppe magmatisch, sedimentär oder metamorph zu. Nenne zu jeder Zuordnung einen entscheidenden Vorgang aus der Notiz.",
+          "sample": "P ist magmatisch: Schmelze kühlt ab und erstarrt. Q ist sedimentär: Abgelagerter Sand wird verdichtet und verkittet. R ist metamorph: Geeigneter Sandstein verändert sich unter Wärme und Druck ohne zu schmelzen.",
+          "criteria": [
+            "Je 1 Punkt für die richtige Gruppe von P, Q und R (3).",
+            "Je 1 Punkt für einen passenden entscheidenden Vorgang zu P, Q und R (3)."
+          ]
+        },
+        {
+          "id": "go-gesteinswege-2",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Zwei mögliche Wege bauen (6 Hauptpunkte): (a) Vom Granit an der Oberfläche zu Quarzit: Im Modell entsteht bei der Verwitterung quarzreicher Sand. Schreibe den Weg über Sand und Sandstein mit drei benannten Vorgängen. (b) Vom Sandstein zu einem magmatischen Gestein über Schmelze: Nenne den Übergang zur Schmelze, den Zwischenzustand und den Vorgang zum neuen Gestein. Ein genauer Name für das neue magmatische Gestein ist nicht gegeben.",
+          "sample": "(a) Granit → Verwitterung/Abtragung → quarzreicher Sand → Ablagerung, Verdichtung und Verkittung → Sandstein → Wärme/Druck ohne Schmelzen → möglicherweise Quarzit. (b) Sandstein → Schmelzen → Schmelze/Magma → Abkühlen und Erstarren → magmatisches Gestein. „Granit“ als zwingendes Endprodukt folgt nicht.",
+          "criteria": [
+            "Je 1 Punkt für Verwitterung/Abtragung, Ablagerung samt Verfestigung sowie bedingte Wärme-/Druckumwandlung ohne Schmelzen (3).",
+            "Je 1 Punkt für Schmelzen, Schmelze/Magma als Zwischenzustand sowie Abkühlen/Erstarren zum magmatischen Gestein (3)."
+          ]
+        },
+        {
+          "id": "go-gesteinswege-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Zwei Behauptungen korrigieren (4 Hauptpunkte): Prüfe „Bei der Metamorphose muss Sandstein schmelzen“ und „Jeder Stein durchläuft die Wege immer in derselben Reihenfolge“. Formuliere je eine fachlich richtige Korrektur und belege sie mit Karte A oder B.",
+          "sample": "Beide Sätze sind falsch. Im betrachteten metamorphischen Weg wirken Wärme und Druck ohne Aufschmelzen; bei Schmelzen entsteht zunächst Schmelze (Karte A/B). Die Karten zeigen mehrere mögliche Wege statt einer festen Reihenfolge (Karte A).",
+          "criteria": [
+            "1 Punkt für die Korrektur „Metamorphose ohne Schmelzen“ und 1 Punkt für einen passenden Kartenbeleg.",
+            "1 Punkt für die Korrektur „keine feste Reihenfolge“ und 1 Punkt für einen passenden Kartenbeleg."
+          ]
+        },
+        {
+          "id": "go-gesteinswege-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "D · Nutzungsbeleg begrenzen (4 Hauptpunkte): Eine fiktive Firma behauptet, weil USGS Granit und Sandstein als Werkstein nennt, sei jede unbekannte Platte dieser Arten sicher als stark benutzte Schultreppe geeignet. Nenne eine durch Karte C gestützte Aussage, eine nicht gestützte Folgerung und zwei unterschiedliche Informationen oder Prüfungen für die konkrete Treppe. Du triffst keinen Bauentscheid.",
+          "sample": "Gestützt ist, dass Granit und Sandstein als Gesteinsarten für Werksteine genutzt werden. Nicht gestützt ist die Eignung jeder unbekannten Platte als stark benutzte Treppe. Für den Einzelfall wären etwa Materialzusammensetzung/Festigkeit und Beständigkeit/Abnutzung sowie die Einsatzanforderungen fachlich zu prüfen.",
+          "criteria": [
+            "1 Punkt für die allgemeine Nutzung der Gesteinsarten.",
+            "1 Punkt für die unbelegte Eignung jeder konkreten Platte.",
+            "Je 1 Punkt für zwei unterschiedliche konkrete Prüfgrößen oder Informationen; Synonyme nur einmal zählen. Keine Sicherheitsfreigabe aus der Quellenliste."
+          ]
+        },
+        {
+          "id": "go-gesteinswege-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Variante nach A–D · sechs getrennte Zusatzpunkte: Beschreibe den möglichen Weg vom metamorphen Gestein bis zum Sandstein mit drei benannten Vorgängen. Warum folgt aus der neuen Modellkarte nicht, dass danach sicher wieder genau derselbe Quarzit entsteht? Nenne zwei fehlende Bedingungen oder Belege.",
+          "sample": "Metamorphes Gestein → Verwitterung/Abtragung → loses Sandsediment → Ablagerung → Verdichtung/Verkittung → Sandstein. Ob später überhaupt Quarzit entsteht, hängt etwa von ausreichend quarzreicher Zusammensetzung und passenden Wärme-/Druckbedingungen ab. „Genau derselbe“ Stein ist ohne Zusammensetzungs- und Verlaufsbeleg erst recht nicht gezeigt.",
+          "criteria": [
+            "Je 1 Zusatzpunkt für Verwitterung/Abtragung, Ablagerung und Verdichtung/Verkittung (3).",
+            "1 Zusatzpunkt für die unbelegte sichere Wiederholung.",
+            "Je 1 Zusatzpunkt für zwei unterschiedliche fehlende Bedingungen oder Belege; die sechs Zusatzpunkte getrennt von den 20 Hauptpunkten halten."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2025/26 amtlich belegt; 2026/27 ungeklärt",
+        "gradeBand": "7/8, Ziel Ende Klasse 8; gestützter Klasse-7-Einstieg",
+        "competencyRef": "Geografie Gymnasium 2012, §2.2 PDF-S. 15/Drucks. 17 unter Klassenstufe 8: Entstehung ausgewählter Gesteine, ihre Nutzung und den Gesteinskreislauf erläutern.",
+        "checkedAt": "2026-10-23"
       }
     },
     {

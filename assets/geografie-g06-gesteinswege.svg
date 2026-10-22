@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 414" role="img" aria-labelledby="title desc">
+  <title id="title">Drei mögliche Gesteinswege</title>
+  <desc id="desc">Schmelze kühlt ab und bildet magmatisches Gestein. Loses Material wird abgelagert und verfestigt zu Sedimentgestein. Vorhandenes Gestein wird unter Wärme und Druck ohne Schmelzen zu metamorphem Gestein. Es gibt keine feste Reihenfolge.</desc>
+  <rect width="960" height="414" rx="22" fill="#f6f8f6"/>
+  <text x="30" y="48" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#173d37">Drei mögliche Wege – keine feste Reihenfolge</text>
+  <g font-family="Arial, sans-serif" font-size="21" fill="#14352f">
+    <rect x="26" y="73" width="908" height="94" rx="17" fill="#e8f0eb" stroke="#598275" stroke-width="2"/>
+    <text x="48" y="109" font-weight="700">Schmelze</text>
+    <text x="48" y="140" font-size="18">flüssiges Gestein</text>
+    <path d="M258 120 H311" stroke="#173d37" stroke-width="4" fill="none"/>
+    <path d="M311 120 l-13 -9 m13 9 l-13 9" stroke="#173d37" stroke-width="4" fill="none"/>
+    <text x="332" y="127">abkühlen / erstarren</text>
+    <path d="M603 120 H652" stroke="#173d37" stroke-width="4" fill="none"/>
+    <path d="M652 120 l-13 -9 m13 9 l-13 9" stroke="#173d37" stroke-width="4" fill="none"/>
+    <text x="671" y="127" font-weight="700">magmatisch</text>
+
+    <rect x="26" y="177" width="908" height="94" rx="17" fill="#edf0e4" stroke="#8a9362" stroke-width="2"/>
+    <text x="48" y="213" font-weight="700">Loses Material</text>
+    <text x="48" y="244" font-size="18">z. B. Sand</text>
+    <path d="M258 224 H311" stroke="#173d37" stroke-width="4" fill="none"/>
+    <path d="M311 224 l-13 -9 m13 9 l-13 9" stroke="#173d37" stroke-width="4" fill="none"/>
+    <text x="332" y="213" font-size="19">ablagern, verdichten,</text>
+    <text x="332" y="242" font-size="19">verkitten</text>
+    <path d="M603 224 H652" stroke="#173d37" stroke-width="4" fill="none"/>
+    <path d="M652 224 l-13 -9 m13 9 l-13 9" stroke="#173d37" stroke-width="4" fill="none"/>
+    <text x="671" y="231" font-weight="700">sedimentär</text>
+
+    <rect x="26" y="281" width="908" height="94" rx="17" fill="#e9ecf4" stroke="#6e7eae" stroke-width="2"/>
+    <text x="48" y="317" font-weight="700">Gestein</text>
+    <text x="48" y="348" font-size="18">schon vorhanden</text>
+    <path d="M258 328 H311" stroke="#173d37" stroke-width="4" fill="none"/>
+    <path d="M311 328 l-13 -9 m13 9 l-13 9" stroke="#173d37" stroke-width="4" fill="none"/>
+    <text x="332" y="317" font-size="19">Wärme + Druck,</text>
+    <text x="332" y="346" font-size="19">ohne Schmelzen</text>
+    <path d="M603 328 H652" stroke="#173d37" stroke-width="4" fill="none"/>
+    <path d="M652 328 l-13 -9 m13 9 l-13 9" stroke="#173d37" stroke-width="4" fill="none"/>
+    <text x="671" y="335" font-weight="700">metamorph</text>
+  </g>
+  <text x="30" y="400" font-family="Arial, sans-serif" font-size="17" fill="#173d37">Die Ausgangsstoffe können auf anderen Wegen weiter verändert werden.</text>
+</svg>

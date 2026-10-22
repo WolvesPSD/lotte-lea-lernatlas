@@ -1,12 +1,14 @@
 {
-  "builtAt": "2026-10-22T22:30:06.454Z",
-  "releaseVersion": "2026.10.23-cacheurls.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Auslieferungswartung ohne neue Aufgaben: Im erzeugten index.html erhalten CSS und JavaScript eine feste Release-Kennung in der URL, damit ein frisch geladenes HTML nicht versehentlich alte lokale Asset-Kopien wiederverwendet.",
-    "Der Stand bleibt bei 93 Themen und 382 Aufgaben. Eine beobachtete Verzögerung früherer GitHub-Pages-Updates wird dadurch nicht rückwirkend erklärt; die tatsächliche Anzeige auf Familiengeräten muss getrennt geprüft werden."
+  "builtAt": "2026-10-22T22:45:02.574Z",
+  "releaseVersion": "2026.10.23-g06gesteinswege.1",
+  "newTopicIds": [
+    "go-drei-gesteinswege"
   ],
-  "rollbackCommit": "b4cf83122072f8f7453cd371166f30f7801b5860",
+  "changeLog": [
+    "Geografie ergänzt einen freiwilligen G-06-Modellfall zu drei Gesteinswegen mit eigenem Schaubild, gleichwertigem Textweg und 20 Haupt- plus sechs getrennten Zusatzpunkten.",
+    "Die spätere Modellkarte erscheint erst nach A–D. Die Lehrplangeltung 2026/27, die konkrete Schuleinheit und echte Gesteinsproben bleiben ungeklärt; 94 Themen und 387 schriftliche Aufgaben sind keine Jahresabdeckung."
+  ],
+  "rollbackCommit": "f509dfe65fb7d518231f97e3913b718bc174ec07",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -97,6 +99,7 @@
     "ma-schraegbild-darstellungen",
     "et-jugendrat-budgetwerte",
     "go-gradnetz-modellorte",
+    "go-drei-gesteinswege",
     "ge-toledo-uebersetzungsquellen",
     "mnt-bionik-leichtbau-modell",
     "mu09-bass-triole-taktwechsel",
@@ -151,6 +154,7 @@
   "unclearValidityTopics": [
     "et-jugendrat-budgetwerte",
     "go-gradnetz-modellorte",
+    "go-drei-gesteinswege",
     "ge-toledo-uebersetzungsquellen",
     "mu09-bass-triole-taktwechsel",
     "sp-basketball-regelkarte-papier"

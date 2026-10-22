@@ -6943,6 +6943,129 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "PDF-S. 2: Mathematik Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. § 2.2.7 PDF-S. 28–29 unter „Klassenstufe 8“: Prismen in verschiedenen Darstellungsformen erkennen und maßstäblich im Schrägbild und als Netz darstellen.",
         "checkedAt": "2026-10-22"
       }
+    },
+    {
+      "id": "mnt-bionik-leichtbau-modell",
+      "subjectId": "mnt",
+      "title": "Welche Papierform hält im erfundenen Modelltest?",
+      "scope": "Freiwillige Klasse-7-Brücke und anspruchsvolle Wiederholung auf dem dokumentierten MNT-Ende-6-Niveau zur Bionik und Leichtbauweise. MNT steht laut Robert auf Lottes Klasse-7-Stundenplan; der ministerielle 2026er Plan beginnt 2026/27 aber mit Klasse 5 und erreicht Klasse 6 erst 2027/28. Kein amtliches Klasse-7-MNT-Ziel oder bestätigte Schuleinheit.",
+      "levelStatus": "grade6-bridge",
+      "released": true,
+      "prerequisite": "Alle Papiermodelle und Messwerte sind erfunden. Du sollst keine Brücke bauen, keine Lasten ausprobieren und keine technische Sicherheit beurteilen. Der MNT-Fachplan hat keine amtliche Klasse-7-Geltung; dieser Ende-6-Stand ist eine freiwillige Lernbrücke. Nur ein wirklich gebautes und unter Fachaufsicht geprüftes Modell wäre Praxisbeleg. Offene Antworten brauchen menschliches Feedback.",
+      "introduction": "Bionik fragt, ob eine beobachtete Struktur aus der Natur eine technische Idee anregen kann. Der Lehrplan nennt zum Beispiel Palmblätter, Bienenwaben und Knochen als Naturvorbilder. Eine mögliche Folge ist: Naturvorbild betrachten → Prinzip erkennen → Funktionsmodell entwerfen und prüfen → mögliche Anwendung beurteilen. Hier regen Palmblatt-Faltungen nur eine Formidee an; es gibt kein echtes Blatt, Bild oder gebautes Modell. Die Frage der erfundenen Werkstatt lautet: Welche Papierform blieb unter gleichen kleinen Modellbedingungen bei den angegebenen Lasten stabil? „Stabil“ heißt in dieser Tabelle nur: Bei dieser Testlast blieb der Streifen liegen und knickte nicht sichtbar ein. 20 Haupt- und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "passage": "FIKTIVE MODELLKARTE · Drei Papierstreifen sind gleich lang und breit, aus derselben Papiersorte, jeweils 12 g schwer und über dieselbe 20-cm-Lücke gelegt. Die Last liegt immer in der Mitte. Nur die Form unterscheidet sich. Für jede Kombination aus Modell und Last wurde ein neuer gleichartiger Streifen nur einmal getestet.\n\nModell A · flach: bei 60 g stabil; bei 120 g eingeknickt; bei 180 g eingeknickt.\nModell B · mehrfach gefaltet: bei 60 g stabil; bei 120 g stabil; bei 180 g stabil.\nModell C · zu einer breiten Rinne gewölbt: bei 60 g stabil; bei 120 g stabil; bei 180 g eingeknickt.\n\nDie Werte sind erfundene Papiermodelldaten. Eine echte Brücke, ein Dach und eine belastbare Verpackung wurden nicht untersucht.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–E",
+        "childPrintAfterUnlock": true,
+        "text": "SPÄTERE FIKTIVE MODELLKARTE D NACH A–E · D hat denselben Faltentyp wie B, aber 18 g Papiermasse statt 12 g. Abstand und Lastposition sind gleich. D blieb bei je einem Versuch mit 60, 120, 180 und 240 g stabil. B wurde bei 240 g nicht getestet. Ein Werbesatz behauptet: „D beweist, dass die Faltung bei gleicher Materialmenge 240 g trägt und deshalb als echte Brücke sicher ist.“"
+      },
+      "tasks": [
+        {
+          "id": "mnt-bionik-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Bionikfolge (4 Hauptpunkte): Nenne ein Naturvorbild aus der Einleitung, das mögliche Leichtbauprinzip, ein dazu passendes Papiermodell und eine denkbare technische Anwendung. Erkläre bei der Anwendung, warum Ähnlichkeit noch keine gleiche Tragfähigkeit beweist.",
+          "sample": "Palmblatt als Vorbild → Stabilität mit wenig Material durch Faltung als Prinzip → gefaltetes Papiermodell B → Idee etwa für eine Verpackungsstruktur. Eine ähnlich gefaltete Form beweist ohne echte Material- und Belastungsprüfung keine gleiche Tragfähigkeit. Auch Bienenwabe oder Knochen mit einem schlüssigen Strukturmodell zählen.",
+          "criteria": [
+            "1 Punkt für ein im Lehrplan genanntes Naturvorbild.",
+            "1 Punkt für Stabilität bei wenig Material durch Struktur/Faltung.",
+            "1 Punkt für ein dazu passend beschriebenes Funktionsmodell.",
+            "1 Punkt für eine begrenzte technische Idee samt Erklärung, warum Ähnlichkeit keine gleiche Tragfähigkeit beweist; beides ist nötig."
+          ]
+        },
+        {
+          "id": "mnt-bionik-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Fairer Vergleich (4 Hauptpunkte): Welche Eigenschaft wurde absichtlich verändert? Nenne zwei unterschiedliche gleich gehaltene Bedingungen. Warum soll die Last immer in der Mitte liegen? Welche Schwäche hat nur ein Test pro Modell und Last?",
+          "sample": "Verändert wurde die Form. Gleich sind etwa Papiersorte und 20-cm-Abstand; auch Länge/Breite und 12 g Masse zählen. Die gleiche Lastposition verhindert einen zusätzlichen Einfluss. Nur ein Durchgang zeigt nicht, wie stark zufällige oder Materialunterschiede streuen.",
+          "criteria": [
+            "1 Punkt für Form/Struktur als absichtlich geänderte Größe.",
+            "1 Punkt für zwei unterschiedliche konkrete Kontrollbedingungen zusammen.",
+            "1 Punkt für die Begründung der gleichen mittigen Lastposition.",
+            "1 Punkt für fehlende Wiederholung und dadurch unbekannte Streuung."
+          ]
+        },
+        {
+          "id": "mnt-bionik-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Daten statt Vermutung (4 Hauptpunkte): Welches Modell blieb bei allen drei angegebenen Lasten stabil? Belege mit mindestens zwei Tabellenangaben, darunter 180 g. Vergleiche B und C bei 180 g. Kannst du daraus die genaue Höchstlast von B nennen? Begründe.",
+          "sample": "B blieb bei 60, 120 und 180 g stabil. Bei 180 g war B stabil, C knickte ein. 180 g ist nur die höchste hier geprüfte stabile Last von B. Die genaue Höchstlast ist unbekannt, weil über 180 g noch nicht getestet wurde.",
+          "criteria": [
+            "1 Punkt für B als bei allen drei Lasten stabil.",
+            "1 Punkt für mindestens zwei konkrete Belege einschließlich 180 g.",
+            "1 Punkt für B stabil und C eingeknickt bei 180 g.",
+            "1 Punkt für unbekannte genaue Höchstlast wegen fehlendem Test über 180 g."
+          ]
+        },
+        {
+          "id": "mnt-bionik-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Begrenzte Entscheidung (4 Hauptpunkte): Eine Verpackung soll im gleichen kleinen Modelltest mindestens 180 g bei höchstens 12 g Papiermasse tragen. Welches Modell würdest du aus den Daten vorläufig auswählen? Nenne zwei konkrete Gründe aus Modellkarte und Ergebnissen. Nenne eine Bedingung, unter der du neu prüfen würdest.",
+          "sample": "Vorläufig B: Es blieb bei 180 g stabil und hat laut Modellkarte 12 g Papiermasse. Bei anderer Papiersorte, Spannweite, Lastposition oder nach Wiederholungen müsste die Entscheidung neu geprüft werden. Dies ist keine Zusage für eine echte Verpackung.",
+          "criteria": [
+            "1 Punkt für B als ausdrücklich vorläufige Auswahl.",
+            "1 Punkt für B stabil bei 180 g.",
+            "1 Punkt für 12 g Papiermasse innerhalb der Grenze.",
+            "1 Punkt für einen konkreten Anlass zur Neuprüfung; keine reale Verpackungszusage."
+          ]
+        },
+        {
+          "id": "mnt-bionik-5",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "E · Nächster Test und Modellgrenze (4 Hauptpunkte): Plane nur schriftlich einen zusätzlichen Vergleich unter Fachaufsicht. Welche eine Größe soll verändert werden? Nenne zwei Bedingungen, die gleich bleiben. Was würdest du bei festen Laststufen mehrfach beobachten und dokumentieren? Warum geben die fiktiven Papierdaten keine Freigabe für eine echte Brücke, ein Dach oder eine belastbare Verpackung?",
+          "sample": "Frage: Wie verändert die Zahl der Faltungen die Stabilität? Papiersorte und Masse sowie Spannweite und Lastposition bleiben gleich. Bei gleichen festen Laststufen würde man je Modell mehrfach stabil/eingeknickt protokollieren. Kleine fiktive Papierwerte sagen nichts Sicheres über echte Materialien, Bauteile und Lasten.",
+          "criteria": [
+            "1 Punkt für eine klar benannte Frage mit einer veränderten Größe.",
+            "1 Punkt für zwei wichtige gleiche Bedingungen.",
+            "1 Punkt für mehrfaches Beobachten und Dokumentieren von stabil/eingeknickt bei festen Laststufen.",
+            "1 Punkt für die Grenze zu echten Materialien, Lasten und technischer Sicherheit. Die schriftliche Planung ist keine Durchführung."
+          ]
+        },
+        {
+          "id": "mnt-bionik-6",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Variante nach A–E · sechs getrennte Zusatzpunkte: Prüfe den Werbesatz zu D in sechs Schritten. Was ist an „gleicher Materialmenge“ falsch? Was ist über B bei 240 g unbekannt? Warum zeigt D keinen besseren Falt-Effekt? Beschreibe einen fairen Modellvergleich, bei dem nur die Form wechselt. Nenne das bei gleichen Laststufen mehrfach zu beobachtende Kriterium. Grenze die Aussage über eine echte Brücke ab.",
+          "sample": "D hat 18 statt 12 g Papier. B wurde bei 240 g nicht getestet. D hat denselben Faltentyp wie B und mehr Papier; ein besserer Falt-Effekt ist daraus nicht isoliert. Für einen Formvergleich braucht man gleiche Papiersorte/-masse, Spannweite und Lastposition, aber unterschiedliche Formen. Mehrfach bei gleichen Laststufen stabil/eingeknickt protokollieren. Fiktive Papiermodelle beweisen keine echte Brückensicherheit.",
+          "criteria": [
+            "1 Zusatzpunkt: D nutzt 18 statt 12 g Papier.",
+            "1 Zusatzpunkt: Verhalten von B bei 240 g unbekannt.",
+            "1 Zusatzpunkt: derselbe Faltentyp und andere Materialmenge isolieren keinen besseren Falt-Effekt.",
+            "1 Zusatzpunkt: fairer Formvergleich mit gleicher Sorte/Masse/Spannweite/Lastposition und unterschiedlicher Form.",
+            "1 Zusatzpunkt: bei gleichen Laststufen mehrfach stabil/eingeknickt beobachten.",
+            "1 Zusatzpunkt: keine Sicherheit einer echten Brücke aus fiktivem Papiermodell. Zusatzpunkte getrennt ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27: Klasse 5; 2027/28: Klasse 6",
+        "gradeBand": "MNT-Ende-6, 7-Brücke",
+        "competencyRef": "PDF-S.2: MNT-Erprobungsfassung 2026/27 nur Klasse 5, 2027/28 Klasse 6. §2.2.10.2 PDF-S.31: Klassenstufe 6; Naturvorbilder, Leichtbau durch Struktur/Faltung, Funktionsmodelle und fachpraktische Prüfung. Keine amtliche Klasse-7-Geltung.",
+        "checkedAt": "2026-10-22"
+      }
     }
   ]
 });

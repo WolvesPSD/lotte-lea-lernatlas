@@ -283,7 +283,7 @@
     applyTopicSearch();
   }
   function updateSelection() {
-    $('#selection-summary').textContent = state.selected.length === 0 ? 'Noch kein Thema ausgewählt.' : `${state.selected.length} Thema${state.selected.length === 1 ? '' : 'en'} ausgewählt`;
+    $('#selection-summary').textContent = state.selected.length === 0 ? 'Noch kein Thema ausgewählt.' : `${state.selected.length} ${state.selected.length === 1 ? 'Thema' : 'Themen'} ausgewählt`;
     const parts = [];
     for (const subject of [...catalog.subjects].sort((a, b) => a.name.localeCompare(b.name, 'de'))) {
       const count = state.selected.filter(id => topicById.get(id)?.subjectId === subject.id).length;
@@ -304,7 +304,7 @@
       const total = availableTopics.filter(topic => topic.subjectId === subject.id).length;
       const chosen = state.selected.filter(id => topicById.get(id)?.subjectId === subject.id).length;
       group.querySelector('.subject-group-count').textContent = total
-        ? `${total} Thema${total === 1 ? '' : 'en'} · ${chosen} gewählt`
+        ? `${total} ${total === 1 ? 'Thema' : 'Themen'} · ${chosen} gewählt`
         : subject.availabilityLabel || 'Noch keine geprüften Aufgaben';
     }
     $('#start-learning').disabled = state.selected.length === 0;

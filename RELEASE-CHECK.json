@@ -1,12 +1,14 @@
 {
-  "builtAt": "2026-10-22T08:05:56.330Z",
-  "releaseVersion": "2026.10.22-vortragrubrik.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Korrektur im freiwilligen Deutsch-Vortrag: Der Kinderauftrag nennt jetzt ausdrücklich zwei passende Pausen und zwei passende Betonungen, wie es die vorhandene Erwachsenenrubrik für volle Gestaltungspunkte verlangt.",
-    "Der gezielte Modul- und Drucktest ist bestanden. Themenzahl und Aufgaben bleiben bei 83/336; gesperrte Entwürfe aus Französisch, Ethik und Geografie bleiben ausgeschlossen. Eine echte Vortragsleistung wird dadurch nicht belegt."
+  "builtAt": "2026-10-22T08:41:15.103Z",
+  "releaseVersion": "2026.10.22-mntbionik.1",
+  "newTopicIds": [
+    "mnt-bionik-leichtbau-modell"
   ],
-  "rollbackCommit": "c5320798671c992be60be9ceafa453a82025f466",
+  "changeLog": [
+    "Freiwillige MNT-Ende-6-Brücke: fiktive Papierformen unter Modelllast vergleichen, 20 Haupt- und sechs getrennte Zusatzpunkte. Die D-Karte erscheint erst nach A–E; keine reale Belastungs- oder Sicherheitsprüfung.",
+    "Mehrzahl in der Themenanzeige korrigiert. Interne Fach-/App-Prüfung, Stufen-/Wiederaufnahmeprüfung, 390-/1280-px-Browser, Kinder-/Erwachsenendruck und A4-Sicht bestanden; 84 Themen/342 Aufgaben. Eine amtliche Klasse-7-Zuordnung und echte Kinderbearbeitung sind offen."
+  ],
+  "rollbackCommit": "98d2851ee91aa209d892502b54a5602966af306c",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -90,7 +92,8 @@
     "fr-bilderausstellung-vortrag",
     "en-small-note-poem",
     "fr-parapluie-poeme",
-    "ma-schraegbild-darstellungen"
+    "ma-schraegbild-darstellungen",
+    "mnt-bionik-leichtbau-modell"
   ],
   "subjects": [
     "mnt",

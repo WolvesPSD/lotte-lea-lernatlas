@@ -14,7 +14,7 @@
     'grade78-flex': 'Klasse 7/8 · Unterrichtsfolge offen',
     'grade8-outlook': 'Ausblick Klasse 8 · freiwillig',
     'grade6-bridge': 'MNT-Ende 6 · freiwillige Klasse-7-Brücke',
-    'additional-unclear': 'Zusatzthema · Jahrgang offen'
+    'additional-unclear': 'Freiwillig · Lehrplan 2026/27 ungeklärt'
   };
   const isGrade6Review = topic => topic.releaseEvidence?.gradeBand === '6-Grundlage, 7-Wiederholung' || topic.levelStatus === 'grade6-bridge';
   const levelLabel = topic => topic.levelStatus === 'grade6-bridge'

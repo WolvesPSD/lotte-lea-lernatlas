@@ -33,7 +33,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "plan": "2012 (2025/26)",
       "scope": "7/8; Stand 2026/27 offen",
       "availabilityLabel": "Lehrplan 2026/27 ungeklärt",
-      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Ethik-Lehrplan gilt. Deshalb gibt es hier noch keine freigegebene Aufgabe."
+      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Ethik-Lehrplan gilt. Der freiwillige Fall aus der älteren Fassung ist deshalb keine bestätigte aktuelle Klasse-7-Einheit."
     },
     {
       "id": "sp",
@@ -6941,6 +6941,112 @@ window.LOTTE_CATALOG = Object.freeze({
         "validFor": "2027/28",
         "gradeBand": "8",
         "competencyRef": "PDF-S. 2: Mathematik Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. § 2.2.7 PDF-S. 28–29 unter „Klassenstufe 8“: Prismen in verschiedenen Darstellungsformen erkennen und maßstäblich im Schrägbild und als Netz darstellen.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
+      "id": "et-jugendrat-budgetwerte",
+      "subjectId": "et",
+      "title": "Ein Jugendrat muss abwägen",
+      "scope": "Freiwilliger Forschungsfall zu Freiheit und Verantwortung aus dem Ethik-Lehrplan 2012, Ziel Ende Klasse 8. Die amtliche Geltung für Lottes Klasse 7 im Schuljahr 2026/27 und die aktuelle Schuleinheit sind ungeklärt.",
+      "levelStatus": "additional-unclear",
+      "released": true,
+      "prerequisite": "Alle Gruppen, Beträge und Ereignisse sind erfunden. Schreibe nur über den Fall; private Erlebnisse oder persönliche Überzeugungen musst du nicht nennen. Die amtliche Geltung des Ethik-Lehrplans für Lottes Schuljahr 2026/27 ist ungeklärt. Dieses freiwillige Zusatzthema ist keine bestätigte aktuelle Klasse-7-Einheit.",
+      "introduction": "Ein erfundener Jugendrat eines Nachbarschaftshauses hat diesen Monat 80 €. Bis Freitag muss er zwischen zwei Vorhaben entscheiden; für nächsten Monat ist kein weiteres Geld zugesagt. Beide Vorhaben passen räumlich und zeitlich. Wert bedeutet hier, was jemand bei Entscheidungen wichtig findet; ein Dilemma liegt vor, wenn keine verfügbare Wahl alle guten Ziele vollständig erfüllt. 20 Kriterienpunkte sind Lernfeedback, keine Schulnote.",
+      "passage": "FIKTIVE ENTSCHEIDUNGSKARTE · A: 20 Wegkarten zu je 4 €. Beim Nachbarschaftstag sollen 20 Besucher eine persönliche Karte für drei Stationen erhalten. Das Kartenteam hat dies angekündigt, aber keine verbindliche Bestellung aufgegeben. Ohne Karten fehlt die angekündigte Drucksache; ein Aushang bleibt möglich, ersetzt aber keine persönliche Karte.\n\nB: Vier Werkzeugsets zu je 20 €. Acht angemeldete Jugendliche sollen in einer betreuten Reparaturwerkstatt zu zweit je ein Set nutzen. Eine erwachsene Fachperson ist für den Termin eingeplant. Ohne Sets kann der Termin nicht wie geplant stattfinden. Ein neuer Termin wäre möglich, ist aber nicht vereinbart.\n\nDREI STIMMEN · 1: „Wir haben die Karten angekündigt. Zu einer Zusage zu stehen ist wichtig.“ 2: „Die Werkstatt bietet den acht Jugendlichen eine praktische Möglichkeit. Ich sorge mich, dass ihr angemeldeter Termin ausfällt, wenn wir nur Karten kaufen.“ 3: „Wer die Karten nicht wählt, kümmert sich überhaupt nicht um Besucher!“\n\nWÖRTERHILFE · Interesse: was eine betroffene Gruppe hier erreichen möchte. Folge: was nach einer Entscheidung laut Karte wahrscheinlich passiert. Unsicherheit: was die Karte gerade nicht belegt.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGE ZUSATZVARIANTE NACH A–D · Eine erfundene Druckerei spendet rechtzeitig und ohne Bedingungen zehn der zwanzig Wegkarten. Die übrigen Karten kosten weiter je 4 €. Das Budget bleibt 80 €; vier Werkzeugsets kosten weiterhin je 20 €. Welche Möglichkeiten und Verluste entstehen jetzt?"
+      },
+      "tasks": [
+        {
+          "id": "et-jugendrat-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Prüfe die Lage (4 Kriterienpunkte): Rechne die Kosten von A und B einzeln nach. Erkläre mit zwei konkreten Angaben, ob der Rat beide Vorhaben diese Woche vollständig bezahlen kann. Nenne eine Information, die für eine sichere Aussage über den nächsten Monat fehlt.",
+          "sample": "A kostet 20 × 4 € = 80 €, B kostet 4 × 20 € = 80 €. Beide zusammen kosten 160 €, das Budget beträgt 80 €. Ob und wann im nächsten Monat Geld oder ein neuer Werkstatttermin bereitsteht, ist unbekannt.",
+          "criteria": [
+            "1 Punkt für A = 80 €.",
+            "1 Punkt für B = 80 €.",
+            "1 Punkt für den Vergleich 160 € > 80 € und den Verlust einer Vollwahl.",
+            "1 Punkt für eine ausdrücklich offene Zukunftsinformation; keine Folgefinanzierung erfinden."
+          ]
+        },
+        {
+          "id": "et-jugendrat-2",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Wechsle die Perspektive (6 Kriterienpunkte): Formuliere je ein nachvollziehbares Interesse des Kartenteams oder der Besucher und der Werkstattgruppe. Nenne zwei verschiedene Werte, die in Spannung geraten. Erkläre, worin der Rat frei entscheiden kann, wodurch diese Freiheit begrenzt wird und weshalb ein Dilemma entsteht.",
+          "sample": "Das Kartenteam will die angekündigten persönlichen Karten ausgeben; die Werkstattgruppe will den betreuten Termin für acht Jugendliche durchführen. Verlässlichkeit und praktische Teilhabe können unterschiedlich gewichtet werden. Der Rat kann A oder B wählen, aber 80 € reichen nicht für beide ursprünglichen Ziele. Auch Ankündigung und Anmeldung haben Folgen; keine Wahl erfüllt beide Ziele vollständig.",
+          "criteria": [
+            "Je 1 Punkt für zwei korrekt verortete Interessen.",
+            "Je 1 Punkt für zwei verschiedene passende Werte.",
+            "1 Punkt für die reale Entscheidungsmöglichkeit mit konkreter Budget- oder Zusagegrenze.",
+            "1 Punkt für den verbleibenden Zielkonflikt beider Gruppen. Eine andere begründete Werteordnung zählt gleichwertig."
+          ]
+        },
+        {
+          "id": "et-jugendrat-3",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "C · Prüfe Stimme 3 (3 Kriterienpunkte): Was behauptet sie über Menschen, die B wählen? Erkläre, weshalb das aus den gegebenen Fakten nicht folgt, und formuliere eine faire, offene Gegenfrage.",
+          "sample": "Die Stimme unterstellt allen B-Befürwortern Gleichgültigkeit gegenüber Besuchern. Das folgt nicht: Ein Aushang bleibt möglich, und die Karte verrät keine Motive aller Beteiligten. Eine faire Frage wäre: Wie können wir Besucher ohne gedruckte Karten informieren, falls wir B wählen?",
+          "criteria": [
+            "1 Punkt für die pauschale Motivbehauptung.",
+            "1 Punkt für einen konkreten Gegenbeleg oder die fehlende Kenntnis der Motive.",
+            "1 Punkt für eine sachliche, offene Gegenfrage statt einer neuen Unterstellung."
+          ]
+        },
+        {
+          "id": "et-jugendrat-4",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 12,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "D · Triff eine vorläufige Entscheidung für A oder B (7 Kriterienpunkte): Nenne zwei verschiedene konkrete Gründe aus der Karte, eine wahrscheinliche Folge für die nicht gewählte Gruppe und das stärkste Gegenargument gegen deine Wahl. Begründe, warum du sie trotzdem vertrittst. Nenne eine offene Unsicherheit oder einen nächsten vorsichtigen Schritt ohne Erfolgsgarantie. Ein zusätzlicher Teilkauf darf das Budget nicht überschreiten; benenne dann seinen verlorenen Nutzen. Für A oder B selbst gibt es keine Punkte.",
+          "sample": "Vertretbarer Weg B: Der betreute Termin und acht Anmeldungen sind konkret; ohne Sets fällt der Termin wie geplant aus. Für Besucher könnte ein Aushang bleiben, der persönliche Karten nicht ersetzt. Das ist ein starkes Gegenargument aus Verlässlichkeit. Ich gewichte die praktische Gelegenheit jetzt höher und würde weitere Karten für später prüfen, ohne eine Finanzierung zu behaupten. Ebenso vertretbar ist A mit Ankündigung und 20 Besuchern als Gründen, dem ungesicherten Werkstatt-Ersatz als Verlust und ausdrücklich gewichtetem Gegenargument.",
+          "criteria": [
+            "1 Punkt für eine klare vorläufige Wahl A oder B, nicht für deren Richtung.",
+            "2 Punkte für zwei verschiedene materialgestützte Gründe.",
+            "1 Punkt für eine konkrete Folge für die andere Gruppe.",
+            "1 Punkt für ein starkes Gegenargument gegen die eigene Wahl.",
+            "1 Punkt für eine begründete Gewichtung trotz Gegenargument.",
+            "1 Punkt für eine erkennbare Unsicherheit oder einen realistischen nächsten Schritt ohne Erfolgsgarantie. Ein Teilkauf muss rechnerisch passen und darf keinen vollständigen ursprünglichen Nutzen behaupten."
+          ]
+        },
+        {
+          "id": "et-jugendrat-5",
+          "kind": "reflection",
+          "points": 0,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Zusatzvariante nach A–D · ohne Punkte: Reicht das Geld jetzt für alle zwanzig Karten und vier Sets zugleich? Vergleiche (i) die fehlenden zehn Karten plus zwei Sets mit (ii) vier Sets plus den gespendeten Karten: Nenne für jede Idee einen Vorteil und einen verbleibenden Verlust. Entscheide dich vorläufig, begründe deine Gewichtung und nenne ein starkes Gegenargument. Welche Angabe war wichtig, und welche Folgerung bleibt unsicher?",
+          "sample": "Die fehlenden zehn Karten kosten 10 × 4 € = 40 €; vier Sets 80 €, zusammen 120 € und damit 40 € zu viel. Idee (i) kostet 40 € + 40 € = 80 €: alle 20 Karten, aber nur zwei statt vier Sets; die ursprünglich geplante Paararbeit ist nicht gesichert. Idee (ii) kostet 80 €: vier Sets und zehn gespendete Karten, aber zehn Besucher ohne persönliche Karte. Beide Wege können mit benanntem Gegenargument vertreten werden. Eine andere Durchführung mit zwei Sets und spätere Kartenfinanzierung bleiben ungesichert.",
+          "criteria": [
+            "Rechnung: 120 € für beide ursprünglichen Ziele, 40 € über Budget.",
+            "Idee (i): vollständige Karten, zwei Sets und fehlender Nachweis für geplante Werkstatt.",
+            "Idee (ii): vier Sets und zehn Karten, zehn persönliche Karten fehlen.",
+            "Begründete Wahl samt Gegenargument; keine Wertung der Wahlrichtung und keine behauptete Erfolgsgarantie. Dieser Transfer hat keine Zusatzpunkte."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2025/26 amtlich belegt; 2026/27 ungeklärt",
+        "gradeBand": "7/8, Ziel Ende Klasse 8",
+        "competencyRef": "Ethik Gymnasium 2012, §2.2.1, PDF-S.15/Drucks.16: Freiheit und Verantwortung, Perspektivwechsel, Dilemma und kritische Wertehierarchie; Zielmarke Klassenstufe 8.",
         "checkedAt": "2026-10-22"
       }
     },

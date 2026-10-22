@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-22T08:41:15.103Z",
-  "releaseVersion": "2026.10.22-mntbionik.1",
+  "builtAt": "2026-10-22T10:29:00.904Z",
+  "releaseVersion": "2026.10.22-ethikzusatz.1",
   "newTopicIds": [
-    "mnt-bionik-leichtbau-modell"
+    "et-jugendrat-budgetwerte"
   ],
   "changeLog": [
-    "Freiwillige MNT-Ende-6-Brücke: fiktive Papierformen unter Modelllast vergleichen, 20 Haupt- und sechs getrennte Zusatzpunkte. Die D-Karte erscheint erst nach A–E; keine reale Belastungs- oder Sicherheitsprüfung.",
-    "Mehrzahl in der Themenanzeige korrigiert. Interne Fach-/App-Prüfung, Stufen-/Wiederaufnahmeprüfung, 390-/1280-px-Browser, Kinder-/Erwachsenendruck und A4-Sicht bestanden; 84 Themen/342 Aufgaben. Eine amtliche Klasse-7-Zuordnung und echte Kinderbearbeitung sind offen."
+    "Freiwilliges Ethik-Zusatzthema aus dem Lehrplan 2012: Ein fiktiver Jugendrat wägt Budget, Verantwortung und Perspektiven ab. Die Geltung des Fachplans 2026/27 und Lottes Schuleinheit sind ungeklärt; der Fall zählt nicht als bestätigte Klasse-7-Abdeckung.",
+    "Eigener Filter für freiwillige Themen mit offener Lehrplangeltung. Intern geprüfte Fach- und App-Ableitung mit 20 Hauptpunkten und späterer, punktfreier Variante; Kinder- und Erwachsenenansicht sowie Druck getrennt. Familien-, externe Fach- und echte Kinderprobe offen."
   ],
-  "rollbackCommit": "98d2851ee91aa209d892502b54a5602966af306c",
+  "rollbackCommit": "c76324027a2919468291783c0530f18d71c50790",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -93,6 +93,7 @@
     "en-small-note-poem",
     "fr-parapluie-poeme",
     "ma-schraegbild-darstellungen",
+    "et-jugendrat-budgetwerte",
     "mnt-bionik-leichtbau-modell"
   ],
   "subjects": [
@@ -104,7 +105,8 @@
     "de",
     "en",
     "fr",
-    "ma"
+    "ma",
+    "et"
   ],
   "grade8OutlookTopics": [
     "mbi-speicherplan-zwei-modelle",
@@ -134,6 +136,9 @@
     "mbi-luefterregler-gestalten",
     "mbi-buchdaten-labor",
     "ma-schraegbild-darstellungen"
+  ],
+  "unclearValidityTopics": [
+    "et-jugendrat-budgetwerte"
   ],
   "note": "Struktur, lokaler PDF-Hash und Lösungsfelder geprüft. Fach-, Geräte-, Datenschutz- und Veröffentlichungsfreigabe getrennt dokumentieren."
 }

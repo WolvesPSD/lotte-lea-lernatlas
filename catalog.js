@@ -58,6 +58,12 @@ window.LOTTE_CATALOG = Object.freeze({
       "scope": "Zusätzlich wählbar; kein bestätigtes eigenes Unterrichtsfach von Lotte. § 2.1 Ziele bis Ende Klasse 8; MNT-Zuordnung offen."
     },
     {
+      "id": "ch",
+      "name": "Chemie · freiwillig",
+      "plan": "Gymnasium 2026, Erprobungsfassung; Klasse 7 ab 2026/27",
+      "scope": "Zusätzlich wählbar; kein bestätigtes eigenes Unterrichtsfach von Lotte. § 2.1.1.1 Ziel bis Ende Klasse 8; MNT-Zuordnung offen."
+    },
+    {
       "id": "mu",
       "name": "Musik",
       "plan": "2012 (2025/26)",
@@ -89,6 +95,114 @@ window.LOTTE_CATALOG = Object.freeze({
     }
   ],
   "topics": [
+    {
+      "id": "ch-stoffaenderung-berichtskarten",
+      "subjectId": "ch",
+      "title": "Was zeigen die Stoffänderungs-Karten?",
+      "scope": "Freiwilliger, gestützter Chemie-7/8-Einstieg. Der Fachplan beginnt 2026/27 mit Klasse 7 und nennt das Kompetenzziel bis Ende Klasse 8. Chemie ist kein bestätigtes eigenes Fach von Lotte; keine Zuordnung zur MNT-Stunde.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Alle Berichtskarten sind erfunden. Du brauchst weder Stoffe noch Geräte und führst keinen Versuch aus. Entscheide nur aus den gegebenen Berichten; offene Formulierungen bewertet ein Mensch, keine automatische Schulnote.",
+      "introduction": "Eine physikalische Änderung bildet nach den gegebenen Angaben keinen neuen Stoff; bei einer chemischen Reaktion entstehen neue Stoffe. Farbe, Blasen oder Wärme allein sind Hinweise, kein sicherer Nachweis. „Mit den Angaben nicht entscheidbar“ ist eine mögliche fachliche Antwort. Lies vier erfundene Berichte sorgfältig und unterscheide Beobachtung, Stoffprüfung und Schluss. 20 Hauptpunkte und 6 getrennte Zusatzpunkte sind Lernrückmeldung, keine Schulnote.",
+      "passage": "FIKTIVE BERICHTSKARTEN\nA · Eine Probe Wasser wird als Eis aufbewahrt und später wieder flüssig. Der Bericht bezeichnet die Probe vorher und nachher als Wasser.\nB · Eine markierte, zuvor blanke Eisenoberfläche wurde vor und nach längerer Lagerung geprüft. Vorher waren dort keine Eisenoxide nachweisbar; danach weist eine Stoffprüfung an genau dieser Oberfläche Eisenoxide nach. Laut Bericht wurde keine Schicht aufgetragen und es gelangten keine Eisenoxide von außen auf die markierte Stelle. Eine bräunliche Schicht ist sichtbar.\nC · Zwei nicht benannte farblose Flüssigkeiten werden zusammengegeben. Die Mischung erscheint blau. Ein Vergleich der Stoffe vor und nach dem Vorgang fehlt.\nD · Beim Öffnen eines Getränks steigen Blasen auf. Das entweichende Gas war schon vorher im Getränk gelöst. Eine Stoffprüfung findet vor und nach dem Öffnen dieselben Stoffarten; beschrieben ist das Entweichen des vorhandenen Gases.\n\nWORTSTÜTZE · „Karte … zeigt … . Laut Bericht … . Das belegt … / Das reicht noch nicht, weil … .“",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–E",
+        "text": "SPÄTERE FIKTIVE ÄNDERUNG · V1: Ein weißer Stoff wurde in Wasser verteilt. Nach dem Wiedergewinnen bestätigt eine Stoffprüfung denselben Stoff und keinen neu entstandenen Stoff. V2: Ein neuer Bericht zu C weist nach dem Zusammengeben eine Verbindung Z nach, die in keiner Ausgangsflüssigkeit vorhanden war. Die blaue Farbe bleibt dieselbe."
+      },
+      "tasks": [
+        {
+          "id": "ch-stoffkarten-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "prompt": "A · Entscheidungen (4 Hauptpunkte): Ordne A–D je einer Aussage zu: „physikalischer Vorgang belegt“, „chemische Reaktion belegt“ oder „mit den Angaben nicht entscheidbar“. Entscheide nur über die jeweils beschriebene Änderung.",
+          "sample": "A: physikalischer Vorgang belegt. B: chemische Reaktion belegt. C: mit den Angaben nicht entscheidbar. D: physikalischer Vorgang belegt.",
+          "criteria": [
+            "Je 1 Punkt für A physikalisch, B chemisch, C offen und D physikalisch. „Keine Reaktion belegt“ darf bei C als erkannte Offenheit gelten, wenn zugleich nicht „physikalisch belegt“ behauptet wird."
+          ]
+        },
+        {
+          "id": "ch-stoffkarten-2",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 12,
+          "inputRows": 12,
+          "prompt": "B · Textbelege (8 Hauptpunkte): Nenne für jede Karte A–D eine konkrete Angabe aus genau dieser Karte. Erkläre jeweils in einem eigenen Satz, weshalb sie deine Entscheidung stützt oder weshalb sie noch nicht reicht. Ein Buchstabe allein ist keine Begründung.",
+          "sample": "A: Vorher und nachher steht Wasser im Bericht; nur der Zustand wechselt. B: Auf derselben markierten Oberfläche waren vorher keine Eisenoxide nachweisbar, danach schon; eine aufgetragene Schicht und Oxideintrag von außen sind laut Bericht ausgeschlossen, daher sind neue Stoffe dort belegt. C: Der Text nennt nur Blauwerden und keinen Stoffvergleich; ein neuer Stoff bleibt offen. D: Das Gas war bereits gelöst und die Stoffarten bleiben laut Prüfung gleich; die Blasen zeigen entweichendes vorhandenes Gas.",
+          "criteria": [
+            "A 2 Punkte: Wasser vor/nachher als Kartenangabe (1) und Zustandsänderung ohne berichteten neuen Stoff erklärt (1).",
+            "B 2 Punkte: Stoffprüfung derselben Oberfläche vor/nachher mit neuem Eisenoxidbefund sowie laut Bericht ausgeschlossener Schicht/Fremdeintrag (1) und daraus begründete Stoffneubildung (1). Braun allein genügt nicht.",
+            "C 2 Punkte: Blauwerden ohne Vorher-/Nachher-Stoffvergleich (1) und daraus korrekt offen gelassene Stoffneubildung (1).",
+            "D 2 Punkte: vorher gelöstes Gas und gleichbleibende Stoffarten laut Prüfung (1) sowie Entweichen statt neuem Stoff für die berichtete Änderung erklärt (1)."
+          ]
+        },
+        {
+          "id": "ch-stoffkarten-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "prompt": "C · Offene Karte C (4 Hauptpunkte): Erkläre, warum die blaue Farbe allein keine sichere Reaktion belegt und welche Vergleichsangabe im ersten Bericht fehlt. Nenne eine passende Art zusätzlicher Information über die Stoffe vor und nach der Änderung, die eine Entscheidung ermöglichen würde. Beschreibe keinen Versuch.",
+          "sample": "Die neue Farbe ist ein Hinweis, aber kein Stoffnachweis. Im ursprünglichen C-Bericht fehlt der Vergleich der Stoffe vor und nach dem Mischen. Nützlich wäre eine verlässliche Information zur Stoffidentität oder zu charakteristischen Stoffmerkmalen vorher und nachher; erst damit ließe sich ein neu entstandener Stoff beurteilen.",
+          "criteria": [
+            "1 Punkt: Farbe allein nicht als sicheren Stoffneubildungsbeweis behandelt.",
+            "1 Punkt: fehlenden Vorher-/Nachher-Stoffvergleich im Ausgangsbericht benannt.",
+            "2 Punkte: konkrete passende Art der zusätzlichen Information, etwa verlässlicher Vergleich der Stoffidentität oder charakteristischer Merkmale vor und nach dem Vorgang; bloß „prüfen“ ohne Vergleichsinformation höchstens 1 dieser 2 Punkte. Kein praktischer Versuch verlangt."
+          ]
+        },
+        {
+          "id": "ch-stoffkarten-4",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 5,
+          "prompt": "D · A und B unterscheiden (2 Hauptpunkte): Formuliere in zwei Sätzen: Was bleibt bei A laut Bericht gleich, und welcher neue Stoffbefund ist bei B belegt?",
+          "sample": "Bei A nennt der Bericht vor und nach der Zustandsänderung Wasser. Bei B werden auf derselben markierten Eisenoberfläche nachher Eisenoxide nachgewiesen, die vorher dort nicht nachweisbar waren.",
+          "criteria": [
+            "1 Punkt: Wasser als gleiche Stoffart bei A vor/nachher.",
+            "1 Punkt: Eisenoxide bei B als neuer Nachweis auf derselben vorher blanken Oberfläche; nicht nur die braune Farbe."
+          ]
+        },
+        {
+          "id": "ch-stoffkarten-5",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "inputRows": 6,
+          "prompt": "E · Behauptung prüfen (2 Hauptpunkte): „Sobald man Blasen oder eine Farbänderung sieht, ist es sicher eine chemische Reaktion.“ Gib ein begründetes Urteil mit Karte C oder D. Sage genau, was die Karte belegt oder offenlässt.",
+          "sample": "Die Behauptung ist zu pauschal. D zeigt Blasen, obwohl laut Bericht nur schon gelöstes Gas entweicht und die Stoffarten gleich bleiben. C zeigt eine blaue Farbe, aber ohne Stoffvergleich ist dort eine Reaktion weder sicher belegt noch sicher ausgeschlossen.",
+          "criteria": [
+            "1 Punkt: pauschale Sicherheit zurückgewiesen.",
+            "1 Punkt: D als Blasen-Gegenbeispiel mit vorhandenem Gas oder C als Grenze des sicheren Schlusses aus Farbe begründet. C beweist nicht, dass keine Reaktion stattfand."
+          ]
+        },
+        {
+          "id": "ch-stoffkarten-6",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "prompt": "Freiwillige spätere Änderung · 6 getrennte Zusatzpunkte: Ordne V1 und C mit dem neuen Bericht (V2) je einer der drei Aussagen zu und begründe beide mit der entscheidenden Stoffangabe. Erkläre danach, weshalb du C nun anders beurteilen darfst, obwohl seine Farbe gleich bleibt.",
+          "sample": "V1 ist laut Bericht physikalisch: Nach dem Wiedergewinnen liegt derselbe Stoff vor, ein neuer ist nicht nachgewiesen. C mit V2 ist chemisch belegt: Die Verbindung Z wurde erst nach dem Zusammengeben nachgewiesen und war in keiner der Ausgangsflüssigkeiten vorhanden. Bei der ersten C-Karte fehlte ein Stoffvergleich, deshalb blieb sie offen; der neue Bericht liefert gerade diesen Stoffnachweis. Die Farbe allein entscheidet weiterhin nicht.",
+          "criteria": [
+            "1 Zusatzpunkt: V1 als physikalisch eingeordnet.",
+            "1 Zusatzpunkt: V1 mit gleichem Stoff und keinem neu entstandenen Stoff begründet.",
+            "1 Zusatzpunkt: C mit V2 als chemisch belegt eingeordnet.",
+            "1 Zusatzpunkt: neuen Stoff Z als vorher nicht vorhandenen Befund begründet.",
+            "1 Zusatzpunkt: ursprüngliche Offenheit wegen fehlendem Stoffvergleich erklärt.",
+            "1 Zusatzpunkt: neue Information als Grund für den geänderten Schluss erklärt; gleiche Farbe allein bleibt unzureichend. Zusatzpunkte nicht zur Hauptsumme addieren."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Chemie Klasse 7 ab 2026/27. § 2.1.1.1 PDF-S. 21–22: chemische Reaktionen von physikalischen Vorgängen unterscheiden, Stoffumwandlung erkennen; Zielmarke Ende Klasse 8.",
+        "checkedAt": "2026-10-22"
+      }
+    },
     {
       "id": "bi-wirbellose-bluehstreifen",
       "subjectId": "bi",

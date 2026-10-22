@@ -1,15 +1,16 @@
 {
-  "builtAt": "2026-10-22T03:12:24.157Z",
-  "releaseVersion": "2026.10.22-biozusatz.1",
+  "builtAt": "2026-10-22T03:24:57.406Z",
+  "releaseVersion": "2026.10.22-chemzusatz.1",
   "newTopicIds": [
-    "bi-wirbellose-bluehstreifen"
+    "ch-stoffaenderung-berichtskarten"
   ],
   "changeLog": [
-    "Neues freiwilliges Zusatzfach Biologie mit einem gestützten 7/8-Fall zu fiktiven Wirbellosenkarten und Blühstreifenbesuchen. 20 Hauptpunkte und sechs getrennte Zusatzpunkte; keine echte Arten-, Praxis- oder Unterrichtsleistung behauptet.",
-    "Die spätere Variante erscheint nach drei Hauptantworten und auf einer getrennten Kinder-Druckseite. Das Fach ist kein bestätigtes eigenes Unterrichtsfach von Lotte; die Zuordnung zu MNT bleibt offen."
+    "Neues freiwilliges Zusatzfach Chemie mit einem gestützten 7/8-Fall zu vier fiktiven Stoffänderungs-Berichten. 20 Hauptpunkte und sechs getrennte Zusatzpunkte; kein praktischer Versuch und keine Schulnote.",
+    "Die spätere Variante erscheint nach fünf Hauptantworten und auf einer getrennten Kinder-Druckseite. Chemie ist kein bestätigtes eigenes Unterrichtsfach von Lotte; die Zuordnung zu MNT bleibt offen."
   ],
-  "rollbackCommit": "ebf10ea86138187acaaa95ff832a15cad5b6ebef",
+  "rollbackCommit": "557fdfc3e5e0f8fdf173b493723ccd7dfd046ed1",
   "releasedTopics": [
+    "ch-stoffaenderung-berichtskarten",
     "bi-wirbellose-bluehstreifen",
     "mbi-speicherplan-zwei-modelle",
     "mbi-festbezug-karten",
@@ -85,6 +86,7 @@
     "fr-bilderausstellung-vortrag"
   ],
   "subjects": [
+    "ch",
     "bi",
     "mbi",
     "de",

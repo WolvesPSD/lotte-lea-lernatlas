@@ -1433,6 +1433,95 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-medienwahrscheinlichkeit",
+      "subjectId": "ma",
+      "title": "Was sagt die 55-%-Karte wirklich?",
+      "scope": "Freiwilliger Ausblick auf das Ende-Klasse-8-Ziel in § 2.2.13: eine erfundene Medienaussage zu Wahrscheinlichkeit prüfen. Lottes aktuelle Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst Brüche, Prozente und Mengenklammern. Lies die Medienkarte als erfundene Übung: Es gab weder einen echten Beitrag noch einen von uns ausgeführten Zufallslauf. Die zehn Karten sind unterscheidbar und im Modell gleich wahrscheinlich; nach jedem Zug wird zurückgelegt. Freie Antworten bewertet die App nicht automatisch.",
+      "introduction": "Eine fiktive Medienkarte behauptet aus einer kurzen Simulationsreihe „55 % Stern – fast sicher!“. Trenne die beobachtete Häufigkeit 11/20 von der Modellwahrscheinlichkeit 4/10. Prüfe die Aussage und formuliere eine bessere. Die vier Zusatzpunkte werden erst nach A–C als freiwilliger Transfer gezeigt und getrennt ausgewiesen. Das ist Lernfeedback, keine Schulnote.",
+      "passage": "FIKTIVE MEDIENKARTE · CHANCEN-CHECK · MODELLVERSUCH\n\nIn einem digitalen Modell wird aus zehn unterscheidbaren, gleich wahrscheinlichen Karten gezogen und danach zurückgelegt. Vier Karten tragen einen Stern, sechs einen Kreis. In einer erfundenen Simulationsreihe mit 20 Zügen kamen 11 Sterne und 9 Kreise heraus.\n\n„Morgen: 55 % Stern – fast sicher!“\nGrundlage: 11 Sterne in 20 Simulationszügen.\n\nDies ist eine eigens erfundene Übungskarte. Es wurde kein echter Medienbeitrag und kein tatsächlicher Simulationslauf geprüft.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGER TRANSFER NACH A–C · Eine zweite, ebenfalls erfundene Simulationsreihe desselben unveränderten Zehn-Karten-Modells hat bei 100 Zügen 44 Sterne ergeben. Die vier Zusatzpunkte werden getrennt von den zwölf Hauptpunkten ausgewiesen."
+      },
+      "tasks": [
+        {
+          "id": "ma-medienwahrscheinlichkeit-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Daten, Modell und Aussage (4 Hauptpunkte): (1) Berechne die beobachtete relative Häufigkeit der Sterne als Bruch und Prozent. (2) Berechne die Sternwahrscheinlichkeit im angegebenen Modell als Bruch und Prozent. (3) Erkläre, warum 11/20 und 4/10 verschiedene Aussagen sind. (4) Was lässt sich über den nächsten einzelnen Zug sicher vorhersagen?",
+          "sample": "11/20=55 % ist die beobachtete relative Häufigkeit in der beschriebenen Reihe. 4/10=2/5=40 % ist die Sternwahrscheinlichkeit im gleichwahrscheinlichen Kartenmodell. Die erste Zahl beschreibt eine Reihe, die zweite die Zusammensetzung des unveränderten Modells. Der nächste einzelne Zug ist nicht sicher vorhersagbar; im Modell bleiben 40 % Stern und 60 % Kreis.",
+          "criteria": [
+            "1 Punkt: 11/20=55 % als relative Häufigkeit.",
+            "1 Punkt: 4/10=2/5=40 % als Modellwahrscheinlichkeit.",
+            "1 Punkt: vergangene Simulationsreihe und Kartenmodell als unterschiedliche Bezugsgrössen erklärt.",
+            "1 Punkt: nächsten Einzelzug nicht sicher vorhergesagt; 40 % ist keine Garantie."
+          ]
+        },
+        {
+          "id": "ma-medienwahrscheinlichkeit-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Ergebnismenge und Gegenereignis (4 Hauptpunkte): Die Sternkarten heissen S1 bis S4, die Kreiskarten K1 bis K6. Ein Zug wählt genau eine Karte. (1) Schreibe die gesamte Ergebnismenge Ω. (2) Schreibe das Ereignis A „Stern“ und sein Gegenereignis Aᶜ als Mengen. (3) Prüfe mit den Modellwahrscheinlichkeiten, dass P(A)+P(Aᶜ)=1.",
+          "sample": "Ω={S1,S2,S3,S4,K1,K2,K3,K4,K5,K6}; A={S1,S2,S3,S4}; Aᶜ={K1,K2,K3,K4,K5,K6}. Wegen gleich wahrscheinlicher Karten gilt P(A)=4/10=2/5, P(Aᶜ)=6/10=3/5 und 2/5+3/5=1. Auch A^c ist eine richtige Schreibweise.",
+          "criteria": [
+            "1 Punkt: vollständiges Ω aus zehn einzeln bezeichneten Karten.",
+            "1 Punkt: A als genau vier Sternkarten.",
+            "1 Punkt: Aᶜ als genau sechs Kreiskarten.",
+            "1 Punkt: 4/10+6/10=1 beziehungsweise 2/5+3/5=1 aus dem Modell geprüft."
+          ]
+        },
+        {
+          "id": "ma-medienwahrscheinlichkeit-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C · Medienaussage prüfen (4 Hauptpunkte): (1) Passt „fast sicher“ zur Modellchance? Begründe. (2) Warum legt die Reihe mit 20 Zügen den nächsten Zug nicht auf 55 % fest? (3) Schreibe eine sachliche Ersatzkarte: Nenne beobachtete Häufigkeit und Modellwahrscheinlichkeit mit ihren Bezugsgrössen getrennt; behaupte kein sicheres nächstes Ergebnis.",
+          "sample": "„Fast sicher“ ist bei 40 % Sternchance im Modell falsch; sechs von zehn Karten zeigen Kreis. 55 % beschreibt nur 11 von 20 Ergebnissen der erfundenen Reihe und bestimmt den nächsten einzelnen Zug nicht. Ersatzkarte: „Im Zehn-Karten-Modell beträgt die Sternchance 40 %. In dieser Reihe waren 11 von 20 Zügen Sterne (55 %). Der nächste Zug bleibt offen.“",
+          "criteria": [
+            "1 Punkt: „fast sicher“ mit der Modellchance von 40 % sachlich widerlegt.",
+            "1 Punkt: 55 % als vergangene Häufigkeit, nicht als Festlegung des nächsten Einzelzugs erklärt.",
+            "1 Punkt: Ersatzkarte nennt 11/20=55 % und 4/10=40 % mit verschiedenen Bezugsgrössen.",
+            "1 Punkt: Ersatzkarte ist verständlich und enthält keine Garantie für den nächsten Zug."
+          ]
+        },
+        {
+          "id": "ma-medienwahrscheinlichkeit-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer nach A–C · 4 getrennte Zusatzpunkte: Nutze nur die spätere Zusatzkarte mit 44 Sternen bei 100 Modellzügen. (1) Berechne die relative Häufigkeit. (2) Vergleiche sie in Prozentpunkten mit 40 %. (3) Ändert diese Reihe die Modellwahrscheinlichkeit? Begründe. (4) Nenne eine Grenze, die auch nach 100 Zügen bleibt.",
+          "sample": "44/100=44 % relative Häufigkeit; das sind vier Prozentpunkte mehr als die Modellchance 40 %. Die Modellwahrscheinlichkeit bleibt 4/10=40 %, weil die Zusammensetzung der zehn gleichwahrscheinlichen Karten unverändert ist. Auch 100 Modellzüge machen den nächsten Einzelzug nicht sicher vorhersagbar; sie sind keine Beobachtung eines realen Vorgangs.",
+          "criteria": [
+            "1 Zusatzpunkt: 44/100=44 % als relative Häufigkeit.",
+            "1 Zusatzpunkt: vier Prozentpunkte über 40 %.",
+            "1 Zusatzpunkt: Modellchance bleibt wegen unveränderter Karten 40 %.",
+            "1 Zusatzpunkt: offene Grenze eines nächsten Einzelzugs oder der fehlenden realen Beobachtung benannt."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. § 2.2.13/PDF-S. 32 unter Klassenstufe 8: Wahrscheinlichkeitsaussagen und ihre Darstellung in Medien interpretieren; relative Häufigkeit und Wahrscheinlichkeit unterscheiden, Ergebnismengen und Gegenereignisse nutzen.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "ma-wahrscheinlichkeitsbaum",
       "subjectId": "ma",
       "title": "Zwei Ziehungen: Pfade und Ereignisse",

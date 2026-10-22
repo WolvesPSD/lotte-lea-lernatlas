@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-22T21:59:03.617Z",
-  "releaseVersion": "2026.10.22-deonlinenews.1",
+  "builtAt": "2026-10-22T22:17:28.555Z",
+  "releaseVersion": "2026.10.23-m13medienkarte.1",
   "newTopicIds": [
-    "de-online-news-aktualisierung"
+    "ma-medienwahrscheinlichkeit"
   ],
   "changeLog": [
-    "Freiwilliger Deutsch-7/8-Online-News-Fall: Die erste fiktive Webseite enthielt schon bei Veröffentlichung einen unbelegten Raum; die Bibliothek änderte ihren Plan erst später. Drei Aufgaben mit 4+12+4 formativen Kriterienpunkten trennen Redaktionsfehler, Quellenstand und echte Änderung.",
-    "Eine lokale Werkstatt erzeugt eine scriptfreie HTML-Meldung mit getrennten Veröffentlichungs- und Aktualisierungszeiten, zwei funktionierenden internen Beleglinks und gedruckten Belegkarten. Nichts wird veröffentlicht oder versendet; die Familie und ein Kind haben diese neue Fassung noch nicht geprüft."
+    "Freiwilliger Mathematik-M13-Ausblick: Eine ausdrücklich erfundene Medienkarte trennt 11/20=55 % beobachtete Simulationshäufigkeit von 4/10=40 % Modellchance und prüft die Behauptung «fast sicher». Drei Hauptaufgaben mit 4+4+4 Kriterienpunkten und ein erst später sichtbarer Transfer mit vier getrennten Zusatzpunkten.",
+    "Kinder- und Erwachsenendruck sowie Mobil-/Desktop-Browser lokal geprüft. Das Ende-Klasse-8-Ziel ist keine bestätigte aktuelle Klasse-7-Schuleinheit; echte Familien- und Kinderbearbeitung sind noch offen."
   ],
-  "rollbackCommit": "5a6d27d01107465bea7745f1d52be18ee52ef741",
+  "rollbackCommit": "87c7a8b66e3f51b62a75d35480836ae53c03534d",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -25,6 +25,7 @@
     "de-textzusammenhang-register",
     "de-textuntersuchung-bank",
     "ma-koerper-modell",
+    "ma-medienwahrscheinlichkeit",
     "ma-wahrscheinlichkeitsbaum",
     "ma-pythagoras-plan",
     "ma-lineare-funktionen",
@@ -123,6 +124,7 @@
     "mbi-speicherplan-zwei-modelle",
     "mbi-festbezug-karten",
     "ma-koerper-modell",
+    "ma-medienwahrscheinlichkeit",
     "ma-wahrscheinlichkeitsbaum",
     "ma-pythagoras-plan",
     "ma-lineare-funktionen",

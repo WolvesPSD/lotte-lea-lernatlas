@@ -1,15 +1,14 @@
 {
-  "builtAt": "2026-10-22T04:31:27.304Z",
-  "releaseVersion": "2026.10.22-enfrpoems.1",
+  "builtAt": "2026-10-22T05:04:35.123Z",
+  "releaseVersion": "2026.10.22-maschraegbild.1",
   "newTopicIds": [
-    "en-small-note-poem",
-    "fr-parapluie-poeme"
+    "ma-schraegbild-darstellungen"
   ],
   "changeLog": [
-    "Zwei freiwillige, gestützte Gedicht-Lesewege in Englisch und Französisch für den 7/8-Rahmen: je vier Hauptaufgaben mit 20 Lernpunkten und eine spätere Zusatzkarte mit sechs getrennten Punkten. Das Ende-8-Ziel ist keine bestätigte aktuelle Schuleinheit.",
-    "Die Zusatzkarte und fünfte Aufgabe erscheinen im Kinderbereich und Kinderdruck erst nach A–D. Unabhängige Text- und App-Gegenchecks, Mobil-/Desktop-Modulgates und A4-Sichtprüfung sind dokumentiert; die bisherigen 80 Online-Themen bleiben unverändert."
+    "Freiwilliger Mathematik-Ausblick auf Klasse 8: derselbe Körper in Bild und Netz, maßstäbliches Schrägbild auf eigenem Papier und ein späterer Regelvergleich. Vier Hauptaufgaben mit 20 Lernpunkten plus sechs getrennte Transferpunkte.",
+    "Die Zusatzkarte erscheint im Kinderbereich und Kinderdruck erst nach A–D. Unabhängiger Inhalts- und App-Gegencheck, lokale Mobil-/Desktop-Modulgates und A4-Sichtprüfung sind dokumentiert. Papiermaß und Hilfsmittelverzicht müssen Menschen prüfen; die bisherigen 82 Online-Themen bleiben unverändert."
   ],
-  "rollbackCommit": "5341a5449ea9cc4389ea825d8f6fc8e22cfe355f",
+  "rollbackCommit": "f234341fde8524570ffbb97dd55faadff6aa5703",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -92,7 +91,8 @@
     "de-bibliotheksregal-erklaeren",
     "fr-bilderausstellung-vortrag",
     "en-small-note-poem",
-    "fr-parapluie-poeme"
+    "fr-parapluie-poeme",
+    "ma-schraegbild-darstellungen"
   ],
   "subjects": [
     "mnt",
@@ -131,7 +131,8 @@
     "mbi-lesepause-medienwerkstatt",
     "mbi-simunet-datensparsam",
     "mbi-luefterregler-gestalten",
-    "mbi-buchdaten-labor"
+    "mbi-buchdaten-labor",
+    "ma-schraegbild-darstellungen"
   ],
   "note": "Struktur, lokaler PDF-Hash und Lösungsfelder geprüft. Fach-, Geräte-, Datenschutz- und Veröffentlichungsfreigabe getrennt dokumentieren."
 }

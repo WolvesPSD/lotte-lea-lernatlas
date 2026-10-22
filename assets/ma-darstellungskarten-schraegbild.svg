@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-labelledby="title desc">
+  <title id="title">Drei Darstellungskarten A, B und C</title>
+  <desc id="desc">A zeigt einen Körper mit rechteckiger Vorderfläche und schrägen Tiefenkanten. B zeigt sechs aneinanderhängende Rechtecke als ebenes Netz. C zeigt einen Körper mit zwei dreieckigen Endflächen. Die Skizzen sind nicht zum Abmessen gedacht.</desc>
+  <rect width="900" height="320" fill="#fff"/>
+  <g font-family="Arial, sans-serif" fill="#102a43">
+    <rect x="16" y="16" width="268" height="274" rx="10" fill="#f5f9fc" stroke="#7892a5"/>
+    <rect x="316" y="16" width="268" height="274" rx="10" fill="#f5f9fc" stroke="#7892a5"/>
+    <rect x="616" y="16" width="268" height="274" rx="10" fill="#f5f9fc" stroke="#7892a5"/>
+    <text x="32" y="45" font-size="25" font-weight="700">A</text>
+    <text x="332" y="45" font-size="25" font-weight="700">B</text>
+    <text x="632" y="45" font-size="25" font-weight="700">C</text>
+  </g>
+  <g stroke="#17324d" stroke-width="2.5" stroke-linejoin="round" fill="none">
+    <polygon points="85,125 125,85 230,85 190,125" fill="#d9edf7"/>
+    <polygon points="190,125 230,85 230,155 190,195" fill="#b8d8e8"/>
+    <rect x="85" y="125" width="105" height="70" fill="#ebf5fb"/>
+    <line x1="85" y1="125" x2="125" y2="85"/>
+    <line x1="190" y1="125" x2="230" y2="85"/>
+    <line x1="190" y1="195" x2="230" y2="155"/>
+    <line x1="125" y1="85" x2="230" y2="85"/>
+    <line x1="230" y1="85" x2="230" y2="155"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#102a43">
+    <text x="124" y="219">6 cm</text>
+    <text x="39" y="163">4 cm</text>
+    <text x="237" y="111">5 cm</text>
+  </g>
+  <line x1="234" y1="105" x2="210" y2="105" stroke="#102a43" stroke-width="1.5"/>
+  <g stroke="#17324d" stroke-width="2.2" stroke-linejoin="round">
+    <rect x="336" y="135" width="60" height="50" fill="#e8f3fa"/>
+    <rect x="396" y="135" width="40" height="50" fill="#cce5f2"/>
+    <rect x="436" y="135" width="60" height="50" fill="#e8f3fa"/>
+    <rect x="496" y="135" width="40" height="50" fill="#cce5f2"/>
+    <rect x="436" y="95" width="60" height="40" fill="#f7e9c4"/>
+    <rect x="436" y="185" width="60" height="40" fill="#f7e9c4"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#102a43">
+    <text x="454" y="89">6 cm</text>
+    <text x="501" y="115">4 cm</text>
+    <text x="356" y="165">5 cm</text>
+  </g>
+  <g stroke="#17324d" stroke-width="2.5" stroke-linejoin="round">
+    <polygon points="717,155 797,155 750,90" fill="#e8f3fa"/>
+    <polygon points="705,125 750,90 797,155 752,190" fill="#cce5f2"/>
+    <polygon points="672,190 717,155 797,155 752,190" fill="#b8d8e8"/>
+    <polygon points="672,190 752,190 705,125" fill="#f7e9c4"/>
+    <line x1="705" y1="125" x2="750" y2="90"/>
+    <line x1="752" y1="190" x2="797" y2="155"/>
+  </g>
+  <text x="297" y="309" font-family="Arial, sans-serif" font-size="15" fill="#334e68">Schematische Bilder · nicht zum Abmessen</text>
+</svg>

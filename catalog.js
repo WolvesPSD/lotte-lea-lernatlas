@@ -6831,6 +6831,118 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "PDF-S. 2: Französisch Klasse 7 ab 2026/27. Zweite Fremdsprache § 3.2.2 PDF-S. 60 nennt Gedichte und gestütztes Leseverstehen unter dem Ende-8-Ziel; A2 ist kein bestätigter Iststand.",
         "checkedAt": "2026-10-22"
       }
+    },
+    {
+      "id": "ma-schraegbild-darstellungen",
+      "subjectId": "ma",
+      "title": "Derselbe Körper in Bild und Netz?",
+      "scope": "Ausblick Klasse 8 · freiwillig. Verschiedene Darstellungen gerader Prismen und ein eigenes maßstäbliches Schrägbild stehen in § 2.2.7 ausdrücklich unter Klassenstufe 8. Lottes aktuelle Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Für B brauchst du eigenes Papier, Lineal und ein 45°-Geodreieck. Die drei kleinen Karten sind schematisch und nicht zum Abmessen. Deine Papierzeichnung muss eine betreuende Person mit dem Lineal prüfen; ein Textfeld allein beweist keine 8-cm-, 3-cm- oder 45°-Linie. In Klasse 7 ist dies nur ein freiwilliger Ausblick, kein bestätigter aktueller Stoff.",
+      "introduction": "Die Darstellungskarten A, B und C zeigen schematische Körper und ein Netz. A nennt echte Maße: vorn 6 cm waagrecht und 4 cm senkrecht, Tiefe 5 cm. B zeigt vier Streifenrechtecke, 5 cm hoch, mit Breiten 6, 4, 6 und 4 cm; am dritten hängen oben und unten je 6 × 4 cm. C hat zwei gleich große parallele Dreiecksflächen; die drei Verbindungskanten stehen im wirklichen Körper senkrecht darauf. Die Schräglage der Bildstriche ändert das nicht. Die Karte darf nicht abgemessen werden. In B zeichnest du einen neuen Quader auf Papier. 20 Haupt- und 6 getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "diagram": {
+        "path": "assets/ma-darstellungskarten-schraegbild.svg",
+        "alt": "Drei schematische Karten ohne Lösung: A ist ein Körperbild mit vorn waagrechter 6-cm-Kante, vorn senkrechter 4-cm-Kante und einer zur schrägen Tiefenkante zeigenden 5-cm-Beschriftung. B ist ein Netz aus vier Rechtecken im Streifen, nacheinander 6, 4, 6 und 4 cm breit sowie 5 cm hoch; am dritten hängen oben und unten Rechtecke 6 mal 4 cm. C zeigt zwei parallele gleich große Dreiecke mit drei Verbindungen. Die Bilder sind nicht zum Abmessen.",
+        "caption": "A, B, C sind schematisch, nicht maßstabsgetreu. Die wirklichen Maße stehen an den Karten beziehungsweise im Text; B muss als eigene Papierzeichnung nach Zahlen entstehen."
+      },
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGER TRANSFER NACH A–D · Ein dritter Quader hat vorn 7 cm × 4 cm und eine wirkliche Tiefe von 5 cm. Vergleiche auf Papier eine 45°-Tiefenkante nach der Halb-Tiefen-Regel mit einer nach einer ausdrücklich anders gewählten Regel in voller Tiefenlänge. Diese Karte ändert die Maße des Hauptfalls B nicht."
+      },
+      "tasks": [
+        {
+          "id": "ma-schraegbild-1",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A · Darstellungen zuordnen (5 Hauptpunkte): Welche zwei Karten zeigen denselben Körper? Nenne seine Körperart und begründe mit Flächenformen und Maßen. Welche Art Körper zeigt die übrige Karte? Erkläre mithilfe der Zusatzangabe, warum auch sie ein gerades Prisma ist, und nenne einen Unterschied zu den ersten beiden Karten.",
+          "sample": "A und B zeigen einen Quader beziehungsweise ein gerades rechteckiges Prisma mit 6 × 4 × 5 cm. In B sind die Mantelflächen 6 × 5, 4 × 5, 6 × 5 und 4 × 5 cm; die beiden Endflächen sind 6 × 4 cm. C ist ein gerades dreieckiges Prisma: zwei gleiche parallele Dreiecke mit im Körper senkrechten Verbindungen. Dreieckige Endflächen unterscheiden C vom Quader.",
+          "criteria": [
+            "1 Punkt für A und B als zusammengehörig mit Begründung.",
+            "1 Punkt für Quader oder gerades rechteckiges Prisma.",
+            "1 Punkt für passende 6/4/5-Maße und Netzflächen.",
+            "1 Punkt für C als gerades dreieckiges Prisma aus Dreiecksflächen und Senkrechtangabe.",
+            "1 Punkt für den Unterschied Dreieck gegenüber Rechteck als Endfläche. Bildschräge allein bedeutet kein schiefes Prisma."
+          ]
+        },
+        {
+          "id": "ma-schraegbild-2",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Eigenes Schrägbild auf Papier (8 Hauptpunkte): Zeichne die sichtbaren Kanten eines neuen Quaders. Die Vorderfläche ist wirklich 8 cm breit und 3 cm hoch; die wirkliche Tiefe ist 6 cm. Zeichne die Vorderfläche 1:1. Von links oben, rechts oben und rechts unten zeichnest du drei parallele Tiefenkanten je 3 cm auf dem Papier bei 45° nach rechts oben. Verbinde die beiden oberen freien Enden waagrecht und die beiden rechten freien Enden senkrecht; unsichtbare Rückkanten sind nicht nötig. Beschrifte 8 cm, 3 cm, wirkliche Tiefe 6 cm und gezeichnete Tiefenkante 3 cm getrennt. Prüfe zwei Maße/Parallelitäten selbst, zeige die Zeichnung einer betreuenden Person und notiere hier deine Kontrollen. Das Textfeld ersetzt das Blatt nicht.",
+          "sample": "Papier-Soll: Vorderrechteck 8 × 3 cm; drei sichtbare Tiefenkanten je 3 cm bei 45° rechts oben, untereinander parallel. Obere freie Enden waagrecht, rechte freie Enden senkrecht verbunden. Wirkliche Tiefe 6 cm, gezeichnet nach 1:2-Regel 3 cm. Eigene Kontrollen: Vorderkante mit Lineal 8 cm; alle drei Tiefenkanten je 3 cm und parallel. Nur ein tatsächlich vorgelegtes Blatt kann die Zeichenpunkte belegen.",
+          "criteria": [
+            "2 Punkte nur bei tatsächlich vorgelegter und gemessener Vorderfläche 8 × 3 cm; Textmaß allein genügt nicht.",
+            "2 Punkte nur bei drei tatsächlich gezeichneten parallelen Tiefenkanten von je 3 cm; bei nur zwei richtigen Kanten höchstens 1.",
+            "1 Punkt für 45° nach rechts oben, auf dem Papier geprüft.",
+            "1 Punkt für korrekt waagrecht und senkrecht verbundene freie Enden.",
+            "1 Punkt für getrennte Beschriftung wirkliche Tiefe 6 cm und gezeichnete Länge 3 cm.",
+            "1 Punkt für zwei konkrete Eigenkontrollen und vorgelegtes Papier. Bei fehlender Zeichnung die Zeichenkriterien als nicht erhoben statt als schriftlich bestanden markieren."
+          ]
+        },
+        {
+          "id": "ma-schraegbild-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Maßstabsfehler reparieren (4 Hauptpunkte): Eine andere Person zeichnet denselben neuen Quader mit Vorderfläche 4 × 1,5 cm und 6 cm langen 45°-Tiefenkanten. Sie sagt: „Bei einem Schrägbild kann ich alle Kanten beliebig halbieren oder ganz lassen.“ Nenne die zwei verschiedenen Fehler, die richtigen Zeichenmaße und die jeweils passende Regel. Erkläre, warum „beliebig“ in diesem Auftrag nicht stimmt.",
+          "sample": "Die Vorderfläche wurde falsch halbiert: Sie muss nach der vorgegebenen 1:1-Regel 8 × 3 cm messen, nicht 4 × 1,5 cm. Die Tiefenkanten wurden zu lang: Nach der gewählten 1:2-Regel sind sie 6 ÷ 2 = 3 cm lang, nicht 6 cm. Andere Projektionsregeln wären möglich, wenn ausdrücklich festgelegt; hier dürfen Regeln nicht vermischt werden.",
+          "criteria": [
+            "2 Punkte für die falsche Vorderhalbierung erkannt und 8 × 3 cm mit 1:1-Regel begründet.",
+            "2 Punkte für die falsche volle Tiefenlänge erkannt und 3 cm mit 1:2-Regel begründet. Die „beliebig“-Aussage ist durch die Regelbegründung widerlegt."
+          ]
+        },
+        {
+          "id": "ma-schraegbild-4",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Körper ohne Rechenhilfe zählen (3 Hauptpunkte): Zähle beim neuen Quader ohne Rechner, Lineal, Formelkarte und ohne auf deine Zeichnung zurückzusehen Flächen, Kanten und Ecken. Begründe jeweils mit Vorderseite, Rückseite und Verbindungen. Schreibe erst danach einen kurzen Selbstcheck: Was musstest du bei A–D am stärksten überprüfen? Eine unbeobachtete Bearbeitung belegt den Hilfsmittelverzicht nicht.",
+          "sample": "6 Flächen: vorn/hinten, links/rechts, oben/unten. 12 Kanten: vier vorn, vier hinten, vier Verbindungen. 8 Ecken: vier vorn, vier hinten. Beim Selbstcheck könnte ich die wirkliche von der gezeichneten Tiefe unterscheiden. Ob ohne Hilfen gezählt wurde, kann die App nicht beobachten.",
+          "criteria": [
+            "1 Punkt für 6 Flächen mit Paarbegründung.",
+            "1 Punkt für 12 Kanten mit 4+4+4.",
+            "1 Punkt für 8 Ecken mit 4+4.",
+            "Der Selbstcheck dient Feedback und gibt keinen versteckten Punkt. Ohne beobachtete Bearbeitung Hilfsmittelfreiheit nicht als nachgewiesen markieren."
+          ]
+        },
+        {
+          "id": "ma-schraegbild-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer nach A–D · 6 getrennte Punkte: Zeichne auf Papier zwei Vorderflächen eines dritten Quaders, beide 7 × 4 cm in wirklicher Größe. Zeichne daran jeweils eine 45°-Tiefenkante nach rechts oben: links nach der Halb-Tiefen-Regel für die wirkliche Tiefe 5 cm, rechts mit der vollen Tiefe. Beschrifte die beiden gezeichneten Längen und erkläre, warum beide Skizzen denselben wirklichen Körper zeigen können. Zwei vollständige Körperbilder sind nicht nötig; zeige die Linien zur Papierprüfung.",
+          "sample": "Beide Vorderrechtecke 7 × 4 cm. Links 5 ÷ 2 = 2,5 cm gezeichnete Tiefenkante, rechts 5 cm; beide bei 45° nach rechts oben. Die reale Tiefe bleibt in beiden Fällen 5 cm. Nur die ausdrücklich gewählte Tiefenverkürzung der Projektion unterscheidet sich. Zeichnungs-/Winkelpunkte erfordern das tatsächliche Papierblatt.",
+          "criteria": [
+            "1 Zusatzpunkt für zwei tatsächlich gezeichnete Vorderflächen 7 × 4 cm.",
+            "1 Zusatzpunkt für 2,5 cm Halb-Tiefe links.",
+            "1 Zusatzpunkt für 5 cm volle Tiefe rechts.",
+            "1 Zusatzpunkt für beide gezeichneten, richtig beschrifteten 45°-Linien nach rechts oben.",
+            "1 Zusatzpunkt für denselben wirklichen Quader begründet.",
+            "1 Zusatzpunkt für die unterschiedliche Zeichenkonvention statt körperlicher Maßänderung. Ohne Papierbeleg Zeichnungs- und Messpunkte nicht als bestanden markieren."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Mathematik Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. § 2.2.7 PDF-S. 28–29 unter „Klassenstufe 8“: Prismen in verschiedenen Darstellungsformen erkennen und maßstäblich im Schrägbild und als Netz darstellen.",
+        "checkedAt": "2026-10-22"
+      }
     }
   ]
 });

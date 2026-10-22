@@ -102,6 +102,90 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "mnt-gemisch-forschungsweg",
+      "subjectId": "mnt",
+      "title": "Was verrät der erfundene Gemischbericht?",
+      "scope": "Freiwillige Klasse-7-Brücke und anspruchsvolle Wiederholung auf Basis des dokumentierten MNT-Ende-6-Niveaus. Das Fach steht laut Robert auf Lottes aktuellem Stundenplan; welche Fassung und Folge ihre Schule anwendet, ist offen. Die Prozent- und Fehlerkritik ist eine redaktionelle Vertiefung, kein behauptetes amtliches Klasse-7-Ziel.",
+      "levelStatus": "grade6-bridge",
+      "released": true,
+      "prerequisite": "Alle Stoffe, Massen und Berichte sind erfunden. Du brauchst keine Materialien und führst keinen Versuch zu Hause durch. Der MNT-Fachplan setzt 2026/27 Klasse 5 und 2027/28 Klasse 6 in Kraft; er hat keine amtliche Klasse-7-Geltung. Der hier benutzte Ende-6-Stand ist eine freiwillige Lernbrücke, keine Bestätigung deiner aktuellen Schuleinheit. Die Prozentrechnung ist bei Bedarf eine gestützte Erweiterung.",
+      "introduction": "Ein fiktives Team beschreibt ein trockenes Gemisch aus Eisenspänen, Sand und Kies. Der Magnet zieht laut Karte Eisenspäne an. Sandkörner sind kleiner als die Öffnungen des passenden Siebs, Kiesstücke größer; die Größe der Eisenspäne ist unbekannt. Das Team will die Materialien möglichst getrennt zurückgewinnen. Eine Messangabe wie „7 g“ ist ein Berichtswert; „alles ist rein“ wäre ein Schluss, der weitere Belege braucht. 20 Hauptpunkte und 6 getrennte Zusatzpunkte sind Lernrückmeldung, keine Schulnote.",
+      "passage": "FIKTIVE AUSGANGSKARTE · 40 g trockenes Gemisch aus Eisenspänen, Sand und Kies.\nEisenspäne: werden von einem geeigneten Magneten angezogen.\nSand: Körner kleiner als die Öffnungen des passenden Siebs.\nKies: Stücke größer als die Öffnungen desselben Siebs.\nDie Korngröße der Eisenspäne ist nicht angegeben.\n\nFIKTIVER BERICHT · Nach den Trennschritten wurden folgende Fraktionen gewogen:\nmagnetisch gesammelte eisenreiche Fraktion: 7 g\nim Sieb gebliebene grobe Fraktion: 19 g\ndurch das Sieb gelangte feine Fraktion: 11 g\nDie Bezeichnungen „eisenreich“, „grob“ und „fein“ beweisen noch keine Reinheit.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "text": "SPÄTERER FIKTIVER BERICHT · Ein zweiter Bericht beginnt wieder mit 40 g Gemisch. Die magnetisch gesammelte Fraktion wiegt nun 8 g, die grobe 20 g und die feine 12 g. Beurteile diesen Bericht getrennt vom ersten."
+      },
+      "tasks": [
+        {
+          "id": "mnt-gemisch-1",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 10,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "A · Forschungsplan (8 Hauptpunkte): 1. Formuliere eine prüfbare Frage und eine begründete Vermutung zum Trennen dieses Gemischs. 2. Nenne zwei Trennschritte mit jeweils passender Karteneigenschaft. Wähle eine Reihenfolge, die auch bei unbekannter Eisenspangröße funktioniert. 3. Nenne zwei unterschiedliche konkrete Massenangaben, die das Team für einen Vorher-/Nachher-Vergleich festhalten müsste.",
+          "sample": "Frage: Lassen sich die drei Bestandteile anhand der genannten Eigenschaften möglichst getrennt zurückgewinnen? Vermutung: Ein Magnet erfasst die angezogenen Eisenspäne; danach kann ein Sieb größere Kiesstücke von kleineren Sandkörnern trennen. Zuerst Magnet, dann Sieb, da die Größe der Eisenspäne unbekannt ist. Für die Bilanz: Ausgangsmasse 40 g und zurückgewonnene Gesamtmasse danach (hier 7 + 19 + 11 = 37 g) oder die drei Fraktionsmassen.",
+          "criteria": [
+            "2 Punkte: 1 für eine prüfbare Frage, 1 für eine mit einer Karteneigenschaft begründete Vermutung.",
+            "4 Punkte: je Schritt 1 für geeignetes Verfahren und 1 für passende Eigenschaft. Zuerst Magnet, dann Sieb; Sieben zuerst nur mit ausdrücklich nachgeholter magnetischer Prüfung beider Siebfraktionen als gleichwertig anerkennen.",
+            "2 Punkte: zwei verschiedene konkrete Massenangaben zum fairen Vorher-/Nachher-Vergleich, etwa 40 g Ausgangsmasse und 37 g zurückgewonnene Gesamtmasse oder die dazu benötigten Fraktionsmassen. Gleicher Magnet/Sieb allein ersetzt keine Massenangabe."
+          ]
+        },
+        {
+          "id": "mnt-gemisch-2",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 10,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "B · Ersten Bericht auswerten (8 Hauptpunkte): 1. Berechne die zusammen zurückgewonnene Masse und die Differenz zu 40 g, mit Rechenweg. 2. Wie viel Prozent der Ausgangsmasse wurden als Fraktionen zurückgewonnen? Zeige Division oder Bruch. 3. Prüfe die Aussage „Alles wurde zurückgewonnen und die drei Fraktionen sind rein.“ Trenne Massenbilanz und Reinheit und nenne für beide die Beleggrenze.",
+          "sample": "7 + 19 + 11 = 37 g; 40 − 37 = 3 g weniger zurückgewonnen als eingesetzt. 37/40 = 0,925 = 92,5 % Massenrückgewinnung. „Alles zurückgewonnen“ ist wegen der 3 g Differenz falsch. Ob die Fraktionen rein sind, ist offen: Namen und Massen sagen nicht, ob in jeder Fraktion nur der behauptete Stoff steckt.",
+          "criteria": [
+            "3 Punkte: 1 für 7 + 19 + 11 = 37 g, 1 für 40 − 37 = 3 g, 1 für richtige Einheit und Bezugsrichtung „3 g weniger zurückgewonnen“, nicht „verschwunden“.",
+            "2 Punkte: 1 für 37/40 als Bezug auf 40 g, 1 für 92,5 %. Prozent bezieht sich auf Rückgewinnungsmasse, nicht Reinheit.",
+            "3 Punkte: 1 gegen vollständige Rückgewinnung wegen 3 g Differenz, 1 für nicht belegte Reinheit, 1 für die Begründung, dass Fraktionsnamen und Massen den Stoffinhalt nicht zeigen. Keine zusätzlich nicht gestellte Prüfidee verlangen."
+          ]
+        },
+        {
+          "id": "mnt-gemisch-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C · Nächste Prüfung (4 Hauptpunkte): 1. Gib eine mögliche Erklärung für die fehlenden 3 g, ohne sie als Tatsache auszugeben. 2. Nenne eine konkrete Kontrolle für einen zweiten fiktiven Durchgang und die passende Angabe, die gleich bleiben oder zusätzlich gemessen werden müsste. 3. Warum beweist selbst eine vollständige Massenbilanz noch keine reine Fraktion? Du führst keinen Versuch aus.",
+          "sample": "Möglich wäre, dass Material beim Umfüllen an einem Behälter haftete; das ist nur eine Vermutung. In einem zweiten fiktiven Durchgang könnte das Team Behälter und Werkzeug vor und nachher getrennt wiegen und die anhaftende Masse erfassen, bei gleicher Ausgangsmasse. Auch wenn später 40 g wiedergewonnen würden, könnte eine Fraktion noch Sand und Eisen gemischt enthalten.",
+          "criteria": [
+            "1 Punkt für eine plausible, als Vermutung markierte Erklärung wie Haftung, nicht erfasste Reste oder Ablesefehler; keine fehlende Stoffart behaupten.",
+            "2 Punkte: 1 für konkrete Kontrollidee, 1 für passende gleiche oder zusätzliche Vergleichs-/Messangabe.",
+            "1 Punkt: gleiche Gesamtmasse beweist nicht den Stoffinhalt jeder einzelnen Fraktion."
+          ]
+        },
+        {
+          "id": "mnt-gemisch-4",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige spätere Änderung · 6 getrennte Zusatzpunkte: Der zweite Bericht nennt bei 40 g Ausgangsmasse 8 g magnetische, 20 g grobe und 12 g feine Fraktion. Berechne Gesamtmasse, Differenz und Rückgewinnungsanteil. Ist damit vollständige Massenrückgewinnung belegt? Ist Reinheit belegt? Nenne eine passende zusätzliche Angabe, die Reinheit einer Fraktion beurteilen helfen könnte, ohne einen echten Versuch auszuführen.",
+          "sample": "8 + 20 + 12 = 40 g; 40 − 40 = 0 g; 40/40 = 100 % Massenrückgewinnung. Damit ist die Massenbilanz im erfundenen Bericht vollständig, die Reinheit der einzelnen Fraktionen aber nicht gezeigt. Dafür bräuchte es eine Angabe zu deren tatsächlichem Stoffinhalt, etwa ob in einer Teilprobe der magnetischen Fraktion noch Sandkörner sind.",
+          "criteria": [
+            "Je 1 Zusatzpunkt für 40 g Summe, 0 g Differenz und 100 % Rückgewinnungsanteil.",
+            "1 Zusatzpunkt für vollständige Massenbilanz im fiktiven zweiten Bericht, 1 für weiterhin nicht belegte Reinheit.",
+            "1 Zusatzpunkt für eine fachlich passende zusätzliche Beobachtungs-/Prüfangabe zum Stoffinhalt einer Fraktion. Keine reale Durchführung verlangen; Zusatzpunkte nicht zur Hauptsumme addieren."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27: Klasse 5; 2027/28: Klasse 6",
+        "gradeBand": "MNT-Ende-6, 7-Brücke",
+        "competencyRef": "PDF-S. 2: 2026/27 nur Klasse 5, 2027/28 Klasse 6. § 2 PDF-S. 15: Ziel bis Abschluss Klasse 6. § 2.2 PDF-S. 16–18: Methoden mit Fachthema verbinden, Gemisch aus Eisenspänen/Sand/Kies mit Magnet/Sieb trennen, Stoffeigenschaften nutzen. Kein amtlicher Klasse-7-Plan.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
       "id": "ph-weg-zeit-karte",
       "subjectId": "ph",
       "title": "Was verrät die Weg-Zeit-Karte?",

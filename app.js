@@ -13,10 +13,13 @@
     'grade7': 'Klasse 7 · Unterrichtsstand offen',
     'grade78-flex': 'Klasse 7/8 · Unterrichtsfolge offen',
     'grade8-outlook': 'Ausblick Klasse 8 · freiwillig',
+    'grade6-bridge': 'MNT-Ende 6 · freiwillige Klasse-7-Brücke',
     'additional-unclear': 'Zusatzthema · Jahrgang offen'
   };
-  const isGrade6Review = topic => topic.releaseEvidence?.gradeBand === '6-Grundlage, 7-Wiederholung';
-  const levelLabel = topic => isGrade6Review(topic)
+  const isGrade6Review = topic => topic.releaseEvidence?.gradeBand === '6-Grundlage, 7-Wiederholung' || topic.levelStatus === 'grade6-bridge';
+  const levelLabel = topic => topic.levelStatus === 'grade6-bridge'
+    ? levelLabels['grade6-bridge']
+    : isGrade6Review(topic)
     ? 'Wiederholung Klasse 6 · freiwillig'
     : levelLabels[topic.levelStatus] || 'Jahrgangsbezug offen';
   const matchesStage = (topic, stage) => stage === 'all'
@@ -317,7 +320,7 @@
 
   function taskResult(task, value) {
     if (!value || !String(value).trim()) return { status: 'empty', label: 'Noch nicht beantwortet.' };
-    if (task.kind === 'reflection') return { status: 'manual', label: task.manualBookReview ? 'Offene Buchantwort: Die App kennt deine Ausgabe nicht und kann den Inhalt nicht bewerten. Prüfe die Stellen im Buch mit einer erwachsenen Person.' : task.adultOnlySolution ? 'Offene Antwort: Besprecht die Sachlösung nach dem wirklichen Gespräch im Erwachsenenbereich. Keine automatische Bewertung.' : 'Offene Antwort: Vergleiche mit Musterlösung und Kriterien. Keine automatische Bewertung.' };
+    if (task.kind === 'reflection') return { status: 'manual', label: task.manualBookReview ? 'Offene Buchantwort: Die App kennt deine Ausgabe nicht und kann den Inhalt nicht bewerten. Prüfe die Stellen im Buch mit einer erwachsenen Person.' : task.adultOnlySolution ? 'Offene Antwort: Besprecht die Sachlösung nach deiner eigenen Bearbeitung im Erwachsenenbereich. Keine automatische Bewertung.' : 'Offene Antwort: Vergleiche mit Musterlösung und Kriterien. Keine automatische Bewertung.' };
     if (task.kind === 'decimal') {
       const normalized = String(value).trim().replace(/\u2212/g, '-').replace(',', '.');
       if (!/^[+-]?\d+(?:\.\d{1,2})?$/.test(normalized)) return { status: 'invalid', label: 'Bitte einen Eurobetrag mit höchstens zwei Nachkommastellen eingeben.' };
@@ -546,7 +549,7 @@
           const reveal = button(task.manualBookReview ? 'Methodenbeispiel bewusst öffnen' : 'Musterlösung bewusst öffnen', () => { reveal.remove(); showSolution(); }, 'reveal-sample');
           result.append(reveal);
         } else if (task.adultOnlySolution || topic.stagedReading) {
-          appendText(result, 'p', 'muted', topic.stagedReading ? 'Die Musterlösung steht im Erwachsenenbereich. Vergleiche erst deine eigene Lektüre und schliesse die Hauptaufgaben ab.' : 'Die Sachlösung steht nur im Erwachsenenbereich. Besprecht sie nach dem wirklichen Gespräch; die App kann keine mündliche Leistung prüfen.');
+          appendText(result, 'p', 'muted', topic.stagedReading ? 'Die Musterlösung steht im Erwachsenenbereich. Vergleiche erst deine eigene Lektüre und schliesse die Hauptaufgaben ab.' : 'Die Sachlösung steht nur im Erwachsenenbereich. Besprecht sie nach deiner eigenen Bearbeitung; die App kann offene Antworten nicht selbst bewerten.');
         } else showSolution();
       }
     }, 'check-button'));
@@ -611,7 +614,7 @@
   function renderSources() {
     const host = $('#parent-source-list'); host.replaceChildren();
     const overview = 'https://www.schulportal-thueringen.de/web/guest/lehrplaene/gymnasium';
-    const currentIds = new Set(['de', 'en', 'fr', 'ma', 'mbi']);
+    const currentIds = new Set(['de', 'en', 'fr', 'ma', 'mbi', 'bi', 'ch', 'ph']);
     for (const subject of catalog.subjects) {
       const card = create('article', 'source-card');
       appendText(card, 'h3', '', subject.name);

@@ -1,15 +1,16 @@
 {
-  "builtAt": "2026-10-22T03:33:18.997Z",
-  "releaseVersion": "2026.10.22-physikzusatz.1",
+  "builtAt": "2026-10-22T03:46:34.056Z",
+  "releaseVersion": "2026.10.22-mntbruecke.1",
   "newTopicIds": [
-    "ph-weg-zeit-karte"
+    "mnt-gemisch-forschungsweg"
   ],
   "changeLog": [
-    "Neues freiwilliges Zusatzfach Physik und Astronomie mit einem gestützten 7/8-Fall zu fiktiven Weg-Zeit-Daten. 20 Hauptpunkte und sechs getrennte Zusatzpunkte; keine reale Messung und keine Schulnote.",
-    "Die geänderte Datenkarte erscheint nach vier Hauptantworten und auf einer getrennten Kinder-Druckseite. Das Fach ist kein bestätigtes eigenes Unterrichtsfach von Lotte; die Zuordnung zu MNT bleibt offen."
+    "Neue freiwillige MNT-Brücke für Lottes bestätigtes Stundenplanfach: fiktiver Gemischbericht auf dem amtlich dokumentierten Ende-6-Niveau, mit 20 Hauptpunkten und sechs getrennten Zusatzpunkten. Der neue Fachplan gilt 2026/27 erst für Klasse 5 und bestätigt keine Klasse-7-Einheit.",
+    "Die geänderte Datenkarte erscheint nach drei Hauptantworten auf einer getrennten Kinder-Druckseite. Der Jahrgangsfilter zeigt die Brücke ausdrücklich; der Quellenbereich kennzeichnet die freiwilligen Naturwissenschaften korrekt."
   ],
-  "rollbackCommit": "d17a3cfc34e4b65f34394c922d984712debcd5c1",
+  "rollbackCommit": "716a2b35166cf2f2923be9fcc3c395afa38ed9e1",
   "releasedTopics": [
+    "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
     "ch-stoffaenderung-berichtskarten",
     "bi-wirbellose-bluehstreifen",
@@ -87,6 +88,7 @@
     "fr-bilderausstellung-vortrag"
   ],
   "subjects": [
+    "mnt",
     "ph",
     "ch",
     "bi",

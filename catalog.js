@@ -5585,6 +5585,93 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "de-rollenbiografie-nila",
+      "subjectId": "de",
+      "title": "Nila erzählt, wer sie ist",
+      "scope": "Freiwilliger, gestützter Klasse-7-Einstieg in die exemplarische 7/8-Textsorte Rollenbiografie; Schreibziel bis Ende Klasse 8. Keine bestätigte aktuelle Schuleinheit.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Nila und alle Ereignisse sind erfunden. Verwende keine eigenen Namen oder Erlebnisse. Die App prüft nur, ob A–C ausgefüllt sind; sie bewertet den freien Text nicht automatisch. Die Mittwochskarte erscheint nach dem Festhalten von A–C.",
+      "introduction": "Eine Rollenbiografie lässt eine erfundene Figur in der Ich-Form über ihr Leben, Interessen, Beziehungen und Wünsche sprechen. Sie beschreibt mehr als einen einzigen Tag und mehr als Gedanken in einem Moment. Plane zuerst: Was steht wirklich in L1–L11, und was ergänzt du selbst passend zur Figur? Eigene Ideen dürfen den Text nicht widersprechen. Wie sich der Stecker löste, bleibt unbekannt; niemandem eine erwiesene Schuld zuschreiben. 20 Hauptpunkte und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "passage": "EIGENS ERFUNDENE GESCHICHTE · Hinter dem Lichtpult\nL1 · Nila ist dreizehn und seit zwei Monaten in der Theatergruppe ihrer Schule.\nL2 · Sie arbeitet lieber am Lichtpult, als selbst auf der Bühne zu stehen. Warum, hat sie niemandem erklärt.\nL3 · In einem Heft notiert sie, bei welchem Satz welche Lampe eingeschaltet werden soll.\nL4 · Als Cem neu zur Gruppe kommt, zeigt Nila ihm die Zeichen in ihrem Heft und lässt ihn einen Lichtwechsel ausprobieren.\nL5 · Am Montag vor der Probe bleibt eine Lampe dunkel. Einige aus der Gruppe schauen Nila an.\nL6 · Nila prüft ihren Eintrag; der Lichtwechsel steht dort richtig. Sie bittet die betreuende Frau Adler, mit ihr die Verbindung zur Lampe zu prüfen.\nL7 · Frau Adler findet einen lockeren Stecker. Wie er sich gelöst hat, lässt sich nicht feststellen. Die Lampe funktioniert nach dem Einstecken wieder.\nL8 · Cem sagt, er habe vorher den Wagen mit der Lampe verschoben. Ob dabei der Stecker locker wurde, weiß er nicht.\nL9 · Nila schlägt vor, die Steckverbindung künftig vor jeder Probe gemeinsam zu kontrollieren, statt jemanden zu beschuldigen.\nL10 · Später bietet die Regisseurin ihr eine kurze Ansage auf der Bühne an. Nila lehnt ab und möchte lieber die Lichter für den Anfang einrichten. Die Regisseurin stimmt zu.\nL11 · Auf dem Heimweg schreibt Nila in ihr Heft, dass sie Cem bei der nächsten Probe einen weiteren Lichtwechsel zeigen will.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGE MITTWOCHSKARTE NACH A–C · Zwei Tage später erklärt Nila am Lichtpult der Gruppe in drei Sätzen das erste Lichtzeichen. Danach zeigt sie Cem den angekündigten zweiten Lichtwechsel. Auf die Frage, ob sie nun die Ansage auf der Bühne übernehmen möchte, antwortet sie: „Dort möchte ich im Moment nicht sprechen. Das Licht erkläre ich aber gern von hier aus.“ Wer am Montag den Stecker löste, bleibt unbekannt. Diese Szene gehört nicht zu L1–L11."
+      },
+      "tasks": [
+        {
+          "id": "de-rollenbio-1",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "A · Text und eigene Idee trennen (6 Hauptpunkte): Notiere drei sichere Angaben über Nila, jede mit passender Zeile. Erfinde danach zwei mögliche Ergänzungen zu Vorgeschichte oder Wunsch, die L1–L11 nicht widersprechen. Erkläre zuletzt in einem Satz, warum diese Ergänzungen keine Texttatsachen sind. Stichwörter genügen.",
+          "sample": "Sicher: Nila ist dreizehn und seit zwei Monaten in der Gruppe (L1); sie notiert Lichtzeichen im Heft (L3); sie zeigt Cem einen Lichtwechsel (L4). Eigene Ideen: Schon früher zeichnete ich Lichtpläne für ausgedachte Geschichten; beim nächsten Stück möchte ich die ganze Lichtfolge planen. Diese beiden Ergänzungen stehen nicht in L1–L11, sondern sind passende Figurenideen.",
+          "criteria": [
+            "3 Punkte für drei verschiedene zutreffende Angaben mit passender Zeile, je 1; bei richtigem Fakt ohne Zeile je 0,5.",
+            "2 Punkte für zwei unterscheidbare, textverträgliche eigene Ergänzungen, je 1; Textfakten zählen hier nicht nochmals.",
+            "1 Punkt für die ausdrückliche Grenze „nicht im Text, eigene Idee“. Eine Ursache für den lockeren Stecker bleibt unbelegt."
+          ]
+        },
+        {
+          "id": "de-rollenbio-2",
+          "kind": "reflection",
+          "points": 11,
+          "writingLines": 22,
+          "inputRows": 16,
+          "adultOnlySolution": true,
+          "prompt": "B · Rollenbiografie (11 Hauptpunkte): Schreibe einen zusammenhängenden Text in Nilas Ich-Form. Zeige ihr Interesse am Lichtpult und ihre Sicht auf die Bühne, ihre Beziehung zu Cem oder zur Gruppe sowie ihren Umgang mit der dunklen Lampe. Nutze mindestens drei sichere Angaben und zwei passende Ergänzungen aus A. Etwa 130–190 Wörter helfen beim Planen, sind aber keine Bewertungsschwelle. Die Steckerursache darf nicht als erwiesene Schuld erscheinen.",
+          "sample": "Ich bin Nila, dreizehn Jahre alt, und seit zwei Monaten gehöre ich zur Theatergruppe. Am liebsten arbeite ich am Lichtpult. Schon bevor ich in die Gruppe kam, zeichnete ich manchmal Lichtpläne für erfundene Geschichten. Jetzt notiere ich in einem Heft, bei welchem Satz welche Lampe angehen soll. Als Cem neu war, zeigte ich ihm meine Zeichen und ließ ihn einen Lichtwechsel ausprobieren. Ich möchte, dass wir die Arbeit gemeinsam verstehen. Am Montag blieb eine Lampe dunkel. Mein Eintrag stimmte; ich bat Frau Adler, mit mir die Verbindung zu prüfen. Sie fand einen lockeren Stecker. Wie er sich gelöst hatte, weiß ich nicht. Deshalb möchte ich vor den Proben die Verbindung mit den anderen kontrollieren, statt jemandem die Schuld zu geben. Die Ansage auf der Bühne habe ich abgelehnt; lieber richte ich das Licht für den Anfang ein. Beim nächsten Stück würde ich gern die ganze Lichtfolge planen.",
+          "criteria": [
+            "2 Punkte: durchgehend Nilas Ich-Perspektive (1) und ein zeitübergreifendes Selbstbild statt eines reinen Montagsberichts (1).",
+            "3 Punkte: drei verschiedene zutreffende Angaben aus L1–L11 sinnvoll eingebaut, je 1; eine erfundene Steckerursache ist kein Textfakt.",
+            "2 Punkte: zwei unterschiedliche, textverträgliche eigene Ergänzungen zu Vorgeschichte, Interesse oder Wunsch, je 1; A dokumentiert ihren Quellenstatus.",
+            "2 Punkte: nachvollziehbare Haltung zu Lichtpult/Bühne (1) und Beziehung zu Cem oder Gruppe mit plausibler Handlung oder Absicht (1). Eine in A kenntlich gemachte, textverträgliche Figurenidee zur Motivation ist erlaubt; die unbekannte Steckerursache nicht als Textfakt behaupten.",
+            "2 Punkte: sinnvoll geordnet und verständlich für Außenstehende (1), überwiegend passende Ich-Formulierungen (1). Keine Punkteschwelle für Wortzahl; kleine Fehler ohne Sinnverlust nicht doppelt abziehen."
+          ]
+        },
+        {
+          "id": "de-rollenbio-3",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C · Drei Widersprüche berichtigen (3 Hauptpunkte): Eine Person schlägt vor: „Ich leite die Theatergruppe seit zwei Jahren. Cem hat den Stecker nachweislich gelöst. Die Ansage auf der Bühne habe ich übernommen.“ Korrigiere jeden Satz in Nilas Ich-Form und nenne eine passende Zeile. Ein kurzer richtiger Satz pro Fehler genügt.",
+          "sample": "L1: Ich bin erst seit zwei Monaten Mitglied der Theatergruppe. L1 belegt keine Leitungsrolle. L7 oder L8: Wie der Stecker locker wurde, weiß ich nicht; Cems Wagenbewegung beweist das nicht. L10: Ich habe die Bühnenansage abgelehnt und wollte lieber das Licht einrichten.",
+          "criteria": [
+            "Je Fehler 1 Punkt: 0,5 für die sachlich richtige Korrektur in Ich-Form und 0,5 für eine passende Zeile.",
+            "Bei L1 müssen sowohl „zwei Jahre“ als auch die unbelegte Leitung entfallen; „ich leite seit zwei Monaten“ ist nicht voll berichtigt.",
+            "Für die Steckerursache ist L7 oder L8 mit passender Erklärung zulässig; für die Bühnenentscheidung L10."
+          ]
+        },
+        {
+          "id": "de-rollenbio-4",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 12,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Mittwochskarte · 6 getrennte Zusatzpunkte: 1. Nenne zwei neue sichere Informationen über Nila. 2. Prüfe beide Teile der Behauptung „Nila spricht niemals vor einer Gruppe und hat ihre Entscheidung gegen die Bühne vollständig aufgegeben“. 3. Schreibe einen zweigliedrigen Nachtrag in Nilas Ich-Form: Was tat sie am Mittwoch, und was gilt für die Bühne weiterhin? Ändere Montag nicht rückwirkend.",
+          "sample": "Neu: Nila erklärte am Mittwoch der Gruppe vom Lichtpult aus das erste Lichtzeichen und zeigte Cem den zweiten Wechsel. Sie sprach also vor der Gruppe, aber nicht auf der Bühne; die Bühnenansage lehnte sie weiterhin ab. Nachtrag: „Am Mittwoch habe ich vom Lichtpult aus der Gruppe ein Lichtzeichen erklärt und Cem einen weiteren Wechsel gezeigt. Auf der Bühne möchte ich im Moment trotzdem nicht sprechen.“",
+          "criteria": [
+            "2 Zusatzpunkte: zwei verschiedene neue sichere Informationen aus der Mittwochsszene, je 1.",
+            "2 Zusatzpunkte: „niemals vor einer Gruppe“ widerlegt (1), fortgesetzte Ablehnung der Bühnenansage erkannt (1).",
+            "2 Zusatzpunkte: neue Handlung in Nilas Ich-Form (1) und weiterhin geltende Bühnenbegrenzung (1). Keine rückwirkende Montagänderung oder erfundene Steckerursache."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Deutsch Klasse 7 ab 2026/27. § 2.2.4 PDF-S. 29–30: Schreibziele bis Ende Klasse 8. § 3.4 PDF-S. 50: Rollenbiografien exemplarisch in Klassenstufen 7/8.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
       "id": "de-innerer-monolog-projekttisch",
       "subjectId": "de",
       "title": "Minas Gedanken am Projekttisch",
@@ -5741,6 +5828,108 @@ window.LOTTE_CATALOG = Object.freeze({
         "gradeBand": "8",
         "competencyRef": "PDF-S. 2: Inkraftsetzung für Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. § 2.2.2 auf PDF-S. 24–25 unter Klassenstufe 8: digitale Inhalte planen/erstellen, Formate und technische Aspekte, Zugänglichkeit, Veröffentlichungswege und Wirkung auf Zielgruppen.",
         "checkedAt": "2026-10-21"
+      }
+    },
+    {
+      "id": "mbi-publikationswege-quellenkarten",
+      "subjectId": "mbi",
+      "title": "Wo könnte eine Infokarte sichtbar werden?",
+      "scope": "Freiwilliger 7/8-Quellenvergleich zweier echter Webanwendungen zum MBI-I2-Zielhorizont Ende Klasse 8. Keine aktuelle Schuleinheit, Konto- oder Veröffentlichungsprobe.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Alle Inhalte und die Zwölfergruppe sind erfunden. Vergleiche nur die datierten Quellkarten; lege kein Konto und keine Website an, lade nichts hoch und verwende keine echten Namen oder Fotos. Die App bewertet offene Antworten nicht automatisch. Die spätere Transferfrage erscheint, sobald A–D festgehalten sind.",
+      "introduction": "Eine erfundene Lesegruppe hat eine Infokarte aus eigenem Text und einem selbst gezeichneten Buchsymbol. Die erste Karte dürfen nur zwölf ausdrücklich eingeladene Personen sehen; öffentliche Erreichbarkeit ist dafür ausgeschlossen. Später könnte eine ganz neue Karte öffentlich sein. Vergleiche Google Sites und GitHub Pages anhand der folgenden offiziellen, sinngemäß wiedergegebenen Quellkarten vom 22. Oktober 2026. Funktionen eines Dienstes sind noch kein Nachweis, dass ein konkretes Schul- oder Familienkonto sie richtig freigeschaltet hat. Wo die Karten etwas nicht belegen, schreibe „offen“. Es wird nichts veröffentlicht.",
+      "passage": "QUELLKARTE G · GOOGLE SITES · offizielle Hilfe, abgerufen 22.10.2026\nG1 · Text und Bilder können in einer Oberfläche mit Textfeldern und Einfügen-Befehlen bearbeitet werden. Vor der Veröffentlichung gibt es eine Vorschau; danach braucht es einen eigenen Publish-Schritt.\nG2 · Für die veröffentlichte Site nennt Google „Restricted“ und „Public“. Bei Restricted können bestimmte Personen oder Gruppen als Lesende eingetragen werden. Ein Schul- oder Arbeitskonto kann weitere Optionen zeigen. Ob die nötige Option im konkreten Konto verfügbar und korrekt gesetzt ist, wurde nicht geprüft.\nG3 · Für Bilder gibt es eine Alternativtext-Funktion. Eine zugängliche Karte entsteht dadurch nicht automatisch. Bei einer öffentlichen Site kann man Suchmaschinen um Nichtanzeige bitten; Google garantiert diese Wirkung nicht. Das ist keine Zugangssperre.\n\nQUELLKARTE H · GITHUB PAGES · offizielle Dokumentation, abgerufen 22.10.2026\nH1 · Pages veröffentlicht eine statische Website aus HTML-, CSS- und JavaScript-Dateien eines GitHub-Repositories. Veröffentlichungsquelle kann ein Zweig/Ordner oder ein Buildablauf sein.\nH2 · GitHub warnt: Normale Pages-Sites sind öffentlich erreichbar, selbst wenn das Quell-Repository privat ist. Die gesonderte private Pages-Site beschreibt GitHub für organisationsgetragene Projektseiten aus privaten oder internen Repositories in Enterprise Cloud; Lesende brauchen dann Repository-Leserecht. Das ist keine allgemein verfügbare Zwölferliste.\nH3 · Berechtigte können eine Pages-Site „unpublish“: Die aktuelle Bereitstellung verschwindet. Repository-Inhalt und Einstellungen bleiben erhalten. Frühere Kopien verschwinden dadurch nicht nachweislich.\n\nARBEITSWÖRTER · Restricted = Zugriff auf die veröffentlichte Site begrenzt; Public = öffentlich erreichbar; Repository = Ablage der Projektdateien; unpublish = aktuelle Website-Bereitstellung beenden. Repository-Zugang und Website-Zugang sind getrennte Fragen.\n\nORIGINALE ZU G1–G3 · Google Sites Help: Add or edit text and images, Publish and share your site, Make your site more accessible.\nhttps://support.google.com/sites/answer/90538?hl=en-GB\nhttps://support.google.com/sites/answer/6372880?hl=en-GB\nhttps://support.google.com/sites/answer/7529116?hl=en\nORIGINALE ZU H1–H3 · GitHub Docs: What is GitHub Pages?, Configuring a publishing source, Changing the visibility of a Pages site (Enterprise Cloud), Unpublishing a Pages site.\nhttps://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages\nhttps://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site\nhttps://docs.github.com/en/enterprise-cloud@latest/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site\nhttps://docs.github.com/en/pages/getting-started-with-github-pages/unpublishing-a-github-pages-site",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGER TRANSFER NACH A–D · Jemand sagt: „Wir nehmen GitHub Pages mit privatem Repository. Dann sehen nur die zwölf Eingeladenen die Site. Und falls etwas schiefgeht, klicken wir unpublish; damit ist alles gelöscht.“ Prüfe diese neue Behauptung anhand der Quellkarten. Es wird weiterhin nichts veröffentlicht."
+      },
+      "tasks": [
+        {
+          "id": "mbi-pubwege-1",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 12,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "A · Aussagen belegen und Begriffe trennen (5 Hauptpunkte): Erstelle eine kurze Vergleichstabelle zu Bearbeiten/Vorschau, Veröffentlichen und Sichtbarkeit. Nenne zu jedem Dienst mindestens zwei konkrete Kartenbelege mit G- oder H-Nummer. Erkläre in einem Satz den Unterschied zwischen privatem Repository und privat sichtbarer veröffentlichter Site. Markiere unbelegte Eigenschaften als offen.",
+          "sample": "Google Sites: G1 belegt visuellen Editor, Vorschau und gesondertes Publish; G2 Restricted/Public für die veröffentlichte Site. GitHub Pages: H1 belegt statische Dateien und Publikationsquelle; H2 warnt vor öffentlicher Site trotz privatem Repository. Ein privates Repository begrenzt den Zugang zu Quelldateien, eine privat sichtbare Site den Zugang zur bereitgestellten Website. Für GitHub nennt H1 keine visuelle Bearbeitungsvorschau; diese bleibt hier offen.",
+          "criteria": [
+            "2 Punkte: zwei zutreffende, unterscheidbare Google-Sites-Belege mit Kartenbezug.",
+            "2 Punkte: zwei zutreffende, unterscheidbare GitHub-Pages-Belege mit Kartenbezug.",
+            "1 Punkt: Repository-Dateizugang und Sichtbarkeit der veröffentlichten Site richtig getrennt. Unbelegtes nicht erfinden."
+          ]
+        },
+        {
+          "id": "mbi-pubwege-2",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 13,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "B · Für zwölf Eingeladene entscheiden (6 Hauptpunkte): Beurteile beide Dienste für die erste, nichtöffentliche Karte. Gib eine bedingte Empfehlung und nenne die im konkreten Konto noch nötige Prüfung. Warum genügen ein privates GitHub-Repository oder eine Suchmaschinen-Nichtanzeigebitte nicht? Trenne Quellbefund von deiner Schlussfolgerung.",
+          "sample": "G2 beschreibt Restricted mit bestimmten Lesenden; Google Sites ist deshalb ein bedingter Kandidat. Vor echter Nutzung müsste die erlaubte Kontooption samt exakt zwölf berechtigten Lesenden geprüft werden. H2 zeigt, dass eine normale Pages-Site trotz privatem Repository öffentlich sein kann. Die private Enterprise-Cloud-Variante braucht passende Organisation und Leserechte, die hier nicht belegt sind. G3 sagt selbst, dass Nichtanzeige in Suchmaschinen nicht garantiert ist; sie sperrt keinen direkten URL-Aufruf. Daher zunächst keine Veröffentlichung, solange Zugang und Schulregeln ungeklärt sind.",
+          "criteria": [
+            "2 Punkte: Restricted als bedingten Kandidaten samt konkreter Konto- und Leserprüfung.",
+            "2 Punkte: normales privates Repository nicht als Site-Schutz behandelt und Enterprise-Cloud-Ausnahme korrekt eingegrenzt.",
+            "1 Punkt: Suchmaschinen-Bitte nicht als Zugriffssperre gewertet.",
+            "1 Punkt: Quellenbefund und eigene bedingte Empfehlung sichtbar getrennt. Begründetes Aufschieben ist zulässig."
+          ]
+        },
+        {
+          "id": "mbi-pubwege-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 11,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "C · Zugänglichkeit und Rücknahme planen (5 Hauptpunkte): Formuliere einen sinnvollen Alternativtext für das selbst gezeichnete Buchsymbol, falls es „Hier geht es zu den Lesetipps“ bedeutet. Nenne zwei weitere konkrete Prüfungen vor möglicher Veröffentlichung. Erkläre anhand H3, was unpublish bewirkt und welcher Löschschluss falsch wäre.",
+          "sample": "Als Funktionsbeschreibung passt „Zu den Lesetipps“ oder bei einem echten Link „Lesetipps öffnen“, nicht bloß „Buch“. Vor einer Freigabe prüfe ich in der Vorschau Lesbarkeit/Reihenfolge und ob die tatsächliche Sichtbarkeit auf Berechtigte begrenzt ist; außerdem Rechte am eigenen Symbol und Text. H3: Unpublish beendet die aktuelle Bereitstellung, lässt aber Repository und Einstellungen bestehen. Bereits gesehene oder kopierte Inhalte sind dadurch nicht nachweislich gelöscht.",
+          "criteria": [
+            "1 Punkt: Alternativtext vermittelt Zweck oder Funktion statt nur Bildform.",
+            "2 Punkte: zwei unterschiedliche, konkrete Vorabprüfungen, je 1.",
+            "1 Punkt: unpublish als Ende der aktuellen Bereitstellung erklärt.",
+            "1 Punkt: keine automatische Löschung von Repository oder früheren Kopien behauptet."
+          ]
+        },
+        {
+          "id": "mbi-pubwege-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "D · Andere Zielgruppe (4 Hauptpunkte): Eine neue Karte aus fiktivem Text und eigenem Symbol dürfte öffentlich sein. Welche Anwendung wäre bei fertigen HTML-Dateien plausibel, welche ohne HTML-Kenntnisse? Begründe beide mit je einem Kartenvorteil und einer Grenze. Entscheide nicht nach unbekannten Preisen, Altersregeln oder Kontofunktionen.",
+          "sample": "Für fertige HTML-Dateien ist GitHub Pages wegen H1 plausibel; Grenze: öffentliche Reichweite und die nötige eigene Qualität der Dateien. Ohne HTML-Kenntnisse ist Google Sites wegen G1 mit Editor und Vorschau plausibel; Grenze: tatsächliche Konto- und Sichtbarkeitseinstellung sowie Zugänglichkeit müssen geprüft werden. Das sind bedingte Empfehlungen, keine Klickfreigabe.",
+          "criteria": [
+            "2 Punkte: GitHub Pages bei fertigem HTML aus H1 begründet und eine reale Grenze genannt.",
+            "2 Punkte: Google Sites ohne HTML-Kenntnisse aus G1 begründet und eine reale Grenze genannt. Andere belegte bedingte Lösungen gelten."
+          ]
+        },
+        {
+          "id": "mbi-pubwege-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 12,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer · 6 getrennte Zusatzpunkte: Zerlege „privates Repository ⇒ nur zwölf sehen die Site“ und „unpublish ⇒ alles gelöscht“ in zwei prüfbare Behauptungen. Bewerte jede mit einer konkreten Quellkarte, formuliere eine haltbare Ersatzentscheidung für die erste Karte und nenne eine schulische oder Kontoinformation, die vor echter Nutzung geprüft werden müsste.",
+          "sample": "Behauptung 1 ist nach H2 falsch: Ein privates Repository macht eine normale Pages-Site nicht privat; nur eine eng begrenzte Enterprise-Cloud-Organisationsvariante ist dokumentiert. Behauptung 2 ist nach H3 falsch: Unpublish entfernt die aktuelle Bereitstellung, nicht Repository-Inhalte oder frühere Kopien. Für die erste Karte würde ich eine konkret verfügbare Restricted-Option mit den richtigen Leserechten prüfen oder die Veröffentlichung aufschieben. Vorher müssen Schulfreigabe und Kontooption geklärt sein.",
+          "criteria": [
+            "2 Zusatzpunkte: erste Behauptung und H2-Gegenbeleg.",
+            "2 Zusatzpunkte: zweite Behauptung und H3-Gegenbeleg.",
+            "1 Zusatzpunkt: fachlich haltbare Ersatzentscheidung für die erste Karte.",
+            "1 Zusatzpunkt: eine konkrete noch zu prüfende Schul- oder Kontoinformation. Nichts tatsächlich veröffentlichen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: MBI Klasse 7 ab 2026/27. § 2.2.2 PDF-S. 24–25: Webanwendungen zur Veröffentlichung von Medienprodukten unter dem Zielhorizont Ende Klasse 8 analysieren und bewerten.",
+        "checkedAt": "2026-10-22"
       }
     },
     {

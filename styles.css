@@ -157,7 +157,7 @@ body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body
   @top-left{content:"Lotte & Lea · Lösungsblatt";font:8pt Arial,sans-serif;color:#555}
   @top-right{content:"Seite " counter(page) " von " counter(pages);font:8pt Arial,sans-serif;color:#555}
 }
-.reading-passage,.print-passage{white-space:pre-line}
+.reading-passage,.print-passage{white-space:pre-line;overflow-wrap:anywhere}
 @media print{body[data-print-mode^="adult"] .print-task{break-inside:auto}}
 @media print{body[data-print-mode^="adult"] #print-surface{font-size:10pt}body[data-print-mode^="adult"] .print-task h3{font-size:10pt}}
 .level-tag{display:inline-block;align-self:flex-start;background:#e5f1ed;color:#155249;border-radius:999px;padding:.22rem .65rem;font-size:.78rem;font-weight:750;line-height:1.35}
@@ -204,6 +204,7 @@ body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body
 @media print{.print-diagram{break-inside:avoid;margin:.35rem 0 .7rem}.print-diagram img{max-height:90mm;object-fit:contain}.print-diagram figcaption{font-size:8pt}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="ma-druckzeit-2"]{break-before:page;break-inside:avoid}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="fr-camille-3"]{break-before:page;break-inside:avoid}}
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="mbi-pubwege-4"]+.print-passage{break-before:page;break-inside:avoid}body[data-print-mode^="adult"] .print-task[data-task-id="mbi-pubwege-5"]{break-inside:avoid}}
 @media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="en-leo-maya-1"]){font-size:9pt;line-height:1.12}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="en-leo-maya-1"]) .print-task{margin-bottom:.5rem}body[data-print-mode^="adult"] .print-task[data-task-id="en-leo-maya-3"]{break-before:page}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="ma-zahlbereiche-3"]{break-before:page}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="ma-termstruktur-3"]{break-before:page}}

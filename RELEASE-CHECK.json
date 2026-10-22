@@ -1,15 +1,15 @@
 {
-  "builtAt": "2026-10-22T04:00:21.012Z",
-  "releaseVersion": "2026.10.22-pilotintegration.1",
+  "builtAt": "2026-10-22T04:18:53.163Z",
+  "releaseVersion": "2026.10.22-rollenbio.i2.1",
   "newTopicIds": [
-    "ma-diagrammrevision-pausenraum",
-    "de-verlaufsprotokoll-ausleihplatz"
+    "de-rollenbiografie-nila",
+    "mbi-publikationswege-quellenkarten"
   ],
   "changeLog": [
-    "Zwei geprüfte Piloten aus den Unterstützungschats: freiwilliges Deutsch-Verlaufsprotokoll und Mathematik-Diagrammrevision mit selbst erstellter SVG. Je 20 Haupt- und sechs getrennte Zusatzpunkte; beide sind 7/8-Lernwege mit Zielhorizont Ende Klasse 8 und keine bestätigten aktuellen Schuleinheiten.",
-    "Die Kinder-Druckausgabe enthält bei beiden Piloten die Zusatzseite erst nach Freigabe im Übungsraum. Fehler in der Deutsch-Belegrubrik und vorzeitiger Druck wurden korrigiert; 76 ältere Themen bleiben unverändert."
+    "Zwei weitere freiwillige 7/8-Wege mit Ende-8-Ziel: Nilas Rollenbiografie als zeitübergreifender Ich-Text und MBI-Quellenvergleich Google Sites/GitHub Pages ohne Konto oder Veröffentlichung. Je 20 Haupt- und sechs getrennte Zusatzpunkte; keine bestätigten aktuellen Schuleinheiten.",
+    "Die Kinder-Druckausgabe zeigt Mittwochskarte und MBI-Transfer erst nach A–C beziehungsweise A–D. Zwei Rollenbiografie-Rubriken wurden nach unabhängigem Gegencheck korrigiert; die sieben MBI-Originalquellen bleiben datierte Quellkarten. Die bisherigen 78 Online-Themen bleiben unverändert."
   ],
-  "rollbackCommit": "7ac2da5e6dd4ad6bc4059f6724f4701bbef6688b",
+  "rollbackCommit": "b5b3d26d411dc54dbeeef865be162d1b6ac8fb40",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -78,8 +78,10 @@
     "de-pausenraum-folie-handout",
     "ma-diagrammrevision-pausenraum",
     "de-verlaufsprotokoll-ausleihplatz",
+    "de-rollenbiografie-nila",
     "de-innerer-monolog-projekttisch",
     "mbi-lesepause-medienwerkstatt",
+    "mbi-publikationswege-quellenkarten",
     "mbi-simunet-datensparsam",
     "mbi-luefterregler-gestalten",
     "mbi-buchdaten-labor",

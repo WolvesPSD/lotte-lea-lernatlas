@@ -64,6 +64,12 @@ window.LOTTE_CATALOG = Object.freeze({
       "scope": "Zusätzlich wählbar; kein bestätigtes eigenes Unterrichtsfach von Lotte. § 2.1.1.1 Ziel bis Ende Klasse 8; MNT-Zuordnung offen."
     },
     {
+      "id": "ph",
+      "name": "Physik und Astronomie · freiwillig",
+      "plan": "Gymnasium 2026, Erprobungsfassung; Klasse 7 ab 2026/27",
+      "scope": "Zusätzlich wählbar; kein bestätigtes eigenes Unterrichtsfach von Lotte. § 2.1.1.2 Ziel bis Ende Klasse 8; MNT-Zuordnung offen."
+    },
+    {
       "id": "mu",
       "name": "Musik",
       "plan": "2012 (2025/26)",
@@ -95,6 +101,100 @@ window.LOTTE_CATALOG = Object.freeze({
     }
   ],
   "topics": [
+    {
+      "id": "ph-weg-zeit-karte",
+      "subjectId": "ph",
+      "title": "Was verrät die Weg-Zeit-Karte?",
+      "scope": "Freiwilliger, gestützter Physik-und-Astronomie-Einstieg 7/8. Der Fachplan beginnt 2026/27 mit Klasse 7; Weg, Zeit und Durchschnittsgeschwindigkeit sind Ziele bis Ende Klasse 8. Kein bestätigtes eigenes Fach von Lotte und keine Zuordnung zur MNT-Stunde.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Die Daten beschreiben einen erfundenen Wagen. Du brauchst weder Wagen noch Messgerät und führst keinen Versuch aus. Die Formel steht auf der Karte; offene Erklärungen prüft ein Mensch, keine automatische Schulnote.",
+      "introduction": "Die fiktive Karte zeigt den insgesamt zurückgelegten Weg s zu einzelnen Zeiten t. Für einen Abschnitt gilt: Durchschnittsgeschwindigkeit = Wegzuwachs ÷ verstrichene Zeit, also v̄ = Δs ÷ Δt. Δ bedeutet späterer Wert minus früherer Wert. Ein Abschnittswert ist kein exakter Geschwindigkeitswert für jede Sekunde dazwischen. 20 Hauptpunkte und 6 getrennte Zusatzpunkte sind Lernrückmeldung, keine Schulnote.",
+      "passage": "FIKTIVE WEG-ZEIT-KARTE · t = Zeit seit Start; s = bis dahin insgesamt zurückgelegter Weg\nt = 0 s → s = 0 m\nt = 10 s → s = 20 m\nt = 30 s → s = 40 m\nt = 40 s → s = 40 m\nt = 50 s → s = 70 m\n\nNur diese Zeitpunkte sind eingetragen; die Bewegung dazwischen wurde nicht aufgezeichnet. Rechne mit m/s. Für jeden Abschnitt zuerst Δs und Δt aus den beiden Tabellenwerten bilden.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "text": "SPÄTERE FIKTIVE ÄNDERUNG · Eine zweite Karte übernimmt alle früheren Werte. Nur beim letzten Zeitpunkt t = 50 s steht jetzt s = 60 m statt 70 m. Halte Hauptfall und geänderte Karte getrennt."
+      },
+      "tasks": [
+        {
+          "id": "ph-wegzeit-1",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "inputRows": 6,
+          "prompt": "A · Größen lesen (3 Hauptpunkte): Schreibe zu t, s und v̄ jeweils den Namen der physikalischen Größe und die Einheit aus dieser Karte. Beachte, dass s als Formelzeichen etwas anderes bedeutet als s hinter einer Zahl.",
+          "sample": "t: Zeit, s. s: zurückgelegter Weg, m. v̄: Durchschnittsgeschwindigkeit, m/s. Das Formelzeichen s bezeichnet den Weg; die Einheit s steht für Sekunde.",
+          "criteria": [
+            "Je 1 Punkt für t = Zeit in s, s = zurückgelegter Weg in m und v̄ = Durchschnittsgeschwindigkeit in m/s. Die Zusatzbemerkung zu s dient der Begriffsklärung, nicht einem vierten Punkt."
+          ]
+        },
+        {
+          "id": "ph-wegzeit-2",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 12,
+          "inputRows": 12,
+          "prompt": "B · Vier Abschnitte (8 Hauptpunkte): Berechne für 0–10 s, 10–30 s, 30–40 s und 40–50 s jeweils Wegzuwachs Δs, Zeitdifferenz Δt und daraus die Durchschnittsgeschwindigkeit mit Einheit. Schreibe pro Abschnitt alle drei Werte und den Rechenweg.",
+          "sample": "0–10 s: Δs = 20 m, Δt = 10 s, v̄ = 20 m ÷ 10 s = 2 m/s. 10–30 s: Δs = 20 m, Δt = 20 s, v̄ = 20 m ÷ 20 s = 1 m/s. 30–40 s: Δs = 0 m, Δt = 10 s, v̄ = 0 m ÷ 10 s = 0 m/s. 40–50 s: Δs = 30 m, Δt = 10 s, v̄ = 30 m ÷ 10 s = 3 m/s.",
+          "criteria": [
+            "Je Abschnitt 2 Punkte: 1 Punkt für beide richtigen Differenzen Δs und Δt, 1 Punkt für korrekte Division mit passendem Ergebnis und Einheit.",
+            "Bei einer falschen Differenz kann der zweite Methodenpunkt für konsequent richtiges Weiterrechnen mit den eigenen notierten Werten vergeben werden; als Folgefehler kennzeichnen. Falsche Division erhält diesen Punkt nicht.",
+            "Fehlt bei sonst korrekter Geschwindigkeit nur die Einheit, bei diesem Einstieg höchstens einen halben zweiten Punkt vergeben; Halbpunkte dokumentieren."
+          ]
+        },
+        {
+          "id": "ph-wegzeit-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "prompt": "C · Ganze Karte (5 Hauptpunkte): Berechne den gesamten Weg, die Gesamtzeit und die Durchschnittsgeschwindigkeit über alle 50 Sekunden. Erkläre dann, weshalb das einfache Mittel der vier Abschnittsgeschwindigkeiten hier nicht den Gesamtwert ergibt.",
+          "sample": "Gesamtweg 70 − 0 = 70 m; Gesamtzeit 50 − 0 = 50 s; Gesamtdurchschnitt 70 ÷ 50 = 1,4 m/s. Die Abschnitte dauern 10, 20, 10 und 10 s. Ein einfaches Mittel gibt jedem Abschnitt gleiches Gewicht, obwohl der zweite doppelt so lang ist; für die gesamte Fahrt zählen Gesamtweg und Gesamtzeit.",
+          "criteria": [
+            "Je 1 Punkt für Gesamtweg 70 m, Gesamtzeit 50 s und Gesamtdurchschnitt 1,4 m/s.",
+            "1 Punkt für die unterschiedlichen Abschnittsdauern, besonders 10–30 s = 20 s.",
+            "1 Punkt für die Erklärung: Gesamtweg durch Gesamtzeit teilen beziehungsweise längeren Abschnitt zeitlich stärker gewichten. 1,5 m/s als einfaches Mittel ist kein korrekter Gesamtwert."
+          ]
+        },
+        {
+          "id": "ph-wegzeit-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "prompt": "D · Aussagegrenze (4 Hauptpunkte): 1. Welcher Abschnitt hat den größten berechneten Abschnittsdurchschnitt? 2. Was steht für den zusätzlichen Weg von 30 bis 40 s in dieser fiktiven Karte? 3. Ist die genaue Geschwindigkeit bei 25 s bekannt? Warum? 4. Welche zusätzliche Angabe mit einem Zeitpunkt streng zwischen 10 und 30 s und welchem weiteren Wert könnte den Abschnitt genauer unterteilen? Erfinde keinen Wegwert.",
+          "sample": "40–50 s hat mit 3 m/s den größten Abschnittsdurchschnitt. Von 30 bis 40 s ist kein zusätzlicher Gesamtweg eingetragen. Die Geschwindigkeit genau bei 25 s ist unbekannt, weil nur die Randwerte 10 und 30 s vorliegen. Ein zusätzlicher Zeitpunkt, etwa 20 s, zusammen mit dem bis dahin insgesamt zurückgelegten Weg würde den Abschnitt unterteilen; auch das liefert noch keinen exakten Momentanwert.",
+          "criteria": [
+            "1 Punkt für 40–50 s als größten Abschnittsdurchschnitt (3 m/s).",
+            "1 Punkt für null zusätzlichen kumulativen Weg zwischen 30 und 40 s in der fiktiven Karte, nicht als reale Beobachtung ausgegeben.",
+            "1 Punkt für die fehlende exakte Geschwindigkeit bei 25 s wegen fehlender Zwischenwerte.",
+            "1 Punkt für einen Zeitpunkt streng zwischen 10 und 30 s samt dazu benötigtem kumulativem Wegwert; Zeitpunkt allein genügt nicht."
+          ]
+        },
+        {
+          "id": "ph-wegzeit-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "prompt": "Freiwillige spätere Änderung · 6 getrennte Zusatzpunkte: Bei t = 50 s stehen nun 60 m. Berechne für 40–50 s den Wegzuwachs, die Zeitdifferenz und die Durchschnittsgeschwindigkeit. Berechne dann Gesamtweg, Gesamtzeit und neuen Gesamtdurchschnitt. Welche Abschnitte teilen sich jetzt den größten Abschnittsdurchschnitt?",
+          "sample": "40–50 s: Δs = 60 − 40 = 20 m; Δt = 50 − 40 = 10 s; v̄ = 20 ÷ 10 = 2 m/s. Gesamtweg = 60 m, Gesamtzeit = 50 s, Gesamtdurchschnitt = 60 ÷ 50 = 1,2 m/s. 0–10 s und 40–50 s haben beide 2 m/s als größten Abschnittsdurchschnitt.",
+          "criteria": [
+            "Je 1 Zusatzpunkt für Δs = 20 m, Δt = 10 s und v̄ = 2 m/s im letzten Abschnitt.",
+            "1 Zusatzpunkt für Gesamtweg 60 m.",
+            "1 Zusatzpunkt gemeinsam für Gesamtzeit 50 s und Gesamtdurchschnitt 1,2 m/s.",
+            "1 Zusatzpunkt für beide größten Abschnitte 0–10 s und 40–50 s mit je 2 m/s. Zusatzpunkte nicht zur Hauptsumme addieren."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Physik und Astronomie Klasse 7 ab 2026/27. § 2.1.1.2 PDF-S. 21: Weg und Zeit charakterisieren und messen; Durchschnittsgeschwindigkeit berechnen und erläutern, Zielmarke Ende Klasse 8.",
+        "checkedAt": "2026-10-22"
+      }
+    },
     {
       "id": "ch-stoffaenderung-berichtskarten",
       "subjectId": "ch",

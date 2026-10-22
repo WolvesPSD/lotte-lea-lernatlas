@@ -1,15 +1,16 @@
 {
-  "builtAt": "2026-10-22T03:24:57.406Z",
-  "releaseVersion": "2026.10.22-chemzusatz.1",
+  "builtAt": "2026-10-22T03:33:18.997Z",
+  "releaseVersion": "2026.10.22-physikzusatz.1",
   "newTopicIds": [
-    "ch-stoffaenderung-berichtskarten"
+    "ph-weg-zeit-karte"
   ],
   "changeLog": [
-    "Neues freiwilliges Zusatzfach Chemie mit einem gestützten 7/8-Fall zu vier fiktiven Stoffänderungs-Berichten. 20 Hauptpunkte und sechs getrennte Zusatzpunkte; kein praktischer Versuch und keine Schulnote.",
-    "Die spätere Variante erscheint nach fünf Hauptantworten und auf einer getrennten Kinder-Druckseite. Chemie ist kein bestätigtes eigenes Unterrichtsfach von Lotte; die Zuordnung zu MNT bleibt offen."
+    "Neues freiwilliges Zusatzfach Physik und Astronomie mit einem gestützten 7/8-Fall zu fiktiven Weg-Zeit-Daten. 20 Hauptpunkte und sechs getrennte Zusatzpunkte; keine reale Messung und keine Schulnote.",
+    "Die geänderte Datenkarte erscheint nach vier Hauptantworten und auf einer getrennten Kinder-Druckseite. Das Fach ist kein bestätigtes eigenes Unterrichtsfach von Lotte; die Zuordnung zu MNT bleibt offen."
   ],
-  "rollbackCommit": "557fdfc3e5e0f8fdf173b493723ccd7dfd046ed1",
+  "rollbackCommit": "d17a3cfc34e4b65f34394c922d984712debcd5c1",
   "releasedTopics": [
+    "ph-weg-zeit-karte",
     "ch-stoffaenderung-berichtskarten",
     "bi-wirbellose-bluehstreifen",
     "mbi-speicherplan-zwei-modelle",
@@ -86,6 +87,7 @@
     "fr-bilderausstellung-vortrag"
   ],
   "subjects": [
+    "ph",
     "ch",
     "bi",
     "mbi",

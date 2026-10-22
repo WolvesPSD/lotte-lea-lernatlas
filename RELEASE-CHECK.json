@@ -1,12 +1,14 @@
 {
-  "builtAt": "2026-10-22T23:13:06.079Z",
-  "releaseVersion": "2026.10.23-versionanzeige.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Der Lernatlas zeigt seine genaue Paketversion direkt unter dem Statusbanner; Eltern und Lotte können eine verzögert angezeigte Fassung erkennen.",
-    "Inhalt und 95 Themen/391 Aufgaben bleiben unverändert. Die Versionskennung wird beim Paketbau aus demselben Release-Manifest wie die Asset-Adressen erzeugt."
+  "builtAt": "2026-10-22T23:28:30.541Z",
+  "releaseVersion": "2026.10.23-mbiblocks.1",
+  "newTopicIds": [
+    "mbi-blockprogramm-regler"
   ],
-  "rollbackCommit": "8d4566adc9015a0b3f4a92729f875ae09c62ac48",
+  "changeLog": [
+    "Freiwilliger MBI-Klasse-8-Ausblick: Lotte ordnet sechs Blockbausteine, wählt Bedingungen und prüft eine eigene fiktive Zustandsfolge im begrenzten Browserlabor.",
+    "Ein neues Thema mit 20 Haupt- und 6 Zusatzpunkten; vorhandene 95 Themen bleiben unverändert. Browsermodell, Scratch-Projekt und echte Sensor-/Aktorwirkung sind getrennte Nachweise."
+  ],
+  "rollbackCommit": "28a9dd9b5bc3e451aba0734654bacba9bf08f7cf",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -85,6 +87,7 @@
     "mbi-publikationswege-quellenkarten",
     "mbi-simunet-datensparsam",
     "mbi-luefterregler-gestalten",
+    "mbi-blockprogramm-regler",
     "mbi-buchdaten-labor",
     "de-karte-im-regen-vortrag",
     "de-heidi-ganzschrift-begleiter",
@@ -147,6 +150,7 @@
     "mbi-lesepause-medienwerkstatt",
     "mbi-simunet-datensparsam",
     "mbi-luefterregler-gestalten",
+    "mbi-blockprogramm-regler",
     "mbi-buchdaten-labor",
     "ma-schraegbild-darstellungen"
   ],

@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blockprogramm-Werkstatt · Lotte & Lea</title>
+  <style>
+    :root{font:16px/1.5 system-ui,sans-serif;color:#17313a;background:#f3f6f2}*{box-sizing:border-box}body{margin:0}main{max-width:980px;margin:auto;padding:1rem 1.2rem 3rem}h1,h2,h3{line-height:1.2}h1{font-size:clamp(1.65rem,4vw,2.35rem)}h2{font-size:1.35rem}.intro,.panel,.result{background:#fff;border:1px solid #b9cec6;border-radius:.8rem;padding:1rem 1.2rem;margin:1rem 0}.intro{border-left:5px solid #187165}.intro p,.panel p{margin:.45rem 0}.eyebrow{font-size:.82rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#316d60}.muted{color:#405d59}.blocks{list-style:none;counter-reset:block;display:grid;gap:.65rem;padding:0;margin:1rem 0}.block{counter-increment:block;border:1px solid #9ab9af;border-left:6px solid #347d70;border-radius:.65rem;padding:.65rem .8rem;background:#f8fcfa;display:grid;grid-template-columns:2.4rem 1fr auto;align-items:center;gap:.5rem;min-height:4.5rem}.block::before{content:counter(block);display:grid;place-items:center;background:#deeee8;border-radius:50%;width:2rem;height:2rem;font-weight:800}.block.start{border-left-color:#a66b23}.block.loop{border-left-color:#9a5498}.block.decision{border-left-color:#a66b23}.block-name{font-weight:750}.block-note{font-size:.86rem;color:#455e59}.move{display:flex;gap:.3rem}.move button{padding:.15rem .55rem;min-width:2.7rem;min-height:2.7rem;margin:0}.controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}.control{display:flex;flex-direction:column;gap:.35rem;font-weight:650}.control select,.control textarea{font:inherit;min-height:44px;padding:.5rem;border:1px solid #63887d;border-radius:.35rem;background:white;color:#17313a}.control textarea{min-height:5.5rem;resize:vertical}.help{font-size:.88rem;color:#405d59;font-weight:400}button{font:inherit;font-weight:750;border:0;border-radius:.4rem;background:#17695e;color:#fff;min-height:44px;padding:.5rem .9rem;cursor:pointer}button.secondary{background:#415c62}button:disabled{opacity:.45;cursor:default}button:focus-visible,select:focus-visible,textarea:focus-visible,a:focus-visible{outline:3px solid #df8b1d;outline-offset:2px}.actions{display:flex;gap:.55rem;flex-wrap:wrap;margin:1rem 0}.status{font-weight:750;border-left:4px solid #17695e;padding:.5rem .7rem;background:#eaf4f0}.status.error{border-left-color:#ad4a35;background:#fff0eb}.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:650px}th,td{text-align:left;border-bottom:1px solid #d1ded8;padding:.45rem;vertical-align:top}th{background:#eef5f1}tr.fail{background:#fff0e9}tr.ok{background:#f1f9f4}.print-sequence{display:none}footer{margin:2rem 0;color:#405d59;font-size:.9rem}@media(max-width:620px){.controls{grid-template-columns:1fr}.block{grid-template-columns:2rem 1fr;gap:.4rem}.move{grid-column:2;justify-content:flex-start}.intro,.panel,.result{padding:.85rem}}@media print{body{background:#fff}main{max-width:none;padding:0}a,.actions,.move,.controls{display:none!important}.panel,.intro,.result,.block{break-inside:avoid;box-shadow:none}.print-sequence{display:block!important}#trace[hidden],#model[hidden]{display:none}.table-wrap{overflow:visible}table{min-width:0;font-size:10pt}th,td{padding:.25rem}.help{display:none}}
+    .program{white-space:pre-wrap;overflow-wrap:anywhere;background:#eaf3ee;border:1px solid #a9c5b9;border-radius:.5rem;padding:.8rem;font: .9rem/1.55 ui-monospace,SFMono-Regular,Consolas,monospace}
+  </style>
+  <style>
+    @media screen and (max-width:620px){
+      #trace{min-width:0}
+      #trace thead{display:none}
+      #trace tbody,#trace tr,#trace td{display:block}
+      #trace tr{border:1px solid #b9cec6;border-radius:.55rem;margin:.75rem 0;padding:.35rem .65rem}
+      #trace td{display:flex;justify-content:space-between;gap:.8rem;overflow-wrap:anywhere}
+      #trace td::before{content:attr(data-label);font-weight:750;flex:0 0 42%}
+    }
+  </style>
+</head>
+<body>
+<main>
+  <p><a href="../index.html">← Zurück zum Lernatlas</a></p>
+  <p class="eyebrow">Freiwilliger Ausblick · MBI bis Ende Klasse 8</p>
+  <h1>Blockprogramm-Werkstatt: der erfundene Lüfter</h1>
+  <div class="intro">
+    <p><strong>Baue und teste eine vereinfachte Blockfolge.</strong> Das ist ein Lernmodell im Browser, kein Scratch-Projekt. Es nutzt weder Sensoren noch einen echten Lüfter und sendet keine Eingaben an einen Server.</p>
+    <p>Die Übungsregel: Start <strong>AUS</strong>. Ab <strong>28 °C</strong> wird der Lüfter <strong>AN</strong>; bis einschliesslich <strong>25 °C</strong> wird er <strong>AUS</strong>. Dazwischen bleibt sein vorheriger Zustand erhalten. Zulässig sind hier nur fiktive Werte von −10 bis 50 °C.</p>
+  </div>
+
+  <section class="panel" aria-labelledby="blocks-title">
+    <h2 id="blocks-title">1 · Blöcke in eine lauffähige Reihenfolge bringen</h2>
+    <p>Benutze bei jedem Block die Tasten „Nach oben“ und „Nach unten“. Der Start kommt zuerst; die Initialisierung liegt vor der Schleife. Die drei Blöcke nach „wiederhole fortlaufend“ gehören gedanklich <em>in</em> die Schleife. Du kannst alles mit Tastatur und Tab bedienen.</p>
+    <ol id="blocks" class="blocks" tabindex="-1" aria-label="Veränderbare Blockfolge"></ol>
+    <p id="order-status" class="muted" aria-live="polite"></p>
+  </section>
+
+  <section class="panel" aria-labelledby="rules-title">
+    <h2 id="rules-title">2 · Bedingungen und Wertfolge wählen</h2>
+    <p>Scratch kennt die direkten Vergleiche <code>&lt;</code> und <code>&gt;</code>. Für die eingeschlossenen Grenzen setzt du einen „nicht“-Block darum. Probiere auch einen Grenzfehler und beobachte, welcher Test ihn findet.</p>
+    <div class="controls">
+      <label class="control" for="upper"><span>Äusseres „falls“: Lüfter AN, wenn …</span><select id="upper"><option value="">Vergleich wählen</option><option value="not-lt">nicht (Temperatur &lt; 28)</option><option value="gt">Temperatur &gt; 28</option></select></label>
+      <label class="control" for="lower"><span>Inneres „sonst falls“: Lüfter AUS, wenn …</span><select id="lower"><option value="">Vergleich wählen</option><option value="not-gt">nicht (Temperatur &gt; 25)</option><option value="lt">Temperatur &lt; 25</option></select></label>
+      <label class="control" for="middle"><span>Letztes „sonst“: zwischen den Grenzen …</span><select id="middle"><option value="">Aktion wählen</option><option value="keep">Lüfter unverändert lassen</option><option value="off">Lüfter auf AUS setzen</option></select></label>
+      <label class="control" for="values"><span>Meine fiktiven Eingabewerte in Reihenfolge</span><textarea id="values" spellcheck="false">28; 27; 25; 26</textarea><span class="help">1 bis 12 Werte, getrennt durch Semikolon oder Zeilenumbruch; Dezimalkomma ist erlaubt, z. B. 27,5; 28.</span></label>
+    </div>
+    <p id="sequence-print" class="print-sequence"></p>
+    <div class="actions"><button id="run" type="button">Blockprogramm ausführen</button><button id="reset" class="secondary" type="button">Neuen Versuch beginnen</button><button id="print" class="secondary" type="button">Mein Blatt drucken</button></div>
+  </section>
+
+  <section class="result" aria-labelledby="result-title">
+    <h2 id="result-title">3 · Lauf und Fehlersuche</h2>
+    <p id="status" class="status" role="status" aria-live="polite">Ordne die Blöcke und wähle die drei Regeln. Danach kannst du den Lauf starten.</p>
+    <h3 id="program-title" hidden>Dein verschachteltes Blockgerüst</h3>
+    <pre id="program" class="program" hidden aria-labelledby="program-title"></pre>
+    <p id="model" hidden></p>
+    <div class="table-wrap"><table id="trace" hidden><caption>Zustandsfolge der Browser-Simulation; Erwartung nach der Übungsregel</caption><thead><tr><th>Schritt</th><th>Wert</th><th>Vorher im Programm</th><th>Ausgeführter Zweig</th><th>Programm danach</th><th>Erwartet danach</th><th>Vergleich</th></tr></thead><tbody></tbody></table></div>
+    <p class="muted">Die Erwartung wird unabhängig von deinen Vergleichen aus der Übungsregel berechnet. Der erste Unterschied hilft bei der Fehlersuche. Ein passender Bildschirmzustand beweist keine Bewegung eines echten Lüfters.</p>
+  </section>
+  <footer>Lotte & Lea · fiktiver lokaler Übungsfall · Eingaben werden beim Neuladen verworfen.</footer>
+</main>
+<script>
+(() => {
+  'use strict';
+  const $ = id => document.getElementById(id);
+  const names = {
+    start:['Wenn grüne Flagge angeklickt wird','Ereignis: startet den ganzen Ablauf.'],
+    init:['setze [Lüfter] auf [AUS]','Anfangszustand einmalig speichern.'],
+    forever:['wiederhole fortlaufend','Die folgenden drei Schritte bei jeder Eingabe ausführen.'],
+    ask:['frage [Temperatur eingeben:] und warte','Ein fiktiver Wert wird eingegeben.'],
+    set:['setze [Temperatur] auf [Antwort]','Den letzten Eingabewert in einer Variablen speichern.'],
+    decision:['falls … dann … sonst','AN, AUS oder bisherigen Zustand behalten.']
+  };
+  const correctOrder=['start','init','forever','ask','set','decision'];
+  const initialOrder=['start','forever','ask','init','set','decision'];
+  let order=[...initialOrder];
+  const label = on => on ? 'AN' : 'AUS';
+  function updatePrintSummary() {
+    const selected=id=>$(id).selectedOptions[0].textContent;
+    $('sequence-print').textContent=`Gewählte Regeln: AN bei ${selected('upper')}; AUS bei ${selected('lower')}; Zwischenbereich: ${selected('middle')}. Eingabewerte: ${$('values').value.trim()||'keine'}.`;
+  }
+  function clearResult(message, error=false) {
+    $('status').textContent=message;
+    $('status').classList.toggle('error',error);
+    $('trace').hidden=true;
+    $('trace').querySelector('tbody').replaceChildren();
+    $('model').hidden=true;
+    $('model').textContent='';
+    $('program-title').hidden=true;
+    $('program').hidden=true;
+    $('program').textContent='';
+  }
+  function orderProblem() {
+    const index=key=>order.indexOf(key);
+    if(index('start')!==0) return 'Der Ereignisstart muss ganz oben stehen.';
+    if(index('init')>index('forever')) return 'Der Lüfter muss vor der Wiederholung auf AUS gesetzt werden.';
+    if(index('forever')>index('ask')) return 'Die Abfrage gehört in die fortlaufende Wiederholung.';
+    if(index('ask')>index('set')) return 'Erst fragen, dann die Antwort in Temperatur speichern.';
+    if(index('set')>index('decision')) return 'Die Entscheidung braucht den gerade gespeicherten Wert.';
+    return '';
+  }
+  function renderBlocks(focusKey,focusDirection) {
+    const list=$('blocks'); list.replaceChildren();
+    order.forEach((key,index)=>{
+      const item=document.createElement('li'); item.className=`block ${key}`; item.dataset.key=key;
+      const description=document.createElement('div');
+      const name=document.createElement('div'); name.className='block-name'; name.textContent=names[key][0];
+      const note=document.createElement('div'); note.className='block-note'; note.textContent=names[key][1];
+      description.append(name,note);
+      const buttons=document.createElement('div'); buttons.className='move';
+      [['up','↑','Nach oben',-1],['down','↓','Nach unten',1]].forEach(([direction,glyph,word,delta])=>{
+        const button=document.createElement('button'); button.type='button'; button.textContent=glyph; button.dataset.direction=direction;
+        button.setAttribute('aria-label',`${word}: ${names[key][0]}`); button.disabled=index+delta<0||index+delta>=order.length;
+        button.addEventListener('click',()=>{
+          const next=index+delta; [order[index],order[next]]=[order[next],order[index]];
+          renderBlocks(key,direction);
+          clearResult('Blockfolge geändert. Führe das Programm erneut aus.');
+        }); buttons.append(button);
+      });
+      item.append(description,buttons); list.append(item);
+    });
+    const problem=orderProblem();
+    $('order-status').textContent=problem ? `Noch nicht lauffähig: ${problem}` : 'Die Blockfolge ist lauffähig. Jetzt die Bedingungen prüfen.';
+    if(focusKey){
+      const item=[...list.children].find(child=>child.dataset.key===focusKey);
+      const preferred=item.querySelector(`button[data-direction="${focusDirection}"]`);
+      (preferred.disabled ? item.querySelector('button:not(:disabled)') : preferred).focus();
+    }
+  }
+  function parseValues(raw) {
+    const parts=raw.split(/[;\n]+/).map(part=>part.trim());
+    if(parts.length<1||parts.length>12||parts.some(part=>part==='')) return {error:'Gib 1 bis 12 Werte ein und trenne sie mit Semikolon oder Zeilenumbruch.'};
+    const values=[];
+    for(const part of parts){
+      if(!/^[+-]?(?:\d+(?:[.,]\d+)?|[.,]\d+)$/.test(part)) return {error:`„${part}“ ist kein eindeutiger Zahlenwert.`};
+      const value=Number(part.replace(',','.'));
+      if(!Number.isFinite(value)||value<-10||value>50) return {error:`„${part}“ liegt ausserhalb des Übungsbereichs −10 bis 50 °C.`};
+      values.push(value);
+    }
+    return {values};
+  }
+  function expectedStep(value,before){
+    if(value>=28) return true;
+    if(value<=25) return false;
+    return before;
+  }
+  function actualStep(value,before,upper,lower,middle){
+    const upperMatches=upper==='not-lt' ? !(value<28) : value>28;
+    if(upperMatches) return {state:true,branch:'äusseres falls → AN'};
+    const lowerMatches=lower==='not-gt' ? !(value>25) : value<25;
+    if(lowerMatches) return {state:false,branch:'inneres falls → AUS'};
+    return {state:middle==='keep'?before:false,branch:middle==='keep'?'letztes sonst → behalten':'letztes sonst → AUS'};
+  }
+  $('run').addEventListener('click',()=>{
+    const problem=orderProblem();
+    if(problem){clearResult(`Noch nicht ausführbar: ${problem}`,true); $('blocks').focus(); return;}
+    const ids=['upper','lower','middle'];
+    const missing=ids.find(id=>$(id).value==='');
+    if(missing){clearResult('Wähle alle drei Regelteile, bevor du den Lauf startest.',true); $(missing).focus(); return;}
+    const parsed=parseValues($('values').value);
+    if(parsed.error){clearResult(parsed.error,true); $('values').focus(); return;}
+    const upper=$('upper').value, lower=$('lower').value, middle=$('middle').value;
+    let actual=false,expected=false,first=null;
+    const body=$('trace').querySelector('tbody'); body.replaceChildren();
+    parsed.values.forEach((value,index)=>{
+      const before=actual, result=actualStep(value,actual,upper,lower,middle);
+      actual=result.state; expected=expectedStep(value,expected);
+      const same=actual===expected;
+      if(!same&&first===null) first=index+1;
+      const row=document.createElement('tr'); row.className=same?'ok':'fail';
+      const values=[String(index+1),`${value} °C`,label(before),result.branch,label(actual),label(expected),same?'passt':'Unterschied'];
+      const labels=['Schritt','Wert','Vorher im Programm','Ausgeführter Zweig','Programm danach','Erwartet danach','Vergleich'];
+      values.forEach((content,cellIndex)=>{
+        const cell=document.createElement('td'); cell.textContent=content; cell.dataset.label=labels[cellIndex]; cell.setAttribute('aria-label',`${labels[cellIndex]}: ${content}`); row.append(cell);
+      }); body.append(row);
+    });
+    $('trace').hidden=false;
+    $('program-title').hidden=false;
+    $('program').hidden=false;
+    $('program').textContent=[
+      'Wenn grüne Flagge angeklickt wird',
+      '  setze [Lüfter] auf [AUS]',
+      '  wiederhole fortlaufend',
+      '    frage [Temperatur eingeben:] und warte',
+      '    setze [Temperatur] auf [Antwort]',
+      `    falls <${$('upper').selectedOptions[0].textContent}> dann`,
+      '      setze [Lüfter] auf [AN]',
+      '    sonst',
+      `      falls <${$('lower').selectedOptions[0].textContent}> dann`,
+      '        setze [Lüfter] auf [AUS]',
+      '      sonst',
+      middle==='keep'?'        Lüfter unverändert lassen':'        setze [Lüfter] auf [AUS]'
+    ].join('\n');
+    $('model').hidden=false;
+    $('model').textContent=`Gewählte Wertfolge: ${parsed.values.map(value=>`${value} °C`).join(' → ')}. Startzustand: AUS. Die innere Bedingung wird nur geprüft, wenn die äussere nicht zutrifft.`;
+    updatePrintSummary();
+    $('status').classList.toggle('error',first!==null);
+    $('status').textContent=first===null
+      ? `Alle ${parsed.values.length} Schritte passen zur Übungsregel. Teste nun einen anderen Grenzwert oder eine absichtlich falsche Bedingung und begründe die Wirkung.`
+      : `Erster Unterschied bei Schritt ${first}. Vergleiche den ausgeführten Zweig mit dem erwarteten Zustand und ändere einen Block oder einen Vergleich.`;
+  });
+  $('reset').addEventListener('click',()=>{
+    order=[...initialOrder]; renderBlocks();
+    ['upper','lower','middle'].forEach(id=>{$(id).value='';});
+    $('values').value='28; 27; 25; 26';
+    updatePrintSummary();
+    clearResult('Neuer Versuch: Ordne die Blöcke und wähle die Regeln.');
+    $('blocks').querySelector('button:not(:disabled)').focus();
+  });
+  $('print').addEventListener('click',()=>window.print());
+  ['upper','lower','middle','values'].forEach(id=>$(id).addEventListener('input',()=>{
+    updatePrintSummary();
+    if(!$('trace').hidden) clearResult('Eingabe geändert. Führe das Programm erneut aus, um eine aktuelle Spur zu sehen.');
+  }));
+  renderBlocks();
+  updatePrintSummary();
+})();
+</script>
+</body>
+</html>

@@ -6450,6 +6450,133 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-blockprogramm-regler",
+      "subjectId": "mbi",
+      "title": "Blockprogramm: Lüfterzustand debuggen",
+      "scope": "Ausblick Klasse 8 · freiwillig. §2.2.5 des gültigen MBI-Plans ordnet grafische Algorithmen und Implementierung der Klassenstufe 8 zu; Lottes aktuelle Schuleinheit ist unbekannt. Die Browserwerkstatt ist ein begrenzter Blockeditor für erfundene Testwerte, keine Scratch-Ausführung und keine reale Sensor- oder Aktorarbeit.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Zuerst kannst du den älteren Lüfterfall wählen; dieser neue Fall vertieft ihn durch selbst geordnete Programmblöcke. Du brauchst nur die fiktiven Werte auf der Karte. Baue und verbinde keine Geräte. Wenn du Scratch selbst verwendest, prüfe die tatsächlichen Blocknamen deiner Editorversion getrennt.",
+      "introduction": "Eine fiktive Programmiergruppe will den Zustand eines Lüfters auf dem Bildschirm modellieren. Er beginnt AUS. Für jeden eingegebenen gültigen Testwert gilt: ab 28 °C AN, bis 25 °C AUS, dazwischen den vorherigen Zustand behalten. Ordne in der Werkstatt die Blöcke selbst, wähle die Bedingungen und vergleiche danach deine Ablaufspur. Scratch hat in den hier geprüften Hilfen keine direkten ≥- und ≤-Vergleichsblöcke: „nicht (Temperatur < 28)“ und „nicht (Temperatur > 25)“ bilden die Grenzen. Die Simulation speichert keine Antworten und steuert keinen echten Lüfter. Die schriftlichen Antworten werden nicht automatisch benotet.",
+      "passage": "FIKTIVE TESTKARTE · Startzustand AUS. Testwerte nacheinander: 28, 27, 25, 26 °C. Verwende nur Zahlen von −10 bis 50 °C; ungültige Sensordaten werden hier nicht behandelt, denn dafür gibt es den vorherigen Lüfterfall. „Beibehalten“ bedeutet den Zustand unmittelbar vor diesem Wert. Zeichne zuerst eine Vermutung auf Papier und starte dann den begrenzten Blockeditor.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–E",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGER TRANSFER NACH A–E · Eine zweite Person will dein Programm nachbauen. Sie testet zuerst 28 °C und danach 27 °C. In einer fehlerhaften Variante setzt der Zwischenbereich den Lüfter immer AUS. Trenne den erwarteten Verlauf vom Fehlerverlauf."
+      },
+      "lab": {
+        "path": "assets/mbi-blockprogramm.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/mbi-blockprogramm.html",
+        "title": "Blockprogramm-Werkstatt",
+        "description": "Ordne sechs Programmblöcke, wähle zwei Bedingungen und die Zwischenbereichsaktion, starte eine erfundene Testfolge und lies die erste Abweichung. Die Werkstatt ist ein begrenztes Browsermodell ohne Speicherung, Scratch-Projekt oder Hardware.",
+        "printNote": "Der Ausdruck zeigt die schriftlichen Aufgaben. Eigene Blockanordnung und Browser-Testspur nur dann als ausgeführt werten, wenn sie wirklich beobachtet oder dokumentiert wurden. Keine echte Schaltung."
+      },
+      "tasks": [
+        {
+          "id": "mbi-block-1",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "A · Start und Zustand (3 Hauptpunkte): Welche zwei Variablen braucht das Modell? Welches Ereignis startet es? Warum muss der Lüfterzustand zwischen zwei Testwerten gespeichert bleiben?",
+          "sample": "Die Variablen sind Temperatur und Lüfter. Das Modell beginnt, wenn die grüne Flagge angeklickt wird. Der Lüfterzustand muss erhalten bleiben, weil ein Wert zwischen 25 und 28 °C den vorherigen Zustand übernimmt.",
+          "criteria": [
+            "Je 0,5 Punkt für Temperatur und Lüfter als zwei Variablen.",
+            "1 Punkt für den grünen-Flagge-Start als Ereignis.",
+            "1 Punkt für die Begründung des gespeicherten Vorzustands im Zwischenbereich."
+          ]
+        },
+        {
+          "id": "mbi-block-2",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 11,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "B · Blockfolge bauen (7 Hauptpunkte): Ordne die sechs Blöcke in der Werkstatt. Zeichne die Reihenfolge und die verschachtelte Entscheidung oder schreibe sie eingerückt auf. Initialisiere Lüfter vor der Wiederholung, frage in der Wiederholung jeden Wert, übernimm die Antwort in Temperatur und wähle beide Grenzbedingungen sowie die Aktion dazwischen. Notiere, was du im Browser wirklich ausgeführt hast; ein Papierplan ist noch keine Bedienprobe.",
+          "sample": "Grüne Flagge → setze Lüfter auf AUS → wiederhole fortlaufend: frage Temperatur und warte → setze Temperatur auf Antwort → falls nicht (Temperatur < 28): setze Lüfter AN; sonst falls nicht (Temperatur > 25): setze Lüfter AUS; sonst lasse Lüfter unverändert. Die Werkstatt simuliert je eingegebenem Wert einen Schleifendurchgang.",
+          "criteria": [
+            "1 Punkt: Ereignisblock am Anfang.",
+            "1 Punkt: Lüfter vor der Schleife auf AUS gesetzt.",
+            "1 Punkt: Wiederholung umfasst Eingabe und Entscheidung.",
+            "1 Punkt: Antwort wird der Temperaturvariable zugewiesen.",
+            "1 Punkt: obere Bedingung nicht (Temperatur < 28) führt zu AN.",
+            "1 Punkt: untere Bedingung nicht (Temperatur > 25) führt zu AUS.",
+            "1 Punkt: sonst bleibt der bisherige Lüfterzustand erhalten. Andere logisch gleichwertige Blockfolgen gelten; die Werkstatt ist bewusst eingeschränkt."
+          ]
+        },
+        {
+          "id": "mbi-block-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "C · Spur vorhersagen (4 Hauptpunkte): Beginne AUS. Welcher Lüfterzustand entsteht nacheinander bei 28, 27, 25, 26 °C? Schreibe zu jedem Wert den Zustand davor und danach. Vergleiche erst danach mit deinem Programmlauf.",
+          "sample": "28: AUS → AN; 27: AN → AN; 25: AN → AUS; 26: AUS → AUS. Der mittlere Wert behält jeweils den Zustand davor.",
+          "criteria": [
+            "Je 1 Punkt für die vier richtigen Vorher-/Nachher-Paare einschließlich der fortgeschriebenen Zustände. Einen einmaligen Folgefehler nicht mehrfach abziehen, wenn die Weitergabe verstanden ist."
+          ]
+        },
+        {
+          "id": "mbi-block-4",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "D · Grenzfehler suchen (3 Hauptpunkte): Ersetze in der Werkstatt die obere Bedingung durch „Temperatur > 28“. Welcher der vier Testwerte zeigt den Fehler zuerst? Beschreibe erwarteten und fehlerhaften Zustand und korrigiere den Vergleich.",
+          "sample": "Schon 28 °C zeigt den Fehler: erwartet AN, mit > 28 bleibt der Lüfter vom Start her AUS. Die Bedingung muss ab 28 einschließen, im geprüften Blockmodell also nicht (Temperatur < 28).",
+          "criteria": [
+            "1 Punkt: 28 °C als erster Grenztest.",
+            "1 Punkt: erwartet AN, mit fehlerhaftem > 28 dagegen AUS.",
+            "1 Punkt: Korrektur zu nicht (Temperatur < 28) oder gleichwertige einschließende Logik."
+          ]
+        },
+        {
+          "id": "mbi-block-5",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "E · Testgrenze (3 Hauptpunkte): Nenne zwei weitere gezielte Testwerte samt erwartetem Zustand und nötigem Vorzustand. Erkläre, weshalb eine passende Bildschirmspur weder einen Scratch-Lauf noch eine wirkliche Lüfterbewegung beweist.",
+          "sample": "27 °C nach AN muss AN bleiben, 27 °C nach AUS muss AUS bleiben. Der begrenzte Browsereditor prüft nur sein eigenes Modell. Ein Scratch-Projekt müsste separat wirklich gebaut und gestartet werden; eine reale Lüfterwirkung müsste sicher und beaufsichtigt am Aktor beobachtet werden.",
+          "criteria": [
+            "1 Punkt: erster konkreter Grenz- oder Zwischenbereichstest mit Vorzustand und erwartetem Ergebnis.",
+            "1 Punkt: zweiter unterscheidbarer Test mit Vorzustand und Ergebnis.",
+            "1 Punkt: Browsermodell, tatsächliche Scratch-Ausführung und echte Aktorwirkung als getrennte Nachweise."
+          ]
+        },
+        {
+          "id": "mbi-block-6",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer nach A–E · 6 Zusatzpunkte: Schreibe einer zweiten Person eine kurze Wiederholungsanleitung mit Startaktion, Initialzustand, drei geordneten Testwerten (darunter einer zwischen 25 und 28 °C) und erwarteten Zuständen. Zeige am Pfad 28 → 27, wie du den Fehler „Zwischenbereich setzt immer AUS“ erkennst und warum der Zustand bei 27 °C falsch kippt. Was müsste die zweite Person sichtbar kontrollieren?",
+          "sample": "Grüne Flagge klicken, Lüfter startet AUS. Teste 28 → 27 → 25 °C: erwartet AN → AN → AUS. Bei der fehlerhaften Zwischenregel entstünde nach 28 → 27 fälschlich AN → AUS, weil sie den vorherigen Zustand AN nicht übernimmt. Die zweite Person kontrolliert nach jedem Wert die angezeigte Lüftervariable und dokumentiert die Spur; das ist weiterhin nur die Browser-Simulation.",
+          "criteria": [
+            "1 Zusatzpunkt für Startaktion und Anfangszustand.",
+            "1 Zusatzpunkt für drei sinnvoll geordnete Werte einschließlich eines Zwischenbereichswerts.",
+            "1 Zusatzpunkt für die drei passenden erwarteten Zustände.",
+            "1 Zusatzpunkt für den Fehlerpfad 28 → 27 mit fälschlichem AUS bei 27.",
+            "1 Zusatzpunkt für sichtbare Kontrolle der Lüftervariable nach jedem Schritt.",
+            "1 Zusatzpunkt für die eigene Fehlerursache: Die falsche Zwischenregel übernimmt den vorherigen Zustand AN nicht."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2 und §2.2.5 PDF-S. 26–27: eingebettete Systeme, grafische Darstellung und Umsetzung eines Algorithmus, systematische Tests und Fehlersuche unter der Zielmarke Klassenstufe 8. Für Klasse 7 2026/27 nur freiwilliger Vorgriff.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "mbi-buchdaten-labor",
       "subjectId": "mbi",
       "title": "Buchdaten filtern und ändern",

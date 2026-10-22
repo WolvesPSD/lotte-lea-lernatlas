@@ -15,9 +15,13 @@
     'grade8-outlook': 'Ausblick Klasse 8 · freiwillig',
     'additional-unclear': 'Zusatzthema · Jahrgang offen'
   };
-  const levelLabel = topic => topic.releaseEvidence?.gradeBand === '6-Grundlage, 7-Wiederholung'
+  const isGrade6Review = topic => topic.releaseEvidence?.gradeBand === '6-Grundlage, 7-Wiederholung';
+  const levelLabel = topic => isGrade6Review(topic)
     ? 'Wiederholung Klasse 6 · freiwillig'
     : levelLabels[topic.levelStatus] || 'Jahrgangsbezug offen';
+  const matchesStage = (topic, stage) => stage === 'all'
+    || (stage === 'grade6-review' ? isGrade6Review(topic)
+      : topic.levelStatus === stage && (stage !== 'grade78-flex' || !isGrade6Review(topic)));
   const $ = selector => document.querySelector(selector);
   const create = (tag, className, value) => {
     const el = document.createElement(tag);
@@ -200,7 +204,7 @@
       for (const card of group.querySelectorAll('.topic-card')) {
         const topic = topicById.get(card.querySelector('input').value);
         const haystack = [subject.name, topic.title, topic.scope, levelLabel(topic)].join(' ').toLocaleLowerCase('de');
-        card.hidden = (!!query && !haystack.includes(query)) || (stage !== 'all' && topic.levelStatus !== stage);
+        card.hidden = (!!query && !haystack.includes(query)) || !matchesStage(topic, stage);
         if (!card.hidden) groupMatches++;
       }
       group.hidden = filtering && groupMatches === 0;
@@ -373,6 +377,7 @@
     if (topic.prerequisite) appendText(intro, 'p', 'muted', topic.prerequisite);
     appendText(intro, 'p', '', topic.introduction);
     if (topic.passage) appendText(intro, 'blockquote', 'reading-passage', topic.passage);
+    if (topic.stagedReading) appendText(intro, 'p', 'muted', `Zuerst nur der Titel: ${topic.stagedReading.title}. Der Lesetext erscheint nach deiner ersten Vermutung.`);
     if (topic.diagram) {
       const figure = create('figure', 'learning-diagram');
       const img = create('img'); img.src = topic.diagram.path; img.alt = topic.diagram.alt;
@@ -413,7 +418,88 @@
       readingCard.append(link); intro.append(readingCard);
     }
     host.append(intro);
-    for (const [index, task] of topic.tasks.entries()) host.append(renderTask(topic, task, index));
+    if (topic.stagedReading) {
+      const reading = topic.stagedReading;
+      const first = topic.tasks[0];
+      const sourceMarker = `${first.id}-text-gezeigt`;
+      const updateMarker = `${first.id}-update-gezeigt`;
+      const sourceShown = state.answers[sourceMarker] === 'ja';
+      const updateShown = state.answers[updateMarker] === 'ja';
+      const predictionCard = renderTask(topic, first, 0);
+      const predictionInput = predictionCard.querySelector('textarea');
+      if (predictionInput && sourceShown) predictionInput.readOnly = true;
+      host.append(predictionCard);
+      const sourceButton = button('Lesetext nach meiner Vermutung zeigen', () => {
+        if (!String(state.answers[first.id] || '').trim()) return;
+        state.answers[sourceMarker] = 'ja'; save();
+        if (predictionInput) predictionInput.readOnly = true;
+        sourceButton.hidden = true; sourceText.hidden = false; if (sourcePlan) sourcePlan.hidden = false; mainTasks.hidden = false; updateButton.hidden = false;
+        sourceText.scrollIntoView({ block: 'start', behavior: 'instant' });
+      }, 'check-button');
+      sourceButton.disabled = !String(state.answers[first.id] || '').trim();
+      sourceButton.hidden = sourceShown;
+      predictionInput?.addEventListener('input', () => { sourceButton.disabled = !predictionInput.value.trim(); });
+      host.append(sourceButton);
+      const sourceText = appendText(host, 'blockquote', 'reading-passage', reading.text);
+      sourceText.hidden = !sourceShown;
+      let sourcePlan = null;
+      if (reading.plan) {
+        sourcePlan = create('figure', 'learning-diagram');
+        const img = create('img'); img.src = reading.plan.path; img.alt = reading.plan.alt;
+        sourcePlan.append(img); appendText(sourcePlan, 'figcaption', '', reading.plan.caption);
+        sourcePlan.hidden = !sourceShown;
+        host.append(sourcePlan);
+      }
+      const mainTasks = create('div'); mainTasks.hidden = !sourceShown;
+      for (let index = 1; index < topic.tasks.length - 1; index++) mainTasks.append(renderTask(topic, topic.tasks[index], index));
+      const mainInputs = [...mainTasks.querySelectorAll('textarea')];
+      if (updateShown) mainInputs.forEach(input => { input.readOnly = true; });
+      host.append(mainTasks);
+      const mainComplete = () => topic.tasks.slice(1, -1).every(task => reading.optionalMainTaskIds?.includes(task.id) || String(state.answers[task.id] || '').trim());
+      const updateButton = button('Hauptantworten festhalten und Änderung zeigen', () => {
+        if (!mainComplete()) return;
+        state.answers[updateMarker] = 'ja'; save();
+        mainInputs.forEach(input => { input.readOnly = true; });
+        updateButton.hidden = true; updateText.hidden = false; transferTask.hidden = false;
+        updateText.scrollIntoView({ block: 'start', behavior: 'instant' });
+      }, 'check-button');
+      updateButton.disabled = !mainComplete();
+      updateButton.hidden = !sourceShown || updateShown;
+      mainInputs.forEach(input => input.addEventListener('input', () => { updateButton.disabled = !mainComplete(); }));
+      mainTasks.append(updateButton);
+      const updateText = appendText(host, 'blockquote', 'reading-passage', reading.updateText);
+      updateText.hidden = !updateShown;
+      const transferTask = renderTask(topic, topic.tasks.at(-1), topic.tasks.length - 1);
+      transferTask.hidden = !updateShown;
+      host.append(transferTask);
+    } else if (topic.stagedUpdate) {
+      const mainTasks = create('div');
+      for (let index = 0; index < topic.tasks.length - 1; index++) mainTasks.append(renderTask(topic, topic.tasks[index], index));
+      const mainInputs = [...mainTasks.querySelectorAll('textarea')];
+      const marker = `${topic.tasks[0].id}-update-gezeigt`;
+      const updateShown = state.answers[marker] === 'ja';
+      if (updateShown) mainInputs.forEach(input => { input.readOnly = true; });
+      host.append(mainTasks);
+      const mainComplete = () => topic.tasks.slice(0, -1).every(task => String(state.answers[task.id] || '').trim());
+      const updateButton = button('Hauptantworten festhalten und Korrektur zeigen', () => {
+        if (!mainComplete()) return;
+        state.answers[marker] = 'ja'; save();
+        mainInputs.forEach(input => { input.readOnly = true; });
+        updateButton.hidden = true; updateText.hidden = false; transferTask.hidden = false;
+        updateText.scrollIntoView({ block: 'start', behavior: 'instant' });
+      }, 'check-button');
+      updateButton.disabled = !mainComplete();
+      updateButton.hidden = updateShown;
+      mainInputs.forEach(input => input.addEventListener('input', () => { updateButton.disabled = !mainComplete(); }));
+      host.append(updateButton);
+      const updateText = appendText(host, 'blockquote', 'reading-passage', topic.stagedUpdate.text);
+      updateText.hidden = !updateShown;
+      const transferTask = renderTask(topic, topic.tasks.at(-1), topic.tasks.length - 1);
+      transferTask.hidden = !updateShown;
+      host.append(transferTask);
+    } else {
+      for (const [index, task] of topic.tasks.entries()) host.append(renderTask(topic, task, index));
+    }
     if (topic.practice) host.append(renderPractice(topic.practice, false));
     const storage = appendText(host, 'p', 'privacy-note', 'Deine Antworten werden nur in diesem Browser gespeichert.'); storage.id = 'storage-status';
   }
@@ -459,8 +545,8 @@
           appendText(result, 'p', 'muted', task.manualBookReview ? 'Prüfe erst deine eigenen Fundstellen. Das folgende Heidi-Beispiel bewertet dein Buch nicht und beweist keine Ganzlektüre.' : 'Prüfe zuerst, ob du eigene Kapitelbelege aus der vollständigen Lektüre notiert hast. Die App kann das Lesen nicht feststellen.');
           const reveal = button(task.manualBookReview ? 'Methodenbeispiel bewusst öffnen' : 'Musterlösung bewusst öffnen', () => { reveal.remove(); showSolution(); }, 'reveal-sample');
           result.append(reveal);
-        } else if (task.adultOnlySolution) {
-          appendText(result, 'p', 'muted', 'Die Sachlösung steht nur im Erwachsenenbereich. Besprecht sie nach dem wirklichen Gespräch; die App kann keine mündliche Leistung prüfen.');
+        } else if (task.adultOnlySolution || topic.stagedReading) {
+          appendText(result, 'p', 'muted', topic.stagedReading ? 'Die Musterlösung steht im Erwachsenenbereich. Vergleiche erst deine eigene Lektüre und schliesse die Hauptaufgaben ab.' : 'Die Sachlösung steht nur im Erwachsenenbereich. Besprecht sie nach dem wirklichen Gespräch; die App kann keine mündliche Leistung prüfen.');
         } else showSolution();
       }
     }, 'check-button'));
@@ -494,7 +580,7 @@
         figure.append(img); appendText(figure, 'figcaption', '', topic.diagram.caption);
         section.append(figure);
       }
-      if (topic.lab) appendText(section, 'p', 'muted', `${topic.lab.title}: Praktische Bedienung im neuen Tab nur nach tatsächlich beobachteten Schritten beurteilen. Geschriebene Antworten belegen die Klicks nicht automatisch.`);
+      if (topic.lab) appendText(section, 'p', 'muted', topic.lab.scoredInteraction === false ? `${topic.lab.title}: ${topic.lab.printNote}` : `${topic.lab.title}: Praktische Bedienung im neuen Tab nur nach tatsächlich beobachteten Schritten beurteilen. Geschriebene Antworten belegen die Klicks nicht automatisch.`);
       if (topic.audio) {
         appendText(section, 'p', 'muted', topic.audio.adultNote);
         appendText(section, 'h3', '', 'Transkript – erst nach der Hörbearbeitung zeigen');
@@ -576,18 +662,31 @@
       if (topic.prerequisite) appendText(section, 'p', 'print-context', topic.prerequisite);
       appendText(section, 'p', 'print-context', topic.introduction);
       if (topic.passage) appendText(section, 'p', 'print-passage', topic.passage);
-      if (topic.diagram) {
+      if (topic.stagedReading && mode === 'adult') {
+        appendText(section, 'p', 'print-passage', topic.stagedReading.text);
+        if (topic.stagedReading.plan) {
+          const figure = create('figure', 'print-diagram');
+          const img = create('img'); img.src = topic.stagedReading.plan.path; img.alt = topic.stagedReading.plan.alt;
+          figure.append(img); appendText(figure, 'figcaption', '', topic.stagedReading.plan.caption);
+          section.append(figure);
+        }
+      }
+      if (topic.stagedReading && mode === 'child') appendText(section, 'p', 'print-context', 'Druckfolge: Seite mit Titel und Vermutung zuerst bearbeiten. Die folgende Textseite erst danach ansehen; den Änderungstext erst nach den Hauptaufgaben ansehen. Eine bedruckte Seite allein beweist diese Reihenfolge nicht.');
+      if (topic.stagedUpdate && mode === 'child') appendText(section, 'p', 'print-context', 'Druckfolge: Zuerst die Hauptaufgaben A–C auf den ersten Seiten bearbeiten. Die spätere Korrektur auf der Zusatzseite erst danach ansehen. Papier allein beweist diese Reihenfolge nicht.');
+      if (topic.diagram && (mode === 'child' || topic.diagram.adultPrint !== false)) {
         const figure = create('figure', 'print-diagram');
         const img = create('img'); img.src = topic.diagram.path; img.alt = topic.diagram.alt;
         figure.append(img); appendText(figure, 'figcaption', '', topic.diagram.caption);
         section.append(figure);
       }
       if (topic.lab) {
-        appendText(section, 'p', 'print-context', `${topic.lab.title}: im Online-Lernatlas beim Thema über „${topic.lab.title} in neuem Tab öffnen“ starten. ${topic.lab.printNote} Direktadresse: ${topic.lab.publicUrl}`);
-        if (mode === 'adult') {
+        appendText(section, 'p', 'print-context', `${topic.lab.title}: im Lernatlas beim Thema öffnen. ${topic.lab.printNote}${topic.released && topic.lab.published !== false ? ` Direktadresse: ${topic.lab.publicUrl}` : ''}`);
+        if (mode === 'adult' && topic.lab.scoredInteraction !== false) {
           const observationNote = topic.id === 'mbi-farbkarten-tabellenlabor'
             ? 'Geschriebene Antworten beweisen Formeleingabe und Neuberechnung nach B6-Änderung nicht.'
-            : topic.id === 'de-leseraeume-diagramm'
+            : topic.id === 'ma-vierkarten-simulation'
+              ? 'Geschriebene Antworten beweisen weder die drei Simulationsstufen noch ein eigenständig gezeichnetes Papierdiagramm.'
+              : topic.id === 'de-leseraeume-diagramm'
               ? 'Geschriebene Antworten beweisen den Wechsel von Tag und Messgrösse nicht.'
               : topic.id === 'mbi-lesepause-medienwerkstatt'
                 ? 'Geschriebene Antworten beweisen Herunterladen, Wiederöffnen und Überarbeiten zweier eigener HTML-Fassungen nicht.'
@@ -614,7 +713,9 @@
         if (mode === 'adult') appendText(section, 'p', 'print-context', topic.reading.adultNote);
       }
       for (const [index, task] of topic.tasks.entries()) {
-        const item = create('div', 'print-task'); item.dataset.taskId = task.id; appendText(item, 'h3', '', `${index + 1}. ${task.prompt}`);
+        const item = create('div', 'print-task'); item.dataset.taskId = task.id;
+        if (topic.stagedUpdate && mode === 'adult' && index === topic.tasks.length - 2) item.classList.add('print-keep-together');
+        appendText(item, 'h3', '', `${index + 1}. ${task.prompt}`);
         if (mode === 'child') {
           if (task.options) task.options.forEach(option => appendText(item, 'p', '', `☐ ${option}`));
           else {
@@ -627,6 +728,21 @@
           const ol = create('ol'); (task.explanation || task.criteria || []).forEach(step => appendText(ol, 'li', '', step)); item.append(ol);
         }
         section.append(item);
+        if (topic.stagedReading && mode === 'child' && index === 0) {
+          appendText(section, 'p', 'print-staged-source print-passage', topic.stagedReading.text);
+          if (topic.stagedReading.plan) {
+            const figure = create('figure', 'print-diagram');
+            const img = create('img'); img.src = topic.stagedReading.plan.path; img.alt = topic.stagedReading.plan.alt;
+            figure.append(img); appendText(figure, 'figcaption', '', topic.stagedReading.plan.caption);
+            section.append(figure);
+          }
+        }
+        if (topic.stagedReading && index === topic.tasks.length - 2) {
+          appendText(section, 'p', mode === 'child' ? 'print-staged-update print-passage' : 'print-passage', topic.stagedReading.updateText);
+        }
+        if (topic.stagedUpdate && index === topic.tasks.length - 2) {
+          appendText(section, 'p', mode === 'child' ? 'print-staged-update print-passage' : 'print-passage', topic.stagedUpdate.text);
+        }
       }
       if (topic.practice) {
         const practiceSection = create('section', 'print-practice');

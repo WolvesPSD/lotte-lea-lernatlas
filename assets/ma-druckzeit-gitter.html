@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Druckzeit · Koordinatengitter</title>
+  <style>
+    :root{color-scheme:light;font-family:system-ui,Arial,sans-serif;color:#173f49;background:#f4f5ef}
+    *{box-sizing:border-box}body{margin:0 auto;padding:1.2rem;max-width:900px}header{display:grid;gap:.4rem;margin-bottom:1rem}h1{font-size:1.55rem;margin:0}p{line-height:1.5;margin:.2rem 0}.actions{display:flex;flex-wrap:wrap;gap:.6rem;margin:.7rem 0 1rem}.actions a,.actions button{min-height:44px;padding:.65rem .9rem;border:1px solid #205963;border-radius:.6rem;background:#fff;color:#174a52;font:inherit;font-weight:700;text-decoration:none;cursor:pointer}img{display:block;width:100%;height:auto;background:white;border:1px solid #b8c9c8;border-radius:.7rem}small{display:block;margin:1rem 0;color:#53656a}@media print{@page{size:A4 portrait;margin:10mm}body{max-width:none;padding:0;background:white}h1{font-size:14pt}p{font-size:9pt}.actions,small{display:none}img{max-height:250mm;object-fit:contain;border:0}}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Zwei Gitter für Druckerzahl und Zeit</h1>
+    <p>Trage die Werte aus deinem Arbeitsblatt selbst ein. Oben: Karten in acht Minuten. Unten: reine Druckzeit für 600 Karten. Nur ganze Druckerzahlen sind im Fall möglich.</p>
+  </header>
+  <div class="actions">
+    <button id="print" type="button">Gitter drucken</button>
+    <a href="ma-druckzeit-gitter.svg" download="druckzeit-koordinatengitter.svg">SVG herunterladen</a>
+  </div>
+  <img src="ma-druckzeit-gitter.svg" alt="Zwei leere Koordinatengitter ohne eingezeichnete Lösungswerte: oben Karten gegen Druckerzahl, unten reine Druckzeit gegen Druckerzahl.">
+  <small>Die Datei enthält keine Antworten oder gespeicherten Eingaben. Zeichne Punkte auf dem Ausdruck oder öffne das SVG in einem Zeichenprogramm. Eine fertige Grafik muss ein Mensch prüfen.</small>
+  <script>document.querySelector('#print').addEventListener('click',()=>window.print());</script>
+</body>
+</html>

@@ -3423,6 +3423,120 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-druckzeit-zuordnungen",
+      "subjectId": "ma",
+      "title": "Druckerzahl, Karten und Zeit",
+      "scope": "Ausblick Klasse 8 · freiwillig. Direkte Proportionalität ist hier eine Klasse-6-Wiederholung; umgekehrte Proportionalität mit Produktprobe und Graph ist im gültigen Plan als Ziel der Klassenstufe 8 markiert. Kein belegter aktueller Klasse-7-Stoff oder Beitrag zur bestätigten Klasse-7-Jahresabdeckung.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Hilfreich sind Multiplikation, Division und Tabellen. Auf dem Gitter ist n die Zahl gleich schneller Drucker; es gibt in diesem Fall nur ganze Drucker. Trage errechnete Punkte auf Papier oder in einer heruntergeladenen SVG-Kopie ein und zeige die Zeichnung zusätzlich: Das Antwortfeld kann keinen Graphen prüfen.",
+      "introduction": "Ein erfundenes Schulfest braucht gedruckte Eintrittskarten. Jeder Drucker schafft 20 Karten pro Minute. Mehrere gleiche Drucker laufen gleichzeitig, ohne Störung oder Ausschuss. Für den ganzen Druckauftrag kommen einmalig vier Minuten Vorbereitung hinzu; dabei wird noch nichts gedruckt. Rechne mit Einheiten und begründe die Zuordnungsart. Die Punkte dienen nur einer Lernrückmeldung, keiner Schulnote.",
+      "passage": "A · Feste Druckdauer: In genau acht Minuten schafft ein Drucker 160 Karten. Ergänze für n = 2, 3 und 5 Drucker.\nB · Fester Auftrag: Für genau 600 Karten brauchen zwei Drucker 15 Minuten reine Druckzeit. Ergänze für n = 1, 3 und 5.\nC · Gesamtdauer: Bei 600 Karten kommen vier Minuten Vorbereitung einmalig zur reinen Druckzeit. Für einen Drucker sind das 34 Minuten.",
+      "diagram": {
+        "path": "assets/ma-druckzeit-gitter.svg",
+        "adultPrint": false,
+        "alt": "Zwei leere Koordinatengitter ohne Lösungspunkte. Oben: Druckerzahl null bis fünf waagerecht, Kartenanzahl null bis 800 senkrecht. Unten: Druckerzahl null bis fünf waagerecht, reine Druckzeit null bis 30 Minuten senkrecht. Beide Achsen und Einheiten sind beschriftet; die berechneten Punkte müssen selbst eingetragen werden.",
+        "caption": "Oben D(n), unten P(n). Trage die Wertepaare selbst ein; verbinde keine Zwischenwerte zu halben Druckern. Die Zeichnung wird gesondert angeschaut."
+      },
+      "lab": {
+        "path": "assets/ma-druckzeit-gitter.html",
+        "scoredInteraction": false,
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-druckzeit-gitter.html",
+        "title": "Leere Koordinatengitter",
+        "description": "Öffne die zwei leeren Gitter zum Drucken oder lade sie als SVG für ein Zeichenprogramm herunter. Es sind keine Lösungen eingezeichnet.",
+        "printNote": "Die Gitter enthalten keine Ergebnisse. Wer Punkte zeichnet, muss die tatsächliche Zeichnung zeigen; Textantworten beweisen sie nicht."
+      },
+      "tasks": [
+        {
+          "id": "ma-druckzeit-1",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "prompt": "1. Feste acht Minuten (6 Kriterienpunkte): Berechne die Kartenzahlen für 2, 3 und 5 Drucker. Gib D(n) an und begründe, ob n → D(n) direkt proportional ist. Trage die vier Punkte für n = 1, 2, 3 und 5 ins obere Gitter ein; zeige die Zeichnung getrennt.",
+          "sample": "Ein Drucker schafft 20 · 8 = 160 Karten. D(n) = 160n, also D(2)=320, D(3)=480, D(5)=800 Karten. D(n)/n=160 bleibt gleich: direkt proportional. Die Punkte sind (1|160), (2|320), (3|480), (5|800), mit n auf der waagerechten und Karten auf der senkrechten Achse. Nur positive ganze n sind im Fall möglich.",
+          "criteria": [
+            "1 Punkt: 320 Karten bei zwei Druckern.",
+            "1 Punkt: 480 Karten bei drei Druckern.",
+            "1 Punkt: 800 Karten bei fünf Druckern.",
+            "1 Punkt: D(n)=160n oder gleichwertige Regel.",
+            "1 Punkt: direkte Proportionalität über konstanten Quotienten oder passende Verdopplung begründet.",
+            "1 Punkt: alle vier Punkte mit richtigen Achsen/Einheiten tatsächlich im gezeigten Gitter; Zahlen im Antwortfeld allein reichen nicht."
+          ]
+        },
+        {
+          "id": "ma-druckzeit-2",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "prompt": "2. Feste 600 Karten (6 Kriterienpunkte): Berechne die reine Druckzeit für 1, 3 und 5 Drucker. Gib P(n) an, belege die umgekehrte Proportionalität mit Produkten und rechne die fünf Drucker zusätzlich per Dreisatz aus den 15 Minuten bei zwei Druckern. Trage die vier Punkte ins untere Gitter ein.",
+          "sample": "P(n)=600/(20n)=30/n Minuten. Somit P(1)=30, P(2)=15, P(3)=10 und P(5)=6 Minuten. Die Produkte 1·30=2·15=3·10=5·6=30 sind gleich. Dreisatz: Zwei Drucker brauchen 15, einer 30, fünf 30/5=6 Minuten. Die Graphpunkte sind (1|30), (2|15), (3|10), (5|6); sie liegen nicht auf einer Geraden.",
+          "criteria": [
+            "1 Punkt: 30 Minuten bei einem Drucker.",
+            "1 Punkt: 10 Minuten bei drei Druckern.",
+            "1 Punkt: 6 Minuten bei fünf Druckern.",
+            "1 Punkt: P(n)=30/n oder 600/(20n) mit Minuteneinheit.",
+            "1 Punkt: konstantes Produkt und Dreisatz über einen Drucker nachvollziehbar.",
+            "1 Punkt: alle vier Punkte mit richtigen Achsen/Einheiten tatsächlich im gezeigten unteren Gitter; keine Lösung aus Text allein annehmen."
+          ]
+        },
+        {
+          "id": "ma-druckzeit-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 8,
+          "prompt": "3. Einmalige Vorbereitung (5 Kriterienpunkte): Berechne T(2) und T(5) als gesamte Dauer für 600 Karten und gib T(n) an. Prüfe mit einem und zwei Druckern per Quotient und Produkt, ob n → T(n) direkt oder umgekehrt proportional ist.",
+          "sample": "T(n)=4+30/n Minuten. T(1)=34, T(2)=19 und T(5)=10 Minuten. Direkt? T(1)/1=34, T(2)/2=9,5: nicht gleich. Umgekehrt? 1·34=34, 2·19=38: nicht gleich. Die gesamte Dauer ist weder direkt noch umgekehrt proportional; nur die reine Druckzeit hat ein konstantes Produkt.",
+          "criteria": [
+            "1 Punkt: T(2)=19 Minuten.",
+            "1 Punkt: T(5)=10 Minuten.",
+            "1 Punkt: T(n)=4+30/n oder passend erläuterte Regel.",
+            "1 Punkt: ungleiche Quotienten 34 und 9,5 als Gegenbeispiel zur direkten Proportionalität.",
+            "1 Punkt: ungleiche Produkte 34 und 38 als Gegenbeispiel zur umgekehrten Proportionalität mit Schluss „weder noch“."
+          ]
+        },
+        {
+          "id": "ma-druckzeit-4",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 7,
+          "inputRows": 7,
+          "prompt": "4. Mias Abkürzung (3 Kriterienpunkte): Mia rechnet die gesamte Zeit bei fünf Druckern aus 19 · 2 / 5 = 7,6 Minuten. Erkläre den Modellfehler, berechne die richtige gesamte Zeit und nenne eine realistische Grenze des erfundenen Druckermodells.",
+          "sample": "Mia verkleinert auch die vier Minuten Vorbereitung, obwohl sie einmalig bleiben. Nur die 15 Minuten reine Druckzeit mit zwei Druckern werden zu 15·2/5=6 Minuten mit fünf Druckern. Insgesamt sind es 4+6=10 Minuten. In Wirklichkeit könnten Drucker verschieden schnell sein oder wegen Papiermangel stoppen.",
+          "criteria": [
+            "1 Punkt: fälschlich mitskalierte Vorbereitung benannt.",
+            "1 Punkt: reine Druckzeit 6 plus vier Minuten einmalige Vorbereitung ergibt 10 Minuten.",
+            "1 Punkt: eine konkret passende Modellgrenze wie unterschiedliche Geschwindigkeit, Störung oder Ausschuss erläutert."
+          ]
+        },
+        {
+          "id": "ma-druckzeit-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "prompt": "Freiwilliger Transfer, getrennte 6 Zusatzpunkte: Bei einem neuen erfundenen Auftrag schafft jeder Drucker 15 Karten pro Minute. Für genau 900 Karten fallen einmalig fünf Minuten Vorbereitung an. (a) Wie viele Karten schaffen zwei und fünf Drucker in acht Minuten reiner Druckzeit, und welche Zuordnung ist das? (b) Wie lange dauert das reine Drucken der 900 Karten bei zwei und fünf Druckern? Zeige die Produktprobe. (c) Berechne die gesamte Dauer für beide Druckerzahlen. Ist sie umgekehrt proportional? Begründe mit beiden Produkten.",
+          "sample": "(a) D(n)=15·8·n=120n: D(2)=240, D(5)=600 Karten; D(n)/n=120 bleibt gleich, also direkt proportional. (b) P(n)=900/(15n)=60/n Minuten: P(2)=30, P(5)=12; 2·30=5·12=60. (c) T(n)=5+60/n: T(2)=35, T(5)=17 Minuten; 2·35=70 und 5·17=85. Die Gesamtzeit ist nicht umgekehrt proportional. Die Zusatzpunkte werden nicht zu den 20 Hauptpunkten addiert.",
+          "criteria": [
+            "1 Punkt für beide Kartenzahlen 240 und 600; bei genau einem richtigen Wert 0,5.",
+            "1 Punkt für direkte Zuordnung bei fester Laufzeit mit konstantem Quotienten oder gleichwertiger Begründung.",
+            "1 Punkt für beide reinen Druckzeiten 30 und 12 Minuten; bei genau einem richtigen Wert 0,5.",
+            "1 Punkt für Produktprobe 2·30=5·12=60.",
+            "1 Punkt für beide Gesamtdauern 35 und 17 Minuten; bei genau einem richtigen Wert 0,5.",
+            "1 Punkt für ungleiche Produkte 2·35=70 und 5·17=85 sowie begrenzten Schluss zur Gesamtdauer."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Mathematik 2026/27 für Klasse 7, 2027/28 für Klasse 8. § 2.1.8 PDF-S. 23: direkte Proportionalität als Klasse-6-Ziel. § 2.2.1 PDF-S. 24: umgekehrte Proportionalität, Tabelle, Graph, Produktgleichheit und Dreisatz unter der expliziten Zielmarke Klassenstufe 8.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
       "id": "ma-tank-zuordnung",
       "subjectId": "ma",
       "title": "Wie viele Pumpen braucht der Tank?",
@@ -3553,6 +3667,85 @@ window.LOTTE_CATALOG = Object.freeze({
         "gradeBand": "8",
         "competencyRef": "Inkraftsetzung S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. § 2.2.4 S. 26–27 nennt Prozentrechnung, Grundwert/Prozentsatz/Prozentwert und Rabatt ausdrücklich als Klassenstufe-8-Ziele.",
         "checkedAt": "2026-10-21"
+      }
+    },
+    {
+      "id": "en-amina-notebook-story",
+      "subjectId": "en",
+      "title": "Amina’s red notebook – read the clues",
+      "scope": "Freiwillige, gestützte Erzähltext-Leseübung im gültigen 7/8-Rahmen. Geschichten und schlussfolgerndes Lesen gehören zu § 2.2.2; A2, punktuell B1, ist erst Ziel am Ende Klasse 8. Keine bestätigte aktuelle Klasse-7-Einheit.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Alle Personen, Orte und Ereignisse sind erfunden. Kurze englische Antworten mit Zeilennummer genügen; ein Wörterbuch ist erlaubt. Freie Antworten werden nicht automatisch bewertet.",
+      "introduction": "Read the short story and use T1–T8 as evidence. Pay attention to whose notebook each sentence describes, what a character says, and what the story itself confirms. Short English answers or clear words from the text are enough. Words to help: notebook = Heft; cover = Umschlag; beside = neben; showed = zeigte. You may use a dictionary. The story and people are fictional.",
+      "passage": "Amina’s red notebook\nT1 On Monday, Amina left her red notebook on a table in the school library while she looked for a book.\nT2 When she came back, it was gone. She found a note: “I found a red notebook near the window and gave it to Mr Hill. — Ben.”\nT3 Mr Hill showed Amina the red notebook Ben had given him. It had a white star on its cover.\nT4 Amina’s notebook had no star. She said, “This one is not mine.”\nT5 She looked under the table and found her notebook beside a chair.\nT6 She did not know how it got there. She thanked Mr Hill and wrote her name inside her own notebook.\nT7 On Tuesday, Ben said, “I took your notebook to Mr Hill.”\nT8 Amina answered, “You took a red notebook, but it was not mine.”",
+      "tasks": [
+        {
+          "id": "en-amina-1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "prompt": "1. Find where Amina left her notebook and what she was doing then. Give a line number. (2 criteria points)",
+          "sample": "She left it on a table in the school library while she was looking for a book (T1).",
+          "criteria": [
+            "1 point: table in the school library.",
+            "1 point: looking for a book, with T1 or a clearly marked text detail. “Near the window” is Ben’s reported find place, not her stated leaving place."
+          ]
+        },
+        {
+          "id": "en-amina-2",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "prompt": "2. Compare the notebook Mr Hill showed her with her own notebook. Give one similarity and the decisive difference, with a line number. (2 criteria points)",
+          "sample": "Both notebooks were red (T1, T3). Mr Hill’s notebook had a white star on the cover, but Amina’s had no star (T3–T4).",
+          "criteria": [
+            "1 point: both red.",
+            "1 point: white star versus no star, with T3–T4 or a clear marked comparison."
+          ]
+        },
+        {
+          "id": "en-amina-3",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "prompt": "3. Put these events in the correct order and give the matching lines: Amina found her own notebook; Amina found Ben’s note; Mr Hill showed her a notebook. (2 criteria points)",
+          "sample": "First she found Ben’s note (T2), then Mr Hill showed her a notebook (T3), and after that she found her own notebook (T5).",
+          "criteria": [
+            "1 point: T2 before T3.",
+            "1 point: T3 before T5; line references or clear marked passages show the evidence."
+          ]
+        },
+        {
+          "id": "en-amina-4",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "prompt": "4. Ben says he took Amina’s notebook to Mr Hill. Does the story support that? Give the detail that corrects his statement and a line number. (2 criteria points)",
+          "sample": "No. The notebook Ben gave Mr Hill had a white star, but Amina’s had no star (T3–T4, T7–T8). Ben’s statement does not prove that he meant to mislead anyone.",
+          "criteria": [
+            "1 point: no, the claim about Amina’s notebook is not supported.",
+            "1 point: star comparison with T3–T4 or an equivalent clear text reference. Do not infer that Ben deliberately lied."
+          ]
+        },
+        {
+          "id": "en-amina-5",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "prompt": "5. Explain where Amina found her own notebook and one thing she does not know about how it got there. Give line numbers. (2 criteria points)",
+          "sample": "She found her notebook under the table beside a chair (T5). She did not know how it got there (T6), so we cannot say who moved it or whether anyone moved it.",
+          "criteria": [
+            "1 point: under the table beside a chair, T5.",
+            "1 point: unknown way it got there, T6; no invented cause or person."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. § 2.2 PDF-S. 25 und § 2.2.2 PDF-S. 26–27: Geschichten, gezieltes und schlussfolgerndes Lesen mit Belegen im 7/8-Bereich; A2/punktuell B1 erst Ende Klasse 8.",
+        "checkedAt": "2026-10-22"
       }
     },
     {
@@ -5170,6 +5363,15 @@ window.LOTTE_CATALOG = Object.freeze({
       "released": true,
       "prerequisite": "Du brauchst ein vollständiges Buch und deine Ausgabe zum Nachschlagen. Du kannst mit dem ersten Teil beginnen. Fragen zum ganzen Werk bearbeitest du erst nach der vollständigen Lektüre. Die App kennt dein Buch nicht und kann deine Angaben nicht automatisch prüfen.",
       "introduction": "Nimm ein erzählendes Kinder- oder Jugendbuch zur Hand, das du wirklich liest – falls die Schule eines gewählt hat, am besten dieses. Für eine Gedichtsammlung oder ein anders aufgebautes Werk passt dieser Fragenweg möglicherweise nicht. Notiere Kapitel, Seite oder eine eindeutig auffindbare Szene aus deiner Ausgabe. Eine Seitenzahl ohne beschriebenen Inhalt genügt nicht. Schreibe keine langen Buchstellen ab. Wenn du noch nicht fertig bist, notiere deinen ehrlichen Lesestand und bearbeite nur gelesene Bereiche. Die Heidi-Beispiele in den Prüfhinweisen zeigen die Methode, sind aber keine Lösung für ein anderes Buch. Deine Eingaben bleiben lokal in diesem Browser.",
+      "lab": {
+        "title": "Leeres Leselog für deine Leseetappen",
+        "description": "Drei offene Einträge pro Blatt für tatsächliche Leseschritte. Du kannst das Blatt drucken oder als HTML für später herunterladen; es enthält keine Buchangaben oder Antworten.",
+        "path": "assets/de-leselog.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-leselog.html",
+        "printNote": "Leeres, beliebig oft druckbares Zusatzblatt für gelesene Stellen. Es belegt weder die Ganzlektüre noch die schulische Behandlung.",
+        "published": true,
+        "scoredInteraction": false
+      },
       "tasks": [
         {
           "id": "de-eigene-ganzschrift-1",

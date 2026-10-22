@@ -1,20 +1,18 @@
 {
-  "builtAt": "2026-10-22T00:00:53.796Z",
-  "releaseVersion": "2026.10.22-dewriting.1",
+  "builtAt": "2026-10-22T02:06:07.990Z",
+  "releaseVersion": "2026.10.22-familytools.1",
   "newTopicIds": [
-    "fr-bilderausstellung-vortrag",
-    "de-samira-charakterisierung",
-    "de-spielenachmittag-werbetext",
-    "de-buechersammlung-meldung",
-    "de-pausenraum-folie-handout"
+    "en-amina-notebook-story",
+    "ma-druckzeit-zuordnungen"
   ],
   "changeLog": [
-    "Freiwillige Französisch-7/8-Sprechübung mit fiktiver Bilderausstellung, Stichwortkarte und Live-Beobachtungsbogen; keine automatisch oder real bestätigte Sprechleistung und kein belegter aktueller Klasse-7-Stoff.",
-    "Die sechs noch leeren Fächer zeigen in der Themenwahl die konkrete Lehrplan- oder Klasse-7-Zuordnungslücke an.",
-    "Vier freiwillige Deutsch-7/8-Schreibfälle zu Figurencharakterisierung, Werbetext, datierter Meldung und Folie/Handout mit fiktiven Quellen; alle freien Texte erfordern menschliche Prüfung.",
-    "Die Folie/Handout-Werkstatt bietet zwei lokale, druckbare HTML-Downloads. Keine echte Schulbefragung, Veröffentlichung oder beobachtete Präsentation."
+    "Freiwillige Englisch-7/8-Erzähltextübung zu Textbelegen und Schlussfolgerungen mit fünf Aufgaben. Freie Antworten erfordern menschliche Prüfung; keine bestätigte aktuelle Klasse-7-Einheit.",
+    "Freiwilliger Mathematik-Ausblick Klasse 8 zu direkter und umgekehrter Proportionalität: 20 Hauptpunkte und sechs getrennte Transferpunkte. Kein Beitrag zur bestätigten Klasse-7-Abdeckung.",
+    "Zwei leere Koordinatengitter sind im Kinderblatt und separat als druckbare A4-Seite verfügbar. Der SVG-Link ist im Paket enthalten; der tatsächliche Download im Familienbrowser muss noch geprüft werden.",
+    "Die Themenwahl zeigt Klasse-6-Wiederholungen getrennt von Klasse-7- und 7/8-Wegen; die fachliche Jahrgangsmarke bleibt auf jeder Karte sichtbar.",
+    "Beim titelunabhängigen Ganzschriftweg gibt es ein leeres, beliebig oft druckbares Leselog als HTML-Download. Es speichert keine Buchangaben und bescheinigt keine Ganzlektüre oder schulische Behandlung."
   ],
-  "rollbackCommit": "f3e293a532e2c4ee28b0baa9479c649e07886d72",
+  "rollbackCommit": "c849314271428b48eafc355ad996c452fa075669",
   "releasedTopics": [
     "mbi-festbezug-karten",
     "de-woerter-umfrage",
@@ -57,8 +55,10 @@
     "en-update-fixture",
     "en-sketchbook-story",
     "ma-heftpreis-bruecke",
+    "ma-druckzeit-zuordnungen",
     "ma-tank-zuordnung",
     "ma-prozent-fixture",
+    "en-amina-notebook-story",
     "en-maya-repair-cafe",
     "en-friday-activity-email",
     "en-garden-poster-dialogue",
@@ -110,6 +110,7 @@
     "fr-sprachreflexion-einladung",
     "fr-reponse-elodie",
     "mbi-quellen-ki",
+    "ma-druckzeit-zuordnungen",
     "ma-tank-zuordnung",
     "ma-prozent-fixture",
     "ma-kuehlkasten-rationale-zahlen",

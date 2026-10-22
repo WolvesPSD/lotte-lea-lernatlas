@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 900" role="img" aria-labelledby="title desc">
+  <title id="title">Zwei leere Koordinatengitter für Kartenanzahl und reine Druckzeit</title>
+  <desc id="desc">Oben ein Gitter für ein bis fünf Drucker und null bis 800 Karten in acht Minuten. Unten ein Gitter für ein bis fünf Drucker und null bis 30 Minuten reine Druckzeit für 600 Karten. Keine Ergebnis- oder Lösungspunkte sind eingezeichnet.</desc>
+  <rect x="1" y="1" width="778" height="898" rx="16" fill="#fffdf9" stroke="#bbcbcb" stroke-width="2"/>
+  <g font-family="Arial, sans-serif" fill="#173f49">
+    <text x="58" y="43" font-size="24" font-weight="700">Ergänze die Punkte selbst</text>
+    <text x="58" y="76" font-size="18" font-weight="700">A · Acht Minuten drucken: Karten D(n)</text>
+    <text x="58" y="496" font-size="18" font-weight="700">B · 600 Karten: reine Druckzeit P(n)</text>
+  </g>
+  <g fill="#fff" stroke="#bbcbcb"><rect x="85" y="105" width="500" height="280"/><rect x="85" y="525" width="500" height="300"/></g>
+  <g fill="none" stroke="#d9e4e5" stroke-width="1">
+    <path d="M185 105V385 M285 105V385 M385 105V385 M485 105V385 M185 525V825 M285 525V825 M385 525V825 M485 525V825"/>
+    <path d="M85 350H585 M85 315H585 M85 280H585 M85 245H585 M85 210H585 M85 175H585 M85 140H585"/>
+    <path d="M85 775H585 M85 725H585 M85 675H585 M85 625H585 M85 575H585"/>
+  </g>
+  <g fill="none" stroke="#27545b" stroke-width="3"><path d="M85 105V385H585"/><path d="M85 525V825H585"/></g>
+  <g font-family="Arial, sans-serif" fill="#173f49" font-size="16" text-anchor="middle">
+    <text x="85" y="410">0</text><text x="185" y="410">1</text><text x="285" y="410">2</text><text x="385" y="410">3</text><text x="485" y="410">4</text><text x="585" y="410">5</text>
+    <text x="85" y="850">0</text><text x="185" y="850">1</text><text x="285" y="850">2</text><text x="385" y="850">3</text><text x="485" y="850">4</text><text x="585" y="850">5</text>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#173f49" font-size="15" text-anchor="end">
+    <text x="76" y="390">0</text><text x="76" y="355">100</text><text x="76" y="320">200</text><text x="76" y="285">300</text><text x="76" y="250">400</text><text x="76" y="215">500</text><text x="76" y="180">600</text><text x="76" y="145">700</text><text x="76" y="110">800</text>
+    <text x="76" y="830">0</text><text x="76" y="780">5</text><text x="76" y="730">10</text><text x="76" y="680">15</text><text x="76" y="630">20</text><text x="76" y="580">25</text><text x="76" y="530">30</text>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#173f49" font-size="16" font-weight="700">
+    <text x="476" y="441">n · Drucker</text><text x="476" y="878">n · Drucker</text>
+    <text x="94" y="99">Karten</text><text x="94" y="519">Minuten</text>
+  </g>
+</svg>

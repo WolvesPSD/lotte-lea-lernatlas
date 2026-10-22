@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="760" viewBox="0 0 920 760" role="img" aria-labelledby="title desc">
+  <title id="title">Fiktive Gradnetzkarte mit den Orten A bis F</title>
+  <desc id="desc">Fünf waagerechte Breitenkreise von 20 Grad Nord bis 20 Grad Süd und fünf senkrechte Längenkreise von 20 Grad West bis 20 Grad Ost. Sechs Buchstaben stehen an Schnittpunkten. Die vollständige Texttabelle steht im Kinderblatt.</desc>
+  <rect width="920" height="760" fill="#ffffff"/>
+  <text x="36" y="43" fill="#123653" font-family="Arial, sans-serif" font-size="26" font-weight="700">Modellkarte: sechs erfundene Orte</text>
+  <text x="36" y="71" fill="#39566b" font-family="Arial, sans-serif" font-size="16">Schematisches Gradnetz, keine wirkliche Region und kein Entfernungsmaßstab</text>
+  <rect x="170" y="120" width="560" height="440" fill="#eff7fb" stroke="#24516a" stroke-width="2"/>
+  <g stroke="#a1bac9" stroke-width="2">
+    <line x1="170" y1="120" x2="170" y2="560"/><line x1="310" y1="120" x2="310" y2="560"/>
+    <line x1="590" y1="120" x2="590" y2="560"/><line x1="730" y1="120" x2="730" y2="560"/>
+    <line x1="170" y1="120" x2="730" y2="120"/><line x1="170" y1="230" x2="730" y2="230"/>
+    <line x1="170" y1="450" x2="730" y2="450"/><line x1="170" y1="560" x2="730" y2="560"/>
+  </g>
+  <g stroke="#9b5b2b" stroke-width="3">
+    <line x1="450" y1="120" x2="450" y2="560"/>
+    <line x1="170" y1="340" x2="730" y2="340"/>
+  </g>
+  <g fill="#123653" font-family="Arial, sans-serif" font-size="19" font-weight="600" text-anchor="middle">
+    <text x="170" y="610">20° W</text><text x="310" y="610">10° W</text><text x="450" y="610">0°</text><text x="590" y="610">10° O</text><text x="730" y="610">20° O</text>
+  </g>
+  <g fill="#123653" font-family="Arial, sans-serif" font-size="19" font-weight="600" text-anchor="end" dominant-baseline="middle">
+    <text x="145" y="120">20° N</text><text x="145" y="230">10° N</text><text x="145" y="340">0°</text><text x="145" y="450">10° S</text><text x="145" y="560">20° S</text>
+  </g>
+  <g fill="#ffffff" stroke="#123653" stroke-width="2">
+    <circle cx="170" cy="230" r="21"/><circle cx="590" cy="340" r="21"/>
+    <circle cx="450" cy="560" r="21"/><circle cx="730" cy="450" r="21"/>
+    <circle cx="310" cy="120" r="21"/><circle cx="310" cy="450" r="21"/>
+  </g>
+  <g fill="#123653" font-family="Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="central">
+    <text x="170" y="230">A</text><text x="590" y="340">B</text><text x="450" y="560">C</text>
+    <text x="730" y="450">D</text><text x="310" y="120">E</text><text x="310" y="450">F</text>
+  </g>
+  <text x="450" y="665" text-anchor="middle" fill="#123653" font-family="Arial, sans-serif" font-size="20" font-weight="700">Längengrade: West ← 0° → Ost</text>
+  <text x="36" y="715" fill="#39566b" font-family="Arial, sans-serif" font-size="17">Breitengrade stehen links. Norden ist oben, Süden unten.</text>
+</svg>

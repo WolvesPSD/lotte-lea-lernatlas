@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-22T10:29:00.904Z",
-  "releaseVersion": "2026.10.22-ethikzusatz.1",
+  "builtAt": "2026-10-22T10:42:01.499Z",
+  "releaseVersion": "2026.10.22-geografiezusatz.1",
   "newTopicIds": [
-    "et-jugendrat-budgetwerte"
+    "go-gradnetz-modellorte"
   ],
   "changeLog": [
-    "Freiwilliges Ethik-Zusatzthema aus dem Lehrplan 2012: Ein fiktiver Jugendrat wägt Budget, Verantwortung und Perspektiven ab. Die Geltung des Fachplans 2026/27 und Lottes Schuleinheit sind ungeklärt; der Fall zählt nicht als bestätigte Klasse-7-Abdeckung.",
-    "Eigener Filter für freiwillige Themen mit offener Lehrplangeltung. Intern geprüfte Fach- und App-Ableitung mit 20 Hauptpunkten und späterer, punktfreier Variante; Kinder- und Erwachsenenansicht sowie Druck getrennt. Familien-, externe Fach- und echte Kinderprobe offen."
+    "Freiwilliger Geografie-Gradnetzfall aus dem älteren Fachplan: sechs erfundene Markierungen in eigener Modellkarte und gleichwertigem Textweg lesen, 20 Haupt- und sechs spätere Zusatzpunkte. Die Geltung 2026/27 und Lottes Schuleinheit bleiben ungeklärt; keine bestätigte Klasse-7-Abdeckung.",
+    "Interne unabhängige Quellen-, Karten- und Lösungsprüfung sowie lokale Mobil-/Desktop-, Stufen-, Kinder-/Erwachsenendruck- und Paketgates. Der Fall ersetzt keine echte topografische Karte; Familien-, Screenreader-, externe Fach- und Kinderprüfung bleiben offen."
   ],
-  "rollbackCommit": "c76324027a2919468291783c0530f18d71c50790",
+  "rollbackCommit": "7ee21e9eecfa04a773b232481736e21712ea9dfd",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -94,6 +94,7 @@
     "fr-parapluie-poeme",
     "ma-schraegbild-darstellungen",
     "et-jugendrat-budgetwerte",
+    "go-gradnetz-modellorte",
     "mnt-bionik-leichtbau-modell"
   ],
   "subjects": [
@@ -106,7 +107,8 @@
     "en",
     "fr",
     "ma",
-    "et"
+    "et",
+    "go"
   ],
   "grade8OutlookTopics": [
     "mbi-speicherplan-zwei-modelle",
@@ -138,7 +140,8 @@
     "ma-schraegbild-darstellungen"
   ],
   "unclearValidityTopics": [
-    "et-jugendrat-budgetwerte"
+    "et-jugendrat-budgetwerte",
+    "go-gradnetz-modellorte"
   ],
   "note": "Struktur, lokaler PDF-Hash und Lösungsfelder geprüft. Fach-, Geräte-, Datenschutz- und Veröffentlichungsfreigabe getrennt dokumentieren."
 }

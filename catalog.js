@@ -91,7 +91,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "plan": "2012 (2025/26)",
       "scope": "7/8; Stand 2026/27 offen",
       "availabilityLabel": "Lehrplan 2026/27 ungeklärt",
-      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Geografie-Lehrplan gilt. Deshalb gibt es hier noch keine freigegebene Aufgabe."
+      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Geografie-Lehrplan gilt. Der freiwillige Gradnetzfall aus der älteren Fassung ist deshalb keine bestätigte aktuelle Klasse-7-Einheit."
     },
     {
       "id": "mbi",
@@ -7047,6 +7047,111 @@ window.LOTTE_CATALOG = Object.freeze({
         "validFor": "2025/26 amtlich belegt; 2026/27 ungeklärt",
         "gradeBand": "7/8, Ziel Ende Klasse 8",
         "competencyRef": "Ethik Gymnasium 2012, §2.2.1, PDF-S.15/Drucks.16: Freiheit und Verantwortung, Perspektivwechsel, Dilemma und kritische Wertehierarchie; Zielmarke Klassenstufe 8.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
+      "id": "go-gradnetz-modellorte",
+      "subjectId": "go",
+      "title": "Orte im erfundenen Gradnetz finden",
+      "scope": "Freiwilliger Einstieg in einen engen Gradnetz-Teil der Geografie-Methodenkompetenz mit Zielmarke Ende Klasse 8. Die Geltung des älteren Thüringer Lehrplans für 2026/27 und die aktuelle Schuleinheit sind ungeklärt.",
+      "levelStatus": "additional-unclear",
+      "released": true,
+      "prerequisite": "Die amtliche Geografie-Lehrplangeltung für Lottes Schuljahr 2026/27 ist ungeklärt. Alle Kartenorte A–F sind erfunden. Das Schema ist keine Karte einer wirklichen Region und hat keinen Kilometermassstab. Du kannst die Grafik oder die gleichwertige Texttabelle nutzen. Private Ortsdaten brauchst du nicht.",
+      "introduction": "Waagerechte Linien zeigen Breitengrade: nördlich (N) oder südlich (S) des Äquators. Der Äquator hat 0° Breite. Senkrechte Linien zeigen Längengrade: westlich (W) oder östlich (O) des Nullmeridians. Dieser hat 0° Länge. Lies immer zuerst die Breite, dann die Länge. Norden liegt oben, Osten rechts. Die Buchstaben A–F stehen an erfundenen Schnittpunkten; die Abstände sind keine Kilometerangaben. 20 Hauptpunkte und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "diagram": {
+        "path": "assets/geografie-gm01-fiktives-gradnetz.svg",
+        "alt": "Fiktives Gradnetz mit fünf Breiten- und fünf Längenlinien. Der Textweg im Aufgabenblatt nennt alle sechs Buchstaben an ihren Schnittpunkten und kann statt der Grafik gelesen werden.",
+        "caption": "Eigene schematische Modellkarte ohne reale Region und ohne Entfernungsmaßstab. Grafik oder Texttabelle reichen aus."
+      },
+      "passage": "TEXTWEG ZUR KARTE · Zeilen = Breitengrade, Spalten = Längengrade. Ein Strich bedeutet: kein Ort markiert.\nSpalten: 20° W | 10° W | 0° | 10° O | 20° O\n20° N: – | E | – | – | –\n10° N: A | – | – | – | –\n0°: – | – | – | B | –\n10° S: – | F | – | – | D\n20° S: – | – | C | – | –",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGE VARIANTE NACH A–D · Nutze dieselbe erfundene Karte. Jetzt sind auch E und F gefragt. Die Hauptantworten bleiben unverändert; sechs Zusatzpunkte werden getrennt ausgewiesen."
+      },
+      "tasks": [
+        {
+          "id": "go-gradnetz-1",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Koordinaten lesen (5 Hauptpunkte): Gib für A und C jeweils Breitengrad und Längengrad an. Schreibe die Breite zuerst. Achte auf N, S, W, O oder 0°.",
+          "sample": "A: 10° N Breite, 20° W Länge. C: 20° S Breite, 0° Länge. Bei 0° Länge ist keine Ost-/Westseite nötig.",
+          "criteria": [
+            "Je 1 Punkt für A-Breite und A-Länge.",
+            "Je 1 Punkt für C-Breite und C-Länge.",
+            "1 Punkt für Breite vor Länge bei beiden Orten. Gleichwertige 0°-Schreibweisen zulassen."
+          ]
+        },
+        {
+          "id": "go-gradnetz-2",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Orte finden und Linien erklären (6 Hauptpunkte): Welcher Buchstabe liegt bei 0° Breite / 10° O Länge? Welcher bei 10° S Breite / 20° O Länge? Erkläre danach, welche Linie 0° Breite und welche Linie 0° Länge bezeichnet. Welche beiden Richtungen trennt jede dieser Linien?",
+          "sample": "B liegt bei 0° Breite / 10° O Länge; D bei 10° S Breite / 20° O Länge. 0° Breite ist der Äquator und trennt Nord/Süd. 0° Länge ist der Nullmeridian und trennt West/Ost.",
+          "criteria": [
+            "1 Punkt für B; 1 Punkt für D.",
+            "1 Punkt für Äquator und 1 Punkt für Nord/Süd.",
+            "1 Punkt für Nullmeridian und 1 Punkt für West/Ost."
+          ]
+        },
+        {
+          "id": "go-gradnetz-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "C · Lage beschreiben (4 Hauptpunkte): Wo liegt B im Verhältnis zu A? Nenne eine Nord-/Südrichtung und eine Ost-/Westrichtung. Belege beide mit den Linienwerten der Karte.",
+          "sample": "B liegt südlich und östlich von A: B liegt auf 0° Breite statt 10° N und auf 10° O Länge statt 20° W.",
+          "criteria": [
+            "1 Punkt für südlich und 1 Punkt für östlich.",
+            "1 Punkt für den passenden Breitenvergleich 0° zu 10° N.",
+            "1 Punkt für den passenden Längenvergleich 10° O zu 20° W."
+          ]
+        },
+        {
+          "id": "go-gradnetz-4",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Aussagen prüfen (5 Hauptpunkte): Prüfe jede Aussage anhand der Karte und begründe kurz: a) „C liegt nördlich des Äquators.“ b) „B liegt auf dem Nullmeridian.“ c) „A und B liegen 100 km auseinander.“",
+          "sample": "a) Falsch: C liegt bei 20° S südlich des Äquators. b) Falsch: B liegt bei 10° O auf dem Äquator, nicht auf dem Nullmeridian. c) Nicht bestimmbar: Das Schema gibt weder einen Entfernungsmaßstab noch reale Ortsgeometrie an.",
+          "criteria": [
+            "a) 1 Punkt für falsch und 1 Punkt für 20° S/südlich.",
+            "b) 1 Punkt für falsch und 1 Punkt für 10° O statt Nullmeridian.",
+            "c) 1 Punkt für nicht bestimmbar wegen fehlendem Kilometermassstab; ein Gradabstand ist keine hier angegebene Kilometerentfernung."
+          ]
+        },
+        {
+          "id": "go-gradnetz-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Variante nach A–D · sechs getrennte Zusatzpunkte: Gib die Koordinaten von E und F an, jeweils Breite zuerst. Beschreibe dann die Lage von E im Verhältnis zu F mit einer Nord-/Südrichtung und einem Vergleich der Längengrade.",
+          "sample": "E: 20° N Breite, 10° W Länge. F: 10° S Breite, 10° W Länge. E liegt nördlich von F und auf demselben Längengrad.",
+          "criteria": [
+            "Je 1 Zusatzpunkt für E-Breite, E-Länge, F-Breite und F-Länge.",
+            "1 Zusatzpunkt für nördlich.",
+            "1 Zusatzpunkt für denselben Längengrad 10° W. Zusatzpunkte getrennt von 20 Hauptpunkten ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2025/26 amtlich belegt; 2026/27 ungeklärt",
+        "gradeBand": "7/8, Ziel Ende Klasse 8",
+        "competencyRef": "Geografie Gymnasium 2012, §2.2 PDF-S.16/Drucks.18: Lage ausgewählter topografischer Objekte beschreiben und mithilfe des Gradnetzes bestimmen, Methodenkompetenz unter Klassenstufe 8.",
         "checkedAt": "2026-10-22"
       }
     },

@@ -84,6 +84,129 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "mbi-speicherplan-zwei-modelle",
+      "subjectId": "mbi",
+      "title": "Speicherplan mit zwei Tabellenmodellen",
+      "scope": "Freiwilliger Klasse-8-Ausblick zu MBI I1 mit Zielmarke Ende Klasse 8. Die Werte sind erfunden; Lottes aktuelle Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst ein lokales Tabellenprogramm wie Excel oder Calc. Wenn Zellen und Formeln noch neu sind, beginne mit der Datei-/Quellenbrücke und den Farbkarten. Keine eigenen Fotos, Gerätegrößen oder Konten verwenden.",
+      "introduction": "Vier erfundene Bilddateien brauchen unterschiedlich viel Platz. Entwickle zwei Planungsregeln, trage sie in ein lokales Tabellenblatt ein und vergleiche zwei Diagramme. Modelle sind keine sicheren Vorhersagen. Die Website bewertet offene Antworten und deine Arbeit in Excel oder Calc nicht automatisch.",
+      "passage": "FIKTIVE DATENKARTE · Beispieldatei A: 2 MB · B: 4 MB · C: 3 MB · D: 5 MB. Auf einem erfundenen Datenträger sind 120 MB für neue Bilder frei. Die vier Beispiele sind nur eine Stichprobe. Plane für 0, 10, 20, 30 und 40 neue Bilder; künftige Dateigrößen sind unbekannt.",
+      "lab": {
+        "path": "assets/mbi-speicherplan.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/mbi-speicherplan.html",
+        "published": true,
+        "title": "Speicherplan und leeres Excel-Startblatt",
+        "description": "XLSX mit fiktiven Quellzahlen, leeren Modellzellen, Formeltabelle und Raum für zwei eigene Diagramme.",
+        "printNote": "Das leere XLSX ist im Übungsraum herunterzuladen. Der Ausdruck belegt weder Formeln noch Diagramme oder eine gespeicherte Änderung."
+      },
+      "tasks": [
+        {
+          "id": "mbi-speicherplan-1",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "A. Daten und Frage (3 Punkte): Lege aus den vier Werten eine Quelltabelle mit Dateiname und Größe in MB an. Was ist Text, was Zahl und was die Einheit? Formuliere eine konkrete Planungsfrage.",
+          "sample": "Die Namen A–D sind Text, 2/4/3/5 sind Zahlen und MB ist die Einheit. Beispiel: Reichen die fiktiven 120 MB je nach Modell für 30 neue Bilder? Das Startblatt zeigt die Quelle; das selbstständige Anlegen einer eigenen Quelltabelle muss zusätzlich beobachtet werden.",
+          "criteria": [
+            "1 Punkt: vier ursprüngliche Zahlen unverändert in einer Quelltabelle, nur bei sichtbarer Kind-Tabelle.",
+            "1 Punkt: Dateiname als Text, Größe als Zahl und MB als Einheit richtig unterschieden.",
+            "1 Punkt: passende konkrete Planungsfrage. Ein Download belegt die Tabellenhandlung nicht."
+          ]
+        },
+        {
+          "id": "mbi-speicherplan-2",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B. Zwei Regeln (5 Punkte): Leite aus den vier Beispielen einen typischen und einen vorsichtigeren MB/Bild-Wert ab. Schreibe zwei unterschiedliche Rechenregeln für n neue Bilder mit Einheit. Erkläre, warum auch die vorsichtigere Regel keine sichere Obergrenze für künftige Dateien ist.",
+          "sample": "Ein möglicher typischer Wert ist (2+4+3+5)/4 = 3,5 MB/Bild, ein vorsichtigerer Stichprobenwert 5 MB/Bild. Daraus T(n)=3,5·n MB und V(n)=5·n MB für ganze n≥0. Die vier Beispiele begrenzen neue Dateien nicht sicher; andere begründete, konsistent verwendete Werte können gelten.",
+          "criteria": [
+            "1 Punkt: typischen Wert aus den vier Zahlen nachvollziehbar abgeleitet.",
+            "1 Punkt: vorsichtigeren Wert aus derselben Stichprobe nachvollziehbar abgeleitet.",
+            "2 Punkte: zwei verschiedene konsistente Regeln mit n und MB, je 1.",
+            "1 Punkt: beide als Annahmen und 5 MB nur als größtes beobachtetes Beispiel, nicht als Zukunftsgarantie erklärt."
+          ]
+        },
+        {
+          "id": "mbi-speicherplan-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C. Formeltabelle (5 Punkte): Lege für n = 0, 10, 20, 30, 40 zwei MB-Spalten mit echten Formeln an, die auf deine getrennten Modellzellen verweisen. Kopiere die Formeln nach unten. Notiere eine eigene Beispielformel und erkläre, welcher Bezug mitwandert und welcher fest bleibt. Zahlen nur eintippen zählt nicht als Formelhandlung.",
+          "sample": "Mögliches Startblatt: B13=3,5 und B14=5; A19:A23=0/10/20/30/40. In B19 kann =A19*$B$13 und in C19 =A19*$B$14 stehen. Beim Kopieren wandert A19 zu A20; $B$13/$B$14 bleiben fest. Ergebnisse T: 0/35/70/105/140 MB, V: 0/50/100/150/200 MB. Andere echte Zellorte/Formeln zulassen.",
+          "criteria": [
+            "1 Punkt: alle fünf n-Werte vollständig.",
+            "2 Punkte: beide Spalten mit echten konsistenten Formeln und passenden Ergebnissen; beobachtete Bedienung oder geprüfte Kind-Datei erforderlich.",
+            "1 Punkt: relativen Anzahlbezug beim Kopieren richtig erklärt.",
+            "1 Punkt: festen Modellzellbezug richtig erklärt. Eine Erwachsenen-Musterrechnung ersetzt keine Kind-Formel."
+          ]
+        },
+        {
+          "id": "mbi-speicherplan-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "D. Zwei Diagramme (4 Punkte): Erzeuge aus deiner Formeltabelle ein XY-Punktdiagramm mit numerischer Bildanzahl auf der x-Achse und ein gruppiertes Säulendiagramm für die fünf ausgewählten Anzahlen. Zeige beide Modellreihen, Einheit MB und Legende. Welches zeigt die Beziehung und Steigung klarer, und was kann das andere gut?",
+          "sample": "Das XY-Diagramm verwendet 0/10/20/30/40 als numerische x-Werte und T/V in MB als y-Reihen. Das Säulendiagramm zeigt fünf Kategorien mit je zwei Säulen. XY zeigt Zusammenhang und unterschiedliche Steigung klarer; Säulen vergleichen die fünf Fälle gut. Bildzahlen sind ganzzahlig.",
+          "criteria": [
+            "1 Punkt: wirklich erstelltes XY-Diagramm mit numerischer x-Achse.",
+            "1 Punkt: wirklich erstelltes gruppiertes Säulendiagramm derselben Daten.",
+            "1 Punkt: Achsen, Einheit und beide Modellreihen mit Legende in den Diagrammen.",
+            "1 Punkt: begründeter Vergleich von Beziehung und diskreten Fällen. Bildbeschreibung allein belegt kein Diagramm."
+          ]
+        },
+        {
+          "id": "mbi-speicherplan-5",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "E. Entscheidung und Grenze (3 Punkte): Reichen 120 MB für 30 neue Bilder nach deinen beiden Modellen? Beschreibe, was ein Diagramm mit nur 20/30/40 oder einer stark abgeschnittenen y-Achse verschleiern könnte. Nenne einen Nutzen der Tabelle und eine Grenze der vier Beispiele.",
+          "sample": "Bei den Beispielregeln gilt T(30)=105≤120 MB, V(30)=150>120 MB. Das erste Modell passt, das zweite nicht; real ist ohne künftige Dateigrößen keine sichere Aussage möglich. Ein stiller Ausschnitt zeigt den Start bzw. kleine Werte nicht und kann Unterschiede überzeichnen; ein beschrifteter Zoom kann für eine engere Frage sinnvoll sein. Die Tabelle aktualisiert Planwerte, aber vier Beispiele sind keine belastbare Zukunftsverteilung.",
+          "criteria": [
+            "1 Punkt: für beide eigenen Modelle konsistente Antworten mit Vergleich zu 120 MB.",
+            "1 Punkt: Auswirkung eines Ausschnitts oder Achsenbeschnitts unter der jeweiligen Bedingung erklärt; kenntlich gemachter Zoom nicht pauschal falsch.",
+            "1 Punkt: konkreter Planungsnutzen und Grenze der kleinen Stichprobe getrennt genannt."
+          ]
+        },
+        {
+          "id": "mbi-speicherplan-6",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Änderung (6 getrennte Zusatzpunkte): Reserviere in einer Kopie deiner Tabelle 20 MB für andere Dateien. Die vier Beispiele und Modellregeln bleiben gleich. Ergänze Zeilen für die größte ganze Bildanzahl nach jedem Modell und je eine Zahl darüber; prüfe sie mit Formeln. Wähle eine vorsichtige Planungszahl und nenne ihre Grenze.",
+          "sample": "Es bleiben 120−20=100 MB. Beim Beispiel T=3,5·n passen 28 Bilder mit 98 MB, 29 brauchen 101,5 MB. Bei V=5·n passen 20 mit 100 MB, 21 brauchen 105 MB. Vorsichtig nach der Stichprobe wäre höchstens 20; reale künftige Dateien können größer als 5 MB sein. Andere konsistente Kind-Modelle entsprechend prüfen. Kopie und Formelproben nur nach wirklicher Handlung werten.",
+          "criteria": [
+            "1 Zusatzpunkt: 100 MB aus 120−20 und unveränderte Daten/Regeln in Kopie.",
+            "1 Zusatzpunkt: T-Grenze 28 im Beispiel bzw. konsistente Grenze zum eigenen Modell.",
+            "1 Zusatzpunkt: unmittelbare ganze T-Gegenprobe oberhalb der eigenen Grenze mit Formel; im Beispiel 29→101,5 MB.",
+            "1 Zusatzpunkt: V-Grenze 20 im Beispiel bzw. konsistente Grenze zum eigenen Modell.",
+            "1 Zusatzpunkt: unmittelbare ganze V-Gegenprobe oberhalb der eigenen Grenze mit Formel; im Beispiel 21→105 MB.",
+            "1 Zusatzpunkt: vorsichtige Wahl samt Stichprobengrenze. Zusatzpunkte nicht zur 20er-Hauptsumme addieren."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.1 PDF-S. 24: Tabellen, Formeln/Bezüge und Diagramme unter Zielmarke Klassenstufe 8.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
       "id": "mbi-festbezug-karten",
       "subjectId": "mbi",
       "title": "Farbkarten: ein fester Zellbezug",

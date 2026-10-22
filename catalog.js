@@ -591,6 +591,124 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "de-lehrplan-quellenweg",
+      "subjectId": "de",
+      "title": "Eine Lehrplan-Zusammenfassung am Original prüfen",
+      "scope": "Freiwilliger, gestützter Deutsch-7/8-Leseweg zum Ende-8-Ziel D-L5. Die Original-PDF enthält auch zwei ausdrücklich jährliche Klasse-7-Vorgaben; diese Quellenübung belegt weder deren schulische Durchführung noch Lottes Lese- oder Vortragsleistung.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Öffne die amtliche Deutsch-Lehrplanseite und von dort die PDF-S. 2 und 46–47; der Zugang wurde auf PC und Handy nutzergemeldet geprüft. Falls du nur einen Ausdruck hast, bleiben die zwei Bedienpunkte nicht erhoben. Der Text auf dieser Karte ist eine redaktionell erfundene KI-Zusammenfassung, keine Ausgabe eines KI-Dienstes. Öffne keine privaten Daten oder Konten.",
+      "introduction": "Eine sicher klingende Zusammenfassung kann richtige und erfundene Einzelheiten mischen. Prüfe die sechs Teilbehauptungen einzeln am amtlichen Original. Nutze PDF-S. 2 und 46–47; digital kannst du zusätzlich nach „Ganzschrift“ und „auswendig“ suchen. Ganzschrift bedeutet vollständiges Werk statt Auszug. B = belegt, W = vom Original widerlegt, N = als Lehrplanpflicht nicht festgelegt. N verbietet der Schule keine eigene Wahl. Eine passende Seite allein genügt nicht: Gib die tatsächliche Regel in eigenen Worten an. Ohne beobachtete PDF-Bedienung bleiben deren zwei Punkte „nicht erhoben“, nicht falsch.",
+      "passage": "REDAKTIONELL ERFUNDENE „KI-ZUSAMMENFASSUNG“ – keine echte KI-Ausgabe:\n„Der neue Deutsch-Lehrplan beginnt für Klasse 7 erst 2027/28. In Klasse 7 wird jedes Jahr mindestens ein Kinder- oder Jugendbuch als Ganzschrift behandelt. Das Buch muss ein Kriminalroman sein und im November gelesen werden. Jedes Jahr wird außerdem ein Text auswendig gelernt und präsentiert. Dieser Text muss eine Ballade sein.“\nEin richtiger Teilsatz macht die übrigen nicht richtig.",
+      "reading": {
+        "publicUrl": "https://www.schulportal-thueringen.de/media/detail?tspi=20556",
+        "title": "Amtliches Deutsch-Original im Thüringer Schulportal",
+        "linkLabel": "Amtliche Lehrplanseite öffnen",
+        "childNote": "Öffne die amtliche Seite in einem zweiten Tab, wähle dort die Deutsch-PDF und suche PDF-S. 2 und 46–47. Der Zugang wurde auf PC und Handy von Robert geprüft. Falls du nur Papier hast, nutze einen Ausdruck; die zwei Bedienpunkte bleiben dann nicht erhoben.",
+        "printNote": "Öffne über die unten gedruckte Leseadresse die amtliche Seite und dort die Deutsch-PDF. Lege dem Kinderblatt PDF-S. 2 und 46–47 bei. Die Papierseiten allein belegen keine digitale PDF-Bedienung.",
+        "adultNote": "Nur tatsächlich beobachtete Bedienung der PDF werten. Die Aufgabe beweist weder echte KI-Nutzung noch die schulische Buch-/Textwahl oder eine vollzogene Ganzschrift und Rede."
+      },
+      "stagedUpdate": {
+        "text": "SPÄTERE REDAKTIONELL ERFUNDENE KURZANTWORT – erst nach dem Hauptteil:\n„Jedes Kind muss in Klasse 7 zwei Ganzschriften lesen. Der auswendig vorgetragene Text muss aus demselben Buch stammen.“"
+      },
+      "tasks": [
+        {
+          "id": "de-quellenweg-1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "Vor dem Originallesen (2 schriftliche Punkte): Welche konkrete Angabe der erfundenen Zusammenfassung möchtest du zuerst am amtlichen PDF prüfen? Formuliere eine eigene Prüffrage.",
+          "sample": "Ich prüfe zuerst: Beginnt die neue Fassung für Klasse 7 wirklich erst 2027/28? Dazu suche ich die Inkraftsetzungsregel auf PDF-S. 2. Eine andere konkrete Frage zu einer der sechs Behauptungen zählt ebenso.",
+          "criteria": [
+            "1 Punkt: eine konkrete Angabe aus dem Übungstext ausgewählt.",
+            "1 Punkt: als überprüfbare eigene Frage formuliert; die Antwort wird hier noch nicht verlangt."
+          ]
+        },
+        {
+          "id": "de-quellenweg-2",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A. Zwei Originalstellen (4 schriftliche + 2 nur beobachtete Bedienpunkte): Öffne die amtliche PDF. Notiere eine Stelle zum Inkrafttreten und eine zur jährlichen Deutschaufgabe, jeweils mit PDF-Seite und tatsächlicher Regel in eigenen Worten. Wenn du digital liest, zeige einer erwachsenen Person, wie du die zweite Stelle selbst findest. Eine bloße Seitenzahl zählt nicht. Bei Papier oder fehlender Beobachtung bleiben die Bedienpunkte „nicht erhoben“.",
+          "sample": "PDF-S. 2: Die neue Fassung gilt für Klasse 7 bereits ab 2026/27. PDF-S. 47: In jedem Schuljahr der Klassen 5–7 wird mindestens ein Kinder- oder Jugendwerk als Ganzschrift behandelt; zudem wird jährlich ein angemessen langer Text auswendig gelernt und präsentiert. Die Bedienung kann nur nach wirklich beobachtetem Öffnen und Finden der zweiten Stelle bewertet werden.",
+          "criteria": [
+            "2 schriftliche Punkte: PDF-S. 2 und Inkrafttreten 2026/27 für Klasse 7 korrekt paraphrasiert; die Zahl allein genügt nicht.",
+            "2 schriftliche Punkte: PDF-S. 47 und eine der jährlichen Ganzschrift-/Vortragsregeln korrekt paraphrasiert; die Zahl allein genügt nicht.",
+            "1 Bedienpunkt nur nach Beobachtung: Kind öffnete die amtliche Original-PDF über die Lehrplanseite selbst.",
+            "1 Bedienpunkt nur nach Beobachtung: Kind fand die zweite Stelle selbst per Seitenfeld, Suche oder Inhalt. Bei Papier/fehlender Beobachtung beide Bedienpunkte als nicht erhoben markieren; keine vollständige 26er-Gesamtsumme bilden."
+          ]
+        },
+        {
+          "id": "de-quellenweg-3",
+          "kind": "reflection",
+          "points": 12,
+          "writingLines": 13,
+          "inputRows": 13,
+          "adultOnlySolution": true,
+          "prompt": "B. Sechs Teilbehauptungen (12 schriftliche Punkte): Ordne jede Nummer B = belegt, W = widerlegt oder N = nicht als Pflicht festgelegt zu. Nenne zu jeder eine PDF-Seite und ein kurzes eigenes Belegwort. 1: Klasse 7 beginnt erst 2027/28. 2: Jährlich mindestens eine Kinder-/Jugend-Ganzschrift in Klasse 7. 3: Sie muss ein Kriminalroman sein. 4: Dafür ist November vorgeschrieben. 5: Jährlich wird ein Text auswendig gelernt und präsentiert. 6: Es muss eine Ballade sein.",
+          "sample": "1 W, S. 2: bereits ab 2026/27. 2 B, S. 47: mindestens ein Kinder-/Jugendwerk je Schuljahr 5–7. 3 N, S. 46–47: Kriminalgeschichte ist ein Beispiel, nicht die jährliche Pflichtgattung. 4 N, S. 46: Reihenfolge wird schulisch bestimmt, kein November. 5 B, S. 47: ein angemessen langer Text jährlich auswendig und präsentiert, Klassen 5–9. 6 N, S. 46–47: Ballade ist ein Beispiel, keine Pflichtgattung.",
+          "criteria": [
+            "Je 1 Punkt pro richtigem B/W/N-Urteil für 1–6: W, B, N, N, B, N (6).",
+            "Je 1 Punkt pro passender Originalseite und eigenem Belegwort für 1–6 (6). Bei N muss die tatsächliche allgemeinere Regel sichtbar werden. Kriminalgeschichten und Balladen sind mögliche 7/8-Beispiele, keine Pflichtwahl."
+          ]
+        },
+        {
+          "id": "de-quellenweg-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C. Verlässlich neu zusammenfassen (4 schriftliche Punkte): Schreibe für eine Familie zwei verständliche Sätze: Welche beiden jährlichen Vorgaben gelten in Klasse 7 tatsächlich? Welche zwei konkreten Details des Übungstexts darfst du nicht als landesweite Lehrplanpflicht ausgeben?",
+          "sample": "In Klasse 7 wird jedes Jahr mindestens ein Kinder- oder Jugendwerk als Ganzschrift behandelt; außerdem wird jährlich ein angemessen langer Text auswendig gelernt und präsentiert. Der Plan verlangt dafür weder einen Kriminalroman noch eine Ballade als Pflichtgattung; auch November ist keine landesweite Pflicht. Die konkrete Auswahl liegt bei der Schule.",
+          "criteria": [
+            "1 Punkt: jährliche Ganzschriftregel richtig.",
+            "1 Punkt: jährliche Auswendiglern-/Präsentationsregel richtig.",
+            "2 Punkte: zwei konkrete erfundene Pflichtdetails korrekt als nicht landesweit festgelegt benannt (je 1); Kriminalroman, November oder Ballade sind möglich."
+          ]
+        },
+        {
+          "id": "de-quellenweg-5",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "D. Quellenurteil (2 schriftliche Punkte): Weshalb ist die amtliche Original-PDF für diese Lehrplanfrage aussagekräftiger als die erfundene Zusammenfassung? Nenne eine Grenze: Was verrät das Original nicht über Lottes tatsächlichen Unterricht?",
+          "sample": "Das amtliche Original enthält die geltende Regel samt Inkrafttreten und jährlichen Vorgaben; der Übungstext ist nur eine erfundene Zusammenfassung mit Fehlern. Das Original sagt nicht, welches Werk oder welchen Monat Lottes Schule gewählt hat und ob Lotte das Buch tatsächlich gelesen oder den Text vorgetragen hat.",
+          "criteria": [
+            "1 Punkt: Original als maßgebliche Quelle für die Lehrplanaussage erklärt.",
+            "1 Punkt: konkrete Buch-/Textwahl, Unterrichtsfolge oder tatsächliche Kinderleistung als offene Grenze benannt."
+          ]
+        },
+        {
+          "id": "de-quellenweg-6",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Spätere freiwillige Änderung (6 getrennte Zusatzpunkte): Lies erst nach deinen Hauptantworten die neu gezeigte Kurzantwort. Sind „zwei Ganzschriften“ und „Text aus demselben Buch“ landesweite Pflichten? Beziehe dich auf S. 47 und formuliere eine vorsichtige Korrektur mit beiden tatsächlichen Jahresvorgaben.",
+          "sample": "Beide Zusatzpflichten sind auf S. 47 nicht festgelegt. Der Plan verlangt mindestens ein Kinder- oder Jugendwerk als schulisch behandelte Ganzschrift und einen auswendig gelernten und präsentierten angemessen langen Text pro Schuljahr. Er verbindet den Vortragstext nicht mit dieser Ganzschrift.",
+          "criteria": [
+            "2 Zusatzpunkte: „zwei Ganzschriften“ als nicht festgelegt mit S.-47-Bezug.",
+            "2 Zusatzpunkte: „Text aus demselben Buch“ als nicht festgelegt mit S.-47-Bezug.",
+            "2 Zusatzpunkte: vorsichtiger Korrektursatz nennt beide tatsächlichen Jahresvorgaben ohne neue Verbindung. Zusatzpunkte nicht zur 26er-Hauptsumme addieren."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. §2.2.2 PDF-S. 26–27: digitale Texte, Verlässlichkeit insbesondere KI-generierter Texte und Lesestrategien als Zielmarke Klasse 8. §3.2 PDF-S. 46–47: Art/Reihenfolge schulisch bestimmt; mindestens eine Kinder-/Jugend-Ganzschrift je Schuljahr 5–7 und ein auswendig gelernter/presentierter Text je Schuljahr 5–9.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
       "id": "mbi-festbezug-karten",
       "subjectId": "mbi",
       "title": "Farbkarten: ein fester Zellbezug",

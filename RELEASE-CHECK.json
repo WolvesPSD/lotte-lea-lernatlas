@@ -1,20 +1,21 @@
 {
-  "builtAt": "2026-10-22T11:23:23.318Z",
-  "releaseVersion": "2026.10.22-musiknotation.1",
+  "builtAt": "2026-10-22T11:39:50.785Z",
+  "releaseVersion": "2026.10.22-dequellenweg.1",
   "newTopicIds": [
-    "mu09-bass-triole-taktwechsel"
+    "de-lehrplan-quellenweg"
   ],
   "changeLog": [
-    "Freiwillige Notenschrift-Übung mit eigener Bassschlüssel-Grafik und gleichwertigem Textweg: Stammtöne, Achteltriole und Taktwechsel als 20 schriftliche Haupt- plus sechs spätere Zusatzpunkte. Die Geltung des älteren Musikplans 2026/27 und Lottes Unterrichtsfolge bleiben ungeklärt.",
-    "Der Kinderweg prüft kein Hören, Singen oder Spielen. Zwei getrennte interne Fach-/App-Prüfungen fanden keinen P1/P2; externe Musikfach-, Kinder- und Screenreader-Prüfung bleiben offen. Musik ist dadurch nur als freiwilliger begrenzter Schriftfall auswählbar."
+    "Freiwilliger Quellenprüf-Fall in Deutsch: Eine redaktionell erfundene KI-Zusammenfassung wird am amtlichen Lehrplan-Original geprüft. Der Originalzugang wurde von Robert auf PC und Handy bestätigt; 24 schriftliche und zwei nur beobachtete Bedienpunkte sowie sechs getrennte spätere Zusatzpunkte.",
+    "Die Quelle gilt ab 2026/27 für Klasse 7; der Fall belegt weder die konkrete schulische Ganzschrift und Textwahl noch eine Kinderleistung. Die Kinderdruckseiten 1–3 sind der Hauptteil; die spätere Variante steht getrennt auf Seite 4."
   ],
-  "rollbackCommit": "c0b15d9868bd5ace3f075bedf521a97611567ae6",
+  "rollbackCommit": "7080d76f32deb0fe5e20910a069b56aead23630f",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
     "ch-stoffaenderung-berichtskarten",
     "bi-wirbellose-bluehstreifen",
     "mbi-speicherplan-zwei-modelle",
+    "de-lehrplan-quellenweg",
     "mbi-festbezug-karten",
     "de-woerter-umfrage",
     "de-tauschregal-eroerterung",

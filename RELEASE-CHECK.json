@@ -1,15 +1,14 @@
 {
-  "builtAt": "2026-10-22T10:59:55.326Z",
-  "releaseVersion": "2026.10.22-sportregel.1",
+  "builtAt": "2026-10-22T11:23:23.318Z",
+  "releaseVersion": "2026.10.22-musiknotation.1",
   "newTopicIds": [
-    "sp-basketball-regelkarte-papier"
+    "mu09-bass-triole-taktwechsel"
   ],
   "changeLog": [
-    "Freiwilliger Sport-Papierfall aus dem älteren Fachplan: vier fiktive FIBA-2026-Regelszenen, 20 schriftliche Haupt- und sechs spätere Zusatzpunkte. Die Schulspielwahl und Lehrplangeltung 2026/27 bleiben ungeklärt; kein Nachweis von Bewegung, Sicherheit oder Sportleistung.",
-    "Punktfreier Rückblicks- und Beobachtungsweg nur nach regulärer betreuter Sportstunde; fünf leere Beobachtungszeilen ohne Summe oder Sportnote. Ein unabhängiger P2 im Zweipunkte-Abwurfort wurde behoben und nachgeprüft. Lokale Mobil-/Desktop-, Stufen-, Druck- und Gesamttests bestanden; reale Kinder- und Sportfachprüfung stehen aus.",
-    "Veraltete Verfügbarkeitstexte bei Sport und MNT an die bereits vorhandenen freiwilligen Fälle angepasst, ohne aktuelle Klasse-7-Abdeckung zu behaupten."
+    "Freiwillige Notenschrift-Übung mit eigener Bassschlüssel-Grafik und gleichwertigem Textweg: Stammtöne, Achteltriole und Taktwechsel als 20 schriftliche Haupt- plus sechs spätere Zusatzpunkte. Die Geltung des älteren Musikplans 2026/27 und Lottes Unterrichtsfolge bleiben ungeklärt.",
+    "Der Kinderweg prüft kein Hören, Singen oder Spielen. Zwei getrennte interne Fach-/App-Prüfungen fanden keinen P1/P2; externe Musikfach-, Kinder- und Screenreader-Prüfung bleiben offen. Musik ist dadurch nur als freiwilliger begrenzter Schriftfall auswählbar."
   ],
-  "rollbackCommit": "85c3ff14316dbcce3a958058634939cdcda6236c",
+  "rollbackCommit": "c0b15d9868bd5ace3f075bedf521a97611567ae6",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -97,6 +96,7 @@
     "et-jugendrat-budgetwerte",
     "go-gradnetz-modellorte",
     "mnt-bionik-leichtbau-modell",
+    "mu09-bass-triole-taktwechsel",
     "sp-basketball-regelkarte-papier"
   ],
   "subjects": [
@@ -111,6 +111,7 @@
     "ma",
     "et",
     "go",
+    "mu",
     "sp"
   ],
   "grade8OutlookTopics": [
@@ -145,6 +146,7 @@
   "unclearValidityTopics": [
     "et-jugendrat-budgetwerte",
     "go-gradnetz-modellorte",
+    "mu09-bass-triole-taktwechsel",
     "sp-basketball-regelkarte-papier"
   ],
   "note": "Struktur, lokaler PDF-Hash und Lösungsfelder geprüft. Fach-, Geräte-, Datenschutz- und Veröffentlichungsfreigabe getrennt dokumentieren."

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="270" viewBox="0 0 1000 270" role="img" aria-labelledby="title desc">
+  <title id="title">Zwei erfundene Takte im Bassschlüssel: 4/4 und 3/4</title>
+  <desc id="desc">Fünf Notenlinien. Ein Bassschlüssel markiert die vierte Linie von unten als F. Takt A im Vier-Viertel-Takt: auf der dritten Linie eine Viertelnote, dann zwei verbundene Achtelnoten im dritten Zwischenraum und auf der vierten Linie; danach drei verbundene Achtelnoten als Triole mit Klammer und Ziffer 3 auf der vierten Linie, im vierten Zwischenraum und auf der fünften Linie; zum Schluss eine Viertelnote auf der vierten Linie. Nach dem Taktstrich steht ein Drei-Viertel-Zeichen. Takt B: Viertelnote auf der vierten Linie, Viertelpause, Viertelnote auf der dritten Linie.</desc>
+  <rect width="1000" height="270" fill="#fff"/>
+  <g fill="#173149" font-family="Arial, sans-serif" font-size="19">
+    <text x="136" y="31">Takt A</text>
+    <text x="671" y="31">Takt B</text>
+  </g>
+  <g stroke="#18212b" stroke-width="1.7" fill="none">
+    <path d="M20 80H948 M20 96H948 M20 112H948 M20 128H948 M20 144H948"/>
+    <path d="M565 80V144 M948 80V144" stroke-width="2.2"/>
+  </g>
+  <g fill="#111" font-family="Segoe UI Symbol, Noto Music, serif">
+    <text x="23" y="143" font-size="84">𝄢</text>
+    <text x="744" y="144" font-size="61">𝄽</text>
+  </g>
+  <g fill="#111" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="bold" text-anchor="middle">
+    <text x="118" y="107">4</text><text x="118" y="138">4</text>
+    <text x="605" y="107">3</text><text x="605" y="138">4</text>
+  </g>
+  <g fill="#111" stroke="#111" stroke-width="2.4" stroke-linecap="round">
+    <!-- A, first quarter: L3 -->
+    <ellipse cx="180" cy="112" rx="11" ry="7" transform="rotate(-23 180 112)"/>
+    <path d="M190 112V70" fill="none"/>
+    <!-- A, ordinary eighth pair: R3 then L4 -->
+    <ellipse cx="250" cy="104" rx="11" ry="7" transform="rotate(-23 250 104)"/>
+    <ellipse cx="290" cy="96" rx="11" ry="7" transform="rotate(-23 290 96)"/>
+    <path d="M240 104V153 M280 96V153" fill="none"/>
+    <path d="M240 148H280V154H240Z" stroke="none"/>
+    <!-- A, three beamed eighths under explicit triplet bracket: L4, R4, L5 -->
+    <ellipse cx="360" cy="96" rx="11" ry="7" transform="rotate(-23 360 96)"/>
+    <ellipse cx="400" cy="88" rx="11" ry="7" transform="rotate(-23 400 88)"/>
+    <ellipse cx="440" cy="80" rx="11" ry="7" transform="rotate(-23 440 80)"/>
+    <path d="M350 96V153 M390 88V145 M430 80V137" fill="none"/>
+    <path d="M350 148L430 132V138L350 154Z" stroke="none"/>
+    <!-- A, last quarter: L4 -->
+    <ellipse cx="515" cy="96" rx="11" ry="7" transform="rotate(-23 515 96)"/>
+    <path d="M505 96V141" fill="none"/>
+    <!-- B: L4 quarter, quarter rest, L3 quarter -->
+    <ellipse cx="680" cy="96" rx="11" ry="7" transform="rotate(-23 680 96)"/>
+    <path d="M670 96V141" fill="none"/>
+    <ellipse cx="855" cy="112" rx="11" ry="7" transform="rotate(-23 855 112)"/>
+    <path d="M865 112V70" fill="none"/>
+  </g>
+  <g stroke="#111" stroke-width="2" fill="none" stroke-linecap="square">
+    <path d="M339 61V52H387 M413 52H461V61"/>
+  </g>
+  <text x="400" y="58" text-anchor="middle" fill="#111" font-family="Georgia, serif" font-size="25" font-weight="bold">3</text>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#364958">
+    <text x="20" y="198">Eigene Übungsnotation · Viertelpuls · 3 Triolenachtel in der Zeit von 2 gewöhnlichen Achteln</text>
+    <text x="20" y="226">Die Zeichnung belegt Notenpositionen und notierte Dauer, keine tatsächliche Klang- oder Spielleistung.</text>
+  </g>
+</svg>

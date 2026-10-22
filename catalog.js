@@ -75,7 +75,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "plan": "2012 (2025/26)",
       "scope": "7/8; Stand 2026/27 offen",
       "availabilityLabel": "Lehrplan 2026/27 ungeklärt",
-      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Musik-Lehrplan gilt. Deshalb gibt es hier noch keine freigegebene Aufgabe."
+      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Musik-Lehrplan gilt. Die freiwillige Notenschrift-Übung aus der älteren Fassung belegt weder die aktuelle Schuleinheit noch Hören oder Musizieren."
     },
     {
       "id": "ge",
@@ -7275,6 +7275,118 @@ window.LOTTE_CATALOG = Object.freeze({
         "validFor": "2026/27: Klasse 5; 2027/28: Klasse 6",
         "gradeBand": "MNT-Ende-6, 7-Brücke",
         "competencyRef": "PDF-S.2: MNT-Erprobungsfassung 2026/27 nur Klasse 5, 2027/28 Klasse 6. §2.2.10.2 PDF-S.31: Klassenstufe 6; Naturvorbilder, Leichtbau durch Struktur/Faltung, Funktionsmodelle und fachpraktische Prüfung. Keine amtliche Klasse-7-Geltung.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
+      "id": "mu09-bass-triole-taktwechsel",
+      "subjectId": "mu",
+      "title": "Zwei Takte im Bassschlüssel lesen",
+      "scope": "Freiwilliger gestützter Klasse-7-Einstieg in drei enge Schriftteilziele des älteren Musik-Plans mit Zielmarke Ende Klasse 8: Stammtöne im Bassschlüssel, eine Achteltriole und ein Taktwechsel. Die amtliche Geltung 2026/27 und Lottes aktuelle Schuleinheit sind ungeklärt. Lesen einer Notenzeile belegt kein Hören, Singen oder Spielen.",
+      "levelStatus": "additional-unclear",
+      "released": true,
+      "prerequisite": "Die amtliche Geltung des Musik-Lehrplans von 2012/13 für Lottes Schuljahr 2026/27 ist ungeklärt. Die Notenzeile ist eigens erfunden. Du kannst die Grafik oder ihre vollständige Textalternative nutzen; keine Aufnahme und kein Vorspielen sind nötig. Die App prüft freie Antworten nicht automatisch.",
+      "introduction": "Zwei erfundene Takte zeigen Noten im Bassschlüssel. Die fünf Linien heißen von unten L1 bis L5, die Zwischenräume R1 bis R4. Der Bassschlüssel legt F auf L4 fest. Die Stammtöne C–D–E–F–G–A–H wiederholen sich; vom einen Linien- oder Zwischenraumplatz zum nächsten gehst du einen Stammtonschritt. Eine Viertelnote dauert einen Viertelpuls, eine gewöhnliche Achtelnote einen halben. Drei Achtel unter der Triolenklammer 3 teilen sich gleichmäßig die Zeit von zwei gewöhnlichen Achteln. Eine Viertelpause belegt einen Viertelpuls ohne Tonanfang. 4/4 hat hier vier, 3/4 drei Viertelpulse pro Takt. 20 Haupt- und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "diagram": {
+        "path": "assets/mu09-bass-triole-taktwechsel-2026.svg",
+        "alt": "Eigene Notenzeile: Bassschlüssel, Takt A in 4/4 mit Viertel, zwei gewöhnlichen Achteln, drei Achteln unter Triolenklammer 3 und Viertel; Takt B in 3/4 mit Viertel, Viertelpause und Viertel. Die Textalternative darunter nennt alle Zeichen und Positionen.",
+        "caption": "Eigene Übungsnotation. Auf dem Handy kannst du im Bildrahmen seitlich wischen; die Textalternative darunter nennt alle Zeichen. Klang und Spiel wurden nicht geprüft."
+      },
+      "passage": "TEXTALTERNATIVE ZUR NOTENZEILE · Fünf Linien von unten L1 bis L5, Zwischenräume R1 bis R4. Der Bassschlüssel markiert L4 als F. Takt A in 4/4: Viertelnote auf L3; zwei verbundene gewöhnliche Achtel auf R3 und L4; drei verbundene Achtel mit gemeinsamer Triolenklammer 3 auf L4, R4 und L5; zuletzt Viertelnote auf L4. Nach dem Taktstrich folgt Takt B in 3/4: Viertelnote auf L4, Viertelpause, Viertelnote auf L3. Die Positionen und Zeichen sind genannt, die gesuchten Tonnamen und Taktrechnungen bleiben deine Aufgabe.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGE VARIANTE NACH A–D · Nur die letzte Viertelnote auf L3 in Takt B wird durch drei Achtel unter einer gemeinsamen Triolenklammer 3 ersetzt. Ihre neuen Positionen sind L4, R4 und L5. Die erste Viertelnote und die Viertelpause bleiben unverändert. Die sechs Zusatzpunkte werden getrennt bewertet."
+      },
+      "tasks": [
+        {
+          "id": "mu09-1",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Tonpositionen lesen (5 Hauptpunkte): Bestimme die deutschen Tonnamen auf L3, R3, L4, R4 und L5. Zeige an einem benachbarten Linien-/Zwischenraum-Paar, wie du vom gegebenen F aus weiterzählst.",
+          "sample": "L3=D, R3=E, L4=F, R4=G, L5=A. Von F auf L4 führt ein Schritt nach unten zu E in R3; der nächste zu D auf L3. Nach oben folgen G in R4 und A auf L5.",
+          "criteria": [
+            "Je 1 Punkt für die vier nicht vorgegebenen Töne D, E, G und A.",
+            "1 Punkt für einen korrekt erklärten benachbarten Schritt vom gegebenen F. F allein erhält keinen eigenen Punkt."
+          ]
+        },
+        {
+          "id": "mu09-2",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Takt A prüfen (6 Hauptpunkte): Wie viele Tonanfänge stehen in A? Wie lange dauern die zwei gewöhnlichen Achtel zusammen, wie lange die Triolengruppe? Addiere alle Gruppen in Viertelpulsen. Prüfe die Behauptung: „Die drei Achtel der Triole dauern zusammen anderthalb Viertelpulse, also ist A zu lang.“ Begründe.",
+          "sample": "A hat 1+2+3+1=7 Tonanfänge. Das gewöhnliche Achtelpaar dauert ½+½=1 Viertelpuls. Drei Triolenachtel dauern zusammen ebenfalls einen Viertelpuls, je ⅓. Damit sind es 1+1+1+1=4 Viertelpulse. Die 1½-Aussage zählt drei gewöhnliche Achtel und übersieht die Triolenklammer.",
+          "criteria": [
+            "1 Punkt für sieben Tonanfänge.",
+            "1 Punkt für das gewöhnliche Paar als ½+½=1.",
+            "1 Punkt für die Triole als drei Drittel in einem Viertelpuls.",
+            "1 Punkt für die Gesamtdauer vier Viertelpulse.",
+            "1 Punkt für das Zurückweisen der Behauptung.",
+            "1 Punkt für den begründeten Unterschied zwischen gewöhnlichen Achteln und Triolenachteln."
+          ]
+        },
+        {
+          "id": "mu09-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Taktwechsel lesen (5 Hauptpunkte): Wie viele Viertelpulse darf Takt B enthalten? Gib für seine drei nacheinander notierten Ereignisse jeweils den Zeitwert an und addiere sie. Wie viele Tonanfänge gibt es? Warum passt keine weitere Viertelnote in denselben Takt?",
+          "sample": "3/4 erlaubt drei Viertelpulse. F-Viertelnote 1, Viertelpause 1, D-Viertelnote 1: zusammen 1+1+1=3. Es gibt zwei Tonanfänge, weil die Pause Zeit braucht, aber keinen Ton startet. Eine weitere Viertelnote ergäbe vier statt drei Viertelpulse.",
+          "criteria": [
+            "1 Punkt für drei Viertelpulse Taktkapazität.",
+            "1 Punkt für die drei Ereignisse mit je einem Viertelpuls einschließlich Pause.",
+            "1 Punkt für die Summe 1+1+1=3.",
+            "1 Punkt für zwei Tonanfänge.",
+            "1 Punkt für eine begründete Überfüllung durch eine weitere Viertelnote."
+          ]
+        },
+        {
+          "id": "mu09-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Papier und Praxis trennen (4 Hauptpunkte): Schreibe einen knappen Zähl- oder Sprechplan für Takt A mit Zweier- und Dreierunterteilung. Nenne eine konkrete Sache, die man bei wirklich gespielter oder geklatschter Fassung prüfen müsste. Nenne eine Eigenschaft, die das Notenbild ohne Hören oder Spielen nicht beweist.",
+          "sample": "Zum Beispiel „1 – 2-und – 3-ta-ta – 4“: Auf 2 teilen sich zwei gleich lange Achtel einen Viertelpuls, auf 3 drei gleich lange Trioleneinsätze. Bei einer echten Aufführung müsste man etwa die Gleichmäßigkeit der drei Einsätze hören oder beobachten. Das Blatt beweist kein tatsächlich gleichmäßiges Timing oder hörbare Klangqualität.",
+          "criteria": [
+            "1 Punkt für die erkennbaren Pulse 1–4.",
+            "1 Punkt für die korrekt geplante gleichmäßige Zweier- und Dreierunterteilung.",
+            "1 Punkt für eine konkrete Hör-/Spielprüfung.",
+            "1 Punkt für eine zutreffende Grenze der Papieraufgabe. Eine reale Aufführung wird nicht vorausgesetzt."
+          ]
+        },
+        {
+          "id": "mu09-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Variante nach A–D · sechs getrennte Zusatzpunkte: Die letzte Note von B ändert sich wie auf der Zusatzkarte. Schreibe die Tonnamen aller nun klingenden Noten in Reihenfolge. Zähle Tonanfänge und Gesamtdauer in Viertelpulsen. Prüfe die Behauptung: „Wegen der drei neuen Noten hat B nun vier Viertelpulse.“",
+          "sample": "F–F–G–A klingen nacheinander, mit einer Pause zwischen den beiden F. Es gibt 1+0+3=4 Tonanfänge. Die neue Triole dauert einen Viertelpuls, daher dauert B 1+1+1=3 Viertelpulse einschließlich Pause. Vier Anfänge sind nicht vier Viertelpulse; die Triole teilt ihren einen Puls in drei Einsätze.",
+          "criteria": [
+            "2 Zusatzpunkte für F–F–G–A in richtiger Folge; bei drei/vier richtigen Namen ohne volle Folge höchstens 1.",
+            "1 Zusatzpunkt für vier Tonanfänge.",
+            "1 Zusatzpunkt für die Triole als einen Viertelpuls mit Begründung.",
+            "1 Zusatzpunkt für die Gesamtdauer drei Viertelpulse einschließlich Pause.",
+            "1 Zusatzpunkt für die ausdrückliche Trennung von vier Tonanfängen und drei Vierteldauern. Zusatzpunkte getrennt ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2025/26 amtlich belegt; 2026/27 ungeklärt",
+        "gradeBand": "7/8, Ziel Ende Klasse 8",
+        "competencyRef": "Musik Gymnasium 2012/13, §2.2.3.3 PDF-/Drucks.25: bis Ende Klasse 8 u. a. Bassschlüssel-Stammtöne, Triolen und Taktwechsel; Notationskenntnis ist mit musizierpraktischen Erfahrungen verbunden.",
         "checkedAt": "2026-10-22"
       }
     },

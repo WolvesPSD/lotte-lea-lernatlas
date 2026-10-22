@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-22T05:04:35.123Z",
-  "releaseVersion": "2026.10.22-maschraegbild.1",
-  "newTopicIds": [
-    "ma-schraegbild-darstellungen"
-  ],
+  "builtAt": "2026-10-22T08:05:56.330Z",
+  "releaseVersion": "2026.10.22-vortragrubrik.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Freiwilliger Mathematik-Ausblick auf Klasse 8: derselbe Körper in Bild und Netz, maßstäbliches Schrägbild auf eigenem Papier und ein späterer Regelvergleich. Vier Hauptaufgaben mit 20 Lernpunkten plus sechs getrennte Transferpunkte.",
-    "Die Zusatzkarte erscheint im Kinderbereich und Kinderdruck erst nach A–D. Unabhängiger Inhalts- und App-Gegencheck, lokale Mobil-/Desktop-Modulgates und A4-Sichtprüfung sind dokumentiert. Papiermaß und Hilfsmittelverzicht müssen Menschen prüfen; die bisherigen 82 Online-Themen bleiben unverändert."
+    "Korrektur im freiwilligen Deutsch-Vortrag: Der Kinderauftrag nennt jetzt ausdrücklich zwei passende Pausen und zwei passende Betonungen, wie es die vorhandene Erwachsenenrubrik für volle Gestaltungspunkte verlangt.",
+    "Der gezielte Modul- und Drucktest ist bestanden. Themenzahl und Aufgaben bleiben bei 83/336; gesperrte Entwürfe aus Französisch, Ethik und Geografie bleiben ausgeschlossen. Eine echte Vortragsleistung wird dadurch nicht belegt."
   ],
-  "rollbackCommit": "f234341fde8524570ffbb97dd55faadff6aa5703",
+  "rollbackCommit": "c5320798671c992be60be9ceafa453a82025f466",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",

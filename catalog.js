@@ -6228,7 +6228,7 @@ window.LOTTE_CATALOG = Object.freeze({
         "childSteps": [
           "Gliedere den Text in Karte, Brücke, Nachfrage und Entscheidung. Sprich jeden Teil erst mit Vorlage, dann aus dem Gedächtnis.",
           "Verbinde die vier Teile. Eine vereinbarte knappe Gedächtnisstütze ohne vollständige Verse darf bereitliegen.",
-          "Trage alle vier Strophen einer anwesenden Person vor, ohne den vollständigen Text abzulesen. Gestalte mindestens zwei sinnvolle Stellen hörbar.",
+          "Trage alle vier Strophen einer anwesenden Person vor, ohne den vollständigen Text abzulesen. Setze mindestens zwei passende Pausen und betone mindestens zwei passende Wörter oder Stellen hörbar; andere sinnvolle Gestaltungen darfst du zusätzlich versuchen.",
           "Sage danach mündlich, welche Stelle schwer zu erinnern war und wie du beim nächsten Mal gezielt üben würdest."
         ],
         "adultNote": "Nur nach einem wirklich gehörten Vortrag ausfüllen. Ohne Durchführung „nicht erhoben“ ankreuzen, nie 0/16 aus einer fehlenden Beobachtung ableiten. Vorher vereinbarte Hilfen sachlich notieren; die Rubrik ist formative Übungsrückmeldung, keine Schulnote.",

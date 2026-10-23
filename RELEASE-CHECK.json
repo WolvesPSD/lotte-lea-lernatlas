@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-23T03:59:43.349Z",
-  "releaseVersion": "2026.10.23-m10kreisabruf.1",
+  "builtAt": "2026-10-23T04:19:08.100Z",
+  "releaseVersion": "2026.10.23-debrief.1",
   "newTopicIds": [
-    "ma-kreisformeln-erinnern"
+    "de-brief-papierstern"
   ],
   "changeLog": [
-    "Mathematik: Ein freiwilliger Klasse-8-Ausblick lässt Kreisformeln vor jeder sichtbaren Hilfe erinnern und vergleicht Idealkreise mit exakten π-Werten.",
-    "Aufgabe A, Hauptteil B–D und freiwilliger Transfer werden nacheinander freigegeben und getrennt gedruckt. Tatsächlicher Hilfsmittelverzicht bleibt menschlich zu prüfen."
+    "Deutsch: Ein freiwilliger 7/8-Fall lässt aus zwei fiktiven Mitteilungen einen höflichen offiziellen Anfragebrief planen, schreiben und überarbeiten.",
+    "Die Einleitung nimmt die Quellenfolgerung nicht vorweg; Musterbrief und Kriterien erscheinen nur im Erwachsenenbereich. Es wird nichts verschickt."
   ],
-  "rollbackCommit": "80facd4018dc1d3e0992a85ab14461d5d6c22f81",
+  "rollbackCommit": "56afa17d9e4828c253c0917a26ecbc060e391793",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -89,6 +89,7 @@
     "ma-diagrammrevision-pausenraum",
     "de-verlaufsprotokoll-ausleihplatz",
     "de-rollenbiografie-nila",
+    "de-brief-papierstern",
     "de-innerer-monolog-projekttisch",
     "mbi-lesepause-medienwerkstatt",
     "mbi-publikationswege-quellenkarten",

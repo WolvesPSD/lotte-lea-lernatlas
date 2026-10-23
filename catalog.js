@@ -6780,6 +6780,76 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "de-brief-papierstern",
+      "subjectId": "de",
+      "title": "Ein offizieller Brief: 16 Plätze oder höchstens 12?",
+      "scope": "Freiwilliger, gestützter 7/8-Einstieg in offizielles Schreiben. § 3.4 führt Anfragen und Beschwerden als Beispiele für 7/8; die Schreibziele gelten bis Ende Klasse 8. Kein Nachweis für Lottes aktuelle Unterrichtseinheit.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Alle Einrichtungen, Gruppen, Mitteilungen und Termine sind erfunden. Nutze keine echten Namen, Adressen oder Kontaktdaten. Der Brief bleibt ein Übungsentwurf und wird nicht verschickt.",
+      "introduction": "Ein offizieller Brief soll einer erfundenen Einrichtung eine konkrete Frage höflich und überprüfbar stellen. Sortiere zuerst: Was ist bestätigt? Was widerspricht sich? Was bleibt offen? Prüfe, was die beiden Mitteilungen für eure Gruppe genau belegen. Schreibe den Brief nur für diese Übung; die App benotet freie Texte nicht automatisch.",
+      "passage": "FIKTIVE QUELLE A · Persönliche Bestätigung des erfundenen Lernhauses Morgenstern vom 2. November 2026\n„Für die Projektgruppe Papiersterne sind 16 Plätze in der Papierstern-Werkstatt am 17. November 2026, 15:00–16:00 Uhr, Raum Grün bestätigt. Weitere Angaben zur Ankunft folgen.“\n\nFIKTIVE QUELLE B · Allgemeiner Programmaushang desselben Lernhauses vom 6. November 2026\n„Papierstern-Werkstatt, 17. November 2026, 15:00–16:00 Uhr, Raum Grün. In Raum Grün stehen für diese Veranstaltung höchstens 12 Plätze zur Verfügung. Informationen zu einer zusätzlichen Gruppe oder einem anderen Raum liegen hier noch nicht vor.“\n\nSCHREIBSITUATION · Am 7. November muss die Projektgruppe mit 16 Personen ihre gemeinsame Anreise bis zum 12. November planen. Eine spätere persönliche Antwort liegt nicht vor. Entwirf einen Brief an das Team des Lernhauses, um die Platz- und Raumlösung zu klären. Nichts versenden.",
+      "tasks": [
+        {
+          "id": "de-brief-papierstern-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "adultOnlySolution": true,
+          "prompt": "A. Faktenplan (4 Kriterienpunkte): Notiere vier kurze Zeilen: Was bestätigt Quelle A für die Gruppe? Was sagt Quelle B für denselben Termin und Raum? Welche Frage ist offen? Was darfst du gerade nicht als Tatsache behaupten? Nenne A und B mit Datum.",
+          "sample": "A vom 2. November bestätigt 16 Plätze für die Projektgruppe am 17. November, 15:00–16:00 Uhr, Raum Grün. B vom 6. November nennt für denselben Termin und Raum höchstens 12 Plätze. Offen ist, wie und wo alle 16 teilnehmen können. Eine Stornierung, ein zugesagter zweiter Raum oder absichtliche Täuschung ist nicht belegt.",
+          "criteria": [
+            "1 Punkt: A als persönliche Bestätigung vom 2. November mit 16 Plätzen für diese Gruppe richtig.",
+            "1 Punkt: B als allgemeiner Aushang vom 6. November mit höchstens 12 Plätzen für denselben Termin/Raum richtig.",
+            "1 Punkt: offene Platz- und Raumlösung für 16 Personen als Frage erkannt.",
+            "1 Punkt: wenigstens eine unbelegte Behauptung, etwa Stornierung oder zugesagter zweiter Raum, ausdrücklich zurückgewiesen."
+          ]
+        },
+        {
+          "id": "de-brief-papierstern-2",
+          "kind": "reflection",
+          "points": 16,
+          "writingLines": 20,
+          "inputRows": 14,
+          "adultOnlySolution": true,
+          "prompt": "B. Offizieller Brief (16 Kriterienpunkte): Schreibe als „Projektgruppe Papiersterne“ an „Team Lernhaus Morgenstern“ einen Briefentwurf mit Datum 7. November, treffendem Betreff, Anrede und höflichem Schluss. Nenne A und B mit Datum, stelle 16 bestätigte Plätze den höchstens 12 Plätzen im selben Raum gegenüber und frage nach der für eure Gruppe geltenden Platz- und Raumlösung. Bitte wegen der Anreiseplanung um Rückmeldung bis 12. November. Ein anderer Raum darf nur als Möglichkeit oder Frage erscheinen. Richtwert 120–180 Wörter, keine Punkteschwelle. Keine echten Kontaktdaten und kein Versand.",
+          "sample": "Projektgruppe Papiersterne\nAn das Team Lernhaus Morgenstern\n7. November 2026\nBetreff: Klärung der Plätze für die Papierstern-Werkstatt am 17. November\n\nSehr geehrtes Team des Lernhauses Morgenstern,\n\nvielen Dank für Ihre Bestätigung vom 2. November. Darin haben Sie unserer Gruppe 16 Plätze für die Werkstatt am 17. November von 15:00 bis 16:00 Uhr in Raum Grün bestätigt. Im allgemeinen Aushang vom 6. November steht für denselben Termin und Raum jedoch, dass höchstens 12 Plätze zur Verfügung stehen. Wir wissen daher nicht, wie die Teilnahme aller 16 Personen organisiert werden kann. Eine persönliche Änderung unserer Bestätigung haben wir bisher nicht erhalten.\n\nKönnten Sie uns bitte mitteilen, wie viele Plätze für unsere Gruppe nun gelten und in welchem Raum wir teilnehmen können? Falls ein anderer Raum oder eine zusätzliche Gruppe möglich wäre, teilen Sie uns dies bitte mit. Da wir die gemeinsame Anreise planen müssen, wäre eine Antwort bis zum 12. November hilfreich.\n\nMit freundlichen Grüßen\nProjektgruppe Papiersterne",
+          "criteria": [
+            "2 Punkte: fiktive Gruppe und Lernhaus als Absender/Adressat erkennbar (1); 7. November als Schreibdatum (1).",
+            "2 Punkte: treffender Betreff (1); höfliche Anrede und Schluss (1).",
+            "2 Punkte: Bestätigung vom 2. November (1); 16 Plätze für die Gruppe (1).",
+            "2 Punkte: allgemeiner Aushang vom 6. November (1); höchstens 12 Plätze (1).",
+            "2 Punkte: 16 gegen höchstens 12 als Widerspruch erklärt (1); derselbe Termin und Raum Grün deutlich (1).",
+            "2 Punkte: konkrete Frage nach geltender Platzzahl (1) und Raum beziehungsweise Teilnahmelösung (1).",
+            "1 Punkt: Rückmeldung bis 12. November mit Anreiseplanung begründet.",
+            "1 Punkt: keine Stornierung, Schuldabsicht, zusätzliche Gruppe oder anderen Raum als Tatsache behauptet. Einen solchen Fehlschluss nur hier abziehen, nicht nochmals von bereits richtigen Quellenangaben.",
+            "2 Punkte: sachlich respektvoller Ton (1); verständliche Folge aus Anlass, Beleg, Frage und Bitte (1). Gleichwertige Formulierungen gelten; kleine Fehler ohne Sinnverlust nicht doppelt zählen."
+          ]
+        },
+        {
+          "id": "de-brief-papierstern-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 10,
+          "adultOnlySolution": true,
+          "prompt": "C. Überarbeiten (4 Kriterienpunkte): Erkläre bei beiden Sätzen kurz, was unbelegt oder unpassend ist, und schreibe jeweils eine höfliche, belegbare Alternative. 1. „Sie haben unsere Werkstatt abgesagt und uns getäuscht.“ 2. „Die vier übrigen Personen gehen selbstverständlich in Ihren zweiten Raum.“",
+          "sample": "1. Weder Absage noch Täuschungsabsicht sind belegt. Besser: „Ihre Bestätigung vom 2. November nennt 16 Plätze, während der Aushang vom 6. November höchstens 12 Plätze für denselben Termin nennt. Bitte klären Sie, welche Angabe für unsere Gruppe gilt.“ 2. Ein zweiter Raum ist nicht zugesagt. Besser: „Falls ein zusätzlicher Raum oder eine andere Lösung möglich ist, teilen Sie uns dies bitte mit.“",
+          "criteria": [
+            "1 Punkt: unbelegte Absage oder Täuschungsabsicht im ersten Satz erkannt.",
+            "1 Punkt: erster Satz als belegte, höfliche Klärungsbitte überarbeitet.",
+            "1 Punkt: nicht belegter zweiter Raum im zweiten Satz erkannt.",
+            "1 Punkt: zweiter Satz als offene Frage oder Bitte formuliert."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. § 2.2.4, PDF-S. 29–30: situations- und adressatengerechtes Planen, Schreiben und Überarbeiten als Ziel bis Ende Klasse 8. § 3.4, PDF-S. 50: offizieller Brief, Anfrage und Beschwerde als exemplarische 7/8-Textsorten.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "de-innerer-monolog-projekttisch",
       "subjectId": "de",
       "title": "Minas Gedanken am Projekttisch",

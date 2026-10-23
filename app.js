@@ -609,9 +609,21 @@
     appendText(section, 'p', 'eyebrow', adult ? 'Nur bei echter Beobachtung' : 'Praxis ausserhalb des Textfelds');
     appendText(section, 'h3', '', practice.title);
     appendText(section, 'p', '', adult ? practice.adultNote : practice.childNote);
+    if (adult) for (const paragraph of practice.adultGuide || []) appendText(section, 'p', '', paragraph);
     const list = create('ol');
     (adult ? practice.adultCriteria : practice.childSteps).forEach(step => appendText(list, 'li', '', step));
     section.append(list);
+    if (adult && practice.handouts) {
+      appendText(section, 'p', 'muted', 'Getrennte Karten nur zur passenden Phase ausgeben; die Links enthalten keine Erwachsenenlösung.');
+      for (const handout of practice.handouts) {
+        const link = create('a', 'lab-open');
+        link.href = handout.path;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.textContent = handout.label;
+        section.append(link);
+      }
+    }
     if (adult) appendText(section, 'p', 'muted', practice.unscored === true
       ? 'Nur eine zulässige Unterrichtsbeobachtung eintragen. Keine Gelegenheit und nicht beobachtet unterscheiden; keine Punkte, Summe oder Sportnote ableiten.'
       : 'Pro Kriterium die tatsächlich beobachteten Punkte und Hilfen auf dem Lösungsblatt notieren. Ohne durchgeführte Beobachtung: nicht erhoben. Keine automatische Punktzahl.');
@@ -827,12 +839,14 @@
         const practiceSection = create('section', 'print-practice');
         appendText(practiceSection, 'h3', '', topic.practice.title);
         appendText(practiceSection, 'p', '', mode === 'child' ? topic.practice.childNote : topic.practice.adultNote);
+        if (mode === 'adult') for (const paragraph of topic.practice.adultGuide || []) appendText(practiceSection, 'p', '', paragraph);
         const list = create('ol');
         (mode === 'child' ? topic.practice.childSteps : topic.practice.adultCriteria).forEach(step => appendText(list, 'li', '', mode === 'child' ? step : topic.practice.unscored === true
           ? `${step}  ☐ beobachtet  ☐ nicht beobachtet  ☐ keine Gelegenheit  ☐ nicht anwendbar. Namenlose Kurznotiz: ____________________`
           : `${step}  Punkte: ____`));
         practiceSection.append(list);
         if (mode === 'adult') {
+          for (const handout of topic.practice.handouts || []) appendText(practiceSection, 'p', 'print-context', `${handout.label}: ${handout.publicUrl}. Nur zur passenden Phase und ohne Erwachsenenlösung ausgeben.`);
           if (topic.practice.unscored === true) {
             appendText(practiceSection, 'p', '', 'Je Zeile nur nach zulässiger Beobachtung markieren; „keine Gelegenheit“ ist keine Fehlleistung.');
             appendText(practiceSection, 'p', '', 'Schulspiel und geltende Schulregel/Quelle: ______________________________________________');

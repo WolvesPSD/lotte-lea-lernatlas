@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-23T01:09:47.410Z",
-  "releaseVersion": "2026.10.23-m8lflaeche.1",
+  "builtAt": "2026-10-23T01:26:14.689Z",
+  "releaseVersion": "2026.10.23-frsleseecke.1",
   "newTopicIds": [
-    "ma-quadratdifferenz-lflaeche"
+    "fr-leseecke-avis-aide"
   ],
   "changeLog": [
-    "Mathematik: Eine freiwillige Klasse-8-L-Fläche begründet die Quadratdifferenz und führt von einer Skizze zu Rechnung, Gleichung und kurzem Pascal-Vergleich.",
-    "Die Zusatzkarte erscheint erst nach A–D. Zeichenpunkte brauchen eine echte Papierprüfung; die App bewertet freie Antworten nicht automatisch."
+    "Französisch: Ein freiwilliger 7/8-Dialog zur eigenen Meinung, zur anderen Vorliebe und zu gegenseitiger Hilfe ergänzt den Termin-Dialog.",
+    "Camille- und Sam-Rolle sowie Morgen-Variante sind getrennt druckbar. Schriftliche Antworten beweisen keine gehörte Rede; der Live-Bogen bleibt bei Erwachsenen."
   ],
-  "rollbackCommit": "945d04a2eb2457fb97ed95968eacacc8123b313a",
+  "rollbackCommit": "c78dd6486783cb55e627e1ab777e3c8580cf1e53",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -21,6 +21,7 @@
     "de-tauschregal-eroerterung",
     "en-art-display-report",
     "en-maya-clubs-talk",
+    "fr-leseecke-avis-aide",
     "fr-termin-gespraech",
     "de-textzusammenhang-register",
     "de-textuntersuchung-bank",

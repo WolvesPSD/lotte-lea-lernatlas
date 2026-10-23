@@ -1115,6 +1115,98 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "fr-leseecke-avis-aide",
+      "subjectId": "fr",
+      "title": "Deux idées pour le coin lecture",
+      "scope": "Freiwilliger, gestützter 7/8-Sprechfall: eine eigene Meinung ausdrücken, die andere anhören und konkrete Hilfe aushandeln. § 3.2.3 ist ein Ziel bis Ende Klasse 8; die aktuelle Klasse-7-Unterrichtsfolge ist unbekannt. Nur ein wirklich gehörtes Gespräch kann Sprechen belegen.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Du brauchst eine zweite Person. Du siehst nur Camille-Karte A; die anleitende Person gibt Sam die getrennte, lösungsfreie Karte B. Lest einander die Karten nicht vor. Eine französischkundige Person kann Wörter vorab üben und die Hilfe notieren. Keine echten Namen, Schul- oder Leistungsdaten und keine Aufnahme verwenden.",
+      "introduction": "Camille und Sam richten im erfundenen Jugendhaus heute eine kleine französische Leseecke ein. Es soll ein Thema gewählt werden. Bereite dich mit Stichwörtern vor, sprich dann wirklich mit einer zweiten Person und schreibe erst danach auf, was ihr vereinbart und tatsächlich gehört habt. Die App hört und bewertet kein Sprechen.",
+      "passage": "CARTE A · Camille · nur du ansehen\nHeute braucht ein Thema mindestens drei bereits fertige Bildkarten. Eine neue Karte kann heute nicht mehr hergestellt werden.\nDu hast drei fertige Karten zum Thema la forêt: un arbre, un renard, une rivière. Du magst den Wald; das ist deine Meinung, nicht die Regel. Une rivière bedeutet „ein Fluss“.\nDu hast Klebstoff, aber keine Schere. Für die Überschrift müssen noch zwei Papierstreifen ausgeschnitten werden; die Bildkarten selbst sind fertig.\nDu kennst Sams Thema, Zahl der Karten und Material noch nicht. Frage danach. Nenne Sam deine drei Motive. Bitte um Hilfe beim Ausschneiden und biete bei einem unbekannten Wort Hilfe an.\n\nWORTSTÜTZE BEI BEDARF · Je préfère la forêt parce que ... · Qu'en penses-tu ? · Combien de cartes as-tu ? · Il faut trois images prêtes aujourd'hui. · Tu peux m'aider à découper ? · Je peux t'aider avec ce mot. · D'accord, on choisit ... · Merci ! Andere verständliche Formulierungen gelten; lies keinen fertigen Dialog ab.",
+      "tasks": [
+        {
+          "id": "fr-leseecke-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Vor dem Gespräch (4 schriftliche Punkte): Notiere auf Französisch die Regel für heute und die Anzahl deiner fertigen Waldkarten. Schreibe eine eigene Meinung zum Wald mit einfacher Begründung und eine echte Frage an Sam. Stichwörter oder kurze Sätze genügen; erfinde Sams Antwort nicht.",
+          "sample": "Il faut trois images prêtes aujourd'hui. J'ai trois cartes sur la forêt. Je préfère la forêt parce que j'aime les animaux. Combien de cartes as-tu ? Andere verständliche eigene Begründungen und Fragen sind richtig.",
+          "criteria": [
+            "1 Punkt: heutige Regel, mindestens drei fertige Bildkarten zu einem Thema.",
+            "1 Punkt: drei fertige Waldkarten.",
+            "1 Punkt: eigene verständliche Waldmeinung mit einfacher Begründung.",
+            "1 Punkt: echte Frage an Sam, nicht eine erfundene Partnerantwort. Sprachfehler ohne Bedeutungsverlust nicht doppelt als Sachfehler abziehen."
+          ]
+        },
+        {
+          "id": "fr-leseecke-2",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Nur nach einem wirklichen Gespräch (bis 6 schriftliche Punkte): Notiere das vereinbarte Thema, die fertige Kartenzahl zu beiden Themen, warum die heutige Regel erfüllt ist oder nicht, die tatsächlich besprochene Hilfe und eine von Sam wirklich gehörte Meinung. Ohne Gespräch: Vereinbarung und gehörte Meinung „nicht erhoben“ schreiben; keine Partnerangaben erfinden. Die Schriftpunkte sind keine Sprechpunkte.",
+          "sample": "Falls tatsächlich so besprochen: Heute la forêt; Wald 3, Fahrrad 2 fertige Karten. Nur Wald erfüllt heute die Drei-Karten-Regel. Sam schneidet zwei Überschriftenstreifen, Camille klebt. Sam mag das Fahrradthema lieber. Eine abweichende tatsächlich begründete Vereinbarung dokumentieren statt eine Einigung zu erfinden.",
+          "criteria": [
+            "1 Punkt: tatsächlich vereinbartes Thema; ohne Gespräch nicht erhoben.",
+            "Je 1 Punkt: drei Wald- und zwei Fahrradkarten, soweit im Gespräch erfahren.",
+            "1 Punkt: Bezug auf mindestens drei bereits fertige Bildkarten und heute.",
+            "1 Punkt: tatsächlich besprochene, sachlich mögliche Hilfeverteilung.",
+            "1 Punkt: wirklich gehörte Meinung Sams als Meinung, nicht als Kartenfakt; ohne Gespräch nicht erhoben. Eine nicht erreichte Einigung nicht als 0 vortäuschen."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Praxis: über Vorlieben und Hilfe sprechen",
+        "childNote": "Eine zweite Person erhält die verdeckte Sam-Karte. Sprecht auf Französisch über eure Themen, fragt nach fehlenden Angaben und verteilt die Hilfe. Die Textfelder halten nur Vorbereitung und Rückblick fest. Ohne gesprochenes Gespräch bleibt der mündliche Teil „nicht erhoben“. Das freiwillige Morgen-Blatt gibt die anleitende Person erst danach aus.",
+        "childSteps": [
+          "Die anleitende Person druckt Sam-Karte B getrennt. Du liest nur Camille-Karte A; niemand zeigt vorab die Partnerkarte oder Lösung.",
+          "Fragt einander nach Thema, Meinung, Zahl fertiger Karten und Regel. Nenne deine drei Waldmotive, reagiere auf Sams Vorliebe und frage bei Unklarheit nach.",
+          "Prüft die heutige Drei-Karten-Regel und verteilt Schneiden, Kleben und Worterklärung. Findet einen möglichen Plan für heute, ohne die andere Vorliebe abzuwerten.",
+          "Beendet das Gespräch. Erst danach Aufgabe B mit tatsächlich Gehörtem bearbeiten; ohne Gespräch keine gehörte Meinung oder Einigung erfinden."
+        ],
+        "observationMax": 14,
+        "observationLabel": "Gespräch",
+        "adultNote": "Rolle B ist ein eigenes lösungsfreies Handout und darf nur Sam gezeigt werden. Die anleitende Person gibt nur die gemeinsame Situation mündlich bekannt, hält die Rollen verdeckt und gibt die Morgen-Variante erst nach dem Gespräch aus. Keine Aufnahme nötig. Mündlich je Zeile: 2 selbstständig/verständlich, 1 teilweise/mit Stütze, 0 trotz fairer Gelegenheit nicht gezeigt, — keine faire Gelegenheit oder sprachlich nicht sicher beurteilbar. Ohne gehörtes Gespräch alles nicht erhoben; bei — keine vergleichbare Summe. Nur eine hinreichend französischkundige Person kann Ausdruck und Verständlichkeit beurteilen. Keine amtliche Schulnote.",
+        "adultGuide": [
+          "Sachkern: Heute drei fertige Waldkarten bei Camille und zwei fertige Fahrradkarten bei Sam. Nur Wald erfüllt heute die Drei-Karten-Regel. Sam kann zwei Überschriftenstreifen schneiden, Camille kleben und rivière als Fluss erklären. Die Bildkarten sind bereits fertig. Eine dritte Fahrradkarte morgen schafft bloss eine Möglichkeit; Vorliebe und Kartenzahl sind verschieden.",
+          "Schriftlich je Rolle: Vorbereitung 4 Punkte. Sam: le vélo (1), deux cartes (1), eigene begründete Fahrradmeinung (1), echte Frage nach Camille oder der Regel (1). Rückblick höchstens 6 Punkte: tatsächlich vereinbarter Plan (1), Wald 3 (1), Fahrrad 2 (1), Bezug auf die heutige Regel (1), tatsächlich besprochene Hilfe (1), wirklich gehörte Partnervorliebe (1). Ohne Gespräch Einigung und gehörte Meinung nicht erhoben.",
+          "Ein mögliches Gespräch erst nach der Probe: Camille fragt nach Sams Thema, Karten und Meinung; Sam nennt vélo, zwei Karten und seine Vorliebe. Camille erkennt die Vorliebe an, nennt forêt mit arbre, renard und rivière und erklärt die heutige Regel. Sam stimmt Wald für heute zu, fragt nach rivière und bietet das Schneiden an; Camille erklärt das Wort, bietet Klebstoff und Kleben an. Dies ist kein abzulesendes Skript.",
+          "Zusatzblatt morgen, getrennte sechs Schriftpunkte: Demain, avec une troisième carte prête, il y a trois cartes pour le vélo et on peut choisir ce thème. Je voudrais choisir le vélo. Als möglicher Sinn, nicht als Pflichtwortlaut. Weder zu den 4+6 Hauptschriftpunkten noch zu den 14 Sprechpunkten addieren."
+        ],
+        "adultCriteria": [
+          "Gespräch angemessen begrüssen und beenden: 0/1/2 oder —.",
+          "Mindestens eine echte Frage stellen und auf eine Partnerfrage antworten: 0/1/2 oder —.",
+          "Eigene Vorliebe einfach begründen und nach der anderen Meinung fragen: 0/1/2 oder —.",
+          "Respektvoll auf andere Vorliebe reagieren; Menge und Meinung trennen: 0/1/2 oder —.",
+          "Konkrete Hilfe erbitten und eigene konkrete Hilfe anbieten: 0/1/2 oder —.",
+          "Neu gehörte Karten-/Regelangaben für einen tragfähigen Plan für heute nutzen: 0/1/2 oder —.",
+          "Verständlich sprechen, bei Bedarf nachfragen und den Sprecherwechsel halten: 0/1/2 oder —."
+        ],
+        "handouts": [
+          {
+            "label": "Sam-Karte B ohne Lösungen öffnen und drucken",
+            "path": "assets/fr-leseecke-rolle-sam.html",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/fr-leseecke-rolle-sam.html"
+          },
+          {
+            "label": "Morgen-Variante erst nach dem Gespräch öffnen",
+            "path": "assets/fr-leseecke-morgen-variante.html",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/fr-leseecke-morgen-variante.html"
+          }
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. Zweite Fremdsprache § 3.2.3 PDF-S. 61–62: Meinung erfragen und äussern, respektvoll reagieren, Hilfe anbieten und erbitten, Gespräch gemeinsam führen; Zielmarke Klasse 8.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "fr-termin-gespraech",
       "subjectId": "fr",
       "title": "Parler et trouver un rendez-vous",

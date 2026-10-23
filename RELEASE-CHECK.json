@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-23T08:57:02.961Z",
-  "releaseVersion": "2026.10.23-enwinvite.1",
+  "builtAt": "2026-10-23T09:15:38.641Z",
+  "releaseVersion": "2026.10.23-m4rechnerprobe.1",
   "newTopicIds": [
-    "en-invite-mini-comics-workshop"
+    "ma-m4-rechnerprobe"
   ],
   "changeLog": [
-    "Englisch: Noor zu einer erfundenen Mini-Comics-Werkstatt persönlich einladen und Angaben des Aushangs korrekt weitergeben.",
-    "A–C umfassen 20 Hauptpunkte; eine Antwort auf Noors spätere Fragen erscheint danach mit sechs getrennten Zusatzpunkten. Keine reale Nachricht oder Anmeldung."
+    "Mathematik: freiwillige Rechnerprobe mit Vorabschätzung, eigener Eingabe und unabhängiger Kontrolle für Anteile und Kreiswinkel.",
+    "A–D umfassen 20 Hauptpunkte; sechs Transferpunkte erscheinen später. Das lokale Grundrechenartenwerkzeug protokolliert Eingaben nur während der geöffneten Seite und ist kein wissenschaftlicher Taschenrechner."
   ],
-  "rollbackCommit": "16078a2999664c6039ef9b5cc8f3a651aa968427",
+  "rollbackCommit": "4470384b8611abd95ef8acb11e1ca2e30e57239d",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -127,6 +127,7 @@
     "en-survey-questionnaire-table",
     "en-living-things-comparison-foxes",
     "en-invite-mini-comics-workshop",
+    "ma-m4-rechnerprobe",
     "mbi-sternnetz-feedranking",
     "mbi-teamdaten-gegenpruefen"
   ],

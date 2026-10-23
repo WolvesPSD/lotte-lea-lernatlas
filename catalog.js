@@ -10648,6 +10648,121 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-m4-rechnerprobe",
+      "subjectId": "ma",
+      "title": "Rechnerprobe: erst schätzen, dann prüfen",
+      "scope": "Freiwilliger 7/8-Lernweg zur Werkzeugreflexion bei Prozenten; M4 ist ein Ziel bis Ende Klasse 8. Der Lehrplan nennt den wissenschaftlichen Taschenrechner ab Klasse 7, aber keine Pflicht, jede Aufgabe damit zu lösen. Keine bestätigte aktuelle Schuleinheit.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Hilfreich sind Prozent als Anteil und einfache Dezimalzahlen. Wenn das noch neu ist, beginne mit A und nutze die Formel in C. Das kleine Browserwerkzeug kann Grundrechenarten ausführen, ist kein wissenschaftlicher Taschenrechner und bewertet keine Antworten. Rechner, Papier oder Kopf sind erlaubt; tatsächliche Bedienung und selbstständige Leistung sind mit einer ausgefüllten Antwort allein nicht bewiesen.",
+      "introduction": "Du wählst für drei fiktive Rechnungen einen passenden Weg und kontrollierst die Anzeige; danach blickst du auf deine Werkzeugwahl zurück. Schätze vor dem Rechnen. Die zusätzliche Rechnerprobe unterhalb der Aufgaben nimmt selbst eingegebene Grundrechenarten an und zeigt nur in dieser geöffneten Seite ein Eingabeprotokoll; sie gibt keine Modellwahl und keine Lösung vor. Ein fremdes oder kopiertes Protokoll ist kein Nachweis deiner Bedienung. 20 Hauptpunkte und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "lab": {
+        "path": "assets/ma-m4-rechnerprobe.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-m4-rechnerprobe.html",
+        "title": "Grundrechenarten selbst eingeben",
+        "description": "Einfacher Übungsrechner mit sichtbarem Protokoll für die geöffnete Seite. Schätzung, Bezugswert, Eingabe und unabhängige Kontrolle bleiben deine Aufgabe; das Werkzeug ist kein wissenschaftlicher Taschenrechner.",
+        "printNote": "Das Kinderblatt enthält nur Aufträge, keine Ergebnisse. Das optionale Rechnerprotokoll entsteht erst durch eigene Eingaben im getrennten Werkzeug und kann dort gedruckt werden.",
+        "scoredInteraction": false
+      },
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGER TRANSFER NACH A–D · Eine zweite Kreisübersicht hat Anteile 50 %, 25 %, 12,5 % und 12,5 %. Eine Tabelle zeigt in derselben Reihenfolge 180°, 45°, 45° und 90°. Prüfe, ob jede Zuordnung stimmt; die Summe allein reicht nicht."
+      },
+      "tasks": [
+        {
+          "id": "ma-m4-probe-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A · Ein einfacher Anteil (4 Hauptpunkte): Bestimme 12,5 % von 128. Entscheide vor dem Rechnen: Kopf, Papier oder digitaler Rechner? Begründe die Wahl, notiere eine Schätzung, rechne und prüfe mit einer anderen Darstellung. Wenn du digital rechnest, notiere Eingabe und Anzeige.",
+          "sample": "12,5 % = 1/8; 128 ÷ 8 = 16. Kopfrechnen ist hier kurz; ein Rechner als Kontrolle ist ebenfalls vertretbar. Probe: 16 × 8 = 128.",
+          "criteria": [
+            "1 Punkt: passende Methode vorab genannt und begründet; mehrere Methoden sind zulässig.",
+            "1 Punkt: sinnvolle Schätzung oder erwarteter Wert vor der Rechnung.",
+            "1 Punkt: Ergebnis 16 mit nachvollziehbarem Weg.",
+            "1 Punkt: unabhängige Probe, zum Beispiel 16 × 8 = 128."
+          ]
+        },
+        {
+          "id": "ma-m4-probe-b",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 7,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "B · Ein weniger bequemer Anteil (5 Hauptpunkte): Bestimme 7,25 % von 368. Schätze zunächst einen Bereich. Wenn ein Rechner verfügbar ist, gib etwa 368 × 7,25 ÷ 100 ein und notiere Eingabe und Anzeige; auch Papier ist erlaubt. Prüfe mit Ergebnis ÷ 368 × 100. Erkläre, wozu Rechner und Schätzung jeweils helfen.",
+          "sample": "7 % von 368 sind 25,76, also sollte 7,25 % zwischen 26 und 27 liegen. 368 × 7,25 ÷ 100 = 26,68. Rückprobe: 26,68 ÷ 368 × 100 = 7,25 %. Ein Rechner erleichtert die Dezimalrechnung; der Überschlag entdeckt grobe Eingabefehler.",
+          "criteria": [
+            "1 Punkt: vorab sinnvoller Bereich um 26–27.",
+            "1 Punkt: korrekte Eingabe oder gleichwertiger Papierweg.",
+            "1 Punkt: Ergebnis 26,68.",
+            "1 Punkt: Rückprobe ergibt ungefähr 7,25 %.",
+            "1 Punkt: Nutzen des Rechners und unabhängige Schätzung erklärt. Papierlösung zählt fachlich; digitale Bedienung bleibt dann ungeprüft."
+          ]
+        },
+        {
+          "id": "ma-m4-probe-c",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 9,
+          "inputRows": 13,
+          "adultOnlySolution": true,
+          "prompt": "C · Kreiswinkel einzeln prüfen (8 Hauptpunkte): Ein Kreis hat in Reihenfolge 37,5 %, 25 %, 22,5 % und 15 %. Eine digitale Auswertung zeigt dazu 126°, 90°, 90° und 54°. Prüfe zuerst die Prozentsumme. Berechne für jeden Anteil Anteil ÷ 100 × 360°. Welche zwei Winkel sind falsch? Reicht die Kontrolle der Winkelsumme allein? Erkläre, was ein Rechner hilft und was du selbst prüfen musst.",
+          "sample": "Die Anteile ergeben 100 %. Die passenden Winkel sind 135°, 90°, 81° und 54°. Die gezeigte Winkelsumme ist 360°, aber 126° bei 37,5 % und 90° bei 22,5 % sind falsch. Ein Rechner führt die Rechnung aus; die Kategorien und ihre Zuordnung muss ich selbst prüfen.",
+          "criteria": [
+            "1 Punkt: Anteile ergeben 100 %.",
+            "1 Punkt: Beziehung Anteil ÷ 100 × 360°.",
+            "2 Punkte: alle vier richtigen Winkel 135°, 90°, 81°, 54°; je zwei richtige Winkel 1 Punkt.",
+            "2 Punkte: beide falschen Zuordnungen gefunden; je eine 1 Punkt.",
+            "1 Punkt: 360° als unzureichende Einzelkontrolle erklärt.",
+            "1 Punkt: Rechnerhilfe und eigene Zuordnungskontrolle konkret getrennt."
+          ]
+        },
+        {
+          "id": "ma-m4-probe-d",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Rückblick (3 Hauptpunkte): Bei welcher Aufgabe hat dir ein digitaler Rechner tatsächlich geholfen? Nenne den Schritt. Wenn du keinen genutzt hast, schreibe „nicht benutzt; D1 nicht beurteilt“. Welche unabhängige Kontrolle hast du gemacht, was kann eine Anzeige allein nicht beweisen und welche Methode würdest du nächstes Mal zuerst wählen?",
+          "sample": "Bei B half mir die digitale Multiplikation mit Dezimalzahlen. Die Vorabschätzung und Rückprobe prüften das Ergebnis; die Anzeige kennt den gemeinten Grundwert und die Winkelbeschriftung nicht. Bei einfachen Anteilen würde ich zuerst Kopf oder Papier nutzen, bei unhandlichen Dezimalzahlen den Rechner und danach eine eigene Probe. Ohne reale Nutzung bleibt D1 nicht beurteilt.",
+          "criteria": [
+            "1 Punkt nur bei tatsächlich genutztem Rechner: konkreter Nutzen in einer bearbeiteten Aufgabe; sonst nicht beurteilt, kein Ersatzpunkt.",
+            "1 Punkt: unabhängige Kontrolle und Grenze der Anzeige benannt.",
+            "1 Punkt: nächste Methodenwahl mit Aufwand und Prüfbarkeit begründet."
+          ]
+        },
+        {
+          "id": "ma-m4-probe-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 7,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer nach A–D (6 Zusatzpunkte): Berechne für 50 %, 25 %, 12,5 % und 12,5 % alle passenden Winkel. Die Tabelle nennt in derselben Reihenfolge 180°, 45°, 45°, 90°. Finde die vertauschte Zuordnung und prüfe die Summe. Wenn du digital rechnest, notiere eine Eingabe. Erkläre, warum 360° allein keine richtige Einzelzuordnung beweisen.",
+          "sample": "Richtig sind 180°, 90°, 45°, 45°. In der Tabelle stehen die Winkel für 25 % und den letzten 12,5 %-Anteil vertauscht. Auch die falsche Tabelle ergibt 360°. Eine Rückrechnung, zum Beispiel 45 ÷ 360 × 100 = 12,5 %, prüft die Einzelzuordnung; der Rechner erkennt Beschriftungsfehler nicht selbst.",
+          "criteria": [
+            "2 Zusatzpunkte: alle vier richtigen Winkel; je zwei richtige 1 Punkt.",
+            "1 Zusatzpunkt: vertauschte 25 %/letzte 12,5 %-Zuordnung erkannt.",
+            "1 Zusatzpunkt: richtige Winkelsumme beweist nicht richtige Paarung.",
+            "1 Zusatzpunkt: unabhängiger Rechen- oder Prüfweg.",
+            "1 Zusatzpunkt: Grenze der Anzeige bei der Beschriftungszuordnung benannt."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Mathematik Klasse 7 ab 2026/27. PDF-S. 15 Fussnote 12: wissenschaftlicher Taschenrechner ab Klasse 7 im Arbeiten mit Hilfsmitteln. §2.2.4 PDF-S. 26–27: Prozentrechnung und Reflexion des digitalen Mathematikwerkzeugs, Zielstand Klasse 8.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "mbi-sternnetz-feedranking",
       "subjectId": "mbi",
       "title": "Warum steht dieser Beitrag weiter oben?",

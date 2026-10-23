@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rechnerprobe · Lotte & Lea</title>
+  <style>
+    :root { color-scheme: light; font: 17px/1.5 system-ui, sans-serif; color: #173034; background: #f6f3ee; }
+    body { max-width: 46rem; margin: 0 auto; padding: 1rem; }
+    main { background: white; border: 1px solid #d4dedb; border-radius: 1rem; padding: 1.2rem; }
+    h1 { margin-top: 0; line-height: 1.2; }
+    .grid { display: grid; grid-template-columns: 1fr 7rem 1fr; gap: .7rem; align-items: end; }
+    label { display: block; font-weight: 650; }
+    input, select, button { box-sizing: border-box; width: 100%; min-height: 2.8rem; border: 1px solid #718f90; border-radius: .45rem; padding: .45rem; font: inherit; }
+    button { background: #075258; color: white; font-weight: 700; cursor: pointer; }
+    button.secondary { background: white; color: #075258; }
+    .buttons { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1rem; }
+    .buttons button { width: auto; }
+    output { display: block; min-height: 2rem; margin: 1rem 0; font-weight: 700; }
+    li { margin-bottom: .35rem; overflow-wrap: anywhere; }
+    .hint { color: #456168; }
+    @media (max-width: 32rem) { .grid { grid-template-columns: 1fr; } }
+    @media print { body { background: white; max-width: none; } main { border: 0; padding: 0; } .grid, .buttons { display: none; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Rechnerprobe</h1>
+  <p>Ein kleines Übungswerkzeug für Grundrechenarten. Gib deine Rechnung selbst ein und notiere vorher einen Überschlag im Aufgabenblatt. Dieses Werkzeug ist <strong>kein wissenschaftlicher Taschenrechner</strong>. Die Anzeige prüft weder deinen Grundwert noch die Zuordnung eines Winkels.</p>
+  <form id="calculator">
+    <div class="grid">
+      <label>Erste Zahl<input id="left" inputmode="decimal" autocomplete="off" required aria-label="Erste Zahl"></label>
+      <label>Rechenart<select id="operation" aria-label="Rechenart"><option value="+">+</option><option value="−">−</option><option value="×" selected>×</option><option value="÷">÷</option></select></label>
+      <label>Zweite Zahl<input id="right" inputmode="decimal" autocomplete="off" required aria-label="Zweite Zahl"></label>
+    </div>
+    <div class="buttons"><button type="submit">Berechnen und merken</button><button class="secondary" type="button" id="print">Protokoll drucken</button><button class="secondary" type="button" id="clear">Protokoll leeren</button></div>
+  </form>
+  <output id="result" role="status" aria-live="polite">Noch keine Rechnung.</output>
+  <h2>Meine Eingaben in dieser geöffneten Seite</h2>
+  <ol id="history"></ol>
+  <p class="hint">Das Protokoll bleibt nur in dieser geöffneten Seite und verschwindet beim Neuladen. Ein Eintrag zeigt eine Browserrechnung, aber nicht, wer die Zahlen eingegeben hat oder ob die Antwort fachlich richtig eingeordnet wurde. Es werden keine Daten versendet.</p>
+</main>
+<script>
+  const form = document.querySelector('#calculator');
+  const result = document.querySelector('#result');
+  const history = document.querySelector('#history');
+  function numberFrom(raw) {
+    const text = raw.trim().replace(',', '.');
+    if (!/^[+-]?(?:\d+(?:\.\d*)?|\.\d+)$/.test(text)) return null;
+    const value = Number(text);
+    return Number.isFinite(value) ? value : null;
+  }
+  function display(value) { return new Intl.NumberFormat('de-DE', { maximumFractionDigits: 10 }).format(value); }
+  form.addEventListener('submit', event => {
+    event.preventDefault();
+    const left = numberFrom(document.querySelector('#left').value);
+    const right = numberFrom(document.querySelector('#right').value);
+    const op = document.querySelector('#operation').value;
+    if (left === null || right === null) { result.textContent = 'Bitte zwei endliche Dezimalzahlen eingeben.'; return; }
+    if (op === '÷' && right === 0) { result.textContent = 'Durch null kann nicht geteilt werden.'; return; }
+    const value = op === '+' ? left + right : op === '−' ? left - right : op === '×' ? left * right : left / right;
+    if (!Number.isFinite(value)) { result.textContent = 'Ergebnis zu groß für dieses Werkzeug.'; return; }
+    const line = `${display(left)} ${op} ${display(right)} = ${display(value)}`;
+    const item = document.createElement('li');
+    item.textContent = line;
+    history.append(item);
+    result.textContent = line;
+  });
+  document.querySelector('#print').addEventListener('click', () => window.print());
+  document.querySelector('#clear').addEventListener('click', () => { history.replaceChildren(); result.textContent = 'Protokoll geleert.'; });
+</script>
+</body>
+</html>

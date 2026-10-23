@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-23T09:15:38.641Z",
-  "releaseVersion": "2026.10.23-m4rechnerprobe.1",
+  "builtAt": "2026-10-23T09:35:27.588Z",
+  "releaseVersion": "2026.10.23-historypatcham.1",
   "newTopicIds": [
-    "ma-m4-rechnerprobe"
+    "ge-patcham-quellenpruefung"
   ],
   "changeLog": [
-    "Mathematik: freiwillige Rechnerprobe mit Vorabschätzung, eigener Eingabe und unabhängiger Kontrolle für Anteile und Kreiswinkel.",
-    "A–D umfassen 20 Hauptpunkte; sechs Transferpunkte erscheinen später. Das lokale Grundrechenartenwerkzeug protokolliert Eingaben nur während der geöffneten Seite und ist kein wissenschaftlicher Taschenrechner."
+    "Geschichte: freiwilliger Quellenfall zu Patcham 1086 mit Archivangaben, heutiger Erklärung und erfundener Videobehauptung.",
+    "A–D umfassen 20 Hauptpunkte; eine zusätzliche Behauptung erscheint später. Quellenreichweite und ungeklärte Geltung des Geschichte-Lehrplans 2026/27 bleiben sichtbar."
   ],
-  "rollbackCommit": "4470384b8611abd95ef8acb11e1ca2e30e57239d",
+  "rollbackCommit": "25d85c411d349f96697b1198b6c96a16ae36a35e",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -117,6 +117,7 @@
     "go-klima-vegetation-modell",
     "go-gradnetz-modellorte",
     "go-drei-gesteinswege",
+    "ge-patcham-quellenpruefung",
     "ge-toledo-uebersetzungsquellen",
     "mnt-bionik-leichtbau-modell",
     "mu09-bass-triole-taktwechsel",
@@ -186,6 +187,7 @@
     "go-klima-vegetation-modell",
     "go-gradnetz-modellorte",
     "go-drei-gesteinswege",
+    "ge-patcham-quellenpruefung",
     "ge-toledo-uebersetzungsquellen",
     "mu09-bass-triole-taktwechsel",
     "sp-basketball-regelkarte-papier"

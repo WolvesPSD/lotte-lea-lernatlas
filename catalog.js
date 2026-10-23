@@ -9564,6 +9564,127 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ge-patcham-quellenpruefung",
+      "subjectId": "ge",
+      "title": "Was verrät Patcham im Jahr 1086?",
+      "scope": "Freiwilliger, gestützter 7/8-Quellenfall zu einer mittelalterlichen Lebenswelt in England. Der Thüringer Geschichte-Lehrplan von 2021 nennt das Ziel für Ende Klasse 8; seine amtliche Geltung 2026/27 und Lottes Unterrichtsfolge sind ungeklärt. Ein Ort zeigt nicht das Leben aller Menschen im Mittelalter.",
+      "levelStatus": "additional-unclear",
+      "released": true,
+      "prerequisite": "Freiwillige Übung: Die Geltung des Geschichte-Lehrplans für 2026/27 ist ungeklärt. Du arbeitest mit drei unterschiedlichen Karten: einer eigenen deutschen Kurzfassung eines Eintrags von 1086, einer heutigen Erklärung und einer erfundenen Videobehauptung. Die Quellen sind keine vollständige Bewohnerzählung. Die 20 Haupt- und sechs freiwilligen Zusatzpunkte sind Lernfeedback, keine Schulnote. Offene Antworten brauchen menschliche Prüfung.",
+      "introduction": "Im Domesday Book wurden 1086 unter anderem Angaben zu Land und dessen Bewertung festgehalten. Wir betrachten nur Patcham in Sussex, England. Karte A fasst einen damaligen Eintrag in eigenen deutschen Worten zusammen. Karte B erklärt den Erhebungszweck aus heutiger Sicht. Karte C ist eigens erfunden. Prüfe bei jeder Aussage, ob die Karten sie wirklich tragen. Die Pfundwerte (£) bewerten Land; sie sind kein Einkommen einzelner Familien.",
+      "sourceCards": [
+        {
+          "title": "Archivquelle und heutige Vermittlung",
+          "text": "The National Archives zeigen einen lateinischen Ausschnitt aus Great Domesday Book und eine moderne englische Übersetzung zum Ort Patcham. Unsere Karte A gibt einige Angaben daraus in eigener, gekürzter deutscher Sprache wieder. Sie ist weder Originalwortlaut noch vollständiger Eintrag.",
+          "sourceLabel": "The National Archives · Domesday Book, PDF-S. 4",
+          "sourceUrl": "https://cdn.nationalarchives.gov.uk/documents/education/domesday.pdf",
+          "sourceNote": "E 31/2/1, f. 26b; Originalseite und Übersetzung beim Archiv. Keine Archivabbildung in der App."
+        },
+        {
+          "title": "Warum die Liste unvollständig ist",
+          "text": "Das Archiv erklärt die Auswahl der Angaben durch den Zweck der Erhebung. Ein zweites Unterrichtspaket erläutert diese allgemeine Grenze am anderen Ort Mortlake. Es ist kein zusätzlicher Patcham-Eintrag.",
+          "sourceLabel": "The National Archives · Domesday Book: Day of Judgement, PDF-S. 5",
+          "sourceUrl": "https://cdn.nationalarchives.gov.uk/documents/education/domesday-pack.pdf",
+          "sourceNote": "Mortlake nur für die allgemeine Quellenreichweite; die Rollenbeispiele des Pakets werden hier nicht übernommen."
+        }
+      ],
+      "passage": "KARTE A · DAMALIGER EINTRAG IN EIGENER DEUTSCHER KURZFASSUNG: Der Eintrag zu Patcham in Sussex nennt Earl Harold als Landhalter vor 1066 und später eine Person namens William. Er verzeichnet 163 Dorfleute, 45 Leute mit kleinen Hofstellen, sechs in der heutigen englischen Übersetzung als „slaves“ bezeichnete Menschen und zehn Schäfer. Genannt werden auch Pflüge, eine Kirche, Wiese und Wald. Für das Land stehen drei Bewertungen: £100 vor 1066, £50 später und £80 zur Erhebung 1086. Das genaue Jahr der mittleren Bewertung steht im Auszug nicht. Die Gruppenbezeichnungen klären den Alltag oder Rechtsstatus einzelner Menschen nicht.\n\nKARTE B · HEUTIGE ARCHIVERKLÄRUNG: König Wilhelm I. liess 1086 Angaben zu Landbesitz, Nutzung und Wert erheben, auch für mögliche Abgaben. Die Fragen zielten nicht auf eine vollständige Liste aller Menschen und ihrer Tagesabläufe. Frauen und Kinder sowie weitere Alltagsdetails erscheinen nicht vollständig. Aus diesen Karten geht nicht sicher hervor, ob der in A genannte William und König Wilhelm I. dieselbe Person sind.\n\nKARTE C · ERFUNDENE VIDEOBEHAUPTUNG: „Patcham lag 1086 in Thüringen. Genau 224 Menschen wohnten dort, denn 163 + 45 + 6 + 10 = 224. Bis 1086 war das Land wieder £100 wert. So lebten alle Menschen im mittelalterlichen Europa.“",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGE ZUSATZBEHAUPTUNG NACH A–D · „Weil Harold vor 1066 und William später als Landhalter genannt werden, wohnten beide nacheinander in Patcham. Beim Wechsel verliessen alle Dorfbewohner den Ort.“ Die beiden Sätze sind erfunden, kein zusätzlicher historischer Beleg."
+      },
+      "tasks": [
+        {
+          "id": "ge-patcham-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Herkunft und Zweck (4 Hauptpunkte): Ordne A, B und C als vermittelte historische Quelle, heutige Erklärung oder erfundene Behauptung ein. Nenne Ort und Erhebungsjahr für A. Erkläre mit B, wozu die Erhebung durchgeführt wurde.",
+          "sample": "A vermittelt einen Eintrag von 1086 in zwei heutigen Sprachschritten. B ist eine heutige Archiverklärung, C eine erfundene Behauptung. Der Ort ist Patcham in Sussex, England. Erfragt wurden Besitz, Nutzung und Wert von Land für Herrschaft und mögliche Abgaben, nicht alle Bewohner.",
+          "criteria": [
+            "1,5 Punkte: A, B und C richtig eingeordnet, je 0,5.",
+            "0,5 Punkt: Patcham in Sussex oder England.",
+            "0,5 Punkt: Erhebungsjahr 1086.",
+            "1,5 Punkte: Besitz, Nutzung oder Wert als Erhebungsgegenstand und mögliche Abgaben oder Herrschaft als Zweck."
+          ]
+        },
+        {
+          "id": "ge-patcham-2",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Lebenswelt mit Belegen (5 Hauptpunkte): Wer hielt das Land vor 1066 und wer später? Nenne zwei unterschiedliche Hinweise aus A auf Arbeit, Landnutzung oder Zusammenleben. Erkläre getrennt, warum die Karten keinen vollständigen Tagesablauf und keine sichere Bewohnerzahl zeigen.",
+          "sample": "Earl Harold hielt das Land vor 1066, später der im Eintrag William genannte Landhalter. Schäfer weisen auf Schafhaltung hin; Pflüge auf Feldarbeit. Der Eintrag beschreibt keine vollständigen Tagesabläufe. Die Personengruppen sind keine vollständige Bevölkerungsliste, unter anderem fehlen Frauen und Kinder als vollständig erfasste Gruppen.",
+          "criteria": [
+            "2 Punkte: Harold und William als Landhalter, je 1; aus dem Namen allein keine sichere Gleichsetzung mit dem König.",
+            "2 Punkte: zwei unterschiedliche A-Hinweise auf Arbeit, Landnutzung oder Zusammenleben, je 1.",
+            "0,5 Punkt: Tagesablauf als nicht beschrieben erkannt und begründet.",
+            "0,5 Punkt: fehlende vollständige Erfassung der Bewohner begründet."
+          ]
+        },
+        {
+          "id": "ge-patcham-3",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C · Landwert und Deutung (6 Hauptpunkte): Ordne die drei £-Werte zeitlich. Berechne jede Änderung: erster zu zweitem Wert, zweiter zu drittem und dritter gegenüber dem ersten. War £100 im Jahr 1086 wieder erreicht? Erkläre, ob A den Grund der Wertänderung oder den Wohlstand jeder Familie belegt.",
+          "sample": "£100 vor 1066 → £50 später → £80 im Jahr 1086. Die Änderungen sind −£50, +£30 und −£20 gegenüber dem ersten Wert. £100 waren 1086 nicht erreicht. Der Eintrag nennt weder eine sichere Ursache der Wertänderung noch Einkommen oder Lebenslage einzelner Familien.",
+          "criteria": [
+            "1,5 Punkte: drei zeitlich richtig zugeordnete Werte, je 0,5.",
+            "1,5 Punkte: −50, +30 und −20 richtig, je 0,5.",
+            "1 Punkt: £100 waren 1086 nicht erreicht.",
+            "1 Punkt: Ursache der Wertänderung bleibt mit A offen.",
+            "1 Punkt: Landwert sagt nichts Sicheres über den Wohlstand jeder Familie."
+          ]
+        },
+        {
+          "id": "ge-patcham-4",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "D · Videokarte prüfen (5 Hauptpunkte): Prüfe die vier Aussagen aus C einzeln: Ort, genau 224 Bewohner, wieder £100 und alle Menschen Europas. Kennzeichne jeweils „widersprochen“ oder „nicht belegt“ und nenne ein Kartendetail oder die fehlende Angabe. Schreibe eine sachliche Ersatzüberschrift mit Ort, Zeit und einem belegten Detail.",
+          "sample": "Thüringen ist durch Sussex/England widersprochen. Genau 224 Bewohner sind nicht belegt, auch wenn die vier Zahlen 224 ergeben: Die Liste ist unvollständig. £100 für 1086 ist durch £80 widersprochen. Alle Menschen Europas sind aus einem Ort nicht belegbar. Ersatz: „Der Patcham-Eintrag von 1086 nennt Landnutzung und £80 als damalige Bewertung.“",
+          "criteria": [
+            "4 Punkte: vier richtige Entscheidungen mit passendem Beleg oder genauer Lücke, je 1; bloßes Etikett ohne Begründung höchstens 0,5.",
+            "1 Punkt: Ersatzüberschrift mit Ort, Zeit und mindestens einem zutreffenden Detail."
+          ]
+        },
+        {
+          "id": "ge-patcham-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Zusatzbehauptung nach A–D · sechs getrennte Zusatzpunkte: Zerlege die neue Behauptung in zwei Schlüsse über das Wohnen der Landhalter und den Wegzug aller Dorfbewohner. Was belegt A zum Besitzwechsel, was bleibt offen? Formuliere eine quellentreue Ersatzfassung.",
+          "sample": "Der Eintrag nennt Harold vor 1066 und William später als Landhalter. Ob beide in Patcham wohnten, geht daraus nicht hervor. Ebenso fehlt eine Angabe, dass alle Bewohner wegzogen. Enger Satz: „Der Eintrag zeigt einen Wechsel der Landhalter; Wohnorte und Folgen für alle Bewohner bleiben hier offen.“",
+          "criteria": [
+            "1 Zusatzpunkt: Landhalterfolge Harold → William richtig erkannt.",
+            "1 Zusatzpunkt: Besitzwechsel von Wohnen getrennt.",
+            "1 Zusatzpunkt: Wohnorte nicht belegt.",
+            "1 Zusatzpunkt: Wegzug aller Dorfbewohner nicht belegt.",
+            "2 Zusatzpunkte: eigene quellentreue Ersatzfassung mit Besitzfolge und beiden offenen Grenzen. Zusatzpunkte getrennt ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2025/26 belegt; 2026/27 ungeklärt",
+        "gradeBand": "7/8, Ziel Ende Klasse 8",
+        "competencyRef": "Geschichte Gymnasium 2021, §2.2.1 PDF-S. 19–20 zu Quellen und Darstellungen; §2.2.2 PDF-S. 21 zu mittelalterlichen Lebenswelten. Geltung 2026/27 und Schuleinheit offen.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "ge-toledo-uebersetzungsquellen",
       "subjectId": "ge",
       "title": "Wer arbeitete an der Übersetzung?",

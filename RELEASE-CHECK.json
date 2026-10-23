@@ -1,12 +1,14 @@
 {
-  "builtAt": "2026-10-23T00:47:36.116Z",
-  "releaseVersion": "2026.10.23-mbijahrgang.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "MBI: Neun vorhandene Teilfälle sind nun korrekt dem aktiven Lernzeitraum Klasse 7/8 zugeordnet; der Zielstand Ende Klasse 8 bleibt sichtbar.",
-    "Die konkrete Unterrichtsfolge an Lottes Schule bleibt unbekannt; Aufgaben und Punktzahlen sind unverändert."
+  "builtAt": "2026-10-23T00:59:21.643Z",
+  "releaseVersion": "2026.10.23-frlkontext.1",
+  "newTopicIds": [
+    "fr-attend-kontextpruefen"
   ],
-  "rollbackCommit": "5077808a31808db31766d57b22c81f7d8b8c2703",
+  "changeLog": [
+    "Französisch: Ein freiwilliger kurzer Sprachvergleich führt erst von einer Wortvermutung zum erfundenen Kontext und dann zur überprüften Bedeutung.",
+    "Der Kinderdruck trennt Vermutung und Kontextseiten; offene Antworten werden nicht automatisch bewertet. Die Schulfolge und eine Kinderprobe bleiben offen."
+  ],
+  "rollbackCommit": "4a4cdc4feb1684027c70265481b2c989bea6182a",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -70,6 +72,7 @@
     "en-alex-games-mediation",
     "fr-mila-drawing-mediation",
     "fr-theo-erlebnisbericht",
+    "fr-attend-kontextpruefen",
     "fr-camille-geschichte-fortsetzen",
     "ma-quader-aussparung-grundlagen",
     "ma-kuehlkasten-rationale-zahlen",

@@ -386,6 +386,7 @@
     if (topic.passage) appendText(intro, 'blockquote', 'reading-passage', topic.passage);
     if (topic.tasks.some(task => task.helpAfterAttempt)) appendText(intro, 'p', 'learning-step-note', 'Erst selbst antworten und „Antwort prüfen“ wählen. Danach kannst du die freiwillige Formenhilfe öffnen.');
     if (topic.stagedReading) appendText(intro, 'p', 'muted', `Zuerst nur der Titel: ${topic.stagedReading.title}. Der Lesetext erscheint nach deiner ersten Vermutung.`);
+    if (topic.stagedPrompt) appendText(intro, 'p', 'muted', 'Schreibe zuerst deine eigene Vermutung auf. Der kurze Kontext erscheint erst, wenn du sie festgehalten hast.');
     if (topic.diagram) {
       const figure = create('figure', 'learning-diagram');
       const img = create('img'); img.src = topic.diagram.path; img.alt = topic.diagram.alt;
@@ -426,7 +427,31 @@
       readingCard.append(link); intro.append(readingCard);
     }
     host.append(intro);
-    if (topic.stagedReading) {
+    if (topic.stagedPrompt) {
+      const first = topic.tasks[0];
+      const marker = `${first.id}-kontext-gezeigt`;
+      const shown = state.answers[marker] === 'ja';
+      const firstCard = renderTask(topic, first, 0);
+      const firstInput = firstCard.querySelector('textarea');
+      if (shown && firstInput) firstInput.readOnly = true;
+      host.append(firstCard);
+      const showButton = button('Erste Vermutung festhalten und Kontext zeigen', () => {
+        if (!String(state.answers[first.id] || '').trim()) return;
+        state.answers[marker] = 'ja'; save();
+        if (firstInput) firstInput.readOnly = true;
+        showButton.hidden = true; contextText.hidden = false; remaining.hidden = false;
+        contextText.scrollIntoView({ block: 'start', behavior: 'instant' });
+      }, 'check-button');
+      showButton.disabled = !String(state.answers[first.id] || '').trim();
+      showButton.hidden = shown;
+      firstInput?.addEventListener('input', () => { showButton.disabled = !firstInput.value.trim(); });
+      host.append(showButton);
+      const contextText = appendText(host, 'blockquote', 'reading-passage', topic.stagedPrompt.text);
+      contextText.hidden = !shown;
+      const remaining = create('div'); remaining.hidden = !shown;
+      for (let index = 1; index < topic.tasks.length; index++) remaining.append(renderTask(topic, topic.tasks[index], index));
+      host.append(remaining);
+    } else if (topic.stagedReading) {
       const reading = topic.stagedReading;
       const first = topic.tasks[0];
       const sourceMarker = `${first.id}-text-gezeigt`;
@@ -690,6 +715,8 @@
         && state.answers[`${topic.tasks[0].id}-update-gezeigt`] !== 'ja';
       const hideChildReadingSource = mode === 'child' && topic.stagedReading
         && state.answers[`${topic.tasks[0].id}-text-gezeigt`] !== 'ja';
+      const hideChildPromptContext = mode === 'child' && topic.stagedPrompt
+        && state.answers[`${topic.tasks[0].id}-kontext-gezeigt`] !== 'ja';
       const hideChildReadingUpdate = mode === 'child' && topic.stagedReading
         && state.answers[`${topic.tasks[0].id}-update-gezeigt`] !== 'ja';
       appendText(section, 'h2', '', `${subjectById.get(topic.subjectId).name} · ${topic.title}`);
@@ -707,6 +734,10 @@
           section.append(figure);
         }
       }
+      if (topic.stagedPrompt && mode === 'adult') appendText(section, 'p', 'print-passage', topic.stagedPrompt.text);
+      if (topic.stagedPrompt && mode === 'child') appendText(section, 'p', 'print-context', hideChildPromptContext
+        ? 'Druckfolge: Erst die eigene Vermutung notieren. Der Kontext und die weiteren Aufgaben werden danach im Übungsraum zum Kinderdruck freigegeben.'
+        : 'Druckfolge: Die erste Seite mit der Vermutung zuerst bearbeiten. Die Kontextseite erst danach ansehen. Eine bedruckte Seite allein beweist diese Reihenfolge nicht.');
       if (topic.stagedReading && mode === 'child') appendText(section, 'p', 'print-context', hideChildReadingSource
         ? 'Druckfolge: Hier ist zuerst nur die Titelvermutung. Aushang und Plan werden nach ihrem Festhalten im Übungsraum zum Druck freigegeben.'
         : hideChildReadingUpdate
@@ -757,6 +788,7 @@
       for (const [index, task] of topic.tasks.entries()) {
         if (hideChildUpdate && index === topic.tasks.length - 1) continue;
         if (hideChildReadingSource && index > 0) continue;
+        if (hideChildPromptContext && index > 0) continue;
         if (hideChildReadingUpdate && index === topic.tasks.length - 1) continue;
         const item = create('div', 'print-task'); item.dataset.taskId = task.id;
         if (topic.stagedUpdate && mode === 'adult' && index === topic.tasks.length - 2) item.classList.add('print-keep-together');
@@ -774,6 +806,7 @@
           const ol = create('ol'); (task.explanation || task.criteria || []).forEach(step => appendText(ol, 'li', '', step)); item.append(ol);
         }
         section.append(item);
+        if (topic.stagedPrompt && mode === 'child' && index === 0 && !hideChildPromptContext) appendText(section, 'p', 'print-staged-source print-passage', topic.stagedPrompt.text);
         if (topic.stagedReading && mode === 'child' && index === 0 && !hideChildReadingSource) {
           appendText(section, 'p', 'print-staged-source print-passage', topic.stagedReading.text);
           if (topic.stagedReading.plan) {
@@ -850,6 +883,8 @@
         if (firstId && topic.stagedReading) {
           validMarkerIds.add(`${firstId}-text-gezeigt`);
           validMarkerIds.add(`${firstId}-update-gezeigt`);
+        } else if (firstId && topic.stagedPrompt) {
+          validMarkerIds.add(`${firstId}-kontext-gezeigt`);
         } else if (firstId && topic.stagedUpdate) validMarkerIds.add(`${firstId}-update-gezeigt`);
         for (const task of topic.tasks) if (task.helpAfterAttempt) {
           validMarkerIds.add(`${task.id}-hilfe-erstversuch`);

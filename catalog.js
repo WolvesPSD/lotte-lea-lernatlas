@@ -5275,6 +5275,67 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "fr-attend-kontextpruefen",
+      "subjectId": "fr",
+      "title": "Ein ähnliches Wort am Kontext prüfen",
+      "scope": "Freiwillige, gestützte Lese-Minikarte im Zielband 7/8 der zweiten Fremdsprache. Das unbekannte Wort wird erst vermutet und danach an einem kurzen eigens verfassten Kontext geprüft. Der Lehrplan setzt diese Strategie als Ziel bis Ende Klasse 8; die aktuelle Schulfolge und ein selbstständiger Transfer sind nicht belegt.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Du kannst auf Deutsch antworten. Das englische Vergleichswort ist hier erklärt; du brauchst keine Englisch-Vorkenntnisse. Wenn du die französische Bedeutung schon kennst, beschreibe trotzdem eine mögliche erste Vergleichsvermutung. Vier Kriterienpunkte sind Lernfeedback, keine Schulnote. Die App kann offene Antworten nicht automatisch bewerten.",
+      "introduction": "Das englische Wort „attend“ kann „an einer Veranstaltung teilnehmen“ bedeuten. Das französische Wort „attend“ sieht gleich aus. Welche erste Bedeutung könnte dir deshalb einfallen? Schreibe deine Vermutung auf, bevor du den kurzen französischen Text siehst. Deine erste Idee darf sich nach dem Lesen ändern.",
+      "stagedPrompt": {
+        "text": "ERFUNDENER KONTEXT · À 9 h 50, Lina attend devant la salle. La porte est fermée. L’atelier commence à 10 h."
+      },
+      "tasks": [
+        {
+          "id": "fr-attend-1",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "A · Erste Vermutung (1 Kriterienpunkt): Welche Bedeutung könnte das ähnlich geschriebene französische Wort zunächst haben? Begründe deine Vermutung mit dem englischen Vergleich. Den französischen Kontext siehst du danach.",
+          "sample": "Eine naheliegende erste Vermutung ist „teilnehmen“ oder „anwesend sein“, weil englisch „attend“ diese Bedeutung haben kann. Das ist eine Hypothese und wird noch nicht als endgültige französische Bedeutung gewertet.",
+          "criteria": [
+            "1 Punkt für eine nachvollziehbare Vermutung aus dem englischen Vergleich. Die spätere Korrektur der Erstidee zieht diesen Punkt nicht ab."
+          ]
+        },
+        {
+          "id": "fr-attend-2",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "B · Kontext prüfen (2 Kriterienpunkte): Was macht Lina um 9:50 wahrscheinlich? Nenne zwei verschiedene Angaben aus dem französischen Text und erkläre, wie sie zusammen deine Deutung stützen. Eine andere Deutung musst du ebenfalls mit dem Text begründen.",
+          "sample": "Lina wartet wahrscheinlich vor dem Raum. Sie steht „devant la salle“; die Tür ist noch geschlossen („La porte est fermée“). Auch der Beginn um 10 Uhr liegt zehn Minuten nach 9:50. Zwei davon zusammen stützen den Schluss; das französische „attend“ gehört hier zu „attendre“ = warten.",
+          "criteria": [
+            "1 Punkt für die passende Deutung von Linas Handlung als Warten.",
+            "1 Punkt für mindestens zwei verschiedene passende Textdetails, die mit dem Schluss verknüpft werden; bloßes Abschreiben ohne Erklärung reicht nicht. Eine sprachlich plausible andere Deutung wird von Erwachsenen anhand der Textbelege geprüft."
+          ]
+        },
+        {
+          "id": "fr-attend-3",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "C · Merksatz (1 Kriterienpunkt): Wann hilft dir ein ähnlich aussehendes Wort aus einer anderen Sprache, und was prüfst du danach? Schreibe einen kurzen Merksatz.",
+          "sample": "Ähnliche Wörter geben mir eine erste Vermutung. Ich prüfe sie am Satz und an der Situation, bevor ich die Bedeutung übernehme.",
+          "criteria": [
+            "1 Punkt für einen verständlichen Merksatz, der Wortähnlichkeit als Hinweis und den Kontext als anschließende Prüfung nennt. Gleichwertige Formulierungen gelten."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "Zweite Fremdsprache § 3.2.2, PDF-S. 60: unbekannte Wörter angeleitet durch Vergleich mit Deutsch und anderen Sprachen erschließen; Zielhorizont Ende Klasse 8. Die Schule bestimmt die Abfolge.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "fr-camille-geschichte-fortsetzen",
       "subjectId": "fr",
       "title": "Camille: une histoire à continuer",

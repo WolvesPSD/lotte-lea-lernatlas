@@ -1,0 +1,13 @@
+Monat;Kuestenort_Temperatur_C;Binnenort_Temperatur_C;Kuestenort_Niederschlag_mm;Binnenort_Niederschlag_mm
+Jan;4;-4;55;20
+Feb;5;-2;45;20
+Mrz;7;4;50;25
+Apr;10;11;55;30
+Mai;14;17;60;35
+Jun;17;22;65;40
+Jul;19;25;70;30
+Aug;19;24;70;25
+Sep;16;18;65;20
+Okt;12;10;60;20
+Nov;8;3;60;25
+Dez;5;-2;65;30

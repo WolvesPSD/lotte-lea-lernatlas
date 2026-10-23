@@ -8618,6 +8618,131 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "go-klima-vegetation-modell",
+      "subjectId": "go",
+      "title": "Klima und Pflanzen an zwei Modellorten",
+      "scope": "Freiwilliger, gestützter Klasse-7-Einstieg in einen engen Klima-/Vegetations-Methodenteil mit Zielmarke Ende Klasse 8. Die Geltung des Geografieplans von 2012 ist für 2026/27 ungeklärt; Lottes Schuleinheit ebenso.",
+      "levelStatus": "additional-unclear",
+      "released": true,
+      "prerequisite": "Die amtliche Geografie-Geltung 2026/27 ist ungeklärt. K und B sowie alle Zahlen sind erfunden, keine echten Klimamessungen. Du kannst die zwölf Zeilen im Text lesen oder die lösungsfreie CSV in Excel oder Calc öffnen. Es sind keine eigenen Ortsdaten nötig; freie Antworten prüft ein Mensch.",
+      "introduction": "Küstenort K liegt im erfundenen Modell 15 km vom Meer entfernt, Binnenort B 600 km. Beide liegen annähernd auf gleicher Breite und Höhe. Die Zahlen tun nur so, als seien sie nach derselben langen Mittelungsregel gebildet: Es gab keine Messorte und keine 30 echten Messjahre. Temperatur ist ein Monatsmittel in °C; Niederschlag ist eine mittlere Monatssumme in mm. Aus dem Muster darfst du vorsichtig mögliche Faktoren diskutieren, aber keinen wirklichen Ort oder eine Baumart bestimmen. 20 Hauptpunkte sind Lernfeedback, keine Schulnote.",
+      "lab": {
+        "path": "assets/go-klima-modell-tabelle.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/go-klima-modell-tabelle.html",
+        "title": "Modelltabelle als CSV herunterladen",
+        "description": "Die zwölf erfundenen Monatszeilen als lösungsfreie Semikolon-CSV für Excel oder Calc. Die Tabelle öffnet in einem neuen Tab; der Download bleibt auf deinem Gerät. Die Aufgaben lassen sich auch allein mit den Textzeilen lösen.",
+        "printNote": "Die gleichen Modellwerte stehen vollständig im Arbeitsblatt. CSV-Download und tatsächliche Tabellenbedienung müssen am Gerät beobachtet werden; eine eingetragene Antwort beweist sie nicht."
+      },
+      "passage": "FIKTIVE MODELLTABELLE · je Monat: K Temperatur °C / B Temperatur °C / K Niederschlag mm / B Niederschlag mm\nJan: 4 / −4 / 55 / 20\nFeb: 5 / −2 / 45 / 20\nMrz: 7 / 4 / 50 / 25\nApr: 10 / 11 / 55 / 30\nMai: 14 / 17 / 60 / 35\nJun: 17 / 22 / 65 / 40\nJul: 19 / 25 / 70 / 30\nAug: 19 / 24 / 70 / 25\nSep: 16 / 18 / 65 / 20\nOkt: 12 / 10 / 60 / 20\nNov: 8 / 3 / 60 / 25\nDez: 5 / −2 / 65 / 30\n\nWÖRTER · Temperaturspanne = größtes minus kleinstes Monatsmittel. Niederschlagssumme = die zwölf mittleren Monatssummen addieren. Maritimer Einfluss kann Temperaturunterschiede dämpfen; Kontinentalität bezeichnet eine stärkere Landprägung. Das ist ein möglicher Wirkweg, kein Ursachenbeweis für die erfundenen Zahlen.\n\nNASA-KARTE IN EIGENEN WORTEN · Pflanzen nehmen Wasser auf und geben einen Teil über Blätter als Wasserdampf ab. Diese Transpiration und Verdunstung benötigen Energie und können Pflanzen beziehungsweise bewachsene Oberflächen unter passenden Bedingungen kühlen. Die NASA-Erklärung beschreibt keinen gemessenen Niederschlagsanstieg an K oder B. Quelle: https://science.nasa.gov/science-research/earth-science/new-nasa-insights-into-the-secret-lives-of-plants/ (gelesen 23.10.2026). Copernicus erläutert 30-jährige Monatsmittel und CSV als Methode, liefert hier aber keinen K-/B-Wert: https://climate.copernicus.eu/era-explorer-app-global-climate-data-made-accessible-all (gelesen 23.10.2026).",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–E",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGE EINZELJAHR-KARTE NACH A–E · In einem einzigen erfundenen Jahr fallen bei B im Juli 80 mm statt 30 mm. Alle anderen Monate dieses einen Jahres seien rechnerisch gleich den Modellwerten. Prüfe Abweichung und Einzeljahrssumme. Ein Einzeljahr ist kein neuer langjähriger Klimawert."
+      },
+      "tasks": [
+        {
+          "id": "go-klima-1",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A · Temperaturen lesen (5 Hauptpunkte): Gib für K und B jeweils kältestes und wärmstes Monatsmittel mit Monat an; bei Gleichstand alle betreffenden Monate. Berechne beide Temperaturspannen. Welche Größe steht in mm? Warum bedeutet K-Juli 70 mm nicht 70 mm Regen an einem einzigen Tag?",
+          "sample": "K: 4 °C im Januar, 19 °C im Juli und August; Spanne 19 − 4 = 15 °C. B: −4 °C im Januar, 25 °C im Juli; Spanne 25 − (−4) = 29 °C. mm bezeichnet die mittlere Monats-Niederschlagssumme; 70 mm im Juli beschreibt keinen einzelnen Regentag.",
+          "criteria": [
+            "1 Punkt: K-Extrema mit Januar sowie Juli und August.",
+            "1 Punkt: K-Spanne 15 °C.",
+            "1 Punkt: B-Extrema mit Januar und Juli.",
+            "1 Punkt: B-Spanne 29 °C.",
+            "1 Punkt: mm als mittlere Monatssumme und Abgrenzung zum einzelnen Tag zusammen."
+          ]
+        },
+        {
+          "id": "go-klima-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Wasser über das Modelljahr (4 Hauptpunkte): Addiere für K und B die zwölf mittleren Monatssummen. Berechne den Unterschied und die Summen Juni–August für beide Orte. Was zeigen diese Zahlen über das Modell, und was gerade nicht über wirkliche Orte?",
+          "sample": "K: 720 mm, B: 320 mm, Unterschied 400 mm. Juni–August: K 65+70+70 = 205 mm, B 40+30+25 = 95 mm. Das sind Summen aus fiktiven mittleren Monatswerten; sie belegen keine realen Jahresmessungen oder Pflanzen-Wasserverfügbarkeit.",
+          "criteria": [
+            "1 Punkt: K 720 mm.",
+            "1 Punkt: B 320 mm.",
+            "0,5 Punkt: Unterschied 400 mm.",
+            "Je 0,5 Punkt: K-Juni–August 205 mm und B-Juni–August 95 mm.",
+            "0,5 Punkt: Modellwert gegen echte Beobachtung abgegrenzt."
+          ]
+        },
+        {
+          "id": "go-klima-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C · Meeresnähe vorsichtig deuten (4 Hauptpunkte): Welcher Modellort passt eher zu einem typischen temperaturdämpfenden Meereseinfluss? Nutze beide Entfernungen und Spannen. Nenne zwei andere örtliche Faktoren oder Angaben für eine echte Ursacheprüfung. Warum beweist die Entfernung allein den höheren Niederschlag bei K nicht?",
+          "sample": "K passt eher zu einem maritimen Muster: 15 km zum Meer und 15 °C Spanne gegenüber B mit 600 km und 29 °C. Für einen echten Ursachenschluss wären etwa vorherrschende Winde/Luftmassen und Gebirge oder Höhenlage zu prüfen. Die Entfernung allein erklärt die erfundenen Niederschlagswerte nicht eindeutig.",
+          "criteria": [
+            "2 Punkte: vorsichtige Zuordnung K mit beiden Entfernungen und beiden Spannen.",
+            "1 Punkt: zwei verschiedene zusätzliche Faktoren oder Ortsangaben.",
+            "1 Punkt: Entfernung allein ist kein Beweis für die höhere K-Niederschlagssumme."
+          ]
+        },
+        {
+          "id": "go-klima-4",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 12,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "D · Klima und Pflanzen (5 Hauptpunkte): Formuliere mit den Tabellenzahlen eine vorsichtige Aussage zum möglichen Wasserangebot für Pflanzen. Nenne zwei weitere Bedingungen für tatsächliche Vegetation. Erkläre mit der NASA-Karte einen Wirkweg, wie Pflanzen Wasser an die Luft abgeben und dabei den Energiehaushalt beeinflussen können. Warum folgen aus der Tabelle weder eine genaue Baumart oder Vegetationszone noch eine Regenänderung durch Bäume?",
+          "sample": "K hat im Modell 720 mm, B 320 mm. Bei sonst geeigneten Bedingungen könnte K mehr Wasser für Pflanzen bieten; Boden und Wasserhaushalt fehlen. Zwei weitere Bedingungen wären z. B. Boden/Wasserspeicherung und Hanglage. Pflanzen nehmen Wasser auf und geben es über Blätter als Wasserdampf ab; Verdunstung benötigt Energie und kann kühlen. Weder Baumart/Zone noch geänderter Regen durch Bäume sind aus der Tabelle belegt.",
+          "criteria": [
+            "1 Punkt: vorsichtiger Zahlenbezug K/B und mögliches Wasserangebot.",
+            "Je 0,5 Punkt: zwei verschiedene weitere Vegetationsbedingungen.",
+            "1 Punkt: Wasseraufnahme und Abgabe über Blätter als Wasserdampf.",
+            "1 Punkt: Verdunstung braucht Energie und kann kühlen.",
+            "1 Punkt: sowohl Baumart/Zone als auch Regenrückwirkung ausdrücklich als unbelegt erkannt."
+          ]
+        },
+        {
+          "id": "go-klima-5",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "E · Herkunft prüfen (2 Hauptpunkte): Eine erfundene Videokarte sagt: „Copernicus hat für den echten Ort K genau diese Jahressumme gemessen; daher ist K heute sicher eine bestimmte Waldzone.“ Prüfe beide Satzteile mit Herkunft und Reichweite der Modellkarte. Welche reale Quelle wäre für die erste Frage nötig?",
+          "sample": "K ist erfunden; Copernicus hat dafür keine Jahressumme gemessen. Für einen wirklichen Ort wären verifizierte Stations- oder Gitterdaten mit Ort, Zeitraum, Einheit und Methode nötig. Auch echte Temperatur- und Niederschlagswerte allein bestimmen keine sichere Waldzone; Boden, Wasserhaushalt, Nutzung und reale Vegetationsbeobachtung fehlen.",
+          "criteria": [
+            "1 Punkt: Modellherkunft erkannt und passende reale Mess- oder Gitterquelle mit Ort/Zeitraum/Einheit/Methode benannt.",
+            "1 Punkt: Waldzone aus dieser Tabelle nicht sicher bestimmbar; weitere Orts-/Vegetationsbelege fehlen."
+          ]
+        },
+        {
+          "id": "go-klima-6",
+          "kind": "reflection",
+          "points": 0,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Einzeljahr-Karte nach A–E · ohne Hauptpunkte: B-Juli hat in einem einzelnen Modelljahr 80 statt 30 mm. Berechne die Abweichung und die Summe dieses einen Modelljahres, wenn alle anderen Monate rechnerisch gleich bleiben. Beweist das feuchteres Klima als K, einen Trend oder sicher Wald? Begründe mit den verschiedenen Zeitbezügen.",
+          "sample": "80 − 30 = +50 mm; 320 − 30 + 80 = 370 mm im einen Modelljahr. K 720 mm ist dagegen eine erfundene länger gemittelte Modellsumme. Ein Einzeljahr belegt weder dauerhaft feuchteres Klima noch Trend oder sichere Waldzone; dafür wären mehrere reale Jahre und Orts-/Vegetationsbelege nötig.",
+          "criteria": [
+            "Unbepunkteter Transfer: +50 mm, 370 mm, Einzeljahr gegen langjähriges Modellmittel getrennt und keine reale Vegetationsfolgerung. Nicht zu den 20 Hauptpunkten addieren."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2012er Fachplan belegt; 2026/27 ungeklärt",
+        "gradeBand": "7/8, Ziel Ende Klasse 8",
+        "competencyRef": "Geografie Gymnasium, Titeljahr 2012, §2.2 PDF-S. 14 / Drucks. 16: klimabestimmende Faktoren und Wechselwirkungen zwischen Klima und Vegetation als Ziel bis Ende Klasse 8. Geltung 2026/27 und Schulfolge offen.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "go-gradnetz-modellorte",
       "subjectId": "go",
       "title": "Orte im erfundenen Gradnetz finden",

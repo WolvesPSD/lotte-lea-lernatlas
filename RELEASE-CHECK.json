@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-23T04:19:08.100Z",
-  "releaseVersion": "2026.10.23-debrief.1",
+  "builtAt": "2026-10-23T04:38:59.099Z",
+  "releaseVersion": "2026.10.23-g01klima.1",
   "newTopicIds": [
-    "de-brief-papierstern"
+    "go-klima-vegetation-modell"
   ],
   "changeLog": [
-    "Deutsch: Ein freiwilliger 7/8-Fall lässt aus zwei fiktiven Mitteilungen einen höflichen offiziellen Anfragebrief planen, schreiben und überarbeiten.",
-    "Die Einleitung nimmt die Quellenfolgerung nicht vorweg; Musterbrief und Kriterien erscheinen nur im Erwachsenenbereich. Es wird nichts verschickt."
+    "Geografie: Ein freiwilliger Klima- und Vegetationsfall arbeitet mit zwölf Monaten vollständig erfundener Modellwerte und fünf Hauptaufgaben.",
+    "Eine lösungsfreie CSV für Excel oder Calc ergänzt die vollständigen Textwerte. Die Einzeljahr-Karte wird erst nach A–E sichtbar; die ältere Lehrplangeltung 2026/27 bleibt als ungeklärt gekennzeichnet."
   ],
-  "rollbackCommit": "56afa17d9e4828c253c0917a26ecbc060e391793",
+  "rollbackCommit": "5bd354bd580a28a6f317aa1915d0f3e16762672d",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -109,6 +109,7 @@
     "ma-schraegbild-darstellungen",
     "et-jugendrat-budgetwerte",
     "et-jugendhaus-doppeltermin",
+    "go-klima-vegetation-modell",
     "go-gradnetz-modellorte",
     "go-drei-gesteinswege",
     "ge-toledo-uebersetzungsquellen",
@@ -162,6 +163,7 @@
   "unclearValidityTopics": [
     "et-jugendrat-budgetwerte",
     "et-jugendhaus-doppeltermin",
+    "go-klima-vegetation-modell",
     "go-gradnetz-modellorte",
     "go-drei-gesteinswege",
     "ge-toledo-uebersetzungsquellen",

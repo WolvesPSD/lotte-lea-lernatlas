@@ -1,12 +1,14 @@
 {
-  "builtAt": "2026-10-23T09:49:05.987Z",
-  "releaseVersion": "2026.10.23-prismapraxis.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Mathematik: Die bestehende freiwillige Prisma-Box enthält nun fünf Schritte zum tatsächlichen Zeichnen, Ausschneiden, Falten und Prüfen eines Papiermodells.",
-    "Die praktische Bauaufgabe ist unbepunktet. Kinderdruck und getrennter Erwachsenenbeobachtungsbogen sagen klar, dass App-Texte keine Papierzeichnung oder Modellanfertigung belegen."
+  "builtAt": "2026-10-23T10:02:56.333Z",
+  "releaseVersion": "2026.10.23-mbirechte.1",
+  "newTopicIds": [
+    "mbi-rechte-vor-weitergabe"
   ],
-  "rollbackCommit": "803927587f29525cd226836c1434681032476f6a",
+  "changeLog": [
+    "MBI: neuer freiwilliger 7/8-Fall mit vier getrennten Fragen zu Urheberschaft, Nutzungsrecht, Bildnis und personenbezogenen Angaben am rein erfundenen Plakat.",
+    "A–D haben 20 Hauptpunkte; die sechs Zusatzpunkte erscheinen erst danach. Amtliche Quelllinks, lösungsfreier Kinderdruck und getrennte Erwachsenenlösung. Keine echte Veröffentlichung oder Rechtsfreigabe."
+  ],
+  "rollbackCommit": "1ac7faebd0b502802d29476f013682125c107fc8",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -94,6 +96,7 @@
     "de-innerer-monolog-projekttisch",
     "mbi-lesepause-medienwerkstatt",
     "mbi-publikationswege-quellenkarten",
+    "mbi-rechte-vor-weitergabe",
     "mbi-simunet-datensparsam",
     "mbi-luefterregler-gestalten",
     "mbi-blockprogramm-regler",

@@ -7587,6 +7587,143 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-rechte-vor-weitergabe",
+      "subjectId": "mbi",
+      "title": "Vier Fragen vor einer gedachten Weitergabe",
+      "scope": "Freiwilliger, gestützter 7/8-Einstieg: bekannte Regeln zu Urheberrecht, Nutzung, Bildnis und Datenschutz erläutern. Der MBI-Lehrplan gilt für Klasse 7 ab 2026/27; § 2.2.2 markiert das Ziel für Ende Klasse 8. Lottes aktuelle Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Alles am Plakat ist erfunden. Suche keine echten Bilder und gib keine eigenen oder fremden persönlichen Angaben ein. Erstelle keine Website und veröffentliche nichts. Die vier Rechtsfragen werden als Lernmodell getrennt, nicht als Freigabe für einen echten Fall. Zwanzig Haupt- und sechs freiwillige Zusatzpunkte sind Lernfeedback, keine Schulnote; offene Antworten brauchen menschliche Prüfung.",
+      "introduction": "Eine erfundene Schülergruppe plant ein Plakat für eine ebenfalls erfundene Bastelwerkstatt. Es soll vielleicht auf einer öffentlichen Website stehen. Du triffst keine echte Veröffentlichungsentscheidung, sondern prüfst vier Fragen getrennt. Die Gesetzeskarten fassen nur kleine Teile amtlicher Regeln in eigenen Worten zusammen. Für echte Fälle bräuchte man weitere Fakten und zuständige Erwachsene. Die spätere Karte ändert nur einige Elemente des gedachten Plakats.",
+      "sourceCards": [
+        {
+          "title": "Karte U · Werk und Urheberschaft",
+          "text": "Ein selbst formulierter Text und ein fremdes Fundbild sind zwei verschiedene Werke. Urheberinnen und Urheber bestimmen grundsätzlich über Veröffentlichung und haben ein Recht auf Anerkennung. Der Name am Bild beantwortet aber noch nicht, ob die Gruppe es verwenden darf.",
+          "sourceLabel": "Urheberrechtsgesetz §§ 12–13 · amtlicher Text",
+          "sourceUrl": "https://www.gesetze-im-internet.de/urhg/__13.html",
+          "sourceNote": "Eigene kurze Paraphrase; § 12 zum Veröffentlichungsrecht steht im selben Gesetz."
+        },
+        {
+          "title": "Karte N · Erlaubte Nutzung",
+          "text": "Ein Nutzungsrecht kann für bestimmte Nutzungsarten eingeräumt und räumlich, zeitlich oder inhaltlich begrenzt sein. Ein gespeichertes Suchergebnis beweist weder die berechtigte Rechtevergabe noch eine Erlaubnis für eine öffentliche Website.",
+          "sourceLabel": "Urheberrechtsgesetz § 31 · amtlicher Text",
+          "sourceUrl": "https://www.gesetze-im-internet.de/urhg/__31.html",
+          "sourceNote": "Eigene kurze Paraphrase; konkrete Lizenz, Quelle und Reichweite fehlen im erfundenen Fall."
+        },
+        {
+          "title": "Karte B · Erkennbare Person",
+          "text": "Für das Verbreiten oder öffentliche Zeigen eines Bildnisses braucht es grundsätzlich die Einwilligung der abgebildeten Person. Das Gesetz nennt auch Ausnahmen, die diese Übung nicht entscheidet. Urheberrecht am Foto und die Frage zur abgebildeten Person sind getrennt zu prüfen.",
+          "sourceLabel": "KunstUrhG §§ 22–23 · amtlicher Text",
+          "sourceUrl": "https://www.gesetze-im-internet.de/kunsturhg/BJNR000070907.html",
+          "sourceNote": "Eigene kurze Paraphrase; bei einem echten Kind sind zusätzliche Personen- und Schulfragen zu klären."
+        },
+        {
+          "title": "Karte D · Persönliche Angaben",
+          "text": "Personenbezogene Angaben müssen einem festgelegten Zweck dienen und auf das dafür Nötige begrenzt sein. Für eine echte Verarbeitung braucht es eine passende Rechtsgrundlage; Einwilligung ist nicht automatisch die einzige. Diese Karte nennt keine konkrete Schulregel.",
+          "sourceLabel": "EU-Datenschutz-Grundverordnung Art. 5–6 · amtlicher Text",
+          "sourceUrl": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679",
+          "sourceNote": "Eigene kurze Paraphrase; Verantwortung und Rechtsgrundlage sind im erfundenen Fall nicht geklärt."
+        }
+      ],
+      "passage": "FIKTIVER PLAKATENTWURF · Eine Schülergruppe schreibt selbst einen Einladungstext für eine erfundene Bastelwerkstatt. Daneben steht ein Bild aus einer Bildersuche; die Bildseite ist nicht mehr auffindbar. Ein weiteres Foto zeigt eine erfundene Mitschülerin erkennbar; eine Zustimmung zur öffentlichen Verwendung ist nicht dokumentiert. Im Entwurf stehen ausserdem der vollständige Name, eine private Handynummer und die genaue Wohnadresse eines erfundenen Gruppenmitglieds. Diese Angaben sind nur Platzhalter, keine echten Werte. Für die Werkstatt ist keine Anmeldung nötig. Es wird nichts veröffentlicht.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGE SPÄTERE ÄNDERUNG NACH A–D · Nur das Bild aus der Bildersuche wird durch eine selbst gezeichnete Grafik ohne Personen ersetzt. Das erkennbare Foto der erfundenen Mitschülerin bleibt vorerst im Entwurf; Handynummer und Wohnadresse werden entfernt. Statt einer öffentlichen Website möchte die Gruppe das Plakat nur gedruckt im Gruppenraum zeigen. Es wird auch jetzt nichts wirklich gedruckt, verteilt oder veröffentlicht."
+      },
+      "tasks": [
+        {
+          "id": "mbi-rechte-1",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A · Werk und Herkunft (5 Hauptpunkte): Unterscheide den selbst geschriebenen Text und das gefundene Bild. Was weiss die Gruppe über die Urheberschaft des Fundbilds, was nicht? Warum ist „in der Bildersuche gefunden“ keine Erlaubnis? Nenne eine sichere Änderung des Entwurfs.",
+          "sample": "Der Text wurde im Modell von der Gruppe selbst formuliert; die Urheberschaft des Fundbilds ist unbekannt. Ein Suchergebnis zeigt eine Datei, aber keine Nutzungserlaubnis. Die Gruppe kann das Fundbild weglassen oder durch eine selbst erstellte, nicht personenbezogene Grafik ersetzen. Auch dann müssen die anderen Plakatbestandteile getrennt geprüft werden.",
+          "criteria": [
+            "2 Punkte: eigenen Text und fremdes Fundbild getrennt zugeordnet.",
+            "1 Punkt: Urheberschaft des Fundbilds als unbekannt benannt.",
+            "1 Punkt: Bildersuche nicht als Nutzungserlaubnis behandelt.",
+            "1 Punkt: Fundbild weglassen oder geeignet selbst ersetzen, ohne das ganze Plakat pauschal freizugeben."
+          ]
+        },
+        {
+          "id": "mbi-rechte-2",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Nutzungserlaubnis (5 Hauptpunkte): Welche Erlaubnis für das Fundbild fehlt? Formuliere zwei konkrete Fragen an eine mögliche Lizenz, zum Beispiel zu Medium, Zweck, Bearbeitung oder Dauer. Erkläre, warum eine Urheberangabe und eine Nutzungserlaubnis nicht dieselbe Frage sind. Was folgt aus den fehlenden Fakten?",
+          "sample": "Es fehlt ein belegtes Recht, das Bild auf einer öffentlichen Website zu nutzen. Ich müsste etwa fragen: Ist öffentliches Online-Zeigen erlaubt? Darf das Bild bearbeitet werden und wie lange gilt die Erlaubnis? Eine Namensnennung erkennt Urheberschaft an, gewährt aber noch kein Nutzungsrecht. Ohne belegte Erlaubnis bleibt das Fundbild aus dem Entwurf für die Website draussen.",
+          "criteria": [
+            "1 Punkt: fehlende belegte Nutzungserlaubnis erkannt.",
+            "2 Punkte: zwei passende und verschiedene Lizenz-/Erlaubnisfragen, je 1.",
+            "1 Punkt: Urheberangabe und Nutzungserlaubnis getrennt.",
+            "1 Punkt: Schluss an fehlende Fakten gebunden; kein pauschales Rechtsurteil."
+          ]
+        },
+        {
+          "id": "mbi-rechte-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C · Abgebildete Person (5 Hauptpunkte): Das zweite Foto zeigt die erfundene Mitschülerin erkennbar. Welche Frage zu ihr ist neben den Rechten am Foto offen? Was müsste vor einem öffentlichen Zeigen geklärt werden? Nenne eine Variante ohne das Foto. Triff keine Entscheidung über gesetzliche Ausnahmen.",
+          "sample": "Neben der Urheber- und Nutzungserlaubnis zum Foto ist zu klären, ob die erkennbare Person bei öffentlicher Verwendung einverstanden ist und welche weiteren Regeln für ein Kind gelten. Im Fall ist keine Zustimmung dokumentiert. Für den Entwurf könnte die Gruppe das Foto weglassen und eine eigene Grafik ohne erkennbare Personen verwenden. Über eine Ausnahme oder echte Freigabe lässt die Karte keinen Schluss zu.",
+          "criteria": [
+            "2 Punkte: Bildnis der Person und Rechte am Foto als getrennte Fragen benannt.",
+            "1 Punkt: nicht dokumentierte Zustimmung als offene Frage erkannt.",
+            "1 Punkt: konkrete foto-freie Alternative.",
+            "1 Punkt: keine pauschale Ausnahme oder echte Rechtsfreigabe behauptet."
+          ]
+        },
+        {
+          "id": "mbi-rechte-4",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "D · Persönliche Angaben (5 Hauptpunkte): Nenne die drei persönlichen Angaben im Entwurf. Welche davon braucht diese Werkstatt ohne Anmeldung für ihren Zweck? Schreibe eine sparsamere Ersatzfassung. Welche Zuständigkeits- oder Schulfrage müsste vor einer echten Veröffentlichung noch geklärt werden?",
+          "sample": "Vollständiger Name, private Handynummer und genaue Wohnadresse sind persönliche Angaben. Für die erfundene Werkstatt ohne Anmeldung werden sie nach dem beschriebenen Zweck nicht gebraucht. Ersatz: „Bastelwerkstatt im Gruppenraum; komm einfach vorbei“ mit nur den passenden fiktiven Zeit- und Raumangaben. Vor einer echten Veröffentlichung müssten zuständige Erwachsene und Schule klären, wer verantwortlich ist, welche Angaben überhaupt verwendet werden dürfen und welche Regeln gelten.",
+          "criteria": [
+            "2 Punkte: alle drei Angaben erkannt; zwei richtige höchstens 1 Punkt.",
+            "1 Punkt: Zweckbezug und unnötigen Umfang erklärt.",
+            "1 Punkt: sparsame Ersatzfassung ohne persönliche Daten.",
+            "1 Punkt: konkrete offene Zuständigkeits-, Rechtsgrundlagen- oder Schulfrage."
+          ]
+        },
+        {
+          "id": "mbi-rechte-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 12,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Änderung nach A–D · sechs getrennte Zusatzpunkte: Vergleiche ursprüngliches und geändertes Plakat. Welche Rechtsfrage wird durch die eigene Grafik kleiner? Welche Frage zum verbliebenen Foto bleibt? Was ändert das Entfernen von Telefon und Adresse? Was folgt aus der kleineren, gedruckten Reichweite nicht automatisch? Benenne eine offene Tatsache und ordne die vier Prüfbereiche neu zu.",
+          "sample": "Das unbekannte Fundbild ist entfernt; für die selbst gezeichnete Grafik fällt seine konkrete Fremdbild-Lizenzfrage weg. Das erkennbare Foto bleibt, also bleibt die Frage zur abgebildeten Person und zu den Rechten an diesem Foto offen. Telefon und Adresse sind entfernt; verbleibende personenbezogene Angaben wie der volle Name müssen weiter nach Zweck geprüft werden. Druck im Gruppenraum hat eine kleinere Reichweite als eine öffentliche Website, ist aber keine automatische Erlaubnis. Offen sind zum Beispiel Zustimmung, Foto-Rechte oder Schulregeln. Werk/Urheber, Nutzung, Bildnis und Daten müssen passend neu geprüft werden.",
+          "criteria": [
+            "1 Zusatzpunkt: Fundbild durch eigene Grafik ersetzt und konkrete Fremdbildfrage passend eingegrenzt.",
+            "1 Zusatzpunkt: verbliebenes Personenfoto und Bildnisfrage erkannt.",
+            "1 Zusatzpunkt: entfernte Telefon-/Adressdaten und weiterhin zu prüfende Restdaten unterschieden.",
+            "1 Zusatzpunkt: kleinere Druckreichweite nicht als pauschale Freigabe behandelt.",
+            "1 Zusatzpunkt: eine echte offene Tatsache benannt.",
+            "1 Zusatzpunkt: vier Prüfbereiche im geänderten Fall sinnvoll neu zugeordnet. Zusatzpunkte getrennt ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: MBI für Klasse 7 ab 2026/27. § 2.2.2 PDF-S. 24–25: bekannte Regeln zu Urheberrecht, Datenschutz, Recht am eigenen Bild und Nutzungsrechten erläutern; Zielmarke Klassenstufe 8.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "mbi-simunet-datensparsam",
       "subjectId": "mbi",
       "title": "SimuNet: Daten sparsam auswählen",

@@ -684,6 +684,10 @@
       const topic = topicById.get(id); const section = create('section', 'print-topic');
       const hideChildUpdate = mode === 'child' && topic.stagedUpdate?.childPrintAfterUnlock === true
         && state.answers[`${topic.tasks[0].id}-update-gezeigt`] !== 'ja';
+      const hideChildReadingSource = mode === 'child' && topic.stagedReading
+        && state.answers[`${topic.tasks[0].id}-text-gezeigt`] !== 'ja';
+      const hideChildReadingUpdate = mode === 'child' && topic.stagedReading
+        && state.answers[`${topic.tasks[0].id}-update-gezeigt`] !== 'ja';
       appendText(section, 'h2', '', `${subjectById.get(topic.subjectId).name} · ${topic.title}`);
       appendText(section, 'p', 'print-level', levelLabel(topic));
       if (topic.prerequisite) appendText(section, 'p', 'print-context', topic.prerequisite);
@@ -698,7 +702,11 @@
           section.append(figure);
         }
       }
-      if (topic.stagedReading && mode === 'child') appendText(section, 'p', 'print-context', 'Druckfolge: Seite mit Titel und Vermutung zuerst bearbeiten. Die folgende Textseite erst danach ansehen; den Änderungstext erst nach den Hauptaufgaben ansehen. Eine bedruckte Seite allein beweist diese Reihenfolge nicht.');
+      if (topic.stagedReading && mode === 'child') appendText(section, 'p', 'print-context', hideChildReadingSource
+        ? 'Druckfolge: Hier ist zuerst nur die Titelvermutung. Aushang und Plan werden nach ihrem Festhalten im Übungsraum zum Druck freigegeben.'
+        : hideChildReadingUpdate
+          ? 'Druckfolge: Zuerst die Titelvermutung, danach Aushang, Plan und Hauptaufgaben bearbeiten. Die Änderung wird erst nach dem Festhalten der Hauptantworten zum Druck freigegeben.'
+          : 'Druckfolge: Seite mit Titel und Vermutung zuerst bearbeiten. Die folgende Textseite erst danach ansehen; den Änderungstext erst nach den Hauptaufgaben ansehen. Eine bedruckte Seite allein beweist diese Reihenfolge nicht.');
       if (topic.stagedUpdate && mode === 'child') appendText(section, 'p', 'print-context', hideChildUpdate
         ? `Druckfolge: Zuerst die Hauptaufgaben ${topic.stagedUpdate.mainLabel || 'A–C'} bearbeiten. Die Zusatzseite wird nach dem Festhalten dieser Antworten im Übungsraum freigegeben.`
         : `Druckfolge: Zuerst die Hauptaufgaben ${topic.stagedUpdate.mainLabel || 'A–C'} auf den ersten Seiten bearbeiten. Die spätere ${topic.stagedUpdate.kind === 'variant' ? 'Variante' : 'Korrektur'} auf der Zusatzseite erst danach ansehen. Papier allein beweist diese Reihenfolge nicht.`);
@@ -743,6 +751,8 @@
       }
       for (const [index, task] of topic.tasks.entries()) {
         if (hideChildUpdate && index === topic.tasks.length - 1) continue;
+        if (hideChildReadingSource && index > 0) continue;
+        if (hideChildReadingUpdate && index === topic.tasks.length - 1) continue;
         const item = create('div', 'print-task'); item.dataset.taskId = task.id;
         if (topic.stagedUpdate && mode === 'adult' && index === topic.tasks.length - 2) item.classList.add('print-keep-together');
         appendText(item, 'h3', '', `${index + 1}. ${task.prompt}`);
@@ -759,7 +769,7 @@
           const ol = create('ol'); (task.explanation || task.criteria || []).forEach(step => appendText(ol, 'li', '', step)); item.append(ol);
         }
         section.append(item);
-        if (topic.stagedReading && mode === 'child' && index === 0) {
+        if (topic.stagedReading && mode === 'child' && index === 0 && !hideChildReadingSource) {
           appendText(section, 'p', 'print-staged-source print-passage', topic.stagedReading.text);
           if (topic.stagedReading.plan) {
             const figure = create('figure', 'print-diagram');
@@ -768,7 +778,7 @@
             section.append(figure);
           }
         }
-        if (topic.stagedReading && index === topic.tasks.length - 2) {
+        if (topic.stagedReading && index === topic.tasks.length - 2 && !hideChildReadingUpdate) {
           appendText(section, 'p', mode === 'child' ? 'print-staged-update print-passage' : 'print-passage', topic.stagedReading.updateText);
         }
         if (topic.stagedUpdate && index === topic.tasks.length - 2 && !hideChildUpdate) {

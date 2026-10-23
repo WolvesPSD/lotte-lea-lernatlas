@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 250" role="img" aria-labelledby="title desc">
+  <title id="title">Vereinfachter Plan der fiktiven Mediathek</title>
+  <desc id="desc">Von Entrée führt der Weg zu Accueil. Rechts davon liegt Salle A, unter Accueil liegt Salle B. Kein Raum ist markiert.</desc>
+  <rect x="1" y="1" width="638" height="248" rx="16" fill="#faf8f2" stroke="#657971" stroke-width="2"/>
+  <path d="M 153 90 H 248 M 390 90 H 470 M 320 126 V 174" fill="none" stroke="#496961" stroke-width="7" stroke-linecap="round"/>
+  <rect x="30" y="51" width="124" height="77" rx="12" fill="#e6f2ec" stroke="#29675e" stroke-width="2"/>
+  <rect x="248" y="51" width="144" height="77" rx="12" fill="#e6f2ec" stroke="#29675e" stroke-width="2"/>
+  <rect x="470" y="51" width="142" height="77" rx="12" fill="#eef0fa" stroke="#555d88" stroke-width="2"/>
+  <rect x="249" y="174" width="142" height="57" rx="12" fill="#eef0fa" stroke="#555d88" stroke-width="2"/>
+  <g fill="#183b35" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">
+    <text x="92" y="98">Entrée</text>
+    <text x="320" y="98">Accueil</text>
+    <text x="541" y="98">Salle A</text>
+    <text x="320" y="210">Salle B</text>
+  </g>
+</svg>

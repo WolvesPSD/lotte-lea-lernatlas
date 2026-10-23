@@ -1,12 +1,14 @@
 {
-  "builtAt": "2026-10-23T00:05:47.627Z",
-  "releaseVersion": "2026.10.23-dr1formhilfe.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Deutsch D-R1: Die konkreten Konjunktivformen erscheinen erst als freiwillige Hilfe nach einem eingetragenen Erstversuch; Musterlösungen bleiben im Erwachsenenbereich.",
-    "Freiwilliger Lesetische-Transfer nach vier Hauptantworten mit sechs getrennten Kriterienpunkten; gestufte Ansichten und Hilfeeinsatz bleiben nun auch nach Export und Import erhalten."
+  "builtAt": "2026-10-23T00:15:39.547Z",
+  "releaseVersion": "2026.10.23-frlaushang.1",
+  "newTopicIds": [
+    "fr-cartes-postales-aushang"
   ],
-  "rollbackCommit": "6eafa68d71eb6c03e925ea75cb2da406c6354ce9",
+  "changeLog": [
+    "Französisch FR-L: Fiktiven Aushang mit unmarkiertem Plan und Titelvermutung als freiwilligen, gestützten Klasse-7-Einstieg ergänzt.",
+    "Die Raumänderung folgt erst nach den Hauptantworten; Papiermarkierung und genaue Textanweisung bleiben als unterschiedliche Nachweise gekennzeichnet."
+  ],
+  "rollbackCommit": "c641176cb3792a8d522b56970b5f226077e1fd44",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -43,6 +45,7 @@
     "ma-zufall-80-versuche",
     "de-sprachreflexion-bericht",
     "en-sprachreflexion-lesewerkstatt",
+    "fr-cartes-postales-aushang",
     "fr-sprachreflexion-einladung",
     "fr-reponse-elodie",
     "de-inhaltsangabe-wegkarte",

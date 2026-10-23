@@ -1,4 +1,4 @@
-// Nur fachlich freigegebene Themen; interne Prüfaufgaben und lokale Quellenpfade sind ausgeschlossen.
+// Nur intern geprüfte Themen; nicht freigegebene Prüfaufgaben und lokale Quellenpfade sind ausgeschlossen.
 window.LOTTE_CATALOG = Object.freeze({
   "version": 1,
   "status": "familienversion",
@@ -3262,6 +3262,167 @@ window.LOTTE_CATALOG = Object.freeze({
         "gradeBand": "8",
         "competencyRef": "Erste Fremdsprache: Inhaltsverzeichnis PDF-S. 4; Inkraftsetzung S. 2: Klasse 8 ab 2027/28. § 2.2.6 S. 31–32, ausdrücklich Klassenstufe 8: Sprachvergleich und false friends, angeleitete Fehlerkorrektur, Anrede- und Höflichkeitsformen, Adressatenorientierung sowie Wörterbuchstrategien. § 2.2 S. 25: A2/punktuell B1 als Ziel erst am Ende der Klasse 8.",
         "checkedAt": "2026-10-21"
+      }
+    },
+    {
+      "id": "fr-cartes-postales-aushang",
+      "subjectId": "fr",
+      "title": "Un atelier de cartes postales: Aushang und Plan",
+      "scope": "Freiwilliger gestützter Klasse-7-Einstieg in den gültigen Französisch-Lesebereich 7/8: Aushang, Wegplan, Titelvermutung, Quellennotizen und Kontextschluss. Wahrscheinlich zweite Fremdsprache nach Englisch; konkrete Schullaufbahn und aktuelle Einheit offen. Ende-8-Ziel, keine volle FR-L-Abdeckung.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Kurze französische Angaben zu Ort, Zeit und Anmeldung genügen. Wortstützen erscheinen erst mit dem fiktiven Aushang. Du kannst den Plan drucken oder abzeichnen. Ohne Papier beschreibst du deine Handlung am Plan im Textfeld mit Tastatur oder Spracheingabe; die App sieht eine Papierzeichnung nicht.",
+      "introduction": "Sieh zuerst nur den Titel „Un atelier de cartes postales“ und schreibe eine Vermutung in Aufgabe 1. Danach schaltest du Aushang und Plan frei; deine Vermutung wird im Browser festgehalten. Bearbeite die Hauptaufgaben mit P-Zeilen. Bei der französischen Plananweisung kannst du deine Handlung auf Papier ausführen oder genau im Textfeld beschreiben; notiere verwendete Hilfe ehrlich. Die spätere U1/U2-Änderung erscheint erst nach dem Festhalten der Hauptantworten. 20 Haupt- plus 6 getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "stagedReading": {
+        "title": "Un atelier de cartes postales",
+        "optionalMainTaskIds": [
+          "fr-cartes-4"
+        ],
+        "text": "UN ATELIER DE CARTES POSTALES · FIKTIVER AUSHANG\nP1 Samedi 14 novembre 2026, la médiathèque organise un atelier pour dessiner des cartes postales.\nP2 L'atelier commence à 10 h dans la salle B et se termine à 11 h.\nP3 L'atelier est gratuit : tu ne paies rien. Apporte seulement un crayon ; le papier est sur place.\nP4 Pour participer, inscris-toi à l'accueil avant 17 h le jeudi 12 novembre.\nP5 Tu peux venir avec un ami, mais chaque personne doit s'inscrire.\n\nWortstütze bei Bedarf: médiathèque = Mediathek/Bibliothek; atelier = Workshop; carte postale = Postkarte; salle = Raum; accueil = Empfang; crayon = Stift; s'inscrire / inscris-toi = sich anmelden / melde dich an. Erschließe gratuit zuerst aus P3; avant bleibt zum eigenen Lesen offen. Wörterbuch erst nach deinem Versuch. Eine sinngemäße Antwort auf Deutsch genügt für das Leseverständnis.",
+        "plan": {
+          "path": "assets/fr-cartes-postales-plan.svg",
+          "alt": "Vereinfachter Wegplan: Entrée links, Accueil in der Mitte, Salle A rechts vom Accueil, Salle B unter dem Accueil. Noch kein Ort markiert.",
+          "caption": "Fiktiver Plan der Mediathek. Nutze für die französische Anweisung einen Ausdruck oder deine Abschrift. Ohne Papier beschreibe genau, was du an welchem Ort tun würdest. Für die Zusatzaufgabe nutze einen zweiten Plan oder eine neue Textbeschreibung."
+        },
+        "updateText": "SPÄTERE FIKTIVE ÄNDERUNG · NUR FÜR DIE FREIWILLIGE ZUSATZAUFGABE\nU1 Samedi, la salle B est fermée. L'atelier a lieu dans la salle A, de 10 h à 11 h.\nU2 L'inscription à l'accueil avant 17 h le jeudi 12 novembre est toujours nécessaire."
+      },
+      "tasks": [
+        {
+          "id": "fr-cartes-1",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 3,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "Vor dem Lesen · 1 Punkt: Schau nur auf „Un atelier de cartes postales“. Was könnte man dort machen? Notiere jetzt eine kurze Vermutung auf Deutsch oder Französisch. Erst danach den Text anzeigen.",
+          "sample": "Eine vor der Textfreigabe notierte, zum Titel passende Vermutung. Ob sie später zutrifft, ist für diesen Punkt unerheblich; eine nachträglich erfundene Vermutung erhält keinen Vorabpunkt.",
+          "criteria": [
+            "1 Punkt: titelbezogene Vermutung vor Textsicht; die tatsächliche Reihenfolge braucht den gestuften UI-Pfad oder eine beobachtete getrennte Papierausgabe."
+          ]
+        },
+        {
+          "id": "fr-cartes-2",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 4,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "A1 · 1 Punkt: Vergleiche deine Vermutung aus Aufgabe 1 mit einem konkreten Detail des Aushangs. Nenne die passende P-Zeile; eine widerlegte Vermutung kann gut verglichen werden.",
+          "sample": "„Ich dachte, man schreibt Postkarten; P1 sagt, dass man sie zeichnet.“ Jede zutreffende oder widerlegte, sauber belegte Vermutung ist zulässig.",
+          "criteria": [
+            "1 Punkt: eine konkrete Übereinstimmung oder Änderung zur ursprünglichen Vermutung mit passender P-Zeile."
+          ]
+        },
+        {
+          "id": "fr-cartes-3",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "A2 · 2 Punkte: Worum geht es im Aushang hauptsächlich? Wähle (a) Teilnahme an einem Postkartenatelier, (b) nur einen Stift mitbringen oder (c) genau eine Stunde Dauer. Begründe deine Wahl mit einer P-Zeile.",
+          "sample": "(a). P4 nennt die Anmeldung am Empfang und ihre Frist; P5 erklärt die Anmeldung je Person. P1 nennt das Atelier, P2/P3 weitere Angaben. Stift P3 und Dauer P2 sind echte Nebendetails.",
+          "criteria": [
+            "1 Punkt: (a) als Hauptaussage.",
+            "1 Punkt: passender Zeilenbeleg zu einer konkreten Teilnahmebedingung aus P4 oder P5; P1 allein genügt nicht."
+          ]
+        },
+        {
+          "id": "fr-cartes-4",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 3,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "B · 2 Punkte: Führe die französische Anweisung aus: „Entoure la salle de l’atelier sur le plan. Marque l’accueil avec une croix.“ Zeige danach deinen gedruckten oder abgezeichneten Plan. Ohne Papier beschreibe genau im Textfeld, was du an welchen Orten tun würdest. Nenne genutzte Hilfe ehrlich. Eine Textbeschreibung belegt deine Ortswahl, keine tatsächlich gezeichnete Markierung.",
+          "sample": "Papierweg: Salle B ist eingekreist und Accueil mit X markiert. Barrierearme Textvariante: „Kreis um Salle B; X bei Accueil.“ Bei Hilfe zur französischen Anweisung selbstständiges Sprachverstehen gesondert beurteilen.",
+          "criteria": [
+            "1 Punkt: Salle B auf dem gezeigten Plan eingekreist oder in einer präzisen Textanweisung als Kreisziel genannt (P2).",
+            "1 Punkt: Accueil auf dem Plan mit X markiert oder in der Textanweisung als X-Ort genannt (P4). Text belegt die Auswahl, nicht eine tatsächlich gezeichnete Markierung oder selbstständiges Französischverständnis."
+          ]
+        },
+        {
+          "id": "fr-cartes-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 6,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C · 6 Punkte: Notiere drei Informationen kurz mit P-Zeile, je als „Stichwort – Zeile“: (1) Datum und Uhrzeit des Workshops, (2) was du selbst mitbringen musst, (3) der letzte zulässige Zeitpunkt für die Anmeldung. Kopiere nicht den ganzen Aushang.",
+          "sample": "Samstag, 14. November 2026, 10–11 h – P1/P2; ein Stift – P3; vor 17 h am Donnerstag, 12. November – P4. „Um 17 h“ ist nicht dasselbe wie „vor 17 h“; Papier liegt vor Ort.",
+          "criteria": [
+            "Je 1 Sachpunkt für vollständiges Datum und Uhrzeit (P1/P2), nur den Stift (P3), und Donnerstag 12. November vor 17 h (P4).",
+            "Je 1 Belegpunkt für P1/P2, P3 und P4. Drei Sach- und drei Belegpunkte ergeben 6."
+          ]
+        },
+        {
+          "id": "fr-cartes-6",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 4,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "D · 3 Punkte: Nora und Amir wollen zusammen teilnehmen. Nora meldet sich Mittwoch an, Amir gar nicht. Reicht ihre Anmeldung für beide? Was müsste Amir selbst tun? Könnte er sich am Donnerstag um 18 h noch fristgerecht anmelden? Begründe mit P4–P5.",
+          "sample": "Nein: P5 verlangt eine Anmeldung je Person. Amir braucht selbst eine Anmeldung vor Donnerstag 17 h (P4). 18 h ist zu spät. Noras Mittwochsanmeldung reicht nur für sie.",
+          "criteria": [
+            "1 Punkt: Nein, P5 verlangt jede Person einzeln.",
+            "1 Punkt: Amir muss selbst vor Donnerstag 17 h angemeldet sein; die Frist ist auf ihn angewandt.",
+            "1 Punkt: Donnerstag 18 h ist nach der Frist aus P4."
+          ]
+        },
+        {
+          "id": "fr-cartes-7",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 4,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "E · 3 Punkte: Was bedeutet gratuit in P3? Nenne zuerst deine Vermutung, dann die französischen Hinweiswörter in P3 und erkläre, warum sie die Bedeutung stützen. Ein Wörterbuch darfst du erst danach zur Kontrolle nutzen.",
+          "sample": "gratuit = kostenlos. „tu ne paies rien“ bedeutet „du bezahlst nichts“; wenn man nichts bezahlen muss, kostet die Veranstaltung nichts.",
+          "criteria": [
+            "1 Punkt: kostenlos.",
+            "1 Punkt: „tu ne paies rien“ aus P3 als französischer Kontextbeleg.",
+            "1 Punkt: eigener Schluss von „nichts bezahlen“ auf „kostenlos“. Wörterbuch ist optional und gibt keinen Zusatzpunkt."
+          ]
+        },
+        {
+          "id": "fr-cartes-8",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "F · 2 Punkte: Was half dir bei einer Antwort? Nenne Methode oder Textstelle und eine P-Zeile. Was würdest du beim nächsten kurzen französischen Aushang ebenso oder anders machen? Schreibe einen konkreten nächsten Schritt.",
+          "sample": "„Ich suchte avant in P4 und prüfte damit die Frist. Beim nächsten Aushang markiere ich zuerst Zeiten und avant.“ Eine allgemeine Aussage „alles leicht“ ist keine Strategieerklärung.",
+          "criteria": [
+            "1 Punkt: konkrete Stelle oder Methode mit passender P-Zeile.",
+            "1 Punkt: ausführbarer nächster Leseschritt. Keine Behauptung über unbeobachtete Hilfsmittelnutzung."
+          ]
+        },
+        {
+          "id": "fr-cartes-9",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Änderung · 6 Zusatzpunkte getrennt vom Hauptfall: Lies U1–U2 erst nach den festgehaltenen Hauptantworten. Markiere den neuen Raum auf einem zweiten Plan oder schreibe ohne Papier eine genaue neue Markierungsanweisung. Notiere „vorher P2: …; jetzt U1: …“ und die unveränderte Uhrzeit. Jemand behauptet, Amir brauche wegen des Raumwechsels keine eigene Anmeldung mehr. Prüfe das mit P5 und U2.",
+          "sample": "Zweiter Plan: Salle A ist markiert; Textvariante: „Kreis um Salle A“. Vorher Salle B nach P2, jetzt Salle A nach U1; 10–11 h unverändert. Nein: P5 verlangt jede Person einzeln, U2 hält die rechtzeitige Anmeldung am Accueil aufrecht.",
+          "criteria": [
+            "1 Punkt: Salle A auf einem tatsächlich gezeigten zweiten Plan markiert oder als neues Kreisziel präzise beschrieben; Text belegt keine Zeichnung.",
+            "1 Punkt: vorher Salle B (P2) und jetzt Salle A (U1) klar getrennt.",
+            "1 Punkt: 10–11 h als unverändert genannt.",
+            "1 Punkt: Behauptung zu Amir verneint.",
+            "1 Punkt: P5 als Beleg für einzelne Anmeldung.",
+            "1 Punkt: U2 als Beleg für fortbestehende Frist/Anmeldung."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27; §3.2.2 PDF-S. 60: globale/selektive/genaue Lektüre, einfache französische Handlungsanweisungen, Leseerwartung, Worterschließung, Hilfsmittel und Visualisierung. Zielmarke Klassenstufe 8 der zweiten Fremdsprache.",
+        "checkedAt": "2026-10-22"
       }
     },
     {

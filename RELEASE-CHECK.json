@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-23T08:04:18.005Z",
-  "releaseVersion": "2026.10.23-mbifeedranking.1",
+  "builtAt": "2026-10-23T08:42:09.524Z",
+  "releaseVersion": "2026.10.23-enwfoxes.1",
   "newTopicIds": [
-    "mbi-sternnetz-feedranking"
+    "en-living-things-comparison-foxes"
   ],
   "changeLog": [
-    "Medienbildung und Informatik: Im erfundenen Sternnetz fünf Beiträge nach Thema, gefolgtem Konto und Aktualität berechnen und sortieren.",
-    "A–E umfassen 20 Hauptpunkte; die geänderte Aktualitätsregel erscheint erst danach mit sechs getrennten Zusatzpunkten. Keine echten Profile oder Plattformdaten."
+    "Englisch: Zwei belegte Tierkarten vergleichen und für eine fiktive Natur-AG einen zusammenhängenden Sachtext schreiben.",
+    "A–C umfassen 20 Hauptpunkte; eine quellenkritische Änderung erscheint danach mit vier getrennten Zusatzpunkten. Keine persönlichen Angaben oder echten Tierfotos."
   ],
-  "rollbackCommit": "a1284b5172c13071eb1c25f9f8cb76008de4de5c",
+  "rollbackCommit": "198d2f5d196e6df243cc2140dcb27894427429ae",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -125,6 +125,7 @@
     "mbi-tabellen-nutzen-lernen-beruf",
     "en-picture-description-garden",
     "en-survey-questionnaire-table",
+    "en-living-things-comparison-foxes",
     "mbi-sternnetz-feedranking",
     "mbi-teamdaten-gegenpruefen"
   ],
@@ -173,7 +174,8 @@
     "en-write-rooftop-poem",
     "ma-schraegbild-darstellungen",
     "en-picture-description-garden",
-    "en-survey-questionnaire-table"
+    "en-survey-questionnaire-table",
+    "en-living-things-comparison-foxes"
   ],
   "unclearValidityTopics": [
     "et-jugendrat-budgetwerte",

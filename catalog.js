@@ -10449,6 +10449,110 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "en-living-things-comparison-foxes",
+      "subjectId": "en",
+      "title": "Two foxes, one careful comparison",
+      "scope": "Freiwilliger, sprachlich gestützter Klasse-7-Einstieg in den Sachvergleich von Lebewesen als Ende-Klasse-8-Ziel. Die Klasse-8-Ziele der Englisch-Erprobungsfassung gelten ab 2027/28; Lottes Schuleinheit und Lernstand sind nicht belegt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Verwende nur die beiden gekürzten Artenkarten. Lies Zahlen und ihre Formulierungen genau und vergleiche nur, was auf den Seiten steht. Behaupte kein genaues Gewicht jedes Tieres. Schreibe über keine echten Personen. Offene englische Antworten werden nicht automatisch benotet; die freiwillige Änderung D erscheint erst nach A–C.",
+      "introduction": "Read two short animal fact cards. First make a three-row plan, then write five to seven short English sentences for a fictional school nature-club board. Compare one shared fact and two differences. Be precise about what each page says and what it cannot prove. A–C have 20 learning points; the later optional challenge has four separate points. These are feedback criteria, not a school grade.",
+      "sourceCards": [
+        {
+          "title": "A · Fennec fox",
+          "text": "Fennec foxes live in the sandy Sahara and other dry parts of North Africa and Arabia. The page lists 0.9–1.4 kg as their usual weight. They eat insects, small animals, roots, fruit and leaves. Large ears help release heat and find prey under sand. They hunt at night and rest in underground burrows during the day.",
+          "sourceLabel": "Smithsonian National Zoo · Fennec fox",
+          "sourceUrl": "https://nationalzoo.si.edu/animals/fennec-fox",
+          "sourceNote": "Artenseite, abgerufen 23.10.2026; kurze eigene Paraphrase."
+        },
+        {
+          "title": "B · Bat-eared fox",
+          "text": "Bat-eared foxes live in African grasslands, savannas and dry scrubland. The page gives a typical weight of 3–4.5 kg for adults. About 90–95% of their diet is insects; they sometimes eat small animals and plants. Large ears help hear insects underground and regulate temperature. They are active at night and rest in underground burrows during the day.",
+          "sourceLabel": "Smithsonian National Zoo · Bat-eared fox",
+          "sourceUrl": "https://nationalzoo.si.edu/animals/bat-eared-fox",
+          "sourceNote": "Artenseite, abgerufen 23.10.2026; kurze eigene Paraphrase."
+        }
+      ],
+      "passage": "WORD HELP · sandy / dry = sandig / trocken; grassland / savanna = Grasland / Savanne; insects / prey = Insekten / Beute; diet = Nahrung; adult / weight = erwachsen / Gewicht; both = beide; but / while / whereas = aber / während / wohingegen. You may use a bilingual dictionary. Use A and B as source labels, not as animal names.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "text": "OPTIONAL CHALLENGE AFTER A–C · Someone says, “Fennec foxes are always faster than bat-eared foxes.” Rewrite this as a fair English sentence using only the two cards. Name one measurement needed before making that stronger comparison. The four extra points are separate."
+      },
+      "tasks": [
+        {
+          "id": "en-foxes-plan",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A · Plan the comparison (6 main points). Write three labelled rows: Home, Weight listed on the page, Food. For each row, add one short fact for fox A and one for fox B. Add A or B as a source label. Notes are enough.",
+          "sample": "Home: A sandy Sahara / dry North Africa and Arabia; B African grasslands, savannas or dry scrubland. Weight listed: A 0.9–1.4 kg, with no age group stated in that sentence; B adults typically 3–4.5 kg. Food: A insects plus small animals and plant foods; B about 90–95% insects plus occasional other food. The cards give no matching insect percentage for A.",
+          "criteria": [
+            "Home: 1 point for an accurate A fact and 1 for B.",
+            "Weight: 1 point for the A page’s 0.9–1.4 kg without inventing an adult label and 1 for B adults typically 3–4.5 kg.",
+            "Food: 1 point for an accurate A fact and 1 for B. Card labels identify the source; alternate accurate short notes count."
+          ]
+        },
+        {
+          "id": "en-foxes-text",
+          "kind": "reflection",
+          "points": 10,
+          "writingLines": 11,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "B · Write for the fictional nature-club board (10 main points). Write five to seven short English sentences. Include one fact both foxes share, two differences from the cards (habitat and the weight figures each page gives), A/B labels for at least two facts, and one careful sentence about what those figures do not prove. Keep the text connected; do not rank which fox is better. The sentence count is a guide, not a hidden deduction.",
+          "sample": "Both foxes eat insects (A, B). Both have large ears that help find prey (A, B). The fennec fox lives in sandy deserts, while the bat-eared fox lives in grasslands and savannas (A, B). The Fennec page lists 0.9–1.4 kg, whereas the bat-eared page gives 3–4.5 kg for adults (A, B). The pages use different age wording and do not tell us the exact weight of every fox. Other accurate connected comparisons count.",
+          "criteria": [
+            "1 point for a supported similarity.",
+            "1 point each for two different supported contrasts: habitat and carefully described source weight figures.",
+            "1 point for at least two correct A/B source labels attached to facts.",
+            "2 points for clear comparison links such as both, while, but or whereas rather than two unconnected lists.",
+            "2 points for one coherent, understandable short text fitting the fictional nature-club board.",
+            "1 point for the limit: unequal age wording and no exact weight for every individual.",
+            "1 point for understandable English; minor errors alone do not lose the point. Do not deduct twice for one fact error."
+          ]
+        },
+        {
+          "id": "en-foxes-sources",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "C · Supported, contradicted or not shown? (4 main points). Write S, C or N for each statement, in order: 1. Both foxes live in Africa. 2. A fennec fox eats only insects. 3. The two fact cards say their information came from the same field study. 4. Both foxes rest in underground burrows during the day. You may add reasons.",
+          "sample": "1 S: both cards place the animals in Africa. 2 C: A also lists small animals and plant food. 3 N: no shared field study is stated. 4 S: both cards state underground daytime rest. The answer is S, C, N, S.",
+          "criteria": [
+            "1 point each for S, C, N, S in order. Reasons may help learning but carry no hidden extra point."
+          ]
+        },
+        {
+          "id": "en-foxes-challenge",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Optional challenge after A–C (4 separate extra points). Rewrite “Fennec foxes are always faster than bat-eared foxes” as a careful English sentence using only the cards. Give one fact both share and name one same-condition speed measurement that would be needed for a stronger comparison.",
+          "sample": "Both foxes have large ears. The cards do not give a speed test under the same conditions, so we cannot say which fox is faster. We would need speeds measured for both species under the same conditions.",
+          "criteria": [
+            "1 point for identifying “always faster” as unsupported.",
+            "1 point for an actual shared fact from A and B.",
+            "1 point for a careful, understandable English correction.",
+            "1 point for a comparable speed measurement for both species under the same conditions. These points are separate from A–C."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.4/PDF-S. 29–30 nennt das Vergleichen von Gegenständen und Lebewesen sowie adressatenbezogenes Planen und Schreiben unter Klassenstufe 8. Hier freiwilliger gestützter Vorgriff, keine bestätigte Klasse-7-Schuleinheit.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "mbi-sternnetz-feedranking",
       "subjectId": "mbi",
       "title": "Warum steht dieser Beitrag weiter oben?",

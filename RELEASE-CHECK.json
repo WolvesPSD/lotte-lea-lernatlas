@@ -1,15 +1,16 @@
 {
-  "builtAt": "2026-10-23T05:16:34.688Z",
-  "releaseVersion": "2026.10.23-frsm03.1",
+  "builtAt": "2026-10-23T05:40:13.021Z",
+  "releaseVersion": "2026.10.23-mntskelett.1",
   "newTopicIds": [
-    "fr-mes-gouts-envies"
+    "mnt-skelett-knochenformen"
   ],
   "changeLog": [
-    "Französisch: Ein freiwilliger 7/8-Sprechweg zu Vorlieben, Abneigung und Wunsch trennt Stichwortplanung, echte Kurzrede und Rückschau in A–B–C-Folge.",
-    "Die App zählt nur zwei Notizfelder; 14 Sprechpunkte dürfen ausschliesslich nach wirklich gehörter und fachkundig beurteilbarer Rede vergeben werden. Keine Aufnahme oder automatische Sprechwertung."
+    "MNT: Eine freiwillige Ende-6-Brücke ordnet sieben Skelettbereiche und vergleicht Röhren- und Plattenknochen an fiktiven Karten.",
+    "Vier Hauptaufgaben mit 20 Lernpunkten und eine erst danach sichtbare Zusatzkarte mit sechs getrennten Punkten; keine Körperuntersuchung und keine behauptete Klasse-7-MNT-Zuordnung."
   ],
-  "rollbackCommit": "bfd7af9094ff7e08c0b2aa79e2c0421f5f9f6741",
+  "rollbackCommit": "70acdace1d7b9d6645709a9fcb3d3a305de347ac",
   "releasedTopics": [
+    "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
     "ch-stoffaenderung-berichtskarten",

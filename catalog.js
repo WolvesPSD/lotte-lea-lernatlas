@@ -102,6 +102,101 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "mnt-skelett-knochenformen",
+      "subjectId": "mnt",
+      "title": "Sieben Skelettbereiche im Kartenmodell",
+      "scope": "Freiwillige Klasse-7-Brücke auf dem belegten MNT-Ende-6-Niveau: Skelettgliederung und Röhren-/Plattenknochen an fiktiven Papierkarten. MNT steht laut Robert auf Lottes Klasse-7-Stundenplan; der ministerielle Plan beginnt 2026/27 aber mit Klasse 5 und erreicht Klasse 6 erst 2027/28. Keine amtliche MNT-Klasse-7-Zuordnung oder bestätigte Schuleinheit.",
+      "levelStatus": "grade6-bridge",
+      "released": true,
+      "prerequisite": "Dies sind erfundene Modellkarten, keine Untersuchung an deinem Körper. Du brauchst keine Bewegung, Messung oder persönlichen Gesundheitsangaben. Der neue MNT-Fachplan nennt das Ziel für Klasse 6 und gilt dort erst ab 2027/28; es gibt damit keine amtliche Klasse-7-Zuordnung. Nutze den Fall freiwillig als gestützte Wiederholung; offene Antworten prüft ein Mensch.",
+      "introduction": "Gürtel verbinden hier Gliedmaßen mit dem Rumpf: Vordergliedmaßen meinen beim Menschen Arme samt Händen, Hintergliedmaßen Beine samt Füßen. Ein Röhrenknochen hat im vereinfachten Formvergleich einen länglichen Schaft und kann bei Bewegung als stabiler Hebel dienen. Ein Plattenknochen ist eher flächig, oft gebogen, und kann Organe schützen. Nicht jeder Knochen gehört zu genau diesen beiden Formklassen; Wirbel sind anders gebaut. Die sieben gesuchten Namen stehen ungeordnet bereit: Beckengürtel · Wirbelsäule · Vordergliedmaßen · Schädel · Brustkorb · Hintergliedmaßen · Schultergürtel. 20 Haupt- und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "passage": "FIKTIVES SKELETTARCHIV · Sieben Fundkarten\nA1 · Knochenbereich am Kopf, der das Gehirn umgibt.\nA2 · Eine Folge vieler einzelner Wirbel vom Hals bis zum unteren Rumpf.\nA3 · Rippen und Brustbein begrenzen den Brustraum.\nA4 · Schlüsselbeine und Schulterblätter liegen am oberen Rumpf nahe den Armen.\nA5 · Oberarm, Unterarm und Hand bilden diesen Körperbereich.\nA6 · Hüftbeine liegen am unteren Rumpf nahe den Beinen.\nA7 · Oberschenkel, Unterschenkel und Fuß bilden diesen Körperbereich.\n\nZWEI KNOCHENPROFILE\nB1 · Der Oberarmknochen hat einen länglichen Schaft. Im Modell zieht ein Muskel über eine Sehne an ihm; der Arm ändert seine Stellung am Gelenk.\nB2 · Ein Knochen des Schädeldachs ist flächig und gebogen. Er bildet einen Teil der knöchernen Hülle um das Gehirn.\n\nDies sind beschriebene Papiermodelle und keine Beobachtungen an einem echten Menschen.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "SPÄTERE FIKTIVE ARCHIVKARTEN NACH A–D · T1: Ein Oberschenkelknochen hat einen langen Schaft. Im Modell dient er beim Bewegen des Beins als stabiler Hebel. T2: Eine Rippe ist flächig und gebogen. Zusammen mit anderen Rippen umgrenzt sie den Brustraum und schützt dort Herz und Lunge."
+      },
+      "tasks": [
+        {
+          "id": "mnt-skelett-1",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 7,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A · Sieben Bereiche (7 Hauptpunkte): Ordne A1–A7 jedem der sieben Namen aus der ungeordneten Wortliste genau einmal zu. Schreibe die Kartennummer und den passenden Bereich nebeneinander.",
+          "sample": "A1 Schädel; A2 Wirbelsäule; A3 Brustkorb; A4 Schultergürtel; A5 Vordergliedmaßen; A6 Beckengürtel; A7 Hintergliedmaßen.",
+          "criteria": [
+            "Für jede eindeutig richtige A1–A7-Zuordnung 1 Punkt, höchstens 7. Eine doppelt verwendete Bezeichnung ersetzt keinen fehlenden Bereich."
+          ]
+        },
+        {
+          "id": "mnt-skelett-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Zwei Verbindungswege (4 Hauptpunkte): Welcher Gürtel gehört zu den Vordergliedmaßen und welcher zu den Hintergliedmaßen? Begründe beide Paarungen mit je einer konkreten Ortsangabe aus den Fundkarten.",
+          "sample": "Schultergürtel → Vordergliedmaßen: A4 liegt oben nahe den Armen; A5 beschreibt Arme und Hände. Beckengürtel → Hintergliedmaßen: A6 liegt unten nahe den Beinen; A7 beschreibt Beine und Füße.",
+          "criteria": [
+            "2 Punkte: Schultergürtel mit Vordergliedmaßen 1 und eine passende Ortsbegründung aus A4/A5 1.",
+            "2 Punkte: Beckengürtel mit Hintergliedmaßen 1 und eine passende Ortsbegründung aus A6/A7 1. Bloße Namen ohne Begründung erhalten den jeweiligen Belegpunkt nicht."
+          ]
+        },
+        {
+          "id": "mnt-skelett-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Form und Funktion (4 Hauptpunkte): Ordne B1 und B2 jeweils als Röhren- oder Plattenknochen ein. Erkläre zu jedem Profil, wie die beschriebene Form zu genau einer dort genannten Funktion passt.",
+          "sample": "B1 ist wegen des länglichen Schafts ein Röhrenknochen; im Modell ist er ein stabiler Hebel, an dem der Muskel über eine Sehne zieht. B2 ist ein einzelner flächig-gebogener Plattenknochen des Schädeldachs; er ist Teil der Hülle, die das Gehirn schützt. Der ganze Schädel ist ein Bereich mit mehreren Knochen.",
+          "criteria": [
+            "B1: 1 Punkt für Röhrenknochen mit länglichem Schaft und 1 für passende Hebelfunktion beim Bewegen des Arms.",
+            "B2: 1 Punkt für einzelnen Plattenknochen mit flächig-gebogener Form und 1 für passende Schutzfunktion der knöchernen Hülle. Nicht behaupten, der ganze Schädel sei ein einziger Plattenknochen."
+          ]
+        },
+        {
+          "id": "mnt-skelett-4",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 7,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "D · Museumszettel prüfen (5 Hauptpunkte): Ein erfundener Zettel behauptet: „Die Wirbelsäule ist ein einziger Knochen. Plattenknochen bewegen den Arm als Hebel; Röhrenknochen umgeben das Gehirn.“ Korrigiere die Wirbelsäulen-Aussage mit einer Fundkarte und die vertauschten Funktionen mit B1/B2. Nenne eine Grenze dieser Papierkarten für Aussagen über einen echten Menschen.",
+          "sample": "„Ein einziger Knochen“ ist falsch: A2 beschreibt eine Folge vieler Wirbel. B1/Röhrenknochen ist im Modell der stabile Hebel für den Arm; B2/Plattenknochen bildet einen Teil der Schutzhülle um das Gehirn. Aus Papierkarten lassen sich weder die Gesundheit noch die tatsächliche Kraft oder Bewegung einer Person bestimmen.",
+          "criteria": [
+            "2 Punkte: Aussage „ein einziger Knochen“ als falsch erkennen 1 und A2 mit vielen einzelnen Wirbeln als Beleg nennen 1.",
+            "2 Punkte: B1/Röhrenknochen als Hebel 1 und B2/Plattenknochen als Schutzhülle 1.",
+            "1 Punkt für eine konkrete Grenze des Papiermodells, etwa keine Diagnose, Kraftmessung oder echte Bewegungsbeobachtung."
+          ]
+        },
+        {
+          "id": "mnt-skelett-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 7,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige spätere Änderung nach A–D · sechs getrennte Zusatzpunkte: Ordne bei T1 und T2 jeweils den passenden der sieben Skelettbereiche, die Knochenform und eine aus der Karte belegbare Funktion zu. Begründe knapp mit einer Kartenangabe; behaupte keine Kraftmessung.",
+          "sample": "T1: Hintergliedmaßen, Röhrenknochen, im Modell stabiler Hebel beim Bewegen des Beins; A7 nennt den Oberschenkel. T2: Brustkorb, Plattenknochen, zusammen mit anderen Rippen Schutz von Herz und Lunge; A3 nennt die Rippen.",
+          "criteria": [
+            "T1: je 1 Zusatzpunkt für Hintergliedmaßen, Röhrenknochen und Hebelfunktion beim Bewegen des Beins mit T1-Kartenbezug.",
+            "T2: je 1 Zusatzpunkt für Brustkorb, Plattenknochen und Schutzfunktion für Herz/Lunge mit T2-Kartenbezug. Zusatzpunkte getrennt von den 20 Hauptpunkten ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27: Klasse 5; 2027/28: Klasse 6",
+        "gradeBand": "MNT-Ende-6, 7-Brücke",
+        "competencyRef": "MNT-Erprobungsfassung 2026, PDF-S. 2 und §2.2.9 PDF-S. 28: Klassenstufe 6; sieben Skelettbereiche sowie Funktionen von Röhren- und Plattenknochen. Keine amtliche Klasse-7-Zuordnung.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "mnt-gemisch-forschungsweg",
       "subjectId": "mnt",
       "title": "Was verrät der erfundene Gemischbericht?",

@@ -248,3 +248,5 @@ body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="mu09-2"]{break-before:page}}
 .release-version{font-size:.75rem;color:#52636a;margin:-1.4rem 0 1.5rem;text-align:right;letter-spacing:.02em}
 body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="de-sprachreflexion-4"]+.print-passage{break-before:page;break-inside:avoid}body[data-print-mode^="adult"] .print-task[data-task-id="de-sprachreflexion-5"]{break-inside:avoid}}
+.learning-step-note{margin:1rem 0 0;padding:.7rem .9rem;border-left:4px solid #28726a;border-radius:.35rem;background:#edf6f2;color:#174b45;font-weight:650}

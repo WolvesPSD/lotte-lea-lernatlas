@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-22T23:49:10.720Z",
-  "releaseVersion": "2026.10.23-ethikraum.1",
-  "newTopicIds": [
-    "et-jugendhaus-doppeltermin"
-  ],
+  "builtAt": "2026-10-23T00:05:47.627Z",
+  "releaseVersion": "2026.10.23-dr1formhilfe.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Freiwilliger Ethik-7/8-Konfliktfall: zwei Gruppen mit derselben Raumbestätigung, begründete Perspektiven und ein faires Entscheidungsverfahren.",
-    "24 Hauptpunkte und eine erst danach sichtbare punktfreie Variante; die Geltung des älteren Ethikplans 2026/27, reale Gespräche und Schuleinheit bleiben ungeklärt."
+    "Deutsch D-R1: Die konkreten Konjunktivformen erscheinen erst als freiwillige Hilfe nach einem eingetragenen Erstversuch; Musterlösungen bleiben im Erwachsenenbereich.",
+    "Freiwilliger Lesetische-Transfer nach vier Hauptantworten mit sechs getrennten Kriterienpunkten; gestufte Ansichten und Hilfeeinsatz bleiben nun auch nach Export und Import erhalten."
   ],
-  "rollbackCommit": "165312c2e6d5383f48a90bc79fb671d60a6e53f7",
+  "rollbackCommit": "6eafa68d71eb6c03e925ea75cb2da406c6354ce9",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",

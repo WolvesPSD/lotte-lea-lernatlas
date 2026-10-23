@@ -3091,13 +3091,21 @@ window.LOTTE_CATALOG = Object.freeze({
       "scope": "Freiwillige 7/8-Übung zu indirekter Rede, gedachter Bedingung und Wortbedeutung. § 2.2.5 nennt Zielkompetenzen für Klasse 8; die Unterrichtsfolge ist unbekannt.",
       "levelStatus": "grade78-flex",
       "released": true,
-      "prerequisite": "Hilfreich sind direkte und indirekte Rede sowie Präsensformen. Die Formenhilfe im Auftrag kann benutzt werden; persönliche Angaben sind nicht nötig.",
-      "introduction": "Ein Plan, Maras Aussage und ein Flyer-Entwurf klingen unterschiedlich sicher. Prüfe die fünf Textstellen. Konjunktiv I (sie plane, sie habe, der Platz sei) kann Maras Aussage kenntlich machen; er bestätigt sie nicht. Konjunktiv II (hätte, könnte) zeigt hier eine gedachte Bedingung und eine Möglichkeit. Die Formenhilfe ist freiwillig. „Beleg“ meint eine passende Textstelle; ein sinnähnliches Wort muss im Satz passen.",
+      "prerequisite": "Diese Übung ist freiwillige Vorbereitung auf ein Ende-8-Ziel; ob die Formen schon zu deinem Unterricht gehören, wissen wir nicht. Hilfreich sind direkte und indirekte Rede sowie Präsensformen. Nach deinem ersten eigenen Versuch kannst du im Übungsraum eine Formenhilfe öffnen oder auf Papier danach darum bitten. Persönliche Angaben sind nicht nötig.",
+      "introduction": "Ein Plan, Maras Aussage und ein Flyer-Entwurf klingen unterschiedlich sicher. Prüfe die fünf fiktiven Textstellen. Konjunktiv I kann eine fremde Aussage kenntlich machen, ohne sie zu bestätigen. Konjunktiv II kann eine gedachte Bedingung und deren mögliche Folge ausdrücken. „Beleg“ meint eine passende Textstelle; ein sinnähnliches Wort muss im Satz passen. Der Hauptfall hat 20 Kriterienpunkte, die spätere freiwillige Variante 6 eigene Punkte. Das ist keine Schulnote.",
       "passage": "Z1 Am Donnerstag bereitet eine Projektgruppe in einem erfundenen Jugendhaus eine kleine Ausstellung vor. Bisher ist kein Wagen fertig; der Bau ist erst für Freitag geplant.\n\nZ2 Der schriftliche Arbeitsplan nennt für Freitag drei mobile Bücherwagen. Für diese drei liegt Material bereit. Eine Werkbank ist verfügbar; eine zweite ist noch nicht zugesagt.\n\nZ3 Projektleiterin Mara sagt: „Ich plane für Freitag drei mobile Bücherwagen. Dafür habe ich genug Material.“\n\nZ4 Sie ergänzt: „Der Platz ist knapp. Wenn ich eine zweite Werkbank hätte, könnte ich vielleicht einen vierten Wagen bauen.“\n\nZ5 In einem noch nicht freigegebenen Flyer-Entwurf steht: „Am Freitag werden sicher vier Wagen fertig!“",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "1–4",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGER ZWEITER FALL NACH 1–4 · Alle folgenden Angaben sind erfunden. Die sechs Kriterienpunkte der Variante werden getrennt vom 20-Punkte-Hauptfall betrachtet.\n\nT1 Ein Jugendhaus plant für Samstag den Aufbau von zwei Lesetischen. Die Bretter für beide liegen bereit. Der Aufbau hat noch nicht begonnen. Eine Helferin hat zugesagt; eine zweite hat noch nicht zugesagt.\n\nT2 Leiterin Nela sagt: „Ich plane zwei Lesetische. Die Bretter sind da. Wenn ich eine zweite Helferin hätte, könnte ich vielleicht beide bis Mittag fertigstellen.“\n\nT3 Ein Entwurf für die Ankündigung behauptet: „Am Samstagmittag sind beide Lesetische sicher fertig!“"
+      },
       "tasks": [
         {
           "id": "de-sprachreflexion-1",
           "kind": "reflection",
+          "points": 5,
+          "adultOnlySolution": true,
           "prompt": "Was ist belegt, was nur möglich? Nenne zwei Angaben, die Z2 als Planung oder verfügbare Mittel belegt. Nenne danach zwei Dinge, die für Freitag nicht sicher sind. Belege deine Unterscheidung mit mindestens zwei passenden Textstellen Z1–Z5. Ein geplanter Wagen ist nicht schon fertig.",
           "sample": "Z2 belegt, dass drei Bücherwagen für Freitag geplant sind und für diese drei Material bereitliegt. Ob die drei tatsächlich fertig werden, ist noch offen: Laut Z1 ist bislang kein Wagen fertig. Ein vierter Wagen ist ebenfalls nicht sicher, weil Mara ihn in Z4 nur für den Fall einer zweiten Werkbank und selbst dann nur als Möglichkeit nennt.",
           "writingLines": 6,
@@ -3112,7 +3120,10 @@ window.LOTTE_CATALOG = Object.freeze({
         {
           "id": "de-sprachreflexion-2",
           "kind": "reflection",
-          "prompt": "Schreibe für Menschen, die Mara nicht selbst gehört haben, eine sachliche Meldung in etwa zwei bis vier Sätzen. Gib Z3–Z4 als Maras Aussagen wieder. Verwende mindestens zwei passende Konjunktiv-I-Formen für ihre berichteten Angaben und passende Konjunktiv-II-Formen für die gedachte zweite Werkbank und den möglichen vierten Wagen. Halte offen, was am Freitag fertig wird. Formenhilfe: sie plane; sie habe; der Platz sei; wenn sie eine zweite Werkbank hätte, könnte sie einen vierten Wagen bauen.",
+          "points": 7,
+          "adultOnlySolution": true,
+          "prompt": "Schreibe für Menschen, die Mara nicht selbst gehört haben, eine sachliche Meldung in etwa zwei bis vier Sätzen. Gib Z3–Z4 als Maras Aussagen wieder. Verwende mindestens zwei passende Konjunktiv-I-Formen für ihre berichteten Angaben und passende Konjunktiv-II-Formen für die gedachte zweite Werkbank und den möglichen vierten Wagen. Halte offen, was am Freitag fertig wird. Eine Formenhilfe gibt es nach deinem ersten eigenen Versuch im Übungsraum oder auf Nachfrage beim Papierblatt.",
+          "helpAfterAttempt": "Formenhilfe nach deinem Erstversuch: Für Maras Aussagen passen zum Beispiel „sie plane“, „sie habe“ und „der Platz sei“. Für die gedachte Bedingung und mögliche Folge passen „wenn sie eine zweite Werkbank hätte, könnte sie ...“. Die Hilfe ist kein fertiger Bericht. Vermerke bei der gemeinsamen Auswertung, dass du sie genutzt hast.",
           "sample": "Mara erklärt, sie plane für Freitag drei mobile Bücherwagen und habe dafür genügend Material. Sie sagt, der Platz sei knapp. Wenn sie eine zweite Werkbank hätte, könnte sie vielleicht einen vierten Wagen bauen. Ob die geplanten Wagen tatsächlich fertig werden, ist noch offen.",
           "writingLines": 8,
           "criteria": [
@@ -3128,6 +3139,8 @@ window.LOTTE_CATALOG = Object.freeze({
         {
           "id": "de-sprachreflexion-3",
           "kind": "reflection",
+          "points": 4,
+          "adultOnlySolution": true,
           "prompt": "Prüfe den Flyer-Satz in Z5. Erkläre zwei verschiedene Gründe, weshalb „sicher vier Wagen fertig“ über die Quellen hinausgeht. Formuliere danach einen kurzen Ersatzsatz für den Flyer, der den Dreierplan verständlich wiedergibt und keinen fertigen vierten Wagen verspricht.",
           "sample": "Der Flyer macht aus dem Plan für drei Wagen eine sichere Fertigstellung, obwohl vor Freitag noch keiner fertig ist. Außerdem hängt der vierte Wagen von einer nicht zugesagten zweiten Werkbank ab und ist selbst dann nur möglich. Besser: „Die Gruppe plant, am Freitag drei mobile Bücherwagen zu bauen.“ Eine bedingt formulierte Viereroption wäre ebenfalls zulässig.",
           "writingLines": 6,
@@ -3141,14 +3154,34 @@ window.LOTTE_CATALOG = Object.freeze({
         {
           "id": "de-sprachreflexion-4",
           "kind": "reflection",
+          "points": 4,
+          "adultOnlySolution": true,
           "prompt": "Eine Person möchte in Z4 „knapp“ durch „reichlich“ und „vielleicht“ durch „sicher“ ersetzen. Erkläre für beide Wortpaare die veränderte Aussage. Schlage für „knapp“ und „vielleicht“ je ein sinnähnliches Wort oder eine sinngleiche Wendung vor, die in Z4 passt.",
           "sample": "„Reichlich Platz“ bedeutet das Gegenteil von Maras Aussage „Der Platz ist knapp“; passend wäre „Der Platz ist begrenzt“. „Sicher“ würde aus dem nur möglichen vierten Wagen ein festes Ergebnis machen. Statt „vielleicht“ passt hier „möglicherweise“ oder „eventuell“. Aus der fehlenden Zusage einer zweiten Werkbank allein lässt sich die Raumgröße nicht ableiten.",
-          "writingLines": 5,
+          "writingLines": 8,
           "criteria": [
             "1 Punkt: „Reichlich“ wird als Gegensatz zu Maras ausdrücklich knappem Platz erklärt; die Werkbankzusage wird nicht als Beweis der Raumgröße benutzt.",
             "1 Punkt: „Begrenzt“ oder „nur wenig Platz“ oder ein im Satz gleichwertiger Ausdruck erhält den Sinn von „knapp“.",
             "1 Punkt: „Sicher“ wird als unzulässige Aufwertung der Möglichkeit zum feststehenden Ergebnis erklärt.",
             "1 Punkt: „Möglicherweise“, „eventuell“ oder eine andere passende Wendung erhält die Unsicherheit von „vielleicht“."
+          ]
+        },
+        {
+          "id": "de-sprachreflexion-5",
+          "kind": "reflection",
+          "points": 6,
+          "adultOnlySolution": true,
+          "writingLines": 13,
+          "inputRows": 13,
+          "prompt": "Freiwilliger Transfer zu T1–T3 (6 eigene Kriterienpunkte): 1. Nenne mit Zeilenbezug eine belegte Planung und eine bis Mittag nicht belegte Fertigstellung. 2. Gib Nelas Aussagen zu Plan und Brettern in ein oder zwei eigenen Sätzen indirekt wieder, nenne sie als Quelle und verwende zwei passende Konjunktiv-I-Formen. 3. Gib ihre Bedingung und mögliche Folge mit passenden Konjunktiv-II-Formen wieder. 4. Ersetze T3 durch einen sachlichen Satz mit offener Fertigstellung. 5. Nenne ein im Satz passendes Wort für „vielleicht“ und erkläre, warum „bestimmt“ den Sinn ändern würde. Eine nach dem Erstversuch genutzte Formenhilfe wird getrennt vermerkt.",
+          "sample": "T1 belegt den Plan für zwei Lesetische und bereitliegende Bretter, aber keine Fertigstellung bis Mittag; der Aufbau hat noch nicht begonnen. Nela sagt, sie plane zwei Lesetische und die Bretter seien da. Wenn sie eine zweite Helferin hätte, könnte sie vielleicht beide bis Mittag fertigstellen. Sachlicher Ersatz für T3: „Für Samstag ist der Aufbau von zwei Lesetischen geplant; ob beide bis Mittag fertig werden, ist noch offen.“ „Möglicherweise“ bewahrt die Unsicherheit; „bestimmt“ würde ohne Beleg Gewissheit behaupten.",
+          "criteria": [
+            "1 Punkt: Planung und fehlender Fertigstellungsbeleg mit T1/T2-Bezug.",
+            "1 Punkt: Nela als Quelle und zwei sachlich richtige berichtete Inhalte.",
+            "1 Punkt: zwei passende Konjunktiv-I-Formen in der indirekten Wiedergabe.",
+            "1 Punkt: gedachte Bedingung und mögliche Folge mit passendem Konjunktiv II; die zweite Helferin ist nicht zugesagt.",
+            "1 Punkt: sachlicher Ersatz für T3 mit offener Fertigstellung.",
+            "1 Punkt: sinnnahes Wort für „vielleicht“ und begründete Ablehnung von „bestimmt“. Hilfeeinsatz getrennt vermerken, richtige Inhalte nicht pauschal entwerten."
           ]
         }
       ],

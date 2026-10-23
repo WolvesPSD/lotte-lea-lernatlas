@@ -43,13 +43,13 @@
     ? 'Interner Prüfmodus · diese Ansicht kann ungeprüfte Aufgaben enthalten.'
     : availableTopics.length
       ? `${availableTopics.length} intern geprüfte Übungsthemen verfügbar · Die Jahresabdeckung ist noch im Aufbau.`
-      : 'Noch keine fachlich freigegebenen Jahresmodule. Interne Prüfaufgaben sind in dieser Ansicht gesperrt.';
+      : 'Noch keine intern geprüften Übungsmodule. Interne Prüfaufgaben sind in dieser Ansicht gesperrt.';
   $('#choose-description').textContent = preview
     ? 'Interner Prüfmodus: Zusätzlich sind gesperrte Entwürfe zur Technik- und Fachprüfung sichtbar.'
     : availableTopics.length
       ? 'Wähle, was ihr gerade macht oder was du zusätzlich üben möchtest. Jahrgangs- und Quellenstand stehen bei jedem Thema.'
-      : 'Fachlich freigegebene Jahresmodule werden hier nach Prüfung auswählbar.';
-  if (!preview && availableTopics.length === 0) $('#home-lead').textContent = 'Die Jahresmodule werden fachlich geprüft. Bis zur Freigabe sind hier keine Lernaufgaben verfügbar.';
+      : 'Intern geprüfte Übungsmodule werden hier nach Prüfung auswählbar.';
+  if (!preview && availableTopics.length === 0) $('#home-lead').textContent = 'Die Übungsmodule werden intern geprüft. Bis zur Freigabe sind hier keine Lernaufgaben verfügbar.';
   const lotteReleaseStatus = $('#release-status').textContent;
 
   function load() {
@@ -228,7 +228,7 @@
   $('#topic-search-clear').addEventListener('click', () => { $('#topic-search-input').value = ''; applyTopicSearch(); $('#topic-search-input').focus(); });
   function renderChoose() {
     const host = $('#topic-list'); host.replaceChildren();
-    if (availableTopics.length === 0) appendText(host, 'p', 'empty-state', 'Noch keine fachlich freigegebenen Themen. Der Jahreskatalog wird geprüft.');
+    if (availableTopics.length === 0) appendText(host, 'p', 'empty-state', 'Noch keine intern geprüften Themen. Der Jahreskatalog wird geprüft.');
     const orderedSubjects = [...catalog.subjects].sort((a, b) => {
       const countA = availableTopics.filter(topic => topic.subjectId === a.id).length;
       const countB = availableTopics.filter(topic => topic.subjectId === b.id).length;
@@ -258,7 +258,7 @@
           const body = create('span', 'topic-card-body');
           appendText(body, 'strong', '', topic.title);
           appendText(body, 'span', 'level-tag', levelLabel(topic));
-          appendText(body, 'span', 'topic-review-status', topic.released ? 'Fachlich geprüft' : 'Nur Prüfmodus · fachlich nicht freigegeben');
+          appendText(body, 'span', 'topic-review-status', topic.released ? 'Intern geprüft' : 'Nur Prüfmodus · noch nicht freigegeben');
           appendText(body, 'span', 'muted topic-short-reason', topic.scope);
           choice.append(body); card.append(choice);
           const detail = create('details', 'topic-card-details');
@@ -276,7 +276,7 @@
       const row = create('div', 'subject-row');
       appendText(row, 'strong', '', subject.name);
       appendText(row, 'span', '', `Lehrplanstand ${subject.plan} · Bezug ${subject.scope}`);
-      appendText(row, 'span', '', `${availableTopics.filter(topic => topic.subjectId === subject.id).length} auswählbare Module · ${catalog.topics.filter(topic => topic.subjectId === subject.id && topic.released).length} fachlich freigegeben`);
+      appendText(row, 'span', '', `${availableTopics.filter(topic => topic.subjectId === subject.id).length} auswählbare Module · ${catalog.topics.filter(topic => topic.subjectId === subject.id && topic.released).length} intern geprüft`);
       list.append(row);
     }
     updateSelection();
@@ -380,6 +380,7 @@
     if (topic.prerequisite) appendText(intro, 'p', 'muted', topic.prerequisite);
     appendText(intro, 'p', '', topic.introduction);
     if (topic.passage) appendText(intro, 'blockquote', 'reading-passage', topic.passage);
+    if (topic.tasks.some(task => task.helpAfterAttempt)) appendText(intro, 'p', 'learning-step-note', 'Erst selbst antworten und „Antwort prüfen“ wählen. Danach kannst du die freiwillige Formenhilfe öffnen.');
     if (topic.stagedReading) appendText(intro, 'p', 'muted', `Zuerst nur der Titel: ${topic.stagedReading.title}. Der Lesetext erscheint nach deiner ersten Vermutung.`);
     if (topic.diagram) {
       const figure = create('figure', 'learning-diagram');
@@ -533,12 +534,30 @@
     }
     card.append(input);
     const result = create('div', 'task-result'); result.setAttribute('aria-live', 'polite');
+    const helpAttemptKey = `${task.id}-hilfe-erstversuch`;
+    const helpUsedKey = `${task.id}-hilfe-genutzt`;
+    let helpButton = null;
+    if (task.helpAfterAttempt) {
+      const helpText = appendText(card, 'p', 'task-help', task.helpAfterAttempt);
+      helpText.hidden = state.answers[helpUsedKey] !== 'ja';
+      helpButton = button('Formenhilfe nach Erstversuch öffnen', () => {
+        if (state.answers[helpAttemptKey] !== 'ja') return;
+        state.answers[helpUsedKey] = 'ja'; save();
+        helpButton.hidden = true; helpText.hidden = false;
+      }, 'check-button');
+      helpButton.hidden = state.answers[helpAttemptKey] !== 'ja' || state.answers[helpUsedKey] === 'ja';
+      card.append(helpButton);
+    }
     card.append(button(task.manualBookReview ? 'Prüfweg ansehen' : 'Antwort prüfen', () => {
       const value = state.answers[task.id] || '';
       const outcome = taskResult(task, value);
       result.replaceChildren(); result.dataset.status = outcome.status;
       appendText(result, 'p', '', outcome.label);
       if (outcome.status !== 'empty' && outcome.status !== 'invalid') {
+        if (task.helpAfterAttempt && state.answers[helpAttemptKey] !== 'ja') {
+          state.answers[helpAttemptKey] = 'ja'; save();
+          if (helpButton) helpButton.hidden = false;
+        }
         const showSolution = () => {
           if (task.sample) appendText(result, 'p', 'sample-answer', `${task.manualBookReview ? 'Methodenbeispiel zu Heidi (kein Lösungsschlüssel für dein Buch)' : 'Musterlösung'}: ${task.sample}`);
           const steps = task.explanation || task.criteria || [];
@@ -602,6 +621,7 @@
         appendText(item, 'h3', '', `${index + 1}. ${task.prompt}`);
         const answer = state.answers[task.id];
         appendText(item, 'p', 'muted', `Eingabe im Kinderbereich: ${answer ? String(answer) : 'noch keine'}`);
+        if (task.helpAfterAttempt) appendText(item, 'p', 'muted', `Formenhilfe nach Erstversuch: ${state.answers[`${task.id}-hilfe-genutzt`] === 'ja' ? 'genutzt' : 'nicht als genutzt vermerkt'}. Dieser Status ist keine automatische Leistungsbewertung.`);
         appendText(item, 'p', 'sample-answer', `${task.manualBookReview ? 'Methodenbeispiel zu Heidi, kein Inhaltsschlüssel für dieses Buch' : 'Lösung'}: ${task.sample || task.correctLabel || task.correct}`);
         const steps = task.explanation || task.criteria || [];
         const ol = create('ol'); steps.forEach(step => appendText(ol, 'li', '', step)); item.append(ol);
@@ -640,12 +660,12 @@
       }
       const topics = catalog.topics.filter(topic => topic.subjectId === subject.id && topic.released);
       appendText(card, 'p', 'source-status', `Themenableitung: ${topics.length ? topics.map(topic => topic.title).join('; ') : 'Noch kein nutzbares Themenpaket aus diesem Fach.'}`);
-      appendText(card, 'p', 'source-status', `Aufgabenprüfung: ${topics.length ? `${topics.length} fachlich freigegeben${topics.length === 1 ? 'es Paket' : 'e Pakete'} mit Musterlösung` : 'Keine Aufgabe freigegeben'}. Keine Aussage über den aktuellen Schulstoff.`);
+      appendText(card, 'p', 'source-status', `Aufgabenprüfung: ${topics.length ? `${topics.length} intern geprüft${topics.length === 1 ? 'es Paket' : 'e Pakete'} mit Musterlösung` : 'Keine Aufgabe freigegeben'}. Keine Aussage über den aktuellen Schulstoff.`);
       if (topics.length) {
         const detail = create('details', 'source-detail');
         appendText(detail, 'summary', '', 'Belegstellen der geprüften Aufgaben');
         const list = create('ul');
-        for (const topic of topics) appendText(list, 'li', '', `${topic.title} · ${levelLabel(topic)}. Eigene Aufgabenableitung: ${topic.releaseEvidence.competencyRef} Fachlich geprüft am ${topic.releaseEvidence.checkedAt}.`);
+        for (const topic of topics) appendText(list, 'li', '', `${topic.title} · ${levelLabel(topic)}. Eigene Aufgabenableitung: ${topic.releaseEvidence.competencyRef} Intern geprüft am ${topic.releaseEvidence.checkedAt}.`);
         detail.append(list); card.append(detail);
       }
       host.append(card);
@@ -726,6 +746,7 @@
         const item = create('div', 'print-task'); item.dataset.taskId = task.id;
         if (topic.stagedUpdate && mode === 'adult' && index === topic.tasks.length - 2) item.classList.add('print-keep-together');
         appendText(item, 'h3', '', `${index + 1}. ${task.prompt}`);
+        if (mode === 'adult' && task.helpAfterAttempt) appendText(item, 'p', 'muted', `Formenhilfe nach Erstversuch: ${state.answers[`${task.id}-hilfe-genutzt`] === 'ja' ? 'genutzt' : 'nicht als genutzt vermerkt'}. Dieser Status ist keine automatische Leistungsbewertung.`);
         if (mode === 'child') {
           if (task.options) task.options.forEach(option => appendText(item, 'p', '', `☐ ${option}`));
           else {
@@ -808,7 +829,20 @@
       const imported = JSON.parse(await file.text());
       if (imported.format !== 'lotte-lea-local-backup' || imported.version !== 1 || (imported.profile !== undefined && imported.profile !== 'lotte') || !Array.isArray(imported.selected) || !imported.answers || typeof imported.answers !== 'object' || Array.isArray(imported.answers)) throw new Error('Dateiformat, Version oder Lernbereich passt nicht.');
       const validTaskIds = new Set(availableTopics.flatMap(topic => topic.tasks.map(task => task.id)));
-      if (imported.selected.some(id => !topicById.has(id)) || Object.entries(imported.answers).some(([id, value]) => !validTaskIds.has(id) || typeof value !== 'string' || value.length > 5000)) throw new Error('Sicherung enthält unbekannte Themen oder ungültige Antworten.');
+      const validMarkerIds = new Set();
+      for (const topic of availableTopics) {
+        const firstId = topic.tasks[0]?.id;
+        if (firstId && topic.stagedReading) {
+          validMarkerIds.add(`${firstId}-text-gezeigt`);
+          validMarkerIds.add(`${firstId}-update-gezeigt`);
+        } else if (firstId && topic.stagedUpdate) validMarkerIds.add(`${firstId}-update-gezeigt`);
+        for (const task of topic.tasks) if (task.helpAfterAttempt) {
+          validMarkerIds.add(`${task.id}-hilfe-erstversuch`);
+          validMarkerIds.add(`${task.id}-hilfe-genutzt`);
+        }
+      }
+      if (imported.selected.some(id => !topicById.has(id)) || Object.entries(imported.answers).some(([id, value]) =>
+        typeof value !== 'string' || (validMarkerIds.has(id) ? value !== 'ja' : !validTaskIds.has(id) || value.length > 5000))) throw new Error('Sicherung enthält unbekannte Themen oder ungültige Antworten.');
       if (!window.confirm('Diese Sicherung ersetzt den gesamten bisherigen Lernstand in diesem Browser. Fortfahren?')) { status.textContent = 'Import abgebrochen; bisheriger Stand bleibt erhalten.'; return; }
       state = { selected: [...new Set(imported.selected)], active: imported.selected.includes(imported.active) ? imported.active : imported.selected[0] || null, answers: imported.answers };
       save(); renderAdult();

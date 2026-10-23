@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
   <title>Lotte & Lea – Lernraum</title>
-  <link rel="stylesheet" href="styles.css?v=2026.10.23-ethikraum.1">
+  <link rel="stylesheet" href="styles.css?v=2026.10.23-dr1formhilfe.1">
 </head>
 <body>
   <a class="skip-link" href="#main">Zum Inhalt</a>
@@ -21,8 +21,8 @@
     </nav>
   </header>
   <main id="main" tabindex="-1">
-    <div id="release-status" class="status-banner" role="status">Interner Technikstand · noch keine fachlich freigegebene Jahresversion.</div>
-    <p id="release-version" class="release-version">Paketversion 2026.10.23-ethikraum.1</p>
+    <div id="release-status" class="status-banner" role="status">Interner Technikstand · noch keine vollständige Jahresversion.</div>
+    <p id="release-version" class="release-version">Paketversion 2026.10.23-dr1formhilfe.1</p>
     <section id="home-view" class="view" aria-labelledby="home-heading">
       <div class="hero">
         <div><p class="eyebrow">Deine Lernroute für heute</p><h1 id="home-heading">Heute lernen.</h1><p class="lead" id="home-lead">Wähle aus, was du heute üben möchtest. Themen aus mehreren Fächern passen in eine Lerneinheit.</p><button class="primary" type="button" data-nav="choose">Themen auswählen <span aria-hidden="true">→</span></button></div>
@@ -45,7 +45,7 @@
       <p class="privacy-note">Die Bereiche verwenden getrennte Lernstände in diesem Browser. Beim Wechsel zu Lotte wird nur Lottes Stand angezeigt.</p>
     </section>
     <section id="choose-view" class="view" hidden aria-labelledby="choose-heading">
-      <div class="section-heading"><p class="eyebrow">Lotte · Klasse 7</p><h1 id="choose-heading">Was steht heute an?</h1><p id="choose-description">Fachlich freigegebene Jahresmodule werden hier nach Prüfung auswählbar.</p></div>
+      <div class="section-heading"><p class="eyebrow">Lotte · Klasse 7</p><h1 id="choose-heading">Was steht heute an?</h1><p id="choose-description">Intern geprüfte Übungsmodule werden hier nach Prüfung auswählbar.</p></div>
       <div class="topic-search"><label for="topic-search-input">Thema suchen</label><div class="topic-search-controls"><input id="topic-search-input" type="search" autocomplete="off" placeholder="Zum Beispiel Prozent, Deutsch oder Quellen"><button id="topic-search-clear" type="button">Suche löschen</button></div><div class="topic-stage-controls"><label for="topic-stage-filter">Jahrgang</label><select id="topic-stage-filter"><option value="all">Alle Angebote</option><option value="grade7">Klasse 7</option><option value="grade6-review">Klasse-6-Grundlagen und MNT-Brücke</option><option value="grade78-flex">Klasse 7/8 · freiwillig</option><option value="grade8-outlook">Ausblick Klasse 8</option><option value="additional-unclear">Freiwillig · Lehrplan offen</option></select></div><p id="topic-search-status" role="status" aria-live="polite"></p></div>
       <div class="choose-workspace"><div id="topic-list" class="subject-groups"></div>
       <aside class="selection-bar" aria-label="Deine Lernroute"><div><h2>Deine Lernroute</h2><p id="selection-summary" aria-live="polite"></p><p id="selection-by-subject" class="selection-detail"></p><ol id="selected-route-list"></ol></div><button class="primary" id="start-learning" type="button">Lerneinheit öffnen</button></aside></div>
@@ -59,7 +59,7 @@
     <section id="adult-view" class="view" hidden aria-labelledby="adult-heading">
       <div class="section-heading"><p class="eyebrow">Begleitung</p><h1 id="adult-heading">Für Erwachsene.</h1><p>Alle Musterlösungen und Rechenschritte sind hier getrennt vom Arbeitsbereich erklärt. Diese Ansicht ist nicht mit einem Passwort geschützt.</p></div>
       <nav class="adult-jumps" aria-label="Bereiche für Erwachsene"><button type="button" data-adult-jump="sources">Quellen</button><button type="button" data-adult-jump="print">Drucken</button><button type="button" data-adult-jump="backup">Sicherung</button><button type="button" data-nav="feedback">Rückmeldung</button></nav>
-      <details class="source-panel"><summary id="sources-heading">Woher stammen die Lehrpläne?</summary><p>Die amtlichen Links führen zum Thüringer Schulportal. Unsere Themen sind daraus abgeleitete, eigens verfasste Übungen. „Fachlich freigegeben“ bezeichnet die geprüfte Aufgabe in dieser App; es bestätigt weder Lottes Unterrichtsfolge noch eine vollständige Jahresabdeckung. Die öffentlichen Fachdokumente konnten nicht mit allen lokalen Arbeitskopien bytegleich abgeglichen werden.</p><div id="parent-source-list" class="source-grid"></div></details>
+      <details class="source-panel"><summary id="sources-heading">Woher stammen die Lehrpläne?</summary><p>Die amtlichen Links führen zum Thüringer Schulportal. Unsere Themen sind daraus abgeleitete, eigens verfasste Übungen. „Intern geprüft“ bezeichnet die Kontrolle innerhalb dieses Projekts; sie bestätigt weder eine externe Fachabnahme noch Lottes Unterrichtsfolge oder eine vollständige Jahresabdeckung. Die öffentlichen Fachdokumente konnten nicht mit allen lokalen Arbeitskopien bytegleich abgeglichen werden.</p><div id="parent-source-list" class="source-grid"></div></details>
       <div id="adult-content"></div>
       <div class="adult-actions"><button id="print-children" type="button">Kinder-Arbeitsblatt drucken</button><button id="print-adult" type="button">Lösungsblatt drucken</button><button type="button" data-nav="feedback">Rückmeldung vorbereiten</button></div>
       <section class="backup-panel" aria-labelledby="backup-heading"><h2 id="backup-heading" tabindex="-1">Lottes Lernstand sichern</h2><p>Diese Sicherung gehört nur zu Lotte. Antworten liegen nur in diesem Browserprofil. Andere Personen mit demselben Browserprofil können sie sehen; beim Löschen der Websitedaten können sie verloren gehen. Du kannst eine private JSON-Sicherung speichern und später bewusst auf einem anderen Gerät in Lottes Bereich importieren. Der Import ersetzt dort Lottes Stand vollständig.</p><div class="adult-actions"><button id="export-progress" type="button">Lottes private Sicherung herunterladen</button><label class="import-button" for="import-progress">Lottes Sicherung auswählen</label><input id="import-progress" type="file" accept="application/json,.json"></div><p id="backup-status" role="status"></p></section>
@@ -76,6 +76,6 @@
   </main>
   <footer><span>Lotte & Lea · Familienversion</span><button type="button" data-nav="feedback">Rückmeldung</button></footer>
   <div id="print-surface" aria-hidden="true"></div>
-  <script src="catalog.js?v=2026.10.23-ethikraum.1"></script><script src="contact.js?v=2026.10.23-ethikraum.1"></script><script src="app.js?v=2026.10.23-ethikraum.1"></script>
+  <script src="catalog.js?v=2026.10.23-dr1formhilfe.1"></script><script src="contact.js?v=2026.10.23-dr1formhilfe.1"></script><script src="app.js?v=2026.10.23-dr1formhilfe.1"></script>
 </body>
 </html>

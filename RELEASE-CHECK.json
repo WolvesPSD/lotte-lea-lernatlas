@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-23T06:13:23.758Z",
-  "releaseVersion": "2026.10.23-m14formeln.1",
+  "builtAt": "2026-10-23T06:32:52.821Z",
+  "releaseVersion": "2026.10.23-mbii1nutzen.1",
   "newTopicIds": [
-    "ma-volumenformeln-erklaeren"
+    "mbi-tabellen-nutzen-lernen-beruf"
   ],
   "changeLog": [
-    "Mathematik: Ein freiwilliger Klasse-8-Ausblick lässt Volumenformeln für Zylinder, Kegel und Pyramide zunächst ohne sichtbare Hilfe erinnern und danach mit begrenzten Modellen erklären.",
-    "A wird vor Bild und Formelsammlung festgehalten; B–E zählen 24 Hauptpunkte und ein späterer Transfer sechs getrennte Zusatzpunkte. Zeichnung, Hilfsmittel und reale Rechnerbedienung brauchen menschliche Prüfung."
+    "Medienbildung und Informatik: Ein freiwilliger schriftlicher Teilfall fragt, wann Tabellenkalkulation beim eigenen Lernen und in einer beruflichen Datenübersicht hilft und wo menschliche Prüfung nötig bleibt.",
+    "A–E umfassen 20 Hauptpunkte; ein späterer fiktiver Transfer zählt sechs getrennte Zusatzpunkte. Die amtliche MBI-Zielmarke ist Ende Klasse 8; eigene Tabellenbedienung und Lernwirkung sind damit nicht belegt."
   ],
-  "rollbackCommit": "8241f5276ba306a241442dcad7c06a04db187e61",
+  "rollbackCommit": "d55516e59d4b66084a1ad46332f4ec4bedccf466",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -121,7 +121,8 @@
     "mnt-bionik-leichtbau-modell",
     "mu09-bass-triole-taktwechsel",
     "sp-basketball-regelkarte-papier",
-    "mnt-wasser-teilchenmodell"
+    "mnt-wasser-teilchenmodell",
+    "mbi-tabellen-nutzen-lernen-beruf"
   ],
   "subjects": [
     "mnt",

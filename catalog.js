@@ -10128,6 +10128,136 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "MNT-Erprobungsfassung 2026, PDF-S. 2, 15 und §2.2.3 PDF-S. 17–18: Ende Klasse 6 Körperzustände, Kugelteilchenmodell, Bewegung und Anordnung sowie Schmelzen, Verdampfen, Kondensieren und Gefrieren von Wasser. Keine amtliche Klasse-7-Zuordnung.",
         "checkedAt": "2026-10-23"
       }
+    },
+    {
+      "id": "mbi-tabellen-nutzen-lernen-beruf",
+      "subjectId": "mbi",
+      "title": "Wann hilft eine Tabellenkalkulation?",
+      "scope": "Freiwilliger schriftlicher I1-Teilfall im aktuellen MBI-Lernzeitraum Klasse 7/8 mit Zielstand Ende Klasse 8. Die Lernzeiten sind erfunden; Lottes Schulfolge ist unbekannt. Eine Textantwort belegt keine eigene Tabellenbedienung.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Du brauchst keine eigenen Lernzeiten, Noten oder Berufsdaten. Lies die zwei Quellenkarten als Beispiele aus dem Ausland; sie sind keine Thüringer Schulregeln. Wenn du Tabellen selbst bearbeiten möchtest, nutze zusätzlich die vorhandenen I1-Übungen mit leerem Startblatt.",
+      "introduction": "Mika plant eine erfundene Lernwoche. Eine zweite Karte beschreibt eine Datenübersicht aus der Arbeitswelt. Entscheide jeweils, wozu eine Tabellenkalkulation helfen kann und was weiterhin ein Mensch prüfen muss. A–E ergeben 20 Hauptpunkte; der spätere Transfer zählt sechs getrennte Zusatzpunkte. Freie Antworten bewertet die App nicht automatisch.",
+      "passage": "FIKTIVER LERNPLAN · Vokabeln wiederholen: 25 Minuten. Matheaufgaben üben: 20 Minuten. Vortrag vorbereiten: 35 Minuten. Mikas selbst gesetztes Wochenziel: 90 Minuten. Die Zahlen sind keine Empfehlung für dich.\n\nBERUFLICHES BEISPIEL · Eine Mitarbeiterin soll für eine kurze Übersicht zwei Anforderungen mehrerer Berufe vergleichen. Die unten verlinkte Anleitung des US Bureau of Labor Statistics zeigt für einen solchen Datenvergleich eine Pivot-Tabelle. Das Beispiel sagt nicht, welcher Beruf zu einer Person passt.",
+      "sourceCards": [
+        {
+          "title": "1 · Tabellen sinnvoll wählen",
+          "text": "Die britische Verwaltungsanleitung nennt persönliche Nutzung und Formeln für veränderliche Werte. Sie empfiehlt, Werkzeug und Format nach Nutzerbedarf und Datenumfang zu wählen. Für detaillierte Auswertung oder regelmässig zusammengeführte Daten kann ein anderes maschinenlesbares Format geeigneter sein. Sie nennt keine feste Zeilengrenze.",
+          "sourceLabel": "GOV.UK · Creating and sharing spreadsheets",
+          "sourceUrl": "https://www.gov.uk/guidance/creating-and-sharing-spreadsheets",
+          "sourceNote": "Britische Verwaltungsanleitung, Stand 05.10.2023, abgerufen 23.10.2026; Orientierung, keine Thüringer Schulvorgabe."
+        },
+        {
+          "title": "2 · Berufliche Daten vergleichen",
+          "text": "Die US-Behörde BLS erklärt an Daten zu beruflichen Anforderungen, wie eine Pivot-Tabelle mehrere Merkmale vergleicht. Das belegt ein konkretes Arbeitsbeispiel. Ob eine beliebige Auswertung fehlerfrei oder für eine Berufswahl geeignet ist, folgt daraus nicht.",
+          "sourceLabel": "BLS · Using Pivot Tables to compare occupational requirements",
+          "sourceUrl": "https://www.bls.gov/ors/factsheet/pivot-table-guide.htm",
+          "sourceNote": "US-Behördenanleitung, abgerufen 23.10.2026. Kein Beleg dafür, dass alle Berufe Tabellenkalkulation nutzen."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–E",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGER TRANSFER NACH A–E · Denke dir eine weitere kleine, ausdrücklich fiktive Lern- oder Arbeitsfrage aus. Beschreibe zwei Tabellenspalten, eine passende Berechnung und eine Grenze dessen, was die Zahlen aussagen können. Verwende keine eigenen Noten, Lernzeiten, Personendaten oder realen Berufsfälle."
+      },
+      "tasks": [
+        {
+          "id": "mbi-nutzen-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Mikas Lernplan (4 Hauptpunkte): Berechne die geplante Gesamtzeit und den Abstand zum Ziel. Nenne einen konkreten Vorteil einer Tabellenkalkulation beim Ändern der Planung. Welche Grenze hat die Tabelle, wenn es um Mikas tatsächliches Lernen geht?",
+          "sample": "25 + 20 + 35 = 80 Minuten; das liegt 10 Minuten unter dem Ziel von 90. Eine Tabelle kann die Summe nach einer geänderten Zeit neu berechnen. Ob Mika konzentriert gelernt oder etwas verstanden hat, kann sie daraus nicht erkennen.",
+          "criteria": [
+            "1 Punkt für 80 Minuten, 1 Punkt für 10 Minuten unter dem Ziel.",
+            "1 Punkt für einen konkreten Nutzen, etwa automatische Neuberechnung nach einer Änderung.",
+            "1 Punkt für eine menschliche Lernentscheidung oder nicht messbare Lernwirkung; aus Minuten folgt kein Verständnis."
+          ]
+        },
+        {
+          "id": "mbi-nutzen-2",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Berufliche Übersicht (5 Hauptpunkte): Wozu kann die in der BLS-Karte beschriebene Pivot-Tabelle bei zwei Anforderungen mehrerer Berufe helfen? Nenne zwei verschiedene konkrete Kontrollen vor dem Teilen einer Übersicht. Welche allgemeine Aussage über Berufe oder Personen darfst du aus diesem einen Beispiel nicht ableiten?",
+          "sample": "Die Pivot-Tabelle kann Anforderungen nach Berufen gruppieren und ausgewählte Werte vergleichen. Vor dem Teilen würde ich Einheiten und Definitionen sowie fehlende Werte oder Quellengleichheit prüfen. Das Beispiel beweist weder, dass jeder Beruf Tabellenkalkulation nutzt, noch, welcher Beruf zu einer Person passt.",
+          "criteria": [
+            "2 Punkte für konkretes Gruppieren/Vergleichen mehrerer beruflicher Anforderungen.",
+            "Je 1 Punkt für zwei verschiedene Qualitätsprüfungen, etwa Quelle, Definition, Einheit, fehlende Werte oder korrekte Zusammenfassung.",
+            "1 Punkt für die Grenze eines Einzelfalls: keine allgemeine Berufsnutzung oder persönliche Berufseignung ableiten."
+          ]
+        },
+        {
+          "id": "mbi-nutzen-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Werkzeugwahl (4 Hauptpunkte): Die berufliche Übersicht wächst auf Hunderte Zeilen und wird regelmässig aus mehreren Quellen ergänzt. Ist eine Tabellenkalkulation deshalb sicher die beste Lösung? Begründe anhand der GOV.UK-Karte und benenne eine mögliche Alternative oder ein anderes Datenformat. Gibt die Quelle eine feste Zeilengrenze an?",
+          "sample": "Nein, das ist nicht sicher. Nutzerbedarf, Datenmenge und Art der Analyse müssen zusammenpassen. Für detaillierte oder regelmässig zusammengeführte Daten kann zum Beispiel ein maschinenlesbares CSV oder ein anderes Werkzeug geeigneter sein. Die Quelle nennt keine feste Zeilengrenze.",
+          "criteria": [
+            "2 Punkte für eine abgewogene Entscheidung anhand von Nutzerbedarf, Datenumfang und Arbeitsablauf.",
+            "1 Punkt für ein passendes alternatives Format/Werkzeug wie CSV bei detaillierter Auswertung.",
+            "1 Punkt für die richtige Grenze: keine sichere Universal- oder Zeilengrenze aus der Quelle."
+          ]
+        },
+        {
+          "id": "mbi-nutzen-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Gegenüberstellung (4 Hauptpunkte): Schreibe für Mikas Lernplan und die berufliche Übersicht je einen konkreten Nutzen der Tabellenkalkulation und je eine Frage, die ein Mensch weiterhin prüfen oder entscheiden muss. Nutze für beide Situationen unterschiedliche, passende Beispiele.",
+          "sample": "Lernplan: veränderliche Zeiten addieren; Mika entscheidet, ob Ziel und Aufgaben passen und ob sie etwas verstanden hat. Berufliche Übersicht: Anforderungen gruppieren und vergleichen; ein Mensch prüft Herkunft, Definitionen und Aussagegrenzen vor dem Teilen.",
+          "criteria": [
+            "Je 1 Punkt für einen passenden Tabellennutzen in beiden Situationen.",
+            "Je 1 Punkt für eine dazu passende menschliche Prüfung oder Entscheidung in beiden Situationen."
+          ]
+        },
+        {
+          "id": "mbi-nutzen-5",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "E · Funktion und Merksatz (3 Hauptpunkte): Wähle für A oder B eine konkrete Funktion oder ein Werkzeug der Tabellenkalkulation und begründe die Hilfe für die dortige Frage. Wann wäre eine einfachere Darstellung oder ein anderes Werkzeug besser? Formuliere zuletzt einen Merksatz: „Eine Tabellenkalkulation hilft beim Lernen/Arbeiten, wenn …; ich muss trotzdem …“",
+          "sample": "Für A passt SUMME, weil mehrere Zeiten zusammengezählt werden. Für zwei einzelne Zahlen kann eine kleine beschriftete Tabelle statt einer Grafik genügen; bei aufwendiger Datenzusammenführung kann ein anderes Werkzeug besser sein. Eine Tabellenkalkulation hilft bei veränderlichen Zahlen; Datenqualität und Deutung muss ich trotzdem prüfen.",
+          "criteria": [
+            "1 Punkt für eine zur gewählten Frage passende konkrete Funktion oder ein Tabellenwerkzeug mit Begründung.",
+            "1 Punkt für eine begründete andere Darstellung oder Werkzeugwahl.",
+            "1 Punkt für einen verständlichen Merksatz mit menschlicher Prüfpflicht."
+          ]
+        },
+        {
+          "id": "mbi-nutzen-6",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer nach A–E · sechs getrennte Zusatzpunkte: Denke dir eine eigene fiktive Mini-Frage aus Lernen oder Beruf aus. Nenne zwei passende Tabellenspalten, eine Berechnung und eine genaue Grenze der Aussage. Erkläre, weshalb diese Grenze wichtig ist. Verwende keine persönlichen Daten.",
+          "sample": "Fiktive Frage: Wie viele Papierbögen braucht eine erfundene Werkstatt für drei Gruppen? Spalten: Gruppe und geplante Bögen. Berechnung: Summe der geplanten Bögen. Die Summe zeigt nur den Plan, nicht den tatsächlichen Verbrauch; ohne spätere Zählung kann man daraus keine Einsparung behaupten.",
+          "criteria": [
+            "2 Zusatzpunkte für eine schlüssige Frage und zwei passende Spalten.",
+            "2 Zusatzpunkte für eine zur Frage passende Berechnungsidee.",
+            "2 Zusatzpunkte für eine konkrete Aussagegrenze und deren Bedeutung. Zusatzpunkte getrennt von den 20 Hauptpunkten ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.1 PDF-S. 24, I1-SS4: Nutzen der Tabellenkalkulation für eigenes Lernen und Arbeiten sowie im beruflichen Umfeld beschreiben; Zielmarke Klassenstufe 8. Keine schulische Klasse-7-Themenfolge belegt.",
+        "checkedAt": "2026-10-23"
+      }
     }
   ]
 });

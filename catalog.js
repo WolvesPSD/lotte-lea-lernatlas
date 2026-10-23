@@ -1454,6 +1454,121 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "de-homonym-kiefer",
+      "subjectId": "de",
+      "title": "Welche Kiefer ist gemeint?",
+      "scope": "Freiwillige, gestützte 7/8-Übung zu einem einzelnen Homonym. Der Deutsch-Lehrplan nennt Homonyme in der 7/8-Spalte; die Reihenfolge an Lottes Schule ist unbekannt. Dieser Schriftfall deckt weder alle Wortbedeutungen noch Akronyme ab.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Lies beide erfundenen Meldungen genau. Bei einem unbekannten Fachwort darfst du erst eine eigene Erklärung versuchen und danach ein Wörterbuch oder Hilfe nutzen; notiere die Hilfe. Du brauchst keine echten Personen, Bäume oder Untersuchungen zu beschreiben.",
+      "introduction": "Zwei kurze, vollständig erfundene Meldungen benutzen dasselbe geschriebene Wort. Begründe die jeweilige Bedeutung mit Hinweisen aus den Zeilen. Eine knappe Notiz kann trotzdem offenbleiben. Die 20 Hauptpunkte sind Lernfeedback, keine Schulnote; die freiwilligen vier Zusatzpunkte werden getrennt gezählt. Schreibe zuerst eigene Antworten. Sachlösung und Kriterien stehen getrennt im Erwachsenenbereich.",
+      "passage": "A · Am Waldrand\n[Z1] Die Gruppe sucht den markierten Baum am Waldrand.\n[Z2] Auf dem Lagezettel steht: „Die Kiefer steht neben dem Weg.“\n[Z3] In der Skizze sind Kiefern mit einer breiten Krone und langen Nadeln eingezeichnet.\n\nB · Beim Zahnarzt\n[Z4] In einer erfundenen Geschichte wartet Levent auf eine Untersuchung.\n[Z5] Im Notizbuch steht: „Der Kiefer tut beim Kauen weh.“\n[Z6] In der Wortliste steht: „ein Kiefer, zwei Kiefer“. Beim Kauen bewegt sich der Unterkiefer.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "1–5",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGER TRANSFER NACH 1–5 · Eine dritte, ebenfalls erfundene Notiz lautet nur: „Kiefer beschädigt.“ Die vier Zusatzpunkte gehören nicht zur Hauptsumme."
+      },
+      "tasks": [
+        {
+          "id": "de-kiefer-1",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Bedeutung aus dem Zusammenhang (6 Hauptpunkte): Erkläre, was „Kiefer“ in A und B jeweils bezeichnet. Nenne für jede Meldung zwei passende Hinweise aus den Zeilen. Je Meldung zählen Bedeutung (1) und zwei Hinweise (2).",
+          "sample": "A bezeichnet einen Nadelbaum: Die Gruppe ist am Waldrand, und Z3 nennt Krone und Nadeln. B bezeichnet den Kieferknochen: Zahnarzt, Kauen und der bewegliche Unterkiefer stützen diese Lesart. Ein Einzelhinweis allein muss noch kein Beweis sein.",
+          "criteria": [
+            "3 Punkte A: Nadelbaum (1) und zwei passende Hinweise aus Z1–Z3 (je 1).",
+            "3 Punkte B: Kopf-/Kieferknochen (1) und zwei passende Hinweise aus Z4–Z6 (je 1). Kombination und Zusammenhang zählen; keinen einzelnen Hinweis als allein sicheren Beweis verlangen."
+          ]
+        },
+        {
+          "id": "de-kiefer-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Wortform untersuchen (4 Hauptpunkte): Vergleiche Artikel und Mehrzahl in Z2–Z3 mit Z5–Z6. Was ist gleich, was unterscheidet sich? Was verraten die Mehrzahlformen, und weshalb lösen sie die kurze Notiz „Kiefer prüfen“ nicht auf?",
+          "sample": "A hat „die Kiefer“, „Kiefern“; B hat „der Kiefer“, „Kiefer“ als Mehrzahl. Die Singularform sieht gleich aus und klingt gleich. Der Pluralunterschied trennt die zwei Beispiele, aber „Kiefer prüfen“ enthält keinen Plural und keinen weiteren Zusammenhang. Regional ist beim Knochen auch „das Kiefer“ belegt und ohne Begründungspflicht zu akzeptieren.",
+          "criteria": [
+            "1 Punkt: Artikel A „die“, B „der“; regionales „das“ beim Knochen ohne Begründungspflicht zulassen.",
+            "1 Punkt: Plural A „Kiefern“, B „Kiefer“.",
+            "1 Punkt: gleiche geschriebene und gesprochene Singularform erkannt.",
+            "1 Punkt: Plural hilft bei diesen Beispielen, steht in „Kiefer prüfen“ aber nicht; die knappe Notiz bleibt offen."
+          ]
+        },
+        {
+          "id": "de-kiefer-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Gleiche Form, verschiedene Bedeutungen (4 Hauptpunkte): Erkläre, weshalb die gleich geschriebene Wortform in den beiden Meldungen Unterschiedliches bedeuten kann. Verwende „Kontext“ und „Homonym“ sinnvoll. Du darfst die Begriffe nach einem eigenen Erklärversuch nachschlagen oder Hilfe erfragen; notiere eine genutzte Hilfe.",
+          "sample": "„Kiefer“ ist hier ein Homonym: Die Wortform ist gleich, die Bedeutungen sind verschieden. Der Kontext aus Wörtern und Situation hilft bei A und B zu entscheiden. Genutzte Hilfe zum Beispiel: Duden oder IDS grammis, falls tatsächlich verwendet.",
+          "criteria": [
+            "2 Punkte: gleiche geschriebene/gesprochene Form und unterschiedliche Bedeutungen nachvollziehbar erklärt.",
+            "1 Punkt: „Kontext“ passend als Wörter und Situation zur Bedeutungswahl genutzt.",
+            "1 Punkt: „Homonym“ passend mit Formgleichheit und Bedeutungsunterschied verbunden. Altersgerechte Umschreibung zählt; benutzte Hilfe ehrlich notieren, aber Hilfe nicht voraussetzen."
+          ]
+        },
+        {
+          "id": "de-kiefer-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Mehrdeutige Notiz (4 Hauptpunkte): Auf einem losen Zettel steht nur „Kiefer prüfen“. Kann man daraus sicher entscheiden, was gemeint ist? Schreibe eine klärende Rückfrage und erkläre, welche Information fehlt.",
+          "sample": "Nein. Es könnte um den Baum oder den Kieferknochen gehen. Rückfrage: „Meinst du den Baum am Waldrand oder den Kieferknochen?“ Es fehlt ein Anlass, Ort, Gegenstand oder eine Körperstelle, der die Lesart klärt.",
+          "criteria": [
+            "1 Punkt: Notiz allein entscheidet nicht.",
+            "1 Punkt: zwei mögliche Lesarten erkannt.",
+            "1 Punkt: eine klärende Rückfrage.",
+            "1 Punkt: fehlende Kontextinformation benannt. Eine plausible Vermutung ist keine sichere Auflösung."
+          ]
+        },
+        {
+          "id": "de-kiefer-5",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "Sorgfältig berichten (2 Hauptpunkte): Schreibe einen Satz, der beide Bedeutungen unterscheidet. Behaupte dabei nichts über einen echten Baum, eine echte Person oder eine echte Untersuchung.",
+          "sample": "„Kiefer“ kann einen Nadelbaum oder den Knochen im Kopf bezeichnen; der Zusammenhang zeigt, welche Bedeutung gemeint ist.",
+          "criteria": [
+            "1 Punkt: beide Bedeutungen richtig unterschieden.",
+            "1 Punkt: allgemeine Aussage ohne erfundene reale Beobachtung. Hauptsumme 20 Punkte, keine Schulnote."
+          ]
+        },
+        {
+          "id": "de-kiefer-6",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer · vier getrennte Zusatzpunkte: Die erfundene Notiz „Kiefer beschädigt“ enthält keinen weiteren Zusammenhang. Nenne zwei verschiedene mögliche Bedeutungen und ergänze für jede eine klärende Kontextangabe oder Formulierung. Erkläre die offene Bedeutung. Nenne eine geeignete Quelle für die Wortbedeutungen und ihre Grenze bei genau dieser Notiz.",
+          "sample": "Baum: „Am Waldrand ist der Stamm der Kiefer beschädigt.“ Knochen: „Nach einem Sturz ist der Kiefer beschädigt.“ Beides sind erfundene Sätze. Ohne Kontext bleibt die Notiz mehrdeutig. IDS grammis oder Duden beschreiben Wortbedeutungen, wissen aber nicht, was die schreibende Person mit genau dieser Notiz meinte.",
+          "criteria": [
+            "2 Zusatzpunkte: zwei unterschiedliche, durch je einen Kontext gestützte Lesarten, je 1.",
+            "1 Zusatzpunkt: erklärt, weshalb die kurze Notiz offenbleibt.",
+            "1 Zusatzpunkt: nennt eine passende Quelle und deren Grenze für diese konkrete Notiz. Zusatzpunkte getrennt ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Erprobungsfassung für Klasse 7 ab 2026/27. §2.2.5 PDF-S. 30–31: Wortbedeutung und Formen untersuchen, Zielhorizont Ende Klasse 8. PDF-S. 52: Homonyme in der rechten 7/8-Spalte. Die Tabelle legt keine Unterrichtsreihenfolge fest.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "de-textuntersuchung-bank",
       "subjectId": "de",
       "title": "Ein Platz für alle: eine Erzählung untersuchen",

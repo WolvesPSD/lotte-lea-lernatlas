@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-23T10:02:56.333Z",
-  "releaseVersion": "2026.10.23-mbirechte.1",
+  "builtAt": "2026-10-23T10:15:50.403Z",
+  "releaseVersion": "2026.10.23-dekiefer.1",
   "newTopicIds": [
-    "mbi-rechte-vor-weitergabe"
+    "de-homonym-kiefer"
   ],
   "changeLog": [
-    "MBI: neuer freiwilliger 7/8-Fall mit vier getrennten Fragen zu Urheberschaft, Nutzungsrecht, Bildnis und personenbezogenen Angaben am rein erfundenen Plakat.",
-    "A–D haben 20 Hauptpunkte; die sechs Zusatzpunkte erscheinen erst danach. Amtliche Quelllinks, lösungsfreier Kinderdruck und getrennte Erwachsenenlösung. Keine echte Veröffentlichung oder Rechtsfreigabe."
+    "Deutsch: neuer freiwilliger 7/8-Homonymfall zu Kiefer mit zwei erfundenen Meldungen, Kontext-, Artikel- und Pluralprüfung.",
+    "Fünf Hauptaufträge mit 20 Kriterienpunkten, vier getrennte Zusatzpunkte erst danach; lösungsfreier Kinderdruck und getrennte Erwachsenenlösung. Kein belegter aktueller Schulstoff oder automatische Bewertung."
   ],
-  "rollbackCommit": "1ac7faebd0b502802d29476f013682125c107fc8",
+  "rollbackCommit": "ea46f2a2717ae277fccb77ba5dcfd2ad26d072ee",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -25,6 +25,7 @@
     "fr-leseecke-avis-aide",
     "fr-termin-gespraech",
     "de-textzusammenhang-register",
+    "de-homonym-kiefer",
     "de-textuntersuchung-bank",
     "ma-koerper-modell",
     "ma-medienwahrscheinlichkeit",

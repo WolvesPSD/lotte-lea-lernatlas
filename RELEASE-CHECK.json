@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-23T08:42:09.524Z",
-  "releaseVersion": "2026.10.23-enwfoxes.1",
+  "builtAt": "2026-10-23T08:57:02.961Z",
+  "releaseVersion": "2026.10.23-enwinvite.1",
   "newTopicIds": [
-    "en-living-things-comparison-foxes"
+    "en-invite-mini-comics-workshop"
   ],
   "changeLog": [
-    "Englisch: Zwei belegte Tierkarten vergleichen und für eine fiktive Natur-AG einen zusammenhängenden Sachtext schreiben.",
-    "A–C umfassen 20 Hauptpunkte; eine quellenkritische Änderung erscheint danach mit vier getrennten Zusatzpunkten. Keine persönlichen Angaben oder echten Tierfotos."
+    "Englisch: Noor zu einer erfundenen Mini-Comics-Werkstatt persönlich einladen und Angaben des Aushangs korrekt weitergeben.",
+    "A–C umfassen 20 Hauptpunkte; eine Antwort auf Noors spätere Fragen erscheint danach mit sechs getrennten Zusatzpunkten. Keine reale Nachricht oder Anmeldung."
   ],
-  "rollbackCommit": "198d2f5d196e6df243cc2140dcb27894427429ae",
+  "rollbackCommit": "16078a2999664c6039ef9b5cc8f3a651aa968427",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -126,6 +126,7 @@
     "en-picture-description-garden",
     "en-survey-questionnaire-table",
     "en-living-things-comparison-foxes",
+    "en-invite-mini-comics-workshop",
     "mbi-sternnetz-feedranking",
     "mbi-teamdaten-gegenpruefen"
   ],
@@ -175,7 +176,8 @@
     "ma-schraegbild-darstellungen",
     "en-picture-description-garden",
     "en-survey-questionnaire-table",
-    "en-living-things-comparison-foxes"
+    "en-living-things-comparison-foxes",
+    "en-invite-mini-comics-workshop"
   ],
   "unclearValidityTopics": [
     "et-jugendrat-budgetwerte",

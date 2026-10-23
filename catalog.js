@@ -10553,6 +10553,101 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "en-invite-mini-comics-workshop",
+      "subjectId": "en",
+      "title": "Invite Noor to a mini comics workshop",
+      "scope": "Freiwilliger, gestützter Klasse-7-Vorgriff auf das englische Schreibziel „zu Veranstaltungen einladen“ am Ende Klasse 8. Die tatsächliche Unterrichtsfolge und Lottes Lernstand sind unbekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Der Aushang, Noor und Alex sind erfunden. Schreibe nur im Übungsraum oder auf Papier und versende keine Nachricht; nimm keine Anmeldung vor. Eine kurze eigene Einladung genügt, auch mit Wortstütze oder zweisprachigem Wörterbuch. Die App bewertet freie englische Antworten nicht automatisch. Die freiwillige Antwort an Noor erscheint erst nach A–C.",
+      "introduction": "Read the fictional notice and write a personal English invitation to Noor, 13. She has not seen the notice. Ask whether she would like to join, give the useful details, and keep signing up separate from a confirmed place. A–C have 20 learning points. The later optional reply has six separate points. These are feedback criteria, not a school grade.",
+      "passage": "FICTIONAL NOTICE · Mini Comics Workshop at the school library\nFor students aged 12 to 14.\nSaturday, 14 November 2026, 2:00–3:00 pm · room L2 in the school library.\nThe workshop is free. Paper and pencils are provided; you do not need to bring materials.\nPlease sign up at the library desk by Wednesday, 11 November 2026.\nThere are 12 places; signing up is not a confirmed place. Staff will confirm places later.\n\nSITUATION · Noor is 13 and has not seen the notice. Write her a short personal invitation so she can decide whether she would like to come and knows what to do next. Do not claim that either of you has signed up or has a place. This is no real school event.\n\nWORD HELP · workshop = Werkstatt; school library = Schulbibliothek; provided = werden gestellt; sign up = sich anmelden; library desk = Bibliothekstheke; places are limited = Plätze sind begrenzt. A bilingual dictionary is allowed. If helpful, begin “Would you like to come …?” and use your own simple sentences for the details.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "text": "OPTIONAL REPLY AFTER A–C · Noor now asks about her 15-year-old sister, a fee and bringing paper. Answer all three questions in English using only the notice. Where it gives no decision, leave that decision open. The six extra points are separate."
+      },
+      "tasks": [
+        {
+          "id": "en-invite-plan",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Make a plan (4 main points). Write four brief notes, in English or German: (1) who you are writing to and why; (2) what happens and the complete time; (3) room and library, cost and whether to bring materials; (4) where and by when Noor must sign up, the number of places and what remains uncertain. Notes are not yet the invitation.",
+          "sample": "1 Noor; invite her personally. 2 Mini Comics Workshop; Saturday, 14 November 2026, 2:00–3:00 pm. 3 Room L2 in the school library; free; paper and pencils provided. 4 Sign up at the library desk by Wednesday, 11 November; 12 places; signing up is not a confirmed place.",
+          "criteria": [
+            "Group 1: 0.5 for Noor as addressee and 0.5 for a personal invitation as purpose; age is not required here.",
+            "Group 2: 0.5 for the Mini Comics Workshop and 0.5 for Saturday, 14 November 2026, 2:00–3:00 pm.",
+            "Group 3: 0.5 for room L2 in the school library, 0.25 for free, 0.25 for paper/pencils provided or no own materials needed.",
+            "Group 4: 0.25 each for library desk, by Wednesday 11 November, 12 places, and sign-up not yet a confirmed place. Equivalent German or English notes count."
+          ]
+        },
+        {
+          "id": "en-invite-message",
+          "kind": "reflection",
+          "points": 12,
+          "writingLines": 12,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "B · Write the invitation (12 main points). Write Noor a friendly, short English message. Invite her directly and ask whether she would like to join. Include the event, day/date and full time, room and library, why the age range fits her, cost and materials, where and by when to sign up, and the 12-place limit. Keep a sign-up separate from a confirmed place. Use your own simple sentences; there is no fixed word count.",
+          "sample": "Hi Noor, Would you like to come to the Mini Comics Workshop with me? It is for students aged 12 to 14, so it fits your age. It is on Saturday, 14 November, from 2:00 to 3:00 pm in room L2 of the school library. It is free, and paper and pencils are provided. Please sign up at the library desk by Wednesday, 11 November. There are only 12 places, so signing up does not mean you have a confirmed place yet. Would you like to join? Best wishes, Alex.",
+          "criteria": [
+            "2 points: address Noor appropriately (1) and expressly ask or invite her to join (1).",
+            "1 point: Mini Comics Workshop as the event.",
+            "2 points: Saturday with 14 November 2026 or unambiguous date (1), full 2:00–3:00 pm time (1).",
+            "2 points: school library (1) and room L2 (1).",
+            "1 point: 12–14 age range and Noor at 13 fits it, without a place guarantee.",
+            "1 point: free (0.5) and paper/pencils provided or no own materials needed (0.5).",
+            "2 points: library desk (1) and deadline Wednesday, 11 November 2026 (1).",
+            "1 point: 12 places (0.5) and sign-up is not a confirmed place (0.5). Understandable variants and minor errors without loss of meaning count; do not deduct twice for one factual error."
+          ]
+        },
+        {
+          "id": "en-invite-check",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Check someone else’s draft (4 main points). It says: “You can just arrive on Saturday. You already have a place.” For each sentence, say what the notice actually states and rewrite it in accurate English. These are someone else’s sentences; checking them does not replace your own invitation in B.",
+          "sample": "The first sentence conflicts with the required sign-up at the library desk by Wednesday, 11 November. Correct it: “Please sign up at the library desk by Wednesday, 11 November.” The second is unsupported because there are 12 places and staff confirm places later. Correct it: “Signing up does not give you a confirmed place yet.”",
+          "criteria": [
+            "1 point: identify the sign-up requirement and Wednesday deadline as a conflict with simply arriving.",
+            "1 point: accurate English correction with library desk and deadline.",
+            "1 point: explain that 12 places and later staff confirmation do not guarantee a place.",
+            "1 point: accurate English correction without a place guarantee. The two sentences are assessed separately."
+          ]
+        },
+        {
+          "id": "en-invite-reply",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Optional reply after A–C (6 separate extra points). Noor asks: “Can my 15-year-old sister join? Is there a fee? Do I need to bring paper?” Write her a friendly short English answer to all three questions. Use only the notice; if it does not decide something, say so. Do not invent a confirmed place.",
+          "sample": "Hi Noor, the notice is for students aged 12 to 14. Your sister is 15, so it does not confirm that she can join; you could ask the library staff whether an exception is possible. The workshop is free. Paper and pencils are provided, so you do not need to bring paper. Best wishes, Alex.",
+          "criteria": [
+            "1 extra point: 15 is outside the stated 12–14 age group.",
+            "1 extra point: no invented exception or blanket refusal; leave staff decision open or suggest asking staff.",
+            "1 extra point: no fee.",
+            "1 extra point: paper and pencils are provided.",
+            "1 extra point: Noor need not bring her own paper.",
+            "1 extra point: direct, friendly and understandable English reply. No hidden seventh point; these six are separate from A–C."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. Englisch als erste Fremdsprache, §2.2.4/PDF-S. 29: zu Veranstaltungen einladen und schriftlich korrespondieren unter Klassenstufe 8. Der Zweig ist ein begründeter Arbeitszweig; Lottes individuelle Sprachbiografie ist nicht unabhängig bestätigt.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "mbi-sternnetz-feedranking",
       "subjectId": "mbi",
       "title": "Warum steht dieser Beitrag weiter oben?",

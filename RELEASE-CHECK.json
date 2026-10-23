@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-23T00:25:11.692Z",
-  "releaseVersion": "2026.10.23-m2rechnerwahl.1",
-  "newTopicIds": [
-    "ma-potenzen-rechnerwahl"
-  ],
+  "builtAt": "2026-10-23T00:30:25.645Z",
+  "releaseVersion": "2026.10.23-ds2frage.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Mathematik M2: Freiwilligen Ende-8-Ausblick zu Potenzen, Klammern und begründeter Rechnerwahl ergänzt.",
-    "Die sechs Zusatzpunkte erscheinen erst nach den 20 Hauptpunkten; schriftlicher Nutzungsstatus bleibt vom tatsächlich beobachteten Rechnergebrauch getrennt."
+    "Deutsch D-S2: Die feste mündliche Rückfrage nennt den gesuchten Regalabschnitt nicht mehr vorab.",
+    "Kinder- und Erwachsenenweg bleiben getrennt; es kam keine neue Aufgabe hinzu."
   ],
-  "rollbackCommit": "552e1e53ad2b08a7822fda72d6f5b0694cdc83f5",
+  "rollbackCommit": "7a51a8944b1e7474a1e977da0792c0492d8cda87",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",

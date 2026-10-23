@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 540" role="img" aria-labelledby="title desc">
+  <title id="title">Volumenmodelle für Zylinder, Kegel und Pyramide</title>
+  <desc id="desc">Schematische Vergleiche eines gleich hohen Zylinders und Kegels sowie eines dreieckigen Prismas, das mit drei triangularen Pyramidenteilen zerlegt wird.</desc>
+  <style>
+    text{font-family:Arial,sans-serif;fill:#17212b}
+    .head{font-size:21px;font-weight:700}.label{font-size:17px}.small{font-size:14px}
+    .solid{fill:none;stroke:#263746;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+    .hidden{fill:none;stroke:#657987;stroke-width:2.5;stroke-dasharray:7 6;stroke-linecap:round}
+    .cut1{fill:none;stroke:#b4473d;stroke-width:3;stroke-dasharray:8 5}
+    .cut2{fill:none;stroke:#276b91;stroke-width:3;stroke-dasharray:8 5}
+    .measure{fill:none;stroke:#17212b;stroke-width:2;marker-start:url(#arr);marker-end:url(#arr)}
+  </style>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse">
+      <path d="M0,0 L8,4 L0,8 z" fill="#17212b"/>
+    </marker>
+  </defs>
+  <rect x="8" y="8" width="744" height="524" rx="16" fill="#fff" stroke="#aebbc4" stroke-width="2"/>
+  <text class="head" x="30" y="42">Gleiche Grundfläche und senkrechte Höhe</text>
+  <!-- Cylinder -->
+  <ellipse cx="150" cy="91" rx="49" ry="15" fill="#dbeaf2" stroke="#263746" stroke-width="3"/>
+  <path d="M101 91 V218 M199 91 V218" class="solid"/>
+  <path d="M101 218 C101 226 123 233 150 233 C177 233 199 226 199 218" fill="#dbeaf2" stroke="#263746" stroke-width="3"/>
+  <path d="M101 218 C101 210 123 203 150 203 C177 203 199 210 199 218" class="hidden"/>
+  <line x1="75" y1="94" x2="75" y2="214" class="measure"/>
+  <text class="label" x="47" y="158">h</text>
+  <text class="label" x="123" y="258">Zylinder</text>
+  <!-- Cone -->
+  <path d="M326 70 L276 218 M326 70 L376 218" class="solid"/>
+  <ellipse cx="326" cy="218" rx="50" ry="15" fill="#f8e6c9" stroke="#263746" stroke-width="3"/>
+  <path d="M301 218 H351" class="hidden"/>
+  <line x1="400" y1="75" x2="400" y2="214" class="measure"/>
+  <text class="label" x="408" y="150">h</text>
+  <text class="label" x="301" y="258">Kegel</text>
+  <text class="label" x="478" y="113">Grundfläche G gleich</text>
+  <text class="label" x="478" y="143">senkrechte Höhe h gleich</text>
+  <text class="small" x="478" y="181">Modellfrage: Wie viele gleiche</text>
+  <text class="small" x="478" y="202">Kegelfüllungen passen ungefähr</text>
+  <text class="small" x="478" y="223">in den Zylinder?</text>
+  <line x1="30" y1="284" x2="730" y2="284" stroke="#c4cdd3" stroke-width="2"/>
+  <text class="head" x="30" y="319">Ein dreieckiges Prisma, in drei Pyramidenteile zerlegt</text>
+  <!-- Triangular prism wireframe -->
+  <path d="M65 477 L245 477 L155 350 Z M105 436 L285 436 L195 309 Z M65 477 L105 436 M245 477 L285 436 M155 350 L195 309" class="solid"/>
+  <!-- partition cuts inside prism -->
+  <path d="M105 436 L245 477 M105 436 L155 350 M155 350 L285 436" class="cut1"/>
+  <text class="label" x="110" y="452" fill="#8d322a">P1</text>
+  <text class="label" x="184" y="451" fill="#8d322a">P2</text>
+  <text class="label" x="201" y="385" fill="#8d322a">P3</text>
+  <text class="small" x="345" y="379">P1, P2 und P3 zusammen ergeben</text>
+  <text class="small" x="345" y="402">das Prisma. Das Bild zeigt die</text>
+  <text class="small" x="345" y="425">Zerlegung, aber nicht, dass die</text>
+  <text class="small" x="345" y="448">drei Volumina gleich gross sind.</text>
+  <text class="small" x="345" y="487">Schematisch, nicht massstäblich.</text>
+</svg>

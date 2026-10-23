@@ -3083,6 +3083,136 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-volumenformeln-erklaeren",
+      "subjectId": "ma",
+      "title": "Volumenformeln erinnern und erklären",
+      "scope": "Freiwilliger Ausblick auf das Klasse-8-Ziel M14: Volumenformeln für Zylinder, Kegel und Pyramide zuerst aus dem Gedächtnis angeben und danach an begrenzten Modellen erläutern. Keine bestätigte aktuelle Klasse-7-Unterrichtseinheit.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Für A brauchst du Papier und Stift, aber keine Formelkarte, kein Buch und keinen Rechner. Halte deinen ersten Versuch fest, bevor du B–E und die Modellskizzen öffnest. Versuche auch B zuerst ohne Formelkarte und Rechner. Wenn du später Hilfe nutzt, notiere ab wann. Die App kann tatsächlichen Hilfsmittelverzicht, eine Papierzeichnung oder eigene Rechnerbedienung nicht beobachten. Keine Modelle kaufen oder fotografieren.",
+      "introduction": "A ist ein ehrlicher erster Erinnerungsversuch. Danach erscheinen B–E und zwei schematische Modellskizzen. Schreibe spätere Korrekturen getrennt neben den Erstversuch. Für C und D reicht eine eigene Skizze; ein echtes Füllmodell ist freiwillig und nur mit bereits vorhandenen passenden Modellen sinnvoll. 24 Hauptpunkte und 6 getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "firstTaskGate": {
+        "unlockLabel": "Erstversuch A festhalten und B–E mit Modellen zeigen",
+        "afterLabel": "B–E"
+      },
+      "diagram": {
+        "path": "assets/ma-m14-volumenmodelle.svg",
+        "afterFirstTask": true,
+        "alt": "Oben ein Zylinder und ein Kegel mit gleicher Grundfläche G und gleicher senkrechter Höhe h, ohne Volumenangabe. Unten ein dreieckiges Prisma, schematisch in drei Pyramidenteile P1, P2 und P3 zerlegt. Das Bild zeigt nicht, dass diese Teile gleich viel Volumen haben.",
+        "caption": "Eigene schematische Modellkarte. Die obere Füllfrage liefert keinen exakten Beweis; die untere Zerlegung allein zeigt keine gleichen Teilvolumina. Nicht abmessen."
+      },
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–E",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGER TRANSFER NACH A–E · Jetzt freigegeben. Die sechs Zusatzpunkte zählen getrennt; die Hauptantworten bleiben stehen."
+      },
+      "tasks": [
+        {
+          "id": "ma-m14-abruf",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A · Volumenformeln aus dem Gedächtnis (7 Hauptpunkte): Schreibe für Zylinder, Kegel und Pyramide je eine Formel mit G als Grundflächeninhalt und h als senkrechter Höhe. Erkläre G, wie h gemessen wird und weshalb beim Volumen eine Kubikeinheit wie cm³ steht. Notiere, ob du vor oder nach A eine Hilfe genutzt hast. Ein später nachgeschlagener richtiger Eintrag ersetzt deinen Erstversuch nicht.",
+          "sample": "Zylinder V=G·h; Kegel V=G·h/3; Pyramide V=G·h/3. G ist der Flächeninhalt der gesamten Grundfläche; h ist der senkrechte Abstand zur gegenüberliegenden Fläche oder zur Spitze. Rauminhalt hat bei cm-Maßen die Einheit cm³. Hilfe-Nutzung nur als ehrliche Selbstauskunft vermerken.",
+          "criteria": [
+            "Je 1 Punkt für die drei passenden Volumenformeln, zusammen 3.",
+            "2 Punkte für G als Grundflächeninhalt und h als senkrechten Abstand, je 1.",
+            "1 Punkt für die Erklärung der Kubikeinheit.",
+            "1 Punkt für nachvollziehbar markierte Hilfe-Nutzung vor oder nach A. Getippter Text beweist keinen tatsächlichen Hilfsmittelverzicht."
+          ]
+        },
+        {
+          "id": "ma-m14-schichten",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Zylinder aus Schichten (4 Hauptpunkte): Versuche zuerst ohne Formelkarte und Rechner. Ein gerader Zylinder hat G=12 cm² und h=5 cm. Zeichne fünf gleich dicke Schichten auf eigenem Papier und beschreibe sie hier. Berechne das gesamte Volumen. Was geschieht bei doppelter Höhe und unverändertem G? Begründe mit den Schichten. Notiere eine später genutzte Hilfe. Ein Textfeld beweist die Papierzeichnung nicht.",
+          "sample": "Eine tatsächliche Skizze zeigt fünf gleich hohe Schichten gleicher Querschnittsfläche. V=12 cm²·5 cm=60 cm³. Bei h=10 cm und gleichem G wird V=120 cm³, also doppelt so groß. Das Schichtenbild erläutert Querschnittsfläche mal Höhe; die Papierzeichnung und der erste hilfsmittelfreie Versuch sind separat zu prüfen.",
+          "criteria": [
+            "1 Punkt für die tatsächlich vorgelegte, passende Schichtenskizze; nur Text ohne Blatt belegt sie nicht.",
+            "1 Punkt für 60 cm³.",
+            "1 Punkt für 120 cm³ beziehungsweise Verdopplung.",
+            "1 Punkt für die Begründung mit gleichbleibender Querschnittsfläche und verdoppelter Höhe. Tatsächliche Hilfsmittelfreiheit nur beobachtet oder ehrlich berichtet vermerken."
+          ]
+        },
+        {
+          "id": "ma-m14-kegel",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C · Kegel und Zylinder vergleichen (4 Hauptpunkte): Nutze die obere Modellskizze, zeichne beide Körper ab oder beschreibe sie mit gleicher Grundfläche G und gleicher senkrechter Höhe h. Wie viele gleich große Kegel-Füllungen würden ungefähr in den Zylinder passen? Was legt das für die Kegelformel nahe? Warum beweist ein praktischer Füllversuch allein keine exakte allgemeine Formel? Du musst nichts füllen.",
+          "sample": "Bei gleichem G und h veranschaulichen ungefähr drei Kegelfüllungen den Zylinderinhalt; daraus folgt als Formelidee V_K=G·h/3. Ein reales Füllen ist nur eine Näherung wegen Modellform, Luft, Restmaterial und Messung. Eine passende eigene Skizze genügt; die exakte allgemeine Formel braucht einen mathematischen Beweis.",
+          "criteria": [
+            "1 Punkt für gleiche Grundfläche und senkrechte Höhe in Skizze oder zutreffender Beschreibung.",
+            "1 Punkt für die Drittelformel als begrenzte Formelidee.",
+            "1 Punkt für den Zusammenhang ungefähr drei Kegelfüllungen je Zylinder.",
+            "1 Punkt für die Grenze eines Füllversuchs als Näherung statt allgemeinem Beweis."
+          ]
+        },
+        {
+          "id": "ma-m14-pyramide",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "D · Pyramide und Prisma (5 Hauptpunkte): Die untere Modellkarte zeigt ein dreieckiges Prisma aus drei Pyramidenteilen P1–P3. Was ergeben die Teile zusammen? Welche Drittel-Vermutung liegt nahe, und welcher Zerlegungsgedanke spricht dafür? Nenne zwei getrennte Grenzen: Was müsste man an den drei Teilen erst prüfen, und weshalb beweist ein einziges Prisma-Modell nicht die Formel für jede Pyramide?",
+          "sample": "P1–P3 ergeben zusammen das Prisma. Wenn die drei Teile gleiches Volumen hätten, könnte einer ein Drittel des Prismenvolumens haben; der Zerlegungsgedanke motiviert V_P=G·h/3. Das Bild zeigt aber keine Volumengleichheit der Teile. Selbst die Prüfung dieses Spezialmodells wäre noch kein Beweis für jede Pyramidenform.",
+          "criteria": [
+            "1 Punkt für die Zusammensetzung zum Prisma.",
+            "1 Punkt für die ausdrücklich als Vermutung markierte Drittelbeziehung.",
+            "1 Punkt für eine Begründung anhand der Zerlegung statt bloßer Formelwiederholung.",
+            "1 Punkt für die offene Gleichheit der drei Teilvolumina.",
+            "1 Punkt für die fehlende Verallgemeinerung von einem Modell auf jede Pyramide."
+          ]
+        },
+        {
+          "id": "ma-m14-formelsammlung",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "E · Formelsammlung und digitale Kontrolle (4 Hauptpunkte): Erst jetzt gilt der Auszug: Zylinder V=G·h, Kreisgrundfläche G=πr². Ein gerader, vollständig gefüllter Zylinder hat r=4,2 cm und h=11,3 cm. Markiere die benötigten Formeln und schreibe den eingesetzten Term. Wenn ein wissenschaftlicher Rechner bereits verfügbar ist, notiere eigene Eingabe, Anzeige auf zwei Dezimalen und Einheit; sonst kennzeichne „nicht verfügbar“ oder „nicht benutzt“ und rechne bei Bedarf grob mit π≈3,14. Prüfe unabhängig mit 3,14<π<22/7, zwischen welchen beiden Volumina der genauere Wert liegt. Eine notierte Eingabe beweist keine reale Bedienung.",
+          "sample": "V=π·4,2²·11,3=199,332π cm³≈626,22 cm³ mit genügend genauer π-Näherung. Eine passende Eingabe ist pi*4.2^2*11.3. Mit π≈3,14 ergibt sich nur eine grobe Näherung von 625,90 cm³. Mit 3,14<π<22/7 folgt genauer 625,90248<V<626,472 cm³. Die Schranke kontrolliert die Größenordnung, nicht wer einen Rechner bedient hat. Bei nicht verfügbarem Rechner ist dieser Praxisschritt nicht beobachtet.",
+          "criteria": [
+            "1 Punkt für beide passenden Formeln und eingesetzten exakten Term 199,332π cm³.",
+            "1 Punkt für eine passende Rechnereingabe oder nachvollziehbare Rechnung; reale Bedienung getrennt beobachten.",
+            "1 Punkt für 626,22 cm³ mit genügend genauer π-Näherung oder für die ausdrücklich grobe 625,90-cm³-Näherung mit π≈3,14, jeweils mit Weg und Einheit. Die Genauigkeit nicht verwechseln.",
+            "1 Punkt für die unabhängig berechnete Schranke mit Erklärung. Rechnernutzung als beobachtet, selbst berichtet oder nicht verfügbar getrennt vermerken."
+          ]
+        },
+        {
+          "id": "ma-m14-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer nach A–E · 6 getrennte Zusatzpunkte: Bei Zylinder, Kegel und Pyramide werden jeweils G verdreifacht und die senkrechte Höhe h halbiert. Bestimme den neuen Volumenfaktor für jeden Körper. Erkläre, warum er gleich ist und welche Höhe entscheidend ist. Eine schräge Mantellinie oder Seitenhöhe darf h nicht ersetzen.",
+          "sample": "G·h wird mit 3·1/2=3/2 multipliziert. Beim Zylinder gilt das direkt; bei Kegel und Pyramide bleibt der zusätzliche Faktor 1/3 jeweils erhalten. Alle drei Volumina werden deshalb 1,5-mal so groß. Entscheidend ist die senkrechte Höhe, nicht eine schräge Länge.",
+          "criteria": [
+            "2 Zusatzpunkte für den Faktor 3/2 aus dreifachem G und halbem h.",
+            "2 Zusatzpunkte für die Erklärung desselben Faktors in allen drei Formeln einschließlich unverändertem Drittelfaktor.",
+            "2 Zusatzpunkte für senkrechte Höhe und Ausschluss der schrägen Mantel- oder Seitenhöhe."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Mathematik Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. § 2.2.14 PDF-S. 32–33: Unter der Zielmarke Klassenstufe 8 Volumenformeln für Pyramide, Zylinder und Kegel ohne Hilfsmittel angeben und anschaulich erläutern; Formelsammlung und digitale Hilfsmittel gezielt nutzen.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "ma-kreisformeln-erinnern",
       "subjectId": "ma",
       "title": "Kreisformeln erinnern und Kreise vergleichen",

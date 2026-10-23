@@ -418,7 +418,7 @@
     if (topic.tasks.some(task => task.helpAfterAttempt)) appendText(intro, 'p', 'learning-step-note', 'Erst selbst antworten und „Antwort prüfen“ wählen. Danach kannst du die freiwillige Formenhilfe öffnen.');
     if (topic.stagedReading) appendText(intro, 'p', 'muted', `Zuerst nur der Titel: ${topic.stagedReading.title}. Der Lesetext erscheint nach deiner ersten Vermutung.`);
     if (topic.stagedPrompt) appendText(intro, 'p', 'muted', 'Schreibe zuerst deine eigene Vermutung auf. Der kurze Kontext erscheint erst, wenn du sie festgehalten hast.');
-    if (topic.diagram) {
+    if (topic.diagram && !topic.diagram.afterFirstTask) {
       const figure = create('figure', 'learning-diagram');
       const img = create('img'); img.src = topic.diagram.path; img.alt = topic.diagram.alt;
       figure.append(img); appendText(figure, 'figcaption', '', topic.diagram.caption);
@@ -469,6 +469,12 @@
       if (firstShown && firstInput) firstInput.readOnly = true;
       host.append(firstCard);
       const remaining = create('div'); remaining.hidden = !firstShown;
+      if (topic.diagram?.afterFirstTask) {
+        const figure = create('figure', 'learning-diagram');
+        const img = create('img'); img.src = topic.diagram.path; img.alt = topic.diagram.alt;
+        figure.append(img); appendText(figure, 'figcaption', '', topic.diagram.caption);
+        remaining.append(figure);
+      }
       for (let index = 1; index < topic.tasks.length - 1; index++) remaining.append(renderTask(topic, topic.tasks[index], index));
       const mainInputs = [...remaining.querySelectorAll('textarea')];
       if (transferShown) mainInputs.forEach(input => { input.readOnly = true; });
@@ -836,14 +842,14 @@
           ? 'Druckfolge: Zuerst die Titelvermutung, danach Aushang, Plan und Hauptaufgaben bearbeiten. Die Änderung wird erst nach dem Festhalten der Hauptantworten zum Druck freigegeben.'
           : 'Druckfolge: Seite mit Titel und Vermutung zuerst bearbeiten. Die folgende Textseite erst danach ansehen; den Änderungstext erst nach den Hauptaufgaben ansehen. Eine bedruckte Seite allein beweist diese Reihenfolge nicht.');
       if (topic.firstTaskGate && mode === 'child') appendText(section, 'p', 'print-context', hideChildFirstGate
-        ? 'Druckfolge: Zuerst nur A aus dem Gedächtnis bearbeiten. B–D werden nach dem Festhalten von A im Übungsraum zum Kinderdruck freigegeben. Papier allein beweist keinen Hilfsmittelverzicht.'
+        ? `Druckfolge: Zuerst nur A aus dem Gedächtnis bearbeiten. ${topic.firstTaskGate.afterLabel || 'B–D'} werden nach dem Festhalten von A im Übungsraum zum Kinderdruck freigegeben. Papier allein beweist keinen Hilfsmittelverzicht.`
         : hideChildUpdate
-          ? 'Druckfolge: A ist festgehalten. Jetzt B–D bearbeiten. Der freiwillige Transfer wird erst danach zum Kinderdruck freigegeben.'
-          : 'Druckfolge: A zuerst, dann B–D, zuletzt der freiwillige Transfer. Papier allein beweist keinen Hilfsmittelverzicht.');
+          ? `Druckfolge: A ist festgehalten. Jetzt ${topic.firstTaskGate.afterLabel || 'B–D'} bearbeiten. Der freiwillige Transfer wird erst danach zum Kinderdruck freigegeben.`
+          : `Druckfolge: A zuerst, dann ${topic.firstTaskGate.afterLabel || 'B–D'}, zuletzt der freiwillige Transfer. Papier allein beweist keinen Hilfsmittelverzicht.`);
       if (topic.stagedUpdate && !topic.firstTaskGate && mode === 'child') appendText(section, 'p', 'print-context', hideChildUpdate
         ? `Druckfolge: Zuerst die Hauptaufgaben ${topic.stagedUpdate.mainLabel || 'A–C'} bearbeiten. Die Zusatzseite wird nach dem Festhalten dieser Antworten im Übungsraum freigegeben.`
         : `Druckfolge: Zuerst die Hauptaufgaben ${topic.stagedUpdate.mainLabel || 'A–C'} auf den ersten Seiten bearbeiten. Die spätere ${topic.stagedUpdate.kind === 'variant' ? 'Variante' : 'Korrektur'} auf der Zusatzseite erst danach ansehen. Papier allein beweist diese Reihenfolge nicht.`);
-      if (topic.diagram && (mode === 'child' || topic.diagram.adultPrint !== false)) {
+      if (topic.diagram && !topic.diagram.afterFirstTask && (mode === 'child' || topic.diagram.adultPrint !== false)) {
         const figure = create('figure', 'print-diagram');
         const img = create('img'); img.src = topic.diagram.path; img.alt = topic.diagram.alt;
         figure.append(img); appendText(figure, 'figcaption', '', topic.diagram.caption);
@@ -889,6 +895,13 @@
         if (hideChildReadingSource && index > 0) continue;
         if (hideChildPromptContext && index > 0) continue;
         if (hideChildReadingUpdate && index === topic.tasks.length - 1) continue;
+        if (index === 1 && topic.diagram?.afterFirstTask && (mode === 'child' || topic.diagram.adultPrint !== false)) {
+          const figure = create('figure', 'print-diagram');
+          figure.classList.add('print-gated-diagram');
+          const img = create('img'); img.src = topic.diagram.path; img.alt = topic.diagram.alt;
+          figure.append(img); appendText(figure, 'figcaption', '', topic.diagram.caption);
+          section.append(figure);
+        }
         const item = create('div', 'print-task'); item.dataset.taskId = task.id;
         if (topic.stagedUpdate && mode === 'adult' && index === topic.tasks.length - 2) item.classList.add('print-keep-together');
         appendText(item, 'h3', '', topic.practiceBeforeLastTask ? task.prompt : `${index + 1}. ${task.prompt}`);

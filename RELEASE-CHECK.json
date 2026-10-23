@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-23T05:56:16.462Z",
-  "releaseVersion": "2026.10.23-enwpoem.1",
+  "builtAt": "2026-10-23T06:13:23.758Z",
+  "releaseVersion": "2026.10.23-m14formeln.1",
   "newTopicIds": [
-    "en-write-rooftop-poem"
+    "ma-volumenformeln-erklaeren"
   ],
   "changeLog": [
-    "Englisch: Ein freiwilliger, gestützter Klasse-7-Vorgriff auf das Ende-8-Schreibziel lässt ein eigenes kurzes Gedicht zu einer fiktiven Szene entstehen.",
-    "Plan, Gedicht und Gestaltungsreflexion zählen 20 Lernpunkte; eine erst danach sichtbare Überarbeitung zählt sechs getrennte Zusatzpunkte. Freie Texte werden nicht automatisch bewertet."
+    "Mathematik: Ein freiwilliger Klasse-8-Ausblick lässt Volumenformeln für Zylinder, Kegel und Pyramide zunächst ohne sichtbare Hilfe erinnern und danach mit begrenzten Modellen erklären.",
+    "A wird vor Bild und Formelsammlung festgehalten; B–E zählen 24 Hauptpunkte und ein späterer Transfer sechs getrennte Zusatzpunkte. Zeichnung, Hilfsmittel und reale Rechnerbedienung brauchen menschliche Prüfung."
   ],
-  "rollbackCommit": "b7fa98e0f2788f2710b4cc9fc9b8f43a002ea8fd",
+  "rollbackCommit": "8241f5276ba306a241442dcad7c06a04db187e61",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -43,6 +43,7 @@
     "de-leseecke-ueberarbeiten",
     "de-drama-lyrik-spuren",
     "de-roter-faden-epik",
+    "ma-volumenformeln-erklaeren",
     "ma-kreisformeln-erinnern",
     "ma-quadratdifferenz-lflaeche",
     "ma-binomische-flaechen",
@@ -149,6 +150,7 @@
     "ma-prismenbox",
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
+    "ma-volumenformeln-erklaeren",
     "ma-kreisformeln-erinnern",
     "ma-quadratdifferenz-lflaeche",
     "ma-binomische-flaechen",

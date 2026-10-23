@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-23T07:26:00.678Z",
-  "releaseVersion": "2026.10.23-enwpicture.1",
+  "builtAt": "2026-10-23T07:50:47.279Z",
+  "releaseVersion": "2026.10.23-enwsurvey.1",
   "newTopicIds": [
-    "en-picture-description-garden"
+    "en-survey-questionnaire-table"
   ],
   "changeLog": [
-    "Englisch: Eine freiwillige Bildbeschreibung mit eigener erfundener Gartenszene übt sichtbare Details, Lagebeziehungen und Handlungen; Vermutungen bleiben als solche erkennbar.",
-    "A–C umfassen 20 Hauptpunkte, eine spätere Überarbeitung vier Zusatzpunkte. SVG und ausführlicher Alternativtext sind auch im Kinderblatt und getrennten Erwachsenenblatt enthalten."
+    "Englisch: Eine freiwillige Fragebogen-/Tabellenübung zählt sechs fiktive Stimmen, prüft Tallies und Gesamtzahl und begrenzt Aussagen auf diesen Beispieldatensatz.",
+    "A–C umfassen 17 Hauptpunkte, der spätere Entwurf einer neutralen Frage vier getrennte Zusatzpunkte. Eine leere CSV-Tabelle steht optional zum Download bereit."
   ],
-  "rollbackCommit": "2100cc6fff7fef341e0b7238d7533acc8baf6066",
+  "rollbackCommit": "4dd3646344739dceaf3d3285901cd5a813caf7e0",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -124,6 +124,7 @@
     "mnt-wasser-teilchenmodell",
     "mbi-tabellen-nutzen-lernen-beruf",
     "en-picture-description-garden",
+    "en-survey-questionnaire-table",
     "mbi-teamdaten-gegenpruefen"
   ],
   "subjects": [
@@ -170,7 +171,8 @@
     "ma-potenzen-rechnerwahl",
     "en-write-rooftop-poem",
     "ma-schraegbild-darstellungen",
-    "en-picture-description-garden"
+    "en-picture-description-garden",
+    "en-survey-questionnaire-table"
   ],
   "unclearValidityTopics": [
     "et-jugendrat-budgetwerte",

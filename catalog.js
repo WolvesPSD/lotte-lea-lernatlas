@@ -10352,6 +10352,103 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "en-survey-questionnaire-table",
+      "subjectId": "en",
+      "title": "A small questionnaire and six fictional votes",
+      "scope": "Freiwilliger, gestützter Klasse-7-Einstieg in Tabellen und Fragebögen als Ende-Klasse-8-Ziel. Die sechs Stimmen sind vorgegeben und erfunden; eine echte Erhebung, aktuelle Schuleinheit oder Kinderleistung ist damit nicht belegt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Verwende nur Jordans fiktive Karte und die sechs erfundenen Stimmzettel. Gib keine eigenen Namen, Vorlieben oder Angaben anderer Menschen ein. Die leere CSV ist freiwillig; du kannst die Tabelle auch direkt im Antwortfeld oder auf Papier ausfüllen. Die App bewertet freie Einträge nicht automatisch. Die Zusatzaufgabe D erscheint erst nach A–C.",
+      "introduction": "Jordan and the Hillview Youth Centre are fictional. Use Jordan’s short card to fill a questionnaire, then count six made-up votes in a results table. Keep tally marks and vote numbers aligned. Check carefully how far a statement about these examples can go. A–C carry 17 learning points, and optional D has four separate extra points. These are feedback criteria, not a school grade.",
+      "lab": {
+        "path": "assets/en-w-survey-table.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/en-w-survey-table.html",
+        "title": "Blank results table and CSV download",
+        "description": "Download a blank three-column table for Excel or Calc. It contains category names but no tallies, vote totals or solutions. You can also work on paper or in the answer field.",
+        "printNote": "The six fictional slips and blank row layout are printed below. The optional CSV contains no answers; opening it in Excel or Calc is only evidenced when actually observed."
+      },
+      "passage": "JORDAN’S CARD · fictional\nJordan prefers an indoor board-game challenge. Jordan is free on Saturday after 2 pm. The centre supplies paper.\n\nRULE · Use only Jordan’s card. If it does not answer a question, write Not stated. Do not use your own personal details.\n\nQUESTIONNAIRE · Fill these five fields as Jordan:\n1. Activity: board-game challenge / photo walk / dance game\n2. Indoor or outdoor?\n3. Day free?\n4. After what time free?\n5. Why does Jordan prefer it?\n\nSIX FICTIONAL VOTE SLIPS · one vote per slip:\n1 board-game challenge · 2 photo walk · 3 board-game challenge · 4 dance game · 5 photo walk · 6 board-game challenge\n\nBLANK RESULTS TABLE · write tally marks and vote numbers for each row:\nChoice | Tally marks | Number of votes\nBoard-game challenge | ___ | ___\nPhoto walk | ___ | ___\nDance game | ___ | ___\nAll six slips | ___ | ___\n\nWORD HELP · questionnaire = a set of questions; choice = one selectable answer; tally marks = counting strokes; vote = one chosen answer.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "text": "OPTIONAL QUESTION DESIGN AFTER A–C · Invent one neutral question for a fictional youth-centre poll. Give three distinct answer choices and draw an empty Choice / Tally marks / Number of votes table. Do not ask real people, collect answers, add names or fill result cells."
+      },
+      "tasks": [
+        {
+          "id": "en-survey-a",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Fill Jordan’s questionnaire (5 main points). Write five numbered short answers for activity, indoor/outdoor, day, time and reason. Use only the information on Jordan’s card; do not add details it does not state.",
+          "sample": "1 board-game challenge; 2 indoor; 3 Saturday; 4 after 2 pm; 5 Not stated. Jordan’s card gives a preference but no reason.",
+          "criteria": [
+            "1 point: board-game challenge.",
+            "1 point: indoor.",
+            "1 point: Saturday.",
+            "1 point: after 2 pm.",
+            "1 point: Not stated for the reason; no guessed motive."
+          ]
+        },
+        {
+          "id": "en-survey-b",
+          "kind": "reflection",
+          "points": 9,
+          "writingLines": 13,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "B · Complete the results table (9 main points). For each of the three choices, write tally marks and the number of votes. In the “All six slips” row, write six tally marks and the total. Then name the most-voted choice and its lead over the dance game. You can use the blank CSV, paper or this field; write four labelled rows if you type here.",
+          "sample": "Board-game challenge: |||, 3. Photo walk: ||, 2. Dance game: |, 1. All six slips: ||||||, 6. The board-game challenge has the most votes, two more than the dance game. Three of six is the largest row, not a majority.",
+          "criteria": [
+            "1 point for each correct category number: 3, 2, 1 (3 total).",
+            "1 point for each matching category tally: |||, ||, | (3 total).",
+            "1 point for six tally marks and the grand total 6 together; this is a control row, not a fourth choice.",
+            "1 point: board-game challenge has the most votes.",
+            "1 point: two more votes than dance game. Equivalent tally notation counts."
+          ]
+        },
+        {
+          "id": "en-survey-c",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "C · Report and limit the result (3 main points). Write one short English sentence for the fictional organiser. Begin “In these six fictional votes …” and include the board-game count and its difference from the dance game. Can the six invented votes tell us what all students prefer? Give one reason.",
+          "sample": "In these six fictional votes, three chose the board-game challenge, two more than the dance game. No: the six slips are invented examples, not answers from all students.",
+          "criteria": [
+            "1 point: the sentence explicitly limits itself to six fictional votes.",
+            "1 point: three board-game votes and a lead of two over dance game.",
+            "1 point: no generalisation to all students, with the reason that the six slips are invented examples."
+          ]
+        },
+        {
+          "id": "en-survey-d",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Optional D after A–C (4 separate extra points). Design one neutral question for a fictional poll, add three distinct answer choices and sketch a blank table with Choice, Tally marks and Number of votes. Keep the result cells empty. Do not ask for names or personal details, and do not collect real votes.",
+          "sample": "Which activity would you choose for the next fictional youth-centre meeting? Choices: board-game challenge, photo walk, dance game. A blank table lists those three choices once and has empty Tally marks and Number of votes cells. Other neutral, clear examples count.",
+          "criteria": [
+            "1 extra point: one clear, neutral question.",
+            "1 extra point: three understandable and distinct choices.",
+            "1 extra point: the three choices match exactly three blank table rows and the named columns.",
+            "1 extra point: no private details and empty result cells; this is design, not an actual survey."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.4/PDF-S. 29–30 nennt Tabellen, Fragebögen und Formulare ausfüllen sowie getrennt einfache Datensätze erheben und auswerten unter Klassenstufe 8. Hier nur vorgegebene fiktive Stimmen auswerten, keine Erhebung.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "mbi-teamdaten-gegenpruefen",
       "subjectId": "mbi",
       "title": "Im Team Daten prüfen und ändern",

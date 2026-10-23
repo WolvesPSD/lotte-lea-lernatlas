@@ -100,7 +100,9 @@
       if (!topic) continue;
       const answered = topic.tasks.filter(task => String(state.answers[task.id] || '').trim()).length;
       const progress = tab.querySelector('small');
-      if (progress) progress.textContent = `${answered} von ${topic.tasks.length} beantwortet`;
+      if (progress) progress.textContent = topic.practiceBeforeLastTask
+        ? `${answered} von ${topic.tasks.length} Notizfeldern · Sprechen separat`
+        : `${answered} von ${topic.tasks.length} beantwortet`;
     }
   }
   function button(label, callback, className = '') {
@@ -183,15 +185,15 @@
       const top = create('div', 'home-topic-top');
       appendText(top, 'span', 'home-subject-mark', subject.name.slice(0, 1));
       appendText(top, 'strong', '', subject.name);
-      appendText(top, 'span', 'home-topic-fraction', `${answered}/${topic.tasks.length}`);
+      appendText(top, 'span', 'home-topic-fraction', topic.practiceBeforeLastTask ? `${answered}/${topic.tasks.length} Notizen` : `${answered}/${topic.tasks.length}`);
       card.append(top);
       const bar = create('div', 'home-topic-bar');
-      bar.setAttribute('role', 'progressbar'); bar.setAttribute('aria-label', `${subject.name}: beantwortete Aufgaben`);
+      bar.setAttribute('role', 'progressbar'); bar.setAttribute('aria-label', `${subject.name}: ${topic.practiceBeforeLastTask ? 'ausgefüllte Notizfelder; mündliche Leistung separat beobachten' : 'beantwortete Aufgaben'}`);
       bar.setAttribute('aria-valuenow', String(answered)); bar.setAttribute('aria-valuemin', '0'); bar.setAttribute('aria-valuemax', String(topic.tasks.length));
       const fill = create('span'); fill.style.width = `${Math.round(answered / topic.tasks.length * 100)}%`; bar.append(fill); card.append(bar);
       appendText(card, 'h3', '', topic.title);
       appendText(card, 'p', 'home-topic-level', levelLabel(topic));
-      appendText(card, 'p', 'home-topic-teaser', `${topic.tasks.length} Aufgabe${topic.tasks.length === 1 ? '' : 'n'} · ${topic.scope}`);
+      appendText(card, 'p', 'home-topic-teaser', `${topic.practiceBeforeLastTask ? `${topic.tasks.length} Notizfelder und getrennte Sprechpraxis` : `${topic.tasks.length} Aufgabe${topic.tasks.length === 1 ? '' : 'n'}`} · ${topic.scope}`);
       card.append(button(answered ? 'Weiterlernen →' : 'Thema öffnen →', () => { state.active = topic.id; save(); show('work'); }, 'home-topic-open'));
       host.append(card);
     }
@@ -201,7 +203,7 @@
     $('#home-progress-ring').querySelector('span').textContent = total ? 'Aufgaben beantwortet' : 'Thema wählen';
     $('#home-progress-ring').style.setProperty('--progress', total ? `${Math.round(answeredTotal / total * 100)}%` : '0%');
     $('#home-progress-text').textContent = total
-      ? `${total - answeredTotal} Aufgabe${total - answeredTotal === 1 ? '' : 'n'} in deiner Auswahl noch offen. Die Zahl zählt Antworten; offene Texte prüfst du mit den Kriterien.`
+      ? `${total - answeredTotal} Aufgabe${total - answeredTotal === 1 ? '' : 'n'} in deiner Auswahl noch offen. Die Zahl zählt nur Textfelder; offene Texte prüfst du mit den Kriterien.${selectedTopics.some(topic => topic.practiceBeforeLastTask) ? ' Mündliches Sprechen wird hier nicht als erledigt gezählt oder automatisch bewertet.' : ''}`
       : 'Wähle zuerst ein Thema. Danach siehst du hier deine beantworteten Aufgaben.';
     const nextTopic = selectedTopics.find(topic => topic.tasks.some(task => !String(state.answers[task.id] || '').trim())) || selectedTopics[0];
     const nextTask = nextTopic?.tasks.find(task => !String(state.answers[task.id] || '').trim());
@@ -209,7 +211,7 @@
       ? 'Nach deiner Themenwahl erscheint hier eine Aufgabe aus deiner eigenen Auswahl.'
       : nextTask
         ? `${subjectById.get(nextTopic.subjectId).name} · ${nextTopic.title}: ${nextTask.prompt}`
-        : 'Alle gewählten Aufgaben haben eine Antwort. Vergleiche offene Antworten mit den Kriterien oder wähle weitere Themen.';
+        : `Alle gewählten Textfelder haben eine Antwort. Vergleiche offene Antworten mit den Kriterien oder wähle weitere Themen.${selectedTopics.some(topic => topic.practiceBeforeLastTask) ? ' Eine mündliche Übung ist dadurch noch nicht nachgewiesen.' : ''}`;
     $('#home-next-button').textContent = selectedTopics.length ? 'Zum Lernen →' : 'Themen wählen →';
     $('#home-next-button').hidden = selectedTopics.length === 0;
     $('#home-next-button').classList.toggle('primary', false);
@@ -384,7 +386,9 @@
       const answered = topic.tasks.filter(task => String(state.answers[task.id] || '').trim()).length;
       appendText(tab, 'strong', '', subjectById.get(topic.subjectId).name);
       appendText(tab, 'span', '', topic.title);
-      appendText(tab, 'small', '', `${answered} von ${topic.tasks.length} beantwortet`);
+      appendText(tab, 'small', '', topic.practiceBeforeLastTask
+        ? `${answered} von ${topic.tasks.length} Notizfeldern · Sprechen separat`
+        : `${answered} von ${topic.tasks.length} beantwortet`);
       tab.dataset.topicId = id;
       tab.className = 'topic-tab'; tab.setAttribute('aria-current', id === state.active ? 'true' : 'false'); tabs.append(tab);
     }
@@ -598,14 +602,19 @@
       transferTask.hidden = !updateShown;
       host.append(transferTask);
     } else {
-      for (const [index, task] of topic.tasks.entries()) host.append(renderTask(topic, task, index));
+      for (const [index, task] of topic.tasks.entries()) {
+        if (topic.practiceBeforeLastTask && index === topic.tasks.length - 1) host.append(renderPractice(topic.practice, false));
+        host.append(renderTask(topic, task, index));
+      }
     }
-    if (topic.practice) host.append(renderPractice(topic.practice, false));
+    if (topic.practice && !topic.practiceBeforeLastTask) host.append(renderPractice(topic.practice, false));
     const storage = appendText(host, 'p', 'privacy-note', 'Deine Antworten werden nur in diesem Browser gespeichert.'); storage.id = 'storage-status';
   }
   function renderTask(topic, task, index) {
     const card = create('article', 'task-card'); card.dataset.taskId = task.id;
-    appendText(card, 'span', 'task-count', `Aufgabe ${index + 1} von ${topic.tasks.length}`);
+    appendText(card, 'span', 'task-count', topic.practiceBeforeLastTask
+      ? `Notizfeld ${index + 1} von ${topic.tasks.length} · mündliche Praxis separat`
+      : `Aufgabe ${index + 1} von ${topic.tasks.length}`);
     appendText(card, 'h3', '', task.prompt);
     let input;
     if (task.kind === 'choice') {
@@ -725,8 +734,9 @@
       }
       if (topic.reading) appendText(section, 'p', 'muted', topic.reading.adultNote);
       for (const [index, task] of topic.tasks.entries()) {
+        if (topic.practiceBeforeLastTask && index === topic.tasks.length - 1) section.append(renderPractice(topic.practice, true));
         const item = create('article', 'adult-task'); item.dataset.taskId = task.id;
-        appendText(item, 'h3', '', `${index + 1}. ${task.prompt}`);
+        appendText(item, 'h3', '', topic.practiceBeforeLastTask ? task.prompt : `${index + 1}. ${task.prompt}`);
         const answer = state.answers[task.id];
         appendText(item, 'p', 'muted', `Eingabe im Kinderbereich: ${answer ? String(answer) : 'noch keine'}`);
         if (task.helpAfterAttempt) appendText(item, 'p', 'muted', `Formenhilfe nach Erstversuch: ${state.answers[`${task.id}-hilfe-genutzt`] === 'ja' ? 'genutzt' : 'nicht als genutzt vermerkt'}. Dieser Status ist keine automatische Leistungsbewertung.`);
@@ -736,7 +746,7 @@
         if (task.kind === 'reflection') appendText(item, 'p', 'muted', 'Offene Antwort: Kriterien gemeinsam prüfen; keine sichere automatische Note.');
         section.append(item);
       }
-      if (topic.practice) section.append(renderPractice(topic.practice, true));
+      if (topic.practice && !topic.practiceBeforeLastTask) section.append(renderPractice(topic.practice, true));
       host.append(section);
     }
   }
@@ -872,6 +882,7 @@
         appendText(section, 'p', 'print-context', `${topic.reading.title}: ${topic.reading.printNote} Leseadresse: ${topic.reading.publicUrl}`);
         if (mode === 'adult') appendText(section, 'p', 'print-context', topic.reading.adultNote);
       }
+      let finalPrintedTask = null;
       for (const [index, task] of topic.tasks.entries()) {
         if (hideChildFirstGate && index > 0) continue;
         if (hideChildUpdate && index === topic.tasks.length - 1) continue;
@@ -880,7 +891,7 @@
         if (hideChildReadingUpdate && index === topic.tasks.length - 1) continue;
         const item = create('div', 'print-task'); item.dataset.taskId = task.id;
         if (topic.stagedUpdate && mode === 'adult' && index === topic.tasks.length - 2) item.classList.add('print-keep-together');
-        appendText(item, 'h3', '', `${index + 1}. ${task.prompt}`);
+        appendText(item, 'h3', '', topic.practiceBeforeLastTask ? task.prompt : `${index + 1}. ${task.prompt}`);
         if (mode === 'adult' && task.helpAfterAttempt) appendText(item, 'p', 'muted', `Formenhilfe nach Erstversuch: ${state.answers[`${task.id}-hilfe-genutzt`] === 'ja' ? 'genutzt' : 'nicht als genutzt vermerkt'}. Dieser Status ist keine automatische Leistungsbewertung.`);
         if (mode === 'child') {
           if (task.options) task.options.forEach(option => appendText(item, 'p', '', `☐ ${option}`));
@@ -894,6 +905,7 @@
           const ol = create('ol'); (task.explanation || task.criteria || []).forEach(step => appendText(ol, 'li', '', step)); item.append(ol);
         }
         section.append(item);
+        if (index === topic.tasks.length - 1) finalPrintedTask = item;
         if (topic.stagedPrompt && mode === 'child' && index === 0 && !hideChildPromptContext) appendText(section, 'p', 'print-staged-source print-passage', topic.stagedPrompt.text);
         if (topic.stagedReading && mode === 'child' && index === 0 && !hideChildReadingSource) {
           appendText(section, 'p', 'print-staged-source print-passage', topic.stagedReading.text);
@@ -936,7 +948,8 @@
             appendText(practiceSection, 'p', '', `Nur bei Durchführung und fairer Gelegenheit für alle Kriterien: Summe mündliche Übung ____ / ${observationMax}. Bei „—“ keine vergleichbare Gesamtsumme. Kein automatisches Urteil und keine Schulnote.`);
           }
         }
-        section.append(practiceSection);
+        if (topic.practiceBeforeLastTask && finalPrintedTask) section.insertBefore(practiceSection, finalPrintedTask);
+        else section.append(practiceSection);
       }
       page.append(section);
     }

@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-23T04:58:47.028Z",
-  "releaseVersion": "2026.10.23-enform.1",
+  "builtAt": "2026-10-23T05:16:34.688Z",
+  "releaseVersion": "2026.10.23-frsm03.1",
   "newTopicIds": [
-    "en-form-reading-lab"
+    "fr-mes-gouts-envies"
   ],
   "changeLog": [
-    "Englisch: Ein freiwilliger Klasse-8-Ausblick lässt ein fiktives Reading-Lab-Formular aus zwei datierten Karten in zwölf einzeln gespeicherten Feldern ausfüllen.",
-    "Die dritte Karte erscheint erst nach A–C; unbekannte Angaben bleiben NOT GIVEN. Kinderfelder und Druck enthalten keine Musterlösungen oder echten persönlichen Daten."
+    "Französisch: Ein freiwilliger 7/8-Sprechweg zu Vorlieben, Abneigung und Wunsch trennt Stichwortplanung, echte Kurzrede und Rückschau in A–B–C-Folge.",
+    "Die App zählt nur zwei Notizfelder; 14 Sprechpunkte dürfen ausschliesslich nach wirklich gehörter und fachkundig beurteilbarer Rede vergeben werden. Keine Aufnahme oder automatische Sprechwertung."
   ],
-  "rollbackCommit": "8271a2cf72b2a22a239700bc742f4a14337df94d",
+  "rollbackCommit": "bfd7af9094ff7e08c0b2aa79e2c0421f5f9f6741",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -105,6 +105,7 @@
     "de-lesetreff-planungsgespraech",
     "de-bibliotheksregal-erklaeren",
     "fr-bilderausstellung-vortrag",
+    "fr-mes-gouts-envies",
     "en-small-note-poem",
     "fr-parapluie-poeme",
     "ma-schraegbild-darstellungen",

@@ -8303,6 +8303,76 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "fr-mes-gouts-envies",
+      "subjectId": "fr",
+      "title": "Mes goûts, mes envies · zusammenhängend erzählen",
+      "scope": "Freiwilliger, gestützter 7/8-Einstieg in das zusammenhängende Sprechen über Wünsche, Vorlieben und Abneigungen. § 3.2.3 nennt ein Ziel bis Ende Klasse 8; Lottes aktuelle Schulreihe ist unbekannt.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "practiceBeforeLastTask": true,
+      "prerequisite": "Für den mündlichen Teil brauchst du eine echte zuhörende Person. Wähle nur harmlose erfundene Angaben oder spiele eine fiktive Person. Keine echten Hobbys, Namen, Fotos oder Aufnahmen nötig. Eine französischkundige Person soll die Rede nur beurteilen, wenn sie sich die Einschätzung zutraut.",
+      "introduction": "Plane mit höchstens sechs Stichwörtern einen kurzen französischen Beitrag. Erzähle dann einer echten Person, was die fiktive Figur mag, weniger mag und später gern machen möchte, mit einem einfachen Grund. Das kann etwa 20–45 Sekunden dauern; die Zeit ist keine Grenze. Die App hört nicht mit und bewertet Sprechen nicht automatisch. Ohne gehörte Rede bleibt der 14-Punkte-Bogen „nicht erhoben“. A und C sind unbepunktete Notizfelder, keine Ersatzwertung.",
+      "passage": "ERFUNDENE AUSWAHLKARTEN · Du darfst auch eine andere harmlose Idee für eine fiktive Person wählen.\nDessiner · zeichnen · un arbre, une affiche\nÉcouter de la musique · Musik hören · une chanson, un rythme\nJouer dehors · draussen spielen · un jeu, un ballon\nLire une histoire · eine Geschichte lesen · un livre, un personnage\n\nSATZANFÄNGE BEI BEDARF · J'aime … / Je préfère … · Je n'aime pas trop … / Je n'aime pas … · J'aimerais … / Je voudrais … · parce que …\nGRUNDHILFEN · c'est calme (ruhig) · c'est amusant (macht Spass) · j'aime les couleurs (ich mag die Farben) · c'est difficile (schwierig) · j'aime être dehors (ich bin gern draussen).\nDiese Wörter sind Hilfen, keine Musterrede. Andere verständliche einfache Sätze sind möglich.",
+      "tasks": [
+        {
+          "id": "fr-gouts-envies-plan",
+          "kind": "reflection",
+          "points": 0,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "A. Vor dem Sprechen: Notiere höchstens sechs Stichwörter oder kleine Satzanfänge für eine Vorliebe, eine Abneigung oder geringere Vorliebe, einen Wunsch und einen einfachen Grund. Du darfst auf Deutsch planen. Schreibe keinen fertigen Redetext; die Notiz wird nicht als Sprechleistung bewertet.",
+          "sample": "Mögliche Stichwortkarte: dessiner → couleurs; musique; ballon: pas trop; plus tard: lire une histoire. Andere harmlose fiktive Ideen sind gleichwertig. Ein ausgeschriebener Mustertext soll vor der Rede nicht gezeigt werden.",
+          "criteria": [
+            "Nur Planungsform und tatsächlich genutzte Hilfen festhalten; keine schriftlichen Sprechpunkte vergeben.",
+            "Private Vorlieben sind freiwillig; eine fiktive Figur genügt."
+          ]
+        },
+        {
+          "id": "fr-gouts-envies-rueckschau",
+          "kind": "reflection",
+          "points": 0,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "C. Erst nach einer wirklich gehörten Rede: Welche zwei Ideen hast du verbunden? Wo hast du eine Hilfe verwendet oder selbst formuliert? Was möchtest du beim nächsten Erzählen ausprobieren? Ohne Zuhörperson lasse C offen und markiere die mündliche Praxis als „nicht erhoben“. Du darfst auf Deutsch antworten.",
+          "sample": "Mögliche Rückschau nach einer tatsächlich gehörten Rede: Ich habe Zeichnen und Musik mit „et“ verbunden; bei „j’aimerais“ nutzte ich die Satzhilfe; nächstes Mal möchte ich einen eigenen Grund mit „parce que“ formulieren. Nur als Beispiel nach Durchführung, nicht als Beleg einer stattgefundenen Rede.",
+          "criteria": [
+            "Eine konkrete Stärke aus tatsächlich Gehörtem und einen nächsten kleinen Schritt besprechen.",
+            "Ohne Durchführung keine Rückschau erfinden und keine Punktzahl aus dem Text ableiten."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "B · Praxis: Vorlieben und Wünsche mündlich erzählen",
+        "childNote": "Sprich in eigenen einfachen französischen Sätzen zu einer echten zuhörenden Person. Nutze Stichwörter, lies keinen vorher geschriebenen Redetext ab. Die App speichert keine Aufnahme. Ohne gehörte Rede bleiben alle sieben Kriterien „nicht erhoben“.",
+        "childSteps": [
+          "Wähle auf den erfundenen Karten eine Vorliebe, eine Abneigung oder geringere Vorliebe und einen Wunsch; plane höchstens sechs Stichwörter in A.",
+          "Erzähle auf Französisch, was du magst, weniger magst und gern einmal tun möchtest. Gib mindestens einen einfachen Grund und verbinde zwei Gedanken mit „et“, „mais“ oder „parce que“.",
+          "Sieh bei Bedarf auf deine Stichwörter. Bitte um eine Wortstütze oder Wiederholung, falls nötig; die Hilfe wird nur notiert.",
+          "Schreibe C erst nach dem Erzählen. Besprecht eine wirklich gehörte Stärke und einen nächsten kleinen Schritt."
+        ],
+        "observationMax": 14,
+        "observationLabel": "französische Kurzrede",
+        "adultNote": "Nur tatsächlich gehörte französische Rede beurteilen. Keine Musterrede vorsagen; nötige Wortstützen und Wiederholungen notieren. Je Kriterium: 2 = selbständig, verständlich und passend; 1 = teilweise oder nach fairer Hilfe verständlich; 0 = trotz fairer Gelegenheit nicht gezeigt; — = keine faire Gelegenheit oder sprachlich nicht sicher beurteilbar. Ohne Rede alle Zeilen „nicht erhoben“, nie 0/14. Ohne ausreichende Französischkenntnisse sprachliche Zeilen mit — markieren und keine Gesamtsumme bilden. Akzent und Nervosität allein sind kein Fehler. Verständlichkeit und Stichwortform getrennt einschätzen. Eine 14er-Summe nur bei fairer Beurteilbarkeit aller sieben Zeilen; formative Rückmeldung, keine Schulnote. Keine Aufnahme oder Weitergabe nötig.",
+        "adultCriteria": [
+          "Eine eigene oder sicher fiktive Vorliebe verständlich benannt: 0/1/2 oder —.",
+          "Eine Abneigung oder geringere Vorliebe verständlich benannt: 0/1/2 oder —.",
+          "Einen Wunsch für später verständlich ausgedrückt: 0/1/2 oder —.",
+          "Mindestens einen passenden einfachen Grund gegeben: 0/1/2 oder —.",
+          "Mindestens zwei Gedanken nachvollziehbar verbunden, etwa mit „et“, „mais“ oder „parce que“: 0/1/2 oder —.",
+          "Insgesamt verständlicher kurzer Beitrag; unabhängig von der Aufgabenform beurteilen: 0/1/2 oder —.",
+          "Stichwortgestützt in eigenen Sätzen erzählt, statt einen vorher geschriebenen Redetext abzulesen: 0/1/2 oder —."
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Französisch Klasse 7 ab 2026/27. Zweite Fremdsprache § 3.2.3, PDF-S. 61: Wünsche, Vorlieben und Abneigungen benennen und darüber erzählen; Zielmarke Ende Klasse 8. § 3.5.2, PDF-S. 82: sprachliche Mittel als 7/8-Orientierung.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "en-small-note-poem",
       "subjectId": "en",
       "title": "A small note · ein Gedicht lesen",

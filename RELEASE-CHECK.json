@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-23T05:40:13.021Z",
-  "releaseVersion": "2026.10.23-mntskelett.1",
+  "builtAt": "2026-10-23T05:56:16.462Z",
+  "releaseVersion": "2026.10.23-enwpoem.1",
   "newTopicIds": [
-    "mnt-skelett-knochenformen"
+    "en-write-rooftop-poem"
   ],
   "changeLog": [
-    "MNT: Eine freiwillige Ende-6-Brücke ordnet sieben Skelettbereiche und vergleicht Röhren- und Plattenknochen an fiktiven Karten.",
-    "Vier Hauptaufgaben mit 20 Lernpunkten und eine erst danach sichtbare Zusatzkarte mit sechs getrennten Punkten; keine Körperuntersuchung und keine behauptete Klasse-7-MNT-Zuordnung."
+    "Englisch: Ein freiwilliger, gestützter Klasse-7-Vorgriff auf das Ende-8-Schreibziel lässt ein eigenes kurzes Gedicht zu einer fiktiven Szene entstehen.",
+    "Plan, Gedicht und Gestaltungsreflexion zählen 20 Lernpunkte; eine erst danach sichtbare Überarbeitung zählt sechs getrennte Zusatzpunkte. Freie Texte werden nicht automatisch bewertet."
   ],
-  "rollbackCommit": "70acdace1d7b9d6645709a9fcb3d3a305de347ac",
+  "rollbackCommit": "b7fa98e0f2788f2710b4cc9fc9b8f43a002ea8fd",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -107,6 +107,7 @@
     "de-bibliotheksregal-erklaeren",
     "fr-bilderausstellung-vortrag",
     "fr-mes-gouts-envies",
+    "en-write-rooftop-poem",
     "en-small-note-poem",
     "fr-parapluie-poeme",
     "ma-schraegbild-darstellungen",
@@ -162,6 +163,7 @@
     "fr-camille-geschichte-fortsetzen",
     "ma-kuehlkasten-rationale-zahlen",
     "ma-potenzen-rechnerwahl",
+    "en-write-rooftop-poem",
     "ma-schraegbild-darstellungen"
   ],
   "unclearValidityTopics": [

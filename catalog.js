@@ -8468,6 +8468,94 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "en-write-rooftop-poem",
+      "subjectId": "en",
+      "title": "A roof garden poem · selbst schreiben",
+      "scope": "Freiwilliger, gestützter Klasse-7-Einstieg in das Ende-Klasse-8-Ziel „einfache lyrische Texte schreiben“ aus § 2.2.4. Der Klasse-8-Teil der neuen Fassung gilt erst ab 2027/28; aktuelle Schuleinheit und selbstständige Ende-8-Leistung sind offen.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Die Dachgartenszene ist erfunden. Du kannst eine andere passende erfundene Szene wählen. Deutsch ist für Planung und Rückblick erlaubt; das Gedicht selbst schreibst du in einfachem Englisch. Dies ist ein freiwilliger Ausblick auf Klasse 8, kein bestätigter aktueller Klasse-7-Stoff. Keine echten Namen oder Erlebnisse verwenden. Die App bewertet den freien Text nicht automatisch. D erscheint erst nach A–C.",
+      "introduction": "Schreibe ein eigenes englisches Mini-Gedicht mit 6 bis 8 Zeilen. Plane zuerst den Moment, schreibe danach das Gedicht und erkläre eine eigene Gestaltungswahl. Ein Reim ist nicht nötig; einfache, verständliche Sprache genügt. Wortbank und Satzanfänge sind Hilfen, keine Pflicht. 20 Hauptpunkte und 6 getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "passage": "FIKTIVER IMPULS · In einer erfundenen Stadt liegt ein kleiner Dachgarten nach dem Regen still da. Bis zum Ende verändert sich eine Kleinigkeit. Stell dir vor, der Garten, ein Samen oder ein Gegenstand bemerkt den Augenblick. Du musst nichts Persönliches erzählen. Du darfst auch eine andere passende erfundene Szene wählen.\n\nWORTBANK · roof = Dach; garden = Garten; seed = Samen; pot = Blumentopf; rain = Regen; wind = Wind; leaf = Blatt; green = grün; wet = nass; quiet = ruhig; morning = Morgen; lift = heben; wake = aufwachen; shine = glänzen.\n\nSATZANFÄNGE, FALLS HILFREICH · The roof is ... / The wind ... / One small ... / Then ...\n\nDu kannst auch einen zweisprachigen Wörterbucheintrag nutzen. Übernimm keine fremden Gedichtzeilen.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGE ÜBERARBEITUNG NACH A–C · Lass die erfundene Szene gleich. Schreibe zwei Zeilen neu und verändere mit Wiederholung oder Zeilenumbrüchen das Tempo oder die Stimmung. Markiere deine Änderung und erkläre kurz die neue Wirkung. Die sechs Zusatzpunkte zählen getrennt."
+      },
+      "tasks": [
+        {
+          "id": "en-rooftop-plan",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Plan the moment (4 Hauptpunkte): Notiere vier kurze Ideen, Deutsch ist erlaubt. 1. Wer oder was bemerkt den Moment? 2. Welche drei passenden englischen Wörter willst du nutzen? 3. Was verändert sich zwischen Anfang und Ende? 4. Welches Wort, welcher Laut oder welche kurze Zeile könnte sich wiederholen?",
+          "sample": "Mögliche Planung: Ein Samen bemerkt den Regen; rain, roof, green; am Ende öffnet sich der Himmel; „knock, knock“ soll als Windgeräusch wiederkehren. Gleichwertige eigene Ideen zählen.",
+          "criteria": [
+            "1 Punkt für eine passende Erzählinstanz oder einen beobachtenden Gegenstand.",
+            "1 Punkt für drei passende englische Wörter aus Wortbank oder eigenem vertrautem Wortschatz.",
+            "1 Punkt für eine kleine geplante Veränderung.",
+            "1 Punkt für eine beabsichtigte Wiederholung. Deutschsprachige Planungsnotizen sind zulässig."
+          ]
+        },
+        {
+          "id": "en-rooftop-poem",
+          "kind": "reflection",
+          "points": 12,
+          "writingLines": 10,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "B · Write your mini-poem (12 Hauptpunkte): Schreibe 6 bis 8 eigene englische Zeilen zu deiner erfundenen Szene. Zeige einen Moment und eine kleine Veränderung. Nutze mindestens ein konkretes Bild oder einen Sinneseindruck und eine bewusste Wiederholung. Wähle Zeilenumbrüche, die zu Klang oder Tempo passen. Reim ist nicht nötig. Schreibe keine echten Namen oder Erlebnisse auf und kopiere keine fremden Zeilen.",
+          "sample": "Eine mögliche eigene Beispielvariante:\nThe roof keeps the rain.\nThe pots shine, still.\nWind knocks at the leaves:\nknock, knock, then gone.\nA green tip lifts its head.\nClouds open a window.\nThe garden is tiny.\nIts morning is wide.\nAndere verständliche, eigenständige und reimfreie Gedichte können ebenso gut sein.",
+          "criteria": [
+            "0–3 Punkte für einen erkennbaren Moment mit kleiner Entwicklung oder Veränderung.",
+            "0–3 Punkte für insgesamt verständliche englische Zeilen und passende Wortwahl; einfache Sprache zählt voll, kleine Fehler nur nach ihrer Wirkung.",
+            "0–3 Punkte für mindestens eine eigene konkrete Beobachtung, ein Bild oder einen Sinneseindruck.",
+            "0–3 Punkte für erkennbare Wiederholung und bewusst passende Klang- oder Zeilenführung. 0 = nicht erkennbar, 1 = Ansatz, 2 = teilweise klar, 3 = klar und passend. Kein Reim oder Fachbegriff nötig; denselben Sprachfehler nicht doppelt abziehen."
+          ]
+        },
+        {
+          "id": "en-rooftop-choice",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "C · Explain one writing choice (4 Hauptpunkte): Zitiere eine eigene Gedichtzeile. Erkläre, warum du darin ein Wort, Bild, eine Wiederholung oder einen Zeilenumbruch gewählt hast. Welche Stimmung, welches Tempo oder welches Bild könnte daraus entstehen? Nenne eine kleine Änderung, die du bei einer Überarbeitung ausprobieren könntest. Deutsch ist erlaubt; verbinde deine Erklärung mit deiner Zeile.",
+          "sample": "Beispiel nur für das Erwachsenenblatt: „knock, knock, then gone“ wiederholt den Laut, damit der Wind kurz hörbar wird. Die kurze Zeile kann ein schnelles Vorüberziehen vermitteln. Ich könnte die Wiederholung weglassen, um den Moment ruhiger wirken zu lassen. Andere plausible Begründungen zählen.",
+          "criteria": [
+            "1 Punkt für eine konkret zitierte oder eindeutig gezeigte eigene Zeile.",
+            "1 Punkt für eine benannte eigene Gestaltungswahl.",
+            "1 Punkt für eine plausible Wirkung auf Stimmung, Tempo oder Vorstellung mit Bezug zur Zeile.",
+            "1 Punkt für eine kleine mögliche Überarbeitung; Deutsch und andere begründete Lesarten sind zulässig."
+          ]
+        },
+        {
+          "id": "en-rooftop-revision",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Zusatzaufgabe D nach A–C (6 getrennte Punkte): Schreibe zwei Zeilen deines Gedichts um. Die Szene bleibt gleich, aber die Wiederholung oder der Zeilenumbruch verändert Tempo oder Stimmung. Zeige die alte und neue Fassung, markiere deine Änderung und erkläre kurz, was nun anders wirkt.",
+          "sample": "Beispiel nur für Erwachsene: „Wind knocks at the leaves: / knock, knock, then gone.“ wird zu „Wind slips past the leaves / without a sound.“ Der Wind wirkt nun stiller. Andere begründete Änderungen zählen.",
+          "criteria": [
+            "2 Zusatzpunkte für zwei erkennbar umgeschriebene Zeilen bei gleicher Szene.",
+            "2 Zusatzpunkte für eine gezielt veränderte Wiederholung oder Zeilenführung mit neuer Wirkung.",
+            "2 Zusatzpunkte für eine verständliche Erklärung der geänderten Wirkung auf Tempo, Klang oder Stimmung. Zusatzpunkte getrennt von A–C halten."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. § 2.2.4 PDF-S. 29 führt einfache lyrische Texte schreiben unter dem Ziel für Klasse 8.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "en-small-note-poem",
       "subjectId": "en",
       "title": "A small note · ein Gedicht lesen",

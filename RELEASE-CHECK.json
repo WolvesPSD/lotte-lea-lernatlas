@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-23T00:59:21.643Z",
-  "releaseVersion": "2026.10.23-frlkontext.1",
+  "builtAt": "2026-10-23T01:09:47.410Z",
+  "releaseVersion": "2026.10.23-m8lflaeche.1",
   "newTopicIds": [
-    "fr-attend-kontextpruefen"
+    "ma-quadratdifferenz-lflaeche"
   ],
   "changeLog": [
-    "Französisch: Ein freiwilliger kurzer Sprachvergleich führt erst von einer Wortvermutung zum erfundenen Kontext und dann zur überprüften Bedeutung.",
-    "Der Kinderdruck trennt Vermutung und Kontextseiten; offene Antworten werden nicht automatisch bewertet. Die Schulfolge und eine Kinderprobe bleiben offen."
+    "Mathematik: Eine freiwillige Klasse-8-L-Fläche begründet die Quadratdifferenz und führt von einer Skizze zu Rechnung, Gleichung und kurzem Pascal-Vergleich.",
+    "Die Zusatzkarte erscheint erst nach A–D. Zeichenpunkte brauchen eine echte Papierprüfung; die App bewertet freie Antworten nicht automatisch."
   ],
-  "rollbackCommit": "4a4cdc4feb1684027c70265481b2c989bea6182a",
+  "rollbackCommit": "945d04a2eb2457fb97ed95968eacacc8123b313a",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -41,6 +41,7 @@
     "de-leseecke-ueberarbeiten",
     "de-drama-lyrik-spuren",
     "de-roter-faden-epik",
+    "ma-quadratdifferenz-lflaeche",
     "ma-binomische-flaechen",
     "ma-zufall-80-versuche",
     "de-sprachreflexion-bericht",
@@ -139,6 +140,7 @@
     "ma-prismenbox",
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
+    "ma-quadratdifferenz-lflaeche",
     "ma-binomische-flaechen",
     "ma-zufall-80-versuche",
     "en-sprachreflexion-lesewerkstatt",

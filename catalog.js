@@ -2896,6 +2896,113 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-quadratdifferenz-lflaeche",
+      "subjectId": "ma",
+      "title": "Wohin geht das kleine Quadrat?",
+      "scope": "Freiwilliger Ausblick auf das Ziel zu binomischen Formeln in Klasse 8. Der Fall begründet die Quadratdifferenz mit einer L-Fläche und verbindet sie mit Zahlentrick, Gleichung und einem begrenzten Pascal-Vergleich. Lottes aktuelle Klasse-7-Reihe und eine vollständige M8-Abdeckung sind nicht belegt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Hilfreich sind Quadrat- und Rechteckfläche, Ausmultiplizieren und einfache Gleichungen. Versuche A–C zuerst ohne Formelkarte und Rechner; wenn du Hilfe nutzt, notiere deinen ersten Versuch und welche Hilfe es war. Zeichne in A und im freiwilligen Transfer auf eigenem Papier. Die App kann Zeichnungen und Hilfsmittelverzicht nicht beobachten; die betreffenden Kriterien prüft eine Person am Blatt.",
+      "introduction": "Die eigene Skizze zeigt ein großes Quadrat mit Seitenlänge a = 7 cm. Oben rechts ist ein kleines Quadrat mit b = 3 cm herausgenommen. Die farbige L-Fläche besteht aus dem blauen Rechteck I links und dem gelben Rechteck II unten rechts. Das Bild ist nicht maßstabsgetreu; nur die Zahlen gelten. Für die allgemeine Aussage gilt a > b > 0. 20 Haupt- und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "diagram": {
+        "path": "assets/ma-m8-l-flaeche.svg",
+        "alt": "Schematisches 7-mal-7-Quadrat. Oben rechts ist ein 3-mal-3-Quadrat frei. Die verbleibende L-Form besteht aus dem linken blauen Rechteck I und dem unteren rechten gelben Rechteck II. Die Grafik ist nicht zum Abmessen.",
+        "caption": "Eigene schematische L-Fläche. Nutze die Zahlen a = 7 cm und b = 3 cm; Bildpixel und Druckgröße sind keine Maße."
+      },
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGER TRANSFER NACH A–D · Jemand behauptet: „Nach dem Herausnehmen des kleinen Quadrats bleibt einfach ein Quadrat mit Seite a−b; also ist a²−b²=(a−b)².“ Prüfe diese neue Behauptung zuerst mit a=7 cm und b=3 cm. Die sechs Zusatzpunkte werden getrennt ausgewiesen."
+      },
+      "tasks": [
+        {
+          "id": "ma-m8-lf-1",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 13,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "A · Restfläche umlegen (8 Hauptpunkte): Berechne die farbige Fläche als großes minus kleines Quadrat. Bestimme Maße und Flächen von I und II und prüfe die Summe. Drehe II in einer eigenen Papierskizze um 90° und setze es ohne Lücke/Überlappung an I: Welche Seiten hat das neue Rechteck, warum bleibt die Fläche gleich? Ersetze danach 7 und 3 durch a und b, schreibe die Fläche als Quadratdifferenz und als Produkt und begründe die Gleichung für a>b>0. Beschreibe deine Zeichnung hier; zwei Zeichenpunkte gibt es nur bei tatsächlich vorgelegtem Blatt.",
+          "sample": "7²−3²=49−9=40 cm². I misst 4×7 cm und hat 28 cm²; II misst 3×4 cm und hat 12 cm². Nach einer 90°-Drehung kann II als 4×3 cm ohne Lücke an I gesetzt werden; das neue Rechteck misst 4×10 cm und hat wieder 40 cm². Allgemein für a>b>0: a²−b²=(a−b)(a+b), weil I a(a−b) und II b(a−b) liefern.",
+          "criteria": [
+            "2 Punkte für 49−9=40 cm² mit Quadratbezug.",
+            "2 Punkte für I = 4×7 cm und II = 3×4 cm samt 28+12=40 cm².",
+            "2 Punkte nur bei tatsächlich vorgelegter, sachlich richtiger Papierskizze: II gedreht, 4×10-cm-Rechteck ohne Lücke/Überlappung und Flächenerhalt. Text allein belegt diese Zeichenpunkte nicht; bei fehlendem Blatt als nicht erhoben markieren.",
+            "2 Punkte für a²−b²=(a−b)(a+b) mit a>b>0 und einer Flächenbegründung. Gleichwertige Zerlegung a(a−b)+b(a−b) gilt."
+          ]
+        },
+        {
+          "id": "ma-m8-lf-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "B · Große Zahlen ohne lange Quadratrechnung (4 Hauptpunkte): Berechne 101²−99², ohne zuerst beide Quadrate auszurechnen. Zeige die beiden kleinen Rechenschritte aus A. Prüfe dein Ergebnis bei Bedarf auf einem zweiten Weg und erkläre, warum dein erster Weg kürzer ist.",
+          "sample": "(101−99)(101+99)=2·200=400. Die Kontrolle 10201−9801=400 ist möglich, aber nicht der geforderte Erstweg. Differenz und Summe sind einfacher als zwei große Quadrate.",
+          "criteria": [
+            "1 Punkt für 101−99=2.",
+            "1 Punkt für 101+99=200.",
+            "1 Punkt für 2·200=400.",
+            "1 Punkt für die Erklärung des kürzeren Produktwegs oder eine unabhängige richtige Kontrolle."
+          ]
+        },
+        {
+          "id": "ma-m8-lf-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C · Eine Gleichung selbst planen (5 Hauptpunkte): Löse für x>3 die Gleichung (x+3)(x−3)=(x−1)²+2. Schreibe vor deiner Rechnung einen kurzen Plan für beide Seiten. Forme dann um, gib die Lösungsmenge im Grundbereich an und prüfe deinen Wert in der ursprünglichen Gleichung. Falls du nach dem ersten Versuch Hilfe nutzt, notiere sie; eine getippte Antwort beweist keine Hilfsmittelfreiheit.",
+          "sample": "Plan: links die Quadratdifferenz nutzen, rechts ausmultiplizieren und dann x² wegnehmen. Links x²−9, rechts x²−2x+3; −9=−2x+3, also x=6 und wegen 6>3 gilt L={6}. Originalprobe: (6+3)(6−3)=9·3=27 und (6−1)²+2=25+2=27.",
+          "criteria": [
+            "1 Punkt für eigenen Plan zur linken und rechten Umformung vor der Rechnung.",
+            "Je 1 Punkt für x²−9 links und x²−2x+3 rechts.",
+            "1 Punkt für x=6 und L={6} im Grundbereich x>3.",
+            "1 Punkt für 27=27 in der ursprünglichen Gleichung. Folgefehler nicht doppelt bestrafen; selbstständigen Plan/Hilfsmittelverzicht nur bei Beobachtung behaupten."
+          ]
+        },
+        {
+          "id": "ma-m8-lf-4",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "D · Pascalsches Dreieck begrenzt vergleichen (3 Hauptpunkte): Die ersten Zeilen sind 1 / 1 1 / 1 2 1 / 1 3 3 1. Welche Zeile passt zu (a+b)²? Erkläre die mittlere 2 durch Ausmultiplizieren von (a+b)(a+b). Multipliziere dann (a+b)(a−b): Was geschieht mit den gemischten Produkten?",
+          "sample": "Die Zeile 1 2 1 passt zu (a+b)²=a²+2ab+b², denn ab+ab=2ab. Bei (a+b)(a−b)=a²−ab+ab−b² heben sich −ab und +ab auf; es bleibt a²−b². Das ist nur ein kurzer Strukturvergleich.",
+          "criteria": [
+            "1 Punkt für die Zeile 1 2 1.",
+            "1 Punkt für ab+ab=2ab aus (a+b)(a+b).",
+            "1 Punkt für −ab+ab=0 beim Differenzprodukt. Keine volle Pascal-Untersuchung behaupten."
+          ]
+        },
+        {
+          "id": "ma-m8-lf-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer nach A–D · sechs getrennte Zusatzpunkte: Vergleiche 7²−3² mit (7−3)². Markiere in deiner Papierskizze die zwei Rechteckstücke, die beim falschen Restquadrat fehlen, und nenne ihre Maße. Wie groß ist die gemeinsame fehlende Fläche allgemein? Korrigiere danach die Gleichung. Zeige die Markierung einer betreuenden Person; das Textfeld ersetzt sie nicht.",
+          "sample": "7²−3²=40 cm², aber (7−3)²=4²=16 cm². Es fehlen oben links 4×3 cm und unten rechts II mit 3×4 cm, je 12 cm², zusammen 24 cm². Allgemein fehlen 2b(a−b). Richtig: a²−b²=(a−b)²+2b(a−b)=(a−b)(a+b). Die Markierungspunkte brauchen ein echtes Blatt.",
+          "criteria": [
+            "2 Zusatzpunkte für 40 cm² und 16 cm² als Gegenprobe.",
+            "2 Zusatzpunkte nur für die tatsächlich vorgelegte Markierung des oberen 4×3- und unteren 3×4-Rechtecks; Text allein ist kein Zeichnungsbeleg.",
+            "2 Zusatzpunkte für 2b(a−b) als gemeinsame fehlende Fläche und die korrigierte Gleichung. Zusatzpunkte getrennt ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Mathematik Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. § 2.2.8 PDF-S. 29 unter Klassenstufe 8: binomische Formeln geometrisch begründen, Terme umformen und auf lineare Gleichungen zurückführen; einfache Probleme ohne Hilfsmittel, KB-Anregung Pascalsches Dreieck.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "ma-binomische-flaechen",
       "subjectId": "ma",
       "title": "Zwei Quadratflächen mit Termen vergleichen",

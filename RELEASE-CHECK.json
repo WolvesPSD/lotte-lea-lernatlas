@@ -1,14 +1,15 @@
 {
-  "builtAt": "2026-10-23T06:32:52.821Z",
-  "releaseVersion": "2026.10.23-mbii1nutzen.1",
+  "builtAt": "2026-10-23T07:01:16.058Z",
+  "releaseVersion": "2026.10.23-mbii1team.1",
   "newTopicIds": [
-    "mbi-tabellen-nutzen-lernen-beruf"
+    "mbi-teamdaten-gegenpruefen"
   ],
   "changeLog": [
-    "Medienbildung und Informatik: Ein freiwilliger schriftlicher Teilfall fragt, wann Tabellenkalkulation beim eigenen Lernen und in einer beruflichen Datenübersicht hilft und wo menschliche Prüfung nötig bleibt.",
-    "A–E umfassen 20 Hauptpunkte; ein späterer fiktiver Transfer zählt sechs getrennte Zusatzpunkte. Die amtliche MBI-Zielmarke ist Ende Klasse 8; eigene Tabellenbedienung und Lernwirkung sind damit nicht belegt."
+    "Medienbildung und Informatik: Eine freiwillige Partnerübung führt eine fiktive Auszählung mit Tabelle, Gegenprüfung, Rollenwechsel und datensparsamer Weitergabe durch.",
+    "A–E umfassen 20 Hauptpunkte; eine spätere dreizehnte Karte zählt sechs getrennte Zusatzpunkte. Ein unbewerteter Beobachtungsbogen trennt echte Team- und Tabellenhandlung von Textantworten.",
+    "Der unbewertete Erwachsenen-Druckbogen verwendet nun fachneutrale Hinweise statt eines Sporttextes; der Sportbogen behält seine spezifischen Hinweise."
   ],
-  "rollbackCommit": "d55516e59d4b66084a1ad46332f4ec4bedccf466",
+  "rollbackCommit": "2552893c32a1b0cc51d75dc7fb7ea8b59a0773f6",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -122,7 +123,8 @@
     "mu09-bass-triole-taktwechsel",
     "sp-basketball-regelkarte-papier",
     "mnt-wasser-teilchenmodell",
-    "mbi-tabellen-nutzen-lernen-beruf"
+    "mbi-tabellen-nutzen-lernen-beruf",
+    "mbi-teamdaten-gegenpruefen"
   ],
   "subjects": [
     "mnt",

@@ -10258,6 +10258,159 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.1 PDF-S. 24, I1-SS4: Nutzen der Tabellenkalkulation für eigenes Lernen und Arbeiten sowie im beruflichen Umfeld beschreiben; Zielmarke Klassenstufe 8. Keine schulische Klasse-7-Themenfolge belegt.",
         "checkedAt": "2026-10-23"
       }
+    },
+    {
+      "id": "mbi-teamdaten-gegenpruefen",
+      "subjectId": "mbi",
+      "title": "Im Team Daten prüfen und ändern",
+      "scope": "Freiwillige Partnerübung zu I1-SS2 im aktuellen MBI-Lernzeitraum Klasse 7/8 mit Zielstand Ende Klasse 8. Eine tatsächliche Teamhandlung und Tabellenbedienung müssen beobachtet werden; die schulische Themenfolge ist unbekannt.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Suche eine zweite Person für diese freiwillige Übung. Nutzt nur die erfundenen Zahlen. Wenn ein vorhandenes lokales Tabellenprogramm verfügbar ist, legt darin gemeinsam eine neue Tabelle an; installiert nichts und meldet euch nirgends an. Ohne Programm ist eine Papierprobe möglich, aber keine digitale Bedienung belegt. Ohne zweite Person kannst du den Ablauf vorbereiten; Teamarbeit bleibt dann ungeprüft.",
+      "introduction": "Zwei Personen bearbeiten eine erfundene, anonyme Auszählung zu einem Sternabend. Ihr legt eine eigene Tabelle an, kontrolliert einander und verbessert einen Zählfehler. A–E ergeben 20 Hauptpunkte; eine später sichtbare Änderung zählt sechs getrennte Zusatzpunkte. Die App kann weder Teamarbeit noch Excel-/Calc-Handlungen automatisch bewerten. Lasst die tatsächlichen Schritte von einer erwachsenen Person beobachten; ohne Beobachtung bleiben die Handlungspunkte „nicht erhoben“.",
+      "passage": "FIKTIVE AUSZÄHLUNG · 12 anonyme Karten: Planetarium 5 · Mondkalender basteln 4 · Sternkarte zeichnen 2 · Noch unentschieden 1. Keine Namen und keine persönlichen Antworten.\n\nTABELLE · Plant gemeinsam zwei Spalten. A1: Angebot; B1: Zahl der Karten. Tragt die vier Gruppen in Zeilen 2–5 ein. A6: Gesamt; in B6 kann eine Summenformel stehen.\n\nROLLEN · Person A erfasst zuerst die Werte; Person B liest alle vier Zeilen und die Formel gegen die Karte. Nach einer Korrektur ändert B die Werte, und A prüft. Ein ausgefülltes Blatt allein beweist keinen Rollenwechsel.",
+      "sourceCards": [
+        {
+          "title": "Originalziel und Datenschutzgrenze",
+          "text": "Der Thüringer MBI-Lehrplan nennt im Bereich Tabellenkalkulation, Daten im Team zu verarbeiten und verantwortlich mit ihnen umzugehen. Die Zielmarke liegt Ende Klasse 8. In dieser Übung bleiben die Daten vollständig erfunden und ohne Namen.",
+          "sourceLabel": "Thüringer MBI-Erprobungsfassung 2026, §2.2.1, PDF-S. 24",
+          "sourceUrl": "https://www.schulportal-thueringen.de/web/guest/lehrplaene/gymnasium",
+          "sourceNote": "Lokales ministerielles Original geprüft; konkrete Schulfolge offen."
+        },
+        {
+          "title": "Gegenprüfung als Arbeitsregel",
+          "text": "Die britische Verwaltungsanleitung empfiehlt vor dem Teilen einer Tabelle eine Gegenprüfung und einen Blick auf unnötige personenbezogene Daten. Das ist hier ein Arbeitsbeispiel, keine Thüringer Rechtsvorgabe.",
+          "sourceLabel": "GOV.UK · Creating and sharing spreadsheets",
+          "sourceUrl": "https://www.gov.uk/guidance/creating-and-sharing-spreadsheets",
+          "sourceNote": "Stand 05.10.2023, abgerufen 23.10.2026; auf fiktive Daten begrenzt."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–E",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGE ÄNDERUNG NACH A–E · Eine zuvor übersehene dreizehnte Karte gehört zu „Noch unentschieden“. Die erste Auszählung war unvollständig. Person A ändert nur B5 von 1 auf 2; keine neue Tabellenzeile. Person B prüft, ob die vorhandene Formel B2:B5 weiterhin alle vier Kategorien erfasst. Vergleicht die neue Summe mit 13 Karten. Sprecht über die Grenze dieser Tabelle."
+      },
+      "practice": {
+        "title": "Beobachtungsbogen für die Partnerübung",
+        "childNote": "Arbeitet zu zweit an einem vorhandenen lokalen Tabellenprogramm oder auf Papier. Die Papierprobe übt Planung und Gegenprüfung, zeigt aber keine digitale Bedienung. Bitte eine erwachsene Person, tatsächliche Schritte zu beobachten. Tragt keine Namen in die Übungstabelle ein und versendet sie nicht.",
+        "childSteps": [
+          "Plant A1/B1 gemeinsam. Person A trägt die vier fiktiven Gruppen ein; Person B prüft Zeilen und Summenformel gegen die Ausgangskarte.",
+          "Vergleicht das Ergebnis mit 12 Karten. Nach dem Korrekturhinweis ändert Person B zwei Werte, Person A kontrolliert beide Zellen und die Summe.",
+          "Besprecht vor einem möglichen Teilen Datenqualität, unnötige persönliche Angaben und die Grenze der vier Häufigkeiten. Für diese Übung wird nichts geteilt.",
+          "Wenn ihr die spätere Zusatzkarte bearbeitet, ändert Person A B5, Person B kontrolliert die unveränderte Formel und beide sprechen über die Aussagegrenze."
+        ],
+        "adultNote": "Nur tatsächlich gesehene Handlungen als beobachtet markieren. Ohne zweite Person keine Teamleistung; ohne Tabellenprogramm keine digitale Bedienleistung. Bei fehlender Gelegenheit „nicht erhoben“ statt 0 angeben. Hilfen und Papier-/Digitalweg getrennt notieren. Dieser Bogen ergänzt die Aufgabenrubrik, vergibt keine weiteren Punkte und ist keine Schulnote.",
+        "adultCriteria": [
+          "Zwei passende Spalten wurden gemeinsam festgelegt; Hilfe und Rollen kurz notieren.",
+          "A erfasste vier fiktive Werte, B prüfte alle vier Zeilen gegen die Karte; Papier oder digital notieren.",
+          "B prüfte den Summenbereich B2:B5 und verglich das Ergebnis mit 12 Karten.",
+          "B änderte 4→3 und 2→3; A prüfte die beiden Zellen und die unveränderte Summe.",
+          "Das Team nannte eine konkrete Qualitäts-/Datenschutzprüfung und eine Aussagegrenze.",
+          "Spätere Karte: A änderte B5 1→2; B kontrollierte den Bereich B2:B5 und 13 Karten."
+        ],
+        "unscored": true
+      },
+      "tasks": [
+        {
+          "id": "mbi-teamdaten-1",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Zwei Spalten gemeinsam planen (3 Hauptpunkte): Welche zwei Spalten braucht ihr? Legt A1 und B1 fest. Beschreibe, was Person A und Person B tatsächlich zur Entscheidung beigetragen haben. Ohne zweite Person schreibe „allein vorbereitet“.",
+          "sample": "A1: Angebot; B1: Zahl der Karten. Das Team hat die Beschriftungen gemeinsam festgelegt. Wer welchen Beitrag wirklich geleistet hat, kann nur die Beobachtung zeigen; ein Textbericht allein belegt keine Zusammenarbeit.",
+          "criteria": [
+            "1 Punkt für zwei passende Spalten.",
+            "1 Punkt für eindeutige Beschriftungen in A1/B1.",
+            "1 Handlungspunkt nur bei beobachteter gemeinsamer Planung; allein vorbereitet oder ohne Beobachtung „nicht erhoben“."
+          ]
+        },
+        {
+          "id": "mbi-teamdaten-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Erfassen und gegenprüfen (4 Hauptpunkte): Person A trägt die vier Gruppen in A2:B5 ein, A6 heisst „Gesamt“, B6 berechnet mit =SUMME(B2:B5) oder =SUM(B2:B5). Person B prüft jede Zeile und den Formelbereich gegen die Karte. Notiert das Ergebnis und eine konkrete durchgeführte Kontrolle.",
+          "sample": "A2:B5 enthalten Planetarium 5, Mondkalender basteln 4, Sternkarte zeichnen 2 und Noch unentschieden 1. B6 summiert B2:B5 zu 12; der Bereich enthält vier Zahlen und keine Überschrift. Ob A eingab und B unabhängig gegenprüfte, muss beobachtet werden.",
+          "criteria": [
+            "2 Punkte für vier korrekt erfasste Kategorien und Zahlen bei sichtbarer Tabelle; Papier und digital getrennt ausweisen.",
+            "1 Punkt für verwendete vollständige Summenformel; digitale Bedienung nur bei beobachteter Programmhandlung oder geprüfter Kind-Datei.",
+            "1 Handlungspunkt nur bei beobachteter Prüfung von Zeilen und Formelbereich durch Person B; sonst „nicht erhoben“."
+          ]
+        },
+        {
+          "id": "mbi-teamdaten-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "C · Ergebnis gemeinsam prüfen (4 Hauptpunkte): Vergleicht die Summe mit den 12 Karten. Welche Gruppe ist am häufigsten? Nenne eine konkrete Kontrolle, die einen Zahlendreher oder eine ausgelassene Zeile erkennen könnte. Die Häufigkeit allein verrät keine Auswahlgründe; das besprecht ihr in E.",
+          "sample": "5+4+2+1=12, passend zur Zahl der Karten. Planetarium kommt mit 5 am häufigsten vor. Ein Abgleich jeder Zeile mit der Karte und der Summe mit 12 kann Fehler entdecken; die Zahlen verraten keine Gründe für die Auswahl oder Qualität des Angebots.",
+          "criteria": [
+            "1 Punkt für 12 und 1 Punkt für den Vergleich mit 12 Karten.",
+            "1 Punkt für Planetarium mit 5 als häufigste Kategorie.",
+            "1 Punkt für eine konkrete Fehlerkontrolle; einen nicht tatsächlich entdeckten Fehler nicht als Beobachtung ausgeben."
+          ]
+        },
+        {
+          "id": "mbi-teamdaten-4",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Korrektur mit Rollenwechsel (5 Hauptpunkte): Eine Karte wurde fälschlich bei Mondkalender gezählt; sie gehört zu Sternkarte. Person B ändert die beiden Zahlen, Person A prüft beide Zellen und die Formel. Nenne danach beide neuen Zahlen, die Summe, die häufigste Gruppe und die zwei gleichauf liegenden Gruppen. Vermerke, was wirklich beobachtet wurde.",
+          "sample": "Mondkalender sinkt 4→3; Sternkarte steigt 2→3. Die Folge lautet 5,3,3,1 und ergibt weiter 12. Planetarium bleibt mit 5 vorn; Mondkalender und Sternkarte liegen mit je 3 gleichauf. Der Rollentausch und die Gegenprüfung sind nur durch Beobachtung belegt.",
+          "criteria": [
+            "2 Punkte für die zwei korrekt geänderten Zahlen in der Tabelle, je 1.",
+            "1 Handlungspunkt nur bei beobachteter Gegenprüfung beider Zellen durch Person A; sonst „nicht erhoben“.",
+            "1 Punkt für unverändert richtige Formel und Summe 12.",
+            "1 Punkt für Planetarium am häufigsten und die beiden 3er-Gruppen gleichauf."
+          ]
+        },
+        {
+          "id": "mbi-teamdaten-5",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "E · Vor dem Teilen verantwortlich entscheiden (4 Hauptpunkte): Welche konkrete Kontrolle macht ihr vor einer Weitergabe? Welche unnötigen Angaben würdet ihr weglassen? Erklärt, warum die Summe 12 weder die Genauigkeit der Auszählung noch Gründe oder Qualität des Angebots beweist. Teilt für diese Übung keine Datei.",
+          "sample": "Vor dem Teilen würden wir Quelle, Zeilen, Formelbereich und Summenwert gegenprüfen. Namen, Kommentare oder Einzelantworten gehören nicht in diese anonymen Summen. Die Summe 12 könnte trotz vertauschter Gruppenzahlen stimmen; sie verrät weder Auswahlgründe noch Qualität. Hier wird nichts geteilt.",
+          "criteria": [
+            "1 Punkt für eine konkrete Prüfung vor dem Teilen.",
+            "1 Punkt für unnötige persönliche Angaben, die wegzulassen sind.",
+            "1 Punkt dafür, dass die Summe allein keine richtige Zuordnung/Genauigkeit belegt.",
+            "1 Punkt für die Grenze zu Gründen oder Qualität des Angebots."
+          ]
+        },
+        {
+          "id": "mbi-teamdaten-6",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Änderung nach A–E · sechs getrennte Zusatzpunkte: Eine übersehene dreizehnte Karte gehört zu „Noch unentschieden“. Person A ändert B5 von 1 auf 2, Person B kontrolliert. Welche Summe entsteht? Braucht die Tabelle eine neue Zeile oder einen erweiterten Formelbereich? Erklärt, was trotz der neuen Summe über Gründe und Repräsentativität unbekannt bleibt.",
+          "sample": "B5 wird 1→2; aus 5+3+3+2 entsteht 13. Eine neue Zeile ist nicht nötig, weil die Karte in der vorhandenen Kategorie liegt. B2:B5 enthält alle vier Kategorien weiter. Die erste Auszählung war unvollständig; die Tabelle verrät weder Gründe noch, ob die 13 Karten eine grössere Gruppe vertreten.",
+          "criteria": [
+            "1 Zusatzpunkt nur für beobachtete Änderung B5 1→2; ohne Beobachtung „nicht erhoben“. 1 Zusatzpunkt für die richtige Summe 13.",
+            "2 Zusatzpunkte für keine neue Zeile und unveränderten vollständigen Bereich B2:B5, je 1.",
+            "2 Zusatzpunkte für Erklärung der vorher unvollständigen Auszählung und Grenze zu Gründen/Repräsentativität, je 1. Zusatzpunkte getrennt ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.1 PDF-S. 24, I1-SS2: im Team Daten verarbeiten und verantwortlich damit umgehen; Zielmarke Klassenstufe 8. Keine schulische Klasse-7-Themenfolge belegt.",
+        "checkedAt": "2026-10-23"
+      }
     }
   ]
 });

@@ -950,8 +950,13 @@
           for (const handout of topic.practice.handouts || []) appendText(practiceSection, 'p', 'print-context', `${handout.label}: ${handout.publicUrl}. Nur zur passenden Phase und ohne Erwachsenenlösung ausgeben.`);
           if (topic.practice.unscored === true) {
             appendText(practiceSection, 'p', '', 'Je Zeile nur nach zulässiger Beobachtung markieren; „keine Gelegenheit“ ist keine Fehlleistung.');
-            appendText(practiceSection, 'p', '', 'Schulspiel und geltende Schulregel/Quelle: ______________________________________________');
-            appendText(practiceSection, 'p', '', 'Ohne Unterrichtsbeobachtung: nicht erhoben; das Raster bleibt leer. Selbstbericht ist kein Bewegungsnachweis. Keine Punkte, Summe oder Sportnote.');
+            if (topic.subjectId === 'sp') {
+              appendText(practiceSection, 'p', '', 'Schulspiel und geltende Schulregel/Quelle: ______________________________________________');
+              appendText(practiceSection, 'p', '', 'Ohne Unterrichtsbeobachtung: nicht erhoben; das Raster bleibt leer. Selbstbericht ist kein Bewegungsnachweis. Keine Punkte, Summe oder Sportnote.');
+            } else {
+              appendText(practiceSection, 'p', '', 'Übung und verwendete Grundlage: ______________________________________________________________');
+              appendText(practiceSection, 'p', '', 'Ohne tatsächliche Beobachtung: nicht erhoben; das Raster bleibt leer. Ein Selbstbericht belegt die Handlung nicht. Dieser Bogen vergibt keine zusätzlichen Punkte oder Schulnote.');
+            }
           } else {
             const observationMax = Number.isInteger(topic.practice.observationMax) ? topic.practice.observationMax : 16;
             const observationLabel = topic.practice.observationLabel || 'Vortrag';

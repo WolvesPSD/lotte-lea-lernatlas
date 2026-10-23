@@ -253,6 +253,7 @@ body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body
 .release-version{font-size:.75rem;color:#52636a;margin:-1.4rem 0 1.5rem;text-align:right;letter-spacing:.02em}
 body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="de-sprachreflexion-4"]+.print-passage{break-before:page;break-inside:avoid}body[data-print-mode^="adult"] .print-task[data-task-id="de-sprachreflexion-5"]{break-inside:avoid}}
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="mbi-teamdaten-5"]+.print-passage{break-before:page;break-inside:avoid}body[data-print-mode^="adult"] .print-task[data-task-id="mbi-teamdaten-6"]{break-inside:avoid}}
 @media print{body[data-print-mode^="child"] #print-surface .print-topic:has(.print-task[data-task-id="fr-gouts-envies-plan"]) .print-practice{break-before:page}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="mnt-skelett-3"]{break-before:page;break-inside:avoid}}
 .adult-task[data-task-id="en-rooftop-poem"] .sample-answer,.print-task[data-task-id="en-rooftop-poem"] .sample-answer{white-space:pre-line}

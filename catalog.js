@@ -2197,6 +2197,26 @@ window.LOTTE_CATALOG = Object.freeze({
       "released": true,
       "prerequisite": "Hilfreich sind Rechteck- und rechtwinklige Dreiecksflächen, Maßstab 1:2 und die Einheiten cm², cm³, ml und m². Für das Netz brauchst du kariertes Papier; der Satz des Pythagoras wird nicht vorausgesetzt.",
       "introduction": "Eine erfundene Werkstatt plant eine geschlossene, gerade dreieckige Prisma-Box. Die zwei gleichen, parallelen Dreiecke haben einen rechten Winkel; ihre Katheten sind 6 cm und 8 cm lang, die dritte Seite ist mit 10 cm vorgegeben. Die drei Kanten dazwischen sind je 15 cm lang und stehen senkrecht auf den Dreiecksflächen. Rechne zuerst mit einer idealen Box ohne Wandstärke, Klebelaschen oder Schnittverlust. Für das maßstäbliche Netz nutze kariertes Papier; schreibe online deine Maße und Faltbegründung auf. Offene Antworten werden nicht automatisch benotet.",
+      "practice": {
+        "title": "Freiwillige Praxis: Aus deinem Netz ein Prisma bauen",
+        "childNote": "Der Bau ergänzt die Papierzeichnung aus Aufgabe 2. Die App kann weder ein massstäbliches Netz noch einen gebauten Körper erkennen. Nutze kariertes Papier, Lineal, Schere und wenig Klebeband; eine erwachsene Person kann beim Schneiden helfen. Gewöhnliches Papier ist nicht für einen Flüssigkeitsversuch geeignet. Schreibe ehrlich auf, was du selbst gebaut und was du nur geplant hast.",
+        "childSteps": [
+          "Zeichne einen zusammenhängenden Streifen aus drei Rechtecken: 3 × 7,5 cm, 4 × 7,5 cm und 5 × 7,5 cm. Setze an die beiden 4-cm-Endkanten des mittleren Rechtecks je ein rechtwinkliges 3-4-5-cm-Dreieck. Ein anderes geometrisch passendes Netz ist möglich.",
+          "Beschrifte alle Masse. Markiere die äusseren Schnittkanten durchgezogen und die Faltkanten gestrichelt. Prüfe die Längen mit dem Lineal und sieh nach, ob sich die Netzflächen überdecken.",
+          "Schneide die äussere Umrandung aus. Falte an den Faltkanten; schliesse zuerst die lange Mantelnaht und dann die beiden Dreiecksenden mit Klebeband. Schneide die Faltkanten nicht durch. Bitte bei Bedarf um Hilfe.",
+          "Betrachte das fertige Modell: Treffen die passenden Kanten zusammen, sind beide Enden geschlossen, und zählst du fünf Flächen, neun Kanten und sechs Ecken? Falls etwas nicht passt, zeige am Netz die Stelle und ändere deinen Plan.",
+          "Notiere auf deinem karierten Papier neben der Zeichnung, welche Zeichen-, Mess-, Schneide- und Faltarbeiten du wirklich selbst ausgeführt hast. Die Textantwort in der App ist dafür kein Beobachtungsbeleg."
+        ],
+        "adultNote": "Nur tatsächlich gesehene Schritte markieren. Das frühere Netz aus Aufgabe 2 und eine App-Eingabe beweisen keinen Bau. Prüfen Sie die 1:2-Masse, die Kantenverbindungen und das fertige Modell getrennt; notieren Sie Hilfen. Wenn nichts gebaut oder beobachtet wurde, „nicht erhoben“ statt null Punkten vermerken. Diese Praxis ist unbepunktet und keine Schulnote.",
+        "adultCriteria": [
+          "Netz auf Papier tatsächlich gezeichnet und mit Lineal geprüft: drei Mantelrechtecke 3/4/5 cm breit, je 7,5 cm lang; zwei passende 3-4-5-Dreiecke an den 4-cm-Endkanten. Alternativnetz nach denselben Kantenbeziehungen zulassen.",
+          "Schnitt- und Faltkanten unterschieden; ohne Überlappung ausgeschnitten. Wer schnitt und wer half, getrennt notieren.",
+          "Mantelnaht und beide Dreiecksenden tatsächlich verbunden. Passende 3-/4-/5-cm-Kanten treffen zusammen; Modell ist geschlossen. Klebeband/Lücken und Abweichungen konkret beschreiben.",
+          "Am realen Modell fünf Flächen, neun Kanten und sechs Ecken gezählt; mindestens eine Korrektur oder eine begründete Prüfung des eigenen Netzplans besprochen.",
+          "Keinen Flüssigkeitstest als Nachweis verwenden. Ohne sichtbaren Bau oder Beobachtung ist die Modellanfertigung „nicht erhoben“."
+        ],
+        "unscored": true
+      },
       "tasks": [
         {
           "id": "ma-prismenbox-1",

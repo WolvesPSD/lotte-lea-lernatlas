@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-23T09:35:27.588Z",
-  "releaseVersion": "2026.10.23-historypatcham.1",
-  "newTopicIds": [
-    "ge-patcham-quellenpruefung"
-  ],
+  "builtAt": "2026-10-23T09:49:05.987Z",
+  "releaseVersion": "2026.10.23-prismapraxis.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Geschichte: freiwilliger Quellenfall zu Patcham 1086 mit Archivangaben, heutiger Erklärung und erfundener Videobehauptung.",
-    "A–D umfassen 20 Hauptpunkte; eine zusätzliche Behauptung erscheint später. Quellenreichweite und ungeklärte Geltung des Geschichte-Lehrplans 2026/27 bleiben sichtbar."
+    "Mathematik: Die bestehende freiwillige Prisma-Box enthält nun fünf Schritte zum tatsächlichen Zeichnen, Ausschneiden, Falten und Prüfen eines Papiermodells.",
+    "Die praktische Bauaufgabe ist unbepunktet. Kinderdruck und getrennter Erwachsenenbeobachtungsbogen sagen klar, dass App-Texte keine Papierzeichnung oder Modellanfertigung belegen."
   ],
-  "rollbackCommit": "25d85c411d349f96697b1198b6c96a16ae36a35e",
+  "rollbackCommit": "803927587f29525cd226836c1434681032476f6a",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",

@@ -2988,6 +2988,115 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-kreisformeln-erinnern",
+      "subjectId": "ma",
+      "title": "Kreisformeln erinnern und Kreise vergleichen",
+      "scope": "Freiwilliger Ausblick auf das Klasse-8-Ziel zu Kreisumfang und Kreisfläche. Hier werden Formeln zuerst ohne sichtbare Hilfe erinnert und Idealkreise mathematisch verglichen. Lottes aktuelle Klasse-7-Reihe und eine vollständige M10-Abdeckung sind nicht belegt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst Papier und Stift. Bearbeite A zuerst aus dem Gedächtnis: keine Formelkarte, kein Buch, kein Rechner. Versuche auch B–D zuerst ohne Formelkarte und Rechner. Wenn du später Hilfe nutzt, notiere deinen ersten Versuch und ab welchem Teil du sie verwendet hast. Die App kann den tatsächlichen Hilfsmittelverzicht nicht beobachten.",
+      "introduction": "r ist der Radius, d der Durchmesser, U der Umfang und A die Fläche. Lass Ergebnisse mit π stehen; eine Dezimalnäherung ist nicht nötig. Umfang braucht eine Längeneinheit, Fläche eine Quadrateinheit. Alle Kreise sind mathematische Idealkreise. 20 Haupt- und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote. Erst A festhalten, dann werden B–D gezeigt.",
+      "firstTaskGate": {
+        "unlockLabel": "A festhalten und B–D zeigen"
+      },
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGER TRANSFER NACH A–D · Vergleiche jetzt vier getrennte Kreise mit einem grossen Kreis. Dieser Zusatz zählt getrennt und ändert deine Hauptantworten nicht."
+      },
+      "tasks": [
+        {
+          "id": "ma-m10-kreis-1",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Formeln aus dem Gedächtnis (5 Hauptpunkte): Schreibe zuerst die Umfangsformel einmal mit r und einmal mit d sowie die Kreisflächenformel auf. Erkläre kurz, wie d und r zusammenhängen und weshalb das Flächenergebnis eine Quadrateinheit hat. Lass deinen Erstversuch stehen; kennzeichne eine spätere Korrektur als solche.",
+          "sample": "U=2πr=πd, A=πr², d=2r. U ist eine Länge, etwa cm; A enthält ein quadriertes Längenmass, etwa cm². Ein später nachgeschlagenes richtiges Ergebnis ist Lernfortschritt, aber kein Beleg für Abruf aus dem Gedächtnis.",
+          "criteria": [
+            "1 Punkt für U=2πr.",
+            "1 Punkt für U=πd.",
+            "1 Punkt für A=πr².",
+            "1 Punkt für d=2r mit kurzer Erklärung.",
+            "1 Punkt für die Erklärung der Quadrateinheit. Tatsächlichen Hilfsmittelverzicht nur bei Beobachtung oder ehrlicher Selbstauskunft vermerken."
+          ]
+        },
+        {
+          "id": "ma-m10-kreis-2",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Doppelter Radius (6 Hauptpunkte): Kreis K hat r=2 cm, Kreis L hat r=4 cm. Berechne für beide den exakten Umfang und die exakte Fläche mit π. Mit welchem Faktor ändern sich Umfang und Fläche von K zu L? Begründe beide Faktoren an den Formeln. Wenn du Hilfe genutzt hast, notiere ab welchem Teil.",
+          "sample": "K: U=4π cm, A=4π cm². L: U=8π cm, A=16π cm². Der Umfang verdoppelt sich, weil r in 2πr linear vorkommt; die Fläche vervierfacht sich, weil der Faktor 2 in πr² quadriert wird.",
+          "criteria": [
+            "1 Punkt für K: U=4π cm.",
+            "1 Punkt für K: A=4π cm².",
+            "1 Punkt für L: U=8π cm.",
+            "1 Punkt für L: A=16π cm².",
+            "1 Punkt für Umfangsfaktor 2 samt linearem Formelgrund.",
+            "1 Punkt für Flächenfaktor 4 samt quadriertem Radius."
+          ]
+        },
+        {
+          "id": "ma-m10-kreis-3",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "C · Zwei kleine, ein grosser Kreis (6 Hauptpunkte): Zwei getrennte kleine Kreise haben je r=3 cm; ein grosser Kreis hat r=6 cm. Berechne für die beiden kleinen zusammen die Summe ihrer Umfänge und ihrer Flächen. Berechne Umfang und Fläche des grossen Kreises. Was ist gleich, was verschieden? Begründe mit der Anzahl der Kreise und dem Unterschied zwischen linearer und quadratischer Abhängigkeit. Die Kreise überlappen nicht.",
+          "sample": "Je kleiner Kreis: U=6π cm, A=9π cm²; zwei zusammen: U=12π cm, A=18π cm². Grosser Kreis: U=12π cm, A=36π cm². Die Randsummen sind gleich, aber die grosse Fläche ist doppelt so gross wie die Summe der kleinen. Umfang skaliert linear, Fläche quadratisch; zwei kleine Werte werden summiert.",
+          "criteria": [
+            "2 Punkte für beide kleinen zusammen U=12π cm mit Rechenweg; direkter Summenansatz gilt.",
+            "1 Punkt für beide kleinen zusammen A=18π cm².",
+            "2 Punkte für den grossen Kreis: U=12π cm und A=36π cm².",
+            "1 Punkt für Gleichheit der Randsummen und doppelte grosse Fläche mit linearem/quadratischem Grund."
+          ]
+        },
+        {
+          "id": "ma-m10-kreis-4",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "D · Vom Umfang zum Radius (3 Hauptpunkte): Ein weiterer Kreis hat genau U=10π cm. Bestimme seinen Radius und seine Fläche exakt. Zeige den Umkehrschritt, prüfe den Umfang und die Einheiten.",
+          "sample": "10π cm=2πr, also r=5 cm. A=π·5²=25π cm². Probe: 2π·5 cm=10π cm; Radius und Umfang sind Längen, Fläche hat cm².",
+          "criteria": [
+            "1 Punkt für den Umkehrschritt 10π=2πr zu r=5 cm.",
+            "1 Punkt für A=25π cm².",
+            "1 Punkt für Umfangsprobe und Längen-/Flächeneinheit."
+          ]
+        },
+        {
+          "id": "ma-m10-kreis-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer nach A–D · sechs getrennte Zusatzpunkte: Vergleiche vier getrennte Kreise mit je r=1,5 cm mit einem Kreis mit r=3 cm. Bestimme jeweils die gesamte Fläche und die gesamte Randlänge exakt mit π. Vergleiche die Gesamtflächen und Randlängen und erkläre das Ergebnis. 1,5² kannst du schriftlich ausrechnen.",
+          "sample": "Je kleiner Kreis: U=3π cm, A=2,25π cm²; vier zusammen U=12π cm, A=9π cm². Grosser Kreis: U=6π cm, A=9π cm². Gesamtflächen gleich, Randlänge der vier kleinen zusammen doppelt so gross. Direkte Summenansätze sind gleichwertig.",
+          "criteria": [
+            "2 Zusatzpunkte für die vier kleinen zusammen U=12π cm mit Rechenweg.",
+            "2 Zusatzpunkte für die vier kleinen zusammen A=9π cm² mit Rechenweg.",
+            "1 Zusatzpunkt für grossen Kreis U=6π cm und A=9π cm².",
+            "1 Zusatzpunkt für gleiche Fläche und doppelte kleine Randsumme mit Erklärung."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Mathematik Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.10 PDF-S. 30 unter Klassenstufe 8 verlangt unter anderem Umfangs- und Flächenformel ohne Hilfsmittel sowie einfache Kreisprobleme auch ohne Hilfsmittel. Ein getippter Erstversuch belegt den tatsächlichen Hilfsmittelverzicht nicht.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "ma-quadratdifferenz-lflaeche",
       "subjectId": "ma",
       "title": "Wohin geht das kleine Quadrat?",

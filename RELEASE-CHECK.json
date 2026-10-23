@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-23T03:14:32.862Z",
-  "releaseVersion": "2026.10.23-mbidreifeld.1",
+  "builtAt": "2026-10-23T03:59:43.349Z",
+  "releaseVersion": "2026.10.23-m10kreisabruf.1",
   "newTopicIds": [
-    "mbi-automatisierung-drei-felder"
+    "ma-kreisformeln-erinnern"
   ],
   "changeLog": [
-    "MBI: Ein freiwilliger Quellenvergleich zu Automatisierung in Haushalt, Stromnetz und Fertigung ergänzt den 7/8-Lernraum.",
-    "Drei Quellenkarten erscheinen im Kinderblatt; Lösungen und Beobachtungsbogen bleiben im Erwachsenenblatt. Offene Antworten und Gespräche werden nicht automatisch bewertet."
+    "Mathematik: Ein freiwilliger Klasse-8-Ausblick lässt Kreisformeln vor jeder sichtbaren Hilfe erinnern und vergleicht Idealkreise mit exakten π-Werten.",
+    "Aufgabe A, Hauptteil B–D und freiwilliger Transfer werden nacheinander freigegeben und getrennt gedruckt. Tatsächlicher Hilfsmittelverzicht bleibt menschlich zu prüfen."
   ],
-  "rollbackCommit": "eb08182c8b99dad21d4b9365050ed175ecfc7325",
+  "rollbackCommit": "80facd4018dc1d3e0992a85ab14461d5d6c22f81",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -42,6 +42,7 @@
     "de-leseecke-ueberarbeiten",
     "de-drama-lyrik-spuren",
     "de-roter-faden-epik",
+    "ma-kreisformeln-erinnern",
     "ma-quadratdifferenz-lflaeche",
     "ma-binomische-flaechen",
     "ma-zufall-80-versuche",
@@ -142,6 +143,7 @@
     "ma-prismenbox",
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
+    "ma-kreisformeln-erinnern",
     "ma-quadratdifferenz-lflaeche",
     "ma-binomische-flaechen",
     "ma-zufall-80-versuche",

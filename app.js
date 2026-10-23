@@ -454,7 +454,47 @@
       readingCard.append(link); intro.append(readingCard);
     }
     host.append(intro);
-    if (topic.stagedPrompt) {
+    if (topic.firstTaskGate) {
+      const first = topic.tasks[0];
+      const firstMarker = `${first.id}-erste-stufe-gezeigt`;
+      const transferMarker = `${first.id}-update-gezeigt`;
+      const firstShown = state.answers[firstMarker] === 'ja';
+      const transferShown = state.answers[transferMarker] === 'ja';
+      const firstCard = renderTask(topic, first, 0);
+      const firstInput = firstCard.querySelector('textarea');
+      if (firstShown && firstInput) firstInput.readOnly = true;
+      host.append(firstCard);
+      const remaining = create('div'); remaining.hidden = !firstShown;
+      for (let index = 1; index < topic.tasks.length - 1; index++) remaining.append(renderTask(topic, topic.tasks[index], index));
+      const mainInputs = [...remaining.querySelectorAll('textarea')];
+      if (transferShown) mainInputs.forEach(input => { input.readOnly = true; });
+      const transferText = appendText(remaining, 'blockquote', 'reading-passage', topic.stagedUpdate.text);
+      transferText.hidden = !transferShown;
+      const transferTask = renderTask(topic, topic.tasks.at(-1), topic.tasks.length - 1);
+      transferTask.hidden = !transferShown;
+      remaining.append(transferTask);
+      const mainComplete = () => topic.tasks.slice(0, -1).every(task => String(state.answers[task.id] || '').trim());
+      const transferButton = button('Hauptantworten festhalten und Transfer zeigen', () => {
+        if (!mainComplete()) return;
+        state.answers[transferMarker] = 'ja'; save();
+        mainInputs.forEach(input => { input.readOnly = true; });
+        transferButton.hidden = true; transferText.hidden = false; transferTask.hidden = false;
+        transferText.scrollIntoView({ block: 'start', behavior: 'instant' });
+      }, 'check-button');
+      transferButton.disabled = !mainComplete(); transferButton.hidden = transferShown;
+      mainInputs.forEach(input => input.addEventListener('input', () => { transferButton.disabled = !mainComplete(); }));
+      remaining.insertBefore(transferButton, transferText);
+      const firstButton = button(topic.firstTaskGate.unlockLabel, () => {
+        if (!String(state.answers[first.id] || '').trim()) return;
+        state.answers[firstMarker] = 'ja'; save();
+        if (firstInput) firstInput.readOnly = true;
+        firstButton.hidden = true; remaining.hidden = false;
+        remaining.scrollIntoView({ block: 'start', behavior: 'instant' });
+      }, 'check-button');
+      firstButton.disabled = !String(state.answers[first.id] || '').trim(); firstButton.hidden = firstShown;
+      firstInput?.addEventListener('input', () => { firstButton.disabled = !firstInput.value.trim(); });
+      host.append(firstButton, remaining);
+    } else if (topic.stagedPrompt) {
       const first = topic.tasks[0];
       const marker = `${first.id}-kontext-gezeigt`;
       const shown = state.answers[marker] === 'ja';
@@ -752,6 +792,8 @@
       const topic = topicById.get(id); const section = create('section', 'print-topic');
       const hideChildUpdate = mode === 'child' && topic.stagedUpdate?.childPrintAfterUnlock === true
         && state.answers[`${topic.tasks[0].id}-update-gezeigt`] !== 'ja';
+      const hideChildFirstGate = mode === 'child' && topic.firstTaskGate
+        && state.answers[`${topic.tasks[0].id}-erste-stufe-gezeigt`] !== 'ja';
       const hideChildReadingSource = mode === 'child' && topic.stagedReading
         && state.answers[`${topic.tasks[0].id}-text-gezeigt`] !== 'ja';
       const hideChildPromptContext = mode === 'child' && topic.stagedPrompt
@@ -783,7 +825,12 @@
         : hideChildReadingUpdate
           ? 'Druckfolge: Zuerst die Titelvermutung, danach Aushang, Plan und Hauptaufgaben bearbeiten. Die Änderung wird erst nach dem Festhalten der Hauptantworten zum Druck freigegeben.'
           : 'Druckfolge: Seite mit Titel und Vermutung zuerst bearbeiten. Die folgende Textseite erst danach ansehen; den Änderungstext erst nach den Hauptaufgaben ansehen. Eine bedruckte Seite allein beweist diese Reihenfolge nicht.');
-      if (topic.stagedUpdate && mode === 'child') appendText(section, 'p', 'print-context', hideChildUpdate
+      if (topic.firstTaskGate && mode === 'child') appendText(section, 'p', 'print-context', hideChildFirstGate
+        ? 'Druckfolge: Zuerst nur A aus dem Gedächtnis bearbeiten. B–D werden nach dem Festhalten von A im Übungsraum zum Kinderdruck freigegeben. Papier allein beweist keinen Hilfsmittelverzicht.'
+        : hideChildUpdate
+          ? 'Druckfolge: A ist festgehalten. Jetzt B–D bearbeiten. Der freiwillige Transfer wird erst danach zum Kinderdruck freigegeben.'
+          : 'Druckfolge: A zuerst, dann B–D, zuletzt der freiwillige Transfer. Papier allein beweist keinen Hilfsmittelverzicht.');
+      if (topic.stagedUpdate && !topic.firstTaskGate && mode === 'child') appendText(section, 'p', 'print-context', hideChildUpdate
         ? `Druckfolge: Zuerst die Hauptaufgaben ${topic.stagedUpdate.mainLabel || 'A–C'} bearbeiten. Die Zusatzseite wird nach dem Festhalten dieser Antworten im Übungsraum freigegeben.`
         : `Druckfolge: Zuerst die Hauptaufgaben ${topic.stagedUpdate.mainLabel || 'A–C'} auf den ersten Seiten bearbeiten. Die spätere ${topic.stagedUpdate.kind === 'variant' ? 'Variante' : 'Korrektur'} auf der Zusatzseite erst danach ansehen. Papier allein beweist diese Reihenfolge nicht.`);
       if (topic.diagram && (mode === 'child' || topic.diagram.adultPrint !== false)) {
@@ -826,6 +873,7 @@
         if (mode === 'adult') appendText(section, 'p', 'print-context', topic.reading.adultNote);
       }
       for (const [index, task] of topic.tasks.entries()) {
+        if (hideChildFirstGate && index > 0) continue;
         if (hideChildUpdate && index === topic.tasks.length - 1) continue;
         if (hideChildReadingSource && index > 0) continue;
         if (hideChildPromptContext && index > 0) continue;
@@ -927,6 +975,9 @@
           validMarkerIds.add(`${firstId}-update-gezeigt`);
         } else if (firstId && topic.stagedPrompt) {
           validMarkerIds.add(`${firstId}-kontext-gezeigt`);
+        } else if (firstId && topic.firstTaskGate) {
+          validMarkerIds.add(`${firstId}-erste-stufe-gezeigt`);
+          validMarkerIds.add(`${firstId}-update-gezeigt`);
         } else if (firstId && topic.stagedUpdate) validMarkerIds.add(`${firstId}-update-gezeigt`);
         for (const task of topic.tasks) if (task.helpAfterAttempt) {
           validMarkerIds.add(`${task.id}-hilfe-erstversuch`);

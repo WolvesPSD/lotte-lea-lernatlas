@@ -1,12 +1,14 @@
 {
-  "builtAt": "2026-10-23T00:30:25.645Z",
-  "releaseVersion": "2026.10.23-ds2frage.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Deutsch D-S2: Die feste mündliche Rückfrage nennt den gesuchten Regalabschnitt nicht mehr vorab.",
-    "Kinder- und Erwachsenenweg bleiben getrennt; es kam keine neue Aufgabe hinzu."
+  "builtAt": "2026-10-23T00:39:10.703Z",
+  "releaseVersion": "2026.10.23-frcamille.1",
+  "newTopicIds": [
+    "fr-camille-geschichte-fortsetzen"
   ],
-  "rollbackCommit": "7a51a8944b1e7474a1e977da0792c0492d8cda87",
+  "changeLog": [
+    "Französisch: freiwillige kreative Camille-Fortsetzung als Klasse-8-Ausblick mit 20 Haupt- und 6 getrennten Transferpunkten.",
+    "Kinderweg: Musterlösungen bleiben verborgen; der neue Anfang und Kinderdruck erscheinen erst nach A–C."
+  ],
+  "rollbackCommit": "ae282777a2415f483c5ffab3494122e800fcd81b",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -70,6 +72,7 @@
     "en-alex-games-mediation",
     "fr-mila-drawing-mediation",
     "fr-theo-erlebnisbericht",
+    "fr-camille-geschichte-fortsetzen",
     "ma-quader-aussparung-grundlagen",
     "ma-kuehlkasten-rationale-zahlen",
     "ma-potenzen-rechnerwahl",
@@ -147,6 +150,7 @@
     "ma-druckzeit-zuordnungen",
     "ma-tank-zuordnung",
     "ma-prozent-fixture",
+    "fr-camille-geschichte-fortsetzen",
     "ma-kuehlkasten-rationale-zahlen",
     "ma-potenzen-rechnerwahl",
     "mbi-lesepause-medienwerkstatt",

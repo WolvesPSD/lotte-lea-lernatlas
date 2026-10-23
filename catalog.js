@@ -5275,6 +5275,98 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "fr-camille-geschichte-fortsetzen",
+      "subjectId": "fr",
+      "title": "Camille: une histoire à continuer",
+      "scope": "Freiwilliger, stark gestützter Ausblick auf das Schreibziel der Klassenstufe 8. Kreative Texte stehen im Lehrplan für die zweite Fremdsprache ausdrücklich unter Klasse 8; kein belegter aktueller Klasse-7-Stoff und kein Beitrag zur bestätigten Klasse-7-Jahresabdeckung.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Camille und die Bibliothek sind erfunden. Schreibe keine eigenen Erlebnisse oder privaten Angaben. Wörterbuch und Wortstütze sind erlaubt; freie Texte und andere logische Schlüsse müssen Menschen prüfen. Die Punkte sind formative Kriterien, keine Schulnote.",
+      "introduction": "Erfinde als Camille eine kurze französische Fortsetzung. Der Anfang bleibt fest; du darfst einen eigenen nachvollziehbaren Suchweg und Schluss hinzufügen. Camille ist hier ein Mädchen, deshalb kannst du „Camille“ oder „elle“ schreiben. Wortstütze bei Bedarf: une carte bleue = blaue Karte; près de la fenêtre = nahe dem Fenster; une boîte fermée = geschlossene Schachtel; un crayon rouge = roter Stift; chercher = suchen; regarder = schauen; sous = unter; dans = in; ouvrir = öffnen; trouver = finden; d’abord / puis / enfin = zuerst / dann / schließlich; parce que = weil; une clé = ein Schlüssel. Einen Schlüssel musst du nicht erfinden. Die Satzanzahl ist eine Hilfe, keine Punkteschwelle.",
+      "passage": "Erfundener Anfang · Hauptfall\nDans une bibliothèque imaginaire, Camille trouve une carte bleue. Sur la carte, il y a un message : « Le livre est près de la fenêtre. » Près de la fenêtre, Camille voit une boîte fermée et un crayon rouge.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGER TRANSFER NACH A–C · Neuer erfundener Anfang: « Dans une bibliothèque imaginaire, Camille trouve une carte jaune. Sur la carte, il y a un message : Le livre est sur l’étagère près de la porte. Sur l’étagère, Camille voit une lampe jaune et un carnet fermé. » Die sechs Zusatzpunkte werden getrennt von den 20 Hauptpunkten ausgewiesen."
+      },
+      "tasks": [
+        {
+          "id": "fr-camille-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "inputRows": 6,
+          "prompt": "A. Planen (4 Kriterienpunkte): Notiere zwei verschiedene feste Angaben aus dem Anfang und zwei eigene Ideen: Was tut Camille als Nächstes? Wie endet deine Geschichte? Deutsche oder französische Stichwörter genügen.",
+          "sample": "Möglicher Plan: blaue Karte; Buchhinweis beim Fenster; Camille findet unter der Schachtel einen Schlüssel, öffnet damit die Schachtel und findet darin das Buch. Sie freut sich über den Fund. Andere richtige Anfangsangaben und andere logische Ideen sind gleichwertig.",
+          "adultOnlySolution": true,
+          "criteria": [
+            "1 Punkt für eine richtige feste Anfangsangabe aus blauer Karte, Fensterhinweis, geschlossener Schachtel oder rotem Stift.",
+            "1 Punkt für eine zweite unterschiedliche richtige Anfangsangabe; die blaue Karte ist nicht verpflichtend.",
+            "1 Punkt für eine eigene nächste Handlung.",
+            "1 Punkt für einen dazu passenden möglichen Schluss. Grammatik wird bei Stichwörtern nicht bewertet."
+          ]
+        },
+        {
+          "id": "fr-camille-2",
+          "kind": "reflection",
+          "points": 12,
+          "writingLines": 14,
+          "inputRows": 14,
+          "prompt": "B. Fortsetzen (12 Kriterienpunkte): Schreibe ungefähr 6–8 kurze französische Sätze als Fortsetzung. Nutze den Hinweis auf die Fensterseite, beziehe die Schachtel oder den roten Stift ein, erzähle mindestens zwei aufeinander bezogene Handlungen und finde einen eigenen Schluss mit Camilles Reaktion und einem Grund. Ändere die festen Anfangsangaben nicht. Eine andere stimmige Lösung als das Beispiel ist voll gültig.",
+          "sample": "Camille va près de la fenêtre. Elle regarde la boîte fermée et le crayon rouge. Puis elle cherche sous la boîte et trouve une petite clé. Avec la clé, elle ouvre la boîte. Dans la boîte, il y a le livre. Camille sourit parce qu’elle a trouvé le livre. Der Schlüssel ist eine Erfindung nur dieses Beispiels. Ein anderer plausibler Fundweg kann dieselbe Punktzahl erhalten; verständliches Präsens ist gleichwertig.",
+          "adultOnlySolution": true,
+          "criteria": [
+            "2 Punkte: Fensterhinweis als Suchort (1) und passende Schachtel oder roter Stift (1), ohne festen Anfang zu verkehren.",
+            "3 Punkte: erster eigener Suchschritt (1), weiterer darauf bezogener Schritt (1), logischer Übergang zum Fund oder zur Auflösung (1).",
+            "2 Punkte: erkennbarer Ausgang der Suche (1) und Camilles Reaktion mit passendem Grund (1); auch ein klar begrenztes offenes Ende ist möglich.",
+            "3 Punkte: verständliche Sätze mit Camille/elle (1), passende einfache Orts-/Handlungswörter (1), lesbarer Zusammenhang (1); kleine Formenfehler ohne Sinnverlust nicht pauschal abziehen.",
+            "2 Punkte: erkennbare Fortsetzung statt Stichwortliste (1), eigene zum Anfang passende Idee (1). Schlüssel, Musterwortlaut und Satzanzahl sind keine Pflicht. Ein Fehler beim festen Anfang nicht nochmals pauschal als Sprachfehler bestrafen."
+          ]
+        },
+        {
+          "id": "fr-camille-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "prompt": "C. Prüfen und verbessern (4 Kriterienpunkte): In einer fremden Zusammenfassung stehen zwei Fehler zum festen Anfang: „La carte est verte. La boîte est ouverte.“ Erkläre bei jedem Satz kurz den Fehler und schreibe jeweils eine richtige französische Fassung. Ein späteres Öffnen in deiner Fortsetzung ändert den Anfang nicht.",
+          "sample": "Verte ist falsch: Die Karte ist blau. „La carte est bleue.“ Ouverte ist für den Anfang falsch: Die Schachtel ist geschlossen. „La boîte est fermée.“ Später darf Camille sie in der erfundenen Fortsetzung öffnen.",
+          "adultOnlySolution": true,
+          "criteria": [
+            "1 Punkt: grün statt blau als Fehler erkannt.",
+            "1 Punkt: richtige französische Fassung „La carte est bleue“ oder gleichwertig.",
+            "1 Punkt: offen statt geschlossen im Anfang als Fehler erkannt.",
+            "1 Punkt: richtige französische Fassung „La boîte est fermée“ oder gleichwertig."
+          ]
+        },
+        {
+          "id": "fr-camille-4",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "prompt": "Freiwilliger Transfer · getrennte 6 Zusatzpunkte, nicht zu den 20 Hauptpunkten addieren. Schreibe zum neuen Anfang ungefähr 4–5 einfache französische Sätze: Camille nutzt die neue Karte, folgt dem Regalbrett nahe der Tür, baut Lampe oder geschlossenes Heft passend ein, findet das Buch auf einem eigenen verständlichen Weg und reagiert mit einem Grund. Die Kartenfarbe muss im Text nicht wiederholt werden; Fenster und Schachtel gelten hier nicht. Wortstütze: une étagère = Regalbrett; près de la porte = nahe der Tür; une lampe = Lampe; un carnet fermé = geschlossenes Heft; derrière = hinter; elle est contente = sie ist froh.",
+          "sample": "Camille lit la carte jaune. Elle va vers l’étagère près de la porte. Elle regarde derrière la lampe jaune. Là, elle trouve le livre. Elle est contente parce que le livre contient une belle histoire. Andere nachvollziehbare Suchwege, etwa mit dem Heft, sind gleichwertig.",
+          "adultOnlySolution": true,
+          "criteria": [
+            "1 Punkt: neue Karte erkennbar als Hinweis genutzt, ohne Pflicht zur Farbnennung.",
+            "1 Punkt: Regalbrett nahe der Tür als Suchort.",
+            "1 Punkt: Lampe oder geschlossenes Heft passend eingebaut.",
+            "1 Punkt: eigener nachvollziehbarer Suchschritt.",
+            "1 Punkt: Buchfund und Reaktion mit einem passenden Grund.",
+            "1 Punkt: verständlicher einfacher französischer Zusammenhang; andere Satzanzahl und kleine Fehler ohne Sinnverlust zulassen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. Zweite Fremdsprache § 3.2.4 PDF-S. 62: kreative Texte, Informationen aus Texten nutzen sowie angeleitet strukturieren und korrigieren unter der Zielmarke Klasse 8. § 3.2 PDF-S. 59: A2 erst am Ende Klasse 8.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "ma-quader-aussparung-grundlagen",
       "subjectId": "ma",
       "title": "Quader und Flächen: Grundlagen wiederholen",

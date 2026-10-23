@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">A garden scene</title>
+  <desc id="desc">A wide, simple illustration of a garden. Three wooden raised beds stand across the foreground, with a curving pale path between the first two. In the left bed, a child in a blue coat and yellow boots waters leafy plants with a green watering can. In the middle bed, two red tomatoes grow beside a tall sunflower. On the right, another child in a red raincoat kneels beside a small purple flower and looks at it through a magnifying glass. A brown shed stands behind the beds on the left. A small bird stands near the right edge of the picture. Grey clouds and a patch of blue sky are overhead. The picture shows visible positions and actions; it does not show what anyone is thinking or why they are there.</desc>
+  <rect width="960" height="540" fill="#dff1f5"/>
+  <circle cx="812" cy="95" r="34" fill="#f7d66a"/>
+  <path d="M0 190 Q165 152 318 187 T641 183 T960 176 V540 H0Z" fill="#c8dfb2"/>
+  <path d="M0 275 Q200 245 390 272 T740 263 T960 270 V540 H0Z" fill="#94bd7d"/>
+  <path d="M370 540 C390 435 330 396 381 320 C420 263 535 286 565 232" fill="none" stroke="#e9d7b1" stroke-width="72" stroke-linecap="round"/>
+  <path d="M370 540 C390 435 330 396 381 320 C420 263 535 286 565 232" fill="none" stroke="#d8c59d" stroke-width="3" stroke-dasharray="2 16" stroke-linecap="round"/>
+  <g aria-hidden="true">
+    <path d="M78 226h158v106H78z" fill="#a86b46" stroke="#754832" stroke-width="6"/>
+    <path d="M66 226l91-73 92 73z" fill="#79513f" stroke="#634131" stroke-width="6"/>
+    <rect x="137" y="271" width="40" height="61" rx="3" fill="#d4b18a"/>
+    <rect x="94" y="247" width="28" height="28" fill="#b9d9dc" stroke="#634131" stroke-width="4"/>
+    <path d="M108 247v28M94 261h28" stroke="#634131" stroke-width="3"/>
+  </g>
+  <g aria-hidden="true">
+    <path d="M75 390h244v105H75z" fill="#b9794c" stroke="#784a32" stroke-width="7"/>
+    <path d="M75 406h244" stroke="#d69a68" stroke-width="7"/>
+    <path d="M98 390v105M295 390v105" stroke="#8d573a" stroke-width="5"/>
+    <g fill="#4b965c" stroke="#327343" stroke-width="3">
+      <path d="M122 390q-22-30 0-49q22 20 0 49M154 390q-18-39 8-59q18 29-8 59M190 390q-10-44 21-54q11 32-21 54M226 390q-10-31 13-45q17 25-13 45M264 390q-4-36 24-45q10 27-24 45"/>
+    </g>
+  </g>
+  <g aria-hidden="true">
+    <path d="M391 382h235v113H391z" fill="#b9794c" stroke="#784a32" stroke-width="7"/>
+    <path d="M391 399h235" stroke="#d69a68" stroke-width="7"/>
+    <path d="M416 382v113M602 382v113" stroke="#8d573a" stroke-width="5"/>
+    <path d="M515 382v-94" stroke="#39794b" stroke-width="7"/>
+    <path d="M514 333q-37-7-39-38q32 0 39 38M518 351q36-14 36-43q-33 5-36 43" fill="#5c9e61"/>
+    <g fill="#f3c54b" stroke="#c98c31" stroke-width="3">
+      <ellipse cx="514" cy="268" rx="12" ry="31"/><ellipse cx="514" cy="268" rx="12" ry="31" transform="rotate(45 514 268)"/><ellipse cx="514" cy="268" rx="12" ry="31" transform="rotate(90 514 268)"/><ellipse cx="514" cy="268" rx="12" ry="31" transform="rotate(135 514 268)"/>
+    </g>
+    <circle cx="514" cy="268" r="15" fill="#744d35"/>
+    <path d="M448 382q-6-37 19-47q25 19-19 47M570 382q7-42 35-39q3 31-35 39" fill="#488c50"/>
+    <path d="M468 373v-25M584 372v-24" stroke="#327343" stroke-width="5"/>
+    <circle cx="468" cy="357" r="13" fill="#d84f43"/><circle cx="584" cy="354" r="13" fill="#d84f43"/>
+  </g>
+  <g aria-hidden="true">
+    <path d="M657 390h230v105H657z" fill="#b9794c" stroke="#784a32" stroke-width="7"/>
+    <path d="M657 406h230" stroke="#d69a68" stroke-width="7"/>
+    <path d="M681 390v105M866 390v105" stroke="#8d573a" stroke-width="5"/>
+    <path d="M778 390v-32" stroke="#39794b" stroke-width="6"/>
+    <path d="M778 374q-30-20-42-2q22 20 42 2M778 383q27-22 43-7q-18 24-43 7" fill="#5c9e61"/>
+    <g fill="#a778c4"><ellipse cx="778" cy="349" rx="8" ry="21"/><ellipse cx="778" cy="349" rx="8" ry="21" transform="rotate(60 778 349)"/><ellipse cx="778" cy="349" rx="8" ry="21" transform="rotate(120 778 349)"/></g>
+    <circle cx="778" cy="349" r="7" fill="#f1c24e"/>
+  </g>
+  <g aria-hidden="true" stroke="#364453" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="348" cy="270" r="24" fill="#d99d76" stroke-width="4"/>
+    <path d="M324 266q7-34 42-24l9 20q-23-14-51 4" fill="#4b423b" stroke-width="4"/>
+    <path d="M328 301q21-16 42 0l10 69h-62z" fill="#4d82ba" stroke-width="5"/>
+    <path d="M331 313l-31 38M367 313l29 17" fill="none" stroke-width="9"/>
+    <path d="M318 369l-8 40M367 369l11 40" fill="none" stroke-width="9"/>
+    <path d="M301 408h19M374 408h20" fill="none" stroke="#e2b943" stroke-width="12"/>
+    <path d="M396 329h31v30h-31z" fill="#71a46c" stroke-width="4"/>
+    <path d="M427 338q18-3 13 12" fill="none" stroke-width="4"/>
+    <path d="M410 359q-4 15-13 29" fill="none" stroke="#5d9b66" stroke-width="4" stroke-dasharray="2 8"/>
+  </g>
+  <g aria-hidden="true" stroke="#364453" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="713" cy="287" r="23" fill="#c98765" stroke-width="4"/>
+    <path d="M690 284q4-31 38-24l12 21q-22-12-50 3" fill="#503b38" stroke-width="4"/>
+    <path d="M693 318q20-13 41 1l18 48-43 16-27-37z" fill="#c75c50" stroke-width="5"/>
+    <path d="M697 330l-34 23M731 331l31 8" fill="none" stroke-width="8"/>
+    <path d="M708 377l-28 26M747 367l-7 37" fill="none" stroke-width="9"/>
+    <path d="M670 403l-8 6M738 404h18" fill="none" stroke-width="8"/>
+    <path d="M761 338l28 17" fill="none" stroke="#826446" stroke-width="5"/>
+    <circle cx="793" cy="360" r="17" fill="none" stroke="#826446" stroke-width="4"/>
+  </g>
+  <path d="M845 332q22 0 29 17q-17 9-32-1l-15 8l7-16z" fill="#466174"/>
+  <circle cx="866" cy="341" r="2.5" fill="#fff"/>
+  <g fill="#a9c2d3" opacity=".9">
+    <path d="M520 89q2-28 31-29q11-30 45-14q29-4 34 23q28 8 16 32h-119q-17-3-7-12z"/>
+    <path d="M626 88q3-20 24-22q9-22 35-11q23-3 27 18q22 6 13 25h-91q-14-2-8-10z"/>
+  </g>
+  <path d="M0 505h960" stroke="#779a68" stroke-width="8"/>
+</svg>

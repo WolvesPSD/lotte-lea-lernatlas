@@ -10260,6 +10260,98 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "en-picture-description-garden",
+      "subjectId": "en",
+      "title": "Describe what you can see · a garden scene",
+      "scope": "Freiwilliger, sprachlich gestützter Klasse-7-Einstieg in das Ende-Klasse-8-Ziel Bildbeschreibung aus §2.2.4. Die Klasse-8-Ziele dieser Fassung gelten ab 2027/28; eine aktuelle Schuleinheit oder Lottes Leistung sind nicht belegt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst nur die erfundene Zeichnung und ihre Textbeschreibung. Beschreibe auf Englisch sichtbare Merkmale, Orte und Handlungen; Gedanken und Gründe der Figuren kann das Bild nicht belegen. Deutsch ist für kurze Notizen erlaubt. Der Fall ist ein freiwilliger Ausblick auf Klasse 8, kein bestätigter aktueller Klasse-7-Stoff. Die App bewertet freie Sätze nicht automatisch. Die Überarbeitung erscheint erst nach A–C.",
+      "introduction": "Look closely at the fictional garden picture. First plan a few words, then write six to eight short English sentences. Describe only what you can see: the place, objects, where things are, and what people are doing. Do not invent names, thoughts, feelings or reasons. Small grammar mistakes are okay if your meaning stays clear. A–C have 20 learning points; the later optional revision has four separate points. This is feedback, not a school grade.",
+      "diagram": {
+        "path": "assets/en-w-garden-scene.svg",
+        "alt": "A garden with three wooden raised beds across the foreground and a pale path curving between the first two. On the left, a child in a blue coat and yellow boots holds a green watering can and waters leafy plants. Two red tomatoes grow beside a tall sunflower in the middle bed. On the right, another child in a red raincoat kneels beside a small purple flower and looks at it through a magnifying glass. A brown shed stands behind the beds; a bird is near the right edge. Grey clouds and a patch of blue sky are overhead. The picture does not show anyone’s thoughts or reasons.",
+        "caption": "Original fictional illustration. Its text alternative gives the same visible details; the picture contains no hidden answer."
+      },
+      "passage": "WORD HELP · raised bed = a garden bed above the ground; watering can = a container for watering plants; shed = a small storage building; behind / next to / between = position words; is watering / is kneeling = actions happening now.\n\nSENTENCE STARTERS IF HELPFUL · I can see … / There is … / There are … . You may use a bilingual dictionary. The scene is invented; do not write about real people.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "text": "OPTIONAL REVISION AFTER A–C · Choose one guess from C. Rewrite it as one short English sentence about something the picture actually shows. Explain which visible detail supports your sentence. The four extra points are separate from A–C."
+      },
+      "tasks": [
+        {
+          "id": "en-garden-plan",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A · Make a short plan (8 main points). Notes or short phrases are enough; German is allowed. Name the place (1), three visible things (3), two clear position relationships (2), and the visible actions of the two people (2). Look at the picture or its text alternative. Community is the fictional task setting, not something the picture alone proves.",
+          "sample": "Possible notes: garden; three raised beds, a shed, a bird; the shed is behind the beds, the bird is near the right edge; one child is watering plants, another kneels beside a flower and looks through a magnifying glass. Other matching observations count.",
+          "criteria": [
+            "1 point for garden or garden with raised beds as the pictured place; community is not proved by the picture.",
+            "1 point each for three distinct visible things, such as raised beds, shed, path, bird, sunflower, tomatoes, watering can or flower.",
+            "1 point each for two understandable, accurate position relationships; the reference points must be clear.",
+            "1 point each for two visible actions: watering and kneeling/looking with a magnifying glass; equivalent wording counts."
+          ]
+        },
+        {
+          "id": "en-garden-description",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 11,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "B · Describe the picture (8 main points). Write six to eight short English sentences for a fictional school nature-club page. Include at least six distinct picture details, clear positions and what people are doing. Do not invent names, thoughts, feelings or reasons. Small grammar mistakes are okay if the meaning stays clear.",
+          "sample": "This is a garden. Three raised beds are in the foreground. A brown shed stands behind them. A pale path curves between the first two beds. On the left, a child in a blue coat is watering plants with a green can. Two red tomatoes grow beside a tall sunflower. On the right, another child is kneeling by a purple flower and looking through a magnifying glass. A small bird stands near the right edge. Other accurate descriptions count.",
+          "criteria": [
+            "0–3 points for distinct correct details: 0 for 0–1, 1 for 2–3, 2 for 4–5, 3 for at least 6.",
+            "1 point for a clear, accurate place or position relationship.",
+            "1 point for an accurate visible action.",
+            "0–2 points for understandable connected English: 1 if at least two sentence parts are clear; 2 if most sentences are clear and the short description is coherent. Small mistakes alone do not remove points.",
+            "1 point for not presenting an unshown thought, feeling or reason as visible fact. Sentence count is a writing aid, not a hidden extra deduction."
+          ]
+        },
+        {
+          "id": "en-garden-visible-guess",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "C · See it or guess it? (4 main points). Write V for a visible detail or G for a guess the picture does not prove. 1. A person is holding a green watering can. 2. The person is happy with the garden. 3. A bird is standing near the right edge. 4. The child is looking at the flower because it is rare. Give four letters in order; you may add a short reason.",
+          "sample": "1 V: the can is drawn in the hand. 2 G: happiness is not shown. 3 V: the bird is at the right edge. 4 G: the reason is not shown. One point per correct letter.",
+          "criteria": [
+            "1 point each for V, G, V, G in that order. A short explanation is welcome but carries no hidden extra point."
+          ]
+        },
+        {
+          "id": "en-garden-revision",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "Optional revision after A–C (4 separate extra points). Rewrite one guess from C as one English sentence about visible details only. Name the visible detail that supports it. Do not add a motive or inner feeling.",
+          "sample": "The child is kneeling beside a purple flower and looking at it through a magnifying glass. The flower, posture and magnifying glass are visible; the picture does not show why the child is looking.",
+          "criteria": [
+            "1 point for a genuinely visible action.",
+            "1 point for a matching visible object or position.",
+            "1 point for an understandable English sentence; minor mistakes without lost meaning count.",
+            "1 point for removing the original unproved thought or reason. Other accurate revisions count."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.4 PDF-S. 29–30 nennt Bildbeschreibungen und das Beschreiben von Gegenständen, Orten, Lebewesen und Vorgängen unter den Ende-8-Zielen.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "mbi-teamdaten-gegenpruefen",
       "subjectId": "mbi",
       "title": "Im Team Daten prüfen und ändern",

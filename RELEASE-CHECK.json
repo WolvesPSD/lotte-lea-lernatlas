@@ -1,15 +1,14 @@
 {
-  "builtAt": "2026-10-23T07:01:16.058Z",
-  "releaseVersion": "2026.10.23-mbii1team.1",
+  "builtAt": "2026-10-23T07:26:00.678Z",
+  "releaseVersion": "2026.10.23-enwpicture.1",
   "newTopicIds": [
-    "mbi-teamdaten-gegenpruefen"
+    "en-picture-description-garden"
   ],
   "changeLog": [
-    "Medienbildung und Informatik: Eine freiwillige Partnerübung führt eine fiktive Auszählung mit Tabelle, Gegenprüfung, Rollenwechsel und datensparsamer Weitergabe durch.",
-    "A–E umfassen 20 Hauptpunkte; eine spätere dreizehnte Karte zählt sechs getrennte Zusatzpunkte. Ein unbewerteter Beobachtungsbogen trennt echte Team- und Tabellenhandlung von Textantworten.",
-    "Der unbewertete Erwachsenen-Druckbogen verwendet nun fachneutrale Hinweise statt eines Sporttextes; der Sportbogen behält seine spezifischen Hinweise."
+    "Englisch: Eine freiwillige Bildbeschreibung mit eigener erfundener Gartenszene übt sichtbare Details, Lagebeziehungen und Handlungen; Vermutungen bleiben als solche erkennbar.",
+    "A–C umfassen 20 Hauptpunkte, eine spätere Überarbeitung vier Zusatzpunkte. SVG und ausführlicher Alternativtext sind auch im Kinderblatt und getrennten Erwachsenenblatt enthalten."
   ],
-  "rollbackCommit": "2552893c32a1b0cc51d75dc7fb7ea8b59a0773f6",
+  "rollbackCommit": "2100cc6fff7fef341e0b7238d7533acc8baf6066",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -124,6 +123,7 @@
     "sp-basketball-regelkarte-papier",
     "mnt-wasser-teilchenmodell",
     "mbi-tabellen-nutzen-lernen-beruf",
+    "en-picture-description-garden",
     "mbi-teamdaten-gegenpruefen"
   ],
   "subjects": [
@@ -169,7 +169,8 @@
     "ma-kuehlkasten-rationale-zahlen",
     "ma-potenzen-rechnerwahl",
     "en-write-rooftop-poem",
-    "ma-schraegbild-darstellungen"
+    "ma-schraegbild-darstellungen",
+    "en-picture-description-garden"
   ],
   "unclearValidityTopics": [
     "et-jugendrat-budgetwerte",

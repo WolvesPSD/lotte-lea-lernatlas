@@ -10449,6 +10449,119 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-sternnetz-feedranking",
+      "subjectId": "mbi",
+      "title": "Warum steht dieser Beitrag weiter oben?",
+      "scope": "Freiwillige Modellübung im aktuellen MBI-Lernzeitraum Klasse 7/8; I3 hat den Zielstand Ende Klasse 8. Die aktuelle schulische Themenfolge ist unbekannt.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Alle Profile, Beiträge und Punktwerte sind erfunden. Nutze kein echtes Konto, suche oder veröffentliche nichts und ändere keine Einstellungen an einem wirklichen Dienst. Ein hoher Modellrang sagt nichts über Wahrheit oder Qualität.",
+      "introduction": "Im erfundenen Sternnetz steht ein Beitrag höher, wenn er nach drei festen Regeln mehr Punkte erhält. Du rechnest und vergleichst nur dieses kleine Modell. Das Beispielprofil interessiert sich zunächst für „Mond“ und folgt „Sternwerkstatt“. Für ein passendes Thema gibt es +2, für ein gefolgtes Konto +1 und für einen höchstens 24 Stunden alten Beitrag +1 Punkt. Mehr Punkte stehen höher; bei Gleichstand steht der neuere Beitrag zuerst. Es gibt keine weiteren Regeln. Die App bewertet freie Antworten nicht automatisch.",
+      "passage": "FIKTIVE DATENKARTE · Sternnetz\nA · Mondkarte zeichnen\nThema: Mond · Konto: Sternwerkstatt · Alter: 4 Stunden\n\nB · Planetenweg im Garten\nThema: Planeten · Konto: Gartensterne · Alter: 2 Tage\n\nC · Teleskoplinse reinigen\nThema: Ausrüstung · Konto: Sternwerkstatt · Alter: 8 Stunden\n\nD · Mondphasen aus Papier\nThema: Mond · Konto: Papierplanet · Alter: 3 Tage\n\nE · Wolken beobachten\nThema: Wetter · Konto: Wolkenfenster · Alter: 5 Stunden\n\nAlle Zeiten gelten zum selben erfundenen Betrachtungszeitpunkt. Vergleiche bei Gleichstand die Alter in Stunden beziehungsweise Tagen. Die Karte enthält keine echten Nutzerangaben.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–E",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGE NEUE REGEL NACH A–E · Kehre zum ursprünglichen Interesse „Mond“ zurück. Nur die Aktualitätsregel ändert sich: Ein höchstens 24 Stunden alter Beitrag erhält jetzt +3 statt +1 Punkt. Thema, gefolgtes Konto und Gleichstandsregel bleiben gleich. Die sechs Zusatzpunkte zählen getrennt."
+      },
+      "tasks": [
+        {
+          "id": "mbi-sternnetz-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Netz und Sortierregel (4 Hauptpunkte): Nenne an der Karte einen selbst erstellten Beitrag, eine Verbindung zwischen Konten und eine Regel, nach der ein Programm die Beiträge ordnet. Erkläre, weshalb dadurch zwei Beispielprofile verschiedene Reihenfolgen sehen könnten.",
+          "sample": "A ist ein von einem Konto erstellter Beitrag. Das Beispielprofil folgt Sternwerkstatt. Die Modellregel addiert Themen-, Folge- und Aktualitätspunkte und sortiert bei Gleichstand nach Alter. Bei verschiedenem Interesse oder gefolgten Konten können andere Punkte und Reihenfolgen entstehen.",
+          "criteria": [
+            "1 Punkt: konkreter nutzergenerierter Beitrag.",
+            "1 Punkt: Verbindung durch Folgen eines Kontos.",
+            "1 Punkt: konkrete Punkt- und Sortierregel.",
+            "1 Punkt: verschiedene Profilmerkmale können die Reihenfolge ändern."
+          ]
+        },
+        {
+          "id": "mbi-sternnetz-b",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Erste Rangfolge (5 Hauptpunkte): Berechne für A–E je den Gesamtpunktestand aus den drei Regeln. Gib auch jedem Beitrag seine Rangnummer 1–5. Wende bei Gleichstand „neuer zuerst“ an.",
+          "sample": "A 4 Punkte/Rang 1; B 0/Rang 5; C 2/Rang 2; D 2/Rang 3; E 1/Rang 4. Also A, C, D, E, B. C ist bei zwei Punkten neuer als D.",
+          "criteria": [
+            "Je Beitrag 1 Punkt: 0,5 für die richtige Gesamtsumme und 0,5 für die richtige Rangnummer; fünf Beiträge ergeben 5 Punkte."
+          ]
+        },
+        {
+          "id": "mbi-sternnetz-c",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C · Interesse ändern (5 Hauptpunkte): Ändere nur das gewählte Interesse von „Mond“ auf „Wetter“. Berechne für A–E je neue Punkte und Rangnummern 1–5. Die Konten und Altersangaben bleiben gleich.",
+          "sample": "A 2/Rang 2; B 0/Rang 4; C 2/Rang 3; D 0/Rang 5; E 3/Rang 1. Also E, A, C, B, D. A steht bei zwei Punkten vor C, B bei null vor D.",
+          "criteria": [
+            "Je Beitrag 1 Punkt: 0,5 für den richtigen neuen Punktestand und 0,5 für die richtige Rangnummer mit Gleichstandsregel."
+          ]
+        },
+        {
+          "id": "mbi-sternnetz-d",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "D · Mit der Zeitfolge vergleichen (3 Hauptpunkte): Ordne die Beiträge ohne Punkte vom neuesten zum ältesten. Nenne einen konkreten Unterschied zur ersten Modellreihenfolge aus B. Was lässt sich aus „steht weiter oben“ allein nicht ableiten?",
+          "sample": "Chronologisch A, E, C, B, D. In B steht C vor E, obwohl E neuer ist, weil C mehr Modellpunkte erhält. Ein hoher Rang beweist weder Wahrheit noch Qualität oder eine absichtliche Auswahl durch einen Menschen.",
+          "criteria": [
+            "1 Punkt: A, E, C, B, D.",
+            "1 Punkt: konkreter Unterschied zur Reihenfolge aus B.",
+            "1 Punkt: Rang nicht mit Wahrheit, Qualität oder menschlicher Auswahl gleichgesetzt."
+          ]
+        },
+        {
+          "id": "mbi-sternnetz-e",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "E · Wirkung und Grenze (3 Hauptpunkte): Nenne einen möglichen Vorteil persönlicher Auswahl und ein mögliches Risiko für die Sichtbarkeit verschiedener Beiträge. Erkläre, weshalb die Sternnetz-Punkte weder eine echte Plattformregel noch Wahrheit oder Qualität belegen.",
+          "sample": "Passende Themen lassen sich eventuell schneller finden. Andere Themen können weniger sichtbar werden. Die festen Punkte wurden für diese Aufgabe erfunden; sie beschreiben keinen echten Dienst und bewerten den Wahrheitsgehalt nicht.",
+          "criteria": [
+            "1 Punkt: plausibler Vorteil.",
+            "1 Punkt: konkretes Sichtbarkeitsrisiko.",
+            "1 Punkt: Modellgrenze gegenüber echter Plattform und Inhalt klar erklärt."
+          ]
+        },
+        {
+          "id": "mbi-sternnetz-f",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige neue Regel nach A–E · sechs getrennte Zusatzpunkte: Berechne mit dem ursprünglichen Interesse „Mond“ und der neuen Aktualität von +3 die Punkte für A–E und die neue Reihenfolge. Erkläre ein mögliches Designziel dieser Änderung und weshalb neue Beiträge dadurch nicht automatisch wahrer oder besser sind.",
+          "sample": "A 6, B 0, C 4, D 2, E 3 Punkte. Reihenfolge A, C, E, D, B. Die Regel könnte aktuelle Beiträge sichtbarer machen, belegt aber keine Wahrheit oder Qualität.",
+          "criteria": [
+            "1 Punkt: Themen- und Folgepunkte für alle fünf Beiträge konsequent beibehalten.",
+            "1 Punkt: +3 für A, C und E und fünf korrekte Summen.",
+            "2 Punkte: neue Reihenfolge A, C, E, D, B.",
+            "2 Punkte: mögliches Aktualitätsziel und getrennte Grenze zu Wahrheit oder Qualität."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. §2.2.3 PDF-S. 25–26: nutzergenerierte Inhalte, Vernetzungsstrukturen und algorithmische Steuerung erläutern; Zielstand Ende Klasse 8. Keine aktuelle Klasse-7-Schulfolge belegt.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "mbi-teamdaten-gegenpruefen",
       "subjectId": "mbi",
       "title": "Im Team Daten prüfen und ändern",

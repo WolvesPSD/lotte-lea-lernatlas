@@ -5409,6 +5409,115 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-potenzen-rechnerwahl",
+      "subjectId": "ma",
+      "title": "Potenzen und Rechnerwahl prüfen",
+      "scope": "Freiwilliger, gestützter Ausblick zu rationalen Potenzen, Klammern und sinnvoller Taschenrechnerkontrolle. Die Mathematik-Fassung gilt für Klasse 7 ab 2026/27; das fachliche Ziel steht im 7/8-Block unter Klassenstufe 8. Keine bestätigte aktuelle Schuleinheit oder Rechnerbedienung.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Brüche und die Bedeutung von Potenzen sollten bekannt sein oder erklärt werden. Für einen Bruch in Klammern gilt (a/b)^n = a^n/b^n bei b ≠ 0. Ein ungerader Exponent erhält bei negativer Basis das Minus, ein gerader ergibt Plus. „Exakt“ ist der Bruch ohne Rundung; zwei Dezimalstellen sind nur eine Näherung. Ein wissenschaftlicher Taschenrechner darf zur Kontrolle genutzt werden, ist für A aber nicht nötig.",
+      "introduction": "Berechne kleine Potenzen zuerst selbst. Bei der grösseren Potenz entscheidest du, wozu ein Rechner sinnvoll ist, und prüfst ein fiktives Fehlprotokoll. Falls du wirklich einen Rechner nutzt, notiere die Eingabe mit Klammern und den angezeigten Wert. Andernfalls schreibe „ohne Rechner“ oder „Kontrollwert übernommen“. Die App kann deine Rechnerbedienung nicht beobachten und bewertet offene Rechenwege nicht automatisch.",
+      "passage": "RECHENKARTE · rein mathematische Werte, keine Messdaten\nFür einen Bruch in Klammern: (a/b)^n = a^n/b^n, b ≠ 0.\nBei negativer Basis ist das Ergebnis für ungerades n negativ und für gerades n positiv.\nFür die Dezimalkontrolle in B darfst du verwenden: 16807/1024 = 16,4130859375. Vorzeichen, Klammern und Rundung musst du selbst prüfen.\nFIKTIVER FEHLERZETTEL FÜR C: „Ich wollte (-7/4)^5 prüfen, habe aber -7/4^5 eingegeben und -0,0068359375 abgelesen. Also ist der exakte Bruch aus B falsch.“ Dies ist keine Behauptung über ein bestimmtes Rechnermodell.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "SPÄTERER FREIWILLIGER TRANSFER NACH A–D · Eine andere Person behauptet: (-5/2)^4 = -(5/2)^4. Prüfe diese Aussage mit exakten Werten und einem eigenen Kontrollweg. Diese Karte gehört nicht zu den 20 Hauptpunkten."
+      },
+      "tasks": [
+        {
+          "id": "ma-potenzen-rechnerwahl-1",
+          "kind": "reflection",
+          "adultOnlySolution": true,
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "prompt": "A. Kleine Potenzen ohne Rechner (4 Punkte): Berechne (-2/3)^3 und (-2/3)^4 exakt ohne Taschenrechner. Begründe die unterschiedlichen Vorzeichen. Weshalb ist der eigene Bruchweg hier nützlich, selbst wenn du später mit einem Rechner prüfst?",
+          "sample": "(-2/3)^3 = -8/27; (-2/3)^4 = 16/81. Drei negative Faktoren ergeben Minus, vier ergeben Plus. Der eigene Bruchweg zeigt exaktes Vorzeichen und Nenner, ohne Rundung oder mögliche Eingabefehler; ein Rechner könnte nur nachträglich kontrollieren.",
+          "criteria": [
+            "1 Punkt: -8/27.",
+            "1 Punkt: 16/81.",
+            "1 Punkt: ungerade/gerade Zahl negativer Faktoren als Vorzeichenbegründung.",
+            "1 Punkt: exakter eigener Bruchweg sinnvoll erklärt; spätere Rechnerkontrolle darf erwähnt werden."
+          ]
+        },
+        {
+          "id": "ma-potenzen-rechnerwahl-2",
+          "kind": "reflection",
+          "adultOnlySolution": true,
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "prompt": "B. Grösserer Exponent (6 Punkte): Berechne (-7/4)^5 als exakten Bruch. Notiere den ungerundeten Dezimalwert oder übertrage den Kontrollwert mit richtigem Vorzeichen; runde erst danach auf zwei Stellen. Welchen Teil prüfst du selbst mit Potenzregeln, wofür ist ein wissenschaftlicher Taschenrechner sinnvoll? Wenn du ihn wirklich nutzt, notiere Eingabe mit Klammern und Anzeige; sonst „ohne Rechner“ oder „Kontrollwert übernommen“.",
+          "sample": "(-7)^5 = -16807; 4^5 = 1024. Also (-7/4)^5 = -16807/1024 = -16,4130859375 ≈ -16,41. Die Potenzregel und das Minus prüfe ich selbst; ein Rechner kann die längere Dezimaldivision kontrollieren. Beispiel-Eingabe: (-7/4)^5. Tatsächliche Bedienung nur eintragen, wenn sie erfolgte.",
+          "criteria": [
+            "1 Punkt: (-7)^5 = -16807.",
+            "1 Punkt: 4^5 = 1024.",
+            "1 Punkt: exakter Bruch -16807/1024.",
+            "1 Punkt: richtiger negativer Dezimalwert oder richtige Ableitung aus Kontrollwert.",
+            "1 Punkt: auf zwei Stellen -16,41.",
+            "1 Punkt: Potenz-/Vorzeichenweg, sinnvolle Dezimalkontrolle und ehrlicher Nutzungsstatus."
+          ]
+        },
+        {
+          "id": "ma-potenzen-rechnerwahl-3",
+          "kind": "reflection",
+          "adultOnlySolution": true,
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 11,
+          "prompt": "C. Fehlerzettel (6 Punkte): Was bedeutet die hingeschriebene Eingabe -7/4^5 mathematisch? Prüfe, ob die Zettelzahl zu dieser Eingabe passt. Warum passt sie nicht zu (-7/4)^5? Finde die fehlende Klammer, nenne eine grobe Betragsgrenze ohne genaue Rechnung und schreibe eine korrigierte Eingabe sowie eine konkrete Vermeidungsregel.",
+          "sample": "-7/4^5 bedeutet -7/(4^5) = -7/1024 = -0,0068359375. Das ist ein anderer Ausdruck als (-7/4)^5 = -16807/1024. Weil -2 < -7/4 < -1, muss die fünfte Potenz zwischen -32 und -1 liegen; -0,0068 passt nicht. Korrekte Eingabe: (-7/4)^5. Vor Bestätigung Klammern lesen und Ergebnis mit Vorzeichen und Grössenordnung vergleichen.",
+          "criteria": [
+            "1 Punkt: -7/(4^5) als Bedeutung.",
+            "1 Punkt: -7/1024 als exakter Wert der Eingabe.",
+            "1 Punkt: Zettelzahl passt zu anderer Eingabe, widerlegt B nicht.",
+            "1 Punkt: Ziel -16807/1024 und Klammer um gesamten Bruch erkannt.",
+            "1 Punkt: plausible grobe Grenze, z. B. zwischen -32 und -1.",
+            "1 Punkt: korrigierte Eingabe mit Klammern und konkrete Vermeidungsregel."
+          ]
+        },
+        {
+          "id": "ma-potenzen-rechnerwahl-4",
+          "kind": "reflection",
+          "adultOnlySolution": true,
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "prompt": "D. Werkzeugwahl (4 Punkte): Vergleiche A und B: Wann genügt Kopf/Papier, wann spart eine Rechnerkontrolle Zeit? Nenne zwei verschiedene Prüfungen vor der Übernahme eines Dezimalwertes. Halte ehrlich fest, ob du in B einen Rechner wirklich bedient hast. Eine geschriebene Eingabe allein beweist die Bedienung nicht.",
+          "sample": "Für A reichen kleine exakte Bruchpotenzen auf Papier. Bei B kann der Rechner die längere Dezimaldivision prüfen, während die exakte Potenzregel selbst begründet bleibt. Ich prüfe die Klammern und das Vorzeichen sowie unabhängig die Grössenordnung. Den tatsächlichen Rechnerstatus notiere ich ehrlich; ein Selbstbericht ist kein Beobachtungsnachweis.",
+          "criteria": [
+            "2 Punkte: A als kleiner exakter Weg und B als sinnvolle Dezimalkontrolle mit weiterhin eigener Potenzbegründung unterschieden.",
+            "1 Punkt: zwei unterschiedliche Kontrollen, etwa Klammer/Vorzeichen und Betragsabschätzung.",
+            "1 Punkt: Rechner tatsächlich genutzt/nicht genutzt/Kontrollwert übernommen ehrlich bezeichnet; kein Bediennachweis aus Text."
+          ]
+        },
+        {
+          "id": "ma-potenzen-rechnerwahl-5",
+          "kind": "reflection",
+          "adultOnlySolution": true,
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "prompt": "E. Freiwilliger Transfer (6 getrennte Zusatzpunkte; erst nach A–D): Jemand behauptet (-5/2)^4 = -(5/2)^4. Berechne beide Seiten exakt, entscheide über die Gleichung und erkläre die Rolle der Klammer. Gib den Dezimalwert der linken Seite an und sage, wie du ihn mit und ohne Rechner prüfen würdest. Zusatzpunkte nicht zur Hauptsumme addieren.",
+          "sample": "(-5/2)^4 = 625/16, denn (-5)^4=625 und 2^4=16. Dagegen ist -(5/2)^4 = -625/16; die Gleichung ist falsch. Der positive Wert ist 39,0625. Ich kontrolliere das Plus mit dem geraden Exponenten und den Bruch durch schriftliche Division oder eine geklammerte Rechnereingabe; tatsächliche Nutzung getrennt notieren.",
+          "criteria": [
+            "2 Zusatzpunkte: (-5)^4=625, 2^4=16 und positiver Bruch 625/16.",
+            "1 Zusatzpunkt: -(5/2)^4=-625/16.",
+            "1 Zusatzpunkt: Ungleichheit und Klammerrolle erklärt.",
+            "1 Zusatzpunkt: 39,0625.",
+            "1 Zusatzpunkt: konkrete Kontrolle mit/ohne Rechner und ehrlicher Nutzungsstatus."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. PDF-S. 15 Fussnote 12: wissenschaftlicher Taschenrechner ab Klasse 7 bei Arbeit mit Hilfsmitteln, kein allgemeiner Rechnerzwang. §2.2.2 PDF-S. 25: Potenzen rationaler Basen, sinnvolle Rechnernutzung, Reflexion und Fehlervermeidung unter Klassenstufe 8.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "de-kommentar-leseraum",
       "subjectId": "de",
       "title": "Ein Kommentar: Was belegen Besuchszahlen?",

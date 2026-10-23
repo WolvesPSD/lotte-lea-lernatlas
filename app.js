@@ -22,6 +22,9 @@
     : isGrade6Review(topic)
     ? 'Wiederholung Klasse 6 · freiwillig'
     : levelLabels[topic.levelStatus] || 'Jahrgangsbezug offen';
+  const mbiYearNote = topic => topic.subjectId === 'mbi' && topic.levelStatus === 'grade78-flex'
+    ? 'MBI ist in Klasse 7 eingeführt. Dieses Teilziel hat den Zielstand Ende Klasse 8; welche Teile jetzt im Unterricht vorkommen, ist unbekannt.'
+    : '';
   const matchesStage = (topic, stage) => stage === 'all'
     || (stage === 'grade6-review' ? isGrade6Review(topic)
       : topic.levelStatus === stage && (stage !== 'grade78-flex' || !isGrade6Review(topic)));
@@ -368,6 +371,7 @@
     appendText(intro, 'p', 'eyebrow', subjectById.get(topic.subjectId).name);
     appendText(intro, 'h2', '', topic.title);
     appendText(intro, 'p', 'level-tag', levelLabel(topic));
+    if (mbiYearNote(topic)) appendText(intro, 'p', 'muted', mbiYearNote(topic));
     if (topic.introduction.length + (topic.passage?.length || 0) > 550) {
       intro.append(button('Zu Aufgabe 1 ↓', () => {
         const heading = host.querySelector('.task-card h3');
@@ -690,6 +694,7 @@
         && state.answers[`${topic.tasks[0].id}-update-gezeigt`] !== 'ja';
       appendText(section, 'h2', '', `${subjectById.get(topic.subjectId).name} · ${topic.title}`);
       appendText(section, 'p', 'print-level', levelLabel(topic));
+      if (mbiYearNote(topic)) appendText(section, 'p', 'print-context', mbiYearNote(topic));
       if (topic.prerequisite) appendText(section, 'p', 'print-context', topic.prerequisite);
       appendText(section, 'p', 'print-context', topic.introduction);
       if (topic.passage) appendText(section, 'p', 'print-passage', topic.passage);

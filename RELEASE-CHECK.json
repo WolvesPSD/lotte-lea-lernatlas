@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-23T00:39:10.703Z",
-  "releaseVersion": "2026.10.23-frcamille.1",
-  "newTopicIds": [
-    "fr-camille-geschichte-fortsetzen"
-  ],
+  "builtAt": "2026-10-23T00:47:36.116Z",
+  "releaseVersion": "2026.10.23-mbijahrgang.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Französisch: freiwillige kreative Camille-Fortsetzung als Klasse-8-Ausblick mit 20 Haupt- und 6 getrennten Transferpunkten.",
-    "Kinderweg: Musterlösungen bleiben verborgen; der neue Anfang und Kinderdruck erscheinen erst nach A–C."
+    "MBI: Neun vorhandene Teilfälle sind nun korrekt dem aktiven Lernzeitraum Klasse 7/8 zugeordnet; der Zielstand Ende Klasse 8 bleibt sichtbar.",
+    "Die konkrete Unterrichtsfolge an Lottes Schule bleibt unbekannt; Aufgaben und Punktzahlen sind unverändert."
   ],
-  "rollbackCommit": "ae282777a2415f483c5ffab3494122e800fcd81b",
+  "rollbackCommit": "5077808a31808db31766d57b22c81f7d8b8c2703",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -128,8 +126,6 @@
     "sp"
   ],
   "grade8OutlookTopics": [
-    "mbi-speicherplan-zwei-modelle",
-    "mbi-festbezug-karten",
     "ma-koerper-modell",
     "ma-medienwahrscheinlichkeit",
     "ma-wahrscheinlichkeitsbaum",
@@ -140,24 +136,17 @@
     "ma-prismenbox",
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
-    "mbi-farbkarten-tabellenlabor",
     "ma-binomische-flaechen",
     "ma-zufall-80-versuche",
     "en-sprachreflexion-lesewerkstatt",
     "fr-sprachreflexion-einladung",
     "fr-reponse-elodie",
-    "mbi-quellen-ki",
     "ma-druckzeit-zuordnungen",
     "ma-tank-zuordnung",
     "ma-prozent-fixture",
     "fr-camille-geschichte-fortsetzen",
     "ma-kuehlkasten-rationale-zahlen",
     "ma-potenzen-rechnerwahl",
-    "mbi-lesepause-medienwerkstatt",
-    "mbi-simunet-datensparsam",
-    "mbi-luefterregler-gestalten",
-    "mbi-blockprogramm-regler",
-    "mbi-buchdaten-labor",
     "ma-schraegbild-darstellungen"
   ],
   "unclearValidityTopics": [

@@ -471,8 +471,8 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "mbi-speicherplan-zwei-modelle",
       "subjectId": "mbi",
       "title": "Speicherplan mit zwei Tabellenmodellen",
-      "scope": "Freiwilliger Klasse-8-Ausblick zu MBI I1 mit Zielmarke Ende Klasse 8. Die Werte sind erfunden; Lottes aktuelle Unterrichtsfolge ist unbekannt.",
-      "levelStatus": "grade8-outlook",
+      "scope": "Freiwilliger Teilfall im aktuellen MBI-Lernzeitraum Klasse 7/8; I1 hat den Zielstand Ende Klasse 8. Die Werte sind erfunden; Lottes schulische Themenfolge ist unbekannt.",
+      "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Du brauchst ein lokales Tabellenprogramm wie Excel oder Calc. Wenn Zellen und Formeln noch neu sind, beginne mit der Datei-/Quellenbrücke und den Farbkarten. Keine eigenen Fotos, Gerätegrößen oder Konten verwenden.",
       "introduction": "Vier erfundene Bilddateien brauchen unterschiedlich viel Platz. Entwickle zwei Planungsregeln, trage sie in ein lokales Tabellenblatt ein und vergleiche zwei Diagramme. Modelle sind keine sicheren Vorhersagen. Die Website bewertet offene Antworten und deine Arbeit in Excel oder Calc nicht automatisch.",
@@ -584,10 +584,10 @@ window.LOTTE_CATALOG = Object.freeze({
         }
       ],
       "releaseEvidence": {
-        "validFor": "2027/28",
-        "gradeBand": "8",
-        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.1 PDF-S. 24: Tabellen, Formeln/Bezüge und Diagramme unter Zielmarke Klassenstufe 8.",
-        "checkedAt": "2026-10-22"
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.1 PDF-S. 24: Tabellen, Formeln/Bezüge und Diagramme unter Zielmarke Klassenstufe 8. Die amtliche Übergangstabelle 02/2025 führt MBI 2026/27 in Klasse 7; §2.2 bleibt Zielstand Ende Klasse 8.",
+        "checkedAt": "2026-10-23"
       }
     },
     {
@@ -712,8 +712,8 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "mbi-festbezug-karten",
       "subjectId": "mbi",
       "title": "Farbkarten: ein fester Zellbezug",
-      "scope": "Freiwilliger Klasse-8-Ausblick zu relativen und absoluten Zellbezügen beim Kopieren von Formeln. Keine Aussage über Lottes aktuelle Unterrichtsfolge.",
-      "levelStatus": "grade8-outlook",
+      "scope": "Freiwilliger Teilfall zu Zellbezügen im aktuellen MBI-Lernzeitraum Klasse 7/8 mit Zielstand Ende Klasse 8. Lottes schulische Themenfolge ist unbekannt.",
+      "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Das Farbkartenlabor ist ein guter Einstieg. Dieses neue Startblatt hat andere Zelladressen: Papier pro Karte steht als Zahl in B4, die Farbdaten in den Zeilen 7 bis 9. Ein Tabellenprogramm wie Excel oder Calc wird benötigt.",
       "introduction": "Öffne das Blatt „Ein Wert für jede Farbkarte“ und lade das lösungsfreie Excel-Startblatt herunter. Trage die Formel in C7 ein, kopiere sie nach C8/C9, ergänze zwei Summen und beobachte die Wirkung einer Änderung in B4. Die Website kann deine Arbeit im Tabellenprogramm nicht sehen; schreibe deine Beobachtungen hier auf oder auf dem Kinderblatt.",
@@ -784,10 +784,10 @@ window.LOTTE_CATALOG = Object.freeze({
         }
       ],
       "releaseEvidence": {
-        "validFor": "2027/28",
-        "gradeBand": "8",
-        "competencyRef": "PDF-S. 2: Klasse 8 ab 2027/28. § 2.2.1, PDF-S. 24: relative und absolute Zellbezüge und Summen in der Tabellenkalkulation unter Zielmarke Klassenstufe 8.",
-        "checkedAt": "2026-10-22"
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 8 ab 2027/28. § 2.2.1, PDF-S. 24: relative und absolute Zellbezüge und Summen in der Tabellenkalkulation unter Zielmarke Klassenstufe 8. Die amtliche Übergangstabelle 02/2025 führt MBI 2026/27 in Klasse 7; §2.2 bleibt Zielstand Ende Klasse 8.",
+        "checkedAt": "2026-10-23"
       }
     },
     {
@@ -2478,8 +2478,8 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "mbi-farbkarten-tabellenlabor",
       "subjectId": "mbi",
       "title": "Farbkarten: Formel und Vergleich",
-      "scope": "Ausblick Klasse 8 · freiwillig. Ein enger Einstieg in Tabellenkalkulation; der Lehrplan gilt für Klasse 7, markiert I1 aber als Ziel bis Ende Klasse 8. Die Unterrichtsfolge ist unbekannt.",
-      "levelStatus": "grade8-outlook",
+      "scope": "Freiwilliger Einstieg in Tabellenkalkulation im aktuellen MBI-Lernzeitraum Klasse 7/8; I1 hat den Zielstand Ende Klasse 8. Die schulische Themenfolge ist unbekannt.",
+      "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Hilfreich sind Zelladressen wie B6 und das Addieren ganzer Zahlen; die Formelhilfe steht im Labor.",
       "introduction": "Öffne das Farbkartenlabor. Gib in B8 eine Summenformel ein, vergleiche Blau mit Rot und Grün zusammen, ändere B6 von 6 auf 7 und stelle es wieder zurück. Begründe deine Beobachtungen hier oder auf dem Kinderblatt. Die App bewertet freie Antworten nicht automatisch und erkennt nicht, wer das Labor bedient.",
@@ -2545,10 +2545,10 @@ window.LOTTE_CATALOG = Object.freeze({
         }
       ],
       "releaseEvidence": {
-        "validFor": "2027/28",
-        "gradeBand": "8",
-        "competencyRef": "PDF-S. 2: MBI ab 2026/27 für Klasse 7, ab 2027/28 für Klasse 8. § 2.2.1 auf PDF-S. 24: Tabellenkalkulation unter Zielmarke Klassenstufe 8; Daten tabellarisch erfassen, mit Formeln auswerten und Ergebnisse deuten.",
-        "checkedAt": "2026-10-21"
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: MBI ab 2026/27 für Klasse 7, ab 2027/28 für Klasse 8. § 2.2.1 auf PDF-S. 24: Tabellenkalkulation unter Zielmarke Klassenstufe 8; Daten tabellarisch erfassen, mit Formeln auswerten und Ergebnisse deuten. Die amtliche Übergangstabelle 02/2025 führt MBI 2026/27 in Klasse 7; §2.2 bleibt Zielstand Ende Klasse 8.",
+        "checkedAt": "2026-10-23"
       }
     },
     {
@@ -3792,8 +3792,8 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "mbi-quellen-ki",
       "subjectId": "mbi",
       "title": "Eine KI-Antwort auf Quellen prüfen",
-      "scope": "Ausblick Klasse 8 – freiwillig. Recherche und Bewertung generierter Inhalte stehen in § 2.2.4 ausdrücklich unter Klassenstufe 8; kein belegter aktueller Klasse-7-Stoff und kein Beitrag zur Klasse-7-Jahresabdeckung.",
-      "levelStatus": "grade8-outlook",
+      "scope": "Freiwilliger Quellenprüf-Teilfall im aktuellen MBI-Lernzeitraum Klasse 7/8; I4 hat den Zielstand Ende Klasse 8. Keine belegte aktuelle Unterrichtseinheit und keine vollständige Jahresabdeckung.",
+      "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Hilfreich: Datum und Herkunft eines Dokuments erkennen. Alle Dokumente im Fall sind erfunden; es wird kein eigenes Konto und keine echte Recherche gebraucht.",
       "introduction": "In diesem frei erfundenen Fall suchst du den aktuellen Termin eines Jugendtreffs. Quelle A ist die Originalmitteilung des erfundenen Treffs; Quelle B ist ein weitergeleiteter Beitrag. Quelle C ist eine als KI-Antwort gekennzeichnete Zusammenfassung. Beurteile, was die Dokumente tatsächlich belegen.",
@@ -3846,10 +3846,10 @@ window.LOTTE_CATALOG = Object.freeze({
         }
       ],
       "releaseEvidence": {
-        "validFor": "2027/28",
-        "gradeBand": "8",
-        "competencyRef": "Inkraftsetzung S. 2: Klasse 8 ab 2027/28. § 2.2.4 S. 26: Recherche, Glaubwürdigkeit und Relevanz auch generierter Inhalte beurteilen und alternative verlässliche Quellen einbeziehen; explizite Zielmarke Klassenstufe 8.",
-        "checkedAt": "2026-10-21"
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "Inkraftsetzung S. 2: Klasse 8 ab 2027/28. § 2.2.4 S. 26: Recherche, Glaubwürdigkeit und Relevanz auch generierter Inhalte beurteilen und alternative verlässliche Quellen einbeziehen; explizite Zielmarke Klassenstufe 8. Die amtliche Übergangstabelle 02/2025 führt MBI 2026/27 in Klasse 7; §2.2 bleibt Zielstand Ende Klasse 8.",
+        "checkedAt": "2026-10-23"
       }
     },
     {
@@ -6477,8 +6477,8 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "mbi-lesepause-medienwerkstatt",
       "subjectId": "mbi",
       "title": "Eine digitale Infokarte herstellen",
-      "scope": "Ausblick Klasse 8 · freiwillig. Die MBI-Erprobungsfassung gilt für Klasse 7 ab 2026/27, nennt Planen und Erstellen digitaler Inhalte aber unter Klassenstufe 8. Die Werkstatt ist ein gestützter Teilfall; kein freies HTML-Coding, keine echte Veröffentlichung und kein Nachweis der aktuellen Schulfolge.",
-      "levelStatus": "grade8-outlook",
+      "scope": "Freiwilliger digitaler Gestaltungs-Teilfall im aktuellen MBI-Lernzeitraum Klasse 7/8; I2 hat den Zielstand Ende Klasse 8. Kein freies HTML-Coding, keine echte Veröffentlichung und kein Nachweis der schulischen Themenfolge.",
+      "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Du brauchst einen Browser, der lokale HTML-Dateien herunterladen und wieder öffnen kann. Nutze nur die erfundenen Angaben. Eine erwachsene Person kann beim Finden der gespeicherten Datei helfen; die Entscheidungen zu Text und Gestaltung sollen von dir kommen.",
       "introduction": "Die erfundene Lese-AG plant eine digitale Infokarte für Mitschülerinnen und Mitschüler. Nur diese fiktiven Angaben gelten: Titel „Lesepause“; Mittwoch, 14:10–14:30 Uhr; Raum A4; man darf selbst lesen oder einfach zuhören; ein Buch ist nur nötig, wenn man selbst lesen möchte; Teilnahme freiwillig und für diese Übung ohne Anmeldung. In der Werkstatt erstellst du daraus eine eigene HTML-Datei. Lade eine erste Fassung herunter, verbessere sie und öffne die gespeicherte neue Fassung erneut. Keine echten Namen, Fotos oder Termine verwenden und nichts veröffentlichen.",
@@ -6563,10 +6563,10 @@ window.LOTTE_CATALOG = Object.freeze({
         }
       ],
       "releaseEvidence": {
-        "validFor": "2027/28",
-        "gradeBand": "8",
-        "competencyRef": "PDF-S. 2: Inkraftsetzung für Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. § 2.2.2 auf PDF-S. 24–25 unter Klassenstufe 8: digitale Inhalte planen/erstellen, Formate und technische Aspekte, Zugänglichkeit, Veröffentlichungswege und Wirkung auf Zielgruppen.",
-        "checkedAt": "2026-10-21"
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Inkraftsetzung für Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. § 2.2.2 auf PDF-S. 24–25 unter Klassenstufe 8: digitale Inhalte planen/erstellen, Formate und technische Aspekte, Zugänglichkeit, Veröffentlichungswege und Wirkung auf Zielgruppen. Die amtliche Übergangstabelle 02/2025 führt MBI 2026/27 in Klasse 7; §2.2 bleibt Zielstand Ende Klasse 8.",
+        "checkedAt": "2026-10-23"
       }
     },
     {
@@ -6675,8 +6675,8 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "mbi-simunet-datensparsam",
       "subjectId": "mbi",
       "title": "SimuNet: Daten sparsam auswählen",
-      "scope": "Ausblick Klasse 8 · freiwillig. §2.2.3 Social Media trägt ausdrücklich die Zielmarke Klasse 8; dies ist ein fiktiver Entscheidungsfall, kein Nachweis für reale Plattformbedienung oder Lottes aktuellen Unterricht.",
-      "levelStatus": "grade8-outlook",
+      "scope": "Freiwilliger Social-Media-Teilfall im aktuellen MBI-Lernzeitraum Klasse 7/8; I3 hat den Zielstand Ende Klasse 8. Fiktive Entscheidung, keine reale Plattformbedienung oder belegte aktuelle Unterrichtseinheit.",
+      "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Die ganze Plattform SimuNet ist erfunden. Es gibt kein Konto, keine echten Profile, keine Anmeldung und keinen Upload. Verwende keinen echten Namen, Ort, Kontakt, Bild oder eigenen Medienbericht. Du entscheidest nur anhand der vorgegebenen Schalter.",
       "introduction": "Eine erfundene Jugendliche möchte in einer erfundenen Hobbygruppe eine selbst gezeichnete Fantasieinsel zeigen und nach Farben fragen. Auf der Zeichnung sind keine Menschen, echten Orte, Schulnamen oder persönlichen Merkmale. Du spielst die Entscheidung nur gedanklich durch; lade nichts hoch und ändere keine wirklichen Geräte- oder Kontoeinstellungen. Du darfst auch entscheiden, gar nichts online zu teilen und direkt um Rückmeldung zu bitten. Beurteile dann trotzdem die sieben hypothetischen Schalter. „Wähle“ heißt passend entscheiden, „begründe“ heißt Wahl und Grund verbinden, „beurteile“ heißt Nutzen, Grenzen und Urteil abwägen. Freie Antworten werden nicht automatisch benotet.",
@@ -6732,18 +6732,18 @@ window.LOTTE_CATALOG = Object.freeze({
         }
       ],
       "releaseEvidence": {
-        "validFor": "2027/28",
-        "gradeBand": "8",
-        "competencyRef": "PDF-S. 2: Einführung für Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. §2.2.3 PDF-S. 25–26: Social Media, algorithmische Steuerung, Chancen/Risiken, personenbezogene Daten, Tracking/Profilbildung, Werbung und Datensparsamkeit als Ziel unter Klassenstufe 8.",
-        "checkedAt": "2026-10-21"
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Einführung für Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. §2.2.3 PDF-S. 25–26: Social Media, algorithmische Steuerung, Chancen/Risiken, personenbezogene Daten, Tracking/Profilbildung, Werbung und Datensparsamkeit als Ziel unter Klassenstufe 8. Die amtliche Übergangstabelle 02/2025 führt MBI 2026/27 in Klasse 7; §2.2 bleibt Zielstand Ende Klasse 8.",
+        "checkedAt": "2026-10-23"
       }
     },
     {
       "id": "mbi-luefterregler-gestalten",
       "subjectId": "mbi",
       "title": "Lüfterregler: Regeln bauen und prüfen",
-      "scope": "Ausblick Klasse 8 · freiwillig. §2.2.5 Eingebettete Systeme trägt die Zielmarke Klasse 8. Der Browser zeigt nur eine fiktive Regel-Simulation; echte Hardware, grafische Programmierung in einer allgemeinen Entwicklungsumgebung und Lottes aktueller Unterricht sind nicht belegt.",
-      "levelStatus": "grade8-outlook",
+      "scope": "Freiwilliger Teilfall zu eingebetteten Systemen im aktuellen MBI-Lernzeitraum Klasse 7/8; I5 hat den Zielstand Ende Klasse 8. Nur fiktive Browser-Simulation; echte Hardware, allgemeine grafische Programmierung und schulische Themenfolge sind nicht belegt.",
+      "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Du brauchst nur die Regeln in diesem Thema. Sensor = Messgerät; Aktor = Teil, das etwas bewegt. Öffne das lokale Lüfterlabor und baue dort deine Regelkarten. Verbinde keine echte Schaltung. Die Temperaturgrenzen sind erfundene Übungswerte.",
       "introduction": "Eine Modell-AG entwirft einen fiktiven Lüfter. Der gedachte Sensor meldet eine Temperatur in °C oder „kein Wert“. Der Lüfter startet AUS. Bei 28 °C oder mehr soll er AN werden; bei 25 °C oder weniger AUS. Dazwischen behält er den Zustand unmittelbar vor diesem Schritt. Nur Werte von −10 bis 50 °C einschließlich sind gültig. Ein fehlender oder ungültiger Wert führt zu AUS und zur Warnung „Sensorwert ungültig – prüfen“. Diese zwei Schaltgrenzen verhindern dauerndes Hin und Her. Öffne das Lüfterlabor, setze die Regelkarten selbst und starte den Test. Die App kann deine Laborbedienung nicht beobachten oder automatisch benoten; notiere deshalb deine Schritte und Beobachtungen. Keine echte Schaltung bauen.",
@@ -6838,18 +6838,18 @@ window.LOTTE_CATALOG = Object.freeze({
         }
       ],
       "releaseEvidence": {
-        "validFor": "2027/28",
-        "gradeBand": "8",
-        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.5 PDF-S. 26–27: Sensor/Aktor, EVAS, Problemzerlegung, Algorithmus in Wort und Grafik, Implementierung, systematische Tests und Fehlersuche unter Klassenstufe 8.",
-        "checkedAt": "2026-10-21"
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.5 PDF-S. 26–27: Sensor/Aktor, EVAS, Problemzerlegung, Algorithmus in Wort und Grafik, Implementierung, systematische Tests und Fehlersuche unter Klassenstufe 8. Die amtliche Übergangstabelle 02/2025 führt MBI 2026/27 in Klasse 7; §2.2 bleibt Zielstand Ende Klasse 8.",
+        "checkedAt": "2026-10-23"
       }
     },
     {
       "id": "mbi-blockprogramm-regler",
       "subjectId": "mbi",
       "title": "Blockprogramm: Lüfterzustand debuggen",
-      "scope": "Ausblick Klasse 8 · freiwillig. §2.2.5 des gültigen MBI-Plans ordnet grafische Algorithmen und Implementierung der Klassenstufe 8 zu; Lottes aktuelle Schuleinheit ist unbekannt. Die Browserwerkstatt ist ein begrenzter Blockeditor für erfundene Testwerte, keine Scratch-Ausführung und keine reale Sensor- oder Aktorarbeit.",
-      "levelStatus": "grade8-outlook",
+      "scope": "Freiwilliger Algorithmus-Teilfall im aktuellen MBI-Lernzeitraum Klasse 7/8; I5 hat den Zielstand Ende Klasse 8. Begrenzter Blockeditor für erfundene Testwerte, keine Scratch-Ausführung, reale Sensor-/Aktorarbeit oder belegte Schuleinheit.",
+      "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Zuerst kannst du den älteren Lüfterfall wählen; dieser neue Fall vertieft ihn durch selbst geordnete Programmblöcke. Du brauchst nur die fiktiven Werte auf der Karte. Baue und verbinde keine Geräte. Wenn du Scratch selbst verwendest, prüfe die tatsächlichen Blocknamen deiner Editorversion getrennt.",
       "introduction": "Eine fiktive Programmiergruppe will den Zustand eines Lüfters auf dem Bildschirm modellieren. Er beginnt AUS. Für jeden eingegebenen gültigen Testwert gilt: ab 28 °C AN, bis 25 °C AUS, dazwischen den vorherigen Zustand behalten. Ordne in der Werkstatt die Blöcke selbst, wähle die Bedingungen und vergleiche danach deine Ablaufspur. Scratch hat in den hier geprüften Hilfen keine direkten ≥- und ≤-Vergleichsblöcke: „nicht (Temperatur < 28)“ und „nicht (Temperatur > 25)“ bilden die Grenzen. Die Simulation speichert keine Antworten und steuert keinen echten Lüfter. Die schriftlichen Antworten werden nicht automatisch benotet.",
@@ -6965,9 +6965,9 @@ window.LOTTE_CATALOG = Object.freeze({
         }
       ],
       "releaseEvidence": {
-        "validFor": "2027/28",
-        "gradeBand": "8",
-        "competencyRef": "PDF-S. 2 und §2.2.5 PDF-S. 26–27: eingebettete Systeme, grafische Darstellung und Umsetzung eines Algorithmus, systematische Tests und Fehlersuche unter der Zielmarke Klassenstufe 8. Für Klasse 7 2026/27 nur freiwilliger Vorgriff.",
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2 und §2.2.5 PDF-S. 26–27: eingebettete Systeme, grafische Darstellung und Umsetzung eines Algorithmus, systematische Tests und Fehlersuche unter der Zielmarke Klassenstufe 8. Die konkrete Verteilung auf Klasse 7 und 8 ist nicht vorgegeben. Die amtliche Übergangstabelle 02/2025 führt MBI 2026/27 in Klasse 7; §2.2 bleibt Zielstand Ende Klasse 8.",
         "checkedAt": "2026-10-23"
       }
     },
@@ -6975,8 +6975,8 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "mbi-buchdaten-labor",
       "subjectId": "mbi",
       "title": "Buchdaten filtern und ändern",
-      "scope": "Ausblick Klasse 8 · freiwillig. Die MBI-Erprobungsfassung setzt für Klasse 7 im Schuljahr 2026/27 ein; Datenbanken stehen darin ausdrücklich unter der Zielmarke Klasse 8. Keine belegte aktuelle Schulfolge und keine vollständige Datenbankkompetenz.",
-      "levelStatus": "grade8-outlook",
+      "scope": "Freiwilliger Datenbank-Teilfall im aktuellen MBI-Lernzeitraum Klasse 7/8; I6 hat den Zielstand Ende Klasse 8. Keine belegte aktuelle Schuleinheit und keine vollständige Datenbankkompetenz.",
+      "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Für diese Übung öffnest du das fiktive Buchlabor. Es speichert nur erfundene Buch- und Exemplarzeilen im Browser und setzt sie beim Öffnen zurück. Falls dein Browser die lokale Datenbank sperrt, ist der praktische Teil hier nicht durchführbar.",
       "introduction": "Öffne zuerst das Buchlabor über den Link unten. Arbeite dort mit zwei erfundenen Tabellen: „Buch“ beschreibt Titel, „Exemplar“ konkrete Stücke. Eine Buch-ID verbindet beide. Stelle die Filter ein, führe jede Anfrage bewusst aus und beobachte, was eine Änderung an X04 bewirkt. Schreibe deine Beobachtung hier auf oder nutze das Kinderblatt. Die App kann nicht sehen, ob du die Labor-Schritte wirklich ausgeführt hast; die Antworten erhalten keine automatische Note.",
@@ -7044,10 +7044,10 @@ window.LOTTE_CATALOG = Object.freeze({
         }
       ],
       "releaseEvidence": {
-        "validFor": "2027/28",
-        "gradeBand": "8",
-        "competencyRef": "PDF-S. 2: Erprobungsfassung für Klasse 7 ab 2026/27. § 2.2.6 auf PDF-S. 27–28: Datenbanken, verknüpfte Daten, Abfragen und Ändern unter Klassenstufe 8. Dieses Labor zeigt nur Verknüpfung zweier Tabellen, kombinierten Filter und Statusänderung; der Filter läuft im Browser-JavaScript, nicht als vom Kind erstellte Datenbankabfrage.",
-        "checkedAt": "2026-10-21"
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Erprobungsfassung für Klasse 7 ab 2026/27. § 2.2.6 auf PDF-S. 27–28: Datenbanken, verknüpfte Daten, Abfragen und Ändern unter Klassenstufe 8. Dieses Labor zeigt nur Verknüpfung zweier Tabellen, kombinierten Filter und Statusänderung; der Filter läuft im Browser-JavaScript, nicht als vom Kind erstellte Datenbankabfrage. Die amtliche Übergangstabelle 02/2025 führt MBI 2026/27 in Klasse 7; §2.2 bleibt Zielstand Ende Klasse 8.",
+        "checkedAt": "2026-10-23"
       }
     },
     {

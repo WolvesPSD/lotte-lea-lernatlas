@@ -7232,6 +7232,146 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-automatisierung-drei-felder",
+      "subjectId": "mbi",
+      "title": "Wo hilft Automatisierung – und wem?",
+      "scope": "Freiwilliger schriftlicher Quellenvergleich im aktuellen MBI-Lernzeitraum Klasse 7/8; I5-SS02 hat den Zielstand Ende Klasse 8. Die schulische Themenfolge ist offen. Keine echte Diskussion, Programmierung oder Hardwarewirkung wird durch Textantworten belegt.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Lies die drei kurzen Quellenkarten. M = misst, E = wertet aus oder entscheidet, A = verändert etwas. Nenne immer das Bauteil oder die beteiligte Stelle. Zähler, Hausanzeige und programmierbares Gerät sind verschieden. Wo eine Quelle eine konkrete Messgrösse oder Handlung nicht nennt, darfst du „nicht belegt“ schreiben. Du brauchst keine Geräte oder echten Haushaltsdaten.",
+      "introduction": "Vergleiche drei mögliche Einsatzfelder: Haushalt, Stromnetz und Fertigung. Trenne belegte Aussagen von eigenen Folgerungen. Die drei Originalseiten öffnen sich nur, wenn du ihre Links wählst. Bearbeite A–E schriftlich; danach könnt ihr freiwillig darüber sprechen. Die App kann weder dein Gespräch hören noch Freitext sicher bewerten. Die Beispiele belegen keine Einrichtung oder Wirkung eines konkreten Systems bei euch.",
+      "sourceCards": [
+        {
+          "title": "1 · Haushalt: Stromzähler",
+          "text": "Ein Smart Meter misst den Stromverbrauch und kann Messwerte an den Energieanbieter übermitteln. Eine getrennte Anzeige im Haus macht den Verbrauch sichtbar. Ein getrenntes programmierbares Gerät kann Preisangaben nutzen und seinen Betrieb auf günstigere Zeiten verschieben. Die Quelle sagt nicht, dass der Zähler selbst das Gerät schaltet.",
+          "sourceLabel": "GOV.UK · Haushaltsleitfaden",
+          "sourceUrl": "https://www.gov.uk/guidance/smart-meters-how-they-work",
+          "sourceNote": "Veröffentlicht 2013, zuletzt aktualisiert 14.10.2021. Britischer Rechtsraum; keine Aussage über Thüringer Regeln."
+        },
+        {
+          "title": "2 · Stromnetz: Netzsteuerung",
+          "text": "Die Europäische Kommission beschreibt intelligente Netze, die Energieflüsse automatisch beobachten und auf Änderungen von Angebot und Nachfrage reagieren. Das kann bei schwankender Wind- und Solarenergie sowie neuen Verbrauchern wie Wärmepumpen und Elektroautos helfen. Eine konkrete lokale Schalthandlung nennt die Kurzquelle nicht.",
+          "sourceLabel": "EU-Kommission · Smart grids and meters",
+          "sourceUrl": "https://energy.ec.europa.eu/topics/markets-and-consumers/smart-grids-and-meters_en",
+          "sourceNote": "EU-Kontext, abgerufen 23.10.2026. Allgemeine Möglichkeiten, keine Daten zu einem bestimmten Netz."
+        },
+        {
+          "title": "3 · Fertigung: Produktionsanlage",
+          "text": "NIST nennt Sensornetze, computergestützte Steuerungen und Produktionssoftware als Bestandteile intelligenter Fertigung. Software kann Abläufe überwachen und anpassen. Welche Grösse ein bestimmter Sensor misst, steht hier nicht. Effizienz, Qualität und Zuverlässigkeit sind Ziele; Vernetzung und Sensoren stellen auch Sicherheitsanforderungen.",
+          "sourceLabel": "NIST · Smart Manufacturing",
+          "sourceUrl": "https://www.nist.gov/programs-projects/smart-manufacturing-systems-design-and-analysis-program",
+          "additionalSourceLabel": "NIST · Cybersicherheit",
+          "additionalSourceUrl": "https://www.nist.gov/programs-projects/cybersecurity-smart-manufacturing-systems",
+          "sourceNote": "US-Fachkontext; Programmseite und abgeschlossenes NIST-Cybersicherheitsprojekt, abgerufen 23.10.2026. Kein Beleg zu einer lokalen Fabrik."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "mbi-dreifeld-1",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "A · Messen, Nutzen, Handeln (6 Kriterienpunkte): Trage für jeden der drei Fälle ein: Was wird gemessen? Wer oder was nutzt die Daten? Welche Handlung kann folgen – und durch wen oder was? Nutze nur die Karten. Schreibe „nicht belegt“, wenn die konkrete Messgrösse oder Handlung nicht genannt wird. Verwechsle beim Haushalt den Zähler nicht mit Anzeige oder Gerät.",
+          "sample": "Haushalt: Smart Meter misst Stromverbrauch und übermittelt Messwerte an Anbieter; separate Hausanzeige zeigt Verbrauch, separat programmierbares Gerät kann anhand von Preisdaten den Betriebszeitpunkt verschieben. Der Zähler schaltet es nicht selbst. Netz: Energieflüsse sowie Angebot und Nachfrage werden beobachtet; das intelligente Netz kann auf Änderungen reagieren, konkrete lokale Schaltbefehle sind nicht belegt. Fertigung: Sensornetze liefern Daten, die konkrete Messgrösse ist nicht genannt; Steuerungen und Produktionssoftware können Abläufe überwachen oder anpassen.",
+          "criteria": [
+            "Haushalt 1 Punkt: Strom-/Energieverbrauch als Messung des Smart Meters.",
+            "Haushalt 1 Punkt: Anbieter/Anzeige als Datennutzer und ein getrennt programmierbares Gerät als mögliche Handlung; keine Zählerschaltung.",
+            "Stromnetz 1 Punkt: Energieflüsse oder Angebot/Nachfrage als Beobachtung.",
+            "Stromnetz 1 Punkt: Netzreaktion auf Änderungen als Möglichkeit, ohne erfundenen lokalen Schaltbefehl.",
+            "Fertigung 1 Punkt: Sensordaten, aber konkrete Messgrösse „nicht belegt“.",
+            "Fertigung 1 Punkt: Steuerung/Produktionssoftware als Datennutzer und mögliche Anpassung von Abläufen."
+          ]
+        },
+        {
+          "id": "mbi-dreifeld-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Zwei Gruppen (4 Kriterienpunkte): Wähle zwei unterschiedliche betroffene Gruppen aus den drei Fällen. Nenne für jede eine mögliche Chance und erkläre, worauf sie beruht. Wenn du aus der Quelle folgerst, kennzeichne das als eigene begründete Ableitung. Reale Wirkungen sind damit nicht bewiesen.",
+          "sample": "Ein Haushalt könnte den eigenen Verbrauch durch die Anzeige besser erkennen (GOV.UK). Ein Netzbetreiber könnte Änderungen von Angebot und Nachfrage besser einordnen und darauf reagieren (EU-Kommission). Für Beschäftigte oder Hersteller sind sichere und zuverlässige Abläufe beziehungsweise mögliche Qualitätsverbesserung nachvollziehbare Ableitungen, keine hier gemessenen Einzelfallwirkungen.",
+          "criteria": [
+            "1 Punkt: erste betroffene Gruppe und zu ihr passende Chance.",
+            "1 Punkt: Grundlage dieser Chance aus Karte oder klar bezeichnete Ableitung.",
+            "1 Punkt: andere betroffene Gruppe und passende Chance.",
+            "1 Punkt: Grundlage der zweiten Chance und Kennzeichnung eigener Ableitung, falls nötig."
+          ]
+        },
+        {
+          "id": "mbi-dreifeld-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Fragen und Risiken (4 Kriterienpunkte): Nenne zwei unterschiedliche Fragen oder Risiken vor einem Einsatz. Mindestens eines betrifft Datenzugriff oder Sicherheit. Schreibe bei jedem dazu: „Quelle sagt“ oder „meine begründete Vermutung“. Nenne keine erfundenen Vorfälle als Tatsachen.",
+          "sample": "Datenfrage: Wer darf fein aufgelöste Haushalts-Verbrauchsdaten sehen, und wofür? Das ist eine Prüffrage; die britische Quelle nennt dortige Zugriffsregeln, nicht Thüringer Recht. Sicherheitsfrage: Was passiert bei einem falschen Sensordatum oder Verbindungsfehler in einer Fertigung? Das ist ein mögliches Szenario, kein berichteter Vorfall. NIST nennt allgemein Sicherheits- und Zuverlässigkeitsanforderungen.",
+          "criteria": [
+            "1 Punkt: erste relevante Frage oder erstes Risiko.",
+            "1 Punkt: richtige Kennzeichnung als Quellenangabe oder eigene begründete Vermutung.",
+            "1 Punkt: zweite, davon unterschiedliche Frage beziehungsweise Risiko; mindestens eine Frage betrifft Daten oder Sicherheit.",
+            "1 Punkt: auch hier saubere Beleg-/Vermutungsgrenze, ohne erfundenen Vorfall."
+          ]
+        },
+        {
+          "id": "mbi-dreifeld-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "D · Wirkung und Unsicherheit (4 Kriterienpunkte): Beschreibe für einen Fall eine plausible Kette aus falscher Messung oder Entscheidung, möglicher Systemreaktion und Folge. Wäre dieser Fall sicher folgenreicher als die beiden anderen? Begründe eine Rangfolge oder erkläre, welche konkrete Information dafür fehlt. Kennzeichne die Folge als hypothetisches Szenario.",
+          "sample": "Beispiel als Szenario: Ein falscher Messwert im Stromnetz könnte zu einer unpassenden automatischen Reaktion und dann zu einer Störung führen. Das ist kein dokumentiertes Ereignis. Eine sichere Rangfolge gegenüber einer Fertigungsanlage oder einem Haushalt folgt aus den Kurzquellen nicht; konkrete Schutzmechanismen, Fehlerwahrscheinlichkeiten und Folgen fehlen.",
+          "criteria": [
+            "1 Punkt: Fall und mögliche falsche Messung/Entscheidung benannt.",
+            "1 Punkt: plausible anschliessende Systemreaktion.",
+            "1 Punkt: mögliche Folge ausdrücklich als Szenario, nicht als berichtetes Ereignis.",
+            "1 Punkt: begründete Rangfolge oder zutreffende Erklärung, welche konkreten Informationen für eine sichere Rangfolge fehlen."
+          ]
+        },
+        {
+          "id": "mbi-dreifeld-5",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "E · Verantwortliche Regel (2 Kriterienpunkte): Ergänze „Bevor das System selbst handelt, sollte …“. Erkläre deine Regel an einem der drei Fälle. Kennzeichne sie als eigenen Vorschlag, nicht als bereits geltende technische Norm.",
+          "sample": "Eigener Vorschlag: Bevor die gedachte Anlage selbst handelt, sollte sie einen unplausiblen Sensorwert erkennen und eine sichere Rückfrage oder einen Stopp vorsehen. Das könnte bei einer Produktionsanlage eine falsche Reaktion vermeiden helfen; ob diese Regel technisch passt, müsste am konkreten System geprüft werden.",
+          "criteria": [
+            "1 Punkt: verständliche, verantwortliche Handlungsregel als eigener Entwurf.",
+            "1 Punkt: nachvollziehbarer Bezug zu einem der drei Fälle, ohne erfundene Norm oder garantierte Wirkung."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Freiwilliges Gespräch: Chancen und Risiken abwägen",
+        "childNote": "Wenn eine zweite Person Zeit hat, besprecht nach A–E zwei verschiedene Fälle. Das Gespräch ist freiwillig. Die App hört nichts mit und vergibt dafür keine Punkte; ohne Gespräch bleibt es „nicht erhoben“. Es werden keine Haushaltsdaten oder Erfahrungen aus einer echten Fabrik benötigt.",
+        "childSteps": [
+          "Wählt zwei Fälle und nennt je eine Chance sowie ein Risiko oder eine offene Frage.",
+          "Sagt bei mindestens einer Aussage, ob sie auf einer Quellenkarte steht oder eure eigene Folgerung ist.",
+          "Hört die andere Begründung an und fragt nach einer fehlenden Information für eine sichere Entscheidung."
+        ],
+        "adultNote": "Nur ein tatsächlich geführtes Gespräch beobachten. Schriftliche Antworten belegen weder Gespräch noch Abwägung. Ohne faire Gelegenheit „nicht erhoben“ vermerken; keine Punkte oder Schulnote daraus bilden. Die britischen Datenregeln sind keine Thüringer Rechtsauskunft.",
+        "adultCriteria": [
+          "Zwei unterschiedliche Fälle wurden wirklich angesprochen.",
+          "Mindestens eine Chance und ein Risiko wurden mit Begründung genannt.",
+          "Quellenbeleg und eigene Folgerung wurden hörbar getrennt.",
+          "Eine Nachfrage oder Reaktion auf die andere Begründung war zu hören."
+        ],
+        "unscored": true
+      },
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.5 PDF-S. 26–27: I5-SS02, Chancen und Risiken eingebetteter Automatisierung in verschiedenen Anwendungsfeldern erkennen und diskutieren; Zielstand Klasse 8. Schriftlicher Quellenvergleich ist nur ein Teil davon.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "mbi-buchdaten-labor",
       "subjectId": "mbi",
       "title": "Buchdaten filtern und ändern",

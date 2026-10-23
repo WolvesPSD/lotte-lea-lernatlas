@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-23T01:26:14.689Z",
-  "releaseVersion": "2026.10.23-frsleseecke.1",
+  "builtAt": "2026-10-23T03:14:32.862Z",
+  "releaseVersion": "2026.10.23-mbidreifeld.1",
   "newTopicIds": [
-    "fr-leseecke-avis-aide"
+    "mbi-automatisierung-drei-felder"
   ],
   "changeLog": [
-    "Französisch: Ein freiwilliger 7/8-Dialog zur eigenen Meinung, zur anderen Vorliebe und zu gegenseitiger Hilfe ergänzt den Termin-Dialog.",
-    "Camille- und Sam-Rolle sowie Morgen-Variante sind getrennt druckbar. Schriftliche Antworten beweisen keine gehörte Rede; der Live-Bogen bleibt bei Erwachsenen."
+    "MBI: Ein freiwilliger Quellenvergleich zu Automatisierung in Haushalt, Stromnetz und Fertigung ergänzt den 7/8-Lernraum.",
+    "Drei Quellenkarten erscheinen im Kinderblatt; Lösungen und Beobachtungsbogen bleiben im Erwachsenenblatt. Offene Antworten und Gespräche werden nicht automatisch bewertet."
   ],
-  "rollbackCommit": "c78dd6486783cb55e627e1ab777e3c8580cf1e53",
+  "rollbackCommit": "eb08182c8b99dad21d4b9365050ed175ecfc7325",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -94,6 +94,7 @@
     "mbi-simunet-datensparsam",
     "mbi-luefterregler-gestalten",
     "mbi-blockprogramm-regler",
+    "mbi-automatisierung-drei-felder",
     "mbi-buchdaten-labor",
     "de-karte-im-regen-vortrag",
     "de-heidi-ganzschrift-begleiter",

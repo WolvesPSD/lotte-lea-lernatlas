@@ -40,6 +40,32 @@
     parent.append(el);
     return el;
   };
+  function appendSourceCards(parent, cards, forPrint = false) {
+    const group = create('section', forPrint ? 'print-source-cards' : 'learning-source-cards');
+    appendText(group, 'h3', '', 'Quellenkarten');
+    for (const card of cards) {
+      const item = create('article', 'learning-source-card');
+      appendText(item, 'h4', '', card.title);
+      appendText(item, 'p', '', card.text);
+      const link = create('a', 'source-link', `${card.sourceLabel} ↗`);
+      link.href = card.sourceUrl;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      item.append(link);
+      if (card.additionalSourceUrl) {
+        const extra = create('a', 'source-link', `${card.additionalSourceLabel} ↗`);
+        extra.href = card.additionalSourceUrl;
+        extra.target = '_blank';
+        extra.rel = 'noopener noreferrer';
+        item.append(extra);
+      }
+      appendText(item, 'p', 'muted', card.sourceNote);
+      if (forPrint) appendText(item, 'p', 'print-source-url', card.sourceUrl);
+      if (forPrint && card.additionalSourceUrl) appendText(item, 'p', 'print-source-url', card.additionalSourceUrl);
+      group.append(item);
+    }
+    parent.append(group);
+  }
   const initial = { selected: [], active: null, answers: {} };
   let state = load();
   $('#release-status').textContent = preview
@@ -384,6 +410,7 @@
     if (topic.prerequisite) appendText(intro, 'p', 'muted', topic.prerequisite);
     appendText(intro, 'p', '', topic.introduction);
     if (topic.passage) appendText(intro, 'blockquote', 'reading-passage', topic.passage);
+    if (topic.sourceCards) appendSourceCards(intro, topic.sourceCards);
     if (topic.tasks.some(task => task.helpAfterAttempt)) appendText(intro, 'p', 'learning-step-note', 'Erst selbst antworten und „Antwort prüfen“ wählen. Danach kannst du die freiwillige Formenhilfe öffnen.');
     if (topic.stagedReading) appendText(intro, 'p', 'muted', `Zuerst nur der Titel: ${topic.stagedReading.title}. Der Lesetext erscheint nach deiner ersten Vermutung.`);
     if (topic.stagedPrompt) appendText(intro, 'p', 'muted', 'Schreibe zuerst deine eigene Vermutung auf. Der kurze Kontext erscheint erst, wenn du sie festgehalten hast.');
@@ -737,6 +764,7 @@
       if (topic.prerequisite) appendText(section, 'p', 'print-context', topic.prerequisite);
       appendText(section, 'p', 'print-context', topic.introduction);
       if (topic.passage) appendText(section, 'p', 'print-passage', topic.passage);
+      if (topic.sourceCards) appendSourceCards(section, topic.sourceCards, true);
       if (topic.stagedReading && mode === 'adult') {
         appendText(section, 'p', 'print-passage', topic.stagedReading.text);
         if (topic.stagedReading.plan) {

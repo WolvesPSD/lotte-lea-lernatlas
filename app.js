@@ -624,7 +624,7 @@
       input.value = state.answers[task.id] || '';
       input.addEventListener('input', () => { state.answers[task.id] = input.value; save(); result.replaceChildren(); });
     } else {
-      input = create('textarea', 'answer-input'); input.rows = Number.isInteger(task.inputRows) && task.inputRows >= 4 && task.inputRows <= 18 ? task.inputRows : 4; input.setAttribute('aria-label', `Antwort auf Aufgabe ${index + 1}`);
+      input = create('textarea', 'answer-input'); input.rows = Number.isInteger(task.inputRows) && task.inputRows >= 4 && task.inputRows <= 18 ? task.inputRows : 4; input.setAttribute('aria-label', /^en-form-b\d{2}$/.test(task.id) ? task.prompt : `Antwort auf Aufgabe ${index + 1}`);
       input.value = state.answers[task.id] || '';
       input.addEventListener('input', () => { state.answers[task.id] = input.value; save(); result.replaceChildren(); });
     }

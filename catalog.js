@@ -5415,6 +5415,237 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "en-form-reading-lab",
+      "subjectId": "en",
+      "title": "Complete the Reading Lab form",
+      "scope": "Freiwilliger gestützter Klasse-7-Einstieg in einen engen Schreibteil mit Zielmarke Ende Klasse 8. Der Thüringer Englischplan 2026 nennt das Ausfüllen von Tabellen, Fragebögen und Formularen im Klasse-8-Zweig; Lottes aktuelle Unterrichtsfolge und ihr individueller Fremdsprachenweg sind nicht belegt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Riley, Reading Lab und beide Karten sind erfunden. Verwende keine eigenen Namen, Adressen oder Kontaktdaten. Trage in B zwölf kurze englische Formeinträge in getrennte Felder ein. Bei fehlenden Angaben schreibe exakt NOT GIVEN; schicke das Formular nirgends ab. Die optionale dritte Karte erscheint erst nach A–C.",
+      "introduction": "Zwei fiktive Karten beschreiben dasselbe Reading Lab. Die spätere Karte ändert Tag, Uhrzeit und Raum; Angaben zu Riley bleiben sonst gleich. Für geänderte Angaben gilt die spätere Karte, für unveränderte die ältere. Fehlt eine Angabe in beiden Karten, ist NOT GIVEN der richtige Formeintrag statt einer Vermutung. A und C dürfen auf Deutsch beantwortet werden, die zwölf B-Felder auf Englisch. 20 Hauptpunkte sind Lernfeedback, keine Schulnote.",
+      "passage": "KARTE 1 · 9 November 2026 · older plan\nReading Lab: Tuesday, 12:30–1:00 pm, room L3.\nFictional participant: Riley Morgan, age 13, class 7B.\nRiley prefers comics, not novels, and can bring a notebook.\n\nKARTE 2 · 16 November 2026 · later correction\nThe Reading Lab now meets on Thursday, 12:40–1:10 pm, in room L4.\nThe Tuesday time and room L3 are no longer valid.\nRiley's name, age, class, reading preference and notebook information have not changed.\n\nREGEL · Use Card 2 for changed details and Card 1 for unchanged details. If neither card gives an answer, write NOT GIVEN. This practice form is not a registration or a confirmed place.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "text": "OPTIONALE KARTE 3 · 17 November 2026 · later fictional correction: The room is now L5 instead of L4. The Thursday meeting time is unchanged. No other information is added. Write a short update note; this is not a new registration."
+      },
+      "tasks": [
+        {
+          "id": "en-form-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "A · Quellenplan (4 Hauptpunkte): Welche Karte ist später und gilt bei Änderungen? Nenne den aktuell geltenden Wochentag, die vollständige aktuelle Anfangs- und Endzeit und den Raum. Stichwörter genügen.",
+          "sample": "Karte 2 vom 16. November ist später und gilt bei Änderungen. Thursday, 12:40–1:10 pm, room L4.",
+          "criteria": [
+            "1 Punkt: Karte 2 als spätere Korrektur erkannt.",
+            "1 Punkt: Thursday.",
+            "0,5 Punkt: Beginn 12:40; 0,5 Punkt: Ende 1:10 pm oder 13:10.",
+            "1 Punkt: room L4."
+          ]
+        },
+        {
+          "id": "en-form-b01",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 1,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "B1 · Participant name · English form entry",
+          "sample": "Riley Morgan",
+          "criteria": [
+            "1 Punkt: Riley Morgan, aus Karte 1; Karte 2 bestätigt, dass der Name unverändert ist."
+          ]
+        },
+        {
+          "id": "en-form-b02",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 1,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "B2 · Age · English form entry",
+          "sample": "13",
+          "criteria": [
+            "1 Punkt: 13."
+          ]
+        },
+        {
+          "id": "en-form-b03",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 1,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "B3 · Class · English form entry",
+          "sample": "7B",
+          "criteria": [
+            "1 Punkt: 7B."
+          ]
+        },
+        {
+          "id": "en-form-b04",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 1,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "B4 · Preferred reading · English form entry",
+          "sample": "comics",
+          "criteria": [
+            "1 Punkt: comics; „not novels“ zusätzlich zulässig, aber kein weiterer Punkt."
+          ]
+        },
+        {
+          "id": "en-form-b05",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 1,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "B5 · Current meeting day · English form entry",
+          "sample": "Thursday",
+          "criteria": [
+            "1 Punkt: Thursday aus der späteren Karte."
+          ]
+        },
+        {
+          "id": "en-form-b06",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 1,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "B6 · Current start time · English form entry",
+          "sample": "12:40 pm",
+          "criteria": [
+            "1 Punkt: 12:40 pm oder 12:40."
+          ]
+        },
+        {
+          "id": "en-form-b07",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 1,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "B7 · Current end time · English form entry",
+          "sample": "1:10 pm",
+          "criteria": [
+            "1 Punkt: 1:10 pm oder 13:10."
+          ]
+        },
+        {
+          "id": "en-form-b08",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 1,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "B8 · Current room · English form entry",
+          "sample": "L4",
+          "criteria": [
+            "1 Punkt: L4 aus der späteren Karte."
+          ]
+        },
+        {
+          "id": "en-form-b09",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 1,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "B9 · Can bring a notebook? · English form entry",
+          "sample": "Yes",
+          "criteria": [
+            "1 Punkt: Yes oder can bring a notebook; daraus folgt keine Pflicht."
+          ]
+        },
+        {
+          "id": "en-form-b10",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 1,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "B10 · Contact e-mail address · English form entry",
+          "sample": "NOT GIVEN",
+          "criteria": [
+            "1 Punkt: exakt NOT GIVEN; keine fiktive Adresse aus dem Nichts ergänzen."
+          ]
+        },
+        {
+          "id": "en-form-b11",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 1,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "B11 · Place already confirmed? · English form entry",
+          "sample": "NOT GIVEN",
+          "criteria": [
+            "1 Punkt: exakt NOT GIVEN; fehlende Zusage ist keine belegte Ablehnung."
+          ]
+        },
+        {
+          "id": "en-form-b12",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 1,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "B12 · Schedule source used: older card or later correction? · English form entry",
+          "sample": "later correction / Card 2",
+          "criteria": [
+            "1 Punkt: later correction oder Card 2."
+          ]
+        },
+        {
+          "id": "en-form-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "C · Check two wrong entries (4 Hauptpunkte): Ein fremdes Übungsformular enthält „Current meeting day: Tuesday“ und „Contact e-mail address: riley@form.invalid“. Erkläre bei jedem Eintrag kurz, welche Karte oder fehlende Angabe ihn widerlegt. Gib jeweils den richtigen Formeintrag an.",
+          "sample": "Tuesday stammt aus der überholten Karte 1; Karte 2 ersetzt es durch Thursday. Die Beispieladresse steht in keiner Karte; der richtige Eintrag ist NOT GIVEN.",
+          "criteria": [
+            "1 Punkt: Tuesday als durch Karte 2 überholt begründet.",
+            "1 Punkt: korrekter Eintrag Thursday.",
+            "1 Punkt: konkrete Adresse in keiner Karte belegt; Fiktion allein ersetzt die Quellenprüfung nicht.",
+            "1 Punkt: korrekter Eintrag NOT GIVEN."
+          ]
+        },
+        {
+          "id": "en-form-update",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "Optionale Änderung nach A–C · 6 getrennte Zusatzpunkte: Schreibe eine kurze englische Formular-Aktualisierungsnotiz zu Karte 3. Nenne neuen und ersetzten Raum, aktuellen Wochentag, unveränderte Anfangs- und Endzeit sowie ein Feld, das weiterhin unbekannt ist. Keine neue Anmeldung.",
+          "sample": "The current room is L5, replacing L4. The lab still meets on Thursday from 12:40 to 1:10 pm. Riley's e-mail address is still NOT GIVEN.",
+          "criteria": [
+            "1 Zusatzpunkt: L5 als neuer Raum.",
+            "1 Zusatzpunkt: L4 als ersetzter Raum.",
+            "1 Zusatzpunkt: Thursday bleibt.",
+            "1 Zusatzpunkt: Beginn 12:40.",
+            "1 Zusatzpunkt: Ende 1:10 pm oder 13:10.",
+            "1 Zusatzpunkt: ein weiterhin unbekanntes Feld ausdrücklich offen, ohne Adresse oder Platzzusage zu erfinden. Nicht zur Hauptsumme addieren."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "Englisch Gymnasium Erprobungsfassung 2026, erste Fremdsprache, §2.2.4 PDF-S. 29: Tabellen, Fragebögen und Formulare ausfüllen, Ziel Klasse 8. Inkraftsetzung Klasse 8 ab 2027/28 laut PDF-S. 2.",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
       "id": "en-alex-games-mediation",
       "subjectId": "en",
       "title": "Explain the games afternoon to Alex",

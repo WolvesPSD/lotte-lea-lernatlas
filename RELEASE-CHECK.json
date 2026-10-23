@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-23T04:38:59.099Z",
-  "releaseVersion": "2026.10.23-g01klima.1",
+  "builtAt": "2026-10-23T04:58:47.028Z",
+  "releaseVersion": "2026.10.23-enform.1",
   "newTopicIds": [
-    "go-klima-vegetation-modell"
+    "en-form-reading-lab"
   ],
   "changeLog": [
-    "Geografie: Ein freiwilliger Klima- und Vegetationsfall arbeitet mit zwölf Monaten vollständig erfundener Modellwerte und fünf Hauptaufgaben.",
-    "Eine lösungsfreie CSV für Excel oder Calc ergänzt die vollständigen Textwerte. Die Einzeljahr-Karte wird erst nach A–E sichtbar; die ältere Lehrplangeltung 2026/27 bleibt als ungeklärt gekennzeichnet."
+    "Englisch: Ein freiwilliger Klasse-8-Ausblick lässt ein fiktives Reading-Lab-Formular aus zwei datierten Karten in zwölf einzeln gespeicherten Feldern ausfüllen.",
+    "Die dritte Karte erscheint erst nach A–C; unbekannte Angaben bleiben NOT GIVEN. Kinderfelder und Druck enthalten keine Musterlösungen oder echten persönlichen Daten."
   ],
-  "rollbackCommit": "5bd354bd580a28a6f317aa1915d0f3e16762672d",
+  "rollbackCommit": "8271a2cf72b2a22a239700bc742f4a14337df94d",
   "releasedTopics": [
     "mnt-gemisch-forschungsweg",
     "ph-weg-zeit-karte",
@@ -72,6 +72,7 @@
     "en-garden-poster-dialogue",
     "de-technikprotokoll-korrigieren",
     "en-paper-workshop-mediation",
+    "en-form-reading-lab",
     "en-alex-games-mediation",
     "fr-mila-drawing-mediation",
     "fr-theo-erlebnisbericht",
@@ -155,6 +156,7 @@
     "ma-druckzeit-zuordnungen",
     "ma-tank-zuordnung",
     "ma-prozent-fixture",
+    "en-form-reading-lab",
     "fr-camille-geschichte-fortsetzen",
     "ma-kuehlkasten-rationale-zahlen",
     "ma-potenzen-rechnerwahl",

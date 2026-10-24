@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-24T23:48:46.106Z",
-  "releaseVersion": "2026.10.25-enmreturntoken.1",
+  "builtAt": "2026-10-24T23:57:30.098Z",
+  "releaseVersion": "2026.10.25-mbii6youtube.1",
   "newTopicIds": [
-    "en-m-umschreiben-kontext"
+    "mbi-i6-youtube-verlauf-empfehlungen"
   ],
   "changeLog": [
-    "Englisch: ein unbekanntes Wort aus dem fiktiven Gartenweg-Hinweis erschliessen und Maria vorsichtig auf Deutsch erklären.",
-    "Freiwilliger Ende-8-Methodenfall ohne Glossar, mit Samstag-Änderung erst nach A–D und getrenntem Erwachsenenmuster."
+    "Medienbildung und Informatik: mit zwei YouTube-Hilfekarten den begrenzten Zusammenhang von Wiedergabeverlauf und Empfehlungen erklären.",
+    "Historischen FTC-Sammelbefund von aktuellen Anbieterangaben trennen; freiwilliger Quellen-Transfer erst nach A–C, ohne echte Kontonutzung."
   ],
-  "rollbackCommit": "7205cb7b2ac040c07d2da67c7ae3357ae31618d8",
+  "rollbackCommit": "5e82a0f77102b49fc99bf97419ffc3e333877959",
   "releasedTopics": [
     "ma-koerper-netzkarten",
     "de-wortarten-form-funktion",
@@ -137,6 +137,7 @@
     "go-thueringen-wirtschaftssektoren",
     "go-gradnetz-modellorte",
     "go-drei-gesteinswege",
+    "mbi-i6-youtube-verlauf-empfehlungen",
     "mbi-i6-cookie-datenweg",
     "mbi-i3-finanzierungsmodelle",
     "mbi-i3-datenschutz-transfer",
@@ -214,6 +215,7 @@
     "en-write-retell-lantern-walk",
     "en-write-rooftop-poem",
     "ma-schraegbild-darstellungen",
+    "mbi-i6-youtube-verlauf-empfehlungen",
     "mbi-i6-cookie-datenweg",
     "mbi-i3-finanzierungsmodelle",
     "mbi-i3-datenschutz-transfer",

@@ -11973,6 +11973,114 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-i6-youtube-verlauf-empfehlungen",
+      "subjectId": "mbi",
+      "title": "Was verrät ein Wiedergabeverlauf?",
+      "scope": "Freiwilliger Klasse-7-Vorgriff auf einen engen I6-Teilbereich. Der Thüringer MBI-Lehrplan markiert die hier angesprochene Zielkompetenz für Ende Klasse 8 ab 2027/28. Die aktuelle Schuleinheit ist unbekannt. Nur öffentliche Hilfetexte und ein historischer Sammelbericht werden geprüft.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst kein YouTube-Konto und sollst keine echten Verläufe, Profile oder Einstellungen öffnen oder ändern. Arbeite nur mit den drei Quellenkarten und ihren Originalquellen. Anbieterhilfe beschreibt ausgewählte Funktionen, nicht die vollständige Technik. Die App kann freie Antworten nicht automatisch bewerten.",
+      "introduction": "Eine erfundene Person schaut für ein Schulprojekt einmalig Videos zu einem Thema und möchte später keine Vorschläge aufgrund genau dieses Wiedergabeverlaufs. Rekonstruiere einen kleinen belegten Datenweg, wähle auf Papier eine Möglichkeit und trenne Anbieterangabe, allgemeinen FTC-Befund und eigene Folgerung. A–C ergeben 20 Kriterienpunkte; der freiwillige Transfer hat sechs getrennte Zusatzpunkte. Das ist Lernfeedback, keine Schulnote.",
+      "sourceCards": [
+        {
+          "title": "A · Anbieterhilfe: Verlauf",
+          "text": "YouTube beschreibt: Ein eingeschalteter Wiedergabeverlauf kann zu passenden Empfehlungen beitragen. Man kann Einträge löschen oder den Verlauf ausschalten. Während er ausgeschaltet ist, erscheinen angesehene Videos laut Hilfe nicht darin. Gelöschte Verlaufseinträge sollen künftigen Empfehlungen nicht mehr zugrunde liegen. Je nach Auswahl kann die YouTube-Verlaufseinstellung angesehene Videos und Suchanfragen enthalten. Das sagt nichts über alle anderen Datenquellen.",
+          "sourceLabel": "YouTube-Hilfe · Wiedergabeverlauf (Original)",
+          "sourceUrl": "https://support.google.com/youtube/answer/95725?hl=de",
+          "sourceNote": "Anbieterbeschreibung, abgerufen 25.10.2026; Funktionen und Oberfläche können sich ändern."
+        },
+        {
+          "title": "B · Anbieterhilfe: weitere Einflüsse",
+          "text": "YouTube nennt Wiedergabe- und Suchverlauf sowie Rückmeldungen wie „Kein Interesse“ als mögliche Einflüsse. Auch andere Google-Kontoaktivität kann Empfehlungen beeinflussen. Diese Hilfe erklärt keinen vollständigen Algorithmus und garantiert nicht, dass nach einer einzigen Einstellung alle Vorschläge verschwinden.",
+          "sourceLabel": "YouTube-Hilfe · Empfehlungen (Original)",
+          "sourceUrl": "https://support.google.com/youtube/answer/6342839?hl=de",
+          "sourceNote": "Anbieterbeschreibung, abgerufen 25.10.2026; keine unabhängige technische Messung."
+        },
+        {
+          "title": "C · FTC: historischer Sammelbefund",
+          "text": "Der US-FTC-Staffbericht vom September 2024 wertet Antworten von neun Social-Media- und Videodiensten auf Auskunftsanordnungen von Dezember 2020 aus. Er beschreibt unter anderem, dass viele der untersuchten Unternehmen automatisierte Systeme und Datenanalysen einsetzen. Ein solcher Sammelbefund beweist keinen bestimmten heutigen YouTube-Mechanismus und trifft nicht zwingend in jeder Hinsicht auf jeden einzelnen Dienst zu.",
+          "sourceLabel": "FTC · A Look Behind the Screens (Originalbericht, PDF)",
+          "sourceUrl": "https://www.ftc.gov/system/files/ftc_gov/pdf/Social-Media-6b-Report-9-11-2024.pdf",
+          "sourceNote": "Historischer US-Sammelbericht, abgerufen 25.10.2026; nicht mit aktueller Anbieterhilfe gleichsetzen."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–C festhalten und Quellen-Transfer zeigen",
+        "text": "FREIWILLIGER QUELLEN-TRANSFER NACH A–C · Die FTC-Anordnungen stammen aus Dezember 2020, der Bericht erschien im September 2024. Die heutige YouTube-Hilfe beschreibt ausgewählte Bedienmöglichkeiten. Vergleiche Aussagezeit und Reichweite, ohne eine tatsächliche Änderung an einem Konto vorzunehmen."
+      },
+      "tasks": [
+        {
+          "id": "mbi-youtube-a",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 12,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "A · Datenweg aus Quellen rekonstruieren (8 Hauptpunkte): Nenne zwei Arten von Aktivität, die je nach Einstellung im YouTube-Verlauf stehen können. Beschreibe den Zusammenhang zwischen eingeschaltetem Wiedergabeverlauf und Empfehlungen. Zeichne auf Papier oder beschreibe eine Pfeilkette „Aktivität → … → …“, die nur durch A oder B gestützte Schritte enthält. Nenne eine weitere Information oder Rückmeldung, die laut Hilfe Empfehlungen beeinflussen kann.",
+          "sample": "Angesehene Videos und Suchanfragen können je nach Einstellung im YouTube-Verlauf erfasst werden. Bei eingeschaltetem Verlauf kann YouTube dessen Angaben für passendere Empfehlungen verwenden. Beispiel: Video ansehen → Wiedergabeverlauf → Empfehlung, die diesen Verlauf mitberücksichtigt. Auch „Kein Interesse“ oder weitere Google-Kontoaktivität kann Einfluss haben. Das beschreibt keine interne Datenbank.",
+          "criteria": [
+            "2 Punkte: zwei verschiedene passende Aktivitäten, je 1.",
+            "2 Punkte: eingeschalteter Wiedergabeverlauf als mögliche Datenquelle (1) und sein möglicher Einfluss auf Empfehlungen (1).",
+            "2 Punkte: Pfeilkette mit passender Aktivität (0,5), Verlauf (0,5), Empfehlung (0,5) und korrekt begrenzter Beziehung (0,5).",
+            "2 Punkte: eine weitere korrekt benannte Information oder Rückmeldung (1) mit passender Quellenbindung (1); andere richtige Quellenbeispiele gelten. Keine Alleinursache behaupten."
+          ]
+        },
+        {
+          "id": "mbi-youtube-b",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Schutzentscheidung für eine erfundene Situation (6 Hauptpunkte): Wähle aus A oder B eine Möglichkeit, damit die einmalige Schulprojektrecherche nicht über genau diesen Verlauf künftige Empfehlungen beeinflusst. Erkläre mit Quellenbezug die beschriebene Wirkung. Nenne eine Grenze: Was lässt sich daraus über andere Daten oder alle künftigen Vorschläge nicht sicher behaupten? Nichts an einem echten Konto ausführen.",
+          "sample": "Die Person könnte den Wiedergabeverlauf vor der Recherche ausschalten. Laut YouTube-Hilfe erscheinen währenddessen angeschaute Videos nicht im Verlauf. Alternativ kann sie passende Verlaufseinträge danach löschen; künftige Empfehlungen sollen dann nicht auf diesen Einträgen beruhen. Daraus folgt weder, dass alle anderen Kontodaten gelöscht sind, noch dass sämtliche künftigen Vorschläge verschwinden.",
+          "criteria": [
+            "2 Punkte für eine eindeutige, in A oder B genannte Möglichkeit.",
+            "2 Punkte für die dazu passende, mit Anbieterhilfe belegte Wirkung; keine Garantie einer Gesamtlöschung.",
+            "2 Punkte für eine sachlich passende Grenze zu anderen Daten oder Vorschlägen."
+          ]
+        },
+        {
+          "id": "mbi-youtube-c",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 12,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "C · Beleg oder Schlussfolgerung? (6 Hauptpunkte): Ordne jeden Satz einer Kategorie zu und begründe knapp: direkt durch YouTube-Hilfe gestützt, allgemeiner FTC-Befund, eigene Schlussfolgerung oder nicht belegt. 1 „Gelöschte Verlaufseinträge sollen laut Hilfe keine Grundlage künftiger Empfehlungen mehr sein.“ 2 „Der FTC-Bericht beschreibt bei vielen untersuchten Unternehmen automatisierte Systeme und Datenanalysen.“ 3 „Auch andere Google-Kontoaktivität kann laut YouTube-Hilfe Empfehlungen beeinflussen.“ 4 „Während einer Verlaufspause kommen weniger angesehene Videos in genau diesen Wiedergabeverlauf.“",
+          "sample": "1 direkt durch Anbieterhilfe gestützt, aber nur bezogen auf gelöschte Einträge. 2 allgemeiner FTC-Befund über viele untersuchte Unternehmen, keine Einzelzuschreibung. 3 direkt durch Anbieterhilfe gestützt als mögliche weitere Quelle. 4 eng begrenzte eigene Folgerung: Laut Hilfe erscheinen während der Pause angesehene Videos nicht im Verlauf; über sonstige Daten folgt daraus nichts.",
+          "criteria": [
+            "Je Satz 1 Punkt für die passende Kategorie und 0,5 Punkt für eine nachvollziehbare Begründung mit richtiger Reichweite.",
+            "Kleine Formfehler nicht mehrfach abziehen; die vier Kategorien müssen hier nicht alle vorkommen."
+          ]
+        },
+        {
+          "id": "mbi-youtube-d",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer nach A–C · sechs getrennte Zusatzpunkte: Was bedeuten Dezember 2020 und September 2024 für Aussagen über heutige Funktionen? Warum gilt ein FTC-Befund über neun Dienste nicht automatisch als Beweis für jede heutige YouTube-Funktion? Formuliere eine konkrete Frage, die nach A–C noch offen ist.",
+          "sample": "Die FTC-Anordnungen gingen 2020 heraus und ihr Bericht erschien 2024; er ist kein Live-Nachweis heutiger Bedienelemente. Ein Sammelbefund über neun Dienste muss für den einzelnen Dienst und die einzelne Funktion eigens belegt werden. Offen bleibt etwa, welche weiteren Signale eine bestimmte Empfehlung heute beeinflussen.",
+          "criteria": [
+            "2 Zusatzpunkte für den Unterschied zwischen Anordnungszeit und Berichtsdatum und die fehlende Live-Gültigkeit.",
+            "2 Zusatzpunkte für die begrenzte Übertragbarkeit eines Sammelbefunds auf jeden einzelnen Dienst oder Mechanismus.",
+            "2 Zusatzpunkte für eine konkrete prüfbare offene Frage; keine unbelegte Antwort erfinden. Zusatzpunkte getrennt von 20 Hauptpunkten halten."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 8 ab 2027/28. §2.2.6/PDF-S. 27–28: Technologien und Datenwege bei der Sammlung personenbezogener Daten erläutern; Zielmarke Klasse 8. Hier nur der durch Anbieterhilfe belegte Verlauf-Empfehlungs-Teilweg.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "mbi-i6-cookie-datenweg",
       "subjectId": "mbi",
       "title": "Wie kann eine Website Besuche verbinden?",

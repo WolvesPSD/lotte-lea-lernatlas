@@ -5558,8 +5558,55 @@ window.LOTTE_CATALOG = Object.freeze({
       "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Hilfreich sind Division und Multiplikation mit Geldbeträgen. Rechne zuerst selbst; ab Klasse 7 darfst du einen Rechner freiwillig zur Kontrolle nutzen.",
-      "introduction": "Ein erfundener Papierladen verkauft gleiche Hefte zum festen Stückpreis, ohne Mengenrabatt oder Zusatzkosten. Zwei Preiszeilen sind richtig, eine wurde falsch abgeschrieben. Finde den Stückpreis und prüfe die Aussagen. Alle Preise sind erfunden.",
+      "introduction": "Ein erfundener Papierladen verkauft gleiche Hefte zum festen Stückpreis, ohne Mengenrabatt oder Zusatzkosten. Zwei Preiszeilen sind richtig, eine wurde falsch abgeschrieben. Finde den Stückpreis und prüfe die Aussagen. Nach deinen drei Hauptantworten gibt es einen freiwilligen Mini-Check mit drei eindeutigen Auswahlfragen. Er prüft nur die Auswahl, nicht deine Rechenwege. Alle Preise sind erfunden.",
       "passage": "Richtige Preisliste: 2 Hefte = 3,60 € · 5 Hefte = 9,00 € · 8 Hefte = ?\nAbgeschrieben: 6 Hefte = 11,80 €\nAngebliche Rechneranzeigen für 8 Hefte: A = 14,40 € · B = 144,00 €. Beide sind erfunden.",
+      "autoCheck": {
+        "afterMain": true,
+        "questions": [
+          {
+            "id": "ma-heftpreis-check-a",
+            "kind": "choice",
+            "prompt": "Bei unverändert 1,80 € je Heft: Was kosten 7 Hefte?",
+            "options": [
+              "12,60 €",
+              "12,80 €",
+              "126,00 €"
+            ],
+            "correct": "12,60 €",
+            "explanation": [
+              "7 · 1,80 € = 12,60 €. Die anderen Beträge passen nicht zum festen Stückpreis."
+            ]
+          },
+          {
+            "id": "ma-heftpreis-check-b",
+            "kind": "choice",
+            "prompt": "Welche Aussage passt zur abgeschriebenen 6er-Zeile?",
+            "options": [
+              "11,80 € sind 1,00 € höher als der passende 6er-Preis.",
+              "11,80 € bestätigen denselben Stückpreis wie die 2er- und 5er-Zeile.",
+              "Die 2er- und 5er-Zeile müssen beide falsch sein."
+            ],
+            "correct": "11,80 € sind 1,00 € höher als der passende 6er-Preis.",
+            "explanation": [
+              "6 · 1,80 € = 10,80 €. Die 2er- und 5er-Zeile stimmen beim Stückpreis 1,80 € überein; nur die Abschrift weicht um 1,00 € ab."
+            ]
+          },
+          {
+            "id": "ma-heftpreis-check-c",
+            "kind": "choice",
+            "prompt": "Ein neuer Zettel nennt 10 Hefte für 18,00 €. Was zeigt die Gegenprobe?",
+            "options": [
+              "Der Zettel passt zum festen Stückpreis von 1,80 €.",
+              "Der Zettel beweist einen Mengenrabatt.",
+              "Der Stückpreis steigt auf 18,00 €."
+            ],
+            "correct": "Der Zettel passt zum festen Stückpreis von 1,80 €.",
+            "explanation": [
+              "18,00 € ÷ 10 = 1,80 € je Heft. Ein Rabatt oder höherer Stückpreis folgt daraus nicht."
+            ]
+          }
+        ]
+      },
       "tasks": [
         {
           "id": "ma-heftpreis-1",

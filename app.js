@@ -95,6 +95,10 @@
   function save() {
     try { localStorage.setItem(lotteKey, JSON.stringify({ version: 1, profile: 'lotte', ...state })); }
     catch { const status = $('#storage-status'); if (status) status.textContent = 'Speichern ist in diesem Browser gerade nicht möglich.'; }
+    for (const section of document.querySelectorAll('.auto-check-card[data-topic-id]')) {
+      const topic = topicById.get(section.dataset.topicId);
+      if (topic) section.hidden = autoCheckLocked(topic);
+    }
     for (const tab of document.querySelectorAll('.topic-tab[data-topic-id]')) {
       const topic = topicById.get(tab.dataset.topicId);
       if (!topic) continue;
@@ -622,8 +626,8 @@
   function renderAutoCheck(topic) {
     const check = topic.autoCheck;
     const section = create('section', 'work-intro auto-check-card');
-    const marker = `${topic.tasks[0].id}-update-gezeigt`;
-    section.hidden = !!check.afterMain && state.answers[marker] !== 'ja';
+    section.dataset.topicId = topic.id;
+    section.hidden = autoCheckLocked(topic);
     appendText(section, 'p', 'eyebrow', 'Freiwilliger Mini-Check');
     appendText(section, 'h3', '', 'Eindeutige Antworten selbst prüfen');
     appendText(section, 'p', 'muted', 'Diese Auswahlfragen kann die App auf deinem Gerät prüfen. Das Ergebnis ist ein Übungsstand, keine Schulnote. Deine offenen Begründungen und die Kriterienpunkte beurteilt der Mini-Check nicht.');
@@ -637,6 +641,11 @@
     }, 'check-button'));
     section.append(result);
     return section;
+  }
+  function autoCheckLocked(topic) {
+    if (!topic.autoCheck?.afterMain) return false;
+    if (topic.stagedUpdate) return state.answers[`${topic.tasks[0].id}-update-gezeigt`] !== 'ja';
+    return topic.tasks.some(task => !String(state.answers[task.id] || '').trim());
   }
   function renderTask(topic, task, index, autoCheckTotal = 0) {
     const card = create('article', 'task-card'); card.dataset.taskId = task.id;
@@ -1033,6 +1042,7 @@
       const imported = JSON.parse(await file.text());
       if (imported.format !== 'lotte-lea-local-backup' || imported.version !== 1 || (imported.profile !== undefined && imported.profile !== 'lotte') || !Array.isArray(imported.selected) || !imported.answers || typeof imported.answers !== 'object' || Array.isArray(imported.answers)) throw new Error('Dateiformat, Version oder Lernbereich passt nicht.');
       const validTaskIds = new Set(availableTopics.flatMap(topic => topic.tasks.map(task => task.id)));
+      for (const topic of availableTopics) for (const question of topic.autoCheck?.questions || []) validTaskIds.add(question.id);
       const validMarkerIds = new Set();
       for (const topic of availableTopics) {
         const firstId = topic.tasks[0]?.id;

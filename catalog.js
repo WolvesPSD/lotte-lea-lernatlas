@@ -102,6 +102,66 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "mnt-volumen-masse-schulpraxis",
+      "subjectId": "mnt",
+      "title": "Wasser, Körpervolumen und Masse in der Schulübung",
+      "scope": "Freiwillige Klasse-7-Brücke auf dem belegten MNT-Ende-6-Niveau. Nur als beaufsichtigte Schulübung mit von der Lehrkraft freigegebenen Geräten und Materialien; keine amtliche MNT-Klasse-7-Zuordnung und kein Heimversuch.",
+      "levelStatus": "grade6-bridge",
+      "released": true,
+      "prerequisite": "Diese Karte bereitet eine mögliche Schulübung vor und kann sie dokumentieren. Es gibt keine amtliche Klasse-7-Zuordnung für den herangezogenen MNT-Ende-6-Abschnitt. Du brauchst zu Hause nichts zu messen. Nur eine Lehrkraft oder fachkundige Schulaufsicht wählt Geräte und Gegenstand aus, erklärt die Sicherheitsregeln und entscheidet, ob ein Schritt stattfindet. Ohne echte Durchführung bleibt die Praxis „nicht erhoben“; erfundene Messwerte gehören nicht ins Protokoll.",
+      "introduction": "Wie bestimmt man das Volumen eines geeigneten festen Körpers aus zwei Wasserständen und seine Masse mit einer Waage? Schreibe zuerst nur einen Plan. Die praktische Karte ist für eine schulisch beaufsichtigte Situation; sie ist keine Aufforderung, zu Hause mit Wasser, Glas oder unbekannten Stoffen zu experimentieren. Eine korrekte schriftliche Antwort beweist keine Messfertigkeit. Die drei Planungspunkte sind Lernfeedback, keine Schulnote; die Praxisbeobachtung bleibt getrennt.",
+      "tasks": [
+        {
+          "id": "mnt-messpraxis-plan-1",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Vorbereitungsplan (3 schriftliche Punkte): Welche zwei Wasserstände brauchst du für das Körpervolumen und wie rechnest du daraus? Wann muss der Gegenstand für die Massenmessung trocken sein? Nenne einen konkreten Grund, einen Versuchsschritt mit der Aufsicht zu stoppen oder zu klären. Trage hier keine angeblich gemessenen Werte ein.",
+          "sample": "Ich brauche den Wasserstand vor und nach dem vollständigen Eintauchen; Körpervolumen = Stand nachher minus Stand vorher, mit gleicher Einheit. Den Gegenstand wiege ich trocken vor dem Eintauchen. Bei Überlauf, Luftblasen, einem ungeeigneten Messbereich oder unsicherem Gegenstand stoppe ich und frage die Aufsicht.",
+          "criteria": [
+            "1 Punkt: beide Wasserstände und Differenz nach minus vor mit Einheit benannt.",
+            "1 Punkt: trockener Gegenstand vor dem Eintauchen für eine gültige Massenmessung.",
+            "1 Punkt: ein konkreter Anlass zum Stoppen oder Klären mit der Aufsicht, etwa Überlauf, Luftblase, unpassender Messbereich oder ungeeignetes Material. Nur Planung werten, keine praktische Messleistung ableiten."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Freiwillige Praxis in der Schule: tatsächlich messen",
+        "childNote": "Nur mit schulischer Aufsicht und freigegebenen Geräten. Die Aufsicht nennt Messbereich, Strichabstand, Waagenbereich und einen geeigneten Gegenstand. Bei unklarem Gerät, Überlauf, Luftblasen oder Bruchgefahr unterbrichst du den Schritt. Wenn keine Schulübung stattfindet, schreibe „Praxis nicht durchgeführt“; lies keine erfundenen Zahlen als Messwerte vor.",
+        "childSteps": [
+          "Vorher: Vermutung zum Körpervolumen und zur Masse notieren. Mit der Aufsicht Messzylinder, Messbereich, Strichabstand, Waage und den wasserfesten, sinkenden Gegenstand prüfen; Unklares zuerst klären.",
+          "Den trockenen Gegenstand vor dem Eintauchen auf der freigegebenen Waage wiegen. Null/Tara nach Geräteanleitung prüfen, stabile Anzeige mit Einheit notieren. Masse: ______ g; Gerät/Anzeige-Schritt: ______.",
+          "Das von der Lehrkraft genannte Zielvolumen in einem eben stehenden Messzylinder abmessen. Wasseroberfläche auf Augenhöhe lesen. Ziel: ______ mL; tatsächlich abgelesen: ______ mL.",
+          "Wasserstand vor dem Eintauchen erneut notieren: ______ mL. Nur den freigegebenen Gegenstand vorsichtig vollständig eintauchen. Ohne Überlauf oder störende Luftblase den Stand danach notieren: ______ mL. Sonst Grund notieren und mit der Aufsicht klären.",
+          "Nur bei gültigen Ablesungen rechnen: Körpervolumen = Stand danach − Stand davor = ______ mL − ______ mL = ______ mL. Wenn möglich und freigegeben, eine zweite Differenzmessung mit neuen Ständen ______/______ mL durchführen.",
+          "Vermutung und gültigen Messwert vergleichen. Eine mögliche Ablese- oder Eintauchgrenze nennen. Aus Masse und Volumen allein keine sichere Stoffart behaupten. Bei ausgefallenem Schritt „nicht durchgeführt“ statt einer Zahl notieren."
+        ],
+        "childWritingLines": 9,
+        "observationMax": 20,
+        "observationLabel": "tatsächlich beobachtete Schulübung",
+        "observationKind": "school-measurement",
+        "adultNote": "Nur eine fachkundige schulische Aufsicht entscheidet über Durchführung und Material. Kein Heimversuch. Ohne tatsächliche Beobachtung „nicht erhoben“ statt 0/20; Planungsaufgabe A und Praxispunkte getrennt halten. Wasser-Messbereich, Strichabstand, Waagenbereich, Anzeigeschritt und Gegenstand vorab intern festhalten. Keine persönlichen Daten oder Messprotokolle veröffentlichen. Ein fachlich begründeter Abbruch ist nicht automatisch eine gültige Messung. Überlauf bleibt eine Lehrerdemonstration und ist hier unbewertet.",
+        "adultCriteria": [
+          "Vorbereitung (0–4): Geräte/Messbereich mit Aufsicht passend geprüft; trockenen, wasserfesten und geeigneten Gegenstand bestätigt; Zylinder eben und ohne Überlauf geplant; Vermutung vor Messung von Messwert unterschieden. Je ein beobachteter Teilpunkt.",
+          "Flüssigkeit abmessen, KP1 (0–4): Zielvolumen selbst herstellt; Meniskus auf Augenhöhe liest; tatsächlichen Wert mit Einheit und Strichabstand notiert; Abweichung zum Ziel ehrlich notiert oder deren Fehlen begründet. Je ein beobachteter Teilpunkt.",
+          "Differenzmessung, KP2 (0–5): Startstand selbst liest; Gegenstand vollständig und ohne Überlauf eintaucht; Luftblasen oder ungültige Bedingungen prüft und nötigenfalls stoppt; Endstand selbst liest; gültige Differenz mit Einheiten bildet. Je ein Teilpunkt. Ohne gültigen Abschluss höchstens 3/5 und Status „teilweise“; nach gültiger Wiederholung neu bewerten.",
+          "Masse bestimmen, KP3 (0–3): Wägebereich und Null/Tara prüft; trockenen Gegenstand schonend auflegt und stabile Anzeige abwartet; gültige Masse mit Einheit protokolliert. Je ein Teilpunkt. Bei Abbruch ohne Messwert höchstens 2/3 und Status „teilweise“.",
+          "Auswertung (0–4): Vermutung von Messwert trennt; Wiederholung oder konkrete Prüfung begründet; plausible Ablese-/Eintauchgrenze ohne unbelegten Fehler nennt; keine sichere Stoffidentität aus Masse/Volumen und keine Praxisbehauptung aus Papierantwort ableitet. Je ein beobachteter Teilpunkt."
+        ],
+        "adultGuide": [
+          "KP1, KP2 und KP3 zusätzlich je als „beobachtet“, „teilweise“ oder „nicht erhoben“ kennzeichnen. Wenn ein Teil mangels Gelegenheit nicht beobachtbar war, keine vergleichbare 20-Punkte-Summe bilden. Keine Schulnote aus dieser Hilfsrubrik ableiten."
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2026/27: Klasse 5; 2027/28: Klasse 6",
+        "gradeBand": "MNT-Ende-6, 7-Brücke",
+        "competencyRef": "MNT-Erprobungsfassung 2026, §2.2.3, PDF-S. 17/Drucks. 12: Klassenstufe 6; Flüssigkeitsvolumen mit Messzylinder, Festkörpervolumen durch Wasserverdrängung und Masse mit geeigneter Waage bestimmen. Überlauf als Lehrerdemonstration; keine amtliche Klasse-7-Zuordnung.",
+        "checkedAt": "2026-10-24"
+      }
+    },
+    {
       "id": "mnt-skelett-knochenformen",
       "subjectId": "mnt",
       "title": "Sieben Skelettbereiche im Kartenmodell",

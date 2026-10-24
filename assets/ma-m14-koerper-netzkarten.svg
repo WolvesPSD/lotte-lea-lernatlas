@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790" role="img" aria-labelledby="title desc">
+  <title id="title">Karten zu Körperdarstellungen und Netzen</title>
+  <desc id="desc">Fünf schematische Körperbilder A bis E und drei Netze N1 bis N3, ohne Körpernamen.</desc>
+  <style>
+    text{font-family:Arial,sans-serif;fill:#17212b}.head{font-size:24px;font-weight:bold}.label{font-size:22px;font-weight:bold}.small{font-size:16px}.card{fill:#fff;stroke:#586574;stroke-width:2}.shape{fill:none;stroke:#17212b;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.hidden{stroke-dasharray:8 7}
+  </style>
+  <rect width="1200" height="790" fill="#fff"/>
+  <text x="40" y="38" class="head">Darstellungskarten · Skizzen, nicht maßstäblich</text>
+  <text x="40" y="72" class="small">Körperbilder A–E</text>
+  <!-- Body cards -->
+  <g>
+    <rect class="card" x="35" y="88" width="215" height="250" rx="10"/><text class="label" x="55" y="120">A</text>
+    <g class="shape">
+      <path d="M70 250 L110 185 L150 250 Z"/>
+      <path d="M155 220 L195 155 L235 220 Z"/>
+      <path d="M110 185 L195 155 M150 250 L235 220"/>
+      <path class="hidden" d="M70 250 L155 220"/>
+    </g>
+    <rect class="card" x="270" y="88" width="215" height="250" rx="10"/><text class="label" x="290" y="120">B</text>
+    <g class="shape">
+      <path d="M330 238 L375 211 L420 238 L375 266 Z"/>
+      <path d="M375 151 L330 238 M375 151 L375 266 M375 151 L420 238"/>
+      <path class="hidden" d="M375 151 L375 211"/>
+    </g>
+    <rect class="card" x="505" y="88" width="215" height="250" rx="10"/><text class="label" x="525" y="120">C</text>
+    <g class="shape">
+      <path d="M555 178 C555 157 615 157 615 178 M555 178 L555 258 M615 178 L615 258"/>
+      <path d="M555 258 C555 279 615 279 615 258"/>
+      <path class="hidden" d="M555 258 C555 237 615 237 615 258"/>
+      <path d="M555 178 C555 199 615 199 615 178"/>
+    </g>
+    <rect class="card" x="740" y="88" width="215" height="250" rx="10"/><text class="label" x="760" y="120">D</text>
+    <g class="shape">
+      <path d="M845 155 L795 250 M845 155 L895 250"/>
+      <path d="M795 250 C795 228 895 228 895 250"/>
+      <path class="hidden" d="M795 250 C795 272 895 272 895 250"/>
+    </g>
+    <rect class="card" x="975" y="88" width="190" height="250" rx="10"/><text class="label" x="995" y="120">E</text>
+    <g class="shape">
+      <circle cx="1070" cy="218" r="58"/>
+      <path d="M1012 218 C1012 189 1128 189 1128 218"/>
+      <path class="hidden" d="M1012 218 C1012 247 1128 247 1128 218"/>
+    </g>
+  </g>
+  <text x="40" y="388" class="small">Netzkarten N1–N3</text>
+  <!-- Net cards -->
+  <g>
+    <rect class="card" x="35" y="405" width="355" height="330" rx="10"/><text class="label" x="55" y="438">N1</text>
+    <g class="shape">
+      <!-- triangular prism: three rectangles in a strip (widths 50,70,50), two matching triangles on the 70-wide face -->
+      <path d="M82 540 H132 V650 H82 Z M132 540 H202 V650 H132 Z M202 540 H252 V650 H202 Z"/>
+      <path d="M132 540 L167 504 L202 540 M132 650 L167 686 L202 650"/>
+    </g>
+    <rect class="card" x="422" y="405" width="355" height="330" rx="10"/><text class="label" x="442" y="438">N2</text>
+    <g class="shape">
+      <path d="M555 560 H625 V630 H555 Z M555 560 L590 500 L625 560 M625 560 L685 595 L625 630 M625 630 L590 690 L555 630 M555 630 L495 595 L555 560"/>
+    </g>
+    <rect class="card" x="809" y="405" width="356" height="330" rx="10"/><text class="label" x="829" y="438">N3</text>
+    <g class="shape">
+      <path d="M880 565 H1100 V635 H880 Z"/>
+      <circle cx="990" cy="530" r="35"/><circle cx="990" cy="670" r="35"/>
+    </g>
+  </g>
+</svg>

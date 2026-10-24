@@ -102,6 +102,91 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "ma-koerper-netzkarten",
+      "subjectId": "ma",
+      "title": "Welche Körper passen zu den Netzkarten?",
+      "scope": "Freiwilliger Ausblick auf die Ende-Klasse-8-Ziele M14 und M7. Fünf schematische Körperdarstellungen und drei vorgegebene Netze werden begründet zugeordnet; Lottes aktuelle Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Hilfreich sind Dreiecke, Vierecke, Kreisflächen und die Vorstellung, welche Flächen an einer Faltkante zusammentreffen. Die Skizzen sind nicht massstäblich und nicht zum Ausschneiden gedacht. Du musst hier weder Körper berechnen noch ein Modell bauen; offene Antworten bewertet die App nicht automatisch.",
+      "introduction": "Die fünf oberen Karten A–E zeigen je einen anderen Körper. Die drei unteren Karten N1–N3 zeigen Netze nur für drei dieser Körper. Ordne zuerst Namen zu, begründe dann anhand sichtbarer Merkmale und prüfe zum Schluss die Netzflächen. Nach A–C wartet eine getrennte Zusatzfrage. 20 Hauptpunkte und 6 getrennte Zusatzpunkte dienen als Lernfeedback, nicht als Schulnote.",
+      "diagram": {
+        "path": "assets/ma-m14-koerper-netzkarten.svg",
+        "alt": "Schematische Karten: A hat zwei Dreiecksenden und verbindende Kanten; B hat eine viereckige Grundfläche und Kanten zu einer Spitze; C zwei kreisförmige Randflächen mit parallelen Mantelkanten; D eine kreisförmige Grundfläche und eine Spitze; E einen runden Umriss mit gekrümmter Mittellinie. N1 zeigt drei Rechtecke und zwei Dreiecke, N2 ein Quadrat mit vier Dreiecken, N3 ein Rechteck mit zwei Kreisen.",
+        "caption": "Eigene schematische Körper- und Netzkarten, nicht massstäblich. Gestrichelte Linien stehen für verdeckte Kanten. Nur N1–N3 sind als Netze gegeben; miss keine Länge an den Bildern."
+      },
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–C festhalten und Kreisumriss-Transfer zeigen",
+        "text": "FREIWILLIGER TRANSFER D NACH A–C · Ein neuer Bildausschnitt zeigt nur einen Kreisrand als Umriss. Die sechs Zusatzpunkte gehören nicht zu den 20 Hauptpunkten."
+      },
+      "tasks": [
+        {
+          "id": "ma-netzkarten-a",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Körpernamen zuordnen (5 Hauptpunkte): Ordne den Körperkarten A–E je genau einen Namen zu. Verwende jeden Namen einmal: Dreiecksprisma, quadratische Pyramide, Zylinder, Kegel, Kugel. Schreibe die fünf Zuordnungen mit Kartenbuchstaben auf.",
+          "sample": "A Dreiecksprisma, B quadratische Pyramide, C Zylinder, D Kegel, E Kugel.",
+          "criteria": [
+            "Je 1 Punkt für die richtige Zuordnung der fünf Karten; zusammen 5."
+          ]
+        },
+        {
+          "id": "ma-netzkarten-b",
+          "kind": "reflection",
+          "points": 10,
+          "writingLines": 15,
+          "inputRows": 13,
+          "adultOnlySolution": true,
+          "prompt": "B · Merkmale statt Raten (10 Hauptpunkte): Schreibe zu jeder Karte A–E zwei verschiedene sichtbare oder geometrisch aus der Skizze folgende Merkmale, die deine Zuordnung stützen. Verwende möglichst genaue Wörter wie Dreieck, Kreisfläche, Mantelfläche, Spitze, Grundfläche oder gekrümmte Fläche. Ein Körpername allein ist keine Begründung.",
+          "sample": "A: zwei kongruente parallele Dreiecksflächen und drei verbindende Seitenkanten. B: viereckige Grundfläche und gemeinsame Spitze der Seitenflächen. C: zwei parallele gleich grosse Kreisflächen und gekrümmter Mantel. D: eine Kreisgrundfläche und eine Spitze. E: durchgehend gekrümmte Oberfläche ohne ebene Fläche oder Ecke. Andere zutreffende unterscheidende Beschreibungen gelten.",
+          "criteria": [
+            "Je Karte 1 Punkt für ein passendes Merkmal und 1 für ein zweites verschiedenes, unterscheidendes Merkmal; insgesamt 10. Blosse Namenswiederholung gibt keinen Merkmalpunkt."
+          ]
+        },
+        {
+          "id": "ma-netzkarten-c",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C · Drei Netze (5 Hauptpunkte): Ordne N1, N2 und N3 je einem Körper aus A–E zu und nenne jeweils den Körpernamen. Begründe eine Zuordnung genauer: Welche Flächen müssten beim Falten an welchen Kanten zusammentreffen? Die Bilder sind Zuordnungsbilder und nicht massstäblich. Dass für zwei Körper kein Netz abgebildet ist, bedeutet nicht, dass beide grundsätzlich kein Netz haben.",
+          "sample": "N1 → A/Dreiecksprisma: drei Rechtecke bilden Mantelflächen, zwei Dreiecke die Enden. N2 → B/quadratische Pyramide: an jeder Seite des Grundquadrats sitzt ein Dreieck. N3 → C/Zylinder: Rechteck als Mantel und zwei Kreise als Endflächen. Beispielbegründung N2: Jede der vier Dreiecksgrundseiten trifft beim Falten genau eine Seite des Grundquadrats.",
+          "criteria": [
+            "Je 1 Punkt für N1→A, N2→B und N3→C samt richtigem Namen; zusammen 3.",
+            "1 Punkt für passende Flächen oder Flächenzahl der gewählten Netzkarte.",
+            "1 Punkt für die verständliche Erklärung, welche Flächen an einer Kante zusammentreffen."
+          ]
+        },
+        {
+          "id": "ma-netzkarten-d",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "D · Freiwilliger Kreisumriss-Transfer (6 Zusatzpunkte): Ein Bildausschnitt zeigt nur einen Kreisrand als Umriss. Jemand behauptet: „Dann ist es sicher eine Kugel.“ Erkläre, warum der einzelne Umriss noch nicht sicher zwischen Kugel, Zylinder und Kegel unterscheidet. Nenne eine zusätzliche Ansicht oder ein Merkmal und erkläre, was daran sichtbar wäre. Werte den neuen Ausschnitt getrennt von A–C aus.",
+          "sample": "Ein Kreisumriss allein verrät nicht, welche Fläche oder welcher Körper dahintersteht. Auch ein Zylinder oder Kegel kann entlang seiner Achse als Kreis erscheinen. Eine Seitenansicht könnte beim Zylinder parallele Ränder, beim Kegel einen spitz zulaufenden Umriss und bei der Kugel eine durchgehend gerundete Kontur zeigen. Mehrere passende Zusatzansichten sind möglich.",
+          "criteria": [
+            "3 Zusatzpunkte: sichere Kugelbehauptung zurückgewiesen und Zylinder sowie Kegel als mögliche Alternativen benannt.",
+            "3 Zusatzpunkte: geeignete zusätzliche Ansicht oder Information, zutreffende Unterscheidung und verständliche Erklärung. Zusatzpunkte getrennt ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 8 ab 2027/28. §2.2.14, PDF-S. 32–33: Pyramide, Zylinder, Kegel und Kugel in verschiedenen Darstellungen erkennen; Netze für Pyramide und Zylinder. Dreiecksprisma unter §2.2.7, PDF-S. 28–29, ebenfalls Zielstand Ende Klasse 8.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "de-wortarten-form-funktion",
       "subjectId": "de",
       "title": "Ein Wort verändert sich – oder nur seine Stelle?",

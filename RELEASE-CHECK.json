@@ -1,15 +1,16 @@
 {
-  "builtAt": "2026-10-24T22:11:04.903Z",
-  "releaseVersion": "2026.10.25-dewortarten.1",
+  "builtAt": "2026-10-24T22:24:49.215Z",
+  "releaseVersion": "2026.10.25-m14netzkarten.1",
   "newTopicIds": [
-    "de-wortarten-form-funktion"
+    "ma-koerper-netzkarten"
   ],
   "changeLog": [
-    "Deutsch: Wortarten, flektierbare Formen und Satzfunktion an einem erfundenen Kurztext begründet unterscheiden.",
-    "Freiwilliger Klasse-7-Einstieg in ein Ende-8-Ziel; Variante nach vier Hauptantworten, Kinderdruck ohne Lösungen."
+    "Mathematik: fünf schematische Körperbilder und drei Netze begründet zuordnen.",
+    "Freiwilliger Ende-8-Ausblick; Kreisumriss-Transfer nach drei Hauptantworten, Kinderdruck ohne Lösungen."
   ],
-  "rollbackCommit": "c706609eccbe2842c90009d57ab988096a2d8670",
+  "rollbackCommit": "d5b034aaf2c2f4a4debb2d2d0e451943c9e46abb",
   "releasedTopics": [
+    "ma-koerper-netzkarten",
     "de-wortarten-form-funktion",
     "mnt-volumen-masse-schulpraxis",
     "mnt-skelett-knochenformen",
@@ -156,13 +157,13 @@
     "mbi-i1-datumswerte-sortieren"
   ],
   "subjects": [
+    "ma",
     "de",
     "mnt",
     "ph",
     "ch",
     "bi",
     "mbi",
-    "ma",
     "en",
     "fr",
     "et",
@@ -172,6 +173,7 @@
     "sp"
   ],
   "grade8OutlookTopics": [
+    "ma-koerper-netzkarten",
     "ma-fermat-pascal-quellenwerkstatt",
     "ma-koerper-modell",
     "ma-medienwahrscheinlichkeit",

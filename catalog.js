@@ -7129,6 +7129,106 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "en-m-umschreiben-kontext",
+      "subjectId": "en",
+      "title": "What is a return token?",
+      "scope": "Freiwilliger, gestützter Klasse-7-Vorgriff auf eine enge schriftliche Sprachmittlungsmethode. Das Thüringer Englischziel zum Umschreiben unbekannter Wörter steht unter Klasse 8 ab 2027/28; Lottes Unterrichtsfolge und individueller Lernstand sind unbekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Der Gartenweg, Maria und der englische Hinweis sind erfunden. „Return token“ wird absichtlich nicht erklärt: erschliesse seine Funktion aus dem Text, ohne eine genaue Form zu erfinden. Kein Wörterbuch ist für diesen Versuch nötig. Antworte auf Deutsch; du musst keine echte Nachricht versenden und keine privaten Erlebnisse angeben. Freie Antworten prüft ein Mensch.",
+      "introduction": "Maria versteht Deutsch und fragt dich: „Was ist ein return token? Muss ich selbst eines mitbringen? Kann ich es behalten?“ Der englische Hinweis erklärt dieses Wort nicht direkt. Lies zuerst die Textspuren und formuliere eine vorsichtige, verständliche Antwort. A–D ergeben 20 Kriterienpunkte; eine spätere Änderung hat sechs getrennte Zusatzpunkte. Das ist Lernfeedback, keine Schulnote. Die App bewertet deine freie Antwort nicht automatisch.",
+      "passage": "FIKTIVER ENGLISCHER HINWEIS · The garden trail: return tokens\nBefore each pair goes out, the guide gives them a return token. Keep it with you on the short trail. When you come back, give the token to the guide. The guide counts the tokens to check that every pair has returned. The token is not a ticket or a reward, and you do not take it home.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und Samstag-Änderung zeigen",
+        "text": "FREIWILLIGE SAMSTAG-ÄNDERUNG NACH A–D · Alles andere aus dem ersten fiktiven Hinweis bleibt gleich: “Saturday update: Each return token now shows a different team number. The guide can tell which pair has returned by the number.” Maria fragt erneut: „Kann die Begleitperson erkennen, welches Paar schon zurück ist?“"
+      },
+      "tasks": [
+        {
+          "id": "en-m-token-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Hinweise sammeln (4 Hauptpunkte): Schreibe zwei verschiedene kurze Stellen aus dem englischen Text ab oder gib sie sinngemäss wieder. Erkläre zu jeder auf Deutsch, was sie dir über „return token“ oder Marias Fragen verrät.",
+          "sample": "“The guide gives them a return token” zeigt, dass die Begleitperson es ausgibt und Maria nichts selbst mitbringt. “When you come back, give the token to the guide” zeigt, dass es nach dem Weg zurückgegeben wird. Auch Behalten während des Wegs oder Zählen zur Rückkehrkontrolle sind passende unterschiedliche Spuren.",
+          "criteria": [
+            "Je Hinweis 1 Punkt für eine passende Textstelle oder sinngemässe Angabe und 1 Punkt für die Erklärung der gestützten Funktion/Frage.",
+            "Dieselbe Textinformation nicht doppelt werten; andere richtige kurze Hinweise gelten."
+          ]
+        },
+        {
+          "id": "en-m-token-b",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Sicher wissen und offenlassen (4 Hauptpunkte): Notiere zwei verschiedene Dinge, die der englische Text sicher sagt. Nenne ausserdem eine Einzelheit, die er nicht verrät, etwa die genaue Form des Gegenstands. Behaupte keine unbekannte Einzelheit als Tatsache.",
+          "sample": "Sicher: Die Begleitperson gibt es vor dem Weg aus; jedes Paar gibt es nach dem Weg zurück. Offen bleibt die genaue Form oder das Material. Weder eine bestimmte Münze noch eine Karte ist belegt.",
+          "criteria": [
+            "Je 1 Punkt für zwei verschiedene textgestützte Fakten (höchstens 2).",
+            "1 Punkt für eine korrekt offene Einzelheit, zum Beispiel Form, Material oder Grösse.",
+            "1 Punkt für gewahrte Unsicherheitsgrenze ohne erfundene konkrete Form oder Folge."
+          ]
+        },
+        {
+          "id": "en-m-token-c",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 11,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "C · Maria antworten (8 Hauptpunkte): Schreibe Maria eine kurze freundliche Antwort auf Deutsch. Erkläre in eigenen Worten, wozu „return token“ hier gebraucht wird, was sie damit tun soll und beantworte alle drei Fragen. Eine vorsichtige Umschreibung ist besser als eine erfundene genaue Gegenstandsbezeichnung.",
+          "sample": "Du musst nichts mitbringen. Die Begleitperson gibt jedem Paar vor dem kurzen Weg ein Zeichen zur Rückkehrkontrolle mit. Behaltet es während des Wegs und gebt es am Ende wieder ab. Die Begleitperson zählt die zurückgegebenen Zeichen, damit sie prüfen kann, ob alle Paare zurück sind. Die genaue Form steht nicht im Text.",
+          "criteria": [
+            "2 Punkte für die verständliche Funktion in eigenen deutschen Worten, nicht bloss Abschreiben von „Token“.",
+            "Je 1 Punkt für nichts selbst mitbringen, Ausgabe an jedes Paar vor dem Weg, Behalten während des Wegs, Rückgabe am Ende und Zählen zur Rückkehrkontrolle.",
+            "1 Punkt für adressierte verständliche Antwort ohne erfundene Form oder falsche Mitbring-/Bezahlbehauptung. Kleine Formfehler nicht doppelt abziehen."
+          ]
+        },
+        {
+          "id": "en-m-token-d",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Zwei Aussagen prüfen (4 Hauptpunkte): Eine Person sagt „Du musst selbst eine Münze mitbringen und darfst sie behalten.“ Eine andere sagt „Die Begleitperson gibt jeder Zweiergruppe etwas mit und bekommt es nach dem Weg zurück.“ Welche Aussage passt besser zum Text? Begründe mit zwei Textinformationen und erkläre, was an der anderen Aussage falsch oder nicht belegt ist.",
+          "sample": "Die zweite Aussage ist besser gestützt. Die Begleitperson gibt es vor dem Weg aus, also muss Maria nichts selbst mitbringen. Nach dem Weg wird es zurückgegeben und nicht behalten. Ob es eine Münze ist, sagt der Text nicht; eine Münze ist möglich, aber nicht belegt.",
+          "criteria": [
+            "1 Punkt für Aussage 2 als besser gestützt.",
+            "1 Punkt für Ausgabe durch Begleitperson statt eigenes Mitbringen.",
+            "1 Punkt für Rückgabe statt Behalten.",
+            "1 Punkt für genaue Münzform als nicht belegt, aber nicht ausgeschlossen."
+          ]
+        },
+        {
+          "id": "en-m-token-e",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Samstag-Änderung nach A–D · sechs getrennte Zusatzpunkte: Maria fragt, ob die Begleitperson jetzt erkennen kann, welches Paar schon zurück ist. Antworte ihr kurz auf Deutsch. Sage, für welchen Tag die neue Information gilt, was die Nummer ergänzt und was aus dem ersten Hinweis weiterhin gilt. Erfinde keine zusätzliche Regel.",
+          "sample": "Am Samstag zeigt jedes Zeichen zusätzlich eine andere Teamnummer. So kann die Begleitperson erkennen, welches Paar zurück ist. Jedes Paar bekommt es weiterhin vor dem Weg und gibt es danach zurück; die Begleitperson zählt die Rückgaben weiter. Du musst nichts selbst mitbringen oder behalten.",
+          "criteria": [
+            "Je 1 Zusatzpunkt für Samstag als zeitliche Grenze, unterschiedliche Teamnummern, Erkennbarkeit des zurückgekehrten Paares, fortbestehende Rückgabe nach dem Weg, verständliche deutsche Antwort an Maria und keine erfundene neue Regel.",
+            "Zusatzpunkte getrennt von den 20 Hauptpunkten ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.5/PDF-S. 30–31: unbekannte Wörter umschreiben und sinngemäss adressatengerecht vermitteln als Ziel unter Klassenstufe 8.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "en-paper-workshop-mediation",
       "subjectId": "en",
       "title": "Explain the paper workshop in German",

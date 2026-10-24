@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-24T23:38:43.680Z",
-  "releaseVersion": "2026.10.25-gm17sektoren.1",
+  "builtAt": "2026-10-24T23:48:46.106Z",
+  "releaseVersion": "2026.10.25-enmreturntoken.1",
   "newTopicIds": [
-    "go-thueringen-wirtschaftssektoren"
+    "en-m-umschreiben-kontext"
   ],
   "changeLog": [
-    "Geografie: Thüringer Arbeitsortdaten aus der TLS-Pressemitteilung 242/2026 im Drei-Sektoren-Modell auswerten.",
-    "Freiwilliger Ende-8-Methodenfall mit eigenen gerundeten Gruppensummen, Jahresvergleich erst nach A–D und offener Fachgeltung."
+    "Englisch: ein unbekanntes Wort aus dem fiktiven Gartenweg-Hinweis erschliessen und Maria vorsichtig auf Deutsch erklären.",
+    "Freiwilliger Ende-8-Methodenfall ohne Glossar, mit Samstag-Änderung erst nach A–D und getrenntem Erwachsenenmuster."
   ],
-  "rollbackCommit": "0c1b7cf2fba4ac7b58397723d66e72ad6136de76",
+  "rollbackCommit": "7205cb7b2ac040c07d2da67c7ae3357ae31618d8",
   "releasedTopics": [
     "ma-koerper-netzkarten",
     "de-wortarten-form-funktion",
@@ -86,6 +86,7 @@
     "en-friday-activity-email",
     "en-garden-poster-dialogue",
     "de-technikprotokoll-korrigieren",
+    "en-m-umschreiben-kontext",
     "en-paper-workshop-mediation",
     "en-form-reading-lab",
     "en-alex-games-mediation",
@@ -205,6 +206,7 @@
     "ma-druckzeit-zuordnungen",
     "ma-tank-zuordnung",
     "ma-prozent-fixture",
+    "en-m-umschreiben-kontext",
     "en-form-reading-lab",
     "fr-camille-geschichte-fortsetzen",
     "ma-kuehlkasten-rationale-zahlen",

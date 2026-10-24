@@ -1,12 +1,14 @@
 {
-  "builtAt": "2026-10-24T11:28:20.663Z",
-  "releaseVersion": "2026.10.24-mbii2zusammen.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "MBI: die vorhandene Lesepause-Medienwerkstatt um einen freiwilligen Zweierweg mit gemeinsamem Plan, zwei Fassungen und Reflexion ergänzen.",
-    "Kinderblatt und getrennte Erwachsenenbeobachtung unterscheiden echte Zusammenarbeit von Einzelarbeit; Downloadort vor lokaler Speicherung prüfen."
+  "builtAt": "2026-10-24T11:41:00.703Z",
+  "releaseVersion": "2026.10.24-mbii3transfer.1",
+  "newTopicIds": [
+    "mbi-i3-datenschutz-transfer"
   ],
-  "rollbackCommit": "1d26b7c1e3b4a4eb5bfe019a8350941710623d06",
+  "changeLog": [
+    "MBI: eine Datenschutzregel in zwei erfundenen Diensten auf den jeweiligen Zweck übertragen und die Grenzen einer Gruppennachricht prüfen.",
+    "Eine öffentliche Zusatzkarte erst nach A–D freigeben; Kinderantworten, Erwachsene und Rechtsgrenze getrennt halten."
+  ],
+  "rollbackCommit": "6eb443c2d2f3cf6b3cd2bd7d0c1cd2755062bad5",
   "releasedTopics": [
     "mnt-volumen-masse-schulpraxis",
     "mnt-skelett-knochenformen",
@@ -130,6 +132,7 @@
     "go-drei-gesteinswege",
     "mbi-i6-cookie-datenweg",
     "mbi-i3-finanzierungsmodelle",
+    "mbi-i3-datenschutz-transfer",
     "ge-patcham-quellenpruefung",
     "ge-toledo-uebersetzungsquellen",
     "mnt-bionik-leichtbau-modell",
@@ -200,6 +203,7 @@
     "ma-schraegbild-darstellungen",
     "mbi-i6-cookie-datenweg",
     "mbi-i3-finanzierungsmodelle",
+    "mbi-i3-datenschutz-transfer",
     "en-picture-description-garden",
     "en-survey-questionnaire-table",
     "en-living-things-comparison-foxes",

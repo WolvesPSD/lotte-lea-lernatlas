@@ -11500,6 +11500,129 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-i3-datenschutz-transfer",
+      "subjectId": "mbi",
+      "title": "Dieselbe Datenregel in einem anderen Dienst",
+      "scope": "Freiwilliger I3-SS3-Teilfall im gültigen MBI-Lernzeitraum 7/8; Zielmarke Ende Klasse 8. Der schriftliche Transfer auf zwei erfundene Anwendungen ist keine echte Plattformprüfung oder bestätigte Klasse-7-Unterrichtseinheit.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Lies nur die erfundenen Karten. Benutze kein eigenes Konto, Profil, Bild, Adressbuch oder Standort und erzähle nichts über eigene Apps. Du wählst Einstellungen auf Papier; nichts an einem echten Gerät ändern oder veröffentlichen. Eine Gruppennachricht ist nicht automatisch geheim.",
+      "introduction": "Eine Regel für sparsame Daten soll auf zwei unterschiedliche erfundene Dienste passen. Im ersten Fall geht es um Farbtipps für eine Fantasieinsel, im zweiten um eine Papierwerkstatt im Gruppenchat. Entscheide anhand des jeweiligen Zwecks, welche Angaben nötig sind. A–D ergeben 20 Hauptpunkte; die spätere Änderung hat sechs getrennte Zusatzpunkte. Freie Antworten werden nicht automatisch bewertet. Keine echte App bedienen.",
+      "passage": "ZWEI ERFUNDENE FÄLLE · Die Dienste, Personen und Veranstaltungen existieren nicht.\n\nSIMUNET · Eine erfundene Person zeigt in der Hobbygruppe „Sternkarten“ eine selbst gezeichnete Fantasieinsel und bittet um Farbtipps. Der fiktive Dienst braucht dafür einen Anzeigenamen und den Beitrag. Gruppenmitglieder können Beiträge sehen und weitergeben. Gesichtsfoto, genauer eigener Standort und Adressbuch sind freiwillig. Ein Fantasiename und die Gruppenauswahl verringern Angaben beziehungsweise Reichweite, machen den Beitrag aber nicht unsichtbar.\n\nKIESELKREIS · Acht bereits eingetragene Mitglieder einer erfundenen Natur-AG wollen eine Papierwerkstatt planen. Alle acht sollen erfahren: Dienstag, 15:30 Uhr, am erfundenen „Nebelgarten-Pavillon“; mitbringen: farbiges Altpapier. Mitglieder können Nachrichten kopieren oder weitererzählen. Die Nachricht muss die Gruppe erreichen.\n\nERFUNDENE EINSTELLUNGEN · Anzeigename: voller Name oder „Mohnfalter“. Profilbild: Gesichtsfoto oder kein Bild. Kontakte: Adressbuch abgleichen oder nicht. Standort: eigenen Live-Standort teilen oder auslassen. Empfängerkreis: nur die acht Mitglieder oder alle Nutzenden. Nachricht: Termin, erfundenen Treffpunkt und Material nennen oder weglassen.",
+      "sourceCards": [
+        {
+          "title": "1 · Thüringer Lernziel und Jahrgang",
+          "text": "Die Thüringer MBI-Erprobungsfassung 2026 nennt in §2.2.3 unter Klassenstufe 8 den Transfer von Datenschutzprinzipien auf typische Social-Media-Anwendungen. Der Plan gilt 2026/27 bereits für Klasse 7, aber die konkrete Reihenfolge der Schule ist nicht belegt. Diese Übung ist ein freiwilliger schriftlicher Teilfall.",
+          "sourceLabel": "Thüringer Schulportal · MBI Gymnasium",
+          "sourceUrl": "https://www.schulportal-thueringen.de/web/guest/lehrplaene/gymnasium",
+          "sourceNote": "Amtlicher Lehrplan, PDF-S. 2 und 25–26, lokal geprüft 24.10.2026."
+        },
+        {
+          "title": "2 · Datenminimierung als Denkregel",
+          "text": "Artikel 5 Absatz 1 Buchstabe c der EU-Datenschutz-Grundverordnung beschreibt, dass personenbezogene Daten zum Zweck passen und auf das dafür Notwendige begrenzt sein sollen. Artikel 25 behandelt datenschutzfreundliche Gestaltung und Voreinstellungen. Nutze hier die einfache Denkregel: Für einen klaren Zweck nur Angaben verwenden, die dafür nötig sind. Aus dem erfundenen Fall folgt kein Urteil über die Rechtslage einer echten App.",
+          "sourceLabel": "EUR-Lex · Verordnung (EU) 2016/679",
+          "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679",
+          "sourceNote": "Amtlicher EU-Text, Art. 5(1)(c) und 25; Quellenreichweite im Forschungsblatt dokumentiert, 24.10.2026."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "Hauptantworten festhalten und öffentliche Variante zeigen",
+        "text": "FREIWILLIGE ZUSATZKARTE NACH A–D · Eine andere erfundene Gruppe kündigt nun einen öffentlichen Papierflohmarkt im erfundenen „Nebelgarten“ an. Auch Menschen ausserhalb der Gruppe sollen Zeit und Treffpunkt erfahren. Es geht weiterhin nicht darum, den aktuellen Standort einzelner Personen zu verfolgen. Weder Adressbuch noch private Profile sind für die Mitteilung vorgegeben."
+      },
+      "tasks": [
+        {
+          "id": "mbi-i3-datenschutz-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Zweck erkennen (4 Hauptpunkte): Was sollen die acht AG-Mitglieder nach der Nachricht wissen? Nenne die drei dafür nötigen Angaben. Welche zwei angebotenen Einstellungen oder Angaben werden für genau diesen Zweck nicht gebraucht?",
+          "sample": "Die acht Mitglieder sollen die Papierwerkstatt planen können: Dienstag 15:30 Uhr, Nebelgarten-Pavillon und farbiges Altpapier. Gesichtsfoto und Adressbuchabgleich brauche ich dafür nicht; auch mein Live-Standort wäre unnötig. Der Fantasiename reicht laut Fallkarte statt eines vollen Namens.",
+          "criteria": [
+            "1 Punkt für den Planungszweck der acht Mitglieder.",
+            "1 Punkt für Termin, erfundenen Treffpunkt und farbiges Altpapier als drei nötige Angaben.",
+            "Je 1 Punkt für zwei passende unnötige Angebote wie Gesichtsfoto, Adressbuch, Live-Standort oder alle Nutzenden; Anzeigename und Nachricht nicht pauschal als unnötig werten."
+          ]
+        },
+        {
+          "id": "mbi-i3-datenschutz-b",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 11,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Auf Kieselkreis übertragen (8 Hauptpunkte): Wähle für Anzeigename, Profilbild, Kontakte, Standort und Empfängerkreis je eine der zwei Falloptionen. Schreibe die Nachricht mit den nötigen Angaben. Begründe mindestens zwei deiner fünf Einstellungswahlen jeweils mit dem Zweck der Terminplanung. Andere schlüssige Lösungen darfst du erklären.",
+          "sample": "Anzeigename Mohnfalter statt voller Name; kein Gesichtsfoto; Adressbuch nicht abgleichen; eigenen Live-Standort auslassen; Empfängerkreis acht AG-Mitglieder. Nachricht: Dienstag 15:30 Uhr am Nebelgarten-Pavillon, farbiges Altpapier mitbringen. Der Fantasiename genügt für die Nachricht, weil der volle Name den Termin nicht klärt. Das Adressbuch wird nicht gebraucht, weil die acht Personen bereits eingetragen sind. Der feste Treffpunkt ist etwas anderes als mein aktueller Live-Standort.",
+          "criteria": [
+            "Je 1 Punkt für fünf passende Einstellungswahlen: Fantasiename, kein Bild, kein Adressbuchabgleich, kein Live-Standort, nur acht Mitglieder (5).",
+            "1 Punkt für Treffzeit und Treffpunkt in der Nachricht.",
+            "1 Punkt für das Material in der Nachricht.",
+            "1 Punkt nur, wenn zwei verschiedene Einstellungswahlen jeweils sachlich mit dem Planungszweck begründet werden; „sicherer“ allein reicht nicht. Summe 5+2+1=8."
+          ]
+        },
+        {
+          "id": "mbi-i3-datenschutz-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Gemeinsamkeit und Unterschied (4 Hauptpunkte): Vergleiche SimuNet und Kieselkreis in zwei bis vier Sätzen. Welche Regel passt auf beide? Welche Information ist nur im Kieselkreis-Fall für den Zweck nötig? Nenne eine Angabe, die in beiden Fällen nicht gebraucht wird. Warum bleibt eine Nachricht an eine Gruppe nicht sicher geheim?",
+          "sample": "In beiden Fällen wähle ich nur Angaben, die zur jeweiligen Aufgabe gehören. Für Kieselkreis braucht die Gruppe zusätzlich Termin, Treffpunkt und Material. Ein eigenes Gesichtsfoto wäre in keinem Fall nötig. Auch Mitglieder einer begrenzten Gruppe können den Inhalt kopieren oder weitererzählen.",
+          "criteria": [
+            "1 Punkt für dieselbe zweckbezogene Datenregel.",
+            "1 Punkt für Termin/Veranstaltungsangaben als Unterschied zum Farbtipps-Beitrag.",
+            "1 Punkt für eine in beiden Fällen unnötige persönliche Angabe.",
+            "1 Punkt für Weitergabe durch Gruppenmitglieder als Grenze der Geheimhaltung."
+          ]
+        },
+        {
+          "id": "mbi-i3-datenschutz-d",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Quelle und Grenze (4 Hauptpunkte): Formuliere die Datenminimierungsregel aus der Quellenkarte in eigenen Worten. Nenne eine ausdrückliche Kieselkreis-Fallangabe und eine davon getrennte eigene Folgerung. Warum lässt sich mit diesem Blatt nicht beurteilen, ob eine echte App gesetzeskonform ist?",
+          "sample": "Für einen bestimmten Zweck sollen nur passende, dafür nötige persönliche Angaben verwendet werden. Fallangabe: Acht Mitglieder sind schon eingetragen und können Nachrichten weitergeben. Folgerung: Ein Fantasiename verringert die Nennung eines vollen Namens, beweist aber keine Anonymität. Die Oberfläche ist erfunden; über die tatsächliche Verarbeitung eines echten Dienstes wissen wir nichts.",
+          "criteria": [
+            "1 Punkt für den Zweckbezug der Regel.",
+            "1 Punkt für die Begrenzung auf erforderliche Angaben.",
+            "1 Punkt insgesamt: 0,5 für eine richtige Fallangabe und 0,5 für eine davon unterscheidbare Folgerung.",
+            "1 Punkt für die Grenze eines Rechtsurteils über reale Dienste."
+          ]
+        },
+        {
+          "id": "mbi-i3-datenschutz-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige öffentliche Variante nach A–D · sechs getrennte Zusatzpunkte: Plane eine Nachricht zum erfundenen öffentlichen Papierflohmarkt. Nenne Zweck und Leserschaft sowie die nötigen Veranstaltungsangaben. Entscheide zu persönlichem Live-Standort und Adressbuch und begründe beide Wahlen mit dem Zweck. Welche Grenze hat eine öffentliche Mitteilung? Nutze nur die Zusatzkarte; veröffentliche nichts.",
+          "sample": "Die Nachricht soll interessierte Menschen ausserhalb der Gruppe über den Flohmarkt informieren. Sie braucht einen konkreten Veranstaltungstermin und den festgelegten Treffpunkt. Meinen Live-Standort lasse ich weg, weil der feste Veranstaltungsort die nötige Ortsangabe ist. Das private Adressbuch brauche ich nicht, weil die Einladung öffentlich lesbar sein soll und keine privaten Kontakte benötigt. Öffentlich Lesende können die Nachricht speichern und weitergeben.",
+          "criteria": [
+            "1 Zusatzpunkt für den Mitteilungszweck.",
+            "1 Zusatzpunkt für die öffentliche Leserschaft.",
+            "1 Zusatzpunkt für nötige Veranstaltungsangaben, insbesondere Termin und festen Ort; kein erfundenes Datum als Tatsache behaupten.",
+            "1 Zusatzpunkt für das Ablehnen eines persönlichen Live-Standorts mit dem Grund, dass der festgelegte Veranstaltungsort die nötige Ortsangabe ist.",
+            "1 Zusatzpunkt für das Ablehnen eines privaten Adressbuchabgleichs mit dem Grund, dass eine öffentliche Mitteilung keine privaten Kontakte braucht.",
+            "1 Zusatzpunkt für die Grenze öffentlicher Weitergabe oder den Unterschied zwischen Veranstaltungsort und Personenstandort."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Einführung MBI für Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. §2.2.3/PDF-S. 25–26: Datenschutzprinzipien auf typische Social-Media-Anwendungen übertragen, Zielmarke Klasse 8. Hier nur ein fiktiver schriftlicher SS3-Transfer.",
+        "checkedAt": "2026-10-24"
+      }
+    },
+    {
       "id": "ge-patcham-quellenpruefung",
       "subjectId": "ge",
       "title": "Was verrät Patcham im Jahr 1086?",

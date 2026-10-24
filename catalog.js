@@ -1454,6 +1454,169 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "de-pronomen-lesewerkstatt",
+      "subjectId": "de",
+      "title": "Wer hat Karte B geschrieben?",
+      "scope": "Freiwillige, gestützte 7/8-Übung zu Interrogativ-, Indefinit- und Reflexivpronomen. Diese drei Arten stehen in der 7/8-Spalte des Deutsch-Lehrplans; eine aktuelle Unterrichtseinheit an Lottes Schule ist nicht bekannt. Der Schriftfall ist nur ein Teil der Sprachreflexion.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Lies Z1–Z6 und trenne Ablegen, Schreiben, Fragen und Behaupten. Falls dir die Pronomenarten noch unbekannt sind, versuche erst die Funktion zu erklären und nutze danach bei Bedarf eine Begriffshilfe. Notiere eine verwendete Hilfe; du brauchst keine echten Namen oder Gruppendaten.",
+      "introduction": "In einer erfundenen Lesewerkstatt fehlt auf Karte B ein Name. Prüfe bei jedem Satz, wer etwas sagt und welche Tätigkeit tatsächlich genannt wird. Die 20 Hauptpunkte sind Lernfeedback, keine Schulnote; sechs freiwillige Zusatzpunkte zählen getrennt. Schreibe zuerst deine eigenen Begründungen. Danach kannst du drei eindeutige Auswahlfragen als Übungsstand automatisch prüfen; sie bewerten die offenen Antworten nicht.",
+      "passage": "Z1 · In einer erfundenen Lesewerkstatt liegen die Plakatkarten A und B. Mira hat Karte A geschrieben. Auf Karte B steht kein Name; wer sie geschrieben hat, ist noch nicht geklärt.\nZ2 · Mira fragt: „Wer hat Karte B geschrieben?“\nZ3 · Tari sagt: „Jemand hat Karte B gestern in die Ablage gelegt. Ich habe nicht gesehen, wer sie geschrieben hat.“\nZ4 · Mira erinnert sich an ihren eigenen Entwurf zu Karte A. Sie sagt: „Ich habe nur Karte A geschrieben.“\nZ5 · Ein noch nicht freigegebener Aushangentwurf behauptet: „Mira hat Karte B geschrieben. Alle wissen das!“\nZ6 · Tari ergänzt: „Niemand in unserer Gruppe hat bisher einen Namen für Karte B bestätigt.“",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "1–5",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGER TRANSFER NACH 1–5 · Auch der Leseclub und die Einladung in Aufgabe 6 sind erfunden. Die sechs Zusatzpunkte gehören nicht zur Hauptsumme."
+      },
+      "autoCheck": {
+        "afterMain": true,
+        "questions": [
+          {
+            "id": "de-pronomen-check-a",
+            "kind": "choice",
+            "prompt": "Welche Zuordnung passt zu den drei genannten Wörtern?",
+            "options": [
+              "Wer: Fragepronomen; Jemand: unbestimmtes Pronomen; sich: rückbezügliches Pronomen.",
+              "Wer: rückbezügliches Pronomen; Jemand: Fragepronomen; sich: unbestimmtes Pronomen.",
+              "Alle drei Wörter bezeichnen eine namentlich bekannte Person."
+            ],
+            "correct": "Wer: Fragepronomen; Jemand: unbestimmtes Pronomen; sich: rückbezügliches Pronomen.",
+            "explanation": [
+              "„Wer“ fragt nach einer Person, „Jemand“ lässt sie unbestimmt, und „sich“ bezieht sich in Z4 auf Mira zurück. Die Fachwörter sind Interrogativ-, Indefinit- und Reflexivpronomen."
+            ]
+          },
+          {
+            "id": "de-pronomen-check-b",
+            "kind": "choice",
+            "prompt": "Was folgt aus Taris Aussage in Z3 über Karte B?",
+            "options": [
+              "Tari behauptet ein Ablegen; wer B schrieb, bleibt daraus offen.",
+              "Wer B in die Ablage legte, muss B auch geschrieben haben.",
+              "Tari hat selbst beobachtet, wer B geschrieben hat."
+            ],
+            "correct": "Tari behauptet ein Ablegen; wer B schrieb, bleibt daraus offen.",
+            "explanation": [
+              "Ablegen und Schreiben sind verschiedene Handlungen. Z3 ist Taris Aussage, kein unabhängiger Beweis."
+            ]
+          },
+          {
+            "id": "de-pronomen-check-c",
+            "kind": "choice",
+            "prompt": "Worauf bezieht sich „niemand“ in Z6?",
+            "options": [
+              "Niemand in der Gruppe hat bisher einen Namen für B bestätigt.",
+              "Niemand hat Karte B in die Ablage gelegt.",
+              "Niemand weiss, wer Karte B geschrieben hat."
+            ],
+            "correct": "Niemand in der Gruppe hat bisher einen Namen für B bestätigt.",
+            "explanation": [
+              "Z6 verneint die Bestätigung eines Namens. Es verneint weder das Ablegen noch beweist es das Unwissen jeder Person."
+            ]
+          }
+        ]
+      },
+      "tasks": [
+        {
+          "id": "de-pronomen-1",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Form und Funktion (6 Hauptpunkte): Ordne „Wer“ (Z2), „Jemand“ (Z3) und „sich“ (Z4) jeweils Interrogativ-, Indefinit- oder Reflexivpronomen zu. Erkläre bei jedem Wort seine Funktion genau im Satz; nenne bei „sich“ den Rückbezug.",
+          "sample": "„Wer“ ist ein Interrogativpronomen und fragt nach der nicht bekannten Person, die B schrieb. „Jemand“ ist ein Indefinitpronomen und bezeichnet in Taris Aussage eine nicht identifizierte Person, die B abgelegt habe. „sich“ ist ein Reflexivpronomen und bezieht sich auf Mira zurück.",
+          "criteria": [
+            "Je Wort 1 Punkt für die Pronomenart und 1 Punkt für die passende Funktion im Satz, bei „sich“ mit Bezug auf Mira. Gleichwertige altersgerechte Bezeichnungen zählen. Hilfe nach Erstversuch notieren, aber eine richtige Erklärung nicht automatisch abwerten."
+          ]
+        },
+        {
+          "id": "de-pronomen-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Zwei Handlungen (4 Hauptpunkte): Was behauptet Tari in Z3 über das Ablegen, und was sagt sie über ihre Beobachtung des Schreibens? Erkläre mit Z3, ob die ablegende Person deshalb auch als schreibende Person feststeht. Kennzeichne Taris Aussage als Quelle.",
+          "sample": "Tari behauptet, dass eine nicht identifizierte Person B gestern abgelegt habe. Sie sagt, sie habe nicht gesehen, wer B schrieb. Ablegen belegt keine Autorenschaft. Z3 gibt Taris Aussage wieder; die Textkarte liefert keine unabhängige Beobachtung.",
+          "criteria": [
+            "1 Punkt: nicht identifizierte ablegende Person laut Tari.",
+            "1 Punkt: Tari hat das Schreiben nicht gesehen.",
+            "1 Punkt: Ablegen und Schreiben getrennt; gleiche Person möglich, aber nicht belegt.",
+            "1 Punkt: Z3 als Taris Aussage statt unabhängiger Beobachtung markiert."
+          ]
+        },
+        {
+          "id": "de-pronomen-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Rückbezug (4 Hauptpunkte): Vergleiche Z4 „Mira erinnert sich an Karte A“ mit dem eigens für diese Frage erfundenen Satz „Mira erinnert Tari an Karte A.“ Wer erinnert sich im ersten Satz, wer wird im zweiten erinnert, und weshalb unterscheiden sich die Aussagen? Der Vergleichssatz ist kein Ereignis der Geschichte.",
+          "sample": "In Z4 erinnert Mira sich selbst. Im Vergleichssatz erinnert Mira Tari; Tari ist dort die erinnerte Person. Das Subjekt ist in beiden Sätzen Mira, aber „sich“ bezieht die Handlung auf Mira zurück und „Tari“ auf eine andere Person. Der Vergleichssatz ist nur eine sprachliche Probe.",
+          "criteria": [
+            "1 Punkt: Mira erinnert sich in Z4.",
+            "1 Punkt: Tari ist im Vergleichssatz die erinnerte Person.",
+            "1 Punkt: Rückbezug von „sich“ auf Mira gegen anderen Bezug erklärt.",
+            "1 Punkt: Bedeutungsunterschied ohne behauptetes zweites Ereignis erläutert."
+          ]
+        },
+        {
+          "id": "de-pronomen-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Aushang reparieren (4 Hauptpunkte): Nenne zwei verschiedene Aussagen aus Z5, die Z1–Z6 nicht als Tatsache belegen, und begründe die jeweilige Grenze. Schreibe danach einen sachlichen Aushang von höchstens zwei Sätzen: Was ist über Karte B offen, und was sagt Tari über das Ablegen?",
+          "sample": "Die Verfasserin oder der Verfasser von B ist unbekannt; „Mira schrieb B“ ist nicht belegt. „Alle wissen das“ ist ebenso unbelegt: Z6 sagt nur, dass bisher kein Name bestätigt wurde. Aushang: „Wer Karte B geschrieben hat, ist noch ungeklärt. Laut Tari hat jemand die Karte gestern in die Ablage gelegt.“",
+          "criteria": [
+            "1 Punkt: Miras angebliche Autorenschaft als unbelegt erkannt; ihre Aussage „nur A“ ist kein unabhängiger Nachweis.",
+            "1 Punkt: „Alle wissen das“ als unbelegt erkannt; fehlende Bestätigung beweist nicht allgemeines Nichtwissen.",
+            "1 Punkt: Autorenschaft im Ersatztext offengelassen.",
+            "1 Punkt: Ablegen als Taris Aussage korrekt und mit Quellenkennzeichnung formuliert."
+          ]
+        },
+        {
+          "id": "de-pronomen-5",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "Reichweite von „niemand“ (2 Hauptpunkte): Z6 spricht von keiner Namensbestätigung. Belegt Z6 den neuen Satz „Niemand hat Karte B in die Ablage gelegt“? Vergleiche mit Z3 und begründe.",
+          "sample": "Nein. Z6 sagt nur, dass niemand in der Gruppe bisher einen Namen bestätigt hat. „Niemand hat B abgelegt“ betrifft eine andere Handlung und widerspricht Taris Behauptung in Z3, dass jemand B abgelegt habe. Ob Tari recht hat, wurde nicht unabhängig geprüft.",
+          "criteria": [
+            "1 Punkt: Reichweite „keinen Namen bestätigt“, nicht „nicht abgelegt“.",
+            "1 Punkt: neuer Satz widerspricht Taris Behauptung in Z3; deren Wahrheit bleibt unabhängig offen. Hauptsumme 20 Punkte, keine Schulnote."
+          ]
+        },
+        {
+          "id": "de-pronomen-6",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer · sechs getrennte Zusatzpunkte. T1: Jo fragt „Wer hat die Einladung überarbeitet?“ T2: Sam sagt „Irgendjemand hat sie gestern ausgedruckt. Ich weiss nicht, wer sie überarbeitet hat.“ T3: Jo freut sich über den Ausdruck; Jo findet keinen Bearbeitungsvermerk. T4: Ein Entwurf behauptet „Sam hat die Einladung überarbeitet.“ a) Ordne Wer, Irgendjemand und sich den Pronomenarten zu und beschreibe je ihre Funktion. b) Erkläre, weshalb Drucken die Überarbeitung nicht belegt. c) Formuliere statt T4 einen belegtreuen Satz. d) Schreibe einen eigenen Satz mit „jemand“ über das Ausdrucken und nenne Sam als Quelle.",
+          "sample": "a) „Wer“: Interrogativpronomen, fragt nach der überarbeitenden Person; „Irgendjemand“: Indefinitpronomen, nicht identifizierte druckende Person; „sich“: Reflexivpronomen, Bezug auf Jo. b) Ausdrucken und Überarbeiten sind verschiedene Tätigkeiten; Sam weiss nach eigener Aussage nicht, wer überarbeitete. c) „Sam weiss nach eigener Aussage nicht, wer die Einladung überarbeitet hat.“ d) „Laut Sam hat jemand die Einladung gestern ausgedruckt.“",
+          "criteria": [
+            "3 Zusatzpunkte: Wer, Irgendjemand und sich je mit richtiger Art und passender Funktion; je 1 Punkt.",
+            "1 Zusatzpunkt: Drucken beantwortet die Frage nach der Überarbeitung nicht.",
+            "1 Zusatzpunkt: belegtreuer Ersatz für T4 ohne erfundenen Namen.",
+            "1 Zusatzpunkt: Satz mit „jemand“, Ausdrucken statt Überarbeiten und Sam als Quelle. Zusatzpunkte getrennt ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Erprobungsfassung für Klasse 7 ab 2026/27. §2.2.5 PDF-S. 30–31: Wortarten und Sprachbewusstheit, Zielhorizont Ende Klasse 8. PDF-S. 51: Interrogativ-, Reflexiv- und Indefinitpronomen in der rechten 7/8-Spalte; keine festgelegte Unterrichtsreihenfolge.",
+        "checkedAt": "2026-10-24"
+      }
+    },
+    {
       "id": "de-homonym-kiefer",
       "subjectId": "de",
       "title": "Welche Kiefer ist gemeint?",

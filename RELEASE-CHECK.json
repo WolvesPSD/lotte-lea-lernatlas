@@ -1,12 +1,14 @@
 {
-  "builtAt": "2026-10-23T23:49:21.523Z",
-  "releaseVersion": "2026.10.24-autocheck.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Deutsch Kiefer: freiwilliger lokaler Auswahl-Mini-Check mit drei eindeutig prüfbaren Fragen nach dem Hauptteil.",
-    "Die App zeigt einen wiederholbaren Übungsstand; offene Begründungen und Kriterienpunkte bleiben menschlich zu prüfen. Der Kinderdruck bleibt ohne Lösungen."
+  "builtAt": "2026-10-24T01:04:35.416Z",
+  "releaseVersion": "2026.10.24-depronomen.1",
+  "newTopicIds": [
+    "de-pronomen-lesewerkstatt"
   ],
-  "rollbackCommit": "dec23427156bc62cf6d7f9d24bc15017964a7bd4",
+  "changeLog": [
+    "Deutsch: freiwillige Pronomen-Lesewerkstatt mit drei Wortarten, Quellen- und Tätigkeitsbezug, fünf Hauptaufgaben und einem späteren Transfer.",
+    "Drei eindeutige Auswahlfragen werden nach dem Hauptteil lokal ausgewertet; offene Begründungen bleiben menschlich zu prüfen. Der Kinderdruck enthält keine Lösungen."
+  ],
+  "rollbackCommit": "e47ed1928eb7cece51d741ff44d5ea27ece101bd",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -23,6 +25,7 @@
     "fr-leseecke-avis-aide",
     "fr-termin-gespraech",
     "de-textzusammenhang-register",
+    "de-pronomen-lesewerkstatt",
     "de-homonym-kiefer",
     "de-textuntersuchung-bank",
     "ma-koerper-modell",

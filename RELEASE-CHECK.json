@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-24T12:06:31.596Z",
-  "releaseVersion": "2026.10.24-enwredpanda.1",
+  "builtAt": "2026-10-24T12:23:56.293Z",
+  "releaseVersion": "2026.10.24-m6fermatpascal.1",
   "newTopicIds": [
-    "en-red-panda-field-guide"
+    "ma-fermat-pascal-quellenwerkstatt"
   ],
   "changeLog": [
-    "Englisch: einen kurzen Sachtext über den Roten Panda für jüngere fiktive Besucher planen und einen eigenen Satz daraus überarbeiten.",
-    "Vier textbasierte Faktenkarten mit Quellenlink; freiwillige Bildunterschrift erst nach A–C, Erwachsenenlösung und Kinderdruck getrennt."
+    "Mathematik: Pascals Briefe an Fermat als historische Quellenkarten lesen und eine abgebrochene Partie im fairen Modell berechnen.",
+    "Freiwilliger Klasse-8-Ausblick mit Quellen-Transfer nach A–C; Antworten, Erwachsenenlösung und Kinderdruck getrennt."
   ],
-  "rollbackCommit": "97f1611b5830585eb5fadccf781bec3dacf041e7",
+  "rollbackCommit": "31ef42845c5e9f6a079822efeea7d45ead837ce4",
   "releasedTopics": [
     "mnt-volumen-masse-schulpraxis",
     "mnt-skelett-knochenformen",
@@ -20,6 +20,7 @@
     "de-lehrplan-quellenweg",
     "mbi-festbezug-karten",
     "de-woerter-umfrage",
+    "ma-fermat-pascal-quellenwerkstatt",
     "de-tauschregal-eroerterung",
     "en-art-display-report",
     "en-maya-clubs-talk",
@@ -160,9 +161,9 @@
     "bi",
     "mbi",
     "de",
+    "ma",
     "en",
     "fr",
-    "ma",
     "et",
     "go",
     "ge",
@@ -170,6 +171,7 @@
     "sp"
   ],
   "grade8OutlookTopics": [
+    "ma-fermat-pascal-quellenwerkstatt",
     "ma-koerper-modell",
     "ma-medienwahrscheinlichkeit",
     "ma-wahrscheinlichkeitsbaum",

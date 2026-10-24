@@ -1028,6 +1028,115 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-fermat-pascal-quellenwerkstatt",
+      "subjectId": "ma",
+      "title": "Wer teilt den Einsatz gerecht?",
+      "scope": "Freiwilliger historischer Querschnitt zum Mathematikziel M6 am Ende von Klasse 8. Keine bestätigte Klasse-7-Unterrichtseinheit und keine vollständige M6-Abdeckung.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Hilfreich sind Brüche, einfache Kombinationen und die Unterscheidung von Quelle und eigener Deutung. Die zwei Karten sind eigene deutsche Inhaltsangaben später edierter Briefe, keine Originalbriefe oder wörtlichen Übersetzungen. Die App kann offene Begründungen nicht automatisch bewerten. Alle Spielenden und 160 Marken in der Rechnung sind erfunden.",
+      "introduction": "Lies zuerst zwei eigene Inhaltsangaben historischer Briefe. Danach berechnest du in einem heutigen, ausdrücklich fairen Modell, wie ein erfundener Einsatz bei Spielabbruch geteilt werden könnte. A–C haben 20 Kriterienpunkte; der freiwillige Quellen-Transfer D hat sechs getrennte Punkte. Kriterienpunkte sind Lernfeedback, keine Schulnote.",
+      "sourceCards": [
+        {
+          "title": "Pascal an Fermat · 29. Juli 1654",
+          "text": "Pascal hält Fermats Ergebnisse zu zwei Spielproblemen für richtig. Ihn interessiert besonders, wie der Einsatz bei einem abgebrochenen Spiel gerecht geteilt werden kann. Er antwortet auf einen Brief Fermats, dessen vollständiger Text nicht erhalten ist.",
+          "sourceLabel": "Pascal, Œuvres, Bd. III (Edition 1923) · Brief 29. Juli 1654",
+          "sourceUrl": "https://fr.wikisource.org/wiki/%C5%92uvres_de_Blaise_Pascal/Lettre_de_Pascal_%C3%A0_Fermat_%2829_juillet_1654%29/Lettre",
+          "sourceNote": "Eigene deutsche Inhaltsangabe; die Transkription der späteren Edition ist als „à valider“ markiert. Quelle ausserhalb der App."
+        },
+        {
+          "title": "Pascal an Fermat · 24. August 1654",
+          "text": "Pascal stimmt Fermats Zählverfahren für zwei Spielende zu. Für drei Spielende hält er es ohne weitere Begründung nicht immer für gerecht. Er bittet Fermat, ihn zu berichtigen, falls seine Überlegung falsch ist.",
+          "sourceLabel": "Pascal, Œuvres, Bd. III (Edition 1923) · Brief 24. August 1654",
+          "sourceUrl": "https://fr.wikisource.org/wiki/%C5%92uvres_de_Blaise_Pascal/Lettre_de_Pascal_%C3%A0_Fermat_%2824_ao%C3%BBt_1654%29",
+          "sourceNote": "Eigene deutsche Inhaltsangabe; die Transkription der späteren Edition ist als „à valider“ markiert. Quelle ausserhalb der App."
+        }
+      ],
+      "passage": "MODELL · Ada braucht noch zwei Siege, Ben noch drei. In jeder weiteren Runde gewinnt genau eine Person; beide gewinnen jede Runde unabhängig von früheren Runden mit Wahrscheinlichkeit 1/2. Sobald ein Ziel erreicht ist, endet die Partie. Für die Zählung darfst du vier Runden gedanklich zu Ende führen, selbst wenn die Partie früher entschieden ist. Das Modell und die 160 Spielmarken sind erfunden; es ist keine Aussage über ein wirkliches Spiel von 1654.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–C festhalten und Quellen-Transfer zeigen",
+        "text": "FREIWILLIGER TRANSFER D · Eine Person behauptet, diese beiden Briefe zeigten alles, was Fermat und Pascal im Sommer 1654 einander geschrieben haben. Prüfe diese Behauptung mit dem Wissen über die Überlieferung. Sechs Zusatzpunkte getrennt von A–C."
+      },
+      "tasks": [
+        {
+          "id": "ma-fermat-pascal-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Briefe ordnen und belegen (4 Hauptpunkte): Schreibe die zwei Briefe in zeitlicher Reihenfolge auf. Nenne zu jedem Brief eine Aussage, die direkt aus seiner Quellenkarte folgt. Kennzeichne Datum, Absender und Aussage.",
+          "sample": "Zuerst Pascal an Fermat, 29. Juli 1654: Er bestätigt zwei Ergebnisse zu Spielproblemen. Danach Pascal an Fermat, 24. August 1654: Er unterscheidet Fermats Zählverfahren für zwei und drei Spielende. Andere zutreffende Kartenaussagen zählen.",
+          "criteria": [
+            "1 Punkt: 29. Juli vor 24. August.",
+            "1 Punkt: beide Briefe mit Datum und Absender richtig benannt.",
+            "1 Punkt: eine zutreffende Aussage aus Karte 1.",
+            "1 Punkt: eine zutreffende Aussage aus Karte 2."
+          ]
+        },
+        {
+          "id": "ma-fermat-pascal-b",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Einverstanden und uneinig (6 Hauptpunkte): Worin stimmt Pascal Fermat im Juli zu? Welchen Unterschied macht er im August zwischen zwei und drei Spielenden? Was zeigt seine Bitte, ihn zu berichtigen, darüber, ob die Frage für ihn schon abschliessend geklärt ist? Begründe mit den Karten.",
+          "sample": "Im Juli bestätigt Pascal Fermats Ergebnisse zu zwei Spielproblemen. Im August akzeptiert er den Kombinationsweg für zwei Spielende, bezweifelt ihn aber für drei ohne zusätzliche Begründung. Seine Bitte um Korrektur oder Bestätigung zeigt, dass er seine Position Fermat gegenüber noch zur Prüfung stellt.",
+          "criteria": [
+            "2 Punkte: Zustimmung im Juli sachlich richtig beschrieben.",
+            "2 Punkte: Unterschied zwischen zwei und drei Spielenden erklärt.",
+            "2 Punkte: Bitte um Prüfung und daraus begrenzte Sicherheit mit Kartenbeleg erklärt."
+          ]
+        },
+        {
+          "id": "ma-fermat-pascal-c",
+          "kind": "reflection",
+          "points": 10,
+          "writingLines": 15,
+          "inputRows": 14,
+          "adultOnlySolution": true,
+          "prompt": "C · Eine abgebrochene Partie berechnen (10 Hauptpunkte): Zähle alle gleich wahrscheinlichen Folgen von vier gedachten Runden aus A und B, zum Beispiel nach 0, 1, 2, 3, 4 Siegen für Ada. In wie vielen Folgen erreicht Ada ihr Ziel, in wie vielen Ben? Erkläre, weshalb nachträglich gedachte Runden den bereits feststehenden Sieger nicht ändern. Teile dann 160 erfundene Spielmarken im Verhältnis der günstigen Folgen auf und prüfe die Summe. Zeige deinen Rechenweg.",
+          "sample": "2^4=16 Folgen; nach Ada-Siegen 1,4,6,4,1. Ada gewinnt bei mindestens zwei A: 6+4+1=11 Folgen. Ben gewinnt bei mindestens drei B: 1+4=5 Folgen. Nach spätestens vier Runden ist eines der Ziele erreicht; bei früherem Ende können die später nur gedachten Runden den Sieger nicht ändern. 160/16=10 Marken je Folge, daher Ada 110 und Ben 50; Probe 110+50=160.",
+          "criteria": [
+            "1 Punkt: vier unabhängige faire Runden als 2^4-Modell erkannt.",
+            "2 Punkte: 16 Folgen oder vollständige Verteilung 1/4/6/4/1 korrekt gezählt.",
+            "2 Punkte: elf günstige Folgen für Ada begründet.",
+            "1 Punkt: fünf günstige Folgen für Ben begründet.",
+            "2 Punkte: das gedankliche Ergänzen nach Spielende mit den Zielzahlen erklärt.",
+            "1 Punkt: 110 und 50 aus dem Verhältnis 11:5 berechnet.",
+            "1 Punkt: Summe 160 geprüft."
+          ]
+        },
+        {
+          "id": "ma-fermat-pascal-d",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Quellen-Transfer D (sechs getrennte Zusatzpunkte): Prüfe die neue Behauptung, beide Karten zeigten vollständig, was Fermat und Pascal im ganzen Sommer 1654 einander schrieben. Warum geht das zu weit? Nenne zwei zusätzliche Informationen, die du für eine genauere historische Aussage prüfen würdest, und begründe jeweils, was sie klären würden.",
+          "sample": "Die Karten sind ausgewählte eigene Inhaltsangaben späterer Editionen, und Fermats Brief vor dem 29. Juli ist nicht vollständig erhalten. Sie zeigen daher weder alle Briefe noch den genauen Originalwortlaut. Prüfen könnte man den Umfang der erhaltenen Korrespondenz und Editions-/Faksimilevarianten: Das klärt Vollständigkeit und Textgenauigkeit. Andere konkret begründete Prüfungen zählen.",
+          "criteria": [
+            "2 Zusatzpunkte: Unvollständigkeit oder paraphrasierte spätere Edition als Grenze erklärt.",
+            "1 Zusatzpunkt: erste konkret zusätzliche Information genannt.",
+            "1 Zusatzpunkt: erklärt, was diese Information klärt.",
+            "1 Zusatzpunkt: zweite andere zusätzliche Information genannt.",
+            "1 Zusatzpunkt: erklärt, was diese Information klärt."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 8 ab 2027/28. § 2.2.6/PDF-S. 28: M6 Zufall und Wahrscheinlichkeit unter Klassenstufe 8; KB nennt den historischen Briefwechsel Fermat/Pascal als Querschnitt. Hier nur ein freiwilliger Quellen- und Zählfall.",
+        "checkedAt": "2026-10-24"
+      }
+    },
+    {
       "id": "de-tauschregal-eroerterung",
       "subjectId": "de",
       "title": "Ein Tauschregal begründet prüfen",

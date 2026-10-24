@@ -7927,6 +7927,97 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "de-beschwerde-materialsets",
+      "subjectId": "de",
+      "title": "Sachlich beschweren: Vier Materialsets fehlen",
+      "scope": "Freiwilliger, gestützter 7/8-Einstieg in einen offiziellen Beschwerdebrief. §3.4 nennt Beschwerde als Beispiel für 7/8; das Schreibziel gilt bis Ende Klasse 8. Keine bestätigte aktuelle Schuleinheit.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Alle Einrichtungen, Gruppen, Mitteilungen und Termine sind erfunden. Schreibe nur einen Übungsentwurf und versende nichts. Nutze keine echten Namen, Adressen oder Kontaktdaten. Die App benotet offene Texte nicht automatisch.",
+      "introduction": "Quelle A sagt, was vor dem Projekttag zugesagt war. Das gemeinsame Protokoll B belegt den Mangel und seine begrenzte Folge nach dem Termin. Ordne zunächst die Fakten, schreibe dann einen höflichen Beschwerdebrief und überarbeite eine unbelegte Behauptung. A–C zählen 20 Kriterienpunkte, die spätere Änderung sechs getrennte Zusatzpunkte; das ist keine Schulnote. Die App kann deinen offenen Brief nicht automatisch bewerten.",
+      "passage": "FIKTIVE QUELLE A · Schriftliche Mitteilung der Lernwerkstatt Nord vom 5. November 2026 an das Projektteam Stadtmodelle:\n„Für den Projekttag am 12. November stellen wir zehn Materialsets bereit, je eines für die Arbeitsgruppen 1 bis 10. Die Ausgabe ist für 09:00 Uhr geplant.“\n\nFIKTIVE QUELLE B · Gemeinsames Ausgabeprotokoll der Lernwerkstatt Nord und des Projektteams vom 12. November 2026, 10:30 Uhr:\n„Von den zugesagten zehn Sets standen am Ausgabepunkt der Lernwerkstatt um 09:15 Uhr nur sechs Materialsets bereit. Diese wurden an die Gruppen 1 bis 6 ausgegeben. Für die Gruppen 7 bis 10 wurden bis zum Ende der Arbeitsphase um 10:30 Uhr keine weiteren Sets bereitgestellt. Die vier Gruppen konnten den geplanten Modellbau in dieser Phase nicht beginnen. Die Ursache der Fehlmenge ist uns nicht bekannt.“\n\nSCHREIBSITUATION · Am 13. November möchte das Projektteam den eingetretenen Unterschied sachlich mitteilen und um eine praktikable Nachholung sowie eine Erklärung bitten. Eine spätere Lieferung ist zu diesem Zeitpunkt nicht belegt. Schreibe einen Übungsentwurf, keine echte Nachricht.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "text": "SPÄTERE ÄNDERUNG NACH A–C · Fiktive Quelle C, neue schriftliche Mitteilung des Projektteams vom 16. November 2026: „Die vier fehlenden Materialsets wurden heute um 10:00 Uhr nachgeliefert und an die Gruppen 7 bis 10 ausgegeben. Die ausgefallene Arbeitsphase vom 12. November, 09:15 bis 10:30 Uhr, wurde dadurch nicht nachgeholt. Eine Ursache für die anfängliche Fehlmenge ist weiterhin nicht belegt.“"
+      },
+      "tasks": [
+        {
+          "id": "de-beschwerde-a",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A · Fakten vor dem Schreiben ordnen (6 Hauptpunkte): 1. Wie viele Sets waren zugesagt, wie viele ausgegeben und wie gross ist der Unterschied? 2. Welche zwei datierten Quellen belegen Zusage und Bereitstellung/Ausgabe? 3. Welche konkrete Folge hatte der Mangel für Gruppen 7–10? 4. Was ist über die Ursache unbekannt?",
+          "sample": "A vom 5. November sagt zehn Sets zu. Das gemeinsame Protokoll B vom 12. November belegt sechs bereitgestellte und ausgegebene Sets; vier fehlten. Gruppen 7–10 konnten in dieser Arbeitsphase mit dem Modellbau nicht beginnen. Die Ursache der Fehlmenge ist unbekannt.",
+          "criteria": [
+            "3 Punkte: zehn zugesagt, sechs ausgegeben und vier Unterschied, je 1.",
+            "1 Punkt nur bei korrekter Zuordnung beider datierter Quellen A vom 5.11 und B vom 12.11.",
+            "1 Punkt: begrenzte Folge für Gruppen 7–10 in dieser Arbeitsphase.",
+            "1 Punkt: Ursache unbekannt, keine Absicht erfinden."
+          ]
+        },
+        {
+          "id": "de-beschwerde-b",
+          "kind": "reflection",
+          "points": 10,
+          "writingLines": 22,
+          "inputRows": 16,
+          "adultOnlySolution": true,
+          "prompt": "B · Offiziellen Beschwerdebrief entwerfen (10 Hauptpunkte): Schreibe als Projektteam Stadtmodelle an die Lernwerkstatt Nord mit Datum 13. November, treffendem Betreff, Anrede und höflichem Schluss. Stelle mit Quellen und Datum die Zusage und den tatsächlichen Stand gegenüber; nenne die Folge für die vier Gruppen. Bitte um einen konkreten Nachholtermin oder eine andere praktikable Lösung für die verpasste Arbeitsphase und um Erklärung. Bitte wegen der Planung um schriftliche Rückmeldung bis 19. November. Behaupte keine Absicht, Schuld, Geldforderung oder spätere Lieferung. Richtwert 110–170 Wörter, keine Punkteschwelle. Nichts versenden.",
+          "sample": "Projektteam Stadtmodelle\nAn die Lernwerkstatt Nord\n13. November 2026\nBetreff: Fehlende Materialsets beim Projekttag am 12. November\n\nSehr geehrtes Team der Lernwerkstatt Nord,\n\nin Ihrer schriftlichen Mitteilung vom 5. November wurden für unseren Projekttag am 12. November zehn Materialsets zugesagt. Laut unserem gemeinsamen Ausgabeprotokoll vom 12. November standen an Ihrem Ausgabepunkt um 09:15 Uhr nur sechs Sets bereit; sie wurden an die Gruppen 1 bis 6 ausgegeben. Für Gruppen 7 bis 10 stand bis 10:30 Uhr kein weiteres Set bereit. Diese vier Gruppen konnten den geplanten Modellbau in dieser Phase nicht beginnen.\n\nWir bitten Sie um eine Erklärung für die Fehlmenge und einen konkreten Vorschlag, wann die vier Gruppen die verpasste Arbeitsphase nachholen können. Bitte teilen Sie uns bis zum 19. November schriftlich mit, welche Lösung Sie anbieten, damit wir weiterplanen können.\n\nMit freundlichen Grüssen\nProjektteam Stadtmodelle",
+          "criteria": [
+            "2 Punkte: fiktive Absender-/Adressatenrollen (1), Schreibdatum 13.11 (1).",
+            "2 Punkte: treffender Betreff (1), passende Anrede und Schluss (1).",
+            "2 Punkte: Zusage A mit zehn Sets/5.11 (1), Protokoll B mit sechs am Ausgabepunkt/12.11 (1).",
+            "2 Punkte: vier fehlende Sets (1), Gruppen 7–10 konnten in dieser Phase den Modellbau nicht beginnen (1).",
+            "1 Punkt: höfliche Bitte um praktikable Nachholung und Erklärung zusammen. Keine erfundene Schuld oder Geldforderung.",
+            "1 Punkt: Rückmeldung bis 19.11 mit Planungsgrund. Gleichwertige andere Formulierungen gelten; kleine Fehler ohne Sinnverlust nicht doppelt abziehen."
+          ]
+        },
+        {
+          "id": "de-beschwerde-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C · Eine überstarke Formulierung überarbeiten (4 Hauptpunkte): Im Entwurf steht: „Sie haben uns die vier Sets absichtlich vorenthalten; deshalb stehen uns 100 Euro Entschädigung zu.“ Nenne zwei verschiedene unbelegte Behauptungen. Formuliere danach ein oder zwei sachliche Sätze mit dem belegten Mangel und einer angemessenen Bitte.",
+          "sample": "„Absichtlich vorenthalten“ behauptet Vorsatz, den B nicht belegt. „100 Euro Entschädigung“ behauptet einen Geldanspruch und Betrag ohne Quelle. Sachlicher: „Nach der Zusage vom 5. November sollten zehn Sets bereitstehen; laut Protokoll vom 12. November erhielten vier Gruppen kein Set. Bitte teilen Sie uns mit, wie sie die verpasste Arbeitsphase nachholen können.“",
+          "criteria": [
+            "1 Punkt: unbelegten Vorsatz erkannt.",
+            "1 Punkt: unbelegten Geldanspruch/Betrag erkannt.",
+            "1 Punkt: belegten Mangel sachlich formuliert.",
+            "1 Punkt: höfliche konkrete Abhilfebitte."
+          ]
+        },
+        {
+          "id": "de-beschwerde-d",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Änderung nach A–C · sechs getrennte Zusatzpunkte: Lies die neue Quelle C vom 16. November. Überarbeite nur den Bitte-Abschnitt deines noch nicht versendeten Briefentwurfs in zwei oder drei Sätzen. Zeige den neuen Stand mit Quelle und Datum: Die vier Sets sind da, die Arbeitsphase bleibt ausgefallen. Bitte nicht erneut um Lieferung, sondern um einen passenden Nachholweg und eine sachliche Erklärung. Die Frist 19. November kann bleiben. Ein vollständiger neuer Brief müsste auch ein neues Schreibdatum tragen; das ist hier kein eigener Auftrag.",
+          "sample": "Laut unserer Mitteilung vom 16. November wurden die vier fehlenden Sets an Gruppen 7 bis 10 ausgegeben. Die Arbeitsphase vom 12. November konnten diese Gruppen damit noch nicht nachholen. Bitte schlagen Sie uns bis zum 19. November einen Nachholtermin vor und erläutern Sie, wie es zu der anfänglichen Fehlmenge kam.",
+          "criteria": [
+            "2 Zusatzpunkte: Nachlieferung von vier Sets an Gruppen 7–10 (1) und Datum/Quelle 16.11 (1).",
+            "1 Zusatzpunkt: keine erneute Lieferbitte.",
+            "1 Zusatzpunkt: verlorene Arbeitsphase vom 12.11 bleibt offen.",
+            "2 Zusatzpunkte: höfliche Bitte um Nachholweg (1) und sachliche Erklärung (1). Zusatzpunkte getrennt ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. §2.2.4/PDF-S. 29–30: Planen, Schreiben und Überarbeiten bis Ende Klasse 8. §3.4/PDF-S. 50: offizieller Brief mit Beschwerde als 7/8-Beispiel.",
+        "checkedAt": "2026-10-24"
+      }
+    },
+    {
       "id": "de-innerer-monolog-projekttisch",
       "subjectId": "de",
       "title": "Minas Gedanken am Projekttisch",

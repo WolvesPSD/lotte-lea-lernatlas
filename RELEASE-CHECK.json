@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-24T02:01:17.328Z",
-  "releaseVersion": "2026.10.24-debruecke.1",
+  "builtAt": "2026-10-24T02:33:14.332Z",
+  "releaseVersion": "2026.10.24-debeschwerde.1",
   "newTopicIds": [
-    "de-bedeutung-bruecke-weg"
+    "de-beschwerde-materialsets"
   ],
   "changeLog": [
-    "Deutsch: freiwilliger 7/8-Bedeutungsfall zu wörtlicher und übertragener Brücke mit fünf Hauptaufgaben und einer späteren Weg-Variante.",
-    "Fiktive Zeitungs- und Theaterkarten prüfen Bedeutung, Beleg und eine sachliche Schlagzeile. Offene Texte bleiben menschlich zu prüfen; der Kinderdruck enthält keine Lösungen."
+    "Deutsch: freiwilliger 7/8-Beschwerdebrief zu einem belegten Materialmangel nach einem fiktiven Projekttag, mit drei Hauptaufgaben und späterer Änderung.",
+    "Die spätere Nachlieferung ändert die Bitte, ohne den verpassten Arbeitsabschnitt aufzuheben. Offene Texte brauchen menschliche Prüfung; der Kinderdruck enthält keine Lösungen."
   ],
-  "rollbackCommit": "788302ed7704da2fd3d0c93cc20132cb81d7e38e",
+  "rollbackCommit": "82394a197faea5f9467151f302846c6acbb526a5",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -97,6 +97,7 @@
     "de-verlaufsprotokoll-ausleihplatz",
     "de-rollenbiografie-nila",
     "de-brief-papierstern",
+    "de-beschwerde-materialsets",
     "de-innerer-monolog-projekttisch",
     "mbi-lesepause-medienwerkstatt",
     "mbi-publikationswege-quellenkarten",

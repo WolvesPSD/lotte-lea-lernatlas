@@ -1,15 +1,16 @@
 {
-  "builtAt": "2026-10-24T12:23:56.293Z",
-  "releaseVersion": "2026.10.24-m6fermatpascal.1",
+  "builtAt": "2026-10-24T22:11:04.903Z",
+  "releaseVersion": "2026.10.25-dewortarten.1",
   "newTopicIds": [
-    "ma-fermat-pascal-quellenwerkstatt"
+    "de-wortarten-form-funktion"
   ],
   "changeLog": [
-    "Mathematik: Pascals Briefe an Fermat als historische Quellenkarten lesen und eine abgebrochene Partie im fairen Modell berechnen.",
-    "Freiwilliger Klasse-8-Ausblick mit Quellen-Transfer nach A–C; Antworten, Erwachsenenlösung und Kinderdruck getrennt."
+    "Deutsch: Wortarten, flektierbare Formen und Satzfunktion an einem erfundenen Kurztext begründet unterscheiden.",
+    "Freiwilliger Klasse-7-Einstieg in ein Ende-8-Ziel; Variante nach vier Hauptantworten, Kinderdruck ohne Lösungen."
   ],
-  "rollbackCommit": "31ef42845c5e9f6a079822efeea7d45ead837ce4",
+  "rollbackCommit": "c706609eccbe2842c90009d57ab988096a2d8670",
   "releasedTopics": [
+    "de-wortarten-form-funktion",
     "mnt-volumen-masse-schulpraxis",
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -155,12 +156,12 @@
     "mbi-i1-datumswerte-sortieren"
   ],
   "subjects": [
+    "de",
     "mnt",
     "ph",
     "ch",
     "bi",
     "mbi",
-    "de",
     "ma",
     "en",
     "fr",

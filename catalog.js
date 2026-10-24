@@ -102,6 +102,104 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "de-wortarten-form-funktion",
+      "subjectId": "de",
+      "title": "Ein Wort verändert sich – oder nur seine Stelle?",
+      "scope": "Freiwilliger gestützter Einstieg für Klasse 7 in einen Deutsch-7/8-Bereich mit Zielstand Ende Klasse 8. Wortart, Flexion und Satzfunktion werden an einem erfundenen Text geprüft; die aktuelle Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Lies zuerst den kurzen Text und schreibe eigene Antworten. Die Wörterhilfe erklärt nur das Verfahren, nicht die geprüften Formen. Du brauchst keine persönlichen Texte. Offene Antworten prüft die App nicht automatisch.",
+      "introduction": "Untersuche fünf Wortarten, ihre veränderbaren Formen und die Aufgabe eines Wortes im Satz. „Flektieren“ heisst, dass ein Wort je nach Zusammenhang seine Form ändern kann: Haus/Häuser, spielt/spielen, blau/blaues. Ein Wort kann in einem Satz ohne Endung stehen und trotzdem zu einer grundsätzlich flektierbaren Wortart gehören. Wortart fragt nach der Art des Wortes; Funktion fragt nach seiner Aufgabe an dieser Stelle. 20 Haupt- und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "passage": "ERFUNDENER MINITEXT · Gestern schrieb Sam einen kurzen Bericht. Heute liest Lea den kurzen Bericht. Der Bericht ist kurz und klar.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "1–4",
+        "childPrintAfterUnlock": true,
+        "text": "GETRENNTE NEUE VARIANTE NACH 1–4 · Morgen zeigt Lea ein neues Bild. Das Bild ist neu und farbig. Die sechs Zusatzpunkte zählen getrennt; übertrage deine Begründung auf diesen neuen erfundenen Text."
+      },
+      "tasks": [
+        {
+          "id": "de-wortarten-1",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Wortarten bestimmen (7 Hauptpunkte): Ordne „Bericht“, „liest“, „kurzen“, „Heute“ und „und“ im Text je einer Wortart zu: Nomen, Verb, Adjektiv, Adverb oder Konjunktion. Jede Art wird hier genau einmal gebraucht. Begründe zwei deiner Zuordnungen mit je einer passenden Form- oder Funktionsprobe am Text. Die Grossschreibung von „Heute“ am Satzanfang ist für sich allein kein ausreichender Beleg.",
+          "sample": "Bericht = Nomen (der Bericht/Berichte); liest = Verb (Lea liest, Lea und Sam lesen); kurzen = Adjektiv (beschreibt Bericht und passt sich der Wortgruppe an); Heute = Zeitadverb (Lea liest heute …); und = Konjunktion (verbindet kurz und klar).",
+          "criteria": [
+            "Je 1 Punkt für fünf richtige Wortarten.",
+            "Je 1 Punkt für zwei verschiedene stimmige Form- oder Funktionsbelege. Andere passende Proben zählen; Satzanfangs-Grossschreibung allein beweist kein Nomen."
+          ]
+        },
+        {
+          "id": "de-wortarten-2",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Formen prüfen (5 Hauptpunkte): Gib zu „Bericht“, „liest“ und „kurzen“ je eine sinnvolle andere Form in einem kurzen passenden Beispielsatz an. Prüfe bei „Heute“ und „und“, ob du für diesen Gebrauch eine Flexionsform bilden kannst, und begründe deine Entscheidung jeweils. Das Verschieben eines unveränderten Wortes ist keine Flexion.",
+          "sample": "„Die Berichte sind kurz.“ „Lea und Sam lesen den Bericht.“ „Ein kurzer Bericht genügt.“ Heute ist hier ein Zeitadverb ohne Kasus-, Person- oder Numerusflexion; und verbindet Wörter und wird hier nicht flektiert.",
+          "criteria": [
+            "Je 1 Punkt für drei grammatisch stimmige Beispielsätze mit anderer Form.",
+            "Je 1 Punkt für die begründete Nichtflexion von Heute und und in diesem Gebrauch. Bei kurzen → kurz allein eine passende Satzumgebung verlangen; für einen deutlichen Flexionsnachweis eignet sich kurzer."
+          ]
+        },
+        {
+          "id": "de-wortarten-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Stellung und Funktion (4 Hauptpunkte): Vergleiche „den kurzen Bericht“ mit „Der Bericht ist kurz“. Beschreibe für kurzen und kurz jeweils die Stellung und die Aufgabe im Satz. Entscheide mit einer Formprobe, ob beide Formen zur selben Wortart gehören, und begründe deine Entscheidung. Schreibe „Heute liest Lea den kurzen Bericht“ so um, dass heute nach Lea steht und die Aussage gleich bleibt.",
+          "sample": "kurzen steht vor Bericht, beschreibt es innerhalb der Wortgruppe und hat eine Endung: attributives Adjektiv. kurz steht nach ist und sagt eine Eigenschaft des Berichts aus, ohne Endung: prädikatives Adjektiv. Beide gehören zur Wortart Adjektiv; eine flektierte Form ist kurzer. Umstellung: „Lea liest heute den kurzen Bericht.“",
+          "criteria": [
+            "1 Punkt für Stellung und Funktion von kurzen.",
+            "1 Punkt für Stellung und Funktion von kurz.",
+            "1 Punkt für gleiche Wortart mit stimmiger Formprobe oder Erklärung des Verwendungsunterschieds.",
+            "1 Punkt für „Lea liest heute den kurzen Bericht.“ Fachwörter sind nicht nötig, wenn der Unterschied präzise beschrieben ist."
+          ]
+        },
+        {
+          "id": "de-wortarten-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Zwei Fehlschlüsse korrigieren (4 Hauptpunkte): Ein Kind behauptet: (a) „kurz hat keine Endung, also ist es ein Adverb.“ (b) „Heute ist grossgeschrieben, also ist es ein Nomen.“ Korrigiere beide Aussagen mit je einem konkreten Beleg aus dem Text oder einer passenden Formprobe. Begründe, warum ein einzelnes Schrift- oder Endungsmerkmal hier nicht genügt.",
+          "sample": "(a) Falsch: kurz ist hier ein prädikativ verwendetes Adjektiv; kurzen vor Bericht zeigt eine flektierte Form desselben Wortes. (b) Falsch: Heute steht am Satzanfang und beginnt deshalb gross; in „Lea liest heute …“ steht es klein und bleibt ein Zeitadverb.",
+          "criteria": [
+            "Je 1 Punkt für die sachliche Korrektur beider Behauptungen.",
+            "Je 1 Punkt für einen konkreten Text- oder Formbeleg zu beiden Korrekturen. Ein einzelnes unverändertes Vorkommen beweist keine allgemeine Unflektierbarkeit."
+          ]
+        },
+        {
+          "id": "de-wortarten-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige neue Variante (6 Zusatzpunkte): Ordne „Morgen“, „zeigt“, „neues“ und „und“ aus der Zusatzkarte je einer Wortart zu. Erkläre mit „neues“ und „neu“, weshalb das Adjektiv im zweiten Satz ohne Endung steht. Schreibe „Morgen zeigt Lea ein neues Bild“ so um, dass „morgen“ nach „Lea“ steht und die Aussage gleich bleibt. Achte auf die Stellung des Verbs.",
+          "sample": "Morgen = Zeitadverb; zeigt = Verb; neues = Adjektiv; und = Konjunktion. neues steht mit Endung vor Bild, neu nach ist ohne Endung als Eigenschaftsaussage; beides sind Adjektive. Umstellung: „Lea zeigt morgen ein neues Bild.“",
+          "criteria": [
+            "Je 1 Zusatzpunkt für vier richtige Wortarten.",
+            "1 Zusatzpunkt für neues/neu als dieselbe Adjektivklasse in zwei Stellungen.",
+            "1 Zusatzpunkt für „Lea zeigt morgen ein neues Bild.“ samt kleinem morgen und finitem Verb an zweiter Stelle. Zusatzsumme getrennt ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "Deutsch-Erprobungsfassung 2026, PDF-S. 2: Klasse 7 ab 2026/27; §2.2.5 PDF-S. 30–31: Wortarten nach Form und Funktion untersuchen und flektierbare von nichtflektierbaren Wörtern unterscheiden. Zielstand Ende Klasse 8; keine schulische Reihenfolge.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "mnt-volumen-masse-schulpraxis",
       "subjectId": "mnt",
       "title": "Wasser, Körpervolumen und Masse in der Schulübung",

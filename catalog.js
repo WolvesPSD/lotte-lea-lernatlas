@@ -12528,6 +12528,81 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "fr-questionnaire-atelier-cartes",
+      "subjectId": "fr",
+      "title": "Atelier des cartes illustrées · Fragebogen und Tabelle",
+      "scope": "Freiwilliger gestützter Klasse-7-Einstieg in ein Französisch-Schreibziel mit Zielstand Ende Klasse 8. Keine bestätigte aktuelle Schuleinheit, kein A2-Test und keine eigene Datenerhebung.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Lies nur das erfundene Profil und den erfundenen Aushang. Im Übungsraum kannst du ein leeres Formular und eine Tabelle am Bildschirm oder auf Papier ausfüllen; dort eingegebene Werte werden nicht gespeichert. Wenn du Antworten lokal fortsetzen möchtest, schreibe sie in die Antwortfelder dieses Lernatlas. Verwende keine echten Namen oder Anmeldedaten.",
+      "introduction": "Das Profil und der Aushang sind für diese Übung erfunden. Trage Angaben in einen französischen Fragebogen und eine Tabelle ein. Entscheide selbst, welche Gruppe zum Profil passt. Wenn eine Information im Aushang fehlt, erfinde sie nicht. A–C ergeben 20 Lernpunkte, keine Schulnote. Der Übungsraum ist ein leeres Formular ohne Lösungen; seine Eingaben verschwinden beim Neuladen. Die App bewertet freie französische Antworten nicht automatisch.",
+      "passage": "PROFIL FICTIF · Je suis libre samedi matin. Je préfère commencer le plus tôt possible. J'apporte un crayon.\n\nP1 · La médiathèque du Parc propose un atelier gratuit de cartes illustrées le samedi 17 avril 2027.\nP2 · Groupe A : de 9 h 30 à 10 h 15, salle A, 8 places. Groupe B : de 10 h 30 à 11 h 15, salle B, 8 places.\nP3 · Chaque groupe dure 45 minutes. Apporte un crayon ; les feuilles sont fournies.\nP4 · Inscription avant le vendredi 16 avril 2027 à 18 h.\n\nWortstütze bei Bedarf: un atelier = Workshop; un groupe = Gruppe; une salle = Raum; dure = dauert; gratuit = kostenlos; apporte = bring mit; les feuilles sont fournies = Blätter werden gestellt; avant = vor; Non indiqué = nicht angegeben.",
+      "lab": {
+        "path": "assets/fr-w-atelier-formulaire.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/fr-w-atelier-formulaire.html",
+        "title": "Leerer Fragebogen und Tabelle",
+        "description": "Öffnet ein eigenes, lösungsfreies Formular mit den zehn Fragen, zwei Tabellenzeilen und der offenen Mitnahmefrage. Nur fiktive Angaben verwenden; Eingaben auf dieser Extraseite werden nicht gespeichert oder versendet.",
+        "printNote": "Das leere Formular lässt sich im Übungsraum separat drucken. Antworten dort werden nicht im Lernatlas gespeichert; für eine lokale Wiederaufnahme die Antwortfelder hier nutzen. Ein Ausdruck allein belegt keine eigene Bearbeitung."
+      },
+      "tasks": [
+        {
+          "id": "fr-atelier-formular-1",
+          "kind": "reflection",
+          "points": 10,
+          "writingLines": 12,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "A · Fragebogen (10 Hauptpunkte): Fülle im Übungsraum oder auf Papier die zehn französischen Felder aus: Aktivität, Tag/Datum, zum Profil passende Gruppe, Beginn/Ende, Raum, Dauer, Preis, Mitbringsel, gestelltes Material und genaue Anmeldefrist. Wenn du hier schreibst, nummeriere deine zehn kurzen Antworten. Nutze nur Profil und P1–P4.",
+          "sample": "1 un atelier de cartes illustrées; 2 samedi 17 avril 2027; 3 groupe A (frühester Beginn); 4 de 9 h 30 à 10 h 15; 5 salle A; 6 45 minutes; 7 gratuit; 8 un crayon; 9 les feuilles; 10 avant le vendredi 16 avril 2027 à 18 h. Gleichwertige kurze französische Angaben gelten. „Avant“ schliesst 18 Uhr nicht ein.",
+          "criteria": [
+            "1 Punkt: atelier de cartes illustrées als Aktivität.",
+            "1 Punkt: Samstag 17. April 2027.",
+            "1 Punkt: Gruppe A als frühester zum Profil passender Beginn.",
+            "1 Punkt: 9 h 30 bis 10 h 15 als Beginn und Ende von A.",
+            "1 Punkt: salle A.",
+            "1 Punkt: 45 minutes als Dauer.",
+            "1 Punkt: gratuit als Preisangabe.",
+            "1 Punkt: un crayon als Mitbringsel.",
+            "1 Punkt: les feuilles als gestelltes Material.",
+            "1 Punkt: Freitag 16. April 2027 vor 18 Uhr als Frist; 18 Uhr selbst nicht einschliessen. Gleichwertige kurze französische Formulierungen gelten. Ein Download allein belegt keine ausgefüllten Felder."
+          ]
+        },
+        {
+          "id": "fr-atelier-formular-2",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Tabelle (8 Hauptpunkte): Fülle im Übungsraum oder auf Papier die Zeilen A und B mit Horaire, Salle, Durée und Capacité aus P2–P3. Schreibe h bei Uhrzeiten, minutes bei der Dauer und places bei der Kapazität. Wenn du hier schreibst, notiere beide Zeilen mit vier beschrifteten Spalten.",
+          "sample": "A: Horaire 9 h 30–10 h 15; Salle A; Durée 45 minutes; Capacité 8 places. B: Horaire 10 h 30–11 h 15; Salle B; Durée 45 minutes; Capacité 8 places. „45 places“ oder „8 minutes“ verwechselt Einheiten.",
+          "criteria": [
+            "Je Tabellenzeile 4 Punkte: 1 für beide Uhrzeiten mit h, 1 für passenden Raum, 1 für 45 minutes, 1 für 8 places. Für A und B zusammen 8. Zahl ohne passende Einheit bei Dauer/Kapazität nicht als vollständiges Tabellenelement werten; gleichwertige Uhrzeitschreibweise bei eindeutigem Sinn zulassen."
+          ]
+        },
+        {
+          "id": "fr-atelier-formular-3",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "C · Offene Angabe (2 Hauptpunkte): Peut-on emporter les feuilles à la maison ? Wenn P1–P4 das nicht sagen, schreibe „Non indiqué“. Nenne den passendsten Absatz und erkläre auf Deutsch oder Französisch, was er tatsächlich sagt und was offenbleibt.",
+          "sample": "Non indiqué. P3 sagt, dass die Blätter gestellt werden; er sagt nicht, ob man sie mit nach Hause nehmen darf. Weder Ja noch Nein lässt sich aus dem Aushang belegen.",
+          "criteria": [
+            "1 Punkt für „Non indiqué“ statt einer erfundenen Ja-/Nein-Regel.",
+            "1 Punkt für P3 und die Erklärung, dass bereitgestellte Blätter keine belegte Mitnahmeerlaubnis oder -verbotsregel sind."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "Thüringer Französisch-Gymnasialplan 2026, §3.2.4, PDF-S. 62: unter Klassenstufe 8 Tabellen und Fragebögen ausfüllen. Die Fassung startet für Klasse 7 im Schuljahr 2026/27; Lottes tatsächliche Unterrichtsfolge ist offen.",
+        "checkedAt": "2026-10-24"
+      }
+    },
+    {
       "id": "mbi-i1-datumswerte-sortieren",
       "subjectId": "mbi",
       "title": "Termine als Daten erfassen und ordnen",

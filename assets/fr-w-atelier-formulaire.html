@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atelier des cartes illustrées · Fragebogen und Tabelle</title>
+<style>
+  :root{font-family:system-ui,Arial,sans-serif;color:#183039;background:#f6f4ef}
+  *{box-sizing:border-box}body{margin:0}main{max-width:860px;margin:auto;padding:1rem}
+  h1{font-size:1.7rem;line-height:1.2}h2{font-size:1.2rem;margin-top:1.7rem}
+  p,li{line-height:1.5}.card{background:white;border:1px solid #cbd5d2;border-radius:.6rem;padding:1rem;margin:1rem 0}
+  .notice{border-left:5px solid #0d6b69}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}
+  label{display:block;font-weight:600;line-height:1.35}input,textarea{display:block;width:100%;font:inherit;min-height:44px;margin-top:.25rem;padding:.45rem;border:1px solid #69817f;border-radius:.25rem;color:#183039;background:white}
+  textarea{min-height:90px;resize:vertical}table{border-collapse:collapse;width:100%}caption{font-weight:700;text-align:left;margin:.4rem 0}th,td{border:1px solid #b6cac5;padding:.4rem;text-align:left}th{background:#e7f2ef}td input{min-width:0;margin:0}
+  button{font:inherit;min-height:44px;padding:.6rem 1rem;border:0;border-radius:.3rem;background:#0b5559;color:white;font-weight:700;cursor:pointer}
+  button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #d18a08;outline-offset:2px}
+  .small{color:#4e6167;font-size:.94rem}
+  @media(max-width:620px){.grid{grid-template-columns:1fr}main{padding:.7rem}h1{font-size:1.45rem}thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}table,tbody,tr,td{display:block}tr{margin:.75rem 0;border:1px solid #b6cac5;border-radius:.4rem}th[scope=row]{display:block;border:0;background:#e7f2ef}td{border:0;border-bottom:1px solid #d7e2df}td:last-child{border-bottom:0}td::before{content:attr(data-label);display:block;font-weight:700;margin-bottom:.2rem}}
+  @media print{body{background:white}main{max-width:none;padding:0}.card{break-inside:avoid;border-color:#bbb}button{display:none}input,textarea{border:0;border-bottom:1px solid #777;border-radius:0;min-height:30px}tr{break-inside:avoid}}
+</style>
+</head>
+<body><main>
+<h1>Atelier des cartes illustrées</h1>
+<p class="small">Fiktives Übungsblatt. Alle Angaben beziehen sich auf das erfundene Profil und den erfundenen Aushang. Hier nichts über dich selbst eintragen. Eingaben auf dieser Extraseite werden nicht gespeichert oder versendet; bei Neuladen gehen sie verloren. Für eine lokale Wiederaufnahme kannst du stattdessen die Antwortfelder im Lernatlas nutzen.</p>
+<section class="card notice"><h2>Profil fictif</h2><p>Je suis libre samedi matin. Je préfère commencer le plus tôt possible. J'apporte un crayon.</p><h2>Avis de la médiathèque</h2><p><strong>P1</strong> La médiathèque du Parc propose un atelier gratuit de cartes illustrées le samedi 17 avril 2027.</p><p><strong>P2</strong> Groupe A : de 9 h 30 à 10 h 15, salle A, 8 places. Groupe B : de 10 h 30 à 11 h 15, salle B, 8 places.</p><p><strong>P3</strong> Chaque groupe dure 45 minutes. Apporte un crayon ; les feuilles sont fournies.</p><p><strong>P4</strong> Inscription avant le vendredi 16 avril 2027 à 18 h.</p></section>
+<section class="card"><h2>A · Remplis le questionnaire</h2><p>Antworte auf Französisch mit Wörtern oder kurzen Ausdrücken. Wähle die zum fiktiven Profil passende Gruppe.</p><div class="grid">
+<label>1. Quelle est l'activité ?<input autocomplete="off"></label>
+<label>2. Quel jour et quelle date ?<input autocomplete="off"></label>
+<label>3. Quel groupe choisis-tu ?<input autocomplete="off"></label>
+<label>4. À quelle heure commence et finit ce groupe ?<input autocomplete="off"></label>
+<label>5. Dans quelle salle ?<input autocomplete="off"></label>
+<label>6. Combien de temps dure le groupe ?<input autocomplete="off"></label>
+<label>7. Quel est le prix ?<input autocomplete="off"></label>
+<label>8. Qu'est-ce qu'il faut apporter ?<input autocomplete="off"></label>
+<label>9. Qu'est-ce qui est fourni ?<input autocomplete="off"></label>
+<label>10. Avant quelle date et quelle heure faut-il s'inscrire ?<input autocomplete="off"></label>
+</div></section>
+<section class="card"><h2>B · Complète le tableau</h2><p>Übertrage die zwei Gruppen aus P2–P3. Schreibe Uhrzeit mit h, Dauer mit minutes und Kapazität mit places.</p>
+<table><caption>Zwei Gruppen aus dem erfundenen Aushang</caption><thead><tr><th scope="col">Groupe</th><th scope="col">Horaire</th><th scope="col">Salle</th><th scope="col">Durée</th><th scope="col">Capacité</th></tr></thead><tbody>
+<tr><th scope="row">A</th><td data-label="Horaire"><input autocomplete="off" aria-label="Groupe A, horaire"></td><td data-label="Salle"><input autocomplete="off" aria-label="Groupe A, salle"></td><td data-label="Durée"><input autocomplete="off" aria-label="Groupe A, durée"></td><td data-label="Capacité"><input autocomplete="off" aria-label="Groupe A, capacité"></td></tr>
+<tr><th scope="row">B</th><td data-label="Horaire"><input autocomplete="off" aria-label="Groupe B, horaire"></td><td data-label="Salle"><input autocomplete="off" aria-label="Groupe B, salle"></td><td data-label="Durée"><input autocomplete="off" aria-label="Groupe B, durée"></td><td data-label="Capacité"><input autocomplete="off" aria-label="Groupe B, capacité"></td></tr>
+</tbody></table></section>
+<section class="card"><h2>C · Une information absente</h2><p>Peut-on emporter les feuilles à la maison ? Wenn der Aushang das nicht sagt, schreibe <em>Non indiqué</em>, nenne den passendsten Absatz und erkläre seine Grenze.</p><label>Deine Antwort und dein Textbeleg<textarea autocomplete="off" aria-label="Antwort zur nicht angegebenen Mitnahme der Blätter"></textarea></label></section>
+<p class="small">Wortstütze bei Bedarf: <em>un atelier</em> = Workshop; <em>un groupe</em> = Gruppe; <em>une salle</em> = Raum; <em>dure</em> = dauert; <em>gratuit</em> = kostenlos; <em>apporte</em> = bring mit; <em>les feuilles sont fournies</em> = Blätter werden gestellt; <em>avant</em> = vor; <em>Non indiqué</em> = nicht angegeben.</p>
+<button type="button" id="print">Dieses Übungsblatt drucken</button>
+</main><script>document.getElementById('print').addEventListener('click',()=>window.print());</script></body></html>

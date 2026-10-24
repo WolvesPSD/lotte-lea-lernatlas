@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-24T22:24:49.215Z",
-  "releaseVersion": "2026.10.25-m14netzkarten.1",
+  "builtAt": "2026-10-24T22:39:31.397Z",
+  "releaseVersion": "2026.10.25-m5rundungswahl.1",
   "newTopicIds": [
-    "ma-koerper-netzkarten"
+    "ma-rundungswahl-vergleich"
   ],
   "changeLog": [
-    "Mathematik: fünf schematische Körperbilder und drei Netze begründet zuordnen.",
-    "Freiwilliger Ende-8-Ausblick; Kreisumriss-Transfer nach drei Hauptantworten, Kinderdruck ohne Lösungen."
+    "Mathematik: passende Rundungsgenauigkeit für zwei erfundene Dreiecksflächen wählen und Informationsverlust erklären.",
+    "Freiwilliger Ende-8-Ausblick; neue Grundseite nach fünf Hauptantworten, Kinderdruck ohne Lösungen."
   ],
-  "rollbackCommit": "d5b034aaf2c2f4a4debb2d2d0e451943c9e46abb",
+  "rollbackCommit": "163f1c2afabae463c0625f7e8258af8876c83ab8",
   "releasedTopics": [
     "ma-koerper-netzkarten",
     "de-wortarten-form-funktion",
@@ -152,6 +152,7 @@
     "mbi-sternnetz-feedranking",
     "mbi-teamdaten-gegenpruefen",
     "de-zwei-spuren-leseweg",
+    "ma-rundungswahl-vergleich",
     "ma-runden-materialentscheidung",
     "fr-questionnaire-atelier-cartes",
     "mbi-i1-datumswerte-sortieren"
@@ -215,6 +216,7 @@
     "en-living-things-comparison-foxes",
     "en-red-panda-field-guide",
     "en-invite-mini-comics-workshop",
+    "ma-rundungswahl-vergleich",
     "ma-runden-materialentscheidung",
     "fr-questionnaire-atelier-cartes",
     "mbi-i1-datumswerte-sortieren"

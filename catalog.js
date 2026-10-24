@@ -13739,6 +13739,122 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-rundungswahl-vergleich",
+      "subjectId": "ma",
+      "title": "Welche Genauigkeit zeigt den Unterschied?",
+      "scope": "Freiwilliger gestützter 7/8-Einstieg in das M5-Ziel bis Ende Klasse 8: zwei Dreiecksflächen ungerundet berechnen, für zwei Aussagezwecke passende Rundungsstufen wählen und den Informationsverlust begründen. Keine bestätigte aktuelle Unterrichtseinheit.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Hilfreich sind die Dreiecksflächenformel und Dezimalzahlen. Falls dir die Formel noch nicht einfällt, halte zuerst einen eigenen Versuch fest und schlage sie dann nach. Alle Zahlen sind genaue erfundene Modellangaben; du brauchst nichts real auszumessen oder zu kaufen. Die App bewertet freie Antworten nicht automatisch.",
+      "introduction": "Zwei dreieckige Flächen sind nur ein Rechenmodell. Beide haben die senkrechte Höhe 5 m. Die Grundseite von A ist 10,72 m, die von B 10,96 m. Eine kurze Übersicht soll ganze Quadratmeter zeigen; eine zweite Zeile soll erkennen lassen, welche Modellfläche grösser ist. Rechne zunächst ohne Rundung. Die 20 Hauptpunkte und 6 getrennten Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–E",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–E festhalten und neue Grundseite zeigen",
+        "text": "FREIWILLIGE NEUE VARIANTE NACH A–E · Die neue Grundseite gilt nur für Fläche A. Sechs Zusatzpunkte getrennt vom Hauptteil."
+      },
+      "tasks": [
+        {
+          "id": "ma-rundungswahl-a",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A · Exakte Modellflächen (6 Hauptpunkte): Schreibe die Dreiecksflächenformel auf. Berechne die Flächen A und B mit Rechenweg und Einheit. Behalte die Werte zunächst ungerundet.",
+          "sample": "Dreiecksfläche F = g·h/2. A = 10,72·5/2 = 26,8 m²; B = 10,96·5/2 = 27,4 m². Es sind exakte Werte innerhalb des erfundenen Modells.",
+          "criteria": [
+            "Je Fläche 1 Punkt für den passenden Ansatz mit senkrechter Höhe, 1 für das richtige Ergebnis und 1 für m²; zusammen 6. Die gemeinsame Formel genügt, wenn ihre Anwendung bei beiden Flächen erkennbar ist."
+          ]
+        },
+        {
+          "id": "ma-rundungswahl-b",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Kurzübersicht (4 Hauptpunkte): Runde beide Flächen auf ganze Quadratmeter und kennzeichne jeweils die Näherung mit ≈ oder „ungefähr“. Was lässt sich an dieser Übersicht schnell ablesen? Was lässt sich daraus über den Grössenunterschied nicht sicher ablesen?",
+          "sample": "A ≈27 m² und B ≈27 m². Für einen groben Überblick liegen beide bei ungefähr 27 m². Dasselbe gerundete Ergebnis belegt keine Gleichheit der ungerundeten Flächen.",
+          "criteria": [
+            "Je 1 Punkt für beide korrekt gerundeten Anzeigewerte.",
+            "1 Punkt für ≈/ungefähr als Näherungskennzeichnung.",
+            "1 Punkt für den Zweck des groben Überblicks und die Grenze: aus gleichen gerundeten Anzeigen folgt keine Gleichheit der Ausgangswerte."
+          ]
+        },
+        {
+          "id": "ma-rundungswahl-c",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C · Vergleichszeile (5 Hauptpunkte): Wähle eine passende Genauigkeit aus ganzen Quadratmetern, Zehntel-Quadratmetern oder den ungerundeten Modellwerten. Schreibe beide Flächen in dieser Form mit Einheit auf, nenne die grössere Fläche und begründe, weshalb deine Wahl die Vergleichsfrage besser beantwortet als die Kurzübersicht.",
+          "sample": "Auf Zehntel: A ≈26,8 m², B ≈27,4 m²; B ist grösser. Die Kurzübersicht 27/27 verdeckt die Differenz. Ebenso zulässig sind die exakten ungerundeten Modellwerte A=26,8 m² und B=27,4 m², wenn der Zweck begründet wird.",
+          "criteria": [
+            "1 Punkt für eine für den Grössenvergleich passende Genauigkeit; ganze Quadratmeter allein reichen hier nicht.",
+            "2 Punkte für beide passend dargestellten Vergleichswerte mit Einheit, auch bei begründet ungerundeter Darstellung.",
+            "1 Punkt für B als grössere Modellfläche.",
+            "1 Punkt für die Erklärung, warum diese Darstellung den Unterschied im Vergleich zur ganzen Kurzübersicht sichtbar hält."
+          ]
+        },
+        {
+          "id": "ma-rundungswahl-d",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "D · Einen Fehlschluss korrigieren (3 Hauptpunkte): Sam sieht in der Kurzübersicht für beide Flächen denselben gerundeten Wert und schreibt: „Die Flächen sind gleich gross.“ Erkläre, was an diesem Schluss nicht folgt. Formuliere seine Aussage mit deinen Vergleichswerten aus C genauer.",
+          "sample": "Die gleichen gerundeten Anzeigen beweisen keine Gleichheit der ungerundeten Modellflächen. Hier ist B genau 0,6 m² grösser als A. Genauer: „Beide erscheinen in der groben Übersicht gleich, aber B ist im Modell grösser.“",
+          "criteria": [
+            "1 Punkt für den Denkfehler: gleiche Anzeige ist nicht gleiche Ausgangsfläche.",
+            "1 Punkt für richtige Ordnung oder Differenz 0,6 m².",
+            "1 Punkt für eine klare, begrenzte Ersatzformulierung."
+          ]
+        },
+        {
+          "id": "ma-rundungswahl-e",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "E · Aussagegrenze (2 Hauptpunkte): Nenne eine Annahme deiner Rechnung. Erkläre, weshalb die Nachkommastellen hier genaue Modellwerte sind, aber keine ebenso genaue reale Vermessung belegen.",
+          "sample": "Die Höhe ist bei beiden Dreiecken genau 5 m und steht senkrecht zur Grundseite; das ist eine Modellannahme. Die Dezimalzahlen sind vorgegeben und exakt innerhalb dieses Modells. Ohne echte Messbedingungen ist damit keine reale Messgenauigkeit belegt.",
+          "criteria": [
+            "1 Punkt für eine passende Modellannahme.",
+            "1 Punkt für die Trennung zwischen exakten fiktiven Modellwerten und unbelegter realer Messgenauigkeit."
+          ]
+        },
+        {
+          "id": "ma-rundungswahl-f",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "F · Freiwillige neue Variante (6 Zusatzpunkte): Nur die Grundseite von Fläche A ändert sich im Modell auf genau 10,88 m; Höhe und Fläche B bleiben gleich. Berechne A neu, erstelle eine Übersicht auf ganze Quadratmeter und wähle eine Genauigkeit, mit der der Vergleich zu B verständlich bleibt. Erkläre, welche Information die Rundung auf ganze Quadratmeter verliert.",
+          "sample": "A_neu = 10,88·5/2 = 27,2 m². Beide ganzen Anzeigen sind ≈27 m². Auf Zehntel bleibt A≈27,2 m², B≈27,4 m²; B ist 0,2 m² grösser. Die ganzen Anzeigen verdecken diesen Unterschied.",
+          "criteria": [
+            "1 Zusatzpunkt für Ansatz und neue Fläche 27,2 m².",
+            "1 für die ganze Kurzübersicht mit Näherung.",
+            "1 für passende Vergleichsgenauigkeit.",
+            "1 für beide Vergleichswerte mit Einheit.",
+            "1 für die richtige Reihenfolge.",
+            "1 für die Erklärung des Informationsverlusts. Zusatzsumme getrennt ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Mathematik-Erprobungsfassung ab 2026/27 für Klasse 7 und 2027/28 für Klasse 8; §2.2.5, PDF-S. 27: Dreiecksflächen und sachbezogenes Runden unter Zielmarke Klassenstufe 8. Keine individuelle Stofffolge belegt.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "ma-runden-materialentscheidung",
       "subjectId": "ma",
       "title": "Eine Dreiecksfläche knapp über der Grenze",

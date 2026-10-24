@@ -596,6 +596,8 @@
         state.answers[marker] = 'ja'; save();
         mainInputs.forEach(input => { input.readOnly = true; });
         updateButton.hidden = true; updateText.hidden = false; transferTask.hidden = false;
+        const autoCheck = host.querySelector('.auto-check-card');
+        if (autoCheck) autoCheck.hidden = false;
         updateText.scrollIntoView({ block: 'start', behavior: 'instant' });
       }, 'check-button');
       updateButton.disabled = !mainComplete();
@@ -614,11 +616,31 @@
       }
     }
     if (topic.practice && !topic.practiceBeforeLastTask) host.append(renderPractice(topic.practice, false));
+    if (topic.autoCheck) host.append(renderAutoCheck(topic));
     const storage = appendText(host, 'p', 'privacy-note', 'Deine Antworten werden nur in diesem Browser gespeichert.'); storage.id = 'storage-status';
   }
-  function renderTask(topic, task, index) {
+  function renderAutoCheck(topic) {
+    const check = topic.autoCheck;
+    const section = create('section', 'work-intro auto-check-card');
+    const marker = `${topic.tasks[0].id}-update-gezeigt`;
+    section.hidden = !!check.afterMain && state.answers[marker] !== 'ja';
+    appendText(section, 'p', 'eyebrow', 'Freiwilliger Mini-Check');
+    appendText(section, 'h3', '', 'Eindeutige Antworten selbst prüfen');
+    appendText(section, 'p', 'muted', 'Diese Auswahlfragen kann die App auf deinem Gerät prüfen. Das Ergebnis ist ein Übungsstand, keine Schulnote. Deine offenen Begründungen und die Kriterienpunkte beurteilt der Mini-Check nicht.');
+    check.questions.forEach((question, index) => section.append(renderTask(topic, question, index, check.questions.length)));
+    const result = create('p', 'task-result'); result.setAttribute('aria-live', 'polite');
+    section.append(button('Mini-Check auswerten', () => {
+      const outcomes = check.questions.map(question => taskResult(question, state.answers[question.id] || ''));
+      const correct = outcomes.filter(outcome => outcome.status === 'correct').length;
+      const open = outcomes.filter(outcome => outcome.status === 'empty').length;
+      result.textContent = `${correct} von ${check.questions.length} Auswahlfragen richtig${open ? `; ${open} noch offen` : ''}. Du kannst Antworten ändern und erneut prüfen. Die offenen Schreibaufgaben werden hier nicht bewertet.`;
+    }, 'check-button'));
+    section.append(result);
+    return section;
+  }
+  function renderTask(topic, task, index, autoCheckTotal = 0) {
     const card = create('article', 'task-card'); card.dataset.taskId = task.id;
-    appendText(card, 'span', 'task-count', topic.practiceBeforeLastTask
+    appendText(card, 'span', 'task-count', autoCheckTotal ? `Mini-Check ${index + 1} von ${autoCheckTotal}` : topic.practiceBeforeLastTask
       ? `Notizfeld ${index + 1} von ${topic.tasks.length} · mündliche Praxis separat`
       : `Aufgabe ${index + 1} von ${topic.tasks.length}`);
     appendText(card, 'h3', '', task.prompt);

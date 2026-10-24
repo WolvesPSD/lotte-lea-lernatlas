@@ -1461,13 +1461,60 @@ window.LOTTE_CATALOG = Object.freeze({
       "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Lies beide erfundenen Meldungen genau. Bei einem unbekannten Fachwort darfst du erst eine eigene Erklärung versuchen und danach ein Wörterbuch oder Hilfe nutzen; notiere die Hilfe. Du brauchst keine echten Personen, Bäume oder Untersuchungen zu beschreiben.",
-      "introduction": "Zwei kurze, vollständig erfundene Meldungen benutzen dasselbe geschriebene Wort. Begründe die jeweilige Bedeutung mit Hinweisen aus den Zeilen. Eine knappe Notiz kann trotzdem offenbleiben. Die 20 Hauptpunkte sind Lernfeedback, keine Schulnote; die freiwilligen vier Zusatzpunkte werden getrennt gezählt. Schreibe zuerst eigene Antworten. Sachlösung und Kriterien stehen getrennt im Erwachsenenbereich.",
+      "introduction": "Zwei kurze, vollständig erfundene Meldungen benutzen dasselbe geschriebene Wort. Begründe die jeweilige Bedeutung mit Hinweisen aus den Zeilen. Eine knappe Notiz kann trotzdem offenbleiben. Die 20 Hauptpunkte sind Lernfeedback, keine Schulnote; die freiwilligen vier Zusatzpunkte werden getrennt gezählt. Schreibe zuerst eigene Antworten. Sachlösung und Kriterien stehen getrennt im Erwachsenenbereich. Nach dem Hauptteil gibt es einen freiwilligen, automatisch geprüften Auswahl-Mini-Check. Er bewertet deine offenen Begründungen nicht.",
       "passage": "A · Am Waldrand\n[Z1] Die Gruppe sucht den markierten Baum am Waldrand.\n[Z2] Auf dem Lagezettel steht: „Die Kiefer steht neben dem Weg.“\n[Z3] In der Skizze sind Kiefern mit einer breiten Krone und langen Nadeln eingezeichnet.\n\nB · Beim Zahnarzt\n[Z4] In einer erfundenen Geschichte wartet Levent auf eine Untersuchung.\n[Z5] Im Notizbuch steht: „Der Kiefer tut beim Kauen weh.“\n[Z6] In der Wortliste steht: „ein Kiefer, zwei Kiefer“. Beim Kauen bewegt sich der Unterkiefer.",
       "stagedUpdate": {
         "kind": "variant",
         "mainLabel": "1–5",
         "childPrintAfterUnlock": true,
         "text": "FREIWILLIGER TRANSFER NACH 1–5 · Eine dritte, ebenfalls erfundene Notiz lautet nur: „Kiefer beschädigt.“ Die vier Zusatzpunkte gehören nicht zur Hauptsumme."
+      },
+      "autoCheck": {
+        "afterMain": true,
+        "questions": [
+          {
+            "id": "de-kiefer-check-a",
+            "kind": "choice",
+            "prompt": "Welche Deutung passt zu A und B zusammen?",
+            "options": [
+              "A: Nadelbaum; B: Kieferknochen.",
+              "A: Kieferknochen; B: Nadelbaum.",
+              "Beide Meldungen meinen sicher denselben Baum."
+            ],
+            "correct": "A: Nadelbaum; B: Kieferknochen.",
+            "explanation": [
+              "A nennt Waldrand, Baum und Nadeln; B nennt Zahnarzt, Kauen und Unterkiefer."
+            ]
+          },
+          {
+            "id": "de-kiefer-check-b",
+            "kind": "choice",
+            "prompt": "Welche Wortformen stehen in den erfundenen Meldungen?",
+            "options": [
+              "Baum: die Kiefer / Kiefern; Knochen: der Kiefer / Kiefer.",
+              "Baum: der Kiefer / Kiefer; Knochen: die Kiefer / Kiefern.",
+              "Beide Bedeutungen haben hier denselben Artikel und dieselbe Mehrzahl."
+            ],
+            "correct": "Baum: die Kiefer / Kiefern; Knochen: der Kiefer / Kiefer.",
+            "explanation": [
+              "Z2–Z3 zeigen die Kiefer/Kiefern, Z5–Z6 der Kiefer/zwei Kiefer. Beim Knochen ist regional auch „das Kiefer“ belegt; der Mini-Check fragt nur die Formen dieser Meldungen ab."
+            ]
+          },
+          {
+            "id": "de-kiefer-check-c",
+            "kind": "choice",
+            "prompt": "Was lässt sich aus „Kiefer beschädigt“ ohne weiteren Zusammenhang sicher folgern?",
+            "options": [
+              "Die gemeinte Bedeutung bleibt offen; eine Rückfrage kann sie klären.",
+              "Es ist sicher der Baum, weil beschädigte Bäume häufiger vorkommen.",
+              "Es ist sicher der Knochen, weil ein Wörterbuch die Absicht der schreibenden Person kennt."
+            ],
+            "correct": "Die gemeinte Bedeutung bleibt offen; eine Rückfrage kann sie klären.",
+            "explanation": [
+              "Ein Wörterbuch erklärt Wortbedeutungen, aber nicht die Absicht hinter dieser kurzen erfundenen Notiz."
+            ]
+          }
+        ]
       },
       "tasks": [
         {

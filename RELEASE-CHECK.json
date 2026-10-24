@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-23T10:15:50.403Z",
-  "releaseVersion": "2026.10.23-dekiefer.1",
-  "newTopicIds": [
-    "de-homonym-kiefer"
-  ],
+  "builtAt": "2026-10-23T23:49:21.523Z",
+  "releaseVersion": "2026.10.24-autocheck.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Deutsch: neuer freiwilliger 7/8-Homonymfall zu Kiefer mit zwei erfundenen Meldungen, Kontext-, Artikel- und Pluralprüfung.",
-    "Fünf Hauptaufträge mit 20 Kriterienpunkten, vier getrennte Zusatzpunkte erst danach; lösungsfreier Kinderdruck und getrennte Erwachsenenlösung. Kein belegter aktueller Schulstoff oder automatische Bewertung."
+    "Deutsch Kiefer: freiwilliger lokaler Auswahl-Mini-Check mit drei eindeutig prüfbaren Fragen nach dem Hauptteil.",
+    "Die App zeigt einen wiederholbaren Übungsstand; offene Begründungen und Kriterienpunkte bleiben menschlich zu prüfen. Der Kinderdruck bleibt ohne Lösungen."
   ],
-  "rollbackCommit": "ea46f2a2717ae277fccb77ba5dcfd2ad26d072ee",
+  "rollbackCommit": "dec23427156bc62cf6d7f9d24bc15017964a7bd4",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",

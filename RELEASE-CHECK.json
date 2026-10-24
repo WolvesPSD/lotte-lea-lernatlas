@@ -1,12 +1,14 @@
 {
-  "builtAt": "2026-10-24T04:51:42.944Z",
-  "releaseVersion": "2026.10.24-frpoemtext.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Französisch: Im Gedicht Sous le parapluie eine mehrdeutige falsche Kurzfassung durch eine eindeutig vom Text widerlegte Aussage ersetzt.",
-    "Wortstütze la cour auf Hof/Innenhof berichtigt; Aufgaben und Punktzahl bleiben gleich."
+  "builtAt": "2026-10-24T05:23:30.265Z",
+  "releaseVersion": "2026.10.24-mbidates.1",
+  "newTopicIds": [
+    "mbi-i1-datumswerte-sortieren"
   ],
-  "rollbackCommit": "22d722fadd1ad1f0fd8509ed7cf430a98f49aafc",
+  "changeLog": [
+    "Medienbildung und Informatik: freiwillige Datumswerte-Übung mit fünf Hauptaufgaben und späterer Änderung ergänzt.",
+    "Lösungsfreies Excel-Startblatt mit erfundenen Rohangaben als Download; Datumswerte und Sortierung erstellt das Kind selbst."
+  ],
+  "rollbackCommit": "d1325fd234e41e30477f9548e76e27cfa9507ee3",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -136,7 +138,8 @@
     "mbi-sternnetz-feedranking",
     "mbi-teamdaten-gegenpruefen",
     "de-zwei-spuren-leseweg",
-    "ma-runden-materialentscheidung"
+    "ma-runden-materialentscheidung",
+    "mbi-i1-datumswerte-sortieren"
   ],
   "subjects": [
     "mnt",
@@ -186,7 +189,8 @@
     "en-survey-questionnaire-table",
     "en-living-things-comparison-foxes",
     "en-invite-mini-comics-workshop",
-    "ma-runden-materialentscheidung"
+    "ma-runden-materialentscheidung",
+    "mbi-i1-datumswerte-sortieren"
   ],
   "unclearValidityTopics": [
     "et-jugendrat-budgetwerte",

@@ -12246,6 +12246,132 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "PDF-S. 2: Erprobungsfassung für Klasse 7 ab 2026/27; §2.2.5 PDF-S. 27 unter Klassenstufe 8: Dreiecksflächen, sinnvolle Einheiten, sachbezogenes Runden und Reflexion zu Formelsammlung und digitalen Mathematikwerkzeugen. Keine Klasse-7-Reihenfolge vorgegeben.",
         "checkedAt": "2026-10-24"
       }
+    },
+    {
+      "id": "mbi-i1-datumswerte-sortieren",
+      "subjectId": "mbi",
+      "title": "Termine als Daten erfassen und ordnen",
+      "scope": "Freiwilliger Ausblick auf das MBI-Ziel Ende Klasse 8 im 7/8-Lernzeitraum. Alle Sternabend-Termine sind erfunden; Lottes aktuelle Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst ein vorhandenes lokales Tabellenprogramm wie Excel oder Calc. Falls keines da ist, plane die Tabelle auf Papier und kennzeichne die digitale Prüfung als offen. Keine echten Termine, Namen oder Cloudkonten verwenden.",
+      "introduction": "Vier erfundene Tätigkeiten sollen für einen Sternabend geordnet werden. Im Startblatt stehen Rohangaben, aber die Termine dort sind noch Text. Erfasse sie selbst als echte Datumswerte im leeren Bereich. Prüfe Zahltyp und angezeigten Kalendertag getrennt und sortiere danach alle vier Spalten gemeinsam. Die App sieht deine Datei nicht und bewertet offene Antworten nicht automatisch. A–E ergeben 20 Lernpunkte; die Änderung danach zählt sechs getrennte Zusatzpunkte.",
+      "passage": "FIKTIVE ROHANGABEN · Sternkartenhalter falten: 02.10.2026, 25 Minuten, offen. Sternrad beschriften: 30.09.2026, 15 Minuten, erledigt. Beobachtungsnotiz ordnen: 04.10.2026, 20 Minuten, offen. Materialliste prüfen: 01.10.2026, 5 Minuten, prüfen. Keine echten Schultermine oder Personendaten.",
+      "lab": {
+        "path": "assets/mbi-i1-datumswerte.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/mbi-i1-datumswerte.html",
+        "title": "Sternabend-Startblatt herunterladen",
+        "description": "Lösungsfreies XLSX mit fiktiven Rohangaben und leerem Arbeitsbereich. Die Terminangaben der Quelle sind absichtlich Text.",
+        "printNote": "Die Datei im Übungsraum separat herunterladen. Ein Ausdruck belegt keine Datums-Eingabe, Typkontrolle oder Sortierhandlung.",
+        "scoredInteraction": false
+      },
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–E",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGE ÄNDERUNG NACH A–E · „Sternkartenhalter falten“ wird im fiktiven Plan auf den 29.09.2026 vorgezogen. Ändere nur diesen Termin als Datum, sortiere die vollständige Tabelle erneut und prüfe, ob Tätigkeit, Termin, Minuten und Stand zusammenbleiben. Die sechs Zusatzpunkte gehören nicht zur Hauptsumme."
+      },
+      "tasks": [
+        {
+          "id": "mbi-datumswerte-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Datentypen planen (4 Hauptpunkte): Ordne Tätigkeit, geplanter Termin, Vorbereitungszeit und Stand den Typen Text, Datum oder Zahl zu. Weshalb ist ein Termin als Datum anders zu behandeln als der Text „30 Minuten“?",
+          "sample": "Tätigkeit und Stand sind Text; der Termin ist ein Datumswert; die reine Minutenzahl ist eine Zahl, während die Einheit in der Überschrift steht. „30 Minuten“ als Ganzes ist Text und kein Datumswert. Das sichtbare Format allein beweist den gespeicherten Typ nicht.",
+          "criteria": [
+            "1 Punkt für Tätigkeit und Stand als Text.",
+            "1 Punkt für Termin als Datum.",
+            "1 Punkt für Minuten als reine Zahl mit Einheit in der Überschrift.",
+            "1 Punkt für eine verständliche Grenze zwischen zeitlich sortierbarem Datum und Textangabe."
+          ]
+        },
+        {
+          "id": "mbi-datumswerte-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Tabelle anlegen (4 Hauptpunkte): Übertrage vier passende Überschriften und alle vier Rohzeilen in den leeren Bereich der heruntergeladenen Datei. Erfasse die Termine als Datumswerte und zeige Tag, Monat und vierstelliges Jahr an. Was konntest du im Programm wirklich ausführen? Falls nur Papier möglich ist, markiere digitale Handlungspunkte als ungeprüft.",
+          "sample": "Eine vollständige Tabelle hat vier Überschriften und alle vier Datensätze. Termin-Zellen zeigen 30.09.2026, 01.10.2026, 02.10.2026 und 04.10.2026 im gewünschten Kalenderformat, auch wenn die Zeilen zunächst anders geordnet sind. Ein Download oder Textbericht beweist keine Eingabe.",
+          "criteria": [
+            "1 Punkt für vier passende Überschriften.",
+            "1 Punkt für vier vollständige Datensätze.",
+            "1 Punkt für korrekte Zuordnung aller vier Spalten.",
+            "1 Punkt für Datumsanzeige mit Tag, Monat und vierstelligem Jahr. Digitale Eingabe nur bei beobachteter Datei bewerten; sonst nicht erhoben."
+          ]
+        },
+        {
+          "id": "mbi-datumswerte-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Datum prüfen (4 Hauptpunkte): Prüfe alle vier Termin-Zellen mit ISTZAHL oder ISNUMBER und notiere die vier Ergebnisse. Vergleiche zusätzlich die sichtbaren Kalendertage mit der Rohkarte. Warum beweist WAHR/TRUE allein noch keinen richtigen Termin? Beispiel: =ISTZAHL(B6), wenn dein erstes Datum in B6 steht; Zelladresse an deine Tabelle anpassen.",
+          "sample": "Alle vier Prüfungen zeigen WAHR/TRUE, wenn echte Datumswerte statt Datumstext vorliegen. Zusätzlich stimmen die angezeigten Tage mit der Rohkarte überein. Die Zahlprüfung trennt Zahl von Text, beweist allein aber weder das passende Datum noch überhaupt eine Datumseingabe. Die tatsächliche Programmprüfung nur nach Sichtkontrolle werten.",
+          "criteria": [
+            "2 Punkte für vier passende ISTZAHL/ISNUMBER-Prüfungen mit WAHR/TRUE; bei zwei oder drei richtigen ein Punkt.",
+            "1 Punkt für Abgleich aller vier sichtbaren Kalendertage.",
+            "1 Punkt für die Grenze: Zahltyp allein belegt den richtigen Kalendertag nicht. Digitale Prüfung ohne Programmansicht nicht erhoben."
+          ]
+        },
+        {
+          "id": "mbi-datumswerte-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Ganze Zeilen sortieren (4 Hauptpunkte): Ordne die vollständige Tabelle vom frühesten zum spätesten Termin. Nenne die Reihenfolge und kontrolliere, ob Tätigkeit, Minuten und Stand bei jedem Termin geblieben sind. Beschreibe, was tatsächlich sortiert wurde.",
+          "sample": "Sternrad beschriften 30.09.2026/15/erledigt; Materialliste prüfen 01.10.2026/5/prüfen; Sternkartenhalter falten 02.10.2026/25/offen; Beobachtungsnotiz ordnen 04.10.2026/20/offen. Nur die Datumsspalte zu sortieren würde Zeilenbezüge zerstören.",
+          "criteria": [
+            "2 Punkte für die vollständige richtige Datumsreihenfolge, bei genau zwei richtig platzierten Terminen ein Punkt.",
+            "1 Punkt für Sortierung aller vier Spalten als gemeinsame Tabelle.",
+            "1 Punkt für nachweislich kontrollierte Zeilenzuordnung. Aus Text allein keine beobachtete Sortierhandlung ableiten."
+          ]
+        },
+        {
+          "id": "mbi-datumswerte-5",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "E · Aussagegrenze (4 Hauptpunkte): Was zeigt die geordnete Liste über die fiktiven Termine? Was beweist sie nicht? Nenne eine konkrete Kontrolle, mit der du falsche Eingaben erkennen könntest.",
+          "sample": "Die Tabelle zeigt die Reihenfolge der eingegebenen fiktiven Termine. Sie beweist weder echte Vereinbarungen noch erledigte Tätigkeiten. Ein schön formatiertes Datum kann falsch eingegeben sein. Ein Abgleich jeder vollständigen Zeile mit den Rohangaben findet mögliche Eingabe- oder Zuordnungsfehler.",
+          "criteria": [
+            "1 Punkt für Reihenfolge der vorgegebenen fiktiven Termine.",
+            "1 Punkt für keine reale Vereinbarung oder Erledigung.",
+            "1 Punkt dafür, dass Anzeige oder Tabellenzeile keine Datenrichtigkeit beweisen.",
+            "1 Punkt für konkrete Quellen- oder Zeilenkontrolle."
+          ]
+        },
+        {
+          "id": "mbi-datumswerte-6",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige spätere Änderung · sechs getrennte Zusatzpunkte: Lies die neue Terminkarte, ändere nur den Termin von „Sternkartenhalter falten“, sortiere die ganze Tabelle erneut und prüfe die vier Angaben dieser Zeile. Welche Aussage über echte Termine oder erledigte Tätigkeiten bleibt weiterhin unzulässig?",
+          "sample": "Sternkartenhalter falten 29.09.2026/25/offen steht nun zuerst. Danach folgen Sternrad 30.09., Materialliste 01.10. und Beobachtungsnotiz 04.10. Die vollständige Tabelle wurde neu sortiert, alle Zeilenbezüge bleiben erhalten; reale Vereinbarung oder Erledigung folgt daraus nicht.",
+          "criteria": [
+            "2 Zusatzpunkte für neuen Termin als geprüften Datumswert, bei nur richtigem Textwert höchstens ein Punkt.",
+            "2 Zusatzpunkte für erneute Gesamtsortierung und neue erste Zeile, je einer.",
+            "2 Zusatzpunkte für erhaltene Zeilenzuordnung und reale Aussagegrenze, je einer. Digitale Handlung ohne Programmansicht nicht erhoben."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: MBI Klasse 8 ab 2027/28. §2.2.1 PDF-S. 24: Text, Zahl und Datum als Datentypen zuordnen und Daten strukturiert erfassen, Zielmarke Ende Klasse 8; keine aktuelle Schuleinheit nachgewiesen.",
+        "checkedAt": "2026-10-24"
+      }
     }
   ]
 });

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sternabend · Termine als Daten</title>
+<style>
+  :root{font-family:system-ui,Arial,sans-serif;color:#19383a;background:#f4f7f5}
+  *{box-sizing:border-box}body{margin:0}main{max-width:820px;margin:auto;padding:1rem}
+  h1{font-size:clamp(1.5rem,5vw,2rem)}h2{font-size:1.2rem;margin-top:0}p,li{line-height:1.55}
+  .card{background:#fff;border:1px solid #c8d8d2;border-radius:.75rem;padding:1rem;margin:1rem 0}
+  .note{background:#e4f1eb;border-left:5px solid #25745f;padding:.8rem 1rem}
+  .download{display:inline-block;min-height:44px;padding:.7rem 1rem;border-radius:.4rem;background:#145d61;color:#fff;font-weight:700;text-decoration:none}
+  .download:focus-visible{outline:3px solid #b96c00;outline-offset:3px}
+  .scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:540px}th,td{border:1px solid #bbcbc6;padding:.55rem;text-align:left}th{background:#e9f2ef}td:nth-child(3){text-align:right}
+  code{background:#ecf2f0;padding:.12em .25em;border-radius:.2em}small{color:#4b6261}
+  @media print{body{background:#fff}.card{break-inside:avoid}main{max-width:none}.download{color:#145d61;background:#fff}}
+</style>
+</head>
+<body><main>
+<h1>Sternabend: Termine als Daten</h1>
+<p class="note">Freiwilliger Ausblick auf das Ziel Ende Klasse 8. Alle Angaben sind erfunden. Nutze ein bereits vorhandenes Tabellenprogramm und speichere lokal. Die Website erhält deine Datei nicht.</p>
+<section class="card" aria-labelledby="start"><h2 id="start">Leeres Startblatt</h2>
+<p>Im gelben Bereich A5:D9 legst du Überschriften und vier Zeilen selbst an. Rechts stehen die Rohangaben. <strong>Die vier Quelltermine sind dort absichtlich Text</strong>; das Startblatt enthält keine fertigen Datumswerte, Formeln, Sortierung oder Lösungen.</p>
+<p><a class="download" href="mbi-i1-datumswerte-start.xlsx" download="mbi-i1-datumswerte-start.xlsx" type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">Excel-Startblatt herunterladen</a></p>
+<small>Auch Calc kann XLSX-Dateien öffnen. Ob die Datumseingabe auf deinem Gerät gelingt, prüfst du erst im Programm. Falls du nur Papier nutzt, bleibt die digitale Handlung ungeprüft.</small></section>
+<section class="card" aria-labelledby="quelle"><h2 id="quelle">Fiktive Rohangaben</h2><div class="scroll"><table><caption>Vier Tätigkeiten für einen erfundenen Sternabend</caption><thead><tr><th>Tätigkeit</th><th>Geplanter Termin als Rohtext</th><th>Minuten</th><th>Stand</th></tr></thead><tbody>
+<tr><td>Sternkartenhalter falten</td><td>02.10.2026</td><td>25</td><td>offen</td></tr>
+<tr><td>Sternrad beschriften</td><td>30.09.2026</td><td>15</td><td>erledigt</td></tr>
+<tr><td>Beobachtungsnotiz ordnen</td><td>04.10.2026</td><td>20</td><td>offen</td></tr>
+<tr><td>Materialliste prüfen</td><td>01.10.2026</td><td>5</td><td>prüfen</td></tr>
+</tbody></table></div></section>
+<section class="card" aria-labelledby="weg"><h2 id="weg">Dein Arbeitsweg</h2><ol>
+<li>Schreibe Überschriften in A5:D5. Erfasse darunter die vier Tätigkeiten mit Termin, reiner Minutenzahl und Stand. Trage die Termine so ein, dass dein Programm sie als Datum verarbeitet; die richtige Eingabe hängt von Programm und Gebietsschema ab.</li>
+<li>Zeige Tag, Monat und vierstelliges Jahr an. Prüfe jede Termin-Zelle mit <code>ISTZAHL</code> oder <code>ISNUMBER</code>, zum Beispiel <code>=ISTZAHL(B6)</code> für das erste Datum in B6. Viermal WAHR/TRUE ist ein Typ-Hinweis. Vergleiche zusätzlich jeden sichtbaren Kalendertag mit den Rohangaben.</li>
+<li>Sortiere <strong>A5:D9 zusammen</strong> vom frühesten zum spätesten Termin. Kontrolliere danach jede vollständige Zeile. Nur Spalte B zu sortieren würde Angaben voneinander trennen.</li>
+<li>Erst nach den Hauptaufgaben erscheint im Lernatlas eine freiwillige Terminänderung. Nimm sie dann in deiner Datei vor und prüfe erneut.</li>
+</ol><p>Die App kann weder deine Excel-/Calc-Datei noch eine tatsächliche Sortierhandlung sehen. Beschreibe nur Schritte, die du ausgeführt hast. Die Erwachsenenlösung ist separat.</p></section>
+</main></body></html>

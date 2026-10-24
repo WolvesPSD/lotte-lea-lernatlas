@@ -12733,6 +12733,132 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "en-red-panda-field-guide",
+      "subjectId": "en",
+      "title": "A small field guide: the red panda",
+      "scope": "Freiwilliger, sprachlich gestützter Klasse-7-Vorgriff auf das Beschreiben eines Lebewesens und Überarbeiten eigener Texte als Ende-Klasse-8-Ziel. Keine bestätigte Schuleinheit oder Aussage über Lottes Lernstand.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Alle benötigten Fakten stehen in der eigenen kurzen Sachkarte. Verwende keine Tierfotos, echten Namen oder zusätzlichen ungesicherten Behauptungen. Notizen dürfen auf Deutsch sein; für den Text ist ein zweisprachiges Wörterbuch erlaubt. Die App bewertet freie englische Texte nicht automatisch. Die freiwillige Bildunterschrift erscheint erst nach A–C.",
+      "introduction": "Write a short English field-guide label for younger visitors in a fictional school nature room. First plan four facts, then write your label. In C, copy one sentence from your own B text and improve it for a younger reader. The card is enough; the external source is for checking. A–C have 20 learning points, optional D has six separate points. These are feedback criteria, not a school grade.",
+      "sourceCards": [
+        {
+          "title": "Home",
+          "text": "Red pandas live in high mountain forests. Bamboo grows under the trees in these forests.",
+          "sourceLabel": "Smithsonian National Zoo · Red panda",
+          "sourceUrl": "https://nationalzoo.si.edu/animals/red-panda",
+          "sourceNote": "Artenseite, abgerufen 24.10.2026; kurze eigene Sachparaphrase ohne Bild."
+        },
+        {
+          "title": "Food",
+          "text": "Bamboo makes up about 95% of a red panda’s diet. Red pandas feed selectively on leaf tips and, when available, tender bamboo shoots. The page also names other foods they may eat.",
+          "sourceLabel": "Smithsonian National Zoo · Red panda",
+          "sourceUrl": "https://nationalzoo.si.edu/animals/red-panda",
+          "sourceNote": "Artenseite, abgerufen 24.10.2026; kurze eigene Sachparaphrase ohne Bild."
+        },
+        {
+          "title": "Coat",
+          "text": "A red panda’s reddish coat can blend in among reddish-brown moss and pale lichens in fir-tree branches.",
+          "sourceLabel": "Smithsonian National Zoo · Red panda",
+          "sourceUrl": "https://nationalzoo.si.edu/animals/red-panda",
+          "sourceNote": "Artenseite, abgerufen 24.10.2026; kurze eigene Sachparaphrase ohne Bild."
+        },
+        {
+          "title": "Tail",
+          "text": "A long, bushy tail helps a red panda keep its balance in trees and protects it from cold and wind.",
+          "sourceLabel": "Smithsonian National Zoo · Red panda",
+          "sourceUrl": "https://nationalzoo.si.edu/animals/red-panda",
+          "sourceNote": "Artenseite, abgerufen 24.10.2026; kurze eigene Sachparaphrase ohne Bild."
+        }
+      ],
+      "passage": "WORD HELP · high mountain forest = Hochgebirgswald; bamboo = Bambus; leaf tip / shoot = Blattspitze / junger Trieb; coat = Fell; moss / lichen = Moos / Flechte; bushy tail = buschiger Schwanz; keep its balance = das Gleichgewicht halten. You may use “Red pandas live …”, “They mainly eat …” or “Their tail helps …”. The source link leaves this learning room; you do not need to open it to answer.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–C festhalten und Bildunterschrift zeigen",
+        "text": "OPTIONAL D AFTER A–C · The nature room needs a short display caption. Use one useful fact from the card in no more than 12 English words. Do not add an unsupported claim. The six extra points are separate."
+      },
+      "tasks": [
+        {
+          "id": "en-red-panda-plan",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Plan a field-guide label (4 main points). Write one short note for each part: Home, Food, Coat or tail, and one fact to remember. Notes may be in English or German. Use only the card and do not compare the red panda with another animal.",
+          "sample": "Home: high mountain forest with bamboo under the trees. Food: bamboo is about 95% of the diet. Coat or tail: bushy tail helps balance and protects from cold/wind. Remember: red pandas select bamboo leaf tips. Equivalent accurate notes count.",
+          "criteria": [
+            "1 point for a correct Home note.",
+            "1 point for a correct Food note.",
+            "1 point for a correct Coat or tail note with a supported function.",
+            "1 point for a distinct, accurate memorable fact. Do not count the same copied phrase twice without a different aspect."
+          ]
+        },
+        {
+          "id": "en-red-panda-guide",
+          "kind": "reflection",
+          "points": 12,
+          "writingLines": 12,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "B · Write the guide label (12 main points). Under the heading “Red panda”, try four to six short English sentences for younger visitors. Explain the high mountain forest home and bamboo under the trees; say that bamboo is the main food and name leaf tips plus tender shoots when available. Choose the coat or tail and explain its function from the card. Order the facts helpfully. Do not invent a fact or write “always” about every red panda. A different clear sentence count is okay.",
+          "sample": "Red panda. Red pandas live in high mountain forests. Bamboo grows under the trees and makes up most of their diet. They select leaf tips and eat tender shoots when available. Their red coat helps them blend in among moss and pale lichens in fir-tree branches. Other accurate labels and the tail option count.",
+          "criteria": [
+            "1 point: high mountain forest and bamboo below the trees.",
+            "1 point: bamboo as the main food or about 95% of the diet.",
+            "1 point: both leaf tips and tender shoots when available; do not deduct twice for one food error.",
+            "2 points: one accurate body feature, coat or tail.",
+            "2 points: supported function of that selected feature.",
+            "2 points: useful order in a connected short label.",
+            "1 point: no unsupported fact or absolute claim.",
+            "1 point: suitable for the stated younger audience.",
+            "1 point: understandable English; minor errors alone do not lose the point. Sentence count is guidance, not a hidden deduction."
+          ]
+        },
+        {
+          "id": "en-red-panda-revise",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "draftReferenceTaskId": "en-red-panda-guide",
+          "prompt": "C · Improve your own guide (4 main points). In the app, your B draft appears beside this task; on paper, use your B text above. Copy one actual sentence from it under “Before”, then write a clearer, shorter or more accurate version under “After” for a younger visitor. Keep the meaning within the fact card. If your first sentence is already good, make it easier to read.",
+          "sample": "Before: Their reddish coat can blend in among reddish-brown moss and pale lichens in fir-tree branches. After: Their red coat helps them blend in among moss and pale lichens in fir trees. Other genuine improvements to a sentence from the child’s own B text count.",
+          "criteria": [
+            "1 point: Before copies one actual sentence from the learner’s B draft.",
+            "2 points: After is clearer, easier to read or more accurate; a good original may be shortened.",
+            "1 point: supported meaning stays within the card. Do not require the example wording."
+          ]
+        },
+        {
+          "id": "en-red-panda-caption",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "Optional D after A–C (6 separate extra points). Write one useful display caption in 12 English words or fewer for younger visitors. Use one fact from the card; do not invent a claim.",
+          "sample": "Red pandas eat bamboo leaf tips. Other short accurate captions count.",
+          "criteria": [
+            "2 extra points: one accurate card fact.",
+            "1 extra point: useful choice for a younger visitor.",
+            "1 extra point: clear, simple English.",
+            "1 extra point: 12 words or fewer.",
+            "1 extra point: no unsupported claim. These are separate from A–C."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. §2.2.4/PDF-S. 29–30: Beschreiben von Lebewesen und adressatenbezogenes Planen, Schreiben und Überarbeiten als Ziel bis Ende Klasse 8; hier nur freiwilliger gestützter Vorgriff.",
+        "checkedAt": "2026-10-24"
+      }
+    },
+    {
       "id": "en-invite-mini-comics-workshop",
       "subjectId": "en",
       "title": "Invite Noor to a mini comics workshop",

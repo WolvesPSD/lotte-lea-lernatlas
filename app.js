@@ -660,6 +660,11 @@
       ? `Notizfeld ${index + 1} von ${topic.tasks.length} · mündliche Praxis separat`
       : `Aufgabe ${index + 1} von ${topic.tasks.length}`);
     appendText(card, 'h3', '', task.prompt);
+    if (task.draftReferenceTaskId) {
+      card.dataset.referenceTaskId = task.draftReferenceTaskId;
+      appendText(card, 'p', 'muted', 'Dein Entwurf aus B zum Vergleichen:');
+      appendText(card, 'blockquote', 'draft-reference', state.answers[task.draftReferenceTaskId] || 'Schreibe zuerst deinen eigenen Entwurf in B.');
+    }
     let input;
     if (task.kind === 'choice') {
       const group = create('div', 'choices');
@@ -679,7 +684,14 @@
     } else {
       input = create('textarea', 'answer-input'); input.rows = Number.isInteger(task.inputRows) && task.inputRows >= 4 && task.inputRows <= 18 ? task.inputRows : 4; input.setAttribute('aria-label', /^en-form-b\d{2}$/.test(task.id) ? task.prompt : `Antwort auf Aufgabe ${index + 1}`);
       input.value = state.answers[task.id] || '';
-      input.addEventListener('input', () => { state.answers[task.id] = input.value; save(); result.replaceChildren(); });
+      input.addEventListener('input', () => {
+        state.answers[task.id] = input.value; save(); result.replaceChildren();
+        document.querySelectorAll('.task-card[data-reference-task-id]').forEach(reference => {
+          if (reference.dataset.referenceTaskId === task.id) {
+            reference.querySelector('.draft-reference').textContent = input.value || 'Schreibe zuerst deinen eigenen Entwurf in B.';
+          }
+        });
+      });
     }
     card.append(input);
     const result = create('div', 'task-result'); result.setAttribute('aria-live', 'polite');

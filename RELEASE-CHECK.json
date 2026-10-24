@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-24T11:41:00.703Z",
-  "releaseVersion": "2026.10.24-mbii3transfer.1",
+  "builtAt": "2026-10-24T12:06:31.596Z",
+  "releaseVersion": "2026.10.24-enwredpanda.1",
   "newTopicIds": [
-    "mbi-i3-datenschutz-transfer"
+    "en-red-panda-field-guide"
   ],
   "changeLog": [
-    "MBI: eine Datenschutzregel in zwei erfundenen Diensten auf den jeweiligen Zweck übertragen und die Grenzen einer Gruppennachricht prüfen.",
-    "Eine öffentliche Zusatzkarte erst nach A–D freigeben; Kinderantworten, Erwachsene und Rechtsgrenze getrennt halten."
+    "Englisch: einen kurzen Sachtext über den Roten Panda für jüngere fiktive Besucher planen und einen eigenen Satz daraus überarbeiten.",
+    "Vier textbasierte Faktenkarten mit Quellenlink; freiwillige Bildunterschrift erst nach A–C, Erwachsenenlösung und Kinderdruck getrennt."
   ],
-  "rollbackCommit": "6eb443c2d2f3cf6b3cd2bd7d0c1cd2755062bad5",
+  "rollbackCommit": "97f1611b5830585eb5fadccf781bec3dacf041e7",
   "releasedTopics": [
     "mnt-volumen-masse-schulpraxis",
     "mnt-skelett-knochenformen",
@@ -143,6 +143,7 @@
     "en-picture-description-garden",
     "en-survey-questionnaire-table",
     "en-living-things-comparison-foxes",
+    "en-red-panda-field-guide",
     "en-invite-mini-comics-workshop",
     "ma-m4-rechnerprobe",
     "mbi-sternnetz-feedranking",
@@ -207,6 +208,7 @@
     "en-picture-description-garden",
     "en-survey-questionnaire-table",
     "en-living-things-comparison-foxes",
+    "en-red-panda-field-guide",
     "en-invite-mini-comics-workshop",
     "ma-runden-materialentscheidung",
     "fr-questionnaire-atelier-cartes",

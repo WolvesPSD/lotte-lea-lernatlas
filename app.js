@@ -602,7 +602,7 @@
       if (updateShown) mainInputs.forEach(input => { input.readOnly = true; });
       host.append(mainTasks);
       const mainComplete = () => topic.tasks.slice(0, -1).every(task => String(state.answers[task.id] || '').trim());
-      const updateButton = button(`Hauptantworten festhalten und ${topic.stagedUpdate.kind === 'variant' ? 'Variante' : 'Korrektur'} zeigen`, () => {
+      const updateButton = button(topic.stagedUpdate.buttonLabel || `Hauptantworten festhalten und ${topic.stagedUpdate.kind === 'variant' ? 'Variante' : 'Korrektur'} zeigen`, () => {
         if (!mainComplete()) return;
         state.answers[marker] = 'ja'; save();
         mainInputs.forEach(input => { input.readOnly = true; });
@@ -898,7 +898,7 @@
           : `Druckfolge: A zuerst, dann ${topic.firstTaskGate.afterLabel || 'B–D'}, zuletzt der freiwillige Transfer. Papier allein beweist keinen Hilfsmittelverzicht.`);
       if (topic.stagedUpdate && !topic.firstTaskGate && mode === 'child') appendText(section, 'p', 'print-context', hideChildUpdate
         ? `Druckfolge: Zuerst die Hauptaufgaben ${topic.stagedUpdate.mainLabel || 'A–C'} bearbeiten. Die Zusatzseite wird nach dem Festhalten dieser Antworten im Übungsraum freigegeben.`
-        : `Druckfolge: Zuerst die Hauptaufgaben ${topic.stagedUpdate.mainLabel || 'A–C'} auf den ersten Seiten bearbeiten. Die spätere ${topic.stagedUpdate.kind === 'variant' ? 'Variante' : 'Korrektur'} auf der Zusatzseite erst danach ansehen. Papier allein beweist diese Reihenfolge nicht.`);
+        : `Druckfolge: Zuerst die Hauptaufgaben ${topic.stagedUpdate.mainLabel || 'A–C'} auf den ersten Seiten bearbeiten. ${topic.stagedUpdate.printNote || `Die spätere ${topic.stagedUpdate.kind === 'variant' ? 'Variante' : 'Korrektur'} auf der Zusatzseite erst danach ansehen.`} Papier allein beweist diese Reihenfolge nicht.`);
       if (topic.diagram && !topic.diagram.afterFirstTask && (mode === 'child' || topic.diagram.adultPrint !== false)) {
         const figure = create('figure', 'print-diagram');
         const img = create('img'); img.src = topic.diagram.path; img.alt = topic.diagram.alt;

@@ -10024,6 +10024,69 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "en-write-retell-lantern-walk",
+      "subjectId": "en",
+      "title": "Retell a short story: The lantern walk",
+      "scope": "Freiwillige, gestützte Klasse-7-Brücke zum Ende-Klasse-8-Ziel „Texte nacherzählen“ in Englisch § 2.2.4. Die Unterrichtsfolge und Lottes Leistung sind nicht bekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Die Geschichte, Figuren und Orte sind erfunden. Schreibe deine Nacherzählung in eigenen englischen Worten; die Wortstützen sind freiwillig. Etwa 90–130 Wörter können dir beim Planen helfen, sind aber keine Bestehensgrenze. Die App bewertet freien Text nicht automatisch. Den Selbstcheck siehst du erst nach dem Festhalten deiner Erzählung. Dies ist ein freiwilliger Klasse-8-Ausblick, keine bestätigte aktuelle Unterrichtseinheit.",
+      "introduction": "Lies die kurze erfundene Geschichte L1–L10. Erzähle danach die wichtigen Ereignisse für eine Person nach, die nicht dabei war. Bleibe bei Jo und Mara, der dritten Person und der Reihenfolge. Nutze eigene englische Wörter; erfinde keine Gedanken oder neuen Ereignisse. 20 Kriterienpunkte helfen beim Feedback, sie sind keine Schulnote. Nach deiner Nacherzählung kannst du einen Selbstcheck öffnen.",
+      "passage": "THE LANTERN WALK · eine erfundene Geschichte\nL1 · On Friday afternoon, Jo and Mara prepared a short lantern walk at Willow Square, a fictional town square.\nL2 · The first visitors were due at six. Jo carried four arrow cards to mark the turns.\nL3 · At the first turn, she fastened one card to a wooden post with a paper loop.\nL4 · A strong gust broke the loop. The card landed in a puddle, and the arrow became blurred.\nL5 · Jo tried to dry it with her sleeve, but the arrow was still hard to read.\nL6 · Mara suggested using a ribbon, but they had no spare ribbon.\nL7 · Jo remembered that the gate desk had blank cards and a marker. She ran back and asked the helper, who lent her a blank card and a marker.\nL8 · Jo and Mara copied the arrow onto a new card, covered it with clear tape and tied it to the post with string. A second volunteer kept the visitors at the start while they worked.\nL9 · Before the walk began, Jo and Mara checked all four arrows.\nL10 · Jo stayed at the first turn until the last group saw the new arrow. Then she caught up with Mara.\n\nWORTHILFE · lantern walk = Laternenrundgang; arrow card = Richtungskarte; fastened = befestigte; gust = Windböe; paper loop = Papierschlaufe; blurred = verschwommen; puddle = Pfütze; sleeve = Ärmel; spare = übrig; lent = lieh aus; clear tape = durchsichtiges Klebeband; string = Schnur; caught up with = holte ein.\n\nMEHR HILFE, FALLS DU SIE MÖCHTEST · Notiere vor dem Schreiben vier Stationen: Vorbereitung; Problem; Versuche und Reparatur; Kontrolle und Jos letzte Handlung. Mögliche Satzanfänge: At first … / When … / Because … / After that … / Finally … . Für einen schwierigeren Weg verbinde zwei Ereignisse treffend durch Zeit oder Ursache, ohne etwas hinzuzuerfinden.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "Nacherzählung festhalten und Selbstcheck zeigen",
+        "printNote": "Den Selbstcheck auf der Zusatzseite erst nach der eigenen Nacherzählung lesen.",
+        "text": "SELBSTCHECK NACH DEINER NACHERZÄHLUNG · Habe ich erklärt, warum die Karte schwer lesbar wurde und was Jo zuerst versuchte? Bleiben Maras Vorschlag, die geliehenen Materialien und die Reparatur in der richtigen Reihenfolge? Erwähne ich die Kontrolle aller vier Pfeile und Jos letzte Handlung? Bleibe ich bei Jo und Mara, der dritten Person und den Fakten der Geschichte? Die Fragen enthalten keine Musterlösung."
+      },
+      "tasks": [
+        {
+          "id": "en-lantern-retelling",
+          "kind": "reflection",
+          "points": 20,
+          "writingLines": 14,
+          "inputRows": 17,
+          "adultOnlySolution": true,
+          "prompt": "A · Write your retelling (20 formative Kriterienpunkte): Tell the story again in English for a friend who could not come. Keep Jo and Mara, the same third-person point of view and the important events in their original order. Explain why the arrow became hard to use, Jo’s first attempt, their later solution and what Jo did at the end. Use your own wording; do not add thoughts or events the story does not give. About 90–130 words are a planning aid, not a pass/fail limit.",
+          "sample": "Friday afternoon, Jo and Mara prepared a lantern walk at Willow Square. Visitors were due at six; Jo carried four arrow cards. At the first turn, she fixed one to a post with a paper loop. A gust broke it; the card fell into a puddle, blurring the arrow. Jo wiped it with her sleeve; it stayed blurred. Mara suggested a ribbon, but no spare ribbon was available. Jo asked the gate helper for a blank card and marker, then borrowed them. They copied the arrow. Clear tape covered the card; string tied it to the post. A volunteer held visitors at the start while they worked. Before the walk, they checked all four arrows. Jo waited at the turn until the last group saw the arrow, then rejoined Mara.",
+          "criteria": [
+            "2 Punkte: Freitag-Nachmittag, Willow Square, Laternenrundgang und für 18 Uhr erwartete Besucher (je 0,5).",
+            "1 Punkt: vier Richtungskarten und eine Karte an der ersten Abzweigung befestigt (je 0,5); Papierschlaufe nur bei Ursache werten.",
+            "2 Punkte: Böe zerreisst die Papierschlaufe; die Karte fällt in die Pfütze und der Pfeil wird verschwommen und schwer lesbar (je 1).",
+            "2 Punkte: Jo versucht mit dem Ärmel zu trocknen, ohne Erfolg (je 1).",
+            "2 Punkte: Mara schlägt ein Band vor, aber es gibt kein Ersatzband (je 1).",
+            "2 Punkte: Blankokarte und Stift am Tor; Jo fragt die helfende Person und leiht beides (je 1).",
+            "3 Punkte: Pfeil auf neue Karte übertragen (1), transparentes Band und Schnur (je 0,5), zweite freiwillige Person hält Besuchende am Start (1).",
+            "1 Punkt: Jo und Mara prüfen vor dem Rundgang alle vier Pfeile.",
+            "2 Punkte: Jo bleibt bis zur letzten Gruppe an der ersten Abzweigung und holt Mara danach ein (je 1).",
+            "1 Punkt: nachvollziehbare Zeit- und Ursachenfolge; einfache Verbindungen genügen.",
+            "2 Punkte: eigene verständliche englische Formulierungen (1) sowie Figuren, dritte Person und Quellenfakten ohne erfundene Ereignisse (1). Ereignisfehler nicht doppelt abziehen. Kleine Sprachfehler kosten keine Inhaltsangabe, wenn die Bedeutung klar bleibt."
+          ]
+        },
+        {
+          "id": "en-lantern-self-check",
+          "kind": "reflection",
+          "points": 0,
+          "writingLines": 5,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "B · Optionaler Selbstcheck ohne Punkte: Welche wichtige Station ist in deiner Nacherzählung sicher enthalten? Wo würdest du nach L1–L10 noch eine sachliche Verbesserung prüfen? Du kannst auf Deutsch antworten. Die App korrigiert deine englische Erzählung nicht.",
+          "sample": "Mögliche Rückschau: Die Reparatur steht in meiner Version; ich prüfe noch, ob ich die erfolglose Ärmelprobe und die Kontrolle aller vier Pfeile erwähnt habe. Der Selbstcheck ist keine zweite Bewertung.",
+          "criteria": [
+            "Unbepunktet: Selbstprüfung auf eine konkrete Textstelle und einen nächsten kleinen Schritt beziehen. Keine Punktzahl für den Selbstcheck und keine automatische Freitextwertung."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. § 2.2.4 PDF-S. 29 nennt „Texte nacherzählen“ als Ziel bis Ende Klasse 8.",
+        "checkedAt": "2026-10-24"
+      }
+    },
+    {
       "id": "en-write-rooftop-poem",
       "subjectId": "en",
       "title": "A roof garden poem · selbst schreiben",

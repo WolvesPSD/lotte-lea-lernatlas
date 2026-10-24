@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-24T09:17:22.532Z",
-  "releaseVersion": "2026.10.24-m11geraden.1",
+  "builtAt": "2026-10-24T09:41:34.924Z",
+  "releaseVersion": "2026.10.24-enwretell.1",
   "newTopicIds": [
-    "ma-geradenwerkstatt"
+    "en-write-retell-lantern-walk"
   ],
   "changeLog": [
-    "Mathematik: Geradenwerkstatt als freiwilligen Klasse-8-Ausblick mit fünf Hauptaufgaben zu Graph, Punkt und Steigung veröffentlichen.",
-    "Sechs getrennte Transferpunkte erst nach den fünf Hauptantworten zeigen; Kinder- und Erwachsenenblatt sowie echte Papierzeichnung getrennt halten."
+    "Englisch: eigens verfasste Laternen-Geschichte als freiwillige, gestützte Nacherzählung zum Klasse-8-Ziel ergänzen.",
+    "Unbepunkteten Selbstcheck erst nach der freien Erzählung zeigen; Erwachsenen-Muster und Kriterien getrennt halten."
   ],
-  "rollbackCommit": "924e48b90866fad2a4496c5ca6976972176c183a",
+  "rollbackCommit": "09bb85fd9a84a31f3db13541d7c08e0eba0f5ddb",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -118,6 +118,7 @@
     "de-bibliotheksregal-erklaeren",
     "fr-bilderausstellung-vortrag",
     "fr-mes-gouts-envies",
+    "en-write-retell-lantern-walk",
     "en-write-rooftop-poem",
     "en-small-note-poem",
     "fr-parapluie-poeme",
@@ -192,6 +193,7 @@
     "fr-camille-geschichte-fortsetzen",
     "ma-kuehlkasten-rationale-zahlen",
     "ma-potenzen-rechnerwahl",
+    "en-write-retell-lantern-walk",
     "en-write-rooftop-poem",
     "ma-schraegbild-darstellungen",
     "en-picture-description-garden",

@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-24T01:27:45.047Z",
-  "releaseVersion": "2026.10.24-debafoeg.1",
+  "builtAt": "2026-10-24T02:01:17.328Z",
+  "releaseVersion": "2026.10.24-debruecke.1",
   "newTopicIds": [
-    "de-kurzwort-bafoeg"
+    "de-bedeutung-bruecke-weg"
   ],
   "changeLog": [
-    "Deutsch: freiwilliger 7/8-Wortbildungsfall zum amtlichen Gesetzesnamen BAföG mit fünf Hauptaufgaben und einem späteren erfundenen Transfer; keine Prüfung individueller Förderung.",
-    "Drei eindeutige Auswahlfragen werden nach dem Hauptteil lokal ausgewertet; offene Erklärungen bleiben menschlich zu prüfen. Der Kinderdruck enthält keine Lösungen."
+    "Deutsch: freiwilliger 7/8-Bedeutungsfall zu wörtlicher und übertragener Brücke mit fünf Hauptaufgaben und einer späteren Weg-Variante.",
+    "Fiktive Zeitungs- und Theaterkarten prüfen Bedeutung, Beleg und eine sachliche Schlagzeile. Offene Texte bleiben menschlich zu prüfen; der Kinderdruck enthält keine Lösungen."
   ],
-  "rollbackCommit": "a35b43a0499d19d27277ec467172c892f3ac006f",
+  "rollbackCommit": "788302ed7704da2fd3d0c93cc20132cb81d7e38e",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -26,6 +26,7 @@
     "fr-termin-gespraech",
     "de-textzusammenhang-register",
     "de-pronomen-lesewerkstatt",
+    "de-bedeutung-bruecke-weg",
     "de-kurzwort-bafoeg",
     "de-homonym-kiefer",
     "de-textuntersuchung-bank",

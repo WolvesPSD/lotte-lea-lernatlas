@@ -1617,6 +1617,121 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "de-bedeutung-bruecke-weg",
+      "subjectId": "de",
+      "title": "Welche Brücke ist gemeint?",
+      "scope": "Freiwilliger, gestützter 7/8-Schriftfall zu wörtlicher und übertragener Bedeutung mit Zielhorizont Ende Klasse 8. Die Unterrichtsfolge an Lottes Schule ist unbekannt. Er ergänzt Wortbedeutung im Kontext, ohne die ganze D-R1-Kompetenz abzudecken.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Alle Orte, Gruppen, Pläne und Zahlen sind erfunden. Du musst keine eigene Erfahrung schildern. Versuche zuerst mit den Textstellen zu erklären, was „Brücke“ bedeutet. Wenn dir „wörtlich“ und „übertragen“ noch unbekannt sind, nutze nach deinem Erstversuch die Begriffshilfe und notiere die Hilfe.",
+      "introduction": "Lies Z1–Z5 als Berichte vom selben Zeitpunkt direkt nach einer Besprechung. Prüfe, ob „Brücke“ ein Bauwerk oder ein sprachliches Bild meint. Unterscheide einen Vorschlag von einer beschlossenen und umgesetzten Lösung. Fünf Hauptaufgaben zählen 20 Kriterienpunkte, eine spätere freiwillige Variante sechs getrennte Zusatzpunkte; das ist keine Schulnote. Die App bewertet deine offenen Erklärungen nicht automatisch.",
+      "passage": "Z1 · Ortsnotiz: Unmittelbar nach der Besprechung ist eine kleine Fußbrücke über den Bach in Auenfeld wegen Reparaturen gesperrt. Der Umweg ist ausgeschildert. Wann die Fußbrücke wieder geöffnet wird, ist unbekannt.\nZ2 · Ausstellungsideen: Zwei erfundene Gruppen planen eine Ausstellung. Gruppe Blau möchte Fotos, Gruppe Grün kurze Tontexte zeigen. Beide wollen die Herkunft des Materials nennen. Über die endgültige Form haben sie noch nicht entschieden.\nZ3 · Vorschlag: In der Besprechung schlägt Nia vor, jedem Foto einen passenden Tontext und einen gemeinsamen Herkunftshinweis zuzuordnen. Sie sagt: „Das könnte eine Brücke zwischen beiden Ideen sein.“\nZ4 · Stand: Zu diesem Zeitpunkt hat keine der beiden Gruppen Nias Vorschlag angenommen. Es ist noch kein Ausstellungsteil aufgebaut.\nZ5 · Ungeprüfte Schlagzeile für die sofortige Ausgabe: „Fußbrücke wieder offen – Brücke zwischen Foto und Ton beschlossen!“",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "1–5",
+        "childPrintAfterUnlock": true,
+        "text": "GETRENNTE NEUE VARIANTE NACH 1–5 · T1: Ein erfundener Lageplan zeigt einen 400 Meter langen Fußweg zur Bücherei; er sagt nichts über eine Schulaufgabe. T2: Eine Lern-AG hat eine Sortieraufgabe zweimal erfolglos versucht. Ela schlägt vor, die Karten nach Datum zu ordnen, und nennt dies „einen möglichen Weg zur Lösung“. Dieser Versuch ist noch nicht geprüft. T3: Ein Entwurf behauptet: „Der neue Weg ist 400 Meter lang und löst die Aufgabe sicher.“ Die sechs Zusatzpunkte zählen getrennt."
+      },
+      "tasks": [
+        {
+          "id": "de-bruecke-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "Zwei Verwendungen erkennen (4 Hauptpunkte): Ordne „Brücke“ in Z1 und Z3 jeweils wörtlich oder übertragen zu. Nenne für beide Zuordnungen je eine konkrete Textstelle oder Sachangabe als Beleg. Nach deinem eigenen Versuch darfst du die Begriffshilfe nutzen.",
+          "helpAfterAttempt": "Begriffshilfe nach dem Erstversuch: „Wörtlich“ bezeichnet hier einen konkret begehbaren Gegenstand. „Übertragen“ verwendet ein Wort als Bild für eine gedankliche Verbindung. Prüfe trotzdem selbst, welche Textstelle zu welchem Fall passt, und notiere eine genutzte Hilfe.",
+          "sample": "Z1 ist wörtlich: Die Fußbrücke über den Bach ist gesperrt. Z3 ist übertragen: Nia spricht von einer Verbindung zwischen den Foto- und Tonideen; sie meldet kein Bauwerk.",
+          "criteria": [
+            "Je 1 Punkt für die richtige Zuordnung von Z1 und Z3; je 1 Punkt für einen passenden Textbeleg. Hilfeeinsatz getrennt vermerken, eine richtige Begründung nicht pauschal abwerten."
+          ]
+        },
+        {
+          "id": "de-bruecke-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Das sprachliche Bild erklären (4 Hauptpunkte): Welche zwei Ideen soll Nias „Brücke“ verbinden, und wie könnte ihr Vorschlag das leisten? Was ist die gemeinsame Grundidee einer wirklichen Brücke und der übertragenen Formulierung? Erkläre auch, warum Z3 kein neues Bauwerk meldet.",
+          "sample": "Nia will Blaus Fotos und Grüns Tontexte verbinden. Zu jedem Foto könnte ein passender Tontext mit gemeinsamem Herkunftshinweis kommen. Eine wirkliche Brücke verbindet getrennte Seiten; übertragen verbindet Nias Vorschlag Ideen. In Z3 geht es um einen Vorschlag für die Ausstellung, kein Bauwerk; Z4 meldet noch keinen Aufbau.",
+          "criteria": [
+            "1 Punkt: Blaus Fotos und Grüns Tontexte als die zwei Ideen.",
+            "1 Punkt: Zuordnung von Foto, passendem Tontext und Herkunftshinweis als mögliche kombinierte Präsentation.",
+            "1 Punkt: gemeinsame Grundidee einer Verbindung zwischen getrennten Seiten/Ideen.",
+            "1 Punkt: Z3 als sprachliches Bild eines Vorschlags, nicht Bauwerk, mit Z4-Bezug erklärt."
+          ]
+        },
+        {
+          "id": "de-bruecke-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Die Schlagzeile prüfen (5 Hauptpunkte): Nenne die zwei Behauptungen aus Z5, die dem beschriebenen Stand unmittelbar nach der Besprechung widersprechen. Zeige zu jeder die passende Textstelle. Schreibe danach eine kurze sachliche Schlagzeile, die Nias Vorschlag als Möglichkeit nennt, ohne Wiederöffnung oder Einigung zu behaupten.",
+          "sample": "Z5 behauptet die Wiederöffnung der Fußbrücke; Z1 sagt, sie sei zu diesem Zeitpunkt gesperrt. Z5 behauptet eine beschlossene Verbindung von Foto und Ton; Z4 sagt, keine Gruppe habe den Vorschlag angenommen. Sachlich wäre: „Nias Vorschlag könnte Foto- und Tonideen für die Ausstellung verbinden.“ Spätere Änderungen bleiben offen.",
+          "criteria": [
+            "1 Punkt: behauptete Wiederöffnung erkannt.",
+            "1 Punkt: Widerspruch zu Z1, Fußbrücke zu diesem Zeitpunkt gesperrt.",
+            "1 Punkt: behaupteter Beschluss erkannt.",
+            "1 Punkt: Widerspruch zu Z4, keine Gruppe hat zugestimmt.",
+            "1 Punkt: Ersatzschlagzeile als Möglichkeit ohne Wiederöffnung oder Einigung."
+          ]
+        },
+        {
+          "id": "de-bruecke-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Für zwei Lesergruppen klären (4 Hauptpunkte): Schreibe zwei eigene Sätze: einen für Menschen, die nach der echten Fußbrücke fragen, und einen für Menschen, die sich für die Ausstellungsideen interessieren. Jeder Satz soll ohne Missverständnis den passenden Bedeutungsgebrauch und den belegten Stand zeigen.",
+          "sample": "„Die Fußbrücke über den Bach ist laut Z1 unmittelbar nach der Besprechung wegen Reparaturen gesperrt; der Umweg ist ausgeschildert.“ „Nia schlägt vor, Fotos und Tontexte zu verbinden; angenommen ist das zu diesem Zeitpunkt noch nicht.“",
+          "criteria": [
+            "Je Satz 1 Punkt für einen eindeutigen Kontextbezug und 1 Punkt für den belegtreuen Stand. Kein Wiederöffnungstermin oder fertiger Ausstellungsteil erfinden."
+          ]
+        },
+        {
+          "id": "de-bruecke-5",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Eine neue Verwendung selbst schreiben (3 Hauptpunkte): In einer zweiten erfundenen AG zeigt eine Zeichnung die Figuren einer Theatergeschichte; eine Zeitleiste zeigt die Zeitpunkte der drei Szenen. Für ein Plakat sollen beide Darstellungen inhaltlich verbunden werden, doch das Plakat ist noch nicht angefertigt. Schreibe einen eigenen Satz mit „Brücke“ in übertragener Bedeutung als Vorschlag. Erkläre, was das Bild verbindet, und nenne eine Aussage über den Stand, die daraus nicht folgt.",
+          "sample": "„Die Frage, welche Figur in welcher Szene auftritt, könnte eine Brücke zwischen Zeichnung und Zeitleiste bilden.“ Das Bild verbindet die Figuren mit den Zeitpunkten der drei Szenen. Daraus folgt nicht, dass das Plakat schon hergestellt oder die Verbindung beschlossen ist.",
+          "criteria": [
+            "1 Punkt: sinnvoller eigener übertragener Bildsatz als Vorschlag.",
+            "1 Punkt: konkrete Verbindung von Figurenzeichnung und Szenenzeitleiste erklärt.",
+            "1 Punkt: Vorschlag von Umsetzung/Beschluss getrennt. Hauptsumme 20 Punkte, keine Schulnote."
+          ]
+        },
+        {
+          "id": "de-bruecke-6",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige neue Variante · sechs getrennte Zusatzpunkte: Lies T1–T3. a) Ordne „Weg“ in T1 und T2 wörtlich oder übertragen zu und nenne je einen Textbeleg (2 Punkte). b) Erkläre, warum die 400 Meter aus T1 keine Länge der Methode aus T2 sind und warum „möglich“ keinen Erfolg beweist (2 Punkte). c) Ersetze T3 durch einen sachlichen Satz über Elas Vorschlag, der Länge und Erfolgsaussage richtig begrenzt (2 Punkte).",
+          "sample": "a) T1 ist wörtlich: ein 400 Meter langer Fußweg im Lageplan. T2 ist übertragen: Elas noch ungeprüfter Vorschlag, die Karten nach Datum zu ordnen, ist ein möglicher Lösungsweg. b) Die 400 Meter beschreiben den begehbaren Weg, keine Methode; der neue Versuch wurde noch nicht geprüft. c) „Ela schlägt als möglichen Weg zur Lösung vor, die Karten nach Datum zu ordnen; ob das hilft, wird erst geprüft.“",
+          "criteria": [
+            "2 Zusatzpunkte: T1 und T2 je richtig mit passendem Textbeleg zugeordnet.",
+            "2 Zusatzpunkte: 400 Meter nur für den Fußweg und fehlende Erfolgsgarantie getrennt erklärt.",
+            "2 Zusatzpunkte: sachlicher Ersatzsatz nennt Elas mögliche Methode, keine 400 Meter und hält Erfolg offen. Zusatzsumme getrennt ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Erprobungsfassung für Klasse 7 ab 2026/27. §2.2.5/PDF-S. 30–31: wörtliche und übertragene Wortbedeutung im Kontext untersuchen, Zielhorizont Ende Klasse 8. Keine festgelegte Unterrichtsreihenfolge.",
+        "checkedAt": "2026-10-24"
+      }
+    },
+    {
       "id": "de-kurzwort-bafoeg",
       "subjectId": "de",
       "title": "Wie wird aus dem langen Wort BAföG?",

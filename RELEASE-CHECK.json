@@ -1,12 +1,14 @@
 {
-  "builtAt": "2026-10-24T08:05:00.596Z",
-  "releaseVersion": "2026.10.24-m8rubrik.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Mathematik: Bei der L-Flächen-Aufgabe B verlangt der vierte Erwachsenen-Kriterienpunkt nun die geforderte Erklärung des kürzeren Produktwegs.",
-    "Eine zusätzliche Kontrollrechnung bleibt freiwillig und ersetzt die Erklärung nicht; Kinderauftrag und übrige Aufgaben bleiben unverändert."
+  "builtAt": "2026-10-24T08:16:58.569Z",
+  "releaseVersion": "2026.10.24-mbii4suche.1",
+  "newTopicIds": [
+    "mbi-i4-live-suche-sandkreislauf"
   ],
-  "rollbackCommit": "c6ef2bc4e1efc2071faf8adeaefef6ec2cf65d68",
+  "changeLog": [
+    "MBI: freiwillige Rechercheübung ergänzt, in der Lotte eine öffentliche Sandkreislauf-Quelle selbst sucht, öffnet und prüft.",
+    "Erwachsenenbeobachtung trennt tatsächliche Suchhandlung vom Direktlink-Fallback; die zweite NPS-Seite erscheint erst nach dem Hauptteil."
+  ],
+  "rollbackCommit": "46e2e188144e5e77b6fec7440641938f6b6870a4",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -61,6 +63,7 @@
     "de-samira-charakterisierung",
     "de-namensschild-deutung",
     "mbi-quellen-ki",
+    "mbi-i4-live-suche-sandkreislauf",
     "fr-message-fixture",
     "fr-livre-pour-samedi",
     "de-quellen-fixture",
@@ -179,6 +182,7 @@
     "en-sprachreflexion-lesewerkstatt",
     "fr-sprachreflexion-einladung",
     "fr-reponse-elodie",
+    "mbi-i4-live-suche-sandkreislauf",
     "ma-druckzeit-zuordnungen",
     "ma-tank-zuordnung",
     "ma-prozent-fixture",

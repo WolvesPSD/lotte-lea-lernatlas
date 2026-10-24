@@ -5235,6 +5235,122 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-i4-live-suche-sandkreislauf",
+      "subjectId": "mbi",
+      "title": "Eine öffentliche Quelle selbst finden",
+      "scope": "Freiwilliger Klasse-7-Vorgriff auf das MBI-I4-Ziel Ende Klasse 8: eine öffentliche Sachfrage selbst suchen, die vollständige Seite prüfen und den Suchstopp begründen. Die aktuelle Unterrichtsfolge und eine wirkliche Kinderhandlung sind nicht belegt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Nutze diese Übung nur mit einer erwachsenen Begleitperson, einem vorhandenen Browser und einer bei euch erlaubten Suchmaschine. Kein Konto, keine Namen, Fotos oder privaten Angaben eingeben und nichts hochladen. Öffentliche Suchergebnisse können sich ändern. Bitte öffne den Erwachsenenbereich erst nach deinem Suchversuch. Wenn Suche oder Seite nicht erreichbar ist, kann die Begleitperson später einen Direktlink geben; die eigene Suchhandlung bleibt dann nicht erhoben. Die App beobachtet deinen Browser nicht und bewertet Freitext nicht automatisch.",
+      "introduction": "Sachfrage: Was geschieht mit Sand, der am Rand der Great Sand Dunes in Medano Creek oder Sand Creek gelangt? Hier zählt dein Such- und Prüfweg, nicht eine bestimmte Trefferzahl oder Rangposition. Creek bedeutet Bach und sand bedeutet Sand. Eine erwachsene Person kann nur tatsächlich beobachtete Suchschritte beurteilen. Wenn sie dir einen Direktlink gibt, darfst du die Seite lesen; B bleibt dann „nicht erhoben“ und es gibt keinen künstlichen Gesamtwert von 20 Punkten.",
+      "passage": "Suche nur öffentlich und ohne persönliche Daten. Plane zuerst eine kurze Wortkombination. Gib sie selbst in eine erlaubte Suchmaschine ein, öffne eine vollständige Seite und prüfe Titel, verantwortliche Stelle, URL und ein sichtbares Aktualisierungsdatum. Lies den passenden Abschnitt statt nur die Treffer-Vorschau. Wenn ein Treffer nicht passt, ändere die Wörter einmal begründet; wenn der erste genügt, erkläre deinen Stopp. Eine Übersetzung darf helfen, aber prüfe strittige Sachwörter am englischen Original. Bei Ausfall kann die Begleitperson einen NPS-Direktlink zum Lesen geben: notiere dann „Direktlink statt eigener Suche“.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–E",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGE ZWEITE QUELLE NACH A–E · Bitte die Begleitperson erst jetzt um die andere der zwei NPS-Seiten Hydrology oder Geology zum Sandkreislauf. Beide Seiten stammen von derselben Parkverwaltung; sie sind keine zwei unabhängigen Institutionen. Die sechs Zusatzpunkte werden getrennt ausgewiesen."
+      },
+      "tasks": [
+        {
+          "id": "mbi-i4-live-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Suchplan (4 Hauptpunkte): Schreibe die Sachfrage zum Sand am Dünenrand und deine erste kurze Wortkombination auf. Deutsche oder englische Wörter sind möglich. Noch keinen festen Treffer oder Rang erfinden.",
+          "sample": "Frage: Wie kommt Sand aus Medano Creek oder Sand Creek wieder zu den Dünen? Erste Suchwörter zum Beispiel „Great Sand Dunes Medano Creek sand return“. Andere brauchbare eigene Wörter gelten.",
+          "criteria": [
+            "2 Punkte für eine erkennbare, auf den Sand am Dünenrand bezogene Sachfrage.",
+            "2 Punkte für brauchbare selbst formulierte erste Suchwörter; deutsche oder englische Wörter gelten. Keine feste Trefferreihenfolge verlangen."
+          ]
+        },
+        {
+          "id": "mbi-i4-live-b",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Eigene Suchhandlung (4 Hauptpunkte, nur bei Begleitbeobachtung): Gib deine Wörter selbst ein. Notiere, ob du einen brauchbaren öffentlichen Treffer siehst, öffne die vollständige Seite selbst und ändere bei unpassenden Treffern die Wörter einmal begründet. Wenn der erste Treffer genügt, erkläre stattdessen den Stopp. Bei Erwachsenen-Direktlink schreibe „Direktlink statt eigener Suche“; die Begleitperson markiert B dann als nicht erhoben.",
+          "sample": "Nur tatsächlich beobachtete Handlung werten: Kind gibt selbst ein, sichtet einen passenden öffentlichen Treffer, öffnet die vollständige Seite und passt bei Bedarf Wörter an oder begründet den Stopp. Ein ausgefülltes Feld oder ein Erwachsenenklick beweist das nicht. Bei Direktlink: B nicht erhoben, kein 20-Punkte-Gesamtwert.",
+          "criteria": [
+            "1 Punkt nur bei beobachteter eigener Eingabe der Suchwörter.",
+            "1 Punkt nur bei beobachteter Sichtung eines passenden öffentlichen Treffers.",
+            "1 Punkt nur bei beobachtetem eigenen Öffnen der vollständigen Seite.",
+            "1 Punkt nur bei beobachteter begründeter Wortänderung oder einem begründeten Stopp nach passendem Ersttreffer. Ohne beobachtete Kinderhandlung B als nicht erhoben statt 0 oder 4 markieren; keinen Gesamtwert ausgeben."
+          ]
+        },
+        {
+          "id": "mbi-i4-live-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C · Quelle prüfen (4 Hauptpunkte): Notiere Titel, verantwortliche Stelle, öffentliche URL und das auf der geöffneten Seite sichtbare Aktualisierungsdatum; wenn dort keines sichtbar ist, schreibe genau das. Warum reichen eine Treffer-Vorschau oder eine Rangposition als Beleg nicht?",
+          "sample": "Bei der NPS-Seite Hydrology: Titel Hydrology, National Park Service / Great Sand Dunes, https://www.nps.gov/grsa/learn/nature/hydrology.htm; am 24.10.2026 sichtbar „Last updated: May 1, 2025“. Bei anderen Seiten oder späterer Änderung die tatsächlich sichtbaren Angaben prüfen. Ein Snippet kann verkürzt oder veraltet sein und ersetzt nicht den passenden Abschnitt der geöffneten Seite.",
+          "criteria": [
+            "1 Punkt für den wirklich geöffneten Seitentitel.",
+            "1 Punkt für die verantwortliche Institution, zum Beispiel National Park Service.",
+            "1 Punkt für öffentliche URL und das tatsächlich sichtbare Datum beziehungsweise die zutreffende Feststellung, dass keines sichtbar ist.",
+            "1 Punkt für eine eigene Begründung, warum Vorschau oder Rang die gelesene vollständige Quelle nicht ersetzt. Bei unerreichbarer Seite nicht erhoben statt Daten erfinden."
+          ]
+        },
+        {
+          "id": "mbi-i4-live-d",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "D · Sachantwort mit Beleg (4 Hauptpunkte): Antworte in zwei eigenen Sätzen: Was machen Medano Creek oder Sand Creek mit Sand vom Dünenrand? Was kann danach mit ihm geschehen? Nenne eine passende Zwischenüberschrift oder einen anderen eindeutigen Abschnittshinweis und die öffentliche URL. Trenne Quellenaussage von Vermutung.",
+          "sample": "Die Bäche nehmen Sand am Rand der Dünen auf und tragen ihn mit dem Wasser zum Talboden zurück. Wind kann den Sand von dort wieder zu den Dünen bewegen. NPS Hydrology: Absatz bei „Mountain Creeks Diagram“, https://www.nps.gov/grsa/learn/nature/hydrology.htm. NPS Geology: „Mountain Streams“, https://www.nps.gov/grsa/learn/nature/geology.htm. Andere plausible öffentliche Quellen belegspezifisch prüfen.",
+          "criteria": [
+            "2 Punkte für den aus der geöffneten Quelle belegten Rücktransport des Sands vom Dünenrand zum Talboden durch die Bäche.",
+            "1 Punkt für die mögliche Rückbewegung durch Wind.",
+            "1 Punkt für passenden Abschnittshinweis und öffentliche URL. Bei einer anderen plausiblen Quelle den konkreten Beleg prüfen; ohne erreichbare Seite nicht erhoben."
+          ]
+        },
+        {
+          "id": "mbi-i4-live-e",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "E · Suchentscheidung (4 Hauptpunkte): Begründe, warum du nach der belegten Antwort aufhören kannst oder was genau noch offen ist. Vergleiche die geöffnete Originalseite, weitere Treffer und eine mögliche KI-Antwort. Nenne eine Grenze deiner Aussage; erfinde keine Strom- oder CO₂-Zahl.",
+          "sample": "Wenn die geöffnete Parkseite die enge Frage mit passender Stelle beantwortet, genügt sie für diesen Schritt. Eine weitere Suche oder KI-Ausgabe wäre nur bei einer konkreten offenen Frage nötig. Die Seite belegt keine von mir gemessene Sandmenge und ist keine unabhängige zweite Institution.",
+          "criteria": [
+            "2 Punkte für einen nach der Quelle begründeten Stopp oder eine genau benannte Restfrage.",
+            "1 Punkt für die Einordnung, warum zusätzliche Treffer oder eine KI-Ausgabe für die enge Frage nicht automatisch nötig sind.",
+            "1 Punkt für eine konkrete Aussagegrenze; keine erfundene Energie- oder CO₂-Messzahl."
+          ]
+        },
+        {
+          "id": "mbi-i4-live-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige zweite Quelle nach A–E · sechs getrennte Zusatzpunkte: Bitte die Begleitperson um die andere NPS-Seite Hydrology oder Geology. Finde dort eine passende Stelle mit URL. Nenne eine Übereinstimmung im Sandkreislauf und eine Grenze: Warum sind zwei Seiten derselben Parkverwaltung noch keine zwei unabhängigen Institutionen?",
+          "sample": "Nach Hydrology die NPS-Seite Geology mit „Mountain Streams“ und https://www.nps.gov/grsa/learn/nature/geology.htm lesen; bei umgekehrtem Erstfund Hydrology mit dem Absatz bei „Mountain Creeks Diagram“ und https://www.nps.gov/grsa/learn/nature/hydrology.htm. Beide beschreiben Rücktransport durch Wasser und möglichen Rückweg durch Wind. Die Seiten sind eine interne Gegenlesung, aber beide stammen vom National Park Service.",
+          "criteria": [
+            "2 Zusatzpunkte für die jeweils andere NPS-Seite mit passender Stelle und URL.",
+            "2 Zusatzpunkte für den sachlichen Vergleich von Wasser- und Windweg.",
+            "2 Zusatzpunkte für die gemeinsame Institution und den dennoch begrenzten Nutzen einer internen Gegenlesung. Zusatzpunkte getrennt ausweisen; keine weitere Suche erzwingen, wenn die erste Quelle genügt."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Erprobungsfassung ab 2026/27 für Klasse 7, ab 2027/28 für Klasse 8. § 2.2.4/PDF-S. 26: Informationen recherchieren und Suchstrategien sowie Glaubwürdigkeit/Relevanz von Quellen beurteilen, Zielstand Ende Klasse 8.",
+        "checkedAt": "2026-10-24"
+      }
+    },
+    {
       "id": "fr-message-fixture",
       "subjectId": "fr",
       "title": "Bien comprendre une invitation",

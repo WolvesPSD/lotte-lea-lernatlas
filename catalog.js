@@ -8720,6 +8720,125 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-i2-zielgruppenwirkung-lesepause",
+      "subjectId": "mbi",
+      "title": "Wirkt die Lese-Pause-Karte für alle?",
+      "scope": "Freiwilliger Klasse-7/8-Schriftfall zum MBI-I2-Zielhorizont Ende Klasse 8: Medienwirkung und mögliche Nachteile durch Gestaltung anhand zweier erfundener Nutzungssituationen untersuchen. Keine bestätigte Schuleinheit oder reale Nutzungsprobe.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Die Ankündigung und beide Nutzungssituationen sind erfunden. Ordne sie keiner wirklichen Person zu und frage niemanden nach einer Diagnose. Das farbige Original ist nicht abgebildet; du siehst eine Modellkarte der Schwarz-Weiss-Kopie. Keine wirkliche Teilnahme oder Benachteiligung wird behauptet. Antworte auf Deutsch. Freie Texte bewertet die App nicht automatisch; der freiwillige Transfer erscheint erst nach A–E.",
+      "introduction": "Untersuche, welche Information die erfundene Lese-Pause-Karte in zwei Nutzungssituationen tatsächlich bietet. Im farbigen Original bedeutet Grün „offener Termin“ und Orange „nicht offen“. Welche Zeitzeile welche Farbe hat, gibt die Aufgabe nicht vor. Diese Modellkonvention ist **keine** gedruckte Farbbeschriftung und gehört auch nicht zum hörbaren Begleittext. 20 Hauptpunkte und 4 getrennte Zusatzpunkte dienen nur als Lernfeedback.",
+      "passage": "FIKTIVE MODELLKARTE · SCHWARZ-WEISS-KOPIE\n● · Mittwoch, 13:30 Uhr\n● · Freitag, 14:00 Uhr\nAuf der Kopie sehen beide Punkte gleich dunkel und unbeschriftet aus. Die lesbaren Wochentage und Uhrzeiten bleiben erhalten. Der Treffort ist die Bibliothek. Die Wörter „grüner Punkt“ und „oranger Punkt“ stehen nicht auf dem Plakat oder der Kopie.\n\nNORMALER BEGLEITTEXT · „Lese-Pause in der Bibliothek. Zwei mögliche Zeiten stehen auf dem Bild.“ Die oben erklärte Farbkonvention ist nur eine Übungsbedingung und steht nicht in diesem Text.\nBILDBESCHREIBUNG FÜR EIN VORLESEPROGRAMM · „Bunter Wochenplan für die Lese-Pause.“ Die Uhrzeiten und die Zuordnung des offenen Termins stehen nur im Bild.\n\nNUTZUNGSSITUATION A · Eine Person kann die Wörter und Uhrzeiten auf ihrer Schwarz-Weiss-Kopie lesen. Die zwei gleich dunklen Punkte ohne Farbnamen lassen sich nicht unterscheiden. Sie erhält die Farbkonvention nicht als zusätzliche Beschriftung.\nNUTZUNGSSITUATION B · Eine Person hört den normalen Begleittext und die Bildbeschreibung. Das Programm liest keine Wörter aus dem Bild vor. Weder die Zeiten noch die Zuordnung des offenen Termins werden gehört. Der Ort steht bereits im normalen Text.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–E",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "Hauptantworten festhalten und freiwillige Prüfidee zeigen",
+        "printNote": "Die freiwillige Prüfidee auf der Zusatzseite erst nach A–E lesen.",
+        "text": "FREIWILLIGER TRANSFER NACH A–E · Prüfe deinen verbesserten Entwurf gedanklich auf zwei getrennten Wegen: einmal als Schwarz-Weiss-Kopie und einmal in der tatsächlichen Vorlesereihenfolge. Auch zwei bestandene Prüfungen beweisen nicht, dass jede Person ihn gut nutzen kann. Vier Zusatzpunkte zählen getrennt."
+      },
+      "tasks": [
+        {
+          "id": "mbi-i2-wirkung-a",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 5,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "A · Was zeigt die Modellkarte? (3 Hauptpunkte): Notiere die zwei möglichen Zeiten, den Ort und das Zeichen für den offenen Termin. Behaupte nicht, dass schon feststeht, welche Zeitzeile offen ist.",
+          "sample": "Mittwoch, 13:30 Uhr und Freitag, 14:00 Uhr sind die zwei möglichen Zeiten. Der Treff ist in der Bibliothek. Laut Modellkonvention markiert im farbigen Original ein grüner Punkt den offenen Termin; die konkrete Zeitzeile ist nicht genannt.",
+          "criteria": [
+            "1 Punkt für Mittwoch, 13:30 Uhr.",
+            "1 Punkt für Freitag, 14:00 Uhr.",
+            "1 Punkt für Bibliothek und Grün/Punkt als Zeichen für offen zusammen. Keine konkrete offene Zeit erfinden."
+          ]
+        },
+        {
+          "id": "mbi-i2-wirkung-b",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "B · Schwarz-Weiss-Kopie (3 Hauptpunkte): Welche Angaben kann die Person aus Nutzungssituation A lesen? Welche Entscheidung kann sie aus ihrer Kopie nicht sicher treffen? Begründe an einem sichtbaren Detail der Kopie.",
+          "sample": "Sie liest Wochentage und Uhrzeiten. Weil beide Punkte gleich dunkel und unbeschriftet sind, kann sie nicht sicher entscheiden, welcher Termin offen ist. Die Übungserklärung über Grün/Orange steht nicht als lesbare Legende auf ihrer Kopie.",
+          "criteria": [
+            "1 Punkt für lesbare Wochentage und Uhrzeiten.",
+            "1 Punkt für fehlende sichere Zuordnung des offenen Termins.",
+            "1 Punkt für das konkrete sichtbare Detail: zwei gleich dunkle, unbeschriftete Punkte; keine mögliche Folge verlangen, denn die wird erst in E gefragt."
+          ]
+        },
+        {
+          "id": "mbi-i2-wirkung-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Vorleseprogramm (4 Hauptpunkte): Was hört die Person aus B tatsächlich? Welche entscheidenden Angaben fehlen für den offenen Termin? Der Ort steht schon im normalen Begleittext. Trenne Gehörtes und Vermutetes.",
+          "sample": "Sie hört „Lese-Pause in der Bibliothek. Zwei mögliche Zeiten stehen auf dem Bild.“ und „Bunter Wochenplan für die Lese-Pause.“ Sie hört die Wochentage und Uhrzeiten im Bild nicht. Auch die Zuordnung zum offenen Termin fehlt. Den Ort Bibliothek kennt sie bereits.",
+          "criteria": [
+            "1 Punkt für die gehörte allgemeine Bildbeschreibung.",
+            "1 Punkt für die nicht gehörten Bildzeilen mit Wochentag und Uhrzeit.",
+            "1 Punkt für fehlende Zuordnung des offenen Termins trotz allgemeiner Bildbeschreibung.",
+            "1 Punkt dafür, dass der Ort als schon gehört erkannt und nicht fälschlich als fehlend gewertet wird."
+          ]
+        },
+        {
+          "id": "mbi-i2-wirkung-d",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "D · Gestalte die Ankündigung neu (6 Hauptpunkte): Lege für deinen neuen Entwurf fest, welcher der beiden Termine offen sein soll. Schreibe einen gut lesbaren Hinweis mit Wochentag, Uhrzeit und Ort. Kennzeichne „offen“ auch ohne Farbe. Ergänze eine zweckgleiche Bildbeschreibung oder stelle die wesentlichen Angaben ausserhalb des Bildes als Text bereit. Die alte Karte legt keinen konkreten offenen Termin fest.",
+          "sample": "Ein möglicher neuer Text ist „Lese-Pause in der Bibliothek. Offener Termin: Mittwoch, 13:30 Uhr.“ Das wählt Mittwoch erst für den neuen Entwurf; die alte Karte hat dies nicht behauptet. Die Angaben stehen sichtbar als Text und für die Vorlesereihenfolge ausserhalb des Bildes bereit. Freitag könnte ebenso als offen gewählt werden, wenn das im neuen Entwurf konsequent ausgeschrieben wird.",
+          "criteria": [
+            "2 Punkte für Wochentag, Uhrzeit und Ort als klare Information im neuen Entwurf.",
+            "2 Punkte für sichtbare Textkennzeichnung des offenen Status zusätzlich zur Farbe.",
+            "2 Punkte für wesentliche Angaben als lesbaren Text ausserhalb des Bildes oder eine zweckgleiche Bildbeschreibung. Eine blosse Farbnennung genügt nicht."
+          ]
+        },
+        {
+          "id": "mbi-i2-wirkung-e",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "E · Mögliche Wirkung und Beweisgrenze (4 Hauptpunkte): Beschreibe für jede der beiden erfundenen Nutzungssituationen eine mögliche Folge der bisherigen Gestaltung. Was lässt sich daraus nicht über wirkliche Personen oder tatsächliche Teilnahme sagen?",
+          "sample": "A könnte eine falsche Zeit wählen oder auf Teilnahme verzichten, weil der offene Status auf der Kopie nicht zugeordnet werden kann. B könnte keinen Termin planen, weil Bildzeilen mit Zeiten und Status nicht vorgelesen werden. Das sind Möglichkeiten; die Übung beweist weder tatsächliche Nichtteilnahme noch eine Diagnose oder gleiche Bedürfnisse aller Menschen.",
+          "criteria": [
+            "2 Punkte für je eine unterschiedliche, fallgebundene mögliche Folge zu A und B.",
+            "1 Punkt dafür, tatsächliche Diskriminierung, Diagnose oder Nichtteilnahme nicht als erwiesen auszugeben.",
+            "1 Punkt für eine erklärte Modellgrenze oder den Bedarf einer realen, freiwilligen Rückmeldung."
+          ]
+        },
+        {
+          "id": "mbi-i2-wirkung-transfer",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer nach A–E · 4 getrennte Zusatzpunkte: Nenne je eine konkrete Prüfung für eine Schwarz-Weiss-Kopie und die tatsächliche Ausgabe eines Vorleseprogramms. Erkläre, warum zwei bestandene Prüfungen noch nicht beweisen, dass jede Person die Ankündigung gut nutzen kann. Du musst keine echte Person und kein Gerät einbeziehen.",
+          "sample": "Ich prüfe eine gedruckte Graustufenkopie: Sind Wochentag, Uhrzeit, Ort und „offen“ ohne Farbraten klar? Dann höre ich die tatsächliche Vorlesereihenfolge an und prüfe dieselben Angaben. Beide Prüfungen betreffen nur diese Fassung und diese Bedingungen. Menschen nutzen Ankündigungen auf weiteren Wegen; daraus folgt keine Aussage, dass jede Person die Karte gut nutzen kann.",
+          "criteria": [
+            "1 Zusatzpunkt für eine konkrete Graustufenprüfung des offenen Termins.",
+            "1 Zusatzpunkt für eine Prüfung der tatsächlich vorgelesenen Informationen und Reihenfolge.",
+            "1 Zusatzpunkt für die begründete Grenze, dass nur die getestete Fassung und Situation geprüft wurden.",
+            "1 Zusatzpunkt für die begründete Grenze, dass daraus nicht auf alle Personen und Nutzungsweisen geschlossen werden kann. Keine dritte Prüfung oder persönliche Rückmeldung als Pflicht verlangen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: MBI Klasse 7 ab 2026/27. § 2.2.2 PDF-S. 24–25, Zielstand Ende Klasse 8: Wirkung von Medienprodukten auf verschiedene Zielgruppen und mögliche Benachteiligung durch Gestaltung reflektieren.",
+        "checkedAt": "2026-10-24"
+      }
+    },
+    {
       "id": "mbi-publikationswege-quellenkarten",
       "subjectId": "mbi",
       "title": "Wo könnte eine Infokarte sichtbar werden?",

@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-24T09:41:34.924Z",
-  "releaseVersion": "2026.10.24-enwretell.1",
+  "builtAt": "2026-10-24T09:56:39.492Z",
+  "releaseVersion": "2026.10.24-mbii2wirkung.1",
   "newTopicIds": [
-    "en-write-retell-lantern-walk"
+    "mbi-i2-zielgruppenwirkung-lesepause"
   ],
   "changeLog": [
-    "Englisch: eigens verfasste Laternen-Geschichte als freiwillige, gestützte Nacherzählung zum Klasse-8-Ziel ergänzen.",
-    "Unbepunkteten Selbstcheck erst nach der freien Erzählung zeigen; Erwachsenen-Muster und Kriterien getrennt halten."
+    "Medienbildung: zwei erfundene Nutzungswege einer Lese-Pause-Karte anhand von Kopie und Vorlesetext vergleichen.",
+    "Vier getrennte Transferpunkte erst nach A–E zeigen; Kinderblatt, Erwachsenenlösung und Beweisgrenzen trennen."
   ],
-  "rollbackCommit": "09bb85fd9a84a31f3db13541d7c08e0eba0f5ddb",
+  "rollbackCommit": "4b781e52e50848966f48472ffe27ab0d4bb38ec2",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -104,6 +104,7 @@
     "de-beschwerde-materialsets",
     "de-innerer-monolog-projekttisch",
     "mbi-lesepause-medienwerkstatt",
+    "mbi-i2-zielgruppenwirkung-lesepause",
     "mbi-publikationswege-quellenkarten",
     "mbi-rechte-vor-weitergabe",
     "mbi-simunet-datensparsam",

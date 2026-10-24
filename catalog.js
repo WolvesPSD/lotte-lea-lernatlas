@@ -4095,7 +4095,7 @@ window.LOTTE_CATALOG = Object.freeze({
             "1 Punkt für 101−99=2.",
             "1 Punkt für 101+99=200.",
             "1 Punkt für 2·200=400.",
-            "1 Punkt für die Erklärung des kürzeren Produktwegs oder eine unabhängige richtige Kontrolle."
+            "1 Punkt für die Erklärung, warum der Produktweg mit kleiner Differenz, kleiner Summe und einfacher Multiplikation kürzer ist als zwei große Quadratrechnungen. Eine unabhängige Kontrollrechnung allein ersetzt diese Erklärung nicht."
           ]
         },
         {

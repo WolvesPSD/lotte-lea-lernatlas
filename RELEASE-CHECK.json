@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-24T07:47:33.683Z",
-  "releaseVersion": "2026.10.24-frwfragebogen.1",
-  "newTopicIds": [
-    "fr-questionnaire-atelier-cartes"
-  ],
+  "builtAt": "2026-10-24T08:05:00.596Z",
+  "releaseVersion": "2026.10.24-m8rubrik.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Französisch: freiwilliger Ende-8-Einstieg mit fiktivem Aushang, zehn Fragebogenfeldern und einer Zwei-Gruppen-Tabelle ergänzt.",
-    "Lösungsfreies Formular lässt sich am Bildschirm und auf Papier ausfüllen; Erwachsenenlösung und 20-Punkte-Feedback bleiben getrennt."
+    "Mathematik: Bei der L-Flächen-Aufgabe B verlangt der vierte Erwachsenen-Kriterienpunkt nun die geforderte Erklärung des kürzeren Produktwegs.",
+    "Eine zusätzliche Kontrollrechnung bleibt freiwillig und ersetzt die Erklärung nicht; Kinderauftrag und übrige Aufgaben bleiben unverändert."
   ],
-  "rollbackCommit": "7d63ca026919b1f6b4d9b1a4b9601ec5f5709157",
+  "rollbackCommit": "c6ef2bc4e1efc2071faf8adeaefef6ec2cf65d68",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",

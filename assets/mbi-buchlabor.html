@@ -15,9 +15,10 @@
   select,button{font:inherit;padding:.55rem;min-height:44px;border:1px solid #596e78;border-radius:.25rem;background:white;color:#17232c}
   button{cursor:pointer;background:#145b75;color:white;border-color:#145b75;font-weight:600}
   button.secondary{background:#fff;color:#145b75}
+  button:disabled{opacity:.55;cursor:wait}
   button:focus-visible,select:focus-visible{outline:3px solid #d58400;outline-offset:2px}
   .scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;margin:.6rem 0}th,td{border:1px solid #aab9bf;padding:.5rem;text-align:left}th{background:#e6eef1}
-  #message{font-weight:700;color:#124d64;min-height:1.6rem}
+  #message,#edit-message{font-weight:700;color:#124d64;min-height:1.6rem}
   @media print{body{background:white}.card{break-inside:avoid}button{display:none}main{max-width:none}}
 </style>
 </head>
@@ -27,6 +28,7 @@
 <section class="card"><h2>1. Zwei verknüpfte Tabellen</h2><p>Die Buch-ID verbindet einen Titel mit seinen konkreten Exemplaren. Ein Buch kann mehrere Exemplare besitzen.</p><div class="scroll"><table><caption>Buch</caption><thead><tr><th scope="col">Buch-ID</th><th scope="col">Titel</th><th scope="col">Art</th></tr></thead><tbody id="books"></tbody></table></div><div class="scroll"><table><caption>Exemplar – aktueller Zustand</caption><thead><tr><th scope="col">Exemplar-ID</th><th scope="col">Buch-ID</th><th scope="col">Regal</th><th scope="col">Status</th></tr></thead><tbody id="copies"></tbody></table></div></section>
 <section class="card"><h2>2. Eine Anfrage ausführen</h2><p>Stelle die drei Bedingungen ein. Erst der Klick auf „Anfrage ausführen“ liest den aktuellen Datenbankzustand neu.</p><div class="controls"><label>Art<select id="kind"><option value="">Alle</option><option>Sachbuch</option><option>Roman</option></select></label><label>Regal<select id="shelf"><option value="">Alle</option><option>A</option><option>B</option><option>C</option></select></label><label>Status<select id="status"><option value="">Alle</option><option>bereit</option><option>ausgeliehen</option></select></label><button type="button" id="query">Anfrage ausführen</button></div><p id="message" role="status" aria-live="polite"></p><div class="scroll"><table><caption>Ergebnis der letzten Anfrage</caption><thead><tr><th scope="col">Exemplar-ID</th><th scope="col">Titel</th></tr></thead><tbody id="results"></tbody></table></div></section>
 <section class="card"><h2>3. Eine Änderung ausprobieren</h2><p>Ändere nur das fiktive Exemplar X04. Führe danach die Anfrage aus Schritt 2 <strong>noch einmal</strong> aus. Vergleiche die Treffer vor und nach der Änderung.</p><div class="controls"><label>Neuer Status von X04<select id="new-status"><option value="ausgeliehen">ausgeliehen</option><option value="bereit">bereit</option></select></label><button type="button" id="update">X04 ändern</button><button type="button" class="secondary" id="reset">Startzustand wiederherstellen</button></div><p>Begründe auf deinem Blatt: Warum verschwindet X04 aus der Anfrage „Sachbuch, A, bereit“, wenn sein Status geändert wurde? Bleibt der Titel in der Buch-Tabelle erhalten?</p></section>
+<section class="card"><h2>4. Ein Exemplar einfügen und löschen</h2><p>Beginne nach Schritt 3 mit „Startzustand wiederherstellen“. Sage vor jedem Klick voraus, wie viele Treffer die Anfrage „Sachbuch, A, bereit“ danach haben wird. Füge das neue <strong>Exemplar X06</strong> zu einem vorhandenen Buch hinzu. Die Buch-Tabelle bleibt dabei unverändert. Alle Auswahlwerte sind erfunden; trage keine echten Daten ein.</p><div class="controls"><label>Buch für X06<select id="insert-book"><option value="B1">B1 · Sternenkarte</option><option value="B2">B2 · Rätsel am Fluss</option><option value="B3">B3 · Musik im Alltag</option><option value="B4">B4 · Roboter im Garten</option></select></label><label>Regal für X06<select id="insert-shelf"><option>A</option><option>B</option><option>C</option></select></label><label>Status für X06<select id="insert-status"><option>bereit</option><option>ausgeliehen</option></select></label><button type="button" id="add-copy" disabled>X06 einfügen</button><button type="button" class="secondary" id="delete-copy" disabled>X06 löschen</button></div><p id="edit-message" role="status" aria-live="polite">Warte auf die fiktiven Startdaten.</p><p>Führe nach dem Einfügen und nach dem Löschen die Anfrage erneut aus. Vergleiche Exemplar-Tabelle, Trefferliste und Buch-Tabelle. Das Löschen betrifft nur X06; du kannst den Startzustand jederzeit wiederherstellen.</p></section>
 <p>Dieses Labor zeigt eine kleine lokale Datenbankoperation. Es bildet nicht alle Ziele des Bereichs I6 ab und enthält keine echte Schul- oder Bibliotheksinformation.</p>
 </main><script>
 (() => {
@@ -64,6 +66,14 @@
       const tx=db.transaction(store,'readwrite');tx.objectStore(store).put(value);
       tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);
     });}
+    function insertCopy(value) { return new Promise((resolve,reject) => {
+      const tx=db.transaction('copies','readwrite');tx.objectStore('copies').add(value);
+      tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);
+    });}
+    function deleteCopy(id) { return new Promise((resolve,reject) => {
+      const tx=db.transaction('copies','readwrite');tx.objectStore('copies').delete(id);
+      tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);
+    });}
     function resetDb() { return new Promise((resolve,reject) => {
       const tx=db.transaction(['books','copies'],'readwrite');
       const books=tx.objectStore('books'),copies=tx.objectStore('copies');
@@ -78,6 +88,9 @@
       const [books,copies]=await Promise.all([all('books'),all('copies')]);
       rows('books',books.map(b=>[b.id,b.title,b.kind]));
       rows('copies',copies.map(c=>[c.id,c.bookId,c.shelf,c.status]));
+      const hasX06=copies.some(copy=>copy.id==='X06');
+      byId('add-copy').disabled=hasX06;
+      byId('delete-copy').disabled=!hasX06;
     }
     async function query() {
       const [books,copies]=await Promise.all([all('books'),all('copies')]);
@@ -87,11 +100,37 @@
       rows('results',matches.map(c=>[c.id,bookMap.get(c.bookId).title]));
       say(matches.length+' Treffer aus dem aktuellen Datenbankzustand.');
     }
+    let mutationBusy=false;
+    async function mutate(action, failureMessage) {
+      if (mutationBusy) return;
+      mutationBusy=true;
+      for (const id of ['query','update','reset','add-copy','delete-copy']) byId(id).disabled=true;
+      try { await action(); }
+      catch { byId('edit-message').textContent=failureMessage; say('Datenänderung fehlgeschlagen. Prüfe den aktuellen Zustand.'); }
+      finally {
+        try { await refresh(); } catch { say('Aktueller Datenbankzustand konnte nicht gelesen werden.'); }
+        for (const id of ['query','update','reset']) byId(id).disabled=false;
+        mutationBusy=false;
+      }
+    }
     try {
       await resetDb();await refresh();rows('results',[]);say('Startzustand bereit. Stelle die Filter ein.');
-      byId('query').addEventListener('click',()=>query().catch(()=>say('Anfrage fehlgeschlagen.')));
-      byId('update').addEventListener('click',async()=>{try{await write('copies',{id:'X04',bookId:'B3',shelf:'A',status:byId('new-status').value});await refresh();say('X04 geändert. Führe die Anfrage erneut aus.');}catch{say('Änderung fehlgeschlagen.');}});
-      byId('reset').addEventListener('click',async()=>{try{await resetDb();await refresh();rows('results',[]);say('Startzustand wiederhergestellt. Führe die Anfrage erneut aus.');}catch{say('Zurücksetzen fehlgeschlagen.');}});
+      byId('edit-message').textContent='X06 ist noch nicht vorhanden.';
+      byId('query').addEventListener('click',()=>{if (!mutationBusy) query().catch(()=>say('Anfrage fehlgeschlagen.'));});
+      byId('update').addEventListener('click',()=>mutate(async()=>{await write('copies',{id:'X04',bookId:'B3',shelf:'A',status:byId('new-status').value});rows('results',[]);say('X04 geändert. Führe die Anfrage erneut aus.');},'X04 konnte nicht geändert werden.'));
+      byId('add-copy').addEventListener('click',()=>mutate(async()=>{
+        const bookId=byId('insert-book').value,shelf=byId('insert-shelf').value,status=byId('insert-status').value;
+        if(!seedBooks.some(book=>book.id===bookId)||!['A','B','C'].includes(shelf)||!['bereit','ausgeliehen'].includes(status)) throw new Error('Ungültige Auswahl');
+        await insertCopy({id:'X06',bookId,shelf,status});rows('results',[]);
+        byId('edit-message').textContent='X06 wurde als neues Exemplar eingefügt. Die Buch-Tabelle blieb gleich.';
+        say('Daten geändert. Führe die Anfrage erneut aus.');
+      },'X06 konnte nicht eingefügt werden. Prüfe die Auswahl und den aktuellen Zustand.'));
+      byId('delete-copy').addEventListener('click',()=>mutate(async()=>{
+        await deleteCopy('X06');rows('results',[]);
+        byId('edit-message').textContent='Nur X06 wurde gelöscht. Die Buch-Tabelle blieb gleich.';
+        say('Daten geändert. Führe die Anfrage erneut aus.');
+      },'X06 konnte nicht gelöscht werden.'));
+      byId('reset').addEventListener('click',()=>mutate(async()=>{await resetDb();rows('results',[]);say('Startzustand wiederhergestellt. Führe die Anfrage erneut aus.');byId('edit-message').textContent='X06 ist nicht vorhanden.';},'Startzustand konnte nicht wiederhergestellt werden.'));
     } catch { say('Startdaten konnten nicht geladen werden.'); }
   };
 })();

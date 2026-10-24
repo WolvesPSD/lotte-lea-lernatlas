@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-24T07:09:39.960Z",
-  "releaseVersion": "2026.10.24-m6vierkarten.1",
-  "newTopicIds": [
-    "ma-vierkarten-simulation"
-  ],
+  "builtAt": "2026-10-24T07:33:27.196Z",
+  "releaseVersion": "2026.10.24-mbibuchcrud.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Mathematik: freiwilligen Klasse-8-Ausblick mit eigenem Vierkarten-Simulationslauf, Tabelle und Diagramm ergänzt.",
-    "Die 20/100/500 kumulierten Modellversuche lassen sich als CSV herunterladen; eine eigene Zeichnung und reale Kartenversuche bleiben getrennte Lernhandlungen."
+    "MBI-Buchlabor: Ein erfundenes Exemplar X06 lässt sich nach einer Vorhersage lokal einfügen, erneut abfragen und wieder löschen.",
+    "Die freiwillige Praxis erscheint im Kinderblatt ohne Lösung; der Erwachsenenbogen nennt getrennte Beobachtungskriterien."
   ],
-  "rollbackCommit": "8a876886392f3085d07d36a07887035ed5424b2c",
+  "rollbackCommit": "2fb234c311f3aa33e476fb0c780800662b45b9ed",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",

@@ -9138,13 +9138,13 @@ window.LOTTE_CATALOG = Object.freeze({
       "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Für diese Übung öffnest du das fiktive Buchlabor. Es speichert nur erfundene Buch- und Exemplarzeilen im Browser und setzt sie beim Öffnen zurück. Falls dein Browser die lokale Datenbank sperrt, ist der praktische Teil hier nicht durchführbar.",
-      "introduction": "Öffne zuerst das Buchlabor über den Link unten. Arbeite dort mit zwei erfundenen Tabellen: „Buch“ beschreibt Titel, „Exemplar“ konkrete Stücke. Eine Buch-ID verbindet beide. Stelle die Filter ein, führe jede Anfrage bewusst aus und beobachte, was eine Änderung an X04 bewirkt. Schreibe deine Beobachtung hier auf oder nutze das Kinderblatt. Die App kann nicht sehen, ob du die Labor-Schritte wirklich ausgeführt hast; die Antworten erhalten keine automatische Note.",
+      "introduction": "Öffne zuerst das Buchlabor über den Link unten. Arbeite dort mit zwei erfundenen Tabellen: „Buch“ beschreibt Titel, „Exemplar“ konkrete Stücke. Eine Buch-ID verbindet beide. Stelle die Filter ein, führe jede Anfrage bewusst aus und beobachte, was eine Änderung an X04 bewirkt. Nach den Hauptaufgaben kannst du freiwillig X06 als neues Exemplar einfügen und wieder löschen. Schreibe deine Beobachtung hier auf oder nutze das Kinderblatt. Die App kann nicht sehen, ob du die Labor-Schritte wirklich ausgeführt hast; die Antworten erhalten keine automatische Note.",
       "lab": {
         "path": "assets/mbi-buchlabor.html",
         "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/mbi-buchlabor.html",
         "title": "Buchlabor",
-        "description": "Das Labor öffnet in einem neuen Tab. Kehre danach für die Antworten in diesen Lernatlas zurück. Alle Daten sind erfunden; beim Öffnen oder Zurücksetzen beginnt das Labor wieder mit dem Startzustand.",
-        "printNote": "Alle Daten sind erfunden. Das Labor setzt sich beim Öffnen und mit dem Knopf „Startzustand wiederherstellen“ zurück. Die Direktadresse funktioniert erst nach Veröffentlichung dieses Pakets."
+        "description": "Das Labor öffnet in einem neuen Tab. Kehre danach für die Antworten in diesen Lernatlas zurück. Alle Daten sind erfunden; du kannst filtern, X04 ändern sowie X06 einfügen und löschen. Beim Öffnen oder Zurücksetzen beginnt das Labor wieder mit dem Startzustand.",
+        "printNote": "Alle Daten sind erfunden. Das Labor setzt sich beim Öffnen und mit dem Knopf „Startzustand wiederherstellen“ zurück. Nach jeder Änderung die Anfrage neu ausführen; eine alte Trefferliste ist kein Beleg für den neuen Zustand."
       },
       "tasks": [
         {
@@ -9202,11 +9202,31 @@ window.LOTTE_CATALOG = Object.freeze({
           ]
         }
       ],
+      "practice": {
+        "title": "Freiwillige Praxis: X06 einfügen und löschen",
+        "childNote": "Bearbeite zuerst die vier Hauptaufgaben und stelle den Startzustand wieder her. Das Labor führt die Datenbankänderungen aus; die App kann deine Bedienung im anderen Tab nicht beobachten. Die Praxis hat keine zusätzlichen Punkte. Nutze nur die erfundenen Auswahlwerte.",
+        "childSteps": [
+          "Stelle die Anfrage auf Sachbuch, Regal A, bereit. Sage die Trefferzahl voraus und führe sie aus.",
+          "Wähle für X06 Buch B1, Regal A und Status bereit. Sage vorher voraus, wie sich die Trefferzahl ändern sollte; füge X06 ein.",
+          "Prüfe die neue Exemplar-Zeile und führe die gleiche Anfrage erneut aus. Vergleiche das Ergebnis mit deiner Vorhersage.",
+          "Lösche X06. Prüfe, dass die Buch-Tabelle unverändert ist, und führe die gleiche Anfrage erneut aus.",
+          "Erkläre einer anwesenden Person, warum Einfügen/Löschen eines Exemplars nicht das Buch B1 selbst einfügt oder löscht. Ohne wirkliche Bedienung „nicht durchgeführt“ notieren."
+        ],
+        "adultNote": "Nur tatsächlich beobachtete Bedienung und Erklärung vermerken; keine Punkte oder Schulnote daraus ableiten. Nach dem Zurücksetzen zeigt die Anfrage X01 und X04; nach X06 als B1/A/bereit zusätzlich X06; nach Löschen wieder X01 und X04. Die vorbereiteten Menüs sind kein selbst entworfenes ER-Modell und der Browserfilter ist keine selbst formulierte DBMS-Abfrage.",
+        "adultCriteria": [
+          "Nach dem Startzustand wurden die drei Filter gesetzt und die Anfrage mit zwei Treffern wirklich ausgeführt.",
+          "X06 wurde als neues Exemplar mit Buch-ID B1, Regal A und Status bereit in die lokale Exemplar-Tabelle eingefügt.",
+          "Eine neue Anfrage zeigte drei passende Exemplare X01, X04 und X06; eine alte Liste wurde nicht als aktuelles Ergebnis gewertet.",
+          "X06 wurde gelöscht, die Anfrage erneut ausgeführt und X01/X04 als zwei Treffer gesehen; B1 blieb in der Buch-Tabelle.",
+          "Die Lernende erklärte den Unterschied zwischen Buch-Datensatz und Exemplar sowie die Grenze dieses rein fiktiven Labors."
+        ],
+        "unscored": true
+      },
       "releaseEvidence": {
         "validFor": "2026/27",
         "gradeBand": "7/8",
-        "competencyRef": "PDF-S. 2: Erprobungsfassung für Klasse 7 ab 2026/27. § 2.2.6 auf PDF-S. 27–28: Datenbanken, verknüpfte Daten, Abfragen und Ändern unter Klassenstufe 8. Dieses Labor zeigt nur Verknüpfung zweier Tabellen, kombinierten Filter und Statusänderung; der Filter läuft im Browser-JavaScript, nicht als vom Kind erstellte Datenbankabfrage. Die amtliche Übergangstabelle 02/2025 führt MBI 2026/27 in Klasse 7; §2.2 bleibt Zielstand Ende Klasse 8.",
-        "checkedAt": "2026-10-23"
+        "competencyRef": "PDF-S. 2: Erprobungsfassung für Klasse 7 ab 2026/27. § 2.2.6 auf PDF-S. 27–28: Datenbanken, verknüpfte Daten, Abfragen und Einfügen/Aktualisieren/Löschen unter Klassenstufe 8. Dieses Labor zeigt zwei Tabellen, vorbereitete Filter, eine Statusänderung sowie kontrolliertes Einfügen und Löschen eines fiktiven Exemplars; der Filter läuft im Browser-JavaScript, nicht als vom Kind erstellte Datenbankabfrage. Die amtliche Übergangstabelle 02/2025 führt MBI 2026/27 in Klasse 7; §2.2 bleibt Zielstand Ende Klasse 8.",
+        "checkedAt": "2026-10-24"
       }
     },
     {

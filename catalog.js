@@ -12138,6 +12138,114 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "PDF-S. 2: Deutsch Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.2 PDF-S. 26–27: Figurenhandlungen und -motive, Textgestaltung und Navigationsstrukturen digitaler Texte bis Ende Klasse 8. Keine feste Klasse-7-Unterrichtsfolge.",
         "checkedAt": "2026-10-24"
       }
+    },
+    {
+      "id": "ma-runden-materialentscheidung",
+      "subjectId": "ma",
+      "title": "Eine Dreiecksfläche knapp über der Grenze",
+      "scope": "Freiwilliger gestützter Klasse-7-Einstieg in M5 mit Zielstand Ende Klasse 8: Dreiecksfläche, sachbezogenes Runden und begründete Werkzeugwahl. Keine bestätigte aktuelle Unterrichtseinheit.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Hilfreich sind die Dreiecksflächenformel und der Unterschied zwischen senkrechter Höhe und schräger Seite. Falls die Formel noch unbekannt ist, darfst du sie nach einem eigenen Versuch nachschlagen. Du brauchst weder Farbe noch eine echte Wand auszumessen.",
+      "introduction": "Alle Angaben sind erfunden und gelten nur für ein Papiermodell. Eine dreieckige Wandfläche hat Grundseite g = 14,4 m und die dazu senkrechte Höhe h = 7,0 m. Ein Behälter Farbe reicht im Modell exakt für 25 m². Es gibt genau einen Anstrich, keine Verluste und keine Reserve; gekauft werden können nur ganze Behälter. Skizzen sind nicht massstabsgetreu. A–D ergeben 20 Lernpunkte. Die freiwillige Änderung nach A–D zählt sechs getrennte Punkte; offene Antworten werden nicht automatisch benotet.",
+      "passage": "PAPIERMODELL · Dreieckige Fläche: Grundseite g = 14,4 m; dazu senkrechte Höhe h = 7,0 m. Behälter: exakt 25 m² Deckfläche je Behälter. Nur ganze Behälter, genau ein Anstrich, kein Verlust, keine Reserve. Bericht für einen groben Überblick: auf volle Quadratmeter runden. Für die Materialentscheidung die ungerundete Fläche verwenden. Keine reale Beschaffung aus diesem Modell ableiten.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGE ÄNDERUNG NACH A–D · Nur die Grundseite ändert sich auf g = 14,0 m. Die senkrechte Höhe h = 7,0 m und alle Behälter- und Modellannahmen bleiben gleich. Berechne neu, bevor du deine erste Entscheidung vergleichst."
+      },
+      "tasks": [
+        {
+          "id": "ma-runden-1",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A · Fläche (5 Hauptpunkte): Skizziere auf Papier das Dreieck mit Grundseite und dazu senkrechter Höhe. Schreibe die allgemeine Dreiecksflächenformel auf, setze die Modellwerte ein und berechne den Flächeninhalt mit Einheit. Zeige den Rechenweg. Die App kann deine Skizze nicht prüfen.",
+          "sample": "Eine Skizze zeigt g = 14,4 m und das Lot h = 7,0 m zur Grundlinie. A = g·h/2 = 14,4·7,0/2 = 50,4 m². Die schräge Seite wäre nicht die Höhe.",
+          "criteria": [
+            "1 Punkt für die tatsächlich vorgelegte Skizze mit Grundseite und zugehöriger senkrechter Höhe; ohne Skizzenbeobachtung nicht erhoben.",
+            "1 Punkt für A = g·h/2 mit senkrechtem h.",
+            "1 Punkt für das richtige Einsetzen 14,4·7,0/2.",
+            "1 Punkt für 50,4.",
+            "1 Punkt für m² als Flächeneinheit."
+          ]
+        },
+        {
+          "id": "ma-runden-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Berichtszahl (4 Hauptpunkte): Runde die Fläche für einen groben Überblick auf volle Quadratmeter und kennzeichne die Näherung mit ≈. Erkläre die Rundung, warum volle Quadratmeter hier sinnvoll sind und ob der kleine Flächenrest dadurch wirklich verschwindet.",
+          "sample": "50,4 m² ≈ 50 m²; 0,4 < 0,5, also wird auf 50 gerundet. Für einen groben Überblick ist eine ganze Zahl leicht lesbar, wenn die kleine Abweichung kenntlich bleibt. Die 0,4 m² verschwinden nicht physisch; 50 m² ist nur ein Näherungswert.",
+          "criteria": [
+            "1 Punkt für ≈ 50 m² oder klar als ungefähr markierte 50 m².",
+            "1 Punkt für die korrekte Rundungsbegründung aus 50,4.",
+            "1 Punkt für die Eignung voller Quadratmeter bei einem groben Überblick.",
+            "1 Punkt dafür, dass die 0,4 m² nur in der Darstellung entfallen und nicht physisch verschwinden. 50 m² ohne Näherungskennzeichnung höchstens 2 von 4."
+          ]
+        },
+        {
+          "id": "ma-runden-3",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C · Materialentscheidung (6 Hauptpunkte): Prüfe zuerst ausdrücklich, ob zwei Behälter für die ungerundete Modellfläche genügen. Bestimme dann die kleinste ganze Behälterzahl und die damit insgesamt abdeckbare Fläche. Erkläre, weshalb die gerundete Berichtszahl allein für eine Bestellung ungeeignet wäre.",
+          "sample": "Zwei Behälter decken 2·25 = 50 m²; das ist 0,4 m² weniger als 50,4 m². Im idealisierten Modell sind mindestens drei ganze Behälter nötig; sie decken 75 m². Wer mit der Berichtszahl 50 m² bestellt, könnte irrtümlich zwei Behälter wählen. Die ungerundete Zahl entscheidet an dieser Schwelle.",
+          "criteria": [
+            "1 Punkt für 2·25 = 50 m².",
+            "1 Punkt für 50 < 50,4.",
+            "1 Punkt für die Fehlmenge 0,4 m².",
+            "1 Punkt für mindestens drei ganze Behälter.",
+            "1 Punkt für 75 m² Gesamtabdeckung.",
+            "1 Punkt für die Gefahr, dass die Berichtsrundung fälschlich zwei Behälter nahelegt."
+          ]
+        },
+        {
+          "id": "ma-runden-4",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 12,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "D · Werkzeuge und Fehler (5 Hauptpunkte): Nenne zwei sinnvolle Kontrollen im Kopf oder mit einer Skizze. Wann hilft hier ein Rechner zur Gegenprobe, und wann wäre eine Formelsammlung nützlich? Begründe eine passende Reihenfolge für genau diese Aufgabe. Erkläre auch, was ein Rechner über die senkrechte Höhe und die Berichtszahl nicht entscheiden kann. Notiere getrennt, ob du Rechner oder Formelsammlung tatsächlich benutzt hast; das wird nicht benotet.",
+          "sample": "Zuerst die senkrechte Höhe am Dreieck prüfen und 14·7/2 ≈ 49 m² als Grössenordnung überschlagen. Danach Formel und genaue Rechnung; ein Rechner kann Dezimalmultiplikation und Vergleich kontrollieren. Eine Formelsammlung hilft nur bei unsicherer Formelwahl. Rechner und Formelkarte ersetzen weder die geometrische Zuordnung der Höhe noch die Entscheidung, dass eine Berichtsrundung vor dem Schwellenvergleich ungeeignet ist. Tatsächliche Benutzung nur aus gesonderter Beobachtung belegen.",
+          "criteria": [
+            "Je 1 Punkt für zwei konkrete sinnvolle Vorabkontrollen, zusammen 2.",
+            "1 Punkt für eine passende Rechner-Gegenprobe.",
+            "1 Punkt für sinnvollen Formelsammlungseinsatz nur bei Formelunsicherheit.",
+            "1 Punkt für begründete Reihenfolge und beide Rechnergrenzen: keine Entscheidung über die senkrechte Höhe und keine Entscheidung, ob die gerundete Berichtszahl für die Bestellung genügt. Hilfsmittelangabe allein wird nicht bewertet."
+          ]
+        },
+        {
+          "id": "ma-runden-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Änderung · sechs getrennte Zusatzpunkte: Die Grundseite ist jetzt 14,0 m; alles andere bleibt gleich. Berechne die neue Fläche und die kleinste Behälterzahl. Wie viel Deckfläche bleibt rechnerisch ungenutzt? Erkläre, weshalb diese kleine Längenänderung die ganze Behälterzahl verändert.",
+          "sample": "A = 14,0·7,0/2 = 49,0 m². Zwei Behälter decken 50 m² und reichen; rechnerisch bleibt 1,0 m² Deckfläche ungenutzt. Die Fläche sinkt um 1,4 m² von 50,4 unter die 50-m²-Grenze. Dadurch ändert sich die kleinste ganze Behälterzahl von 3 auf 2.",
+          "criteria": [
+            "2 Zusatzpunkte für Ansatz und 49,0 m² mit Einheit.",
+            "2 Zusatzpunkte für den Vergleich 2·25 = 50 ≥ 49 und die kleinste Zahl 2.",
+            "1 Zusatzpunkt für 50−49 = 1,0 m².",
+            "1 Zusatzpunkt für die Schwellenbegründung: 50,4 auf 49,0, dadurch 3 auf 2 trotz kleiner Änderung. Zusatzpunkte getrennt werten."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Erprobungsfassung für Klasse 7 ab 2026/27; §2.2.5 PDF-S. 27 unter Klassenstufe 8: Dreiecksflächen, sinnvolle Einheiten, sachbezogenes Runden und Reflexion zu Formelsammlung und digitalen Mathematikwerkzeugen. Keine Klasse-7-Reihenfolge vorgegeben.",
+        "checkedAt": "2026-10-24"
+      }
     }
   ]
 });

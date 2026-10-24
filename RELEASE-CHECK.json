@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-24T10:29:08.648Z",
-  "releaseVersion": "2026.10.24-mbii6cookie.1",
+  "builtAt": "2026-10-24T10:52:27.964Z",
+  "releaseVersion": "2026.10.24-mbii3finance.1",
   "newTopicIds": [
-    "mbi-i6-cookie-datenweg"
+    "mbi-i3-finanzierungsmodelle"
   ],
   "changeLog": [
-    "Medienbildung: einen fiktiven Cookie-Datenweg aus Anfragen und Antworten quellengebunden prüfen.",
-    "Sechs getrennte Zusatzpunkte erst nach A–D zeigen; Kennung und Person sowie Kinder- und Erwachsenenlösung trennen."
+    "Medienbildung: drei fiktive Finanzierungsmodelle und ihre möglichen Folgen für Nutzende anhand begrenzter Originalquellen vergleichen.",
+    "Eine vierte Werbevariante mit sechs getrennten Zusatzpunkten erst nach A–E zeigen; Kinderdruck und Erwachsenenlösung trennen."
   ],
-  "rollbackCommit": "2a6732f5c4ecde529bc591a6ae613072b2310958",
+  "rollbackCommit": "4f907f58886c8ba39591bd4b6a868fb364875715",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -130,6 +130,7 @@
     "go-gradnetz-modellorte",
     "go-drei-gesteinswege",
     "mbi-i6-cookie-datenweg",
+    "mbi-i3-finanzierungsmodelle",
     "ge-patcham-quellenpruefung",
     "ge-toledo-uebersetzungsquellen",
     "mnt-bionik-leichtbau-modell",
@@ -199,6 +200,7 @@
     "en-write-rooftop-poem",
     "ma-schraegbild-darstellungen",
     "mbi-i6-cookie-datenweg",
+    "mbi-i3-finanzierungsmodelle",
     "en-picture-description-garden",
     "en-survey-questionnaire-table",
     "en-living-things-comparison-foxes",

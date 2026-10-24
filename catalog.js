@@ -11281,6 +11281,138 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-i3-finanzierungsmodelle",
+      "subjectId": "mbi",
+      "title": "Wer bezahlt den kostenlosen Feed?",
+      "scope": "Freiwilliger I3-S5-Ausblick im MBI-Lernzeitraum 7/8; Zielmarke Ende Klasse 8. Die konkrete Unterrichtsfolge ist unbekannt. Drei erfundene Finanzierungsmodelle vergleichen, keine echte App oder Person untersuchen.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst nur die drei erfundenen Fallkarten und die zwei kurzen Quellenkarten. Verwende keine eigenen Konten, Profile, Interessen, Käufe oder Erlebnisse. Schreibe auf, was Modellannahme, Quellenbefund und offene Frage ist. Die App kann freie Antworten nicht automatisch bewerten.",
+      "introduction": "Wer zahlt für drei erfundene Videoangebote, welche Daten nennt die Karte, und was bleibt offen? Vergleiche einen Werbe-Feed, ein Abo und eine öffentlich finanzierte Mediathek. A–E haben zusammen 20 Kriterienpunkte. Die spätere, freiwillige Änderung hat sechs getrennte Zusatzpunkte. Andere schlüssige Antworten sind möglich; eine Schulnote entsteht hier nicht.",
+      "passage": "DREI ERFUNDENE DIENSTE · Alle Angaben sind Denkmodelle, keine Aussagen über echte Apps.\n\nWOLKE · kostenloser Video-Feed: Werbefirmen bezahlen den Betreiber für Anzeigen. Der Betreiber speichert angesehene oder mit „Gefällt mir“ markierte Themen und bildet Gruppen mit ähnlichen Interessen. Werbefirmen können eine passende Gruppe auswählen. Die App empfiehlt weitere Videos zu angesehenen Themen. Längere Nutzung kann im Modell mehr Anzeigengelegenheiten bedeuten; eine Interessenvermutung kann falsch sein. Welche einzelnen Informationen wie lange gespeichert oder an wen gegeben werden, ist offen. Empfehlung und möglicher Anzeigenzusammenhang sind Modellannahmen.\n\nKIESEL PLUS · Monatsabo: Kundinnen und Kunden bezahlen direkt. Es gibt keine Anzeigen. Die zuletzt angesehene Stelle wird zum Fortsetzen gespeichert. Weitere Datenarten und Speicherfristen bleiben offen.\n\nSTADT-MEDIATHEK · öffentlich finanziert: Die Stadt-Mediathek zahlt jährlich eine feste Lizenzgebühr. Es gibt keine Anzeigen oder persönlichen Empfehlungen. Der Anbieter zählt laut Modell nur die Gesamtzahl der abgespielten Videos, ohne sie einzelnen Konten zuzuordnen. Konkrete Kosten und weitere technische Daten bleiben offen.",
+      "sourceCards": [
+        {
+          "title": "1 · Werbeeinnahmen in einer begrenzten Untersuchung",
+          "text": "FTC Staff Report (USA), September 2024: Die Untersuchung beruht auf Antworten von neun grossen Social-Media- und Videodiensten. Bei den meisten untersuchten Unternehmen mit Werbediensten stammte laut ihren Angaben der grösste Teil der Diensteinnahmen aus Werbung; diese Werbedienste boten Zielgruppenwerbung an. Für Unternehmen mit zielgerichteten Werbeeinnahmen beschreibt der Bericht ein Interesse an Inhalten mit mehr Interaktion, weil mehr Nutzungszeit zu höheren Werbeeinnahmen beitragen kann. Nicht jeder Befund gilt für jedes Unternehmen. Das belegt weder Wolke noch eine sichere Ursache-Wirkung-Regel für alle Dienste.",
+          "sourceLabel": "FTC · A Look Behind the Screens (Originalbericht, PDF)",
+          "sourceUrl": "https://www.ftc.gov/system/files/ftc_gov/pdf/Social-Media-6b-Report-9-11-2024.pdf",
+          "sourceNote": "US-Staff-Report von 2024, abgerufen 24.10.2026; begrenzte Untersuchung, keine Aussage zu einer heutigen einzelnen App."
+        },
+        {
+          "title": "2 · Aktueller Inhalt oder frühere Interessen?",
+          "text": "Die britische Datenschutzbehörde ICO unterscheidet Werbung nach dem gerade geöffneten Seiteninhalt von Werbung, die sich an bekannten oder vermuteten Interessen und Verhalten über längere Zeit orientiert. Das ist hier nur eine Begriffshilfe, keine Rechtsauskunft für Thüringen.",
+          "sourceLabel": "ICO · How do the rules apply to online advertising?",
+          "sourceUrl": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/how-do-the-rules-apply-to-online-advertising/",
+          "sourceNote": "Britische Behördenanleitung, abgerufen 24.10.2026; Begriffe, keine Übertragung des UK-Rechts."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–E",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "Hauptantworten festhalten und vierte Variante zeigen",
+        "text": "FREIWILLIGE VIERTE MODELLKARTE NACH A–E · In dieser ebenfalls erfundenen Wolke-Variante richtet sich eine Anzeige nur nach dem gerade geöffneten Videothema. Frühere angesehene oder markierte Themen werden nach der Modellkarte nicht zur Bildung einer persönlichen Interessengruppe für Anzeigen genutzt. Anzeigen bleiben möglich. Weitere technische Daten, Speicherfristen und der genaue Erlösweg sind nicht belegt."
+      },
+      "tasks": [
+        {
+          "id": "mbi-i3-finanz-a",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A · Wer zahlt, was fliesst? (6 Hauptpunkte): Nenne für Wolke, Kiesel Plus und Stadt-Mediathek jeweils den Zahler, den Geld- oder Datenweg, einen möglichen Vorteil und eine mögliche Belastung oder offene Frage für Nutzende. Kurze Stichworte genügen.",
+          "sample": "Wolke: Werbefirmen zahlen für Anzeigen; angesehene/markierte Themen werden für Interessengruppen genutzt; kein Geldpreis beim Öffnen, aber Fehlvermutung und unbekannte Speicherzeit. Kiesel Plus: Kundschaft zahlt monatlich; keine Anzeigen, doch eine Wiedereinstiegsstelle wird gespeichert. Stadt-Mediathek: öffentliche Lizenzgebühr; laut Modell nur Gesamtzahl der Abrufe und keine Anzeigen; öffentliche Kosten und weitere technische Daten offen.",
+          "criteria": [
+            "Je Modell 2 Punkte: 0,5 Zahler, 0,5 Geld-/Datenweg, 0,5 möglicher Vorteil, 0,5 Belastung oder offen benannte Frage. Keine Daten pauschal als bezifferten Geldpreis werten."
+          ]
+        },
+        {
+          "id": "mbi-i3-finanz-b",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Daten und Werbung unterscheiden (4 Hauptpunkte): Zeichne für Wolke auf Papier oder beschreibe eine Pfeilkette vom angesehenen Video zur passenden Anzeige und benenne die handelnden Rollen. Nutzt Wolke frühere Interessen oder nur den aktuellen Inhalt? Haben Kiesel Plus oder Stadt-Mediathek Anzeigen? Nenne eine Information, die bei Wolke offen bleibt.",
+          "sample": "Angesehenes/markiertes Video → Betreiber speichert Themen und bildet Interessengruppe → Werbefirma wählt passende Gruppe → Anzeige im Feed. Wolke nutzt frühere Themen; Kiesel Plus und Stadt-Mediathek zeigen im Modell keine Anzeigen. Offen sind etwa Speicherfrist und konkrete Empfänger. Rohdaten müssen laut Karte nicht direkt an Werbefirmen gehen.",
+          "criteria": [
+            "2 Punkte für verständliche Pfeilkette mit Rollen.",
+            "1 Punkt für frühere Themen bei Wolke und keine Anzeigen bei beiden anderen Modellen.",
+            "1 Punkt für eine zutreffende offene Information."
+          ]
+        },
+        {
+          "id": "mbi-i3-finanz-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Ein Vergleich mit zwei Seiten (4 Hauptpunkte): Vergleiche ausdrücklich Wolke und Kiesel Plus. Nenne einen Vorteil und eine Belastung durch die unterschiedliche Finanzierung oder Datennutzung und erkläre jeweils den Zusammenhang mit den Fallkarten. Ein Abo ist nicht automatisch datenfrei.",
+          "sample": "Wolke kostet beim Öffnen kein Geld, nutzt aber frühere Themen für Interessengruppen und kann sich irren. Kiesel Plus kostet monatlich Geld und ist im Modell anzeigenfrei, speichert aber die zuletzt angesehene Stelle. Weder Preis noch Anzeigenfreiheit beweisen Datenfreiheit.",
+          "criteria": [
+            "2 Punkte für einen Vorteil mit begründeter Verbindung zu Wolke und Kiesel Plus.",
+            "2 Punkte für eine Belastung mit begründeter Verbindung zu Wolke und Kiesel Plus; Stadt-Mediathek darf ergänzen, ersetzt aber keines der beiden gefragten Modelle."
+          ]
+        },
+        {
+          "id": "mbi-i3-finanz-d",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Was wissen wir wirklich? (4 Hauptpunkte): Formuliere je eine Aussage, die durch eine Quellenkarte gestützt ist, die nur aus einem erfundenen Modell stammt und die offen bleibt. Nenne danach eine zusätzliche Information, die du bei einem echten Dienst prüfen müsstest. Öffne dafür keinen Dienst.",
+          "sample": "FTC: Die meisten untersuchten Unternehmen mit Werbediensten berichteten überwiegende Werbeeinnahmen; das gilt nicht für jeden Dienst. Modell: Wolke bildet Interessengruppen. Offen: seine konkrete Speicherzeit. Bei einem echten Dienst wäre der Datenschutzhinweis zu gespeicherten Seitenaufrufen oder Empfängern zu prüfen.",
+          "criteria": [
+            "1 Punkt für Quellenbeleg samt Geltungsgrenze.",
+            "1 Punkt für klar markierte erfundene Modellannahme.",
+            "1 Punkt für korrekt offen gelassene Frage.",
+            "1 Punkt für eine konkrete sinnvolle Prüfinformation ohne echte Plattformhandlung."
+          ]
+        },
+        {
+          "id": "mbi-i3-finanz-e",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "E · Einen fairen Modellvorschlag machen (2 Hauptpunkte): Eine erfundene Jugendgruppe möchte Naturclips ohne persönliche Werbeprofile zeigen. Wähle eines der drei Modelle als Ausgangspunkt oder schlage eine Änderung vor. Begründe den Finanzierungsschritt, eine Folge für Nutzende und eine Grenze oder offene Frage.",
+          "sample": "Die Stadt-Mediathek könnte eine Lizenz zahlen; im Modell gäbe es keine persönlichen Werbeprofile. Die öffentlichen Kosten und mögliche weitere technische Daten blieben zu prüfen. Auch eine Abo- oder Mischlösung ist bei guter Begründung möglich.",
+          "criteria": [
+            "1 Punkt für passende Finanzierungs-/Datenentscheidung.",
+            "1 Punkt für Folge und Grenze oder offene Frage; keine einzig richtige Modellwahl."
+          ]
+        },
+        {
+          "id": "mbi-i3-finanz-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige spätere Variante nach A–E · sechs getrennte Zusatzpunkte: Vergleiche die vierte Wolke-Karte mit dem ursprünglichen Modell. Nenne zwei Änderungen am Daten- oder Werbeweg, einen möglichen Vorteil und eine mögliche Grenze. Welche Finanzierungsfrage bleibt trotzdem offen? Begründe anhand der Karten, ohne Kontextwerbung als vollständig datenfrei zu bezeichnen.",
+          "sample": "Die Anzeige richtet sich nun nach dem aktuellen Videothema statt früheren Interessen. Für die Anzeigenwahl wird laut Modell keine aus früheren Ansichten gebildete Interessengruppe benötigt. Das kann ein Vorteil für die Profilvermeidung sein; andere technische Daten bleiben offen. Wer den Dienst bezahlt und ob die Anzeigen genug einbringen, ist weiterhin zu klären.",
+          "criteria": [
+            "1 Zusatzpunkt für aktuellem Videothema statt früheren Interessen.",
+            "1 Zusatzpunkt für keine frühere Interessengruppe in der neuen Modellannahme.",
+            "1 Zusatzpunkt für möglichen Vorteil.",
+            "1 Zusatzpunkt für konkrete Grenze.",
+            "1 Zusatzpunkt für weiter offene Finanzierung.",
+            "1 Zusatzpunkt für begründete Modell-/Quellengrenze; keine pauschale Datenfreiheit."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: MBI Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. §2.2.3/PDF-S. 25–26: Social Media, datenbasierte Geschäftsmodelle und mögliche Folgen für Nutzende; Zielmarke Ende Klasse 8. Hier nur ein enger schriftlicher I3-S5-Teilfall.",
+        "checkedAt": "2026-10-24"
+      }
+    },
+    {
       "id": "ge-patcham-quellenpruefung",
       "subjectId": "ge",
       "title": "Was verrät Patcham im Jahr 1086?",

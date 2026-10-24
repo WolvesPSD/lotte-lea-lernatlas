@@ -9347,6 +9347,20 @@ window.LOTTE_CATALOG = Object.freeze({
           "Gib Bs Einwand fair wieder. Begründe deinen Vorschlag oder ändere ihn so, dass die halbe Stunde für beide passt.",
           "Fasse Tag, Uhrzeit, Ort, Ablauf und einen noch offenen Punkt zusammen. Notiere erst danach die Sachangaben in Aufgabe B."
         ],
+        "childHandouts": [
+          {
+            "label": "Freiwillige Feedback-Karte öffnen und drucken",
+            "path": "assets/de-feedback-kind.html",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-feedback-kind.html"
+          }
+        ],
+        "handouts": [
+          {
+            "label": "Beobachtungsbogen für die Feedback-Runde öffnen",
+            "path": "assets/de-feedback-beobachtung.html",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-feedback-beobachtung.html"
+          }
+        ],
         "observationMax": 14,
         "observationLabel": "Gespräch",
         "adultNote": "VERDECKTE PARTNERKARTE B: Der Leseraum ist Dienstag 15:30–16:00 Uhr belegt und Donnerstag 15:30–16:00 Uhr frei; ein Tisch hat sechs Plätze. Der gedruckte Aushang ist nicht fertig, Papier und Stifte sind vorhanden. Du fürchtest, dass zehn Minuten Stille zu wenig Zeit für den Austausch lassen. Antworte auf Fragen. Gib diese drei Informationen spätestens im Gespräch, aber nicht als Monolog vor der ersten Kinderfrage oder dem ersten Vorschlag. Falls A direkt Donnerstag nennt, bestätige den freien Raum und bringe dennoch Aushanggrenze und Zeiteinwand ein. Akzeptiere einen machbaren Kompromiss und lass A am Ende zusammenfassen. Nur das wirklich gehörte Gespräch beurteilen: 2 = selbstständig/deutlich, 1 = teilweise oder nach zusätzlicher neutraler Hilfe, 0 = trotz fairer Gelegenheit nicht gezeigt, — = Gelegenheit nicht gegeben. Vorab erlaubte Satzhilfen deckeln nicht automatisch; bei — keine vergleichbare Gesamtsumme. Ohne Gespräch alles „nicht erhoben“ lassen. Formative Rückmeldung, keine Schulnote und keine Aufnahme nötig.",

@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-24T05:57:59.831Z",
-  "releaseVersion": "2026.10.24-m3umfang.1",
-  "newTopicIds": [
-    "ma-umfang-identitaet-rechtecke"
-  ],
+  "builtAt": "2026-10-24T06:15:26.063Z",
+  "releaseVersion": "2026.10.24-defeedback.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Mathematik: freiwilliger Ende-Klasse-8-Ausblick zu zwei Rechtecken mit gleichem Umfang ergänzt.",
-    "Sechs Aufgaben verbinden eigene Papierskizzen, Regelwahl, vier Tabellenfälle und einen allgemeinen Termvergleich; Erwachsenenlösung bleibt getrennt."
+    "Deutsch: beim bestehenden Lesetreff-Gespräch eine freiwillige Kinderkarte für kriterienbezogene Rückmeldung und eine zweite Sprechrunde ergänzt.",
+    "Ein getrennter Erwachsenenbogen hält nur tatsächlich gehörte Schritte fest; beide A4-Karten sind separat druckbar, ohne automatische Sprechbewertung."
   ],
-  "rollbackCommit": "d555f5b343215b430a2656ef2689a99407097a6d",
+  "rollbackCommit": "25d6b6787ba7ee338257a837d443e7d4cef42dd6",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",

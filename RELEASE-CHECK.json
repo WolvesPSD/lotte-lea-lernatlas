@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-24T23:25:49.439Z",
-  "releaseVersion": "2026.10.25-gm16zeittafel.1",
+  "builtAt": "2026-10-24T23:38:43.680Z",
+  "releaseVersion": "2026.10.25-gm17sektoren.1",
   "newTopicIds": [
-    "go-mount-st-helens-zeittafel"
+    "go-thueringen-wirtschaftssektoren"
   ],
   "changeLog": [
-    "Geografie: Mount St. Helens in der datierten ICS-Erdzeittafel mit drei USGS-Quellenkarten einordnen.",
-    "Freiwilliger Ende-8-Methodenfall mit klar markierter alter Lehrplanabweichung und erfundener Zusatzschicht."
+    "Geografie: Thüringer Arbeitsortdaten aus der TLS-Pressemitteilung 242/2026 im Drei-Sektoren-Modell auswerten.",
+    "Freiwilliger Ende-8-Methodenfall mit eigenen gerundeten Gruppensummen, Jahresvergleich erst nach A–D und offener Fachgeltung."
   ],
-  "rollbackCommit": "d2ff6afce5c501f0d43d1d0f50a211955c0c0a1e",
+  "rollbackCommit": "0c1b7cf2fba4ac7b58397723d66e72ad6136de76",
   "releasedTopics": [
     "ma-koerper-netzkarten",
     "de-wortarten-form-funktion",
@@ -133,6 +133,7 @@
     "et-jugendhaus-doppeltermin",
     "go-klima-vegetation-modell",
     "go-mount-st-helens-zeittafel",
+    "go-thueringen-wirtschaftssektoren",
     "go-gradnetz-modellorte",
     "go-drei-gesteinswege",
     "mbi-i6-cookie-datenweg",
@@ -229,6 +230,7 @@
     "et-jugendhaus-doppeltermin",
     "go-klima-vegetation-modell",
     "go-mount-st-helens-zeittafel",
+    "go-thueringen-wirtschaftssektoren",
     "go-gradnetz-modellorte",
     "go-drei-gesteinswege",
     "ge-patcham-quellenpruefung",

@@ -11550,6 +11550,122 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "go-thueringen-wirtschaftssektoren",
+      "subjectId": "go",
+      "title": "Wo arbeiten Menschen in Thüringen?",
+      "scope": "Freiwilliger Klasse-7-Vorgriff auf das Wirtschaftssektoren-Modell als enges Ende-8-Methodenziel. Die Geltung des älteren Geografieplans 2026/27 und Lottes Unterrichtsfolge sind ungeklärt.",
+      "levelStatus": "additional-unclear",
+      "released": true,
+      "prerequisite": "Diese Übung ist freiwillig. Ob der ältere Geografieplan 2026/27 gilt, ist ungeklärt; ob deine Schule das Thema bereits behandelt, ist offen. Du brauchst keine Angaben über Berufe oder Einkommen deiner Familie. Die Daten beschreiben Arbeitsorte in Thüringen, nicht alle dort wohnenden Menschen. Freie Antworten prüft ein Mensch.",
+      "introduction": "Ordne sechs aus amtlichen Einzelbranchen gebildete Gruppen einem Drei-Sektoren-Modell zu. Rechne mit gerundeten Angaben in Tausend Erwerbstätigen am Arbeitsort. A–D haben 20 Kriterienpunkte; die spätere Jahresvergleichsprobe hat sechs getrennte Zusatzpunkte. Das ist Lernfeedback, keine Schulnote. Die App bewertet freie Antworten nicht automatisch.",
+      "sourceCards": [
+        {
+          "title": "A · Sechs Gruppen aus Thüringer Arbeitsortdaten",
+          "text": "2025, jeweils in 1.000 Erwerbstätigen: Landwirtschaft, Forstwirtschaft und Fischerei 16,7; produzierendes Gewerbe ohne Bau 216,5; Baugewerbe 67,8; Handel, Verkehr und Lagerei, Gastgewerbe sowie Information und Kommunikation 217,9; Finanz- und Versicherungsdienste, Unternehmensdienste sowie Grundstück und Wohnen 135,0; öffentliche und sonstige Dienste, Erziehung und Gesundheit 350,6. Darunter: Verarbeitendes Gewerbe 199,5 (Teil des produzierenden Gewerbes ohne Bau). Amtliche Gesamtzeile A–T: 1.004,7. Die sechs lesbaren Gruppen sind eigene Summen gerundeter amtlicher Einzelzeilen, keine zusätzlichen amtlichen Tabellenzeilen.",
+          "sourceLabel": "Thüringer Landesamt für Statistik · Pressemitteilung 242/2026",
+          "sourceUrl": "https://statistik.thueringen.de/presse/2026/pr_242_26.pdf",
+          "sourceNote": "PDF-S. 4–5; Berechnungsstand August 2026; abgerufen 25.10.2026. Einzelzeilen A–T und Gesamtzeile sind amtlich, sechs Unterrichtsgruppen eigene gerundete Additionen."
+        },
+        {
+          "title": "B · Was die Erhebung zählt",
+          "text": "Die Quelle zählt Erwerbstätige mit Arbeitsort in Thüringen. Einpendelnde aus anderen Gebieten zählen mit; wer aus Thüringen zur Arbeit ausserhalb Thüringens fährt, zählt hier nicht. Auch Kurzarbeitende zählen zu den Erwerbstätigen. Die Zahl 16,7 in der Tabelle bedeutet etwa 16.700 Personen.",
+          "sourceLabel": "Thüringer Landesamt für Statistik · Arbeitsortkonzept",
+          "sourceUrl": "https://statistik.thueringen.de/presse/2026/pr_242_26.pdf",
+          "sourceNote": "PDF-S. 2; abgerufen 25.10.2026. Beschäftigte am Arbeitsort sind weder alle Einwohner noch eine Aussage über Löhne."
+        }
+      ],
+      "passage": "MODELL UND RECHENWEG\nPrimär: Land-/Forstwirtschaft und Fischerei. Sekundär: produzierendes Gewerbe und Bau. Tertiär: die drei Dienstleistungsgruppen. Das ist ein Ordnungsmodell für die Aufgabe. „Darunter“ bezeichnet einen Teil einer bereits genannten Gruppe und ist kein weiterer Summand. Runde Prozentanteile auf eine Nachkommastelle. Die Einzelzeilen und die amtliche Gesamtzeile wurden getrennt gerundet; kleine Differenzen können dadurch entstehen.\n\nQUELLENGRENZE\nDie Zahlen sagen, wie viele Menschen in den genannten Bereichen einen Arbeitsort in Thüringen haben. Daraus folgen weder der Beruf einer bestimmten Person noch deren Einkommen, die Arbeitsqualität oder eine Ursache für Veränderungen. Die Berechnungen stammen aus dem Stand August 2026; sie können später revidiert werden.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und Jahresvergleich zeigen",
+        "text": "FREIWILLIGE ZUSATZPROBE NACH A–D · Dieselbe TLS-Pressemitteilung (Berechnungsstand August 2026) enthält auch Werte für 2024. Aus ihren einzeln gerundeten Dienstbranchen ergeben sich als eigene Gruppensummen 218,6, 140,8 und 347,2 Tausend Erwerbstätige. Die amtliche Gesamtzeile 2024 beträgt 1.015,4 Tausend. Für 2025 gelten die sechs Gruppen und die amtliche Gesamtzeile in Karte A. Die Zusatzpunkte werden getrennt ausgewiesen."
+      },
+      "tasks": [
+        {
+          "id": "go-sektoren-a",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A · Modell anwenden (6 Hauptpunkte): Ordne die sechs eigenständigen Wirtschaftsbereiche aus Karte A jeweils dem primären, sekundären oder tertiären Sektor zu. Die Zeile „Darunter: Verarbeitendes Gewerbe“ ist kein siebter eigener Summand.",
+          "sample": "Land-/Forstwirtschaft/Fischerei → primär; produzierendes Gewerbe ohne Bau → sekundär; Bau → sekundär; Handel/Verkehr/Lagerei/Gastgewerbe/Information/Kommunikation → tertiär; Finanz-/Versicherungs-/Unternehmensdienste/Grundstück/Wohnen → tertiär; öffentliche/sonstige Dienste/Erziehung/Gesundheit → tertiär.",
+          "criteria": [
+            "Je 1 Punkt für die sechs richtig zugeordneten eigenständigen Gruppen. Die Teilzeile „darunter“ zählt nicht als siebte Gruppe."
+          ]
+        },
+        {
+          "id": "go-sektoren-b",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Sektoren bilden (5 Hauptpunkte): Berechne aus den sechs Gruppen die ungefähre Zahl für jeden der drei Sektoren. Addiere die drei Sektorwerte und vergleiche mit der amtlichen Gesamtzeile. Erkläre eine mögliche Ursache der Abweichung und weshalb du die Teilzeile 199,5 nicht zusätzlich addierst.",
+          "sample": "Primär 16,7; sekundär 216,5 + 67,8 = 284,3; tertiär 217,9 + 135,0 + 350,6 = 703,5 (alle in Tausend). Eigene Summe 1.004,5 gegenüber der amtlichen Gesamtzeile 1.004,7; die 0,2 Tausend Differenz kann aus getrennter Rundung vieler Einzelzeilen und des Gesamtwertes entstehen. Die 199,5 sind schon in 216,5 enthalten.",
+          "criteria": [
+            "Je 1 Punkt für die drei richtigen ungefähren Sektorwerte.",
+            "1 Punkt zusammen für die 1.004,5/1.004,7-Kontrolle und die Rundungsgrenze statt einer erfundenen fehlenden Branche.",
+            "1 Punkt für „darunter“ als Teil von 216,5 ohne Doppelzählung. Korrekte Umrechnung in Personen anerkennen."
+          ]
+        },
+        {
+          "id": "go-sektoren-c",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C · Anteile lesen (5 Hauptpunkte): Berechne aus deinen ungefähren Sektorwerten die Anteile aller drei Sektoren am amtlichen Gesamtwert 1.004,7. Zeige die Rechenregel, runde jeden Anteil auf eine Nachkommastelle in Prozent und prüfe die Summe der gerundeten Anteile.",
+          "sample": "Sektorwert ÷ 1.004,7 × 100. Primär 16,7/1.004,7 × 100 ≈ 1,7 %; sekundär 284,3/1.004,7 × 100 ≈ 28,3 %; tertiär 703,5/1.004,7 × 100 ≈ 70,0 %. Gerundete Summe 100,0 %. Alle Werte sind Näherungen.",
+          "criteria": [
+            "Je 1 Punkt für die drei richtig gerundeten Anteile mit erkennbarer Rechnung.",
+            "1 Punkt für allgemeine Rechenregel und Rundung auf eine Stelle.",
+            "1 Punkt für Prüfung der gerundeten Summe 100,0 % samt Näherungsstatus."
+          ]
+        },
+        {
+          "id": "go-sektoren-d",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "D · Reichweite prüfen (4 Hauptpunkte): Nenne den Sektor mit der grössten Beschäftigtenzahl und belege das mit deiner Rechnung. Prüfe zwei Aussagen: „70 % aller Menschen, die in Thüringen wohnen, arbeiten im Dienstleistungssektor“ und „Der grösste Beschäftigtensektor bringt daher sicher die höchsten Einkommen.“ Was belegen diese Daten, was nicht?",
+          "sample": "Tertiär hat mit ungefähr 703,5 Tausend die grösste hier berechnete Beschäftigtenzahl. Die 70,0 % beziehen sich auf erfasste Erwerbstätige mit Arbeitsort in Thüringen, nicht auf alle Einwohner und nicht auf den Wohnort: Ein- und Auspendelnde verändern die Bezugsgruppe. Erwerbstätigenzahlen enthalten keine Lohndaten und beweisen keinen Einkommensrang.",
+          "criteria": [
+            "1 Punkt für tertiär mit Zahl.",
+            "1 Punkt für den falschen Nenner „alle Einwohner“.",
+            "1 Punkt für Arbeitsort statt Wohnort samt Pendlergrenze.",
+            "1 Punkt für fehlende Lohndaten und keine Einkommensfolgerung."
+          ]
+        },
+        {
+          "id": "go-sektoren-e",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Jahresvergleich nach A–D · sechs getrennte Zusatzpunkte: Bilde aus den drei 2024er Dienstgruppen den tertiären Sektor. Vergleiche seine absolute Zahl mit 2025 und berechne die Änderung in Tausend. Berechne den tertiären Anteil 2024 am Gesamtwert 1.015,4 auf eine Prozent-Nachkommastelle und vergleiche ihn mit 2025 in Prozentpunkten. Erkläre, wie eine absolute Zahl sinken und ihr Anteil trotzdem steigen kann.",
+          "sample": "2024 tertiär 218,6 + 140,8 + 347,2 = 706,6 Tausend; 2025 ungefähr 703,5 Tausend, also Rückgang um 3,1 Tausend. 706,6/1.015,4 × 100 ≈ 69,6 %; 2025 rund 70,0 %, also +0,4 Prozentpunkte. Die amtliche Gesamtzahl fällt von 1.015,4 auf 1.004,7 Tausend stärker als die selbst gebildete tertiäre Näherungszahl. Die Pressemitteilung beschreibt den Diensterückgang gerundet als etwa 3.000 Personen; 3,1 ist eine eigene Differenz gerundeter Gruppen, keine amtliche Aggregatzeile.",
+          "criteria": [
+            "1 Zusatzpunkt für 706,6, 1 für 703,5 und 1 für die eigene Differenz −3,1 Tausend.",
+            "1 Zusatzpunkt für 69,6 % 2024 und 1 für +0,4 Prozentpunkte gegenüber 2025.",
+            "1 Zusatzpunkt für die Erklärung mit gesunkenem amtlichem Gesamtwert als Nenner. Zusatzpunkte getrennt von 20 Hauptpunkten ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "Älterer Fachplan; amtliche Geltung 2026/27 ungeklärt",
+        "gradeBand": "7/8, Ziel Ende Klasse 8; freiwilliger Klasse-7-Vorgriff",
+        "competencyRef": "Geografie Gymnasium, §2.2/PDF-S. 16, Methodenkompetenz Ende Klasse 8: das Modell der Wirtschaftssektoren anwenden.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "go-gradnetz-modellorte",
       "subjectId": "go",
       "title": "Orte im erfundenen Gradnetz finden",

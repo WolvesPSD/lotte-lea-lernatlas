@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-24T22:39:31.397Z",
-  "releaseVersion": "2026.10.25-m5rundungswahl.1",
+  "builtAt": "2026-10-24T23:07:22.241Z",
+  "releaseVersion": "2026.10.25-ensd06.1",
   "newTopicIds": [
-    "ma-rundungswahl-vergleich"
+    "en-feelings-reply-dialog"
   ],
   "changeLog": [
-    "Mathematik: passende Rundungsgenauigkeit für zwei erfundene Dreiecksflächen wählen und Informationsverlust erklären.",
-    "Freiwilliger Ende-8-Ausblick; neue Grundseite nach fünf Hauptantworten, Kinderdruck ohne Lösungen."
+    "Englisch: fiktive Alex-/Sam-Wechselrede zu Gefühlen mit getrennt ausgebbarer Partnerkarte.",
+    "Freiwilliger Ende-8-Ausblick; schriftliche Notizen ohne Punkte, mündliche Kriterien nur nach tatsächlich gehörtem Gespräch."
   ],
-  "rollbackCommit": "163f1c2afabae463c0625f7e8258af8876c83ab8",
+  "rollbackCommit": "e6500f0ea09d62edfbee97f6596f4d67c6fa664d",
   "releasedTopics": [
     "ma-koerper-netzkarten",
     "de-wortarten-form-funktion",
@@ -26,6 +26,7 @@
     "de-tauschregal-eroerterung",
     "en-art-display-report",
     "en-maya-clubs-talk",
+    "en-feelings-reply-dialog",
     "fr-leseecke-avis-aide",
     "fr-termin-gespraech",
     "de-textzusammenhang-register",
@@ -176,6 +177,7 @@
   "grade8OutlookTopics": [
     "ma-koerper-netzkarten",
     "ma-fermat-pascal-quellenwerkstatt",
+    "en-feelings-reply-dialog",
     "ma-koerper-modell",
     "ma-medienwahrscheinlichkeit",
     "ma-wahrscheinlichkeitsbaum",

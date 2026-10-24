@@ -769,6 +769,8 @@
     }
     if (adult) appendText(section, 'p', 'muted', practice.unscored === true
       ? 'Nur tatsächlich Beobachtetes eintragen. Keine Gelegenheit und nicht beobachtet unterscheiden; keine Punkte, Summe oder Schulnote ableiten.'
+      : practice.noTotal === true
+      ? 'Nur nach fairer Gelegenheit je Kriterium beobachten. Ohne Gelegenheit: nicht erhoben statt 0. Keine Gesamtpunktzahl oder Schulnote ableiten.'
       : 'Pro Kriterium die tatsächlich beobachteten Punkte und Hilfen auf dem Lösungsblatt notieren. Ohne durchgeführte Beobachtung: nicht erhoben. Keine automatische Punktzahl.');
     return section;
   }
@@ -1025,6 +1027,9 @@
               appendText(practiceSection, 'p', '', 'Übung und verwendete Grundlage: ______________________________________________________________');
               appendText(practiceSection, 'p', '', 'Ohne tatsächliche Beobachtung: nicht erhoben; das Raster bleibt leer. Ein Selbstbericht belegt die Handlung nicht. Dieser Bogen vergibt keine zusätzlichen Punkte oder Schulnote.');
             }
+          } else if (topic.practice.noTotal === true) {
+            appendText(practiceSection, 'p', '', topic.practice.printObservationFooter || 'Je Kriterium nur nach fairer Gelegenheit werten; sonst nicht erhoben. Keine Gesamtsumme bilden.');
+            appendText(practiceSection, 'p', '', 'Tatsächlich gehörte Äusserung und verwendete Hilfe: ________________________________________________________');
           } else {
             const observationMax = Number.isInteger(topic.practice.observationMax) ? topic.practice.observationMax : 16;
             const observationLabel = topic.practice.observationLabel || 'Vortrag';

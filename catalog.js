@@ -1562,6 +1562,87 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "en-feelings-reply-dialog",
+      "subjectId": "en",
+      "title": "Alex und Sam: auf Gefühle antworten",
+      "scope": "Freiwilliger, gestützter Ende-8-Ausblick: In einem fiktiven englischen Gespräch ein Gefühl ausdrücken und auf eine wirklich gehörte Gefühlsäusserung reagieren. Lottes aktuelle Klasse-7-Unterrichtsfolge ist unbekannt; nur ein beobachtetes Gespräch kann Sprechen belegen.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst eine zweite Person für Sam. Sie erhält ihre eigene verdeckte Karte nur im Erwachsenenbereich. Du siehst zuerst nur Alex. Niemand muss persönliche Gefühle mitteilen; es gibt keine Aufnahme. Ohne Gespräch bleibt die mündliche Praxis „nicht erhoben“.",
+      "introduction": "Alex und Sam gehören zu einem erfundenen „Night Sky Club“. Wegen starkem Wind wurde ein Abend mit einem selbst gebauten Sternbild-Modell verschoben. Beide kennen zunächst nur die eigene Karte. Sprecht als Alex und Sam wirklich miteinander: Nennt ein Gefühl mit einem Grund und reagiert auf das, was die andere Person tatsächlich sagt. Die App hört nichts mit und bewertet das Gespräch nicht.",
+      "passage": "DEINE GEHEIME ROLLENKARTE · ALEX\nDu bist enttäuscht, weil du dich auf den Abend gefreut hast und das Modell fertig ist.\nDu machst dir Sorgen: Wird das Modell beim nächsten Termin noch funktionieren?\nSag mindestens ein Gefühl und einen Grund in eigenen einfachen englischen Worten.\nHöre Sams Antwort. Greife einen Gedanken oder ein Gefühl daraus auf. Stelle eine passende Rückfrage oder mache einen passenden Vorschlag.\nEntscheide selbst, was du danach sagen möchtest. Du musst keiner Musterantwort folgen.\n\nWORTSTÜTZE BEI BEDARF · I feel … because … · I’m worried about … · That sounds … · I can understand that. · What would help? · We could … · Could you say that again, please?\nSams Angaben stehen hier absichtlich nicht. Die anleitende Person gibt die getrennte Sam-Karte nur der zweiten Person.",
+      "tasks": [
+        {
+          "id": "en-feelings-reply-dialog-1",
+          "kind": "reflection",
+          "points": 0,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "A · Freiwillige Vorbereitung ohne Punkte: Notiere höchstens drei Stichwörter oder einen Satzanfang für Alex. Schreibe keinen fertigen Dialog und erfinde Sams Antwort nicht. Die Notiz ist keine Sprechleistung.",
+          "sample": "disappointed · model · next week. Auch andere kurze, zur Alex-Karte passende Notizen gelten; keine bestimmte Formulierung ist nötig.",
+          "criteria": [
+            "Unbepunktete Vorbereitung: nur die eigene fiktive Rolle und tatsächlich genutzte Sprachstützen festhalten; weder Richtigkeit einer unbekannten Sam-Antwort noch Sprechkompetenz aus Schrift ableiten."
+          ]
+        },
+        {
+          "id": "en-feelings-reply-dialog-2",
+          "kind": "reflection",
+          "points": 0,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "B · Erst nach einer wirklichen Wechselrede, ohne Punkte: Welches Gefühl hast du als Alex gesagt? Was hat Sam tatsächlich geäussert, und wie hast du darauf geantwortet? Wenn kein Gespräch stattfand, lass B frei und markiere die mündliche Praxis als „nicht erhoben“. Berichte keine eigenen privaten Gefühle.",
+          "sample": "Nur als Beispiel nach einem wirklich gehörten Gespräch: I said I was disappointed because the model was ready. Sam said they were relieved because the model was safe. I answered that I understood and suggested checking it together. Andere tatsächlich gehörte Antworten können gleich gut passen.",
+          "criteria": [
+            "Unbepunktete Reflexion nur nach tatsächlicher Wechselrede: eigene Rollenäusserung, gehörte Partneräusserung und Anschlussreaktion getrennt festhalten.",
+            "Ohne Gespräch nicht erhoben, nicht 0 Punkte; die App kann die Wahrheit oder Sprachqualität der Notiz nicht überprüfen."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Praxis: auf ein Gefühl antworten",
+        "childNote": "Bitte eine zweite Person um Sams getrennte Karte. Sprecht ungefähr eine Minute; die Dauer ist kein Leistungsgrenzwert. Jede Person sagt ein fiktives Gefühl mit Grund und antwortet auf etwas, das sie wirklich gehört hat. Die App nimmt nichts auf und wertet keine Stimme aus.",
+        "childSteps": [
+          "Die anleitende Person öffnet oder druckt Sams getrennte Karte im Erwachsenenbereich und gibt Sam nur diese Karte. Du liest nur Alex; zeigt euch die Karten vor dem Gespräch nicht.",
+          "Sprich als Alex ein Gefühl mit Grund aus. Höre Sam zu und greife eine konkrete Aussage oder ein Gefühl auf.",
+          "Frage passend nach oder schlage einen gemeinsamen nächsten Schritt vor. Bitte bei Unklarheit freundlich um Wiederholung.",
+          "Erst nach dem Gespräch kannst du B als unbepunktete Erinnerung ausfüllen. Ohne Gespräch bleibt die Sprechpraxis „nicht erhoben“."
+        ],
+        "noTotal": true,
+        "observationLabel": "Wechselrede",
+        "printObservationFooter": "Jedes Kriterium nur nach fairer hörbarer Gelegenheit einzeln markieren. Sonst „nicht erhoben“ statt 0. Keine Summe bilden; Schrift und Selbstbericht sind keine Sprechleistung.",
+        "adultNote": "Nur eine wirklich gehörte englische Wechselrede kann mündliche Kriterien belegen; eine englischkundige Person sollte Verständlichkeit und Reaktion beurteilen. Je Kriterium 2 = verständlich und passend, 1 = teilweise oder mit vereinbarter Stütze, 0 = trotz fairer hörbarer Gelegenheit nicht gezeigt, — = keine faire Gelegenheit oder nicht sicher beurteilbar. Keine Summe bilden; bei — ist dieses Kriterium „nicht erhoben“, ohne Gespräch sind es alle. Akzent und harmlose Grammatikfehler nicht pauschal abwerten. Nur fiktive Gefühle, keine privaten Angaben, Schulnote oder Aufnahme.",
+        "adultGuide": [
+          "Sam ist erleichtert, dass das Modell vor Wind geschützt wurde, und unsicher, ob Alex enttäuscht auf Sam ist. Das Team entschied gemeinsam über die Verschiebung. Diese Angaben nur der Person mit Sam-Rolle geben.",
+          "Mögliche, nicht abzulesende Alex-Äusserung: “I feel disappointed because I wanted to show our model.” Sam kann antworten: “I understand. You worked hard on it. Would you like to check it together tomorrow?”",
+          "Mögliche Sam-Äusserung: “I feel relieved because we kept the model safe.” Alex kann auf das tatsächlich Gesagte antworten: “I’m glad the model is safe too. Let’s check it together tomorrow.” Andere einfache passende Antworten gelten.",
+          "Wenn die Partnerrolle schweigt oder keine faire Reaktionschance entsteht, den betroffenen Punkt mit —/„nicht erhoben“ statt 0 markieren. Bei blossem Vorlesen oder Lückenfüllen die Probe abbrechen und nicht als Gespräch werten."
+        ],
+        "adultCriteria": [
+          "Ein Gefühl der fiktiven Rolle verständlich ausdrücken: 0/1/2 oder —.",
+          "Gefühl mit passendem Grund oder Anlass verknüpfen: 0/1/2 oder —.",
+          "Eine tatsächlich gehörte Partneraussage inhaltlich aufgreifen: 0/1/2 oder —.",
+          "Auf das Gefühl respektvoll reagieren, ohne ein fremdes Innenleben sicher zu behaupten: 0/1/2 oder —.",
+          "Passende Rückfrage stellen oder nachvollziehbaren nächsten Schritt anbieten: 0/1/2 oder —.",
+          "Den Austausch mit eigenen verständlichen Worten fortführen und bei Bedarf nachfragen: 0/1/2 oder —."
+        ],
+        "handouts": [
+          {
+            "label": "Sam-Rollenkarte ohne Lösungen getrennt öffnen und drucken",
+            "path": "assets/en-feelings-role-sam.html",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/en-feelings-role-sam.html"
+          }
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Englisch-Erprobungsfassung gilt für Klasse 7 ab 2026/27, für Klasse 8 ab 2027/28. Erste Fremdsprache §2.2.3/PDF-S. 27: „eigene Gefühle mitteilen und auf Gefühlsäußerungen anderer reagieren“, Zielmarke Ende Klasse 8.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "fr-leseecke-avis-aide",
       "subjectId": "fr",
       "title": "Deux idées pour le coin lecture",

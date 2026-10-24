@@ -7353,6 +7353,31 @@ window.LOTTE_CATALOG = Object.freeze({
         "childPrintAfterUnlock": true,
         "text": "SPÄTERER FREIWILLIGER TRANSFER NACH A–D · Eine andere Person behauptet: (-5/2)^4 = -(5/2)^4. Prüfe diese Aussage mit exakten Werten und einem eigenen Kontrollweg. Diese Karte gehört nicht zu den 20 Hauptpunkten."
       },
+      "practice": {
+        "title": "Freiwillige Praxis: eine vertraute Rechnung am wissenschaftlichen Taschenrechner prüfen",
+        "childNote": "Wähle mit einer erwachsenen Person nur eine unpersönliche Rechnung, die du schon selbst richtig gelöst hast. Das passende Ergebnis muss vorher bekannt sein. Die Potenzaufgaben oben sind dafür nicht vorgeschrieben. Fehlt ein vertrautes Beispiel oder ein wissenschaftlicher Taschenrechner, gilt „nicht erhoben“ und ihr beendet die Probe. Diese Praxis ist ohne Punkte und keine Schulnote.",
+        "childSteps": [
+          "Sage zuerst, ob du für deine vertraute Rechnung einen Rechner wählen würdest und warum. Ohne Rechner weiterzurechnen ist ebenfalls möglich.",
+          "Wenn du ihn nutzen möchtest, gib die Rechnung am tatsächlich vorhandenen wissenschaftlichen Taschenrechner selbst ein und lies die Anzeige selbst ab. Vor deinem ersten Versuch erklärt niemand eine Tastenfolge.",
+          "Falls danach eine Taste unklar ist, frage nur für dieses Gerät: „Welche Taste oder welcher Weg gilt bei diesem Rechner?“ Übertrage keine allgemeine Tastenfolge von einem anderen Modell.",
+          "Prüfe die Anzeige mit deinem schon bekannten Ergebnis, deinem Rechenweg oder einem Überschlag. Sage, ob beides zusammenpasst. Notiere nur eine kurze unpersönliche Rechenbezeichnung, Eingabe/Anzeige und deine Prüfung, falls ihr sie wirklich durchgeführt habt."
+        ],
+        "childWritingLines": 4,
+        "adultNote": "Nur eine tatsächlich beobachtete Bedienung dieses wissenschaftlichen Rechners eintragen. Eine schriftliche Behauptung oder das Browser-Rechenwerkzeug belegt keine Gerätepraxis. Ohne vertrauten Stoff, passendes Gerät oder direkte Beobachtung: „nicht erhoben“. Der Bogen ergänzt die Aufgabenrubrik ohne weitere Punkte.",
+        "adultGuide": [
+          "Quelle: Thüringer Mathematik-Erprobungsfassung 2026, PDF-S. 15 Fussnote 12: wissenschaftlicher Taschenrechner als mögliches Hilfsmittel ab Klasse 7, kein allgemeiner Rechnerzwang. Der Potenzinhalt dieses Themas bleibt ein freiwilliger Ende-8-Ausblick; nutze für die Praxis nur eine bereits bekannte und zuvor von Lotte selbst gelöste Rechnung.",
+          "Mögliche Kontrollwerte nur bei erfüllter Vorwissensbedingung: 18,6 · 2,5 = 46,5; 7,2 · 3,5 = 25,2; (-2)^3 = -8. Keine dieser Rechnungen ist Pflicht. Frage nach einem unklaren Tastenweg erst nach Lottes eigenem Versuch und nur für das konkrete Gerät. Keine Namen, persönlichen Lerntexte oder unnötigen Gerätedaten notieren."
+        ],
+        "adultCriteria": [
+          "Eine bereits vertraute, von Lotte zuvor selbst richtig gelöste Rechnung und ihr Vergleichswert lagen vor; andernfalls nicht erhoben.",
+          "Lotte äusserte ihre Werkzeugwahl und eine Begründung selbst; auch die Wahl ohne Rechner ist zulässig.",
+          "Falls sie den Rechner wählte: Sie gab die Rechnung selbst am vorhandenen wissenschaftlichen Gerät ein; Hilfe und ausbleibende Gelegenheit unterscheiden.",
+          "Sie las die Anzeige selbst ab und verglich sie mit dem vorher bekannten Ergebnis; ein bloss berichteter Wert ist kein Bedienbeleg.",
+          "Sie begründete eine eigene Plausibilitätskontrolle mit Rechenweg, Überschlag oder Vergleichswert.",
+          "Eine nötige Rückfrage zum Tastenweg bezog sich ausschliesslich auf das konkrete Gerät und erfolgte erst nach dem ersten eigenen Versuch."
+        ],
+        "unscored": true
+      },
       "tasks": [
         {
           "id": "ma-potenzen-rechnerwahl-1",

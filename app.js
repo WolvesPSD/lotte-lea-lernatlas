@@ -749,7 +749,7 @@
       }
     }
     if (adult) appendText(section, 'p', 'muted', practice.unscored === true
-      ? 'Nur eine zulässige Unterrichtsbeobachtung eintragen. Keine Gelegenheit und nicht beobachtet unterscheiden; keine Punkte, Summe oder Sportnote ableiten.'
+      ? 'Nur tatsächlich Beobachtetes eintragen. Keine Gelegenheit und nicht beobachtet unterscheiden; keine Punkte, Summe oder Schulnote ableiten.'
       : 'Pro Kriterium die tatsächlich beobachteten Punkte und Hilfen auf dem Lösungsblatt notieren. Ohne durchgeführte Beobachtung: nicht erhoben. Keine automatische Punktzahl.');
     return section;
   }
@@ -989,6 +989,11 @@
           ? `${step}  ☐ beobachtet  ☐ nicht beobachtet  ☐ keine Gelegenheit  ☐ nicht anwendbar. Namenlose Kurznotiz: ____________________`
           : `${step}  Punkte: ____`));
         practiceSection.append(list);
+        if (mode === 'child' && Number.isInteger(topic.practice.childWritingLines) && topic.practice.childWritingLines > 0) {
+          const lines = create('div', 'writing-lines');
+          for (let line = 0; line < topic.practice.childWritingLines; line++) lines.append(create('div', 'writing-line'));
+          practiceSection.append(lines);
+        }
         if (mode === 'child') for (const handout of topic.practice.childHandouts || []) appendText(practiceSection, 'p', 'print-context', `Freiwillige Zusatzkarte separat im Lernatlas öffnen und drucken: ${handout.publicUrl}. Ohne echte Sprech- und Feedbackrunde ist sie nur eine Anleitung.`);
         if (mode === 'adult') {
           for (const handout of topic.practice.handouts || []) appendText(practiceSection, 'p', 'print-context', `${handout.label}: ${handout.publicUrl}. Nur zur passenden Phase und ohne Erwachsenenlösung ausgeben.`);

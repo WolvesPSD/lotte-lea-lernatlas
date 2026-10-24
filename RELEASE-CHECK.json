@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-24T08:16:58.569Z",
-  "releaseVersion": "2026.10.24-mbii4suche.1",
-  "newTopicIds": [
-    "mbi-i4-live-suche-sandkreislauf"
-  ],
+  "builtAt": "2026-10-24T08:45:44.305Z",
+  "releaseVersion": "2026.10.24-ma7rechnerpraxis.1",
+  "newTopicIds": [],
   "changeLog": [
-    "MBI: freiwillige Rechercheübung ergänzt, in der Lotte eine öffentliche Sandkreislauf-Quelle selbst sucht, öffnet und prüft.",
-    "Erwachsenenbeobachtung trennt tatsächliche Suchhandlung vom Direktlink-Fallback; die zweite NPS-Seite erscheint erst nach dem Hauptteil."
+    "Mathematik: freiwillige, unbepunktete Beobachtung einer vertrauten Rechnung am tatsächlich vorhandenen wissenschaftlichen Taschenrechner ergänzt.",
+    "Kinder- und Erwachsenenblatt trennen Werkzeugwahl, eigene Bedienung, Anzeige und Plausibilitätsprüfung; ohne Gerät oder passenden bekannten Stoff bleibt die Handlung nicht erhoben."
   ],
-  "rollbackCommit": "46e2e188144e5e77b6fec7440641938f6b6870a4",
+  "rollbackCommit": "8db0112b51facba2e0c363bc04ad1095b206174f",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",

@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-24T04:31:02.794Z",
-  "releaseVersion": "2026.10.24-m5runden.1",
-  "newTopicIds": [
-    "ma-runden-materialentscheidung"
-  ],
+  "builtAt": "2026-10-24T04:51:42.944Z",
+  "releaseVersion": "2026.10.24-frpoemtext.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Mathematik: freiwilligen M5-Papierfall zu Dreiecksfläche, Berichtsrundung und Materialschwelle ergänzt.",
-    "Vier Hauptaufgaben mit 20 Lernpunkten, spätere Variante mit sechs getrennten Punkten; tatsächliche Skizze und Werkzeugnutzung bleiben gesondert zu prüfen."
+    "Französisch: Im Gedicht Sous le parapluie eine mehrdeutige falsche Kurzfassung durch eine eindeutig vom Text widerlegte Aussage ersetzt.",
+    "Wortstütze la cour auf Hof/Innenhof berichtigt; Aufgaben und Punktzahl bleiben gleich."
   ],
-  "rollbackCommit": "034493cc0e2da453386ff10a3d1e3e45cc6dcc19",
+  "rollbackCommit": "22d722fadd1ad1f0fd8509ed7cf430a98f49aafc",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",

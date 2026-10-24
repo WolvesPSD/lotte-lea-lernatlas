@@ -9675,7 +9675,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Zoé und die Ich-Person sind erfunden. Kurze deutsche Antworten oder einfache französische Wörter genügen; hier übst du Leseverstehen mit Textbelegen. Der individuelle Wortschatz und Lernbeginn sind unbekannt. Die Karte zum nächsten Tag erscheint erst nach A–D; die App bewertet freie Antworten nicht automatisch.",
-      "introduction": "Lis le poème. Marque les lignes utiles. Lies das erfundene Gedicht und markiere Zeilen für A–D. Wortstütze: la cour = Schulhof; un parapluie = Regenschirm; le mien = meiner; le vent = Wind; mouillées = nass; sec = trocken; demain = morgen. Die Wörter helfen beim Lesen, sind noch keine Lösung. Kurze deutsche Erklärungen zählen. 20 Hauptpunkte und 6 getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "introduction": "Lis le poème. Marque les lignes utiles. Lies das erfundene Gedicht und markiere Zeilen für A–D. Wortstütze: la cour = Hof/Innenhof; un parapluie = Regenschirm; le mien = meiner; le vent = Wind; mouillées = nass; sec = trocken; demain = morgen. Die Wörter helfen beim Lesen, sind noch keine Lösung. Kurze deutsche Erklärungen zählen. 20 Hauptpunkte und 6 getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
       "passage": "EIGENS VERFASSTES GEDICHT · Sous le parapluie\nL1 · Ce matin, il pleut dans la cour.\nL2 · J'ai un parapluie rouge.\nL3 · Zoé n'a pas de parapluie.\nL4 · Je dis : « Viens sous le mien. »\nL5 · Nous allons à la bibliothèque.\nL6 · Le vent pousse le parapluie à gauche.\nL7 · Nos chaussures sont mouillées,\nL8 · mais le livre dans mon sac reste sec.\nL9 · Zoé dit : « Demain, j'apporte un parapluie bleu. »\nL10 · Je demande : « Pour nous deux ? »\nL11 · Elle répond : « Oui, pour nous deux. »\nL12 · Le vent souffle encore. Nous rions.",
       "stagedUpdate": {
         "kind": "variant",
@@ -9691,13 +9691,13 @@ window.LOTTE_CATALOG = Object.freeze({
           "writingLines": 8,
           "inputRows": 8,
           "adultOnlySolution": true,
-          "prompt": "A · Gesamtsinn (4 Hauptpunkte): Welche Kurzfassung passt? (a) Zoé geht allein mit einem blauen Schirm nach Hause. (b) Zwei Kinder gehen im Regen zusammen zur Bibliothek; Zoé kündigt für morgen einen blauen Schirm an. (c) Der Regen macht das Buch in der Tasche nass. Wähle eine Antwort und finde selbst je eine Belegzeile für den Weg zur Bibliothek und die Ankündigung für morgen. Erkläre kurz, warum eine falsche Kurzfassung nicht passt.",
-          "sample": "(b) passt. L5 belegt den gemeinsamen Weg zur Bibliothek, L9 die Ankündigung für morgen. (c) ist falsch, denn L8 sagt, das Buch bleibt trocken. L1 zeigt zusätzlich den Regen, L4 die Einladung unter den Schirm; beide ersetzen L5 und L9 nicht.",
+          "prompt": "A · Gesamtsinn (4 Hauptpunkte): Welche Kurzfassung passt? (a) Zoé geht an diesem Morgen allein mit einem blauen Schirm zur Bibliothek. (b) Zwei Kinder gehen im Regen zusammen zur Bibliothek; Zoé kündigt für morgen einen blauen Schirm an. (c) Der Regen macht das Buch in der Tasche nass. Wähle eine Antwort und finde selbst je eine Belegzeile für den Weg zur Bibliothek und die Ankündigung für morgen. Erkläre kurz, warum eine falsche Kurzfassung nicht passt.",
+          "sample": "(b) passt. L5 belegt den gemeinsamen Weg zur Bibliothek, L9 die Ankündigung für morgen. (a) widerspricht L3 und L4–L5: Zoé hat an diesem Morgen keinen Schirm und geht mit der Ich-Person zur Bibliothek; L9 kündigt den blauen Schirm erst für morgen an. (c) ist falsch, denn L8 sagt, das Buch bleibt trocken. L1 zeigt zusätzlich den Regen, L4 die Einladung unter den Schirm; beide ersetzen L5 und L9 nicht.",
           "criteria": [
             "1 Punkt für (b).",
             "1 Punkt für L5 als Beleg des gemeinsamen Wegs zur Bibliothek.",
             "1 Punkt für L9 als Beleg der morgigen Ankündigung; L1 und L4 können ergänzen, ersetzen die Kernbelege nicht.",
-            "1 Punkt für eine richtig erklärte Widerlegung von (a) oder (c) mit Textbezug. Die sichere Mitnahme des blauen Schirms ist in L1–L12 noch nicht gezeigt."
+            "1 Punkt für eine richtig erklärte Widerlegung von (a) oder (c) mit Textbezug. (a) widerspricht L3 und L4–L5 für diesen Morgen; L9 kündigt den blauen Schirm erst für morgen an. Die sichere Mitnahme des blauen Schirms ist in L1–L12 noch nicht gezeigt."
           ]
         },
         {

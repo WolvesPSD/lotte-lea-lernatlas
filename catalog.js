@@ -3105,6 +3105,109 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-umfang-identitaet-rechtecke",
+      "subjectId": "ma",
+      "title": "Zwei Rechtecke, derselbe Umfang?",
+      "scope": "Freiwilliger Ausblick auf das Klasse-8-Ziel M3: Skizze, Tabelle und Terme für eine innermathematische Vermutung vergleichen. Keine bestätigte aktuelle Klasse-7-Unterrichtseinheit oder vollständige M3-Abdeckung.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst die Unterscheidung von Umfang und Fläche und kannst Terme mit Klammern umformen. Halte Papier und Stift für eigene Rechteckskizzen bereit; Kästchenpapier hilft, ist aber nicht erforderlich. Die App kann eine Zeichnung auf Papier nicht beurteilen. Die Regelkarte ist eine Übungshilfe, keine schulische Formelsammlung.",
+      "introduction": "In dieser erfundenen Rechteckübung gilt n nur als ganze Zahl von 2 bis 12. Ein Kästchen ist 1 cm lang. Rechteck R ist n Kästchen breit und 2 Kästchen hoch; Rechteck S ist (n−1) Kästchen breit und 3 Kästchen hoch. Alle Seiten sind damit positiv. Du suchst den Umfang, also die Länge des Aussenrands. Zuerst zeichnest und rechnest du Beispiele; danach prüfst du deine Vermutung mit Termen. Offene Antworten werden nicht automatisch bewertet. Die 20 Kriterienpunkte sind Lernfeedback, keine Schulnote.",
+      "passage": "REGELKARTE FÜR DIESE ÜBUNG\nRechteckumfang: U = 2·l + 2·b\nRechteckfläche: F = l·b\nDreiecksfläche: F = (g·h)/2\n\nR: Breite n cm, Höhe 2 cm.\nS: Breite (n−1) cm, Höhe 3 cm.\nErlaubt sind ausschliesslich n = 2, 3, …, 12. Die Karte ersetzt keine schulische Formelsammlung.",
+      "tasks": [
+        {
+          "id": "ma-umfang-id-1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "A · Passende Regel (2 Kriterienpunkte): Wähle aus der Regelkarte die Formel für den Aussenrand eines Rechtecks. Begründe, weshalb die beiden anderen Regeln diese Frage nicht beantworten.",
+          "sample": "U = 2·l + 2·b addiert jede der zwei Längen und zwei Breiten des Rechtecks. F = l·b berechnet seinen Flächeninhalt; F = (g·h)/2 gehört zu einer Dreiecksfläche. Beide F-Regeln liefern cm² statt der gesuchten Randlänge in cm.",
+          "criteria": [
+            "1 Punkt: Rechteckumfang U = 2·l + 2·b passend gewählt und als Randlänge erläutert.",
+            "1 Punkt: beide Flächenregeln begründet ausgeschlossen; cm gegenüber cm² ist eine gültige Begründung."
+          ]
+        },
+        {
+          "id": "ma-umfang-id-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Eigene Skizzen (4 Kriterienpunkte): Zeichne R und S für n=2 und noch einmal für n=4 auf eigenem Papier. Beschrifte an jedem Rechteck alle vier Seitenlängen und schreibe den Umfang direkt an die Skizze. Notiere hier, welche vier Seitenpaare du gezeichnet hast. Zeige das Papier einer erwachsenen Person; eine Texteingabe beweist die Zeichnung nicht.",
+          "sample": "Bei n=2: R 2 cm × 2 cm mit U=8 cm und S 1 cm × 3 cm mit U=8 cm. Bei n=4: R 4 cm × 2 cm mit U=12 cm und S 3 cm × 3 cm mit U=12 cm. Auf jeder echten Skizze sind alle vier Aussenseiten mit ihren Längen und der Umfang beschriftet. Die App kann nur die notierten Angaben sehen, nicht die Papierzeichnung.",
+          "criteria": [
+            "Je 1 Punkt für jede tatsächlich vorliegende Skizze R/S bei n=2 und n=4 mit vier richtig beschrifteten Seitenlängen und richtig notiertem Umfang, höchstens 4. Nur eingegebene Masse ohne gezeigtes Papier belegen die Skizzenpunkte nicht."
+          ]
+        },
+        {
+          "id": "ma-umfang-id-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C · Vier Fälle (4 Kriterienpunkte): Berechne für n=2, 4, 7 und 12 jeweils beide Seitenpaare und die Umfänge U(R) und U(S). Schreibe die Werte als Tabelle oder vier beschriftete Zeilen auf. Was vermutest du?",
+          "sample": "n=2: R 2×2, S 1×3, beide 8 cm. n=4: R 4×2, S 3×3, beide 12 cm. n=7: R 7×2, S 6×3, beide 18 cm. n=12: R 12×2, S 11×3, beide 28 cm. Vermutung: Die Umfänge sind stets gleich.",
+          "criteria": [
+            "Je 1 Punkt pro vollständig richtiger Zeile bei n=2, 4, 7 und 12 mit beiden Seitenpaaren und beiden Umfängen in cm, höchstens 4. Eine Vermutung ohne berechnete Zeile ersetzt keinen Zeilenpunkt."
+          ]
+        },
+        {
+          "id": "ma-umfang-id-4",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "D · Allgemein prüfen (6 Kriterienpunkte): Stelle für R und S je einen Umfangsterm mit n auf und vereinfache beide. Begründe, ob die Umfänge für jedes erlaubte n gleich sind. Warum reichen deine vier Tabellenwerte allein nicht als Begründung für alle elf erlaubten n?",
+          "sample": "U(R)=2n+2·2=2n+4. U(S)=2(n−1)+2·3=2n−2+6=2n+4. Beide vereinfachten Terme sind gleich, also gilt U(R)=U(S) für jedes n von 2 bis 12. Die Tabelle prüft nur vier der elf erlaubten Werte; der symbolische Vergleich deckt den ganzen vorgegebenen Bereich ab.",
+          "criteria": [
+            "2 Punkte: U(R)=2n+2·2 passend angesetzt 1 und zu 2n+4 vereinfacht 1.",
+            "2 Punkte: U(S)=2(n−1)+2·3 passend angesetzt 1 und zu 2n+4 vereinfacht 1.",
+            "1 Punkt: Gleichheit aus den identischen Termen für jedes erlaubte n begründet.",
+            "1 Punkt: vier getestete Werte von allen elf erlaubten Werten und allgemeinem Termbeleg unterschieden."
+          ]
+        },
+        {
+          "id": "ma-umfang-id-5",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "E · Wege vergleichen (2 Kriterienpunkte): Welcher Weg hilft beim Entdecken der Vermutung, welcher begründet sie für den ganzen vorgegebenen Bereich? Nenne je einen Vorteil und eine Grenze von Skizze/Tabelle und Termvergleich.",
+          "sample": "Skizzen und Tabelle machen Beispiele anschaulich und helfen, eine Vermutung zu finden; sie zeigen nur einzelne Werte. Der Termvergleich begründet die Gleichheit für alle erlaubten n, ist aber weniger anschaulich und setzt sichere Klammerumformung voraus.",
+          "criteria": [
+            "1 Punkt: Nutzen und Grenze der Skizze oder Tabelle an konkreten Beispielen erklärt.",
+            "1 Punkt: Nutzen des allgemeinen Termvergleichs und eine sachliche Grenze oder Voraussetzung erklärt."
+          ]
+        },
+        {
+          "id": "ma-umfang-id-6",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "F · Sams Schluss prüfen (2 Kriterienpunkte): Sam sagt: „Bei n=4 haben R und S verschiedene Formen, also verschiedene Umfänge.“ Prüfe diesen Schluss mit Rechnung und erkläre, welche Grössen Sam verwechselt.",
+          "sample": "Bei n=4 ist R 4×2 und S 3×3. Beide Umfänge sind 12 cm, obwohl die Formen verschieden sind. R hat 8 cm² Fläche und S 9 cm²; Form oder Fläche bestimmen den Umfang nicht eindeutig. Sam schliesst vom Aussehen beziehungsweise Flächeninhalt auf die Randlänge.",
+          "criteria": [
+            "1 Punkt: U(R)=U(S)=12 cm bei n=4 als Gegenbeispiel gerechnet.",
+            "1 Punkt: Form oder Fläche von Umfang als Randlänge unterschieden; ein Vergleich der Flächen 8 cm² und 9 cm² ist möglich, aber nicht erforderlich."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Inkrafttreten 2026/27 für Klasse 7 und 2027/28 für Klasse 8. § 2.2.3 PDF-S. 25–26 unter Klassenstufe 8: Skizze, Tabelle, Terme und Gleichungen; Formelsammlung zielgerichtet nutzen; Spezialfälle und Verallgemeinern.",
+        "checkedAt": "2026-10-24"
+      }
+    },
+    {
       "id": "de-hoernachricht-live",
       "subjectId": "de",
       "title": "Eine Nachricht aus der Bibliothek hören",

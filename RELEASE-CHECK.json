@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-24T05:23:30.265Z",
-  "releaseVersion": "2026.10.24-mbidates.1",
+  "builtAt": "2026-10-24T05:57:59.831Z",
+  "releaseVersion": "2026.10.24-m3umfang.1",
   "newTopicIds": [
-    "mbi-i1-datumswerte-sortieren"
+    "ma-umfang-identitaet-rechtecke"
   ],
   "changeLog": [
-    "Medienbildung und Informatik: freiwillige Datumswerte-Übung mit fünf Hauptaufgaben und späterer Änderung ergänzt.",
-    "Lösungsfreies Excel-Startblatt mit erfundenen Rohangaben als Download; Datumswerte und Sortierung erstellt das Kind selbst."
+    "Mathematik: freiwilliger Ende-Klasse-8-Ausblick zu zwei Rechtecken mit gleichem Umfang ergänzt.",
+    "Sechs Aufgaben verbinden eigene Papierskizzen, Regelwahl, vier Tabellenfälle und einen allgemeinen Termvergleich; Erwachsenenlösung bleibt getrennt."
   ],
-  "rollbackCommit": "d1325fd234e41e30477f9548e76e27cfa9507ee3",
+  "rollbackCommit": "d555f5b343215b430a2656ef2689a99407097a6d",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -40,6 +40,7 @@
     "ma-prismenbox",
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
+    "ma-umfang-identitaet-rechtecke",
     "de-hoernachricht-live",
     "de-leseraeume-diagramm",
     "mbi-farbkarten-tabellenlabor",
@@ -168,6 +169,7 @@
     "ma-prismenbox",
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
+    "ma-umfang-identitaet-rechtecke",
     "ma-volumenformeln-erklaeren",
     "ma-kreisformeln-erinnern",
     "ma-quadratdifferenz-lflaeche",

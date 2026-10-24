@@ -993,7 +993,7 @@
         if (mode === 'adult') for (const paragraph of topic.practice.adultGuide || []) appendText(practiceSection, 'p', '', paragraph);
         const list = create('ol');
         (mode === 'child' ? topic.practice.childSteps : topic.practice.adultCriteria).forEach(step => appendText(list, 'li', '', mode === 'child' ? step : topic.practice.unscored === true
-          ? `${step}  ☐ beobachtet  ☐ nicht beobachtet  ☐ keine Gelegenheit  ☐ nicht anwendbar. Namenlose Kurznotiz: ____________________`
+          ? `${step}  ${topic.practice.printObservationLabels || '☐ beobachtet  ☐ nicht beobachtet  ☐ keine Gelegenheit  ☐ nicht anwendbar'}. Namenlose Kurznotiz: ____________________`
           : `${step}  Punkte: ____`));
         practiceSection.append(list);
         if (mode === 'child' && Number.isInteger(topic.practice.childWritingLines) && topic.practice.childWritingLines > 0) {
@@ -1005,7 +1005,7 @@
         if (mode === 'adult') {
           for (const handout of topic.practice.handouts || []) appendText(practiceSection, 'p', 'print-context', `${handout.label}: ${handout.publicUrl}. Nur zur passenden Phase und ohne Erwachsenenlösung ausgeben.`);
           if (topic.practice.unscored === true) {
-            appendText(practiceSection, 'p', '', 'Je Zeile nur nach zulässiger Beobachtung markieren; „keine Gelegenheit“ ist keine Fehlleistung.');
+            appendText(practiceSection, 'p', '', topic.practice.printObservationFooter || 'Je Zeile nur nach zulässiger Beobachtung markieren; „keine Gelegenheit“ ist keine Fehlleistung.');
             if (topic.subjectId === 'sp') {
               appendText(practiceSection, 'p', '', 'Schulspiel und geltende Schulregel/Quelle: ______________________________________________');
               appendText(practiceSection, 'p', '', 'Ohne Unterrichtsbeobachtung: nicht erhoben; das Raster bleibt leer. Selbstbericht ist kein Bewegungsnachweis. Keine Punkte, Summe oder Sportnote.');

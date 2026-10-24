@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-24T09:56:39.492Z",
-  "releaseVersion": "2026.10.24-mbii2wirkung.1",
+  "builtAt": "2026-10-24T10:29:08.648Z",
+  "releaseVersion": "2026.10.24-mbii6cookie.1",
   "newTopicIds": [
-    "mbi-i2-zielgruppenwirkung-lesepause"
+    "mbi-i6-cookie-datenweg"
   ],
   "changeLog": [
-    "Medienbildung: zwei erfundene Nutzungswege einer Lese-Pause-Karte anhand von Kopie und Vorlesetext vergleichen.",
-    "Vier getrennte Transferpunkte erst nach A–E zeigen; Kinderblatt, Erwachsenenlösung und Beweisgrenzen trennen."
+    "Medienbildung: einen fiktiven Cookie-Datenweg aus Anfragen und Antworten quellengebunden prüfen.",
+    "Sechs getrennte Zusatzpunkte erst nach A–D zeigen; Kennung und Person sowie Kinder- und Erwachsenenlösung trennen."
   ],
-  "rollbackCommit": "4b781e52e50848966f48472ffe27ab0d4bb38ec2",
+  "rollbackCommit": "2a6732f5c4ecde529bc591a6ae613072b2310958",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -129,6 +129,7 @@
     "go-klima-vegetation-modell",
     "go-gradnetz-modellorte",
     "go-drei-gesteinswege",
+    "mbi-i6-cookie-datenweg",
     "ge-patcham-quellenpruefung",
     "ge-toledo-uebersetzungsquellen",
     "mnt-bionik-leichtbau-modell",
@@ -197,6 +198,7 @@
     "en-write-retell-lantern-walk",
     "en-write-rooftop-poem",
     "ma-schraegbild-darstellungen",
+    "mbi-i6-cookie-datenweg",
     "en-picture-description-garden",
     "en-survey-questionnaire-table",
     "en-living-things-comparison-foxes",

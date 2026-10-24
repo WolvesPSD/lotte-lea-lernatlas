@@ -11172,6 +11172,115 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-i6-cookie-datenweg",
+      "subjectId": "mbi",
+      "title": "Wie kann eine Website Besuche verbinden?",
+      "scope": "Freiwilliger Klasse-7-Vorgriff auf I6-S04 im gültigen MBI-Lernzeitraum 7/8; die konkrete Kompetenz ist ein Ziel bis Ende Klasse 8. Lottes schulische Themenfolge ist unbekannt. Ein erfundenes Papierprotokoll erklärt einen möglichen Cookie-Datenweg, keine echten Gerätedaten.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst nur diese erfundenen Karten. Benutze kein eigenes Konto, keine echten Browserdaten und keine Suchmaschine. Du sollst nichts am Gerät löschen oder umstellen. Bei einer Anfrage sendet der Browser an den Server; der Server antwortet. Ein Server kann mit Set-Cookie eine Kennung im Browser ablegen lassen; bei späteren passenden Anfragen kann der Browser sie im Feld Cookie mitsenden. Eine Kennung ist für sich kein Klarname.",
+      "introduction": "Lies ein erfundenes Protokoll von zwei Websites. Erkläre, welche Kennung in welcher Richtung übertragen wird und was daraus folgt. Vergleiche nur die ausdrücklich gezeigten Anfragen und Antworten. Gleiche Kennung bedeutet in diesem Modell verknüpfbare Aufrufe, aber nicht sicher derselbe Mensch. Die App kann deine freien Antworten nicht automatisch bewerten.",
+      "passage": "FIKTIVES PROTOKOLL · lernfenster.example ist eine erfundene Website. Alle Anfragen A–D betreffen diesen Host; bilder.example in E ist ein anderer Host. Ohne Domain-Angabe gehört das Cookie im Modell nur zu lernfenster.example. Path=/ bezeichnet hier den Startpfad / und die Unterseiten auf demselben Host; wende diese Regel selbst auf die Wege der Tabelle an. Der Server protokolliert für A–D die gezeigten Wege, Zeiten und Cookie-Felder; er vergibt Kennungen eindeutig und hält fest, welche Kennung er in welcher Antwort ausgibt. Weitere unsichtbare Daten darfst du nicht ergänzen.\n\nA · 08:10 · Anfrage: GET lernfenster.example/start, kein Cookie · Antwort: Seite und Set-Cookie: besuch=K7; Path=/\nB · 08:12 · Anfrage: GET lernfenster.example/plan, Cookie: besuch=K7 · Antwort: Seite /plan\nC · 08:13 · Anfrage: GET lernfenster.example/spiel, Cookie: besuch=K7 · Antwort: Seite /spiel\nD · 08:20 · Anfrage: GET lernfenster.example/plan, kein Cookie · Antwort: Seite /plan\nE · 08:22 · Anfrage: GET bilder.example/galerie, kein Cookie aus A · Antwort: Seite /galerie\n\nD hat keinen Cookie-Header. Die Tabelle nennt keine Menschen hinter den Anfragen.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "Hauptantworten festhalten und Cookie-Änderung zeigen",
+        "text": "FREIWILLIGE SPÄTERE ÄNDERUNG NACH A–D · Vor F wurde K7 im Übungsbrowser gelöscht. Im selben Papiermodell vergibt lernfenster.example Kennungen eindeutig und protokolliert seine Antworten. F · 09:00 · Anfrage GET lernfenster.example/start ohne Cookie · Antwort mit Set-Cookie: besuch=K9; Path=/. G · 09:02 · Anfrage GET lernfenster.example/plan mit Cookie: besuch=K9 · Antwort Seite /plan. Nichts im echten Browser löschen."
+      },
+      "tasks": [
+        {
+          "id": "mbi-cookie-a",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Richtung des Datenwegs (5 Hauptpunkte): Wer sendet in A Set-Cookie an wen, und wo liegt K7 danach, falls der Browser es annimmt? Wer sendet in B Cookie: besuch=K7 an wen? Warum lassen sich B und C technisch derselben Kennung zuordnen?",
+          "sample": "Der Server sendet Set-Cookie in Antwort A an den Browser; dieser speichert besuch=K7, wenn er das Cookie annimmt. In Anfrage B sendet der Browser Cookie: besuch=K7 an lernfenster.example. B und C tragen denselben Wert K7, deshalb kann der Server beide protokollierten Wege dieser Kennung zuordnen; eine Personengleichheit folgt daraus nicht sicher.",
+          "criteria": [
+            "1 Punkt für Server→Browser in Antwort A.",
+            "1 Punkt für Speicherung der Kennung im Browser bei Annahme.",
+            "1 Punkt für Browser→Server in Anfrage B.",
+            "1 Punkt für K7 als gleicher Wert in B und C.",
+            "1 Punkt für die Zuordnung der beiden Wege zu einer Kennung, nicht sicher zu einer Person."
+          ]
+        },
+        {
+          "id": "mbi-cookie-b",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Beleg und Grenze (6 Hauptpunkte): Nenne die zwei mit K7 belegten Seitenwege samt Uhrzeiten. Was zeigt D über Seite und Uhrzeit? Kannst du beweisen, ob D von demselben Menschen wie B/C stammt? Begründe mit einem sichtbaren Unterschied.",
+          "sample": "B belegt /plan um 08:12, C /spiel um 08:13. D zeigt /plan um 08:20 ohne Cookie. Ob D derselbe Mensch war, ist offen: Das Cookie könnte blockiert oder gelöscht worden sein, oder ein anderer Browser könnte die Seite geöffnet haben.",
+          "criteria": [
+            "Je 1 Punkt für /plan 08:12 und /spiel 08:13 mit K7.",
+            "Je 1 Punkt für /plan und 08:20 in D.",
+            "1 Punkt für die offene Personengleichheit.",
+            "1 Punkt für den fehlenden Cookie-Header in D als Grund; weder gleiche noch andere Person behaupten."
+          ]
+        },
+        {
+          "id": "mbi-cookie-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "C · Host und Weg (4 Hauptpunkte): Wird K7 allein wegen des gezeigten Aufrufs an bilder.example gesendet? Begründe mit der Hostregel. Warum passt Path=/ für /plan und /spiel auf lernfenster.example?",
+          "sample": "Nein. Ohne Domain-Angabe ist K7 an lernfenster.example als Host gebunden; E zeigt auch keinen K7-Header. Path=/ umfasst auf diesem Host sowohl /plan als auch /spiel. Das sagt nichts darüber aus, ob andere Trackingwege auf anderen Websites möglich wären.",
+          "criteria": [
+            "1 Punkt für Nein zur Übertragung allein durch E.",
+            "1 Punkt für die Hostbindung ohne Domain-Angabe.",
+            "Je 1 Punkt für /plan und /spiel als von Path=/ erfasste Wege auf demselben Host."
+          ]
+        },
+        {
+          "id": "mbi-cookie-d",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "D · Zweck, Risiko und ehrliche Frage (5 Hauptpunkte): Nenne einen möglichen praktischen Dienstzweck und eine mögliche Auswertung von Besuchen; behaupte keinen tatsächlichen Zweck. Darf man aus K7 allein auf einen Klarnamen oder Besuche bei allen Websites schliessen? Formuliere eine konkrete Frage an einen Betreiber zu gespeicherten Seitenaufrufen oder Dauer. Nenne eine vorsichtige Schutzhandlung für einen Übungsbrowser und ihre Grenze; führe sie nicht aus.",
+          "sample": "Ein Dienst könnte eine Sitzung oder eine Seiteneinstellung wiedererkennen; er könnte auch Wege mit derselben Kennung auswerten. K7 nennt keinen Klarnamen und belegt keine Besuche bei allen Websites. Frage: Welche Seitenwege speichert ihr mit einer Kennung und wie lange? Man könnte Cookies in einem Übungsbrowser prüfen oder löschen; das beweist nicht, dass bereits vorhandene Serverprotokolle verschwinden.",
+          "criteria": [
+            "1 Punkt für einen möglichen Dienstzweck.",
+            "1 Punkt für eine davon unterschiedliche mögliche Besuchsauswertung; keine behauptete Absicht.",
+            "1 Punkt nur für begründete Ablehnung von Klarnamen oder All-Websites-Folge aus K7 allein.",
+            "1 Punkt für eine konkrete Betreiberfrage zu gespeicherten Wegen oder Dauer.",
+            "1 Punkt für vorsichtige Schutzhandlung samt Grenze, ohne echte Browserhandlung."
+          ]
+        },
+        {
+          "id": "mbi-cookie-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige spätere Änderung nach A–D · sechs getrennte Zusatzpunkte: Welche Anfrage enthält K9 im Feld Cookie und woher kam K9 zuvor? Welche zwei Seitenwege kann der Server im gezeigten Modell K9 zuordnen? Beachte: F sendet noch kein Cookie; begründe die Zuordnung durch die protokollierte Antwort F und Anfrage G. Beweist K9, dass ein anderer Mensch die Seite nutzt? Nenne eine Gegenmöglichkeit aus der Änderung.",
+          "sample": "G sendet Cookie: besuch=K9; K9 wurde in Antwort F mit Set-Cookie ausgegeben. Im angenommenen Modell kann der Server F /start um 09:00 durch die protokollierte Kennungsvergabe und G /plan um 09:02 durch den Cookie-Header dem neuen Kennungsweg zuordnen. F sendet selbst noch keinen Cookie-Header. K9 beweist keinen anderen Menschen: K7 wurde zuvor im Übungsbrowser gelöscht; dieselbe Person könnte erneut aufrufen.",
+          "criteria": [
+            "1 Zusatzpunkt für G als Anfrage mit K9 im Cookie-Feld.",
+            "1 Zusatzpunkt für die Set-Cookie-Antwort F als Herkunft.",
+            "1 Zusatzpunkt für F /start um 09:00 nur dank protokollierter Kennungsvergabe.",
+            "1 Zusatzpunkt für G /plan um 09:02 mit K9 im Anfrageheader.",
+            "1 Zusatzpunkt für fehlenden Beweis eines anderen Menschen.",
+            "1 Zusatzpunkt für gelöschtes K7 und dieselbe Person als Gegenmöglichkeit."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: MBI-Erprobungsfassung für Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.6/PDF-S. 27–28: Technologien zur Sammlung personenbezogener Daten, etwa Webtracking und Standortdaten, erläutern; Zielmarke Klasse 8. Hier nur ein enger Cookie-Mechanismus.",
+        "checkedAt": "2026-10-24"
+      }
+    },
+    {
       "id": "ge-patcham-quellenpruefung",
       "subjectId": "ge",
       "title": "Was verrät Patcham im Jahr 1086?",

@@ -26,7 +26,8 @@
     ? 'MBI ist in Klasse 7 eingeführt. Dieses Teilziel hat den Zielstand Ende Klasse 8; welche Teile jetzt im Unterricht vorkommen, ist unbekannt.'
     : '';
   const matchesStage = (topic, stage) => stage === 'all'
-    || (stage === 'grade6-review' ? isGrade6Review(topic)
+    || (stage === 'grade7-and-flex' ? topic.levelStatus === 'grade7' || (topic.levelStatus === 'grade78-flex' && !isGrade6Review(topic))
+    : stage === 'grade6-review' ? isGrade6Review(topic)
       : topic.levelStatus === stage && (stage !== 'grade78-flex' || !isGrade6Review(topic)));
   const $ = selector => document.querySelector(selector);
   const create = (tag, className, value) => {
@@ -167,6 +168,9 @@
 
   function renderHome() {
     const selectedTopics = state.selected.map(id => topicById.get(id)).filter(Boolean);
+    $('#print-home-child span').textContent = state.active
+      ? 'Aktuelles Thema ohne Lösungen drucken →'
+      : 'Thema wählen, dann Arbeitsblatt drucken →';
     const host = $('#home-topic-cards'); host.replaceChildren();
     $('#home-lead').textContent = selectedTopics.length
       ? `${selectedTopics.length} ${selectedTopics.length === 1 ? 'Thema' : 'Themen'} aus ${new Set(selectedTopics.map(topic => topic.subjectId)).size} ${new Set(selectedTopics.map(topic => topic.subjectId)).size === 1 ? 'Fach' : 'Fächern'} ausgewählt. Du kannst die Auswahl jederzeit ändern.`
@@ -246,7 +250,7 @@
         if (!card.hidden) groupMatches++;
       }
       group.hidden = filtering && groupMatches === 0;
-      if (filtering && groupMatches) group.open = true;
+      if (filtering && groupMatches && (query || stage !== 'grade7-and-flex')) group.open = true;
       matches += groupMatches;
     }
     if (!filtering && openGroupsBeforeFilter !== null) {
@@ -257,6 +261,9 @@
     $('#topic-search-status').textContent = filtering
       ? `${matches} von ${availableTopics.length} Themen gefunden. Deine Auswahl bleibt erhalten.`
       : `${availableTopics.length} Themen in ${groups.filter(group => group.querySelector('.topic-card')).length} Fächern verfügbar.`;
+    const stageNote = $('#topic-stage-note');
+    stageNote.hidden = stage !== 'grade7-and-flex';
+    if (!stageNote.hidden) stageNote.textContent = 'Startauswahl: Themen für Klasse 7 und freiwillige Themen mit Zielstand 7/8. Welche 7/8-Themen Lotte gerade in der Schule behandelt, ist offen. Für weitere Themen „Alle Angebote“ wählen.';
   }
   $('#topic-search-input').addEventListener('input', applyTopicSearch);
   $('#topic-stage-filter').addEventListener('change', applyTopicSearch);

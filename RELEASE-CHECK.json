@@ -1,12 +1,12 @@
 {
-  "builtAt": "2026-10-24T08:45:44.305Z",
-  "releaseVersion": "2026.10.24-ma7rechnerpraxis.1",
+  "builtAt": "2026-10-24T09:00:32.499Z",
+  "releaseVersion": "2026.10.24-startgruppe.1",
   "newTopicIds": [],
   "changeLog": [
-    "Mathematik: freiwillige, unbepunktete Beobachtung einer vertrauten Rechnung am tatsächlich vorhandenen wissenschaftlichen Taschenrechner ergänzt.",
-    "Kinder- und Erwachsenenblatt trennen Werkzeugwahl, eigene Bedienung, Anzeige und Plausibilitätsprüfung; ohne Gerät oder passenden bekannten Stoff bleibt die Handlung nicht erhoben."
+    "Themenübersicht startet mit Klasse-7-Themen und freiwilligen 7/8-Themen; die unbekannte Unterrichtsfolge wird ausdrücklich benannt.",
+    "Die Startseite erklärt vor der Themenwahl, dass ein Arbeitsblatt erst nach der Auswahl gedruckt werden kann."
   ],
-  "rollbackCommit": "8db0112b51facba2e0c363bc04ad1095b206174f",
+  "rollbackCommit": "5c14a3409000280cde93fcb7a1043826f94ca570",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",

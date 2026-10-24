@@ -11425,6 +11425,131 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "go-mount-st-helens-zeittafel",
+      "subjectId": "go",
+      "title": "Mount St. Helens in der Erdzeittafel",
+      "scope": "Freiwilliger Klasse-7-Vorgriff auf einen engen Ende-8-Methodenteil. Die Geltung des älteren Thüringer Geografieplans für 2026/27 und Lottes Unterrichtsfolge sind ungeklärt.",
+      "levelStatus": "additional-unclear",
+      "released": true,
+      "prerequisite": "Die amtliche Geltung des älteren Geografieplans für 2026/27 ist ungeklärt; diese Übung ist freiwillig. Du vergleichst eine vereinfachte Erdzeittafel mit Angaben des US Geological Survey. Du brauchst weder eigene Erlebnisse noch Gesteine oder einen Versuch. Die erfundene Zusatzschicht gehört zu keinem USGS-Fundort. Grössere Zahlen in ka/Ma bedeuten länger vor heute. Freie Antworten prüft ein Mensch.",
+      "introduction": "Ordne echte, vom US Geological Survey beschriebene Vulkanphasen in eine vereinfachte, datierte Erdzeittafel ein. Trenne Quelle, Rechnung und eigene Folgerung. A–D haben 20 Kriterienpunkte; eine später freigegebene Übungsannahme hat sechs getrennte Zusatzpunkte. Das ist Lernfeedback, keine Schulnote. Die Angaben zur Erdgeschichte sagen nichts über heutige Gefahr oder Sicherheit aus.",
+      "sourceCards": [
+        {
+          "title": "A · Vereinfachte Erdzeittafel",
+          "text": "Die Internationale Kommission für Stratigraphie (ICS) gibt in ihrer Tabelle v2026/06 die Grenzen 5,333 Ma, 2,58 Ma und 0,0117 Ma an. In dieser Aufgabe gilt: Pliozän = Epoche des Neogens von 5,333 bis 2,58 Ma; Pleistozän = Epoche des Quartärs von 2,58 bis 0,0117 Ma; Holozän = Epoche des Quartärs von 0,0117 Ma bis heute. Die Zahlen sind gerundete Grenzen; sie datieren keinen einzelnen Ausbruch.",
+          "sourceLabel": "International Commission on Stratigraphy · Zeittafel v2026/06",
+          "sourceUrl": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+          "sourceNote": "Eigene vereinfachte Texttabelle aus der amtlichen ICS-Grafik; abgerufen 25.10.2026. Die Grafik selbst ist nicht eingebettet."
+        },
+        {
+          "title": "B · Derselbe Vulkan, verschiedene Zeiten",
+          "text": "USGS nennt für Mount St. Helens im US-Bundesstaat Washington eine frühe Eruptionsperiode von etwa 275 bis 250 ka, einen grossen Lavafluss um 18 ka und das Ende einer späteren Phase um 12,8 ka. Jüngere Aktivität hat ältere Spuren teils überdeckt, umgearbeitet oder zerstört.",
+          "sourceLabel": "US Geological Survey · Eruption History through start of Holocene",
+          "sourceUrl": "https://www.usgs.gov/volcanoes/mount-st.-helens/science/eruption-history-mount-st-helens-through-start-holocene",
+          "sourceNote": "USGS, 08.11.2023; abgerufen 25.10.2026. „Etwa“ ist keine exakte Einzelterminierung."
+        },
+        {
+          "title": "C · Der moderne Aufbau",
+          "text": "Laut USGS begann der Aufbau des modernen Vulkankegels vor etwa 3.000 Jahren; der grösste Teil des modernen Gebäudes entstand innerhalb der letzten 3.000 Jahre.",
+          "sourceLabel": "US Geological Survey · Geologic History Summary",
+          "sourceUrl": "https://www.usgs.gov/volcanoes/mount-st.-helens/science/geologic-history-summary-mount-st-helens",
+          "sourceNote": "USGS, 09.11.2023; abgerufen 25.10.2026. Älterer Unterbau und moderner Kegel bleiben getrennt."
+        }
+      ],
+      "passage": "WÖRTER UND ZEITGRENZE\nka = tausend Jahre vor heute; Ma = Millionen Jahre vor heute; 1 Ma = 1000 ka. Eine geologische Periode umfasst Epochen. Eine Eruptionsperiode ist eine Phase vulkanischer Aktivität, nicht die geologische Periode Quartär. „Etwa“ und „innerhalb der letzten“ nennen keine exakten Einzeltermine.\n\nZWEI TEXTFASSUNGEN\nDie Begriffsliste des bereitgestellten Thüringer Geografieplans schreibt „Neogen (Pleistozän)“. Die neuere ICS-Tabelle v2026/06 ordnet das Pleistozän dem Quartär zu. Für diese Aufgaben verwendest du die datierte ICS-Tabelle in Karte A. Wenn du den Unterschied bemerkst, ist das kein Rechenfehler von dir. Welche Geografie-Planfassung deine Schule 2026/27 verwendet, ist ungeklärt.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und erfundene Schicht zeigen",
+        "text": "FREIWILLIGE ZUSATZPROBE NACH A–D · Eine nur für diese Aufgabe angenommene Gesteinsschicht sei 2,60 Ma alt. Sie gehört zu keinem hier untersuchten USGS-Fundort. Alter und Schicht sind erfunden. Prüfe allein die Einordnung in die Zeittafel; sechs Zusatzpunkte werden getrennt ausgewiesen."
+      },
+      "tasks": [
+        {
+          "id": "go-helens-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Einheiten und Grenze (4 Hauptpunkte): Wandle 275 ka, 18 ka, 12,8 ka und 3 ka jeweils in Ma um. Gib die Pleistozän/Holozän-Grenze zusätzlich in ka an und schreibe mindestens einmal die Umrechnungsregel hin.",
+          "sample": "275 ka = 0,275 Ma; 18 ka = 0,018 Ma; 12,8 ka = 0,0128 Ma; 3 ka = 0,003 Ma. Die Grenze 0,0117 Ma entspricht 11,7 ka. Regel: ka ÷ 1000 = Ma beziehungsweise Ma × 1000 = ka.",
+          "criteria": [
+            "Je 0,5 Punkt für die vier richtigen ka→Ma-Umrechnungen (2 Punkte zusammen).",
+            "1 Punkt für 0,0117 Ma = 11,7 ka.",
+            "1 Punkt für eine erklärte korrekte Umrechnungsregel. Bei einer die Grenzentscheidung verfälschenden Rundung den betroffenen halben Punkt nicht geben."
+          ]
+        },
+        {
+          "id": "go-helens-b",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Ereignisse zuordnen (6 Hauptpunkte): Ordne den Beginn der frühen USGS-Eruptionsperiode um 275 ka, den Lavafluss um 18 ka und das Ende der späteren Phase um 12,8 ka jeweils einer Epoche und Periode aus Karte A zu. Vergleiche jedes Mal mit der passenden Grenze. Die Spanne 275–250 ka ist kein einzelner Ausbruch.",
+          "sample": "Alle drei Angaben liegen im Pleistozän des Quartärs: 0,275 Ma und 0,018 Ma sowie 0,0128 Ma sind jünger als 2,58 Ma, aber älter als die Holozän-Grenze 0,0117 Ma. Besonders 12,8 ka liegt knapp vor 11,7 ka. Die frühe Eruptionsperiode ist eine Aktivitätsspanne, kein lückenloser Einzelausbruch.",
+          "criteria": [
+            "Je Ereignis 1 Punkt für die richtige Epoche mit lesbarem Grenzvergleich und 1 Punkt für die richtige Periode, zusammen 6.",
+            "Quartär als Epoche oder Pleistozän als Periode nicht vertauschen. Ohne Grenzvergleich höchstens die Periodenpunkte vergeben."
+          ]
+        },
+        {
+          "id": "go-helens-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C · Moderne Bauzeit (4 Hauptpunkte): Ordne die Aussage „grösster Teil des modernen Vulkangebäudes innerhalb der letzten 3.000 Jahre“ einer Epoche und Periode zu. Warum folgt daraus kein genauer Ausbruch vor 3.000 Jahren? Nenne einen Unterschied zur älteren frühen Eruptionsperiode.",
+          "sample": "Die letzten 3.000 Jahre sind 0–3 ka oder 0–0,003 Ma und damit jünger als die Holozän-Grenze 11,7 ka: Holozän, Quartär. Die USGS-Angabe ist eine Bauzeitspanne, kein Zeitpunkt eines einzelnen Ausbruchs. Die frühe Eruptionsperiode liegt viel älter bei 275–250 ka im Pleistozän; der moderne Kegel entstand später. Nicht der gesamte Vulkan entstand erst vor 3 ka.",
+          "criteria": [
+            "1 Punkt für Holozän und 1 Punkt für Quartär.",
+            "1 Punkt für Bauzeitspanne statt genauem Einzeltermin.",
+            "1 Punkt für belegten zeitlichen Unterschied zwischen früher Eruptionsperiode und modernem Aufbau."
+          ]
+        },
+        {
+          "id": "go-helens-d",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 12,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "D · Drei Aussagen prüfen (6 Hauptpunkte): Eine fiktive Museumsbeschriftung behauptet: „Mount St. Helens brach von 275 bis 250 ka ohne Pause aus. Das Quartär begann mit seinem Ausbruch. Alle alten Spuren sind heute vollständig sichtbar.“ Prüfe jede Behauptung einzeln mit Karte A oder B. Schreibe danach eine sachlich haltbare Ersatzbeschriftung mit einem datierten Ereignis und seiner Epoche.",
+          "sample": "USGS beschreibt eine frühe Eruptionsperiode, aber keinen pausenlosen Ausbruch. Das Quartär begann laut ICS vor 2,58 Ma, lange vor 0,275 Ma; kein einzelner Vulkan setzt diese Grenze. Jüngere Aktivität hat ältere Spuren teils überdeckt oder zerstört. Ersatz: „Am Mount St. Helens kam es im Pleistozän vor etwa 18.000 Jahren zu einem grossen Lavafluss. Nicht alle älteren Spuren sind erhalten.“ Andere sachlich begrenzte Fassungen gelten.",
+          "criteria": [
+            "Je 1 Punkt für die belegte Korrektur jeder der drei falschen Behauptungen (3).",
+            "1 Punkt für ein richtig datiertes Ereignis oder eine klar benannte Aktivitätsphase.",
+            "1 Punkt für dessen richtige Epoche.",
+            "1 Punkt für eine begrenzte Formulierung ohne behaupteten Dauerausbruch oder vollständige Sichtbarkeit."
+          ]
+        },
+        {
+          "id": "go-helens-e",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige erfundene Schicht nach A–D · sechs getrennte Zusatzpunkte: In welche Epoche und Periode der Karte A fiele eine angenommene, ortslose Schicht von 2,60 Ma? Vergleiche mit 2,58 Ma. Um wie viele ka liegt 2,60 Ma vor dieser Grenze? Warum sind reale USGS-Vulkanphasen und eine erfundene Übungsschicht verschiedene Arten von Beleg? Nenne eine Grenze der vereinfachten Zeittafel.",
+          "sample": "2,60 Ma ist älter als 2,58 Ma und liegt zwischen 5,333 und 2,58 Ma: Pliozän, Neogen. 2,60 − 2,58 = 0,02 Ma = 20 ka. USGS beschreibt reale rekonstruierte Vulkanphasen; die Schicht ist eine ortslose Rechenannahme. Die Texttabelle zeigt nur ausgewählte Epochen und gerundete Grenzen und datiert selbst kein Gestein.",
+          "criteria": [
+            "1 Zusatzpunkt für Pliozän mit Grenzvergleich und 1 für Neogen.",
+            "1 Zusatzpunkt für 0,02 Ma und 1 für 20 ka.",
+            "1 Zusatzpunkt für die klare Trennung realer USGS-Angaben von der erfundenen Übungsannahme.",
+            "1 Zusatzpunkt für eine konkrete Grenze der vereinfachten Zeittafel. Zusatzpunkte getrennt von 20 Hauptpunkten ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "Älterer Fachplan; amtliche Geltung 2026/27 ungeklärt",
+        "gradeBand": "7/8, Ziel Ende Klasse 8; freiwilliger Klasse-7-Vorgriff",
+        "competencyRef": "Geografie Gymnasium, §2.2/PDF-S. 16, Methodenkompetenz Ende Klasse 8: erdgeschichtliche Prozesse in eine geologische Zeittafel einordnen. Die G-06-Begriffsliste auf PDF-S. 15 nennt Neogen (Pleistozän); die ICS v2026/06 ordnet Pleistozän dem Quartär zu.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "go-gradnetz-modellorte",
       "subjectId": "go",
       "title": "Orte im erfundenen Gradnetz finden",

@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-24T23:07:22.241Z",
-  "releaseVersion": "2026.10.25-ensd06.1",
+  "builtAt": "2026-10-24T23:25:49.439Z",
+  "releaseVersion": "2026.10.25-gm16zeittafel.1",
   "newTopicIds": [
-    "en-feelings-reply-dialog"
+    "go-mount-st-helens-zeittafel"
   ],
   "changeLog": [
-    "Englisch: fiktive Alex-/Sam-Wechselrede zu Gefühlen mit getrennt ausgebbarer Partnerkarte.",
-    "Freiwilliger Ende-8-Ausblick; schriftliche Notizen ohne Punkte, mündliche Kriterien nur nach tatsächlich gehörtem Gespräch."
+    "Geografie: Mount St. Helens in der datierten ICS-Erdzeittafel mit drei USGS-Quellenkarten einordnen.",
+    "Freiwilliger Ende-8-Methodenfall mit klar markierter alter Lehrplanabweichung und erfundener Zusatzschicht."
   ],
-  "rollbackCommit": "e6500f0ea09d62edfbee97f6596f4d67c6fa664d",
+  "rollbackCommit": "d2ff6afce5c501f0d43d1d0f50a211955c0c0a1e",
   "releasedTopics": [
     "ma-koerper-netzkarten",
     "de-wortarten-form-funktion",
@@ -132,6 +132,7 @@
     "et-jugendrat-budgetwerte",
     "et-jugendhaus-doppeltermin",
     "go-klima-vegetation-modell",
+    "go-mount-st-helens-zeittafel",
     "go-gradnetz-modellorte",
     "go-drei-gesteinswege",
     "mbi-i6-cookie-datenweg",
@@ -227,6 +228,7 @@
     "et-jugendrat-budgetwerte",
     "et-jugendhaus-doppeltermin",
     "go-klima-vegetation-modell",
+    "go-mount-st-helens-zeittafel",
     "go-gradnetz-modellorte",
     "go-drei-gesteinswege",
     "ge-patcham-quellenpruefung",

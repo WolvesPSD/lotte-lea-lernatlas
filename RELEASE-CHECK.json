@@ -1,12 +1,14 @@
 {
-  "builtAt": "2026-10-24T06:48:07.407Z",
-  "releaseVersion": "2026.10.24-maheftcheck.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Mathematik: zur bestehenden Heftpreis-Wiederholung drei freiwillige Auswahlfragen mit automatischer Teilauswertung ergänzt.",
-    "Der Mini-Check erscheint erst nach drei Hauptantworten; Rechenwege und offene Begründungen bleiben menschlich zu prüfen."
+  "builtAt": "2026-10-24T07:09:39.960Z",
+  "releaseVersion": "2026.10.24-m6vierkarten.1",
+  "newTopicIds": [
+    "ma-vierkarten-simulation"
   ],
-  "rollbackCommit": "1fe24b1fa43942a68d6df8d122dfbafadc47862b",
+  "changeLog": [
+    "Mathematik: freiwilligen Klasse-8-Ausblick mit eigenem Vierkarten-Simulationslauf, Tabelle und Diagramm ergänzt.",
+    "Die 20/100/500 kumulierten Modellversuche lassen sich als CSV herunterladen; eine eigene Zeichnung und reale Kartenversuche bleiben getrennte Lernhandlungen."
+  ],
+  "rollbackCommit": "8a876886392f3085d07d36a07887035ed5424b2c",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -50,6 +52,7 @@
     "ma-kreisformeln-erinnern",
     "ma-quadratdifferenz-lflaeche",
     "ma-binomische-flaechen",
+    "ma-vierkarten-simulation",
     "ma-zufall-80-versuche",
     "de-sprachreflexion-bericht",
     "en-sprachreflexion-lesewerkstatt",
@@ -172,6 +175,7 @@
     "ma-kreisformeln-erinnern",
     "ma-quadratdifferenz-lflaeche",
     "ma-binomische-flaechen",
+    "ma-vierkarten-simulation",
     "ma-zufall-80-versuche",
     "en-sprachreflexion-lesewerkstatt",
     "fr-sprachreflexion-einladung",

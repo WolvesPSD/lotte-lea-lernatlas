@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vier Karten simulieren · Lotte &amp; Lea</title>
+  <style>
+    :root{font-family:system-ui,Arial,sans-serif;color:#19322d;background:#f4f5ed;font-size:16px}
+    *{box-sizing:border-box}body{margin:0}main{max-width:1050px;margin:auto;padding:1.2rem}
+    h1,h2{font-family:Georgia,serif;font-weight:500}h1{font-size:clamp(2rem,5vw,3.2rem);margin:.25rem 0}
+    p{line-height:1.55}.eyebrow{font-size:.8rem;font-weight:800;letter-spacing:.11em;text-transform:uppercase;color:#075e62}
+    .intro,.panel{background:#fffdf9;border:1px solid #cbd9ce;border-radius:1rem;padding:1rem 1.2rem;margin:1rem 0}
+    .intro{border-left:6px solid #0c6b71}.intro p:last-child,.panel p:last-child{margin-bottom:0}
+    .controls{display:flex;flex-wrap:wrap;gap:.65rem;align-items:center}.controls button{font:inherit;font-weight:700;min-height:44px;padding:.55rem .85rem;border-radius:.6rem;border:1px solid #075e62;background:#075e62;color:#fff;cursor:pointer}.controls button.secondary{background:#fff;color:#075e62}.controls button:disabled{opacity:.45;cursor:not-allowed}
+    .status{padding:.7rem 1rem;background:#e5f2ec;border-radius:.6rem;font-weight:700;min-height:2.7rem}
+    .numbers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.7rem}.number{border:1px solid #d5ded6;border-radius:.65rem;padding:.7rem;background:#f7faf6}.number strong{display:block;font-size:1.5rem;color:#075e62}.number small{display:block;color:#455751}
+    table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}th,td{border-bottom:1px solid #d9e2d9;padding:.55rem;text-align:right}th:first-child,td:first-child{text-align:left}thead{background:#edf4ef}.scroll{overflow-x:auto}
+    .mode{display:flex;flex-wrap:wrap;gap:1rem;margin:.7rem 0}.mode label{display:flex;gap:.35rem;align-items:center;min-height:44px;cursor:pointer}
+    .bar-row{display:grid;grid-template-columns:5.5rem minmax(0,1fr) 6.5rem;gap:.6rem;align-items:center;margin:.45rem 0}.bar-track{height:1.2rem;background:#e2eae4;border-radius:.3rem;overflow:hidden}.bar{height:100%;background:#0c7575;min-width:0}.bar-label{text-align:right;font-variant-numeric:tabular-nums;font-weight:700}.axis{font-size:.88rem;color:#455751;margin-top:.7rem}
+    .note{font-size:.9rem;color:#455751}.empty{padding:.8rem;color:#455751;background:#f4f7f2;border-radius:.5rem}
+    @media(max-width:620px){main{padding:.7rem}.intro,.panel{padding:.85rem}.numbers{grid-template-columns:repeat(2,minmax(0,1fr))}.bar-row{grid-template-columns:4.4rem minmax(0,1fr) 5.4rem;gap:.3rem;font-size:.84rem}.controls button{flex:1 1 9rem}}
+    @media print{body{background:#fff;color:#111}main{max-width:none;padding:0}.controls,.mode,.no-print{display:none!important}.intro,.panel{border:0;border-radius:0;padding:.25rem 0;margin:.45rem 0;break-inside:avoid}.intro{border-left:0}.bar-track{background:#fff;border:1px solid #777}.bar{background:#777!important;print-color-adjust:exact}table{font-size:10pt}h1{font-size:22pt}h2{font-size:15pt}.numbers{grid-template-columns:repeat(3,1fr)}}
+  </style>
+</head>
+<body>
+<main>
+  <header class="intro">
+    <p class="eyebrow">Lotte &amp; Lea · freiwilliger Ausblick Klasse 8</p>
+    <h1>Vier Karten simulieren</h1>
+    <p>Ein Versuch zieht aus den Zahlenkarten 1, 2, 3, 4 zweimal. Die erste Karte wird <strong>zurückgelegt</strong> und vor dem zweiten Zug neu gemischt. Beide Ziehungen sind gleichverteilt und unabhängig. Ein Treffer für Ereignis A ist eine Summe von <strong>mindestens 6</strong>. Dieses Labor erzeugt nur digitale Modellversuche. Es beobachtet keine Papierziehung und prüft keine echte Karte auf Fairness.</p>
+    <p class="note">Bearbeite im Lernatlas zuerst Aufgabe A. Starte danach 20, dann 80 weitere und schließlich 400 weitere Versuche. Die Stände 20/100/500 gehören zu <strong>einem kumulierten Lauf</strong>. Beim Neuladen verschwinden sie; CSV und Ausdruck kannst du vorher selbst speichern.</p>
+  </header>
+
+  <section class="panel" aria-labelledby="run-title">
+    <h2 id="run-title">Versuche ausführen</h2>
+    <div class="controls">
+      <button id="run20" type="button">20 Versuche starten</button>
+      <button id="run80" type="button" disabled>80 weitere</button>
+      <button id="run400" type="button" disabled>400 weitere</button>
+      <button id="reset" type="button" class="secondary" disabled>Neuen Lauf beginnen</button>
+    </div>
+    <p id="status" class="status" role="status" aria-live="polite">Noch kein Simulationslauf.</p>
+    <div class="numbers" aria-label="Aktueller Stand">
+      <div class="number"><strong id="n">0</strong><small>Versuche insgesamt</small></div>
+      <div class="number"><strong id="hits">—</strong><small>Treffer A</small></div>
+      <div class="number"><strong id="relative">—</strong><small>Relative Häufigkeit A</small></div>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="stages-title">
+    <h2 id="stages-title">Drei kumulierte Stände</h2>
+    <div class="scroll"><table><thead><tr><th scope="col">Stand</th><th scope="col">Versuche n</th><th scope="col">A-Treffer k</th><th scope="col">k/n</th></tr></thead><tbody id="stages"><tr><td colspan="4" class="empty">Noch keine Daten.</td></tr></tbody></table></div>
+    <p class="note">Vergleiche diese Werte mit deinem selbst berechneten P(A) aus Aufgabe A. Gib den Abstand von zwei Prozentwerten in Prozentpunkten an. Die Trefferzahl ist zufällig; ein größerer Stand liegt in einem einzelnen Lauf nicht zwingend näher am Modellwert.</p>
+  </section>
+
+  <section class="panel" aria-labelledby="chart-title">
+    <h2 id="chart-title">Summen als Balkendiagramm</h2>
+    <p>Die Balken zeigen <strong>deine simulierten Daten</strong>. Bei gleichem n bleibt ihre Form beim Umschalten gleich; die Zahlen wechseln zwischen Anzahl und Anteil. Für eine eigene Zeichnung übertrage die sieben Werte auf Papier und beschrifte beide Achsen.</p>
+    <div class="mode" role="group" aria-label="Darstellungsart">
+      <label><input type="radio" name="metric" value="absolute" checked> Absolute Häufigkeit</label>
+      <label><input type="radio" name="metric" value="relative"> Relative Häufigkeit in %</label>
+    </div>
+    <div id="bars" aria-live="polite" aria-label="Balken für Summen 2 bis 8" class="empty">Nach dem Start erscheinen hier sieben Balken.</div>
+    <p id="axis" class="axis">Waagerecht: Häufigkeit · senkrecht: Summe 2–8</p>
+    <div class="scroll"><table><thead><tr><th scope="col">Summe</th><th scope="col">Anzahl</th><th scope="col">Anteil am aktuellen n</th></tr></thead><tbody id="sum-table"><tr><td colspan="3" class="empty">Noch keine Daten.</td></tr></tbody></table></div>
+  </section>
+
+  <section class="panel" aria-labelledby="save-title">
+    <h2 id="save-title">Daten mitnehmen</h2>
+    <p>Die CSV enthält nur die simulierten Zahlen, keine Namen oder Antworten. Der Ausdruck zeigt die aktuellen Tabellen und Balken. Prüfe die Datei nach dem Download selbst; die Website speichert diesen Laborlauf nicht dauerhaft.</p>
+    <div class="controls"><button id="csv" type="button" class="secondary" disabled>Versuchsdaten als CSV</button><button id="print" type="button" class="secondary" disabled>Diesen Stand drucken</button></div>
+    <p class="note">Ein Download oder automatisch erzeugtes Diagramm beweist keine selbst gezeichnete Grafik und keine tatsächliche Papierziehung. Vergleiche die Laborwerte erst mit deiner eigenen Rechnung.</p>
+  </section>
+</main>
+<script>
+(() => {
+  'use strict';
+  const $ = id => document.getElementById(id);
+  const trials = [];
+  const snapshots = [];
+  let stage = 0;
+  const formatPercent = value => (value * 100).toLocaleString('de-DE', {minimumFractionDigits:1, maximumFractionDigits:1}) + ' %';
+  const eventA = sum => sum >= 6;
+  function counts() {
+    const sums = [0,0,0,0,0,0,0];
+    let hits = 0;
+    for (const t of trials) { sums[t.sum - 2]++; if (t.hit) hits++; }
+    return {sums,hits,n:trials.length};
+  }
+  function render() {
+    const {sums,hits,n} = counts();
+    $('n').textContent = String(n);
+    $('hits').textContent = n ? String(hits) : '—';
+    $('relative').textContent = n ? formatPercent(hits/n) : '—';
+    $('run20').disabled = stage !== 0;
+    $('run80').disabled = stage !== 1;
+    $('run400').disabled = stage !== 2;
+    $('reset').disabled = stage === 0;
+    $('csv').disabled = stage === 0;
+    $('print').disabled = stage === 0;
+    $('status').textContent = stage === 0 ? 'Noch kein Simulationslauf.' : `${n} digitale Versuche im aktuellen Lauf; ${hits} Treffer für A. ${stage === 3 ? 'Alle drei Stände sind vorhanden.' : 'Du kannst die nächste Stufe ausführen.'}`;
+    const stageBody = $('stages'); stageBody.replaceChildren();
+    if (!snapshots.length) { const row=stageBody.insertRow(); const cell=row.insertCell(); cell.colSpan=4; cell.className='empty'; cell.textContent='Noch keine Daten.'; }
+    for (const s of snapshots) {
+      const row=stageBody.insertRow();
+      for (const value of [`nach ${s.n}`,String(s.n),String(s.hits),formatPercent(s.hits/s.n)]) { const cell=row.insertCell(); cell.textContent=value; }
+    }
+    const sumBody=$('sum-table'); sumBody.replaceChildren();
+    const bars=$('bars'); bars.replaceChildren(); bars.classList.toggle('empty',!n);
+    const mode=document.querySelector('input[name="metric"]:checked').value;
+    $('axis').textContent=`Waagerecht: ${mode==='absolute'?'Anzahl der Versuche':'Anteil an allen Versuchen in %'} · senkrecht: Summe 2–8`;
+    if (!n) { const row=sumBody.insertRow(); const cell=row.insertCell(); cell.colSpan=3; cell.className='empty'; cell.textContent='Noch keine Daten.'; bars.textContent='Nach dem Start erscheinen hier sieben Balken.'; return; }
+    const max=Math.max(...sums,1);
+    for (let index=0;index<7;index++) {
+      const sum=index+2, count=sums[index], percent=count/n;
+      const row=sumBody.insertRow();
+      for(const value of [String(sum),String(count),formatPercent(percent)]) {const cell=row.insertCell();cell.textContent=value;}
+      const line=document.createElement('div');line.className='bar-row';
+      const name=document.createElement('span');name.textContent=`Summe ${sum}`;
+      const track=document.createElement('div');track.className='bar-track';track.setAttribute('aria-hidden','true');
+      const bar=document.createElement('div');bar.className='bar';bar.style.width=`${count/max*100}%`;track.append(bar);
+      const label=document.createElement('span');label.className='bar-label';label.textContent=mode==='absolute'?String(count):formatPercent(percent);
+      line.append(name,track,label);bars.append(line);
+    }
+  }
+  function appendTrials(amount) {
+    const random=new Uint32Array(amount*2);
+    if (!globalThis.crypto?.getRandomValues) { $('status').textContent='Auf diesem Gerät ist die lokale Zufallsfunktion nicht verfügbar. Kein Versuch wurde erzeugt.'; return; }
+    crypto.getRandomValues(random);
+    for(let i=0;i<amount;i++) {
+      const first=(random[2*i]%4)+1, second=(random[2*i+1]%4)+1;
+      const sum=first+second;
+      trials.push({first,second,sum,hit:eventA(sum)});
+    }
+    stage++;
+    const current=counts();snapshots.push({n:current.n,hits:current.hits});
+    render();
+  }
+  $('run20').addEventListener('click',()=>appendTrials(20));
+  $('run80').addEventListener('click',()=>appendTrials(80));
+  $('run400').addEventListener('click',()=>appendTrials(400));
+  $('reset').addEventListener('click',()=>{trials.length=0;snapshots.length=0;stage=0;render();});
+  document.querySelectorAll('input[name="metric"]').forEach(input=>input.addEventListener('change',render));
+  $('csv').addEventListener('click',()=>{
+    if (!trials.length) return;
+    const rows=['versuch,zug1,zug2,summe,treffer_A'];
+    trials.forEach((t,index)=>rows.push(`${index+1},${t.first},${t.second},${t.sum},${t.hit?1:0}`));
+    const blob=new Blob(['\ufeff'+rows.join('\r\n')+'\r\n'],{type:'text/csv;charset=utf-8'});
+    const url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=`m6-vierkarten-${trials.length}-versuche.csv`;document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);
+  });
+  $('print').addEventListener('click',()=>{if(trials.length) window.print();});
+  render();
+})();
+</script>
+</body>
+</html>

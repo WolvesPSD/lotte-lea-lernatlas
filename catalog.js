@@ -4246,6 +4246,102 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-vierkarten-simulation",
+      "subjectId": "ma",
+      "title": "Vier Karten: Zufall selbst simulieren",
+      "scope": "Freiwilliger Klasse-8-Ausblick zu M6: ein- und zweistufige Ergebnismengen, relative Häufigkeit und eine lokale Simulation samt Diagramm aus den erzeugten Zahlen. Keine bestätigte aktuelle Klasse-7-Einheit oder vollständige M6-Abdeckung.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst Brüche, Prozentwerte und geordnete Zahlenpaare. Falls eine echte Ziehung geplant ist, nutze dafür den getrennten Papierweg im Thema „Was verraten 80 Ziehversuche?“. Dieses Labor ist rein digital und speichert den Lauf nicht dauerhaft.",
+      "introduction": "Erst das Modell auf Papier begründen, dann die lokale Simulation öffnen. Das Labor zieht jeweils zweimal mit Zurücklegen, zeigt 20/100/500 kumulierte Versuche und erstellt Tabelle sowie Balken aus den erzeugten Zahlen. Du kannst CSV herunterladen und den Stand drucken. Notiere die Werte deines eigenen Laufs, nicht erfundene Musterzahlen. Die App liest den Laborlauf nicht automatisch und kann deine eigene Zeichnung nicht sehen.",
+      "passage": "MODELL · VIER GLEICH WAHRSCHEINLICHE KARTEN\nDie Karten tragen 1, 2, 3 und 4. Ein Versuch: einmal ziehen, Zahl notieren, Karte zurücklegen und neu mischen, dann ein zweites Mal ziehen. Die Reihenfolge zählt. Ereignis A: Die Summe der beiden Zahlen ist mindestens 6.\nRelative Häufigkeit = A-Treffer geteilt durch bisherige Versuche. Der mathematische Modellwert P(A) wird aus gleich wahrscheinlichen geordneten Paaren berechnet. Ein endlicher Simulationslauf muss ihn nicht genau treffen.",
+      "lab": {
+        "path": "assets/ma-vierkarten-simulation.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-vierkarten-simulation.html",
+        "title": "Lokales Vierkartenlabor",
+        "description": "Erzeugt ohne Netzwerk digitale Ziehpaare mit Zurücklegen. Nach 20, 100 und 500 kumulierten Versuchen siehst du Treffer, Tabelle und Balken; CSV-Download und Ausdruck sind möglich. Nicht vor A öffnen. Der Lauf verschwindet beim Neuladen.",
+        "printNote": "Das Labor erzeugt neue Zufallszahlen; eine gedruckte Aufgabe enthält daher keine festen Trefferwerte. Zum Prüfen eigener Werte CSV oder Laborausdruck getrennt mitbringen. Laborbedienung und eigene Zeichnung müssen tatsächlich gezeigt werden."
+      },
+      "tasks": [
+        {
+          "id": "ma-vierkarten-simulation-1",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 12,
+          "inputRows": 11,
+          "prompt": "A. Modell und Mengen (6 Kriterienpunkte): Schreibe Ω₁ für einen Zug in Mengenklammern. Beschreibe Ω₂ als Menge geordneter Paare und nenne die Anzahl. Liste A („Summe mindestens 6“) als Menge der passenden Paare auf, berechne P(A) als Bruch und Prozentwert. Warum haben die sieben möglichen Summen nicht je die Wahrscheinlichkeit 1/7? Öffne das Labor erst danach.",
+          "sample": "Ω₁={1,2,3,4}. Ω₂={(a,b) | a∈Ω₁, b∈Ω₁}; das sind 16 gleich wahrscheinliche geordnete Paare. A={(2,4),(3,3),(3,4),(4,2),(4,3),(4,4)}. P(A)=6/16=3/8=37,5 %. Summe 2 hat nur (1,1), Summe 5 vier Paare; die Summen selbst sind nicht gleich wahrscheinlich.",
+          "criteria": [
+            "1 Punkt: Ω₁={1,2,3,4}.",
+            "1 Punkt: Ω₂ als geordnete Paare aus Ω₁ beschrieben.",
+            "1 Punkt: 16 Paare beim Zurücklegen.",
+            "1 Punkt: A mit sechs richtigen Paaren in Mengenklammern.",
+            "1 Punkt: P(A)=6/16=3/8=37,5 %.",
+            "1 Punkt: ungleiche Summengewichte an den Paarzahlen oder einem korrekten Gegenbeispiel erklärt."
+          ]
+        },
+        {
+          "id": "ma-vierkarten-simulation-2",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 14,
+          "inputRows": 14,
+          "prompt": "B. Drei kumulierte Laborstände (8 Kriterienpunkte): Starte 20 digitale Versuche und notiere A-Trefferzahl k, k/20 und Prozent. Füge 80 neue hinzu: notiere kumuliertes k/100 für alle bisherigen Versuche. Füge 400 neue hinzu: notiere k/500. Vergleiche den 20er- und 500er-Abstand zu deinem in A berechneten P(A) für deinen tatsächlichen Lauf; gib den Abstand in Prozentpunkten an. Ist der 500er-Wert diesmal näher? Erkläre, warum weder eine monotone Annäherung noch die Fairness eines echten Beutels folgt. Falls du das Labor nicht bedient hast, schreibe „nicht durchgeführt“ statt Zahlen zu erfinden.",
+          "sample": "Die drei Trefferzahlen sind in jedem Lauf anders und müssen zur CSV oder zum Laborausdruck passen. Bei n=20, 100 und 500 gelten k/n und 100k/n %. Berechne |100k/20−37,5| und |100k/500−37,5| in Prozentpunkten für diesen Lauf. „Näher“ darf je nach Lauf Ja oder Nein sein. 20/100/500 sind verschachtelt. Endliche Zufallsdaten schwanken und beweisen keine physische Fairness.",
+          "criteria": [
+            "1 Punkt: 20 ausgeführte digitale Versuche und richtige A-Trefferzahl aus eigenem Lauf.",
+            "1 Punkt: k/20 und Prozentwert korrekt.",
+            "1 Punkt: nach 80 weiteren n=100 mit kumulierter Trefferzahl.",
+            "1 Punkt: k/100 und Prozentwert korrekt.",
+            "1 Punkt: nach 400 weiteren n=500 mit richtiger kumulierter Trefferzahl.",
+            "1 Punkt: k/500 und Prozentwert korrekt.",
+            "1 Punkt: Abstände zu 37,5 % für n=20 und n=500 sachlich berechnet und diesen Lauf zutreffend verglichen.",
+            "1 Punkt: keine garantierte monotone Annäherung oder Aussage über physische Fairness behauptet. Ohne Laborlauf sind praktische Kriterien nicht erhoben."
+          ]
+        },
+        {
+          "id": "ma-vierkarten-simulation-3",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 13,
+          "inputRows": 12,
+          "prompt": "C. Diagramm aus deinen Daten (6 Kriterienpunkte): Zeige im Labor bei n=500 erst absolute Häufigkeiten der Summen 2–8. Lies Summe 2 und 8 ab. Schalte dann auf relative Häufigkeit und notiere deren Prozentwerte mit demselben Nenner 500. Zeichne auf Papier ein eigenes Säulendiagramm aller sieben Summen aus deiner Tabelle mit beschrifteten Achsen und passender Skala. Zeige die Zeichnung separat. Warum ist Summe 5 im Modell häufiger als Summe 2? Wenn dein Laborlauf früher endete, nenne den wirklichen Stand; die fehlenden 500er-Kriterien bleiben offen.",
+          "sample": "Die Anzahlen zu Summe 2 und 8 hängen vom eigenen Lauf ab; ihr jeweiliger Prozentwert ist Anzahl/500·100 %. Die Papierzeichnung zeigt sieben beschriftete Säulen für 2–8, eine Häufigkeitsachse mit Skala und passende Höhen aus der eigenen Tabelle. Im Modell hat Summe 5 die Paare (1,4),(2,3),(3,2),(4,1), also 4/16; Summe 2 nur (1,1), also 1/16. Das automatische Laborbild ersetzt die eigene Zeichnung nicht.",
+          "criteria": [
+            "1 Punkt: Summe-2- und Summe-8-Anzahl bei n=500 aus eigenem Lauf richtig.",
+            "1 Punkt: beide relativen Prozente mit Nenner 500 richtig.",
+            "1 Punkt: sieben Summen 2–8 in tatsächlich gezeigter eigener Zeichnung.",
+            "1 Punkt: Summen- und Häufigkeitsachse samt Einheit/Prozent passend beschriftet.",
+            "1 Punkt: Balkenhöhen aus eigenen Daten stimmig und angemessen skaliert.",
+            "1 Punkt: Modellgewicht Summe 5 mit vier Paaren gegenüber Summe 2 mit einem Paar erklärt. Ohne eigene Zeichnung Zeichenkriterien nicht erhoben."
+          ]
+        },
+        {
+          "id": "ma-vierkarten-simulation-4",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "prompt": "Freiwilliger Transfer · 6 eigene Punkte, nicht zu A–C addieren: Denke dir eine neue Regel: Die erste Karte bleibt nach Zug 1 draußen. Wie viele geordnete Paare sind dann möglich, wie viele davon gehören zu A und wie groß ist P(A)? Warum darfst du die Daten des Zurücklege-Labors nicht als Daten für diese Regel ausgeben? Beschreibe einen fairen Weg, die neue Regel getrennt zu simulieren. Ein neuer Lauf ist hierfür nicht nötig.",
+          "sample": "Die vier gleichen Paare (1,1),(2,2),(3,3),(4,4) fallen weg. Es bleiben 12 geordnete Paare. Von den sechs A-Paaren fallen (3,3) und (4,4) weg; es bleiben vier, also 4/12=1/3. Die Laborwerte entstanden mit Zurücklegen. Für eine neue Simulation zuerst eine der vier Zahlen gleichverteilt ziehen und danach eine der drei übrigen gleichverteilt wählen; alternativ vier gleiche Papierkarten mischen und zweimal ohne Rückgabe ziehen.",
+          "criteria": [
+            "1 Punkt: vier Diagonalpaare als ausgeschlossen erkannt.",
+            "1 Punkt: 12 geordnete Paare.",
+            "1 Punkt: vier verbleibende A-Paare.",
+            "1 Punkt: P(A)=4/12=1/3.",
+            "1 Punkt: bestehende Labordaten als anderes Zurücklege-Modell erkannt.",
+            "1 Punkt: getrennte faire Simulation mit zweitem Zug aus drei übrigen Zahlen oder gleichwertigem Papierweg."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. § 2.2.6 PDF-S. 28 unter Klassenstufe 8: Ergebnismengen ein-/zweistufig, Mengenschreibweise, relative Häufigkeit, geeignete Simulationen sowie Tabellen und Diagramme.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
       "id": "ma-zufall-80-versuche",
       "subjectId": "ma",
       "title": "Was verraten 80 Ziehversuche?",

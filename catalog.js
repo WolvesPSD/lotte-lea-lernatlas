@@ -1617,6 +1617,167 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "de-kurzwort-bafoeg",
+      "subjectId": "de",
+      "title": "Wie wird aus dem langen Wort BAföG?",
+      "scope": "Freiwillige, gestützte 7/8-Übung zur Bildung eines Kurzworts/Akronyms mit Zielhorizont Ende Klasse 8. Der Deutsch-Lehrplan nennt Akronyme in der 7/8-Spalte; die Unterrichtsfolge an Lottes Schule ist nicht bekannt. Der Fall behandelt Wortbildung, keine Förderberechtigung.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Du brauchst keine Ausbildungspläne, Geldbeträge oder Familienangaben. Lies nur die amtliche Wortkarte und versuche zuerst eigene Erklärungen. Du darfst eine Wortbildungshilfe nutzen und sie notieren; es geht nicht um einen echten Antrag.",
+      "introduction": "In einer amtlichen Gesetzesüberschrift steht ein langes zusammengesetztes Wort neben seiner Kurzform. Untersuche die sichtbaren Wortstücke und die Grenzen einer blossen Namensdeutung. Die 20 Hauptpunkte sind Lernfeedback, keine Schulnote; vier freiwillige Zusatzpunkte zählen getrennt. Nach den eigenen Antworten kannst du drei eindeutige Auswahlfragen lokal auswerten. Sie bewerten weder die offenen Erklärungen noch eine rechtliche Frage.",
+      "passage": "WORTKARTE · Bundesgesetz über individuelle Förderung der Ausbildung (Bundesausbildungsförderungsgesetz – BAföG). Quelle: Gesetze im Internet, amtliche Gesetzesüberschrift: https://www.gesetze-im-internet.de/baf_g/BJNR014090971.html . Die Karte zeigt den Namen, keine Aussage über einzelne Personen.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "1–5",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGER TRANSFER NACH 1–5 · In einer erfundenen Wortwerkstatt soll für „Waldwegstation“ eine eigene Kurzform entstehen. Dein Vorschlag ist keine nachgewiesene amtliche oder allgemein übliche Bezeichnung. Die vier Zusatzpunkte zählen getrennt."
+      },
+      "autoCheck": {
+        "afterMain": true,
+        "questions": [
+          {
+            "id": "de-bafoeg-check-a",
+            "kind": "choice",
+            "prompt": "Aus welchem Teil der Langform stammen die Buchstaben „fö“?",
+            "options": [
+              "Aus „Förderung“.",
+              "Aus „Bundes“.",
+              "Aus „Gesetz“."
+            ],
+            "correct": "Aus „Förderung“.",
+            "explanation": [
+              "„fö“ greift mehr als einen Buchstaben aus dem Anfang von „Förderung“ auf."
+            ]
+          },
+          {
+            "id": "de-bafoeg-check-b",
+            "kind": "choice",
+            "prompt": "Was unterscheidet BAföG von der erfundenen Reihe B-A-F-G?",
+            "options": [
+              "BAföG enthält mit „fö“ mehrere Buchstaben eines Wortteils und wird als Wort gesprochen.",
+              "BAföG enthält ausschliesslich einzelne Anfangsbuchstaben, die einzeln gesprochen werden.",
+              "Die Reihe B-A-F-G ist der amtliche Gesetzesname."
+            ],
+            "correct": "BAföG enthält mit „fö“ mehrere Buchstaben eines Wortteils und wird als Wort gesprochen.",
+            "explanation": [
+              "Das IDS ordnet BAföG den Kurzwörtern aus mehreren Buchstaben der Langform zu; B-A-F-G ist nur ein erfundenes Gegenbeispiel."
+            ]
+          },
+          {
+            "id": "de-bafoeg-check-c",
+            "kind": "choice",
+            "prompt": "Was lässt sich allein aus dem Gesetzesnamen für einzelne Personen ableiten?",
+            "options": [
+              "Er nennt das Thema Förderung der Ausbildung, belegt aber keinen Anspruch einer bestimmten Person.",
+              "Jede Person in Ausbildung erhält sicher Förderung.",
+              "Der Name nennt bereits den Betrag für jede Person."
+            ],
+            "correct": "Er nennt das Thema Förderung der Ausbildung, belegt aber keinen Anspruch einer bestimmten Person.",
+            "explanation": [
+              "Ein Gesetzesname zeigt ein Thema; für Aussagen zu Einzelpersonen wären Regeln und Einzelfall zu prüfen. Hier wird keine Rechtsauskunft verlangt."
+            ]
+          }
+        ]
+      },
+      "tasks": [
+        {
+          "id": "de-bafoeg-1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "Langform und Kurzform (2 Hauptpunkte): Schreibe das lange zusammengesetzte Wort und die zugehörige Kurzform aus der Wortkarte heraus.",
+          "sample": "Langform: Bundesausbildungsförderungsgesetz. Kurzform: BAföG.",
+          "criteria": [
+            "1 Punkt: Bundesausbildungsförderungsgesetz als Langform.",
+            "1 Punkt: BAföG als Kurzform."
+          ]
+        },
+        {
+          "id": "de-bafoeg-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "Wortstücke zuordnen (4 Hauptpunkte): Verbinde B, A, fö und G mit den passenden Teilen des langen Wortes. Schreibe zu jedem Kurzformstück, welches Stück in der Langform gemeint ist.",
+          "sample": "B → Bundes, A → Ausbildungs, fö → Förderung, G → Gesetz. Das verbindende s wird nicht übernommen.",
+          "criteria": [
+            "Je 1 Punkt für B → Bundes, A → Ausbildungs, fö → Förderung und G → Gesetz. Verständliche Markierungen derselben Wortteile zählen; keine Morphemanalyse verlangen."
+          ]
+        },
+        {
+          "id": "de-bafoeg-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Die Bildung erklären (4 Hauptpunkte): Erkläre, aus welchen Wortstücken BAföG gebildet wird. Was ist anders als bei einer Reihe aus nur einzelnen Anfangsbuchstaben, etwa dem erfundenen B-A-F-G? Achte auf „fö“ und erkläre, ob BAföG als Wort oder Buchstabe für Buchstabe gesprochen wird.",
+          "sample": "BAföG ist aus ausgewählten Teilen von Bundesausbildungsförderungsgesetz gebildet. B, A und G stehen für Wortanfänge; fö übernimmt zwei Buchstaben aus Förderung. Deshalb ist es nicht nur eine Reihe einzelner Anfangsbuchstaben wie B-A-F-G. BAföG wird als Wort gesprochen.",
+          "criteria": [
+            "2 Punkte: Bildung aus ausgewählten Teilen der Langform beschrieben.",
+            "1 Punkt: nicht nur einzelne Anfangsbuchstaben erkannt.",
+            "1 Punkt: fö aus Förderung und Sprechen als Wort erklärt. Altersgerechte Umschreibungen zählen; Kurzwort und Akronym nicht gegeneinander ausspielen."
+          ]
+        },
+        {
+          "id": "de-bafoeg-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Kompositum und Umschreibung vergleichen (4 Hauptpunkte): Vergleiche „Bundesausbildungsförderungsgesetz“ mit „Bundesgesetz über individuelle Förderung der Ausbildung“ aus der Wortkarte. Ordne Bundes und Gesetz gemeinsam dem passenden Teil der Umschreibung zu; ordne Ausbildungs und Förderungs ebenfalls zu. Fasse in einem Satz zusammen, welches Thema der Gesetzesname beschreibt.",
+          "sample": "Bundes und Gesetz stehen zusammen in „Bundesgesetz“. Ausbildungs entspricht „der Ausbildung“, Förderungs entspricht „Förderung“. Der Name bezeichnet ein Bundesgesetz zum Thema Förderung der Ausbildung.",
+          "criteria": [
+            "1 Punkt: Bundes und Gesetz gemeinsam Bundesgesetz zugeordnet.",
+            "1 Punkt: Ausbildungs zu der Ausbildung.",
+            "1 Punkt: Förderungs zu Förderung, ohne das Fugen-s zu übertragen.",
+            "1 Punkt: Gegenstand als Bundesgesetz zum Thema Förderung der Ausbildung beschrieben."
+          ]
+        },
+        {
+          "id": "de-bafoeg-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Grenze der Aussage (6 Hauptpunkte): Eine erfundene Notiz behauptet: „Das Wort BAföG beweist, dass jede Person in einer Ausbildung Förderung erhält.“ Prüfe diese Behauptung. Erkläre, was der Name über das Thema des Gesetzes verrät und welche Angaben er über einzelne Personen nicht belegt. Du brauchst keine Rechtsauskunft.",
+          "sample": "Der Name zeigt, dass es um Förderung der Ausbildung geht. Er beweist nicht, dass jede oder eine bestimmte Person Förderung erhält. Dafür müssten die geltenden Regeln und der Einzelfall geprüft werden; weder Voraussetzungen noch Beträge stehen im Namen.",
+          "criteria": [
+            "2 Punkte: „jede Person“ als unbelegt zurückgewiesen.",
+            "2 Punkte: Thema des Gesetzes von Regeln für einzelne Personen getrennt.",
+            "1 Punkt: nennt geltende Regeln und Einzelfall als nötige zusätzliche Prüfung, ohne selbst Rechtsauskunft zu geben.",
+            "1 Punkt: nennt keine unbelegten konkreten Anspruchsvoraussetzungen oder Beträge. Hauptsumme 20 Punkte, keine Schulnote."
+          ]
+        },
+        {
+          "id": "de-bafoeg-6",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer · vier getrennte Zusatzpunkte: In einer erfundenen Wortwerkstatt braucht „Waldwegstation“ eine kurze Form. Schlage eine Form aus Teilen des langen Wortes vor und markiere mindestens zwei Herkunftsstücke (2 Punkte). Erkläre, weshalb Lesende damit die Langform wiederfinden könnten (1 Punkt). Kennzeichne die Form als eigenen Vorschlag, nicht als nachgewiesen übliche oder amtliche Kurzform (1 Punkt).",
+          "sample": "Mein Vorschlag für die erfundene Wortwerkstatt ist „WaWeSta“: Wa kommt von Wald, We von Weg, Sta von Station. Wer die drei Wortanfänge wiedererkennt, kann auf Waldwegstation zurückkommen. Das ist keine nachgewiesen übliche oder amtliche Bezeichnung.",
+          "criteria": [
+            "2 Zusatzpunkte: mindestens zwei passende Wortstücke samt Herkunft markiert.",
+            "1 Zusatzpunkt: erklärt den Rückweg zur Langform.",
+            "1 Zusatzpunkt: ausdrücklich eigener Vorschlag statt allgemein üblicher oder amtlicher Form; gleichwertige Formen zählen. Zusatzpunkte getrennt ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Erprobungsfassung für Klasse 7 ab 2026/27. §2.2.5 PDF-S. 30–31: Wortformen und Bedeutungen, Zielhorizont Ende Klasse 8. PDF-S. 52: Akronyme in der rechten 7/8-Spalte; keine Unterrichtsreihenfolge.",
+        "checkedAt": "2026-10-24"
+      }
+    },
+    {
       "id": "de-homonym-kiefer",
       "subjectId": "de",
       "title": "Welche Kiefer ist gemeint?",

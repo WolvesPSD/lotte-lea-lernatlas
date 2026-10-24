@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-24T01:04:35.416Z",
-  "releaseVersion": "2026.10.24-depronomen.1",
+  "builtAt": "2026-10-24T01:27:45.047Z",
+  "releaseVersion": "2026.10.24-debafoeg.1",
   "newTopicIds": [
-    "de-pronomen-lesewerkstatt"
+    "de-kurzwort-bafoeg"
   ],
   "changeLog": [
-    "Deutsch: freiwillige Pronomen-Lesewerkstatt mit drei Wortarten, Quellen- und Tätigkeitsbezug, fünf Hauptaufgaben und einem späteren Transfer.",
-    "Drei eindeutige Auswahlfragen werden nach dem Hauptteil lokal ausgewertet; offene Begründungen bleiben menschlich zu prüfen. Der Kinderdruck enthält keine Lösungen."
+    "Deutsch: freiwilliger 7/8-Wortbildungsfall zum amtlichen Gesetzesnamen BAföG mit fünf Hauptaufgaben und einem späteren erfundenen Transfer; keine Prüfung individueller Förderung.",
+    "Drei eindeutige Auswahlfragen werden nach dem Hauptteil lokal ausgewertet; offene Erklärungen bleiben menschlich zu prüfen. Der Kinderdruck enthält keine Lösungen."
   ],
-  "rollbackCommit": "e47ed1928eb7cece51d741ff44d5ea27ece101bd",
+  "rollbackCommit": "a35b43a0499d19d27277ec467172c892f3ac006f",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -26,6 +26,7 @@
     "fr-termin-gespraech",
     "de-textzusammenhang-register",
     "de-pronomen-lesewerkstatt",
+    "de-kurzwort-bafoeg",
     "de-homonym-kiefer",
     "de-textuntersuchung-bank",
     "ma-koerper-modell",

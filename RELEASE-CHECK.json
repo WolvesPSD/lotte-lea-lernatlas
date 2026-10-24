@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-24T11:11:48.001Z",
-  "releaseVersion": "2026.10.24-mntmesspraxis.1",
-  "newTopicIds": [
-    "mnt-volumen-masse-schulpraxis"
-  ],
+  "builtAt": "2026-10-24T11:28:20.663Z",
+  "releaseVersion": "2026.10.24-mbii2zusammen.1",
+  "newTopicIds": [],
   "changeLog": [
-    "MNT: freiwillige, ausschliesslich schulisch beaufsichtigte Messpraxis für Flüssigkeitsvolumen, Körperverdrängung und Masse als Ende-6-Brücke bereitstellen.",
-    "Schriftliche Planung, Kinder-Praxisweg und getrennte Erwachsenenbeobachtung ohne behauptete Durchführung ausweisen."
+    "MBI: die vorhandene Lesepause-Medienwerkstatt um einen freiwilligen Zweierweg mit gemeinsamem Plan, zwei Fassungen und Reflexion ergänzen.",
+    "Kinderblatt und getrennte Erwachsenenbeobachtung unterscheiden echte Zusammenarbeit von Einzelarbeit; Downloadort vor lokaler Speicherung prüfen."
   ],
-  "rollbackCommit": "9ef1a7ac86b73376080d6b346aea17c574e9f374",
+  "rollbackCommit": "1d26b7c1e3b4a4eb5bfe019a8350941710623d06",
   "releasedTopics": [
     "mnt-volumen-masse-schulpraxis",
     "mnt-skelett-knochenformen",

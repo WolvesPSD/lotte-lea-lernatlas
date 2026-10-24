@@ -8690,13 +8690,13 @@ window.LOTTE_CATALOG = Object.freeze({
       "scope": "Freiwilliger digitaler Gestaltungs-Teilfall im aktuellen MBI-Lernzeitraum Klasse 7/8; I2 hat den Zielstand Ende Klasse 8. Kein freies HTML-Coding, keine echte Veröffentlichung und kein Nachweis der schulischen Themenfolge.",
       "levelStatus": "grade78-flex",
       "released": true,
-      "prerequisite": "Du brauchst einen Browser, der lokale HTML-Dateien herunterladen und wieder öffnen kann. Nutze nur die erfundenen Angaben. Eine erwachsene Person kann beim Finden der gespeicherten Datei helfen; die Entscheidungen zu Text und Gestaltung sollen von dir kommen.",
-      "introduction": "Die erfundene Lese-AG plant eine digitale Infokarte für Mitschülerinnen und Mitschüler. Nur diese fiktiven Angaben gelten: Titel „Lesepause“; Mittwoch, 14:10–14:30 Uhr; Raum A4; man darf selbst lesen oder einfach zuhören; ein Buch ist nur nötig, wenn man selbst lesen möchte; Teilnahme freiwillig und für diese Übung ohne Anmeldung. In der Werkstatt erstellst du daraus eine eigene HTML-Datei. Lade eine erste Fassung herunter, verbessere sie und öffne die gespeicherte neue Fassung erneut. Keine echten Namen, Fotos oder Termine verwenden und nichts veröffentlichen.",
+      "prerequisite": "Du brauchst einen Browser, der HTML-Dateien herunterladen und wieder öffnen kann. Prüfe vorher, ob dein Downloadordner mit einer Cloud synchronisiert wird; wähle für diese Übung einen nur lokal gespeicherten Ort. Nutze nur die erfundenen Angaben. Eine erwachsene Person kann beim Finden der Datei helfen; die Entscheidungen zu Text und Gestaltung sollen von dir kommen.",
+      "introduction": "Die erfundene Lese-AG plant eine digitale Infokarte für Mitschülerinnen und Mitschüler. Nur diese fiktiven Angaben gelten: Titel „Lesepause“; Mittwoch, 14:10–14:30 Uhr; Raum A4; man darf selbst lesen oder einfach zuhören; ein Buch ist nur nötig, wenn man selbst lesen möchte; Teilnahme freiwillig und für diese Übung ohne Anmeldung. In der Werkstatt erstellst du daraus eine eigene HTML-Datei. Lade eine erste Fassung herunter, verbessere sie und öffne die gespeicherte neue Fassung erneut. Prüfe dafür den Downloadort; nutze nur lokale Speicherung. Die freiwillige Zusatzpraxis unten braucht eine zweite Person. Keine echten Namen, Fotos oder Termine verwenden und nichts veröffentlichen.",
       "lab": {
         "path": "assets/mbi-lesepause-werkstatt.html",
         "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/mbi-lesepause-werkstatt.html",
         "title": "Medienwerkstatt",
-        "description": "Die Werkstatt öffnet in einem neuen Tab. Dort gestaltest du Text, Reihenfolge und Farbe, prüfst eine Vorschau und lädst deine eigene HTML-Karte nur auf dein Gerät herunter. Kehre für die Antworten hierher zurück. Eingaben werden beim Neuladen zurückgesetzt.",
+        "description": "Die Werkstatt öffnet in einem neuen Tab. Dort gestaltest du Text, Reihenfolge und Farbe und prüfst eine Vorschau. Prüfe vor einem Download den Speicherort, damit die fiktive HTML-Karte nur lokal gespeichert wird. Kehre für die Antworten hierher zurück. Eingaben werden beim Neuladen zurückgesetzt.",
         "printNote": "Die Werkstatt erzeugt eine lokale HTML-Datei; ein Download allein belegt kein Wiederöffnen oder Überarbeiten. Alle Veranstaltungsangaben sind erfunden. Die Direktadresse funktioniert erst nach Veröffentlichung dieses Pakets."
       },
       "tasks": [
@@ -8772,6 +8772,33 @@ window.LOTTE_CATALOG = Object.freeze({
           ]
         }
       ],
+      "practice": {
+        "title": "Freiwillige Praxis: die Infokarte zu zweit überarbeiten",
+        "childNote": "Diese Zusatzpraxis geht nur mit einer wirklich teilnehmenden zweiten Person und der vorhandenen Lesepause-Werkstatt auf einem gemeinsam genutzten Gerät. Nutzt ausschliesslich die sechs erfundenen Lesepause-Angaben. Nennt euch Person A und Person B, verwendet keine echten Namen oder Schultermine und ladet nichts hoch. Prüft vor dem Speichern, ob der Downloadort nur lokal ist; bei unklarem oder synchronisiertem Ziel bleibt es bei der Vorschau ohne Datei. Wenn du allein arbeitest, kannst du die Schritte lesen, aber die Zusammenarbeit ist „nicht erhoben“. Die fünf schriftlichen Aufgaben A–E und diese Praxis werden getrennt beurteilt.",
+        "childSteps": [
+          "Gemeinsamer Plan: Welche vier Informationen sollen zuerst sichtbar sein? Person A und B nennen je einen Beitrag und begründen die Reihenfolge, bevor ihr die Werkstatt öffnet.",
+          "V1: Person A formuliert Titel und Text. Person B schlägt Farbstil und Reihenfolge vor und prüft, ob die sechs vorgegebenen Lesepause-Fakten verständlich sind. Besprecht beide Beiträge, erstellt die Vorschau, ladet V1 herunter und öffnet die gespeicherte Datei erneut.",
+          "V2: Person B macht einen konkreten Text- oder Gestaltungsvorschlag. Person A macht ebenfalls einen konkreten Verbesserungsvorschlag und prüft den Vorschlag von B an den sechs Fakten. Entscheidet gemeinsam, welchen Vorschlag ihr umsetzt und warum. A trägt die Änderung in derselben Werkstatt ein; B kontrolliert danach Zeit, Ort, Zielgruppe, Lesereihenfolge und unbelegte Zusatzangaben. Ladet V2 getrennt herunter und öffnet sie erneut.",
+          "Vergleicht V1 und V2. Notiert ohne Namen: beide Vorschläge, gewählte Änderung, wer sie eingetragen hat, was B geprüft hat und warum eure gemeinsame Entscheidung die Karte verbessert. Welche nützliche Angabe fehlt in der Auftragskarte und dürft ihr deshalb nicht erfinden? Zwei Dateien allein beweisen nicht, wer mitgearbeitet hat.",
+          "Wenn eine dritte Person verfügbar ist, zeigt ihr nur lokal V2 und bittet sie, die sechs Angaben zu finden. Notiert nur, ob etwas unklar war, keine Namen oder Antworten. Prüft gemeinsam, ob und warum eine weitere Verbesserung nötig ist. Ohne Testperson diesen Beobachtungsteil als „nicht erhoben“ markieren.",
+          "Abschluss: Nennt je eine Sache, die ihr selbst beigetragen habt, eine unterschiedliche Idee und wie ihr entschieden habt. Eine erwachsene Person als Partnerin oder Partner ist möglich, aber das ist kein Nachweis einer Peer-Gruppenarbeit. Ohne beobachtete gemeinsame Arbeit keine erreichten Praxispunkte behaupten."
+        ],
+        "childWritingLines": 24,
+        "observationMax": 20,
+        "observationLabel": "tatsächlich beobachtete Zusammenarbeit",
+        "observationKind": "collaborative-product",
+        "adultNote": "Nur tatsächlich beobachtete Zusammenarbeit werten; V1/V2-Dateien allein zeigen Revision, nicht Urheberschaft oder gemeinsame Entscheidung. Vorher zweite Person, gemeinsam genutztes Gerät und den tatsächlichen Downloadort prüfen; bei synchronisiertem oder unklarem Ort keine Datei für diese Zusatzpraxis speichern. Die Werkstatt selbst speichert Eingaben nicht dauerhaft und synchronisiert sie nicht, doch Betriebssystem oder Downloadordner können Dateien automatisch synchronisieren. Bei fehlender zweiter Person „nicht erhoben“ statt 0/20. Ist ein Erwachsener selbst Person B, als Erwachsenenpartner kennzeichnen und keine Peer-Gruppenleistung behaupten. Keine echten Namen, Fotos, Kontakte oder Termine dokumentieren. Die schriftlichen A–E-Punkte bleiben getrennt. Keine Schulnote.",
+        "adultCriteria": [
+          "Gemeinsamer Plan (0–3): vier Informationen priorisiert, beide Personen machen einen erkennbaren Beitrag und die Reihenfolge wird gemeinsam begründet. Nur beobachtete Teilhandlungen bepunkten.",
+          "V1 und zwei Beiträge (0–5): A formuliert Titel/Text, B entscheidet mit über Gestaltung/Lesereihenfolge; beide prüfen die sechs fiktiven Fakten, besprechen die Fassung und öffnen die heruntergeladene V1 erneut. Eine einzelne Bedienperson ohne Beitrag der zweiten erfüllt das Ziel nicht.",
+          "V2 und Rollenwechsel (0–5): A und B machen je einen konkreten Vorschlag; beide wählen mit Grund; A setzt die Änderung um, B kontrolliert Fakten und Lesbarkeit; V2 wird getrennt gespeichert und wieder geöffnet. Ohne beobachteten Rollenwechsel nur Teilstatus.",
+          "Gemeinsame Reflexion (0–4): beide Vorschläge, gewählte Änderung, Umsetzung und B-Kontrolle sind nachvollziehbar; beide begründen eine gemeinsame Entscheidung und nennen eine nicht belegte Information, die nicht erfunden werden darf.",
+          "Zielgruppenprüfung (0–3): Eine dritte Person sucht in V2 die sechs Angaben; A/B notieren nur den Verständlichkeitsbefund, besprechen eine nötige oder bewusst nicht nötige Verbesserung und begründen den Schluss. Ohne dritte Person diesen Teil „nicht erhoben“, nicht null."
+        ],
+        "adultGuide": [
+          "Die 20 Beobachtungspunkte gehören ausschliesslich zum gemeinsamen Praxisweg. Bei fehlender Gelegenheit für einen Teil keine vergleichbare 20-Punkte-Summe bilden. Die Rückmeldung darf einzelne beobachtete Stärken und einen nächsten Schritt benennen, ohne ein nicht beobachtetes Teamziel als erreicht zu markieren."
+        ]
+      },
       "releaseEvidence": {
         "validFor": "2026/27",
         "gradeBand": "7/8",

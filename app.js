@@ -1021,6 +1021,11 @@
               appendText(practiceSection, 'p', '', 'Freigegebene Geräte, Messbereiche und schulische Sicherheitsregel: __________________________________________');
               appendText(practiceSection, 'p', '', 'Tatsächlich beobachtete Handlung, Messgrenze oder Abbruchgrund: ___________________________________________');
               appendText(practiceSection, 'p', '', `Nur bei Durchführung und fairer Gelegenheit für alle Kriterien: Summe Schul-Praxisbeobachtung ____ / ${observationMax}. Bei „—“ keine vergleichbare Gesamtsumme. Kein automatisches Urteil und keine Schulnote.`);
+            } else if (topic.practice.observationKind === 'collaborative-product') {
+              appendText(practiceSection, 'p', '', `Beobachtung: ☐ zu zweit durchgeführt  ☐ teilweise  ☐ keine zweite Person  ☐ nicht erhoben. Ohne ${observationLabel} keine Punktzahl eintragen.`);
+              appendText(practiceSection, 'p', '', 'Person B: ☐ Kind/Jugendliche  ☐ erwachsen. Beobachtete Beiträge beider Personen: __________________________');
+              appendText(practiceSection, 'p', '', 'V1/V2, Wiederöffnen und gemeinsamer Beschluss tatsächlich gesehen: _____________________________________');
+              appendText(practiceSection, 'p', '', `Nur bei tatsächlicher Zusammenarbeit und Gelegenheit für alle Kriterien: Summe Praxisbeobachtung ____ / ${observationMax}. Bei „—“ keine vergleichbare Gesamtsumme. Kein automatisches Urteil und keine Schulnote.`);
             } else {
               appendText(practiceSection, 'p', '', `Beobachtung: ☐ gehört  ☐ mit Hilfe  ☐ offen  ☐ nicht erhoben. Ohne ${observationLabel} keine Punktzahl eintragen.`);
               appendText(practiceSection, 'p', '', 'Vorher vereinbarte Hilfen / verwendete Stichwortstützen: ____________________________________________________');

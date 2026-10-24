@@ -4354,12 +4354,20 @@ window.LOTTE_CATALOG = Object.freeze({
       "levelStatus": "grade8-outlook",
       "released": true,
       "prerequisite": "Hilfreich: einfache englische Zeit- und Ortsangaben sowie eine kurze höfliche Nachricht lesen und schreiben. Wortstützen stehen in der Einführung; ein analoges Wörterbuch reicht für Aufgabe 4.",
-      "introduction": "Fiktive Situation: Die Lesewerkstatt einer Stadtbibliothek hat ihre Planung geändert. Mia möchte der Organisatorin Ms Evans, die sie noch nicht kennt, auf Englisch schreiben. Prüfe nicht nur einzelne Wörter, sondern auch, was die Nachricht bei der Empfängerin bewirkt. Wortstütze: updated notice = aktualisierte Mitteilung; get a ticket = eine Karte bekommen; when the room is announced = wenn der Raum bekanntgegeben wird. Andere richtige Formulierungen zählen ebenfalls.",
+      "introduction": "Fiktive Situation: Die Lesewerkstatt einer Stadtbibliothek hat ihre Planung geändert. Mia möchte der Organisatorin Ms Evans, die sie noch nicht kennt, auf Englisch schreiben. Prüfe nicht nur einzelne Wörter, sondern auch, was die Nachricht bei der Empfängerin bewirkt. Wortstütze: updated notice = aktualisierte Mitteilung; when the room is announced = sobald der Raum bekanntgegeben wird. Suche „bekommen“ nach deinem eigenen Versuch mit einem Wörterbuch oder guten Beispielen; die Wortstütze verrät die Korrektur nicht. A–D zählen 20 Kriterienpunkte, die spätere Änderung sechs getrennte Zusatzpunkte. Andere richtige Formulierungen zählen ebenfalls; offene Texte werden nicht automatisch bewertet.",
       "passage": "Alter Aushang: Dienstag, 16 Uhr, Raum 2.\n\nNeue Mitteilung: Donnerstag, 16 Uhr. Raum 2 gilt nicht mehr; der neue Raum wird noch bekanntgegeben. Eine kostenlose Eintrittskarte bekommt man am Eingang.\n\nMias erster Entwurf:\nDear Ms Evans,\nThe actual reading workshop is on Thursday at 4 pm. I can become a free ticket at the entrance. Send me the room number.\nBye, Mia",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "SPÄTERE FIKTIVE ÄNDERUNG NACH A–D · Neue Mitteilung C: „Der Raum für die Lesewerkstatt am Donnerstag um 16 Uhr ist nun Raum 5. Die kostenlosen Eintrittskarten werden weiterhin am Eingang ausgegeben.“ Die alte Angabe Raum 2 bleibt überholt. Mia hat den ersten Entwurf noch nicht versendet."
+      },
       "tasks": [
         {
           "id": "en-sprachreflexion-1",
           "kind": "reflection",
+          "points": 6,
+          "adultOnlySolution": true,
           "prompt": "Bedeutung und Adressat (6 Punkte): Untersuche actual, become sowie Send me … / Bye. Erkläre jeweils Mias Absicht, die mögliche englische Bedeutung oder Wirkung und eine passendere Formulierung. Bezeichne nicht den ganzen Entwurf pauschal als falsch: Einzelne Wörter können grammatisch sein, hier aber Mias Absicht verfehlen.",
           "sample": "Mit actual meint Mia „aktuell“; the actual workshop klingt eher nach der wirklichen Veranstaltung im Gegensatz zu einer anderen. Klarer: The updated notice says the workshop is now on Thursday at 4 pm. Mit become meint Mia „bekommen“; I can become a ticket sagt jedoch, dass sie selbst zu einer Karte wird. Klarer: I can get a free ticket at the entrance. Send me the room number klingt im Erstkontakt fordernd und die neue Raumangabe ist noch nicht veröffentlicht. Höflicher: Could you please tell me the new room when it is announced? Statt Bye passt hier Kind regards.",
           "writingLines": 10,
@@ -4372,6 +4380,8 @@ window.LOTTE_CATALOG = Object.freeze({
         {
           "id": "en-sprachreflexion-2",
           "kind": "reflection",
+          "points": 8,
+          "adultOnlySolution": true,
           "prompt": "Vollständige neue Nachricht (8 Punkte): Schreibe Ms Evans eine kurze, höfliche E-Mail auf Englisch. Nenne den neuen Tag und Beginn, die überholte Raumangabe und die kostenlose Karte am Eingang. Frage nach dem neuen Raum, der noch nicht bekanntgegeben wurde. Erfinde keine Raumnummer. Eine andere Satzanzahl ist richtig, wenn die Nachricht klar und vollständig ist.",
           "sample": "Dear Ms Evans,\nI saw the updated notice. The reading workshop is now on Thursday at 4 pm. I understand that room 2 is no longer the meeting place and that I can get a free ticket at the entrance. Could you please tell me the new room when it is announced?\nKind regards,\nMia",
           "writingLines": 10,
@@ -4389,7 +4399,9 @@ window.LOTTE_CATALOG = Object.freeze({
         {
           "id": "en-sprachreflexion-3",
           "kind": "reflection",
-          "prompt": "Kleine Bedeutungsprobe (3 Punkte): Vergleiche The actual workshop is on Thursday mit The workshop is actually on Thursday. Warum kann der zweite Satz bei einer Korrektur des alten Dienstagsplans sinnvoll sein? Warum sagt der erste Satz „der aktuelle Plan“ weniger eindeutig? Antworte auf Deutsch oder in einfachem Englisch.",
+          "points": 3,
+          "adultOnlySolution": true,
+          "prompt": "Kleine Bedeutungsprobe (3 Punkte): Vergleiche The actual workshop is on Thursday mit The workshop is actually on Thursday. Warum kann der zweite Satz bei einer Korrektur des alten Dienstagsplans sinnvoll sein? Warum sagt der erste Satz „der aktuelle Plan“ weniger eindeutig? Nenne eine klare Formulierung für die aktualisierte Mitteilung. Antworte auf Deutsch oder in einfachem Englisch.",
           "sample": "The workshop is actually on Thursday kann heißen: Tatsächlich ist sie am Donnerstag, anders als der alte Aushang vermuten ließ. The actual workshop meint eher die wirkliche Veranstaltung im Gegensatz zum Beispiel zu einer Probe; es bezeichnet nicht eindeutig die neueste Mitteilung. The updated notice says … oder The workshop is now on Thursday macht die Änderung klarer. Actual ist nicht grundsätzlich falsch, und actually heißt nicht immer current.",
           "writingLines": 6,
           "criteria": [
@@ -4401,6 +4413,8 @@ window.LOTTE_CATALOG = Object.freeze({
         {
           "id": "en-sprachreflexion-4",
           "kind": "reflection",
+          "points": 3,
+          "adultOnlySolution": true,
           "prompt": "Prüfen statt raten (3 Punkte): Mia ist sich bei bekommen → become unsicher. Beschreibe zwei konkrete Prüfschritte mit einem Wörterbuch oder guten Satzbeispielen und begründe, warum ähnliche Buchstaben im Deutschen und Englischen noch keine gleiche Bedeutung beweisen. Du brauchst keine Anmeldung und sendest keine persönliche Nachricht an einen externen Dienst.",
           "sample": "Ich schaue im zweisprachigen Wörterbuch nach, wie „bekommen“ in diesem Zusammenhang übersetzt wird, und prüfe umgekehrt die Bedeutung von become. Danach vergleiche ich englische Beispielsätze mit get a ticket und become a …: Wer erhält etwas, und wer wird zu etwas? Die ähnliche Schreibweise der deutschen und englischen Wörter beweist keine gleiche Bedeutung.",
           "writingLines": 6,
@@ -4409,13 +4423,28 @@ window.LOTTE_CATALOG = Object.freeze({
             "1 Punkt: Ein passender Satz- oder Kontextvergleich wie get a ticket gegenüber become a … prüft Subjekt und gemeinte Handlung.",
             "1 Punkt: Die Grenze der bloßen Schreibähnlichkeit wird begründet; ein analoges Wörterbuch genügt, ein Live-Webzugang ist nicht Voraussetzung."
           ]
+        },
+        {
+          "id": "en-sprachreflexion-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Änderung nach A–D · sechs getrennte Zusatzpunkte: Lies die neue Mitteilung C. 1. Nenne zwei Informationen aus C, die Mias Raumfrage oder Nachricht betreffen. 2. Schreibe nur den raumbezogenen Teil der englischen E-Mail neu: Nenne Raum 5 und entferne die nun unnötige Frage nach dem erst später bekanntgegebenen Raum. Ein oder zwei Sätze reichen. 3. Erkläre kurz, warum „Could you please tell me the new room when it is announced?“ vor C sinnvoll war, nach C aber nicht mehr zum Informationsstand passt. Schreibe nichts an Ms Evans.",
+          "sample": "C gibt Raum 5 nun bekannt; der alte Raum 2 bleibt überholt. Ebenso gelten Donnerstag/16 Uhr und die kostenlose Karte am Eingang weiter. Neuer Text: „The updated notice now says the workshop is in room 5.“ Die Frage nach einer künftigen Bekanntgabe entfällt. Vor C war der neue Raum noch nicht bekanntgegeben; nach C steht er in der Mitteilung. Das sagt nichts über einen früheren internen Bestätigungsstand.",
+          "criteria": [
+            "2 Zusatzpunkte: Raum 5 nun bekanntgegeben (1) und eine weitere andere richtige Angabe aus C (1), etwa Raum 2 bleibt überholt, Donnerstag/16 Uhr bleibt oder Karte weiter am Eingang. Die Raum-5-Aussage nicht doppelt zählen.",
+            "2 Zusatzpunkte: kurzer passender englischer Satz mit Raum 5 (1) und entfallener beziehungsweise passend ersetzter alter Raumfrage (1).",
+            "2 Zusatzpunkte: Vor C noch keine Bekanntgabe (1), nach C Raum 5 bekanntgegeben und alte Frage überholt (1). Keine unbelegte Behauptung über interne Bestätigung."
+          ]
         }
       ],
       "releaseEvidence": {
         "validFor": "2027/28",
         "gradeBand": "8",
         "competencyRef": "Erste Fremdsprache: Inhaltsverzeichnis PDF-S. 4; Inkraftsetzung S. 2: Klasse 8 ab 2027/28. § 2.2.6 S. 31–32, ausdrücklich Klassenstufe 8: Sprachvergleich und false friends, angeleitete Fehlerkorrektur, Anrede- und Höflichkeitsformen, Adressatenorientierung sowie Wörterbuchstrategien. § 2.2 S. 25: A2/punktuell B1 als Ziel erst am Ende der Klasse 8.",
-        "checkedAt": "2026-10-21"
+        "checkedAt": "2026-10-24"
       }
     },
     {

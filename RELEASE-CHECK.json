@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-24T02:33:14.332Z",
-  "releaseVersion": "2026.10.24-debeschwerde.1",
-  "newTopicIds": [
-    "de-beschwerde-materialsets"
-  ],
+  "builtAt": "2026-10-24T02:56:49.702Z",
+  "releaseVersion": "2026.10.24-enrupdate.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Deutsch: freiwilliger 7/8-Beschwerdebrief zu einem belegten Materialmangel nach einem fiktiven Projekttag, mit drei Hauptaufgaben und späterer Änderung.",
-    "Die spätere Nachlieferung ändert die Bitte, ohne den verpassten Arbeitsabschnitt aufzuheben. Offene Texte brauchen menschliche Prüfung; der Kinderdruck enthält keine Lösungen."
+    "Englisch: vorhandene freiwillige Lesewerkstatt-Übung überarbeitet: vorweggenommene Wortkorrektur entfernt und spätere Raum-5-Mitteilung nach A–D ergänzt.",
+    "Fünf Aufgaben mit 20 Haupt- und sechs getrennten Zusatzpunkten; Musterlösungen bleiben im Erwachsenenbereich. Keine neue Themen-ID oder zusätzliche Kompetenzzählung."
   ],
-  "rollbackCommit": "82394a197faea5f9467151f302846c6acbb526a5",
+  "rollbackCommit": "1602790f759f5cedb731149019ff9687f53ca3a2",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",

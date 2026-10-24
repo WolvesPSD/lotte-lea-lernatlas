@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 590" role="img" aria-labelledby="title desc">
+  <title id="title">Koordinatengraph g zum Ablesen</title>
+  <desc id="desc">Koordinatensystem mit x von minus eins bis drei und y von minus vier bis vier. Ein gerader Abschnitt g steigt von minus eins, minus vier über null, minus zwei und eins, null bis drei, vier. Die Endpunkte sind ausgefüllt.</desc>
+  <rect x="1" y="1" width="698" height="588" rx="16" fill="#fffdf9" stroke="#c9d8d9" stroke-width="2"/>
+  <text x="72" y="43" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#193f4a">Lies den Graphen g ab</text>
+  <text x="72" y="72" font-family="Arial, sans-serif" font-size="16" fill="#385963">Der gezeigte Abschnitt hat ausgefüllte Endpunkte.</text>
+  <rect x="135" y="115" width="400" height="400" fill="#fff" stroke="#aebfc3" stroke-width="2"/>
+  <g stroke="#dce6e8" stroke-width="1.5">
+    <path d="M235 115V515 M335 115V515 M435 115V515"/>
+    <path d="M135 165H535 M135 215H535 M135 265H535 M135 315H535 M135 365H535 M135 415H535 M135 465H535"/>
+  </g>
+  <path d="M135 315H535 M235 115V515" fill="none" stroke="#244f5b" stroke-width="3"/>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#244f5b" text-anchor="middle">
+    <text x="135" y="541">−1</text><text x="235" y="541">0</text><text x="335" y="541">1</text><text x="435" y="541">2</text><text x="535" y="541">3</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="17" fill="#244f5b" text-anchor="end">
+    <text x="220" y="120">4</text><text x="220" y="170">3</text><text x="220" y="220">2</text><text x="220" y="270">1</text><text x="220" y="320">0</text><text x="220" y="370">−1</text><text x="220" y="420">−2</text><text x="220" y="470">−3</text><text x="220" y="520">−4</text>
+  </g>
+  <path d="M135 515L535 115" fill="none" stroke="#b65723" stroke-width="5" stroke-linecap="round"/>
+  <g fill="#b65723" stroke="#fff" stroke-width="2"><circle cx="135" cy="515" r="8"/><circle cx="535" cy="115" r="8"/></g>
+  <text x="483" y="185" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#9a421c">g</text>
+  <text x="555" y="321" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#193f4a">x</text>
+  <text x="227" y="102" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#193f4a">y</text>
+</svg>

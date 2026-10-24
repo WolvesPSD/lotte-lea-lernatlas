@@ -1,12 +1,14 @@
 {
-  "builtAt": "2026-10-24T09:00:32.499Z",
-  "releaseVersion": "2026.10.24-startgruppe.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Themenübersicht startet mit Klasse-7-Themen und freiwilligen 7/8-Themen; die unbekannte Unterrichtsfolge wird ausdrücklich benannt.",
-    "Die Startseite erklärt vor der Themenwahl, dass ein Arbeitsblatt erst nach der Auswahl gedruckt werden kann."
+  "builtAt": "2026-10-24T09:17:22.532Z",
+  "releaseVersion": "2026.10.24-m11geraden.1",
+  "newTopicIds": [
+    "ma-geradenwerkstatt"
   ],
-  "rollbackCommit": "5c14a3409000280cde93fcb7a1043826f94ca570",
+  "changeLog": [
+    "Mathematik: Geradenwerkstatt als freiwilligen Klasse-8-Ausblick mit fünf Hauptaufgaben zu Graph, Punkt und Steigung veröffentlichen.",
+    "Sechs getrennte Transferpunkte erst nach den fünf Hauptantworten zeigen; Kinder- und Erwachsenenblatt sowie echte Papierzeichnung getrennt halten."
+  ],
+  "rollbackCommit": "924e48b90866fad2a4496c5ca6976972176c183a",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -32,6 +34,7 @@
     "ma-medienwahrscheinlichkeit",
     "ma-wahrscheinlichkeitsbaum",
     "ma-pythagoras-plan",
+    "ma-geradenwerkstatt",
     "ma-lineare-funktionen",
     "ma-kreisweg",
     "ma-reelle-zahlen",
@@ -164,6 +167,7 @@
     "ma-medienwahrscheinlichkeit",
     "ma-wahrscheinlichkeitsbaum",
     "ma-pythagoras-plan",
+    "ma-geradenwerkstatt",
     "ma-lineare-funktionen",
     "ma-kreisweg",
     "ma-reelle-zahlen",

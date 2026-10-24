@@ -2496,6 +2496,133 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-geradenwerkstatt",
+      "subjectId": "ma",
+      "title": "Geradenwerkstatt: Punkt und Steigung",
+      "scope": "Ausblick Klasse 8 · freiwillig. Lineare Funktionen und Lage von Geraden stehen in § 2.2.11 unter der Zielmarke Klasse 8; Lottes aktuelle Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst Koordinaten (x|y), die Form y=m·x+n und einfache Gleichungen. Alle Größen sind Zahlenwerte ohne Sach-Einheit. Zeichne die neue Gerade h auf Papier und zeige sie getrennt: Die App bewertet Text, aber keine Zeichnung. Rechne in 2 und 4 ohne Taschenrechner; die Formel y=m·x+n darfst du nutzen. Notiere Zwischenschritte.",
+      "introduction": "Lies zuerst die Achsen und die gerade Strecke g im Bild ab. Ihre ausgefüllten Endpunkte gehören zum gezeigten Abschnitt; bestimme dessen Bereich selbst. Eine andere ganze Gerade h geht durch (2|1) und hat die Steigung −1. Leite h selbst her und zeichne später für 0≤x≤3 einen Abschnitt auf Papier. Vergleiche anschließend die ganzen Geraden p(x)=−x−1 und q(x)=x−1 mit h. Die getrennte Liste R enthält nur (0|0), (1|1), (2|4), (3|9). Schreibe Rechenwege. Offene Antworten werden nicht automatisch benotet.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "1–5",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGER TRANSFER NACH 1–5 · Eine neue ganze Gerade r geht durch (0|2) und hat den Anstieg +1. Vergleiche sie mit den ganzen Geraden q(x)=x−1 und h aus Aufgabe 2. Die sechs Zusatzpunkte werden getrennt von den 25 Hauptpunkten gezählt."
+      },
+      "diagram": {
+        "path": "assets/ma-geradenwerkstatt-graph.svg",
+        "alt": "Koordinatensystem x von −1 bis 3, y von −4 bis 4. Der gerade Graph g führt durch die ablesbaren Punkte (−1|−4), (0|−2), (1|0), (2|2), (3|4). Die Endpunkte sind ausgefüllt.",
+        "caption": "Gegebener Graph g. Lies selbst zwei Punkte, Achsenschnitte und Endwerte ab; h ist noch nicht eingezeichnet."
+      },
+      "tasks": [
+        {
+          "id": "ma-geraden-1",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 7,
+          "inputRows": 8,
+          "prompt": "Graph g · 7 Punkte: Lies zwei Punkte ab. Berechne den Anstieg, lies den y-Achsenwert ab und schreibe g(x)=m·x+n. Gib D_g und W_g an. Nenne beide Achsenschnittpunkte und begründe, ob g im gezeigten Bereich wächst oder fällt.",
+          "sample": "Zum Beispiel (0|−2) und (1|0): m=(0−(−2))/(1−0)=2; n=−2, also g(x)=2x−2. Aus den ausgefüllten Endpunkten folgt D_g=[−1;3], W_g=[−4;4]. Achsenschnitte sind (1|0) und (0|−2). g wächst, weil die Steigung positiv ist.",
+          "criteria": [
+            "1 Punkt: zwei richtige Graphpunkte.",
+            "1 Punkt: m=2 aus den Punkten.",
+            "1 Punkt: n=−2 als y-Achsenwert.",
+            "1 Punkt: g(x)=2x−2.",
+            "1 Punkt: D_g=[−1;3] und W_g=[−4;4] mit eingeschlossenen Enden.",
+            "1 Punkt: (1|0) und (0|−2) als Achsenschnitte.",
+            "1 Punkt: wachsend mit positiver Steigung begründet."
+          ]
+        },
+        {
+          "id": "ma-geraden-2",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 5,
+          "inputRows": 8,
+          "prompt": "Ein Punkt plus Anstieg · 6 Punkte: Die ganze Gerade h geht durch (2|1) und hat m=−1. Setze den Punkt in h(x)=m·x+n ein, finde n und schreibe h(x). Prüfe (2|1), berechne den x-Achsenschnitt, nenne den y-Achsenabschnitt und die Richtung des Graphen. Rechne ohne Taschenrechner.",
+          "sample": "1=−1·2+n, also n=3 und h(x)=−x+3. h(2)=1. Für die x-Achse gilt 0=−x+3, somit (3|0). Der y-Achsenabschnitt ist (0|3). h fällt, weil m=−1<0.",
+          "criteria": [
+            "1 Punkt: vorgegebenes m=−1 korrekt eingesetzt.",
+            "1 Punkt: n=3 aus (2|1) richtig bestimmt.",
+            "1 Punkt: h(x)=−x+3.",
+            "1 Punkt: h(2)=1 als Probe.",
+            "1 Punkt: (3|0) als x-Achsenschnitt.",
+            "1 Punkt: y-Achse (0|3) und fallende Monotonie richtig."
+          ]
+        },
+        {
+          "id": "ma-geraden-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 3,
+          "inputRows": 6,
+          "prompt": "Eigene Tabelle und Zeichnung · 4 Punkte: Lege für h selbst eine Wertetabelle zu x=0,1,2,3 an. Zeichne den Abschnitt 0≤x≤3 mit Achsen, Zahlen, vier Punkten und gerader Verbindung auf Papier. Gib den Wertebereich dieses Abschnitts an. Zeige die Zeichnung getrennt; ein Textfeld beweist sie nicht.",
+          "sample": "Wertetabelle x: 0,1,2,3; h(x): 3,2,1,0. Die Papierzeichnung verbindet (0|3),(1|2),(2|1),(3|0) mit Achsen und Zahlen. Für den Abschnitt gilt W_h=[0;3]. Die tatsächliche Zeichnung muss angesehen werden.",
+          "criteria": [
+            "1 Punkt: mindestens zwei Wertepaarungen richtig.",
+            "1 Punkt: alle vier Wertepaarungen richtig und übersichtlich als eigene Tabelle.",
+            "1 Punkt: tatsächlich gezeigte Zeichnung mit korrekten Punkten, Achsen, Zahlen und gerader Verbindung.",
+            "1 Punkt: W_h=[0;3] für 0≤x≤3."
+          ]
+        },
+        {
+          "id": "ma-geraden-4",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 5,
+          "inputRows": 8,
+          "prompt": "Lage ganzer Geraden · 5 Punkte: Vergleiche h mit p(x)=−x−1 und q(x)=x−1. Welche ist parallel, welche senkrecht zu h? Begründe über Steigungen und erkläre, weshalb h und p verschieden sind. Berechne den Schnitt von h und q und prüfe ihn in beiden Vorschriften. Rechne ohne Taschenrechner.",
+          "sample": "p ist zu h parallel, weil beide m=−1 haben; wegen n_p=−1 und n_h=3 sind sie verschieden. q hat m=1, und (−1)·1=−1, also ist q senkrecht zu h. Aus −x+3=x−1 folgt x=2, y=1; h(2)=q(2)=1, Schnitt (2|1).",
+          "criteria": [
+            "1 Punkt: p parallel zu h.",
+            "1 Punkt: q senkrecht zu h.",
+            "1 Punkt: gleiche Steigung −1 und Produkt (−1)·1=−1 als passende Begründungen.",
+            "1 Punkt: h und p wegen verschiedener Achsenabschnitte nicht identisch.",
+            "1 Punkt: Schnitt (2|1) rechnerisch und in beiden Vorschriften geprüft."
+          ]
+        },
+        {
+          "id": "ma-geraden-5",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 4,
+          "inputRows": 6,
+          "prompt": "Tabelle R kritisch lesen · 3 Punkte: R nennt (0|0),(1|1),(2|4),(3|9). Ist R auf genau diesen vier Eingaben eine Funktion? Liegen alle vier Punkte auf einer Geraden? Vergleiche die y-Zuwächse bei gleichen x-Schritten und erkläre, was bei x=1,5 offenbleibt.",
+          "sample": "Auf den vier genannten x-Werten hat jeder Eingang genau einen Ausgang: dort ist R eine Funktion. Die y-Zuwächse sind 1,3,5 und nicht konstant; die vier Punkte liegen nicht auf einer Geraden. Ein Wert bei x=1,5 ist aus dieser Liste nicht festgelegt.",
+          "criteria": [
+            "1 Punkt: Funktion nur für die vier Eingaben richtig begründet.",
+            "1 Punkt: Zuwächse 1/3/5 und fehlende gemeinsame Gerade erkannt.",
+            "1 Punkt: Zwischenwert bei x=1,5 nicht erfunden."
+          ]
+        },
+        {
+          "id": "ma-geraden-6",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer nach 1–5 · sechs getrennte Punkte: Die neue ganze Gerade r geht durch (0|2) und hat m=+1. Bestimme r(x) durch Einsetzen und berechne ihren x-Achsenschnitt. Vergleiche r mit q(x)=x−1: parallel oder identisch? Vergleiche r mit h aus Aufgabe 2: parallel oder senkrecht? Berechne den Schnittpunkt von r und h und prüfe ihn in beiden Vorschriften.",
+          "sample": "Einsetzen von (0|2) in r(x)=x+n ergibt n=2, also r(x)=x+2. Aus 0=x+2 folgt der x-Schnitt (−2|0). r und q sind wegen m=+1 parallel, wegen 2≠−1 aber verschieden. r und h sind senkrecht, weil (+1)·(−1)=−1. Aus x+2=−x+3 folgt x=1/2,y=5/2; r(1/2)=h(1/2)=5/2.",
+          "criteria": [
+            "1 Punkt: (0|2) mit m=+1 eingesetzt.",
+            "1 Punkt: r(x)=x+2 korrekt bestimmt.",
+            "1 Punkt: x-Achsenschnitt (−2|0).",
+            "1 Punkt: r zu q parallel, aber wegen unterschiedlichem n nicht identisch.",
+            "1 Punkt: r zu h wegen Steigungsprodukt −1 senkrecht.",
+            "1 Punkt: Schnitt (1/2|5/2) mit Probe in beiden Vorschriften."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.11 PDF-S. 31, Zielmarke Klassenstufe 8: Graph/Tabelle/Vorschrift, Punkt plus Anstieg, Wertetabelle, Achsenschnitte und Monotonie, Parallelität und Orthogonalität.",
+        "checkedAt": "2026-10-24"
+      }
+    },
+    {
       "id": "ma-lineare-funktionen",
       "subjectId": "ma",
       "title": "Zwei Tarife als lineare Funktionen",

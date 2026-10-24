@@ -1,12 +1,14 @@
 {
-  "builtAt": "2026-10-24T02:56:49.702Z",
-  "releaseVersion": "2026.10.24-enrupdate.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Englisch: vorhandene freiwillige Lesewerkstatt-Übung überarbeitet: vorweggenommene Wortkorrektur entfernt und spätere Raum-5-Mitteilung nach A–D ergänzt.",
-    "Fünf Aufgaben mit 20 Haupt- und sechs getrennten Zusatzpunkten; Musterlösungen bleiben im Erwachsenenbereich. Keine neue Themen-ID oder zusätzliche Kompetenzzählung."
+  "builtAt": "2026-10-24T03:46:05.397Z",
+  "releaseVersion": "2026.10.24-dl1zweispuren.1",
+  "newTopicIds": [
+    "de-zwei-spuren-leseweg"
   ],
-  "rollbackCommit": "1602790f759f5cedb731149019ff9687f53ca3a2",
+  "changeLog": [
+    "Deutsch: freiwilliger D-L1-Leseweg mit zwei wählbaren Spuren und einem erst danach erreichbaren Schluss ergänzt; Quelle und Figurenvermutung werden getrennt geprüft.",
+    "Vier Hauptaufgaben mit 20 Lernpunkten, spätere Zusatzquelle mit sechs getrennten Punkten; Papierweg und Erwachsenenlösung bleiben getrennt."
+  ],
+  "rollbackCommit": "762fcd2e1d13f027fbb8ccea917692e33e70ebd3",
   "releasedTopics": [
     "mnt-skelett-knochenformen",
     "mnt-gemisch-forschungsweg",
@@ -134,7 +136,8 @@
     "en-invite-mini-comics-workshop",
     "ma-m4-rechnerprobe",
     "mbi-sternnetz-feedranking",
-    "mbi-teamdaten-gegenpruefen"
+    "mbi-teamdaten-gegenpruefen",
+    "de-zwei-spuren-leseweg"
   ],
   "subjects": [
     "mnt",

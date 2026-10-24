@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zwei Spuren zur verschwundenen Zeichnung · Lotte & Lea</title>
+  <style>
+    :root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#203238;background:#f7f5ef}
+    *{box-sizing:border-box}body{margin:0;min-width:320px}main{max-width:740px;margin:auto;padding:1.25rem 1rem 4rem}
+    h1,h2{font-family:Georgia,serif;font-weight:500}h1{font-size:clamp(2rem,6vw,3rem);line-height:1.12}h2{font-size:1.7rem}
+    .eyebrow{font-size:.76rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#15565b}
+    .note{color:#53636b;line-height:1.55}.screen{background:#fff;border:1px solid #d9dfd9;border-radius:1rem;padding:1.2rem 1.35rem;margin-top:1.2rem;box-shadow:0 10px 30px #163d4610}
+    .line{font-size:1.08rem;line-height:1.65;margin:.75rem 0;white-space:pre-wrap}.line strong{color:#0c5057}
+    .links{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.5rem}.links a{display:inline-block;padding:.7rem .9rem;border:1px solid #1b6770;border-radius:.6rem;color:#104b53;background:#eff7f4;font-weight:700;text-decoration:none}
+    .links a:hover{background:#dceee7}.links a:focus-visible{outline:3px solid #1e7889;outline-offset:3px}
+    .screen[hidden],a[hidden]{display:none!important}.status{border-left:3px solid #61aa9d;padding-left:.8rem;margin:1.1rem 0;color:#42585b}
+    @media print{body{background:#fff;color:#111}main{max-width:none;padding:0}.screen,.screen[hidden]{display:block!important;border:0;box-shadow:none;border-radius:0;padding:0;margin:1.1rem 0;break-inside:avoid}.links,.status{display:none!important}h1{font-size:20pt}h2{font-size:14pt}.line{font-size:10.5pt;line-height:1.35}.note{font-size:10pt}}
+  </style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">Deutsch · freiwilliger 7/8-Einstieg</p>
+  <h1>Zwei Spuren zur verschwundenen Zeichnung</h1>
+  <p class="note">Eine erfundene Geschichte mit zwei wählbaren Lesewegen. Öffne zuerst eine Spur, kehre zum Start zurück und öffne die andere. Der Schluss wird nach beiden Spuren freigegeben. Notiere deine Reihenfolge im Arbeitsbereich des Lernatlas. Ein Linkklick allein beweist noch nicht, dass du den Text verstanden hast.</p>
+  <p id="status" class="status" role="status">Du bist am Start. Wähle eine Spur.</p>
+
+  <section class="screen" id="start" aria-labelledby="start-title">
+    <h2 id="start-title" tabindex="-1">Start</h2>
+    <p class="line"><strong>S1.</strong> Am Montag um 08:00 Uhr fehlt die Zeichnung des geplanten Schulgartens an der Pinnwand. Am Freitag hing dort noch ein Blatt mit einem grossen Apfelbaum.</p>
+    <p class="line"><strong>S2.</strong> Elin sagt: „Um 07:55 Uhr sah ich Jonas mit einer blauen Mappe in Richtung Schulbüro gehen. Bestimmt hat er die Zeichnung versteckt.“ Sie hat <strong>nicht gesehen</strong>, wer das Blatt von der Pinnwand nahm.</p>
+    <nav class="links" aria-label="Spuren vom Start aus wählen">
+      <a href="#spur-a" data-go="spur-a">Elins Tagebuch als Spur A</a>
+      <a href="#spur-b" data-go="spur-b">Bürovermerk als Spur B</a>
+      <a href="#schluss" data-go="schluss" id="schluss-link" hidden>Zum Schluss nach beiden Spuren</a>
+    </nav>
+  </section>
+
+  <section class="screen" id="spur-a" aria-labelledby="a-title">
+    <h2 id="a-title" tabindex="-1">Spur A · Elins Tagebuch</h2>
+    <p class="line"><strong>A1.</strong> „07:55 Uhr. Jonas ging schnell mit einer blauen Mappe zum Büro. Ich konnte nicht sehen, was darin lag.“</p>
+    <p class="line"><strong>A2.</strong> „08:00 Uhr. Die Gartenskizze ist weg. Ich ärgere mich, weil unsere Gruppe sie heute zeigen wollte. Vielleicht hat Jonas sie absichtlich weggenommen.“</p>
+    <nav class="links" aria-label="Von Spur A weiter">
+      <a href="#start" data-go="start">Zum Start zurück (dort andere Spur wählen)</a>
+    </nav>
+  </section>
+
+  <section class="screen" id="spur-b" aria-labelledby="b-title">
+    <h2 id="b-title" tabindex="-1">Spur B · Bürovermerk</h2>
+    <p class="line"><strong>B1.</strong> „07:50 Uhr: Zeichnung mit grossem Apfelbaum und blauem Rand im Büro abgegeben. Wer sie brachte, wurde nicht eingetragen. Schutzfolie vorgesehen.“</p>
+    <p class="line"><strong>B2.</strong> „08:25 Uhr: Schutzfolie noch nicht fertig. Zeichnung liegt weiterhin im Büro.“</p>
+    <nav class="links" aria-label="Von Spur B weiter">
+      <a href="#start" data-go="start">Zum Start zurück (dort andere Spur wählen)</a>
+    </nav>
+  </section>
+
+  <section class="screen" id="schluss" aria-labelledby="end-title">
+    <h2 id="end-title" tabindex="-1">Schluss</h2>
+    <p class="line"><strong>E1.</strong> Um 08:40 Uhr hängt die Zeichnung mit dem Apfelbaum wieder an der Pinnwand, jetzt unter einer durchsichtigen Folie. Auf einem Zettel steht nur: „Aus dem Büro zurück.“ Jonas sagt dazu nichts. Elin weiss noch immer nicht, wer sie abgenommen hat.</p>
+    <nav class="links" aria-label="Nach dem Schluss">
+      <a href="#start" data-go="start">Zum Start zurück (dort Spuren wählen)</a>
+    </nav>
+    <p class="note">Die vier Aufgaben und deine Antwortfelder findest du im Lernatlas. Auf Papier kannst du die Überschriften Start, Spur A, Spur B und Schluss als Wegmarken benutzen; das ist keine beobachtete digitale Navigation.</p>
+  </section>
+</main>
+<script>
+  (() => {
+    const sections = [...document.querySelectorAll('.screen')];
+    const visited = new Set();
+    const status = document.getElementById('status');
+    const endLink = document.getElementById('schluss-link');
+    function show(id) {
+      if (id === 'schluss' && !(visited.has('spur-a') && visited.has('spur-b'))) return;
+      if (id === 'spur-a' || id === 'spur-b') visited.add(id);
+      for (const section of sections) section.hidden = section.id !== id;
+      endLink.hidden = !(visited.has('spur-a') && visited.has('spur-b'));
+      status.textContent = id === 'start' ? `Du bist am Start. Geöffnete Spuren: ${visited.size} von 2.`
+        : id === 'schluss' ? 'Beide Spuren wurden geöffnet. Prüfe jetzt deine erste Deutung.'
+          : `${id === 'spur-a' ? 'Spur A' : 'Spur B'} geöffnet. Kehre danach zum Start zurück.`;
+      history.replaceState(null, '', `#${id}`);
+      document.getElementById(id).querySelector('h2').focus({ preventScroll: true });
+      window.scrollTo(0, 0);
+    }
+    for (const link of document.querySelectorAll('[data-go]')) link.addEventListener('click', event => {
+      event.preventDefault(); show(link.dataset.go);
+    });
+    show('start');
+  })();
+</script>
+</body>
+</html>

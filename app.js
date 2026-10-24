@@ -844,6 +844,7 @@
       if (topic.prerequisite) appendText(section, 'p', 'print-context', topic.prerequisite);
       appendText(section, 'p', 'print-context', topic.introduction);
       if (topic.passage) appendText(section, 'p', 'print-passage', topic.passage);
+      if (topic.printPassage) appendText(section, 'p', 'print-passage', topic.printPassage);
       if (topic.sourceCards) appendSourceCards(section, topic.sourceCards, true);
       if (topic.stagedReading && mode === 'adult') {
         appendText(section, 'p', 'print-passage', topic.stagedReading.text);

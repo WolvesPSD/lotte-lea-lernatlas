@@ -12026,6 +12026,118 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.1 PDF-S. 24, I1-SS2: im Team Daten verarbeiten und verantwortlich damit umgehen; Zielmarke Klassenstufe 8. Keine schulische Klasse-7-Themenfolge belegt.",
         "checkedAt": "2026-10-23"
       }
+    },
+    {
+      "id": "de-zwei-spuren-leseweg",
+      "subjectId": "de",
+      "title": "Zwei Spuren zur verschwundenen Zeichnung",
+      "scope": "Freiwilliger, gestützter Klasse-7-Einstieg in literarisches Lesen und Navigation digitaler Texte im 7/8-Rahmen. Die Ziele sind bis Ende Klasse 8 markiert; keine bestätigte aktuelle Schuleinheit.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Alle Personen und Ereignisse sind erfunden. Öffne den Leseweg zuerst in einem neuen Tab, wähle beide Spuren und kehre dann zu den Antwortfeldern zurück. Die App bewertet deine offenen Begründungen nicht automatisch und kann aus einem geschriebenen Leseweg keine tatsächlichen Linkklicks beweisen.",
+      "introduction": "Die kurze erfundene Geschichte hat einen Start, zwei unterschiedlich geformte Spuren und einen Schluss. Du kannst Spur A oder B zuerst lesen. Kehre dazwischen zum Start zurück und lies den Schluss erst nach beiden Wegen. Achte auf die unterschiedlichen Angaben in Tagebuch und Bürovermerk und begründe deine Schlüsse mit Stellenkennungen. A–D ergeben 20 Lernpunkte. Eine neue Quelle erscheint erst nach diesen Antworten und zählt sechs getrennte Zusatzpunkte. Keine Ganzschrift und keine Schulnote.",
+      "lab": {
+        "title": "Zwei Spuren lesen",
+        "description": "Der interne Leseweg öffnet sich in einem neuen Tab. Wähle A oder B zuerst, kehre zum Start zurück und öffne die andere Spur. Der Schluss wird erst danach freigegeben. Ohne Skript sind die Abschnitte als fortlaufender Text erreichbar.",
+        "path": "assets/de-zwei-spuren.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-zwei-spuren.html",
+        "printNote": "Die fiktive Geschichte steht mit Start, Spur A, Spur B und Schluss auf diesem Arbeitsblatt. Auf Papier die Überschriften als Wegmarken nutzen; das beweist keine digitale Linkbedienung.",
+        "scoredInteraction": false
+      },
+      "printPassage": "FIKTIVE GESCHICHTE · Lies zuerst Start, dann beide Spuren in selbst gewählter Reihenfolge und zuletzt Schluss.\n\nSTART\nS1 · Am Montag um 08:00 Uhr fehlt die Zeichnung des geplanten Schulgartens an der Pinnwand. Am Freitag hing dort noch ein Blatt mit einem grossen Apfelbaum.\nS2 · Elin sagt: „Um 07:55 Uhr sah ich Jonas mit einer blauen Mappe in Richtung Schulbüro gehen. Bestimmt hat er die Zeichnung versteckt.“ Sie hat nicht gesehen, wer das Blatt von der Pinnwand nahm.\n\nSPUR A · ELINS TAGEBUCH\nA1 · „07:55 Uhr. Jonas ging schnell mit einer blauen Mappe zum Büro. Ich konnte nicht sehen, was darin lag.“\nA2 · „08:00 Uhr. Die Gartenskizze ist weg. Ich ärgere mich, weil unsere Gruppe sie heute zeigen wollte. Vielleicht hat Jonas sie absichtlich weggenommen.“\n\nSPUR B · BÜROVERMERK\nB1 · „07:50 Uhr: Zeichnung mit grossem Apfelbaum und blauem Rand im Büro abgegeben. Wer sie brachte, wurde nicht eingetragen. Schutzfolie vorgesehen.“\nB2 · „08:25 Uhr: Schutzfolie noch nicht fertig. Zeichnung liegt weiterhin im Büro.“\n\nSCHLUSS\nE1 · Um 08:40 Uhr hängt die Zeichnung mit dem Apfelbaum wieder an der Pinnwand, jetzt unter einer durchsichtigen Folie. Auf einem Zettel steht nur: „Aus dem Büro zurück.“ Jonas sagt dazu nichts. Elin weiss noch immer nicht, wer sie abgenommen hat.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGE NEUE QUELLE NACH A–D · Ein unterschriebener Büroeintrag taucht auf: „07:45 Uhr: Ich, Frau Kern, nahm die Gartenskizze von der Pinnwand, weil am offenen Fenster Regen auf das Blatt tropfte. Um 07:50 Uhr gab ich sie im Büro ab.“ Für diese Zusatzaufgabe darfst du annehmen, dass der Eintrag echt und zeitlich richtig ist."
+      },
+      "tasks": [
+        {
+          "id": "de-zweispuren-1",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "A · Deinen Leseweg belegen (5 Hauptpunkte): Notiere die Reihenfolge, in der du die beiden Spuren geöffnet oder auf Papier gesucht hast. Nenne aus jeder Spur eine Information, die die andere nicht enthält. Gib die Kennung der Stelle an, an der Elins Verdacht als Vermutung erscheint. Wenn du digital liest, kann eine erwachsene Person auf Wunsch nur die Sprünge beobachten; deine schriftliche Angabe allein beweist keinen Klick.",
+          "sample": "Start → Spur A → Start → Spur B → Schluss oder die umgekehrte Reihenfolge. A1: Elin konnte nicht sehen, was in der Mappe lag. B1: Die passende Zeichnung wurde um 07:50 Uhr im Büro abgegeben; die bringende Person blieb ungenannt. A2 oder S2 zeigt Elins Vermutung. Keine Reihenfolge wird bevorzugt.",
+          "criteria": [
+            "1 Punkt für eine klar genannte erste Spur mit Rückkehr zum Start.",
+            "1 Punkt für eine klar genannte zweite, andere Spur vor dem Schluss; schriftlicher Weg ist kein beobachteter Klick.",
+            "1 Punkt für eine passende A-Information mit A1/A2.",
+            "1 Punkt für eine passende B-Information mit B1/B2.",
+            "1 Punkt für A2 oder S2 als gekennzeichnete Vermutung."
+          ]
+        },
+        {
+          "id": "de-zweispuren-2",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 12,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "B · Zeitfolge und Beleggrenze (5 Hauptpunkte): Ordne 07:50, 07:55, 08:00, 08:25 und 08:40 Uhr den fünf berichteten Ereignissen zu. Was belegt B1 über die Zeichnung, und welche wichtige Personenfrage beantwortet der Eintrag nicht?",
+          "sample": "07:50 B1: passende Zeichnung im Büro abgegeben. 07:55 S2/A1: Elin sieht Jonas mit Mappe zum Büro gehen. 08:00 S1/A2: Zeichnung fehlt an der Pinnwand. 08:25 B2: Sie liegt noch im Büro; Folie nicht fertig. 08:40 E1: Zeichnung hängt unter Folie wieder am Brett. B1 belegt den Aufenthaltsort spätestens 07:50 Uhr, nennt aber weder die bringende noch die abnehmende Person.",
+          "criteria": [
+            "Für fünf richtige Zeit-Ereignis-Zuordnungen 3 Punkte, für vier 2, für drei 1, für null bis zwei 0. Ein Tausch macht zwei Zuordnungen falsch.",
+            "1 Punkt: B1 belegt Ort/Abgabe der passenden Zeichnung spätestens 07:50 Uhr.",
+            "1 Punkt: B1 nennt die bringende oder abnehmende Person nicht; Jonas nicht aus B1 erfinden."
+          ]
+        },
+        {
+          "id": "de-zweispuren-3",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 14,
+          "inputRows": 13,
+          "adultOnlySolution": true,
+          "prompt": "C · Beobachtung oder Motivdeutung? (6 Hauptpunkte): Prüfe Elins Satz „Bestimmt hat Jonas die Zeichnung versteckt.“ Nenne zwei wichtige beobachtete oder dokumentierte Tatsachen. Erkläre, weshalb daraus weder Jonas’ Handlung noch sein Motiv sicher folgt. Formuliere zwei verschiedene Erklärungen, die mit allen Spuren vereinbar sind, ausdrücklich als Möglichkeiten.",
+          "sample": "Elin sah Jonas um 07:55 Uhr mit einer blauen Mappe (S2/A1); die passende Zeichnung lag bereits um 07:50 Uhr im Büro (B1). Niemand sah Jonas beim Abnehmen. Die Mappe zeigt ihren Inhalt und ein Versteckmotiv nicht. Möglich ist, dass jemand anderes das Blatt zum Schutz ins Büro brachte und Jonas eine andere Mappe hatte. Möglich ist auch eine frühere Beteiligung von Jonas vor 07:50 Uhr ohne Versteckabsicht; seine Beobachtung um 07:55 belegt diese Beteiligung nicht.",
+          "criteria": [
+            "Je 1 Punkt für zwei verschiedene passende Tatsachen mit Quellenkennung.",
+            "1 Punkt: Niemand sah Jonas beim Abnehmen.",
+            "1 Punkt: Aus Mappe und Gang folgt keine sichere Absicht des Versteckens.",
+            "Je 1 Punkt für zwei verschiedene, ausdrücklich hypothetische und zeitlich vereinbare Erklärungen; eine Beteiligung von Jonas an B1 müsste vor 07:50 Uhr liegen."
+          ]
+        },
+        {
+          "id": "de-zweispuren-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 12,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "D · Wirkung des Lesewegs (4 Hauptpunkte): Wie könnte sich der erste Eindruck unterscheiden, wenn jemand A zuerst und jemand anderes B zuerst liest? Begründe an je einem Gestaltungsmittel: persönliches Tagebuch und knapper datierter Bürovermerk. Was ändert die zweite Spur an einer vorschnellen Deutung? Andere textgestützte Eindrücke sind erlaubt.",
+          "sample": "A zuerst kann Elins Ärger und Verdacht zunächst nahelegen; B zuerst kann durch die frühere 07:50-Angabe zur Vorsicht führen. Das Tagebuch zeigt eine Ich-Sicht mit Gefühl, aber begrenztem Wissen. Der knappe datierte Bürovermerk belegt einen Aufenthalt, lässt jedoch die Person leer. Die zweite Spur begrenzt eine vorschnelle Schuld- oder Motivdeutung; sie nennt weiterhin nicht sicher die abnehmende Person.",
+          "criteria": [
+            "1 Punkt für zwei plausible, textgebundene erste Eindrücke zusammen.",
+            "1 Punkt für die Wirkung von Tagebuch/Ich-Sicht.",
+            "1 Punkt für die Wirkung des knappen, datierten Bürovermerks.",
+            "1 Punkt für die nachvollziehbare Revision oder Begrenzung nach der zweiten Spur. Keine objektiv vorgeschriebene Erstreaktion."
+          ]
+        },
+        {
+          "id": "de-zweispuren-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 12,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige neue Quelle · sechs getrennte Zusatzpunkte: Ergänze die Zeitfolge um Frau Kerns Vorgang und nenne die Quelle. Wie verändert ihr Eintrag die Behauptung, Jonas habe die Zeichnung von der Pinnwand genommen? Nenne zwei Dinge über Jonas oder seine blaue Mappe, die auch danach unbekannt bleiben.",
+          "sample": "Laut unterschriebenem Eintrag nahm Frau Kern die Zeichnung um 07:45 Uhr wegen Regen von der Pinnwand und gab sie 07:50 Uhr im Büro ab. Unter der Annahme der Echtheit widerspricht das für diese Wegnahme der These, Jonas habe sie abgenommen; die 07:55-Beobachtung ist später. Unbekannt bleiben Inhalt der blauen Mappe und warum Jonas zum Büro ging oder ob er später bei der Folie half.",
+          "criteria": [
+            "1 Zusatzpunkt für Frau Kerns Abnehmen um 07:45 Uhr, 1 für den unterschriebenen Büroeintrag als Quelle.",
+            "1 Zusatzpunkt für den Widerspruch zur behaupteten Wegnahme durch Jonas, 1 für die zeitliche Begründung 07:45 vor 07:55.",
+            "Je 1 Zusatzpunkt für zwei unterschiedliche verbleibende Unbekannte zu Jonas/Mappe. Zusatzpunkte getrennt werten."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Deutsch Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.2 PDF-S. 26–27: Figurenhandlungen und -motive, Textgestaltung und Navigationsstrukturen digitaler Texte bis Ende Klasse 8. Keine feste Klasse-7-Unterrichtsfolge.",
+        "checkedAt": "2026-10-24"
+      }
     }
   ]
 });

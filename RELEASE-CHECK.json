@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-25T11:08:50.868Z",
-  "releaseVersion": "2026.10.25-splauf.1",
+  "builtAt": "2026-10-25T11:34:40.640Z",
+  "releaseVersion": "2026.10.25-m6umfragen.1",
   "newTopicIds": [
-    "sp-b1-s01-laufmomente"
+    "ma-m6-wahlumfragen"
   ],
   "changeLog": [
-    "Sport 2026 B1-S01: freiwilliger 7/8-Papierteilfall zur Beschreibung von zwei erfundenen Laufmomenten. Eigene Skizze mit Textzugang, 20 Haupt- und sechs getrennte B2-Zusatzpunkte.",
-    "179 Themen und 813 Aufgaben; keine echte Lauf-, Sicherheits- oder Sportleistungsprüfung. Springen, Werfen/Stoßen, Schulfolge und gesamte Jahresabdeckung bleiben offen."
+    "Mathematik M6: freiwilliger Ende-8-Teilfall zu zwei vollständig erfundenen Wahlumfragen. Auswahlweg, Bezugsmenge, Nichtantworten und Prozentpunkte mit 20 Haupt- plus sechs getrennten Transferpunkten.",
+    "180 Themen und 818 reguläre Aufgaben. Keine echte Wahl, Befragung, Kinderleistung oder bestätigte Klasse-7-Unterrichtsfolge; keine Jahresvollabdeckung."
   ],
-  "rollbackCommit": "55362acac5f9c8b1488a553ee6d17ba89216a20c",
+  "rollbackCommit": "e8902f9feeaa7dbd18aea8ebbd4b89e7db7e338a",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -29,6 +29,7 @@
     "mbi-datei-quellen-bruecke",
     "mbi-festbezug-karten",
     "de-woerter-umfrage",
+    "ma-m6-wahlumfragen",
     "ma-fermat-pascal-quellenwerkstatt",
     "de-tauschregal-eroerterung",
     "en-art-display-report",

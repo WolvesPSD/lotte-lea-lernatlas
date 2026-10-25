@@ -2140,6 +2140,111 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-m6-wahlumfragen",
+      "subjectId": "ma",
+      "title": "Wer liegt vorn? Zwei erfundene Umfragen prüfen",
+      "scope": "Freiwilliger Klasse-7-Vorgriff auf den M6-Querschnitt Wahlprognosen und Umfragen am Ende von Klasse 8. Keine aktuelle Schulwahl oder echte Wahlprognose.",
+      "levelStatus": "grade8-outlook",
+      "levelLabel": "Ende Klasse 8 · freiwilliger Vorgriff",
+      "released": true,
+      "prerequisite": "Hilfreich sind Prozentrechnung, Brüche und Prozentpunkte. Alle Namen, Zahlen, Karten und der Sternufer-Klub sind erfunden. Niemand muss abstimmen oder persönliche Angaben machen. Papier für Rechenwege ist sinnvoll. Die App kann offene Antworten nicht automatisch bewerten; 20 Haupt- und sechs getrennte Zusatzpunkte dienen nur als Lernfeedback.",
+      "introduction": "Die beiden Karten handeln von derselben erfundenen Klubwahl, stammen aber von verschiedenen Tagen und wurden auf unterschiedliche Weise erhoben. Rechne zuerst mit den jeweils Antwortenden; aus ihren Antworten folgt kein sicheres Wahlergebnis. A–D haben 20 Kriterienpunkte. Erst danach erscheint eine neue Karte für sechs freiwillige Zusatzpunkte. Kriterienpunkte sind keine Schulnote.",
+      "passage": "FIKTIVE WAHL IM STERNUFER-KLUB · In drei Tagen wählen 1 200 stimmberechtigte Mitglieder zwischen Sam und Leila. Beide Karten behaupten, dieselbe Frage zu stellen: „Wen würdest du heute für den Klubrat wählen?“\n\nKARTE A · Fünf Tage vor der Wahl stellte eine Fan-Seite von Sam die Frage als offenen Link ins Internet. Wer den Link sah, konnte freiwillig klicken. Es gab keine Liste eingeladener Personen und niemand weiss, wie oft der Link angezeigt wurde. Unter 700 Antworten standen 63 % für Sam und 37 % für Leila.\n\nKARTE B · Zwei Tage vor der Wahl zog eine unabhängige Übungsstelle zufällig 160 Namen aus der vollständigen Mitgliederliste und lud diese Personen ein. 120 antworteten: 65 für Sam und 55 für Leila. 40 Eingeladene antworteten nicht. Eine Fehlerspanne ist nicht angegeben.\n\n„Antwortende“ bedeutet nicht automatisch „alle Wahlberechtigten“. Alle Angaben sind erfunden.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und neue Umfragekarte zeigen",
+        "text": "FREIWILLIGE NEUE KARTE NACH A–D · Zwei Tage nach Karte B zieht die Übungsstelle eine neue Zufallsauswahl von 100 Mitgliedern aus derselben vollständigen Liste. 80 antworten: 43 für Sam und 37 für Leila. Auch diese Karte ist vollständig erfunden und zeigt kein Wahlergebnis. Die sechs Zusatzpunkte zählen getrennt."
+      },
+      "tasks": [
+        {
+          "id": "ma-m6-wahlumfragen-a",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 14,
+          "inputRows": 13,
+          "adultOnlySolution": true,
+          "prompt": "A · Anteile und Bezugsmenge (8 Hauptpunkte): 1. Wie viele der 700 Antwortenden wählten in Karte A Sam und Leila? 2. Berechne für Karte B beide Anteile unter den 120 Antwortenden in Prozent, auf eine Nachkommastelle. 3. Welcher Anteil der 160 Eingeladenen antwortete, und wie viele antworteten nicht? Nenne die passenden Nenner. 4. Wie viele Prozentpunkte trennen die beiden Sam-Anteile? Runde auf eine Nachkommastelle und zeige deine Rechenwege.",
+          "sample": "A: 0,63 × 700 = 441 für Sam und 0,37 × 700 = 259 für Leila. B: 65/120 ≈ 54,2 % Sam und 55/120 ≈ 45,8 % Leila. 120/160 = 75 % antworteten, 40 von 160 nicht. Die Sam-Anteile unterscheiden sich um 63,0 − 54,166… ≈ 8,8 Prozentpunkte. Die Prozentwerte beziehen sich auf die Antwortenden der jeweiligen Karte.",
+          "criteria": [
+            "2 Punkte: 441 und 259 mit Bezugsmenge 700 (je 1).",
+            "2 Punkte: beide B-Anteile mit Nenner 120 und passender Rundung.",
+            "2 Punkte: 75 % und 40 Nichtantworten mit Nenner 160.",
+            "2 Punkte: 8,8 Prozentpunkte mit richtiger Richtung und Unterscheidung von Prozent."
+          ]
+        },
+        {
+          "id": "ma-m6-wahlumfragen-b",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Wer wurde erreicht? (6 Hauptpunkte): Welcher Karte würdest du für eine Aussage über alle 1 200 stimmberechtigten Mitglieder eher vertrauen? Begründe mit dem Auswahlweg. Nenne eine wichtige Unsicherheit, die auch bei Karte B bleibt. Warum ist „700 Antworten sind mehr als 120, also ist Karte A sicher besser“ kein ausreichender Schluss?",
+          "sample": "B ist der bessere Ausgangspunkt: Die Namen wurden zufällig aus der vollständigen Mitgliederliste gezogen. A sammelte freiwillige Klicks über eine Fan-Seite; viele Mitglieder konnten den Link übersehen. Aber 40 der 160 bei B Eingeladenen antworteten nicht, und ihre Ansichten sind unbekannt. Die grössere Zahl von A beseitigt die Auswahlverzerrung nicht. Auch B beweist keine Meinung aller Mitglieder.",
+          "criteria": [
+            "2 Punkte: Zielgruppe und vollständige Auswahlliste von B erkannt.",
+            "2 Punkte: freiwillige Selbstselektion und eingeschränkter Zugang bei A beschrieben.",
+            "1 Punkt: Nichtantworten bei B als verbleibende Unsicherheit.",
+            "1 Punkt: höhere Antwortzahl allein nicht als Qualitätsbeweis behandelt."
+          ]
+        },
+        {
+          "id": "ma-m6-wahlumfragen-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C · Schlagzeile prüfen (4 Hauptpunkte): Ein erfundenes Klubblatt schreibt „Sam gewinnt sicher: beide Umfragen beweisen eine Mehrheit.“ Formuliere eine sachlich genaue neue Schlagzeile oder zwei Sätze. Berichte nur, was die Karten tatsächlich zeigen, und nenne eine Grenze der Schlussfolgerung.",
+          "sample": "Unter den 700 freiwillig Antwortenden von A wählten 63 % Sam. In B waren es 65 von 120 Antwortenden, etwa 54,2 %. Die Karten haben unterschiedliche Auswahlwege und Tage; keine zeigt das spätere Wahlergebnis. Eine knappe andere sachlich genaue Formulierung zählt ebenfalls.",
+          "criteria": [
+            "2 Punkte: beide Karten mit richtiger Bezugsmenge der Antwortenden eingegrenzt.",
+            "1 Punkt: den sicheren Sieg oder ein bereits feststehendes Wahlergebnis zurückgewiesen.",
+            "1 Punkt: eine konkrete Grenze durch Auswahl, Nichtantworten, Zeitpunkt oder fehlende Fehlerspanne erklärt."
+          ]
+        },
+        {
+          "id": "ma-m6-wahlumfragen-d",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "D · Was fehlt? (2 Hauptpunkte): Nenne zwei weitere Angaben, die du für einen sorgfältigen Vergleich wissen möchtest, und erkläre jeweils kurz ihren Nutzen. Beispiele für mögliche Richtungen sind genaue Befragungszeit, Fragewortlaut, Auftraggeber, Auswahlweg oder Umgang mit Nichtantworten.",
+          "sample": "Der genaue Wortlaut und die Antwortmöglichkeiten zeigen, ob beide Karten wirklich dasselbe fragten. Die Feldzeiten zeigen, wann die Antworten erhoben wurden. Andere zwei verschieden begründete Angaben zählen; für A darf keine gewöhnliche Fehlerspanne aus Zufallsauswahl erfunden werden.",
+          "criteria": [
+            "1 Punkt: erste passende zusätzliche Angabe mit erkennbarer Bedeutung.",
+            "1 Punkt: zweite andere passende Angabe mit erkennbarer Bedeutung."
+          ]
+        },
+        {
+          "id": "ma-m6-wahlumfragen-e",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer nach A–D (sechs getrennte Zusatzpunkte): Nutze die erst danach gezeigte neue Karte. Berechne beide Anteile unter den 80 Antwortenden und den Antwortanteil unter den 100 Eingeladenen. Wie viele Prozentpunkte trennen Sams Anteil in Karte B und in der neuen Karte? Beweist das eine tatsächliche Änderung seiner Unterstützung? Begründe mit einer Datengrenze.",
+          "sample": "Neue Karte: Sam 43/80 = 53,75 % ≈ 53,8 %, Leila 37/80 = 46,25 % ≈ 46,3 %. 80/100 = 80 % antworteten, 20 nicht. Gegen B: 54,166… − 53,75 = 0,416… ≈ 0,4 Prozentpunkte weniger. Das beweist keine echte Veränderung; Stichproben und Nichtantworten können verschieden ausfallen.",
+          "criteria": [
+            "2 Zusatzpunkte: beide Anteile unter den 80 Antwortenden.",
+            "1 Zusatzpunkt: Antwortquote oder 20 Nichtantworten aus 100.",
+            "1 Zusatzpunkt: 0,4 Prozentpunkte mit Richtung.",
+            "1 Zusatzpunkt: Nichtantworten oder Stichprobenunsicherheit als Grenze.",
+            "1 Zusatzpunkt: keine reale Änderung oder Wahl als bewiesen ausgegeben."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "Mathematik-Erprobungsfassung 2026, PDF-S. 2 und §2.2.6/PDF-S. 28: M6-Zielmarke Ende Klasse 8; DB-Querschnitt Wahlprognosen und Umfragen analysieren und interpretieren. Hier nur ein fiktiver schriftlicher Teilfall.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "ma-fermat-pascal-quellenwerkstatt",
       "subjectId": "ma",
       "title": "Wer teilt den Einsatz gerecht?",

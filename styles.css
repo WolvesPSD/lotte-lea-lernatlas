@@ -94,12 +94,14 @@ body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body
 @media(max-width:740px){
   .site-header{padding:.7rem 1rem;display:grid;grid-template-columns:1fr auto;align-items:center;gap:.45rem}
   .brand{font-size:1rem}.brand-mark{width:2.3rem;height:2.3rem}
-  .adult-entry{display:block;background:transparent;color:var(--petrol);border:1px solid var(--line);border-radius:.6rem;padding:.35rem .5rem;font-size:.75rem;font-weight:700;min-height:36px}
+  .adult-entry{display:block;background:var(--petrol);color:#fff;border:1px solid var(--petrol);border-radius:.65rem;padding:.5rem .7rem;font-size:.82rem;font-weight:750;min-height:44px;box-shadow:0 2px 7px #123f4626}
   .header-context{margin:0;gap:.4rem;grid-column:1/-1}.profile-chip,.device-chip{font-size:.72rem;min-height:30px;padding:.25rem .52rem}.device-chip{width:auto;justify-content:center;border:0;padding-left:0}
-  .site-header nav{position:fixed;bottom:0;left:0;right:0;margin:0;padding:.35rem max(.3rem,env(safe-area-inset-left)) max(.35rem,env(safe-area-inset-bottom));background:#fffdf9;border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;overflow:visible;box-shadow:0 -5px 22px #17262612}
-  .site-header nav button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.05rem;min-height:54px;padding:.2rem .1rem;font-size:.72rem;line-height:1.1;white-space:normal}
+  .site-header nav{position:fixed;bottom:0;left:0;right:0;margin:0;padding:.35rem max(.3rem,env(safe-area-inset-left)) max(.35rem,env(safe-area-inset-bottom));background:#fffdf9;border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;overflow:visible;box-shadow:0 -5px 22px #17262612}
+  .site-header nav button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.05rem;min-height:54px;padding:.2rem .05rem;font-size:clamp(.64rem,2.8vw,.72rem);line-height:1.1;white-space:nowrap}
   .site-header nav button>span{font-size:1.35rem;margin:0}
-  .site-header nav button[data-nav=adult]{display:none}
+  .site-header nav button svg{display:block;width:1.35rem;height:1.35rem}
+  .site-header nav button[data-nav=adult]{background:#e7f2ed;color:var(--petrol);font-weight:750;border:1px solid #aac8be;border-radius:.6rem}
+  .site-header nav button[data-nav=adult][aria-current=page]{background:var(--petrol);color:#fff}
   main{padding-bottom:7rem}
   footer{padding-bottom:5.5rem}
   .hero{padding:1.6rem}

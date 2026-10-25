@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-25T02:55:54.553Z",
-  "releaseVersion": "2026.10.25-m13komplemente.1",
-  "newTopicIds": [
-    "ma-verknuepfte-komplemente"
-  ],
+  "builtAt": "2026-10-25T03:04:58.024Z",
+  "releaseVersion": "2026.10.25-adultnav.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Neues freiwilliges Mathematikthema zu verknüpften Gegenereignissen: vier Hauptaufgaben und ein späterer Transfer im erfundenen 36-Ergebnisse-Modell. Der Jahrgangsbezug ist ausdrücklich Klasse 8 ab 2027/28; eine aktuelle Klasse-7-Einheit ist nicht belegt.",
-    "Die vorhandenen 157 Themen, sieben Hörhilfen und der sichtbare Rückmeldungszugang bleiben erhalten. Das Paket enthält weder private Lernstände noch reale Zufallsdaten."
+    "Der Erwachsenenbereich ist auf dem Handy jetzt als deutlich markierter fünfter Punkt in der festen unteren Navigation erreichbar. Der obere Zugang ist ebenfalls kontrastreich und gross genug zum Antippen.",
+    "Alle 158 Themen mit 708 Aufgaben, sieben Hörhilfen, Kinder- und Erwachsenendruck sowie die Rückmeldung bleiben unverändert. Es werden keine privaten Lernstände veröffentlicht."
   ],
-  "rollbackCommit": "977d8daa7458d668a3daba259ed9600201dc50a7",
+  "rollbackCommit": "9c7e676f55e44f37c0d20deb1f1dedd4a40ae1ab",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",

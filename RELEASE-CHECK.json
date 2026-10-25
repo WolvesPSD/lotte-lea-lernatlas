@@ -1,12 +1,14 @@
 {
-  "builtAt": "2026-10-25T10:47:04.980Z",
-  "releaseVersion": "2026.10.25-sportplan2026.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Quellenkorrektur: Thüringer Sportplan 2026 gilt in Klasse 7 ab 2026/27. Fachkonferenz wählt Inhalte und Sportspiele; der vorhandene Basketball-FIBA-Papierfall bleibt freiwillig und historisch aus Plan 2016 abgeleitet.",
-    "178 Themen und 808 Aufgaben unverändert; keine neue Sportleistung oder bestätigte Schulspielwahl."
+  "builtAt": "2026-10-25T11:08:50.868Z",
+  "releaseVersion": "2026.10.25-splauf.1",
+  "newTopicIds": [
+    "sp-b1-s01-laufmomente"
   ],
-  "rollbackCommit": "68b20aaf4f18b012465a3a7b635ca7b2b9c7ea7d",
+  "changeLog": [
+    "Sport 2026 B1-S01: freiwilliger 7/8-Papierteilfall zur Beschreibung von zwei erfundenen Laufmomenten. Eigene Skizze mit Textzugang, 20 Haupt- und sechs getrennte B2-Zusatzpunkte.",
+    "179 Themen und 813 Aufgaben; keine echte Lauf-, Sicherheits- oder Sportleistungsprüfung. Springen, Werfen/Stoßen, Schulfolge und gesamte Jahresabdeckung bleiben offen."
+  ],
+  "rollbackCommit": "55362acac5f9c8b1488a553ee6d17ba89216a20c",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -167,6 +169,7 @@
     "mnt-bionik-leichtbau-modell",
     "mu09-bass-triole-taktwechsel",
     "sp-basketball-regelkarte-papier",
+    "sp-b1-s01-laufmomente",
     "mnt-wasser-teilchenmodell",
     "mbi-tabellen-nutzen-lernen-beruf",
     "en-picture-description-garden",

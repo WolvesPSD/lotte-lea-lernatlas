@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 365" role="img" aria-labelledby="title desc">
+  <title id="title">Zwei erfundene Laufmomente A1 und A2 sowie ein einzelnes Bild B1</title>
+  <desc id="desc">Alle Figuren stehen schematisch in Laufrichtung nach rechts. In A1 und A2 erscheint der Rumpf aufrecht; der blaue markierte Arm steht zuerst vor, dann hinter dem Körper. B1 zeigt nur eine Armposition. Keine reale Bewegung oder Geschwindigkeit wird gemessen.</desc>
+  <rect width="620" height="365" fill="#fffdf9"/>
+  <style>
+    .panel{fill:#f5f8f7;stroke:#d7e2df;stroke-width:2}.label{font:700 20px system-ui,sans-serif;fill:#144f57}.small{font:16px system-ui,sans-serif;fill:#425c62}.body{fill:none;stroke:#24383c;stroke-width:9;stroke-linecap:round;stroke-linejoin:round}.front{fill:none;stroke:#0b6980;stroke-width:10;stroke-linecap:round}.other{fill:none;stroke:#ad6634;stroke-width:10;stroke-linecap:round}.ground{stroke:#879c9a;stroke-width:3}
+  </style>
+  <rect class="panel" x="14" y="20" width="188" height="280" rx="16"/>
+  <rect class="panel" x="216" y="20" width="188" height="280" rx="16"/>
+  <rect class="panel" x="418" y="20" width="188" height="280" rx="16"/>
+  <text class="label" x="32" y="54">A1 · zuerst</text>
+  <text class="label" x="234" y="54">A2 · danach</text>
+  <text class="label" x="436" y="54">B1 · Einzelbild</text>
+  <g transform="translate(94 0)">
+    <circle cx="0" cy="111" r="22" fill="#fff" stroke="#24383c" stroke-width="6"/><circle cx="9" cy="108" r="3" fill="#24383c"/>
+    <path class="body" d="M0 136 L0 215 M0 215 L-28 273 M0 215 L33 270"/>
+    <path class="front" d="M0 154 L38 180"/><path class="other" d="M0 154 L-29 184"/>
+  </g>
+  <g transform="translate(296 0)">
+    <circle cx="0" cy="111" r="22" fill="#fff" stroke="#24383c" stroke-width="6"/><circle cx="9" cy="108" r="3" fill="#24383c"/>
+    <path class="body" d="M0 136 L0 215 M0 215 L-34 270 M0 215 L28 273"/>
+    <path class="front" d="M0 154 L-29 184"/><path class="other" d="M0 154 L38 180"/>
+  </g>
+  <g transform="translate(498 0)">
+    <circle cx="0" cy="111" r="22" fill="#fff" stroke="#24383c" stroke-width="6"/><circle cx="9" cy="108" r="3" fill="#24383c"/>
+    <path class="body" d="M0 136 L0 215 M0 215 L-28 273 M0 215 L30 273"/>
+    <path class="front" d="M0 154 L17 208"/><path class="other" d="M0 154 L-17 208"/>
+  </g>
+  <path class="ground" d="M30 284 H186 M232 284 H388 M434 284 H590"/>
+  <text class="small" x="32" y="339">Blau = derselbe markierte Arm</text>
+  <text class="small" x="364" y="339">Laufrichtung nach rechts →</text>
+</svg>

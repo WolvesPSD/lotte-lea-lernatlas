@@ -15850,6 +15850,132 @@ window.LOTTE_CATALOG = Object.freeze({
       "levelLabel": "Freiwillig · Schulspielwahl offen"
     },
     {
+      "id": "sp-b1-s01-laufmomente",
+      "subjectId": "sp",
+      "title": "Zwei Laufmomente – was lässt sich beschreiben?",
+      "scope": "Freiwilliger 7/8-Papierteilfall zum gültigen Thüringer Sportplan 2026, B1-S01. Er behandelt nur Beschreibungen zum Laufen, nicht Springen oder Werfen/Stoßen und keine reale Bewegung. Die Unterrichtsfolge ist offen.",
+      "levelStatus": "grade78-flex",
+      "levelLabel": "Klasse 7/8 · Lauf-Teilfall, Unterrichtsfolge offen",
+      "released": true,
+      "prerequisite": "Beobachte nur die erfundene Skizze oder den gleichwertigen Textzugang. Du sollst nicht laufen, filmen, Zeiten messen oder persönliche Gesundheits- und Leistungsdaten eingeben. Die Zeichnungen beweisen keine tatsächliche Technik oder Sportleistung. Offene Antworten brauchen menschliche Rückmeldung; 20 Haupt- und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Sportnote.",
+      "introduction": "A1 und A2 sind zwei nacheinander gezeichnete Augenblicke desselben erfundenen Laufs; B1 zeigt nur einen Augenblick eines anderen erfundenen Laufs. Auf schmalen Bildschirmen die Skizze seitlich verschieben, um B1 zu sehen; die Bildbeschreibung als Text ist gleichwertig. Alle Figuren blicken nach rechts, der Pfeil zeigt die angenommene Laufrichtung. Der blaue Arm ist jeweils derselbe markierte Arm. Formen und Abstände sind nicht maßstabsgetreu. Beschreibe Beobachtung und Deutung getrennt: Momentbilder zeigen keine durchgehende Bewegung. Nutzt du den Textzugang, nenne ihn als Grundlage und behaupte keine eigene Bildbeobachtung.",
+      "diagram": {
+        "path": "assets/sp-b1-s01-laufmomente.svg",
+        "alt": "Drei erfundene Laufskizzen A1, A2 und B1; alle nach rechts. Der blaue Arm steht in A1 vor, in A2 hinter und in B1 näher am Körper. Nur A1 und A2 gehören zum selben gedachten Lauf.",
+        "caption": "Eigene schematische Skizze. A1 und A2 zeigen zwei Momente, B1 nur einen. Auf dem Handy im Bild nach links wischen, um B1 zu sehen; alternativ die Bildbeschreibung als Text öffnen. Keine Aufnahme einer Person und kein Maßstab.",
+        "textAlternative": "Alle drei Seitenansichten zeigen aufrechten Kopf und Rumpf, ein nach rechts gerichtetes Auge und angenommene Laufrichtung nach rechts. Der markierte blaue Arm steht in A1 vor dem Körper und in A2 hinter dem Körper; der orange Arm ist jeweils gegengleich gezeichnet. B1 zeigt den blauen Arm nur in einem Bild näher am Körper. Von B gibt es zunächst keinen zweiten Moment."
+      },
+      "sourceCards": [
+        {
+          "title": "Offizielle Laufkarte · World Athletics Kids Athletics",
+          "text": "Die Karte „60m Sprint“ nennt für Level 3 (12–14 Jahre) drei Hinweise: aufrecht laufen, nach vorn blicken und die Arme aktiv bewegen. Das ist ein Beispiel zum Laufen. Es sagt nichts über eure Schuldisziplin oder eine reale Person aus.",
+          "sourceLabel": "World Athletics · 60m Sprint",
+          "sourceUrl": "https://worldathletics.org/kids-athletics/teaching-athletics/60m-sprint",
+          "sourceNote": "Original-HTML am 25.10.2026 direkt gelesen; deutsche Hinweise knapp übertragen. Die Zeichnung ist selbst erstellt."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und B2-Textkarte zeigen",
+        "text": "FREIWILLIGE ZUSATZKARTE B2 NACH A–D · In einem zweiten gedachten B-Moment ist derselbe blaue Arm vor dem Körper; in B1 war er näher am Körper. Kopf und Rumpf wirken in beiden B-Momenten weiter aufrecht. Es gibt kein zweites Bild, nur diese Textangabe. Beschreibe die neue Angabe, ändere die Behauptung zur Armbewegung so weit wie nötig und nenne zwei Dinge, die B1+B2 über einen echten Lauf nicht beweisen."
+      },
+      "tasks": [
+        {
+          "id": "sp-b1-s01-1",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Beobachtung vor Urteil (5 Hauptpunkte): Beschreibe A1 und A2 in zwei bis vier Sätzen. Nenne Rumpf und Blick, die beiden Positionen des blauen Arms und die zeitliche Reihenfolge. Beschreibe nur, was Bild oder Textzugang zeigen.",
+          "sample": "In A1 und A2 sind Kopf und Rumpf aufrecht gezeichnet, das Auge zeigt nach rechts. Zuerst ist der blaue Arm vor dem Körper, danach hinter ihm. Der orange Arm ist gegengleich dargestellt. Eine Bewegung zwischen den Bildern ist nicht sichtbar.",
+          "criteria": [
+            "1 Punkt für den gezeichneten aufrechten Rumpf.",
+            "1 Punkt für den nach rechts gerichteten Blick.",
+            "1 Punkt für die A1-Position des blauen Arms.",
+            "1 Punkt für die A2-Position des blauen Arms.",
+            "1 Punkt für die klare zeitliche Reihenfolge."
+          ]
+        },
+        {
+          "id": "sp-b1-s01-2",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Quelle mit A1/A2 abgleichen (5 Hauptpunkte): Prüfe alle drei Hinweise der World-Athletics-Karte. Welche zwei sind als gezeichnete Positionen zu erkennen? Welcher wird durch den Armwechsel angedeutet, aber nicht als durchgehende Bewegung bewiesen? Begründe die Grenze zweier Momentbilder.",
+          "sample": "Aufrechter Rumpf und Blick nach vorn sind als Positionen schematisch zu erkennen. Der blaue Arm wechselt zwischen A1 und A2 von vorn nach hinten; das deutet Aktivität an. Die Bilder beweisen aber weder, wie sich der Arm dazwischen bewegt, noch eine dauerhaft aktive Armführung.",
+          "criteria": [
+            "1 Punkt für den aufrechten Rumpf als Positionshinweis.",
+            "1 Punkt für den Blick nach vorn als Positionshinweis.",
+            "1 Punkt für den Wechsel des markierten Arms.",
+            "1 Punkt für eine vorsichtige Deutung statt Gewissheit über die Bewegung.",
+            "1 Punkt für die Grenze der zwei Momentbilder."
+          ]
+        },
+        {
+          "id": "sp-b1-s01-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Ein Bild ist keine Zeitreihe (5 Hauptpunkte): Vergleiche B1 mit A1/A2. Nenne zwei sichtbare Dinge an B1 und zwei Fragen, die B1 allein nicht beantwortet: eine zur Bewegung und eine zur Leistung. Erkläre, warum ein einzelnes Bild dafür nicht genügt.",
+          "sample": "B1 zeigt schematisch aufrechten Rumpf und Blick nach rechts; auch der blaue Arm ist nur in einer Position nahe am Körper sichtbar. B1 beantwortet weder, ob der Arm sich vor oder nach diesem Moment bewegt, noch wie schnell B läuft. Es fehlt eine Zeitfolge und es fehlen Messungen.",
+          "criteria": [
+            "2 Punkte für zwei zutreffende sichtbare Angaben.",
+            "1 Punkt für eine offene Bewegungsfrage.",
+            "1 Punkt für eine offene Leistungsfrage.",
+            "1 Punkt für die Begründung mit fehlender Zeitfolge beziehungsweise Messung."
+          ]
+        },
+        {
+          "id": "sp-b1-s01-4",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Faire Rückmeldung (5 Hauptpunkte): Eine erfundene Person sagt: „B läuft bestimmt langsamer und bewegt die Arme nie; das sieht man an B1.“ Antworte sachlich in zwei bis vier Sätzen. Nenne eine Beobachtung, die Grenzen von Tempo- und Nie-Behauptung und eine mögliche Beobachtung im ohnehin stattfindenden betreuten Unterricht. Fordere weder Zusatzlauf noch Video.",
+          "sample": "B1 zeigt nur eine Armposition und den nach rechts gerichteten Blick. Daraus kann man weder das Tempo noch ein dauerhaftes Stillhalten der Arme ableiten. Im regulären beaufsichtigten Unterricht könnte die Lehrkraft eine Bewegungsfolge nach ihren Kriterien beobachten; ein Zusatzlauf oder Video ist dafür nicht nötig.",
+          "criteria": [
+            "1 Punkt für eine konkrete B1-Beobachtung.",
+            "1 Punkt für die unbelegte Tempoaussage.",
+            "1 Punkt für die unbelegte Nie-Aussage.",
+            "1 Punkt für einen betreuten Unterrichts-Beobachtungsweg.",
+            "1 Punkt für sachliche Formulierung ohne Zusatzprobe oder personenbezogenes Urteil."
+          ]
+        },
+        {
+          "id": "sp-b1-s01-5",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige B2-Textkarte nach A–D · sechs getrennte Zusatzpunkte: Vergleiche die Position des blauen Arms in B1 und B2. Welche erste Behauptung musst du ändern? Nenne zwei verschiedene Dinge, die auch diese zwei gedachten Momente über einen echten Lauf nicht beweisen.",
+          "sample": "B1 nennt den Arm nahe am Körper, B2 vor dem Körper. Die gedachte Position wechselt, daher ist „bewegt die Arme nie“ für diese B-Karten nicht haltbar. Die Zwischenbewegung, das wirkliche Tempo und die Technik einer realen Person bleiben unbewiesen.",
+          "criteria": [
+            "1 Zusatzpunkt für die B1-Position.",
+            "1 Zusatzpunkt für die B2-Position.",
+            "1 Zusatzpunkt für den Positionswechsel.",
+            "1 Zusatzpunkt für die entsprechend revidierte Nie-Aussage.",
+            "1 Zusatzpunkt für eine verbleibende Beweisgrenze.",
+            "1 Zusatzpunkt für eine zweite, andere Beweisgrenze."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "Sport 2026 ab Klasse 7 im Schuljahr 2026/27",
+        "gradeBand": "7/8, freiwilliger Lauf-Teilfall",
+        "competencyRef": "Sport Gymnasium Erprobung 2026, B1-S01, PDF-S. 21/Drucks. 16: Bewegungsabläufe und Technikkriterien beim Laufen, Springen und Werfen/Stoßen beschreiben. Nur Laufen ist hier als Bild-/Textaufgabe angesprochen. World Athletics Kids Athletics 60m Sprint, Level 3 (12–14), liefert altersnahe ergänzende Beobachtungsanker, keine Thüringer Schulwahl.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "mnt-wasser-teilchenmodell",
       "subjectId": "mnt",
       "title": "Was zeigen drei Wassermodelle?",

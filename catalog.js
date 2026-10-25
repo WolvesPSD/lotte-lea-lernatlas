@@ -102,6 +102,103 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "en-library-update-audio",
+      "subjectId": "en",
+      "title": "Eine englische Mitteilung hören",
+      "scope": "Freiwillige Hörübung für Klasse 7/8, Englisch als erste Fremdsprache. Der Lehrplan gilt für Klasse 7 ab 2026/27, das Hörziel bis Ende Klasse 8; die aktuelle Schulfolge ist unbekannt. Die Aufnahme ist eine geprüfte technische Übungsfassung, keine bestätigte Kinderleistung.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Bevor du die Aufnahme zum ersten Mal abspielst, hört eine englischkundige erwachsene Person den Ton und gleicht die wichtigen Angaben mit der getrennten Lösung ab. Unklare Stellen werden nicht bewertet; dann gibt es keine volle 20-Punkte-Summe. Beginne ohne Wortliste. Eine unklare Wendung darfst du vor dem zweiten Hören erfragen oder nachschlagen; notiere die Hilfe. Pausen und ein dritter Hörgang sind erlaubt. Antworte auf Deutsch oder in verständlichem Englisch.",
+      "introduction": "Eine fiktive Person spricht eine kurze englische Mitteilung. Hör zuerst ganz zu und beantworte erst danach die Fragen. Beim zweiten Hören kannst du Notizen machen. Lies das Transkript in der Erwachsenenlösung erst nach deiner eigenen Hörbearbeitung. Wenn kein Ton verfügbar ist, ist dies höchstens eine Leseübung, kein Nachweis für Hörverstehen.",
+      "audio": {
+        "path": "assets/en-library-update-chatterbox-slow.wav",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/en-library-update-chatterbox-slow.wav",
+        "title": "Englische Mitteilung",
+        "childNote": "Erst abspielen, nachdem eine englischkundige erwachsene Person den ganzen Ton mit der getrennten Lösung abgeglichen hat. Höre einmal ganz, dann mit Notizen. Pausen und ein dritter Hörgang sind erlaubt; das Transkript bleibt hier verdeckt.",
+        "childPrintNote": "Vor dem ersten Kinder-Abspielen den Ton von einer englischkundigen erwachsenen Person mit der Lösung abgleichen lassen. Danach die Aufnahme in der App hören. Dieses Blatt enthält weder Ton noch Transkript.",
+        "adultNote": "Vor dem ersten Abspielen für das Kind den ganzen Ton hören und Alt-/Neu-Daten, Endzeit und Buchregel mit dem Transkript abgleichen. Unklare oder abweichende Angaben nicht bepunkten; keine volle 20-Punkte-Summe. Transkript erst nach dem Kinderhörversuch zeigen. Hörgänge/Hilfen notieren; vorab erklärtes „book swap“ bei A1 als Hilfe markieren. Ohne Ton nur Leseübung. Formativ, keine Schulnote.",
+        "transcript": "Ungefähre Zeitangaben aus lokalem Textabgleich, keine redaktionellen Wortgrenzen.\n0–3 s: Hello, this is Alex from the reading club.\n3–8 s: Our book swap was planned for Thursday at four o’clock in room twelve.\n8–12 s: That room is needed for a science meeting, so our plan has changed.\n12–16 s: We will meet on Friday at half past three in room eight.\n16–21 s: Bring a book if you want to swap, but you can come without one and listen to the short reading.\n21–24 s: The book swap will finish at quarter past four.\n24–28 s: Please tell your partner the new day, time, and room."
+      },
+      "tasks": [
+        {
+          "id": "en-library-audio-1",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 5,
+          "adultOnlySolution": true,
+          "prompt": "A. Hauptzweck (3 Kriterienpunkte): Was für eine Nachricht hörst du? Was ist die wichtigste Änderung? Was sollen die Zuhörenden danach tun? Antworte in höchstens drei kurzen Sätzen.",
+          "sample": "Der Reading Club informiert über einen Büchertausch. Sein Termin und Raum wurden geändert. Die Zuhörenden sollen der Partnerperson den neuen Tag, die Zeit und den Raum mitteilen.",
+          "criteria": [
+            "1 Punkt: Reading Club oder Büchertausch als Gegenstand erkannt.",
+            "1 Punkt: Eine Änderung von Termin und/oder Ort als Kern genannt.",
+            "1 Punkt: Die neuen Angaben sollen einer Partnerperson weitergegeben werden. Die Details müssen erst in B vollständig sein."
+          ]
+        },
+        {
+          "id": "en-library-audio-2",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 8,
+          "adultOnlySolution": true,
+          "prompt": "B. Angaben finden (8 Kriterienpunkte): Fülle alter Plan und neuer gültiger Plan jeweils mit Tag, Beginn und Raum. Ergänze Endzeit und ob ein eigenes Buch zwingend nötig ist.\nAlter Plan: Tag ___ | Beginn ___ | Raum ___\nNeuer Plan: Tag ___ | Beginn ___ | Raum ___\nEnde ___ | Eigenes Buch nötig? ___",
+          "sample": "Alter Plan: Donnerstag, 16:00 Uhr, Raum 12. Neuer Plan: Freitag, 15:30 Uhr, Raum 8. Ende: 16:15 Uhr. Ein eigenes Buch ist nicht zwingend nötig; ohne Buch kann man der kurzen Lesung zuhören.",
+          "criteria": [
+            "Je 1 Punkt für alten Tag Donnerstag, Beginn 16:00 und Raum 12 in der richtigen alten Spalte (3).",
+            "Je 1 Punkt für neuen Tag Freitag, Beginn 15:30 und Raum 8 in der richtigen neuen Spalte (3).",
+            "1 Punkt: Ende 16:15/quarter past four.",
+            "1 Punkt: Buch nicht zwingend, Zuhören ohne eigenes Buch möglich. Vertauschte Alt-/Neuwerte nicht als richtige Zuordnung werten."
+          ]
+        },
+        {
+          "id": "en-library-audio-3",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "adultOnlySolution": true,
+          "prompt": "C. Ursache und Grenze (3 Kriterienpunkte): Warum wurde der Plan geändert? Ein Kind behauptet, der neu genannte Raum werde für die andere Veranstaltung gebraucht. Stimmt das? Begründe mit einer gehörten Angabe. Was darfst du über den Ort dieser anderen Veranstaltung sicher sagen, und was bleibt offen?",
+          "sample": "Raum 12 war für den Büchertausch geplant und wird für ein Science Meeting gebraucht. Raum 8 ist der neue Raum des Büchertauschs, nicht der genannte Meetingraum. Raum 12 ist nach der Nachricht für das Meeting vorgesehen; ob das Meeting später wirklich dort stattfindet, sagt die Nachricht nicht.",
+          "criteria": [
+            "1 Punkt: Raum 12 wird für das Science Meeting benötigt; deshalb musste der Büchertausch umziehen.",
+            "1 Punkt: Raum 8 wird richtig als neuer Büchertauschraum erkannt, nicht als Meetingraum.",
+            "1 Punkt: Die Nachricht beansprucht Raum 12 für das Meeting; die tatsächliche spätere Durchführung bleibt offen. Keine zusätzlichen Meetingdetails erfinden."
+          ]
+        },
+        {
+          "id": "en-library-audio-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "adultOnlySolution": true,
+          "prompt": "D. Hörbelege und Unsicherheit (4 Kriterienpunkte): Nenne für zwei verschiedene Angaben aus B eine ungefähre Stelle im Clip (Anfang/Mitte/Ende oder Sekundenbereich). Erkläre, woran du alt und neu unterscheidest. Markiere eine direkte Toninformation und einen vorsichtigen eigenen Schluss; wenn der Ton keinen weiteren Schluss trägt, begründe gerade das.",
+          "sample": "Den alten Tag Donnerstag höre ich etwa bei 3–8 Sekunden; den neuen Raum 8 bei 12–16 Sekunden. „Was planned“ und „has changed / will meet“ unterscheiden alten Plan und neue Ankündigung. Direkt gehört: „Friday“ und „room eight“. Ich folgere: Die alte Raum-12-Planung gilt nicht mehr; die spätere tatsächliche Durchführung des Meetings ist nicht belegt.",
+          "criteria": [
+            "Je 1 Punkt für zwei passende ungefähre Tonstellen zu verschiedenen Angaben (2).",
+            "1 Punkt: Die hörbaren Änderungswörter oder ihre Bedeutung trennen alt und neu.",
+            "1 Punkt: Direkte Toninformation und ein als Schluss gekennzeichneter begrenzter Gedanke oder begründete Zurückhaltung werden unterschieden."
+          ]
+        },
+        {
+          "id": "en-library-audio-5",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "adultOnlySolution": true,
+          "prompt": "E. Änderung weitergeben (2 Kriterienpunkte): Schreibe einen kurzen Satz an eine fiktive Partnerperson mit neuem Tag, neuer Startzeit und neuem Raum. Englisch oder Deutsch ist möglich. Nenne die alte Zeit nicht als aktuellen Plan.",
+          "sample": "The book swap is on Friday at 3:30 in room 8. / Der Büchertausch ist am Freitag um 15:30 Uhr in Raum 8.",
+          "criteria": [
+            "1 Punkt: Freitag, 15:30 Uhr und Raum 8 als neue gültige Angaben.",
+            "1 Punkt: Verständlicher Satz ohne alte Angaben als aktuelle Planung. Kleine Sprachfehler ohne Bedeutungsverlust sind kein Hörfehler."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "Erste Fremdsprache § 2.2.1, PDF-S. 25–26: globales, selektives und genaueres Hörverstehen zu vertrauten Themen; Inkraftsetzung für Klasse 7 ab 2026/27 auf PDF-S. 2. Ziele bis Ende Klasse 8.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "en-w-word-gap-paraphrase",
       "subjectId": "en",
       "title": "Say it another way: a missing word",

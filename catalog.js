@@ -1446,6 +1446,132 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-datei-quellen-bruecke",
+      "subjectId": "mbi",
+      "title": "Zwei Dateien finden und einen Plan prüfen",
+      "scope": "Freiwillige Klasse-6-Wiederholung als Vorwissensbrücke für Klasse 7 zu Dateiverwaltung und Quellenprüfung. Die 2026er MBI-Fassung gilt für Lottes Klasse 7, aber diese Einzelziele sind darin als Klasse 6 markiert; kein belegter aktueller Klasse-7-Stoff und kein neuer I1–I6-Jahresbereich.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Für die praktische Dateiarbeit eignet sich ein PC mit einem einfachen Textprogramm. Alle Übungsdateien sind erfunden. Lege einen lokalen Übungsordner an; verwende keinen echten Namen, keine Fotos und keine privaten Dateien. Jemand darf dir die Ordnernavigation zeigen, soll die eigenen Schritte aber nicht als unbeobachtet richtig werten.",
+      "introduction": "Lade im Übungsraum die beiden erfundenen Textdateien A und B herunter. Lege auf deinem Gerät einen Übungsordner namens „mbi-datei-bruecke-2026“ an und speichere oder verschiebe beide Dateien dorthin. Öffne beide selbst in einem Textprogramm; ein Browserblick auf die Dateinamen reicht nicht. Lies den gedruckten Informationsstand im Text, nicht nur das Änderungsdatum des Geräts. Bearbeite danach die 12 Hauptpunkte und auf Wunsch die getrennte 6-Punkte-Zusatzfrage. Erstelle die eigene Notiz als lokale Datei und öffne sie nach dem Schließen wieder. Die App kann diese Schritte außerhalb des Browsers nicht beobachten; eine erwachsene Person hält nur tatsächlich gesehene Bedienung fest. Schreibe keine echten persönlichen Angaben.",
+      "lab": {
+        "path": "assets/mbi-datei-bruecke.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/mbi-datei-bruecke.html",
+        "title": "Übungsraum für zwei Textdateien",
+        "description": "Zwei rein fiktive .txt-Dateien lokal herunterladen; anschließend auf dem eigenen Gerät im Textprogramm öffnen, eine Notiz speichern und wiederfinden. Kein Upload.",
+        "printNote": "A und B als lokale Textdateien laden und im selbst angelegten Übungsordner bearbeiten. Der Ausdruck beweist keine Dateiöffnung oder Wiederöffnung der eigenen Notiz.",
+        "published": true,
+        "scoredInteraction": false
+      },
+      "tasks": [
+        {
+          "id": "mbi-datei-1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "Finden und öffnen (2 Hauptpunkte): Wie heißt dein Übungsordner, welche Endung haben beide Dateien und weshalb passt ein Textprogramm? Öffne A und B selbst; notiere, ob du bei der Ordnernavigation Hilfe hattest.",
+          "sample": "Der Übungsordner heißt mbi-datei-bruecke-2026. Beide Namen enden auf .txt; die Dateien enthalten einfachen Text und lassen sich im Textprogramm lesen. Ob A und B tatsächlich von Lotte geöffnet wurden und welche Hilfe nötig war, muss jemand beobachten; die App weiß es nicht.",
+          "criteria": [
+            "1 Punkt: Ordnername, .txt-Endung und passender Textprogrammzweck sachlich richtig.",
+            "1 Punkt nur bei tatsächlich beobachteter eigener Öffnung beider Dateien. Ohne Beobachtung „nicht erhoben“ statt 0; Hilfe getrennt vermerken."
+          ]
+        },
+        {
+          "id": "mbi-datei-2",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "Datei A (2 Hauptpunkte): Nenne Herausgeber, gedruckten Informationsstand, Status, Freitag-Uhrzeit und Sitzplatzzahl aus raum-a.txt. Verwende den Dateiinhalt, nicht den Explorer-Zeitstempel.",
+          "sample": "Leseraum-Team (erfunden); Stand 01.10.2026; erster Plan; Freitag, 09.10.2026 um 16:00 Uhr; 12 Sitzplätze. Das sind geplante Plätze, keine Besucherzahl.",
+          "criteria": [
+            "2 Punkte: Herausgeber, Stand, Status sowie 16:00 Uhr und 12 Sitzplätze vollständig richtig.",
+            "1 Punkt bei genau einem inhaltlichen Fehler; bei mehreren Fehlern oder ohne erkennbaren Bezug zu A 0. Freitag ist der fiktive 09.10.2026."
+          ]
+        },
+        {
+          "id": "mbi-datei-3",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "Datei B (2 Hauptpunkte): Nenne dieselben fünf Angaben aus raum-b.txt. Welche zusätzliche Aussage über Datei A steht im Status?",
+          "sample": "Leseraum-Team (erfunden); Stand 03.10.2026; korrigierter Plan; Freitag, 09.10.2026 um 17:00 Uhr; 18 Sitzplätze. Der Status sagt ausdrücklich, dass B den ersten Plan vom 01.10.2026 ersetzt.",
+          "criteria": [
+            "2 Punkte: Herausgeber, Stand, korrigierter Status samt Ersetzung sowie 17:00 Uhr und 18 Sitzplätze vollständig richtig.",
+            "1 Punkt bei genau einem inhaltlichen Fehler; bei mehreren Fehlern oder ohne erkennbaren Bezug zu B 0."
+          ]
+        },
+        {
+          "id": "mbi-datei-4",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "Stand entscheiden (2 Hauptpunkte): Welche Datei gilt für den korrigierten fiktiven Plan? Nenne zwei Textbelege. Warum genügt der Änderungszeitstempel deines Geräts dafür nicht?",
+          "sample": "B gilt: Im Text steht der spätere Informationsstand 03.10.2026 und ausdrücklich „ersetzt den ersten Plan“. Das lokale Dateidatum kann sich beim Kopieren ändern und beweist nicht den Informationsstand des Plans.",
+          "criteria": [
+            "1 Punkt: späterer gedruckter Stand 03.10.2026 als Beleg.",
+            "1 Punkt: ausdrückliche Ersetzung von A als zweiter Beleg. Die Erklärung der Zeitstempelgrenze zusätzlich rückmelden; der Buchstabe B oder ein neueres lokales Dateidatum allein genügt nicht."
+          ]
+        },
+        {
+          "id": "mbi-datei-5",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "Quellensatz (2 Hauptpunkte): Formuliere einen Satz zum korrigierten fiktiven Freitagstermin mit Uhrzeit, Sitzplatzzahl, Dateiname und gedrucktem Stand. Behaupte keine wirkliche Veranstaltung und keine Besucherzahl.",
+          "sample": "Nach dem fiktiven korrigierten Plan des Leseraum-Teams (raum-b.txt, Stand 03.10.2026) beginnt der Freitagstermin am 09.10.2026 um 17:00 Uhr; vorgesehen sind 18 Sitzplätze.",
+          "criteria": [
+            "1 Punkt: 17:00 Uhr und 18 geplante Sitzplätze mit fiktivem Vorbehalt, nicht als gezählte Besucher.",
+            "1 Punkt: raum-b.txt und Stand 03.10.2026 als überprüfbare Quelle genannt."
+          ]
+        },
+        {
+          "id": "mbi-datei-6",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "Eigene lokale Notiz (2 Hauptpunkte): Erstelle im Übungsordner die Datei „meine-notiz.txt“ mit deinem Quellensatz aus Aufgabe 5. Speichere und schließe sie. Finde sie dann über den Ordner wieder, öffne sie erneut und prüfe Satz und Quelle. Beschreibe, was du wirklich getan hast und welche Hilfe nötig war. Wenn es nicht ging, schreibe „offen“.",
+          "sample": "Nur eine beobachtete Handlung gilt: Die fiktive Quellennotiz wurde in meine-notiz.txt im Übungsordner gespeichert und die zuvor geschlossene Datei danach mit erhaltenem Satz und Quelle erneut geöffnet. Ein Bericht im Textfeld oder ein bloßer Download ist kein Nachweis. Ohne Durchführung beide Bedienpunkte „nicht erhoben“.",
+          "criteria": [
+            "1 Punkt nur wenn Erstellung und Speichern der lokalen Textdatei beobachtet wurden; sonst „nicht erhoben“.",
+            "1 Punkt nur wenn die geschlossene Datei über den Ordner wiedergefunden und mit erhaltenem Satz samt Quelle geöffnet wurde; sonst „nicht erhoben“. Hilfen vermerken, keine künstliche Gesamtsumme."
+          ]
+        },
+        {
+          "id": "mbi-datei-7",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Zusatzfrage (6 getrennte Punkte, nicht zu den 12 Hauptpunkten addieren): Jemand behauptet „Am Freitag waren 18 Menschen im Leseraum.“ Prüfe die Behauptung anhand beider Dateien mit zwei Belegen und formuliere eine zulässige Alternative mit Dateiname und Informationsstand.",
+          "sample": "raum-b.txt nennt 18 Sitzplätze, keine gezählten Personen. Beide Dateien sind fiktive Pläne, keine Besuchsprotokolle. Zulässig: „Im fiktiven korrigierten Plan (raum-b.txt, Stand 03.10.2026) sind für Freitag, 09.10.2026, 18 Sitzplätze vorgesehen.“ Die 6 Zusatzpunkte werden nicht zur Hauptsumme addiert.",
+          "criteria": [
+            "2 Punkte: 18 als Sitzplätze statt Personen und fehlende Besucherzählung erkannt.",
+            "2 Punkte: A und B als fiktive Pläne, nicht als Ereignis- oder Besuchsprotokolle eingeordnet.",
+            "2 Punkte: vorsichtiger Alternativsatz mit 18 geplanten Plätzen, raum-b.txt und Stand 03.10.2026. Diese Zusatzpunkte getrennt rückmelden."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "6-Grundlage, 7-Wiederholung",
+        "competencyRef": "PDF-S. 2: MBI-Fassung für Klasse 7 ab 2026/27. §2.1.2 PDF-S. 19–20: Dateitypen, Dateiverwaltung, Ordner und sinnvolle Namen; §2.1.3 S. 20: Quelle, Aktualität und Relevanz. Beide Ziele stehen unter Klassenstufe 6. §2.2 ab S. 24 ist Zielhorizont Ende Klasse 8.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "mbi-festbezug-karten",
       "subjectId": "mbi",
       "title": "Farbkarten: ein fester Zellbezug",

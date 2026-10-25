@@ -22,7 +22,7 @@
     : isGrade6Review(topic)
     ? 'Wiederholung Klasse 6 · freiwillig'
     : levelLabels[topic.levelStatus] || 'Jahrgangsbezug offen';
-  const mbiYearNote = topic => topic.subjectId === 'mbi' && topic.levelStatus === 'grade78-flex'
+  const mbiYearNote = topic => topic.subjectId === 'mbi' && topic.levelStatus === 'grade78-flex' && !isGrade6Review(topic)
     ? 'MBI ist in Klasse 7 eingeführt. Dieses Teilziel hat den Zielstand Ende Klasse 8; welche Teile jetzt im Unterricht vorkommen, ist unbekannt.'
     : '';
   const matchesStage = (topic, stage) => stage === 'all'

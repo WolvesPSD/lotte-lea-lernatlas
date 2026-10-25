@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Zwei Textdateien · Lotte & Lea</title>
+  <style>
+    :root{font-family:system-ui,Arial,sans-serif;color:#1e333c;background:#f4f3ee}
+    *{box-sizing:border-box}
+    body{max-width:820px;margin:0 auto;padding:1.2rem}
+    h1{font-size:1.65rem;line-height:1.2;margin:.2rem 0 .6rem;color:#175449}
+    h2{font-size:1.12rem;color:#175449;margin:.2rem 0 .6rem}
+    p,li{line-height:1.5}
+    .lead{max-width:70ch}
+    .panel{background:white;border:1px solid #b4c8bf;border-radius:.8rem;padding:1rem;margin:.9rem 0}
+    .downloads{display:flex;gap:.7rem;flex-wrap:wrap}
+    button{font:inherit;font-weight:700;min-height:44px;padding:.65rem .9rem;border:1px solid #2e6a5b;border-radius:.6rem;background:#fff;color:#175449;cursor:pointer}
+    button:focus-visible{outline:3px solid #176b62;outline-offset:2px}
+    code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;overflow-wrap:anywhere}
+    .note{font-size:.92rem;color:#4a5f64}
+    ol{padding-left:1.4rem;margin:.5rem 0}
+    @media(max-width:500px){body{padding:.75rem}.panel{padding:.8rem}}
+    @media print{@page{size:A4 portrait;margin:12mm}:root{background:white}body{max-width:none;margin:0;padding:0}.downloads,.screen-only{display:none}.panel{break-inside:avoid;border-color:#777}h1{font-size:15pt}h2{font-size:11pt}p,li{font-size:9pt}}
+  </style>
+</head>
+<body>
+  <h1>Zwei Textdateien: selbst öffnen und prüfen</h1>
+  <p class="lead">Alle Angaben in A und B sind erfunden. Für die Bedienübung verwende einen PC oder ein anderes Gerät, auf dem du lokale Dateien selbst speichern, schließen und wieder öffnen kannst. Die Dateien werden nur auf dein Gerät heruntergeladen. Diese Seite lädt keine Datei von deinem Gerät hoch.</p>
+  <section class="panel" aria-labelledby="downloads-heading">
+    <h2 id="downloads-heading">1 · Beide Übungsdateien herunterladen</h2>
+    <div class="downloads"><button id="get-a" type="button">raum-a.txt herunterladen</button><button id="get-b" type="button">raum-b.txt herunterladen</button></div>
+    <p class="note">Erstelle lokal einen Ordner <code>mbi-datei-bruecke-2026</code> und lege beide Dateien dort ab. Falls der Browser zuerst in „Downloads“ speichert, verschiebe sie danach in deinen Übungsordner. Das ist eine Dateihandlung außerhalb des Lernatlas.</p>
+  </section>
+  <section class="panel" aria-labelledby="open-heading">
+    <h2 id="open-heading">2 · Im Textprogramm lesen</h2>
+    <ol><li>Öffne <code>raum-a.txt</code> und <code>raum-b.txt</code> selbst in einem Textprogramm.</li><li>Vergleiche den <strong>gedruckten Stand im Text</strong>, den Status, die Uhrzeit und die Sitzplatzzahl. Ein Dateidatum deines Geräts kann sich beim Kopieren ändern.</li><li>Schreibe deine Antworten im Lernatlas oder auf dem Arbeitsblatt. Die Musterlösung steht getrennt im Erwachsenenbereich.</li></ol>
+  </section>
+  <section class="panel" aria-labelledby="note-heading">
+    <h2 id="note-heading">3 · Eine eigene lokale Notiz wiederfinden</h2>
+    <ol><li>Erstelle im Übungsordner mit deinem Textprogramm eine neue Datei <code>meine-notiz.txt</code>.</li><li>Speichere darin deinen eigenen Quellensatz aus Aufgabe 5. Schließe die Datei.</li><li>Finde sie im Ordner wieder, öffne sie erneut und prüfe den erhaltenen Satz samt Quellenangabe.</li></ol>
+    <p class="note">Ein Häkchen oder eine Antwort im Browser beweist diese Schritte nicht. Für die Praxispunkte muss eine Person die tatsächliche Bedienung beobachten. Wenn etwas nicht möglich war, bleibt es „nicht erhoben“.</p>
+  </section>
+  <button class="screen-only" id="print" type="button">Anleitung drucken</button>
+  <script>
+    const texts = {
+      'raum-a.txt': [
+        'FIKTIVE UEBUNGSDATEI – keine echte Veranstaltung',
+        'Herausgeber: Leseraum-Team (erfunden)',
+        'Stand der Information: 01.10.2026',
+        'Status: erster Plan',
+        '',
+        'Leseraum am Freitag, 09.10.2026: 16:00 Uhr, 12 Sitzplätze.',
+        'Die Zahl bezeichnet Sitzplätze, nicht Besucherinnen oder Besucher.',
+        ''
+      ].join('\n'),
+      'raum-b.txt': [
+        'FIKTIVE UEBUNGSDATEI – keine echte Veranstaltung',
+        'Herausgeber: Leseraum-Team (erfunden)',
+        'Stand der Information: 03.10.2026',
+        'Status: korrigierter Plan; ersetzt den ersten Plan vom 01.10.2026',
+        '',
+        'Leseraum am Freitag, 09.10.2026: 17:00 Uhr, 18 Sitzplätze.',
+        'Die Zahl bezeichnet Sitzplätze, nicht Besucherinnen oder Besucher.',
+        ''
+      ].join('\n')
+    };
+    function download(name){
+      const url = URL.createObjectURL(new Blob([texts[name]],{type:'text/plain;charset=utf-8'}));
+      const link = document.createElement('a');
+      link.href = url; link.download = name; document.body.append(link); link.click(); link.remove();
+      setTimeout(()=>URL.revokeObjectURL(url),1000);
+    }
+    document.querySelector('#get-a').addEventListener('click',()=>download('raum-a.txt'));
+    document.querySelector('#get-b').addEventListener('click',()=>download('raum-b.txt'));
+    document.querySelector('#print').addEventListener('click',()=>window.print());
+  </script>
+</body>
+</html>

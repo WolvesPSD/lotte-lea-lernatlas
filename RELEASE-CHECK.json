@@ -1,15 +1,15 @@
 {
-  "builtAt": "2026-10-25T03:47:03.047Z",
-  "releaseVersion": "2026.10.25-deszene.1",
+  "builtAt": "2026-10-25T04:03:19.829Z",
+  "releaseVersion": "2026.10.25-mbidatei.1",
   "newTopicIds": [
-    "de-szene-wirklich-spielen"
+    "mbi-datei-quellen-bruecke"
   ],
   "changeLog": [
-    "Deutsch: freiwillige Szene zu zweit mit vier schriftlichen Planfragen, getrennter menschlicher Spielbeobachtung und späterer Gestenvariante; Zielmarke Ende Klasse 8 und offene Unterrichtsfolge ausgewiesen.",
-    "Die spätere Szene erscheint im Kinderbereich und Kinderdruck erst nach P1–P4. Beobachtung darf nur für wirklich Gehörtes und Gesehenes eingetragen werden; keine automatische Sprechbewertung.",
-    "Die 159 bisherigen Themen, sieben Hörhilfen, Profiltrennung, Druck und Rückmeldung bleiben erhalten; keine privaten Lernstände werden veröffentlicht."
+    "MBI-Vorwissensbrücke: zwei erfundene Textdateien herunterladen, gedruckte Quellenstände vergleichen und eine eigene lokale Notiz wiederfinden. Sechs Haupt- und eine freiwillige Zusatzaufgabe; alle Sachlösungen nur für Erwachsene.",
+    "Die Wiederholung aus Klasse 6 steht ausschließlich im eigenen Grundlagenfilter. Die App kann Dateiöffnung, Speichern oder Wiederfinden außerhalb des Browsers nicht beobachten; Praxispunkte bleiben ohne menschliche Beobachtung nicht erhoben.",
+    "Die 160 bisherigen Themen, sieben Hörhilfen, Profiltrennung, Druck und Rückmeldung bleiben erhalten; keine privaten Fotos, Dateien oder Lernstände werden veröffentlicht."
   ],
-  "rollbackCommit": "75973947365d60a67cdc8426bb061dd97a90e657",
+  "rollbackCommit": "b4785ebc28d0a1bdc65936ffb78b602de1fdc39e",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",
@@ -24,6 +24,7 @@
     "bi-wirbellose-bluehstreifen",
     "mbi-speicherplan-zwei-modelle",
     "de-lehrplan-quellenweg",
+    "mbi-datei-quellen-bruecke",
     "mbi-festbezug-karten",
     "de-woerter-umfrage",
     "ma-fermat-pascal-quellenwerkstatt",

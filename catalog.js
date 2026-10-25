@@ -102,6 +102,141 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "en-w-word-gap-paraphrase",
+      "subjectId": "en",
+      "title": "Say it another way: a missing word",
+      "scope": "Freiwilliger, gestützter Klasse-7-Ausblick auf das Englisch-Schreibziel am Ende Klasse 8: einen bekannten Gedanken trotz fehlendem englischem Einzelwort mit ähnlichen Wörtern verständlich ausdrücken. Keine bestätigte aktuelle Schuleinheit oder individuelle Wortschatzprüfung.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Die Personen und Termine sind erfunden. Schreibe nur hier oder auf Papier und versende keine Nachricht. Nutze einfache englische Wörter, die du bereits kennst; ein Wörterbuch oder das gesuchte Einzelwort ist für diesen Versuch nicht nötig. Die App kann freie englische Antworten nicht automatisch bewerten. Der freiwillige neue Fall erscheint erst nach A1–C2.",
+      "introduction": "Du weisst, was du sagen willst, aber ein englisches Einzelwort fehlt dir. Umschreibe den Sinn mit anderen englischen Wörtern, damit Nora und Ben handeln können. Du musst das fehlende Wort nicht erraten und sollst es in dieser Übung auch dann nicht benutzen, wenn es dir einfällt. A1–C2 ergeben 20 Kriterienpunkte als Lernfeedback, keine Schulnote. Danach wartet ein anderer freiwilliger Fall mit sechs getrennten Zusatzpunkten.",
+      "passage": "ERFUNDENE SITUATIONEN · Keine Nachricht wirklich versenden.\n\nNORA · Dienstag, 15 Uhr: Treffen der erfundenen Naturgruppe. Nora soll eine kleine Lupe für die Hand mitbringen. Durch sie erscheinen winzige Muster auf Blättern grösser. Dir fehlt das englische Wort für dieses Werkzeug.\n\nBEN · Freitag, 16 Uhr: Ihr trefft euch beim Wegweiser am Eingang. Sein Pfeil zeigt zur Turnhalle. Dir fehlt das englische Wort für den Wegweiser. Beschreibe den Gegenstand und woran Ben ihn erkennt.\n\nSchreibe A1 und A2 je als kurze englische Nachricht mit Anrede. Die deutschen Angaben liefern nur Fakten, keine englische Musterformulierung. Kleine Fehler sind okay, wenn der Sinn verständlich bleibt. B fragt nach deiner eigenen Wortwahl; C lässt dich zwei andere Entwürfe verbessern.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A1–C2",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGER NEUER FALL NACH A1–C2 · Mina soll sich für eine erfundene Bastelrunde spätestens am Donnerstag um 17 Uhr melden. Das englische Einzelwort für diese zeitliche Grenze fehlt dir. Formuliere zwei kurze englische Sätze, die den letzten möglichen Zeitpunkt und die Folge danach verständlich machen. Keine Zusage über freie Plätze erfinden."
+      },
+      "tasks": [
+        {
+          "id": "en-wordgap-a1",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 5,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A1 · Nachricht an Nora (6 Hauptpunkte): Schreibe zwei bis drei englische Sätze mit Anrede. Nenne Dienstag um 15 Uhr, bitte Nora um das Mitbringen des kleinen Handwerkzeugs und umschreibe mit eigenen einfachen Wörtern, dass winzige Blattmuster dadurch grösser erscheinen. Verwende das fehlende englische Einzelwort nicht.",
+          "sample": "Hi Nora, our nature group meets on Tuesday at 3 pm. Please bring a small tool you can hold in your hand that makes tiny patterns on leaves look bigger.",
+          "criteria": [
+            "1 Punkt: Nora ist als Adressatin erkennbar.",
+            "1 Punkt: Dienstag und 15 Uhr sind verständlich.",
+            "1 Punkt: Nora soll etwas mitbringen.",
+            "1 Punkt: Kleine Dinge erscheinen durch das Werkzeug grösser.",
+            "1 Punkt: Ein kleines Handwerkzeug bei Blattmustern oder ein gleichwertig eindeutiger Gegenstand ist erkennbar; „glasses“ allein genügt nicht.",
+            "1 Punkt: Die einfache englische Nachricht ist insgesamt handlungsverständlich. Andere sinngleiche Formulierungen zählen; das exakte Einzelwort ersetzt die Umschreibung nicht."
+          ]
+        },
+        {
+          "id": "en-wordgap-a2",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 5,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A2 · Nachricht an Ben (6 Hauptpunkte): Schreibe zwei bis drei englische Sätze mit Anrede. Nenne Freitag um 16 Uhr und den Eingang. Umschreibe den Treffgegenstand dort so, dass Ben seinen Pfeil zur Turnhalle erkennt. Verwende das fehlende englische Einzelwort nicht.",
+          "sample": "Hi Ben, meet me on Friday at 4 pm by the thing with an arrow to the gym. It is next to the entrance.",
+          "criteria": [
+            "1 Punkt: Ben ist als Adressat erkennbar.",
+            "1 Punkt: Freitag und 16 Uhr sind verständlich.",
+            "1 Punkt: Der Treffpunkt liegt am Eingang.",
+            "1 Punkt: Ein Gegenstand oder Hinweis ist erkennbar, nicht bloss der Eingang.",
+            "1 Punkt: Der Pfeil zur Turnhalle unterscheidet den Treffgegenstand.",
+            "1 Punkt: Die einfache englische Nachricht ist insgesamt handlungsverständlich. „Sign“ als Oberbegriff ist erlaubt; das exakte Einzelwort allein ersetzt die Umschreibung nicht."
+          ]
+        },
+        {
+          "id": "en-wordgap-b1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "B1 · Deine Strategie bei Nora (2 Hauptpunkte): Schreibe zwei englische Wörter oder kurze Wortgruppen aus deiner eigenen A1-Nachricht ab. Erkläre auf Deutsch, wie sie zusammen die Werkzeugfunktion ohne Einzelwort vermitteln.",
+          "sample": "„hold in your hand“ und „look bigger“: Handlichkeit und Vergrösserungsfunktion helfen Nora, das gemeinte kleine Werkzeug zu erkennen. Andere tatsächlich in A1 verwendete, passende Wortpaare zählen.",
+          "criteria": [
+            "1 Punkt: Zwei tatsächlich in der eigenen A1-Nachricht verwendete englische Wörter oder Wortgruppen zitiert.",
+            "1 Punkt: Deutsche Erklärung zeigt, wie die Wörter die Werkzeugfunktion statt eines exakten Namens vermitteln. Sprachqualität in A1 wird hier nicht erneut bewertet."
+          ]
+        },
+        {
+          "id": "en-wordgap-b2",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "B2 · Deine Strategie bei Ben (2 Hauptpunkte): Schreibe zwei englische Wörter oder kurze Wortgruppen aus deiner eigenen A2-Nachricht ab. Erkläre auf Deutsch, wie sie Gegenstand und Erkennungsmerkmal verbinden.",
+          "sample": "„thing“ oder „sign“ und „arrow to the gym“: Ein Oberbegriff plus der Pfeil lässt Ben den richtigen Gegenstand erkennen. Andere tatsächlich in A2 verwendete, passende Wortpaare zählen.",
+          "criteria": [
+            "1 Punkt: Zwei tatsächlich in der eigenen A2-Nachricht verwendete englische Wörter oder Wortgruppen zitiert.",
+            "1 Punkt: Deutsche Erklärung verbindet Gegenstand und Erkennungsmerkmal; die A2-Sprache wird hier nicht erneut bewertet."
+          ]
+        },
+        {
+          "id": "en-wordgap-c1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "C1 · Zu ungenau bei Nora (2 Hauptpunkte): Ein anderer Entwurf lautet „Bring your glasses.“ Nenne auf Deutsch, was fehlen oder falsch verstanden werden könnte. Ergänze eine kurze englische Wendung, damit Nora weiss, was sie mitbringen soll.",
+          "sample": "„Glasses“ kann eine normale Brille meinen. Ergänzung: „I mean a small tool you hold in your hand that makes tiny leaf patterns look bigger.“",
+          "criteria": [
+            "1 Punkt: Mehrdeutigkeit einer normalen Brille oder das fehlende handliche Vergrösserungswerkzeug konkret erkannt.",
+            "1 Punkt: Englische Ergänzung benennt Handlichkeit und Vergrösserungsfunktion oder ein gleichwertig eindeutiges Merkmal."
+          ]
+        },
+        {
+          "id": "en-wordgap-c2",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "C2 · Zu ungenau bei Ben (2 Hauptpunkte): Ein anderer Entwurf lautet „Meet me at the entrance.“ Nenne auf Deutsch, was fehlt. Ergänze eine kurze englische Wendung, damit Ben den richtigen Treffpunkt erkennt.",
+          "sample": "Der Eingang allein bezeichnet den Wegweiser nicht. Ergänzung: „by the sign with an arrow to the gym“.",
+          "criteria": [
+            "1 Punkt: Der Eingang allein identifiziert den Wegweiser oder Treffgegenstand nicht.",
+            "1 Punkt: Englische Ergänzung nennt einen Hinweis oder Gegenstand mit Pfeil zur Turnhalle."
+          ]
+        },
+        {
+          "id": "en-wordgap-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 5,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger neuer Fall nach A1–C2 (6 getrennte Zusatzpunkte): Schreibe Mina zwei kurze englische Sätze. Sie soll sich für eine erfundene Bastelrunde spätestens am Donnerstag um 17 Uhr melden. Umschreibe ohne das fehlende Einzelwort, dass dies der letzte mögliche Zeitpunkt ist und eine Meldung danach zu spät wäre. Erfinde weder Ort noch Preis oder eine Zusage über freie Plätze.",
+          "sample": "Hi Mina, please tell me if you want to join the craft group by 5 pm on Thursday. After that time, it is too late to sign up. „Until Thursday at 5 pm“ ist ebenfalls möglich, wenn die Grenze danach klar bleibt.",
+          "criteria": [
+            "1 Zusatzpunkt: Mina wird erkennbar adressiert.",
+            "1 Zusatzpunkt: eigenes Melden oder Anmelden für die Bastelrunde verlangt.",
+            "1 Zusatzpunkt: Donnerstag und 17 Uhr verständlich.",
+            "1 Zusatzpunkt: Meldung ist bis zu diesem Zeitpunkt möglich.",
+            "1 Zusatzpunkt: Danach ist die Anmeldung zu spät; eine blosse Zeitnennung genügt nicht.",
+            "1 Zusatzpunkt: Keine unbelegten Angaben zu Ort, Preis oder freien Plätzen erfunden. Die Zusatzpunkte sind von den 20 Hauptpunkten getrennt."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Englisch Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.4/PDF-S. 29, Methodenkompetenz Schreiben unter Klassenstufe 8: sprachlich oder inhaltlich ähnliche Wörter beim Versuch verwenden, ein fehlendes Wort zu paraphrasieren. Englisch als erste Fremdsprache ist der begründete Arbeitszweig, individuelle Sprachbiografie und Schulfolge offen.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "mbi-i6-standortzugriff",
       "subjectId": "mbi",
       "title": "Was zeigt eine Standortberechtigung wirklich?",

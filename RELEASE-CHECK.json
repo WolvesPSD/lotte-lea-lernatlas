@@ -1,13 +1,16 @@
 {
-  "builtAt": "2026-10-25T00:43:56.446Z",
-  "releaseVersion": "2026.10.25-historylabel.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Geschichte: Der Fachhinweis benennt die zwei bereits vorhandenen freiwilligen Quellenfälle zutreffend.",
-    "Der Lehrplan für Klasse 7 im Schuljahr 2026/27 bleibt ungeklärt; Themen und reguläre Aufgaben bleiben unverändert."
+  "builtAt": "2026-10-25T00:52:23.311Z",
+  "releaseVersion": "2026.10.25-enwordgap.1",
+  "newTopicIds": [
+    "en-w-word-gap-paraphrase"
   ],
-  "rollbackCommit": "1ff895f96b795332302065c741b9a7f4347b30db",
+  "changeLog": [
+    "Englisch: Neuer freiwilliger Ende-Klasse-8-Ausblick zum Umschreiben eines beim eigenen Schreiben fehlenden Wortes.",
+    "Sechs gestufte Hauptaufgaben und ein späterer freiwilliger Fall üben verständliche englische Nachrichten ohne echte Daten oder Versand."
+  ],
+  "rollbackCommit": "b2c82c6bf055f521d33a8111ccf04c0873c911d2",
   "releasedTopics": [
+    "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",
     "mnt-samenpflanzen-bluete-beobachtung",
     "ma-koerper-netzkarten",
@@ -164,6 +167,7 @@
     "mbi-i1-datumswerte-sortieren"
   ],
   "subjects": [
+    "en",
     "mbi",
     "mnt",
     "ma",
@@ -171,7 +175,6 @@
     "ph",
     "ch",
     "bi",
-    "en",
     "fr",
     "et",
     "go",
@@ -180,6 +183,7 @@
     "sp"
   ],
   "grade8OutlookTopics": [
+    "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",
     "ma-koerper-netzkarten",
     "ma-fermat-pascal-quellenwerkstatt",

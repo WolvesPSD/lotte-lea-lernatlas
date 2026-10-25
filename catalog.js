@@ -4392,6 +4392,104 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-drei-formen-flaeche-umfang",
+      "subjectId": "ma",
+      "title": "Drei Formen: Fläche und Rand",
+      "scope": "Freiwilliger Klasse-8-Ausblick auf einen engen M5-Teilbereich: allgemeine Dreiecksfläche, eigene Umfänge von Dreieck, Parallelogramm und Trapez sowie Werkzeugwahl. Die aktuelle Klasse-7-Unterrichtsfolge ist nicht bekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst Grundseite, senkrechte Höhe und die Unterscheidung von Fläche und Rand. Wenn dir die Dreiecksformel noch nicht bekannt ist, nutze nach A die Stütze am Anfang von B; das ist kein Fehler. Die drei Figuren sind erfunden.",
+      "introduction": "Drei getrennte, erfundene Figuren haben exakt angegebene Masse in cm. Die Skizze dient nur zur Orientierung und wird nicht nachgemessen. Bearbeite Aufgabe A zuerst ohne Formelhilfe und Rechner; lies die Stütze in B erst danach. Die App kann nicht prüfen, ob du das wirklich getan hast. Ab B darfst du deine Formel und die Daten wieder ansehen; notiere, ob du einen Rechner zur Gegenprobe benutzt hast. Offene Antworten werden nicht automatisch benotet.",
+      "diagram": {
+        "path": "assets/ma-drei-formen.svg",
+        "alt": "Drei beschriftete Modellfiguren. T ist ein rechtwinkliges Dreieck mit senkrechten Seiten 8 cm und 6 cm sowie dritter Seite 10 cm. P ist ein Parallelogramm mit Grundseite 8 cm, schräger Seite 5 cm und senkrechter Höhe 3 cm. Z ist ein gleichschenkliges Trapez mit parallelen Seiten 10 cm und 4 cm, beiden Schenkeln 5 cm und senkrechter Höhe 4 cm. Die Skizze ist nur Orientierung; alle Maße stehen auch im Text.",
+        "caption": "Schematische Orientierung, nicht nachmessen. Die senkrechten Höhen sind gestrichelt; schräge Seiten sind keine Höhen."
+      },
+      "passage": "ALLE MASSE EXAKT IN CM\nT: Rechtwinkliges Dreieck. Grundseite 8, dazu senkrechte Kathete 6, dritte Seite 10. Die Seiten 8 und 6 bilden den rechten Winkel.\nP: Parallelogramm. Grundseite 8, schräge Seite 5, senkrechte Höhe zur Grundseite 3. Gegenüberliegende Seiten sind gleich lang.\nZ: Gleichschenkliges Trapez. Parallele Seiten 10 und 4, beide Schenkel 5, senkrechte Höhe 4. Die beiden Schenkel sind gleich lang.\nBerechne aus diesen Angaben, nicht aus einer Messung am Bild.",
+      "tasks": [
+        {
+          "id": "ma-drei-formen-1",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A. Formel ohne Hilfsmittel (5 Kriterienpunkte): Lege Formelsammlung und Rechner weg. Schreibe aus dem Gedächtnis die allgemeine Dreiecksflächenformel mit Grundseite g und zugehöriger senkrechter Höhe h. Erkläre mit zwei gleichen Dreiecken, warum die Hälfte von g·h entsteht. Wende die Formel auf T an. Notiere ehrlich, ob du wirklich ohne Formelhilfe und Rechner gearbeitet hast; falls nicht, wird „ohne Hilfsmittel“ nicht als beobachtet gewertet. Eine eigene Skizze ist erlaubt.",
+          "sample": "A=g·h/2. Zwei gleiche Dreiecke lassen sich zu einem Parallelogramm mit Grundseite g und senkrechter Höhe h legen. Jedes Dreieck hat die halbe Fläche. T: 8·6/2=24 cm². Hilfsmittelstatus getrennt eintragen; die App kann ihn nicht bestätigen.",
+          "criteria": [
+            "1 Punkt: allgemeine Formel A=g·h/2 mit senkrechtem h.",
+            "1 Punkt: zwei gleiche Dreiecke zu einem Parallelogramm mit Grundseite g und Höhe h angeordnet.",
+            "1 Punkt: halbe Parallelogrammfläche als Begründung erklärt.",
+            "1 Punkt: T zu 24 cm² mit Flächeneinheit berechnet.",
+            "1 Reflexionspunkt: Hilfsmittelgebrauch oder Verzicht ehrlich genannt, auch wenn Hilfsmittel benutzt wurden. Die Punktzahl beweist keine hilfsmittelfreie Durchführung."
+          ]
+        },
+        {
+          "id": "ma-drei-formen-2",
+          "kind": "reflection",
+          "points": 10,
+          "writingLines": 14,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "B. Drei Flächen und drei Umfänge (10 Kriterienpunkte). Stütze – erst nach A lesen: Fläche misst cm², Umfang die äußere Linie in cm. Für Flächen zählt die senkrechte Höhe zur Grundseite; für Umfänge zählen die wirklichen äußeren Seiten. Zwei gleiche Dreiecke lassen sich zu einem Parallelogramm zusammensetzen. Berechne für T, P und Z je den Flächeninhalt und den eigenen vollständigen äußeren Umfang. Die Fläche von T aus A darfst du übernehmen. Erkläre bei P, weshalb 8·5 nicht zur Flächenberechnung passt. Zeige bei Z, wie die beiden parallelen Seiten und die senkrechte Höhe in die Fläche eingehen. Ein Rechner ist nur zur Gegenprobe erlaubt; notiere, ob du ihn benutzt hast.",
+          "sample": "T: A=8·6/2=24 cm², U=6+8+10=24 cm. P: A=8·3=24 cm², U=2·(8+5)=26 cm; 5 ist eine schräge Seite, nicht die senkrechte Höhe. Z: A=(10+4)·4/2=28 cm², U=10+4+5+5=24 cm. Rechnerstatus getrennt notieren. Eine richtige Zerlegung kann die Trapezformel ersetzen.",
+          "criteria": [
+            "1 Punkt: T-Fläche 24 cm², auch aus A übernommen.",
+            "1 Punkt: T-Umfang 24 cm aus drei Seiten.",
+            "1 Punkt: P-Fläche 24 cm² mit senkrechter Höhe 3.",
+            "1 Punkt: P-Umfang 26 cm mit zwei Grund- und zwei Schrägseiten.",
+            "1 Punkt: 8·5 als Verwechslung von Schrägseite und Höhe erklärt.",
+            "1 Punkt: bei Z parallele Seiten 10 und 4 mit senkrechter Höhe 4 passend verknüpft oder äquivalent zerlegt.",
+            "1 Punkt: Z-Fläche 28 cm².",
+            "1 Punkt: Z-Umfang 24 cm aus vier Außenseiten.",
+            "1 Punkt: cm für Umfänge und cm² für Flächen durchgängig unterschieden.",
+            "1 Reflexionspunkt: Rechnergebrauch oder Verzicht in B ehrlich genannt."
+          ]
+        },
+        {
+          "id": "ma-drei-formen-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C. Zwei fremde Fehler und Werkzeugwahl (5 Kriterienpunkte): Ein fremder Zettel nennt für P 8·5 als Fläche und zählt für Z nur 10+4+5 als Umfang. Erkläre beide Fehler und gib die richtigen Ansätze mit Ergebnissen an. Begründe, warum du bei diesen kleinen exakten Zahlen keinen Rechner brauchst. Falls du ihn in B als Kontrolle benutzt hast, unterscheide die Kontrolle von einer geometrischen Begründung.",
+          "sample": "Bei P ist 5 die schräge Seite und 3 die senkrechte Höhe: A=8·3=24 cm². Bei Z fehlt im Umfang der zweite 5-cm-Schenkel: U=10+4+5+5=24 cm. Die Summen und Produkte sind im Kopf oder schriftlich überschaubar. Ein Rechner kann Zahlen prüfen, aber nicht entscheiden, welche Strecke Höhe oder Außenseite ist.",
+          "criteria": [
+            "1 Punkt: P-Fehler Schrägseite statt senkrechter Höhe erklärt.",
+            "1 Punkt: P richtig zu 8·3=24 cm² berichtigt.",
+            "1 Punkt: bei Z fehlenden zweiten 5-cm-Schenkel erkannt.",
+            "1 Punkt: Z richtig zu 10+4+5+5=24 cm berichtigt.",
+            "1 Punkt: begründete Werkzeugwahl für kleine exakte Zahlen; Rechenprüfung und geometrische Begründung unterschieden."
+          ]
+        },
+        {
+          "id": "ma-drei-formen-4",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer · 6 eigene Punkte, nicht zu A–C addieren: Ein flexibles Zierband soll im fiktiven Papiermodell nur den Rand von Z bedecken. Das Band wird in 7-cm-Stücken verkauft. Du darfst beliebig zuschneiden, kurze Reste weiterverwenden und Teilstücke ohne Längenverlust verbinden; das Band folgt auch den Ecken. Wie viele ganze Stücke brauchst du mindestens? Nenne Einkaufslänge und rechnerischen Rest. Begründe das Aufrunden. Keine reale Bauplanung.",
+          "sample": "Z hat 24 cm Umfang. 24:7=3 Rest 3; drei Stücke liefern nur 21 cm, daher werden vier ganze Stücke benötigt. Einkaufslänge 4·7=28 cm, rechnerischer Rest 28−24=4 cm. Das Aufrunden ist nötig, weil kein Bruchstück als ganzes 7-cm-Stück gekauft werden kann; das flexible Modell erlaubt verlustfreie Verbindungen und Restnutzung.",
+          "criteria": [
+            "1 Punkt: Umfang Z als 24 cm übernommen oder nachvollzogen.",
+            "1 Punkt: 24:7=3 Rest 3 beziehungsweise 3+3/7.",
+            "1 Punkt: auf 4 ganze Stücke aufgerundet und 3 Stücke als zu kurz begründet.",
+            "1 Punkt: Einkaufslänge 28 cm.",
+            "1 Punkt: rechnerischer Rest 4 cm.",
+            "1 Punkt: sachlicher Grund für das Aufrunden und Hinweis auf erlaubte verlustfreie Verbindungen und Restnutzung."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. § 2.2.5 PDF-S. 27 unter Klassenstufe 8: Umfang und Fläche von Dreiecken, Parallelogrammen, Trapezen; Dreiecksflächenformel ohne Hilfsmittel angeben und anwenden.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
       "id": "de-hoernachricht-live",
       "subjectId": "de",
       "title": "Eine Nachricht aus der Bibliothek hören",

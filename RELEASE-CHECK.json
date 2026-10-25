@@ -1,15 +1,15 @@
 {
-  "builtAt": "2026-10-25T04:28:18.899Z",
-  "releaseVersion": "2026.10.25-enwatercycle.1",
+  "builtAt": "2026-10-25T04:40:08.397Z",
+  "releaseVersion": "2026.10.25-m5dreiformen.1",
   "newTopicIds": [
-    "en-process-description-water-path"
+    "ma-drei-formen-flaeche-umfang"
   ],
   "changeLog": [
-    "Englisch: ein freiwilliger Klasse-8-Ausblick zum Beschreiben eines möglichen Wasserwegs ergänzt den Katalog; A–C haben 20 formative Hauptpunkte, D vier getrennte Zusatzpunkte.",
-    "Fünf eigenständig formulierte Faktenkarten nach NASA und USGS, Antwortfelder, spätere Zusatzaufgabe und lösungsfreier Kinderdruck; freie englische Texte werden nicht automatisch bewertet.",
-    "Die 161 bisherigen Themen, mobile Erwachsenen-Navigation, Profile, Druck und Hörhilfen bleiben erhalten. Keine privaten Fotos oder Lernstände werden veröffentlicht; die Klasse-7-Unterrichtsfolge und tatsächliche Kinderleistung bleiben offen."
+    "Mathematik: drei eigene Modellfiguren ergänzen als freiwilliger Ende-8-Ausblick die allgemeine Dreiecksflächenformel, getrennte Flächen und Umfänge sowie Fehler- und Werkzeugprüfung; 20 Haupt- und 6 getrennte freiwillige Punkte.",
+    "Die Musterlösungen bleiben nach Antwortprüfung und im Kinderdruck verborgen; eine eigene schematische SVG und ein getrenntes Erwachsenenblatt erklären alle Maße. Wirklich hilfsmittelfreies Arbeiten und eine eigene Kinderzeichnung kann die App nicht feststellen.",
+    "Die 162 bisherigen Themen, mobile Erwachsenen-Navigation, Profile, Druck und Hörhilfen bleiben erhalten. Keine privaten Fotos oder Lernstände werden veröffentlicht; die Klasse-7-Unterrichtsfolge und tatsächliche Kinderleistung bleiben offen."
   ],
-  "rollbackCommit": "b3c3732f5fe7c64ca2ca9733a99e108d07327781",
+  "rollbackCommit": "621e610f79799e9f6f52d2f3c3f9fa63bfdb14bf",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",
@@ -53,6 +53,7 @@
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
     "ma-umfang-identitaet-rechtecke",
+    "ma-drei-formen-flaeche-umfang",
     "de-hoernachricht-live",
     "de-leseraeume-diagramm",
     "mbi-farbkarten-tabellenlabor",
@@ -209,6 +210,7 @@
     "ma-ausstellungsflaeche",
     "ma-experimentierkaesten-terme",
     "ma-umfang-identitaet-rechtecke",
+    "ma-drei-formen-flaeche-umfang",
     "ma-volumenformeln-erklaeren",
     "ma-pi-radfenster",
     "ma-kreisformeln-erinnern",

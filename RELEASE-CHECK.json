@@ -1,12 +1,12 @@
 {
-  "builtAt": "2026-10-25T02:21:09.611Z",
-  "releaseVersion": "2026.10.25-voiceguides.1",
+  "builtAt": "2026-10-25T02:29:13.199Z",
+  "releaseVersion": "2026.10.25-feedbacknav.1",
   "newTopicIds": [],
   "changeLog": [
-    "Sieben kurze deutsche Hörhilfen: allgemeine Einführung nur auf Start sowie Erklärungen für Start, Themen, Lernen, Erwachsenenbereich, Rückmeldung und lokale Sicherung. Derselbe Knopf startet und stoppt; kein sichtbarer Player und kein Autostart.",
-    "Die bestehenden 156 Themen und 699 Aufgaben bleiben unverändert. Die Erklärungstexte richten sich allgemein an Lernende und Eltern; Ton und Lernantworten werden nicht automatisch versendet."
+    "Rückmeldung ist nach Nutzerrückmeldung direkt in der Hauptnavigation erreichbar, auf dem Handy als vierter Eintrag in der unteren Leiste. Die separate Seite enthält weiterhin ihre eigene Hörhilfe.",
+    "Die bestehenden sieben Hörhilfen und 156 Themen mit 699 Aufgaben bleiben unverändert; Rückmeldungen werden nur als selbst zu prüfender E-Mail-Entwurf vorbereitet."
   ],
-  "rollbackCommit": "773659750124b13981f546ec2bff3713d99d487e",
+  "rollbackCommit": "7b323644e58f671bac9ae083c0095f4d523610e2",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",

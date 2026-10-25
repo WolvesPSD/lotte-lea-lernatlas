@@ -12729,6 +12729,125 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "et-liebesformen-werkevergleich",
+      "subjectId": "et",
+      "title": "Wie zeigen zwei Werke Zuneigung?",
+      "scope": "Freiwilliger Klasse-7-Vorgriff auf einen Teil des Ethik-Ziels bis Ende Klasse 8: verschiedene Formen der Liebe an Beispielen aus Literatur und Kunst charakterisieren. Die Geltung des älteren Ethikplans für 2026/27 und die Schulfolge sind ungeklärt.",
+      "levelStatus": "additional-unclear",
+      "released": true,
+      "prerequisite": "Du brauchst nichts über eigene Gefühle, Freundschaften oder Familie zu erzählen. Lies das ganze Gedicht. Bevor du die Museumsabbildung öffnest, entscheide zusammen mit einer erwachsenen Person, ob du die Aktdarstellung mit unbekleideten Figuren ansehen möchtest. Wenn nicht, kann die erwachsene Person ein anderes geeignetes Werk suchen. Fehlt eines der Werke, pausiere den Vergleich bis eine passende Quelle mit einer erwachsenen Person geprüft ist; vergib dafür keine Punkte. Die Geltung des älteren Ethikplans für 2026/27 ist ungeklärt; dies ist freiwillig.",
+      "introduction": "Zwei öffentliche Werke zeigen möglicherweise unterschiedliche Arten von Zuneigung. Beobachte im ganzen Gedicht konkrete Wörter und an der Skulptur sichtbare Merkmale; erkläre erst danach deine Deutung. Das lyrische Ich ist nicht automatisch Goethe als wirkliche Person. Die Figuren der Skulptur beweisen nichts über alle Familien. 20 Hauptpunkte und sechs spätere Zusatzpunkte sind Lernfeedback, keine Schulnote. Andere gut belegte Deutungen zählen.",
+      "sourceCards": [
+        {
+          "title": "A · Literatur: Goethe, Mailied",
+          "text": "Lies das ganze Gedicht über den Link. Zwei kurze Zeilen daraus: „O Mädchen, Mädchen, / Wie lieb ich dich!“ Suche für deine Antwort noch mindestens eine andere Stelle im vollständigen Text.",
+          "sourceLabel": "University of Warwick · Mailied (PDF)",
+          "sourceUrl": "https://warwick.ac.uk/fac/arts/modernlanguages/applying/undergraduate/germanmodules/ge109ps/resources/goethe/pdfs/mailied.pdf",
+          "sourceNote": "Johann Wolfgang von Goethe, Mailied; gemeinfreier Text. Die zwei Zeilen allein reichen nicht für zwei verschiedene Merkmale. Wenn die PDF nicht öffnet, den ganzen Vergleich bis zu einer geprüften Quelle pausieren."
+        },
+        {
+          "title": "B · Kunst: Käthe Kollwitz, Mutter mit zwei Kindern",
+          "text": "Die Figurengruppe ist eine Aktdarstellung mit unbekleideten Figuren. Entscheide vor dem Öffnen der Museumsseite zusammen mit einer erwachsenen Person, ob du die Abbildung ansehen möchtest. Falls nicht, kann sie ein anderes geeignetes Werk suchen; bis dahin den Vergleich pausieren. Danach müssen Aufgabe und Quellen neu geprüft werden.",
+          "sourceLabel": "Käthe Kollwitz Museum Köln · Sammlung",
+          "sourceUrl": "https://www.kollwitz.de/collection/mothers-and-children/s-29",
+          "sourceNote": "Museumsabbildung nur nach gemeinsamer Entscheidung am Original ansehen; Bildrechte liegen beim Museum/Fotografen. Die App speichert oder druckt das Bild nicht. Wenn die Seite nicht öffnet, den ganzen Vergleich bis zu einer geprüften Quelle pausieren."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und Transfer zeigen",
+        "text": "FREIWILLIGER TRANSFER NACH A–D · Wähle ein weiteres Merkmal aus einem der beiden Werke, das du oben noch nicht benutzt hast. Beschreibe es genau und vergleiche zwei mögliche Deutungen. Die sechs Zusatzpunkte zählen getrennt vom Grundteil."
+      },
+      "tasks": [
+        {
+          "id": "et-liebe-a",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "A · Das Gedicht beobachten (5 Hauptpunkte): Nenne zwei verschiedene konkrete Textmerkmale mit Vers oder kurzer Textstelle aus dem vollständigen Mailied. Erkläre zu jedem, welche Stimmung oder Zuneigung das lyrische Ich ausdrücken könnte. Unterscheide die Stimme im Gedicht von Goethe als wirklicher Person.",
+          "sample": "Die direkte Anrede „O Mädchen“ kann Zuneigung zu einer angesprochenen Person ausdrücken. An einer anderen Stelle können Naturbilder wie Sonne oder Flur eine freudige Stimmung und Hinwendung zur Natur zeigen. Das lyrische Ich ist eine Textstimme; daraus folgt nicht sicher, was Goethe selbst fühlte. Zwei Umschreibungen derselben Zeile wären keine zwei Merkmale.",
+          "criteria": [
+            "Je 1 Punkt für zwei unterschiedliche konkrete Textmerkmale mit Stelle.",
+            "Je 1 Punkt für eine zum jeweiligen Merkmal passende mögliche Stimmungs- oder Zuneigungsdeutung.",
+            "1 Punkt für die klare Trennung von lyrischem Ich und historischem Goethe. Bei unzugänglichem Volltext nicht bewerten."
+          ]
+        },
+        {
+          "id": "et-liebe-b",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Die Skulptur beobachten (5 Hauptpunkte): Beschreibe zwei verschiedene sichtbare Merkmale der Haltung oder Anordnung der drei Figuren in der Museumsabbildung. Erkläre zu jedem, welche Nähe oder Fürsorge die Gestaltung zeigen könnte. Trenne ausdrücklich „Ich sehe ...“ von „Ich deute ...“.",
+          "sample": "In der Museumsabbildung sind drei Figuren dicht beisammen; die große Figur umfasst die beiden kleineren. Die geschlossene, gerundete Anordnung kann als Schutz und Fürsorge gedeutet werden. Solche Deutungen sagen nichts Sicheres über Gefühle wirklicher Personen. Ohne betrachtete Abbildung keine Bildbeobachtungspunkte vergeben.",
+          "criteria": [
+            "Je 1 Punkt für zwei verschiedene, wirklich sichtbare Merkmale der konkreten Abbildung.",
+            "Je 1 Punkt für zwei daran begründete mögliche Deutungen.",
+            "1 Punkt für sprachliche Trennung von Beobachtung und Deutung. Museumstext allein ersetzt keine Bildbeobachtung; bei unzugänglichem oder abgelehntem Bild nicht bewerten."
+          ]
+        },
+        {
+          "id": "et-liebe-c",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C · Zwei Formen vergleichen (5 Hauptpunkte): Benenne für jedes Werk eine mögliche Form der Liebe oder Zuneigung und begründe jede mit einem Merkmal. Formuliere eine Gemeinsamkeit und einen Unterschied. Erkläre kurz, weshalb diese zwei Werke nicht festlegen, wie alle Menschen und Familien Zuneigung zeigen.",
+          "sample": "Das Gedicht lässt sich als Zuwendung zu einer angesprochenen Person lesen, belegt durch die direkte Anrede. Die Skulptur kann schützende Nähe zwischen dargestellten Familienfiguren zeigen, belegt durch ihre Anordnung. Beide gestalten Nähe; das Gedicht tut es mit Worten, die Skulptur mit Körperhaltung. Zwei gestaltete Einzelwerke beschreiben nicht alle Beziehungen oder Familien.",
+          "criteria": [
+            "Je 1 Punkt nur für die Kombination aus möglicher Form und passendem Werkmerkmal pro Werk.",
+            "1 Punkt für eine belegbare Gemeinsamkeit.",
+            "1 Punkt für einen belegbaren Unterschied.",
+            "1 Punkt für eine begründete Nichtverallgemeinerung. Keine eigene Erfahrung verlangen; ohne beide zugänglichen Werke nicht bewerten."
+          ]
+        },
+        {
+          "id": "et-liebe-d",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "D · Grenzen einer Deutung (5 Hauptpunkte): Schreibe zwei verschiedene Aussagen auf, die du aus diesen Werken nicht sicher über wirkliche Personen weißt. Erkläre jeweils warum. Formuliere dann einen fairen Satz, weshalb mehrere passende Deutungen möglich sind, wenn sie am Werk begründet werden.",
+          "sample": "Das Gedicht beweist nicht Goethes eigene Gefühle, weil das lyrische Ich eine gestaltete Stimme ist. Die Skulptur beweist nicht, wie jede wirkliche Mutter empfindet, weil sie ein gestaltetes Einzelwerk zeigt. Mehrere Deutungen können gelten, wenn sie an unterschiedlichen oder mehrdeutigen Text- und Bildmerkmalen begründet werden.",
+          "criteria": [
+            "Je 1 Punkt für zwei verschiedene werkbezogene, nicht belegte Realweltaussagen.",
+            "Je 1 Punkt für eine passende Erklärung der jeweiligen Erkenntnisgrenze.",
+            "1 Punkt für einen fairen Satz zu mehreren am Werk begründbaren Deutungen. Private Angaben nicht bewerten."
+          ]
+        },
+        {
+          "id": "et-liebe-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer nach A–D · 6 getrennte Zusatzpunkte: Wähle aus einem Werk ein weiteres Merkmal, das du oben noch nicht verwendet hast. Beschreibe es genau und gib zwei unterschiedliche mögliche Deutungen. Welche ist am Werk besser belegbar, und was bleibt trotzdem offen?",
+          "sample": "Ein neues Naturbild aus dem Gedicht kann die Freude an der Natur als Spiegel persönlicher Zuneigung oder als eigenständige Naturfreude zeigen. Welche Deutung der Text stärker stützt, hängt von der konkreten Textstelle und ihrer Verbindung zur Anrede ab. Das beweist Goethes wirkliche Gefühle nicht. Ein anderes neues sichtbares Bildmerkmal ist ebenso möglich.",
+          "criteria": [
+            "1 Zusatzpunkt für ein bisher nicht verwendetes, genau lokalisierbares Merkmal.",
+            "1 Zusatzpunkt für eine korrekte Beschreibung.",
+            "Je 1 Zusatzpunkt für zwei unterschiedliche vertretbare Deutungen.",
+            "1 Zusatzpunkt für die am Werk begründete stärkere Deutung.",
+            "1 Zusatzpunkt für eine bleibende Unsicherheit. Zusatzpunkte getrennt werten."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2025/26 amtlich belegt; 2026/27 ungeklärt",
+        "gradeBand": "7/8, Ziel Ende Klasse 8",
+        "competencyRef": "Ethik Gymnasium 2012, §2.2.2, PDF-S.16/Drucks.17: verschiedene Formen der Liebe an Beispielen aus Kunst und Literatur charakterisieren, Zielmarke Klassenstufe 8. Dieser Fall vergleicht nur zwei Werke und deckt das Gesamtziel nicht ab.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "et-algebra-kulturtransfer",
       "subjectId": "et",
       "title": "Wie reist ein Wort durch Zeiten und Sprachen?",

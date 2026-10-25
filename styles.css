@@ -309,3 +309,5 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="go-reisepfeile-b"]{break-inside:avoid}}
 
 @media print{#print-surface:has(.print-task[data-task-id="fr-qui-est-ce-plan"]) .print-practice{break-before:page}}
+
+@media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="fr-graphique-a"]){font-size:9pt;line-height:1.12}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="fr-graphique-a"]) .print-task{margin-bottom:.5rem}}

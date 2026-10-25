@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 410" role="img" aria-labelledby="title description">
+  <title id="title">Livres empruntés par un club de lecture fictif, janvier à mars 2027</title>
+  <desc id="description">Diagramme à barres. Janvier: quatre livres. Février: sept livres. Mars: cinq livres. Axe vertical en livres, de zéro à huit.</desc>
+  <rect width="640" height="410" fill="#ffffff"/>
+  <text x="320" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#14253d">Livres empruntés par le club de lecture</text>
+  <text x="320" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#14253d">Janvier - mars 2027 · données fictives</text>
+  <line x1="95" y1="315" x2="585" y2="315" stroke="#14253d" stroke-width="2"/>
+  <line x1="95" y1="315" x2="95" y2="75" stroke="#14253d" stroke-width="2"/>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#14253d" text-anchor="end">
+    <text x="81" y="320">0</text><text x="81" y="260">2</text><text x="81" y="200">4</text><text x="81" y="140">6</text><text x="81" y="80">8</text>
+  </g>
+  <g stroke="#b8c3d1" stroke-width="1" stroke-dasharray="4 5">
+    <line x1="96" y1="255" x2="585" y2="255"/><line x1="96" y1="195" x2="585" y2="195"/><line x1="96" y1="135" x2="585" y2="135"/><line x1="96" y1="75" x2="585" y2="75"/>
+  </g>
+  <g fill="#d8e8f2" stroke="#17446b" stroke-width="2">
+    <rect x="148" y="195" width="82" height="120"/>
+    <rect x="288" y="105" width="82" height="210"/>
+    <rect x="428" y="165" width="82" height="150"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#14253d" text-anchor="middle">
+    <text x="189" y="185">4</text><text x="329" y="95">7</text><text x="469" y="155">5</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="17" fill="#14253d" text-anchor="middle">
+    <text x="189" y="342">janvier</text><text x="329" y="342">février</text><text x="469" y="342">mars</text>
+  </g>
+  <text x="30" y="195" transform="rotate(-90 30 195)" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#14253d">Nombre de livres</text>
+  <text x="320" y="384" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#14253d">Mois</text>
+</svg>

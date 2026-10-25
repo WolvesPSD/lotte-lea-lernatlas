@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-25T07:24:32.253Z",
-  "releaseVersion": "2026.10.25-frbeschreibung.1",
+  "builtAt": "2026-10-25T07:41:54.655Z",
+  "releaseVersion": "2026.10.25-frgrafik.1",
   "newTopicIds": [
-    "fr-qui-est-ce-description"
+    "fr-graphique-club-message"
   ],
   "changeLog": [
-    "Französisch: freiwilliger Klasse-8-Ausblick zum mündlichen Beschreiben erfundener Karten, mit lösungsfreier A4-Kartenvorlage.",
-    "167 Themen und 749 Textaufgaben; die 20 Sprechkriterien dürfen nur nach echter französischkundiger Beobachtung gewertet werden. Keine privaten Profile, Fotos, Aufnahmen oder Lernstände im Paket."
+    "Französisch: freiwilliger Klasse-8-Ausblick, fiktives Balkendiagramm lesen und eine Nachricht an Camille mit drei Monatswerten schreiben.",
+    "168 Themen und 753 Textaufgaben; Hauptteil 20 Kriterienpunkte, spätere fiktive Korrektur 6 Zusatzpunkte. Keine privaten Profile, Fotos, Aufnahmen oder Lernstände im Paket."
   ],
-  "rollbackCommit": "56649d00824d4d94c98a8621a571ef3bb2c8d042",
+  "rollbackCommit": "cdd4a7b071bbb3b7a6793cf2b7ceeb0a97679667",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",
@@ -133,6 +133,7 @@
     "fr-bilderausstellung-vortrag",
     "fr-mes-gouts-envies",
     "fr-qui-est-ce-description",
+    "fr-graphique-club-message",
     "en-write-retell-lantern-walk",
     "en-write-rooftop-poem",
     "en-small-note-poem",
@@ -252,7 +253,8 @@
     "fr-questionnaire-atelier-cartes",
     "mbi-i1-datumswerte-sortieren",
     "mbi-i6-anwendungsfelder",
-    "fr-qui-est-ce-description"
+    "fr-qui-est-ce-description",
+    "fr-graphique-club-message"
   ],
   "unclearValidityTopics": [
     "et-algebra-kulturtransfer",

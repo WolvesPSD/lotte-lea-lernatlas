@@ -11659,6 +11659,112 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "fr-graphique-club-message",
+      "subjectId": "fr",
+      "title": "Un graphique pour écrire à Camille",
+      "scope": "Freiwilliger, gestützter Klasse-8-Ausblick: Informationen aus einer grafischen Darstellung entnehmen und in einer französischen Nachricht nutzen. Lottes Unterrichtsfolge ist unbekannt; dies ist keine Klasse-7-Abdeckung.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Lies die fiktive Grafik oder die gleichwertige Textfassung. Für die französische Nachricht helfen einfache Monatsnamen und kurze Sätze; Ziffern sind erlaubt. Notiere, welchen Zugang du genutzt hast: Der Textweg belegt kein visuelles Diagrammlesen. Keine echten Clubdaten oder eigenen Lesegewohnheiten eingeben.",
+      "introduction": "Der erfundene Leseclub hat von Januar bis März 2027 Bücher ausgeliehen. Lies die Balken oder denselben Datensatz im Textweg. Schreibe danach an die erfundene Camille eine kurze französische Nachricht und trenne Buchzahlen von Aussagen über Menschen. A–C haben 20 Kriterienpunkte; eine spätere fiktive Korrektur hat sechs getrennte Zusatzpunkte. Die App bewertet freie Sätze nicht automatisch.",
+      "diagram": {
+        "path": "assets/fr-w-club-livres-jan-mars-2027.svg",
+        "alt": "Fiktives Balkendiagramm: ausgeliehene Bücher eines Leseclubs, Januar bis März 2027. Januar 4, Februar 7, März 5; die Textfassung direkt darunter enthält denselben Datensatz.",
+        "caption": "Eigene fiktive Grafik; senkrechte Achse: Anzahl ausgeliehener Bücher, waagerechte Achse: Monate. Auf kleinen Bildschirmen seitlich wischen oder die Grafik im neuen Tab vergrössern. Der Textweg direkt darunter nennt dieselben Daten."
+      },
+      "lab": {
+        "path": "assets/fr-w-club-livres-jan-mars-2027.svg",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/fr-w-club-livres-jan-mars-2027.svg",
+        "title": "Balkendiagramm gross ansehen",
+        "description": "Öffnet nur dieselbe fiktive SVG-Grafik in einem neuen Tab; du kannst dort zoomen. Die Textfassung steht auch im Übungsraum.",
+        "printNote": "Die Grafik steht im Kinderblatt. Der separate Link zeigt dieselben fiktiven Zahlen vergrösserbar; der Textweg ist eine gleichwertige Datenquelle, aber kein Nachweis für visuelles Ablesen."
+      },
+      "passage": "TEXTWEG ZUR GRAFIK · Derselbe erfundene Datensatz, keine Lösung. Titel: „Livres empruntés par le club de lecture“. Zeitraum: janvier–mars 2027. Die senkrechte Achse zählt ausgeliehene Bücher, keine Personen.\njanvier · 4 livres empruntés\nfévrier · 7 livres empruntés\nmars · 5 livres empruntés\n\nWORTSTÜTZE · un graphique = ein Diagramm · le club de lecture = der Leseclub · un livre emprunté = ein ausgeliehenes Buch · en janvier/février/mars = im Januar/Februar/März · plus que = mehr als · moins que = weniger als. Satzanfänge bei Bedarf: « Bonjour Camille, … » · « Le graphique montre … » · « En …, il y a … livres. » · « À bientôt, … ». Setze Angaben selbst ein und erfinde keine Ursache für Unterschiede.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–C festhalten und spätere Clubkorrektur zeigen",
+        "text": "SPÄTERE FIKTIVE KORREKTUR NACH A–C · Am nächsten Tag meldet der erfundene Club: Der März-Balken war zunächst mit 5 Büchern gezeichnet, richtig sind 6 Bücher. Januar bleibt bei 4 und Februar bei 7. Die ursprüngliche Grafik ist für März nun veraltet. Beurteile deine ersten Antworten nach dem damaligen Quellenstand; die sechs Zusatzpunkte gehören nicht zu den 20 Hauptpunkten."
+      },
+      "tasks": [
+        {
+          "id": "fr-graphique-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "A · Quelle lesen (4 Hauptpunkte): Notiere zu janvier, février und mars je den Balkenwert. Nenne die Einheit der senkrechten Achse. Du darfst für die Einheit Deutsch verwenden. Notiere ausserhalb der Punkte, ob du Grafik oder Textweg genutzt hast; ein Textweg belegt kein visuelles Ablesen.",
+          "sample": "janvier: 4; février: 7; mars: 5. Einheit: ausgeliehene Bücher / livres empruntés, nicht Personen oder Prozent. Genutzten Zugang ehrlich notieren.",
+          "criteria": [
+            "Je 1 Punkt für Januar 4, Februar 7 und März 5.",
+            "1 Punkt für Bücher/livres als Einheit, nicht Personen oder Prozent. Die Zugangsangabe ist wichtig für die Einordnung, aber kein zusätzlicher Punkt."
+          ]
+        },
+        {
+          "id": "fr-graphique-b",
+          "kind": "reflection",
+          "points": 12,
+          "writingLines": 13,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "B · Nachricht an Camille (12 Hauptpunkte): Schreibe mindestens vier eigene, verständliche französische Sätze. Nenne den fiktiven Leseclub und Januar–März 2027, alle drei Monatswerte und einen sachlich richtigen Vergleich von wenigstens zwei Monaten. Sage vorsichtig, dass die Grafik nur ausgeliehene Bücher zählt, nicht Vorlieben oder Clubmitglieder. Verwende Anrede und Abschluss; Ziffern sind erlaubt. Erfinde keine Ursache für die Unterschiede.",
+          "sample": "Bonjour Camille, le graphique montre les livres empruntés par le club de lecture de janvier à mars 2027. En janvier, il y a 4 livres empruntés. En février, il y en a 7. En mars, il y en a 5. En février, le club a emprunté 2 livres de plus qu’en mars. Le graphique compte seulement des livres empruntés; il ne montre pas les préférences de tous les élèves. À bientôt ! Andere kurze, sinngleiche französische Sätze gelten.",
+          "criteria": [
+            "1 Punkt für passende Anrede an Camille.",
+            "1 Punkt für den fiktiven Leseclub als Quelle.",
+            "1 Punkt für Zeitraum Januar–März 2027.",
+            "Je 1 Punkt für drei korrekte Monatswerte mit Monat (3).",
+            "2 Punkte für einen Vergleich: Monate klar 1, richtige Relation oder Differenz 1.",
+            "2 Punkte für wenigstens vier selbst formulierte verständliche französische Sätze: vier passende Sätze 1, verständliche Verknüpfung oder Adressatenbezug 1.",
+            "1 Punkt für die Grenze: nur ausgeliehene Bücher, keine Personen oder Vorlieben daraus ableiten.",
+            "1 Punkt für passenden Abschluss. Kleine Schreibfehler ohne Bedeutungsverlust nicht mehrfach abziehen; A und B nach jeweils geschriebenem Text getrennt beurteilen."
+          ]
+        },
+        {
+          "id": "fr-graphique-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "C · Aprilbehauptung prüfen (4 Hauptpunkte): Eine erfundene Person sagt: « En avril, le club empruntera huit livres. » Auf welche Monate bezieht sich die Grafik? Ist die Aprilzahl acht damit belegt? Warum macht der höhere Februarwert keine sichere April-Vorhersage? Was müsste später gezählt werden, um die tatsächliche Aprilzahl festzustellen? Du darfst Deutsch oder einfaches Französisch verwenden.",
+          "sample": "Die Grafik reicht von Januar bis März 2027. April kommt nicht vor; acht Bücher sind deshalb nicht belegt. Aus drei früheren Monatswerten folgt kein festes Zukunftsmuster. Man müsste später die April-Ausleihen desselben Clubs in derselben Einheit zählen.",
+          "criteria": [
+            "1 Punkt für Zeitraum Januar–März 2027.",
+            "1 Punkt für fehlenden Aprilwert und unbelegte Acht-Bücher-Behauptung.",
+            "1 Punkt für die Grenze einer Prognose aus dem höheren Februarwert und drei bisherigen Monaten.",
+            "1 Punkt für eine spätere April-Ausleihzählung desselben Clubs mit gleicher Einheit. Keine Ursache oder Zahl erfinden."
+          ]
+        },
+        {
+          "id": "fr-graphique-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige spätere Clubkorrektur nach A–C · sechs getrennte Zusatzpunkte: Nenne den neuen Märzwert und die unveränderten Werte. Welcher Monat hat nun den höchsten Wert und wie viele Bücher liegt er über dem korrigierten März? Schreibe an Camille einen verständlichen französischen Korrektursatz, der 5 nicht als aktuellen Märzwert ausgibt. Warum beweist auch die Korrektur keine Vorlieben aller Schülerinnen und Schüler?",
+          "sample": "März wurde von 5 auf 6 Bücher korrigiert; Januar bleibt 4, Februar 7. Februar ist mit 7 am höchsten, ein Buch über März. « Correction : en mars, le club a emprunté six livres, pas cinq. » Auch korrigierte Ausleihzahlen sagen nicht, was alle Schülerinnen und Schüler bevorzugen.",
+          "criteria": [
+            "1 Zusatzpunkt für März 6.",
+            "1 Zusatzpunkt für Januar 4 und Februar 7 als unveränderte Werte zusammen.",
+            "1 Zusatzpunkt für Februar als höchsten Monat mit 7.",
+            "1 Zusatzpunkt für den Vorsprung von einem Buch vor März 6.",
+            "1 Zusatzpunkt für einen verständlichen französischen Korrektursatz, der März 5 nicht weiter als gültig ausgibt.",
+            "1 Zusatzpunkt für die Grenze: Buchzahlen beweisen keine Vorlieben aller Schülerinnen und Schüler. Die alten Hauptantworten bleiben nach dem damaligen Quellenstand gültig."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Französisch Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. Zweite Fremdsprache § 3.2.4, PDF-S. 62: Informationen aus Bildern und grafischen Darstellungen für Schreibaufgaben entnehmen und nutzen; Ziel der Klassenstufe 8.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "en-write-retell-lantern-walk",
       "subjectId": "en",
       "title": "Retell a short story: The lantern walk",

@@ -83,7 +83,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "plan": "2021 (2025/26)",
       "scope": "7/8; Stand 2026/27 offen",
       "availabilityLabel": "Lehrplan 2026/27 ungeklärt",
-      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Geschichte-Lehrplan gilt. Deshalb gibt es hier noch keine freigegebene Aufgabe."
+      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Geschichte-Lehrplan gilt. Zwei freiwillige Quellenfälle aus der älteren Fassung sind verfügbar; sie sind keine bestätigten aktuellen Klasse-7-Einheiten."
     },
     {
       "id": "go",

@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-25T00:37:09.149Z",
-  "releaseVersion": "2026.10.25-mbii6standort.1",
-  "newTopicIds": [
-    "mbi-i6-standortzugriff"
-  ],
+  "builtAt": "2026-10-25T00:43:56.446Z",
+  "releaseVersion": "2026.10.25-historylabel.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Medienbildung und Informatik: Neuer freiwilliger Ende-Klasse-8-Ausblick zum Android-Standortzugriff anhand der erfundenen App Busblick.",
-    "Fünf gestufte Aufgaben trennen Berechtigung, fiktiven Abruf, unbelegte Übertragung und Speicherung; keine echten Standortdaten oder Geräteeinstellungen nötig."
+    "Geschichte: Der Fachhinweis benennt die zwei bereits vorhandenen freiwilligen Quellenfälle zutreffend.",
+    "Der Lehrplan für Klasse 7 im Schuljahr 2026/27 bleibt ungeklärt; Themen und reguläre Aufgaben bleiben unverändert."
   ],
-  "rollbackCommit": "f526f9c2fe64d93c444253b99745dccdbc91140e",
+  "rollbackCommit": "1ff895f96b795332302065c741b9a7f4347b30db",
   "releasedTopics": [
     "mbi-i6-standortzugriff",
     "mnt-samenpflanzen-bluete-beobachtung",

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ideenwand – fiktive Sichtbarkeit prüfen</title>
+<style>
+  :root{font-family:system-ui,Arial,sans-serif;color:#183034;background:#f6f3ee}
+  *{box-sizing:border-box}body{margin:0}main{max-width:960px;margin:auto;padding:1rem 1rem 3rem}
+  h1{font-size:clamp(1.6rem,4vw,2.2rem);line-height:1.15}h2{font-size:1.25rem;margin-top:0}
+  p,li{line-height:1.5}.note{background:#e6f3ef;border-left:5px solid #0d6266;padding:.75rem 1rem}
+  .card{background:white;border:1px solid #d2d7d4;border-radius:14px;padding:1rem;margin:1rem 0}
+  .scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;margin:.7rem 0}
+  th,td{border:1px solid #b8c5c4;padding:.5rem;text-align:left;vertical-align:top}
+  th{background:#e7eeee}.controls{display:flex;flex-wrap:wrap;gap:.65rem;margin:1rem 0}
+  button{font:inherit;min-height:44px;padding:.6rem .9rem;border-radius:.5rem;border:1px solid #0b5961;background:#0b5961;color:white;font-weight:700;cursor:pointer}
+  button.secondary{color:#0b5961;background:white}button:focus-visible{outline:3px solid #c88300;outline-offset:3px}
+  .status{font-weight:700;color:#0b5961}.yes{color:#126034;font-weight:700}.no{color:#8a2e2e;font-weight:700}
+  @media print{body{background:white}.card{break-inside:avoid}button{display:none}main{max-width:none}}
+</style>
+</head>
+<body><main>
+<h1>Ideenwand: Wer sieht den Beitrag?</h1>
+<p class="note">Diese Ideenwand ist vollständig erfunden. Hier gibt es keine Anmeldung, kein echtes Profil, keine Texteingabe und keine Übertragung. Die Einstellung gilt nur bis zum Neuladen oder Schliessen dieser Seite. Das ist ein freiwilliger Ausblick auf ein Ende-Klasse-8-Ziel, keine Aussage über eine echte Plattform.</p>
+
+<section class="card" aria-labelledby="data-heading">
+<h2 id="data-heading">1. Gegebene Modelldaten lesen</h2>
+<p>Beim Anlegen eines Profils gibt die erfundene Person Alias und Thema ein; die Ideenwand vergibt die Kennung. Beim Öffnen eines Beitrags erfasst sie Profilkennung, Beitragskennung und Uhrzeit automatisch. Eine Änderung unten betrifft <strong>nur Profil.Sichtbarkeit von P17</strong>; andere Tabellen erhalten keine neue Operation.</p>
+<div class="scroll"><table><caption>Profil</caption><thead><tr><th scope="col">Kennung</th><th scope="col">Alias</th><th scope="col">Thema</th><th scope="col">Sichtbarkeit</th></tr></thead><tbody><tr><td>P17</td><td>Nova</td><td>Mond</td><td id="profile-visibility">alle</td></tr><tr><td>P20</td><td>Fuchs</td><td>Tiere</td><td>alle</td></tr><tr><td>P30</td><td>Klee</td><td>Pflanzen</td><td>alle</td></tr></tbody></table></div>
+<div class="scroll"><table><caption>Folgt</caption><thead><tr><th scope="col">Beziehung</th><th scope="col">Lesart</th></tr></thead><tbody><tr><td>P20 → P17</td><td>P20 folgt P17. Weitere Beziehungen sind nicht gespeichert.</td></tr></tbody></table></div>
+<div class="scroll"><table><caption>Beitrag</caption><thead><tr><th scope="col">Kennung</th><th scope="col">Autor</th><th scope="col">Titel</th></tr></thead><tbody><tr><td>B8</td><td>P17</td><td>Mondskizze</td></tr><tr><td>B9</td><td>P20</td><td>Fuchsspuren</td></tr></tbody></table></div>
+</section>
+
+<section class="card" aria-labelledby="try-heading">
+<h2 id="try-heading">2. Voraussagen, dann umstellen</h2>
+<p>Regel des Modells für die beiden Demo-Profile: Bei „alle“ dürfen P20 und P30 P17s Beiträge sehen. Bei „nur Folgende“ darf eines dieser Profile P17s Beiträge nur sehen, wenn in „Folgt“ seine Beziehung zu P17 gespeichert ist. Sage vor dem Klick für P20 und P30 je „ja“ oder „nein“ voraus. Prüfe danach die Anzeige.</p>
+<div class="controls"><button type="button" id="followers-only">P17 auf „nur Folgende“ stellen</button><button type="button" id="reset" class="secondary">Startzustand wiederherstellen</button></div>
+<p class="status" id="mode-status" role="status" aria-live="polite">Aktuell: P17.Sichtbarkeit = alle</p>
+<div class="scroll"><table><caption>Wer dürfte B8 jetzt anzeigen?</caption><thead><tr><th scope="col">Demo-Rolle</th><th scope="col">B8 sehen?</th><th scope="col">Begründung</th></tr></thead><tbody><tr><th scope="row">P20</th><td id="p20-result"></td><td id="p20-reason"></td></tr><tr><th scope="row">P30</th><td id="p30-result"></td><td id="p30-reason"></td></tr></tbody></table></div>
+</section>
+
+<section class="card" aria-labelledby="trace-heading">
+<h2 id="trace-heading">3. Anzeige und Datenspur getrennt betrachten</h2>
+<p>Diese zwei erfundenen Aufrufe geschahen <strong>vor</strong> der Umstellung, als B8 für beide Demo-Rollen sichtbar war. Vergleiche nach dem Klick die angezeigte Sichtbarkeit mit den Zeilen in der Tabelle. Ein möglicher späterer Versuch von P30 wird hier nicht simuliert oder protokolliert.</p>
+<div class="scroll"><table><caption>Aufruf – fiktive vorhandene Zeilen</caption><thead><tr><th scope="col">Kennung</th><th scope="col">Profil</th><th scope="col">Beitrag</th><th scope="col">Uhrzeit</th></tr></thead><tbody id="trace-rows"><tr><td>A1</td><td>P20</td><td>B8</td><td>14:05</td></tr><tr><td>A2</td><td>P30</td><td>B8</td><td>14:06</td></tr></tbody></table></div>
+<p>Was folgt im Modell aus einer Änderung allein an <code>Profil.Sichtbarkeit</code> für die beiden vorhandenen Aufrufzeilen? Begründe auf deinem Arbeitsblatt mit der Änderungsregel. Das Labor vergibt dafür keine automatische Bewertung.</p>
+</section>
+<p>Die Demo hält ihren Zustand nur im Arbeitsspeicher dieser Seite. Sie nutzt weder Browser-Speicher noch Netzwerkanfragen. Auf echten Plattformen können Sichtbarkeit und Speicherung anders funktionieren.</p>
+</main><script>
+(() => {
+  'use strict';
+  let visibility = 'alle';
+  let checked = false;
+  const byId = id => document.getElementById(id);
+  function showResult(id, allowed, reason) {
+    const cell = byId(`${id}-result`);
+    cell.textContent = allowed ? 'Ja' : 'Nein';
+    cell.className = allowed ? 'yes' : 'no';
+    byId(`${id}-reason`).textContent = reason;
+  }
+  function render() {
+    const followersOnly = visibility === 'nur Folgende';
+    byId('profile-visibility').textContent = visibility;
+    byId('mode-status').textContent = `Aktuell: P17.Sichtbarkeit = ${visibility}`;
+    if (!checked) {
+      for (const id of ['p20', 'p30']) {
+        byId(`${id}-result`).textContent = 'Noch nicht geprüft';
+        byId(`${id}-result`).className = '';
+        byId(`${id}-reason`).textContent = 'Sage das Ergebnis vor dem Klick voraus.';
+      }
+      return;
+    }
+    showResult('p20', true, followersOnly ? 'P20 → P17 ist gespeichert.' : 'P17 ist für alle sichtbar.');
+    showResult('p30', !followersOnly, followersOnly ? 'Für P30 ist keine Folgebeziehung zu P17 gespeichert.' : 'P17 ist für alle sichtbar.');
+  }
+  byId('followers-only').addEventListener('click', () => { visibility = 'nur Folgende'; checked = true; render(); });
+  byId('reset').addEventListener('click', () => { visibility = 'alle'; checked = false; render(); });
+  render();
+})();
+</script></body>
+</html>

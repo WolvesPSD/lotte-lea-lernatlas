@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-24T23:57:30.098Z",
-  "releaseVersion": "2026.10.25-mbii6youtube.1",
+  "builtAt": "2026-10-25T00:09:18.863Z",
+  "releaseVersion": "2026.10.25-mbii6profil.1",
   "newTopicIds": [
-    "mbi-i6-youtube-verlauf-empfehlungen"
+    "mbi-i6-ideenwand-sichtbarkeit"
   ],
   "changeLog": [
-    "Medienbildung und Informatik: mit zwei YouTube-Hilfekarten den begrenzten Zusammenhang von Wiedergabeverlauf und Empfehlungen erklären.",
-    "Historischen FTC-Sammelbefund von aktuellen Anbieterangaben trennen; freiwilliger Quellen-Transfer erst nach A–C, ohne echte Kontonutzung."
+    "Medienbildung und Informatik: an einer vollständig erfundenen Ideenwand Profil-Sichtbarkeit, Folgebeziehung und vorhandene Aufrufzeilen unterscheiden.",
+    "Vorhersage vor dem Klick; Modellantworten erst danach sichtbar, freiwilliger Transfer nach A–D und keine echten Profile oder Nutzungsdaten."
   ],
-  "rollbackCommit": "5e82a0f77102b49fc99bf97419ffc3e333877959",
+  "rollbackCommit": "562a74ac24e05b7baf986a5f6a5e486116053267",
   "releasedTopics": [
     "ma-koerper-netzkarten",
     "de-wortarten-form-funktion",
@@ -137,6 +137,7 @@
     "go-thueringen-wirtschaftssektoren",
     "go-gradnetz-modellorte",
     "go-drei-gesteinswege",
+    "mbi-i6-ideenwand-sichtbarkeit",
     "mbi-i6-youtube-verlauf-empfehlungen",
     "mbi-i6-cookie-datenweg",
     "mbi-i3-finanzierungsmodelle",
@@ -215,6 +216,7 @@
     "en-write-retell-lantern-walk",
     "en-write-rooftop-poem",
     "ma-schraegbild-darstellungen",
+    "mbi-i6-ideenwand-sichtbarkeit",
     "mbi-i6-youtube-verlauf-empfehlungen",
     "mbi-i6-cookie-datenweg",
     "mbi-i3-finanzierungsmodelle",

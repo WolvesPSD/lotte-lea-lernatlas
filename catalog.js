@@ -11973,6 +11973,116 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-i6-ideenwand-sichtbarkeit",
+      "subjectId": "mbi",
+      "title": "Wer sieht die erfundene Ideenwand?",
+      "scope": "Freiwilliger Klasse-7-Vorgriff auf die I6-Zielmarke Ende Klasse 8 ab 2027/28. Mit vollständig erfundenen Profilen, Tabellen und Aufrufen lässt sich eine Sichtbarkeitsänderung in einer lokalen Demo prüfen. Keine aktuelle Schuleinheit oder reale Plattformhandlung belegt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Alle Profile, Beiträge, Beziehungen und Aufrufzeiten sind erfunden. Öffne kein echtes Konto und gib keine persönlichen Angaben ein. Sage die Wirkung zuerst auf Papier voraus, stelle dann nur P17 in der Demo um und vergleiche Anzeige und gespeicherte Modellzeilen. Das Labor prüft keine echte Privatsphäre-Einstellung; deine freien Antworten bewertet ein Mensch.",
+      "introduction": "Die „Ideenwand“ ist ein erfundenes Mini-System. Unterscheide Eingaben, automatisch erfasste Aufrufe, Tabellenbeziehungen und die Wirkung einer Sichtbarkeitsregel. A–D haben zusammen 20 Kriterienpunkte. Sage in C die Anzeige für P20 und P30 vor dem Klick voraus und prüfe danach die lokale Demo. Ein freiwilliger Transfer mit sechs getrennten Zusatzpunkten erscheint erst nach A–D. Das ist Lernfeedback, keine Schulnote.",
+      "passage": "FIKTIVES IDEENWAND-MODELL · Profil: P17/Nova/Mond/Sichtbarkeit alle; P20/Fuchs/Tiere/alle; P30/Klee/Pflanzen/alle. Folgt: P20 → P17 (P20 folgt P17); keine weitere Folgezeile. Beitrag: B8/Autor P17/Mondskizze; B9/Autor P20/Fuchsspuren. Aufruf: A1/P20/B8/14:05 und A2/P30/B8/14:06; beide Aufrufe entstanden, bevor eine Einstellung geändert wird.\n\nBeim Anlegen gibt die erfundene Person Alias und Thema selbst ein; das System vergibt die Profilkennung. Beim Öffnen erfasst es Profilkennung, Beitragskennung und Uhrzeit automatisch. Profil.Sichtbarkeit gilt für alle Beiträge der Autorin oder des Autors. Bei „alle“ dürfen alle Profile B8 sehen. Bei „nur Folgende“ darf ein Profil B8 nur sehen, wenn es P17 laut Folgt-Tabelle folgt. Die Änderung betrifft ausschliesslich Profil.Sichtbarkeit von P17; für andere Tabellen gibt es keine Operation. Die vorhandene Aufruf-Tabelle ist nur für die fiktive Systemverwaltung lesbar. Über eine echte Plattform sagt dieses Modell nichts.",
+      "lab": {
+        "path": "assets/mbi-i6-ideenwand.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/mbi-i6-ideenwand.html",
+        "title": "Ideenwand-Demo",
+        "description": "Öffne die erfundene Ideenwand in einem neuen Tab. Sage P20/P30 zuerst voraus, stelle P17 auf „nur Folgende“ und vergleiche die Anzeige mit den unveränderten alten Aufrufen A1/A2. Der Demo-Zustand endet beim Schliessen oder Neuladen; keine echten Daten eingeben.",
+        "printNote": "Die rein fiktive Demo: Start „alle“; nach eigener Vorhersage P17 auf „nur Folgende“ stellen, die Anzeigen für P20 und P30 vergleichen und die alten Aufrufzeilen A1/A2 gesondert prüfen. Auf Papier begründen; kein echter Plattform- oder Datenbanknachweis."
+      },
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und zweiten Beitrag zeigen",
+        "text": "FREIWILLIGER ZWEITER BEITRAG NACH A–D · Die erfundene Person P17 veröffentlicht B10 nach der Umstellung auf „nur Folgende“. Zu B10 gibt es noch keinen Aufruf. P20 → P17 bleibt die einzige Folgezeile. P20 öffnet B10 später um 15:00. Danach stellt P17 wieder auf „alle“. Begründe jeden Schritt nur mit den Modellregeln; die Demo selbst enthält B10 nicht."
+      },
+      "tasks": [
+        {
+          "id": "mbi-ideenwand-a",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A · Erfassen und Speichern (5 Hauptpunkte): Nenne zwei Angaben, die im Modell eine Person manuell eingibt, und zwei einzelne Angaben, die das System automatisch vergibt oder erfasst. Erkläre an A1, warum ein Aufruf auch ohne Texteingabe eine Datenspur ist.",
+          "sample": "Alias und Thema werden manuell eingegeben. Die Profilkennung wird vergeben und die Uhrzeit eines Aufrufs automatisch erfasst. A1 hält fest, dass P20 B8 um 14:05 öffnete; dafür musste P20 keinen Text eintippen.",
+          "criteria": [
+            "Je 1 Punkt für Alias und Thema als manuelle Angaben.",
+            "Je 1 Punkt für eine vergebene Profilkennung und eine automatisch erfasste Aufrufuhrzeit; ein vollständiger Aufrufdatensatz zählt nicht als einzelne zweite Angabe.",
+            "1 Punkt für A1 als automatisch protokollierten Vorgang ohne Texteingabe."
+          ]
+        },
+        {
+          "id": "mbi-ideenwand-b",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Beziehung und gezielte Abfrage (6 Hauptpunkte): Welche Zeile verbindet P20 mit P17, und wie liest du die Pfeilrichtung? Beschreibe in Alltagssprache, wie du „Wer hat B8 geöffnet?“ mit Kennung, Alias und Uhrzeit aus den Tabellen beantwortest; nenne beide Treffer. Warum zeigt die Autorschaft von B8 keinen Aufruf durch P17?",
+          "sample": "Folgt enthält P20 → P17, also P20 folgt P17. Filtere Aufruf nach B8 und verbinde die Profilkennungen mit Profil, um die Aliasse zu finden: P20/Fuchs 14:05 und P30/Klee 14:06. Beitrag.Autor=P17 ist keine Aufrufzeile für P17.",
+          "criteria": [
+            "1 Punkt für die Folgt-Zeile und 1 für die richtige Pfeilrichtung.",
+            "1 Punkt für Aufruf-Filter B8 plus Profil-Verknüpfung zur Aliasangabe.",
+            "Je 1 Punkt für P20/Fuchs 14:05 und P30/Klee 14:06.",
+            "1 Punkt: Autor P17 ist kein Aufrufbeleg. Alltagssprache genügt; SQL wird nicht verlangt."
+          ]
+        },
+        {
+          "id": "mbi-ideenwand-c",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C · Vorhersage und Demo-Prüfung (6 Hauptpunkte): Nova/P17 möchte B8 nur für Folgende sichtbar machen. Notiere zuerst die eine Feldänderung und deine Vorhersage für P20 und P30 vor/nach der Änderung. Stelle danach P17 in der fiktiven Demo um und vergleiche mit deiner Vorhersage. Begründe, ob A1 und A2 durch diese Feldänderung verschwinden. Falls du die Demo nicht bedienen konntest, kennzeichne deine Antwort als reine Modellvorhersage.",
+          "sample": "P17.Sichtbarkeit: alle → nur Folgende. Vorher sehen P20 und P30 B8. Nachher sieht P20 B8 wegen P20 → P17; P30 nicht, weil keine Folgezeile zu P17 gespeichert ist. A1 und A2 bleiben im Modell, da nur Profil.Sichtbarkeit geändert wird und auf Aufruf keine Operation erfolgt. Die Demo zeigt diese Anzeige und die alten Zeilen getrennt.",
+          "criteria": [
+            "1 Punkt für die konkrete Feldänderung.",
+            "1 Punkt für beide richtigen Vorher-Werte.",
+            "Je 1 Punkt für P20 ja mit Folgt-Zeile und P30 nein ohne Folgt-Zeile.",
+            "2 Punkte für A1/A2 bleiben (1) mit Bezug auf die Änderungsregel (1). Eine bloss behauptete Bedienung ist kein beobachteter Praxisnachweis."
+          ]
+        },
+        {
+          "id": "mbi-ideenwand-d",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Modellgrenze (3 Hauptpunkte): Ein Werbetext behauptet: „Auf echten Plattformen werden alle Aufrufe nach sieben Tagen automatisch gelöscht.“ Lässt sich das aus dieser erfundenen Ideenwand überprüfen? Begründe und nenne eine konkrete fehlende Information. Formuliere ausserdem eine andere prüfbare Betreiberfrage zum Zugriff auf gespeicherte Aufrufe, die nicht nochmals nur nach der Speicherdauer fragt.",
+          "sample": "Nein. Das Modell enthält keine Löschregel eines echten Dienstes; dazu bräuchte man etwa eine überprüfbare aktuelle Aufbewahrungs- oder Löschbeschreibung des konkreten Betreibers. Eine andere Frage wäre: Welche Rollen oder Dritten dürfen auf gespeicherte Aufrufe zugreifen?",
+          "criteria": [
+            "1 Punkt: Aussage über echte Plattform aus dem Modell nicht prüfbar.",
+            "1 Punkt: konkret fehlende Betreiberinformation zur Sieben-Tage-Behauptung.",
+            "1 Punkt: neue prüfbare Frage zum Zugriff auf gespeicherte Aufrufe, über die Speicherdauer hinaus."
+          ]
+        },
+        {
+          "id": "mbi-ideenwand-e",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer nach A–D · sechs getrennte Zusatzpunkte: P17 veröffentlicht B10 bei „nur Folgende“. Wer von P20/P30 darf B10 sehen und warum? P20 öffnet B10 um 15:00: Schreibe die neue Aufrufzeile A3 mit allen Modellfeldern. P17 stellt später wieder auf „alle“: Bleibt A3 gespeichert, und darf P30 B10 dann sehen?",
+          "sample": "P20 darf B10 wegen P20 → P17 sehen, P30 mangels Folgezeile nicht. Die neue Zeile lautet A3/P20/B10/15:00. Die spätere Umstellung auf alle löscht A3 nicht, weil sie nur Profil.Sichtbarkeit ändert; P30 darf B10 dann sehen.",
+          "criteria": [
+            "Je 1 Zusatzpunkt für P20 ja mit Beziehung und P30 nein ohne Beziehung.",
+            "1 Zusatzpunkt für A3 und P20; 1 Zusatzpunkt für B10 und 15:00.",
+            "1 Zusatzpunkt für A3 bleibt wegen fehlender Aufruf-Löschoperation; 1 Zusatzpunkt für P30 darf B10 nach alle sehen. Zusatzpunkte getrennt von 20 Hauptpunkten halten."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 8 ab 2027/28. §2.2.6/PDF-S. 27–28: manuelle und automatische Datenerfassung, Speicherung/Auswertung auf Kommunikationsplattformen anhand eines Profils analysieren und personenbezogene Daten schützen; Zielmarke Klasse 8. Hier ein begrenztes fiktives Modell mit tatsächlich bedienbarer Sichtbarkeitsregel.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "mbi-i6-youtube-verlauf-empfehlungen",
       "subjectId": "mbi",
       "title": "Was verrät ein Wiedergabeverlauf?",

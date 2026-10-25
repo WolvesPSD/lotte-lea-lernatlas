@@ -102,6 +102,153 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "mnt-samenpflanzen-bluete-beobachtung",
+      "subjectId": "mnt",
+      "title": "Von der Blüte zum Samen? Und was sieht man wirklich?",
+      "scope": "Freiwillige Klasse-7-Brücke auf dem belegten MNT-Ende-6-Niveau. Erst ein erfundenes Blütenmodell auf Papier prüfen; eine echte Beobachtung zweier Samenpflanzen bleibt eine gesonderte, nur fachkundig beaufsichtigte Möglichkeit. Keine amtliche MNT-Klasse-7-Zuordnung oder bestätigte Schuleinheit.",
+      "levelStatus": "grade6-bridge",
+      "released": true,
+      "prerequisite": "Für diesen MNT-Ende-6-Abschnitt gibt es keine belegte amtliche Klasse-7-Zuordnung zu Lottes Stunde. Alle Kartenwerte sind erfunden. Du brauchst weder eine Pflanze noch ein Gerät für A–E. Die getrennte leere Beobachtungskarte darf nur mit geeigneten, von einer Fachperson als Samenpflanzen bestätigten Originalen und Aufsicht verwendet werden. Nichts pflücken, ausgraben, probieren oder zerlegen; ohne Durchführung bleibt die Praxis „nicht erhoben“. Freie Antworten bewertet die App nicht automatisch.",
+      "introduction": "Drei ausdrücklich erfundene Karten zeigen eine vereinfachte Blütenpflanze, zwei unterschiedliche Blüten und mögliche Fortpflanzungsschritte. Ordne Bau und Vorgänge, begründe nur plausible Übertragungswege und prüfe die Grenze einer Beobachtung. A–E ergeben 20 Kriterienpunkte; eine spätere Z-Karte hat sechs getrennte Zusatzpunkte. Das ist Lernfeedback, keine Schulnote. Die leere Originalpflanzen-Karte ist eine freiwillige andere Lernform und wird nur nach wirklicher, beaufsichtigter Durchführung beurteilt.",
+      "passage": "KARTE A · TEILE EINER FIKTIVEN MODELLBLÜTE: 1 außen grüne Hüllblätter; 2 auffällige farbige Blätter; 3 bildet Pollen in Staubbeuteln; 4 trägt oben die Narbe und unten im Fruchtknoten eine Samenanlage mit Eizelle. Wortbank: Kelchblätter – Kronblätter – Staubblätter – Fruchtblätter. Diese Blüte steht nicht für jede Samenpflanze; auch Zapfenpflanzen tragen Samen.\n\nKARTE B · ZWEI FIKTIVE BLÜTEN: X hat auffällige Kronblätter und Nektar. Ein Insekt saß nur auf einem Kronblatt; Kontakt zu Staubbeutel oder Narbe wurde nicht beobachtet. Y ist unscheinbar; viel leichter Pollen tritt aus frei stehenden Staubbeuteln aus, und Wind trägt Pollen durch die Luft. Ob Pollen eine passende Narbe erreichte, wurde nicht beobachtet. Merkmale legen einen Weg nahe, beweisen seinen Erfolg nicht.\n\nKARTE C · ABSICHTLICH UNGEORDNET: (a) Nach gelungener Befruchtung entwickelt sich im Fruchtknoten eine Samenanlage zum Samen; ein Teil der Blüte entwickelt sich zur Frucht. (b) Eine Samenzelle verschmilzt mit einer Eizelle. (c) Pollen gelangt vom Staubbeutel auf eine passende Narbe. (d) Aus einem Stängelstück einer geeigneten Pflanze entsteht unter passenden Bedingungen eine neue Pflanze ohne Befruchtung und ohne neuen Samen. Das Modell vereinfacht Artenunterschiede; ein Schritt garantiert den nächsten nicht.",
+      "lab": {
+        "path": "assets/mnt-samenpflanzen-beobachtung.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/mnt-samenpflanzen-beobachtung.html",
+        "title": "Leere Karte: zwei Originalpflanzen beobachten",
+        "description": "Öffne und drucke diese leere Kinderkarte nur für eine fachkundig beaufsichtigte Beobachtung. Beide Originale müssen zuvor als Samenpflanzen bestätigt sein. Bildmaterial ist eine getrennte Vorstufe, keine Originalobjekt-Praxis.",
+        "printNote": "Die leere Originalbeobachtungskarte ist separat druckbar. Ohne zwei fachlich bestätigte echte Samenpflanzen und Aufsicht ist die Praxis nicht erhoben; diese Aufgabenkarte enthält keine beobachteten Merkmale.",
+        "scoredInteraction": false
+      },
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–E",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–E festhalten und Z-Karte zeigen",
+        "text": "FREIWILLIGE Z-KARTE NACH A–E · Ein Insekt trägt sichtbar Pollen am Körper. Später sitzt es auf Zs Kronblatt, ohne beobachteten Kontakt zur Narbe. Nach einigen Tagen ist an Z eine kleine Frucht zu sehen; der Ursprung ihres Pollens und die Samen im Inneren wurden nicht untersucht. Diese Daten sind erfunden."
+      },
+      "tasks": [
+        {
+          "id": "mnt-bluete-a",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Bau und Funktion (5 Hauptpunkte): Ordne den Ziffern 1–4 je einen Begriff der Wortbank zu. Nenne aus Karte A das eine Teil von 4, auf dem Pollen zunächst ankommen muss.",
+          "sample": "1 Kelchblätter, 2 Kronblätter, 3 Staubblätter, 4 Fruchtblätter. Pollen muss im Modell zunächst auf der Narbe ankommen.",
+          "criteria": [
+            "Je 1 Punkt für die vier richtigen Baugruppen.",
+            "1 Punkt für Narbe; „Fruchtblatt“ allein benennt die gefragte Teilstelle nicht."
+          ]
+        },
+        {
+          "id": "mnt-bluete-b",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Weg prüfen (4 Hauptpunkte): Welcher Übertragungsweg ist für X und welcher für Y nach den Merkmalen plausibler? Begründe beide Vermutungen mit je einem unterschiedlichen Kartendetail. Schreibe „plausibler“, nicht „bewiesen“.",
+          "sample": "Für X ist Insektenübertragung plausibler, weil X Nektar oder auffällige Kronblätter hat. Für Y ist Windübertragung plausibler, weil viel leichter Pollen frei austritt und vom Wind getragen wird. Für keine Blüte ist ein tatsächlicher Transfer auf eine passende Narbe beobachtet.",
+          "criteria": [
+            "Je 1 Punkt für X/Insekten und Y/Wind als plausible Wege.",
+            "Je 1 Punkt für ein passendes, verschiedenes Kartendetail zu X und Y. Ein sitzendes Insekt oder Wind allein belegt keinen erfolgreichen Transfer."
+          ]
+        },
+        {
+          "id": "mnt-bluete-c",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C · Schritte unterscheiden (5 Hauptpunkte): Ordne a, b, c aus Karte C zeitlich sinnvoll. Benenne die Bestäubung und erkläre, was dabei wohin übertragen wird. Benenne die Befruchtung und erkläre, welche Zellen dabei verschmelzen.",
+          "sample": "Die mögliche Folge ist c → b → a. c ist Bestäubung: Pollen gelangt vom Staubbeutel auf eine passende Narbe. b ist Befruchtung: Samenzelle und Eizelle verschmelzen. a beschreibt die spätere Samen-/Fruchtentwicklung, nicht Bestäubung.",
+          "criteria": [
+            "1 Punkt für c → b → a.",
+            "1 Punkt: c als Bestäubung; 1 Punkt: Pollen vom Staubbeutel auf passende Narbe.",
+            "1 Punkt: b als Befruchtung; 1 Punkt: Verschmelzung von Samen- und Eizelle. Die Reihenfolge ist im Kartenmodell möglich, nicht garantiert."
+          ]
+        },
+        {
+          "id": "mnt-bluete-d",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Zwei Wege zu Nachkommen (4 Hauptpunkte): Entscheide für den von dir in C geordneten Weg und für d jeweils „geschlechtlich“ oder „ungeschlechtlich“. Nenne eine Gemeinsamkeit im Ergebnis und einen Unterschied in der Rolle von Befruchtung und neuem Samen.",
+          "sample": "Der in C geordnete Weg ist geschlechtlich, d als Stängelstück/Steckling ungeschlechtlich. Beide können eine neue Pflanze hervorbringen. Im ersten Weg findet Befruchtung statt und ein neuer Samen kann entstehen; bei d im Modell weder Befruchtung noch neuer Samen.",
+          "criteria": [
+            "Je 1 Punkt für die beiden richtig benannten Wege.",
+            "1 Punkt für mögliche neue Pflanze/Nachkommenschaft als Gemeinsamkeit.",
+            "1 Punkt für Befruchtung und möglichen neuen Samen nur beim ersten Weg. Keine genetische Identität als beobachtete Tatsache bewerten."
+          ]
+        },
+        {
+          "id": "mnt-bluete-e",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "E · Aussagegrenze (2 Hauptpunkte): Jemand behauptet: „Weil auf X ein Insekt saß, hat es X sicher bestäubt und X bildet sicher einen Samen.“ Nenne zwei getrennte Gründe, weshalb Karte B das nicht beweist.",
+          "sample": "Nur Sitzen auf dem Kronblatt ist beobachtet, kein Pollen-Kontakt oder Transfer auf die Narbe. Befruchtung und Samenbildung wurden ebenfalls nicht beobachtet und folgen selbst aus einer Bestäubung nicht sicher.",
+          "criteria": [
+            "1 Punkt: kein Narbe-Kontakt oder Pollen-Transfer beobachtet.",
+            "1 Punkt: spätere Befruchtung/Samenbildung nicht beobachtet oder nicht garantiert. Zweimal allgemeines „nicht beobachtet“ ohne zwei Stufen nur 1 Punkt."
+          ]
+        },
+        {
+          "id": "mnt-bluete-f",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Z-Karte nach A–E · sechs getrennte Zusatzpunkte: (1) Welche zwei verschiedenen Beobachtungen oder Daten während sowie unmittelbar vor/nach dem Besuch würden Pollenübertragung durch genau dieses Insekt auf Zs Narbe stärker belegen? (2) Warum folgt aus der kleinen Frucht nicht sicher genau dieses Insekt als Überträger? Nenne zwei verschiedene Lücken. (3) Nenne eine durch die Z-Karte gestützte Aussage und eine offene Frage.",
+          "sample": "Stärker wären sichtbare Pollenablage auf Zs Narbe während eines durchgehend beobachteten Kontakts und eine unmittelbar vorher pollenfreie, danach neu pollenbedeckte Narbe. Ein anderes Insekt, Wind oder früherer Transfer könnte beteiligt sein; die Frucht belegt weder genau diesen Überträger noch sicher Befruchtung und Samen, die nicht untersucht wurden. Belegt sind das pollenbehaftete Insekt auf dem Kronblatt und die spätere kleine Frucht; offen ist, ob dieses Insekt Pollen auf Zs Narbe brachte oder ob Samen entstanden.",
+          "criteria": [
+            "Je 1 Zusatzpunkt für sichtbare Ablage während durchgehend beobachteten Kontakts und vorher/nachher verknüpfte Pollenprüfung; blosses Sitzen genügt nicht.",
+            "Je 1 Zusatzpunkt für eine andere mögliche Quelle/frühere Übertragung und die fehlende Eindeutigkeit der Frucht für Überträger/Befruchtung/Samen.",
+            "1 Zusatzpunkt für eine wirklich gestützte Beobachtung, 1 Zusatzpunkt für eine getrennte offene Frage. 6 getrennt von 20 Hauptpunkten."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Freiwillige Praxis: zwei echte Samenpflanzen vergleichen",
+        "childNote": "Diese Praxis ist von den erfundenen Karten getrennt. Nur unter fachkundiger Aufsicht und mit zwei vorher als Samenpflanzen bestätigten Originalen; Artname darf unbekannt sein. Wenn das fehlt, nutze die leere Karte allenfalls für einen als Bildweg markierten Vorversuch. Keine Originalobjekt-Leistung oder Pflanzenmerkmale erfinden.",
+        "childSteps": [
+          "Die Aufsicht bestätigt bei A und B einzeln die Gruppe Samenpflanze, wählt möglichst sichtbar verschiedene verfügbare Pflanzen und legt fest, ob nur geschaut wird. Ohne Freigabe nichts berühren, pflücken, ausgraben, probieren oder zerlegen.",
+          "Eine Vermutung vor dem Blick notieren. Wurzel, Sprossachse, Blatt, Blüte und ganze Gestalt für A und B getrennt mit „gesehen“, „nicht sichtbar“ oder „unklar“ erfassen. Nur bei „gesehen“ ein wirklich sichtbares Merkmal nennen; sonst die Sichtgrenze.",
+          "Eine belegte Gemeinsamkeit und, wenn die Ansicht es erlaubt, zwei verschiedene sichtbare Unterschiede mit Tabellenzeilen vergleichen. Fehlende Unterschiede als Materialgrenze melden, nicht erfinden. Kraut/Strauch/Baum nur bei hinreichender Gesamtgestalt begründen.",
+          "Eine aus der Beobachtung erlaubte Aussage und eine stärkere noch offene Behauptung trennen; nötige Korrektur begründen oder „keine Korrektur nötig“ notieren. Danach einen sinnvoll begründeten nächsten Blick nennen.",
+          "Am Ende ehrlich markieren: zwei bestätigte Original-Samenpflanzen beobachtet, nur allgemeine Originalbeobachtung, nur Bildbeobachtung oder nicht durchgeführt. Ein korrektes Modellblatt A–E ersetzt diese Handlung nicht."
+        ],
+        "childWritingLines": 6,
+        "unscored": true,
+        "printObservationLabels": "☐ tatsächlich beobachtet  ☐ teilweise  ☐ nicht erhoben  ☐ Material ungeeignet",
+        "printObservationFooter": "Nur wirklich unter Fachaufsicht Gesehenes bewerten. Ohne zwei bestätigte Original-Samenpflanzen keine Abnahme dieses Praxisziels; Bildweg gesondert markieren. Keine Gesamtsumme und keine Schulnote.",
+        "adultNote": "Nur eine fachkundige Person kann Originale, Samenpflanzen-Gruppe, Sichtbedingungen und Kinderhandlung beurteilen. Artname darf offen sein; „nein/unklar“ für A oder B schliesst die Samenpflanzen-Praxis-Abnahme aus. Die leere Karte ist keine Musterlösung. Nur sichtbare Merkmale bewerten, nicht fehlende Ansicht als Kinderfehler. Ohne Beobachtung „nicht erhoben“, keine Null oder fiktiven Punkte.",
+        "adultCriteria": [
+          "Materialgate: Beide Originale sind vorab fachlich als Samenpflanzen bestätigt; bei Bildmaterial oder unklarer Gruppe keine Original-Samenpflanzen-Abnahme.",
+          "Kriteriengeleitete Beobachtung: A/B getrennt, gesehen/nicht sichtbar/unklar sauber unterschieden; bei gesehen konkretes Merkmal, sonst Sichtgrenze. Nicht sichtbare Wurzel oder Blüte nicht als fehlend behauptet.",
+          "Vergleich und Form: belegte Gemeinsamkeit und nur bei sichtbarem Material zwei verschiedene Unterschiede; Wuchsform aus Gesamtgestalt begründet oder „unklar“. Materialeignung getrennt beurteilen.",
+          "Beobachtung/Deutung: Eigenes Sehen von Art- oder Funktionsvermutung getrennt; eine erlaubte und eine stärkere offene Aussage formuliert.",
+          "Korrektur und Rückblick: Änderung mit Grund oder keine nötige Korrektur; nächsten Blick und offene Materialfrage genannt. Fachaufsicht hat Handlung und Aussagen tatsächlich gesehen oder gehört."
+        ],
+        "adultGuide": [
+          "Originalbeobachtung nur bei zwei bestätigten echten Samenpflanzen und wirklich beaufsichtigtem Vergleich markieren. Bildweg und allgemeine Pflanzenbeobachtung separat ausweisen. Einzelne nicht erhobene Kriterien nicht zu einer Punktsumme umdeuten; die 20+6 Schriftpunkte betreffen ausschliesslich die fiktiven Karten."
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2026/27: Klasse 5; 2027/28: Klasse 6",
+        "gradeBand": "MNT-Ende-6, 7-Brücke",
+        "competencyRef": "MNT-Erprobungsfassung 2026, PDF-S. 2 und §2.2.7/PDF-S. 22–24: Samenpflanzen, Blütenbau, Bestäubung, Befruchtung, Samen-/Fruchtentwicklung und geschlechtliche/ungeschlechtliche Fortpflanzung; Originalpflanzen kriteriengeleitet vergleichen. Klasse 6 in dieser Fassung ab 2027/28, keine amtliche Klasse-7-Zuordnung.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "ma-koerper-netzkarten",
       "subjectId": "ma",
       "title": "Welche Körper passen zu den Netzkarten?",

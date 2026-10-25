@@ -1,13 +1,16 @@
 {
-  "builtAt": "2026-10-25T00:15:18.853Z",
-  "releaseVersion": "2026.10.25-mbii6profiltext.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Medienbildung und Informatik: Die Sichtbarkeitsregel im Kinder-Aufgabentext nennt nun genau die beiden modellierten Leser P20 und P30.",
-    "Alle 152 Themen bleiben erhalten; keine neue Lernaufgabe, nur eine präzisierte Aussage innerhalb der fiktiven Ideenwand."
+  "builtAt": "2026-10-25T00:28:07.222Z",
+  "releaseVersion": "2026.10.25-mntbluetepraxis.1",
+  "newTopicIds": [
+    "mnt-samenpflanzen-bluete-beobachtung"
   ],
-  "rollbackCommit": "74869c402d0f06337e1bfef48ac43c50f65b426e",
+  "changeLog": [
+    "MNT: Freiwillige Ende-Klasse-6-Brücke zu Blütenbau, Bestäubung, Befruchtung und Samenentwicklung mit fiktiven, gestuften Karten und 20+6 getrennten Kriterienpunkten.",
+    "Eine leere Kinderkarte für den Vergleich zweier fachlich bestätigter Original-Samenpflanzen ist separat druckbar; die tatsächliche Beobachtung bleibt unbepunktet und ohne Durchführung nicht erhoben."
+  ],
+  "rollbackCommit": "b96abb0878c2ce5df6b2815957a2999af8d51a37",
   "releasedTopics": [
+    "mnt-samenpflanzen-bluete-beobachtung",
     "ma-koerper-netzkarten",
     "de-wortarten-form-funktion",
     "mnt-volumen-masse-schulpraxis",
@@ -162,9 +165,9 @@
     "mbi-i1-datumswerte-sortieren"
   ],
   "subjects": [
+    "mnt",
     "ma",
     "de",
-    "mnt",
     "ph",
     "ch",
     "bi",

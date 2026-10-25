@@ -5954,6 +5954,126 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "en-story-trail-reading",
+      "subjectId": "en",
+      "title": "The story trail: erst vermuten, dann lesen",
+      "scope": "Freiwilliger gestützter Klasse-7-Einstieg in den gültigen Englisch-Leserahmen 7/8: Titelvorhersage, Hauptaussage, gezielte Notizen, Worterschließung und Strategierückblick. Ende-8-Ziele; keine bestätigte aktuelle Schuleinheit oder vollständige EN-L-Abdeckung.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Du brauchst einfache englische Zeit-, Orts- und Handlungsangaben. Der Text ist eine erfundene Bibliotheksnotiz und kein echter Schulhinweis. Kurze Stichwörter oder deutsche Erklärungen eines Wortindizes sind erlaubt; freies Englischschreiben wird hier nicht benotet.",
+      "introduction": "Sieh zuerst nur den Titel „The story trail in the library“. Schreibe deine Vermutung in Aufgabe 1; erst danach schaltest du den Text frei. Die Vermutung wird dann im Lernatlas gegen nachträgliche Änderung gesperrt. Bearbeite A–D mit L-Zeilen; den Änderungstext U1–U2 öffnest du erst für die freiwillige Zusatzaufgabe. Du kannst nach dem eigenen Kontextversuch ein Wörterbuch nutzen. 20 Hauptpunkte und 6 getrennte Zusatzpunkte sind Lernrückmeldung, keine Schulnote.",
+      "stagedReading": {
+        "title": "The story trail in the library",
+        "text": "THE STORY TRAIL IN THE LIBRARY · FIKTIVER SCHULHINWEIS\nL1 From Monday 9 November to Friday 13 November 2026, our school library has a story trail at lunch.\nL2 Four short story cards are in different places around the library. Follow the letters A, B, C and D in that order.\nL3 Card A is beside the entrance. Card B is behind the long table. Cards C and D are near the help desk.\nL4 Read each card and write one question about it. Bring your own sheet of paper and a pencil.\nL5 You do not have to read all four cards in one visit. You may read A and B on one day, then C and D on another day during the trail week.\nL6 You may borrow a book from the help desk after the trail. Please bring the book back by the following Monday.\nL7 On Wednesday the library closes at 12:40. On the other days it closes at 13:00.\nL8 If a card is missing, ask the helper at the desk. Please do not guess what the card says.\n\nReading help: shelf = Regal; help desk = Auskunftstisch. Erst aus dem Kontext schließen, dann bei Bedarf ein Wörterbuch nutzen.",
+        "updateText": "SPÄTERE FIKTIVE ÄNDERUNG · NUR FÜR DIE FREIWILLIGE ZUSATZAUFGABE\nU1 On Wednesday only, card B moves from behind the long table to the shelf beside the help desk.\nU2 Card A stays at the entrance. The Wednesday closing time stays 12:40."
+      },
+      "tasks": [
+        {
+          "id": "en-story-trail-1",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 3,
+          "inputRows": 3,
+          "prompt": "Before reading · 1 Punkt: Schau nur auf den Titel „The story trail in the library“. Was könnten Schülerinnen und Schüler dort tun? Schreibe jetzt eine kurze Vermutung auf Englisch oder Deutsch. Sie darf später falsch sein; danach erst den Text anzeigen.",
+          "sample": "Vor der Textfreigabe notierte titelbezogene Vermutung, z. B. „Vielleicht lesen wir Geschichten in der Bibliothek.“ Eine später widerlegte Vermutung kann den Punkt erhalten. Der gespeicherte Freigabestatus des Browsers ist eine Bedienhilfe, keine unabhängige Beobachtung einer Kinderhandlung.",
+          "criteria": [
+            "1 Punkt: vor dem Lesen eine zum Titel passende Vermutung notiert; Genauigkeit des späteren Treffers ist kein Kriterium. Nachträglich erfundene Vermutungen nicht als Vorabnachweis werten."
+          ]
+        },
+        {
+          "id": "en-story-trail-2",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 5,
+          "prompt": "A1 · 2 Punkte: Lies den Hinweis zuerst zügig. Worum geht es hauptsächlich? Wähle (a) wie der story trail funktioniert, (b) die Rückgabefrist eines Buches oder (c) nur die Orte der vier Karten. Nenne eine L-Zeile als Beleg für die Hauptaussage.",
+          "sample": "(a). L1–L2 oder L4 stützen den Überblick über den story trail. Rückgabe L6 und Orte L3 sind echte Details, aber nicht die Hauptaussage.",
+          "criteria": [
+            "1 Punkt: (a) als Hauptaussage.",
+            "1 Punkt: passende Belegzeile, etwa L1–L2 oder L4, mit kurzer Verbindung zur Hauptaussage."
+          ]
+        },
+        {
+          "id": "en-story-trail-3",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 4,
+          "inputRows": 4,
+          "prompt": "A2 · 1 Punkt: Lies deine Vermutung aus Aufgabe 1 wieder. Welches konkrete Detail mit L-Zeile bestätigt oder verändert sie? Auch eine falsche Ausgangsvermutung kann gut verglichen werden.",
+          "sample": "„Ich dachte, wir lesen dort Geschichten. L2 nennt vier story cards.“ Auch ein belegter Unterschied zwischen Vermutung und Text ist richtig.",
+          "criteria": [
+            "1 Punkt: eine konkrete Übereinstimmung oder Änderung zur eigenen Vermutung mit passender L-Zeile nachvollziehbar beschrieben."
+          ]
+        },
+        {
+          "id": "en-story-trail-4",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 12,
+          "inputRows": 12,
+          "prompt": "B · 8 Punkte: Scanne L1–L8 und schreibe vier knappe Notizen, je mit Zeile: (1) An welchen Tagen gibt es den trail? (2) Wo ist Karte B? (3) Was soll man mitbringen? (4) Wann schließt die Bibliothek am Mittwoch? Nutze je Zeile „Stichwort – L-Nummer“, statt den ganzen Text abzuschreiben.",
+          "sample": "(1) Montag 9. bis Freitag 13. November 2026 – L1. (2) Hinter dem langen Tisch – L3. (3) Eigenes Blatt Papier und Stift – L4. (4) 12:40 – L7. Ganze kopierte Sätze sind keine knappen strukturierten Notizen.",
+          "criteria": [
+            "Je 1 Punkt für die richtige knappe Information zu Tagen, B-Ort, Material und Mittwochsschluss; „jeden Tag“ ohne Zeitraum genügt nicht.",
+            "Je 1 Punkt für die zugehörige richtige L-Zeile L1, L3, L4 beziehungsweise L7. Vier Sach- und vier Belegpunkte ergeben 8."
+          ]
+        },
+        {
+          "id": "en-story-trail-5",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "prompt": "C · 5 Punkte: (1) Was bedeutet borrow in L6? Schreibe zuerst deine Vermutung, dann den Hinweis in L6 und erkläre, wie du daraus die Bedeutung erschließt. Ein Wörterbuch darfst du erst danach zur Kontrolle nutzen; notiere eine Änderung, falls nötig. (2) Jemand sagt: „Alle müssen A–D am selben Tag lesen.“ Stimmt das? Nenne die Zeile und die engere Aussage.",
+          "sample": "borrow = ausleihen / vorübergehend mitnehmen. Der Satz „bring the book back by the following Monday“ in L6 zeigt eine spätere Rückgabe; deshalb ist das Mitnehmen zeitweilig. Die Behauptung ist falsch: L5 erlaubt A/B an einem Tag, C/D an einem anderen Tag derselben Woche. Ein Wörterbuch ist optional und hat keinen eigenen Punkt.",
+          "criteria": [
+            "1 Punkt: borrow als ausleihen/zeitweilig mitnehmen verstanden.",
+            "1 Punkt: Rückgabe-Hinweis in L6 genannt.",
+            "1 Punkt: erklärt, warum Rückgabe für zeitweiliges Mitnehmen spricht.",
+            "1 Punkt: Gleichentagsbehauptung mit L5 verneint.",
+            "1 Punkt: engere zulässige Aussage zu zwei Besuchen in der trail-Woche."
+          ]
+        },
+        {
+          "id": "en-story-trail-6",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "inputRows": 6,
+          "prompt": "D · 3 Punkte: Schreibe zwei kurze Sätze oder Stichpunkte über dein Lesen: Welche Methode half dir bei einem bestimmten Faktum? Nenne Faktum und L-Zeile. Was war schwierig und wie würdest du weiter vorgehen? Wenn nichts schwierig war, nenne ein Wort, das du prüfen würdest, und warum.",
+          "sample": "„Ich suchte gezielt nach Wednesday und fand 12:40 in L7. Bei borrow las ich L6 noch einmal und würde danach ein Wörterbuch prüfen.“ Eine bloße Aussage „alles leicht“ gibt keinen Methodenbeleg.",
+          "criteria": [
+            "1 Punkt: konkrete Lesemethode genannt, z. B. Scanning oder erneutes Lesen.",
+            "1 Punkt: damit gefundenes Faktum und passende L-Zeile.",
+            "1 Punkt: konkrete Schwierigkeit mit nächstem sinnvollen Schritt oder begründetes Wort für eine spätere Kontrolle."
+          ]
+        },
+        {
+          "id": "en-story-trail-7",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "prompt": "Freiwillige Änderung · 6 Zusatzpunkte getrennt von A–D: Lies U1–U2 erst jetzt. Ersetze nur die B-Ortsnotiz für Mittwoch; schreibe „Mittwoch: … (U1)“ und „andere Tage: … (L3)“ und sage, welche ältere Angabe U1 mittwochs ersetzt. Eine Person behauptet, auch die Schließzeit habe sich geändert. Korrigiere sie mit U2 und L7.",
+          "sample": "Mittwoch: shelf beside the help desk (U1). Andere Tage: behind the long table (L3). U1 ersetzt am Mittwoch den alten B-Ort aus L3. Die Schlusszeit ändert sich nicht: U2 sagt weiterhin 12:40, ebenso L7.",
+          "criteria": [
+            "1 Punkt: Änderung ausdrücklich auf Mittwoch begrenzt.",
+            "1 Punkt: neuer B-Ort neben dem Auskunftstisch auf dem Regal mit U1.",
+            "1 Punkt: anderer Tag bleibt hinter dem langen Tisch nach L3 und U1 wird als mittwochs ersetzende Angabe benannt.",
+            "1 Punkt: behauptete Zeitänderung verneint.",
+            "1 Punkt: U2 als Beleg für unveränderte 12:40.",
+            "1 Punkt: L7 als ursprünglicher Beleg für Mittwoch 12:40."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27; §2.2.2 PDF-S. 26–27: globale und gezielte Lektüre, Erwartungen, strukturierte Notizen, Worterschließung und Strategiereflexion mit Zielmarke Ende Klasse 8.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
       "id": "en-sprachreflexion-lesewerkstatt",
       "subjectId": "en",
       "title": "An updated notice: meaning and tone",

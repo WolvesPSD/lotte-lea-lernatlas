@@ -271,11 +271,22 @@
       : 'Wähle zuerst ein Thema. Danach siehst du hier deine beantworteten Aufgaben.';
     const nextTopic = selectedTopics.find(topic => topic.tasks.some(task => !String(state.answers[task.id] || '').trim())) || selectedTopics[0];
     const nextTask = nextTopic?.tasks.find(task => !String(state.answers[task.id] || '').trim());
-    $('#home-next-text').textContent = !nextTopic
+    let gatedPreview = null;
+    if (nextTopic?.stagedReading) {
+      const first = nextTopic.tasks[0];
+      const sourceShown = state.answers[`${first.id}-text-gezeigt`] === 'ja';
+      const updateShown = state.answers[`${first.id}-update-gezeigt`] === 'ja';
+      const subjectName = subjectById.get(nextTopic.subjectId).name;
+      if (!sourceShown && String(state.answers[first.id] || '').trim())
+        gatedPreview = `${subjectName} · ${nextTopic.title}: Vermutung festhalten und Lesetext öffnen.`;
+      else if (sourceShown && !updateShown && nextTopic.tasks.slice(1, -1).every(task => nextTopic.stagedReading.optionalMainTaskIds?.includes(task.id) || String(state.answers[task.id] || '').trim()))
+        gatedPreview = `${subjectName} · ${nextTopic.title}: Hauptantworten festhalten und freiwillige Änderung öffnen.`;
+    }
+    $('#home-next-text').textContent = gatedPreview || (!nextTopic
       ? 'Nach deiner Themenwahl erscheint hier eine Aufgabe aus deiner eigenen Auswahl.'
       : nextTask
         ? `${subjectById.get(nextTopic.subjectId).name} · ${nextTopic.title}: ${nextTask.prompt}`
-        : `Alle gewählten Textfelder haben eine Antwort. Vergleiche offene Antworten mit den Kriterien oder wähle weitere Themen.${selectedTopics.some(topic => topic.practiceBeforeLastTask) ? ' Eine mündliche Übung ist dadurch noch nicht nachgewiesen.' : ''}`;
+        : `Alle gewählten Textfelder haben eine Antwort. Vergleiche offene Antworten mit den Kriterien oder wähle weitere Themen.${selectedTopics.some(topic => topic.practiceBeforeLastTask) ? ' Eine mündliche Übung ist dadurch noch nicht nachgewiesen.' : ''}`);
     $('#home-next-button').textContent = selectedTopics.length ? 'Zum Lernen →' : 'Themen wählen →';
     $('#home-next-button').hidden = selectedTopics.length === 0;
     $('#home-next-button').classList.toggle('primary', false);
@@ -976,9 +987,9 @@
         ? 'Druckfolge: Erst die eigene Vermutung notieren. Der Kontext und die weiteren Aufgaben werden danach im Übungsraum zum Kinderdruck freigegeben.'
         : 'Druckfolge: Die erste Seite mit der Vermutung zuerst bearbeiten. Die Kontextseite erst danach ansehen. Eine bedruckte Seite allein beweist diese Reihenfolge nicht.');
       if (topic.stagedReading && mode === 'child') appendText(section, 'p', 'print-context', hideChildReadingSource
-        ? 'Druckfolge: Hier ist zuerst nur die Titelvermutung. Aushang und Plan werden nach ihrem Festhalten im Übungsraum zum Druck freigegeben.'
+        ? `Druckfolge: Hier ist zuerst nur die Titelvermutung. ${topic.stagedReading.plan ? 'Lesetext und Plan werden' : 'Der Lesetext wird'} freigegeben, nachdem du deine Vermutung festgehalten hast.`
         : hideChildReadingUpdate
-          ? 'Druckfolge: Zuerst die Titelvermutung, danach Aushang, Plan und Hauptaufgaben bearbeiten. Die Änderung wird erst nach dem Festhalten der Hauptantworten zum Druck freigegeben.'
+          ? `Druckfolge: Zuerst die Titelvermutung, danach ${topic.stagedReading.plan ? 'Lesetext, Plan' : 'Lesetext'} und Hauptaufgaben bearbeiten. Die Änderung wird erst nach dem Festhalten der Hauptantworten zum Druck freigegeben.`
           : 'Druckfolge: Seite mit Titel und Vermutung zuerst bearbeiten. Die folgende Textseite erst danach ansehen; den Änderungstext erst nach den Hauptaufgaben ansehen. Eine bedruckte Seite allein beweist diese Reihenfolge nicht.');
       if (topic.firstTaskGate && mode === 'child') appendText(section, 'p', 'print-context', hideChildFirstGate
         ? `Druckfolge: Zuerst nur A aus dem Gedächtnis bearbeiten. ${topic.firstTaskGate.afterLabel || 'B–D'} werden nach dem Festhalten von A im Übungsraum zum Kinderdruck freigegeben. Papier allein beweist keinen Hilfsmittelverzicht.`

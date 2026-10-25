@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-25T07:49:08.855Z",
-  "releaseVersion": "2026.10.25-demoderation.1",
+  "builtAt": "2026-10-25T08:03:05.211Z",
+  "releaseVersion": "2026.10.25-enstorytrail.1",
   "newTopicIds": [
-    "de-ds1-buecherregal-moderieren"
+    "en-story-trail-reading"
   ],
   "changeLog": [
-    "Deutsch: freiwillige Moderationsübung mit getrennten Rollenkarten, echter Dreier-Runde und Erwachsenen-Beobachtungsbogen.",
-    "169 Themen und 758 Textaufgaben. Ohne wirklich gehörte Runde bleibt die Sprechleistung nicht erhoben; die sechs Zusatzpunkte erfordern eine zweite beobachtete Runde. Keine privaten Lernstände oder Namen im Paket."
+    "Englisch: freiwilliger Leseweg mit Titelvermutung, gezieltem Lesen und späterer fiktiver Änderung.",
+    "170 Themen und 765 Textaufgaben. Der 7/8-Leserahmen ist gültig; die konkrete Unterrichtsfolge und echte Kinderlektüre sind offen. Keine privaten Lernstände oder Namen im Paket."
   ],
-  "rollbackCommit": "35e4917daf4946c1d84cadf1a25769fcdf7d23f5",
+  "rollbackCommit": "e99a40644372ea5c54a1618604c36c18b0107c06",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",
@@ -68,6 +68,7 @@
     "ma-vierkarten-simulation",
     "ma-zufall-80-versuche",
     "de-sprachreflexion-bericht",
+    "en-story-trail-reading",
     "en-sprachreflexion-lesewerkstatt",
     "fr-cartes-postales-aushang",
     "fr-sprachreflexion-einladung",

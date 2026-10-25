@@ -1,15 +1,15 @@
 {
-  "builtAt": "2026-10-25T03:22:55.344Z",
-  "releaseVersion": "2026.10.25-i6felder.1",
+  "builtAt": "2026-10-25T03:47:03.047Z",
+  "releaseVersion": "2026.10.25-deszene.1",
   "newTopicIds": [
-    "mbi-i6-anwendungsfelder"
+    "de-szene-wirklich-spielen"
   ],
   "changeLog": [
-    "Freiwilliges MBI-Thema: zwei verschiedene Anwendungsfelder geordneter Daten anhand eines erfundenen Buchlabors und des offiziellen USGS-Erdbebenkatalogs vergleichen; vier Haupt- und zwei getrennte Transferpunkte.",
-    "Der Ende-Klasse-8-Ausblick zählt nicht als bestätigte Klasse-7-Abdeckung. Die seitliche Erwachsenen-Navigation zeigt das Personensymbol am Desktop wieder in normaler Grösse.",
-    "Die 158 bisherigen Themen, sieben Hörhilfen, Profiltrennung, Druck und Rückmeldung bleiben erhalten; keine privaten Lernstände werden veröffentlicht."
+    "Deutsch: freiwillige Szene zu zweit mit vier schriftlichen Planfragen, getrennter menschlicher Spielbeobachtung und späterer Gestenvariante; Zielmarke Ende Klasse 8 und offene Unterrichtsfolge ausgewiesen.",
+    "Die spätere Szene erscheint im Kinderbereich und Kinderdruck erst nach P1–P4. Beobachtung darf nur für wirklich Gehörtes und Gesehenes eingetragen werden; keine automatische Sprechbewertung.",
+    "Die 159 bisherigen Themen, sieben Hörhilfen, Profiltrennung, Druck und Rückmeldung bleiben erhalten; keine privaten Lernstände werden veröffentlicht."
   ],
-  "rollbackCommit": "fc0051a7a432aa0e599312ef0d52ae47705badb7",
+  "rollbackCommit": "75973947365d60a67cdc8426bb061dd97a90e657",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",
@@ -169,7 +169,8 @@
     "ma-runden-materialentscheidung",
     "fr-questionnaire-atelier-cartes",
     "mbi-i1-datumswerte-sortieren",
-    "mbi-i6-anwendungsfelder"
+    "mbi-i6-anwendungsfelder",
+    "de-szene-wirklich-spielen"
   ],
   "subjects": [
     "en",

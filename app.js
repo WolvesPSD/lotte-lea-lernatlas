@@ -657,6 +657,7 @@
       const updateShown = state.answers[marker] === 'ja';
       if (updateShown) mainInputs.forEach(input => { input.readOnly = true; });
       host.append(mainTasks);
+      if (topic.practiceBeforeLastTask && topic.practice) host.append(renderPractice(topic.practice, false));
       const mainComplete = () => topic.tasks.slice(0, -1).every(task => String(state.answers[task.id] || '').trim());
       const updateButton = button(topic.stagedUpdate.buttonLabel || `Hauptantworten festhalten und ${topic.stagedUpdate.kind === 'variant' ? 'Variante' : 'Korrektur'} zeigen`, () => {
         if (!mainComplete()) return;
@@ -1020,6 +1021,7 @@
         if (mode === 'adult') appendText(section, 'p', 'print-context', topic.reading.adultNote);
       }
       let finalPrintedTask = null;
+      let stagedUpdatePrint = null;
       for (const [index, task] of topic.tasks.entries()) {
         if (hideChildFirstGate && index > 0) continue;
         if (hideChildUpdate && index === topic.tasks.length - 1) continue;
@@ -1064,7 +1066,7 @@
           appendText(section, 'p', mode === 'child' ? 'print-staged-update print-passage' : 'print-passage', topic.stagedReading.updateText);
         }
         if (topic.stagedUpdate && index === topic.tasks.length - 2 && !hideChildUpdate) {
-          appendText(section, 'p', mode === 'child' ? 'print-staged-update print-passage' : 'print-passage', topic.stagedUpdate.text);
+          stagedUpdatePrint = appendText(section, 'p', mode === 'child' ? 'print-staged-update print-passage' : 'print-passage', topic.stagedUpdate.text);
         }
       }
       if (topic.practice) {
@@ -1119,7 +1121,8 @@
             }
           }
         }
-        if (topic.practiceBeforeLastTask && finalPrintedTask) section.insertBefore(practiceSection, finalPrintedTask);
+        if (topic.practiceBeforeLastTask && stagedUpdatePrint) section.insertBefore(practiceSection, stagedUpdatePrint);
+        else if (topic.practiceBeforeLastTask && finalPrintedTask) section.insertBefore(practiceSection, finalPrintedTask);
         else section.append(practiceSection);
       }
       page.append(section);

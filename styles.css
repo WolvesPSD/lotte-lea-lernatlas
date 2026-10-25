@@ -295,3 +295,4 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 .inline-voice-guide[aria-pressed="true"]{background:#145651;color:#fff}
 @media print{#voice-help{display:none!important}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id^="mbi-i6-felder-"]{break-inside:avoid}}
+@media print{body[data-print-mode^="adult"] #print-surface .print-topic:has(.print-task[data-task-id="de-szene-spielen-p1"]) .print-practice{break-before:auto}body[data-print-mode^="adult"] .print-task[data-task-id="de-szene-spielen-p3"]{break-inside:avoid}body[data-print-mode^="adult"] .print-task[data-task-id="de-szene-spielen-v"]{break-before:page}}

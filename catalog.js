@@ -15691,6 +15691,125 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "PDF-S. 2: MBI Klasse 8 ab 2027/28. §2.2.6/PDF-S. 27–28, I6-S01: Anwendungsfelder von Datenbanken in Alltag und Gesellschaft nennen. Hier nur zwei schriftliche Beispiele, keine vollständige I6-Abdeckung oder beobachtete Kinderleistung.",
         "checkedAt": "2026-10-25"
       }
+    },
+    {
+      "id": "de-szene-wirklich-spielen",
+      "subjectId": "de",
+      "title": "Nach der Probe: eine Szene wirklich spielen",
+      "scope": "Freiwilliger, gestützter Klasse-7-Einstieg in das szenische Gestalten. Das Deutsch-Ziel steht im gültigen Lehrplan unter der Zielmarke Ende Klasse 8; die aktuelle Schulfolge ist unbekannt. Der Regieplan belegt keine gespielte Szene.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "practiceBeforeLastTask": true,
+      "prerequisite": "Du spielst selbst Ava oder Jon; eine freiwillige zweite Person übernimmt die andere Rolle. Ein Textblatt ist erlaubt. Ohne gespielte Zweier-Szene bleibt die Sprechleistung „nicht erhoben“. Kein echter Streit, keine Aufnahme und keine echte Tasche nötig.",
+      "introduction": "Die erfundene Kurzszene wurde im Leseangebot schon als Text untersucht. Hier zählt eine andere Handlung: Du planst zwei Spielentscheidungen und spielst dann selbst eine Rolle mit einer zweiten Person. Die vier Planfragen ergeben acht Schriftpunkte. Die zwölf Spielpunkte darf ein Mensch nur für wirklich Gehörtes und Gesehenes vergeben; die App hört nicht mit. Eine veränderte Geste folgt als freiwillige Zusatzkarte mit sechs eigenen Schriftpunkten.",
+      "passage": "SZENE · NACH DER PROBE\nA1 [Nach der Theaterprobe. Auf dem Tisch liegt nur der leere Umschlag des Texthefts. Die Tür zum Flur steht offen.]\nA2 Ava: „Das Heft ist weg. Du warst zuletzt hier.“\nA3 Jon: „Ich habe den Umschlag hingelegt. Das Heft habe ich nicht gesehen.“\nA4 [Jon hält seine Tasche fest.]\nA5 Ava: „Was ist in deiner Tasche?“\nA6 Jon: „Mein eigener Text. Wir können gemeinsam hineinschauen.“\nA7 [Im Flur raschelt Papier.]\nA8 Ava: „Vielleicht liegt das Heft draußen.“\nA9 Jon: „Dann suchen wir erst dort.“\n\nDie eckigen Klammern sind Bühnenanweisungen und werden nicht als Figurenrede vorgelesen. Eine Geste oder ein Geräusch beweist nicht, wo das Heft ist. Der Schluss bleibt offen.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "P1–P4",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "Regieplan festhalten und spätere Geste zeigen",
+        "text": "FREIWILLIGE ZWEITE FASSUNG NACH P1–P4 UND MÖGLICHST NACH DER ERSTEN PROBE · Ersetze nur A4 durch A4a: [Jon legt seine Tasche langsam auf den Tisch, ohne sie zu öffnen.] Alle gesprochenen Zeilen und A1/A7 bleiben gleich. Die sechs Zusatzpunkte betreffen den schriftlichen Vergleich; eine zweite gespielte Runde zählt nur bei echter Beobachtung."
+      },
+      "tasks": [
+        {
+          "id": "de-szene-spielen-p1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "P1 · Zwei Spielentscheidungen (2 Vorbereitungspunkte): Wähle Ava oder Jon als eigene Rolle. Nenne zwei unterschiedliche Stellen, an denen du deine Figur anders sprechen oder handeln lassen kannst, und begründe beide mit den Worten der Szene.",
+          "sample": "Als Ava könnte ich A2 erst hastig sprechen und nach dem Geräusch A8 vorsichtiger sagen. Als Jon wären A3 ruhig und A4 als kurzer fester Griff denkbar. Das sind Möglichkeiten, keine einzig richtigen Deutungen.",
+          "criteria": [
+            "Je 1 Punkt für eine andere, an einer konkreten A-Zeile begründete Entscheidung zu Stimme, Geste oder Timing. Die Rollenwahl ist Voraussetzung, kein eigener Punkt.",
+            "Andere plausible Spielweisen gelten; keine Schulddeutung voraussetzen."
+          ]
+        },
+        {
+          "id": "de-szene-spielen-p2",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "P2 · Sichtbar und hörbar (2 Vorbereitungspunkte): Plane für A4 eine kleine sichtbare Geste und für A7 ein ungefährliches hörbares Raschelzeichen. Eine Pause darf dazukommen, ersetzt das Geräusch aber nicht. Welche mögliche Wirkung hat jede Entscheidung, ohne den Heftverbleib zu beweisen?",
+          "sample": "Jon hält eine gedachte Tasche kurz fester; das kann Anspannung zeigen. Ein loses Blatt oder ein Geräusch mit der Stimme markiert das Rascheln im Flur; das kann die Suche dorthin lenken. Keine der beiden Handlungen zeigt sicher, wo das Heft ist.",
+          "criteria": [
+            "1 Punkt für A4 als sichtbare Geste und A7 als hörbares, gefahrloses Raschelzeichen; eine Pause allein genügt nicht.",
+            "1 Punkt für mögliche Wirkungen beider Zeichen ohne Behauptung über tatsächlichen Heftverbleib oder Schuld."
+          ]
+        },
+        {
+          "id": "de-szene-spielen-p3",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "P3 · Aufeinander reagieren (2 Vorbereitungspunkte): Wähle eine Stelle, an der du auf die Worte oder Geste der anderen Person wartest. Was nimmst du wahr, und wie antwortet deine Figur texttreu? Erfinde keine neue Tatsache.",
+          "sample": "Als Ava kann ich nach Jons Angebot in A6 kurz auf seine Tasche schauen, dann A7 hören und A8 vorsichtiger sprechen. Ich reagiere auf Jons Rede und das Geräusch, ohne zu behaupten, dass das Heft gefunden sei.",
+          "criteria": [
+            "1 Punkt für eine konkrete Reaktionsstelle und ein wahrnehmbares Signal der anderen Rolle.",
+            "1 Punkt für passende eigene Antwort oder Handlung, die den Text nicht durch neue Tatsachen auflöst."
+          ]
+        },
+        {
+          "id": "de-szene-spielen-p4",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "P4 · Ziel und offene Grenze (2 Vorbereitungspunkte): Was sollen Zuschauende durch dein Spiel über Ava oder Jon besser verstehen? Was dürfen sie nach A9 noch nicht sicher behaupten?",
+          "sample": "Mein Spiel soll zeigen, wie Ava von einem schnellen Verdacht zu vorsichtigerem Nachfragen kommt. Nach A9 weiss niemand sicher, wo das Heft liegt oder wer es zuletzt in der Hand hatte.",
+          "criteria": [
+            "1 Punkt für ein sinnvolles Wirkungsziel zur eigenen Figur mit Bezug zum Szenentext.",
+            "1 Punkt für die offene Heft- und Schuldfrage nach A9; eine endgültige Täterzuweisung ist unbelegt."
+          ]
+        },
+        {
+          "id": "de-szene-spielen-v",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 12,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige spätere Variante V1–V3 (6 getrennte Schriftpunkte): Vergleiche A4 mit A4a: Was sieht man, und wie könnte die Wirkung anders sein? Plane eine Reaktion als Ava oder Jon mit unveränderter Figurenrede und passender Zeile. Beweist A4a etwas über den Tascheninhalt? Begründe mit einer weiteren A-Zeile und formuliere eine noch offene Rückfrage für nach der Szene.",
+          "sample": "A4 zeigt Festhalten, A4a langsames Ablegen ohne Öffnen. A4 kann Abwehr, A4a Offenheit oder auch Zögern nahelegen. Als Ava könnte ich vor A5 kurz warten und ruhiger fragen. A4a zeigt keinen Inhalt; auch A6 ist nur ein Angebot. Eine offene Frage wäre, ob beide nach A7 zuerst im Flur suchen wollen.",
+          "criteria": [
+            "V1: 1 Punkt für den sichtbaren Unterschied Festhalten/Ablegen ohne Öffnen; 1 für zwei mögliche, nicht zwingende Wirkungen.",
+            "V2: 1 Punkt für eine konkrete Stimme, Pause, Blickrichtung oder Bewegung; 1 für passende Zeile und begründete Wirkung ohne Änderung der Rede.",
+            "V3: 1 Punkt für die unbelegte Tascheninhalt-/Schuldfrage mit A4a und einer weiteren A-Zeile; 1 für eine sachliche, noch nicht beantwortete Rückfrage. Die zweite Spielrunde erhält dadurch keine Schriftpunkte."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Szene zu zweit spielen · nur wirklich Beobachtetes zählt",
+        "childNote": "Spiele selbst Ava oder Jon, die zweite Person die andere Rolle. Du darfst den Text halten. Macht A4 sichtbar und A7 hörbar; sprecht nur die Figurenzeilen. Reagiere auf die andere Person. Ohne gemeinsame Runde bleibt der gesamte Spielteil nicht erhoben; ein fertiger Plan oder Vorlesen belegt ihn nicht.",
+        "childSteps": [
+          "Wähle deine Rolle und sprich P1–P4 mit der zweiten Person kurz durch; keine Musterlösung vor der Probe lesen.",
+          "Spielt A1–A9 einmal. Eine gedachte Tasche und ein loses Blatt oder Stimmgeräusch genügen; keine echte Sache wird durchsucht.",
+          "Nenne danach eine eigene Spielentscheidung mit Zeile und eine tatsächliche Reaktion auf die andere Person.",
+          "Bitte um ein konkretes gesehenes oder gehörtes Beispiel und einen nächsten Versuch. Die optionale A4a-Fassung kann danach gespielt werden; ohne zweite Runde bleibt deren Spielwirkung nicht erhoben."
+        ],
+        "observationMax": 12,
+        "observationLabel": "gespielte Zweier-Szene",
+        "adultNote": "Beobachtung nur nach echter Zweier-Szene: 2 = selbstständig erkennbar, 1 = teilweise oder mit neutraler Hilfe, 0 = trotz fairer Gelegenheit nicht gezeigt, — = Gelegenheit fehlte. Ohne Spiel alle sechs Kriterien „nicht erhoben“ und keine Summe. Bei einem — keine scheinbar vergleichbare 12er-Summe. Zu jeder Wertung Zeile und hör-/sichtbaren Beleg notieren. Ein mitspielender Erwachsener darf beobachten, sollte diese geringere Unabhängigkeit aber vermerken. Akzent und Dialekt nicht allein abwerten. Schriftpunkte P1–P4/V und Spielpunkte strikt trennen; keine Schulnote oder Aufnahme.",
+        "adultCriteria": [
+          "Eigene Figurenzeilen verständlich als Rede, Bühnenanweisungen als Handlung/Geräusch: 0/1/2 oder —; A-Zeile und beobachteter Beleg: ____",
+          "Mindestens zwei eigene stimmliche oder körperliche Entscheidungen mit nachvollziehbarer Lesart: 0/1/2 oder —; Beleg: ____",
+          "Mindestens einmal sichtbar/hörbar auf einen wirklichen Partnerbeitrag reagieren, statt nur abwechselnd vorzutragen: 0/1/2 oder —; Beleg: ____",
+          "Eigene Bühnenhandlung spielen oder auf A4/A7 als gezeigtes Zeichen reagieren, ohne Schuldbeweis: 0/1/2 oder —; Beleg: ____",
+          "Gemeinsame Folge A1–A9 und Moment nach A7 nachvollziehbar führen: 0/1/2 oder —; Beleg: ____",
+          "Im Rückblick eigene Entscheidung und tatsächliche Partnerreaktion mit Zeile nennen und Heftfrage offenlassen: 0/1/2 oder —; Beleg: ____"
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Deutsch Klasse 7 ab 2026/27. §2.2.3 PDF-S. 28: „Texte szenisch gestalten“ als dialogisches Sprechen mit Zielmarke Ende Klasse 8; Redebeiträge planen, ausführen und reflektieren sowie kriteriell Rückmeldung geben.",
+        "checkedAt": "2026-10-25"
+      }
     }
   ]
 });

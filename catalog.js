@@ -16073,6 +16073,136 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-i3-eigene-lebenswelt",
+      "subjectId": "mbi",
+      "title": "Was soziale Medien im Alltag bedeuten können",
+      "scope": "Freiwilliger Klasse-7-Einstieg in ein MBI-I3-Selbst-/Sozialziel bis Ende Klasse 8. Der Plan 2026 gilt ab Klasse 7 in 2026/27; die konkrete Schuleinheit ist unbekannt. Der eigene Lebensweltbezug bleibt ein freiwilliges Gespräch ohne App-Eingabe.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst kein Konto, kein Gerät und keine eigene Veröffentlichung. Die Schriftaufgaben handeln nur von Taro und Sternnetz; beide sind erfunden. Eigene Erfahrungen, Nichtnutzung oder Unsicherheiten werden in dieser App nicht abgefragt oder gespeichert. Ein freiwilliges Gespräch kann auch allgemein bleiben und ohne Nachteile entfallen.",
+      "introduction": "Taro und Sternnetz sind vollständig erfunden. Lies vier neutrale Situationskarten und bearbeite A–C schriftlich: 12 Kriterienpunkte. Danach gibt es eine freiwillige fiktive Änderung mit sechs getrennten Zusatzpunkten. Eine persönliche Reflexion ist ausschliesslich als freiwilliges Gespräch möglich und wird hier weder abgefragt noch gespeichert. Ohne Gespräch bleibt sie nicht erhoben. Die App bewertet offene Antworten nicht automatisch.",
+      "cardsHeading": "Vier fiktive Situationskarten",
+      "sourceCards": [
+        {
+          "title": "Karte 1",
+          "text": "Eine Gruppe verabredet sich im erfundenen Sternnetz für ein Zeichenprojekt. Zwei Mitglieder lesen die neue Uhrzeit nicht rechtzeitig. Taro fragt deshalb zusätzlich direkt nach.",
+          "sourceLabel": "Erfundener Taro-Fall",
+          "sourceNote": "Keine echte Plattform oder Person; über die übrige Gruppe ist nichts bekannt."
+        },
+        {
+          "title": "Karte 2",
+          "text": "Taro zeigt nur fertige Zeichnungen. Ein Besucher nennt Taro daraufhin „immer perfekt“. Taro weiss selbst, dass mehrere Entwürfe nötig waren.",
+          "sourceLabel": "Erfundener Taro-Fall",
+          "sourceNote": "Die Karte beschreibt nur diesen einen Kommentar, nicht Taros Persönlichkeit ausserhalb des Projekts."
+        },
+        {
+          "title": "Karte 3",
+          "text": "Ein Beitrag behauptet ohne Quelle, das Projekt finde morgen statt. Die Gruppenkarte nennt übermorgen. Taro prüft die Angabe bei der verantwortlichen Person, bevor sie weitergegeben wird.",
+          "sourceLabel": "Erfundener Taro-Fall",
+          "sourceNote": "Die verbindliche Uhrzeit ist hier nicht angegeben; die Prüfung wird als Handlung beschrieben."
+        },
+        {
+          "title": "Karte 4",
+          "text": "Drei Kommentare finden eine Designidee gut; ein vierter nennt einen Nachteil. Taro liest die Begründungen, statt die Mehrheit allein als Beweis zu nehmen.",
+          "sourceLabel": "Erfundener Taro-Fall",
+          "sourceNote": "Aus vier Kommentaren folgt kein Qualitätsurteil für alle Betroffenen."
+        }
+      ],
+      "practiceBeforeLastTask": true,
+      "practice": {
+        "title": "Freiwilliges Gespräch über den eigenen Bezug",
+        "childNote": "Nur wenn du möchtest: Wähle einen der vier Bereiche. Du kannst über direkte, indirekte oder fehlende Erfahrung oder über bewusste Nichtnutzung sprechen. Du musst hier nichts über dich schreiben, kein Konto zeigen und keine Namen, Orte, Bilder, Nachrichten oder Nutzungszeiten nennen. Du kannst das Gespräch jederzeit auslassen; dann ist dieser Teil nicht erhoben.",
+        "childSteps": [
+          "Sage einer erwachsenen Person auf Wunsch ganz allgemein, ob der gewählte Bereich für dich direkt, indirekt, derzeit nicht oder lieber gar nicht besprechbar ist. Auch „ich weiss es nicht“ ist ein möglicher Ausgangspunkt.",
+          "Wenn du darüber sprechen möchtest, nenne eine mögliche Hilfe und eine Grenze oder Unsicherheit. Bei fehlender eigener Erfahrung kannst du eine künftige Entscheidung allgemein durchdenken.",
+          "Nenne freiwillig einen kleinen passenden Schritt oder eine Grenze und einen Grund. Die erwachsene Person fragt keine privaten Belege an und schreibt deine Aussagen nicht auf."
+        ],
+        "adultNote": "Nur eine tatsächlich freiwillige, faire Gesprächsgelegenheit zu einem vom Kind gewählten Bereich beobachten. Keine Namen, Bereichswahl, persönlichen Aussagen, Beispiele oder Stichwörter erfassen; keine Aufnahme und keine Nachforderung privater Belege. Ohne Gespräch alle vier Kriterien nicht erhoben, niemals 0. Ein 0-Status ist nur nach freiwillig versuchter Antwort mit fairer neutraler Nachfrage zulässig, wenn das konkrete Kriterium trotzdem nicht gezeigt wurde. Nichtnutzung und Nichtauskunft sind keine Fehlleistung. Die acht möglichen Beobachtungspunkte sind von 12 Schrift- und 6 Transferpunkten getrennt.",
+        "adultCriteria": [
+          "Eigener Bezug begrenzt beschrieben: direkt, indirekt oder bewusst fehlend verständlich eingeordnet; 2 selbst erklärt, 1 mit neutraler Hilfe.",
+          "Mögliche Hilfe für den gewählten direkten, indirekten oder nicht genutzten Kontext begründet; 2 selbst erklärt, 1 mit neutraler Hilfe.",
+          "Grenze, fehlende Information oder Unsicherheit für denselben Kontext begründet; 2 selbst erklärt, 1 mit neutraler Hilfe.",
+          "Passender freiwilliger nächster Schritt oder bewusste Grenze mit Grund genannt; 2 selbst erklärt, 1 mit neutraler Hilfe."
+        ],
+        "observationKind": "private-reflection",
+        "observationMax": 8
+      },
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–C festhalten und Taros Änderung zeigen",
+        "text": "FREIWILLIGE FIKTIVE ÄNDERUNG NACH A–C · Taro will die neue Uhrzeit zusätzlich auf einer gedruckten Karte verteilen. Die Sternnetz-Gruppe bleibt bestehen. In der erfundenen Geschichte erreicht die Papierkarte drei Mitglieder, die die Online-Nachricht nicht gelesen hatten, darunter die zwei aus Karte 1. Wie gross die ganze Gruppe ist, wissen wir nicht. Dieser Transfer ersetzt kein persönliches Gespräch."
+      },
+      "tasks": [
+        {
+          "id": "mbi-i3-lebenswelt-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Vier Bereiche erkennen (4 Schriftpunkte): Ordne Karten 1–4 je einem Bereich zu: Beziehungen, Identität, Information, Meinungsbildung. Nenne zu jedem Bereich eine passende Chance oder Grenze aus seiner Karte. Mache aus einer erfundenen Einzelkarte keine Behauptung über alle Plattformen.",
+          "sample": "Karte 1: Beziehungen; Online-Verabredung hilft, aber nicht alle lesen sie rechtzeitig. Karte 2: Identität; fertige Arbeiten können gezeigt werden, aber „immer perfekt“ wäre eine Fehldeutung. Karte 3: Information; eine unbelegte Datumsbehauptung verlangt Prüfung bei der verantwortlichen Person. Karte 4: Meinungsbildung; drei zustimmende Kommentare ersetzen keine Begründung.",
+          "criteria": [
+            "Je 1 Punkt für jede der vier korrekten Zuordnungen mit einer zur Karte passenden Chance oder Grenze.",
+            "Keine Generalisierung der vier fiktiven Situationen auf alle sozialen Medien."
+          ]
+        },
+        {
+          "id": "mbi-i3-lebenswelt-b",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Beleg und Vermutung trennen (4 Schriftpunkte): Ordne jeden Satz als „steht in der Karte“, „mögliche Deutung“ oder „durch die Karte nicht belegt/widerlegt“ ein und nenne die Kartenstelle oder Beweisgrenze: (a) Zwei Mitglieder lasen die neue Uhrzeit nicht rechtzeitig. (b) Taro ist ausserhalb des Projekts immer beliebt. (c) Der Besucher könnte fertige Bilder mit fehlerfreiem Können verwechseln. (d) Drei zustimmende Kommentare beweisen, dass die Designidee die beste ist.",
+          "sample": "(a) Steht in Karte 1. (b) Nicht belegt: Über Beliebtheit ausserhalb des Projekts steht nichts. (c) Mögliche Deutung von Karte 2, kein gemessener Eindruck aller Besucher. (d) Nicht belegt durch Karte 4: Drei Stimmen beweisen keine Qualität oder Überlegenheit. „Widerlegt“ ist zulässig, wenn erklärt wird, dass aus der Mehrheit logisch keine Qualitätsgarantie folgt.",
+          "criteria": [
+            "Je 1 Punkt für die richtige Kategorie zu a–d mit passender Kartenstelle oder Beweisgrenze.",
+            "Bei d „widerlegt“ nur mit einer Erklärung akzeptieren, weshalb Kommentarzahl keine Qualitätsgarantie ist."
+          ]
+        },
+        {
+          "id": "mbi-i3-lebenswelt-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C · Entscheidung und Alternative (4 Schriftpunkte): Wähle Karte 3 oder Karte 4. Welche voreilige Entscheidung wäre möglich? Nenne zwei konkrete Prüfschritte, einen Vorteil und eine Grenze des gewählten Wegs. Ein direktes Gespräch darf Teil deiner Lösung sein.",
+          "sample": "Zu Karte 3 wäre „morgen“ ungeprüft weiterzugeben voreilig. Zuerst die Gruppenkarte mit dem Beitrag vergleichen, dann die gültige Uhrzeit bei der verantwortlichen Person klären. Das begründet die Terminentscheidung besser; trotzdem muss die bestätigte Zeit alle Beteiligten erreichen. Zu Karte 4 wäre die Mehrheit als Qualitätsbeweis voreilig. Eine Pro- und Contra-Begründung vergleichen und die Idee an Projektanforderungen oder in einem kleinen Test prüfen; das hilft, aber vier Kommentare beweisen keine Wirkung auf alle.",
+          "criteria": [
+            "1 Punkt für eine passende voreilige Entscheidung.",
+            "1 Punkt für zwei konkrete Prüfschritte zusammen.",
+            "1 Punkt für einen passenden Nutzen des gewählten Wegs.",
+            "1 Punkt für eine passende Grenze; andere konsistente Wege zählen."
+          ]
+        },
+        {
+          "id": "mbi-i3-lebenswelt-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige fiktive Änderung nach A–C · sechs getrennte Zusatzpunkte: Die gedruckte Karte erreicht drei zuvor nicht erreichte Mitglieder, darunter die zwei aus Karte 1. Was verbessert sich dadurch in dieser erfundenen Gruppe? Warum beweist das nicht, dass nun alle die richtige Uhrzeit kennen? Was müsste Taro vor einer verbindlichen Entscheidung noch prüfen, und warum ist „Karte erhalten“ nicht dasselbe wie eine bestätigte Rückmeldung?",
+          "sample": "Ein zweiter Kanal erreicht drei bisher nicht informierte Personen und kann die gemeinsame Planung verbessern. Die Gruppengrösse bleibt unbekannt; ausserdem beweist Erreichen weder Verstehen noch Zustimmung. Taro sollte die tatsächlich gültige Uhrzeit bei der zuständigen Person klären und eine Rückmeldung der Beteiligten einholen. Eine ausgeteilte Karte ist noch keine bestätigte Terminabsprache.",
+          "criteria": [
+            "2 Zusatzpunkte: zweiter Kanal erreicht in der Geschichte drei zuvor nicht erreichte Mitglieder und hilft der Organisation.",
+            "2 Zusatzpunkte: unbekannte Gruppengrösse und Unterschied zwischen Erreichen und Verstehen oder Bestätigen.",
+            "2 Zusatzpunkte: gültige Uhrzeit bei zuständiger Person/Gruppe prüfen und Rückmeldung der Beteiligten einholen; andere schlüssige Kontrollwege zählen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "Klasse 7 ab 2026/27; Ende-8-Ziel ab 2027/28",
+        "gradeBand": "Ende Klasse 8; freiwilliger Klasse-7-Einstieg",
+        "competencyRef": "MBI Gymnasium, Erprobungsfassung 2026, PDF-S. 2 und §2.2.3/PDF-S. 25: Bedeutung sozialer Medien im eigenen Leben für Beziehungen, Identitätsbildung, Information und Meinungsbildung kritisch reflektieren.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "mbi-sternnetz-feedranking",
       "subjectId": "mbi",
       "title": "Warum steht dieser Beitrag weiter oben?",

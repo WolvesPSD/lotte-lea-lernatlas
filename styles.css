@@ -315,3 +315,5 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 @media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-ds1-moderation-p1"]){font-size:9.5pt;line-height:1.12}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-ds1-moderation-p1"]) .print-task{margin-bottom:.55rem}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-ds1-moderation-p1"]) .print-practice p{margin:.25rem 0}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-ds1-moderation-p1"]) .print-practice ol{margin:.4rem 0}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-ds1-moderation-p1"]) .print-practice li+li{margin-top:.2rem}}
 
 .adult-topic,.adult-task{overflow-wrap:anywhere}
+
+@media print{#print-surface:has(.print-task[data-task-id="mbi-i3-lebenswelt-a"]) .print-practice,#print-surface:has(.print-task[data-task-id="mbi-i3-lebenswelt-a"]) .print-task[data-task-id="mbi-i3-lebenswelt-b"]{break-inside:avoid;page-break-inside:avoid}}

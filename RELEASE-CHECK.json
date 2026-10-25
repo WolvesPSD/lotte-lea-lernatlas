@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-25T08:19:44.836Z",
-  "releaseVersion": "2026.10.25-gobananen.1",
+  "builtAt": "2026-10-25T08:33:59.147Z",
+  "releaseVersion": "2026.10.25-mbiiss1.1",
   "newTopicIds": [
-    "go-bananen-lieferkette"
+    "mbi-i3-eigene-lebenswelt"
   ],
   "changeLog": [
-    "Geografie: freiwilliger qualitativer FAO-Fall zu einer gedachten Bananen-Lieferkette, Akteursrollen und Beweisgrenzen.",
-    "171 Themen und 770 reguläre Aufgaben. Der ältere Geografieplan ist für 2026/27 nicht bestätigt; keine private Einkaufsinformation und keine behauptete Wirkung einer konkreten Kette."
+    "MBI I3: freiwilliger fiktiver Taro-Fall zu Beziehungen, Identität, Information und Meinungsbildung mit separatem, nicht gespeichertem Gesprächsweg.",
+    "172 Themen und 774 reguläre Schriftaufgaben. Der eigene Lebensweltbezug bleibt ohne tatsächlich freiwilliges Gespräch nicht erhoben; keine privaten Aussagen oder Beobachtungen werden gespeichert."
   ],
-  "rollbackCommit": "989fc0ba67a22adb70f80a82bbd0255cc6006551",
+  "rollbackCommit": "06713bd12d94517041c99c943f719e49220546b3",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",
@@ -172,6 +172,7 @@
     "en-process-description-water-path",
     "en-invite-mini-comics-workshop",
     "ma-m4-rechnerprobe",
+    "mbi-i3-eigene-lebenswelt",
     "mbi-sternnetz-feedranking",
     "mbi-teamdaten-gegenpruefen",
     "de-zwei-spuren-leseweg",
@@ -237,6 +238,8 @@
     "fr-camille-geschichte-fortsetzen",
     "ma-kuehlkasten-rationale-zahlen",
     "ma-potenzen-rechnerwahl",
+    "fr-qui-est-ce-description",
+    "fr-graphique-club-message",
     "en-write-retell-lantern-walk",
     "en-write-rooftop-poem",
     "ma-schraegbild-darstellungen",
@@ -251,13 +254,12 @@
     "en-red-panda-field-guide",
     "en-process-description-water-path",
     "en-invite-mini-comics-workshop",
+    "mbi-i3-eigene-lebenswelt",
     "ma-rundungswahl-vergleich",
     "ma-runden-materialentscheidung",
     "fr-questionnaire-atelier-cartes",
     "mbi-i1-datumswerte-sortieren",
-    "mbi-i6-anwendungsfelder",
-    "fr-qui-est-ce-description",
-    "fr-graphique-club-message"
+    "mbi-i6-anwendungsfelder"
   ],
   "unclearValidityTopics": [
     "et-algebra-kulturtransfer",

@@ -41,18 +41,20 @@
     parent.append(el);
     return el;
   };
-  function appendSourceCards(parent, cards, forPrint = false) {
+  function appendSourceCards(parent, cards, forPrint = false, heading = 'Quellenkarten') {
     const group = create('section', forPrint ? 'print-source-cards' : 'learning-source-cards');
-    appendText(group, 'h3', '', 'Quellenkarten');
+    appendText(group, 'h3', '', heading);
     for (const card of cards) {
       const item = create('article', 'learning-source-card');
       appendText(item, 'h4', '', card.title);
       appendText(item, 'p', '', card.text);
-      const link = create('a', 'source-link', `${card.sourceLabel} ↗`);
-      link.href = card.sourceUrl;
-      link.target = '_blank';
-      link.rel = 'noopener noreferrer';
-      item.append(link);
+      if (card.sourceUrl) {
+        const link = create('a', 'source-link', `${card.sourceLabel} ↗`);
+        link.href = card.sourceUrl;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        item.append(link);
+      } else if (card.sourceLabel) appendText(item, 'p', 'muted', card.sourceLabel);
       if (card.additionalSourceUrl) {
         const extra = create('a', 'source-link', `${card.additionalSourceLabel} ↗`);
         extra.href = card.additionalSourceUrl;
@@ -61,7 +63,7 @@
         item.append(extra);
       }
       appendText(item, 'p', 'muted', card.sourceNote);
-      if (forPrint) appendText(item, 'p', 'print-source-url', card.sourceUrl);
+      if (forPrint && card.sourceUrl) appendText(item, 'p', 'print-source-url', card.sourceUrl);
       if (forPrint && card.additionalSourceUrl) appendText(item, 'p', 'print-source-url', card.additionalSourceUrl);
       group.append(item);
     }
@@ -281,6 +283,12 @@
         gatedPreview = `${subjectName} · ${nextTopic.title}: Vermutung festhalten und Lesetext öffnen.`;
       else if (sourceShown && !updateShown && nextTopic.tasks.slice(1, -1).every(task => nextTopic.stagedReading.optionalMainTaskIds?.includes(task.id) || String(state.answers[task.id] || '').trim()))
         gatedPreview = `${subjectName} · ${nextTopic.title}: Hauptantworten festhalten und freiwillige Änderung öffnen.`;
+    } else if (nextTopic?.stagedUpdate) {
+      const first = nextTopic.tasks[0];
+      const updateShown = state.answers[`${first.id}-update-gezeigt`] === 'ja';
+      const mainComplete = nextTopic.tasks.slice(0, -1).every(task => String(state.answers[task.id] || '').trim());
+      if (!updateShown && mainComplete)
+        gatedPreview = `${subjectById.get(nextTopic.subjectId).name} · ${nextTopic.title}: Hauptantworten festhalten und freiwillige Änderung öffnen.`;
     }
     $('#home-next-text').textContent = gatedPreview || (!nextTopic
       ? 'Nach deiner Themenwahl erscheint hier eine Aufgabe aus deiner eigenen Auswahl.'
@@ -492,7 +500,7 @@
     if (topic.prerequisite) appendText(intro, 'p', 'muted', topic.prerequisite);
     appendText(intro, 'p', '', topic.introduction);
     if (topic.passage) appendText(intro, 'blockquote', 'reading-passage', topic.passage);
-    if (topic.sourceCards) appendSourceCards(intro, topic.sourceCards);
+    if (topic.sourceCards) appendSourceCards(intro, topic.sourceCards, false, topic.cardsHeading);
     if (topic.tasks.some(task => task.helpAfterAttempt)) appendText(intro, 'p', 'learning-step-note', 'Erst selbst antworten und „Antwort prüfen“ wählen. Danach kannst du die freiwillige Formenhilfe öffnen.');
     if (topic.stagedReading) appendText(intro, 'p', 'muted', `Zuerst nur der Titel: ${topic.stagedReading.title}. Der Lesetext erscheint nach deiner ersten Vermutung.`);
     if (topic.stagedPrompt) appendText(intro, 'p', 'muted', 'Schreibe zuerst deine eigene Vermutung auf. Der kurze Kontext erscheint erst, wenn du sie festgehalten hast.');
@@ -853,7 +861,9 @@
         section.append(link);
       }
     }
-    if (adult) appendText(section, 'p', 'muted', practice.unscored === true
+    if (adult) appendText(section, 'p', 'muted', practice.observationKind === 'private-reflection'
+      ? 'Nur bei freiwilligem Gespräch und fairer Gelegenheit beobachten. Ohne Gespräch alle vier Kriterien nicht erhoben. Keine Namen, Themenwahl, Aussagen oder Stichwörter notieren; keine automatische Punktzahl oder Schulnote.'
+      : practice.unscored === true
       ? 'Nur tatsächlich Beobachtetes eintragen. Keine Gelegenheit und nicht beobachtet unterscheiden; keine Punkte, Summe oder Schulnote ableiten.'
       : practice.noTotal === true
       ? 'Nur nach fairer Gelegenheit je Kriterium beobachten. Ohne Gelegenheit: nicht erhoben statt 0. Keine Gesamtpunktzahl oder Schulnote ableiten.'
@@ -972,7 +982,7 @@
       appendText(section, 'p', 'print-context', topic.introduction);
       if (topic.passage) appendText(section, 'p', 'print-passage', topic.passage);
       if (topic.printPassage) appendText(section, 'p', 'print-passage', topic.printPassage);
-      if (topic.sourceCards) appendSourceCards(section, topic.sourceCards, true);
+      if (topic.sourceCards) appendSourceCards(section, topic.sourceCards, true, topic.cardsHeading);
       if (topic.stagedReading && mode === 'adult') {
         appendText(section, 'p', 'print-passage', topic.stagedReading.text);
         if (topic.stagedReading.plan) {
@@ -1093,7 +1103,9 @@
         appendText(practiceSection, 'p', '', mode === 'child' ? topic.practice.childNote : topic.practice.printAdultNote || topic.practice.adultNote);
         if (mode === 'adult') for (const paragraph of topic.practice.printAdultGuide || topic.practice.adultGuide || []) appendText(practiceSection, 'p', '', paragraph);
         const list = create('ol');
-        (mode === 'child' ? topic.practice.childSteps : topic.practice.adultCriteria).forEach(step => appendText(list, 'li', '', mode === 'child' ? step : topic.practice.unscored === true
+        (mode === 'child' ? topic.practice.childSteps : topic.practice.adultCriteria).forEach(step => appendText(list, 'li', '', mode === 'child' ? step : topic.practice.observationKind === 'private-reflection'
+          ? `${step}  ☐ selbst erklärt (2)  ☐ mit Hilfe (1)  ☐ noch nicht gezeigt (0 nur nach freiwilligem Versuch)  ☐ nicht erhoben (—)`
+          : topic.practice.unscored === true
           ? `${step}  ${topic.practice.printObservationLabels || '☐ beobachtet  ☐ nicht beobachtet  ☐ keine Gelegenheit  ☐ nicht anwendbar'}. Namenlose Kurznotiz: ____________________`
           : `${step}  Punkte: ____`));
         practiceSection.append(list);
@@ -1113,7 +1125,9 @@
         if (mode === 'child') for (const handout of topic.practice.childHandouts || []) appendText(practiceSection, 'p', 'print-context', `Freiwillige Zusatzkarte separat im Lernatlas öffnen und drucken: ${handout.publicUrl}. Ohne echte Sprech- und Feedbackrunde ist sie nur eine Anleitung.`);
         if (mode === 'adult') {
           for (const handout of topic.practice.handouts || []) appendText(practiceSection, 'p', 'print-context', `${handout.label}: ${handout.publicUrl}. Nur zur passenden Phase und ohne Erwachsenenlösung ausgeben.`);
-          if (topic.practice.unscored === true) {
+          if (topic.practice.observationKind === 'private-reflection') {
+            appendText(practiceSection, 'p', '', 'Ohne freiwilliges Gespräch: alle vier Kriterien nicht erhoben. Nichtnutzung oder Nichtauskunft ist keine Fehlleistung. Nur bei fairer Gelegenheit für alle vier Kriterien: Gesprächsbeobachtung ____ / 8; sonst keine vergleichbare Summe. Keine Namen, Bereichswahl, persönlichen Aussagen oder Stichwörter auf dem Bogen notieren.');
+          } else if (topic.practice.unscored === true) {
             appendText(practiceSection, 'p', '', topic.practice.printObservationFooter || 'Je Zeile nur nach zulässiger Beobachtung markieren; „keine Gelegenheit“ ist keine Fehlleistung.');
             if (topic.subjectId === 'sp') {
               appendText(practiceSection, 'p', '', 'Schulspiel und geltende Schulregel/Quelle: ______________________________________________');

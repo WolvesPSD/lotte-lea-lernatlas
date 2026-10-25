@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="245" viewBox="0 0 980 245" role="img" aria-labelledby="title desc">
+  <title id="title">Drei Figuren mit Seiten und senkrechten Höhen</title>
+  <desc id="desc">Schematische Zeichnung. Die vollständigen Maße stehen zusätzlich im Aufgabentext; das Bild darf nicht nachgemessen werden.</desc>
+  <rect width="980" height="245" fill="#fffdf9"/>
+  <g fill="none" stroke="#155249" stroke-width="3" stroke-linejoin="round">
+    <path d="M45 180 L205 180 L45 60 Z" fill="#e8f5ef"/>
+    <path d="M300 180 L460 180 L540 120 L380 120 Z" fill="#eef1fb"/>
+    <path d="M650 180 L850 180 L790 100 L710 100 Z" fill="#fff0da"/>
+  </g>
+  <g fill="none" stroke="#a43d24" stroke-width="2" stroke-dasharray="6 5">
+    <path d="M380 120 L380 180"/>
+    <path d="M710 100 L710 180"/>
+  </g>
+  <g fill="none" stroke="#155249" stroke-width="2">
+    <path d="M45 166 L59 166 L59 180"/>
+    <path d="M380 166 L394 166 L394 180"/>
+    <path d="M710 166 L724 166 L724 180"/>
+  </g>
+  <g fill="#20342f" font-family="Arial, sans-serif" font-size="19" text-anchor="middle">
+    <text x="125" y="32" font-size="22" font-weight="bold">T · Dreieck</text>
+    <text x="125" y="209">8 cm</text><text x="25" y="125">6 cm</text><text x="150" y="104">10 cm</text>
+    <text x="420" y="32" font-size="22" font-weight="bold">P · Parallelogramm</text>
+    <text x="380" y="209">8 cm</text><text x="555" y="160">5 cm</text><text x="430" y="157" fill="#a43d24">h=3 cm</text>
+    <text x="750" y="32" font-size="22" font-weight="bold">Z · Trapez</text>
+    <text x="750" y="209">10 cm</text><text x="750" y="91">4 cm</text><text x="625" y="137">5 cm</text><text x="875" y="137">5 cm</text><text x="753" y="157" fill="#a43d24">h=4 cm</text>
+  </g>
+</svg>

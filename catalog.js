@@ -334,6 +334,158 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-i4-text-bild-modelle",
+      "subjectId": "mbi",
+      "title": "Wie entstehen Text und Bild aus Modellen?",
+      "scope": "Freiwilliger Klasse-7-Vorgriff auf MBI I4, Zielmarke Ende Klasse 8. Zwei vereinfachte Modellbilder vergleichen und ihre Beleggrenzen erklären; keine aktuelle Schuleinheit, echte KI-Bedienung oder Kinderleistung belegt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Der Fall ist vollständig erfunden. Kein KI-Dienst, Konto, Bildgenerator oder Suchwerkzeug wird aufgerufen. Keine persönlichen Daten eingeben. Schreibe kurze Antworten hier oder ins Heft; für Aufgabe E brauchst du zusätzlich ein leeres A4-Zeichenblatt. Die App sieht deine Zeichnung nicht und bewertet Freitext nicht automatisch. Eine erwachsene Person prüft das Papier und die Antworten später mit dem getrennten Lösungsblatt.",
+      "introduction": "Du vergleichst zwei vereinfachte Wege: Ein Textmodell setzt Textbausteine fort; ein bestimmtes Bildmodell verändert ein rauschähnliches Muster mehrfach. Beides kann Entwürfe liefern. Ob eine sachliche Aussage stimmt, musst du an einer passenden Quelle prüfen. A–F haben 24 Kriterienpunkte; die freiwillige Änderung danach sechs getrennte Zusatzpunkte. Das ist Lernfeedback, keine Schulnote. Die Zeichnung in E entsteht auf einem eigenen A4-Blatt und kann in dieser App nicht geprüft werden.",
+      "passage": "KARTE T · VEREINFACHTES TEXTMODELL: Eine Eingabe wird in verarbeitbare Bausteine zerlegt, zum Beispiel Wörter, Wortteile oder Satzzeichen. Das Modell berechnet aus gelernten Mustern mögliche nächste Bausteine, wählt oder erzeugt einen, hängt ihn an und wiederholt den Schritt. Eine flüssige Fortsetzung ist noch keine Quellenprüfung. Beispiel: Auf „Die AG beginnt am …“ könnten „Montag“, „Mittwoch“ oder „bald“ folgen; keiner dieser Bausteine belegt den echten AG-Termin.\n\nKARTE B · BESTIMMTES BILDMODELL: Ein textgesteuertes Diffusionsmodell kann mit einem rauschähnlichen Muster beginnen und es in mehreren Schritten zu einem Bild verändern. Eine Beschreibung kann die Veränderung lenken. Dieses Anschauungsbild beschreibt eine Modellfamilie, nicht alle Bildgeneratoren. Ein Bild einer erfundenen Comicszene kann als Entwurf nützlich sein; es beweist kein wirkliches Ereignis.\n\nEin zusätzlich verbundenes Such- oder Quellenwerkzeug wäre ein eigener Schritt. Auch dessen Fundstellen brauchen eine Prüfung auf Herkunft, Datum und Passung.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–F",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–F festhalten und freiwillige Änderung zeigen",
+        "text": "FREIWILLIGE ÄNDERUNG NACH A–F · ERFUNDENE MITTEILUNG: „Die Ideenwerkstatt trifft sich am Dienstag um 15 Uhr. Bitte bringt Papier und Stifte mit. Der Raum wird am Montag bekanntgegeben.“\n\nERFUNDENE MODELL-ZUSAMMENFASSUNG: „Die Ideenwerkstatt trifft sich am Dienstag um 15 Uhr in Raum 7. In der Mitteilung steht: ‚Bitte bringt Papier und Stifte mit.‘ und ‚Der Raum ist 7.‘“\n\nPrüfe die zwei als wörtlich bezeichneten Stellen am Ausgangstext. Die sechs Zusatzpunkte werden getrennt betrachtet."
+      },
+      "tasks": [
+        {
+          "id": "mbi-i4-modelle-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 0,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "A · Ablauf ordnen (4 Hauptpunkte): Ordne für Karte T diese durcheinanderstehenden Schritte und ergänze den Wiederholungspfeil: einen Baustein auswählen/erzeugen; Eingabe zerlegen; anhängen und erneut fortsetzen; mögliche nächste Bausteine aus Mustern berechnen.",
+          "sample": "Eingabe zerlegen → mögliche nächste Bausteine aus gelernten Mustern berechnen → einen auswählen/erzeugen → anhängen → den Berechnungsschritt wiederholen. Gleichwertige klare Abläufe gelten.",
+          "criteria": [
+            "1 Punkt: Eingabe in Bausteine zerlegen.",
+            "1 Punkt: gelernte Muster für mögliche nächste Bausteine nutzen.",
+            "1 Punkt: eine Fortsetzung auswählen/erzeugen.",
+            "1 Punkt: anhängen und den Schritt wiederholen."
+          ]
+        },
+        {
+          "id": "mbi-i4-modelle-b",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 0,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "B · Modellgrenze (4 Hauptpunkte): Warum belegt „Mittwoch“ aus Karte T keinen echten AG-Termin? Nenne zwei voneinander unterscheidbare Prüfungen, bevor du einen wirklichen Termin weitergibst.",
+          "sample": "Die Fortsetzung folgt Mustern, nicht automatisch dem aktuellen Plan der AG. Ich suche die verantwortliche Schulmitteilung und prüfe dort Datum, Herkunft und ob genau diese AG gemeint ist; bei Widerspruch frage ich nach.",
+          "criteria": [
+            "2 Punkte: Musterfortsetzung klar von einer Abfrage des tatsächlichen AG-Plans getrennt.",
+            "2 Punkte: zwei konkrete, unterscheidbare Quellenprüfungen statt einer blossen Wiederholung."
+          ]
+        },
+        {
+          "id": "mbi-i4-modelle-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 0,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "C · Hilfe passend wählen (4 Hauptpunkte): Was ist ein sinnvoller erster Schritt bei (a) drei neutralen Überschriften für deinen Fantasiecomic, (b) dem aktuellen Abgabetermin einer echten Schulaufgabe und (c) dem Kürzen deines eigenen Absatzes? Wo brauchst du danach deine eigene Entscheidung oder einen Beleg?",
+          "sample": "Bei a kann ein Textmodell Entwurfsideen liefern; bei b prüfe ich eine aktuelle verantwortliche Schulquelle. Bei c kann ein Modell einen Kürzungsvorschlag liefern, den ich am Original auf Sinn und Belege prüfe. Entwurfshilfe erledigt Faktenprüfung nicht automatisch.",
+          "criteria": [
+            "1 Punkt: a als kreative Entwurfshilfe.",
+            "1 Punkt: b anhand aktueller verantwortlicher Quelle.",
+            "1 Punkt: c als mögliche Formulierungshilfe mit Vergleich zum eigenen Text.",
+            "1 Punkt: eigene Auswahl/Belegprüfung als zusätzlicher Schritt erklärt."
+          ]
+        },
+        {
+          "id": "mbi-i4-modelle-d",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 0,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "D · Fiktive Antwort prüfen (4 Hauptpunkte): „Die Sonnental-AG startet bestimmt am Mittwoch. Ich habe das aus typischen Schulplänen abgeleitet.“ Was ist unbelegt, warum ist „typisch“ kein Beleg für diese Schule, und was ist die sichere nächste Aktion?",
+          "sample": "Der konkrete Mittwochstermin ist unbelegt. Typische Schulpläne sind keine aktuelle Mitteilung dieser Schule. Ich prüfe die zuständige aktuelle Information oder frage nach; bis dahin bleibt der Termin unbekannt.",
+          "criteria": [
+            "1 Punkt: konkreten Mittwochstermin als unbelegt erkannt.",
+            "1 Punkt: allgemeines Muster nicht mit aktueller Schulquelle verwechselt.",
+            "1 Punkt: zuständige Mitteilung oder Nachfrage als nächste Aktion.",
+            "1 Punkt: bis dahin keine sichere Terminbehauptung."
+          ]
+        },
+        {
+          "id": "mbi-i4-modelle-e",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 0,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "E · Ablaufbild auf Papier (4 Hauptpunkte, nur mit wirklicher Zeichnung): Zeichne auf einem zusätzlichen leeren A4-Blatt Eingabe, schrittweise Textfortsetzung und Wiederholung. Markiere ein zusätzliches Such-/Quellenwerkzeug als getrennten Schritt. Erkläre hier oder im Heft, warum „Antwort erzeugt“ und „Quelle geprüft“ verschieden sind. Die erwachsene Person prüft das gezeichnete Blatt; ein ausgefülltes Textfeld beweist die Zeichnung nicht.",
+          "sample": "Das tatsächliche Blatt zeigt Eingabe → Bausteine/weiterer Schritt → Antwort mit Wiederholungspfeil; eine getrennte Verbindung führt zu einem Such-/Quellenwerkzeug. Textproduktion setzt Muster fort, Belegprüfung verlangt eine passende Quelle. Ohne gesehenes Blatt bleibt der Zeichenteil nicht erhoben.",
+          "criteria": [
+            "2 Punkte nur für ein tatsächlich geprüftes Ablaufbild mit Eingabe, Fortsetzung und Wiederholung.",
+            "1 Punkt: Such-/Quellenwerkzeug als getrennten Schritt markiert.",
+            "1 Punkt: Musterfortsetzung und Quellenbeleg unterscheiden. Ohne Papierbeleg keinen vollen 4-Punkte-Wert."
+          ]
+        },
+        {
+          "id": "mbi-i4-modelle-f",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 0,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "F · Zwei Modelle vergleichen (4 Hauptpunkte): Nenne zwei Unterschiede zwischen Karte T und B, eine gemeinsame Beleggrenze und für genau eine Modellart eine sinnvolle Verwendung samt passender eigener Prüfung.",
+          "sample": "Karte T erzeugt Textbausteine, Karte B ein Bild. T setzt nächste Bausteine fort; B verändert ein rauschähnliches Muster mehrfach. Keine Ausgabe ist allein ein Sachbeleg. Für Fantasiecomic-Überschriften kann ich einen Textentwurf prüfen, ob er neutral und passend ist.",
+          "criteria": [
+            "1 Punkt: Textausgabe gegenüber Bildausgabe.",
+            "1 Punkt: Textfortsetzung gegenüber mehreren Bildveränderungsschritten.",
+            "1 Punkt: keine Ausgabe allein als Sachbeleg behandelt.",
+            "1 Punkt: für eine Modellart sinnvolle Verwendung mit dazu passender Prüfung."
+          ]
+        },
+        {
+          "id": "mbi-i4-modelle-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 0,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Änderung nach A–F · sechs getrennte Zusatzpunkte: Vergleiche die erfundene Mitteilung mit der Modell-Zusammenfassung. Sind beide als wörtlich bezeichneten Stellen wirklich wortgleich? Was behauptet die Zusammenfassung ohne Beleg, und welche Information lässt die Mitteilung noch offen? Erkläre, warum die flüssige Formulierung daran nichts ändert.",
+          "sample": "„Bitte bringt Papier und Stifte mit.“ steht im Text; „Der Raum ist 7.“ steht dort nicht. Raum 7 ist eine unbelegte Ergänzung. Die Mitteilung kündigt den Raum erst für Montag an; eine flüssige Zusammenfassung kann ihn nicht vorwegnehmen.",
+          "criteria": [
+            "2 Zusatzpunkte: erste angebliche Belegstelle im Ausgangstext wiedergefunden und zweite als nicht wörtlich erkannt.",
+            "2 Zusatzpunkte: Raum 7 als unbelegte Behauptung der Zusammenfassung erkannt und flüssige Form nicht als Beweis behandelt.",
+            "2 Zusatzpunkte: Raum bleibt bis zur angekündigten Bekanntgabe am Montag offen; nur die Mitteilung oder eine spätere verantwortliche Auskunft kann ihn belegen. Zusatzpunkte getrennt ausweisen."
+          ]
+        }
+      ],
+      "practiceBeforeLastTask": true,
+      "practice": {
+        "title": "Papierweg für das Ablaufbild · freiwillige Praxis",
+        "childNote": "Lege für E ein leeres A4-Zeichenblatt neben dein Heft oder Extrablatt. Schreibe „E“ und das Thema darauf. Zeichne dort wirklich; ein Textfeld in der App ist kein Ersatz. Das Kinderarbeitsblatt enthält keinen vorgedruckten Zeichenraum.",
+        "childSteps": [
+          "Kinderblatt lesen und A–F im Heft, auf Extrablatt oder in der App beantworten.",
+          "Auf einem zusätzlichen leeren A4-Blatt zu E das Ablaufbild mit Wiederholung und getrenntem Quellenweg zeichnen.",
+          "Zeige der erwachsenen Person Zeichnung und Antworten erst nach eigener Bearbeitung; die freiwillige Änderung kommt danach."
+        ],
+        "adultNote": "Das gezeichnete A4-Blatt physisch ansehen, bevor E ganz bewertet wird. Ohne Blatt den Zeichenteil als nicht erhoben markieren und keinen künstlichen 24-Punkte-Gesamtwert nennen. Schriftliche Antworten können im Heft oder Extrablatt liegen; Textfeldfortschritt beweist keine Papierhandlung.",
+        "adultCriteria": [
+          "Sind Eingabe, Baustein-Fortsetzung und Wiederholung tatsächlich gezeichnet?",
+          "Ist das Such-/Quellenwerkzeug als eigener Schritt zu erkennen?",
+          "Trennt die Erklärung Musterproduktion von Quellenbeleg?",
+          "Bleibt ohne gesehenes Blatt der Zeichenteil nicht erhoben?"
+        ],
+        "unscored": true
+      },
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: MBI-Erprobungsfassung ab 2026/27 in Klasse 7, ab 2027/28 in Klasse 8. §2.2.4/PDF-S. 26: Funktionsweise, Nutzungsmöglichkeiten und Grenzen generativer Modelle darstellen; Zielmarke Klasse 8.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "mbi-i6-standortzugriff",
       "subjectId": "mbi",
       "title": "Was zeigt eine Standortberechtigung wirklich?",

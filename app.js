@@ -108,7 +108,7 @@
       const answered = topic.tasks.filter(task => String(state.answers[task.id] || '').trim()).length;
       const progress = tab.querySelector('small');
       if (progress) progress.textContent = topic.practiceBeforeLastTask
-        ? `${answered} von ${topic.tasks.length} Notizfeldern · Sprechen separat`
+        ? `${answered} von ${topic.tasks.length} Notizfeldern · Praxis separat`
         : `${answered} von ${topic.tasks.length} beantwortet`;
     }
   }
@@ -254,12 +254,12 @@
       appendText(top, 'span', 'home-topic-fraction', topic.practiceBeforeLastTask ? `${answered}/${topic.tasks.length} Notizen` : `${answered}/${topic.tasks.length}`);
       card.append(top);
       const bar = create('div', 'home-topic-bar');
-      bar.setAttribute('role', 'progressbar'); bar.setAttribute('aria-label', `${subject.name}: ${topic.practiceBeforeLastTask ? 'ausgefüllte Notizfelder; mündliche Leistung separat beobachten' : 'beantwortete Aufgaben'}`);
+      bar.setAttribute('role', 'progressbar'); bar.setAttribute('aria-label', `${subject.name}: ${topic.practiceBeforeLastTask ? 'ausgefüllte Notizfelder; zusätzliche Praxis separat prüfen' : 'beantwortete Aufgaben'}`);
       bar.setAttribute('aria-valuenow', String(answered)); bar.setAttribute('aria-valuemin', '0'); bar.setAttribute('aria-valuemax', String(topic.tasks.length));
       const fill = create('span'); fill.style.width = `${Math.round(answered / topic.tasks.length * 100)}%`; bar.append(fill); card.append(bar);
       appendText(card, 'h3', '', topic.title);
       appendText(card, 'p', 'home-topic-level', levelLabel(topic));
-      appendText(card, 'p', 'home-topic-teaser', `${topic.practiceBeforeLastTask ? `${topic.tasks.length} Notizfelder und getrennte Sprechpraxis` : `${topic.tasks.length} Aufgabe${topic.tasks.length === 1 ? '' : 'n'}`} · ${topic.scope}`);
+      appendText(card, 'p', 'home-topic-teaser', `${topic.practiceBeforeLastTask ? `${topic.tasks.length} Notizfelder und getrennte Praxis` : `${topic.tasks.length} Aufgabe${topic.tasks.length === 1 ? '' : 'n'}`} · ${topic.scope}`);
       card.append(button(answered ? 'Weiterlernen →' : 'Thema öffnen →', () => { state.active = topic.id; save(); show('work'); }, 'home-topic-open'));
       host.append(card);
     }
@@ -473,7 +473,7 @@
       appendText(tab, 'strong', '', subjectById.get(topic.subjectId).name);
       appendText(tab, 'span', '', topic.title);
       appendText(tab, 'small', '', topic.practiceBeforeLastTask
-        ? `${answered} von ${topic.tasks.length} Notizfeldern · Sprechen separat`
+        ? `${answered} von ${topic.tasks.length} Notizfeldern · Praxis separat`
         : `${answered} von ${topic.tasks.length} beantwortet`);
       tab.dataset.topicId = id;
       tab.className = 'topic-tab'; tab.setAttribute('aria-current', id === state.active ? 'true' : 'false'); tabs.append(tab);
@@ -756,7 +756,7 @@
   function renderTask(topic, task, index, autoCheckTotal = 0) {
     const card = create('article', 'task-card'); card.dataset.taskId = task.id;
     appendText(card, 'span', 'task-count', autoCheckTotal ? `Mini-Check ${index + 1} von ${autoCheckTotal}` : topic.practiceBeforeLastTask
-      ? `Notizfeld ${index + 1} von ${topic.tasks.length} · mündliche Praxis separat`
+      ? `Notizfeld ${index + 1} von ${topic.tasks.length} · Praxis separat`
       : `Aufgabe ${index + 1} von ${topic.tasks.length}`);
     appendText(card, 'h3', '', task.prompt);
     if (task.draftReferenceTaskId) {
@@ -1104,7 +1104,7 @@
           if (task.options) task.options.forEach(option => appendText(item, 'p', '', `☐ ${option}`));
           else {
             const lines = create('div', 'writing-lines');
-            for (let line = 0; line < (task.writingLines || (task.kind === 'reflection' ? 6 : 4)); line++) lines.append(create('div', 'writing-line'));
+            for (let line = 0; line < (task.writingLines ?? (task.kind === 'reflection' ? 6 : 4)); line++) lines.append(create('div', 'writing-line'));
             item.append(lines);
           }
         } else {

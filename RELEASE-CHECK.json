@@ -1,17 +1,18 @@
 {
-  "builtAt": "2026-10-25T09:45:45.955Z",
-  "releaseVersion": "2026.10.25-enhaudio.1",
+  "builtAt": "2026-10-25T10:18:53.764Z",
+  "releaseVersion": "2026.10.25-mbii4modelle.1",
   "newTopicIds": [
-    "en-library-update-audio"
+    "mbi-i4-text-bild-modelle"
   ],
   "changeLog": [
-    "Englisch EN-H: freiwillige Hörübung mit eigener 28-Sekunden-Aufnahme und fünf Fragen zu einer fiktiven Planänderung.",
-    "176 Themen und 794 reguläre Aufgaben. Musterlösungen nur im Erwachsenenbereich; vor dem ersten Kinderabspielen prüft eine englischkundige erwachsene Person den Ton mit der getrennten Lösung. Unklare Stellen bleiben unbewertet; keine volle 20-Punkte-Summe oder Kinderhörkompetenz bestätigt."
+    "Medienbildung I4: freiwilliger Klasse-7-Vorgriff auf ein Ziel Ende Klasse 8. Vereinfachtes Textmodell und eine Bildmodellfamilie vergleichen, Grenzen an einer erfundenen Mitteilung prüfen.",
+    "177 Themen und 801 reguläre Aufgaben. Aufgabe E verlangt ein echtes zusätzliches Zeichenblatt; ohne Sicht auf dieses Blatt bleiben Zeichenteile nicht erhoben. Alle Musterlösungen bleiben im Erwachsenenbereich. Die freiwilligen sechs Zusatzpunkte sind getrennt."
   ],
-  "rollbackCommit": "56a58a52cb6282d13114f7e42200b0ad8e711646",
+  "rollbackCommit": "99779dc2be8a91c7cc1bfe1d035f483abc6636a6",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
+    "mbi-i4-text-bild-modelle",
     "mbi-i6-standortzugriff",
     "mnt-samenpflanzen-bluete-beobachtung",
     "ma-koerper-netzkarten",

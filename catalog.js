@@ -38,10 +38,11 @@ window.LOTTE_CATALOG = Object.freeze({
     {
       "id": "sp",
       "name": "Sport",
-      "plan": "2016 (2025/26)",
-      "scope": "7/8-Bereiche im Original geprüft; Stand 2026/27 und schulische Wahlbereiche offen",
-      "availabilityLabel": "Lehrplan 2026/27 ungeklärt",
-      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Sport-Lehrplan gilt oder welche Spiele die Schule gewählt hat. Die freiwillige Regelkartenübung ist nur ein Papierfall und keine bestätigte aktuelle Klasse-7-Einheit oder Sportleistung."
+      "plan": "Gymnasium 2026, Erprobungsfassung; Klasse 7 ab 2026/27",
+      "scope": "Acht Bewegungsfelder; drei verbindliche Felder in Klasse 7, mindestens ein weiteres Feld nach Schulwahl. Konkrete Sportspiele und Unterrichtsfolge offen",
+      "availabilityLabel": "Schulische Auswahl offen",
+      "availabilityReason": "Der Thüringer Sport-Lehrplan 2026 gilt in Klasse 7 ab 2026/27. Die Schule wählt Inhalte und konkrete Sportspiele. Die vorhandene freiwillige Basketball-Regelkarte entstand nach dem älteren Plan 2016 und ist nur ein Papierfall, keine bestätigte aktuelle Unterrichtseinheit oder Bewegungsleistung.",
+      "source": "https://www.schulportal-thueringen.de/media/detail?tspi=20580"
     },
     {
       "id": "mnt",
@@ -15721,10 +15722,10 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "sp-basketball-regelkarte-papier",
       "subjectId": "sp",
       "title": "Was gilt auf der erfundenen Basketball-Karte?",
-      "scope": "Freiwilliger 7/8-Papierfall zu Sportspiel 1 mit Ziel Ende Klasse 8. Ob der Thüringer Sportplan 2016 im Schuljahr 2026/27 gilt und ob Lottes Schule Basketball wählt, ist ungeklärt. Die Aufgabe prüft nur Regelverständnis am erfundenen Fall, keine Bewegung oder Sportleistung.",
+      "scope": "Freiwilliger 7/8-Papierfall mit Basketball-Regeln. Der Thüringer Sportplan 2026 gilt für Klasse 7; Basketball erscheint darin als Beispiel, ist aber nicht als Sportspiel von Lottes Schule bestätigt. Dieser ältere FIBA-Regelkartenfall prüft nur fiktives Regelverständnis, keine Bewegung oder Sportleistung.",
       "levelStatus": "additional-unclear",
       "released": true,
-      "prerequisite": "Die Geltung des Sport-Lehrplans 2026/27 ist ungeklärt. FIBA-Regeln gelten hier nur für die erfundene Karte; die Schule legt tatsächliche Sportspiele und vereinfachte Regeln fest. Spiele oder trainiere nicht allein nach diesem Blatt. Reale Bewegung und Sicherheit gehören in den betreuten Unterricht. Keine Namen, Gesundheitsdaten, Fotos oder Sportnoten eingeben.",
+      "prerequisite": "Der Thüringer Sportplan 2026 gilt für Klasse 7, aber die konkrete Schulspielwahl ist offen. FIBA-Regeln gelten hier nur für die erfundene Karte; die Schule legt tatsächliche Sportspiele und vereinfachte Regeln fest. Spiele oder trainiere nicht allein nach diesem Blatt. Reale Bewegung und Sicherheit gehören in den betreuten Unterricht. Keine Namen, Gesundheitsdaten, Fotos oder Sportnoten eingeben.",
       "introduction": "Diese erfundene Karte verwendet vereinfachte Auszüge aus den FIBA Basketballregeln 2026, Version 1.1. Sie ist keine Anleitung für euer Schulspiel. Ein Treffer aus dem 2-Punkte-Bereich zählt zwei, aus dem 3-Punkte-Bereich drei Punkte; die 3-Punkte-Linie gehört zum 2-Punkte-Bereich. Die Seitenlinie gehört nicht zum Spielfeld. Berührt der Ball die Linie, ist er aus; normalerweise erhält die Gegenseite der zuletzt berührenden Person einen Einwurf nahe der Stelle. Nach einem beendeten Dribbling darf dieselbe Person nicht einfach erneut dribbeln. Ausnahmen setzen einen Ballkontrollverlust wegen eines Wurfs, einer Gegnerberührung oder eines Passes beziehungsweise versehentlichen Ballverlusts mit Berührung durch eine andere Person voraus. Alle Antworten beziehen sich nur auf diese Regelkarte. 20 Haupt- und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Sportnote.",
       "passage": "ERFUNDENE SPIELKARTE · Blau greift den gegnerischen Korb an. Niemand begeht ein Foul. Ein Wurf ist nur dann als Treffer bezeichnet, wenn der Ball von oben durch den Korb geht.\n\nA: Blau wirft und trifft. Beim Abwurf stehen beide Füße im Spielfeld vollständig jenseits der 3-Punkte-Linie.\nB: Blau wirft und trifft. Beim Abwurf berührt ein Fuß die 3-Punkte-Linie.\nC: Blau dribbelt. Danach nimmt Blau den Ball mit beiden Händen auf. Kein anderer Mensch berührt den Ball. Blau lässt ihn wieder auf den Boden tippen und dribbelt weiter.\nD: Rot berührt einen Pass zuletzt. Danach landet der Ball auf der Seitenlinie. Es gibt keinen weiteren Kontakt.",
       "stagedUpdate": {
@@ -15841,11 +15842,12 @@ window.LOTTE_CATALOG = Object.freeze({
         ]
       },
       "releaseEvidence": {
-        "validFor": "2025/26 amtlich belegt; 2026/27 ungeklärt",
-        "gradeBand": "7/8, Ziel Ende Klasse 8",
-        "competencyRef": "Sport Gymnasium 2016, PDF-S. 9–10 und 21–27: Sportspiel 1/2, schulische Spielwahl, Regelanwendung, einfache taktische Entscheidungen und tatsächliches Spielen. FIBA Official Basketball Rules 2026 v1.1, Art. 2.5.1/2.5.4, 16.2.1, 22.2, 23.1–23.2 und 24.1–24.2 nur als Regelkarte für den fiktiven Papierfall.",
+        "validFor": "Freiwilliger Papierfall aus dem Plan 2016; aktueller Sportplan 2026 gilt für Klasse 7 ab 2026/27, Schulspielwahl offen",
+        "gradeBand": "7/8, freiwillig; kein aktuelles Schulspiel belegt",
+        "competencyRef": "Historische Ableitung: Sport Gymnasium 2016, PDF-S. 9–10 und 21–27. Aktueller Sportplan 2026, PDF-S. 7–8 und 21–22: Bewegungsfeld Spielen verbindlich, konkrete Spiele nach Fachkonferenz; Basketball auf PDF-S. 30–32 nur beispielhaft. FIBA Official Basketball Rules 2026 v1.1, Art. 2.5.1/2.5.4, 16.2.1, 22.2, 23.1–23.2 und 24.1–24.2 nur als Regelkarte für den fiktiven Papierfall.",
         "checkedAt": "2026-10-22"
-      }
+      },
+      "levelLabel": "Freiwillig · Schulspielwahl offen"
     },
     {
       "id": "mnt-wasser-teilchenmodell",

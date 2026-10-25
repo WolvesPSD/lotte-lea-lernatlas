@@ -17,11 +17,11 @@
     'additional-unclear': 'Freiwillig · Lehrplan 2026/27 ungeklärt'
   };
   const isGrade6Review = topic => topic.releaseEvidence?.gradeBand === '6-Grundlage, 7-Wiederholung' || topic.levelStatus === 'grade6-bridge';
-  const levelLabel = topic => topic.levelStatus === 'grade6-bridge'
+  const levelLabel = topic => topic.levelLabel || (topic.levelStatus === 'grade6-bridge'
     ? levelLabels['grade6-bridge']
     : isGrade6Review(topic)
     ? 'Wiederholung Klasse 6 · freiwillig'
-    : levelLabels[topic.levelStatus] || 'Jahrgangsbezug offen';
+    : levelLabels[topic.levelStatus] || 'Jahrgangsbezug offen');
   const mbiYearNote = topic => topic.subjectId === 'mbi' && topic.levelStatus === 'grade78-flex' && !isGrade6Review(topic)
     ? 'MBI ist in Klasse 7 eingeführt. Dieses Teilziel hat den Zielstand Ende Klasse 8; welche Teile jetzt im Unterricht vorkommen, ist unbekannt.'
     : '';
@@ -953,21 +953,25 @@
   function renderSources() {
     const host = $('#parent-source-list'); host.replaceChildren();
     const overview = 'https://www.schulportal-thueringen.de/web/guest/lehrplaene/gymnasium';
-    const currentIds = new Set(['de', 'en', 'fr', 'ma', 'mbi', 'bi', 'ch', 'ph']);
+    const currentIds = new Set(['de', 'en', 'fr', 'ma', 'mbi', 'bi', 'ch', 'ph', 'sp']);
     for (const subject of catalog.subjects) {
       const card = create('article', 'source-card');
       appendText(card, 'h3', '', subject.name);
       appendText(card, 'p', '', `Fassung und Jahrgang: ${subject.plan}. ${subject.scope}.`);
-      const sourceStatus = subject.id === 'mnt'
+      const sourceStatus = subject.id === 'sp'
+        ? 'Lehrplanquelle: Ministerielle Erprobungsfassung 2026; Klasse 7 ab 2026/27. Konkrete Sportspiele und weitere Bewegungsfelder wählt die Schule.'
+        : subject.id === 'mnt'
         ? 'Lehrplanquelle: Ministerielle Erprobungsfassung 2026 intern geprüft; sie setzt MNT 2026/27 für Klasse 5 in Kraft. Ein passender Klasse-7-Bezug ist nicht belegt.'
         : currentIds.has(subject.id)
           ? 'Lehrplanquelle: Ministerielles Original 2026 intern geprüft; öffentlicher Datei-Abgleich steht aus.'
           : 'Lehrplanquelle: Fachstand aus der amtlichen Übersicht 2025/26; Gültigkeit 2026/27 noch offen.';
       appendText(card, 'p', 'source-status', sourceStatus);
-      const link = create('a', 'source-link', 'Amtliche Gymnasialübersicht öffnen ↗');
-      link.href = overview; link.target = '_blank'; link.rel = 'noopener noreferrer';
+      const link = create('a', 'source-link', subject.id === 'sp' ? 'Amtliche Sportfassung öffnen ↗' : 'Amtliche Gymnasialübersicht öffnen ↗');
+      link.href = subject.id === 'sp' ? subject.source : overview; link.target = '_blank'; link.rel = 'noopener noreferrer';
       card.append(link);
-      appendText(card, 'p', 'source-small', 'Ein öffentlicher Direktlink zur hier beschriebenen Fachfassung wurde nicht sicher geprüft. Der Link führt zur amtlichen Fachübersicht; die erreichbare Datei kann davon abweichen.');
+      appendText(card, 'p', 'source-small', subject.id === 'sp'
+        ? 'Die amtliche Fachseite nennt den 2026er Plan. Die vorhandene Basketball-Regelkarte entstand dagegen aus dem älteren Plan und ersetzt keine Schulspielwahl.'
+        : 'Ein öffentlicher Direktlink zur hier beschriebenen Fachfassung wurde nicht sicher geprüft. Der Link führt zur amtlichen Fachübersicht; die erreichbare Datei kann davon abweichen.');
       if (subject.id === 'fr') {
         appendText(card, 'p', 'source-status', 'Schulischer Sprachweg: Ein Elternbrief für Klasse 5 im Schuljahr 2024/25 nennt Französisch als zweite Fremdsprache ab Klasse 6. Bei regulärem Jahrgangsverlauf passt das zu Lottes aktuellem Fach. Ihr persönlicher Beginn und Lernstand sind nicht belegt.');
         const schoolLink = create('a', 'source-link school-source-link', 'Suhler Elternbrief zur zweiten Fremdsprache öffnen ↗');

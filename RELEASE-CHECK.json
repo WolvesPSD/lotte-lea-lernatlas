@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-25T10:30:31.176Z",
-  "releaseVersion": "2026.10.25-desongtext.1",
-  "newTopicIds": [
-    "de-songtext-rueck-ein-stueck"
-  ],
+  "builtAt": "2026-10-25T10:47:04.980Z",
+  "releaseVersion": "2026.10.25-sportplan2026.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Deutsch D-L2: freiwillige 7/8-Leseübung zu einem eigens verfassten 16-Zeilen-Songtextentwurf ohne Melodie oder Aufnahme. Vier Hauptaufgaben prüfen Form, Deutung und Textbeleg; eine spätere Textänderung bleibt zunächst verborgen.",
-    "178 Themen und 808 reguläre Aufgaben. 20 Hauptpunkte und sechs getrennte freiwillige Zusatzpunkte; optionale echte Lautlesepraxis ist unbepunktet und ohne Durchführung nicht erhoben. Lösungen bleiben im Erwachsenenbereich."
+    "Quellenkorrektur: Thüringer Sportplan 2026 gilt in Klasse 7 ab 2026/27. Fachkonferenz wählt Inhalte und Sportspiele; der vorhandene Basketball-FIBA-Papierfall bleibt freiwillig und historisch aus Plan 2016 abgeleitet.",
+    "178 Themen und 808 Aufgaben unverändert; keine neue Sportleistung oder bestätigte Schulspielwahl."
   ],
-  "rollbackCommit": "eef2674c7c193b246ff23d7442c7dd2a30bc0dc6",
+  "rollbackCommit": "68b20aaf4f18b012465a3a7b635ca7b2b9c7ea7d",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -280,7 +278,6 @@
     "ge-patcham-quellenpruefung",
     "ge-toledo-uebersetzungsquellen",
     "mu09-bass-triole-taktwechsel",
-    "sp-basketball-regelkarte-papier",
     "ge-reformationsdrucke-quellenkritik",
     "ge-bauernartikel-freiheit-deutung",
     "go-reisepfeile-auslandsreisen",

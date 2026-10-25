@@ -10248,6 +10248,107 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-i2-drei-formatwege",
+      "subjectId": "mbi",
+      "title": "Drei Wege für ein Medienpaket",
+      "scope": "Freiwilliger Ende-8-Ausblick im gültigen MBI-Lernzeitraum 7/8: Dateiformat, Kompression und Übertragungsweg an drei fiktiven Medienfällen unterscheiden. Die schulische Reihenfolge und eine echte Medienproduktion sind offen.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Alle Dateien, Grössen und Datenraten sind erfundene Werte genau dieses Falls. Du brauchst keine echte Datei, kein Konto und keinen Upload. Bearbeite A/B und C/D gern an verschiedenen Tagen. Nutze Papier oder einen Taschenrechner für den Rechenweg und notiere die tatsächlich verwendete Hilfe. Freie Antworten prüft ein Mensch; die App vergibt keine Note. Die freiwillige Änderung erscheint erst nach A–D.",
+      "introduction": "Das erfundene Team Orbit bereitet ein Sternsymbol, ein Weltraumbild und einen kurzen Film vor. Entscheide anhand der Karten, was für genau diesen Fall passt. Die Werte sind Szenariodaten, keine allgemeine Rangliste. 30 Kriterienpunkte dienen nur als Lernfeedback; ein zusätzlicher Fall hat höchstens 4 getrennte Punkte.",
+      "passage": "FALLKARTE A · SYMBOL\nEin Kreis und fünf gerade Strahlen sollen als kleines App-Symbol und gross auf einem Plakat erscheinen; der Hintergrund soll durchsichtig sein.\norbit.svg: 6 KiB, Kreis/Linien beschrieben, im Test klein und gross scharf, durchsichtig.\norbit.png: 38 KiB, 128 × 128 Pixel, durchsichtig; gespeicherte Pixel bleiben exakt, bei starker Vergrösserung sichtbar pixelig.\norbit.jpg: 7 KiB, 128 × 128 Pixel, weisser Hintergrund, in diesem Test kleine Kantenstörungen.\n\nFALLKARTE B · STANDBILD\nDasselbe fiktive, detailreiche Weltraumbild: nebel.png 840 KiB, gespeicherte Pixel verlustfrei; nebel.jpg 210 KiB, diese Ausgabe verlustbehaftet, kleine Störungen an feinen Sternrändern.\n\nFALLKARTE C · FILM\nEine hypothetische Filmfassung dauert 60 s. Bildrate 1,20 Mbit/s, Tonrate 0,12 Mbit/s. Für die Rechnung nur diese eine Fassung betrachten, ohne Verpackungs- und Netzverkehrsdaten. 1 Mbit = 1 000 000 bit; 1 Byte = 8 bit; 1 MB = 1 000 000 Byte. Theoretische Verbindung: 4 Mbit/s.\nVor Ort: Laptop ohne verlässliches Netz; die vollständige Datei kann vorher kopiert werden.\nZu Hause: wechselnde Verbindung; eine HLS-Fassung ist vorbereitet. Ihre Haupt-Playlist bietet Qualitätsstufen an; die Medien-Playlist der gewählten Stufe verweist auf codierte Segmente. Gesamtgrösse aller Varianten unbekannt; passender Player und Verbindung vorausgesetzt.\n\nFALLKARTE D · BEGRIFFE\n1: Ordnet an, wie digitale Inhalte in einer Datei oder einem Datenstrom beschrieben sind.\n2: Verringert Datenmenge; je nach Verfahren bleiben Informationen exakt oder ändern sich.\n3: Beschreibt, wie Inhalte zum Gerät gelangen und bei der Wiedergabe bereitstehen.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und neue Symbolbedingung zeigen",
+        "text": "FREIWILLIGER NEUER SYMBOLFALL NACH A–D · Ein zweites Zielgerät kann SVG nicht öffnen. Das Symbol wird dort nur mit 128 × 128 Pixeln angezeigt; der durchsichtige Hintergrund bleibt wichtig. Wähle anhand der ursprünglichen Testkarte neu und sage, welche frühere Grössenanforderung weggefallen ist. Behaupte keine getestete Kompatibilität anderer Geräte."
+      },
+      "tasks": [
+        {
+          "id": "mbi-i2-formata",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Symbol (5 Punkte): A1 Wähle eine Datei für kleines und grosses Symbol. Begründe mit zwei Anforderungen der Karte. A2 Nenne einen Fall, in dem PNG trotzdem passt, und begründe die Bedingung.",
+          "sample": "A1: orbit.svg passt zur starken Vergrösserung, weil die Formen als Kreis/Linien beschrieben sind und der Test beide Grössen scharf zeigt; auch der transparente Hintergrund passt. A2: orbit.png passt für die vorgesehene 128 × 128-Grösse, wenn Transparenz und exakt erhaltene gespeicherte Pixel wichtiger sind als starke Vergrösserung. Eine bekannte fehlende SVG-Unterstützung wäre ebenfalls eine Bedingung, nicht eine hier geprüfte Tatsache.",
+          "criteria": [
+            "1 Punkt für eine zum Gesamtauftrag passende Datei, 1 für den Vergrösserungs-/Formbezug und 1 für Transparenz oder eine gleichwertige zweite Anforderung. PNG nur für 128 × 128 Pixel ist keine vollständige A1-Lösung, weil damit die verlangte grosse Plakatausgabe nicht erfüllt ist; ein erkannter Zielkonflikt kann als Teilargument gelten.",
+            "2 Punkte für einen konkreten PNG-Nutzungsfall und seine Verbindung zu 128 × 128 Pixeln, Transparenz oder exakt erhaltenen gespeicherten Pixeln. JPG mit weissem Hintergrund erfüllt diesen Fall nicht."
+          ]
+        },
+        {
+          "id": "mbi-i2-formatb",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Standbild (8 Punkte): B1 Berechne Ersparnis in KiB und Prozent samt Rechenweg. B2 Entscheide getrennt für exakt erhaltene Pixel und knappen Speicherplatz bei akzeptierten Störungen. B3 Erkläre, weshalb zwei Testdateien keine allgemeine Dateiendungsregel beweisen.",
+          "sample": "840 − 210 = 630 KiB. 630 ÷ 840 × 100 = 75 %; die JPG-Testdatei ist ein Viertel der PNG-Testdatei. Bei nötiger Pixelgenauigkeit nehme ich PNG, bei knappem Platz und akzeptablen Störungen kann diese JPG-Ausgabe passen. Motiv, Abmessungen, Werkzeug und Einstellungen ändern das Ergebnis; diese beiden Dateien beweisen keine allgemeine Rangliste.",
+          "criteria": [
+            "3 Punkte: 630 KiB, nachvollziehbare 4×-/Viertel-Relation oder gleichwertiger Zwischenschritt und 75 % bezogen auf 840 KiB.",
+            "3 Punkte: PNG mit exakt erhaltenen gespeicherten Pixeln und konditionale JPG-Wahl bei knappem Speicher und akzeptierten Störungen; begründete Alternativen zulassen.",
+            "2 Punkte: genau diese Testausgaben benennen und mindestens einen Einfluss wie Motiv, Abmessungen oder Einstellungen erklären. Keine pauschale Behauptung über jeden JPEG-Modus verlangen."
+          ]
+        },
+        {
+          "id": "mbi-i2-formatc",
+          "kind": "reflection",
+          "points": 10,
+          "writingLines": 12,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "C · Film (10 Punkte): C1 Berechne gemeinsame Datenrate und Grösse genau einer 60-Sekunden-Fassung in Mbit und MB; markiere die Schätzung. C2 Berechne die theoretische Mindestübertragungszeit bei 4 Mbit/s. C3 Empfiehl für Vor-Ort und Zuhause je einen Weg, mit benötigter Voraussetzung und Grenze. Addiere keine unbekannten HLS-Varianten.",
+          "sample": "1,20 + 0,12 = 1,32 Mbit/s; × 60 s = 79,2 Mbit; ÷ 8 = 9,9 MB. Ohne Zusatzverkehr wäre 79,2 ÷ 4 = 19,8 s ein theoretisches Minimum. Vor Ort liegt die vollständige, abspielbare Datei vorher auf dem Laptop. Zu Hause kann der passende Player bei Verbindung die vorbereitete HLS-Playlist und Segmente anfordern; wechselndes Netz kann die Wiedergabe stören. Die Grösse aller Qualitätsvarianten ist nicht angegeben.",
+          "criteria": [
+            "4 Punkte: 1,32 Mbit/s, 79,2 Mbit für genau eine Fassung, 9,9 MB mit 8 bit/Byte und begrenzte Schätzung.",
+            "2 Punkte: 19,8 s mit Einheit und Kennzeichnung als theoretisches Minimum ohne Zusatzverkehr.",
+            "2 Punkte: vollständige, abspielbare Datei vorab lokal für Offline-Vorführung, ohne erfundenen Zeitpunkt des Wiedergabestarts.",
+            "2 Punkte: HLS-Playlist/Segmente mit passendem Player und Verbindung sowie verbleibender Netzgrenze. HLS ist kein Offline-Beweis."
+          ]
+        },
+        {
+          "id": "mbi-i2-formatd",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "D · Begriffe (7 Punkte): D1 Ordne 1–3 den Begriffen Übertragungs-/Wiedergabeweg, Dateiformat und Kompression zu. D2 Erkläre, warum HLS keine Bildkompression ist und warum „PNG ist verlustfrei“ nicht „immer kleinste Datei“ bedeutet.",
+          "sample": "1 = Dateiformat, 2 = Kompression, 3 = Übertragungs-/Wiedergabeweg. HLS nutzt Playlists und Verweise auf bereits codierte Segmente zur Bereitstellung; es ist selbst kein Bildkompressionsverfahren. PNG erhält die gespeicherten Rasterpixel verlustfrei, verspricht aber keine kleinste Dateigrösse gegenüber anderen Formaten oder Einstellungen.",
+          "criteria": [
+            "3 Punkte für die drei richtigen Zuordnungen.",
+            "2 Punkte für HLS als Playlist-/Segment-Bereitstellungsweg und Abgrenzung von der Codierung/Kompression der Mediensegmente.",
+            "2 Punkte für verlustfrei erhaltene gespeicherte Rasterpixel und fehlende Garantie der kleinsten Dateigrösse."
+          ]
+        },
+        {
+          "id": "mbi-i2-formate",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger neuer Symbolfall nach A–D · 4 getrennte Zusatzpunkte: Welches der drei vorgegebenen Formate würdest du für das zweite Zielgerät wählen? Begründe die Wahl mit zwei Kartenangaben und erkläre, welche Anforderung weggefallen ist.",
+          "sample": "orbit.png: 128 × 128 Pixel reichen hier, die Testkarte bestätigt Transparenz und exakt erhaltene gespeicherte Pixel. Die starke Vergrösserung für dieses zweite Gerät entfällt. Dass SVG dort nicht geöffnet werden kann, ist eine neue Fallbedingung, keine allgemeine Aussage über Geräte.",
+          "criteria": [
+            "1 Zusatzpunkt für PNG als unter den vorgegebenen drei Dateien passende Wahl.",
+            "2 Zusatzpunkte für zwei passende Kartenargumente zu 128 × 128, Transparenz oder gespeicherten Pixeln.",
+            "1 Zusatzpunkt für die entfallene starke Vergrösserung; keine echte Gerätekompatibilität behaupten."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: MBI ab Klasse 7 im Schuljahr 2026/27. § 2.2.2, PDF-S. 24–25: Dateiformate, Codierung, Kompression und Streaming unter der Zielmarke Ende Klasse 8.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "mbi-i2-zielgruppenwirkung-lesepause",
       "subjectId": "mbi",
       "title": "Wirkt die Lese-Pause-Karte für alle?",

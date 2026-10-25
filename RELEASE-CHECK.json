@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-25T08:52:24.832Z",
-  "releaseVersion": "2026.10.25-frwbild.1",
+  "builtAt": "2026-10-25T09:04:20.658Z",
+  "releaseVersion": "2026.10.25-mbiiformat.1",
   "newTopicIds": [
-    "fr-w-image-message"
+    "mbi-i2-drei-formatwege"
   ],
   "changeLog": [
-    "Französisch: freiwillige Bild→Nachricht-Aufgabe mit eigener fiktiver SVG-Bildfolge, Textzugang und erst nach A–D sichtbarem Bild B.",
-    "173 Themen und 779 reguläre Aufgaben. Bild-/Textquelle und Farbgrenzen bleiben kenntlich; keine privaten Bilder, Namen oder Lernstände im Paket."
+    "MBI I2: freiwilliger Ende-8-Formatvergleich für fiktives SVG-/Raster-Symbol, konkretes Kompressionsbeispiel und lokalen Film gegenüber HLS-Bereitstellung.",
+    "174 Themen und 784 reguläre Schriftaufgaben. 30 Haupt- und 4 getrennte Zusatzpunkte sind Lernfeedback; keine reale Medienproduktion, Schulfolge oder Kinderleistung belegt."
   ],
-  "rollbackCommit": "bc6b69e64127372b85f910cf0a983530a8aedbbd",
+  "rollbackCommit": "d23bddafda3991a4139523a09919b05b599686e4",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",
@@ -118,6 +118,7 @@
     "de-beschwerde-materialsets",
     "de-innerer-monolog-projekttisch",
     "mbi-lesepause-medienwerkstatt",
+    "mbi-i2-drei-formatwege",
     "mbi-i2-zielgruppenwirkung-lesepause",
     "mbi-publikationswege-quellenkarten",
     "mbi-rechte-vor-weitergabe",

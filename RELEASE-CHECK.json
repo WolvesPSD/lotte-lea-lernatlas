@@ -1,12 +1,14 @@
 {
-  "builtAt": "2026-10-25T01:05:31.211Z",
-  "releaseVersion": "2026.10.25-mbii5scratchpraxis.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "MBI: Freiwillige Scratch-Praxis im vorhandenen Blockprogramm-Thema mit direktem Editorlink, sechs Arbeitsschritten und unbepunktetem Erwachsenenbogen.",
-    "Der bisherige Modellblockeditor bleibt erhalten. 155 Themen und 694 reguläre Aufgaben; eine wirkliche Programmierleistung wird erst nach tatsächlicher Ausführung beobachtet."
+  "builtAt": "2026-10-25T01:38:43.616Z",
+  "releaseVersion": "2026.10.25-etalgebra.1",
+  "newTopicIds": [
+    "et-algebra-kulturtransfer"
   ],
-  "rollbackCommit": "971168101baf79c3c991c8e5e121daf2df4dee83",
+  "changeLog": [
+    "Ethik: Freiwilliger historischer Kulturtransfer-Fall zu al-Chwarizmis Algebra-Werk, lateinischen Übersetzungen und der Herkunft des heutigen deutschen Wortes.",
+    "Drei paraphrasierte Quellenkarten, vier Hauptaufgaben und eine später freigegebene Zusatzkarte. 156 Themen und 699 reguläre Aufgaben; Fachgeltung 2026/27 und Lottes Unterrichtsfolge bleiben ungeklärt."
+  ],
+  "rollbackCommit": "62c0e4b1a8584f68a554d6255df911818d7baee6",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",
@@ -131,6 +133,7 @@
     "en-small-note-poem",
     "fr-parapluie-poeme",
     "ma-schraegbild-darstellungen",
+    "et-algebra-kulturtransfer",
     "et-jugendrat-budgetwerte",
     "et-jugendhaus-doppeltermin",
     "go-klima-vegetation-modell",
@@ -235,6 +238,7 @@
     "mbi-i1-datumswerte-sortieren"
   ],
   "unclearValidityTopics": [
+    "et-algebra-kulturtransfer",
     "et-jugendrat-budgetwerte",
     "et-jugendhaus-doppeltermin",
     "go-klima-vegetation-modell",

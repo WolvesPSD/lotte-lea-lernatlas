@@ -11601,6 +11601,131 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "et-algebra-kulturtransfer",
+      "subjectId": "et",
+      "title": "Wie reist ein Wort durch Zeiten und Sprachen?",
+      "scope": "Freiwilliger Klasse-7-Vorgriff auf einen engen historischen Kulturtransfer-Teil von Ethik §2.2.3, Ziel bis Ende Klasse 8. Die Geltung des älteren Ethikplans für 2026/27 und Lottes Schulfolge sind ungeklärt.",
+      "levelStatus": "additional-unclear",
+      "released": true,
+      "prerequisite": "Du brauchst weder deine Herkunft noch deinen Glauben zu beschreiben. Prüfe nur die drei Quellenkarten. Arabisch ist eine Sprache; aus einem Wort oder Namen folgt keine Religion aller beteiligten Menschen. Die Geltung des älteren Ethikplans ist für Lottes Schuljahr 2026/27 ungeklärt.",
+      "introduction": "Ein Wort kann einen langen Weg durch Texte und Sprachen haben. Die Karten zeigen zwei Spuren: ein arabischsprachiges Algebra-Werk und seine lateinischen Übersetzungen sowie die arabische Herkunft des heutigen deutschen Fachworts. Prüfe, was belegt ist und wo eine Verbindung offenbleibt. Übertragung bedeutet hier: Ein Text oder Begriff gelangt in eine andere Sprache. Ein Beleg ist eine überprüfbare Quelle. 20 Hauptpunkte und sechs spätere Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "sourceCards": [
+        {
+          "title": "A · Historischer Forschungsüberblick",
+          "text": "Al-Chwarizmi schrieb im 9. Jahrhundert im islamisch regierten Bagdad ein arabischsprachiges Buch über Rechenverfahren. Im Titel stand al-jabr. Der Algebra-Teil wurde im 12. Jahrhundert zweimal ins Lateinische übersetzt; die lateinischen Fassungen beeinflussten mittelalterliche europäische Mathematik.",
+          "sourceLabel": "MacTutor, University of St Andrews · Biografie und Fachüberblick",
+          "sourceUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+          "sourceNote": "Eigene Inhaltsangabe; die zwei Übersetzungen des Algebra-Teils stehen in der Fachbiografie auf PDF-S.4: https://mathshistory.st-andrews.ac.uk/DSB/Al-Khwarizmi.pdf"
+        },
+        {
+          "title": "B · Museums-Hinweis",
+          "text": "Das Metropolitan Museum nennt algebra als Beispiel für ein arabisch geprägtes Wort, das in europäische Sprachen gelangte. Es erinnert daran, dass in arabischsprachigen Regionen sowohl muslimische als auch nichtmuslimische Menschen Arabisch sprechen.",
+          "sourceLabel": "The Metropolitan Museum of Art · Frequently Asked Questions",
+          "sourceUrl": "https://www.metmuseum.org/fr/learn/educators/curriculum-resources/art-of-the-islamic-world/introduction/frequently-asked-questions",
+          "sourceNote": "Eigene knappe Inhaltsangabe; kein Beleg für die Religion einzelner historischer Übersetzer."
+        },
+        {
+          "title": "C · Wörterbuch heute",
+          "text": "Der Duden führt Algebra heute als deutsches Wort für ein mathematisches Gebiet. Unter Herkunft nennt er arabisch al-ǧabr. Ein Wörterbucheintrag misst nicht, wie häufig einzelne Menschen das Wort verwenden.",
+          "sourceLabel": "Duden · Algebra",
+          "sourceUrl": "https://www.duden.de/rechtschreibung/Algebra",
+          "sourceNote": "Eigene Inhaltsangabe des Wörterbucheintrags; kein Bericht über ein neues Austauschereignis."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und neue Karte zeigen",
+        "text": "FREIWILLIGE NEUE KARTE NACH A–D · Eine vierte, erfundene Karte behauptet: „Weil im Duden Algebra steht, können wir den genauen Ort jeder lateinischen Übersetzung angeben. Außerdem bedeutet ein arabisches Wort immer, dass es nur von Muslimen benutzt wurde.“ Die sechs Zusatzpunkte gehören nicht zu den 20 Hauptpunkten."
+      },
+      "tasks": [
+        {
+          "id": "et-algebra-a",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A · Zwei Belegspuren (5 Hauptpunkte): Zeichne oder beschreibe zwei kurze Spuren: (1) arabischsprachiges Werk im Bagdad des 9. Jahrhunderts bis zu lateinischen Übersetzungen im 12. Jahrhundert; (2) arabisches Wort al-jabr bis zum heutigen deutschen Wörterbucheintrag Algebra. Nenne passende Kartenbuchstaben. Welche Verbindung zwischen genau diesen lateinischen Fassungen und dem heutigen deutschen Wort zeigen die Karten noch nicht lückenlos?",
+          "sample": "Werkspur: al-Chwarizmis arabischsprachiger Algebra-Text im Bagdad des 9. Jahrhunderts → zwei lateinische Übersetzungen des Algebra-Teils im 12. Jahrhundert (A). Wortspur: al-jabr im arabischen Titel (A) → heutiger deutscher Duden-Eintrag Algebra mit arabischer Herkunft (C; B stützt allgemeinen Sprachkontakt). Der genaue Weg von gerade diesen lateinischen Fassungen zum heutigen deutschen Wort ist nicht belegt.",
+          "criteria": [
+            "2 Punkte für beide datierten Werkstationen mit A.",
+            "2 Punkte für al-jabr und heutigen Eintrag mit A/C.",
+            "1 Punkt für die ausdrücklich offene konkrete Verbindung; keine direkte Handschrift-Duden-Kette erfinden."
+          ]
+        },
+        {
+          "id": "et-algebra-b",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Begriffe trennen (5 Hauptpunkte): Erkläre mit A und B den Unterschied zwischen „auf Arabisch geschrieben“ und „alle Beteiligten waren Muslime“. Formuliere zwei vorsichtige Sätze über den Beitrag des Autors und der späteren Übersetzer. Nenne zwei unterschiedliche unbelegte Übertreibungen in „Eine Religion hat die ganze heutige Mathematik allein erfunden“.",
+          "sample": "Arabisch ist die Sprache des Werkes, nicht die Religionsangabe aller Beteiligten. Al-Chwarizmi verfasste im islamisch regierten Bagdad ein arabischsprachiges Algebra-Werk. Spätere Übersetzer machten den Algebra-Teil in lateinischen Fassungen für mittelalterliche europäische Mathematik wirksam. Die Karten belegen weder die Erfindung der ganzen heutigen Mathematik noch einen alleinigen Beitrag einer Religion.",
+          "criteria": [
+            "1 Punkt für Sprache gegenüber Religionszugehörigkeit.",
+            "Je 1 Punkt für zwei begrenzte Beitragssätze zum Autor und zu Übersetzern.",
+            "Je 1 Punkt für zwei verschiedene unbelegte Überdehnungen; keine private Haltung oder Religion bewerten."
+          ]
+        },
+        {
+          "id": "et-algebra-c",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C · Geschichte und Gegenwart (5 Hauptpunkte): Was belegt C heute? Nenne zwei unterschiedliche Gegenwartsbehauptungen, die A–C nicht belegen, und zu jeder eine fehlende Belegart. Formuliere eine sachlich begrenzte Überschrift für die Karten.",
+          "sample": "C belegt den heutigen deutschen Wörterbucheintrag samt angegebener arabischer Herkunft. Nicht belegt wäre, dass jedes Haus das Wort häufig nutzt (dafür bräuchte man Nutzungsdaten), oder dass 2026 ein neuer Kulturkontakt stattfand (dafür bräuchte man einen datierten konkreten Kontaktfall). Überschrift: „Ein mittelalterlicher arabisch-lateinischer Wissensweg hinter dem heutigen Wort Algebra.“",
+          "criteria": [
+            "2 Punkte für den heutigen konkreten Wörterbuchbefund.",
+            "Je 1 Punkt für zwei unterschiedliche Grenzen samt jeweils passender fehlender Belegart.",
+            "1 Punkt für eine begrenzte, materialtreue Überschrift; heutiges Nachwirken nicht als neues Kontakt-Ereignis ausgeben."
+          ]
+        },
+        {
+          "id": "et-algebra-d",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "D · Faire Museumsbeschriftung (5 Hauptpunkte): Ein erfundenes Museum will schreiben: „Arabische Mathematik kam ohne Übersetzung direkt in jedes europäische Klassenzimmer; alles Wissen stammte von einem Menschen.“ Nenne zwei konkrete Belegsprünge mit Kartenbezug. Schreibe eine bessere Beschriftung in zwei Sätzen, die den historischen Weg und die Grenze des heutigen Wörterbuchbelegs zeigt.",
+          "sample": "„Ohne Übersetzung“ widerspricht A; A–C belegen weder jedes Klassenzimmer noch sämtliches Wissen einer Person. Besser: „Ein arabischsprachiges Algebra-Werk al-Chwarizmis wurde im 12. Jahrhundert ins Lateinische übertragen. Der heutige Duden nennt die arabische Herkunft von Algebra; der genaue Weg über einzelne Handschriften bis zum heutigen Wort bleibt offen.“",
+          "criteria": [
+            "Je 1 Punkt für zwei konkrete Belegsprünge mit Kartenbezug.",
+            "1 Punkt für die historische Werkspur.",
+            "1 Punkt für die heutige Wortspur mit offener Verbindung.",
+            "1 Punkt für eine faire, lesbare Zwei-Satz-Fassung; andere gut begrenzte Formulierungen gelten."
+          ]
+        },
+        {
+          "id": "et-algebra-e",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige neue Karte · 6 Zusatzpunkte: Trenne zwei belegte Kerne von zwei unbelegten Zusätzen der erst jetzt gezeigten Karte. Schreibe eine verbesserte Karte. Welche Art weiterer Quelle wäre nötig, um den genauen Ort einer bestimmten lateinischen Übersetzung zu prüfen?",
+          "sample": "Belegt sind der heutige Duden-Eintrag Algebra und seine angegebene arabische Herkunft. Nicht belegt sind die genauen Orte aller Übersetzungen und die Religion aller Menschen, die arabische Wörter verwenden. Verbesserte Karte: „Der Duden nennt für das heutige Wort Algebra arabische Herkunft; lateinische Übersetzungen im 12. Jahrhundert sind fachgeschichtlich belegt. Einzelne Übersetzungsorte und die Religion aller Beteiligten folgen aus diesen Karten nicht.“ Für den Ort einer bestimmten Übersetzung wären ein datiertes, lokalisiertes Manuskript mit gesicherter Provenienz oder kritische Forschung zu genau dieser Fassung nötig.",
+          "criteria": [
+            "Je 1 Zusatzpunkt für Duden-Eintrag und arabische Wortherkunft.",
+            "Je 1 Zusatzpunkt für zwei getrennt zurückgewiesene unbelegte Zusätze.",
+            "1 Zusatzpunkt für eine sachlich begrenzte verbesserte Karte.",
+            "1 Zusatzpunkt für eine geeignete Quelle zu einer bestimmten Übersetzung; ein bloßer Stadtname reicht nicht."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2025/26 amtlich belegt; 2026/27 ungeklärt",
+        "gradeBand": "7/8, Ziel Ende Klasse 8",
+        "competencyRef": "Ethik Gymnasium 2012, §2.2.3, PDF-S.17/Drucks.18: islamische Einflüsse auf christlich-abendländische Kultur an historischen und aktuellen Beispielen; Zielmarke Klassenstufe 8. Dieser Fall trägt nur zu einem historischen Beispiel bei.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "et-jugendrat-budgetwerte",
       "subjectId": "et",
       "title": "Ein Jugendrat muss abwägen",

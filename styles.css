@@ -305,3 +305,5 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 @media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="ge-reformationsdrucke-a"]){font-size:9.5pt;line-height:1.12}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="ge-reformationsdrucke-a"]) .print-task{margin-bottom:.42rem}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="ge-reformationsdrucke-a"]) .print-task h3{margin-bottom:.18rem}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="ge-reformationsdrucke-a"]) .print-task ol{margin:.15rem 0}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="ge-reformationsdrucke-a"]) .print-source-cards .learning-source-card{margin:.2rem 0}}
 
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="ge-bauernartikel-b"]{break-inside:avoid}}
+
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="go-reisepfeile-b"]{break-inside:avoid}}

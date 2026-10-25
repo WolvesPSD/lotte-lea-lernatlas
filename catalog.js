@@ -12403,6 +12403,130 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "go-reisepfeile-auslandsreisen",
+      "subjectId": "go",
+      "title": "Wohin zeigen zwei Reisepfeile?",
+      "scope": "Freiwilliger Klasse-7-Vorgriff auf den engen Ende-8-Schritt „Reiseströme benennen“. Die Geltung des älteren Thüringer Geografieplans für 2026/27 und Lottes Unterrichtsfolge sind ungeklärt; zwei ausgewählte Ziele belegen nicht den ganzen Tourismusbereich.",
+      "levelStatus": "additional-unclear",
+      "released": true,
+      "prerequisite": "Du brauchst keine eigenen Reiseerfahrungen oder persönlichen Angaben. Lies die Dateneinheit sorgfältig: Gezählt werden Reisen mit mindestens einer Übernachtung, nicht verschiedene Menschen oder Übernachtungsnächte. Zeichne nur schematische Pfeile vom Wohnsitzland zum Hauptzielland; eine Route oder ein Verkehrsmittel ist daraus nicht bekannt. Freie Antworten prüft ein Mensch.",
+      "introduction": "Vergleiche zwei gerichtete Auslandsreisen-Anteile aus einem amtlichen Datenjahr. A–D haben 20 Kriterienpunkte; ein drittes Ziel erscheint erst danach als freiwilliger Transfer mit sechs getrennten Zusatzpunkten. Diese Punkte sind Lernfeedback, keine Schulnote. Die App bewertet freie Antworten nicht automatisch.",
+      "sourceCards": [
+        {
+          "title": "Datenkarte · Wohnsitzland und Hauptziel",
+          "text": "Datenjahr 2024, in Deutschland wohnende Bevölkerung ab 15 Jahren: 114 397 Tausend Auslandsreisen. Davon hatten 13,8 % Italien und 12,6 % Österreich als Hauptzielland. Beide Prozentwerte beziehen sich auf alle erfassten Auslandsreisen dieser Wohnbevölkerung, nicht auf alle Reisen oder alle Einwohner. Die Zahlen sind gerundet.",
+          "sourceLabel": "Eurostat · Tourism statistics – top destinations · Tabelle 2, Germany / Trips",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/SEPDF/cache/22853.pdf",
+          "sourceNote": "Artikel 02.12.2025, Datenabzug November 2025, PDF-S. 7; eigene gekürzte deutsche Datenauswahl, abgerufen 25.10.2026. Eurostat ist für unsere Pfeile und Aufgaben nicht verantwortlich."
+        },
+        {
+          "title": "Leseschlüssel · Was als Reise zählt",
+          "text": "Die Statistik betrachtet Reisen von in Deutschland wohnenden Personen ab 15 Jahren mit mindestens einer Übernachtung ausserhalb ihrer gewohnten Umgebung. Private und berufliche Reisen sind enthalten. Dieselbe Person kann mehrfach reisen. Das Hauptzielland ist nicht jeder Zwischenstopp. Ein Pfeil bedeutet hier Wohnsitzland → Hauptzielland, nicht eine Fahrt- oder Flugroute.",
+          "sourceLabel": "Eurostat · Definition der Tourismusreisen",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/SEPDF/cache/22853.pdf",
+          "sourceNote": "Methodenteil PDF-S. 10; eigene deutsche Erläuterung, abgerufen 25.10.2026."
+        }
+      ],
+      "passage": "PFEILSCHEMA · Setze selbst Wohnsitzland, Hauptzielland und Anteil ein. Ein Pfeil zeigt in dieser Aufgabe die Richtung einer erfassten Reisebeziehung. Er ist keine Landkarte und beweist weder Verkehrsweg noch Reisedauer oder Emissionen.\n\nZwei oder drei ausgewählte Ziele zeigen nur einen Ausschnitt. Verwechsle diesen Datensatz nicht mit der anderen Tourismusaufgabe: Dort werden Übernachtungen in Beherbergungsbetrieben nach Monaten verglichen.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und drittes Reiseziel zeigen",
+        "text": "FREIWILLIGE DRITTE ZIELANGABE NACH A–D · Dieselbe Germany/Trips-Zeile der Eurostat-Tabelle 2 nennt für 2024: 9,8 % der erfassten Auslandsreisen der Wohnbevölkerung Deutschlands hatten Spanien als Hauptzielland. Der Wert ist gerundet. Ergänze einen dritten Pfeil; aus drei Zielen wird noch kein vollständiger weltweiter Reisestrom."
+      },
+      "tasks": [
+        {
+          "id": "go-reisepfeile-a",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Die Einheit festhalten (5 Hauptpunkte): Nenne das Datenjahr; die gemeinte Wohnbevölkerung mit Altersgrenze; die Mindestbedingung zur Übernachtung und zur gewohnten Umgebung; ob private und berufliche Reisen zählen; und was „114 397 Tausend“ ungefähr in Millionen bedeutet. Benenne bei der letzten Antwort auch die gezählte Einheit.",
+          "sample": "Datenjahr 2024. Gemeint sind in Deutschland wohnende Personen ab 15 Jahren. Eine erfasste Reise enthält mindestens eine Übernachtung ausserhalb der gewohnten Umgebung. Private und berufliche Reisen zählen. 114 397 Tausend sind rund 114,4 Millionen Auslandsreisen, keine 114,4 Millionen verschiedenen Personen oder Nächte.",
+          "criteria": [
+            "1 Punkt: Datenjahr 2024.",
+            "1 Punkt: in Deutschland wohnende Bevölkerung ab 15 Jahren, nicht nur Staatsangehörige.",
+            "Je 0,5 Punkt: mindestens eine Übernachtung und ausserhalb der gewohnten Umgebung.",
+            "1 Punkt: private und berufliche Reisen.",
+            "Je 0,5 Punkt: rund 114,4 Millionen und die Einheit Auslandsreisen statt Personen/Nächte."
+          ]
+        },
+        {
+          "id": "go-reisepfeile-b",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Zwei gerichtete Pfeile (6 Hauptpunkte): Schreibe zwei Schemas in der Form „Wohnsitzland → Hauptzielland : Anteil %“. Nutze die beiden Ziele Italien und Österreich mit ihren richtigen Anteilen an allen hier erfassten Auslandsreisen. Die Zeilenfolge ist frei; zeichne keine konkrete Route.",
+          "sample": "Deutschland → Italien : 13,8 %. Deutschland → Österreich : 12,6 %. Die Pfeile beginnen jeweils beim Wohnsitzland Deutschland und enden beim Hauptzielland. Sie zeigen keine Fahrt- oder Flugroute.",
+          "criteria": [
+            "Italien-Pfeil: je 1 Punkt für Wohnsitzland Deutschland, Hauptziel Italien und den passend zugeordneten Anteil 13,8 % (3).",
+            "Österreich-Pfeil: je 1 Punkt für Wohnsitzland Deutschland, Hauptziel Österreich und den passend zugeordneten Anteil 12,6 % (3). Die Reihenfolge der Zeilen ist frei."
+          ]
+        },
+        {
+          "id": "go-reisepfeile-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Anteile vergleichen (4 Hauptpunkte): Welches der beiden Hauptzielländer hat den grösseren Anteil? Schreibe die Subtraktion mit Ergebnis und richtiger Einheit. Warum ist das Ergebnis ein Unterschied in Prozentpunkten und keine zusätzliche Zahl verschiedener Reisender? Nenne den gemeinsamen Bezugswert beider Anteile.",
+          "sample": "Italien hat 13,8 % gegenüber 12,6 % für Österreich. 13,8 − 12,6 = 1,2 Prozentpunkte. Das ist der Unterschied zweier Anteile an derselben Menge erfasster Auslandsreisen, keine zusätzliche Personenzahl. Beide Anteile beziehen sich auf alle erfassten Auslandsreisen der Wohnbevölkerung Deutschlands.",
+          "criteria": [
+            "1 Punkt: Italien als grösserer Anteil.",
+            "1 Punkt: 13,8 − 12,6 oder gleichwertige richtige Subtraktion.",
+            "Je 0,5 Punkt: 1,2 Prozentpunkte und Erklärung als Anteilsunterschied statt zusätzlicher Personenzahl.",
+            "1 Punkt: gemeinsamer Nenner alle erfassten Auslandsreisen der Wohnbevölkerung Deutschlands."
+          ]
+        },
+        {
+          "id": "go-reisepfeile-d",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "D · Einen zu grossen Schluss begrenzen (5 Hauptpunkte): Eine erfundene Meldung behauptet: „Die Pfeile zeigen, wie viele verschiedene Deutsche nach Italien und Österreich geflogen sind. Der grössere Italien-Pfeil beweist mehr CO₂ durch diese Reisen. Damit kennen wir den weltweiten Reisestrom.“ Schreibe fünf unterschiedliche Korrekturen oder Beleglücken: gezählte Einheit, verschiedene Personen, Verkehrsmittel, CO₂ und Reichweite der zwei Pfeile.",
+          "sample": "Gezählt sind Auslandsreisen nach Hauptziel, nicht ein Fahrweg. Eine Person kann mehrfach reisen; zudem beschreibt die Tabelle Wohnbevölkerung, nicht nur deutsche Staatsangehörige. Das Verkehrsmittel steht nicht in den ausgewählten Daten, also ist „geflogen“ unbelegt. Ein CO₂-Vergleich bräuchte unter anderem passende Verkehrs- und Emissionsdaten. Zwei Ziele aus einer Wohnsitzlandzeile sind nur ein Ausschnitt und kein weltweiter Reisestrom.",
+          "criteria": [
+            "1 Punkt: Einheit Reisen mit Hauptziel, nicht konkrete Route.",
+            "1 Punkt: keine Zahl verschiedener Personen; Mehrfachreisen möglich (Wohnsitz ist keine Nationalität).",
+            "1 Punkt: Verkehrsmittel in den ausgewählten Daten nicht belegt.",
+            "1 Punkt: CO₂-Menge oder -Vergleich folgt nicht aus Zielanteilen; weitere Verkehrs-/Emissionsdaten nötig.",
+            "1 Punkt: nur zwei ausgewählte Ziele aus einer Herkunftszeile, kein vollständiger weltweiter Reisestrom. Fünf verschiedene Grenzen, nicht denselben Punkt wiederholen."
+          ]
+        },
+        {
+          "id": "go-reisepfeile-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer nach A–D · sechs getrennte Zusatzpunkte: Ergänze mit der zusätzlichen Spanien-Angabe den dritten Pfeil samt Anteil. Ordne Italien, Österreich und Spanien nach Anteilen. Addiere die drei gerundeten Anteile und benenne ihren gemeinsamen Bezugswert. Welcher ungefähre Restanteil entfällt auf andere Hauptziele, und warum ist das kein einzelnes weiteres Land?",
+          "sample": "Deutschland → Spanien : 9,8 %. Rangfolge: Italien 13,8 % > Österreich 12,6 % > Spanien 9,8 %. 13,8 + 12,6 + 9,8 = 36,2 % aller erfassten Auslandsreisen der Wohnbevölkerung Deutschlands. Der rechnerische Rest für andere Hauptziele beträgt wegen Rundungen ungefähr 63,8 %. Das ist die Summe vieler möglicher anderer Ziele, kein einzelnes Land und keine Personenzahl.",
+          "criteria": [
+            "1 Zusatzpunkt: Deutschland → Spanien in richtiger Richtung.",
+            "1 Zusatzpunkt: dazu 9,8 %.",
+            "1 Zusatzpunkt: Italien > Österreich > Spanien.",
+            "1 Zusatzpunkt: Summe 36,2 %.",
+            "1 Zusatzpunkt: gemeinsame Basis alle erfassten Auslandsreisen der Wohnbevölkerung Deutschlands.",
+            "1 Zusatzpunkt: ungefähr 63,8 % für andere Hauptziele, nicht ein einzelnes Land. Zusatzpunkte getrennt von den 20 Hauptpunkten."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "Älterer Fachplan; amtliche Geltung 2026/27 ungeklärt",
+        "gradeBand": "8; freiwilliger Klasse-7-Vorgriff",
+        "competencyRef": "Geografie Gymnasium, §2.2/PDF-S. 14/Drucks. 16 unter Klassenstufe 8: „Reiseströme benennen“. Hier nur zwei gerichtete Auslandsziel-Beziehungen und ihr Anteilsvergleich.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "go-klima-vegetation-modell",
       "subjectId": "go",
       "title": "Klima und Pflanzen an zwei Modellorten",

@@ -1,12 +1,14 @@
 {
-  "builtAt": "2026-10-25T07:03:06.926Z",
-  "releaseVersion": "2026.10.25-adultaccent.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Mobiler Zugang „Für Erwachsene“ mit eigenem Farbkontrast und erklärender Beschriftung.",
-    "165 Themen und 742 Aufgaben unverändert; keine privaten Bilder oder Lernstände im Paket."
+  "builtAt": "2026-10-25T07:10:56.386Z",
+  "releaseVersion": "2026.10.25-goreisepfeile.1",
+  "newTopicIds": [
+    "go-reisepfeile-auslandsreisen"
   ],
-  "rollbackCommit": "db636b1633b45c2b347a7cc0d90f29bd7c640f91",
+  "changeLog": [
+    "Geografie: freiwilliger Reisepfeil-Fall zu ausgewählten Eurostat-Auslandsreisen mit getrenntem Spanien-Transfer.",
+    "166 Themen und 747 Aufgaben; Geografie-Lehrplangeltung 2026/27 und Unterrichtsfolge bleiben offen. Keine privaten Reiseangaben oder Lernstände im Paket."
+  ],
+  "rollbackCommit": "49628a9ed6701f8c524cc44b80bc1c6a9a448945",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",
@@ -138,6 +140,7 @@
     "et-algebra-kulturtransfer",
     "et-jugendrat-budgetwerte",
     "et-jugendhaus-doppeltermin",
+    "go-reisepfeile-auslandsreisen",
     "go-klima-vegetation-modell",
     "go-mount-st-helens-zeittafel",
     "go-thueringen-wirtschaftssektoren",
@@ -263,7 +266,8 @@
     "mu09-bass-triole-taktwechsel",
     "sp-basketball-regelkarte-papier",
     "ge-reformationsdrucke-quellenkritik",
-    "ge-bauernartikel-freiheit-deutung"
+    "ge-bauernartikel-freiheit-deutung",
+    "go-reisepfeile-auslandsreisen"
   ],
   "note": "Struktur, lokaler PDF-Hash und Lösungsfelder geprüft. Fach-, Geräte-, Datenschutz- und Veröffentlichungsfreigabe getrennt dokumentieren."
 }

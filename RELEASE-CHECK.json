@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-25T02:44:04.084Z",
-  "releaseVersion": "2026.10.25-m10radfenster.1",
+  "builtAt": "2026-10-25T02:55:54.553Z",
+  "releaseVersion": "2026.10.25-m13komplemente.1",
   "newTopicIds": [
-    "ma-pi-radfenster"
+    "ma-verknuepfte-komplemente"
   ],
   "changeLog": [
-    "Neues freiwilliges Mathematikthema zur Geschichte von Pi und einem historischen Radfenster: drei Hauptaufgaben, ein späterer Transfer und eine unbepunktete Quellenbetrachtung. Der Jahrgangsbezug ist ausdrücklich Klasse 8 ab 2027/28; eine aktuelle Klasse-7-Einheit ist nicht belegt.",
-    "Die Quellenkarten reichen für die schriftlichen Aufgaben auch bei nicht erreichbarer Museumsseite. Kein Museumsfoto und keine privaten Lernstände sind im Paket enthalten; die sieben Hörhilfen und der sichtbare Rückmeldungszugang bleiben erhalten."
+    "Neues freiwilliges Mathematikthema zu verknüpften Gegenereignissen: vier Hauptaufgaben und ein späterer Transfer im erfundenen 36-Ergebnisse-Modell. Der Jahrgangsbezug ist ausdrücklich Klasse 8 ab 2027/28; eine aktuelle Klasse-7-Einheit ist nicht belegt.",
+    "Die vorhandenen 157 Themen, sieben Hörhilfen und der sichtbare Rückmeldungszugang bleiben erhalten. Das Paket enthält weder private Lernstände noch reale Zufallsdaten."
   ],
-  "rollbackCommit": "4ce3dcb82add964f743ab616152bd2032a62340b",
+  "rollbackCommit": "977d8daa7458d668a3daba259ed9600201dc50a7",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",
@@ -41,6 +41,7 @@
     "ma-koerper-modell",
     "ma-medienwahrscheinlichkeit",
     "ma-wahrscheinlichkeitsbaum",
+    "ma-verknuepfte-komplemente",
     "ma-pythagoras-plan",
     "ma-geradenwerkstatt",
     "ma-lineare-funktionen",
@@ -193,6 +194,7 @@
     "ma-koerper-modell",
     "ma-medienwahrscheinlichkeit",
     "ma-wahrscheinlichkeitsbaum",
+    "ma-verknuepfte-komplemente",
     "ma-pythagoras-plan",
     "ma-geradenwerkstatt",
     "ma-lineare-funktionen",

@@ -3229,6 +3229,105 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-verknuepfte-komplemente",
+      "subjectId": "ma",
+      "title": "Weder A noch F: zwei Gegenereignisse verbinden",
+      "scope": "Freiwilliger Ausblick auf das Ende-Klasse-8-Ziel zu verknüpften Ereignissen in § 2.2.13. Die Mathematikfassung gilt 2026/27 für Klasse 7, dieses Ziel aber erst ab 2027/28 für Klasse 8. Lottes aktuelle Unterrichtsfolge ist nicht belegt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Hilfreich sind Ergebnismengen, Vereinigung ∪, Schnitt ∩ und Gegenereignis ᶜ. Alle 36 Einzelpaare gehören zu einem erfundenen Modell, nicht zu durchgeführten Ziehungen. Schreibe die einzelnen Plättchenkennungen und begründe den Unterschied zwischen „und“ und „oder“. Die App bewertet freie Antworten nicht automatisch.",
+      "introduction": "Ein erfundener Beutel enthält R1, R2, R3 (rot), B1, B2 (blau) und G1 (grün). Es wird zweimal mit Zurücklegen gezogen; die Reihenfolge zählt. Jedes der 6·6=36 geordneten Einzelpaare ist im Modell gleich wahrscheinlich. A bedeutet „mindestens ein Plättchen ist rot“, F bedeutet „beide Plättchen haben dieselbe Farbe“. „Weder A noch F“ meint: A tritt nicht ein und F tritt nicht ein. Die zwölf Hauptpunkte und vier getrennten Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "passage": "MODELLKARTE · Zweimal mit Zurücklegen\n\nPlättchen: R1, R2, R3, B1, B2, G1. Beispiel für ein geordnetes Ergebnis: (B1,G1).\nA: mindestens ein gezogenes Plättchen ist rot.\nF: beide gezogenen Plättchen haben dieselbe Farbe.\n\nVereinigung A∪F bedeutet A oder F oder beides. Schnitt A∩F bedeutet A und F zugleich. Bei Eᶜ liegt E gerade nicht vor. Ein einzelner Farbpfad kann mehrere der 36 gleich wahrscheinlichen Plättchenpaare enthalten.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGER TRANSFER NACH A–D · Ersetze A und F durch eigene kleine Ereignisse X und Y. Die vier Zusatzpunkte zählen getrennt; prüfe die Zeichen an einem konkreten Ergebnis."
+      },
+      "tasks": [
+        {
+          "id": "ma-m13-komplemente-a",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Die Aussage in Symbole übersetzen (3 Hauptpunkte): Schreibe „weder A noch F“ zuerst mit einer Klammer um A∪F und einem Komplementzeichen. Schreibe dasselbe Ereignis danach als Schnitt der beiden einzelnen Gegenereignisse. Erkläre, warum beide Gegenereignisse gleichzeitig gelten müssen.",
+          "sample": "„Weder A noch F“ = (A∪F)ᶜ = Aᶜ∩Fᶜ. Die Aussage schliesst A und F aus; es genügt nicht, dass nur eines der beiden Ereignisse ausbleibt. Auch ¬(A∪F) und ¬A∩¬F sind bei konsistenter Erklärung gleichwertig.",
+          "criteria": [
+            "1 Punkt für (A∪F)ᶜ mit Klammer und Komplement.",
+            "1 Punkt für Aᶜ∩Fᶜ.",
+            "1 Punkt für die Erklärung, dass beide Einzelereignisse ausgeschlossen sind."
+          ]
+        },
+        {
+          "id": "ma-m13-komplemente-b",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Die passenden Ergebnisse finden (3 Hauptpunkte): Liste alle geordneten Plättchenpaare auf, bei denen weder A noch F eintritt. Nutze die Kennungen, nicht nur die Farben. Zähle die Paare; die Reihenfolge zählt.",
+          "sample": "(B1,G1), (B2,G1), (G1,B1), (G1,B2). Ohne Rot bleiben nur Blau und Grün; damit F nicht eintritt, müssen die beiden Farben verschieden sein. Das sind vier geordnete Einzelpaare.",
+          "criteria": [
+            "2 Punkte für alle vier richtig geordneten Paare; bei genau drei richtigen 1 Punkt.",
+            "1 Punkt für die Anzahl vier. Einen kleinen Folgefehler nicht mehrfach abziehen."
+          ]
+        },
+        {
+          "id": "ma-m13-komplemente-c",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C · Drei Wahrscheinlichkeiten vergleichen (3 Hauptpunkte): Bestimme P(Aᶜ) und P(Fᶜ) als Anteile der 36 gleich wahrscheinlichen Plättchenpaare. Berechne P((A∪F)ᶜ) und prüfe dieses Ergebnis zusätzlich über 1−P(A∪F). Zeige deinen Zählweg.",
+          "sample": "Aᶜ: beide aus {B1,B2,G1}, also 3·3=9 und P(Aᶜ)=9/36=1/4. Fᶜ: verschiedene Farben; gleiche Farbe hat 9+4+1=14 Paare, also P(Fᶜ)=22/36=11/18. Aus B folgen vier passende Paare: P((A∪F)ᶜ)=4/36=1/9. Die Vereinigung hat 32/36, also 1−32/36=4/36.",
+          "criteria": [
+            "1 Punkt für 9/36=1/4 mit Zählweg.",
+            "1 Punkt für 22/36=11/18 mit Zählweg.",
+            "1 Punkt für 4/36=1/9 und die Gegenprobe 1−32/36=4/36."
+          ]
+        },
+        {
+          "id": "ma-m13-komplemente-d",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "D · Ein ähnlicher Ausdruck bedeutet etwas anderes (3 Hauptpunkte): Eine Person schreibt Aᶜ∪Fᶜ für „weder A noch F“. Erkläre den Bedeutungsfehler. Nenne ein konkretes geordnetes Plättchenpaar, das zu Aᶜ∪Fᶜ gehört, aber nicht zu Aᶜ∩Fᶜ. Berechne die Anzahl in Aᶜ∪Fᶜ und vergleiche sie mit B.",
+          "sample": "Aᶜ∪Fᶜ verlangt nur, dass A oder F ausbleibt. (B1,B2) enthält kein Rot und liegt daher in Aᶜ, hat aber zweimal Blau und liegt nicht in Fᶜ; es gehört zur Vereinigung, nicht zum Schnitt. A∩F umfasst die neun roten Doppelziehungen. Also hat Aᶜ∪Fᶜ=(A∩F)ᶜ genau 36−9=27 Paare statt vier in B, also 23 mehr.",
+          "criteria": [
+            "1 Punkt für die ODER-Bedeutung statt beider gleichzeitig ausgeschlossenen Ereignisse.",
+            "1 Punkt für ein gültiges, begründetes Gegenbeispiel.",
+            "1 Punkt für 27 Paare und den Vergleich mit vier."
+          ]
+        },
+        {
+          "id": "ma-m13-komplemente-transfer",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer · vier getrennte Zusatzpunkte: Ersetze A und F durch beliebige Ereignisse X und Y. Schreibe „nicht X und nicht Y“ einmal mit einer Klammer und einmal als Schnitt. Erfinde dann zwei kleine Ereignismengen und ein Ergebnis, das „nicht X oder nicht Y“ erfüllt, aber nicht „nicht X und nicht Y“. Prüfe dein Beispiel an beiden Ausdrücken.",
+          "sample": "(X∪Y)ᶜ=Xᶜ∩Yᶜ. Beispiel: Ω={1,2,3,4}, X={1,2}, Y={2,3}. Ergebnis 1 liegt in Yᶜ und daher in Xᶜ∪Yᶜ, aber nicht in Xᶜ∩Yᶜ, weil 1 zu X gehört. Andere passende kleine Mengen sind gleichwertig.",
+          "criteria": [
+            "1 Zusatzpunkt für (X∪Y)ᶜ.",
+            "1 Zusatzpunkt für Xᶜ∩Yᶜ.",
+            "2 Zusatzpunkte für zwei gültige Ereignismengen, ein trennendes Ergebnis und die überprüfte Zugehörigkeit."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Mathematik Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. § 2.2.13 auf PDF-S. 32 unter Klassenstufe 8: Ereignisse als Schnitt, Vereinigung und Komplement verknüpfen und mit Ergebnismengen darstellen.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "ma-pythagoras-plan",
       "subjectId": "ma",
       "title": "Eine Diagonale im Ausstellungsplan prüfen",

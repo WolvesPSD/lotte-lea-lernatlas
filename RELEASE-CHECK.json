@@ -1,15 +1,16 @@
 {
-  "builtAt": "2026-10-25T00:28:07.222Z",
-  "releaseVersion": "2026.10.25-mntbluetepraxis.1",
+  "builtAt": "2026-10-25T00:37:09.149Z",
+  "releaseVersion": "2026.10.25-mbii6standort.1",
   "newTopicIds": [
-    "mnt-samenpflanzen-bluete-beobachtung"
+    "mbi-i6-standortzugriff"
   ],
   "changeLog": [
-    "MNT: Freiwillige Ende-Klasse-6-Brücke zu Blütenbau, Bestäubung, Befruchtung und Samenentwicklung mit fiktiven, gestuften Karten und 20+6 getrennten Kriterienpunkten.",
-    "Eine leere Kinderkarte für den Vergleich zweier fachlich bestätigter Original-Samenpflanzen ist separat druckbar; die tatsächliche Beobachtung bleibt unbepunktet und ohne Durchführung nicht erhoben."
+    "Medienbildung und Informatik: Neuer freiwilliger Ende-Klasse-8-Ausblick zum Android-Standortzugriff anhand der erfundenen App Busblick.",
+    "Fünf gestufte Aufgaben trennen Berechtigung, fiktiven Abruf, unbelegte Übertragung und Speicherung; keine echten Standortdaten oder Geräteeinstellungen nötig."
   ],
-  "rollbackCommit": "b96abb0878c2ce5df6b2815957a2999af8d51a37",
+  "rollbackCommit": "f526f9c2fe64d93c444253b99745dccdbc91140e",
   "releasedTopics": [
+    "mbi-i6-standortzugriff",
     "mnt-samenpflanzen-bluete-beobachtung",
     "ma-koerper-netzkarten",
     "de-wortarten-form-funktion",
@@ -165,13 +166,13 @@
     "mbi-i1-datumswerte-sortieren"
   ],
   "subjects": [
+    "mbi",
     "mnt",
     "ma",
     "de",
     "ph",
     "ch",
     "bi",
-    "mbi",
     "en",
     "fr",
     "et",
@@ -181,6 +182,7 @@
     "sp"
   ],
   "grade8OutlookTopics": [
+    "mbi-i6-standortzugriff",
     "ma-koerper-netzkarten",
     "ma-fermat-pascal-quellenwerkstatt",
     "en-feelings-reply-dialog",

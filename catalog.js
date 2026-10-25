@@ -102,6 +102,123 @@ window.LOTTE_CATALOG = Object.freeze({
   ],
   "topics": [
     {
+      "id": "mbi-i6-standortzugriff",
+      "subjectId": "mbi",
+      "title": "Was zeigt eine Standortberechtigung wirklich?",
+      "scope": "Freiwilliger Klasse-7-Vorgriff auf einen engen I6-Teilbereich der MBI-Klasse 8. Ein erfundenes Android-12-/App-Protokoll trennt Berechtigung, tatsächlichen Standortabruf, mögliche Übertragung und Speicherung. Die aktuelle Schuleinheit ist unbekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst nur die erfundenen Busblick-Karten und einen Stift. Öffne keine echten Standortdaten, Konten oder Geräteeinstellungen und ändere keine Berechtigungen. Die Android-Quellen beschreiben Betriebssystemmöglichkeiten; sie beweisen kein Verhalten einer konkreten App. Alle Sam-/Busblick-Angaben sind erfunden. Die App bewertet freie Antworten nicht automatisch.",
+      "introduction": "Die erfundene App Busblick zeigt auf Wunsch Haltestellen in der Nähe. Entscheide an fünf ausdrücklich erfundenen Modellangaben, was wirklich belegt ist und was nur möglich bleibt. Die Android-Quellen beschreiben Zugriffsarten, nicht Busblicks Datenverarbeitung. A–D ergeben 20 Kriterienpunkte; erst danach folgt ein freiwilliger Transfer mit sechs getrennten Zusatzpunkten. Das ist Lernfeedback, keine Schulnote.",
+      "sourceCards": [
+        {
+          "title": "Quelle 1 · Zugriffsarten unter Android",
+          "text": "Android Developers unterscheidet Vordergrund- und Hintergrundzugriff sowie ungefähre und präzise Standortgenauigkeit. Bei sichtbarer App-Aktivität kann Vordergrundzugriff genutzt werden; Hintergrundzugriff ist eine andere Zugriffsart. Diese Beschreibung gilt für Android, nicht als Beobachtung an Busblick oder Lottes Gerät.",
+          "sourceLabel": "Android Developers · Standortberechtigungen (Original)",
+          "sourceUrl": "https://developer.android.com/develop/sensors-and-location/location/permissions?hl=de",
+          "sourceNote": "Offizielle Android-Dokumentation, abgerufen 25.10.2026; Version und Oberfläche können sich ändern."
+        },
+        {
+          "title": "Quelle 2 · Anfrage im Funktionskontext",
+          "text": "Android Developers empfiehlt, den Standortzugriff erst anzufragen, wenn eine Person die passende Funktion nutzt. Ab Android 12 kann eine Person ungefähren Standort wählen, auch wenn eine App präzisen Zugriff angefragt hat. Für eine spätere Hintergrundfunktion soll der Bedarf gesondert begründet werden.",
+          "sourceLabel": "Android Developers · Runtime-Zugriff (Original)",
+          "sourceUrl": "https://developer.android.com/develop/sensors-and-location/location/permissions/runtime?hl=en",
+          "sourceNote": "Offizielle Android-Entwickleranleitung, abgerufen 25.10.2026; keine Aussage über Übertragung oder Speicherung in Busblick."
+        }
+      ],
+      "passage": "FIKTIVER FALL „BUSBLICK“ · Die erfundene App zeigt auf Wunsch Haltestellen in der Nähe. Ihre erfundene Anleitung sagt: „Die Haltestellenliste funktioniert mit ungefährer Standortangabe. Busblick fragt den Standort erst ab, wenn du auf Haltestellen in meiner Nähe tippst. Ohne Standort kannst du stattdessen einen Ort aus einer Liste auswählen.“\n\nFÜNF ERFUNDENE MODELLANGABEN · (1) Um 16:04 tippte Sam auf „Haltestellen in meiner Nähe“. (2) Das erfundene Android-12-Gerät zeigte die Wahl „ungefährer Standort – nur während der Nutzung“. (3) Sam wählte dies; das Gerät gab Busblick eine ungefähre Standortschätzung. (4) Busblick zeigte drei Haltestellennamen auf dem Bildschirm. (5) Das Prüfprotokoll enthält nur diese Angaben: keinen Netzwerkverkehr und keine Server- oder Speicherprotokolle. Dies sind keine Beobachtungen an Sams oder deinem Gerät.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und Hintergrundfall zeigen",
+        "text": "FREIWILLIGER HINTERGRUNDFALL NACH A–D · Die erfundene App Busblick möchte künftig auch dann Haltestellen vorschlagen, wenn sie geschlossen ist. Es gibt keine zusätzliche Beobachtung von Zugriff, Übertragung oder Speicherung. Entscheide nur, welche neue Zugriffsfrage entsteht und welche Erklärung du dafür verlangen würdest."
+      },
+      "tasks": [
+        {
+          "id": "mbi-standort-a",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A · Belegstatus (5 Hauptpunkte): Ordne 1–5 in „direkt durch das erfundene Protokoll belegt“ und „damit nicht belegt“. 1 Sam tippte auf die Funktion. 2 Busblick erhielt laut Modell eine ungefähre Standortschätzung. 3 Busblick sendete die ungefähre Standortschätzung an einen Server. 4 Busblick zeigte drei Haltestellennamen. 5 Der Anbieter speicherte die Schätzung dauerhaft. Erkläre bei 3 und 5 getrennt, welcher zusätzliche Beleg jeweils nötig wäre.",
+          "sample": "Direkt belegt sind 1, 2 und 4. Nicht belegt sind 3 und 5. Für 3 bräuchte man einen passenden Netzwerk- oder Serverbeleg zur Übertragung der ungefähren Schätzung. Für 5 bräuchte man eine nachvollziehbare Speicher-/Löschinformation oder ein geprüftes Speicherprotokoll. Die App-interne Schätzung ist nicht dasselbe wie eine Übertragung an einen Server.",
+          "criteria": [
+            "Je 1 Punkt für richtige Zuordnung von 1, 2 und 4 (3).",
+            "Für 3: 0,5 für „nicht belegt“ und 0,5 für passenden Netzwerk-/Serverbeleg (1).",
+            "Für 5: 0,5 für „nicht belegt“ und 0,5 für passende Speicher-/Aufbewahrungsinformation (1). Insgesamt 5."
+          ]
+        },
+        {
+          "id": "mbi-standort-b",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Berechtigung und Datenweg (5 Hauptpunkte): Ergänze: „Die Geräteberechtigung beantwortet, ob …; sie beweist für sich allein nicht, ob …“. Zeichne auf Papier oder beschreibe eine Pfeilkette von Sams Tippen über mindestens drei passende Stationen bis zur Anzeige. Begründe die belegten Pfeile mit Modellangaben. Ergänze einen gestrichelten oder als Frage markierten möglichen Weg zu einem Server, ohne ihn als beobachtet auszugeben.",
+          "sample": "Die Berechtigung erlaubt Busblick unter gewählten Bedingungen den Standortabruf, beweist aber allein weder einen konkreten Abruf noch Übertragung oder Speicherung. Belegter Papierweg: Sam tippt → Gerät zeigt Auswahl → ungefähre Schätzung geht laut Modell an Busblick → drei Namen erscheinen. Ein möglicher Weiterweg App → Internet/Server? ist mangels Netzwerk-/Serverprotokoll offen.",
+          "criteria": [
+            "2 Punkte: Berechtigung als erlaubter Zugriff unter Bedingungen erklärt, ohne aus ihr allein einen konkreten Abruf zu folgern.",
+            "2 Punkte: mindestens drei passende Stationen in sinnvoller Reihenfolge und durch Modellangaben gestützte Pfeile.",
+            "1 Punkt: unbelegten Übertragungs-/Speicherweg klar als Frage markiert. Insgesamt 5."
+          ]
+        },
+        {
+          "id": "mbi-standort-c",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C · Schutzentscheidung (5 Hauptpunkte): Wähle für die beschriebene einmalige Suche eine begründete Möglichkeit: ungefähren Standort nur während der Nutzung erlauben, genauen/dauernden Zugriff erlauben oder Standort nicht erlauben und einen Ort aus der Liste wählen. Nenne zwei verschiedene Modellangaben als Gründe sowie einen konkreten Nachteil deiner Wahl oder eine offene Frage. Mehr als eine Entscheidung kann vertretbar sein.",
+          "sample": "Ungefährer Zugriff nur während der Nutzung passt, weil Busblick laut fiktiver Anleitung damit die Liste erstellen kann und erst nach dem Tippen fragt. Offen bleibt, ob Daten das Gerät verlassen. Auch die manuelle Ortswahl ist begründbar, da die Liste ohne Gerätestandort nutzbar ist; sie kostet möglicherweise einen zusätzlichen Schritt. Dauernder genauer Zugriff ist für die gezeigte einmalige Suche nicht begründet.",
+          "criteria": [
+            "2 Punkte für eindeutige, dem Fall angemessene Entscheidung.",
+            "2 Punkte für zwei verschiedene passende Modellangaben als Gründe.",
+            "1 Punkt für konkreten Nachteil oder offene Frage. Eine einzelne Einstellung nicht universell als einzig richtig bewerten."
+          ]
+        },
+        {
+          "id": "mbi-standort-d",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "D · Prüfbedarf (5 Hauptpunkte): Formuliere zwei konkrete, unterscheidbare Fragen an den fiktiven Anbieter: eine zu möglicher Übertragung/Empfänger und eine zu Speicherung/Aufbewahrung oder Löschung. Schreibe danach einen Satz, der die durch das Protokoll belegte Handlung und die fehlende Evidenz ehrlich trennt.",
+          "sample": "Frage 1: Wird die Standortschätzung bei dieser Funktion an einen Server übertragen, und welche Daten erreichen wen? Frage 2: Speichert Busblick Standort- oder abgeleitete Ortsdaten, wie lange und wie werden sie gelöscht? Grenze: Das fiktive Protokoll zeigt eine ungefähre Schätzung an Busblick und drei angezeigte Namen, aber weder einen Netzwerkweg zum Anbieter noch Aufbewahrung.",
+          "criteria": [
+            "2 Punkte für konkrete Frage zu Übertragung und Empfänger.",
+            "2 Punkte für eigenständige Frage zu Speicherung, Dauer oder Löschung.",
+            "1 Punkt für einen Satz, der belegten Abruf/Anzeige und unbelegte Weitergabe/Aufbewahrung trennt."
+          ]
+        },
+        {
+          "id": "mbi-standort-e",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Hintergrundfall nach A–D · sechs getrennte Zusatzpunkte: Warum ist eine Ortsabfrage bei geschlossener App eine andere Zugriffsfrage als die einmalige Suche bei geöffneter App? Welche konkrete Bedarfs- und Datenweg-Erklärung sollte der Anbieter vorher liefern? Nenne eine weniger eingreifende Alternative für die Haltestellensuche.",
+          "sample": "Die einmalige Suche bei sichtbarer App gehört zum Vordergrundfall; ein Standortabruf bei geschlossener App kann Hintergrundzugriff erfordern. Der Anbieter müsste erklären, welche Funktion ihn wozu, wie oft und wie lange braucht und welche Daten an wen gehen oder gespeichert werden. Eine Alternative ist die manuelle Ortswahl oder ungefährer Zugriff erst nach Tippen und während der Nutzung. Das ist nur eine Papierentscheidung, keine echte Geräteeinstellung.",
+          "criteria": [
+            "2 Zusatzpunkte für korrekt begrenzten Vordergrund-/Hintergrundunterschied.",
+            "2 Zusatzpunkte für konkrete Bedarfs-, Häufigkeits-, Datenweg- oder Aufbewahrungsfrage.",
+            "2 Zusatzpunkte für passende weniger eingreifende Alternative. Zusatzpunkte getrennt von den 20 Hauptpunkten."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: MBI-Erprobungsfassung Klasse 8 ab 2027/28. §2.2.6/PDF-S. 27–28, I6-S04: Technologien zur Sammlung personenbezogener Daten, darunter Standortdaten, erläutern. Hier nur ein begrenztes Android-Berechtigungs-/Abrufmodell; keine vollständige Plattform- oder Datenbanktechnik.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "mnt-samenpflanzen-bluete-beobachtung",
       "subjectId": "mnt",
       "title": "Von der Blüte zum Samen? Und was sieht man wirklich?",

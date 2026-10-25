@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-25T06:53:02.553Z",
-  "releaseVersion": "2026.10.25-geh02cfreiheit.1",
-  "newTopicIds": [
-    "ge-bauernartikel-freiheit-deutung"
-  ],
+  "builtAt": "2026-10-25T07:03:06.926Z",
+  "releaseVersion": "2026.10.25-adultaccent.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Geschichte: freiwilliger Quellenvergleich zu Artikel 3 der Zwölf Artikel und Melanchthons späterer Gegenposition.",
-    "165 Themen und 742 Aufgaben; Lehrplan- und Wirkungsgrenzen sichtbar. Keine privaten Bilder oder Lernstände im Paket."
+    "Mobiler Zugang „Für Erwachsene“ mit eigenem Farbkontrast und erklärender Beschriftung.",
+    "165 Themen und 742 Aufgaben unverändert; keine privaten Bilder oder Lernstände im Paket."
   ],
-  "rollbackCommit": "bb7e8f715bd5c1bc86e275ecd0268d0f5f5a212a",
+  "rollbackCommit": "db636b1633b45c2b347a7cc0d90f29bd7c640f91",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",

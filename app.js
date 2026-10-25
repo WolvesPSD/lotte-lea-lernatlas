@@ -745,6 +745,17 @@
     const list = create('ol');
     (adult ? practice.adultCriteria : practice.childSteps).forEach(step => appendText(list, 'li', '', step));
     section.append(list);
+    if (!adult && practice.externalLinks) {
+      appendText(section, 'p', 'muted', 'Externe Seiten öffnen erst nach deinem Klick. Der Lernatlas überträgt dabei keine Antworten.');
+      for (const external of practice.externalLinks) {
+        const link = create('a', 'lab-open');
+        link.href = external.url;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.textContent = external.label;
+        section.append(link);
+      }
+    }
     if (!adult && practice.childHandouts) {
       appendText(section, 'p', 'muted', 'Freiwillige Zusatzkarten enthalten keine Lösungen. Eine Sprechleistung zählt nur, wenn sie wirklich gehört wurde.');
       for (const handout of practice.childHandouts) {
@@ -1010,6 +1021,7 @@
           ? `${step}  ${topic.practice.printObservationLabels || '☐ beobachtet  ☐ nicht beobachtet  ☐ keine Gelegenheit  ☐ nicht anwendbar'}. Namenlose Kurznotiz: ____________________`
           : `${step}  Punkte: ____`));
         practiceSection.append(list);
+        if (mode === 'child') for (const external of topic.practice.externalLinks || []) appendText(practiceSection, 'p', 'print-context', `${external.label}: ${external.url}. ${external.printNote || 'Nur freiwillig öffnen; keine Antworten oder persönlichen Angaben veröffentlichen.'}`);
         if (mode === 'child' && Number.isInteger(topic.practice.childWritingLines) && topic.practice.childWritingLines > 0) {
           const lines = create('div', 'writing-lines');
           for (let line = 0; line < topic.practice.childWritingLines; line++) lines.append(create('div', 'writing-line'));

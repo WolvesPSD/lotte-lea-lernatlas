@@ -10213,7 +10213,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "mbi-blockprogramm-regler",
       "subjectId": "mbi",
       "title": "Blockprogramm: Lüfterzustand debuggen",
-      "scope": "Freiwilliger Algorithmus-Teilfall im aktuellen MBI-Lernzeitraum Klasse 7/8; I5 hat den Zielstand Ende Klasse 8. Begrenzter Blockeditor für erfundene Testwerte, keine Scratch-Ausführung, reale Sensor-/Aktorarbeit oder belegte Schuleinheit.",
+      "scope": "Freiwilliger Algorithmus-Teilfall im aktuellen MBI-Lernzeitraum Klasse 7/8; I5 hat den Zielstand Ende Klasse 8. Begrenzter Blockeditor und getrennte freiwillige Scratch-Praxis für erfundene Testwerte; keine reale Sensor-/Aktorarbeit oder belegte Schuleinheit.",
       "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Zuerst kannst du den älteren Lüfterfall wählen; dieser neue Fall vertieft ihn durch selbst geordnete Programmblöcke. Du brauchst nur die fiktiven Werte auf der Karte. Baue und verbinde keine Geräte. Wenn du Scratch selbst verwendest, prüfe die tatsächlichen Blocknamen deiner Editorversion getrennt.",
@@ -10329,6 +10329,36 @@ window.LOTTE_CATALOG = Object.freeze({
           ]
         }
       ],
+      "practice": {
+        "title": "Freiwillige Praxis: mein Programm in Scratch bauen",
+        "childNote": "Hier baust du ein eigenes Programm in einer allgemeinen Blockumgebung. Der Link öffnet Scratch erst nach deinem Klick. Verwende nur erfundene Temperaturwerte; melde dich für diese Übung nicht an und veröffentliche kein Projekt. Das Modell steuert keinen echten Lüfter. Notiere nur, was du wirklich gemacht und beobachtet hast.",
+        "childSteps": [
+          "Öffne ein leeres Scratch-Projekt. Lege zwei Variablen „Temperatur“ und „Lüfter“ an. Prüfe die Blocknamen in deinem Editor; sie können anders aussehen als in der Lernatlas-Werkstatt.",
+          "Baue: Wenn die grüne Flagge angeklickt wird → setze Lüfter auf AUS → wiederhole fortlaufend: frage nach einem erfundenen Temperaturwert und warte → setze Temperatur auf Antwort.",
+          "Ergänze in der Wiederholung eine verschachtelte Entscheidung: falls nicht (Temperatur < 28), setze Lüfter auf AN; sonst falls nicht (Temperatur > 25), setze Lüfter auf AUS; sonst ändere Lüfter nicht. Die innere Entscheidung gehört in den äusseren Sonst-Zweig.",
+          "Schreibe vor dem Start deine Vermutung für 28, 27, 25, 26 °C auf. Starte mit der grünen Flagge, gib die Werte nacheinander ein und beobachte die Variable Lüfter nach jeder Eingabe. Vergleiche Erwartung und sichtbare Spur.",
+          "Ändere nur die obere Bedingung zu Temperatur > 28. Starte mit der grünen Flagge erneut und teste zuerst 28 °C. Beschreibe den Fehler, stelle die einschliessende Bedingung wieder her und wiederhole den Grenztest.",
+          "Halte fest, ob du das Programm wirklich gebaut und ausgeführt hast oder nur die Anleitung gelesen hast. Speichere es, falls du möchtest und dein Editor das anbietet, nur lokal auf deinem Gerät. Keine Bilder, Namen oder Antworten hochladen."
+        ],
+        "externalLinks": [
+          {
+            "label": "Leeres Scratch-Projekt öffnen",
+            "url": "https://scratch.mit.edu/projects/editor/",
+            "printNote": "Freiwillig und ohne Anmeldung verwenden; ein selbst gebautes Projekt ist erst nach tatsächlichem Test ein Praxisnachweis."
+          }
+        ],
+        "adultNote": "Unbepunkteter Beobachtungsbogen zur getrennten freiwilligen Scratch-Praxis. Der vorhandene Lernatlas-Blockeditor, ein Papierplan oder ein Selbstbericht belegen keine tatsächliche Scratch-Ausführung. Nur real beobachtete Schritte markieren; keine zusätzlichen Aufgabenpunkte oder Schulnote.",
+        "adultCriteria": [
+          "Ein leeres Scratch-Projekt wurde tatsächlich geöffnet; keine Anmeldung oder Veröffentlichung war nötig.",
+          "Temperatur und Lüfter wurden als zwei Variablen angelegt; die Initialisierung steht vor der Wiederholung.",
+          "Eingabe, Antwortübernahme und beide verschachtelten Grenzbedingungen wurden im eigenen Projekt gebaut.",
+          "Die vier erfundenen Werte wurden nach eigener Vorhersage wirklich ausgeführt; die sichtbare Lüfterspur wurde mit ihr verglichen.",
+          "Der Fehler bei > 28 wurde mit frischem Start bei 28 °C sichtbar gesucht und die Bedingung anschliessend berichtigt.",
+          "Für einen tatsächlichen Programmtest wurde nur die Bildschirmvariable beobachtet; Sensor, Aktor und reale Lüfterbewegung wurden nicht behauptet."
+        ],
+        "unscored": true,
+        "printObservationFooter": "Je Schritt nur tatsächlich Beobachtetes markieren. Ohne geöffnetes und getestetes Scratch-Projekt bleibt die Programmierpraxis nicht erhoben. Ein Bildschirmtest belegt weder Sensor- noch Aktorwirkung."
+      },
       "releaseEvidence": {
         "validFor": "2026/27",
         "gradeBand": "7/8",

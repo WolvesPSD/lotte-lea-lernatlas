@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-25T00:52:23.311Z",
-  "releaseVersion": "2026.10.25-enwordgap.1",
-  "newTopicIds": [
-    "en-w-word-gap-paraphrase"
-  ],
+  "builtAt": "2026-10-25T01:05:31.211Z",
+  "releaseVersion": "2026.10.25-mbii5scratchpraxis.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Englisch: Neuer freiwilliger Ende-Klasse-8-Ausblick zum Umschreiben eines beim eigenen Schreiben fehlenden Wortes.",
-    "Sechs gestufte Hauptaufgaben und ein späterer freiwilliger Fall üben verständliche englische Nachrichten ohne echte Daten oder Versand."
+    "MBI: Freiwillige Scratch-Praxis im vorhandenen Blockprogramm-Thema mit direktem Editorlink, sechs Arbeitsschritten und unbepunktetem Erwachsenenbogen.",
+    "Der bisherige Modellblockeditor bleibt erhalten. 155 Themen und 694 reguläre Aufgaben; eine wirkliche Programmierleistung wird erst nach tatsächlicher Ausführung beobachtet."
   ],
-  "rollbackCommit": "b2c82c6bf055f521d33a8111ccf04c0873c911d2",
+  "rollbackCommit": "971168101baf79c3c991c8e5e121daf2df4dee83",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",

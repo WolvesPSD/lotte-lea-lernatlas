@@ -307,3 +307,5 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="ge-bauernartikel-b"]{break-inside:avoid}}
 
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="go-reisepfeile-b"]{break-inside:avoid}}
+
+@media print{#print-surface:has(.print-task[data-task-id="fr-qui-est-ce-plan"]) .print-practice{break-before:page}}

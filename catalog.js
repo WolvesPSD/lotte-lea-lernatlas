@@ -11581,6 +11581,84 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "fr-qui-est-ce-description",
+      "subjectId": "fr",
+      "title": "Qui est-ce ? · Drei erfundene Karten beschreiben",
+      "scope": "Freiwilliger, gestützter Klasse-8-Ausblick zum Beschreiben von Personen und Gegenständen in Französisch als zweiter Fremdsprache. Lottes aktuelle Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "practiceBeforeLastTask": true,
+      "prerequisite": "Für die Sprechübung braucht es eine freiwillige Zuhörperson, die einfache französische Beschreibungen versteht. Nutze nur die erfundenen Karten, keine echten Namen, Fotos oder eigenen Merkmale. Die App nimmt keine Stimme auf und bewertet Sprechen nicht automatisch.",
+      "introduction": "Spiele drei kurze Beschreibungsrunden mit einer echten, freiwilligen Zuhörperson: zuerst ein erfundener Avatar in der Ich-Form, dann eine andere erfundene Person und zuletzt eine Tasche. Wähle je eine Karte geheim und nenne zwei französische Merkmale ohne Kartennamen. Die Zuhörperson wählt aus drei Karten und zeigt einen wirklich gehörten Hinweis. Ohne geeignete Zuhörperson bleibt die Sprechprobe „nicht erhoben“.",
+      "passage": "KARTEN · ALLE PERSONEN UND GEGENSTÄNDE SIND ERFUNDEN\nRunde 1 · Avatar, Ich-Form: A Noa — schwarze Haare, rote Jacke. B Léa — blonde Haare, rote Jacke. C Mina — schwarze Haare, blaue Jacke.\nRunde 2 · andere Person, dritte Person: A Salomé — grüner Pullover, Brille. B Élodie — grüner Pullover, keine Brille. C Chloé — violetter Pullover, Brille.\nRunde 3 · Gegenstand: A violette Tasche mit kleinem Fach. B violette Tasche ohne Fach. C grüne Tasche mit kleinem Fach.\n\nDRUCKKARTEN · Drucke die lösungsfreie A4-Kartenvorlage zweimal. Jede Person bekommt ein gleiches Set; das Sprecherkind wählt heimlich, die Zuhörperson legt ihre drei Karten offen hin. Schwarz-Weiss reicht, denn Buchstaben und Text unterscheiden die Karten.\n\nWORTSTÜTZE · J'ai les cheveux noirs/blonds. · Je porte une veste rouge/bleue. · Elle porte un pull vert/violet. · Elle porte des lunettes. · Elle ne porte pas de lunettes. · C'est un sac ... · avec une petite poche · sans poche · Tu peux répéter, s'il te plaît ?\nDeutsch: cheveux = Haare, veste = Jacke, pull = Pullover, lunettes = Brille, poche = (kleines) Fach; avec = mit, sans = ohne. Satzanfänge sind Hilfen, kein fertiger Vortrag.",
+      "tasks": [
+        {
+          "id": "fr-qui-est-ce-plan",
+          "kind": "reflection",
+          "points": 0,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "A. Vor der Rede (unbepunktet): Wähle für jede der drei Runden eine erfundene Karte. Notiere je zwei kurze französische Merkmale als Stichwörter oder Satzanfänge, aber keinen fertigen Redetext und keinen echten Personennamen. Du kannst die Wortstütze nutzen. Der Text belegt keine Sprechleistung.",
+          "sample": "Beispiel für Karte 1A: cheveux noirs; veste rouge. Für 2B: pull vert; sans lunettes. Für 3C: sac vert; petite poche. Das sind nur mögliche Notizen; jede passende erfundene Karte gilt.",
+          "criteria": [
+            "Nur die geplanten Merkmale und genutzte Hilfe festhalten; keine Punkte für Sprechen aus einer Notiz ableiten.",
+            "Zwei Merkmale pro gewählter Karte ermöglichen erst eine eindeutige Wahl. Keine echten Profile oder Fotos verwenden."
+          ]
+        },
+        {
+          "id": "fr-qui-est-ce-rueckschau",
+          "kind": "reflection",
+          "points": 0,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "C. Erst nach einer wirklich durchgeführten freiwilligen Sprechübung (unbepunktet): Welche Karte hat die Zuhörperson gewählt und welcher tatsächlich gehörte Hinweis half? Passte ein Hinweis auch zu einer zweiten Karte? Was würdest du beim nächsten Versuch genauer sagen? Ohne passende Zuhörperson oder nach einem Abbruch lasse C offen; die Rede bleibt „nicht erhoben“. Du darfst auf Deutsch antworten.",
+          "sample": "Beispiel nur nach echter Runde: Die Zuhörperson wählte Karte 1A und hörte „cheveux noirs“; das allein passt auch zu 1C. Mit „veste rouge“ wurde 1A eindeutig. Das ist kein Beleg, dass eine konkrete Kinderrede stattgefunden hat.",
+          "criteria": [
+            "Nur tatsächlich Gehörtes und die echte Kartenwahl besprechen, keine erfundene Nachbeobachtung eintragen.",
+            "Bei freiwilligem Auslassen oder Abbruch keine Null und keine Gesamtsumme bilden."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "B · Praxis: Drei Karten mündlich beschreiben",
+        "childNote": "Du kannst jederzeit aufhören. Beschreibe drei fiktive Karten in eigenen einfachen französischen Sätzen. Die Zuhörperson muss Französisch für diese Übung verstehen können. Die App hört nicht mit, speichert keine Aufnahme und vergibt keine Sprechpunkte.",
+        "childSteps": [
+          "Druckt die drei A4-Kartenseiten zweimal und schneidet sie aus. Wähle pro Runde geheim A, B oder C; die Zuhörperson legt dieselbe Dreiergruppe offen hin.",
+          "Sprich ohne Kartennamen: Runde 1 als erfundener Avatar mit „Je…“, Runde 2 über eine andere Person mit „Elle…“, Runde 3 über eine Tasche mit „C’est…“. Sage je zwei unterscheidende Merkmale.",
+          "Die Zuhörperson wählt eine Karte und nennt einen Hinweis, den sie wirklich gehört hat. Sie darf neutral um Wiederholung bitten; die Lösung wird erst danach verglichen.",
+          "Schreibe C nur, wenn ihr tatsächlich gesprochen habt. Wenn niemand geeignet zuhören kann oder du aufhörst, bleibt die Sprechübung „nicht erhoben“."
+        ],
+        "childHandouts": [
+          {
+            "path": "assets/fr-qui-est-ce-karten.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/fr-qui-est-ce-karten.pdf",
+            "label": "Lösungsfreie A4-Karten herunterladen und zweimal drucken"
+          }
+        ],
+        "observationMax": 20,
+        "observationLabel": "französische Beschreibung",
+        "adultNote": "Nur eine hinreichend französischkundige Person beurteilt tatsächlich gehörte Rede; Textnotizen sind kein Ersatz. Je Kriterium 0–4 oder — nach den unten stehenden Ankern. Bei freiwilligem Auslassen, Schweigen, Abbruch, ungeeigneter Gelegenheit oder unsicherer Sprachbeurteilung „—/nicht erhoben“, niemals 0. Sobald eine Zeile — trägt, keine Gesamtsumme /20 bilden. Eine Null setzt eine tatsächlich gehörte faire Gelegenheit voraus. Fehler ohne Bedeutungsverlust und Akzent allein nicht abwerten. Keine Schulnote, Aufnahme oder Weitergabe.",
+        "adultGuide": [
+          "Erst nach der Wahl vergleichen: Runde 1 A schwarz/rot, B blond/rot, C schwarz/blau; Runde 2 A grün/Brille, B grün/ohne Brille, C violett/Brille; Runde 3 A violett/kleines Fach, B violett/ohne Fach, C grün/kleines Fach. Sinngleiche einfache französische Sätze gelten. Bei falscher Wahl zuerst prüfen, was die Zuhörperson tatsächlich hörte; nicht automatisch dem Kind anlasten."
+        ],
+        "adultCriteria": [
+          "Ich-Avatar: 4 zwei passende Merkmale selbst formuliert in Ich-Form; 3 zwei nach neutraler Wiederholung; 2 ein passender Hinweis oder zwei mit enger Wortstütze; 1 ein verständliches Fragment trotz fairer Stütze; 0 nach gehörter fairer Gelegenheit kein passender Hinweis; sonst —.",
+          "Andere Person: dieselbe 4/3/2/1/0-Abstufung wie beim Avatar; dritte Person und Merkmale müssen zur gewählten Karte passen; sonst —.",
+          "Gegenstand: dieselbe 4/3/2/1/0-Abstufung; Tasche und Merkmale müssen zur gewählten Karte passen; sonst —.",
+          "Unterscheidbarkeit: 4 eindeutige richtige Wahl und ein gehörter Hinweis; 3 nach neutraler Wiederholung richtig und Hinweis genannt; 2 ein Hinweis grenzt auf zwei Karten ein; 1 Wahl erst nach enger, nicht lösender Nachfrage; 0 kein nutzbarer Hinweis nach gehörter fairer Gelegenheit; sonst —.",
+          "Hörverständlichkeit: 4 französische Hinweise beim ersten Hören verstanden; 3 nach neutraler Wiederholung; 2 ein Merkmal verständlich, ein weiteres offen; 1 nur ein Fragment verständlich; 0 trotz fairer Gelegenheit kein Merkmal verständlich; sonst —. Akzent allein ist kein Fehler."
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Französisch Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. Zweite Fremdsprache § 3.2.3, PDF-S. 61: sich und andere sowie Gegenstände beschreiben als Ziel der Klassenstufe 8. § 3.5.2, PDF-S. 82: Sprachmittel für 7/8 als Orientierung.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "en-write-retell-lantern-walk",
       "subjectId": "en",
       "title": "Retell a short story: The lantern walk",

@@ -83,7 +83,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "plan": "2021 (2025/26)",
       "scope": "7/8; Stand 2026/27 offen",
       "availabilityLabel": "Lehrplan 2026/27 ungeklärt",
-      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Geschichte-Lehrplan gilt. Zwei freiwillige Quellenfälle aus der älteren Fassung sind verfügbar; sie sind keine bestätigten aktuellen Klasse-7-Einheiten."
+      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Geschichte-Lehrplan gilt. Drei freiwillige Quellenfälle aus der älteren Fassung sind verfügbar; sie sind keine bestätigten aktuellen Klasse-7-Einheiten."
     },
     {
       "id": "go",
@@ -13555,6 +13555,137 @@ window.LOTTE_CATALOG = Object.freeze({
         "gradeBand": "8",
         "competencyRef": "PDF-S. 2: Einführung MBI für Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. §2.2.3/PDF-S. 25–26: Datenschutzprinzipien auf typische Social-Media-Anwendungen übertragen, Zielmarke Klasse 8. Hier nur ein fiktiver schriftlicher SS3-Transfer.",
         "checkedAt": "2026-10-24"
+      }
+    },
+    {
+      "id": "ge-reformationsdrucke-quellenkritik",
+      "subjectId": "ge",
+      "title": "Was zeigen zwei Drucke zur Reformation?",
+      "scope": "Freiwilliger gestützter 7/8-Methodeneinstieg zum Reformationsteil des Geschichte-Lehrplans 2021, Ziel Ende Klasse 8. Seine amtliche Geltung 2026/27 und Lottes schulische Themenfolge sind ungeklärt. Zwei erhaltene Drucke belegen keine vollständige Wirkung oder Reformationsgeschichte.",
+      "levelStatus": "additional-unclear",
+      "released": true,
+      "prerequisite": "Du arbeitest mit eigenen Kurzfassungen heutiger Sammlungsangaben zu zwei historischen Druckexemplaren, einer heutigen Museumsdeutung und einem erfundenen Videotext. Keine Karte enthält den historischen Volltext oder ein Scanbild. Du brauchst keine Anmeldung. Die Links zu den Originalseiten öffnen erst nach deinem Klick. 20 Hauptpunkte sind Lernfeedback, keine Schulnote; freie Antworten prüft ein Mensch.",
+      "introduction": "Wie helfen zwei erhaltene Drucke, die Reformationszeit zeitlich und räumlich einzuordnen? Prüfe zugleich, was kurze Sammlungsangaben nicht über Autoren, Leserschaft oder Ursachen beweisen. „Verfasser“ schreibt den Text; „Drucker“ stellt ein Exemplar her. Eine historische Quelle stammt aus der untersuchten Zeit, eine Objektmetadatenkarte ist eine heutige Beschreibung davon, und eine Museumsdeutung erklärt Geschichte aus heutiger Sicht. A–D ergeben 20 Kriterienpunkte; die spätere Karte E ist freiwillig und unbepunktet.",
+      "sourceCards": [
+        {
+          "title": "A · Erhaltenes Exemplar zu Luthers 95 Thesen",
+          "text": "Die Deutsche Digitale Bibliothek beschreibt ein erhaltenes Druckexemplar: Martin Luther ist als Verfasser, Adam Petri als Drucker genannt; Herstellung Basel, 1517. Das Deutsche Historische Museum verwahrt es als R 55/911.3. „Druck C“ ist die Katalogbezeichnung dieses Exemplars und nicht Karte C hier. Das ist unsere Kurzfassung heutiger Metadaten, kein historischer Wortlaut.",
+          "sourceLabel": "Deutsche Digitale Bibliothek · Objekt R 55/911.3",
+          "sourceUrl": "https://www.deutsche-digitale-bibliothek.de/item/QRN2TLYC3NBCSCGZGXSXSOEKMMZTZJT6",
+          "sourceNote": "Originalseite am 25.10.2026 direkt gelesen; eigene kurze Fassung von Sammlungsmetadaten zum Exemplar."
+        },
+        {
+          "title": "B · Erhaltenes Exemplar der Zwölf Artikel",
+          "text": "Die Deutsche Digitale Bibliothek beschreibt ein Exemplar der Zwölf Artikel der Bauernschaft: Sebastian Lotzer als Verfasser, Jakob Schmidt als Drucker; Herstellung Speyer, 1525. Das DHM verwahrt es als R 56/4870. Der Titel verweist auf Beschwerden gegenüber Obrigkeiten. Hier steht kein Wortlaut eines einzelnen Artikels.",
+          "sourceLabel": "Deutsche Digitale Bibliothek · Objekt R 56/4870",
+          "sourceUrl": "https://www.deutsche-digitale-bibliothek.de/item/LSH4SL6TOGWSNICDBXGVSZMGDYLHAK54",
+          "sourceNote": "Originalseite am 25.10.2026 direkt gelesen; eigene kurze Fassung von Sammlungsmetadaten zum Exemplar."
+        },
+        {
+          "title": "C · Heutige Einordnung des Museums",
+          "text": "Die DHM-Bibliothek nennt die veröffentlichten 95 Thesen von 1517 einen wichtigen Anstoß der Reformation und beschreibt den Buchdruck als Verbreitungsweg für Ideen. Nach ihrer Einordnung waren die Hauptursachen des Bauernkriegs nicht vor allem religiös; reformatorische Ideen wurden dennoch auch zur religiösen Begründung genutzt. Das ist eine heutige Darstellung, keine Augenzeugenstimme und keine Zählung aller Leser.",
+          "sourceLabel": "Deutsches Historisches Museum · Sola scriptura",
+          "sourceUrl": "https://www.dhm.de/sammlung/bibliothek/virtrinenausstellung-archiv/sola-scriptura/",
+          "sourceNote": "Museumsseite am 25.10.2026 direkt gelesen; Deutung von der bloßen Objektangabe unterscheiden."
+        }
+      ],
+      "passage": "KARTE D · ERFUNDENER VIDEOTEXT: „Der Druck C beweist, dass Luther 1517 persönlich beim Drucken in Basel anwesend war und seine Thesen an eine Tür schlug. Der hier gezeigte Druck der Zwölf Artikel wurde gleichzeitig 1517 ebenfalls in Basel hergestellt. Die beiden Exemplare beweisen außerdem, dass alle Menschen sie lasen und allein die Religion den Bauernkrieg auslöste.“ D ist eigens für diese Übung erfunden. Prüfe bei starken Wörtern wie „persönlich“, „alle“ und „allein“, welchen Beleg A–C tatsächlich liefern.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und Druck E zeigen",
+        "text": "FREIWILLIGE KARTE E NACH A–D · Die heutige DHM-Ausstellung nennt außerdem Luthers „Sermon zum Ablass und zur Gnade“, als Exemplar 1518 in Augsburg von Jörg Nadler gedruckt, Inventar R 57/8217. Dies ist eine eigene Kurzfassung einer heutigen Objektangabe, keine Abschrift des Sermons. Eine erfundene Bildunterschrift sagt: „Weil der Sermon 1518 in Augsburg gedruckt wurde, schrieb Luther ihn dort; dies war der erste und einzige gedruckte Text der Reformation. Mit A/B/C und E kann man seine gesamte Wirkung beweisen.“"
+      },
+      "tasks": [
+        {
+          "id": "ge-reformationsdrucke-a",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A · Zeit, Ort und Beteiligte (5 Hauptpunkte): Ordne A und B zeitlich. Nenne für jedes Exemplar Verfasser, Drucker, Herstellungsort und Jahr. Wie viele Jahre liegen zwischen den Herstellungsjahren? Erkläre, weshalb ein Druckort nicht automatisch den Aufenthaltsort des Verfassers oder den Schauplatz aller Ereignisse nennt.",
+          "sample": "A: Luther, Adam Petri, Basel 1517. B: Sebastian Lotzer, Jakob Schmidt, Speyer 1525. A ist früher; 1525−1517=8 Jahre. Der Herstellungsort beschreibt dieses Exemplar, nicht sicher den Schreibort, einen persönlichen Aufenthalt oder alle damaligen Ereignisse.",
+          "criteria": [
+            "2 Punkte: acht richtige Einzelangaben zu A/B, je 0,25.",
+            "1 Punkt: A vor B.",
+            "1 Punkt: acht Jahre Abstand.",
+            "1 Punkt: Grenze des Herstellungsorts gegenüber Autorenaufenthalt oder Ereignisort."
+          ]
+        },
+        {
+          "id": "ge-reformationsdrucke-b",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Herkunft und Aussagekraft (4 Hauptpunkte): Was ist bei A/B ein historischer Gegenstand, was eine heutige Beschreibung? Ordne C und D ebenfalls nach ihrer Herkunft ein. Nenne zwei konkrete Informationen, die A/B über die Exemplare liefern, und eine Frage zur Wirkung, die die Metadaten nicht beantworten.",
+          "sample": "Die erhaltenen Druckexemplare sind historische Gegenstände; A/B sind heutige Kurzfassungen ihrer Sammlungsmetadaten. C ist eine heutige Museumsdeutung, D ein erfundener heutiger Videotext. A/B nennen z. B. Herstellungsort und -jahr. Wie viele Menschen die Texte lasen, bleibt offen.",
+          "criteria": [
+            "1 Punkt: historisches Exemplar und heutige Metadatenkarte getrennt.",
+            "1 Punkt: C als heutige Darstellung und D als erfundener Text erkannt.",
+            "1 Punkt: zwei verschiedene konkrete Angaben aus A/B.",
+            "1 Punkt: eine konkrete offene Frage zur Wirkung."
+          ]
+        },
+        {
+          "id": "ge-reformationsdrucke-c",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 13,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "C · Videotext prüfen (7 Hauptpunkte): Zerlege D in a) Luther persönlich an der Basler Presse, b) Türanschlag, c) beide Drucke gleichzeitig 1517 in Basel, d) alle Menschen lasen sie und Religion allein verursachte den Bauernkrieg. Entscheide je Teil „durch A–C widersprochen“ oder „mit A–C nicht belegt“ und begründe mit Kartenangabe oder genau benannter Beleglücke. Trenne bei d) Leserschaft und Ursache. Schreibe danach eine engere belegte Ersatzüberschrift.",
+          "sample": "a) Nicht belegt: A nennt Luther als Verfasser und Petri als Drucker, aber keinen Aufenthaltsort Luthers. b) Nicht belegt: A–C dokumentieren keinen Türanschlag; das widerlegt ihn nicht. c) Widersprochen: A Basel/1517, B Speyer/1525. d) Alle Leser nicht belegt; Religion als alleinige Ursache widerspricht C als heutiger DHM-Deutung. Engere Überschrift: „Erhaltene Drucke zu Luthers Thesen (Basel 1517) und den Zwölf Artikeln (Speyer 1525) zeigen eine zeitliche Folge; Leserschaft und Wirkung bleiben offen.“",
+          "criteria": [
+            "1 Punkt: a als nicht belegt mit Rollenangabe oder genauer Lücke; Petri ist kein Gegenbeweis für Luthers Anwesenheit.",
+            "1 Punkt: b als nicht belegt mit fehlendem Türanschlagsbeleg; nicht als widerlegt behandeln.",
+            "1 Punkt: c als widersprochen mit beiden Ort-/Jahr-Paaren.",
+            "1 Punkt: d-Leserschaft als nicht belegt mit fehlenden Leser-/Auflagenangaben.",
+            "1 Punkt: d-Ursache als Widerspruch zu C als heutiger DHM-Deutung, ohne daraus jede Einzelursache abzuleiten.",
+            "2 Punkte: Ersatzüberschrift mit beiden Ort-/Jahr-Paaren und quellentreuer Wirkungsgrenze."
+          ]
+        },
+        {
+          "id": "ge-reformationsdrucke-d",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Vorsichtiges historisches Urteil (4 Hauptpunkte): Verbinde A, B und C in zwei bis vier Sätzen. Was zeigen die Drucke über eine zeitliche Folge? Welchen möglichen Verbreitungsweg beschreibt C? Weshalb folgt daraus keine einfache Ursache-Wirkung-Kette bis zu jedem einzelnen Bauern oder zur ganzen Reformation? Nenne ein anderes Thema aus diesem Lehrplanabschnitt, das die Karten nicht behandeln.",
+          "sample": "A ist ein Druck von 1517 und B einer von 1525. Das DHM beschreibt Buchdruck als Verbreitungsweg für Ideen. Diese zwei Exemplare zählen weder die tatsächliche Leserschaft noch alle Ursachen oder Folgen. Renaissance/Humanismus oder europäische Expansion bleibt hier unbehandelt.",
+          "criteria": [
+            "1 Punkt: Chronologie 1517 vor 1525.",
+            "1 Punkt: Buchdruck als möglicher Verbreitungsweg ausdrücklich auf C als heutige Deutung bezogen.",
+            "1 Punkt: konkrete Grenze zu Leserschaft, Kausalität oder individueller Wirkung.",
+            "1 Punkt: Renaissance/Humanismus oder europäische Expansion als anderes H-02-Thema."
+          ]
+        },
+        {
+          "id": "ge-reformationsdrucke-e",
+          "kind": "reflection",
+          "points": 0,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Karte E ohne Punkte nach A–D: Trenne die erfundene Bildunterschrift in drei prüfbare Aussagen: Schreibort Augsburg; „erster und einziger“ Druck; gesamte Wirkung. Was zeigen A und E zu 1517/1518, was bleibt offen? Formuliere eine quellentreue Neufassung und ordne 1518 im Verhältnis zu B ein.",
+          "sample": "Augsburg ist Druckort des Exemplars, nicht belegter Schreibort. „Erster“ ist durch A mit einem früheren anderen Druck von 1517 widersprochen; „einziger“ durch A und weitere DHM-Drucke. Gesamte Wirkung bleibt unbelegt. 1518 liegt nach A, vor B. Enger: „Das DHM verzeichnet einen 1518 von Jörg Nadler in Augsburg gedruckten Sermon. Die Schreiborte, Leserschaft und Wirkung bleiben mit diesen Karten offen.“",
+          "criteria": [
+            "Unbepunktet: Druckort und Schreibort unterscheiden.",
+            "Früherer anderer Druck A widerlegt „erster“, weitere Drucke widerlegen „einziger“; nicht behaupten, welcher Text insgesamt zuerst erschien.",
+            "Keine Gesamtrezeption aus einzelnen Exemplaren ableiten; 1518 nach A und vor B.",
+            "Eine sachlich enge Neufassung zulassen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2025/26 belegt; 2026/27 ungeklärt",
+        "gradeBand": "7/8, Ziel Ende Klasse 8",
+        "competencyRef": "Geschichte Gymnasium 2021, §2.2.1 PDF-S. 19–20 zu Quelle, Darstellung und historischer Deutung; §2.2.2 PDF-S. 21 zu Renaissance/Humanismus, europäischer Expansion und Reformation/Folgen. Hier nur enger Reformations-Metadatenfall.",
+        "checkedAt": "2026-10-25"
       }
     },
     {

@@ -1,12 +1,14 @@
 {
-  "builtAt": "2026-10-25T05:46:59.061Z",
-  "releaseVersion": "2026.10.25-mobileadultwide.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Mobil: Für Erwachsene hat in der festen Navigation eine eigene breite Zeile mit gut lesbarer Beschriftung.",
-    "Die 163 Themen und 733 Aufgaben bleiben unverändert; keine privaten Fotos oder Lernstände werden veröffentlicht."
+  "builtAt": "2026-10-25T06:26:07.687Z",
+  "releaseVersion": "2026.10.25-geh02drucke.1",
+  "newTopicIds": [
+    "ge-reformationsdrucke-quellenkritik"
   ],
-  "rollbackCommit": "912f51ba411d6ef7cf80c8b5ed5edcd42b7c63e8",
+  "changeLog": [
+    "Geschichte: freiwilliger Quellenkritikfall zu zwei Reformationsdrucken mit getrennten Quellenrollen und späterer unbepunkteter Karte.",
+    "164 Themen und 738 Aufgaben; Quellen-/Lehrplangrenze sichtbar. Keine privaten Bilder oder Lernstände im Paket."
+  ],
+  "rollbackCommit": "a44ee1ec6a51830946ba2d2af49d0beb71046363",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",
@@ -148,6 +150,7 @@
     "mbi-i6-cookie-datenweg",
     "mbi-i3-finanzierungsmodelle",
     "mbi-i3-datenschutz-transfer",
+    "ge-reformationsdrucke-quellenkritik",
     "ge-patcham-quellenpruefung",
     "ge-toledo-uebersetzungsquellen",
     "mnt-bionik-leichtbau-modell",
@@ -259,7 +262,8 @@
     "ge-patcham-quellenpruefung",
     "ge-toledo-uebersetzungsquellen",
     "mu09-bass-triole-taktwechsel",
-    "sp-basketball-regelkarte-papier"
+    "sp-basketball-regelkarte-papier",
+    "ge-reformationsdrucke-quellenkritik"
   ],
   "note": "Struktur, lokaler PDF-Hash und Lösungsfelder geprüft. Fach-, Geräte-, Datenschutz- und Veröffentlichungsfreigabe getrennt dokumentieren."
 }

@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-25T01:38:43.616Z",
-  "releaseVersion": "2026.10.25-etalgebra.1",
-  "newTopicIds": [
-    "et-algebra-kulturtransfer"
-  ],
+  "builtAt": "2026-10-25T02:21:09.611Z",
+  "releaseVersion": "2026.10.25-voiceguides.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Ethik: Freiwilliger historischer Kulturtransfer-Fall zu al-Chwarizmis Algebra-Werk, lateinischen Übersetzungen und der Herkunft des heutigen deutschen Wortes.",
-    "Drei paraphrasierte Quellenkarten, vier Hauptaufgaben und eine später freigegebene Zusatzkarte. 156 Themen und 699 reguläre Aufgaben; Fachgeltung 2026/27 und Lottes Unterrichtsfolge bleiben ungeklärt."
+    "Sieben kurze deutsche Hörhilfen: allgemeine Einführung nur auf Start sowie Erklärungen für Start, Themen, Lernen, Erwachsenenbereich, Rückmeldung und lokale Sicherung. Derselbe Knopf startet und stoppt; kein sichtbarer Player und kein Autostart.",
+    "Die bestehenden 156 Themen und 699 Aufgaben bleiben unverändert. Die Erklärungstexte richten sich allgemein an Lernende und Eltern; Ton und Lernantworten werden nicht automatisch versendet."
   ],
-  "rollbackCommit": "62c0e4b1a8584f68a554d6255df911818d7baee6",
+  "rollbackCommit": "773659750124b13981f546ec2bff3713d99d487e",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",

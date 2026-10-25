@@ -277,3 +277,16 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 @media print{body[data-print-mode^="adult"] .print-passage:has(+ .print-task[data-task-id="mbi-i3-datenschutz-transfer"]){break-before:page;break-inside:avoid}body[data-print-mode^="adult"] .print-task[data-task-id="mbi-i3-datenschutz-transfer"]{break-inside:avoid}}
 @media print{body[data-print-mode^="adult"] #print-surface .print-topic:has(.print-task[data-task-id="en-feelings-reply-dialog-2"]) .print-practice{break-before:page}}
 @media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="go-helens-a"]){font-size:9.25pt;line-height:1.1}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="go-helens-a"]) .print-task{margin-bottom:.45rem}body[data-print-mode^="adult"] .print-task[data-task-id="go-helens-a"],body[data-print-mode^="adult"] .print-task[data-task-id="go-helens-e"]{break-inside:avoid}}
+/* Optional spoken orientation: visible controls, no automatic playback. */
+.voice-help{display:flex;align-items:center;flex-wrap:wrap;gap:.55rem;margin:0 clamp(1rem,4vw,4rem) 1.4rem;color:#536169}
+.voice-help button{min-height:44px;border:1px solid #8aa9a1;border-radius:.7rem;background:#fffdf9;color:#145651;padding:.55rem .85rem;font:inherit;font-weight:700;cursor:pointer}
+.voice-help button:hover,.voice-help button:focus-visible{background:#e5f2ee}
+.voice-help button[aria-pressed="true"]{background:#145651;color:#fff}
+.voice-help button[hidden]{display:none!important}
+#voice-guide-status{font-size:.85rem}
+@media(max-width:740px){body[data-view=work] main{padding-top:0}body[data-view=work] .status-banner{margin-bottom:.2rem}body[data-view=work] .release-version{margin-bottom:.2rem}body[data-view=work] .voice-help{gap:.35rem;margin-bottom:.2rem}body[data-view=work] .voice-help button{font-size:.83rem;padding:.45rem .6rem}}
+@media(max-width:740px){body[data-view=work] .section-heading{margin:.1rem 0 .2rem}body[data-view=work] .work-intro{padding:.5rem .85rem;margin-bottom:.2rem}}
+.inline-voice-guide{min-height:44px;margin:.15rem 0 .8rem;border:1px solid #8aa9a1;border-radius:.7rem;background:#fffdf9;color:#145651;padding:.55rem .85rem;font:inherit;font-weight:700;cursor:pointer}
+.inline-voice-guide:hover,.inline-voice-guide:focus-visible{background:#e5f2ee}
+.inline-voice-guide[aria-pressed="true"]{background:#145651;color:#fff}
+@media print{#voice-help{display:none!important}}

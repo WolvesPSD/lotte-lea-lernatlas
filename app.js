@@ -116,9 +116,65 @@
     el.addEventListener('click', callback);
     return el;
   }
+  const voiceGuideNames = { home: 'Start', choose: 'Themen', work: 'Lernen', adult: 'Erwachsenenbereich', feedback: 'Rückmeldung', backup: 'Sicherung' };
+  const voiceGuideAudio = new Audio();
+  voiceGuideAudio.preload = 'none';
+  let activeVoiceGuide = null;
+  const overviewGuideButton = $('#voice-guide-overview');
+  const areaGuideButton = $('#voice-guide-area');
+  const backupGuideButton = create('button', 'inline-voice-guide', 'Sicherung erklären');
+  backupGuideButton.id = 'voice-guide-backup';
+  backupGuideButton.type = 'button';
+  backupGuideButton.dataset.voiceGuide = 'backup';
+  backupGuideButton.setAttribute('aria-pressed', 'false');
+  $('#backup-heading').after(backupGuideButton);
+  const voiceGuideStatus = $('#voice-guide-status');
+  function updateVoiceGuideButtons() {
+    overviewGuideButton.textContent = activeVoiceGuide === 'overview' ? 'Einführung stoppen' : 'Einführung hören';
+    overviewGuideButton.setAttribute('aria-pressed', String(activeVoiceGuide === 'overview'));
+    const area = areaGuideButton.dataset.voiceGuide;
+    areaGuideButton.textContent = activeVoiceGuide === area ? 'Erklärung stoppen' : `${voiceGuideNames[area]} erklären`;
+    areaGuideButton.setAttribute('aria-pressed', String(activeVoiceGuide === area));
+    backupGuideButton.textContent = activeVoiceGuide === 'backup' ? 'Erklärung stoppen' : 'Sicherung erklären';
+    backupGuideButton.setAttribute('aria-pressed', String(activeVoiceGuide === 'backup'));
+  }
+  function stopVoiceGuide(clearStatus = true) {
+    voiceGuideAudio.pause();
+    voiceGuideAudio.removeAttribute('src');
+    voiceGuideAudio.load();
+    activeVoiceGuide = null;
+    if (clearStatus) voiceGuideStatus.textContent = '';
+    updateVoiceGuideButtons();
+  }
+  async function toggleVoiceGuide(key) {
+    if (activeVoiceGuide === key) { stopVoiceGuide(); return; }
+    stopVoiceGuide();
+    if (key !== 'overview' && !Object.prototype.hasOwnProperty.call(voiceGuideNames, key)) return;
+    activeVoiceGuide = key;
+    voiceGuideAudio.src = `assets/de-guide-${key}.wav`;
+    voiceGuideStatus.textContent = 'Hörhilfe wird abgespielt.';
+    updateVoiceGuideButtons();
+    try { await voiceGuideAudio.play(); }
+    catch {
+      if (activeVoiceGuide === key) {
+        stopVoiceGuide(false);
+        voiceGuideStatus.textContent = 'Hörhilfe konnte nicht gestartet werden.';
+      }
+    }
+  }
+  for (const control of [overviewGuideButton, areaGuideButton, backupGuideButton]) {
+    control.addEventListener('click', () => toggleVoiceGuide(control.dataset.voiceGuide));
+  }
+  voiceGuideAudio.addEventListener('ended', () => stopVoiceGuide());
+  window.addEventListener('pagehide', () => stopVoiceGuide());
   function show(view) {
+    stopVoiceGuide();
     if (activeProfile === 'lea') view = 'lea';
     if (view === 'lea' && activeProfile !== 'lea') view = 'home';
+    overviewGuideButton.hidden = view !== 'home';
+    areaGuideButton.hidden = !['home', 'choose', 'work', 'adult', 'feedback'].includes(view);
+    if (!areaGuideButton.hidden) areaGuideButton.dataset.voiceGuide = view;
+    updateVoiceGuideButtons();
     document.body.dataset.view = view;
     for (const el of document.querySelectorAll('.view')) el.hidden = el.id !== `${view}-view`;
     for (const el of document.querySelectorAll('[data-nav]')) el.setAttribute('aria-current', el.dataset.nav === view ? 'page' : 'false');

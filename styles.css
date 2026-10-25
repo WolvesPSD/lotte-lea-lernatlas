@@ -102,8 +102,8 @@ body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body
   .site-header nav button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.05rem;min-height:54px;padding:.2rem .05rem;font-size:clamp(.64rem,2.8vw,.72rem);line-height:1.1;white-space:nowrap}
   .site-header nav button>span{font-size:1.35rem;margin:0}
   .site-header nav button svg{display:block;width:1.35rem;height:1.35rem}
-  .site-header nav button[data-nav=adult]{background:#e7f2ed;color:var(--petrol);font-weight:750;border:1px solid #aac8be;border-radius:.6rem}
-  .site-header nav button[data-nav=adult][aria-current=page]{background:var(--petrol);color:#fff}
+  .site-header nav button[data-nav=adult]{background:var(--petrol);color:#fff;font-weight:800;border:1px solid var(--petrol);border-radius:.6rem;box-shadow:0 2px 6px #123f4633}
+  .site-header nav button[data-nav=adult]:hover,.site-header nav button[data-nav=adult][aria-current=page]{background:#07373c;color:#fff}
   main{padding-bottom:7rem}
   footer{padding-bottom:5.5rem}
   .hero{padding:1.6rem}

@@ -1,15 +1,12 @@
 {
-  "builtAt": "2026-10-25T04:03:19.829Z",
-  "releaseVersion": "2026.10.25-mbidatei.1",
-  "newTopicIds": [
-    "mbi-datei-quellen-bruecke"
-  ],
+  "builtAt": "2026-10-25T04:12:05.219Z",
+  "releaseVersion": "2026.10.25-mobileadult.1",
+  "newTopicIds": [],
   "changeLog": [
-    "MBI-Vorwissensbrücke: zwei erfundene Textdateien herunterladen, gedruckte Quellenstände vergleichen und eine eigene lokale Notiz wiederfinden. Sechs Haupt- und eine freiwillige Zusatzaufgabe; alle Sachlösungen nur für Erwachsene.",
-    "Die Wiederholung aus Klasse 6 steht ausschließlich im eigenen Grundlagenfilter. Die App kann Dateiöffnung, Speichern oder Wiederfinden außerhalb des Browsers nicht beobachten; Praxispunkte bleiben ohne menschliche Beobachtung nicht erhoben.",
-    "Die 160 bisherigen Themen, sieben Hörhilfen, Profiltrennung, Druck und Rückmeldung bleiben erhalten; keine privaten Fotos, Dateien oder Lernstände werden veröffentlicht."
+    "Der Navigationsknopf Erwachsene ist auf schmalen Bildschirmen auch in der unteren Leiste dunkel und kontrastreich hervorgehoben.",
+    "Alle 161 Themen und 725 Aufgaben des zuvor veröffentlichten Pakets bleiben unverändert; der obere Zugang Für Erwachsene bleibt erhalten."
   ],
-  "rollbackCommit": "b4785ebc28d0a1bdc65936ffb78b602de1fdc39e",
+  "rollbackCommit": "de81467721f12ebd8fcecb597033c79cd6172c0b",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",

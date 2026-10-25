@@ -802,6 +802,13 @@
     const list = create('ol');
     (adult ? practice.adultCriteria : practice.childSteps).forEach(step => appendText(list, 'li', '', step));
     section.append(list);
+    if (adult && practice.adultSupplementalCriteria) {
+      appendText(section, 'h4', '', practice.adultSupplementalTitle);
+      appendText(section, 'p', '', practice.adultSupplementalNote);
+      const supplemental = create('ol');
+      practice.adultSupplementalCriteria.forEach(step => appendText(supplemental, 'li', '', step));
+      section.append(supplemental);
+    }
     if (!adult && practice.externalLinks) {
       appendText(section, 'p', 'muted', 'Externe Seiten öffnen erst nach deinem Klick. Der Lernatlas überträgt dabei keine Antworten.');
       for (const external of practice.externalLinks) {
@@ -1072,13 +1079,20 @@
       if (topic.practice) {
         const practiceSection = create('section', 'print-practice');
         appendText(practiceSection, 'h3', '', topic.practice.title);
-        appendText(practiceSection, 'p', '', mode === 'child' ? topic.practice.childNote : topic.practice.adultNote);
-        if (mode === 'adult') for (const paragraph of topic.practice.adultGuide || []) appendText(practiceSection, 'p', '', paragraph);
+        appendText(practiceSection, 'p', '', mode === 'child' ? topic.practice.childNote : topic.practice.printAdultNote || topic.practice.adultNote);
+        if (mode === 'adult') for (const paragraph of topic.practice.printAdultGuide || topic.practice.adultGuide || []) appendText(practiceSection, 'p', '', paragraph);
         const list = create('ol');
         (mode === 'child' ? topic.practice.childSteps : topic.practice.adultCriteria).forEach(step => appendText(list, 'li', '', mode === 'child' ? step : topic.practice.unscored === true
           ? `${step}  ${topic.practice.printObservationLabels || '☐ beobachtet  ☐ nicht beobachtet  ☐ keine Gelegenheit  ☐ nicht anwendbar'}. Namenlose Kurznotiz: ____________________`
           : `${step}  Punkte: ____`));
         practiceSection.append(list);
+        if (mode === 'adult' && topic.practice.adultSupplementalCriteria) {
+          appendText(practiceSection, 'h4', '', topic.practice.adultSupplementalTitle);
+          appendText(practiceSection, 'p', '', topic.practice.adultSupplementalNote);
+          const supplemental = create('ol');
+          topic.practice.adultSupplementalCriteria.forEach(step => appendText(supplemental, 'li', '', step));
+          practiceSection.append(supplemental);
+        }
         if (mode === 'child') for (const external of topic.practice.externalLinks || []) appendText(practiceSection, 'p', 'print-context', `${external.label}: ${external.url}. ${external.printNote || 'Nur freiwillig öffnen; keine Antworten oder persönlichen Angaben veröffentlichen.'}`);
         if (mode === 'child' && Number.isInteger(topic.practice.childWritingLines) && topic.practice.childWritingLines > 0) {
           const lines = create('div', 'writing-lines');

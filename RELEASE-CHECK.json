@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-25T07:41:54.655Z",
-  "releaseVersion": "2026.10.25-frgrafik.1",
+  "builtAt": "2026-10-25T07:49:08.855Z",
+  "releaseVersion": "2026.10.25-demoderation.1",
   "newTopicIds": [
-    "fr-graphique-club-message"
+    "de-ds1-buecherregal-moderieren"
   ],
   "changeLog": [
-    "Französisch: freiwilliger Klasse-8-Ausblick, fiktives Balkendiagramm lesen und eine Nachricht an Camille mit drei Monatswerten schreiben.",
-    "168 Themen und 753 Textaufgaben; Hauptteil 20 Kriterienpunkte, spätere fiktive Korrektur 6 Zusatzpunkte. Keine privaten Profile, Fotos, Aufnahmen oder Lernstände im Paket."
+    "Deutsch: freiwillige Moderationsübung mit getrennten Rollenkarten, echter Dreier-Runde und Erwachsenen-Beobachtungsbogen.",
+    "169 Themen und 758 Textaufgaben. Ohne wirklich gehörte Runde bleibt die Sprechleistung nicht erhoben; die sechs Zusatzpunkte erfordern eine zweite beobachtete Runde. Keine privaten Lernstände oder Namen im Paket."
   ],
-  "rollbackCommit": "cdd4a7b071bbb3b7a6793cf2b7ceeb0a97679667",
+  "rollbackCommit": "35e4917daf4946c1d84cadf1a25769fcdf7d23f5",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",
@@ -128,6 +128,7 @@
     "de-karte-im-regen-vortrag",
     "de-heidi-ganzschrift-begleiter",
     "de-eigene-ganzschrift-arbeitsweg",
+    "de-ds1-buecherregal-moderieren",
     "de-lesetreff-planungsgespraech",
     "de-bibliotheksregal-erklaeren",
     "fr-bilderausstellung-vortrag",

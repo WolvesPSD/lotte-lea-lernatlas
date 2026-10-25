@@ -11283,6 +11283,151 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "de-ds1-buecherregal-moderieren",
+      "subjectId": "de",
+      "title": "Eine Bücherregal-Runde neutral moderieren",
+      "scope": "Freiwilliger Klasse-7-Einstieg in die Gesprächsmoderation des Deutsch-Ziels bis Ende Klasse 8. Schriftliche Vorbereitung und Nachnotiz sind keine gehörte Moderationsleistung; die aktuelle Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "practiceBeforeLastTask": true,
+      "prerequisite": "Für die spätere Live-Runde brauchst du zwei andere freiwillige Personen für verschiedene Gesprächsrollen; Erwachsene dürfen mitspielen. Idealerweise beobachtet eine weitere erwachsene Person getrennt. Du selbst moderierst. Ohne wirklich gehörte Dreier-Runde bleibt die mündliche Leistung „nicht erhoben“. Keine echten Namen, Bücherlisten, Schuldaten oder Aufnahme verwenden. Die App kann Rede nicht hören oder automatisch bewerten.",
+      "introduction": "In einer erfundenen Leseecke steht ein leeres Regal. Zwei Freiwillige wollen Bücher zugänglich machen, meinen mit „teilen“ aber womöglich Verschiedenes. Ob Bücher dauerhaft abgegeben oder nur geliehen werden, ist noch nicht entschieden. Eine Aufstellerlaubnis und Aufsicht sind unbekannt. Deine Aufgabe ist es, beide Anliegen fair zu klären und einen belegten Zwischenstand festzuhalten – auch ein offener Punkt kann richtig sein.",
+      "passage": "DU MODERIERST · Lies die Rollenkarten A und B vorher nicht. Plane nur mit der gemeinsamen Ausgangslage. Du vertrittst keinen der Vorschläge. Deine Stichwörter und zwei vorbereitete Fragen sind erlaubt, ein fertig abgelesener Dialog ist keine spontane Wechselrede. Die beiden Beteiligten bekommen ihre Einzelkarten getrennt von einer erwachsenen Person. Die optionale neue Bedingung bleibt bis nach der ersten beendeten Runde zurück.",
+      "tasks": [
+        {
+          "id": "de-ds1-moderation-p1",
+          "kind": "reflection",
+          "adultOnlySolution": true,
+          "writingLines": 5,
+          "inputRows": 5,
+          "prompt": "P1 · Schriftplan, noch keine Sprechwertung: Formuliere in einem Satz ein neutrales Gesprächsziel, das beide hören können, ohne dass du schon eine Lösung vorgibst.",
+          "sample": "Wir möchten verstehen, wie beide das Teilen der Bücher meinen, und prüfen, welcher nächste Schritt für die Leseecke gemeinsam tragfähig wäre.",
+          "criteria": [
+            "Ziel benennt beide Anliegen oder ein gemeinsames Klären.",
+            "Keine eigene Lieblingslösung oder bereits behauptete Einigung.",
+            "Nur vorbereitet / zu präzisieren / nicht vorbereitet rückmelden; keine Sprechpunkte."
+          ]
+        },
+        {
+          "id": "de-ds1-moderation-p2",
+          "kind": "reflection",
+          "adultOnlySolution": true,
+          "writingLines": 6,
+          "inputRows": 6,
+          "prompt": "P2 · Schriftplan: Schreibe zwei offene Fragen. Mit einer kann jede Person ihr Anliegen erklären; mit der anderen klärst du den Unterschied zwischen dauerhaftem Weitergeben und vorübergehendem Ausleihen. Du darfst im Gespräch anders nachfragen.",
+          "sample": "Was ist euch an der Leseecke jeweils wichtig? / Soll ein mitgenommenes Buch dauerhaft bei der neuen Person bleiben oder später zurückkommen?",
+          "criteria": [
+            "Eine offene Frage lässt beide Anliegen hörbar werden.",
+            "Eine Frage klärt Besitzwechsel und Rückgabe, ohne die Antwort zu verraten.",
+            "Die geplanten Fragen beweisen noch keine tatsächlich gestellte Nachfrage."
+          ]
+        },
+        {
+          "id": "de-ds1-moderation-p3",
+          "kind": "reflection",
+          "adultOnlySolution": true,
+          "writingLines": 7,
+          "inputRows": 7,
+          "prompt": "P3 · Schriftplan: Notiere eine kurze Reihenfolge für etwa 8–10 Minuten: Einstieg, beide Stimmen, Klärung, Abschluss. Plane eine freundliche Möglichkeit, lange Rede zu bremsen oder eine stille Person einzuladen, ohne zu behaupten, dass dies passieren wird.",
+          "sample": "Ziel und Ausredenlassen nennen; A und B nacheinander einladen; unklare Wörter klären und eine Reaktion der anderen Person ermöglichen; Einigkeit und offene Punkte am Ende trennen. Bei langer Rede könnte ich „Danke, ich möchte dazu auch B hören“ sagen.",
+          "criteria": [
+            "Einstieg, beide Stimmen, Klärung und begrenzter Abschluss sind plausibel geordnet.",
+            "Eine respektvolle, nur bedarfsweise genutzte Leitungsaktion ist vorbereitet.",
+            "Eine Planung ist noch keine beobachtete Gesprächsführung."
+          ]
+        },
+        {
+          "id": "de-ds1-moderation-p4",
+          "kind": "reflection",
+          "adultOnlySolution": true,
+          "writingLines": 6,
+          "inputRows": 6,
+          "prompt": "P4 · Schriftplan: Bereite einen Abschlusssatz mit zwei offenen Stellen vor: „Einigkeit besteht über …“ und „Offen bleibt …“. Erfinde weder eine Einigung noch eine Erlaubnis für ein echtes Regal.",
+          "sample": "Einigkeit besteht über [nur das, was beide später wirklich tragen]. Offen bleibt [ein im Gespräch nicht geklärter Punkt]. Eine Aufstellerlaubnis ist noch zu prüfen.",
+          "criteria": [
+            "Einigkeit und offene Punkte bleiben getrennt.",
+            "Keine Einigung oder Genehmigung wird vorweggenommen.",
+            "Wenn die Runde keinen gemeinsamen Vorschlag findet, darf genau dies das korrekte Ergebnis sein."
+          ]
+        },
+        {
+          "id": "de-ds1-moderation-nachnotiz",
+          "kind": "reflection",
+          "adultOnlySolution": true,
+          "writingLines": 7,
+          "inputRows": 7,
+          "prompt": "Nur nach einer wirklich gesprochenen Runde · Nachnotiz ohne Sprechpunkte: Wo hast du auf eine tatsächliche Antwort reagiert? Wo hast du jemandem Raum gegeben? Nenne je einen kurzen gehörten Moment. Wenn keine Runde stattfand, lasse dieses Feld leer.",
+          "sample": "Nur ein tatsächlicher Gesprächsbeleg zählt: etwa „Als B Rückgabe sagte, fragte ich nach dem Unterschied zur Dauerabgabe“ und „Nach As Beitrag bat ich B um Reaktion“. Ohne Runde bleibt die Nachnotiz leer und die Moderation nicht erhoben.",
+          "criteria": [
+            "Zwei konkrete, wirklich gehörte Momente statt eines erfundenen Musterdialogs.",
+            "Reaktion auf Inhalt und Öffnung für die andere Person getrennt.",
+            "Die Nachnotiz ersetzt keine Beobachtung und erhält keine eigenen Sprechpunkte."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Dreier-Runde wirklich moderieren · freiwillig",
+        "childNote": "Du leitest selbst; zwei andere Personen vertreten A und B mit verdeckten Einzelkarten. Eine möglichst getrennte erwachsene Person beobachtet. Ohne echte Wechselrede und Beobachtung: nicht erhoben. Die App macht keine Aufnahme und zählt ausgefüllte Felder nicht als gesprochene Leistung.",
+        "childSteps": [
+          "Lass die Rollen A und B von einer erwachsenen Person getrennt aushändigen. Sieh ihre Einzelkarten nicht vor der Runde.",
+          "Nenne ein neutrales Ziel und eine einfache Regel. Gib beiden Personen Raum, bevor du nach Besitzwechsel und Rückgabe fragst.",
+          "Greife mindestens eine wirkliche Aussage auf und ermögliche der anderen Person eine faire Antwort. Halte das Gespräch beim Thema, ohne eine Lieblingslösung durchzusetzen.",
+          "Schliesse mit dem tatsächlich getragenen Zwischenstand oder ausdrücklich ohne Einigung. Erlaubnis, Kennzeichnung und Aufsicht dürfen offen bleiben.",
+          "Erst nach dem beendeten Gespräch: Nachnotiz schreiben. Eine erwachsene Person kann dann die optionale neue Bedingung für eine zweite, getrennt beobachtete Runde aushändigen."
+        ],
+        "handouts": [
+          {
+            "label": "Rolle A nur an Person A aushändigen",
+            "path": "assets/de-moderation-rolle-a.html",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-moderation-rolle-a.html"
+          },
+          {
+            "label": "Rolle B nur an Person B aushändigen",
+            "path": "assets/de-moderation-rolle-b.html",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-moderation-rolle-b.html"
+          },
+          {
+            "label": "Zusatzbedingung erst nach beendeter Grundrunde aushändigen",
+            "path": "assets/de-moderation-zusatzrunde.html",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-moderation-zusatzrunde.html"
+          }
+        ],
+        "observationMax": 12,
+        "observationLabel": "Moderationsrunde",
+        "adultNote": "Nur nach tatsächlich gehörter Dreier-Runde werten. Ideal: Lotte moderiert, zwei andere Personen vertreten A/B, eine weitere erwachsene Person beobachtet nur. Bei mitspielender Beobachtung die geringere Unabhängigkeit vermerken; ohne Beobachtung keine Punkte. 2 = klar selbst gezeigt, 1 = teilweise oder nach zusätzlicher neutraler Hilfe, 0 = trotz fairer Gelegenheit nicht gezeigt, — = Gelegenheit fehlte. Bei — keine vergleichbare 12er-Summe; ohne Runde alles „nicht erhoben“. Schriftplan und Nachnotiz nie hinzurechnen. A: sechs Bücher dauerhaft abgeben, ohne Ausleihzettel. B: vier Bücher nur verleihen, Rückgabe noch ungeklärt. Vorab nur die eigene Rollenkarte aushändigen; Lotte sieht beide nicht.",
+        "printAdultNote": "Nur eine wirklich gehörte Dreier-Runde werten: 2 = selbst gezeigt, 1 = teilweise/mit neutraler Hilfe, 0 = trotz fairer Gelegenheit nicht gezeigt, — = Gelegenheit fehlte. Bei — keine vergleichbare 12er-Summe; ohne Runde nicht erhoben. Schriftplan und Nachnotiz bleiben ohne Sprechpunkte. A: sechs Bücher dauerhaft ohne Ausleihzettel abgeben; B: vier nur verleihen, Rückgabe ungeklärt.",
+        "adultGuide": [
+          "Karten A/B getrennt aushändigen; Kerninformationen spätestens auf offene Nachfrage einbringen. Eine tatsächlich gesprochene Einigung ist keine Pflicht. Die optionale Karte mit nur einer unbeschrifteten Kiste erst nach der ersten beendeten Runde geben; drei getrennte Zusatzkriterien zu je 0/1/2/—, höchstens sechs Punkte nur nach echter zweiter Runde.",
+          "Erwachsene dürfen A/B spielen. Wer zugleich mitspielt und beobachtet, vermerkt die geringere Unabhängigkeit. Keine Aufnahme, privaten Namen oder wirkliche Bücherliste anlegen."
+        ],
+        "printAdultGuide": [
+          "A/B getrennt aushändigen, Lotte sieht die Rollen nicht. Einigung ist keine Pflicht; Aufstellerlaubnis bleibt offen. Mitspielende Beobachtung ist weniger unabhängig.",
+          "Zusatzkarte erst nach beendeter Grundrunde; zweite Runde getrennt beobachten. Keine Aufnahme oder privaten Namen notieren."
+        ],
+        "adultCriteria": [
+          "Neutral eröffnen: Ziel und Gesprächsregel ohne eigene Präferenz; 0/1/2/—, gehörter Beleg: ____",
+          "Beide A/B einladen, ausreden lassen und bei Bedarf nachfassen; 0/1/2/—, Beleg: ____",
+          "Dauerabgabe und befristetes Verleihen korrekt trennen, bei Unklarheit nachfragen; 0/1/2/—, Beleg: ____",
+          "Einen Inhalt aufgreifen und der anderen Person faire Reaktion ermöglichen; 0/1/2/—, Beleg: ____",
+          "Phasen und Thema leiten, bei Bedarf freundlich bremsen oder zusammenfassen, ohne Partei zu werden; 0/1/2/—, Beleg: ____",
+          "Begrenzt schliessen: getragene Einigung oder ausdrücklich keine, mit offenen Punkten und ohne erfundene Erlaubnis; 0/1/2/—, Beleg: ____"
+        ],
+        "adultSupplementalTitle": "Nur nach der zweiten gehörten Runde · eigenes Zusatzraster (höchstens 6 Punkte)",
+        "adultSupplementalNote": "Die Kistenkarte erst nach der ersten beendeten Runde aushändigen. Drei neue Kriterien getrennt mit 0/1/2/— und gehörtem Beleg werten; bei — keine vergleichbare Sechser-Summe. Ohne zweite beobachtete Runde alle drei „nicht erhoben“. Nicht rückwirkend zu den zwölf Punkten der Grundrunde addieren.",
+        "adultSupplementalCriteria": [
+          "Den bisherigen Zwischenstand angesichts der einzigen unbeschrifteten Kiste ausdrücklich überprüfen; 0/1/2/—: ____; gehörter Beleg: ____",
+          "Beide Beteiligten zur geänderten Bedingung befragen und ihre Antworten aufnehmen; 0/1/2/—: ____; gehörter Beleg: ____",
+          "Die neue Grenze korrekt festhalten: Unterscheidung, Rückgabe und Erlaubnis bleiben gegebenenfalls offen; keine zweite Kiste oder Kennzeichnung erfinden; 0/1/2/—: ____; gehörter Beleg: ____"
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. § 2.2.3/PDF-S. 28: Gespräche gegebenenfalls angeleitet moderieren, Perspektiven aufnehmen und begrenzt zusammenfassen; Zielstand Ende Klasse 8.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "de-lesetreff-planungsgespraech",
       "subjectId": "de",
       "title": "Einen Lesetreff im Gespräch planen",

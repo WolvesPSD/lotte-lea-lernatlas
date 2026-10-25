@@ -676,19 +676,20 @@
       host.append(transferTask);
     } else if (topic.stagedUpdate) {
       const mainTasks = create('div');
-      for (let index = 0; index < topic.tasks.length - 1; index++) mainTasks.append(renderTask(topic, topic.tasks[index], index));
+      const mainTaskCount = topic.stagedUpdate.mainTaskCount ?? topic.tasks.length - 1;
+      for (let index = 0; index < mainTaskCount; index++) mainTasks.append(renderTask(topic, topic.tasks[index], index));
       const mainInputs = [...mainTasks.querySelectorAll('textarea')];
       const marker = `${topic.tasks[0].id}-update-gezeigt`;
       const updateShown = state.answers[marker] === 'ja';
       if (updateShown) mainInputs.forEach(input => { input.readOnly = true; });
       host.append(mainTasks);
       if (topic.practiceBeforeLastTask && topic.practice) host.append(renderPractice(topic.practice, false));
-      const mainComplete = () => topic.tasks.slice(0, -1).every(task => String(state.answers[task.id] || '').trim());
+      const mainComplete = () => topic.tasks.slice(0, mainTaskCount).every(task => String(state.answers[task.id] || '').trim());
       const updateButton = button(topic.stagedUpdate.buttonLabel || `Hauptantworten festhalten und ${topic.stagedUpdate.kind === 'variant' ? 'Variante' : 'Korrektur'} zeigen`, () => {
         if (!mainComplete()) return;
         state.answers[marker] = 'ja'; save();
         mainInputs.forEach(input => { input.readOnly = true; });
-        updateButton.hidden = true; updateText.hidden = false; if (updateFigure) updateFigure.hidden = false; transferTask.hidden = false;
+        updateButton.hidden = true; updateText.hidden = false; if (updateFigure) updateFigure.hidden = false; transferTasks.hidden = false;
         const autoCheck = host.querySelector('.auto-check-card');
         if (autoCheck) autoCheck.hidden = false;
         updateText.scrollIntoView({ block: 'start', behavior: 'instant' });
@@ -716,9 +717,10 @@
         updateFigure.hidden = !updateShown;
         host.append(updateFigure);
       }
-      const transferTask = renderTask(topic, topic.tasks.at(-1), topic.tasks.length - 1);
-      transferTask.hidden = !updateShown;
-      host.append(transferTask);
+      const transferTasks = create('div');
+      for (let index = mainTaskCount; index < topic.tasks.length; index++) transferTasks.append(renderTask(topic, topic.tasks[index], index));
+      transferTasks.hidden = !updateShown;
+      host.append(transferTasks);
     } else {
       for (const [index, task] of topic.tasks.entries()) {
         if (topic.practiceBeforeLastTask && index === topic.tasks.length - 1) host.append(renderPractice(topic.practice, false));
@@ -1085,7 +1087,7 @@
       let stagedUpdatePrint = null;
       for (const [index, task] of topic.tasks.entries()) {
         if (hideChildFirstGate && index > 0) continue;
-        if (hideChildUpdate && index === topic.tasks.length - 1) continue;
+        if (hideChildUpdate && index >= (topic.stagedUpdate.mainTaskCount ?? topic.tasks.length - 1)) continue;
         if (hideChildReadingSource && index > 0) continue;
         if (hideChildPromptContext && index > 0) continue;
         if (hideChildReadingUpdate && index === topic.tasks.length - 1) continue;
@@ -1097,7 +1099,7 @@
           section.append(figure);
         }
         const item = create('div', 'print-task'); item.dataset.taskId = task.id;
-        if (topic.stagedUpdate && mode === 'adult' && index === topic.tasks.length - 2) item.classList.add('print-keep-together');
+        if (topic.stagedUpdate && mode === 'adult' && index === (topic.stagedUpdate.mainTaskCount ?? topic.tasks.length - 1) - 1) item.classList.add('print-keep-together');
         appendText(item, 'h3', '', topic.practiceBeforeLastTask ? task.prompt : `${index + 1}. ${task.prompt}`);
         if (mode === 'adult' && task.helpAfterAttempt) appendText(item, 'p', 'muted', `Formenhilfe nach Erstversuch: ${state.answers[`${task.id}-hilfe-genutzt`] === 'ja' ? 'genutzt' : 'nicht als genutzt vermerkt'}. Dieser Status ist keine automatische Leistungsbewertung.`);
         if (mode === 'child') {
@@ -1126,7 +1128,7 @@
         if (topic.stagedReading && index === topic.tasks.length - 2 && !hideChildReadingUpdate) {
           appendText(section, 'p', mode === 'child' ? 'print-staged-update print-passage' : 'print-passage', topic.stagedReading.updateText);
         }
-        if (topic.stagedUpdate && index === topic.tasks.length - 2 && !hideChildUpdate) {
+        if (topic.stagedUpdate && index === (topic.stagedUpdate.mainTaskCount ?? topic.tasks.length - 1) - 1 && !hideChildUpdate) {
           stagedUpdatePrint = appendText(section, 'p', mode === 'child' ? 'print-staged-update print-passage' : 'print-passage', topic.stagedUpdate.text);
           if (topic.stagedUpdate.image) {
             const image = topic.stagedUpdate.image;

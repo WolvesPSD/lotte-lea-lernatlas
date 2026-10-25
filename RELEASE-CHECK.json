@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-25T10:18:53.764Z",
-  "releaseVersion": "2026.10.25-mbii4modelle.1",
+  "builtAt": "2026-10-25T10:30:31.176Z",
+  "releaseVersion": "2026.10.25-desongtext.1",
   "newTopicIds": [
-    "mbi-i4-text-bild-modelle"
+    "de-songtext-rueck-ein-stueck"
   ],
   "changeLog": [
-    "Medienbildung I4: freiwilliger Klasse-7-Vorgriff auf ein Ziel Ende Klasse 8. Vereinfachtes Textmodell und eine Bildmodellfamilie vergleichen, Grenzen an einer erfundenen Mitteilung prüfen.",
-    "177 Themen und 801 reguläre Aufgaben. Aufgabe E verlangt ein echtes zusätzliches Zeichenblatt; ohne Sicht auf dieses Blatt bleiben Zeichenteile nicht erhoben. Alle Musterlösungen bleiben im Erwachsenenbereich. Die freiwilligen sechs Zusatzpunkte sind getrennt."
+    "Deutsch D-L2: freiwillige 7/8-Leseübung zu einem eigens verfassten 16-Zeilen-Songtextentwurf ohne Melodie oder Aufnahme. Vier Hauptaufgaben prüfen Form, Deutung und Textbeleg; eine spätere Textänderung bleibt zunächst verborgen.",
+    "178 Themen und 808 reguläre Aufgaben. 20 Hauptpunkte und sechs getrennte freiwillige Zusatzpunkte; optionale echte Lautlesepraxis ist unbepunktet und ohne Durchführung nicht erhoben. Lösungen bleiben im Erwachsenenbereich."
   ],
-  "rollbackCommit": "99779dc2be8a91c7cc1bfe1d035f483abc6636a6",
+  "rollbackCommit": "eef2674c7c193b246ff23d7442c7dd2a30bc0dc6",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -16,6 +16,7 @@
     "mbi-i6-standortzugriff",
     "mnt-samenpflanzen-bluete-beobachtung",
     "ma-koerper-netzkarten",
+    "de-songtext-rueck-ein-stueck",
     "de-wortarten-form-funktion",
     "mnt-volumen-masse-schulpraxis",
     "mnt-skelett-knochenformen",

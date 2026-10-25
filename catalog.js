@@ -835,6 +835,160 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "de-songtext-rueck-ein-stueck",
+      "subjectId": "de",
+      "title": "Rück ein Stück: Einen Songtextentwurf lesen",
+      "scope": "Freiwillige 7/8-Leseübung zu einem eigens verfassten Songtextentwurf. §3.2 nennt Songtexte als Beispiel; die Deutungsziele in §2.2.2 reichen bis Ende Klasse 8. Keine bestätigte aktuelle Schuleinheit, gesungene Fassung oder Hörleistung.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Der Schulhof und die Figuren sind erfunden. Du brauchst nichts über dich oder deine Schule zu schreiben. Dies ist nur ein Textentwurf: Es gibt keine Melodie, Aufnahme oder gesungene Fassung. Du kannst alle schriftlichen Aufgaben ohne Ton lösen. Eigene Lesarten zählen, wenn du sie mit Zeilen belegst; die App kann offene Antworten nicht automatisch beurteilen. Die freiwillige Änderung erscheint erst nach dem Grundteil.",
+      "introduction": "Lies den eigens verfassten Songtextentwurf zweimal. Vergleiche die beiden Refrains nach ihren unterschiedlichen Strophen. Untersuche, wie sich dadurch eine Lesart verändern kann. Eine Wirkung ist ein begründeter Leseindruck, keine feststehende Reaktion aller Menschen. Die vier Hauptaufgaben ergeben 20 Lernpunkte, die spätere freiwillige Änderung sechs getrennte Zusatzpunkte. Beides ist keine Schulnote.",
+      "passage": "RÜCK EIN STÜCK · EIGENER SONGTEXTENTWURF OHNE MELODIE\n\nSTROPHE 1\nL1  Auf dem Hof zieht weiße Kreide\nL2  einen Kreis um unser Spiel.\nL3  Ich steh mitten in dem Kreis;\nL4  du fragst: „Darf ich auch hinein?“\n\nREFRAIN 1\nL5  Ich rück ein Stück, ich rück ein Stück,\nL6  der Rand ist noch nicht fest.\nL7  Vielleicht passt mehr in unsern Kreis,\nL8  als ich von innen sehen kann.\n\nSTROPHE 2\nL9  Später hängt mein Plan am Brett.\nL10 Ich zeig die Pfeile stolz herum.\nL11 Du fragst, wohin die Lücke führt;\nL12 ich tret zurück und denke um.\n\nREFRAIN 2\nL13 Ich rück ein Stück, ich rück ein Stück,\nL14 der Rand ist noch nicht fest.\nL15 Vielleicht passt mehr in unsern Kreis,\nL16 als ich von innen sehen kann.\n\nWÖRTERHILFE: Eine Strophe führt hier eine Situation weiter. Ein Refrain ist ein wiederkehrender Abschnitt; suche selbst die wortgleichen Zeilen. Die Sprecherstimme im Text ist nicht automatisch die schreibende Person. Eine bildliche Lesart nimmt ein Wort auch als Vergleich oder Vorstellung. Aus dem gedruckten Text folgen weder Melodie noch Betonung.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "1–4",
+        "mainTaskCount": 4,
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "Grundteil festhalten und freiwillige Textänderung zeigen",
+        "text": "FREIWILLIGE ANDERE TEXTFASSUNG NACH 1–4 · Nur L15 im zweiten Refrain wird ersetzt. Der erste Refrain und alle anderen Zeilen bleiben gleich.\n\nL15a  Jetzt passt mehr in unsern Kreis,\n\nPrüfe die neue Formulierung an Strophe 2; behandle L15 und L15a als zwei verschiedene Fassungen."
+      },
+      "tasks": [
+        {
+          "id": "de-songtext-a",
+          "kind": "reflection",
+          "points": 5,
+          "inputRows": 7,
+          "writingLines": 7,
+          "adultOnlySolution": true,
+          "prompt": "1 · Aufbau und Wiederholung (5 Hauptpunkte): Ordne mit Zeilennummern Strophe 1, Refrain 1, Strophe 2 und Refrain 2. Nenne zwei verschiedene ganze Verszeilen, die im zweiten Refrain wortgleich wiederkehren, jeweils mit beiden Zeilenstellen. Erkläre, worin der Refrain hier mehr besteht als in einem einzelnen wiederholten Wort. Erfinde keine Taktzahl oder Melodie.",
+          "sample": "Strophe 1 L1–L4, Refrain 1 L5–L8, Strophe 2 L9–L12, Refrain 2 L13–L16. Zum Beispiel sind L5/L13 und L7/L15 je wortgleich. Der ganze vierzeilige Abschnitt kehrt nach zwei unterschiedlichen Strophen zurück; nicht nur ein einzelnes Wort wiederholt sich.",
+          "criteria": [
+            "1 Punkt: Strophe 1 L1–L4 und Refrain 1 L5–L8.",
+            "1 Punkt: Strophe 2 L9–L12 und Refrain 2 L13–L16 in dieser Reihenfolge.",
+            "Je 1 Punkt: zwei verschiedene ganze wortgleiche Verszeilen mit beiden Stellen; zusammen 2 Punkte.",
+            "1 Punkt: vierzeiligen wiederkehrenden Refrainblock von blosser Wortwiederholung unterschieden. Überschriften allein genügen nicht."
+          ]
+        },
+        {
+          "id": "de-songtext-b",
+          "kind": "reflection",
+          "points": 5,
+          "inputRows": 8,
+          "writingLines": 8,
+          "adultOnlySolution": true,
+          "prompt": "2 · Derselbe Refrain, andere Lesart (5 Hauptpunkte): Was kann „Ich rück ein Stück“ nach Strophe 1 wörtlich bedeuten? Was kann es nach Strophe 2 bildlich bedeuten? Belege beide Deutungen jeweils mit einer Strophen- und einer Refrainstelle. Was lässt „Vielleicht“ in L7/L15 offen?",
+          "sample": "Nach L3–L4 kann das Ich im Kreidekreis körperlich Platz machen (L5). Nach L11–L12 kann „ich tret zurück und denke um“ einen gedanklichen Perspektivwechsel meinen; der Kreis L13–L16 kann den eigenen Blickwinkel darstellen. „Vielleicht“ lässt offen, ob wirklich mehr hineinpasst und wie Spiel oder Plan ausgehen.",
+          "criteria": [
+            "1 Punkt: körperliches Platzmachen nach Strophe 1.",
+            "1 Punkt: Strophen- und Refrainstelle zu dieser Lesart.",
+            "1 Punkt: gedanklicher Perspektivwechsel nach Strophe 2 als mögliche bildliche Lesart.",
+            "1 Punkt: Strophen- und Refrainstelle zur zweiten Lesart.",
+            "1 Punkt: Offenheit von „Vielleicht“ ohne erfundenen Spielausgang oder fertigen Plan."
+          ]
+        },
+        {
+          "id": "de-songtext-c",
+          "kind": "reflection",
+          "points": 5,
+          "inputRows": 8,
+          "writingLines": 8,
+          "adultOnlySolution": true,
+          "prompt": "3 · Ich, du und offene Fragen (5 Hauptpunkte): Wer spricht im Text? Welche zwei Fragen oder Einwände des „Du“ stehen in den Strophen? Prüfe mit Zeilenbelegen beide Behauptungen: „Das Du durfte nach L5 sicher mitspielen“ und „Der Plan wurde nach L12 gemeinsam beschlossen.“ Trenne Textbefund und zusätzliche Annahme; die Identität des Du musst du nicht festlegen.",
+          "sample": "Ein textliches Ich spricht zu einem nicht näher bestimmten Du; das Ich ist nicht automatisch die schreibende Person. L4 fragt nach Mitspielen, L11 nach der Lücke im Plan. L5 zeigt nur, dass das Ich rückt, nicht ob das Du mitspielt. L12 zeigt Umdenken, keinen gemeinsam beschlossenen Plan.",
+          "criteria": [
+            "1 Punkt: Sprecher-Ich und Du ohne erfundene Identität oder Autorengleichsetzung.",
+            "1 Punkt: L4-Frage nach Platz im Spiel.",
+            "1 Punkt: L11-Frage nach der Planlücke.",
+            "1 Punkt: L5-Rücken von unbelegtem tatsächlichem Mitspielen getrennt.",
+            "1 Punkt: L12-Umdenken von unbelegtem gemeinsamen Planbeschluss getrennt."
+          ]
+        },
+        {
+          "id": "de-songtext-d",
+          "kind": "reflection",
+          "points": 5,
+          "inputRows": 8,
+          "writingLines": 8,
+          "adultOnlySolution": true,
+          "prompt": "4 · Gestaltung und mögliche Wirkung (5 Hauptpunkte): Wähle eine genaue Refrainzeile. Zeige mit Zeilenbelegen, wie dieselben Worte nach L1–L4 und nach L9–L12 unterschiedlich wirken können; nenne dabei die Wiederholung als Formmittel. Vergleiche den gezeichneten Kreidekreis aus L2–L3 mit einer möglichen bildlichen Lesart des Kreises in L7/L15. Nenne eine Wirkung, die du ohne gesungene Fassung nicht prüfen kannst.",
+          "sample": "L5/L13 wiederholt „Ich rück ein Stück“. Nach L4 kann das wie körperliches Platzmachen im Kreidekreis wirken; nach L11–L12 eher wie Zurücktreten von einer eigenen Planidee. L2–L3 zeigen einen gezeichneten Kreis; L7/L15 kann auch den begrenzten eigenen Blick meinen. Ob eine Melodie oder Betonung den Refrain fröhlich oder zögernd klingen lässt, ist ohne Ton offen.",
+          "criteria": [
+            "1 Punkt: konkrete Refrainzeile mit Stelle und Wiederholung/Rekontextualisierung als Formmittel.",
+            "1 Punkt: mögliche Wirkung nach L1–L4 mit Textbezug.",
+            "1 Punkt: andere mögliche Wirkung derselben Worte nach L9–L12 mit Textbezug.",
+            "1 Punkt: sichtbaren Kreidekreis von möglicher bildlicher Kreislesart unterschieden.",
+            "1 Punkt: einen ohne gesungene Fassung nicht prüfbaren Klang-/Höreffekt genannt."
+          ]
+        },
+        {
+          "id": "de-songtext-v1",
+          "kind": "reflection",
+          "points": 2,
+          "inputRows": 5,
+          "writingLines": 5,
+          "adultOnlySolution": true,
+          "prompt": "V1 · Wortwechsel (2 getrennte Zusatzpunkte): Vergleiche L7, L15 und L15a. Welches Wort verändert die Sicherheit der Aussage? Erkläre den Unterschied in eigenen Worten.",
+          "sample": "L7/L15 sagen „Vielleicht“, L15a sagt „Jetzt“. Aus einer Möglichkeit wird eine gegenwärtig sicherer klingende Aussage der Sprecherstimme; eine tatsächliche Einigung ist damit noch nicht gezeigt.",
+          "criteria": [
+            "1 Zusatzpunkt: „Vielleicht“ gegenüber „Jetzt“ erkannt.",
+            "1 Zusatzpunkt: mögliche Aussage gegenüber stärkerer gegenwärtiger Behauptung erklärt, ohne Beschluss zu erfinden."
+          ]
+        },
+        {
+          "id": "de-songtext-v2",
+          "kind": "reflection",
+          "points": 2,
+          "inputRows": 5,
+          "writingLines": 5,
+          "adultOnlySolution": true,
+          "prompt": "V2 · Textgrenze (2 getrennte Zusatzpunkte): Prüfe mit L9–L12, ob L15a durch eine bereits gezeigte gemeinsame Entscheidung gedeckt ist. Nenne eine passende Textstelle und eine noch offene Frage. Trenne die neue Fassung von der Grundfassung.",
+          "sample": "L11 fragt nur nach der Planlücke, L12 zeigt Umdenken; ein gemeinsamer Beschluss wird nicht erzählt. Offen bleibt zum Beispiel, wohin die Lücke führt oder ob das Du dem neuen Gedanken zustimmt. L15a klingt sicherer als L15, beweist aber nichts Neues über die Handlung.",
+          "criteria": [
+            "1 Zusatzpunkt: L11/L12 korrekt als Frage/Umdenken ohne gemeinsamen Beschluss gelesen.",
+            "1 Zusatzpunkt: eine konkrete offene Frage genannt und Variantenbehauptung nicht mit Grundtext vermischt."
+          ]
+        },
+        {
+          "id": "de-songtext-v3",
+          "kind": "reflection",
+          "points": 2,
+          "inputRows": 5,
+          "writingLines": 5,
+          "adultOnlySolution": true,
+          "prompt": "V3 · Eigene Zeile (2 getrennte Zusatzpunkte): Schreibe eine vorsichtige eigene L15-Zeile nach Strophe 2. Begründe deine Wortwahl mit einer Stelle aus Strophe 2 oder dem Refrain. Eine Melodie musst du nicht erfinden.",
+          "sample": "Zum Beispiel: „Vielleicht seh ich den Kreis jetzt neu“. Das „neu Sehen“ passt zum Umdenken in L12; die Zeile erfindet weder eine Einigung noch einen Klang. Andere texttragfähige Zeilen zählen.",
+          "criteria": [
+            "1 Zusatzpunkt: eigene vorsichtige, zur zweiten Strophe passende Zeile ohne erfundene Einigung.",
+            "1 Zusatzpunkt: passende Textstelle als Begründung; kein Reimzwang oder Melodienachweis."
+          ]
+        }
+      ],
+      "practiceBeforeLastTask": true,
+      "practice": {
+        "title": "Zwei Lesarten laut lesen · freiwillige Praxis",
+        "childNote": "Wenn eine Person zuhören kann, lies die beiden Refrains nach den jeweiligen Strophen laut. Wähle vorab für jede Lesart eine mögliche Betonung oder Pause. Du brauchst nichts aufzunehmen oder zu versenden. Ohne Durchführung bleibt die Lautlesepraxis „nicht erhoben“; sie ist kein Singen und kein Auswendigvortrag.",
+        "childSteps": [
+          "Grundteil zuerst selbst am Text bearbeiten.",
+          "Für jede der zwei Lesarten eine mögliche Betonung oder Pause wählen und die Refrains einer anwesenden Person vorlesen.",
+          "Danach eine konkrete Rückmeldung zu einer gehörten Stelle annehmen und bei Bedarf eine zweite Lesung versuchen."
+        ],
+        "adultNote": "Nur tatsächlich gehörte Lautlesung beobachten, keine Punkte aus Textfeldern ableiten. Notiere eine konkrete hörbare Betonung/Pause und eine begründete Rückmeldung. Ohne Durchführung „nicht erhoben“; das ist weder Gesang noch der jährliche D-L3-Auswendigvortrag.",
+        "adultCriteria": [
+          "Hat das Kind zwei mögliche Lesarten vorab benannt?",
+          "Wurden die beiden Refrains tatsächlich laut gelesen?",
+          "War ein Unterschied in Betonung oder Pause an einer benennbaren Zeile hörbar?",
+          "Wurde eine konkrete Rückmeldung angenommen oder begründet anders gelesen?"
+        ],
+        "unscored": true
+      },
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Deutsch ab 2026/27 in Klasse 7. §2.2.2/PDF-S. 26–27: literarische Gestaltung, Deutung und Wirkung unter Zielmarke Klasse 8. §3.2/PDF-S. 47: Songtexte als Beispiel in der 7/8-Spalte.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "de-wortarten-form-funktion",
       "subjectId": "de",
       "title": "Ein Wort verändert sich – oder nur seine Stelle?",

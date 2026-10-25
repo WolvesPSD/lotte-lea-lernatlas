@@ -1,14 +1,12 @@
 {
-  "builtAt": "2026-10-25T00:09:18.863Z",
-  "releaseVersion": "2026.10.25-mbii6profil.1",
-  "newTopicIds": [
-    "mbi-i6-ideenwand-sichtbarkeit"
-  ],
+  "builtAt": "2026-10-25T00:15:18.853Z",
+  "releaseVersion": "2026.10.25-mbii6profiltext.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Medienbildung und Informatik: an einer vollständig erfundenen Ideenwand Profil-Sichtbarkeit, Folgebeziehung und vorhandene Aufrufzeilen unterscheiden.",
-    "Vorhersage vor dem Klick; Modellantworten erst danach sichtbar, freiwilliger Transfer nach A–D und keine echten Profile oder Nutzungsdaten."
+    "Medienbildung und Informatik: Die Sichtbarkeitsregel im Kinder-Aufgabentext nennt nun genau die beiden modellierten Leser P20 und P30.",
+    "Alle 152 Themen bleiben erhalten; keine neue Lernaufgabe, nur eine präzisierte Aussage innerhalb der fiktiven Ideenwand."
   ],
-  "rollbackCommit": "562a74ac24e05b7baf986a5f6a5e486116053267",
+  "rollbackCommit": "74869c402d0f06337e1bfef48ac43c50f65b426e",
   "releasedTopics": [
     "ma-koerper-netzkarten",
     "de-wortarten-form-funktion",

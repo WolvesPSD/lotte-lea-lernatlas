@@ -1,12 +1,12 @@
 {
-  "builtAt": "2026-10-25T05:11:48.875Z",
-  "releaseVersion": "2026.10.25-mobileadultreadable.1",
+  "builtAt": "2026-10-25T05:46:59.061Z",
+  "releaseVersion": "2026.10.25-mobileadultwide.1",
   "newTopicIds": [],
   "changeLog": [
-    "Mobil: Der feste Navigationspunkt Für Erwachsene ist höher und zweizeilig beschriftet, damit er auch auf schmalen Bildschirmen leichter auffällt.",
-    "Die 163 bisherigen Themen und 733 Aufgaben bleiben unverändert. Die Änderung betrifft nur die Navigation; keine privaten Fotos oder Lernstände werden veröffentlicht."
+    "Mobil: Für Erwachsene hat in der festen Navigation eine eigene breite Zeile mit gut lesbarer Beschriftung.",
+    "Die 163 Themen und 733 Aufgaben bleiben unverändert; keine privaten Fotos oder Lernstände werden veröffentlicht."
   ],
-  "rollbackCommit": "690b56a95ce2eae3449e510b0aaf2c2baf5245ee",
+  "rollbackCommit": "912f51ba411d6ef7cf80c8b5ed5edcd42b7c63e8",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",

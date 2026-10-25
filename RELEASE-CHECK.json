@@ -1,12 +1,14 @@
 {
-  "builtAt": "2026-10-25T02:29:13.199Z",
-  "releaseVersion": "2026.10.25-feedbacknav.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Rückmeldung ist nach Nutzerrückmeldung direkt in der Hauptnavigation erreichbar, auf dem Handy als vierter Eintrag in der unteren Leiste. Die separate Seite enthält weiterhin ihre eigene Hörhilfe.",
-    "Die bestehenden sieben Hörhilfen und 156 Themen mit 699 Aufgaben bleiben unverändert; Rückmeldungen werden nur als selbst zu prüfender E-Mail-Entwurf vorbereitet."
+  "builtAt": "2026-10-25T02:44:04.084Z",
+  "releaseVersion": "2026.10.25-m10radfenster.1",
+  "newTopicIds": [
+    "ma-pi-radfenster"
   ],
-  "rollbackCommit": "7b323644e58f671bac9ae083c0095f4d523610e2",
+  "changeLog": [
+    "Neues freiwilliges Mathematikthema zur Geschichte von Pi und einem historischen Radfenster: drei Hauptaufgaben, ein späterer Transfer und eine unbepunktete Quellenbetrachtung. Der Jahrgangsbezug ist ausdrücklich Klasse 8 ab 2027/28; eine aktuelle Klasse-7-Einheit ist nicht belegt.",
+    "Die Quellenkarten reichen für die schriftlichen Aufgaben auch bei nicht erreichbarer Museumsseite. Kein Museumsfoto und keine privaten Lernstände sind im Paket enthalten; die sieben Hörhilfen und der sichtbare Rückmeldungszugang bleiben erhalten."
+  ],
+  "rollbackCommit": "4ce3dcb82add964f743ab616152bd2032a62340b",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",
@@ -56,6 +58,7 @@
     "de-drama-lyrik-spuren",
     "de-roter-faden-epik",
     "ma-volumenformeln-erklaeren",
+    "ma-pi-radfenster",
     "ma-kreisformeln-erinnern",
     "ma-quadratdifferenz-lflaeche",
     "ma-binomische-flaechen",
@@ -200,6 +203,7 @@
     "ma-experimentierkaesten-terme",
     "ma-umfang-identitaet-rechtecke",
     "ma-volumenformeln-erklaeren",
+    "ma-pi-radfenster",
     "ma-kreisformeln-erinnern",
     "ma-quadratdifferenz-lflaeche",
     "ma-binomische-flaechen",

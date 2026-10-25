@@ -4896,6 +4896,132 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-pi-radfenster",
+      "subjectId": "ma",
+      "title": "Archimedes und ein Radfenster: Was zeigen die Kreise?",
+      "scope": "Freiwilliger Ausblick auf das Klasse-8-Ziel zu Kreisen und die Querschnittsaufgabe Pi-Geschichte/Kirchenfenster. Die Mathematikfassung gilt 2026/27 für Klasse 7, dieses Ziel aber erst ab 2027/28 für Klasse 8. Lottes aktuelle Unterrichtsfolge und eine reale Betrachtung des Museumsfensters sind nicht belegt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Papier und Stift genügen. Versuche A zuerst ohne Formelhilfe; bei B und C darfst du nachschlagen und notierst, ab wann. Öffne externe Quellen nur freiwillig. Der Museumslink kann zeitweise nicht erreichbar sein; die Quellenkarten enthalten alle Angaben für die schriftlichen Aufgaben. Die App kann weder Hilfsmittelverzicht noch eine echte Fensterbetrachtung beobachten.",
+      "introduction": "Eine edierte Übersetzung eines alten Mathematiktextes und ein Museumsdatensatz sind zwei verschiedene Quellen. Die erste zeigt Grenzen für das Verhältnis Kreisumfang zu Durchmesser. Die zweite beschreibt ein historisches Steinfenster. Für Rechnungen ersetzt du dessen komplizierte Form ausdrücklich durch zwei ideale konzentrische Kreise. Ungefähre Objektmasse werden dadurch nicht zu exakten Vermessungen. 20 Haupt- und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "sourceCards": [
+        {
+          "title": "Quelle A · Archimedes in einer edierten Übersetzung",
+          "text": "Die Schrift „Measurement of a Circle“ beschreibt das Verhältnis von Kreisumfang U zu Durchmesser d zwischen 3 + 10/71 und 3 + 1/7. Für die Eingrenzung werden Vielecke innerhalb und ausserhalb des Kreises verwendet. Der zugängliche Text ist eine spätere englische Edition und Übersetzung, kein griechisches Originalbild.",
+          "sourceLabel": "T. L. Heath (Hg.), The Works of Archimedes (1897), Propositio 3 · digitalisierte Textedition bei Bloomsbury",
+          "sourceUrl": "https://media.bloomsbury.com/rep/files/primary-source-13-archimedes-measurement-of-a-circle.pdf",
+          "sourceNote": "Die beiden Schranken stehen auch hier; zum Lösen musst du den externen PDF-Link nicht öffnen."
+        },
+        {
+          "title": "Quelle B · Ein Radfenster im Museum",
+          "text": "Der Gardner-Museumsdatensatz beschreibt ein steinernes Radfenster ohne Verglasung aus Apulien, 13.–14. Jahrhundert: äusserer Rahmen ungefähr 6 Fuss Durchmesser, mittlerer Kreisrahmen ungefähr 1 Fuss Durchmesser, sechs kleine Kreise im Zentrum und vierzehn säulenartige Speichen. Die Objektmasse nennen ausserdem 193 cm beziehungsweise 76 Zoll; 6 Fuss sind 72 Zoll. Die Angaben sind Näherungen und nicht vollständig deckungsgleich.",
+          "sourceLabel": "Isabella Stewart Gardner Museum, Wheel Window, Objekt S30s17",
+          "sourceUrl": "https://www.gardnermuseum.org/experience/collection/12866",
+          "sourceNote": "Die Textkarte reicht für A–C. Falls die Objektseite erreichbar ist, kannst du das Fenster zusätzlich freiwillig betrachten; ihr Foto wird hier nicht kopiert."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "text": "FREIWILLIGER TRANSFER NACH A–C · Untersuche nun ein eigenes erfundenes Fenster mit 4 m Aussen- und 2 m Innendurchmesser. Dieser Zusatz zählt getrennt; er beschreibt nicht das Museumsobjekt."
+      },
+      "tasks": [
+        {
+          "id": "ma-m10-radfenster-a",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 12,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "A · Eine Zahl zwischen zwei Grenzen (8 Hauptpunkte): Wandle 3 + 10/71 und 3 + 1/7 aus Quelle A in unechte Brüche um. Ordne sie mit einem gezeigten Vergleichsweg. Erkläre, was die Grenzen für U/d bedeuten. Ist 22/7 damit der genaue Wert? Begründe. Behaupte nicht, aus endlich vielen Messwerten die Irrationalität von π bewiesen zu haben.",
+          "sample": "3 + 10/71 = (213 + 10)/71 = 223/71; 3 + 1/7 = 22/7. Kreuzprodukte: 223·7 = 1561 < 1562 = 22·71, also 223/71 < 22/7. Das Verhältnis U/d liegt streng dazwischen; 22/7 ist eine obere Schranke, nicht der genaue Wert von π. Die Edition beschreibt Vielecke als Eingrenzungsweg, keinen Beweis der Irrationalität.",
+          "criteria": [
+            "2 Punkte für 223/71 mit Umformung.",
+            "1 Punkt für 22/7.",
+            "2 Punkte für richtige Ordnung mit gültigem Vergleichsweg, etwa 1561 < 1562.",
+            "1 Punkt für die Bedeutung beider strikten Grenzen für U/d.",
+            "2 Punkte für 22/7 als nicht exakten oberen Grenzwert und begrenzte Begründung."
+          ]
+        },
+        {
+          "id": "ma-m10-radfenster-b",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 13,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "B · Zwei Idealkreise statt Steinformen (8 Hauptpunkte): Nutze aus Quelle B nur die ungefähren Durchmesser 6 Fuss aussen und 1 Fuss innen. Berechne für beide gedachten Kreise Umfang und Fläche in π-Schreibweise. Bestimme die Fläche des gedachten Rings. Vergleiche äusseren und inneren Umfang sowie beide Kreisflächen als Faktoren. Erkläre in einem Satz, warum das keine exakte vermessene Steinfläche ist. Unterscheide Fuss von Quadratfuss.",
+          "sample": "Aussen d≈6 ft, r≈3 ft: U≈6π ft und A≈9π ft². Innen d≈1 ft, r≈0,5 ft: U≈π ft und A≈π/4 ft². Ringmodell: 9π−π/4 = 35π/4 ft². Umfangsfaktor 6, Flächenfaktor 36. Die Durchmesser sind nur ungefähr und die wirklichen Speichen/Öffnungen sind keine ausgefüllten idealen Kreisflächen; auch 193 cm/76 Zoll und 6 Fuss/72 Zoll sind nicht identisch.",
+          "criteria": [
+            "2 Punkte für beide Umfänge mit Längeneinheit.",
+            "2 Punkte für beide Kreisflächen mit Quadrateinheit.",
+            "1 Punkt für 35π/4 ft² als modellierte Ringfläche.",
+            "2 Punkte für Umfangsfaktor 6 und Flächenfaktor 36 mit Bezug auf unterschiedliche Skalierung.",
+            "1 Punkt für die Trennung zwischen ungefähren Quellenmassen und Idealkreismodell."
+          ]
+        },
+        {
+          "id": "ma-m10-radfenster-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "C · Zählen ohne Symmetrie zu erfinden (4 Hauptpunkte): Die Museumsbeschreibung nennt sechs kleine Kreise und vierzehn Säulen. Sind das gleich viele oder dieselben Bauteile? Beschreibe einen Unterschied. Erkläre, weshalb die Zahl vierzehn allein keine Skizze mit vierzehn gleich breiten Kreissektoren beweist. Wenn du das Originalbild nicht gesehen hast, kennzeichne jede Aussage über seine sichtbare Anordnung als offen.",
+          "sample": "Sechs kleine Kreise im Zentrum sind nicht dieselben Bauteile wie vierzehn säulenartige Speichen; auch die Zahlen sind verschieden. Aus der Anzahl der Säulen folgen weder gleiche Winkel noch gleiche Abstände oder Sektoren. Eine verlässliche Bildbetrachtung oder Messung wäre für die sichtbare Anordnung nötig; ohne Bild bleibt sie nicht erhoben.",
+          "criteria": [
+            "2 Punkte für sechs Kreise und vierzehn Säulen als verschiedene Anzahlen und Bauteile.",
+            "2 Punkte für die Grenze: aus der Zahl allein folgt keine gleichmässige Sektoreinteilung; unbeobachtete Anordnung nicht als Tatsache ausgeben."
+          ]
+        },
+        {
+          "id": "ma-m10-radfenster-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer · sechs getrennte Zusatzpunkte: Ein erfundenes kreisförmiges Fenster hat acht gleichmässig verteilte Rundformen. Sein Aussendurchmesser beträgt 4 m, der innere Kreis hat 2 m Durchmesser. Berechne beide Umfänge und beide Kreisflächen exakt mit π. Welchen Anteil der äusseren Kreisfläche nimmt der innere Kreis ein? Nenne eine Grenze dieses Modells für ein reales Steinfenster. Die acht Formen legen keine Steindicke fest.",
+          "sample": "Aussen r=2 m: U=4π m, A=4π m². Innen r=1 m: U=2π m, A=π m². Anteil der inneren an der äusseren Kreisfläche: π/(4π)=1/4. Ein wirkliches Fenster hat Öffnungen, Masswerk und Steindicke; diese Idealkreise berechnen weder Steinmenge noch Glasfläche.",
+          "criteria": [
+            "2 Zusatzpunkte für beide Umfänge mit Einheiten.",
+            "2 Zusatzpunkte für beide Kreisflächen mit Einheiten.",
+            "1 Zusatzpunkt für den hergeleiteten Anteil 1/4.",
+            "1 Zusatzpunkt für eine passende Modellgrenze ohne erfundene Steinmenge."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Das historische Fenster ansehen · freiwillig",
+        "childNote": "Nur wenn der offizielle Museumsdatensatz mit Bild erreichbar ist. Dieser Blick ist unbepunktet und zählt nicht als erledigt, wenn du ihn nicht wirklich gemacht hast. Die schriftlichen Aufgaben A–C funktionieren auch ohne die Website.",
+        "childSteps": [
+          "Öffne den Objektdatensatz erst nach deinem Klick auf den Link. Suche am wirklichen Fenster ein Detail, das die Zahlenkarte allein nicht beschreibt.",
+          "Notiere auf Papier: „Im Bild sehe ich …“ und daneben „In der Beschreibung steht …“. Trenne Beobachtung und Textangabe.",
+          "Wenn das Bild fehlt oder die Seite nicht lädt, notiere „Bildbetrachtung nicht erhoben“ und bearbeite die schriftlichen Aufgaben mit Quelle B weiter."
+        ],
+        "adultNote": "Nur bei tatsächlich geöffneter und gemeinsam betrachteter Objektseite als Bildbetrachtung beobachten. Der Lernatlas lädt kein Museumsfoto nach und bewertet die Wahrnehmung nicht automatisch.",
+        "adultCriteria": [
+          "Das Kind bezeichnet ein tatsächlich sichtbares Detail und verwechselt es nicht mit einer blossen Zahl aus Quelle B.",
+          "Bildbeobachtung und Textangabe bleiben getrennt; ohne erreichbares Bild „nicht erhoben“ statt eine Leistung zu behaupten."
+        ],
+        "unscored": true,
+        "externalLinks": [
+          {
+            "label": "Offiziellen Museumsdatensatz öffnen ↗",
+            "url": "https://www.gardnermuseum.org/experience/collection/12866",
+            "printNote": "Nur bei Erreichbarkeit mit Bild; sonst nicht erhoben."
+          }
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Mathematik Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. § 2.2.10 auf PDF-S. 30, Klassenstufe 8: Kreise, Pi als Verhältnis U/d, Umfang und Fläche; KB nennt Geschichte der Zahl Pi und Kirchenfenster untersuchen.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "ma-kreisformeln-erinnern",
       "subjectId": "ma",
       "title": "Kreisformeln erinnern und Kreise vergleichen",

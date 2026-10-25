@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-25T08:03:05.211Z",
-  "releaseVersion": "2026.10.25-enstorytrail.1",
+  "builtAt": "2026-10-25T08:19:44.836Z",
+  "releaseVersion": "2026.10.25-gobananen.1",
   "newTopicIds": [
-    "en-story-trail-reading"
+    "go-bananen-lieferkette"
   ],
   "changeLog": [
-    "Englisch: freiwilliger Leseweg mit Titelvermutung, gezieltem Lesen und späterer fiktiver Änderung.",
-    "170 Themen und 765 Textaufgaben. Der 7/8-Leserahmen ist gültig; die konkrete Unterrichtsfolge und echte Kinderlektüre sind offen. Keine privaten Lernstände oder Namen im Paket."
+    "Geografie: freiwilliger qualitativer FAO-Fall zu einer gedachten Bananen-Lieferkette, Akteursrollen und Beweisgrenzen.",
+    "171 Themen und 770 reguläre Aufgaben. Der ältere Geografieplan ist für 2026/27 nicht bestätigt; keine private Einkaufsinformation und keine behauptete Wirkung einer konkreten Kette."
   ],
-  "rollbackCommit": "e99a40644372ea5c54a1618604c36c18b0107c06",
+  "rollbackCommit": "989fc0ba67a22adb70f80a82bbd0255cc6006551",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",
@@ -148,6 +148,7 @@
     "go-klima-vegetation-modell",
     "go-mount-st-helens-zeittafel",
     "go-thueringen-wirtschaftssektoren",
+    "go-bananen-lieferkette",
     "go-gradnetz-modellorte",
     "go-drei-gesteinswege",
     "mbi-i6-ideenwand-sichtbarkeit",
@@ -273,7 +274,8 @@
     "sp-basketball-regelkarte-papier",
     "ge-reformationsdrucke-quellenkritik",
     "ge-bauernartikel-freiheit-deutung",
-    "go-reisepfeile-auslandsreisen"
+    "go-reisepfeile-auslandsreisen",
+    "go-bananen-lieferkette"
   ],
   "note": "Struktur, lokaler PDF-Hash und Lösungsfelder geprüft. Fach-, Geräte-, Datenschutz- und Veröffentlichungsfreigabe getrennt dokumentieren."
 }

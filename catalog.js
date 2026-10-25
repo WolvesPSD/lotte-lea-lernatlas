@@ -13342,6 +13342,142 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "go-bananen-lieferkette",
+      "subjectId": "go",
+      "title": "Wer entscheidet in einer Bananen-Lieferkette?",
+      "scope": "Freiwilliger Klasse-7-Einstieg in ein Teilziel zu globalisierter Landwirtschaft bis Ende Klasse 8. Die Geltung des älteren Geografieplans 2026/27 und die schulische Unterrichtsfolge sind ungeklärt.",
+      "levelStatus": "additional-unclear",
+      "released": true,
+      "prerequisite": "Diese Übung ist freiwillig. Du brauchst keine Angaben über Einkäufe, Marken oder Geld deiner Familie. Die beschriebene Route ist nur eine gedachte Modellroute; kein Weg einer bestimmten Banane ist belegt. Freie Antworten bewertet ein Mensch.",
+      "introduction": "Untersuche eine mögliche Bananen-Lieferkette. Vier Sachkarten unterscheiden Marktinformationen, Beteiligte und Ziele von einem belegten Einzelfall. A–D haben zusammen 20 Kriterienpunkte; eine spätere Vergleichsfrage bringt höchstens sechs getrennte Zusatzpunkte. Das ist Lernfeedback, keine Schulnote. Eine Zeichnung kannst du auf Papier machen oder den Weg als Text beschreiben.",
+      "sourceCards": [
+        {
+          "title": "Q1 · Weltmarkt",
+          "text": "Die FAO nennt Zentral- und Südamerika sowie die Philippinen als wichtige Exportregionen und unter anderem die EU und die USA als grosse Importmärkte. Grosse Handelsketten aus Importländern können zunehmend auch direkt bei Erzeugenden oder Verteilunternehmen einkaufen, ohne eine traditionelle Fruchtfirma dazwischen. Das ist eine Möglichkeit, keine nachgewiesene Route einer einzelnen Banane.",
+          "sourceLabel": "FAO · Bananas, Commodity in focus",
+          "sourceUrl": "https://www.fao.org/markets-and-trade/commodities-overview/bananas-tropical-fruits/bananas/",
+          "sourceNote": "FAO-Marktüberblick, am 25.10.2026 direkt gelesen. Regionen und mögliche Beschaffung sind allgemeine Angaben; eine konkrete Herkunft–Laden-Verbindung ist damit nicht belegt."
+        },
+        {
+          "title": "Q2 · Beteiligte",
+          "text": "Das World Banana Forum der FAO führt unter anderem Erzeugende, Exporteure, Importeure, Handelsketten und Verbraucherverbände als Beteiligte auf. Es befasst sich mit Umwelt, Wertverteilung und Arbeitsrechten. Die Teilnahme am Forum beweist noch keine Verbesserung.",
+          "sourceLabel": "FAO · About the World Banana Forum",
+          "sourceUrl": "https://www.fao.org/world-banana-forum/about-the-forum/en/",
+          "sourceNote": "Am 25.10.2026 direkt gelesen. Beteiligte und Arbeitsfelder sind beschrieben, keine Wirkung einer bestimmten Massnahme."
+        },
+        {
+          "title": "Q3 · Fehlende Zahlen",
+          "text": "Eine FAO-Arbeitsgruppe will Akteure und Kosten entlang von Bananenketten erfassen und Preis- und Kostenstufen bei Ausfuhr, Einfuhr und im Laden vergleichen. Die Seite beschreibt Arbeitsziele. Für eine unbekannte Banane nennt sie keine überprüfte Aufteilung des Ladenpreises.",
+          "sourceLabel": "FAO · Working Group 02, Distribution of Value",
+          "sourceUrl": "https://www.fao.org/world-banana-forum/working-groups/economic/en/",
+          "sourceNote": "Am 25.10.2026 direkt gelesen. Zielbeschreibung statt gemessener Preisanteile oder nachgewiesener Wirkung."
+        },
+        {
+          "title": "Q4 · Handlungsmöglichkeiten",
+          "text": "Eine FAO-Untergruppe nennt als Ziele Unterstützung durch Unternehmen, Einkäufer und Handel für bessere Löhne von Beschäftigten sowie Informationen für verantwortungsbewusste Konsumierende. Das Einkommen selbstständiger Erzeugender ist eine andere Frage als der Lohn angestellter Personen. Diese Ziele beweisen keine Änderung durch einen bestimmten Einkauf.",
+          "sourceLabel": "FAO · Subgroup on Covering Costs of Sustainable Production",
+          "sourceUrl": "https://www.fao.org/world-banana-forum/working-groups/economic/sg-ccsp/en/",
+          "sourceNote": "Am 25.10.2026 direkt gelesen. Absichten, keine erhobene Wirkung einer Kampagne oder eines Kaufs."
+        }
+      ],
+      "passage": "BEGRIFFE UND GRENZEN\nErzeugende bauen die Frucht an. Export bedeutet Ausfuhr, Import Einfuhr. Eine Handelskette verkauft Waren in vielen Geschäften. Ein Verbraucherverband vertritt Interessen von Verbrauchern und ist nicht die einzelne kaufende Person. Ein Nahrungsmittelkonzern kann Handel, Transport oder Verarbeitung organisieren; aus dem Wort allein folgt keine konkrete Handlung oder Gewinnhöhe.\n\nDu brauchst keinen Laden zu besuchen. Angaben zu einer selbst gewählten Route sind nur ein Modell. Die vier Quellenkarten liefern keine Daten zu einer bestimmten Banane, einem einzelnen Lohn oder einer geprüften Preisverteilung.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und Vergleich zeigen",
+        "text": "FREIWILLIGER VERGLEICH NACH A–D · Zwei Läden sind frei erfunden. Laden 1 nennt ein Siegel und einen Erzeugerbetrieb, aber weder Preisstufen noch einen Prüfbericht. Laden 2 nennt seine Einkaufsfirma und einen Erzeugerbetrieb, aber nur den Ladenpreis. Die Angaben erlauben kein Urteil über reale Firmen oder Siegel. Die Zusatzpunkte werden getrennt vom Grundteil ausgewiesen."
+      },
+      "tasks": [
+        {
+          "id": "go-bananen-a",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 11,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "A · Wege und Rollen (5 Hauptpunkte): Zeichne auf Papier oder beschreibe einen möglichen Weg mit mindestens vier Stationen von der Erzeugung bis zum Einkauf. Wähle aus Q1 einen Herkunftsraum und einen Importmarkt für deine nur gedachte Modellroute. Nenne an zwei verschiedenen Stationen je eine mögliche Entscheidung. Erkläre mit Q1, warum nicht immer dieselbe Zahl von Firmen dazwischensteht. Kennzeichne den Weg ausdrücklich als Möglichkeit, nicht als Spur einer bestimmten Banane.",
+          "sample": "Eine mögliche Modellroute führt von einer Erzeugung in den Philippinen über Ausfuhr und Einfuhr zu einer Handelskette in der EU und zum Einkauf. Am Anbauort kann der Abgabezeitpunkt entschieden werden; eine Handelskette kann einen Lieferanten wählen. Q1 erlaubt auch direkte Beschaffung bei Erzeugenden oder Verteilunternehmen, sodass eine traditionelle Fruchtfirma entfallen kann. Das beweist keinen realen Weg zwischen diesen Orten.",
+          "criteria": [
+            "1 Punkt für mindestens vier plausible Stationen und Q1-Herkunftsraum/Importmarkt als gedachte Verbindung.",
+            "Je 1 Punkt für zwei plausible Entscheidungen an unterschiedlichen Stationen.",
+            "1 Punkt für mögliche direkte Beschaffung mit variabler Zwischenstufenzahl; direkt bedeutet nicht transportlos.",
+            "1 Punkt für die ausdrückliche Trennung der Modellroute von einer konkreten Banane."
+          ]
+        },
+        {
+          "id": "go-bananen-b",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Drei Behauptungen prüfen (5 Hauptpunkte): Ordne jede Aussage genau einer Kategorie zu und begründe mit einer Q-Nummer oder der fehlenden Information: (1) als bestehende Tatsache über Beteiligte/Markt belegt, (2) als Vorhaben oder Ziel beschrieben, Wirkung offen, (3) für einen konkreten Fall mit Q1–Q4 nicht entscheidbar. Aussagen: „Im World Banana Forum sind auch Verbraucherverbände vertreten.“ – „Die Arbeitsgruppe will Preis- und Kostenstufen untersuchen, um eine fairere Verteilung der Werte vorzubereiten.“ – „Bei der Banane aus einem bestimmten Laden gingen genau 30 Cent an den Anbaubetrieb.“ Ein belegter Satz über ein Ziel gehört zu Kategorie 2.",
+          "sample": "Aussage 1 ist als Beteiligung durch Q2 belegt. Aussage 2 ist ein Ziel der Arbeitsgruppe in Q3; seine Wirkung oder eine faire Verteilung sind noch nicht nachgewiesen. Aussage 3 ist nicht entscheidbar: Q1–Q4 enthalten keine verbundenen Preis- und Betriebsdaten für diese konkrete Banane. Die 30 Cent sind weder bestätigt noch widerlegt.",
+          "criteria": [
+            "1 Punkt für Aussage 1 als belegt mit Q2.",
+            "2 Punkte für Aussage 2 als Ziel mit Q3 und ausdrücklich offener Wirkung.",
+            "2 Punkte für Aussage 3 als nicht entscheidbar mit fehlenden Daten zur konkreten Kette und ohne Ableitung der 30-Cent-Zahl."
+          ]
+        },
+        {
+          "id": "go-bananen-c",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C · Wer kann was prüfen oder ändern? (5 Hauptpunkte): Wähle einen Akteur aus Unternehmen/Handelskette und einen aus Verbraucherinnen/Verbraucherverband. Nenne für beide je eine realistische Frage oder Handlung zu Einkaufsbedingungen, Informationen oder Löhnen. Erkläre, weshalb die Möglichkeiten verschieden sind und warum daraus noch keine nachgewiesene Wirkung folgt.",
+          "sample": "Eine Handelskette könnte Einkaufsbedingungen dokumentieren und Preisstufen offenlegen. Ein Verbraucherverband könnte diese Angaben oder einen Prüfbericht anfordern. Die Handelskette trifft Beschaffungs- oder Vertragsentscheidungen, der Verband fragt nach und vertritt Interessen. Q2/Q4 beschreiben Beteiligte und Ziele, aber ohne Vertrags-, Lohn- und Prüfdaten ist keine Wirkung nachgewiesen.",
+          "criteria": [
+            "1 Punkt für konkreten Unternehmens-/Handelsakteur mit passender Frage oder Handlung.",
+            "1 Punkt für anderen Verbraucher-/Verbandsakteur mit passender Frage oder Handlung.",
+            "1 Punkt für den Rollenunterschied bei Entscheidung und Nachfrage.",
+            "1 Punkt für Quellenbezug zu Q2 oder Q4.",
+            "1 Punkt für eine konkrete fehlende Wirkungsgrundlage."
+          ]
+        },
+        {
+          "id": "go-bananen-d",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "D · Begründeter nächster Schritt (5 Hauptpunkte): Ein Laden wirbt: „Unsere Bananen sind fair für alle.“ Formuliere zwei verschiedene prüfbare Nachfragen zu dieser Lieferkette. Nenne zu jeder eine passende Datenart oder unabhängige Belegstelle. Schreibe einen vorsichtigen Schlusssatz: Was lässt sich aus Q1–Q4 jetzt sagen, und was nicht?",
+          "sample": "Woher stammt die Ware und welche Vertragsstufen sind belegt? Dazu wären rückverfolgbare Liefer- und Vertragsunterlagen nötig. Welche Löhne haben Beschäftigte oder welches Einkommen haben selbstständige Erzeugende in dieser Kette? Dazu bräuchte man einen unabhängigen Prüfbericht mit Methode und Zeitraum. Q1–Q4 zeigen mögliche Rollen und Prüfbedarf, aber nicht, ob „fair für alle“ für diesen Laden zutrifft.",
+          "criteria": [
+            "Je 1 Punkt für zwei verschiedene überprüfbare Fragen.",
+            "Je 1 Punkt für eine zur jeweiligen Frage passende Belegart.",
+            "1 Punkt für einen begrenzten Schlusssatz ohne unbelegte Fairnessbehauptung."
+          ]
+        },
+        {
+          "id": "go-bananen-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Vergleich nach A–D · sechs getrennte Zusatzpunkte: Zwei erfundene Läden stehen in der neuen Karte. Wähle aus Sicht einer Verbraucherorganisation zwei Daten oder Belege, die für einen Vergleich zuerst nötig wären. Erkläre, warum gleicher oder höherer Ladenpreis allein keine bessere Bezahlung beweist. Erkläre, was das Siegel ohne bekannte Prüfkriterien und Bezug zu diesen Bananen nicht beweist. Formuliere eine faire, prüfbare Anfrage an einen Laden, ohne eine Anschuldigung als Tatsache auszugeben.",
+          "sample": "Für beide gedachten Ketten wären vergleichbare dokumentierte Preisstufen und Beschäftigtenlöhne oder das Einkommen selbstständiger Erzeugender mit Zeitraum nötig. Ein Ladenpreis enthält Einnahmen mehrerer Stufen und verrät die Verteilung nicht. Ein Siegel ohne Kriterien, Prüfung und Produktbezug beweist für diese Bananen nichts Konkretes. Eine faire Anfrage wäre: „Können Sie für diese Bananen die Prüfkriterien und den datierten Bericht zur Bezahlung in der Lieferkette nennen?“",
+          "criteria": [
+            "Je 1 Zusatzpunkt für zwei verschiedene Belege mit Bezug zu beiden fiktiven Ketten.",
+            "1 Zusatzpunkt für die Grenze des Ladenpreises als Verteilungsbeleg.",
+            "1 Zusatzpunkt für die Siegelgrenze ohne Prüfkriterien und Produktbezug.",
+            "1 Zusatzpunkt für eine konkrete prüfbare Anfrage.",
+            "1 Zusatzpunkt für faire Sprache ohne unbelegte Anschuldigung."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "Älterer Fachplan; amtliche Geltung 2026/27 ungeklärt",
+        "gradeBand": "7/8, Ziel Ende Klasse 8; freiwilliger Klasse-7-Einstieg",
+        "competencyRef": "Geografie Gymnasium, §2.2/PDF-S. 14: Landwirtschaft unter globalisierten Bedingungen erklären und Rollen von Nahrungsmittelkonzernen sowie Konsumierenden diskutieren.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "go-gradnetz-modellorte",
       "subjectId": "go",
       "title": "Orte im erfundenen Gradnetz finden",

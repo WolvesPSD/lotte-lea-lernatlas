@@ -1,15 +1,12 @@
 {
-  "builtAt": "2026-10-25T04:40:08.397Z",
-  "releaseVersion": "2026.10.25-m5dreiformen.1",
-  "newTopicIds": [
-    "ma-drei-formen-flaeche-umfang"
-  ],
+  "builtAt": "2026-10-25T05:11:48.875Z",
+  "releaseVersion": "2026.10.25-mobileadultreadable.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Mathematik: drei eigene Modellfiguren ergänzen als freiwilliger Ende-8-Ausblick die allgemeine Dreiecksflächenformel, getrennte Flächen und Umfänge sowie Fehler- und Werkzeugprüfung; 20 Haupt- und 6 getrennte freiwillige Punkte.",
-    "Die Musterlösungen bleiben nach Antwortprüfung und im Kinderdruck verborgen; eine eigene schematische SVG und ein getrenntes Erwachsenenblatt erklären alle Maße. Wirklich hilfsmittelfreies Arbeiten und eine eigene Kinderzeichnung kann die App nicht feststellen.",
-    "Die 162 bisherigen Themen, mobile Erwachsenen-Navigation, Profile, Druck und Hörhilfen bleiben erhalten. Keine privaten Fotos oder Lernstände werden veröffentlicht; die Klasse-7-Unterrichtsfolge und tatsächliche Kinderleistung bleiben offen."
+    "Mobil: Der feste Navigationspunkt Für Erwachsene ist höher und zweizeilig beschriftet, damit er auch auf schmalen Bildschirmen leichter auffällt.",
+    "Die 163 bisherigen Themen und 733 Aufgaben bleiben unverändert. Die Änderung betrifft nur die Navigation; keine privaten Fotos oder Lernstände werden veröffentlicht."
   ],
-  "rollbackCommit": "621e610f79799e9f6f52d2f3c3f9fa63bfdb14bf",
+  "rollbackCommit": "690b56a95ce2eae3449e510b0aaf2c2baf5245ee",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",

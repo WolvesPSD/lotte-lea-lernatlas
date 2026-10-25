@@ -83,7 +83,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "plan": "2021 (2025/26)",
       "scope": "7/8; Stand 2026/27 offen",
       "availabilityLabel": "Lehrplan 2026/27 ungeklärt",
-      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Geschichte-Lehrplan gilt. Drei freiwillige Quellenfälle aus der älteren Fassung sind verfügbar; sie sind keine bestätigten aktuellen Klasse-7-Einheiten."
+      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Geschichte-Lehrplan gilt. Vier freiwillige Quellenfälle aus der älteren Fassung sind verfügbar; sie sind keine bestätigten aktuellen Klasse-7-Einheiten."
     },
     {
       "id": "go",
@@ -13685,6 +13685,106 @@ window.LOTTE_CATALOG = Object.freeze({
         "validFor": "2025/26 belegt; 2026/27 ungeklärt",
         "gradeBand": "7/8, Ziel Ende Klasse 8",
         "competencyRef": "Geschichte Gymnasium 2021, §2.2.1 PDF-S. 19–20 zu Quelle, Darstellung und historischer Deutung; §2.2.2 PDF-S. 21 zu Renaissance/Humanismus, europäischer Expansion und Reformation/Folgen. Hier nur enger Reformations-Metadatenfall.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
+      "id": "ge-bauernartikel-freiheit-deutung",
+      "subjectId": "ge",
+      "title": "Was bedeutete „frei“ im Jahr 1525?",
+      "scope": "Freiwilliger, gestützter 7/8-Quellenvergleich zu Reformation und Folgen im Geschichte-Lehrplan 2021, Ziel Ende Klasse 8. Die amtliche Geltung 2026/27 und Lottes schulische Themenfolge sind ungeklärt. Zwei Positionen belegen weder alle Ursachen des Bauernkriegs noch tatsächliche Befreiungen.",
+      "levelStatus": "additional-unclear",
+      "released": true,
+      "prerequisite": "Die Karten sind eigene kurze Wiedergaben zweier historischer Positionen in heutigen Editionen, keine Faksimiles oder wörtlichen Abschriften. Die Originalseiten öffnen erst nach deinem Klick. Du brauchst keine Anmeldung oder persönliche Erfahrung. 20 Kriterienpunkte sind Lernfeedback, keine Schulnote; offene Antworten prüft ein Mensch.",
+      "introduction": "Warum konnten Menschen 1525 mit christlicher Begründung zu verschiedenen Ansichten über Leibeigenschaft kommen? „Leibeigenschaft“ war eine regional unterschiedliche Form persönlicher Abhängigkeit. „Obrigkeit“ meint hier Herrschende. Karte A fasst eine Forderung zusammen; Karte B fasst eine spätere Antwort zusammen. Karte C ist heute für diese Übung erfunden. Eine Forderung ist noch keine vollzogene Veränderung.",
+      "sourceCards": [
+        {
+          "title": "A · Forderung aus Memmingen, Ende Februar/Anfang März 1525",
+          "text": "In Artikel 3 der Zwölf Artikel begründen Verfasser aus dem Umfeld oberschwäbischer Bauern ihre Forderung nach Befreiung von Leibeigenschaft mit dem christlichen Glauben. Sie erklären auch, dass sie nicht jede Obrigkeit abschaffen wollen. Die Schrift sammelt Forderungen; sie berichtet nicht, dass diese bereits erfüllt waren.",
+          "sourceLabel": "GHDI · Artikel 3 der Zwölf Artikel",
+          "sourceUrl": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/beschwerden-und-forderungen-die-zwoelf-artikel-der-schwaebischen-bauern-27-febraur-1-maerz-1525",
+          "sourceNote": "Historischer Artikeltext in heutiger Edition; eigene kurze Wiedergabe, keine Abschrift des Drucks."
+        },
+        {
+          "title": "B · Melanchthons spätere Antwort von 1525",
+          "text": "Philipp Melanchthon versteht in seiner Antwort auf Artikel 3 die Freiheit durch Christus als innere Freiheit von Sünde vor Gott. Er meint nicht die heutige Freiheit, eine Religion zu wählen. Nach seiner Ansicht kann ein Christ trotzdem äusserlich leibeigen oder Untertan sein. Das ist seine Gegenposition, kein Bericht über eine vollzogene Rechtsänderung.",
+          "sourceLabel": "Stadtarchiv Memmingen · Rubrik 18.05.1525",
+          "sourceUrl": "https://stadtarchiv.memmingen.de/publikationen/memmingen-und-das-aufbegehren-von-bauern-und-buergern-1525.html",
+          "sourceNote": "Historische Passage in heutiger Archivtranskription; das Rubrikdatum bezeichnet das kurfürstliche Ersuchen, nicht den Drucktag. Eigene kurze Wiedergabe; Faksimile nicht bildlich abgeglichen."
+        }
+      ],
+      "passage": "KARTE C · HEUTE ERFUNDENE BEHAUPTUNG: „Die Verfasser der Zwölf Artikel forderten, jede Obrigkeit abzuschaffen. Melanchthon stimmte ihrer Forderung nach Befreiung von Leibeigenschaft zu. Darum waren sofort alle Menschen frei von Leibeigenschaft und Religion war die einzige Ursache des Bauernkriegs.“ C ist keine historische Quelle. Prüfe jede Teilbehauptung mit A und B und unterscheide „widersprochen“ von „nicht belegt“.",
+      "tasks": [
+        {
+          "id": "ge-bauernartikel-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Herkunft und Reihenfolge (4 Kriterienpunkte): Nenne für A und B die Person oder Gruppe hinter der jeweiligen Position. Ordne Forderung und Antwort zeitlich. Erkläre, weshalb C eine andere Art Text ist.",
+          "sample": "A gibt eine Forderung der Verfassenden der Zwölf Artikel aus dem Umfeld oberschwäbischer Bauern wieder, nicht eine Meinung aller Bauern. B gibt die spätere Antwort Philipp Melanchthons wieder. Beide stammen aus 1525; die Forderung steht vor der Antwort. C ist heute für die Übung erfunden und kein zeitgenössischer Text.",
+          "criteria": [
+            "1 Punkt: A den Verfassenden der Zwölf Artikel zugeordnet, ohne „alle Bauern“ zu behaupten.",
+            "1 Punkt: B Philipp Melanchthon zugeordnet.",
+            "1 Punkt: Forderung vor späterer Antwort im Jahr 1525.",
+            "1 Punkt: C als heutige erfundene Behauptung, nicht als historische Quelle."
+          ]
+        },
+        {
+          "id": "ge-bauernartikel-b",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Zwei Freiheitsdeutungen (6 Kriterienpunkte): Formuliere, was A hinsichtlich Leibeigenschaft verlangt und was A über die Obrigkeit nicht verlangt. Formuliere, wie B christliche Freiheit versteht und welche äussere Abhängigkeit B weiterhin für möglich hält. Nenne einen klaren Gegensatz und eine mögliche Gemeinsamkeit, ohne die Positionen gleichzusetzen.",
+          "sample": "A fordert Befreiung von Leibeigenschaft, aber nicht die Abschaffung jeder Obrigkeit. B versteht christliche Freiheit als innere Freiheit von Sünde vor Gott; er hält äussere Leibeigenschaft oder Untertänigkeit weiterhin für möglich. Im Blick auf soziale Befreiung widersprechen sich die Positionen. Beide argumentieren mit dem christlichen Glauben und verwerfen nicht jede gesellschaftliche Ordnung.",
+          "criteria": [
+            "1 Punkt: A fordert Befreiung von Leibeigenschaft.",
+            "1 Punkt: A fordert nicht Abschaffung jeder Obrigkeit.",
+            "1 Punkt: B meint innere/geistliche Freiheit von Sünde vor Gott, nicht moderne Religionsfreiheit.",
+            "1 Punkt: B hält äussere Leibeigenschaft oder Untertänigkeit für möglich.",
+            "1 Punkt: klarer Gegensatz bei der sozialen Befreiungsforderung.",
+            "1 Punkt: quellenhaltige Gemeinsamkeit, etwa christliche Begründung oder nicht pauschal verworfene Ordnung."
+          ]
+        },
+        {
+          "id": "ge-bauernartikel-c",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 12,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "C · Vier Aussagen prüfen (6 Kriterienpunkte): Zerlege Karte C in vier Teile: jede Obrigkeit abschaffen; Melanchthon stimmt der Befreiungsforderung zu; sofort alle Menschen frei; Religion als einzige Ursache. Entscheide jeweils „durch A/B widersprochen“ oder „mit A/B nicht belegt“ und begründe mit der passenden Kartenaussage oder einer konkret benannten Beleglücke.",
+          "sample": "Jede Obrigkeit abschaffen: durch A widersprochen. Zustimmung Melanchthons zur Befreiungsforderung: durch B widersprochen. Sofortige allgemeine Befreiung: mit A/B nicht belegt; Forderung und Antwort berichten keine allgemeine Rechtsänderung. Religion als einzige Ursache: mit A/B nicht belegt; die zwei Texte liefern keine Gesamtanalyse der Ursachen.",
+          "criteria": [
+            "1 Punkt: erste Behauptung als durch A widersprochen mit Obrigkeitssatz.",
+            "1 Punkt: zweite Behauptung als durch B widersprochen mit seiner Gegenposition.",
+            "2 Punkte: allgemeine Befreiung als nicht belegt und fehlenden Nachweis einer Rechtsänderung benannt.",
+            "2 Punkte: Religion als alleinige Ursache als nicht belegt und fehlende Gesamtursachenanalyse benannt. Eine pauschale vierfache „falsch“-Antwort reicht nicht."
+          ]
+        },
+        {
+          "id": "ge-bauernartikel-d",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Begrenztes historisches Urteil (4 Kriterienpunkte): Erkläre in zwei bis vier Sätzen, was A und B über eine Debatte der Reformationszeit zeigen. Nenne zwei Dinge, die diese Texte über tatsächliche Folgen, Reichweite der Schriften oder Ansichten aller Beteiligten nicht beweisen.",
+          "sample": "A und B zeigen, dass 1525 mit christlichem Bezug unterschiedlich über die Befreiung von Leibeigenschaft gestritten wurde: A fordert sie, B lässt äussere Abhängigkeit bestehen. Aus den beiden Texten folgt nicht, ob Menschen an einem bestimmten Ort tatsächlich freigelassen wurden oder wie alle Bauern die Artikel beurteilten.",
+          "criteria": [
+            "1 Punkt: A/B als begrenzte zeitgenössische Debatte eingeordnet.",
+            "1 Punkt: unterschiedliche Konsequenz für Leibeigenschaft genannt.",
+            "Je 1 Punkt: zwei verschiedene konkrete unbelegte Fragen zu Folgen, Reichweite oder Beteiligten, z. B. tatsächliche Freilassung, regionale Verbreitung, Leserschaft oder Ansichten aller Bauern."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2025/26 belegt; 2026/27 ungeklärt",
+        "gradeBand": "7/8, Ziel Ende Klasse 8",
+        "competencyRef": "Geschichte Gymnasium 2021, §2.2.1 PDF-S. 19–20: Quellen, Darstellungen und historisches Urteil; §2.2.2 PDF-S. 21: Reformation und Folgen. Hier nur enger Vergleich zweier gegensätzlicher Positionen zu Artikel 3 der Zwölf Artikel.",
         "checkedAt": "2026-10-25"
       }
     },

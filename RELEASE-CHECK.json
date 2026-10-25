@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-25T06:26:07.687Z",
-  "releaseVersion": "2026.10.25-geh02drucke.1",
+  "builtAt": "2026-10-25T06:53:02.553Z",
+  "releaseVersion": "2026.10.25-geh02cfreiheit.1",
   "newTopicIds": [
-    "ge-reformationsdrucke-quellenkritik"
+    "ge-bauernartikel-freiheit-deutung"
   ],
   "changeLog": [
-    "Geschichte: freiwilliger Quellenkritikfall zu zwei Reformationsdrucken mit getrennten Quellenrollen und späterer unbepunkteter Karte.",
-    "164 Themen und 738 Aufgaben; Quellen-/Lehrplangrenze sichtbar. Keine privaten Bilder oder Lernstände im Paket."
+    "Geschichte: freiwilliger Quellenvergleich zu Artikel 3 der Zwölf Artikel und Melanchthons späterer Gegenposition.",
+    "165 Themen und 742 Aufgaben; Lehrplan- und Wirkungsgrenzen sichtbar. Keine privaten Bilder oder Lernstände im Paket."
   ],
-  "rollbackCommit": "a44ee1ec6a51830946ba2d2af49d0beb71046363",
+  "rollbackCommit": "bb7e8f715bd5c1bc86e275ecd0268d0f5f5a212a",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",
@@ -151,6 +151,7 @@
     "mbi-i3-finanzierungsmodelle",
     "mbi-i3-datenschutz-transfer",
     "ge-reformationsdrucke-quellenkritik",
+    "ge-bauernartikel-freiheit-deutung",
     "ge-patcham-quellenpruefung",
     "ge-toledo-uebersetzungsquellen",
     "mnt-bionik-leichtbau-modell",
@@ -263,7 +264,8 @@
     "ge-toledo-uebersetzungsquellen",
     "mu09-bass-triole-taktwechsel",
     "sp-basketball-regelkarte-papier",
-    "ge-reformationsdrucke-quellenkritik"
+    "ge-reformationsdrucke-quellenkritik",
+    "ge-bauernartikel-freiheit-deutung"
   ],
   "note": "Struktur, lokaler PDF-Hash und Lösungsfelder geprüft. Fach-, Geräte-, Datenschutz- und Veröffentlichungsfreigabe getrennt dokumentieren."
 }

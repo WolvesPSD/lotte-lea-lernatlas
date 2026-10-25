@@ -14696,6 +14696,135 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "en-process-description-water-path",
+      "subjectId": "en",
+      "title": "A possible path through the water cycle",
+      "scope": "Freiwilliger, sprachlich gestützter Klasse-7-Vorgriff auf das Beschreiben eines Vorgangs als Englisch-Ziel bis Ende Klasse 8. Keine bestätigte aktuelle Schuleinheit oder Aussage über Lottes Sprachstand.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Alle Fakten stehen in fünf kurzen Sachkarten. Beschreibe einen möglichen Weg, keinen zwingenden Kreislauf für jeden Tropfen. Englisch oder Deutsch sind für Plan A erlaubt; der zusammenhängende Text B soll Englisch sein. Wortbank und zweisprachiges Wörterbuch sind erlaubt. Die App kann freie Texte nicht automatisch bewerten. Schreibe keine echten Personen- oder Ortsdaten und versende nichts. Der freiwillige andere Weg erscheint erst nach A–C.",
+      "introduction": "Use the five fact cards to write one possible route for water from a lake or stream into the air and back to land. Choose one route after the rain: into soil and groundwater or across the ground into a stream. A–C carry 20 learning points; optional D has four separate points. These are feedback criteria, not a school grade. The source links are for checking facts, not extra required reading.",
+      "sourceCards": [
+        {
+          "title": "1 · Sun and surface water",
+          "text": "Sunlight warms some liquid water at the surface of a lake or stream. Some water evaporates: it changes into water vapour and moves into the air.",
+          "sourceLabel": "NASA Science · What Is the Water Cycle?",
+          "sourceUrl": "https://science.nasa.gov/kids/earth/what-is-the-water-cycle/",
+          "sourceNote": "Originalseite, am 25.10.2026 erneut geprüft; eigene kurze Sachparaphrase ohne Bild."
+        },
+        {
+          "title": "2 · Cooler air and clouds",
+          "text": "Higher in the atmosphere, the air is cooler. Water vapour can cool and condense into tiny liquid drops. The drops can form clouds.",
+          "sourceLabel": "NASA Science · What Is the Water Cycle?",
+          "sourceUrl": "https://science.nasa.gov/kids/earth/what-is-the-water-cycle/",
+          "sourceNote": "Originalseite, am 25.10.2026 erneut geprüft; eigene kurze Sachparaphrase ohne Bild."
+        },
+        {
+          "title": "3 · Rain",
+          "text": "Water can return from clouds as precipitation, such as rain. For your possible path, follow rain until it reaches land.",
+          "sourceLabel": "NASA Science · What Is the Water Cycle?",
+          "sourceUrl": "https://science.nasa.gov/kids/earth/what-is-the-water-cycle/",
+          "sourceNote": "Originalseite, am 25.10.2026 erneut geprüft; eigene kurze Sachparaphrase ohne Bild."
+        },
+        {
+          "title": "4 · Into the soil",
+          "text": "After rain reaches land, some water can soak into soil and add to groundwater. This is one possible route.",
+          "sourceLabel": "U.S. Geological Survey · Water cycle",
+          "sourceUrl": "https://www.usgs.gov/water-science-school/water-cycle",
+          "sourceNote": "Originalseite, am 25.10.2026 erneut geprüft; eigene kurze Sachparaphrase ohne Bild."
+        },
+        {
+          "title": "5 · Over the ground",
+          "text": "Other rainwater can flow across the ground into streams. Gravity pulls water downhill on land. This is another possible route.",
+          "sourceLabel": "U.S. Geological Survey · Water cycle",
+          "sourceUrl": "https://www.usgs.gov/water-science-school/water-cycle",
+          "sourceNote": "Originalseite, am 25.10.2026 erneut geprüft; eigene kurze Sachparaphrase ohne Bild."
+        }
+      ],
+      "passage": "WORD HELP · liquid water = flüssiges Wasser; water vapour (US: vapor) = Wasserdampf; evaporate = verdunsten; condense = kondensieren; tiny drops = kleine Tröpfchen; cloud = Wolke; rain = Regen; soak into soil = in den Boden einsickern; groundwater = Grundwasser; flow across the ground = über den Boden fliessen; stream = Bach oder Flusslauf. Connect ideas with when, as, because, later or then. The fact cards show possible routes, not a fixed start or the route of every drop.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–C festhalten und anderen Wasserweg zeigen",
+        "text": "OPTIONAL D AFTER A–C · Keep the same path until rain reaches land. Now describe the other possible ending after rain in two or three English sentences. Use some, can or may. These four extra points are separate from A–C."
+      },
+      "tasks": [
+        {
+          "id": "en-water-path-plan",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Plan one path (4 main points). Write four short notes in English or German: 1. Where does your path begin? 2. What does sunlight do, and what happens to some liquid water? 3. What happens to water vapour in cooler air? 4. What falls from clouds to land, and which ONE route after that will your B text follow?",
+          "sample": "1. A lake or stream. 2. Sunlight warms the water; some evaporates into water vapour in the air. 3. In cooler air, vapour condenses into tiny liquid drops that can form clouds. 4. Rain reaches land; then I choose the soil and groundwater route. The over-ground stream route is equally valid.",
+          "criteria": [
+            "1 point: lake or stream as a possible start.",
+            "1 point: 0.5 for sunlight as energy source and 0.5 for evaporation from liquid water to vapour in the air.",
+            "1 point: 0.5 for cooler air and 0.5 for condensation from vapour to liquid drops; cloud formation is useful but gives no third half point.",
+            "1 point: 0.5 for rain returning to land and 0.5 for one chosen route after rain, either into soil/groundwater or over land/into a stream."
+          ]
+        },
+        {
+          "id": "en-water-path-description",
+          "kind": "reflection",
+          "points": 12,
+          "writingLines": 14,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "B · Describe your path (12 main points). Write a connected English paragraph for a student who has not studied the water cycle yet. About 80–110 words and roughly six sentences may help you plan, but they are NOT minimum requirements or scoring rules. Describe one possible path from a lake or stream into the air, through clouds and rain, and then along your chosen route after rain. Use at least three useful process words from the cards or word help, connect ideas clearly, and avoid saying every drop must follow your path. A shorter complete, connected and understandable text can receive full points.",
+          "sample": "A possible path starts in a lake. Sunlight warms some liquid water at the surface. Some of it evaporates and changes into water vapour, which moves into the air. Higher up, the air is cooler. The vapour cools and condenses into tiny liquid drops; these drops form clouds. Later, water falls from a cloud as rain. When rain reaches land, some water can soak into the soil and add to groundwater. This is one possible route through the water cycle. Other rainwater may take a different route.",
+          "criteria": [
+            "2 points: one connected route from lake/stream through air and cloud to the chosen ending; 1 point if the route is mostly understandable, 2 if the sections are clearly linked.",
+            "2 points: 1 for sunlight warming water and 1 for liquid water changing to vapour in the air.",
+            "2 points: 1 for cooler air and 1 for vapour changing to liquid drops that can form clouds.",
+            "2 points: 1 for return as rain and 1 for a correct soil/groundwater OR over-ground/stream ending.",
+            "1 point for at least three different, correctly used process words or equivalent terms; 0.5 for two and 0 for at most one. Vapour/vapor count as the same word.",
+            "2 points: 1 for understandable English sentences and 1 for useful time or cause links; small errors without meaning loss are not counted twice.",
+            "1 point: a possible route without unsupported every/always/must claims. Word and sentence counts are guidance, not point criteria."
+          ]
+        },
+        {
+          "id": "en-water-path-claims",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Check two claims (4 main points). A classmate says: “Every raindrop reaches the ocean. The water cycle always begins in the ocean.” Explain separately why each claim says more than the five fact cards support. Then rewrite ONE claim so that it describes a possibility without saying all water must follow it. You may explain in English or German; write the corrected sentence in English.",
+          "sample": "The cards show that some rainwater can soak into soil and add to groundwater, while other water can flow into a stream; they do not prove that every drop reaches an ocean. They show one possible start at a lake or stream, not one required beginning in the ocean. A careful correction is: “After rain, some water may soak into the soil, while other water can flow across land into a stream.”",
+          "criteria": [
+            "1.5 points for the first claim: 0.5 identifies the overstatement, 0.5 names an alternative route from the cards, 0.5 gives a careful some/can/may limit.",
+            "1.5 points for the second claim: 0.5 rejects one fixed beginning, 0.5 points to movement between stores or a possible lake/stream start, 0.5 explains the source limit.",
+            "1 point for one clear, supported English correction that states a possibility without an absolute claim."
+          ]
+        },
+        {
+          "id": "en-water-path-other-route",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "Optional D after A–C (4 separate extra points). Write two or three English sentences for the OTHER possible ending after rain. If B followed soil and groundwater, now use the over-ground stream route; if B followed a stream, now use soil and groundwater. Use some, can or may. Do not rewrite all of B.",
+          "sample": "Other rainwater can flow over the ground after it falls on land. Gravity pulls it downhill, and some water may reach a stream. If B used the stream route, an equally good alternative describes rainwater soaking into soil and adding to groundwater.",
+          "criteria": [
+            "1 extra point for the different supported route after rain.",
+            "1 extra point for a careful possibility word such as some, can or may.",
+            "1 extra point for a correct link between rain reaching land and the selected route.",
+            "1 extra point for two or three understandable English sentences. These points are separate from A–C."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Englisch Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. Erste Fremdsprache, §2.2.4/PDF-S. 29–30: informierend schreiben und Vorgänge beschreiben unter Klassenstufe 8; hier nur freiwilliger gestützter Vorgriff. A2/punktuell B1 ist Ende-8-Zielhorizont, keine individuelle Einstufung.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "en-invite-mini-comics-workshop",
       "subjectId": "en",
       "title": "Invite Noor to a mini comics workshop",

@@ -1,12 +1,15 @@
 {
-  "builtAt": "2026-10-25T04:12:05.219Z",
-  "releaseVersion": "2026.10.25-mobileadult.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Der Navigationsknopf Erwachsene ist auf schmalen Bildschirmen auch in der unteren Leiste dunkel und kontrastreich hervorgehoben.",
-    "Alle 161 Themen und 725 Aufgaben des zuvor veröffentlichten Pakets bleiben unverändert; der obere Zugang Für Erwachsene bleibt erhalten."
+  "builtAt": "2026-10-25T04:28:18.899Z",
+  "releaseVersion": "2026.10.25-enwatercycle.1",
+  "newTopicIds": [
+    "en-process-description-water-path"
   ],
-  "rollbackCommit": "de81467721f12ebd8fcecb597033c79cd6172c0b",
+  "changeLog": [
+    "Englisch: ein freiwilliger Klasse-8-Ausblick zum Beschreiben eines möglichen Wasserwegs ergänzt den Katalog; A–C haben 20 formative Hauptpunkte, D vier getrennte Zusatzpunkte.",
+    "Fünf eigenständig formulierte Faktenkarten nach NASA und USGS, Antwortfelder, spätere Zusatzaufgabe und lösungsfreier Kinderdruck; freie englische Texte werden nicht automatisch bewertet.",
+    "Die 161 bisherigen Themen, mobile Erwachsenen-Navigation, Profile, Druck und Hörhilfen bleiben erhalten. Keine privaten Fotos oder Lernstände werden veröffentlicht; die Klasse-7-Unterrichtsfolge und tatsächliche Kinderleistung bleiben offen."
+  ],
+  "rollbackCommit": "b3c3732f5fe7c64ca2ca9733a99e108d07327781",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",
@@ -158,6 +161,7 @@
     "en-survey-questionnaire-table",
     "en-living-things-comparison-foxes",
     "en-red-panda-field-guide",
+    "en-process-description-water-path",
     "en-invite-mini-comics-workshop",
     "ma-m4-rechnerprobe",
     "mbi-sternnetz-feedranking",
@@ -236,6 +240,7 @@
     "en-survey-questionnaire-table",
     "en-living-things-comparison-foxes",
     "en-red-panda-field-guide",
+    "en-process-description-water-path",
     "en-invite-mini-comics-workshop",
     "ma-rundungswahl-vergleich",
     "ma-runden-materialentscheidung",

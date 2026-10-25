@@ -296,3 +296,4 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 @media print{#voice-help{display:none!important}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id^="mbi-i6-felder-"]{break-inside:avoid}}
 @media print{body[data-print-mode^="adult"] #print-surface .print-topic:has(.print-task[data-task-id="de-szene-spielen-p1"]) .print-practice{break-before:auto}body[data-print-mode^="adult"] .print-task[data-task-id="de-szene-spielen-p3"]{break-inside:avoid}body[data-print-mode^="adult"] .print-task[data-task-id="de-szene-spielen-v"]{break-before:page}}
+@media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="en-water-path-other-route"]) .print-task{margin-bottom:.55rem}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="en-water-path-other-route"]) .print-task h3{margin-bottom:.3rem}}

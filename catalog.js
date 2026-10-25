@@ -15581,6 +15581,116 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "PDF-S. 2: MBI Klasse 8 ab 2027/28. §2.2.1 PDF-S. 24: Text, Zahl und Datum als Datentypen zuordnen und Daten strukturiert erfassen, Zielmarke Ende Klasse 8; keine aktuelle Schuleinheit nachgewiesen.",
         "checkedAt": "2026-10-24"
       }
+    },
+    {
+      "id": "mbi-i6-anwendungsfelder",
+      "subjectId": "mbi",
+      "title": "Zwei Kataloge, zwei Anwendungsfelder?",
+      "scope": "Freiwilliger Klasse-7-Vorgriff auf I6-S01 als Ende-Klasse-8-Ziel. Zwei schriftliche Anwendungsbeispiele; keine bestätigte aktuelle Schuleinheit, eigene Katalogsuche oder vollständige Datenbankkompetenz.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du kannst die beiden Quellenkarten ohne Anmeldung lesen. Das Buchlabor ist erfunden; die USGS-Karte beschreibt einen echten öffentlichen Katalog. Du musst keine Live-Suche ausführen und keine eigenen Standort- oder Kontodaten eingeben. Die App bewertet offene Antworten nicht automatisch.",
+      "introduction": "Lies die zwei Karten. Beide beschreiben geordnete Sammlungen, aber was wird jeweils erfasst und wozu könnte man danach suchen? Formuliere eigene passende Fragen und prüfe die Behauptung des Mitschülers. A–D zählen vier Hauptpunkte; die spätere Zusatzinformation eröffnet zwei getrennte Transferpunkte. Die USGS-Karte ist eine Zusammenfassung offizieller Seiten, kein Nachweis, dass du den Katalog selbst bedient hast.",
+      "passage": "BEHAUPTUNG EINES ERFUNDENEN MITSCHÜLERS · „Beides heisst Katalog. Also ist es dasselbe Anwendungsfeld.“ Entscheide erst nach dem Vergleich der Daten und möglichen Nutzungen.",
+      "sourceCards": [
+        {
+          "title": "Karte 1 · Erfundenes Buchlabor",
+          "text": "Zwei verbundene Tabellen enthalten erfundene Buchtitel und einzelne Exemplare. Zu den Exemplaren gehören Regal und Ausleihstatus. Ein vorbereiteter Filter kann Buchart, Regal und Status gemeinsam berücksichtigen. Das Modell enthält keine Angaben zu ausleihenden Personen und beweist nichts über reale Bibliotheken.",
+          "sourceLabel": "Lotte & Lea · fiktives Buchlabor",
+          "sourceUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/mbi-buchlabor.html",
+          "sourceNote": "Eigenes, als fiktiv gekennzeichnetes Modell; technische Bedienung ist für diese Aufgabe nicht erforderlich."
+        },
+        {
+          "title": "Karte 2 · USGS ComCat",
+          "text": "Der USGS sammelt in ComCat Angaben zu Erdbebenereignissen aus beitragenden seismischen Netzen und verknüpft dazugehörige Produkte mit Ereignissen. Die öffentliche Suchmaske bietet unter anderem Zeitraum, Magnitude und Gebiet als Filter. Ergebnisse lassen sich beispielsweise als CSV oder GeoJSON ausgeben.",
+          "sourceLabel": "USGS · ComCat und Suchmaske",
+          "sourceUrl": "https://earthquake.usgs.gov/data/catalog/",
+          "additionalSourceLabel": "USGS · Suchmaske",
+          "additionalSourceUrl": "https://earthquake.usgs.gov/earthquakes/search/",
+          "sourceNote": "Amtliche USGS-Seiten, am 25.10.2026 geprüft. USGS spricht von einem Katalog; „Datenbank-Anwendungsfeld“ ist hier eine begrenzte fachliche Einordnung."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und Suchgrenze zeigen",
+        "text": "FREIWILLIGE ZUSATZINFORMATION NACH A–D · Die USGS-Suchmaske begrenzt Ergebnisse einer einzelnen Suche auf höchstens 20 000 Ereignisse."
+      },
+      "tasks": [
+        {
+          "id": "mbi-i6-felder-a",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "A · Zwei Felder benennen (1 Hauptpunkt): Welches Anwendungsfeld in Alltag oder Gesellschaft zeigt jede Karte? Benenne beide in eigenen Worten.",
+          "sample": "Karte 1 zeigt die Verwaltung oder Suche nach Büchern und Exemplaren, etwa für eine Bibliothek. Karte 2 zeigt die Sammlung und Untersuchung von Erdbebenereignissen in der Geowissenschaft.",
+          "criteria": [
+            "Je 0,5 Punkt für ein zutreffendes, von der anderen Karte unterscheidbares Anwendungsfeld. „Zwei Kataloge“ allein genügt nicht."
+          ]
+        },
+        {
+          "id": "mbi-i6-felder-b",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "B · Eigene Suchfragen (1 Hauptpunkt): Formuliere für jede Sammlung eine sinnvolle Frage, die ihre erfassten Daten beantworten könnten. Erfinde keine nicht gezeigten Personendaten.",
+          "sample": "Buchlabor: Welche verfügbaren Sachbuch-Exemplare stehen im Regal A? ComCat: Welche erfassten Erdbeben einer bestimmten Magnitude liegen in einem gewählten Zeitraum? Die Frage nach „allen tatsächlichen Erdbeben“ wäre aus einer Trefferliste allein nicht beantwortbar.",
+          "criteria": [
+            "Je 0,5 Punkt für eine konkrete, zu den beschriebenen Daten und Filtern passende Frage. Eine echte Suche ist nicht verlangt oder beobachtet."
+          ]
+        },
+        {
+          "id": "mbi-i6-felder-c",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "C · Suche eingrenzen (1 Hauptpunkt): Wähle zwei Merkmale der USGS-Karte. Erkläre zu jedem kurz, welche Ereignisse dadurch in einer Suche ausgewählt werden könnten.",
+          "sample": "Ein Zeitraum wählt Ereignisse innerhalb bestimmter Anfangs- und Endzeiten aus. Eine Magnitudengrenze wählt Ereignisse innerhalb des gewählten Stärkebereichs aus. Auch ein räumliches Gebiet wäre möglich.",
+          "criteria": [
+            "Je 0,5 Punkt für ein zutreffendes Merkmal mit passender Eingrenzung; zwei bloss abgeschriebene Filternamen ohne Suchbezug reichen nicht voll."
+          ]
+        },
+        {
+          "id": "mbi-i6-felder-d",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "D · Behauptung prüfen (1 Hauptpunkt): Stimmst du dem Mitschüler zu? Begründe mit einem Unterschied zwischen erfassten Gegenständen und möglichen Nutzungen. Was sagt das gemeinsame Wort „Katalog“ allein nicht aus?",
+          "sample": "Ich widerspreche: Beide Sammlungen ordnen Daten, aber das Buchlabor erfasst Titel und Exemplare für Buchsuche oder Verwaltung; ComCat erfasst Erdbebenereignisse für geowissenschaftliche Auswertung. Das Wort Katalog zeigt eine ähnliche Ordnungsform, nicht dass Gegenstände oder gesellschaftliche Zwecke gleich sind.",
+          "criteria": [
+            "1 Punkt für eine nachvollziehbare Unterscheidung von Gegenstand und Zweck und die Grenze des Wortes „Katalog“. Eine andere begründete Einordnung ist zulässig; nur zwei unterschiedliche Namen genügen nicht."
+          ]
+        },
+        {
+          "id": "mbi-i6-felder-transfer",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Suchgrenze nach A–D · zwei getrennte Zusatzpunkte: Nenne einen Nutzen einer Begrenzung oder Filterung bei einer grossen Sammlung. Erkläre dann, weshalb eine kürzere Trefferliste weder die Gesamtzahl aller Ereignisse noch die Vollständigkeit der Erfassung beweist.",
+          "sample": "Eine auf Gebiet und Zeitraum begrenzte Liste ist für eine konkrete Untersuchung handhabbar. Sie zeigt nur Ereignisse, die zur Auswahl und Ausgabebegrenzung passen; über alle Ereignisse oder über nicht erfasste Ereignisse sagt sie nichts Sicheres.",
+          "criteria": [
+            "1 Zusatzpunkt für einen konkreten Nutzen einer begrenzten, handhabbaren Auswahl.",
+            "1 Zusatzpunkt für die Grenze: Teilmenge oder Ausgabelimit beweisen weder Gesamtgrösse noch vollständige Erfassung. Die 20 000 sind kein Gesamtbestand."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: MBI Klasse 8 ab 2027/28. §2.2.6/PDF-S. 27–28, I6-S01: Anwendungsfelder von Datenbanken in Alltag und Gesellschaft nennen. Hier nur zwei schriftliche Beispiele, keine vollständige I6-Abdeckung oder beobachtete Kinderleistung.",
+        "checkedAt": "2026-10-25"
+      }
     }
   ]
 });

@@ -1,12 +1,15 @@
 {
-  "builtAt": "2026-10-25T03:04:58.024Z",
-  "releaseVersion": "2026.10.25-adultnav.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Der Erwachsenenbereich ist auf dem Handy jetzt als deutlich markierter fünfter Punkt in der festen unteren Navigation erreichbar. Der obere Zugang ist ebenfalls kontrastreich und gross genug zum Antippen.",
-    "Alle 158 Themen mit 708 Aufgaben, sieben Hörhilfen, Kinder- und Erwachsenendruck sowie die Rückmeldung bleiben unverändert. Es werden keine privaten Lernstände veröffentlicht."
+  "builtAt": "2026-10-25T03:22:55.344Z",
+  "releaseVersion": "2026.10.25-i6felder.1",
+  "newTopicIds": [
+    "mbi-i6-anwendungsfelder"
   ],
-  "rollbackCommit": "9c7e676f55e44f37c0d20deb1f1dedd4a40ae1ab",
+  "changeLog": [
+    "Freiwilliges MBI-Thema: zwei verschiedene Anwendungsfelder geordneter Daten anhand eines erfundenen Buchlabors und des offiziellen USGS-Erdbebenkatalogs vergleichen; vier Haupt- und zwei getrennte Transferpunkte.",
+    "Der Ende-Klasse-8-Ausblick zählt nicht als bestätigte Klasse-7-Abdeckung. Die seitliche Erwachsenen-Navigation zeigt das Personensymbol am Desktop wieder in normaler Grösse.",
+    "Die 158 bisherigen Themen, sieben Hörhilfen, Profiltrennung, Druck und Rückmeldung bleiben erhalten; keine privaten Lernstände werden veröffentlicht."
+  ],
+  "rollbackCommit": "fc0051a7a432aa0e599312ef0d52ae47705badb7",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",
@@ -165,7 +168,8 @@
     "ma-rundungswahl-vergleich",
     "ma-runden-materialentscheidung",
     "fr-questionnaire-atelier-cartes",
-    "mbi-i1-datumswerte-sortieren"
+    "mbi-i1-datumswerte-sortieren",
+    "mbi-i6-anwendungsfelder"
   ],
   "subjects": [
     "en",
@@ -237,7 +241,8 @@
     "ma-rundungswahl-vergleich",
     "ma-runden-materialentscheidung",
     "fr-questionnaire-atelier-cartes",
-    "mbi-i1-datumswerte-sortieren"
+    "mbi-i1-datumswerte-sortieren",
+    "mbi-i6-anwendungsfelder"
   ],
   "unclearValidityTopics": [
     "et-algebra-kulturtransfer",

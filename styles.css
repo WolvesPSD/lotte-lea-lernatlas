@@ -317,3 +317,7 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 .adult-topic,.adult-task{overflow-wrap:anywhere}
 
 @media print{#print-surface:has(.print-task[data-task-id="mbi-i3-lebenswelt-a"]) .print-practice,#print-surface:has(.print-task[data-task-id="mbi-i3-lebenswelt-a"]) .print-task[data-task-id="mbi-i3-lebenswelt-b"]{break-inside:avoid;page-break-inside:avoid}}
+
+.image-textway{border:1px solid #9dbab4;border-radius:.65rem;padding:.7rem 1rem;background:#f6fbf9;margin:.8rem 0 1rem}.image-textway summary{font-weight:700;cursor:pointer}.image-textway p{line-height:1.55;margin:.7rem 0 0}.staged-update-image[hidden]{display:none!important}
+@media print{#print-surface:has(.print-task[data-task-id="fr-w-image-a"]) .print-diagram{break-inside:avoid}#print-surface:has(.print-task[data-task-id="fr-w-image-a"]) .print-task[data-task-id="fr-w-image-transfer"]{break-inside:avoid}}
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="fr-w-image-a"]{break-before:page;break-inside:avoid}}

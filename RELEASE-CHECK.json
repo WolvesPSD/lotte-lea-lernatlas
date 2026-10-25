@@ -1,14 +1,14 @@
 {
-  "builtAt": "2026-10-25T08:33:59.147Z",
-  "releaseVersion": "2026.10.25-mbiiss1.1",
+  "builtAt": "2026-10-25T08:52:24.832Z",
+  "releaseVersion": "2026.10.25-frwbild.1",
   "newTopicIds": [
-    "mbi-i3-eigene-lebenswelt"
+    "fr-w-image-message"
   ],
   "changeLog": [
-    "MBI I3: freiwilliger fiktiver Taro-Fall zu Beziehungen, Identität, Information und Meinungsbildung mit separatem, nicht gespeichertem Gesprächsweg.",
-    "172 Themen und 774 reguläre Schriftaufgaben. Der eigene Lebensweltbezug bleibt ohne tatsächlich freiwilliges Gespräch nicht erhoben; keine privaten Aussagen oder Beobachtungen werden gespeichert."
+    "Französisch: freiwillige Bild→Nachricht-Aufgabe mit eigener fiktiver SVG-Bildfolge, Textzugang und erst nach A–D sichtbarem Bild B.",
+    "173 Themen und 779 reguläre Aufgaben. Bild-/Textquelle und Farbgrenzen bleiben kenntlich; keine privaten Bilder, Namen oder Lernstände im Paket."
   ],
-  "rollbackCommit": "06713bd12d94517041c99c943f719e49220546b3",
+  "rollbackCommit": "bc6b69e64127372b85f910cf0a983530a8aedbbd",
   "releasedTopics": [
     "en-w-word-gap-paraphrase",
     "mbi-i6-standortzugriff",
@@ -135,6 +135,7 @@
     "fr-bilderausstellung-vortrag",
     "fr-mes-gouts-envies",
     "fr-qui-est-ce-description",
+    "fr-w-image-message",
     "fr-graphique-club-message",
     "en-write-retell-lantern-walk",
     "en-write-rooftop-poem",
@@ -239,6 +240,7 @@
     "ma-kuehlkasten-rationale-zahlen",
     "ma-potenzen-rechnerwahl",
     "fr-qui-est-ce-description",
+    "fr-w-image-message",
     "fr-graphique-club-message",
     "en-write-retell-lantern-walk",
     "en-write-rooftop-poem",

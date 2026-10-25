@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Erfundene Leseecke, Bild A</title>
+  <desc id="desc">Eine Person im blauen Oberteil sitzt an einem Tisch und hält ein geöffnetes rotes Buch in den Händen. Links auf dem Tisch steht eine gelbe Lampe. Rechts daneben steht eine grüne Topfpflanze. Auf dem Regal im Hintergrund sind zwei Bücher.</desc>
+  <rect width="960" height="600" fill="#f6f1e8"/>
+  <rect y="455" width="960" height="145" fill="#e4d8c5"/>
+  <rect x="65" y="100" width="300" height="30" rx="8" fill="#8c5a3c"/>
+  <rect x="85" y="64" width="87" height="34" rx="4" fill="#c5564b" stroke="#593e37" stroke-width="4"/>
+  <line x1="100" y1="69" x2="100" y2="93" stroke="#f3b2a9" stroke-width="3"/>
+  <line x1="90" y1="94" x2="168" y2="94" stroke="#f3b2a9" stroke-width="2"/>
+  <rect x="177" y="54" width="55" height="44" rx="4" fill="#4d83bd" stroke="#593e37" stroke-width="4"/>
+  <line x1="188" y1="59" x2="188" y2="93" stroke="#a9c7e6" stroke-width="3"/>
+  <line x1="183" y1="94" x2="226" y2="94" stroke="#a9c7e6" stroke-width="2"/>
+  <rect x="150" y="450" width="650" height="30" rx="10" fill="#a86e47" stroke="#63452f" stroke-width="5"/>
+  <rect x="200" y="475" width="28" height="105" fill="#805437"/>
+  <rect x="722" y="475" width="28" height="105" fill="#805437"/>
+  <path d="M248 450 V310 M190 310 H305" stroke="#5d6570" stroke-width="18" stroke-linecap="round"/>
+  <path d="M188 305 L235 220 H290 L310 305 Z" fill="#f4c746" stroke="#705b33" stroke-width="6"/>
+  <circle cx="475" cy="264" r="56" fill="#d7a47f" stroke="#785540" stroke-width="5"/>
+  <path d="M420 245 Q430 192 480 202 Q525 201 532 245" fill="#50392f"/>
+  <path d="M423 322 Q475 290 530 322 L560 450 H400 Z" fill="#3979b6" stroke="#344b63" stroke-width="6"/>
+  <path d="M425 353 L385 405 M525 353 L565 405" stroke="#d7a47f" stroke-width="20" stroke-linecap="round"/>
+  <path d="M385 405 L457 420 L470 394 L385 380 Z" fill="#c64141" stroke="#6d2929" stroke-width="6"/>
+  <path d="M470 394 L483 420 L565 405 L565 380 Z" fill="#d65252" stroke="#6d2929" stroke-width="6"/>
+  <line x1="470" y1="394" x2="470" y2="424" stroke="#fff1d5" stroke-width="5"/>
+  <path d="M772 400 H862 L847 455 H787 Z" fill="#b56d4b" stroke="#754a34" stroke-width="5"/>
+  <path d="M817 400 V292 M817 344 Q781 313 766 324 M817 329 Q844 294 869 307" fill="none" stroke="#3d7650" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="764" cy="322" rx="39" ry="16" transform="rotate(23 764 322)" fill="#55a46b"/>
+  <ellipse cx="870" cy="303" rx="38" ry="16" transform="rotate(-23 870 303)" fill="#55a46b"/>
+</svg>

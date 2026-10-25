@@ -11924,6 +11924,135 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "fr-w-image-message",
+      "subjectId": "fr",
+      "title": "Une image, un petit message",
+      "scope": "Freiwilliger, stark gestützter Klasse-7-Vorgriff auf das französische Schreibziel Ende Klasse 8: sichere Bildmerkmale für eine kurze Nachricht nutzen. Die aktuelle Schulfolge ist unbekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Die Bilder und Figuren sind für diese Übung erfunden. Du musst nichts über dich schreiben. Wähle Bild oder Textzugang ehrlich: Mit der Beschreibung arbeitest du aus Text, nicht aus eigener Bildbeobachtung. Ein Wörterbuch ist erlaubt; notiere die tatsächlich genutzte Hilfe. Offenes Französisch prüft ein Mensch, nicht die App.",
+      "introduction": "Betrachte zuerst nur Bild A. Schreibe vier sichere Beobachtungen und danach eine kurze französische Nachricht an eine erfundene Person. Trenne Sichtbares von Vermutungen und begründe deine Aussagen am gewählten Quellenweg. A–D ergeben 20 Lernpunkte, keine Schulnote. Erst nach deinen Hauptantworten öffnest du freiwillig Bild B mit sechs getrennten Zusatzpunkten.",
+      "diagram": {
+        "path": "assets/fr-w-leseecke-bild-a-2026.svg",
+        "alt": "Erfundene Leseecke A: Eine Person hält ein geöffnetes Buch; Lampe links, Pflanze rechts, zwei Bücher auf dem Regal. Farben und genaue Merkmale stehen im aufklappbaren Textzugang.",
+        "caption": "Eigene fiktive Zeichnung A · Bildweg oder Textzugang wählen. Bei kleiner Anzeige im Bild seitlich wischen oder die Zeichnung vergrössert öffnen.",
+        "textAlternative": "Eine Person im blauen Oberteil sitzt an einem Tisch. In ihren Händen liegt ein geöffnetes rotes Buch. Links auf dem Tisch steht eine gelbe Lampe, rechts eine grüne Topfpflanze. Im Hintergrund sind zwei Bücher auf einem Regal."
+      },
+      "lab": {
+        "path": "assets/fr-w-leseecke-bild-a-2026.svg",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/fr-w-leseecke-bild-a-2026.svg",
+        "title": "Bild A gross ansehen",
+        "description": "Öffnet nur dieselbe fiktive Zeichnung A in einem neuen Tab zum Vergrössern; Bild B bleibt im Übungsraum bis nach A–D zurückgehalten.",
+        "scoredInteraction": false,
+        "printNote": "Bild A steht im Kinderblatt. Der Textzugang ist eine gleichwertige Informationsquelle, aber kein Nachweis eigenen visuellen Ablesens."
+      },
+      "passage": "WORTHILFE · une personne = eine Person · un livre ouvert = ein geöffnetes Buch · une lampe = eine Lampe · une plante = eine Pflanze · une étagère = ein Regal · tenir = halten · il y a = es gibt · je vois = ich sehe · à gauche/à droite = links/rechts · sur = auf · deux/trois = zwei/drei · rouge = rot · jaune = gelb · vert/verte = grün. Farben helfen beim späteren Vergleich, sind im Grundteil aber keine Pflicht.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und Bild B zeigen",
+        "printNote": "Bild B und die Zusatzaufgabe erst nach A–D ansehen.",
+        "text": "FREIWILLIGE BILDKARTE B NACH A–D · Vergleiche jetzt das in den Händen gehaltene Buch auf A und B. Für einen Vergleich ohne Farben kannst du auch die Bücher im Regal ansehen. Prüfe selbst, welche Schlussfolgerung aus zwei gezeichneten Bildern offenbleibt. Sechs Zusatzpunkte zählen getrennt von A–D.",
+        "image": {
+          "path": "assets/fr-w-leseecke-bild-b-2026.svg",
+          "alt": "Erfundene Leseecke B: eine Person mit geöffnetem Buch, Lampe links, Pflanze rechts und drei Büchern auf dem Regal. Farben stehen im aufklappbaren Textzugang.",
+          "caption": "Eigene fiktive Zeichnung B · erst nach A–D freigegeben. Achte beim Vergleich auch auf die Bücher im Regal.",
+          "textAlternative": "Eine Person im blauen Oberteil sitzt am Tisch und hält ein geöffnetes grünes Buch. Links steht die gelbe Lampe, rechts die grüne Topfpflanze. Im Hintergrund sind drei Bücher auf dem Regal; eines ist rot."
+        }
+      },
+      "tasks": [
+        {
+          "id": "fr-w-image-a",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Genau beobachten (5 Hauptpunkte): Schreibe auf Deutsch vier sichere Beobachtungen aus Bild A auf: zum Buch in den Händen, zur Lampe, zur Pflanze und zu den Büchern im Hintergrund. Trenne Sichtbares von Vermutungen. Notiere ausserhalb der Punkte, ob du Bild oder Textzugang genutzt hast.",
+          "sample": "Eine Person hält ein geöffnetes Buch in den Händen. Links steht eine Lampe, rechts eine Pflanze. Zwei Bücher sind im Regal. Name, Gefühl oder Uhrzeit sind nicht belegt. Beim Textzugang stammen die Angaben aus der Beschreibung.",
+          "criteria": [
+            "2 Punkte: gehaltenes Buch und dessen erkennbare Offenheit, je 1.",
+            "1 Punkt: Lampe links.",
+            "1 Punkt: Pflanze rechts.",
+            "1 Punkt: zwei Bücher im Regal. Farbe ist kein Pflichtpunkt; der gewählte Quellenweg wird ausserhalb der Punkte ehrlich notiert."
+          ]
+        },
+        {
+          "id": "fr-w-image-b",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Kurze französische Nachricht (5 Hauptpunkte): Schreibe an eine erfundene Freundin oder einen erfundenen Freund vier einfache französische Sätze über Bild A. Nenne Person mit geöffnetem Buch, Lampe, Pflanze und Regal; nutze zwei Lagewörter. Wähle bei Bedarf einen erfundenen Namen für die Anrede und bleibe bei überprüfbaren Bildmerkmalen.",
+          "sample": "Salut Alice, / Une personne tient un livre ouvert. Il y a une lampe à gauche. Il y a une plante à droite. Je vois deux livres sur une étagère. Der Schrägstrich markiert einen Zeilenwechsel nach der Anrede; andere verständliche Formulierungen zählen.",
+          "criteria": [
+            "1 Punkt: Nachrichtenform mit erfundener Anrede und vier einfachen Sätzen, je 0,5.",
+            "1 Punkt: Person und geöffnetes Buch, je 0,5.",
+            "1 Punkt: Lampe und Pflanze, je 0,5.",
+            "1 Punkt: zwei Bücher und Regalposition, je 0,5.",
+            "1 Punkt: zwei passende Lagewörter und insgesamt verständliches Französisch; bei nur einem passenden Lagewort oder teilweise verständlicher Formulierung 0,5. Farben sind freiwillig."
+          ]
+        },
+        {
+          "id": "fr-w-image-c",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Beweisgrenze (5 Hauptpunkte): Ein fremder Kommentar sagt: „Die Person heisst Marie und liebt dieses Buch.“ Erkläre auf Deutsch, warum beides nicht aus Bild A folgt. Schreibe dann zwei französische Sätze mit nur sicheren Beobachtungen und nenne die passenden Bildstellen.",
+          "sample": "Ein Name und ein Gefühl sind aus der Zeichnung nicht erkennbar. « Je vois une lampe jaune à gauche. La personne tient un livre rouge ouvert. » Die Lampe ist links, das geöffnete Buch in den Händen; andere sichere Sätze zählen.",
+          "criteria": [
+            "1 Punkt: Name Marie nicht belegt.",
+            "1 Punkt: Liebe/Gefühl nicht sichtbar.",
+            "Je 1 Punkt: zwei verständliche französische Sätze mit sicherer Beobachtung.",
+            "1 Punkt: konkrete Bildstelle zu beiden Sätzen; beim Textweg Textstelle nennen und diesen Weg markieren."
+          ]
+        },
+        {
+          "id": "fr-w-image-d",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Eigenen Text prüfen (5 Hauptpunkte): Zitiere zwei passende Ausdrücke aus deiner eigenen B-Nachricht und nenne zu jedem die Bildstelle. Wähle einen deiner B-Sätze, schreibe eine wirklich verbesserte französische Fassung und begründe die Änderung auf Deutsch. Ein schon richtiger Satz kann durch eine genauere Lageangabe verbessert werden.",
+          "sample": "Aus der eigenen Nachricht z. B. « une lampe à gauche » – Lampe links; « deux livres sur une étagère » – zwei Bücher im Regal. Verbesserung: « Il y a une plante verte à droite de la personne. » Der Ort ist genauer. Nur tatsächlich selbst verwendete B-Ausdrücke zählen.",
+          "criteria": [
+            "Je 1 Punkt: zwei passende Ausdrücke aus dem eigenen B-Text mit zugehöriger Bild- oder ehrlich markierter Textstelle.",
+            "1 Punkt: ein eigener Satz aus B wird tatsächlich neu gefasst.",
+            "1 Punkt: neue französische Fassung ist verständlich und bildtreu.",
+            "1 Punkt: konkreter sprachlicher oder sachlicher Änderungsgrund auf Deutsch. Eine nur behauptete Revision zählt nicht."
+          ]
+        },
+        {
+          "id": "fr-w-image-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "E · Freiwillige Bildkarte B (6 getrennte Zusatzpunkte): Vergleiche das Buch in den Händen auf A und B in zwei einfachen französischen Sätzen. Nenne auf Deutsch eine sichtbare Änderung und eine Aussage, die beide Zeichnungen nicht beweisen. Begründe am Bild. Bei Schwarzweissdruck ist Farbe kein Pflichtbeleg; achte auch auf die Anzahl der Regalbücher. Bei Nutzung des Textzugangs markiere die Angabe als textgestützt.",
+          "sample": "« Sur l’image A, la personne tient un livre ouvert. Sur l’image B, une personne tient un livre ouvert. » Auf A sind zwei Bücher im Regal, auf B drei. Die Bilder beweisen weder dieselbe reale Person noch einen wirklichen Zeitablauf. Bei sichtbarer Farbe oder markiertem Textzugang darf rot→grün zusätzlich genannt werden, ist aber nicht nötig.",
+          "criteria": [
+            "Je 1 Zusatzpunkt: verständlicher französischer Satz über das gehaltene Buch auf A und B.",
+            "1 Zusatzpunkt: beide französischen Sätze zusammen verständlich und als Vergleich erkennbar.",
+            "1 Zusatzpunkt: konkrete Änderung, etwa Regalzahl 2→3 oder bei geeigneter Quelle Buchfarbe rot→grün.",
+            "1 Zusatzpunkt: unbelegte Identität oder Zeitfolge als Grenze genannt.",
+            "1 Zusatzpunkt: Bild-/Textbeleg für die Änderung und ehrliche Quellenwegmarkierung. Die sechs Punkte sind von den 20 Hauptpunkten getrennt."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Französisch Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. Zweite Fremdsprache §3.2.4/PDF-S. 62: Informationen aus Bildern für einen Text entnehmen und nutzen, Ziel Ende Klasse 8.",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
       "id": "fr-graphique-club-message",
       "subjectId": "fr",
       "title": "Un graphique pour écrire à Camille",

@@ -509,6 +509,12 @@
       const img = create('img'); img.src = topic.diagram.path; img.alt = topic.diagram.alt;
       figure.append(img); appendText(figure, 'figcaption', '', topic.diagram.caption);
       intro.append(figure);
+      if (topic.diagram.textAlternative) {
+        const details = create('details', 'image-textway');
+        appendText(details, 'summary', '', 'Bildbeschreibung als Text öffnen');
+        appendText(details, 'p', '', topic.diagram.textAlternative);
+        intro.append(details);
+      }
     }
     if (topic.lab) {
       const lab = create('section', 'lab-card');
@@ -682,7 +688,7 @@
         if (!mainComplete()) return;
         state.answers[marker] = 'ja'; save();
         mainInputs.forEach(input => { input.readOnly = true; });
-        updateButton.hidden = true; updateText.hidden = false; transferTask.hidden = false;
+        updateButton.hidden = true; updateText.hidden = false; if (updateFigure) updateFigure.hidden = false; transferTask.hidden = false;
         const autoCheck = host.querySelector('.auto-check-card');
         if (autoCheck) autoCheck.hidden = false;
         updateText.scrollIntoView({ block: 'start', behavior: 'instant' });
@@ -693,6 +699,23 @@
       host.append(updateButton);
       const updateText = appendText(host, 'blockquote', 'reading-passage', topic.stagedUpdate.text);
       updateText.hidden = !updateShown;
+      let updateFigure = null;
+      if (topic.stagedUpdate.image) {
+        const image = topic.stagedUpdate.image;
+        updateFigure = create('div', 'staged-update-image');
+        const figure = create('figure', 'learning-diagram');
+        const img = create('img'); img.src = image.path; img.alt = image.alt;
+        figure.append(img); appendText(figure, 'figcaption', '', image.caption);
+        updateFigure.append(figure);
+        if (image.textAlternative) {
+          const details = create('details', 'image-textway');
+          appendText(details, 'summary', '', 'Bildbeschreibung B als Text öffnen');
+          appendText(details, 'p', '', image.textAlternative);
+          updateFigure.append(details);
+        }
+        updateFigure.hidden = !updateShown;
+        host.append(updateFigure);
+      }
       const transferTask = renderTask(topic, topic.tasks.at(-1), topic.tasks.length - 1);
       transferTask.hidden = !updateShown;
       host.append(transferTask);
@@ -885,6 +908,15 @@
         const img = create('img'); img.src = topic.diagram.path; img.alt = topic.diagram.alt;
         figure.append(img); appendText(figure, 'figcaption', '', topic.diagram.caption);
         section.append(figure);
+        if (topic.diagram.textAlternative) appendText(section, 'p', 'muted', `Textzugang zu Bild A: ${topic.diagram.textAlternative}`);
+      }
+      if (topic.stagedUpdate?.image) {
+        const image = topic.stagedUpdate.image;
+        const figure = create('figure', 'learning-diagram');
+        const img = create('img'); img.src = image.path; img.alt = image.alt;
+        figure.append(img); appendText(figure, 'figcaption', '', image.caption);
+        section.append(figure);
+        if (image.textAlternative) appendText(section, 'p', 'muted', `Textzugang zu Bild B: ${image.textAlternative}`);
       }
       if (topic.lab) appendText(section, 'p', 'muted', topic.lab.scoredInteraction === false ? `${topic.lab.title}: ${topic.lab.printNote}` : `${topic.lab.title}: Praktische Bedienung im neuen Tab nur nach tatsächlich beobachteten Schritten beurteilen. Geschriebene Antworten belegen die Klicks nicht automatisch.`);
       if (topic.audio) {
@@ -1014,6 +1046,7 @@
         const img = create('img'); img.src = topic.diagram.path; img.alt = topic.diagram.alt;
         figure.append(img); appendText(figure, 'figcaption', '', topic.diagram.caption);
         section.append(figure);
+        if (topic.diagram.textAlternative) appendText(section, 'p', 'print-context', `Textzugang zu Bild A (bei Nutzung Textentnahme, keine eigene Bildbeobachtung): ${topic.diagram.textAlternative}`);
       }
       if (topic.lab) {
         appendText(section, 'p', 'print-context', `${topic.lab.title}: im Lernatlas beim Thema öffnen. ${topic.lab.printNote}${topic.released && topic.lab.published !== false ? ` Direktadresse: ${topic.lab.publicUrl}` : ''}`);
@@ -1095,6 +1128,14 @@
         }
         if (topic.stagedUpdate && index === topic.tasks.length - 2 && !hideChildUpdate) {
           stagedUpdatePrint = appendText(section, 'p', mode === 'child' ? 'print-staged-update print-passage' : 'print-passage', topic.stagedUpdate.text);
+          if (topic.stagedUpdate.image) {
+            const image = topic.stagedUpdate.image;
+            const figure = create('figure', 'print-diagram');
+            const img = create('img'); img.src = image.path; img.alt = image.alt;
+            figure.append(img); appendText(figure, 'figcaption', '', image.caption);
+            section.append(figure);
+            if (image.textAlternative) appendText(section, 'p', 'print-context', `Textzugang zu Bild B (bei Nutzung Textentnahme): ${image.textAlternative}`);
+          }
         }
       }
       if (topic.practice) {

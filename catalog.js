@@ -14980,6 +14980,143 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-i3-challenges-stichprobe",
+      "subjectId": "mbi",
+      "title": "Eine Challenge, viele Folgen?",
+      "scope": "Freiwilliger MBI-I3-S2-Schriftteil im gültigen Lernzeitraum 7/8 mit Zielmarke Ende Klasse 8. Chancen, Gruppendruck und die begrenzte Aussagekraft einer Challenge-Videostichprobe werden an öffentlichen Studiendaten und einer erfundenen Situation geprüft. Keine bestätigte Klasse-7-Unterrichtseinheit oder eigene Plattformnutzung.",
+      "levelStatus": "grade8-outlook",
+      "levelLabel": "Ende Klasse 8 · freiwilliger I3-S2-Ausblick",
+      "released": true,
+      "prerequisite": "Du machst keine Challenge mit, suchst keine Videos und brauchst kein Konto. Alle Personen im Kreativkreis sind erfunden. Keine echten Profile, Bilder, Namen oder eigenen Medienerlebnisse eingeben. Die Studie beschreibt eine ausgewählte Stichprobe, nicht alle Videos oder eine bestimmte Person. Die App kann offene Antworten nicht automatisch bewerten; 20 Haupt- und sechs spätere Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "introduction": "Lies die Studiendaten als Zahlen einer untersuchten Auswahl. Die Tabelle nennt 775 neutrale, 365 negative und 59 positive Challenge-Videos; ihre Summe ist 1.199. Der Bericht nennt zuvor 1.338 Challenge-Videos und erklärt später den Ausschluss von Aufklärungsvideos. Seine gedruckten Prozentwerte lassen sich deshalb nicht widerspruchsfrei mit den 1.338 zurückrechnen. Aufgabe A benutzt nur die ausdrücklich gedruckten Stückzahlen. Danach prüfst du einen erfundenen Kreativkreis: Eine ungefährliche Idee kann trotzdem Mitmachdruck erzeugen. A–D haben zusammen 20 Kriterienpunkte; die Bibliotheksvariante mit sechs Zusatzpunkten erscheint erst danach.",
+      "cardsHeading": "Studienkarte · Auswahl, Tabelle und Grenze",
+      "sourceCards": [
+        {
+          "title": "1 · Wie kam die Auswahl zustande?",
+          "text": "Die Landesanstalt für Medien NRW liess 2023 zunächst 2.533 Videos untersuchen. 1.338 davon zeigten oder thematisierten nach der Berichtsdefinition eine Challenge. Die Suche nutzte allgemeine und gezielte Begriffe. Das ist keine Zufallszählung aller Plattformvideos.",
+          "sourceLabel": "LFM NRW · Challenge Accepted, Studienbericht 2024",
+          "sourceUrl": "https://www.medienanstalt-nrw.de/fileadmin/user_upload/Bericht_TikTokChallenges_LFMNRW.pdf",
+          "sourceNote": "Originalbericht PDF-S. 8–10, direkt gelesen 26.10.2026; nur öffentliche Studienzahlen."
+        },
+        {
+          "title": "Tabelle 1 · neutral",
+          "text": "775 Videos; der Bericht druckt 64,6 %. Dazu gehören zum Beispiel Unterhaltung und Geschicklichkeit.",
+          "sourceNote": "Stückzahl aus Tabelle 1, PDF-S. 10. Der gedruckte Prozentwert hat im Bericht eine unklare Bezugsgrösse."
+        },
+        {
+          "title": "Tabelle 1 · negativ eingeordnet",
+          "text": "365 Videos; der Bericht druckt 30,5 %. Die Einordnung beschreibt die untersuchten Videoinhalte, keine Person.",
+          "sourceNote": "Stückzahl aus Tabelle 1, PDF-S. 10. Keine gefährliche Handlung wird hier beschrieben."
+        },
+        {
+          "title": "Tabelle 1 · positiv eingeordnet",
+          "text": "59 Videos; der Bericht druckt 4,9 %. Beispiele im Bericht sind gemeinschafts- oder persönlichkeitsfördernde Zwecke.",
+          "sourceNote": "Stückzahl aus Tabelle 1, PDF-S. 10. Kein allgemeiner Plattformanteil."
+        },
+        {
+          "title": "Bezugsgrösse und zweiter Suchweg",
+          "text": "775 + 365 + 59 = 1.199. Der Bericht sagt zunächst, Prozentwerte bezögen sich auf 1.338 Challenge-Videos, schliesst bei der Typauswertung aber Aufklärungsvideos aus. Er klärt den Wechsel nicht durchgängig. Nach Herausnahme gezielter Suchtreffer zu riskanten Challenges nennt er 13,5 % negativ eingeordnete Videos in der verbleibenden Auswahl, ohne dort einen neuen Nenner anzugeben.",
+          "sourceNote": "Bericht PDF-S. 8–10 und Fussnote 5. Nicht 1.338 × 30,5 % rechnen; 13,5 % und 30,5 % sind verschiedene Auswahlwege."
+        }
+      ],
+      "passage": "ERFUNDENER KREATIVKREIS · Ein Beitrag lädt zu einer freiwilligen Wochen-Challenge ein: Wer möchte, teilt jeden Tag eine kleine Idee für einen Gruppenraum. Der Beitrag bittet alle, drei weitere Personen öffentlich zu markieren. Ein sichtbares Tableau zeigt, wer am meisten mitgemacht hat. Einige schreiben: „Wer nicht mitmacht, ist langweilig.“ Im Auftrag steht nichts über gefährliche Handlungen. Es geht nur um diese erfundene Karte, nicht um deine Erfahrungen.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und Buchtipp-Variante zeigen",
+        "text": "FREIWILLIGE BUCHTIPP-WOCHE NACH A–D · Eine erfundene Schulbibliothek lädt zum Austausch von Buchtipps ein. Die Klasse erhält Punkte für die Anzahl der Tipps; am Ende soll die Gruppe mit den meisten Tipps gewinnen. Es gibt keine öffentlichen Namen und keine Fotos. Auch ohne Namensliste kann Mitmachdruck entstehen."
+      },
+      "tasks": [
+        {
+          "id": "mbi-i3-challenge-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Stückzahlen vergleichen (4 Hauptpunkte): Wie viele neutrale Videos mehr als negative nennt Tabelle 1? Schreibe die Rechnung mit den beiden Stückzahlen auf und erkläre in einem Satz, was der Unterschied beschreibt. Verwende keine Prozent-Rückrechnung.",
+          "sample": "775 − 365 = 410. Tabelle 1 des LFM-Berichts führt 410 neutrale Challenge-Videos mehr als negativ eingeordnete auf. Das vergleicht nur diese zwei Stückzahlkategorien der untersuchten Auswahl.",
+          "criteria": [
+            "1 Punkt für die passende Subtraktion 775 − 365.",
+            "1 Punkt für das Ergebnis 410.",
+            "1 Punkt für die Einheit Videos.",
+            "1 Punkt für die begrenzte Erklärung der beiden Kategorien in Tabelle 1; keine Aussage über alle Plattformvideos."
+          ]
+        },
+        {
+          "id": "mbi-i3-challenge-b",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Eine Aussage begrenzen (5 Hauptpunkte): Jemand schreibt: „Fast ein Drittel aller Challenges auf TikTok ist negativ.“ Formuliere eine belegbare Aussage mit einer Tabellen-Stückzahl. Erkläre, warum 13,5 % aus einem anderen Suchweg die erste Zahl nicht einfach widerlegt, warum die gedruckten Prozente wegen 1.338 und 1.199 vorsichtig zu lesen sind und was daraus weder für alle Videos noch für eine einzelne Person folgt.",
+          "sample": "Tabelle 1 des LFM-Berichts führt 365 untersuchte Challenge-Videos als negativ eingeordnet auf. Die 13,5 % beziehen sich auf eine verbleibende Auswahl ohne gezielte Risikosuchtreffer; ihr neuer Nenner steht in der Fussnote nicht. Der Bericht nennt zuerst 1.338 Challenge-Videos, während die drei Stückzahlen der späteren Typ-Tabelle 1.199 ergeben und Aufklärungsvideos ausgeschlossen werden. Deshalb lässt sich der gedruckte Anteil nicht sicher auf 1.338 zurückrechnen. Die Zahlen zählen weder alle Plattformvideos noch zeigen sie, was eine einzelne Person gesehen hat.",
+          "criteria": [
+            "1 Punkt für eine konkrete Tabellen-Stückzahl statt eines Claims über alle Plattformvideos.",
+            "1 Punkt für die gezielten Risikosuchbegriffe als Unterschied der Auswahlwege.",
+            "1 Punkt für 13,5 % als Wert der verbleibenden Auswahl samt fehlendem neuen Nenner.",
+            "1 Punkt für den offenen Bezugsgrössenwechsel 1.338 zu 1.199 und ausgeschlossene Aufklärungsvideos.",
+            "1 Punkt für die Grenze gegenüber allen Plattformvideos und der Nutzung einer einzelnen Person."
+          ]
+        },
+        {
+          "id": "mbi-i3-challenge-c",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C · Kreativkreis abwägen (7 Hauptpunkte): Nenne einen möglichen Nutzen mit Bezug zur erfundenen Karte. Beschreibe zwei unterschiedliche Risiken, auch ohne gefährliche Handlung, und belege jedes an einem anderen Kartenhinweis. Warum bedeutet „keine gefährliche Handlung“ nicht automatisch „für alle problemlos“?",
+          "sample": "Freiwillige Ideen können den Gruppenraum mitgestalten. Das öffentliche Markieren weiterer Personen kann Druck zur Teilnahme erzeugen. Das sichtbare Tableau und die Aussage „langweilig“ können Nichtteilnehmende vergleichbar machen und abwerten. Auch ohne gefährliche Handlung bleiben Freiwilligkeit, Privatsphäre und ein fairer Umgang zu prüfen.",
+          "criteria": [
+            "2 Punkte für einen konkreten Nutzen mit Kartenbezug.",
+            "Je 2 Punkte für zwei verschiedene Risiken mit unterschiedlichen konkreten Kartenhinweisen; zusammen 4.",
+            "1 Punkt für die begründete Grenze der Behauptung „keine gefährliche Handlung = problemlos“."
+          ]
+        },
+        {
+          "id": "mbi-i3-challenge-d",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Die Idee fairer gestalten (4 Hauptpunkte): Ändere zwei konkrete Elemente des Kreativkreises und erkläre jeweils, welches Risiko sinkt. Zeige, wie der kreative Austausch erhalten bleibt, und nenne eine Grenze, die auch danach möglich ist.",
+          "sample": "Öffentliche Nominierungen entfallen, damit niemand weitere Personen sichtbar unter Druck setzt. Das Tableau wird durch ein gemeinsames Ziel ohne Rangfolge ersetzt, sodass Beiträge weniger verglichen werden. Ideen für den Gruppenraum können weiterhin freiwillig geteilt werden. Auch ohne Ranking könnten einzelne Beiträge übergangen werden.",
+          "criteria": [
+            "1 Punkt für eine erste konkrete Änderung samt passendem verringerten Risiko.",
+            "1 Punkt für eine zweite andere Änderung samt passendem verringerten Risiko.",
+            "1 Punkt für den erhaltenen Ideenaustausch.",
+            "1 Punkt für eine realistische verbleibende Grenze; eine private Gruppe allein garantiert keine Vertraulichkeit."
+          ]
+        },
+        {
+          "id": "mbi-i3-challenge-e",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Buchtipp-Woche nach A–D · sechs getrennte Zusatzpunkte: Welche zwei Änderungen könnten den Austausch von Buchtipps erhalten und zugleich den Mitmachdruck senken? Erkläre je eine Wirkung. Nenne ein verbleibendes Risiko und eine dazu passende Schutzidee. Nutze nur die erfundene Karte.",
+          "sample": "Ein gemeinsames Ziel ohne Wettbewerb zwischen Klassen erhält Buchtipps und senkt Vergleichsdruck. Beiträge und Nichtteilnahme bleiben ausdrücklich gleichwertig; eine stille oder analoge Tippmöglichkeit kann zusätzlich helfen. Selbst dann könnte eine Gruppe einzelne Beiträge übergehen. Eine vertrauliche Ansprechperson oder wechselnde Rollen kann das auffangen.",
+          "criteria": [
+            "2 Zusatzpunkte für erste Änderung und begründete Wirkung.",
+            "2 Zusatzpunkte für zweite Änderung und begründete Wirkung.",
+            "1 Zusatzpunkt für ein verbleibendes Risiko.",
+            "1 Zusatzpunkt für eine dazu passende Schutzidee."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "MBI Klasse 7 ab 2026/27; Zielmarke I3 Ende Klasse 8",
+        "gradeBand": "7/8, freiwilliger Ende-8-Ausblick",
+        "competencyRef": "MBI Gymnasium Erprobung 2026, §2.2.3/PDF-S. 25–26: I3-S2, Chancen und Risiken von Social Media einschätzen; Challenges stehen als Beispiel. PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. Keine Klasse-7-Unterrichtsfolge aus der Quelle.",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
       "id": "mbi-i3-finanzierungsmodelle",
       "subjectId": "mbi",
       "title": "Wer bezahlt den kostenlosen Feed?",

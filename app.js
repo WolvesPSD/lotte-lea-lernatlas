@@ -17,6 +17,7 @@
     'additional-unclear': 'Freiwillig · Lehrplan 2026/27 ungeklärt'
   };
   const isGrade6Review = topic => topic.releaseEvidence?.gradeBand === '6-Grundlage, 7-Wiederholung' || topic.levelStatus === 'grade6-bridge';
+  const stagedUpdateMarker = topic => topic.stagedUpdate?.markerKey || `${topic.tasks[0].id}-update-gezeigt`;
   const levelLabel = topic => topic.levelLabel || (topic.levelStatus === 'grade6-bridge'
     ? levelLabels['grade6-bridge']
     : isGrade6Review(topic)
@@ -285,7 +286,7 @@
         gatedPreview = `${subjectName} · ${nextTopic.title}: Hauptantworten festhalten und freiwillige Änderung öffnen.`;
     } else if (nextTopic?.stagedUpdate) {
       const first = nextTopic.tasks[0];
-      const updateShown = state.answers[`${first.id}-update-gezeigt`] === 'ja';
+      const updateShown = state.answers[stagedUpdateMarker(nextTopic)] === 'ja';
       const mainComplete = nextTopic.tasks.slice(0, -1).every(task => String(state.answers[task.id] || '').trim());
       if (!updateShown && mainComplete)
         gatedPreview = `${subjectById.get(nextTopic.subjectId).name} · ${nextTopic.title}: Hauptantworten festhalten und freiwillige Änderung öffnen.`;
@@ -679,7 +680,7 @@
       const mainTaskCount = topic.stagedUpdate.mainTaskCount ?? topic.tasks.length - 1;
       for (let index = 0; index < mainTaskCount; index++) mainTasks.append(renderTask(topic, topic.tasks[index], index));
       const mainInputs = [...mainTasks.querySelectorAll('textarea')];
-      const marker = `${topic.tasks[0].id}-update-gezeigt`;
+      const marker = stagedUpdateMarker(topic);
       const updateShown = state.answers[marker] === 'ja';
       if (updateShown) mainInputs.forEach(input => { input.readOnly = true; });
       host.append(mainTasks);
@@ -752,7 +753,7 @@
   }
   function autoCheckLocked(topic) {
     if (!topic.autoCheck?.afterMain) return false;
-    if (topic.stagedUpdate) return state.answers[`${topic.tasks[0].id}-update-gezeigt`] !== 'ja';
+    if (topic.stagedUpdate) return state.answers[stagedUpdateMarker(topic)] !== 'ja';
     return topic.tasks.some(task => !String(state.answers[task.id] || '').trim());
   }
   function renderTask(topic, task, index, autoCheckTotal = 0) {
@@ -1004,7 +1005,7 @@
     for (const id of ids) {
       const topic = topicById.get(id); const section = create('section', 'print-topic');
       const hideChildUpdate = mode === 'child' && topic.stagedUpdate?.childPrintAfterUnlock === true
-        && state.answers[`${topic.tasks[0].id}-update-gezeigt`] !== 'ja';
+        && state.answers[stagedUpdateMarker(topic)] !== 'ja';
       const hideChildFirstGate = mode === 'child' && topic.firstTaskGate
         && state.answers[`${topic.tasks[0].id}-erste-stufe-gezeigt`] !== 'ja';
       const hideChildReadingSource = mode === 'child' && topic.stagedReading
@@ -1252,7 +1253,10 @@
         } else if (firstId && topic.firstTaskGate) {
           validMarkerIds.add(`${firstId}-erste-stufe-gezeigt`);
           validMarkerIds.add(`${firstId}-update-gezeigt`);
-        } else if (firstId && topic.stagedUpdate) validMarkerIds.add(`${firstId}-update-gezeigt`);
+        } else if (firstId && topic.stagedUpdate) {
+          validMarkerIds.add(`${firstId}-update-gezeigt`); // Keep historical backups.
+          validMarkerIds.add(stagedUpdateMarker(topic));
+        }
         for (const task of topic.tasks) if (task.helpAfterAttempt) {
           validMarkerIds.add(`${task.id}-hilfe-erstversuch`);
           validMarkerIds.add(`${task.id}-hilfe-genutzt`);

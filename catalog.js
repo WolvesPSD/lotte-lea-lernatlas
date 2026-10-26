@@ -16599,52 +16599,60 @@ window.LOTTE_CATALOG = Object.freeze({
       "scope": "Freiwilliger, sprachlich gestützter Klasse-7-Vorgriff auf das Beschreiben eines Lebewesens und Überarbeiten eigener Texte als Ende-Klasse-8-Ziel. Keine bestätigte Schuleinheit oder Aussage über Lottes Lernstand.",
       "levelStatus": "grade8-outlook",
       "released": true,
-      "prerequisite": "Alle benötigten Fakten stehen in der eigenen kurzen Sachkarte. Verwende keine Tierfotos, echten Namen oder zusätzlichen ungesicherten Behauptungen. Notizen dürfen auf Deutsch sein; für den Text ist ein zweisprachiges Wörterbuch erlaubt. Die App bewertet freie englische Texte nicht automatisch. Die freiwillige Bildunterschrift erscheint erst nach A–C.",
-      "introduction": "Write a short English field-guide label for younger visitors in a fictional school nature room. First plan four facts, then write your label. In C, copy one sentence from your own B text and improve it for a younger reader. The card is enough; the external source is for checking. A–C have 20 learning points, optional D has six separate points. These are feedback criteria, not a school grade.",
+      "prerequisite": "Alle benötigten Fakten und die Quellenangaben stehen in den eigenen Karten. Verwende keine Tierfotos, echten Namen oder zusätzlichen ungesicherten Behauptungen. Notizen dürfen auf Deutsch sein; für den Text ist ein zweisprachiges Wörterbuch erlaubt. Die App bewertet freie englische Texte nicht automatisch. Die freiwillige Bildunterschrift erscheint erst nach A–D.",
+      "introduction": "Write a short English field-guide label for younger visitors in a fictional school nature room. First plan four facts, then write your label. In C, improve one sentence from your own B text. In D, build a source line from the record card. The external page is for checking; you can answer from the cards here. A–D have 25 learning points, optional E has six separate points. These are feedback criteria, not a school grade.",
       "sourceCards": [
         {
           "title": "Home",
           "text": "Red pandas live in high mountain forests. Bamboo grows under the trees in these forests.",
           "sourceLabel": "Smithsonian National Zoo · Red panda",
           "sourceUrl": "https://nationalzoo.si.edu/animals/red-panda",
-          "sourceNote": "Artenseite, abgerufen 24.10.2026; kurze eigene Sachparaphrase ohne Bild."
+          "sourceNote": "Artenseite, abgerufen 25.10.2026; kurze eigene Sachparaphrase ohne Bild."
         },
         {
           "title": "Food",
           "text": "Bamboo makes up about 95% of a red panda’s diet. Red pandas feed selectively on leaf tips and, when available, tender bamboo shoots. The page also names other foods they may eat.",
           "sourceLabel": "Smithsonian National Zoo · Red panda",
           "sourceUrl": "https://nationalzoo.si.edu/animals/red-panda",
-          "sourceNote": "Artenseite, abgerufen 24.10.2026; kurze eigene Sachparaphrase ohne Bild."
+          "sourceNote": "Artenseite, abgerufen 25.10.2026; kurze eigene Sachparaphrase ohne Bild."
         },
         {
           "title": "Coat",
           "text": "A red panda’s reddish coat can blend in among reddish-brown moss and pale lichens in fir-tree branches.",
           "sourceLabel": "Smithsonian National Zoo · Red panda",
           "sourceUrl": "https://nationalzoo.si.edu/animals/red-panda",
-          "sourceNote": "Artenseite, abgerufen 24.10.2026; kurze eigene Sachparaphrase ohne Bild."
+          "sourceNote": "Artenseite, abgerufen 25.10.2026; kurze eigene Sachparaphrase ohne Bild."
         },
         {
           "title": "Tail",
           "text": "A long, bushy tail helps a red panda keep its balance in trees and protects it from cold and wind.",
           "sourceLabel": "Smithsonian National Zoo · Red panda",
           "sourceUrl": "https://nationalzoo.si.edu/animals/red-panda",
-          "sourceNote": "Artenseite, abgerufen 24.10.2026; kurze eigene Sachparaphrase ohne Bild."
+          "sourceNote": "Artenseite, abgerufen 25.10.2026; kurze eigene Sachparaphrase ohne Bild."
+        },
+        {
+          "title": "Source record for your line",
+          "text": "Organisation: Smithsonian's National Zoo and Conservation Biology Institute. Publication date shown: none (n.d.). Page title: Red panda. Retrieved: October 25, 2026. Full page address: https://nationalzoo.si.edu/animals/red-panda. Follow the page's own citation pattern; do not guess a publication date.",
+          "sourceLabel": "Smithsonian National Zoo · Cite this page",
+          "sourceUrl": "https://nationalzoo.si.edu/animals/red-panda",
+          "sourceNote": "Quellenblock der Originalseite, geprüft am 25.10.2026; die Quellenzeile ist eine angeleitete Übung, kein schulweit bestätigter Zitierstil."
         }
       ],
-      "passage": "WORD HELP · high mountain forest = Hochgebirgswald; bamboo = Bambus; leaf tip / shoot = Blattspitze / junger Trieb; coat = Fell; moss / lichen = Moos / Flechte; bushy tail = buschiger Schwanz; keep its balance = das Gleichgewicht halten. You may use “Red pandas live …”, “They mainly eat …” or “Their tail helps …”. The source link leaves this learning room; you do not need to open it to answer.",
+      "passage": "WORD HELP · high mountain forest = Hochgebirgswald; bamboo = Bambus; leaf tip / shoot = Blattspitze / junger Trieb; coat = Fell; moss / lichen = Moos / Flechte; bushy tail = buschiger Schwanz; keep its balance = das Gleichgewicht halten. You may use “Red pandas live …”, “They mainly eat …” or “Their tail helps …”. For D, use this order: Organisation. (n.d.). Page title. Retrieved date, from full page address. The source link leaves this learning room; you do not need to open it to answer.",
       "stagedUpdate": {
         "kind": "variant",
-        "mainLabel": "A–C",
+        "mainLabel": "A–D",
+        "markerKey": "en-red-panda-source-line-update-gezeigt",
         "childPrintAfterUnlock": true,
-        "buttonLabel": "A–C festhalten und Bildunterschrift zeigen",
-        "text": "OPTIONAL D AFTER A–C · The nature room needs a short display caption. Use one useful fact from the card in no more than 12 English words. Do not add an unsupported claim. The six extra points are separate."
+        "buttonLabel": "A–D festhalten und Bildunterschrift zeigen",
+        "text": "OPTIONAL E AFTER A–D · The nature room needs a short display caption. Use one useful fact from the card in no more than 12 English words. Do not add an unsupported claim. The six extra points are separate."
       },
       "tasks": [
         {
           "id": "en-red-panda-plan",
           "kind": "reflection",
           "points": 4,
-          "writingLines": 8,
+          "writingLines": 6,
           "inputRows": 8,
           "adultOnlySolution": true,
           "prompt": "A · Plan a field-guide label (4 main points). Write one short note for each part: Home, Food, Coat or tail, and one fact to remember. Notes may be in English or German. Use only the card and do not compare the red panda with another animal.",
@@ -16660,7 +16668,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "id": "en-red-panda-guide",
           "kind": "reflection",
           "points": 12,
-          "writingLines": 12,
+          "writingLines": 9,
           "inputRows": 12,
           "adultOnlySolution": true,
           "prompt": "B · Write the guide label (12 main points). Under the heading “Red panda”, try four to six short English sentences for younger visitors. Explain the high mountain forest home and bamboo under the trees; say that bamboo is the main food and name leaf tips plus tender shoots when available. Choose the coat or tail and explain its function from the card. Order the facts helpfully. Do not invent a fact or write “always” about every red panda. A different clear sentence count is okay.",
@@ -16681,7 +16689,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "id": "en-red-panda-revise",
           "kind": "reflection",
           "points": 4,
-          "writingLines": 8,
+          "writingLines": 5,
           "inputRows": 8,
           "adultOnlySolution": true,
           "draftReferenceTaskId": "en-red-panda-guide",
@@ -16694,20 +16702,37 @@ window.LOTTE_CATALOG = Object.freeze({
           ]
         },
         {
+          "id": "en-red-panda-source-line",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 4,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "D · Give your source line (5 main points). At the end of your guide, use the source record above. Write in this order: organisation, (n.d.), page title, retrieval date, complete page address. Your line may wrap. Do not invent a publication date.",
+          "sample": "Smithsonian's National Zoo and Conservation Biology Institute. (n.d.). Red panda. Retrieved October 25, 2026, from https://nationalzoo.si.edu/animals/red-panda",
+          "criteria": [
+            "1 point: the named organisation comes first.",
+            "1 point: (n.d.) is in the publication-date position; no guessed year.",
+            "1 point: Red panda appears as the page title in the third position.",
+            "1 point: Retrieved October 25, 2026 appears after the title.",
+            "1 point: the complete official URL ends the line. Award each field only in its required position; do not deduct twice for the same misplaced field. Accept harmless punctuation and line wrapping."
+          ]
+        },
+        {
           "id": "en-red-panda-caption",
           "kind": "reflection",
           "points": 6,
           "writingLines": 5,
           "inputRows": 5,
           "adultOnlySolution": true,
-          "prompt": "Optional D after A–C (6 separate extra points). Write one useful display caption in 12 English words or fewer for younger visitors. Use one fact from the card; do not invent a claim.",
+          "prompt": "Optional E after A–D (6 separate extra points). Write one useful display caption in 12 English words or fewer for younger visitors. Use one fact from the card; do not invent a claim.",
           "sample": "Red pandas eat bamboo leaf tips. Other short accurate captions count.",
           "criteria": [
             "2 extra points: one accurate card fact.",
             "1 extra point: useful choice for a younger visitor.",
             "1 extra point: clear, simple English.",
             "1 extra point: 12 words or fewer.",
-            "1 extra point: no unsupported claim. These are separate from A–C."
+            "1 extra point: no unsupported claim. These are separate from A–D."
           ]
         }
       ],
@@ -16715,7 +16740,7 @@ window.LOTTE_CATALOG = Object.freeze({
         "validFor": "2027/28",
         "gradeBand": "8",
         "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. §2.2.4/PDF-S. 29–30: Beschreiben von Lebewesen und adressatenbezogenes Planen, Schreiben und Überarbeiten als Ziel bis Ende Klasse 8; hier nur freiwilliger gestützter Vorgriff.",
-        "checkedAt": "2026-10-24"
+        "checkedAt": "2026-10-25"
       }
     },
     {

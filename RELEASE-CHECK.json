@@ -1,14 +1,13 @@
 {
-  "builtAt": "2026-10-25T11:34:40.640Z",
-  "releaseVersion": "2026.10.25-m6umfragen.1",
-  "newTopicIds": [
-    "ma-m6-wahlumfragen"
-  ],
+  "builtAt": "2026-10-26T02:18:01.178Z",
+  "releaseVersion": "2026.10.26-enwredpandasource.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Mathematik M6: freiwilliger Ende-8-Teilfall zu zwei vollständig erfundenen Wahlumfragen. Auswahlweg, Bezugsmenge, Nichtantworten und Prozentpunkte mit 20 Haupt- plus sechs getrennten Transferpunkten.",
-    "180 Themen und 818 reguläre Aufgaben. Keine echte Wahl, Befragung, Kinderleistung oder bestätigte Klasse-7-Unterrichtsfolge; keine Jahresvollabdeckung."
+    "Englisch: Das bestehende Roter-Panda-Thema erhält eine angeleitete Quellenzeile als Aufgabe D (5 Hauptpunkte). Die freiwillige Bildunterschrift ist nun E und erscheint erst nach A–D.",
+    "Ältere Browserantworten bleiben erhalten; der frühere A–C-Freischaltmarker öffnet E nicht vor der neuen Quellenaufgabe. Kinderdruck vor Freischaltung zwei A4-Seiten, danach drei mit E auf einer getrennten Zusatzseite; Erwachsenenbogen zwei Seiten.",
+    "180 Themen und 819 reguläre Aufgaben. Freiwilliger Ende-8-Vorgriff; keine Aussage über die aktuelle Unterrichtsfolge oder tatsächliche Kinderleistung."
   ],
-  "rollbackCommit": "e8902f9feeaa7dbd18aea8ebbd4b89e7db7e338a",
+  "rollbackCommit": "700bb40e029475e0a137d68d66e1dfccec129632",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",

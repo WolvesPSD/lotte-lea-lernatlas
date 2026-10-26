@@ -1,15 +1,13 @@
 {
-  "builtAt": "2026-10-26T02:55:15.082Z",
-  "releaseVersion": "2026.10.26-m9ohne.1",
-  "newTopicIds": [
-    "ma-m9-wurzeln-ohne-hilfe"
-  ],
+  "builtAt": "2026-10-26T03:06:34.498Z",
+  "releaseVersion": "2026.10.26-m9ohne.2",
+  "newTopicIds": [],
   "changeLog": [
-    "Mathematik: freiwilliger Ende-8-Ausblick „Wurzeln zuerst ohne Hilfsmittel“ mit vier einfachen Wurzeln, Potenzproben, Schranken und begründeter Rechnerentscheidung. A–C zählen 20 Lernpunkte; ein erst später sichtbarer Transfer zählt sechs getrennte Zusatzpunkte.",
-    "Ein unbepunkteter Papier-/Beobachtungsweg trennt tatsächlichen Erstversuch und spätere Hilfe. App-Eingaben oder Selbstangaben beweisen keinen Hilfsmittelverzicht. Die Klasse-7-Unterrichtsfolge bleibt unbekannt.",
-    "182 Themen und 828 reguläre Aufgaben. Keine früheren Themen, Assets, Kontaktadresse oder Lernstände geändert."
+    "Mathematik M9: Beim ersten Versuch ohne Hilfsmittel zuerst das lösungsfreie Kinderblatt drucken oder A–C samt Kontrollquadraten vollständig auf Papier übertragen; erst dann das Handy weglegen.",
+    "Antworten werden nach dem Papierversuch in die App eingetragen. Bearbeitung nur am Bildschirm ist normale Übung ohne nachgewiesenen Hilfsmittelverzicht.",
+    "182 Themen und 828 reguläre Aufgaben. Alle anderen Themen, Assets, Kontaktadresse und Lernstände unverändert."
   ],
-  "rollbackCommit": "e3662cb64d09ff74ce48a24d646b7e68dd7f130f",
+  "rollbackCommit": "01e4026178564992c5bb80727203e059b25f2c16",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",

@@ -4489,8 +4489,8 @@ window.LOTTE_CATALOG = Object.freeze({
       "scope": "Freiwilliger Ausblick auf ein Ende-Klasse-8-Ziel. Vier einfache Quadrat- und Kubikwurzeln, Potenzproben, Schranken und eine eigene Rechnerentscheidung. Lottes aktuelle Unterrichtsfolge ist unbekannt; die App kann den tatsächlichen Hilfsmittelverzicht nicht prüfen.",
       "levelStatus": "grade8-outlook",
       "released": true,
-      "prerequisite": "Hilfreich sind Quadrate, Kubikzahlen, Brüche und die Bedeutung von Quadrat- und Kubikwurzel. √x meint für x ≥ 0 die nichtnegative Quadratwurzel. Bearbeite A–C zuerst auf Papier ohne Taschenrechner, Handy, Formelkarte oder Erwachsenenhinweis. Wenn du später Hilfe nutzt, markiere ab welcher Stelle. Ein getippter Text beweist nicht, dass der erste Versuch wirklich ohne Hilfe entstand; eine betreuende Person kann das nur bei tatsächlicher Beobachtung festhalten. 20 Hauptpunkte und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
-      "introduction": "Arbeite die erste Runde A–C auf Papier. Schreibe zu jeder Wurzel die passende Potenzprobe. In C sind vier Kontrollquadrate als erlaubte Daten gegeben; sie sind keine Rechnerhilfe. Wenn du eine Hilfe später verwendest, notiere dies ehrlich und verbessere danach weiter. Eine richtige getippte Lösung allein belegt keine hilfsmittelfreie Leistung.",
+      "prerequisite": "Hilfreich sind Quadrate, Kubikzahlen, Brüche und die Bedeutung von Quadrat- und Kubikwurzel. √x meint für x ≥ 0 die nichtnegative Quadratwurzel. Für den ersten Versuch ohne Hilfsmittel: Drucke das lösungsfreie Kinderblatt oder schreibe A–C samt Kontrollquadraten vollständig auf Papier ab. Lege erst danach Handy, Taschenrechner und Formelkarte weg und bearbeite A–C ohne Erwachsenenhinweis. Trage deine Ergebnisse erst nach diesem Papierversuch in die App ein. Wenn du später Hilfe nutzt, markiere ab welcher Stelle. Ein getippter Text beweist keinen Hilfsmittelverzicht; eine betreuende Person kann ihn nur bei tatsächlicher Beobachtung festhalten. 20 Hauptpunkte und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "introduction": "Bereite zuerst das lösungsfreie Kinderblatt oder eine vollständige Papierabschrift von A–C mit den vier Kontrollquadraten vor. Lege dann das Handy weg und bearbeite A–C auf Papier; schreibe zu jeder Wurzel die passende Potenzprobe. Die Kontrollquadrate sind erlaubte Aufgabendaten. Trage die Antworten danach in die App ein. Wenn du Hilfe verwendest, notiere ab wann und verbessere weiter. Eine richtige getippte Lösung allein belegt keine hilfsmittelfreie Leistung.",
       "passage": "KONTROLLDATEN FÜR C · 7² = 49; 8² = 64; 7,05² = 49,7025; 7,1² = 50,41. Gesucht ist die Länge √50 cm. Für eine nichtnegative Zahl ist √ die nichtnegative Quadratwurzel. „Exakt“ ist ein Wurzelausdruck oder eine genaue Zahl; eine gerundete Dezimalzahl ist nur eine Näherung.",
       "stagedUpdate": {
         "kind": "variant",
@@ -4570,12 +4570,12 @@ window.LOTTE_CATALOG = Object.freeze({
       "practice": {
         "unscored": true,
         "title": "Echten Erstversuch getrennt beobachten",
-        "childNote": "Nur wenn es für dich passt: Bearbeite A–C zuerst auf Papier ohne die genannten Hilfen. Markiere danach, ab wann du doch Hilfe genutzt hast. Wenn niemand den Erstversuch tatsächlich gesehen hat, wird Hilfsmittelfreiheit als „nicht beobachtet“ festgehalten. Schicke kein Foto und keine persönlichen Lernnotizen an die App.",
+        "childNote": "Nur wenn es für dich passt: Drucke vor dem Weglegen des Handys das lösungsfreie Kinderblatt oder schreibe A–C und die Kontrollquadrate vollständig ab. Bearbeite den ersten Versuch dann auf Papier ohne die genannten Hilfen und trage Antworten erst danach in die App ein. Wenn du die Aufgaben nur am Handybildschirm bearbeitest, ist das eine normale Übung ohne nachgewiesenen Hilfsmittelverzicht. Markiere spätere Hilfe ehrlich. Ohne tatsächliche Beobachtung heisst es „nicht beobachtet“. Schicke keine Fotos oder persönlichen Lernnotizen an die App.",
         "childSteps": [
-          "Lege Rechner, Handy und Formelkarte vor A weg. Bitte noch nicht um einen Hinweis.",
-          "Schreibe A–C mit eigenen Potenzproben und Schranken auf Papier; die gegebenen Kontrollquadrate darfst du lesen.",
-          "Markiere die Stelle einer später genutzten Hilfe ehrlich und verbessere danach weiter.",
-          "Vergleiche erst danach mit einer erwachsenen Person die getrennte Lösung und deine Rechnerentscheidung."
+          "Drucke das lösungsfreie Kinderblatt oder schreibe A–C samt vier Kontrollquadraten vollständig auf Papier ab.",
+          "Lege erst danach Rechner, Handy und Formelkarte weg; bitte noch nicht um einen Hinweis.",
+          "Löse A–C auf Papier mit eigenen Potenzproben und Schranken. Trage die Antworten anschliessend in die App ein.",
+          "Markiere spätere Hilfe ehrlich und vergleiche danach mit einer erwachsenen Person die getrennte Lösung und deine Rechnerentscheidung."
         ],
         "adultNote": "Nur eine wirklich anwesende erwachsene Person kann für den beobachteten Ausschnitt notieren, ob der Erstversuch ohne die genannten Hilfen stattfand. Ohne Beobachtung „nicht beobachtet“ statt „bestanden“. Die App-Eingabe und der Ausdruck sind kein Beweis. Keine privaten Kinderantworten, Zeiten oder Leistungsprofile in allgemeine Projektdateien oder Cloud hochladen; kein amtlicher Notenschlüssel.",
         "adultCriteria": [

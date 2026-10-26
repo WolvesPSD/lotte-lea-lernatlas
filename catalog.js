@@ -16059,8 +16059,8 @@ window.LOTTE_CATALOG = Object.freeze({
       "releaseEvidence": {
         "validFor": "Freiwilliger Papierfall aus dem Plan 2016; aktueller Sportplan 2026 gilt für Klasse 7 ab 2026/27, Schulspielwahl offen",
         "gradeBand": "7/8, freiwillig; kein aktuelles Schulspiel belegt",
-        "competencyRef": "Historische Ableitung: Sport Gymnasium 2016, PDF-S. 9–10 und 21–27. Aktueller Sportplan 2026, PDF-S. 7–8 und 21–22: Bewegungsfeld Spielen verbindlich, konkrete Spiele nach Fachkonferenz; Basketball auf PDF-S. 30–32 nur beispielhaft. FIBA Official Basketball Rules 2026 v1.1, Art. 2.5.1/2.5.4, 16.2.1, 22.2, 23.1–23.2 und 24.1–24.2 nur als Regelkarte für den fiktiven Papierfall.",
-        "checkedAt": "2026-10-22"
+        "competencyRef": "Historische Ableitung: Sport Gymnasium 2016, PDF-S. 9–10 und 21–27. Aktueller Sportplan 2026, PDF-S. 12: Bewegungsfeld Spielen verbindlich; PDF-S. 26: konkrete Spiele nach Fachkonferenz, Basketball nur als Beispiel eines Zielschussspiels. FIBA Official Basketball Rules 2026 v1.1, Art. 2.5.1/2.5.4, 16.2.1, 22.2, 23.1–23.2 und 24.1–24.2 nur als Regelkarte für den fiktiven Papierfall.",
+        "checkedAt": "2026-10-26"
       },
       "levelLabel": "Freiwillig · Schulspielwahl offen"
     },
@@ -16189,6 +16189,266 @@ window.LOTTE_CATALOG = Object.freeze({
         "validFor": "Sport 2026 ab Klasse 7 im Schuljahr 2026/27",
         "gradeBand": "7/8, freiwilliger B2-SS07-Papier-Teilfall",
         "competencyRef": "Sport Gymnasium Erprobung 2026, B2 Spielen, PDF-S. 32/Drucks. 27: Entwicklungen im Zusammenhang mit Sportspielen, z. B. kommerzielle Aspekte und Verhalten von Fans, wiedergeben und persönliche Konsequenzen ableiten. Gemeinsame Selbst-/Sozialkompetenz für 7/8; Schulspielwahl offen.",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "sp-b1-ss07-mannschaften",
+      "subjectId": "sp",
+      "title": "Zwei Mannschaftsaufträge auf Papier",
+      "scope": "Freiwilliger schriftlicher Klasse-7/8-Teilfall zu B1-SS07 im gültigen Sportplan 2026. Er unterscheidet ähnliche und gemischte Mannschaften an erfundenen Punktkarten und plant ein Gespräch. Tatsächliche Mannschaftsbildung, Kooperation und Bewegung bleiben Aufgabe einer betreuten Sportstunde; Lottes Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade78-flex",
+      "levelLabel": "Klasse 7/8 · Mannschaftsmodell, Praxis offen",
+      "released": true,
+      "prerequisite": "Die Karten A–F und ihre Punktwerte sind erfunden. Sie beschreiben keine Kinder, Gesundheit, Eignung oder künftige Sportleistung. Gib keine echten Namen oder Leistungsdaten ein und bilde nach diesen Zahlen keine reale Schulmannschaft. Für den Grundteil gibt es 20 Lernpunkte, für die spätere Änderung sechs getrennte Zusatzpunkte; das ist keine Sportnote. Offene Antworten brauchen menschliche Rückmeldung.",
+      "introduction": "Zwei erfundene Aufträge verlangen zwei verschiedene Einteilungen. In jedem Auftrag entstehen zwei Mannschaften mit je drei Karten; A–F kommen je Auftrag genau einmal vor. Die Zahlen sind nur Modellwerte. Bei X sollen die Mitglieder innerhalb jeder Mannschaft nahe beieinanderliegen; die Teamsummen müssen nicht gleich sein. Bei Y soll jede Mannschaft niedrige und hohe Werte enthalten und beide Summen sollen möglichst gleich sein. Gleiche Zahlen machen echte Sportteams weder automatisch fair noch sicher.",
+      "passage": "ERFUNDENE PUNKTKARTEN · A = 2, B = 3, C = 4, D = 6, E = 7, F = 8.\n\nAUFTRAG X · Rückmeldung unter ähnlich startenden Karten: Die Mitglieder innerhalb einer Mannschaft sollen nach diesen Beispielzahlen möglichst nah beieinanderliegen. Die zwei Mannschaften müssen nicht dieselbe Summe haben.\n\nAUFTRAG Y · Gemischter Modellvergleich: Jede Mannschaft soll niedrige und hohe Beispielzahlen enthalten. Die Summen beider Mannschaften sollen in diesem vereinfachten Papiermodell möglichst gleich sein.\n\nFür eine gedachte Papierauswertung gibt es zusätzlich drei erfundene Gesprächspersonen P, Q und R. Sie sind nicht die Punktkarten A–F. Niemand führt damit eine reale Sportaufgabe aus.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und neue Zahlenlage zeigen",
+        "text": "SPÄTERE ZUSATZKARTE NACH A–D · Nur die erfundene Karte B ändert sich von 3 auf 5 Beispielpunkte. Alle anderen Karten bleiben gleich. Überlege Auftrag Y mit zwei neuen gemischten Dreiergruppen erneut. Sechs Zusatzpunkte zählen getrennt."
+      },
+      "tasks": [
+        {
+          "id": "sp-b1-ss07-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Aufträge unterscheiden (4 Hauptpunkte): Welcher Auftrag verlangt leistungsähnliche, welcher gemischte Mannschaften? Begründe jede Zuordnung mit einer Formulierung aus der Karte und erkläre, warum X und Y verschiedene Einteilungen brauchen.",
+          "sample": "X verlangt leistungsähnliche Gruppen: Die Werte sollen innerhalb jeder Mannschaft nah beieinanderliegen. Y verlangt gemischte Gruppen: Jede Mannschaft soll niedrige und hohe Werte enthalten und die Summen sollen möglichst gleich sein. Eine X-Gruppe kann intern ähnlich sein, ohne Y zu erfüllen.",
+          "criteria": [
+            "1 Punkt für X = leistungsähnlich.",
+            "1 Punkt für den X-Beleg „innerhalb einer Mannschaft möglichst nah“.",
+            "1 Punkt für Y = gemischt.",
+            "1 Punkt für den Gegensatz mit Y-Beleg: niedrige und hohe Werte je Mannschaft und möglichst gleiche Summen statt Nähe innerhalb der Mannschaft."
+          ]
+        },
+        {
+          "id": "sp-b1-ss07-b",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Ähnliche Gruppen (4 Hauptpunkte): Teile A–F für X in zwei Dreiermannschaften ein. Gib in beiden Gruppen die kleinste und grösste Beispielzahl an. Begründe damit, warum die Werte jeweils nahe beieinanderliegen. Jede Karte darf nur einmal vorkommen.",
+          "sample": "A/B/C mit 2, 3, 4 und D/E/F mit 6, 7, 8. In beiden Gruppen beträgt die Spanne zwischen kleinster und grösster Zahl 2. Die Mannschaftsnamen oder die Reihenfolge der Karten dürfen vertauscht werden; eine grosse Differenz der Teamsummen ist bei X kein Fehler.",
+          "criteria": [
+            "2 Punkte für zwei vollständige Dreiergruppen mit allen sechs Karten einmal und überzeugend kleiner Innen-Spanne.",
+            "1 Punkt für beide zutreffenden Min-Max-Angaben.",
+            "1 Punkt für die Begründung mit der Innen-Spanne 2 in beiden Gruppen."
+          ]
+        },
+        {
+          "id": "sp-b1-ss07-c",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C · Gemischte Gruppen (6 Hauptpunkte): Teile A–F für Y neu in zwei Dreiermannschaften ein. Rechne beide Summen aus. Zeige, woran du die Mischung erkennst und warum gleiche Summen noch keine faire echte Sportmannschaft beweisen. Prüfe, ob deine Summen hier so nah wie möglich beieinanderliegen.",
+          "sample": "A/D/E ergibt 2+6+7=15, B/C/F ergibt 3+4+8=15. Beide Mannschaften enthalten niedrige und hohe Modellwerte; 15/15 ist hier die erreichbare optimale Balance. Echte Fähigkeiten, Motivation, Sicherheit und Zusammenarbeit lassen sich aus solchen Summen nicht ablesen.",
+          "criteria": [
+            "1 Punkt für zwei vollständige gemischte Dreiergruppen mit jeder Karte einmal.",
+            "1 Punkt für die erreichbare optimale Balance 15/15; bei schlechterer Balance entfällt dieser Punkt.",
+            "2 Punkte für die beiden ausgeschriebenen, richtigen Summen.",
+            "1 Punkt für den konkreten Mix aus niedrigen und hohen Werten.",
+            "1 Punkt für eine menschliche Modellgrenze jenseits der Summen."
+          ]
+        },
+        {
+          "id": "sp-b1-ss07-d",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "D · Zusammenarbeit nur planen (6 Hauptpunkte): Für eine gedachte Papierauswertung gibt es P, Q und R; sie sind keine Karten A–F. Gib allen drei eine Rolle. Zeige konkret, wer in Runde 2 welche andere Rolle übernimmt. Schreibe einen respektvollen Vorschlag und eine darauf bezogene Antwort. Warum ist dein schriftlicher Plan noch keine beobachtete Kooperation im Sport?",
+          "sample": "Runde 1: P liest, Q rechnet, R prüft Einwände. Runde 2: P rechnet, Q prüft, R liest. „Wollen wir für X A/B/C und D/E/F vergleichen?“ – „Ja, beide Innen-Spannen sind 2; für Y brauchen wir aber neue Gruppen.“ Ein Plan beweist weder ein wirkliches Gespräch noch Zusammenarbeit in einer Sportmannschaft.",
+          "criteria": [
+            "1 Punkt für drei nachvollziehbare Rollen von P/Q/R.",
+            "1 Punkt für einen konkreten Wechsel aller drei Rollen in Runde 2.",
+            "2 Punkte für einen respektvollen Vorschlag und eine inhaltlich darauf bezogene Antwort.",
+            "2 Punkte für die Grenze: weder wirkliches Gespräch noch Kooperation in einer Sportmannschaft ist damit beobachtet."
+          ]
+        },
+        {
+          "id": "sp-b1-ss07-e",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Zusatzkarte nach A–D · sechs getrennte Punkte: Für Auftrag Y hat B nun 5 statt 3. Berechne die neue Gesamtsumme und ihre Hälfte. Bilde zwei neue gemischte Dreiermannschaften mit jeder Karte genau einmal und rechne beide Summen nach. Nenne eine Grenze dieses Zahlenmodells für echte Menschen.",
+          "sample": "Neue Werte A2, B5, C4, D6, E7, F8: Gesamt 32, Hälfte 16. A/D/F ergibt 2+6+8=16; B/C/E ergibt 5+4+7=16. Beide Gruppen sind gemischt. Einzelzahlen belegen weder aktuelle Fähigkeit noch Motivation, Zusammenarbeit oder sicheren Sport.",
+          "criteria": [
+            "1 Zusatzpunkt für Gesamt 32.",
+            "1 Zusatzpunkt für die Hälfte 16.",
+            "1 Zusatzpunkt für zwei vollständige gemischte Dreiergruppen mit jeder Karte einmal.",
+            "1 Zusatzpunkt für optimale Balance 16/16; bei schlechterer Balance entfällt dieser Punkt.",
+            "1 Zusatzpunkt für beide richtigen Summen.",
+            "1 Zusatzpunkt für eine Grenze des Zahlenmodells für reale Personen."
+          ]
+        }
+      ],
+      "practice": {
+        "unscored": true,
+        "title": "Kooperation nur im regulären Sportunterricht beobachten",
+        "childNote": "Nur falls deine Sportlehrkraft ohnehin einen passenden Mannschaftsauftrag gibt. Die Papierkarten bestimmen keine echten Teams. Du brauchst weder zusätzliche Bewegung noch Namen, Noten oder Fotos in dieser App festzuhalten.",
+        "childSteps": [
+          "Kläre im Unterricht, welche wirkliche Aufgabe und welche Regeln gelten; die Lehrkraft bildet oder bestätigt die Teams.",
+          "Höre bei der regulären Gruppenaufgabe auf andere Vorschläge und beschreibe deinen eigenen sachlich.",
+          "Wechselt Rollen oder Aufgaben nur so, wie die Lehrkraft es vorgibt und sicher begleiten kann.",
+          "Trenne danach auf einem privaten Blatt: Was habe ich wirklich getan, und was war nur mein Papierplan?"
+        ],
+        "adultNote": "Nur eine tatsächlich anwesende Fachperson kann Kooperation bei einer schulischen Aufgabe beurteilen. Ohne Unterrichtsbeobachtung „nicht erhoben“ festhalten. Keine echten Kindernamen, Leistungen, Gesundheitsdaten oder Fotos in diese Projektdateien oder den öffentlichen Katalog übernehmen. Papierpunkte sind keine Sportnote.",
+        "adultCriteria": [
+          "Schulische Aufgabe und Beobachtungsrahmen vorhanden oder ausdrücklich „nicht erhoben“.",
+          "Echte Verständigung und Kooperation nur für beobachtete Handlungen beschreiben, nicht aus Textantworten ableiten.",
+          "Leistungseinteilung und Sicherheit nach Lehrkraftentscheidung, nie nach den fiktiven Punktkarten beurteilen."
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "Sport 2026 ab Klasse 7 im Schuljahr 2026/27",
+        "gradeBand": "7/8, freiwilliger B1-SS07-Schriftteil",
+        "competencyRef": "Sport Gymnasium Erprobung 2026, B1 Laufen, Springen, Werfen, PDF-S. 23/Drucks. 18: je nach Aufgabenstellung leistungshomogene bzw. heterogene Mannschaften bilden und sich in ihnen kooperierend verhalten. Die Zeile ist gemeinsame Selbst-/Sozialkompetenz. Der App-Fall prüft nur eine erfundene Einteilungsentscheidung und Gesprächsplanung, keine reale Kooperation.",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
+      "id": "sp-b2-r08-z07-taktikvergleich",
+      "subjectId": "sp",
+      "title": "Angriff und Abwehr in zwei Modellspielen",
+      "scope": "Freiwilliger schriftlicher Klasse-7/8-Teilfall zum gültigen Sportplan 2026, B2-R08 und B2-Z07. Zwei erfundene Spielkarten lassen Angriffs- und Abwehrvarianten begründen. Die Schulspiele, vereinfachten Regeln und Unterrichtsfolge sind unbekannt; wirkliche Taktikhandlung und Sportleistung werden nicht geprüft.",
+      "levelStatus": "grade78-flex",
+      "levelLabel": "Klasse 7/8 · Taktikmodell, Schulspiele offen",
+      "released": true,
+      "prerequisite": "Lies die zwei erfundenen Regeln und Lagen genau. Keine der Karten ist eine Sport- oder Sicherheitsanweisung; du musst nichts spielen, filmen oder über echte Mitschüler berichten. Benenne Möglichkeiten und Grenzen statt einen Punkt oder Ballgewinn zu versprechen. 20 Hauptpunkte und sechs spätere Zusatzpunkte sind Lernfeedback, keine Sportnote. Offene Antworten brauchen menschliche Rückmeldung.",
+      "introduction": "Bild A zeigt zwei erfundene Spielkarten R und Z, nicht eine Beobachtung echter Personen. Auf dem Handy im Bild nach links wischen, um Z zu sehen; der Textzugang darunter ist gleichwertig. Die Skizze ist nicht massstabsgetreu; die vollständigen Regeln und Lagen stehen auch als Text darunter. Angriff bedeutet eine mögliche Punktchance vorbereiten, Abwehr sie erschweren. „Frei“ gilt nur für den beschriebenen Augenblick. Beschreibe bei Varianten immer eine Bedingung, eine mögliche Wirkung und eine Grenze; aus dem Text folgt kein sicherer Spielausgang.",
+      "diagram": {
+        "path": "assets/sp-b2-rz-taktikmodell.svg",
+        "alt": "Bild A mit zwei erfundenen Spielkarten: In R steht Rot rechts hinten und links vorn ist eine Feldfläche; in Z hat Blau A den Ball, B ist von Rot 1 gedeckt, C ist frei und Rot 2 steht in der Mitte. Rot 3 ist nicht eingezeichnet; seine Position ist unbekannt.",
+        "caption": "Bild A · Eigene schematische Skizze zu R und Z. Auf dem Handy im Bild nach links wischen, um Z zu sehen; der Textzugang ist gleichwertig. In Z ist die dritte rote Person nicht eingezeichnet; ihre Position ist unbekannt. Die Zeichnung ist nicht massstabsgetreu.",
+        "textAlternative": "R: Rot steht rechts hinten im roten Feld; dessen linke vordere und rechte hintere Fläche sind unterscheidbar. Z: Blau-A hat den Ball; Blau-B und Blau-C sind in der Zielzone. Rot-1 steht nah bei B, der jetzt gedeckt ist. C ist jetzt frei. Rot-2 steht in der Mitte. Rot-3 gehört zum 3-gegen-3-Spiel, ist aber nicht eingezeichnet; seine Position ist unbekannt. Bild und Text sagen nichts über Ballflug, spätere Bewegung oder Erfolg."
+      },
+      "passage": "KARTE R · Blau und Rot spielen 1 gegen 1 über eine Linie. Ein Punkt für Blau ist möglich, wenn der Ball nach einem Rückkontakt innerhalb des roten Feldes landet und Rot ihn nicht mehr zurückspielt. Berührungen zwischen Personen sind ausgeschlossen. Das rote Feld hat eine linke vordere und eine rechte hintere Fläche. Rot steht jetzt rechts hinten. Vor einem späteren Ball könnte Rot entweder A: dort bleiben oder B: sich zur Feldmitte orientieren, um den Weg nach links vorn zu verkürzen. Auch von der Mitte kann Rot nicht jede Fläche sicher abdecken. Ballflug und Erfolg sind unbekannt.\n\nKARTE Z · Blau spielt 3 gegen 3. Ein Punkt ist möglich, wenn eine blaue Person einen Pass innerhalb der Zielzone kontrolliert annimmt. Blau darf den Ball behalten und die Lage neu prüfen; eine Zeitregel gibt es nicht. Berührungen oder Wegdrängen sind ausgeschlossen. Blau-A hat den Ball; B und C stehen in der Zielzone. Rot-1 steht nah bei B, der jetzt gedeckt ist. C ist jetzt frei; Rot-2 steht in der Mitte. Die dritte rote Person ist nicht eingezeichnet; ihre Position ist unbekannt. Vor einem späteren Pass könnte Rot-2 entweder A: zur Passlinie auf C rücken oder B: in der Mitte bleiben und beide möglichen Passlinien beobachten. Keine Variante garantiert Ballgewinn. Was B und C danach tun und ob ein Pass gelingt, ist offen.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und neue Lage zeigen",
+        "text": "SPÄTERE ÄNDERUNG NACH A–D · Nur Karte Z ändert sich: Rot-2 rückt vor dem nächsten Pass tatsächlich zu C und erschwert dessen Passlinie. Rot-1 bleibt bei B. Blau-A behält den Ball; die Modellregeln ändern sich nicht. Sechs Zusatzpunkte zählen getrennt."
+      },
+      "tasks": [
+        {
+          "id": "sp-b2-rz-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · R-Angriff (4 Hauptpunkte): Nenne für Rots jetzige Stellung eine gut begründbare Angriffsfläche für Blau mit zwei Kartenbelegen. Beschreibe eine andere, bedingte Variante für den Fall, dass Rot vor einem späteren Ball zur Mitte wechselt. Welche neue Beobachtung brauchst du vor der Entscheidung?",
+          "sample": "Jetzt ist links vorn plausibel: Rot steht rechts hinten, und links vorn gehört zum roten Feld, in dem der Ball nach der Modellregel landen müsste. Wechselt Rot später zur Mitte, könnte Blau rechts hinten prüfen, sofern die Fläche tatsächlich frei bleibt. Vor dem Ball braucht Blau einen neuen Blick auf Rots Position und den freien Raum; ein Punkt ist nicht sicher.",
+          "criteria": [
+            "1 Punkt für links vorn als jetzige Angriffsfläche.",
+            "1 Punkt für Rot rechts hinten als Kartenbeleg.",
+            "1 Punkt für links vorn als rote Feldfläche und mögliche Punktzone.",
+            "1 Punkt für die bedingte andere Variante mit erneuter Beobachtung von Rot und Feldraum; kein Erfolgsversprechen."
+          ]
+        },
+        {
+          "id": "sp-b2-rz-b",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · R-Abwehr (5 Hauptpunkte): Beschreibe R-Abwehr A und B mit je einem möglichen Vorteil und einer Grenze. Warum verhindert keine der beiden Varianten einen Punkt für Blau mit Sicherheit? Beurteile nur die erfundene Lage, keine Bewegungstechnik.",
+          "sample": "A bleibt rechts hinten und könnte dort einen Ball leichter erreichen, lässt aber links vorn als mögliche Lücke. B orientiert sich zur Mitte und verkürzt möglicherweise den Weg nach links vorn, kann aber rechts hinten nicht gleichzeitig sicher abdecken. Ballflug und Reaktion bleiben offen; keine Variante garantiert einen verhinderten Punkt.",
+          "criteria": [
+            "1 Punkt für möglichen Vorteil von A rechts hinten.",
+            "1 Punkt für A-Grenze links vorn.",
+            "1 Punkt für möglichen Vorteil von B zur Mitte.",
+            "1 Punkt für B-Grenze rechts hinten.",
+            "1 Punkt für Unsicherheit durch unbekannten Ballflug und Reaktion."
+          ]
+        },
+        {
+          "id": "sp-b2-rz-c",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 11,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "C · Z-Angriff und Abwehr (7 Hauptpunkte): Nenne eine jetzt gut begründbare Passadresse und die genaue Punktbedingung. Beschreibe zwei verschiedene Varianten von Rot-2 mit je einem möglichen Vorteil und einer Grenze. Falls Rot-2 später C’s Passlinie schliesst, nenne eine bedingte Angriffsreaktion ohne Punktversprechen und ohne Kontaktregel-Verstoss.",
+          "sample": "C ist jetzt frei in der Zielzone; nur eine kontrollierte Annahme in der Zone wäre ein Punkt. Rot-2 könnte zur C-Passlinie rücken und sie erschweren, deckt damit B oder neue Lagen aber nicht automatisch. Bleibt Rot-2 mittig, kann er beide Linien beobachten, schliesst dadurch keine sicher. Wird C später gedeckt, kann Blau-A den Ball regelgemäss behalten, B/C neu beobachten und erst bei wirklich freier Passmöglichkeit handeln.",
+          "criteria": [
+            "1 Punkt für C als jetzt freie Passadresse.",
+            "1 Punkt für kontrollierte Annahme in der Zielzone als Punktbedingung.",
+            "1 Punkt für Z-Abwehr A: C-Passlinie erschweren.",
+            "1 Punkt für A-Grenze: andere Lage/B nicht automatisch gedeckt.",
+            "1 Punkt für Z-Abwehr B: Mitte und beide Linien beobachten.",
+            "1 Punkt für B-Grenze: keine Linie sicher geschlossen.",
+            "1 Punkt für bedingte, kontaktfreie Reaktion mit Ball behalten und B/C neu prüfen; kein garantierter Punkt."
+          ]
+        },
+        {
+          "id": "sp-b2-rz-d",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Unterschiede und Beweisgrenze (4 Hauptpunkte): Nenne in R und in Z je einen konkreten Unterschied zwischen Angriff und Abwehr. Warum beweist eine schriftlich plausible Taktik weder eine ausgeführte Sporthandlung noch Lottes Schulspielwahl? Formuliere eine sachliche Rückfrage an die Sportlehrkraft zu Regeln oder Beobachtungskriterien.",
+          "sample": "In R wählt der Angriff eine mögliche freie Feldfläche, die Abwehr verändert die eigene Feldposition. In Z prüft der Angriff eine freie Person in der Zielzone, die Abwehr erschwert Passlinien oder beobachtet beide. Papierplausibilität beweist weder Ballkontrolle noch reale Reaktion oder Schulspielwahl. Eine Rückfrage wäre: Welche vereinfachten Regeln und Beobachtungskriterien gelten in unserem Unterrichtsspiel?",
+          "criteria": [
+            "1 Punkt für einen R-spezifischen Unterschied.",
+            "1 Punkt für einen Z-spezifischen Unterschied.",
+            "1 Punkt für die Grenze: keine echte Sporthandlung und keine belegte Schulspielwahl.",
+            "1 Punkt für eine konkrete sachliche Rückfrage an die Lehrkraft."
+          ]
+        },
+        {
+          "id": "sp-b2-rz-e",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Änderung nach A–D · sechs getrennte Zusatzpunkte: Rot-2 erschwert nun C’s Passlinie, Rot-1 bleibt bei B. Warum gilt die erste Passidee nicht unverändert? Nenne zwei unterschiedliche nächste Angriffsoptionen, jeweils mit einer Bedingung und der Beobachtung, die du vor dem Pass brauchst. Was bleibt aus dem Text unvorhersagbar?",
+          "sample": "C ist nach der Änderung nicht mehr einfach als frei anzunehmen. Blau-A könnte den Ball behalten und prüfen, ob C sich später wieder freistellt; nötig wäre eine neue Beobachtung von C und der Passlinie. Oder A prüft B erst, wenn B sich von Rot-1 löst; nötig wäre B’s neue Position in der Zone. Gegnerbewegung sowie Pass- und Fangerfolg bleiben unbekannt.",
+          "criteria": [
+            "1 Zusatzpunkt für revidierte C-Passidee.",
+            "2 Zusatzpunkte für zwei verschiedene bedingte, regelzulässige Optionen.",
+            "2 Zusatzpunkte für je eine konkrete nötige Beobachtung zu C und B.",
+            "1 Zusatzpunkt für eine verbleibende Grenze des Textmodells; keine Erfolgsgarantie."
+          ]
+        }
+      ],
+      "practice": {
+        "unscored": true,
+        "title": "Taktik im Schulspiel nur fachkundig beobachten",
+        "childNote": "Die Karten sind nur ein Papiermodell. Falls eure Sportlehrkraft später ohnehin ein passendes Spiel anleitet, gelten ausschliesslich dessen Schulregeln und Sicherheitshinweise. Du brauchst keine zusätzliche Übung, Aufnahme oder privaten Angaben für die App.",
+        "childSteps": [
+          "Frage in einer regulären Stunde, welche Sportspiele und vereinfachten Regeln tatsächlich gelten.",
+          "Beschreibe eine Angriffs- und eine Abwehrmöglichkeit nur für die beobachtete Lage; sage, was du wirklich gesehen hast.",
+          "Besprich eine Änderung mit der Lehrkraft und nenne auch, was aus einer einzelnen Szene offenbleibt.",
+          "Halte auf einem privaten Blatt fest, ob eine Handlung beobachtet wurde oder nur ein Modellgespräch stattfand."
+        ],
+        "adultNote": "Der getrennte Forschungs-Beobachtungsweg ist eine leere Vorlage, keine Datenerhebung in dieser App. Schulspiel, Regelrahmen, Aufsicht und altersgerechte Kriterien legt die Sportlehrkraft fest. Ohne echte Unterrichtsbeobachtung „nicht erhoben“; Textpunkte nie als Spielleistung ausgeben. Keine Namen, Gesundheitsdaten, Videos oder Sportnoten veröffentlichen.",
+        "adultCriteria": [
+          "Tatsächliches Schulspiel und vereinfachte Regeln belegt oder „nicht erhoben“.",
+          "Angriff und Abwehr nur bei real beobachteter Handlung als Praxis beschreiben; eine Papierantwort ist Vorbereitung.",
+          "Situation, Handlung und Ergebnis getrennt halten; keine Garantie aus einer einzelnen Position ableiten."
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "Sport 2026 ab Klasse 7 im Schuljahr 2026/27",
+        "gradeBand": "7/8, freiwilliger B2-R08/Z07-Schriftteil",
+        "competencyRef": "Sport Gymnasium Erprobung 2026, B2 Spielen: PDF-S. 12 verbindliches Feld, PDF-S. 26 Schulspielwahl, PDF-S. 29 Rückschlagspiel und PDF-S. 31 Zielschussspiel: in der 7/8-Spalte einfache Taktikvarianten in Angriff und Abwehr benennen und beschreiben. Die App behandelt nur fiktive Textmodelle, keine reale Spielfähigkeit.",
         "checkedAt": "2026-10-26"
       }
     },

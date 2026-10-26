@@ -1,13 +1,17 @@
 {
-  "builtAt": "2026-10-26T03:06:34.498Z",
-  "releaseVersion": "2026.10.26-m9ohne.2",
-  "newTopicIds": [],
-  "changeLog": [
-    "Mathematik M9: Beim ersten Versuch ohne Hilfsmittel zuerst das lösungsfreie Kinderblatt drucken oder A–C samt Kontrollquadraten vollständig auf Papier übertragen; erst dann das Handy weglegen.",
-    "Antworten werden nach dem Papierversuch in die App eingetragen. Bearbeitung nur am Bildschirm ist normale Übung ohne nachgewiesenen Hilfsmittelverzicht.",
-    "182 Themen und 828 reguläre Aufgaben. Alle anderen Themen, Assets, Kontaktadresse und Lernstände unverändert."
+  "builtAt": "2026-10-26T03:29:06.329Z",
+  "releaseVersion": "2026.10.26-spb1b2model.1",
+  "newTopicIds": [
+    "sp-b1-ss07-mannschaften",
+    "sp-b2-r08-z07-taktikvergleich"
   ],
-  "rollbackCommit": "01e4026178564992c5bb80727203e059b25f2c16",
+  "changeLog": [
+    "Sport 2026 B1-SS07: freiwilliges Mannschaftsmodell mit erfundenen Punktkarten, zwei unterschiedlichen Aufträgen und Gesprächsplanung. 20 Haupt- und sechs spätere Zusatzpunkte; echte Kooperation bleibt schulische Praxis.",
+    "Sport 2026 B2-R08/Z07: freiwilliger Angriff-/Abwehrvergleich für zwei erfundene Spielkarten mit eigener Skizze und vollständigem Textzugang. 20 Haupt- und sechs spätere Zusatzpunkte; Schulspiele und reale Taktikhandlung offen.",
+    "Basketball-Regelkarte: 2026er Lehrplan-Fundstelle für B2-Pflicht und Fachkonferenzwahl auf PDF-S. 12/26 berichtigt; keine Schulspielwahl behauptet.",
+    "184 Themen und 838 reguläre Aufgaben. Andere Themen, frühere Assets, Kontaktadresse und Lernstände unverändert."
+  ],
+  "rollbackCommit": "56ca367d4df2f58a511afe4957f215307c69c806",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -190,7 +194,9 @@
     "mbi-i6-anwendungsfelder",
     "de-szene-wirklich-spielen",
     "sp-b2-ss07-fans-geld",
-    "ma-m9-wurzeln-ohne-hilfe"
+    "ma-m9-wurzeln-ohne-hilfe",
+    "sp-b1-ss07-mannschaften",
+    "sp-b2-r08-z07-taktikvergleich"
   ],
   "subjects": [
     "en",

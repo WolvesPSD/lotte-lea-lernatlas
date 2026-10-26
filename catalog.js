@@ -4483,6 +4483,116 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-m9-wurzeln-ohne-hilfe",
+      "subjectId": "ma",
+      "title": "Wurzeln zuerst ohne Hilfsmittel",
+      "scope": "Freiwilliger Ausblick auf ein Ende-Klasse-8-Ziel. Vier einfache Quadrat- und Kubikwurzeln, Potenzproben, Schranken und eine eigene Rechnerentscheidung. Lottes aktuelle Unterrichtsfolge ist unbekannt; die App kann den tatsächlichen Hilfsmittelverzicht nicht prüfen.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Hilfreich sind Quadrate, Kubikzahlen, Brüche und die Bedeutung von Quadrat- und Kubikwurzel. √x meint für x ≥ 0 die nichtnegative Quadratwurzel. Bearbeite A–C zuerst auf Papier ohne Taschenrechner, Handy, Formelkarte oder Erwachsenenhinweis. Wenn du später Hilfe nutzt, markiere ab welcher Stelle. Ein getippter Text beweist nicht, dass der erste Versuch wirklich ohne Hilfe entstand; eine betreuende Person kann das nur bei tatsächlicher Beobachtung festhalten. 20 Hauptpunkte und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "introduction": "Arbeite die erste Runde A–C auf Papier. Schreibe zu jeder Wurzel die passende Potenzprobe. In C sind vier Kontrollquadrate als erlaubte Daten gegeben; sie sind keine Rechnerhilfe. Wenn du eine Hilfe später verwendest, notiere dies ehrlich und verbessere danach weiter. Eine richtige getippte Lösung allein belegt keine hilfsmittelfreie Leistung.",
+      "passage": "KONTROLLDATEN FÜR C · 7² = 49; 8² = 64; 7,05² = 49,7025; 7,1² = 50,41. Gesucht ist die Länge √50 cm. Für eine nichtnegative Zahl ist √ die nichtnegative Quadratwurzel. „Exakt“ ist ein Wurzelausdruck oder eine genaue Zahl; eine gerundete Dezimalzahl ist nur eine Näherung.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–C festhalten und Transfer zeigen",
+        "text": "FREIWILLIGER TRANSFER NACH A–C · Für n = 5 suchst du eine Quadratzahl und eine Kubikzahl, deren Wurzeln beide 5 sind. Prüfe anschliessend die allgemeine Aussage für jede positive ganze Zahl n und denke über ein negatives n nach. Sechs Zusatzpunkte zählen getrennt."
+      },
+      "tasks": [
+        {
+          "id": "ma-m9-ohne-a",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "A · Vier Wurzeln mit Potenzprobe (8 Hauptpunkte): Bestimme √196, √0,81, ∛343 und ∛(1/8) jeweils exakt. Prüfe jeden Wert mit der zweiten beziehungsweise dritten Potenz. Erkläre bei √196 zusätzlich, warum das Wurzelzeichen hier nicht zwei Vorzeichen meint. Notiere auf deinem Papier, ob dieser Erstversuch ohne Hilfsmittel stattfand; eine Selbstangabe ist noch keine unabhängige Beobachtung.",
+          "sample": "√196 = 14 mit 14² = 196. Die Gleichung x² = 196 hat ±14 als Lösungen, aber √196 ist definitionsgemäss die nichtnegative Wurzel. √0,81 = 0,9 mit 0,9² = 0,81. ∛343 = 7 mit 7³ = 343. ∛(1/8) = 1/2 mit (1/2)³ = 1/8.",
+          "criteria": [
+            "√196 = 14: 1 Punkt für Wert; 1 für 14² = 196 samt Unterschied zur Gleichung mit ±14.",
+            "√0,81 = 0,9: 1 Punkt für Wert und 1 für 0,9² = 0,81.",
+            "∛343 = 7: 1 Punkt für Wert und 1 für 7³ = 343.",
+            "∛(1/8) = 1/2: 1 Punkt für Wert und 1 für (1/2)³ = 1/8."
+          ]
+        },
+        {
+          "id": "ma-m9-ohne-b",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Drei Aussagen prüfen (5 Hauptpunkte): Entscheide jeweils richtig oder falsch und begründe durch Rechnung: (1) √64 = ±8; (2) √(25·4) = √25 · √4; (3) ∛64 = √16. Korrigiere die falsche Aussage. Erkläre an einem Beispiel den Unterschied zwischen Quadratwurzel und Kubikwurzel.",
+          "sample": "(1) Falsch: √64 = 8, während x² = 64 die Lösungen ±8 hat. (2) Richtig: √100 = 10 und 5·2 = 10. (3) Richtig: ∛64 = 4 und √16 = 4. Die dritte und zweite Potenz werden durch unterschiedliche Wurzeln umgekehrt, auch wenn beide Ergebnisse hier 4 sind.",
+          "criteria": [
+            "2 Punkte für (1): √64 = 8 und klarer Unterschied zur Gleichung x² = 64.",
+            "1 Punkt für (2): beide Seiten als 10 geprüft.",
+            "1 Punkt für (3): beide Seiten als 4 geprüft.",
+            "1 Punkt für verschiedene Umkehroperationen von zweiter und dritter Potenz."
+          ]
+        },
+        {
+          "id": "ma-m9-ohne-c",
+          "kind": "reflection",
+          "points": 7,
+          "writingLines": 11,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "C · Erst schätzen, dann Werkzeug wählen (7 Hauptpunkte): Nutze die Kontrollquadrate. (1) Grenze √50 zuerst zwischen zwei ganzen Zahlen und dann enger ein. (2) Gib die Länge auf eine Dezimalstelle gerundet an und begründe die Rundung. (3) Schreibe √50 exakt als k√2 mit ganzer Zahl k. (4) Jemand möchte drei Dezimalstellen: Ist ein Taschenrechner dafür sinnvoll? Was bleibt trotz Anzeige zu begründen oder zu kontrollieren? Du musst keinen Rechner benutzen.",
+          "sample": "49 < 50 < 64 ergibt 7 < √50 < 8. Aus 49,7025 < 50 < 50,41 folgt 7,05 < √50 < 7,1. Die Wurzel liegt oberhalb der Rundungsschwelle 7,05 und ist auf eine Dezimalstelle 7,1 cm. Exakt ist √50 cm = 5√2 cm. Für drei Dezimalstellen kann ein Rechner zweckmässig sein, etwa 7,071 cm; Einheit, Schranke und exakter Ausdruck werden dadurch nicht begründet. Eine schriftliche engere Schachtelung ist ebenfalls richtig.",
+          "criteria": [
+            "1 Punkt für 7 < √50 < 8 aus den ganzen Quadraten.",
+            "2 Punkte für 7,05 < √50 < 7,1 aus beiden Kontrollquadraten.",
+            "1 Punkt für 7,1 cm mit Hinweis auf die Schwelle 7,05.",
+            "1 Punkt für exakt 5√2 cm.",
+            "1 Punkt für begründete Werkzeugentscheidung bei drei Dezimalstellen.",
+            "1 Punkt für eine konkrete Anzeigegrenze, etwa Einheit, exakte Gleichung oder Schrankenprüfung."
+          ]
+        },
+        {
+          "id": "ma-m9-ohne-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer nach A–C · sechs getrennte Zusatzpunkte: Finde für n = 5 eine Quadratzahl und eine Kubikzahl, deren Wurzeln beide 5 sind, und prüfe beide mit Potenzen. Erkläre für jede positive ganze Zahl n, warum √(n²) und ∛(n³) denselben Wert haben. Was ändert sich für ein negatives n?",
+          "sample": "Für n = 5: 25 und 125, denn √25 = 5 mit 5² = 25 und ∛125 = 5 mit 5³ = 125. Für positive n gilt √(n²) = n wegen der nichtnegativen Quadratwurzel und ∛(n³) = n. Für negative n gilt √(n²) = |n| = −n > 0, während ∛(n³) = n < 0; die Werte sind verschieden.",
+          "criteria": [
+            "2 Zusatzpunkte für 25 und 125.",
+            "2 Zusatzpunkte für beide zugehörigen Potenzproben.",
+            "1 Zusatzpunkt für die allgemeine Gleichheit bei positivem n mit Wurzeldefinition.",
+            "1 Zusatzpunkt für |n| gegenüber n bei negativem n."
+          ]
+        }
+      ],
+      "practice": {
+        "unscored": true,
+        "title": "Echten Erstversuch getrennt beobachten",
+        "childNote": "Nur wenn es für dich passt: Bearbeite A–C zuerst auf Papier ohne die genannten Hilfen. Markiere danach, ab wann du doch Hilfe genutzt hast. Wenn niemand den Erstversuch tatsächlich gesehen hat, wird Hilfsmittelfreiheit als „nicht beobachtet“ festgehalten. Schicke kein Foto und keine persönlichen Lernnotizen an die App.",
+        "childSteps": [
+          "Lege Rechner, Handy und Formelkarte vor A weg. Bitte noch nicht um einen Hinweis.",
+          "Schreibe A–C mit eigenen Potenzproben und Schranken auf Papier; die gegebenen Kontrollquadrate darfst du lesen.",
+          "Markiere die Stelle einer später genutzten Hilfe ehrlich und verbessere danach weiter.",
+          "Vergleiche erst danach mit einer erwachsenen Person die getrennte Lösung und deine Rechnerentscheidung."
+        ],
+        "adultNote": "Nur eine wirklich anwesende erwachsene Person kann für den beobachteten Ausschnitt notieren, ob der Erstversuch ohne die genannten Hilfen stattfand. Ohne Beobachtung „nicht beobachtet“ statt „bestanden“. Die App-Eingabe und der Ausdruck sind kein Beweis. Keine privaten Kinderantworten, Zeiten oder Leistungsprofile in allgemeine Projektdateien oder Cloud hochladen; kein amtlicher Notenschlüssel.",
+        "adultCriteria": [
+          "Beobachteter Ausschnitt und erlaubte Kontrollquadrate klar benennen; sonst „nicht beobachtet“.",
+          "Falls Hilfsmittel oder Hinweis später genutzt wurden, den Übergang vor/nach Hilfe trennen.",
+          "Werte und Potenzproben fachlich getrennt prüfen; die Beobachtung nicht aus richtigen Ergebnissen erraten.",
+          "Schriftliche Entscheidung zum Rechner für drei Dezimalstellen samt begrenzter Anzeige prüfen."
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "Mathematik Gymnasium Erprobung 2026, PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.9 auf PDF-S. 30 unter Zielmarke Klassenstufe 8: einfache Quadrat- und Kubikwurzeln auch ohne Hilfsmittel, Taschenrechner kritisch verwenden und Ergebnisse prüfen.",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
       "id": "ma-prismenbox",
       "subjectId": "ma",
       "title": "Eine dreieckige Prisma-Box planen",

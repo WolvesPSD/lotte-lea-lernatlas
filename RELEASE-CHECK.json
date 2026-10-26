@@ -1,12 +1,12 @@
 {
-  "builtAt": "2026-10-26T04:51:02.552Z",
-  "releaseVersion": "2026.10.26-sprachscope.1",
+  "builtAt": "2026-10-26T05:05:18.938Z",
+  "releaseVersion": "2026.10.26-sptransferpraxis.1",
   "newTopicIds": [],
   "changeLog": [
-    "Vier freiwillige Sprachthemen: Lehrplangeltung für Klasse 7 ab 2026/27 und die jeweilige Zielmarke Ende Klasse 8 sprachlich klar getrennt.",
-    "Keine Aufgaben, Quellenkarten, Lösungen, Fachzuordnung, Klassenstufenfilter oder Assets geändert. 188 Themen und 857 reguläre Aufgaben unverändert."
+    "Sport B1-M02: unbewerteter freiwilliger Rückblick nur nach einer regulären beaufsichtigten Sportstunde, mit getrenntem leerem Fach-Beobachtungsraster.",
+    "Keine neue Bewegung, Messung oder automatische Beurteilung. Der vorhandene 20+6-Papierfall und alle 188 Themen/857 regulären Aufgaben bleiben unverändert."
   ],
-  "rollbackCommit": "289e0a4e83f6ff23dae20753fe8f7a51c44fec66",
+  "rollbackCommit": "9ea3224da060f026c627d6a90aa8a1f19f818516",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",

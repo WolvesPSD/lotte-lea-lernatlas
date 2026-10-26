@@ -16811,6 +16811,26 @@ window.LOTTE_CATALOG = Object.freeze({
         "gradeBand": "7/8, freiwilliger schriftlicher Transfer-Teilfall",
         "competencyRef": "Sport Gymnasium Erprobung 2026, B1-M02, PDF-S. 22/Drucks. 17: Kenntnisse und Bewegungsabläufe aus anderen und in andere Lernbereiche beziehungsweise die Freizeit übertragen. Verbindliche gemeinsame Methodenzeile; hier nur gedankliche Prüfung an fiktiven Texten.",
         "checkedAt": "2026-10-26"
+      },
+      "practice": {
+        "unscored": true,
+        "title": "Freiwilliger Rückblick nach einer regulären Sportstunde",
+        "childNote": "Nur nach einer ohnehin stattfindenden, beaufsichtigten Sportstunde und wenn die Lehrkraft einen Rückblick erlaubt. Kein zusätzlicher Versuch, kein Nachmachen auf einem öffentlichen Weg, kein Filmen oder Messen. Falls es keine zweite passende Situation gab, ist „keine Gelegenheit“ eine vollständige Antwort. Schreibe nur auf deinem eigenen Blatt; keine Namen, Zeiten, Weiten, Gesundheits- oder Ortsdaten in die App eingeben.",
+        "childSteps": [
+          "Gab es im Unterricht eine Ausgangssituation und später eine andere passende Situation? Nenne nur die Übungsart, falls du sie sicher kennst. Sonst: „keine Gelegenheit“ oder „nicht sicher“.",
+          "Welche Frage oder Idee aus der ersten Situation war in der zweiten nützlich? Welche Regel, welches Signal oder welche Bedingung war anders? Falls nicht besprochen: „nicht geklärt“.",
+          "Was hast du selbst wahrgenommen, und was hat die Lehrkraft tatsächlich dazu gesagt? Trenne Erinnerung und Rückmeldung. Eine Erinnerung allein beweist keine gelungene Bewegung.",
+          "Welche Frage möchtest du in der nächsten regulären Stunde stellen? Plane dafür keinen zusätzlichen Übungsversuch."
+        ],
+        "adultNote": "Leeres, unbewertetes Raster nur für eine von der Sportlehrkraft erlaubte Beobachtung im regulären Unterricht. Eltern können den Rückblick lesen, aber keine Bewegung, Sicherheit oder Sportkompetenz aus einer Kinderschilderung beurteilen. Schulregeln, Kriterien und passende Situation bestimmt die zuständige Lehrkraft. Ohne direkte Beobachtung oder zweite Gelegenheit „nicht erhoben“ statt Punkte. Keine persönlichen Leistungs- oder Gesundheitsdaten in die App, Cloud oder Forschungsablage übertragen.",
+        "adultCriteria": [
+          "Vorher tatsächlich erarbeitete Ausgangsbewegung und eine fachlich passende zweite Unterrichtssituation sind geklärt.",
+          "Abweichende Regeln, Signale und Raumbedingungen der zweiten Situation wurden vor Ort erläutert.",
+          "Eine passende Ausführung in der zweiten beaufsichtigten Situation wurde direkt beobachtet; eine Schilderung allein genügt nicht.",
+          "Ein bloss übertragener Begriff oder eine Geografieskizze wird als begrifflicher Weg und nicht als ausgeführte Bewegung eingeordnet."
+        ],
+        "printObservationLabels": "☐ konkret dokumentiert  ☐ unklar  ☐ keine Gelegenheit  ☐ nicht anwendbar",
+        "printContextLine": "Unterrichtssituation/Übungsform und geltende Schulregel/Quelle: __________________________"
       }
     },
     {

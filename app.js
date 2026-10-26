@@ -1178,7 +1178,7 @@
           } else if (topic.practice.unscored === true) {
             appendText(practiceSection, 'p', '', topic.practice.printObservationFooter || 'Je Zeile nur nach zulässiger Beobachtung markieren; „keine Gelegenheit“ ist keine Fehlleistung.');
             if (topic.subjectId === 'sp') {
-              appendText(practiceSection, 'p', '', 'Schulspiel und geltende Schulregel/Quelle: ______________________________________________');
+              appendText(practiceSection, 'p', '', topic.practice.printContextLine || 'Schulspiel und geltende Schulregel/Quelle: ______________________________________________');
               appendText(practiceSection, 'p', '', 'Ohne Unterrichtsbeobachtung: nicht erhoben; das Raster bleibt leer. Selbstbericht ist kein Bewegungsnachweis. Keine Punkte, Summe oder Sportnote.');
             } else {
               appendText(practiceSection, 'p', '', 'Übung und verwendete Grundlage: ______________________________________________________________');

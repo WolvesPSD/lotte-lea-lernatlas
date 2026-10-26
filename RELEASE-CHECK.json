@@ -1,15 +1,15 @@
 {
-  "builtAt": "2026-10-26T05:17:16.913Z",
-  "releaseVersion": "2026.10.26-spzielregel.1",
+  "builtAt": "2026-10-26T05:51:07.953Z",
+  "releaseVersion": "2026.10.26-spb3s10.1",
   "newTopicIds": [
-    "sp-b1-m06-zielregel"
+    "sp-b3-s10-geraetebahn-rueckblick"
   ],
   "changeLog": [
-    "Sport 2026 B1-M06: freiwilliger Klasse-7/8-Schriftfall zur datierten DLV-Zielregel TR18.2 mit zwei erfundenen Protokollen. 20 Haupt- und sechs später freigegebene Zusatzpunkte.",
-    "Die Verbandsregel ist keine belegte Schulregel. Keine Bewegung oder Messung; der Fall belegt kein tatsächlich regelgerechtes Handeln.",
-    "189 Themen/861 Aufgaben. Frühere Themenobjekte, Assets, Kontaktadresse und Lernstände unverändert."
+    "Sport 2026 B3-S10: freiwilliger unbewerteter Schulbeobachtungsweg zur Umgestaltung einer vorgegebenen Bewegungslandschaft. Zwei neutrale Notizfelder und getrennte Kinder-/Fachvorlage.",
+    "Keine Heimübung und keine Sportnote. Die tatsächliche Gerätehandlung, Sicherheit und fachliche Bewertung bleiben allein im beaufsichtigten Schulsport; ausgefüllte Bögen werden nicht hochgeladen.",
+    "190 Themen/863 Notiz- und Aufgabenfelder. Der veröffentlichte Altbestand bleibt erhalten; keine privaten Fotos oder Lernstände im Paket."
   ],
-  "rollbackCommit": "958d1651b11a5faa2c54e91e96e16cd8befb3259",
+  "rollbackCommit": "8edaba861174758399cd9b621b1322af48956801",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -199,7 +199,8 @@
     "mbi-i3-challenges-stichprobe",
     "sp-b1-s01-werfen-stossen-notizen",
     "sp-b1-m02-transfergrenzen",
-    "sp-b1-m06-zielregel"
+    "sp-b1-m06-zielregel",
+    "sp-b3-s10-geraetebahn-rueckblick"
   ],
   "subjects": [
     "en",

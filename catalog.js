@@ -16202,6 +16202,95 @@ window.LOTTE_CATALOG = Object.freeze({
       "levelLabel": "Freiwillig · Schulspielwahl offen"
     },
     {
+      "id": "sp-b3-s10-geraetebahn-rueckblick",
+      "subjectId": "sp",
+      "title": "Was wurde an der Gerätebahn wirklich verändert?",
+      "scope": "Freiwilliger unbewerteter Rückblick auf B3-S10 im gültigen Thüringer Sportplan 2026. Nur eine von der Sportlehrkraft erlaubte und beobachtete Änderung in einer regulären Stunde kann den Handlungsteil belegen. Konkrete Geräte, Schulfolge und Sicherheitsregeln sind unbekannt.",
+      "levelStatus": "grade78-flex",
+      "levelLabel": "Klasse 7/8 · Gerätefeld, nur im Unterricht",
+      "released": true,
+      "practiceBeforeLastTask": true,
+      "prerequisite": "Diese Karte ist nur für eine ohnehin stattfindende, beaufsichtigte B3-Stunde. Baue zu Hause nichts auf und probiere nichts zusätzlich aus. Frage die Sportlehrkraft zuerst, ob eine Änderung der vorgegebenen Bewegungslandschaft überhaupt Teil der Stunde ist. Ohne Gelegenheit darfst du „keine Gelegenheit“ schreiben. Die zwei Notizfelder und der getrennte Praxisbogen sind unbewertet; die App kann weder Bewegung noch Sicherheit beurteilen. Keine Namen, Bilder, Aufnahmen, Gesundheits- oder Leistungsdaten eingeben.",
+      "introduction": "Hier wird keine neue Geräteübung erklärt. Das leere Blatt hilft dir, nach einer regulären Sportstunde eine tatsächlich erlaubte Änderung, einen blossen Vorschlag und eine ungeklärte Frage auseinanderzuhalten. Die Sportlehrkraft entscheidet vor Ort über Aufbau und Nutzung. Eine Bildschirmantwort ist kein Beleg für sicheres oder gelungenes Bewegen.",
+      "sourceCards": [
+        {
+          "title": "B3-S10 · Thüringer Sportplan 2026",
+          "text": "Für die Doppelklassenstufe 7/8 nennt der Plan, eine vorgegebene Bewegungslandschaft umzugestalten beziehungsweise durch Geräte und Bewegungsaufgaben zu ergänzen. Er legt hier weder Lottes Schulgeräte noch eine konkrete Stunde fest. Eine Skizze oder Erzählung ersetzt die tatsächliche schulische Handlung nicht.",
+          "sourceLabel": "Thüringer Schulportal · Sport Gymnasium, Erprobungsfassung 2026",
+          "sourceUrl": "https://www.schulportal-thueringen.de/media/detail?tspi=20580",
+          "sourceNote": "§2.3, PDF-S. 40/Drucks. 35; gegen die gerenderte 7/8-Spalte geprüft. Keine konkrete Geräteanleitung."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "sp-b3-s10-vorher",
+          "kind": "reflection",
+          "points": 0,
+          "writingLines": 3,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "unscoredNote": true,
+          "prompt": "A · Vor der regulären Sportstunde, ohne Punkte: Welche Frage möchtest du der Sportlehrkraft dazu stellen, ob und wie eure Gruppe eine vorgegebene Bewegungslandschaft verändern darf? Wenn B3 derzeit nicht behandelt wird, schreibe nur „keine Gelegenheit“. Plane keinen eigenen Aufbau.",
+          "sample": "Eine Frage oder „keine Gelegenheit“ ist eine vollständige Vorbereitungsnotiz. Auch eine passend formulierte Frage ist noch keine Änderung oder Sportleistung.",
+          "criteria": [
+            "Kein Punkteschema und keine Sportnote.",
+            "Eine Frage oder „keine Gelegenheit“ ist Vorbereitung, kein Nachweis einer Gerätehandlung."
+          ]
+        },
+        {
+          "id": "sp-b3-s10-nachher",
+          "kind": "reflection",
+          "points": 0,
+          "writingLines": 2,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "unscoredNote": true,
+          "prompt": "B · Nach einer regulären Sportstunde, ohne Punkte: Die ausführlichen Fragen stehen auf dem Kinderblatt und werden nur auf Papier beantwortet. Trage hier höchstens „auf Papier“, „keine Gelegenheit“ oder „nicht sicher“ ein. Keine Unterrichtsschilderung, Namen, Messwerte oder Bilder in die App eingeben.",
+          "sample": "„Auf Papier“, „keine Gelegenheit“ und „nicht sicher“ sind gleichwertige Statusnotizen. Aus keiner davon lässt sich eine Gerätehandlung oder Sicherheit ableiten.",
+          "criteria": [
+            "Kein Punkteschema und keine kanonische Antwort.",
+            "Der ausgefüllte Rückblick bleibt bei Familie oder Schule; fachliche Beobachtung nur durch die Sportlehrkraft."
+          ]
+        }
+      ],
+      "practice": {
+        "unscored": true,
+        "title": "Freiwillige Praxis in einer regulären B3-Stunde",
+        "childNote": "Die Karte darf nur eine ohnehin stattfindende, von der Sportlehrkraft angeleitete Stunde begleiten. Ohne ihre Erlaubnis nichts ändern oder ausprobieren. Beantworte die ausführlichen Fragen nur auf dem gedruckten Blatt; die ausgefüllte Karte bleibt bei Familie oder Schule. Keine Namen, Zeiten, Gesundheitsdaten oder Aufnahmen in die App eingeben. „Keine Gelegenheit“ ist zulässig.",
+        "childSteps": [
+          "Gab es in der Stunde eine vorgegebene Bewegungslandschaft und die ausdrückliche Gelegenheit, sie zu verändern? Status: ☐ keine Gelegenheit  ☐ Unterrichtsänderung erlaubt  ☐ unklar. Ohne Gelegenheit hier aufhören.",
+          "Was war vorher durch die Sportlehrkraft vorgegeben? Beschreibe nur die Art der Stationen oder Aufgabe, ohne persönliche Daten.",
+          "Was wurde tatsächlich umgestaltet oder um Geräte und Bewegungsaufgaben ergänzt? Einen blossen Vorschlag getrennt benennen.",
+          "Wer hat Aufbau und Nutzung vor Ort freigegeben? Welche Frage zu Regeln, Hilfe oder Sicherung wurde vorher geklärt? Wenn du es nicht weisst: „nicht geklärt“.",
+          "Was hast du selbst wahrgenommen, und was hat die Sportlehrkraft wirklich dazu gesagt? Trenne beides; eine Erinnerung allein beweist keine sichere Bewegung.",
+          "Eine Frage für die nächste reguläre Sportstunde."
+        ],
+        "childStepWritingLines": [
+          0,
+          3,
+          4,
+          3,
+          4,
+          2
+        ],
+        "adultNote": "Nur die zuständige Sportlehrkraft füllt die fachlichen Beobachtungsfelder aus. Eltern können den Kinderrückblick begleiten, aber Aufbau, Sicherheit oder Kompetenz aus Erzählung oder Skizze nicht abnehmen. Die zwei Quellwege sind Umgestaltung der vorgegebenen Landschaft beziehungsweise Ergänzung um Geräte und Bewegungsaufgaben; die konkrete Handlung ordnet die Lehrkraft fachlich zu. Ohne direkte Beobachtung „nicht erhoben“. Kein Gesamthäkchen, keine Sportnote, keine personenbezogenen Bilder oder Messwerte in die App.",
+        "adultCriteria": [
+          "Die Ausgangslandschaft und Aufgabe waren vor Ort festgelegt; Art der Unterrichtssituation ohne personenbezogene Details dokumentieren.",
+          "Die Landschaft wurde tatsächlich umgestaltet ODER durch Geräte UND Bewegungsaufgaben ergänzt; blosser Vorschlag getrennt. Nur die Sportlehrkraft beurteilt, ob die beobachtete Handlung zur Zielzeile passt.",
+          "Aufbau, Regeln und Sicherung wurden von der zuständigen Sportlehrkraft vor der Nutzung geklärt; ohne dokumentierte Klärung „unklar“.",
+          "Optionaler Anschluss: Falls die Änderung später in derselben regulären Stunde genutzt oder dazu eine Lehrkraftrückmeldung gegeben wurde, getrennt dokumentieren. Beides ist keine zusätzliche Voraussetzung für B3-S10; ohne Anschluss nicht automatisch „nicht erhoben“."
+        ],
+        "printObservationLabels": "☐ fachlich beobachtet  ☐ unklar  ☐ keine Gelegenheit  ☐ nicht anwendbar",
+        "printContextLine": "Unterrichtssituation und schulseitig erlaubte Änderung: __________________________"
+      },
+      "releaseEvidence": {
+        "validFor": "Sport 2026 ab Klasse 7 im Schuljahr 2026/27",
+        "gradeBand": "7/8, freiwilliger unbewerteter B3-S10-Unterrichtsweg",
+        "competencyRef": "Sport Gymnasium Erprobung 2026, §2.3, PDF-S. 40/Drucks. 35: B3-S10 in der 7/8-Spalte – eine vorgegebene Bewegungslandschaft umgestalten beziehungsweise durch Geräte und Bewegungsaufgaben ergänzen. B3 ist verbindlich; der tatsächliche Handlungsteil bleibt schulisch zu beobachten.",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
       "id": "sp-b2-ss07-fans-geld",
       "subjectId": "sp",
       "title": "Wer verdient, wer schaut, was entscheide ich?",

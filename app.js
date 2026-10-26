@@ -270,7 +270,7 @@
     $('#home-progress-ring').querySelector('span').textContent = total ? 'Aufgaben beantwortet' : 'Thema wählen';
     $('#home-progress-ring').style.setProperty('--progress', total ? `${Math.round(answeredTotal / total * 100)}%` : '0%');
     $('#home-progress-text').textContent = total
-      ? `${total - answeredTotal} Aufgabe${total - answeredTotal === 1 ? '' : 'n'} in deiner Auswahl noch offen. Die Zahl zählt nur Textfelder; offene Texte prüfst du mit den Kriterien.${selectedTopics.some(topic => topic.practiceBeforeLastTask) ? ' Mündliches Sprechen wird hier nicht als erledigt gezählt oder automatisch bewertet.' : ''}`
+      ? `${total - answeredTotal} Aufgabe${total - answeredTotal === 1 ? '' : 'n'} in deiner Auswahl noch offen. Die Zahl zählt nur Textfelder; offene Texte prüfst du mit den Kriterien.${selectedTopics.some(topic => topic.practiceBeforeLastTask) ? ' Eine getrennte Praxisleistung wird hier nicht als erledigt gezählt oder automatisch bewertet.' : ''}`
       : 'Wähle zuerst ein Thema. Danach siehst du hier deine beantworteten Aufgaben.';
     const nextTopic = selectedTopics.find(topic => topic.tasks.some(task => !String(state.answers[task.id] || '').trim())) || selectedTopics[0];
     const nextTask = nextTopic?.tasks.find(task => !String(state.answers[task.id] || '').trim());
@@ -295,7 +295,7 @@
       ? 'Nach deiner Themenwahl erscheint hier eine Aufgabe aus deiner eigenen Auswahl.'
       : nextTask
         ? `${subjectById.get(nextTopic.subjectId).name} · ${nextTopic.title}: ${nextTask.prompt}`
-        : `Alle gewählten Textfelder haben eine Antwort. Vergleiche offene Antworten mit den Kriterien oder wähle weitere Themen.${selectedTopics.some(topic => topic.practiceBeforeLastTask) ? ' Eine mündliche Übung ist dadurch noch nicht nachgewiesen.' : ''}`);
+        : `Alle gewählten Textfelder haben eine Antwort. Vergleiche offene Antworten mit den Kriterien oder wähle weitere Themen.${selectedTopics.some(topic => topic.practiceBeforeLastTask) ? ' Eine getrennte Praxisleistung ist dadurch noch nicht nachgewiesen.' : ''}`);
     $('#home-next-button').textContent = selectedTopics.length ? 'Zum Lernen →' : 'Themen wählen →';
     $('#home-next-button').hidden = selectedTopics.length === 0;
     $('#home-next-button').classList.toggle('primary', false);
@@ -438,6 +438,7 @@
 
   function taskResult(task, value) {
     if (!value || !String(value).trim()) return { status: 'empty', label: 'Noch nicht beantwortet.' };
+    if (task.unscoredNote) return { status: 'manual', label: 'Notiz festgehalten. Keine automatische Bewertung und kein Nachweis einer Praxisleistung.' };
     if (task.kind === 'reflection') return { status: 'manual', label: task.manualBookReview ? 'Offene Buchantwort: Die App kennt deine Ausgabe nicht und kann den Inhalt nicht bewerten. Prüfe die Stellen im Buch mit einer erwachsenen Person.' : task.adultOnlySolution ? 'Offene Antwort: Besprecht die Sachlösung nach deiner eigenen Bearbeitung im Erwachsenenbereich. Keine automatische Bewertung.' : 'Offene Antwort: Vergleiche mit Musterlösung und Kriterien. Keine automatische Bewertung.' };
     if (task.kind === 'decimal') {
       const normalized = String(value).trim().replace(/\u2212/g, '-').replace(',', '.');
@@ -811,7 +812,7 @@
       helpButton.hidden = state.answers[helpAttemptKey] !== 'ja' || state.answers[helpUsedKey] === 'ja';
       card.append(helpButton);
     }
-    card.append(button(task.manualBookReview ? 'Prüfweg ansehen' : 'Antwort prüfen', () => {
+    card.append(button(task.unscoredNote ? 'Notiz festhalten' : task.manualBookReview ? 'Prüfweg ansehen' : 'Antwort prüfen', () => {
       const value = state.answers[task.id] || '';
       const outcome = taskResult(task, value);
       result.replaceChildren(); result.dataset.status = outcome.status;
@@ -831,7 +832,7 @@
           const reveal = button(task.manualBookReview ? 'Methodenbeispiel bewusst öffnen' : 'Musterlösung bewusst öffnen', () => { reveal.remove(); showSolution(); }, 'reveal-sample');
           result.append(reveal);
         } else if (task.adultOnlySolution || topic.stagedReading) {
-          appendText(result, 'p', 'muted', topic.stagedReading ? 'Die Musterlösung steht im Erwachsenenbereich. Vergleiche erst deine eigene Lektüre und schliesse die Hauptaufgaben ab.' : 'Die Sachlösung steht nur im Erwachsenenbereich. Besprecht sie nach deiner eigenen Bearbeitung; die App kann offene Antworten nicht selbst bewerten.');
+          appendText(result, 'p', 'muted', task.unscoredNote ? 'Das ist ein unbewerteter Hinweis. Eine wirkliche Handlung kann nur in der passenden Praxis beobachtet werden.' : topic.stagedReading ? 'Die Musterlösung steht im Erwachsenenbereich. Vergleiche erst deine eigene Lektüre und schliesse die Hauptaufgaben ab.' : 'Die Sachlösung steht nur im Erwachsenenbereich. Besprecht sie nach deiner eigenen Bearbeitung; die App kann offene Antworten nicht selbst bewerten.');
         } else showSolution();
       }
     }, 'check-button'));
@@ -940,7 +941,7 @@
         const answer = state.answers[task.id];
         appendText(item, 'p', 'muted', `Eingabe im Kinderbereich: ${answer ? String(answer) : 'noch keine'}`);
         if (task.helpAfterAttempt) appendText(item, 'p', 'muted', `Formenhilfe nach Erstversuch: ${state.answers[`${task.id}-hilfe-genutzt`] === 'ja' ? 'genutzt' : 'nicht als genutzt vermerkt'}. Dieser Status ist keine automatische Leistungsbewertung.`);
-        appendText(item, 'p', 'sample-answer', `${task.manualBookReview ? 'Methodenbeispiel zu Heidi, kein Inhaltsschlüssel für dieses Buch' : 'Lösung'}: ${task.sample || task.correctLabel || task.correct}`);
+        appendText(item, 'p', 'sample-answer', `${task.unscoredNote ? 'Hinweis ohne Bewertung' : task.manualBookReview ? 'Methodenbeispiel zu Heidi, kein Inhaltsschlüssel für dieses Buch' : 'Lösung'}: ${task.sample || task.correctLabel || task.correct}`);
         const steps = task.explanation || task.criteria || [];
         const ol = create('ol'); steps.forEach(step => appendText(ol, 'li', '', step)); item.append(ol);
         if (task.kind === 'reflection') appendText(item, 'p', 'muted', 'Offene Antwort: Kriterien gemeinsam prüfen; keine sichere automatische Note.');
@@ -999,9 +1000,10 @@
     if (ids.length === 0) { show('choose'); return; }
     const page = $('#print-surface'); page.replaceChildren();
     const manualBookOnly = ids.every(id => topicById.get(id)?.tasks.every(task => task.manualBookReview));
+    const unscoredNotesOnly = ids.every(id => topicById.get(id)?.tasks.every(task => task.unscoredNote));
     appendText(page, 'p', 'print-kicker', preview ? 'Lotte & Lea · Prüfmodus: kann ungeprüfte Aufgaben enthalten' : 'Lotte & Lea · Lernmaterial mit Quellenstand im Themenkatalog');
-    appendText(page, 'h1', '', mode === 'child' ? 'Arbeitsblatt' : manualBookOnly ? 'Prüfblatt für Erwachsene' : 'Lösungsblatt für Erwachsene');
-    appendText(page, 'p', '', mode === 'child' ? 'Name: ____________________   Datum: __________' : manualBookOnly ? 'Die Heidi-Beispiele zeigen die Methode. Inhaltliche Antworten nur mit dem tatsächlich gewählten Buch und derselben Ausgabe prüfen.' : 'Diese Musterlösungen erklären die Schritte. Offene Antworten brauchen eine persönliche Prüfung.');
+    appendText(page, 'h1', '', mode === 'child' ? 'Arbeitsblatt' : unscoredNotesOnly ? 'Hinweisblatt für Erwachsene' : manualBookOnly ? 'Prüfblatt für Erwachsene' : 'Lösungsblatt für Erwachsene');
+    appendText(page, 'p', '', mode === 'child' ? 'Name: ____________________   Datum: __________' : unscoredNotesOnly ? 'Die Notizen und der getrennte Praxisbogen sind unbewertet. Nur eine tatsächlich beobachtete Handlung kann fachlich beurteilt werden.' : manualBookOnly ? 'Die Heidi-Beispiele zeigen die Methode. Inhaltliche Antworten nur mit dem tatsächlich gewählten Buch und derselben Ausgabe prüfen.' : 'Diese Musterlösungen erklären die Schritte. Offene Antworten brauchen eine persönliche Prüfung.');
     for (const id of ids) {
       const topic = topicById.get(id); const section = create('section', 'print-topic');
       const hideChildUpdate = mode === 'child' && topic.stagedUpdate?.childPrintAfterUnlock === true
@@ -1115,7 +1117,7 @@
             item.append(lines);
           }
         } else {
-          appendText(item, 'p', 'sample-answer', `${task.manualBookReview ? 'Methodenbeispiel zu Heidi, kein Inhaltsschlüssel für dieses Buch' : 'Lösung'}: ${task.sample || task.correctLabel || task.correct}`);
+          appendText(item, 'p', 'sample-answer', `${task.unscoredNote ? 'Hinweis ohne Bewertung' : task.manualBookReview ? 'Methodenbeispiel zu Heidi, kein Inhaltsschlüssel für dieses Buch' : 'Lösung'}: ${task.sample || task.correctLabel || task.correct}`);
           const ol = create('ol'); (task.explanation || task.criteria || []).forEach(step => appendText(ol, 'li', '', step)); item.append(ol);
         }
         section.append(item);
@@ -1151,11 +1153,19 @@
         appendText(practiceSection, 'p', '', mode === 'child' ? topic.practice.childNote : topic.practice.printAdultNote || topic.practice.adultNote);
         if (mode === 'adult') for (const paragraph of topic.practice.printAdultGuide || topic.practice.adultGuide || []) appendText(practiceSection, 'p', '', paragraph);
         const list = create('ol');
-        (mode === 'child' ? topic.practice.childSteps : topic.practice.adultCriteria).forEach(step => appendText(list, 'li', '', mode === 'child' ? step : topic.practice.observationKind === 'private-reflection'
-          ? `${step}  ☐ selbst erklärt (2)  ☐ mit Hilfe (1)  ☐ noch nicht gezeigt (0 nur nach freiwilligem Versuch)  ☐ nicht erhoben (—)`
-          : topic.practice.unscored === true
-          ? `${step}  ${topic.practice.printObservationLabels || '☐ beobachtet  ☐ nicht beobachtet  ☐ keine Gelegenheit  ☐ nicht anwendbar'}. Namenlose Kurznotiz: ____________________`
-          : `${step}  Punkte: ____`));
+        (mode === 'child' ? topic.practice.childSteps : topic.practice.adultCriteria).forEach((step, index) => {
+          const item = appendText(list, 'li', '', mode === 'child' ? step : topic.practice.observationKind === 'private-reflection'
+            ? `${step}  ☐ selbst erklärt (2)  ☐ mit Hilfe (1)  ☐ noch nicht gezeigt (0 nur nach freiwilligem Versuch)  ☐ nicht erhoben (—)`
+            : topic.practice.unscored === true
+            ? `${step}  ${topic.practice.printObservationLabels || '☐ beobachtet  ☐ nicht beobachtet  ☐ keine Gelegenheit  ☐ nicht anwendbar'}. Namenlose Kurznotiz: ____________________`
+            : `${step}  Punkte: ____`);
+          const lineCount = topic.practice.childStepWritingLines?.[index] || 0;
+          if (mode === 'child' && Number.isInteger(lineCount) && lineCount > 0) {
+            const lines = create('div', 'writing-lines');
+            for (let line = 0; line < lineCount; line++) lines.append(create('div', 'writing-line'));
+            item.append(lines);
+          }
+        });
         practiceSection.append(list);
         if (mode === 'adult' && topic.practice.adultSupplementalCriteria) {
           appendText(practiceSection, 'h4', '', topic.practice.adultSupplementalTitle);
@@ -1165,7 +1175,7 @@
           practiceSection.append(supplemental);
         }
         if (mode === 'child') for (const external of topic.practice.externalLinks || []) appendText(practiceSection, 'p', 'print-context', `${external.label}: ${external.url}. ${external.printNote || 'Nur freiwillig öffnen; keine Antworten oder persönlichen Angaben veröffentlichen.'}`);
-        if (mode === 'child' && Number.isInteger(topic.practice.childWritingLines) && topic.practice.childWritingLines > 0) {
+        if (mode === 'child' && !topic.practice.childStepWritingLines && Number.isInteger(topic.practice.childWritingLines) && topic.practice.childWritingLines > 0) {
           const lines = create('div', 'writing-lines');
           for (let line = 0; line < topic.practice.childWritingLines; line++) lines.append(create('div', 'writing-line'));
           practiceSection.append(lines);
@@ -1214,7 +1224,7 @@
       }
       page.append(section);
     }
-    document.body.dataset.printMode = `${mode}-${preview ? 'preview' : 'release'}`;
+    document.body.dataset.printMode = `${mode === 'adult' && unscoredNotesOnly ? 'adult-note' : mode}-${preview ? 'preview' : 'release'}`;
     window.print();
   }
   $('#print-children').addEventListener('click', () => preparePrint('child'));

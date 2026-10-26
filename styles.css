@@ -146,8 +146,10 @@ body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body
 @media print{
   body[data-print-mode=child-preview] #print-surface{page:child-sheet}
   body[data-print-mode=adult-preview] #print-surface{page:adult-sheet}
+  body[data-print-mode=adult-note-preview] #print-surface{page:adult-note-sheet}
   body[data-print-mode=child-release] #print-surface{page:child-release-sheet}
   body[data-print-mode=adult-release] #print-surface{page:adult-release-sheet}
+  body[data-print-mode=adult-note-release] #print-surface{page:adult-note-release-sheet}
 }
 @page child-sheet{
   @top-left{content:"Lotte & Lea · Prüfmodus: kann ungeprüfte Aufgaben enthalten · Arbeitsblatt";font:8pt Arial,sans-serif;color:#555}
@@ -157,12 +159,20 @@ body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body
   @top-left{content:"Lotte & Lea · Prüfmodus: kann ungeprüfte Aufgaben enthalten · Lösungsblatt";font:8pt Arial,sans-serif;color:#555}
   @top-right{content:"Seite " counter(page) " von " counter(pages);font:8pt Arial,sans-serif;color:#555}
 }
+@page adult-note-sheet{
+  @top-left{content:"Lotte & Lea · Prüfmodus: kann ungeprüfte Aufgaben enthalten · Hinweisblatt";font:8pt Arial,sans-serif;color:#555}
+  @top-right{content:"Seite " counter(page) " von " counter(pages);font:8pt Arial,sans-serif;color:#555}
+}
 @page child-release-sheet{
   @top-left{content:"Lotte & Lea · Arbeitsblatt";font:8pt Arial,sans-serif;color:#555}
   @top-right{content:"Seite " counter(page) " von " counter(pages);font:8pt Arial,sans-serif;color:#555}
 }
 @page adult-release-sheet{
   @top-left{content:"Lotte & Lea · Lösungsblatt";font:8pt Arial,sans-serif;color:#555}
+  @top-right{content:"Seite " counter(page) " von " counter(pages);font:8pt Arial,sans-serif;color:#555}
+}
+@page adult-note-release-sheet{
+  @top-left{content:"Lotte & Lea · Hinweisblatt";font:8pt Arial,sans-serif;color:#555}
   @top-right{content:"Seite " counter(page) " von " counter(pages);font:8pt Arial,sans-serif;color:#555}
 }
 .reading-passage,.print-passage{white-space:pre-line;overflow-wrap:anywhere}

@@ -41,7 +41,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "plan": "Gymnasium 2026, Erprobungsfassung; Klasse 7 ab 2026/27",
       "scope": "Acht Bewegungsfelder; drei verbindliche Felder in Klasse 7, mindestens ein weiteres Feld nach Schulwahl. Konkrete Sportspiele und Unterrichtsfolge offen",
       "availabilityLabel": "Schulische Auswahl offen",
-      "availabilityReason": "Der Thüringer Sport-Lehrplan 2026 gilt in Klasse 7 ab 2026/27. Die Schule wählt Inhalte und konkrete Sportspiele. Die vorhandene freiwillige Basketball-Regelkarte entstand nach dem älteren Plan 2016 und ist nur ein Papierfall, keine bestätigte aktuelle Unterrichtseinheit oder Bewegungsleistung.",
+      "availabilityReason": "Der Thüringer Sport-Lehrplan 2026 gilt in Klasse 7 ab 2026/27. Die Schule wählt konkrete Sportspiele und weitere Bewegungsfelder. Die Basketball-Regelkarte stammt aus dem älteren Plan 2016; der Quellenfall zu Fankultur und Geld ist eine freiwillige schriftliche Teilroute zum Plan 2026. Beide belegen weder die tatsächliche Schuleinheit noch Bewegung oder Sportleistung.",
       "source": "https://www.schulportal-thueringen.de/media/detail?tspi=20580"
     },
     {

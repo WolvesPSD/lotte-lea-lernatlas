@@ -1,15 +1,13 @@
 {
-  "builtAt": "2026-10-26T02:36:51.816Z",
-  "releaseVersion": "2026.10.26-spb2fans.1",
-  "newTopicIds": [
-    "sp-b2-ss07-fans-geld"
-  ],
+  "builtAt": "2026-10-26T02:46:56.496Z",
+  "releaseVersion": "2026.10.26-spb2fans.2",
+  "newTopicIds": [],
   "changeLog": [
-    "Sport: freiwilliger 7/8-Papierfall zu Fankultur und Geld anhand zweier datierter Quellenkarten. Vier Hauptaufgaben mit 20 Lernpunkten und eine erst später sichtbare Variante mit sechs getrennten Zusatzpunkten.",
-    "DFL-Umsatz und UEFA-Fan-Zonen-Angabe werden nicht zu Fan-Ausgaben vermischt. Kein Schulspiel, keine Sportbewegung, keine aktuelle Ticketlage und keine Kinderleistung werden daraus abgeleitet.",
-    "181 Themen und 824 reguläre Aufgaben. Die konkrete Schulspielwahl und Unterrichtsfolge sowie die Praxisziele bleiben offen."
+    "Die Sport-Fachkarte nennt nun neben der älteren Basketball-Regelkarte auch den veröffentlichten freiwilligen B2-Quellenfall zu Fankultur und Geld.",
+    "Schulspielwahl, reale Bewegung, Unterrichtsfolge und Sportleistung bleiben ausdrücklich offen. Keine Aufgaben, Lösungen, Assets oder Lernstände geändert.",
+    "181 Themen und 824 reguläre Aufgaben."
   ],
-  "rollbackCommit": "5b580886ef73285f8c7195515026272894d3cc6b",
+  "rollbackCommit": "ea5657fa31cd94677e39a73c00d4007367ec4ffd",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",

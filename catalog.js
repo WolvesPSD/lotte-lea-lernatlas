@@ -11326,6 +11326,131 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "mbi-influencer-post-pruefen",
+      "subjectId": "mbi",
+      "title": "Lernclip: Meinung, Werbung und Rechte prüfen",
+      "scope": "Freiwilliger Ausblick mit Zielmarke Klasse 8: §2.2.3 Social Media im ab Klasse 7 gültigen MBI-Plan. Der gesamte Post ist erfunden. Keine bestätigte aktuelle Klasse-7-Unterrichtseinheit, echte Plattformbedienung oder Rechtsentscheidung.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Lies nur die fiktive Datenkarte. Du brauchst kein Konto und sollst nichts suchen, posten, fotografieren oder hochladen. Schreibe keine eigenen Nutzungsdaten auf. Bei offenen Rechten oder Belegen wird eine wirkliche Veröffentlichung aufgeschoben.",
+      "introduction": "Eine Influencerin kann mit einem Tipp Meinungen prägen und zugleich für ein Produkt werben. Prüfe in diesem erfundenen Fall beide Rollen, die Beleglage und die offenen Fragen vor einer Veröffentlichung. „Viele Follower“ und ein weit oben gezeigter Beitrag beweisen keine sachliche Richtigkeit. Du beurteilst nur die Datenkarte, keine echte Person. Freie Antworten brauchen menschliche Prüfung.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–E",
+        "mainTaskCount": 5,
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–E festhalten und zweite Fassung zeigen",
+        "text": "FREIWILLIGE ZWEITE FASSUNG NACH A–E · Die Bedingungen des erfundenen Clips ändern sich. Bearbeite F erst nach dem Hauptteil; die sechs Zusatzpunkte zählen getrennt."
+      },
+      "passage": "FIKTIVE DATENKARTE · Plattform Takt, keine echten Konten oder Medien\nDer erfundenen Lernclip-Macherin Mira folgen 12 000 Personen. Viele mögen ihre kurzen Erklärungen. Ein erfundenes Unternehmen gibt ihr für einen Clip über die Lernbox Karo eine kostenlose Box und 100 Euro. Mira darf die Box kritisieren, bekommt die Gegenleistung aber für den veröffentlichten Produktclip. Im sichtbaren Clip steht oben nur „Mein Lerntipp“, kein Hinweis auf die Gegenleistung.\n\nMira sagt: „Mit Karo lernen alle doppelt so schnell.“ Unter dem Clip steht keine Studie oder Messmethode. Gezeigt wird ein Foto der fiktiven Mitschülerin Nia am Tisch. Ob Nia einer öffentlichen Veröffentlichung zugestimmt hat, steht nicht auf der Karte. Im Hintergrund läuft ein kurzer fremder Musikausschnitt; Herkunft und Nutzungsrecht sind nicht angegeben. Es gibt kein echtes Bild und keine echte Musik in dieser Aufgabe.\n\nPLATTFORMNOTIZ DER SIMULATION: „Takt kann bei der Reihenfolge von Beiträgen unter anderem frühere Reaktionen und erwartetes Interesse berücksichtigen. Aus der Reihenfolge eines einzelnen Feeds lässt sich die genaue Ursache nicht ablesen.“ Der Produktclip wurde nach vielen Reaktionen weiter oben gezeigt. Die Karte belegt nicht, warum genau das geschah oder ob einzelne Nutzende zielgerichtete Werbung erhielten.",
+      "tasks": [
+        {
+          "id": "mbi-influencer-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A. Rollen und Interessen (4 Punkte): Erkläre an zwei Datenkartenmerkmalen, wie Mira gleichzeitig eine Meinung über Lernen prägen und als Werbeträgerin handeln kann. Welche Information müsste für Betrachtende früh erkennbar sein? Beurteile nicht, ob eine echte Person rechtswidrig gehandelt hat.",
+          "sample": "Mira kann durch ihre 12 000 Follower und verständlichen Clips Meinungen über Lernmethoden beeinflussen. Für diesen Produktclip erhält sie eine kostenlose Box und 100 Euro; deshalb ist ihr Tipp auch mit einem Werbeinteresse verbunden. Dass sie Kritik üben darf, beseitigt die Gegenleistung nicht. Betrachtende sollten gleich erkennen können, dass es für den Clip eine Gegenleistung gibt.",
+          "criteria": [
+            "1 Punkt: mögliche Meinungswirkung durch Reichweite oder geschätzte Erklärungen.",
+            "1 Punkt: kostenlose Box und Geld als Gegenleistung für den Produktclip erkannt.",
+            "1 Punkt: Meinungs- und Werberolle zugleich erklärt; erlaubte Kritik beseitigt die Gegenleistung nicht.",
+            "1 Punkt: klare, frühe Erkennbarkeit des Werbeinteresses gefordert. Keine konkrete Rechtsformel nötig."
+          ]
+        },
+        {
+          "id": "mbi-influencer-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B. Behauptung prüfen (4 Punkte): Zerlege „alle doppelt so schnell“ in mindestens zwei überprüfbare Fragen. Welche Belege fehlen? Nenne einen möglichen Nutzen des Clips, ohne die Geschwindigkeitsbehauptung zu übernehmen.",
+          "sample": "Für wen soll „alle“ gelten und wie wurden die Lernenden ausgewählt? Was heisst „doppelt so schnell“: gleiche Aufgabe, gleiche Bedingungen und gemessene Zeit im Vergleich wozu? Eine Studie, ein Ausgangswert und die Messmethode fehlen. Kurze Erklärungen könnten Interesse wecken oder den Einstieg erleichtern; das beweist keine Verdopplung.",
+          "criteria": [
+            "1 Punkt: „alle“ als überprüfbare Gruppenaussage zerlegt.",
+            "1 Punkt: „doppelt so schnell“ mit Vergleich, Messgrösse und Bedingungen hinterfragt.",
+            "1 Punkt: fehlenden Beleg oder fehlende Methode konkret benannt.",
+            "1 Punkt: möglichen Nutzen ohne Übernahme der unbelegten Zahl genannt. Gleichwertige präzise Fragen gelten."
+          ]
+        },
+        {
+          "id": "mbi-influencer-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C. Vor dem Teilen prüfen (4 Punkte): Prüfe drei getrennte Fragen: Darf Nias erkennbares Bild öffentlich gezeigt werden, wer hat das Foto gemacht bzw. darf es genutzt werden, und woher stammt die fremde Musik samt Nutzungsrecht? Welche sichere Handlung folgt, solange die Antworten fehlen?",
+          "sample": "Für Nias erkennbare Abbildung ist offen, ob sie der öffentlichen Nutzung zugestimmt hat. Zusätzlich ist unklar, wer das Foto gemacht hat und ob Mira es nutzen darf. Auch Herkunft und Nutzungsrecht der fremden Musik fehlen. Bis das geklärt ist, sollte der Clip nicht öffentlich geteilt werden; eine eigene Zeichnung ohne Personen und keine fremde Musik wären mögliche Änderungen.",
+          "criteria": [
+            "1 Punkt: Zustimmung oder erlaubte öffentliche Nutzung für Nias erkennbare Abbildung als offene Frage.",
+            "1 Punkt: Herkunft und Nutzungsrecht am Foto selbst als getrennte offene Frage.",
+            "1 Punkt: Herkunft und Nutzungsrecht der fremden Musik als weitere offene Frage.",
+            "1 Punkt: Veröffentlichung aufschieben oder betroffene Medien entfernen/ersetzen, bis die Fragen geklärt sind. Keine pauschale Strafbarkeitsaussage."
+          ]
+        },
+        {
+          "id": "mbi-influencer-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D. Wirkung auf Menschen (4 Punkte): Mira stellt den Clip als „Mein Lerntipp“ dar. Beschreibe zwei mögliche andere Wahrnehmungen durch Betrachtende oder Nia. Begründe, weshalb viele Follower und ein weit oben angezeigter Beitrag weder Richtigkeit noch faire Wirkung garantieren. Erzähle nichts über eigene Profile.",
+          "sample": "„Mein Lerntipp“ ist Miras sichtbare Darstellung; Betrachtende könnten den Clip wegen der nicht genannten Gegenleistung auch als versteckte Werbung empfinden. Nia könnte sich über das öffentliche Foto ärgern, obwohl ihre Sicht hier unbekannt ist. Viele Follower beweisen die Lernzahl nicht. Ein hoher Rang zeigt auch nicht, ob der Clip fair wirkt oder welches Sortiersignal im Einzelfall entscheidend war.",
+          "criteria": [
+            "1 Punkt: sichtbare Selbstdarstellung von möglicher Werbewahrnehmung getrennt, ohne innere Absicht als Tatsache.",
+            "1 Punkt: mögliche andere Sicht Nias ohne erfundene Gewissheit beschrieben.",
+            "1 Punkt: Reichweite oder Rang nicht als Richtigkeitsbeweis behandelt.",
+            "1 Punkt: weder faire Wirkung noch konkrete Sortierursache aus Rang abgeleitet. Sinnvolle Varianten gelten."
+          ]
+        },
+        {
+          "id": "mbi-influencer-5",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "E. Plattform und Entscheidung (4 Punkte): Benenne je ein erkennbares Interesse des Unternehmens und Miras. Formuliere für die Plattform eine begründete Möglichkeit, weshalb ihr Reaktionen und Interesse wichtig sein könnten; die Karte nennt keine Einnahmen. Was lässt die Plattformnotiz über Sortierung zu, was nicht? Formuliere einen datensparsamen Weg, den Clip vorläufig zu prüfen oder nicht zu teilen.",
+          "sample": "Das Unternehmen möchte Nachfrage nach Karo; Mira bekommt eine Gegenleistung und Reichweite. Für Takt könnte es nützlich sein, wenn Menschen interessante Beiträge ansehen und weiter reagieren; ein konkretes Einnahmemodell steht nicht auf der Karte. Die Notiz nennt mögliche Sortiersignale, beweist aber nicht, warum gerade dieser Clip höher stand. Ich würde vor einem Teilen den Werbehinweis, die Lernzahl und die drei offenen Medienfragen klären und keine privaten Daten dafür preisgeben; bis dahin bleibt der Clip unveröffentlicht.",
+          "criteria": [
+            "1 Punkt: Unternehmensinteresse und Miras Gegenleistung/Reichweite passend getrennt.",
+            "1 Punkt: Plattformbindung durch Interesse/Reaktionen nur als begründete Möglichkeit, kein behaupteter Erlös.",
+            "1 Punkt: mögliche Sortiersignale von unbekannter konkreter Ursache getrennt.",
+            "1 Punkt: begründete Option ohne zusätzliche persönliche Daten und ohne voreilige Veröffentlichung. Keine zielgerichtete Minderjährigenwerbung behaupten."
+          ]
+        },
+        {
+          "id": "mbi-influencer-6",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "F. Getrennter Transfer (6 Zusatzpunkte): In einer zweiten erfundenen Fassung erhält Mira für diesen Clip keine Box und kein Geld. Das Foto wird durch eine eigene Zeichnung ohne erkennbare Menschen ersetzt, die Musik weggelassen. Der Satz „alle doppelt so schnell“ bleibt ohne Beleg. Erkläre, welche drei Prüfprobleme nun kleiner werden. Benenne zwei getrennte Mängel beim Beleg der Geschwindigkeitsbehauptung und eine sichere nächste Handlung vor einer möglichen Veröffentlichung.",
+          "sample": "Für diesen Clip ist keine Box- oder Geld-Kooperation genannt; daraus folgt nicht, dass es niemals ein anderes Werbeinteresse geben kann. Die eigene Zeichnung ohne erkennbare Menschen lässt die konkrete Frage zu Nias Bild entfallen. Ohne fremde Musik fällt deren konkrete Rechtefrage weg. Für „alle“ fehlt eine klar definierte untersuchte Gruppe. Für „doppelt so schnell“ fehlen Messvergleich, Methode und Ausgangswert. Ich würde die Behauptung vor einer Veröffentlichung belegen oder vorsichtig abschwächen beziehungsweise entfernen.",
+          "criteria": [
+            "1 Punkt: eine Box-/Geld-Kooperation ist für diesen zweiten Clip nicht belegt; kein Ausschluss jedes Werbeinteresses behauptet.",
+            "1 Punkt: die konkrete Nia-Bildfrage entfällt bei einer eigenen Zeichnung ohne erkennbare Menschen.",
+            "1 Punkt: die konkrete Frage nach fremder Musik entfällt, weil sie weggelassen wird.",
+            "1 Punkt: „alle“ braucht eine definierte untersuchte Gruppe.",
+            "1 Punkt: „doppelt so schnell“ braucht einen gemessenen Vergleich mit Methode oder Ausgangswert.",
+            "1 Punkt: vor Veröffentlichung belegen oder die unbewiesene Behauptung abschwächen/entfernen. Sechs eigenständige Zusatzpunkte, getrennt von den 20 Hauptpunkten."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Einführung Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. §2.2.3 PDF-S. 25–26: Influencer als Meinungsbildende und Werbeträger, Plattforminteressen, Profil-/Fremdwahrnehmung sowie rechtliche und ethische Prüfung veröffentlichter Inhalte unter der Zielmarke Klassenstufe 8.",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
       "id": "mbi-simunet-datensparsam",
       "subjectId": "mbi",
       "title": "SimuNet: Daten sparsam auswählen",

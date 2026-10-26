@@ -1,15 +1,15 @@
 {
-  "builtAt": "2026-10-26T05:51:07.953Z",
-  "releaseVersion": "2026.10.26-spb3s10.1",
+  "builtAt": "2026-10-26T07:29:00.911Z",
+  "releaseVersion": "2026.10.26-mbii3clip.1",
   "newTopicIds": [
-    "sp-b3-s10-geraetebahn-rueckblick"
+    "mbi-influencer-post-pruefen"
   ],
   "changeLog": [
-    "Sport 2026 B3-S10: freiwilliger unbewerteter Schulbeobachtungsweg zur Umgestaltung einer vorgegebenen Bewegungslandschaft. Zwei neutrale Notizfelder und getrennte Kinder-/Fachvorlage.",
-    "Keine Heimübung und keine Sportnote. Die tatsächliche Gerätehandlung, Sicherheit und fachliche Bewertung bleiben allein im beaufsichtigten Schulsport; ausgefüllte Bögen werden nicht hochgeladen.",
-    "190 Themen/863 Notiz- und Aufgabenfelder. Der veröffentlichte Altbestand bleibt erhalten; keine privaten Fotos oder Lernstände im Paket."
+    "Medienbildung und Informatik I3: fiktiven Lernclip auf Meinungswirkung, Gegenleistung, unbelegte Behauptung und offene Bild-/Musikrechte pruefen.",
+    "Freiwilliger Ende-8-Ausblick. A–E zuerst, zweite Fassung F erst nach eigener Hauptbearbeitung; Sachloesungen getrennt im Erwachsenenbereich. Kein Konto, Bild, Musik oder echter Upload.",
+    "191 Themen/869 Aufgaben- und Notizfelder; die bisherigen 190 Themenobjekte bleiben erhalten. Keine privaten Quellen oder Lernstaende im Paket."
   ],
-  "rollbackCommit": "8edaba861174758399cd9b621b1322af48956801",
+  "rollbackCommit": "315c04ab25cb8e5a645e46ab85f413ab0f55bfa2",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -200,7 +200,8 @@
     "sp-b1-s01-werfen-stossen-notizen",
     "sp-b1-m02-transfergrenzen",
     "sp-b1-m06-zielregel",
-    "sp-b3-s10-geraetebahn-rueckblick"
+    "sp-b3-s10-geraetebahn-rueckblick",
+    "mbi-influencer-post-pruefen"
   ],
   "subjects": [
     "en",
@@ -279,7 +280,8 @@
     "ma-runden-materialentscheidung",
     "fr-questionnaire-atelier-cartes",
     "mbi-i1-datumswerte-sortieren",
-    "mbi-i6-anwendungsfelder"
+    "mbi-i6-anwendungsfelder",
+    "mbi-influencer-post-pruefen"
   ],
   "unclearValidityTopics": [
     "et-algebra-kulturtransfer",

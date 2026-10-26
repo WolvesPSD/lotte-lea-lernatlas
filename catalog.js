@@ -16716,6 +16716,133 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "sp-b1-s01-werfen-stossen-notizen",
+      "subjectId": "sp",
+      "title": "Werfen oder Stoßen? Zwei Textspuren vergleichen",
+      "scope": "Freiwilliger schriftlicher Klasse-7/8-Teilfall zu B1-S01 im gültigen Thüringer Sportplan 2026. Er übt nur die Beschreibung erfundener Wurf- und Stoßnotizen; tatsächliches Werfen/Stoßen und fachkundige Technik-/Sicherheitsbeurteilung bleiben offen. Lottes Unterrichtsfolge und Schulgeräte sind unbekannt.",
+      "levelStatus": "grade78-flex",
+      "levelLabel": "Klasse 7/8 · Wurf-/Stoß-Textteil, Praxis offen",
+      "released": true,
+      "prerequisite": "Du führst keinen Wurf oder Stoß aus und brauchst kein Sportgerät. S1/S2 und W1/W2 sind erfundene Notizen, keine Aufnahme oder Messung. Kugelstoßen und Speerwurf sind nur zwei Quellenbeispiele, keine Angabe zu deiner Schule. Die App kann freie Antworten nicht automatisch bewerten; 20 Haupt- und sechs spätere Zusatzpunkte sind Lernfeedback, keine Sportnote. Keine echten Sportbilder, Weiten, Gesundheitsdaten oder Namen eingeben.",
+      "introduction": "Vergleiche zwei erfundene Textspuren. Abgabe heisst: Das Gerät verlässt die Hand. Ausgleich heisst: Die Person bremst danach ab oder stabilisiert sich. S1/S2 beschreiben eine Stoß-Beispielspur, W1/W2 eine Wurf-Beispielspur. Ein einzelner Satz beweist keine vollständige Bewegung. Die Trainerquellen liefern Begriffe, aber keine Schuldisziplin und keine Anleitung zum Nachmachen. A–D haben 20 Kriterienpunkte; die freiwillige Änderung mit sechs Zusatzpunkten erscheint erst danach.",
+      "passage": "VIER ERFUNDENE BEOBACHTUNGSNOTIZEN · S1: In einer Kugelstoß-Beispielspur bleibt das runde Gerät vor der Abgabe nahe Schulter und Hals. Die Notiz zeigt nur einen kurzen Zeitpunkt vor der Abgabe.\n\nS2: In derselben Spur beschreibt der Bericht die Abgabe als Wegdrücken nach vorn. Danach stabilisiert sich die dargestellte Person. Eine Weite und die vollständige Bewegung stehen nicht im Bericht.\n\nW1: In einer Speerwurf-Beispielspur zeigt die Notiz ein längliches Gerät mit der Spitze in Richtung des gedachten Wurfbereichs. Die Person ist vor der Abgabe dargestellt; der Anlauf fehlt in dieser Notiz.\n\nW2: In derselben Spur beschreibt der Bericht eine Abgabe über die Schulter nach vorn. Danach bremst die dargestellte Person ab. Die Notiz zeigt keine Flugbahn und kein Messergebnis.\n\nDiese vier Notizen sind eigene erfundene Texte, keine Technikbilder, Beobachtung einer echten Person oder Aufforderung zum Nachmachen.",
+      "cardsHeading": "Zwei Fachquellen · nur als Vergleich für den Text",
+      "sourceCards": [
+        {
+          "title": "Kugelstoßen als Quellenbeispiel",
+          "text": "World Athletics unterscheidet das Stossen einer Kugel vom Werfen und nennt die Nähe des Geräts zu Hals/Kinn vor der Abgabe. Athletics Ireland beschreibt für Kugelstoßen Vorbereitung, Abgabe und Ausgleich sowie das Drücken als Trainermerkmal.",
+          "sourceLabel": "World Athletics · Shot Put",
+          "sourceUrl": "https://worldathletics.org/disciplines/throws/shot-put",
+          "sourceNote": "Direkt gelesen 26.10.2026; Wettkampf-/Trainerquelle, keine Thüringer Schulaufgabe oder Übungsanleitung. Athletics Ireland PDF-S. 6–7 und 10 im nächsten Quelllink."
+        },
+        {
+          "title": "Speerwurf als anderes Quellenbeispiel",
+          "text": "Athletics Ireland beschreibt Anlauf, Aufbau, Abgabe und Ausgleich als Phasen eines Speerwurfs. Die Ausrichtung des Geräts und eine Abgabe über die Schulter sind dort Merkmale dieses Beispiels. Aus unseren fiktiven Kurznotizen lässt sich keine echte technische Qualität ableiten.",
+          "sourceLabel": "Athletics Ireland · Run–Jump–Throw Series",
+          "sourceUrl": "https://www.athleticsireland.ie/wp-content/uploads/2025/09/Run-Jump-Throw-Series-All-Notes_compressed.pdf",
+          "sourceNote": "Original-PDF am 26.10.2026 direkt geprüft, PDF-S. 13–14; Trainerunterlage. Keine Bilder übernommen."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und Ball-Variante zeigen",
+        "text": "FREIWILLIGE ZUSATZNOTIZ W3 NACH A–D · Bei einer späteren erfundenen Vorführung wird statt des länglichen Geräts ein weicher Ball erwähnt. Der Text sagt nur: „Die Abgabe ging über die Schulter nach vorn.“ Vorbereitung, Ort, Regeln und Ergebnis fehlen. Jemand behauptet: „Damit ist die gesamte Speerwurf-Technik und dieselbe Sicherheit auf den Ball übertragbar.“ Dies ist nur eine Textfrage, keine Übungsanweisung."
+      },
+      "tasks": [
+        {
+          "id": "sp-b1-s01-ws-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Ordnen und belegen (4 Hauptpunkte): Welche zwei Notizen gehören zur Stoß-Beispielspur und welche zwei zur Wurf-Beispielspur? Nenne für jede Spur ein Textmerkmal als Beleg. Warum zeigt die Form des Geräts allein noch keine vollständige Technik?",
+          "sample": "S1/S2 gehören zur Stoßspur: S1 nennt das Gerät nahe Schulter/Hals, S2 das Wegdrücken. W1/W2 gehören zur Wurfspur: W1 beschreibt die Ausrichtung des länglichen Geräts und W2 eine Abgabe über die Schulter. Die Geräteform allein zeigt weder Bewegungsfolge noch Qualität.",
+          "criteria": [
+            "1 Punkt für S1/S2 als Stoßspur.",
+            "1 Punkt für W1/W2 als Wurfspur.",
+            "1 Punkt für passende konkrete Textmerkmale beider Spuren.",
+            "1 Punkt für die Grenze der Geräteform ohne Ablaufbeleg."
+          ]
+        },
+        {
+          "id": "sp-b1-s01-ws-b",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Ablauf vergleichen (6 Hauptpunkte): Beschreibe für beide Spuren je einen Vorher–Abgabe–Nachher-Zusammenhang, soweit die Notizen ihn hergeben. Nenne eine Gemeinsamkeit, einen Unterschied in der Abgabe und einen weiteren in Gerät oder Ausgangslage. Belege beide Unterschiede mit S- oder W-Kürzeln. Welcher Ablaufteil fehlt in mindestens einer Spur?",
+          "sample": "S1 liegt vor der Abgabe, S2 beschreibt Wegdrücken und danach Stabilisierung. W1 liegt vor der Abgabe, W2 beschreibt die Abgabe über die Schulter und danach Abbremsen. Gemeinsam ist ein begrenzter Vorher–Abgabe–Nachher-Rahmen. S2/W2 unterscheiden sich im Drücken gegenüber der über die Schulter geführten Abgabe; S1 nennt ein rundes Gerät nahe Schulter/Hals, W1 ein längliches ausgerichtetes Gerät. W1 zeigt keinen Anlauf.",
+          "criteria": [
+            "1 Punkt für den begrenzten Dreischritt der Stoßspur.",
+            "1 Punkt für den begrenzten Dreischritt der Wurfspur.",
+            "1 Punkt für die Gemeinsamkeit.",
+            "1 Punkt für einen mit Kürzeln belegten Abgabeunterschied.",
+            "1 Punkt für einen belegten Unterschied in Gerät oder Ausgangslage.",
+            "1 Punkt für einen fehlenden Ablaufteil."
+          ]
+        },
+        {
+          "id": "sp-b1-s01-ws-c",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C · Behauptung prüfen (6 Hauptpunkte): Jemand sagt: „S2 und W2 zeigen denselben Bewegungsablauf; nur die Weite ist verschieden. Darum war S2 sicher und technisch besser.“ Welche Teile widersprechen den Notizen oder sind unbelegt? Formuliere eine vorsichtigere Aussage. Nenne zwei Informationen, die eine Sportlehrkraft für eine echte Beurteilung erst direkt beobachten oder festlegen müsste. Du selbst sollst keine Technik oder Sicherheit beurteilen.",
+          "sample": "S2 nennt Wegdrücken, W2 eine Abgabe über die Schulter; die Abgabearten unterscheiden sich. Keine Notiz enthält eine Weite. Deshalb sind „technisch besser“ und „sicher“ unbelegt. Vorsichtig: In den erfundenen Berichten stehen zwei verschieden beschriebene Abgaben, aber kein vollständiger Ablauf. Für eine echte Beurteilung müsste die Lehrkraft die vollständige Bewegung mit gewähltem Gerät beobachten und Ort, Regeln sowie Sicherheitsbedingungen festlegen.",
+          "criteria": [
+            "1 Punkt für unterschiedliche Abgabearten.",
+            "1 Punkt für fehlende Weiten.",
+            "1 Punkt für unbelegte Sicherheits-/Qualitätswertung.",
+            "1 Punkt für begrenzte Ersatzbehauptung.",
+            "Je 1 Punkt für zwei unterschiedliche nötige Beobachtungen oder Festlegungen durch die Lehrkraft."
+          ]
+        },
+        {
+          "id": "sp-b1-s01-ws-d",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Zwei präzise Sätze (4 Hauptpunkte): Schreibe je einen sachlichen Satz zur Stoß- und zur Wurfspur. Jeder Satz soll ein konkretes Textmerkmal und die Grenze der Notiz enthalten. Vermeide „alle Würfe/Stöße sind immer so“ und vermeide eine Schulnoten- oder Sicherheitsbehauptung.",
+          "sample": "In S1/S2 liegt das runde Gerät vor der Abgabe nahe Schulter/Hals und wird laut Bericht nach vorn gedrückt; der vollständige Ablauf bleibt ungesehen. In W1/W2 ist ein längliches Gerät ausgerichtet und die Abgabe über die Schulter beschrieben; Anlauf, Flugbahn und Ergebnis sind nicht gezeigt.",
+          "criteria": [
+            "1 Punkt für präzise Stoßbeschreibung mit Textmerkmal.",
+            "1 Punkt für passende Grenze der Stoßnotizen.",
+            "1 Punkt für präzise Wurfbeschreibung mit Textmerkmal.",
+            "1 Punkt für passende Grenze der Wurfnotizen."
+          ]
+        },
+        {
+          "id": "sp-b1-s01-ws-e",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Zusatznotiz W3 nach A–D · sechs getrennte Zusatzpunkte: Welche eine begrenzte Ähnlichkeit ist aus W2/W3 beschreibbar? Welche zwei weitergehenden Schlüsse über Technik und Sicherheit sind nicht belegt, und warum? Welche eine sachliche Rückfrage an die Sportlehrkraft wäre vor einer praktischen Übertragung sinnvoll? Bitte keinen Versuch ausführen.",
+          "sample": "W2 und W3 erwähnen beide eine Abgabe über die Schulter nach vorn. W3 belegt keine identische gesamte Speerwurf-Technik, denn Gerät und vorbereitender Ablauf unterscheiden sich oder bleiben offen. W3 belegt keine gleiche Sicherheit, weil Ort, Regeln und direkte Beobachtung fehlen. Eine passende Frage wäre: Welche Geräte, Regeln und Beobachtungskriterien gelten in unserer beaufsichtigten Sportstunde für diesen Ball?",
+          "criteria": [
+            "1 Zusatzpunkt für die begrenzte Ähnlichkeit mit W2/W3.",
+            "2 Zusatzpunkte für den unbelegten Technikschluss samt Grund.",
+            "2 Zusatzpunkte für den unbelegten Sicherheitsschluss samt Grund.",
+            "1 Zusatzpunkt für eine sachliche Rückfrage an die Sportlehrkraft."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "Sport 2026 ab Klasse 7 im Schuljahr 2026/27",
+        "gradeBand": "7/8, freiwilliger Wurf-/Stoß-Textteil",
+        "competencyRef": "Sport Gymnasium Erprobung 2026, B1-S01, PDF-S. 21/Drucks. 16: Bewegungsabläufe und Technikkriterien beim Laufen, Springen und Werfen/Stoßen beschreiben. B1-S05/PDF-S. 22 ist dagegen tatsächliche Praxis. Athletics Ireland, Run–Jump–Throw Series: All Notes, PDF-S. 6–7, 10 und 13–14; World Athletics, Shot Put. Quellenbeispiele, keine Schuldisziplin.",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
       "id": "sp-b1-s01-sprungmomente",
       "subjectId": "sp",
       "title": "Vier erfundene Sprungmomente lesen",

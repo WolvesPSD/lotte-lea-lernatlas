@@ -1,15 +1,15 @@
 {
-  "builtAt": "2026-10-26T03:59:07.425Z",
-  "releaseVersion": "2026.10.26-mbi3challenge.1",
+  "builtAt": "2026-10-26T04:19:04.646Z",
+  "releaseVersion": "2026.10.26-spwurf.1",
   "newTopicIds": [
-    "mbi-i3-challenges-stichprobe"
+    "sp-b1-s01-werfen-stossen-notizen"
   ],
   "changeLog": [
-    "MBI 2026 I3-S2: freiwilliger Ende-Klasse-8-Ausblick zu Chancen und Risiken von Challenges anhand begrenzter öffentlicher Studiendaten und eines erfundenen Kreativkreises. 20 Haupt- und sechs später freigegebene Zusatzpunkte.",
-    "Die Quellenkarte trennt 1.338 anfänglich erfasste Challenge-Videos von 1.199 addierten Typ-Stückzahlen; keine erfundene Prozent-Rückrechnung. Keine echten Konten, Namen oder Medienerlebnisse.",
-    "186 Themen und 848 reguläre Aufgaben. Andere Themen, frühere Assets, Kontaktadresse und Lernstände unverändert."
+    "Sport 2026 B1-S01: freiwilliger Klasse-7/8-Wurf-/Stoß-Schriftteil mit vier erfundenen Beobachtungsnotizen, zwei Verbandsquellen und Grenzen der Textbeurteilung. 20 Haupt- und sechs später freigegebene Zusatzpunkte.",
+    "Das neue Blatt ergänzt Lauf und Sprung nur im Beschreibungsziel B1-S01. Tatsächliches Werfen/Stoßen B1-S05, Technikbeobachtung, Sicherheitsentscheidung, Schulgeräte und Unterrichtsfolge bleiben offen.",
+    "187 Themen und 853 reguläre Aufgaben. Andere Themen, frühere Assets, Kontaktadresse und Lernstände unverändert."
   ],
-  "rollbackCommit": "bdca1e0e84a5f4265d8ba26d10487daf072447d3",
+  "rollbackCommit": "5b258b9a1268057878ee34e9570d485192b7abdf",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -196,7 +196,8 @@
     "sp-b1-ss07-mannschaften",
     "sp-b2-r08-z07-taktikvergleich",
     "sp-b1-s01-sprungmomente",
-    "mbi-i3-challenges-stichprobe"
+    "mbi-i3-challenges-stichprobe",
+    "sp-b1-s01-werfen-stossen-notizen"
   ],
   "subjects": [
     "en",

@@ -16579,6 +16579,141 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "sp-b1-s01-sprungmomente",
+      "subjectId": "sp",
+      "title": "Vier erfundene Sprungmomente lesen",
+      "scope": "Freiwilliger schriftlicher Klasse-7/8-Teilfall zu B1-S01 im gültigen Thüringer Sportplan 2026. Er übt eine begrenzte Beschreibung fiktiver Sprungnotizen, nicht Springen, Werfen/Stoßen oder eine echte Technikbeurteilung. Lottes Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade78-flex",
+      "levelLabel": "Klasse 7/8 · Sprung-Textteil, Praxis offen",
+      "released": true,
+      "prerequisite": "Du sollst nicht springen oder jemanden filmen. P–S sind erfundene kurze Momentnotizen, keine Aufnahmen oder Messwerte. Die Fachquelle beschreibt nur ein Lernmodell für Weitsprung mit kurzem Anlauf, keine Anleitung für dich. 20 Hauptpunkte und sechs spätere Zusatzpunkte sind Lernfeedback, keine Sportnote. Offene Antworten brauchen menschliche Rückmeldung; keine echten Leistungs- oder Gesundheitsdaten eingeben.",
+      "introduction": "Lies zuerst P–S. Die Reihenfolge ist zu begründen, doch zwischen kurzen Notizen bleibt Bewegung unbekannt. Q beschreibt ausdrücklich den Abhebevorgang von einem Fuß und S nur den Bodenkontakt beider Füße. Vergleiche diese zwei Angaben vorsichtig mit dem Lernmodell der Fachquelle: ein Fuß beim Absprung, zwei Füße bei der Landung nach kurzem Anlauf. Ein beidbeiniger Standweitsprung wäre ein anderes Modell. Keine Notiz beweist Tempo, Sprungweite, Regelgültigkeit oder Sicherheit.",
+      "cardsHeading": "Vier erfundene Momentnotizen und eine Fachquelle",
+      "sourceCards": [
+        {
+          "title": "P · Annäherung",
+          "text": "Eine Person nähert sich einer markierten Absprungfläche. Die Füße sind im Ausschnitt noch nicht vollständig zu sehen.",
+          "sourceNote": "Erfundene Momentnotiz, keine Aufnahme."
+        },
+        {
+          "title": "Q · Abheben",
+          "text": "Beim Abheben löst sich ein Fuß von der Absprungfläche; der andere Fuß ist bereits angehoben. Ob eine Markierung überschritten wird, zeigt die Notiz nicht.",
+          "sourceNote": "Erfundene Momentnotiz, keine Regelentscheidung."
+        },
+        {
+          "title": "R · Flugmoment",
+          "text": "Beide Füße sind vom Boden weg. Es gibt keine Angabe zu Zeit, Geschwindigkeit, Sprungweite oder Dauer.",
+          "sourceNote": "Erfundene Momentnotiz, kein vollständiger Bewegungsverlauf."
+        },
+        {
+          "title": "S · Bodenkontakt",
+          "text": "In einer sandigen Landefläche berühren beide Füße den Boden. Materialzustand, Aufsicht und spätere Stabilität sind nicht beschrieben.",
+          "sourceNote": "Erfundene Momentnotiz, kein Sicherheitsurteil."
+        },
+        {
+          "title": "Lernmodell für Lehrkräfte · Weitsprung mit kurzem Anlauf",
+          "text": "Athletics Ireland unterscheidet den zunächst beidbeinigen Standweitsprung vom Sprung nach kurzem Anlauf: Beim zweiten Lernmodell ist der Absprung einbeinig und die Landung beidbeinig. Diese zwei Merkmale dienen hier nur als Vergleich für die Textkarten.",
+          "sourceLabel": "Athletics Ireland · Run–Jump–Throw Series",
+          "sourceUrl": "https://www.athleticsireland.ie/wp-content/uploads/2025/09/Run-Jump-Throw-Series-All-Notes_compressed.pdf",
+          "sourceNote": "Original-PDF am 26.10.2026 direkt geprüft, PDF-S. 30–32. Quelle für Lehrkräfte, keine selbstständige Übungsanleitung."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und neue Sprungnotizen zeigen",
+        "text": "SPÄTERE ZUSATZKARTE NACH A–D · In einem anderen erfundenen Fall ersetzen Q′ und S′ die bisherigen Notizen Q und S. Q′ beschreibt, dass beim Abheben beide Füße gleichzeitig den Boden verlassen. S′ ist unten abgeschnitten: Füße und Landefläche sind nicht sichtbar. P und R bleiben gleich. Beurteile keine wirkliche Person oder Sicherheit."
+      },
+      "tasks": [
+        {
+          "id": "sp-b1-s01-sprung-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Ordnen und belegen (4 Hauptpunkte): Bringe P–S in eine plausible Folge von Annäherung, Absprung, Flug und Landung. Nenne für zwei Übergänge je eine konkrete Kartenangabe als Beleg.",
+          "sample": "P–Q–R–S. P beschreibt die Annäherung, Q danach den ausdrücklich notierten Abhebevorgang. In R sind beide Füße ohne Bodenkontakt, während S den Bodenkontakt beider Füße nennt.",
+          "criteria": [
+            "2 Punkte für P–Q–R–S in passender Phasenfolge.",
+            "1 Punkt für einen zutreffenden ersten Übergangsbeleg, zum Beispiel P→Q.",
+            "1 Punkt für einen anderen zutreffenden Übergangsbeleg, zum Beispiel R→S. Nur Buchstaben ohne Belege höchstens 2/4."
+          ]
+        },
+        {
+          "id": "sp-b1-s01-sprung-b",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Bewegung beschreiben (6 Hauptpunkte): Formuliere vier eigene zusammenhängende Sätze über die notierte Folge: Annäherung, einbeiniger Abhebevorgang, Flugmoment und beidbeiniger Bodenkontakt. Schreibe einen fünften Satz zu dem, was zwischen Q und S nicht zu sehen ist.",
+          "sample": "Zuerst nähert sich die Person der Absprungfläche. Q beschreibt das Abheben von einem Fuß. R hält einen Flugmoment ohne Bodenkontakt fest. In S berühren beide Füße die Landefläche. Die Bewegung zwischen diesen kurzen Notizen ist nicht vollständig zu sehen.",
+          "criteria": [
+            "Je 1 Punkt für einen fachlich vorsichtigen eigenen Satz zu P, Q, R und S; zusammen 4.",
+            "1 Punkt für eine logische Verbindung und Reihenfolge.",
+            "1 Punkt für die ausdrücklich unbekannte Bewegung zwischen Q und S."
+          ]
+        },
+        {
+          "id": "sp-b1-s01-sprung-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "C · Quelle gegen Notizen prüfen (4 Hauptpunkte): Welche zwei Angaben aus Q und S passen zum Lernmodell der Fachquelle für einen Sprung mit Anlauf? Warum sind die Notizen trotzdem weder eine fachkundige Gesamtbewertung der Technik noch ein Sicherheitsurteil?",
+          "sample": "Q nennt das Abheben von einem Fuß; S nennt den Bodenkontakt beider Füße. Das passt zu zwei Merkmalen des Lernmodells. Übergänge, Körperkoordination und der ganze Ablauf fehlen für eine Technikbewertung. Anlage, Aufsicht und Stabilität nach dem Kontakt fehlen für ein Sicherheitsurteil.",
+          "criteria": [
+            "1 Punkt für Q: ausdrücklich notiertes einbeiniges Abheben.",
+            "1 Punkt für S: beide Füße berühren die Landefläche.",
+            "1 Punkt für die Grenze einer ganzen Technikanalyse.",
+            "1 Punkt für die getrennte Grenze eines Sicherheitsurteils."
+          ]
+        },
+        {
+          "id": "sp-b1-s01-sprung-d",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "D · Zu starke Behauptung prüfen (6 Hauptpunkte): Jemand schreibt: „Der Sprung war schnell, regelgültig und sicher; Q und S beweisen das.“ Nenne drei getrennte Beleglücken zu diesen Urteilen. Formuliere danach einen vorsichtigen Ersatzsatz mit mindestens zwei notierten Merkmalen und einer ausdrücklichen Grenze.",
+          "sample": "Schnelligkeit lässt sich ohne Zeitangabe nicht prüfen. Q zeigt keine vollständige Absprungmarkierung oder Schulregel. Material, Aufsicht und Stabilität sind unbekannt. Vorsichtig: Q beschreibt das Abheben von einem Fuß an der Absprungfläche; S nennt den Bodenkontakt beider Füße. Weitere Technik- und Sicherheitsfragen bleiben offen.",
+          "criteria": [
+            "Je 1 Punkt für die getrennten Lücken bei Tempo, Regelgültigkeit und Sicherheit; zusammen 3.",
+            "2 Punkte für einen Ersatzsatz mit mindestens zwei konkret notierten Merkmalen.",
+            "1 Punkt für eine ausdrücklich verbleibende Beweisgrenze."
+          ]
+        },
+        {
+          "id": "sp-b1-s01-sprung-e",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Zusatzkarte nach A–D · sechs getrennte Zusatzpunkte: Was zeigt Q′ im Vergleich zum einbeinigen Anlaufmodell, ohne eine echte Technik zu beurteilen? Was lässt S′ über die Landung offen? Schreibe eine neue vorsichtige Beschreibung und je eine konkrete Frage an eine Sportlehrkraft zur Absprungphase und Landung.",
+          "sample": "Q′ nennt das gleichzeitige Abheben beider Füße und weicht damit vom einbeinigen Merkmal des gewählten Anlaufmodells ab; ein anderer Sprungtyp bleibt möglich. S′ zeigt die Landung gar nicht. P beschreibt Annäherung, Q′ beidbeiniges Abheben und R einen Flugmoment; zur Landung fehlt ein Beleg. Fragen an die Sportlehrkraft: Welche Absprungform gehört zur tatsächlich gewählten Schulaufgabe? Was lässt sich bei der Landung im betreuten Unterricht beobachten?",
+          "criteria": [
+            "1 Zusatzpunkt für das ausdrücklich beidbeinige Abheben in Q′.",
+            "1 Zusatzpunkt für den begrenzten Vergleich ohne Diagnose einer realen Person.",
+            "1 Zusatzpunkt für die unbelegte Landung in S′.",
+            "1 Zusatzpunkt für eine neue vorsichtige Beschreibung.",
+            "1 Zusatzpunkt für eine konkrete Frage zur Absprungphase.",
+            "1 Zusatzpunkt für eine konkrete Frage zur Landung."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "Sport 2026 ab Klasse 7 im Schuljahr 2026/27",
+        "gradeBand": "7/8, freiwilliger Sprung-Textteil",
+        "competencyRef": "Sport Gymnasium Erprobung 2026, B1-S01, PDF-S. 21/Drucks. 16: Bewegungsabläufe und Technikkriterien beim Laufen, Springen und Werfen/Stoßen beschreiben. Hier nur fiktive Sprungmomente. Athletics Ireland, Run–Jump–Throw Series: All Notes, PDF-S. 30–32, unterscheidet Standweitsprung und Sprung mit kurzem Anlauf.",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
       "id": "mnt-wasser-teilchenmodell",
       "subjectId": "mnt",
       "title": "Was zeigen drei Wassermodelle?",

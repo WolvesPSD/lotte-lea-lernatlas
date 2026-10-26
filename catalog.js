@@ -15955,6 +15955,134 @@ window.LOTTE_CATALOG = Object.freeze({
       "levelLabel": "Freiwillig · Schulspielwahl offen"
     },
     {
+      "id": "sp-b2-ss07-fans-geld",
+      "subjectId": "sp",
+      "title": "Wer verdient, wer schaut, was entscheide ich?",
+      "scope": "Freiwilliger Papier-Teilfall zum gültigen Thüringer Sportplan 2026, B2 Spielen: kommerzielle Aspekte, Fanverhalten und persönliche Konsequenzen. Profifußball ist nur das Quellenbeispiel; Lottes Schulspielwahl und Unterrichtsfolge sind offen. Keine Bewegung oder Sportleistung wird geprüft.",
+      "levelStatus": "grade78-flex",
+      "levelLabel": "Klasse 7/8 · Sportspiel-Teilfall, Schulspielwahl offen",
+      "released": true,
+      "prerequisite": "Lies zwei datierte Quellenkarten über verschiedene Wettbewerbe. Du musst weder Fan sein noch etwas kaufen, anklicken oder über dich preisgeben. Arbeite nur mit erfundenen Posts und fiktiven Antworten. Die Karten belegen keine aktuelle Ticketlage, persönliche Fan-Ausgaben oder deine Sportleistung. 20 Hauptpunkte und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Sportnote; offene Antworten brauchen menschliche Rückmeldung.",
+      "introduction": "Karte D und Karte U stammen von den Organisationen, über die sie berichten. Sie betreffen verschiedene Wettbewerbe und Zeiten. Umsatz ist nicht Gewinn. UEFAs Angabe „über 3,3 Millionen“ beweist keine genaue Anzahl verschiedener Personen. Prüfe bei jeder Folgerung, was die jeweilige Quelle wirklich sagt und was sie offenlässt.",
+      "sourceCards": [
+        {
+          "title": "Karte D · Deutsche Fußball Liga (DFL)",
+          "text": "Der DFL-Wirtschaftsreport 2024/25 berichtet über die 36 Clubs der Bundesliga und 2. Bundesliga zusammen. Ihr Umsatz betrug 2023/24 gerundet 5,87 Milliarden € und 2024/25 gerundet 6,33 Milliarden €. Zu den Einnahmewegen gehören Rechte zur Übertragung von Spielen. Umsatz bedeutet Geld, das hereinkommt, nicht automatisch Gewinn. Die DFL ist selbst die Organisation der Ligen. Alle Beträge dieser Karte sind gerundet.",
+          "sourceLabel": "DFL · Wirtschaftsreport 2024/25",
+          "sourceUrl": "https://report.dfl.de/2425/de/_assets/downloads/entire-dfl-er25.pdf?h=Be23nkgB",
+          "sourceNote": "DFL-Bericht, Tabelle PDF-S. 48 und Erläuterung der Einnahmewege PDF-S. 19; am 26.10.2026 gegen das Original geprüft. Vereinfacht und gerundet."
+        },
+        {
+          "title": "Karte U · Europäischer Fußballverband (UEFA)",
+          "text": "In einem Artikel vom 29. Juni 2024 berichtete UEFA, dass während der Gruppenphase der EM 2024 über 3,3 Millionen Menschen offizielle Fan-Zonen der zehn deutschen Gastgeberstädte besucht hätten. Der Artikel erklärt nicht, wie gezählt wurde oder ob jede Person nur einmal vorkommt. „Gemeldete Fan-Zonen-Teilnahmen“ ist deshalb eine vorsichtige Einordnung, nicht UEFAs wörtliche Zählkategorie. UEFA warnte 2024 auch vor Tickets aus nicht autorisierten Verkäufen, weil sie ungültig werden und zum verweigerten Einlass führen können. Das ist keine Aussage über ein heutiges Einzelangebot. UEFA richtet den Wettbewerb selbst aus.",
+          "sourceLabel": "UEFA · Bericht vom 29. Juni 2024",
+          "sourceUrl": "https://www.uefa.com/uefaeuro/history/news/028e-1b3f533ce975-28cecb8930fa-1000--group-stage-completed-uefa-euro-2024-off-the-pitch-in-nu/",
+          "sourceNote": "UEFA-Artikel vom 29.06.2024; am 26.10.2026 gegen das Original geprüft. Zählweise und Einmaligkeit sind dort nicht erklärt."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und Überschrift prüfen",
+        "text": "FREIWILLIGE ÜBERSCHRIFT NACH A–D · „6,33 Milliarden Euro und 3,3 Millionen Fans: Fußballfans gaben 2024/25 im Durchschnitt 1’918 Euro aus.“ Die beiden Zahlen stammen aus verschiedenen Karten. Zerlege erst jetzt diese erfundene Schlussfolgerung. Die sechs Zusatzpunkte zählen getrennt."
+      },
+      "tasks": [
+        {
+          "id": "sp-b2-ss07-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "A · Quellen richtig lesen (4 Hauptpunkte): Wer hat Karte D veröffentlicht, und über welche Clubs spricht sie? Wer hat Karte U veröffentlicht, und auf welche Phase und welches Jahr bezieht sie sich?",
+          "sample": "D stammt von der DFL und behandelt 36 Clubs der Bundesliga und 2. Bundesliga zusammen. U stammt von UEFA und behandelt die Gruppenphase der EM 2024.",
+          "criteria": [
+            "1 Punkt für DFL.",
+            "1 Punkt für 36 Clubs aus Bundesliga und 2. Bundesliga zusammen.",
+            "1 Punkt für UEFA.",
+            "1 Punkt für Gruppenphase der EM 2024; Phase und Jahr müssen beide erkennbar sein."
+          ]
+        },
+        {
+          "id": "sp-b2-ss07-b",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Entwicklung und Grenze (6 Hauptpunkte): (1) Um wie viele Milliarden Euro gerundet stieg der D-Umsatz von 2023/24 auf 2024/25? Zeige die Rechnung. (2) Nenne einen in D genannten Einnahmeweg. (3) Prüfe: „Die 36 Clubs machten 2024/25 zusammen 6,33 Milliarden € Gewinn.“ (4) Weshalb ist die Differenz aus (1) nicht exakt?",
+          "sample": "6,33 − 5,87 = 0,46 Milliarden € gerundet, also etwa 460 Millionen €. Ein Einnahmeweg sind Übertragungsrechte. 6,33 Milliarden € ist der Umsatz; ohne Kostenangaben lässt sich daraus kein Gewinn in gleicher Höhe ableiten. Die beiden Kartenwerte sind bereits gerundet, deshalb auch ihre Differenz.",
+          "criteria": [
+            "1 Punkt für 6,33 − 5,87 = 0,46.",
+            "1 Punkt für die gerundete Einheit Milliarden €.",
+            "1 Punkt für Übertragungsrechte oder einen anderen belegten D-Einnahmeweg.",
+            "1 Punkt für Umsatz statt Gewinn.",
+            "1 Punkt für fehlende Kosten/Ausgaben als Gewinn-Grenze.",
+            "1 Punkt für die Rundung beider Ausgangswerte als Genauigkeitsgrenze."
+          ]
+        },
+        {
+          "id": "sp-b2-ss07-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "C · Fans zählen und Behauptungen prüfen (4 Hauptpunkte): (1) Was umfasst „über 3,3 Millionen“ in U: Ort, Zeitraum und offene Zählweise? (2) Ein fiktiver Post sagt: „Also waren genau 3,3 Millionen verschiedene Menschen dort.“ Nenne zwei verschiedene Gründe, warum U das nicht beweist.",
+          "sample": "UEFA berichtet über offizielle Fan-Zonen in zehn deutschen Gastgeberstädten während der EM-Gruppenphase 2024; die Zählweise und Einmaligkeit sind offen. „Über“ ist nicht „genau“. Der Artikel belegt keine Zahl verschiedener Einzelpersonen; Mehrfachbesuche wären möglich, ohne dass sie hier nachgewiesen sind.",
+          "criteria": [
+            "1 Punkt für Ort: offizielle Fan-Zonen in zehn deutschen Gastgeberstädten.",
+            "1 Punkt für Gruppenphase 2024 und offene Zählweise/Einmaligkeit.",
+            "1 Punkt für „über“ statt „genau“.",
+            "1 Punkt für fehlenden Nachweis verschiedener Einzelpersonen; keine erfundene Mehrfachzahl."
+          ]
+        },
+        {
+          "id": "sp-b2-ss07-d",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "D · Zwei eigene Folgerungen (6 Hauptpunkte): Ein erfundener Werbepost behauptet: „Wenn die Liga mehr Umsatz macht, muss ein echter Fan sofort ein neues Trikot kaufen.“ Ein erfundener privater Ticketpost verspricht: „EM-Karten garantiert gültig.“ Formuliere zu jedem Post eine mögliche eigene Konsequenz in der Ich-Form. Was würdest du vor einem Kauf oder Weiterleiten prüfen oder tun? Verbinde jede Folgerung mit einem passenden Beleg aus D oder U und nenne jeweils eine Quellengrenze. Du brauchst keine echte Kauf- oder Fanentscheidung zu nennen.",
+          "sample": "Zum Trikot: Ich würde nicht wegen des Posts sofort kaufen. D zeigt Umsatzwachstum der Clubs, aber nicht, ob ich etwas brauche oder wie gut diese Werbung ist. Zum Ticket: Ich würde bei einem heutigen Angebot die offiziellen Bedingungen und bei Bedarf eine erwachsene Person prüfen lassen. U warnte 2024 vor unautorisierten Tickets, beweist aber nichts über dieses heutige Einzelangebot. Andere begründete Möglichkeiten sind gleichwertig.",
+          "criteria": [
+            "Trikot: 1 Punkt für realistische eigene Möglichkeit ohne Kaufzwang.",
+            "Trikot: 1 Punkt für passenden konkreten D-Beleg.",
+            "Trikot: 1 Punkt für passende D-Quellengrenze.",
+            "Ticket: 1 Punkt für realistische eigene Möglichkeit.",
+            "Ticket: 1 Punkt für passenden konkreten U-Beleg.",
+            "Ticket: 1 Punkt für passende U-Quellengrenze; historische Warnung nicht als heutige Ticketregel ausgeben."
+          ]
+        },
+        {
+          "id": "sp-b2-ss07-e",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Variante nach A–D · sechs getrennte Zusatzpunkte: Die spätere Überschrift behauptet durchschnittliche persönliche Fan-Ausgaben. Nenne drei unterschiedliche Fehler beim Zusammenführen von D und U und formuliere danach einen korrekten Satz mit einer Zahl, passendem Zeitraum und passendem Bereich aus nur einer der beiden Karten. Eine Rechnung mit unvereinbaren Zahlen ist kein Beleg für Fan-Ausgaben.",
+          "sample": "D misst Umsätze von 36 deutschen Clubs, U Fan-Zonen-Zuspruch einer Europameisterschaft: andere Größe und anderer Wettbewerb. D betrifft die Saison 2024/25, U die Gruppenphase 2024. U belegt keine Anzahl verschiedener Personen und D keine individuellen Ausgaben, also fehlt ein gültiger Pro-Kopf-Nenner. Ein korrekter Satz: Die 36 Clubs der Bundesliga und 2. Bundesliga erzielten 2024/25 zusammen gerundet 6,33 Milliarden € Umsatz.",
+          "criteria": [
+            "1 Zusatzpunkt für eine konkrete Unvereinbarkeit von Größe/Wettbewerb.",
+            "1 Zusatzpunkt für die unterschiedlichen Zeiträume.",
+            "1 Zusatzpunkt für einen weiteren eigenständigen Fehler, etwa fehlende Zahl verschiedener Personen oder fehlende persönliche Ausgaben; denselben Grund nur einmal zählen.",
+            "1 Zusatzpunkt für eine passende Zahl.",
+            "1 Zusatzpunkt für den passenden Zeitraum.",
+            "1 Zusatzpunkt für Bereich und Einheit. Auch „über 3,3 Millionen“ als ungenauer Nenner oder gerundete DFL-Werte können als eigenständiger dritter Fehler gelten."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "Sport 2026 ab Klasse 7 im Schuljahr 2026/27",
+        "gradeBand": "7/8, freiwilliger B2-SS07-Papier-Teilfall",
+        "competencyRef": "Sport Gymnasium Erprobung 2026, B2 Spielen, PDF-S. 32/Drucks. 27: Entwicklungen im Zusammenhang mit Sportspielen, z. B. kommerzielle Aspekte und Verhalten von Fans, wiedergeben und persönliche Konsequenzen ableiten. Gemeinsame Selbst-/Sozialkompetenz für 7/8; Schulspielwahl offen.",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
       "id": "sp-b1-s01-laufmomente",
       "subjectId": "sp",
       "title": "Zwei Laufmomente – was lässt sich beschreiben?",

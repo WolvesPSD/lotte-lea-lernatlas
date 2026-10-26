@@ -6696,7 +6696,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "en-sprachreflexion-lesewerkstatt",
       "subjectId": "en",
       "title": "An updated notice: meaning and tone",
-      "scope": "Ausblick Klasse 8 – freiwillig. Sprachreflexion nach § 2.2.6 ist ausdrücklich ein Klasse-8-Ziel der ersten Fremdsprache und gilt für Klasse 8 ab 2027/28. Kein belegter aktueller Klasse-7-Stoff und kein Beitrag zur Klasse-7-Jahresabdeckung.",
+      "scope": "Ausblick auf Ende Klasse 8 – freiwillig. Der Englischplan gilt für Klasse 7 ab 2026/27; die hier geübte Sprachreflexion nach § 2.2.6 steht unter der Zielmarke Klassenstufe 8. Kein belegter aktueller Klasse-7-Stoff und kein Beitrag zur Klasse-7-Jahresabdeckung.",
       "levelStatus": "grade8-outlook",
       "released": true,
       "prerequisite": "Hilfreich: einfache englische Zeit- und Ortsangaben sowie eine kurze höfliche Nachricht lesen und schreiben. Wortstützen stehen in der Einführung; ein analoges Wörterbuch reicht für Aufgabe 4.",
@@ -6789,7 +6789,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "releaseEvidence": {
         "validFor": "2027/28",
         "gradeBand": "8",
-        "competencyRef": "Erste Fremdsprache: Inhaltsverzeichnis PDF-S. 4; Inkraftsetzung S. 2: Klasse 8 ab 2027/28. § 2.2.6 S. 31–32, ausdrücklich Klassenstufe 8: Sprachvergleich und false friends, angeleitete Fehlerkorrektur, Anrede- und Höflichkeitsformen, Adressatenorientierung sowie Wörterbuchstrategien. § 2.2 S. 25: A2/punktuell B1 als Ziel erst am Ende der Klasse 8.",
+        "competencyRef": "Erste Fremdsprache: Inhaltsverzeichnis PDF-S. 4; Inkraftsetzung S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. § 2.2.6 S. 31–32, Zielmarke Klassenstufe 8: Sprachvergleich und false friends, angeleitete Fehlerkorrektur, Anrede- und Höflichkeitsformen, Adressatenorientierung sowie Wörterbuchstrategien. § 2.2 S. 25: A2/punktuell B1 als Ziel erst am Ende der Klasse 8.",
         "checkedAt": "2026-10-24"
       }
     },
@@ -6958,7 +6958,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "fr-sprachreflexion-einladung",
       "subjectId": "fr",
       "title": "Wen laden wir wann und wie ein?",
-      "scope": "Ausblick Klasse 8 – freiwillig. Sprachreflexion zu Zeitformen und Anrede ist in § 3.2.6 ausdrücklich Ziel der Klassenstufe 8; kein belegter aktueller Klasse-7-Stoff und kein Beitrag zur Klasse-7-Jahresabdeckung.",
+      "scope": "Ausblick auf Ende Klasse 8 – freiwillig. Der Französischplan gilt für Klasse 7 ab 2026/27; die hier geübte Sprachreflexion zu Zeitformen und Anrede steht in § 3.2.6 unter der Zielmarke Klassenstufe 8. Kein belegter aktueller Klasse-7-Stoff und kein Beitrag zur Klasse-7-Jahresabdeckung.",
       "levelStatus": "grade8-outlook",
       "released": true,
       "prerequisite": "Hilfreich: einfache französische Präsensformen, tu/vous und Zeitwörter wie hier und demain. Die Wortstütze erklärt alle drei verglichenen Zeitformen; wähle das Thema nur zum freiwilligen Vorarbeiten oder wenn es bereits im Unterricht vorkommt.",
@@ -7039,7 +7039,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "releaseEvidence": {
         "validFor": "2027/28",
         "gradeBand": "8",
-        "competencyRef": "Inkraftsetzung PDF-S. 2: Klasse 8 ab 2027/28. Zweite Fremdsprache § 3.2.6 PDF-S. 63–64: Form-Funktion-Vergleich, einfache und zusammengesetzte Zeitformen sowie situationsgerechte Anrede unter expliziter Zielmarke Klassenstufe 8; § 3.5.2 PDF-S. 82 nennt tu/vous, passé composé, futur proche, hier und demain als 7/8-Orientierung.",
+        "competencyRef": "Inkraftsetzung PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. Zweite Fremdsprache § 3.2.6 PDF-S. 63–64: Form-Funktion-Vergleich, einfache und zusammengesetzte Zeitformen sowie situationsgerechte Anrede unter expliziter Zielmarke Klassenstufe 8; § 3.5.2 PDF-S. 82 nennt tu/vous, passé composé, futur proche, hier und demain als 7/8-Orientierung.",
         "checkedAt": "2026-10-21"
       }
     },
@@ -7047,7 +7047,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "fr-reponse-elodie",
       "subjectId": "fr",
       "title": "Répondre à Élodie",
-      "scope": "Ausblick Klasse 8 – freiwillig. Persönliche Nachrichten schreiben steht in § 3.2.4 ausdrücklich unter Klassenstufe 8; Lottes aktueller Sprachstand und Unterrichtsfolge sind unbekannt, kein Beitrag zur Klasse-7-Jahresabdeckung.",
+      "scope": "Ausblick auf Ende Klasse 8 – freiwillig. Der Französischplan gilt für Klasse 7 ab 2026/27; persönliche Nachrichten schreiben steht in § 3.2.4 unter der Zielmarke Klassenstufe 8. Lottes aktueller Sprachstand und Unterrichtsfolge sind unbekannt, kein Beitrag zur Klasse-7-Jahresabdeckung.",
       "levelStatus": "grade8-outlook",
       "released": true,
       "prerequisite": "Hilfreich: einfache persönliche Nachrichten verstehen und kurze französische Sätze bilden. Eine Wortstütze ist vorhanden; wähle das Thema zum freiwilligen Vorarbeiten oder wenn es im Unterricht vorkommt.",
@@ -7090,7 +7090,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "releaseEvidence": {
         "validFor": "2027/28",
         "gradeBand": "8",
-        "competencyRef": "Inkraftsetzung S. 2: Klasse 8 ab 2027/28. Zweite Fremdsprache § 3.2.4 S. 62: einfache persönliche Nachrichten schreiben und Informationen aus gelesenem Material nutzen, explizite Zielmarke Klassenstufe 8; § 3.2 S. 59: A2 als Ziel Ende Klasse 8.",
+        "competencyRef": "Inkraftsetzung S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. Zweite Fremdsprache § 3.2.4 S. 62: einfache persönliche Nachrichten schreiben und Informationen aus gelesenem Material nutzen, explizite Zielmarke Klassenstufe 8; § 3.2 S. 59: A2 als Ziel Ende Klasse 8.",
         "checkedAt": "2026-10-21"
       }
     },
@@ -8902,7 +8902,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "en-form-reading-lab",
       "subjectId": "en",
       "title": "Complete the Reading Lab form",
-      "scope": "Freiwilliger gestützter Klasse-7-Einstieg in einen engen Schreibteil mit Zielmarke Ende Klasse 8. Der Thüringer Englischplan 2026 nennt das Ausfüllen von Tabellen, Fragebögen und Formularen im Klasse-8-Zweig; Lottes aktuelle Unterrichtsfolge und ihr individueller Fremdsprachenweg sind nicht belegt.",
+      "scope": "Freiwilliger gestützter Klasse-7-Einstieg in einen engen Schreibteil mit Zielmarke Ende Klasse 8. Der Thüringer Englischplan gilt für Klasse 7 ab 2026/27; das Ausfüllen von Tabellen, Fragebögen und Formularen steht im Zielzweig Klassenstufe 8. Lottes aktuelle Unterrichtsfolge und ihr individueller Fremdsprachenweg sind nicht belegt.",
       "levelStatus": "grade8-outlook",
       "released": true,
       "prerequisite": "Riley, Reading Lab und beide Karten sind erfunden. Verwende keine eigenen Namen, Adressen oder Kontaktdaten. Trage in B zwölf kurze englische Formeinträge in getrennte Felder ein. Bei fehlenden Angaben schreibe exakt NOT GIVEN; schicke das Formular nirgends ab. Die optionale dritte Karte erscheint erst nach A–C.",
@@ -9125,7 +9125,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "releaseEvidence": {
         "validFor": "2027/28",
         "gradeBand": "8",
-        "competencyRef": "Englisch Gymnasium Erprobungsfassung 2026, erste Fremdsprache, §2.2.4 PDF-S. 29: Tabellen, Fragebögen und Formulare ausfüllen, Ziel Klasse 8. Inkraftsetzung Klasse 8 ab 2027/28 laut PDF-S. 2.",
+        "competencyRef": "Englisch Gymnasium Erprobungsfassung 2026, erste Fremdsprache, §2.2.4 PDF-S. 29: Tabellen, Fragebögen und Formulare ausfüllen, Zielmarke Klassenstufe 8. Inkraftsetzung laut PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28.",
         "checkedAt": "2026-10-23"
       }
     },

@@ -1,15 +1,12 @@
 {
-  "builtAt": "2026-10-26T04:43:22.555Z",
-  "releaseVersion": "2026.10.26-sptransfer.1",
-  "newTopicIds": [
-    "sp-b1-m02-transfergrenzen"
-  ],
+  "builtAt": "2026-10-26T04:51:02.552Z",
+  "releaseVersion": "2026.10.26-sprachscope.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Sport 2026 B1-M02: freiwilliger Klasse-7/8-Schriftfall zum begründeten Transfer zwischen erfundener Sportstunde, neuem Schulspiel, Geografieskizze und Freizeitsituation. 20 Haupt- und sechs später freigegebene Zusatzpunkte.",
-    "Der Fall prüft Nutzen und Grenzen einer möglichen Übertragung. Er belegt keine tatsächlich erlernte oder übertragene Bewegung, keine sichere Freizeitpraxis und keine Unterrichtsfolge.",
-    "188 Themen und 857 reguläre Aufgaben. Andere Themen, frühere Assets, Kontaktadresse und Lernstände unverändert."
+    "Vier freiwillige Sprachthemen: Lehrplangeltung für Klasse 7 ab 2026/27 und die jeweilige Zielmarke Ende Klasse 8 sprachlich klar getrennt.",
+    "Keine Aufgaben, Quellenkarten, Lösungen, Fachzuordnung, Klassenstufenfilter oder Assets geändert. 188 Themen und 857 reguläre Aufgaben unverändert."
   ],
-  "rollbackCommit": "edbfbcec7c5149d51120d03b0ad26386058150ba",
+  "rollbackCommit": "289e0a4e83f6ff23dae20753fe8f7a51c44fec66",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",

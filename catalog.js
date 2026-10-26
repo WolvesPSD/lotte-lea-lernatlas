@@ -16716,6 +16716,110 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "sp-b1-m06-zielregel",
+      "subjectId": "sp",
+      "title": "Wer ist zuerst im Ziel?",
+      "scope": "Freiwilliger schriftlicher Klasse-7/8-Teilfall zum Regelverständnis in Sport 2026 B1-M06. Die Zielregel stammt aus der datierten IWR 2026 und ist keine nachgewiesene Schulwettkampfregel. Ein Texturteil belegt kein tatsächliches regelgerechtes Handeln.",
+      "levelStatus": "grade78-flex",
+      "levelLabel": "Klasse 7/8 · datierte Verbandsregel, Schulregel offen",
+      "released": true,
+      "prerequisite": "Du brauchst nicht zu laufen oder Zeiten zu messen. Alle Personen und Beobachtungen sind erfunden. Benutze nur die abgedruckte Regelkarte und die Protokollzeilen. Frage vor einem echten Schulwettkampf die Sportlehrkraft nach den dort geltenden Regeln. Die 20 Haupt- und sechs späteren Zusatzpunkte sind Lernfeedback, keine Sportnote; freie Antworten werden nicht automatisch bewertet. Keine echten Leistungs-, Gesundheits- oder Personendaten eingeben.",
+      "introduction": "Lies zuerst die Regelkarte und die beiden erfundenen Protokolle. Entscheide in A–C mit Regel und Beobachtungsmoment, was belegt, widerlegt oder nicht bestimmbar ist. Eine freiwillige vierte Aufgabe erscheint erst nach den drei Hauptantworten. Die Verbandsregel gilt nicht automatisch an deiner Schule.",
+      "passage": "REGELKARTE · Die DLV-IWR-Fassung 2026, TR18.2, entscheidet die Zielreihenfolge danach, wann der Rumpf die senkrechte Ebene über dem startnäheren Rand der Ziellinie erreicht. Kopf, Hals, Hände, Arme, Beine und Füße zählen dafür nicht. „Ebene“ meint eine gedachte senkrechte Fläche, nicht erst den Fußtritt auf die Linie.\n\nERFUNDENES PROTOKOLL A · Moment 1: Ari streckt eine Hand über die Zielebene; beide Rümpfe sind noch davor. Moment 2: Ben hat den Kopf über der Zielebene; beide Rümpfe sind noch davor. Moment 3: Bens Rumpf erreicht die Zielebene; Aris Rumpf ist noch davor. Moment 4: Aris Rumpf erreicht die Zielebene.\n\nERFUNDENES PROTOKOLL B · Eine zweite Notiz hält nur fest: Zuerst ist die Hand von X über der Zielebene, kurz danach der Kopf von Y. Die Rümpfe sind in beiden Beobachtungen verdeckt. Weitere Beobachtungen fehlen.",
+      "cardsHeading": "Originalquellen · Regel- und Schulgrenze",
+      "sourceCards": [
+        {
+          "title": "B1-M06 im Thüringer Sportplan 2026",
+          "text": "Der Plan verlangt Handeln nach Wettkampfregeln und nennt die DLO beispielhaft. Er legt für diese Übung keine Schuldisziplin, Zielregel oder Unterrichtsfolge fest. Ein Textvergleich ist nur Vorbereitung.",
+          "sourceLabel": "Thüringer Schulportal · Sport Gymnasium 2026",
+          "sourceUrl": "https://www.schulportal-thueringen.de/media/detail?tspi=20580",
+          "sourceNote": "Erprobungsfassung, PDF-S. 2 und 23; Klasse 7 ab 2026/27."
+        },
+        {
+          "title": "Datierte Verbandsregel TR18.2",
+          "text": "Die hier verwendete IWR 2026 des Deutschen Leichtathletik-Verbands nennt den Rumpf an der senkrechten Zielebene als Kriterium. Die Fassung enthält Beschlüsse bis 31. März 2026. Eine spätere Weltregel-Version wurde für dieses Blatt nicht als gleichlautend geprüft; die IWR ist nicht automatisch die Schulregel.",
+          "sourceLabel": "DLV · IWR 2026, TR18.2",
+          "sourceUrl": "https://www.leichtathletik.de/fileadmin/user_upload/002_Wettkaempfe/06_Service/01_Regeln-Bestimmungen/IWR_Internationale-Wettkampfregeln_mit_Beschluessen_zum_31._Maerz_2026.pdf",
+          "sourceNote": "TR18.2, PDF-S. 112/Drucks. 111; Quellenstand 26.10.2026."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–C festhalten und Zusatzprotokoll zeigen",
+        "text": "FREIWILLIGES ZUSATZPROTOKOLL · Erfinde nur auf Papier eine neue, widerspruchsfreie Folge mit mindestens drei Zeitmomenten. Keine praktische Durchführung."
+      },
+      "tasks": [
+        {
+          "id": "sp-b1-m06-a",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 14,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "A · Protokoll A prüfen (8 Hauptpunkte): Beurteile jede Behauptung als „belegt“, „widerlegt“ oder „aus diesem Protokoll nicht entscheidbar“. Begründe jeweils mit Regelkarte und Momentnummer: (a) „Ari ist wegen der Hand zuerst.“ (b) „Ben ist wegen des Kopfes zuerst.“ (c) „Für die Zielreihenfolge ist Moment 3 wichtig.“ Nenne danach die Reihenfolge und erkläre, warum Moment 4 die Entscheidung nicht umkehrt.",
+          "sample": "(a) Widerlegt: In Moment 1 zählt Aris Hand nicht; beide Rümpfe sind noch davor. (b) Widerlegt: In Moment 2 zählt Bens Kopf nicht; beide Rümpfe sind noch davor. (c) Belegt: In Moment 3 erreicht Bens Rumpf die Ebene, während Aris davor ist. Ben liegt vor Ari; Ari erreicht die Ebene erst in Moment 4.",
+          "criteria": [
+            "Je 2 Punkte für (a), (b), (c): 1 für das passende Urteil und 1 für Regelbezug samt richtiger Momentnummer; zusammen 6.",
+            "1 Punkt für Ben vor Ari.",
+            "1 Punkt für die Begründung, dass Aris späterer Rumpfübergang in Moment 4 die Reihenfolge nicht umkehrt."
+          ]
+        },
+        {
+          "id": "sp-b1-m06-b",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 12,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Protokoll B prüfen (6 Hauptpunkte): Kann man nach derselben Regelkarte X und Y platzieren? Begründe anhand der fehlenden Information. Beschreibe genau, welche zusätzliche Beobachtung eine Reihenfolge stützen könnte. Formuliere einen fairen Satz an beide Personen, ohne ein Ergebnis zu erfinden.",
+          "sample": "Die Reihenfolge ist nicht bestimmbar: Hand und Kopf zählen nicht, die Rümpfe sind verdeckt. Eine eindeutige Beobachtung, dass ein Rumpf die Zielebene erreicht, während der andere noch davor ist, könnte eine Reihenfolge stützen. „Aus dieser Notiz lässt sich die Reihenfolge nicht feststellen.“",
+          "criteria": [
+            "1 Punkt für „nicht bestimmbar“, 1 für Hand/Kopf als nicht entscheidende Teile und 1 für den fehlenden zeitlichen Rumpfübergang.",
+            "2 Punkte für eine eindeutige Rumpfbeobachtung; ein geeignetes Zielbild oder eine klare Beobachtungsfolge gilt ebenso. „Besseres Foto“ ohne entscheidendes Merkmal höchstens 1 Punkt.",
+            "1 Punkt für einen fairen Satz ohne unbelegte Sieger- oder Gleichstandsbehauptung."
+          ]
+        },
+        {
+          "id": "sp-b1-m06-c",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 12,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C · Von der Regelkarte zur Schule (6 Hauptpunkte): Erkläre, warum diese IWR-Zielregel nicht automatisch Lottes Schulregel ist. Schreibe zwei konkrete Fragen, die vor einem Schulwettkampf an die Sportlehrkraft gehören. Welche wirklich beobachtete Handlung wäre nötig, bevor man sagen dürfte, jemand habe im Unterricht nach den dort geltenden Regeln gehandelt?",
+          "sample": "Die IWR beschreibt Verbandswettkämpfe; die Schule kann vereinfachte Regeln festlegen. Ich würde die Sportlehrkraft fragen: „Welche Zielregel gilt bei uns?“ und „Wer beobachtet oder entscheidet den Zieleinlauf?“ Ob jemand im Unterricht regelgerecht gehandelt hat, braucht eine konkrete beobachtete Handlung oder Entscheidung und ihren Abgleich mit der vorher festgelegten Schulregel.",
+          "criteria": [
+            "2 Punkte für die Unterscheidung Verbandsregel und mögliche vereinfachte Schulregel.",
+            "Je 1 Punkt für zwei konkrete Fragen, etwa nach Zielregel und beobachtender/entscheidender Person.",
+            "1 Punkt für eine wirkliche beobachtete Handlung oder Regelentscheidung im Schulsport und 1 für den Vergleich mit der vorher festgelegten Schulregel."
+          ]
+        },
+        {
+          "id": "sp-b1-m06-d",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 12,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliges Zusatzprotokoll nach A–C · sechs getrennte Zusatzpunkte: Erfinde nur auf Papier mindestens drei Zeitmomente. Ein nicht entscheidender Körperteil einer Person erscheint zuerst an der Zielebene, aber der Rumpf der anderen Person erreicht sie zuerst. Halte die Folge widerspruchsfrei, nenne die Reihenfolge nach TR18.2 und erkläre an zwei unterschiedlichen Protokolldetails, warum der erste sichtbare Körperteil nicht entscheidet.",
+          "sample": "Moment 1: Aris Kopf ist über der Ebene, beide Rümpfe noch davor. Moment 2: Bens Rumpf erreicht die Ebene, Aris noch nicht. Moment 3: Aris Rumpf erreicht die Ebene. Ben vor Ari; Aris Kopf in Moment 1 zählt nicht, der Rumpfvergleich in Moment 2 und 3 entscheidet.",
+          "criteria": [
+            "3 getrennte Zusatzpunkte für eine widerspruchsfreie Folge mit mindestens drei Momenten und der geforderten Umkehrung.",
+            "1 Zusatzpunkt für die passende Rumpf-Zielreihenfolge.",
+            "Je 1 Zusatzpunkt für zwei verschiedene passende Protokolldetails als Begründung."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "Sport 2026 ab Klasse 7 im Schuljahr 2026/27",
+        "gradeBand": "7/8, freiwilliger schriftlicher Regel-Teilfall",
+        "competencyRef": "Sport Gymnasium Erprobung 2026, B1-M06, PDF-S. 23/Drucks. 18: nach Wettkampfregeln handeln, DLO nur Beispiel. DLV IWR 2026 mit Beschlüssen bis 31.03.2026, TR18.2, PDF-S. 112/Drucks. 111: Zielreihenfolge nach Rumpf an senkrechter Zielebene. Schulregel und wirkliche Handlung bleiben offen.",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
       "id": "sp-b1-m02-transfergrenzen",
       "subjectId": "sp",
       "title": "Was lässt sich aus einer Sportstunde übertragen?",

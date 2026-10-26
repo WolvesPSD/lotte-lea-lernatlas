@@ -1,12 +1,15 @@
 {
-  "builtAt": "2026-10-26T05:05:18.938Z",
-  "releaseVersion": "2026.10.26-sptransferpraxis.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Sport B1-M02: unbewerteter freiwilliger Rückblick nur nach einer regulären beaufsichtigten Sportstunde, mit getrenntem leerem Fach-Beobachtungsraster.",
-    "Keine neue Bewegung, Messung oder automatische Beurteilung. Der vorhandene 20+6-Papierfall und alle 188 Themen/857 regulären Aufgaben bleiben unverändert."
+  "builtAt": "2026-10-26T05:17:16.913Z",
+  "releaseVersion": "2026.10.26-spzielregel.1",
+  "newTopicIds": [
+    "sp-b1-m06-zielregel"
   ],
-  "rollbackCommit": "9ea3224da060f026c627d6a90aa8a1f19f818516",
+  "changeLog": [
+    "Sport 2026 B1-M06: freiwilliger Klasse-7/8-Schriftfall zur datierten DLV-Zielregel TR18.2 mit zwei erfundenen Protokollen. 20 Haupt- und sechs später freigegebene Zusatzpunkte.",
+    "Die Verbandsregel ist keine belegte Schulregel. Keine Bewegung oder Messung; der Fall belegt kein tatsächlich regelgerechtes Handeln.",
+    "189 Themen/861 Aufgaben. Frühere Themenobjekte, Assets, Kontaktadresse und Lernstände unverändert."
+  ],
+  "rollbackCommit": "958d1651b11a5faa2c54e91e96e16cd8befb3259",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -195,7 +198,8 @@
     "sp-b1-s01-sprungmomente",
     "mbi-i3-challenges-stichprobe",
     "sp-b1-s01-werfen-stossen-notizen",
-    "sp-b1-m02-transfergrenzen"
+    "sp-b1-m02-transfergrenzen",
+    "sp-b1-m06-zielregel"
   ],
   "subjects": [
     "en",

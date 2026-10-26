@@ -16716,6 +16716,104 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "sp-b1-m02-transfergrenzen",
+      "subjectId": "sp",
+      "title": "Was lässt sich aus einer Sportstunde übertragen?",
+      "scope": "Freiwilliger schriftlicher Klasse-7/8-Teilfall zu Sport 2026 B1-M02. Er prüft Nutzen und Grenzen eines möglichen Transfers aus einer erfundenen Sportstunde in ein neues Spiel, eine Geografieskizze und eine Freizeitsituation. Tatsächlich erlernte oder übertragene Bewegung und Lottes Unterrichtsfolge sind nicht belegt.",
+      "levelStatus": "grade78-flex",
+      "levelLabel": "Klasse 7/8 · Transfer als Denkaufgabe, Praxis offen",
+      "released": true,
+      "prerequisite": "Du brauchst keine Sportgeräte und führst keine Bewegung aus. Alle Situationen sind erfunden. Begründe mit den Textdetails, was als Idee nützlich sein könnte und was offenbleibt. Schreibe keine echten Leistungs-, Gesundheits- oder Ortsdaten. Die 20 Haupt- und sechs späteren Zusatzpunkte sind Lernfeedback, keine Sportnote; freie Antworten werden nicht automatisch bewertet.",
+      "introduction": "Lies den erfundenen Ausgangsfall und A–C. Vergleiche, welche Frage oder Idee aus dem ersten Fall helfen könnte und welche Bedingungen sich in den neuen Fällen ändern. Begründe deine Entscheidung mit den Textdetails in eigenen Worten. Die freiwillige vierte Situation erscheint erst nach den drei Hauptantworten.",
+      "passage": "ERFUNDENER AUSGANGSFALL · In einer beaufsichtigten Sportstunde nutzt eine Gruppe eine markierte Laufspur mit einem Wendepunkt. Die Lehrkraft gibt ein vereinbartes Start- und Stoppsignal. Die Gruppe bespricht vorab, woran man freie Wege und die Stelle zum Richtungswechsel erkennt. Es wird nicht behauptet, dass du diese Stunde hattest oder den Ablauf beherrschst.\n\nA · ANDERES SCHULSPIEL · In einer späteren, ebenfalls beaufsichtigten Sportstunde schlägt die Lehrkraft ein anderes Spiel mit markierter Wendestelle und Start-/Stoppsignal vor. Spielfeld, genaue Signale und Regeln werden erst dort erklärt.\n\nB · GEOGRAFIE · Eine Klasse zeichnet auf Papier eine Wegeskizze mit einem Richtungswechsel. Niemand läuft die gezeichnete Strecke.\n\nC · FREIZEIT · Eine Person möchte den Ablauf aus der Sportstunde ohne Prüfung auf einem unbekannten öffentlichen Weg nachmachen. Wege, andere Menschen und Regeln sind dort nicht bekannt.",
+      "cardsHeading": "Amtliche Zielquelle · Reichweite des Papierfalls",
+      "sourceCards": [
+        {
+          "title": "B1-M02 im Sportplan 2026",
+          "text": "Der Thüringer Plan nennt den Transfer von Kenntnissen und Bewegungsabläufen in andere Lernbereiche und die Freizeit als Methodenziel. Die folgenden Aufgaben verwenden dazu erfundene Situationen. Der Plan legt hier keine konkrete Übung für deine Schule fest.",
+          "sourceLabel": "Thüringer Schulportal · Sport Gymnasium 2026",
+          "sourceUrl": "https://www.schulportal-thueringen.de/media/detail?tspi=20580",
+          "sourceNote": "Erprobungsfassung, PDF-S. 2 und 22; am 26.10.2026 gegen die gerenderte Originalseite geprüft. Keine konkrete Schulübung vorgegeben."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "1–3",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "1–3 festhalten und vierte Situation zeigen",
+        "text": "FREIWILLIGE VIERTE SITUATION NACH 1–3 · Erfinde nur auf Papier eine vierte Situation in einem anderen Lernbereich oder in einer beaufsichtigten Sportstunde. Keine praktische Durchführung, keine Empfehlung für einen unbekannten Weg."
+      },
+      "tasks": [
+        {
+          "id": "sp-b1-m02-a",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 12,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Nutzen und Grenze prüfen (6 Hauptpunkte): Schreibe für A, B und C je zwei kurze Aussagen. Was aus dem Ausgangsfall könnte als Idee oder Frage nützlich sein? Was lässt sich dort nicht einfach übernehmen oder beweisen? Beziehe dich jeweils auf ein Detail des neuen Falles und erkläre es in eigenen Worten. Auch wenn du eine Übertragung ablehnst, kann eine Prüffrage nützlich sein.",
+          "sample": "A: Die Frage nach Wendestelle und Signal hilft beim Vergleich; genaue Signale und Spielregeln sind neu zu klären. B: Die Idee eines Richtungswechsels hilft beim Lesen der Skizze; auf Papier ist keine Bewegung ausgeführt. C: Man könnte fragen, welche Wege, Regeln und anderen Personen zu beachten wären; unbekannte Bedingungen erlauben kein unverändertes Nachmachen.",
+          "criteria": [
+            "A: je 1 Punkt für eigenständig und fallbezogen erklärten Nutzen sowie Grenze; blosses Abschreiben höchstens 0,5 je Teil.",
+            "B: je 1 Punkt für eigenständig und fallbezogen erklärten Nutzen sowie Grenze; eine Skizze ist kein Bewegungsbeleg.",
+            "C: je 1 Punkt für eigenständig und fallbezogen erklärte Prüffrage sowie Grenze; keine Freigabe zum Erproben."
+          ]
+        },
+        {
+          "id": "sp-b1-m02-b",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 14,
+          "inputRows": 12,
+          "adultOnlySolution": true,
+          "prompt": "Gemeinsam und verschieden (8 Hauptpunkte): Vergleiche den Ausgangsfall mit A. Nenne zwei Merkmale, mit denen du eine mögliche Übertragung prüfen würdest, und zwei Bedingungen, die im neuen Spiel erst geklärt werden müssten. Erkläre dann in zwei Sätzen, warum eine ähnliche Beschreibung noch keine nachgewiesene Bewegungskompetenz ist.",
+          "sample": "In beiden Texten stehen eine markierte Wendestelle und ein Start-/Stoppsignal; diese zwei Ablaufmerkmale kann man vergleichen. Im neuen Spiel fehlen noch genaue Signale und Regeln sowie der konkrete Weg. Ähnliche Textmerkmale machen eine Übertragung nur denkbar. Ob die Bewegung im neuen Spiel passend ausgeführt wird, müsste dort fachkundig beobachtet werden.",
+          "criteria": [
+            "Je 1 Punkt für zwei passende gemeinsame Ablauf-/Beobachtungsmerkmale; zusammen 2. Aufsicht allein ist kein Bewegungsmerkmal.",
+            "Je 1 Punkt für zwei neu zu klärende Bedingungen, etwa Signal, Regel, Spielfeld oder Lehrkraftvorgabe; zusammen 2.",
+            "2 Punkte für die Grenze: Textähnlichkeit begründet nur eine Hypothese.",
+            "2 Punkte für die nötige tatsächliche Beobachtung im neuen beaufsichtigten Unterrichtsfall."
+          ]
+        },
+        {
+          "id": "sp-b1-m02-c",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Aussage verbessern (6 Hauptpunkte): Eine erfundene Person sagt: „Wenn ich im Schulsport eine Wendestelle kenne, kann ich das überall gleich machen.“ Schreibe in zwei bis vier Sätzen eine sachlich bessere Aussage. Nenne einen möglichen Nutzen des Gelernten, eine Grenze aus C und wer eine tatsächlich ausgeführte Bewegung im Unterricht beurteilen könnte.",
+          "sample": "Bekannte Merkmale können Fragen für eine neue Situation liefern. Auf dem unbekannten öffentlichen Weg sind andere Menschen, Wege und Regeln nicht geklärt; unverändertes Nachmachen ist damit nicht begründet. Ob eine Bewegung in einer geeigneten Schulstunde passend ausgeführt wird, kann die Sportlehrkraft direkt beobachten und beurteilen.",
+          "criteria": [
+            "2 Punkte für möglichen Nutzen als Frage oder Vergleichsidee.",
+            "2 Punkte für eine klare Grenze aus C, ohne praktische Freigabe.",
+            "2 Punkte für fachkundige Beobachtung tatsächlicher Durchführung im geeigneten Unterricht statt Beurteilung aus Text."
+          ]
+        },
+        {
+          "id": "sp-b1-m02-d",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige vierte Situation nach 1–3 · sechs getrennte Zusatzpunkte: Erfinde nur auf Papier eine vierte Situation in einem anderen Lernbereich oder einer beaufsichtigten Sportstunde. Beschreibe ein möglicherweise passendes Merkmal, eine wichtige abweichende Bedingung und erkläre, welche Beobachtung nötig wäre, bevor man von wirklich ausgeführtem Bewegungstransfer sprechen dürfte. Wenn dein Beispiel nur einen Begriff überträgt, sage das ausdrücklich.",
+          "sample": "Bei einem neuen betreuten Spiel gibt es ebenfalls eine markierte Wendestelle, aber andere Wege. Erst eine Beobachtung der Durchführung nach den dort geltenden Regeln könnte wirklichen Bewegungstransfer stützen. Eine Geografieskizze kann nur einen Begriff übertragen; sie zeigt keine Bewegung.",
+          "criteria": [
+            "2 getrennte Zusatzpunkte für ein konkret passendes Merkmal.",
+            "2 Zusatzpunkte für eine relevante abweichende Bedingung.",
+            "2 Zusatzpunkte für eine passende reale Beobachtung oder die ausdrückliche Grenze eines rein begrifflichen Beispiels."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "Sport 2026 ab Klasse 7 im Schuljahr 2026/27",
+        "gradeBand": "7/8, freiwilliger schriftlicher Transfer-Teilfall",
+        "competencyRef": "Sport Gymnasium Erprobung 2026, B1-M02, PDF-S. 22/Drucks. 17: Kenntnisse und Bewegungsabläufe aus anderen und in andere Lernbereiche beziehungsweise die Freizeit übertragen. Verbindliche gemeinsame Methodenzeile; hier nur gedankliche Prüfung an fiktiven Texten.",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
       "id": "sp-b1-s01-werfen-stossen-notizen",
       "subjectId": "sp",
       "title": "Werfen oder Stoßen? Zwei Textspuren vergleichen",

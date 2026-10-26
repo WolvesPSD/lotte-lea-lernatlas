@@ -1,15 +1,15 @@
 {
-  "builtAt": "2026-10-26T04:19:04.646Z",
-  "releaseVersion": "2026.10.26-spwurf.1",
+  "builtAt": "2026-10-26T04:43:22.555Z",
+  "releaseVersion": "2026.10.26-sptransfer.1",
   "newTopicIds": [
-    "sp-b1-s01-werfen-stossen-notizen"
+    "sp-b1-m02-transfergrenzen"
   ],
   "changeLog": [
-    "Sport 2026 B1-S01: freiwilliger Klasse-7/8-Wurf-/Stoß-Schriftteil mit vier erfundenen Beobachtungsnotizen, zwei Verbandsquellen und Grenzen der Textbeurteilung. 20 Haupt- und sechs später freigegebene Zusatzpunkte.",
-    "Das neue Blatt ergänzt Lauf und Sprung nur im Beschreibungsziel B1-S01. Tatsächliches Werfen/Stoßen B1-S05, Technikbeobachtung, Sicherheitsentscheidung, Schulgeräte und Unterrichtsfolge bleiben offen.",
-    "187 Themen und 853 reguläre Aufgaben. Andere Themen, frühere Assets, Kontaktadresse und Lernstände unverändert."
+    "Sport 2026 B1-M02: freiwilliger Klasse-7/8-Schriftfall zum begründeten Transfer zwischen erfundener Sportstunde, neuem Schulspiel, Geografieskizze und Freizeitsituation. 20 Haupt- und sechs später freigegebene Zusatzpunkte.",
+    "Der Fall prüft Nutzen und Grenzen einer möglichen Übertragung. Er belegt keine tatsächlich erlernte oder übertragene Bewegung, keine sichere Freizeitpraxis und keine Unterrichtsfolge.",
+    "188 Themen und 857 reguläre Aufgaben. Andere Themen, frühere Assets, Kontaktadresse und Lernstände unverändert."
   ],
-  "rollbackCommit": "5b258b9a1268057878ee34e9570d485192b7abdf",
+  "rollbackCommit": "edbfbcec7c5149d51120d03b0ad26386058150ba",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -197,7 +197,8 @@
     "sp-b2-r08-z07-taktikvergleich",
     "sp-b1-s01-sprungmomente",
     "mbi-i3-challenges-stichprobe",
-    "sp-b1-s01-werfen-stossen-notizen"
+    "sp-b1-s01-werfen-stossen-notizen",
+    "sp-b1-m02-transfergrenzen"
   ],
   "subjects": [
     "en",

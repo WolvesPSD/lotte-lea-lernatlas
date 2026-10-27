@@ -1,9 +1,7 @@
 {
-  "builtAt": "2026-10-27T19:52:25.833Z",
-  "releaseVersion": "2026.10.27-de-stichpunkte.1",
-  "newTopicIds": [
-    "de-stichpunktformen-belege"
-  ],
+  "builtAt": "2026-10-27T20:04:44.537Z",
+  "releaseVersion": "2026.10.27-ma-m4-jahrgang.1",
+  "newTopicIds": [],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
     "199 Themen und alle Aufgaben, Lösungen, App-Funktionen und Assets unverändert; keine neue Kinderleistung oder Unterrichtsfolge behauptet.",
@@ -27,9 +25,10 @@
     "207 Themen/971 Antwortfelder; die bisherigen 206 Themen und alle Assets sowie App-Funktionen bleiben unverändert. Keine bestätigte Klasse-7-Unterrichtseinheit, Kinderleistung oder volle M2-/Jahresabdeckung.",
     "Deutsch D-W5: freiwilliger Ende-8-Ausblick zu zwei Stichpunktformen. Drei Hauptaufgaben (12 Kriterienpunkte), danach die getrennte D1-Änderung (4 Zusatzpunkte), eigener leerer Liste-/Tabellenbogen ohne Lösungen.",
     "Im Erwachsenen-A4-Druck beginnt die dreizeilige Aussage–Beleg/Grenze-Rubrik auf einer neuen Seite und bleibt zusammen.",
-    "208 Themen/975 Antwortfelder; 207 bisherige Themen und App-Funktionen unverändert. Kein Nachweis für Kinderleistung, aktuelle Klasse-7-Unterrichtseinheit oder volle D-W5-/Jahresabdeckung."
+    "208 Themen/975 Antwortfelder; 207 bisherige Themen und App-Funktionen unverändert. Kein Nachweis für Kinderleistung, aktuelle Klasse-7-Unterrichtseinheit oder volle D-W5-/Jahresabdeckung.",
+    "Mathematik M4: Die bestehende Rechnerprobe als freiwilligen Klasse-8-Ausblick statt als 7/8-Fall gekennzeichnet. Vier Metadatenfelder, Versionsanzeige und Manifest angepasst; 208 Themen/975 Antwortfelder, Aufgaben, Lösungen, Assets und App-Funktionen unverändert."
   ],
-  "rollbackCommit": "13ea5afe5ad6f363a12a8491fedc2f15ed5bd505",
+  "rollbackCommit": "35017c2414aabd4592df3c1041e347e071ace8ad",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -327,7 +326,8 @@
     "mbi-i2-eigenrecherche-produkt",
     "ma-termstruktur-kartons",
     "ma-zahlbereiche-rechenwege",
-    "de-stichpunktformen-belege"
+    "de-stichpunktformen-belege",
+    "ma-m4-rechnerprobe"
   ],
   "unclearValidityTopics": [
     "et-algebra-kulturtransfer",
@@ -349,5 +349,5 @@
     "mu09-pentatonik-tonvorrat",
     "go-g01-beleuchtungszonen"
   ],
-  "note": "Isolierter D-W5-Kandidat aus aktuellem Onlinepin. Vor Upload frische Rollen-/Stufen-/Browser-/A4- und Diff-Gates; externe Deutschfachsicht und reale Kinderbearbeitung offen."
+  "note": "Jahrgangskennzeichnung aus §2.2.4 korrigiert. Klasse-7-Rechnerweg bleibt als eigener Praxisanker. Keine neue Kinder-, Fach- oder Jahresabnahme; Prüfbelege in wissen/APP-MATHEMATIK-M4-RECHNERPROBE-ONLINE-2026-PRUEFKARTE.md."
 }

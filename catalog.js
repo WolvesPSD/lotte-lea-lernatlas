@@ -19604,8 +19604,8 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "ma-m4-rechnerprobe",
       "subjectId": "ma",
       "title": "Rechnerprobe: erst schätzen, dann prüfen",
-      "scope": "Freiwilliger 7/8-Lernweg zur Werkzeugreflexion bei Prozenten; M4 ist ein Ziel bis Ende Klasse 8. Der Lehrplan nennt den wissenschaftlichen Taschenrechner ab Klasse 7, aber keine Pflicht, jede Aufgabe damit zu lösen. Keine bestätigte aktuelle Schuleinheit.",
-      "levelStatus": "grade78-flex",
+      "scope": "Freiwilliger Ausblick auf das ausdrücklich für Klasse 8 markierte M4-Ziel: Prozentrechnung und digitale Werkzeugreflexion. Der Lehrplan nennt den wissenschaftlichen Taschenrechner bereits ab Klasse 7; diese allgemeine Rechnerpraxis ist keine Klasse-7-Zuordnung der Prozentaufgaben. Keine bestätigte aktuelle Schuleinheit.",
+      "levelStatus": "grade8-outlook",
       "released": true,
       "prerequisite": "Hilfreich sind Prozent als Anteil und einfache Dezimalzahlen. Wenn das noch neu ist, beginne mit A und nutze die Formel in C. Das kleine Browserwerkzeug kann Grundrechenarten ausführen, ist kein wissenschaftlicher Taschenrechner und bewertet keine Antworten. Rechner, Papier oder Kopf sind erlaubt; tatsächliche Bedienung und selbstständige Leistung sind mit einer ausgefüllten Antwort allein nicht bewiesen.",
       "introduction": "Du wählst für drei fiktive Rechnungen einen passenden Weg und kontrollierst die Anzeige; danach blickst du auf deine Werkzeugwahl zurück. Schätze vor dem Rechnen. Die zusätzliche Rechnerprobe unterhalb der Aufgaben nimmt selbst eingegebene Grundrechenarten an und zeigt nur in dieser geöffneten Seite ein Eingabeprotokoll; sie gibt keine Modellwahl und keine Lösung vor. Ein fremdes oder kopiertes Protokoll ist kein Nachweis deiner Bedienung. 20 Hauptpunkte und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
@@ -19709,8 +19709,8 @@ window.LOTTE_CATALOG = Object.freeze({
         }
       ],
       "releaseEvidence": {
-        "validFor": "2026/27",
-        "gradeBand": "7/8",
+        "validFor": "2027/28",
+        "gradeBand": "8",
         "competencyRef": "PDF-S. 2: Mathematik Klasse 7 ab 2026/27. PDF-S. 15 Fussnote 12: wissenschaftlicher Taschenrechner ab Klasse 7 im Arbeiten mit Hilfsmitteln. §2.2.4 PDF-S. 26–27: Prozentrechnung und Reflexion des digitalen Mathematikwerkzeugs, Zielstand Klasse 8.",
         "checkedAt": "2026-10-23"
       }

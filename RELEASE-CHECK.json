@@ -1,7 +1,9 @@
 {
-  "builtAt": "2026-10-27T09:46:46.395Z",
-  "releaseVersion": "2026.10.27-de-s20-formen.1",
-  "newTopicIds": [],
+  "builtAt": "2026-10-27T09:59:31.131Z",
+  "releaseVersion": "2026.10.27-mbi-i4-modellbias.1",
+  "newTopicIds": [
+    "mbi-i4-modellbias-person"
+  ],
   "changeLog": [
     "Deutsche Erwachsenen-Sprachhilfe fuer alle 27 Englisch- und 18 Franzoesischthemen sowie den Erwachsenendruck ergaenzt.",
     "Die 192 Themen und 875 Aufgaben-/Notizfelder bleiben unveraendert. Kinderweg und Kinderdruck enthalten keine deutsche Sprachhilfe.",
@@ -17,9 +19,11 @@
     "Mathematik M2: freiwilliger Ende-8-Kopfrechenweg mit rationalen Zahlen und allen vier Grundoperationen, 20 Haupt- und 6 getrennte Transferpunkte. Ein Selbstbericht belegt keine Hilfsmittelfreiheit.",
     "196 Themen und 896 Aufgaben-/Notizfelder; 195 frühere Themen bleiben unveraendert. Keine privaten Daten oder Lernstaende.",
     "Deutsch S20: Im vorhandenen D-L4-Kommentar kommt nach sechs Hauptantworten eine redaktionelle Tabelle der drei berichteten Besuchswerte hinzu, mit vier freiwilligen Form-/Funktionsfragen und 10 getrennten Zusatzpunkten. Die frühere Überschriftenvariante bleibt erhalten.",
-    "196 Themen und 900 Aufgaben-/Notizfelder; keine neue Themen-ID und alle anderen 195 Themen unveraendert. Eigene SVG-Tabelle, keine privaten Daten oder Lernstaende."
+    "196 Themen und 900 Aufgaben-/Notizfelder; keine neue Themen-ID und alle anderen 195 Themen unveraendert. Eigene SVG-Tabelle, keine privaten Daten oder Lernstaende.",
+    "MBI I4-SS2: historischer, quellengebundener Bildgenerator-Vergleich mit eigener Datentabelle der visuell geprüften HE-Balken; vier Hauptaufgaben 20 Punkte und ein später freiwilliger Forschungsplan mit 6 getrennten Zusatzpunkten. Original-PDF nur verlinkt; keine Abbildung kopiert.",
+    "197 Themen und 905 Aufgaben-/Notizfelder; alle 196 früheren Themen unverändert. Keine privaten Bilder, Daten oder Lernstände."
   ],
-  "rollbackCommit": "6cf2b8b09637fe2a982c6488ce7277eaca427321",
+  "rollbackCommit": "decdf1f0d4289b6cb9ac05721450f82da1ffafca",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -216,7 +220,8 @@
     "mbi-i6-ss01-transparenz",
     "mbi-i6-o01-access",
     "de-belegkarte-m20m22",
-    "ma-m2-kopfrechnen"
+    "ma-m2-kopfrechnen",
+    "mbi-i4-modellbias-person"
   ],
   "subjects": [
     "en",
@@ -300,7 +305,8 @@
     "ma-parametervergleich",
     "mbi-i6-ss01-transparenz",
     "mbi-i6-o01-access",
-    "ma-m2-kopfrechnen"
+    "ma-m2-kopfrechnen",
+    "mbi-i4-modellbias-person"
   ],
   "unclearValidityTopics": [
     "et-algebra-kulturtransfer",
@@ -320,5 +326,5 @@
     "go-bananen-lieferkette",
     "et-liebesformen-werkevergleich"
   ],
-  "note": "S20 ist eine optionale Fortsetzung im bestehenden fiktiven D-L4-Kommentar, keine neue amtliche Vergleichspflicht. Die Tabelle ordnet A05 neu und ist keine originale Zählnotiz oder unabhängige Beobachtung."
+  "note": "Der MBI-I4-Fall untersucht zwei Bildmodellversionen von 2023 als freiwilligen Ende-8-Ausblick. Er belegt keine heutige Modellverteilung, reale Gruppendiskussion oder Kinderleistung; externe Fachabnahme bleibt offen."
 }

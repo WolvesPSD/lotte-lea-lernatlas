@@ -20302,6 +20302,119 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "Thüringer Mathematik-Erprobungsfassung Gymnasium 2026, §2.2.2/PDF-S.25: Grundrechenoperationen rationaler Zahlen auch im Kopf und vorteilhaftes Rechnen, Zielmarke Klassenstufe 8. Freiwilliger Ende-8-Ausblick; aktuelle Klasse-7-Unterrichtsfolge unbekannt.",
         "checkedAt": "2026-10-27"
       }
+    },
+    {
+      "id": "mbi-i4-modellbias-person",
+      "subjectId": "mbi",
+      "title": "Was zeigen alte Bildgeneratoren bei „Person“?",
+      "scope": "Freiwilliger Ende-8-Ausblick zu MBI I4-SS2: einen veröffentlichten Vergleich zweier damaliger Bildmodellversionen lesen, Prozentpunkte und Messgrenzen erklären. Keine aktuelle Klasse-7-Unterrichtsfolge, echte Bildgenerierung oder Kinderleistung belegt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst keine KI-App und kein Konto. Lade keine Bilder hoch und beurteile keine echten Personen. Die Zahlen stammen aus einer Studie von 2023 über genau benannte damalige Modellversionen; sie sagen nichts Sicheres über heutige Generatoren.",
+      "introduction": "Lies Quellenkarte und Datentabelle; bearbeite A–D (20 Lernpunkte). Danach erscheint ein freiwilliger Forschungsplan (6 getrennte Zusatzpunkte). Freitext wird nicht automatisch bewertet. Die Originalabbildung ist nur auf der verlinkten Forschungsseite.",
+      "passage": "EIGENE DATENTABELLE ZUM PROMPT „person“ · Naik und Nushi betrachteten 2023 für DALLE-v2 und Stable Diffusion V1 je die ersten 50 Bilder mit erkennbaren Menschen. Drei Personen schätzten sichtbare Merkmale ein. Bei drei verschiedenen Urteilen hiess die Kategorie „Unclear“. Die binäre Einteilung ist vereinfacht; sie misst keine Identität echter Menschen.\n\nMENSCHLICHE AUSWERTUNG (HE) · DALLE-v2: 70 % als männlich, 30 % als weiblich, kein sichtbarer „Unclear“-Anteil. Stable Diffusion V1: ungefähr 28 % als männlich, 66 % als weiblich, 6 % „Unclear“. Die SD-Werte stammen vom HE-Balken der Originalabbildung 5. Die danebenstehenden automatischen AE-Balken sind eigene Auswertungen.\n\nEin Prompt und zwei Versionen von 2023 belegen weder die Ursache noch das Verhalten heutiger Modelle.",
+      "sourceCards": [
+        {
+          "title": "Originalstudie und Abbildung 5",
+          "text": "Naik und Nushi (2023) berichten für „person“ 70 % männliche Darstellung bei DALLE-v2 und 66 % weibliche bei SD V1. Abbildung 5 auf PDF-S. 7 trennt menschliche (HE) und automatische (AE) Auswertung. Die Tabelle oben ist eine eigene Wiedergabe der zwei HE-Balken.",
+          "sourceLabel": "Naik/Nushi, AIES 2023 · Original-PDF bei Microsoft Research",
+          "sourceUrl": "https://www.microsoft.com/en-us/research/wp-content/uploads/2023/08/Social_Biases_Text_To_Image_Generation.pdf",
+          "sourceNote": "PDF-S. 5–7; abgerufen 27.10.2026. Beim Öffnen verlässt du den Lernatlas."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "transfer",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "Hauptantworten festhalten und Forschungsplan öffnen",
+        "text": "FREIWILLIGER FORSCHUNGSPLAN NACH A–D · Plane eine bessere, begrenzte Nachprüfung mit zwei klar benannten Modellversionen. Die sechs Zusatzpunkte bleiben getrennt von den 20 Hauptpunkten. Erzeuge keine Bilder und beurteile keine echten Menschen."
+      },
+      "tasks": [
+        {
+          "id": "mbi-i4-modellbias-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 5,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "A · Was ist hier untersucht? (4 Punkte): Nenne beide genauen Modellversionen, den Prompt, die Auswahl der Bilder und die Art der Zuschreibung. Erkläre, weshalb keine Identität echter Menschen gemessen wurde.",
+          "sample": "Untersucht wurden DALLE-v2 und Stable Diffusion V1 mit dem Prompt „person“; je Modell die ersten 50 erzeugten Bilder mit erkennbaren Menschen. Drei Personen schätzten sichtbare Merkmale ein. Die Bilder sind synthetisch und die Zuschreibung verrät keine Selbstangabe oder Identität eines echten Menschen.",
+          "criteria": [
+            "1 Punkt für beide genauen Modellversionen.",
+            "1 Punkt für den neutralen Prompt „person“.",
+            "1 Punkt für die ersten 50 Bilder mit erkennbaren Menschen je Modell.",
+            "1 Punkt für die Trennung von sichtbarer Zuschreibung und echter Identität."
+          ]
+        },
+        {
+          "id": "mbi-i4-modellbias-b",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "B · Anteile vergleichen (6 Punkte): Berechne für DALLE-v2 und Stable Diffusion V1 jeweils den Abstand zwischen den als männlich und weiblich eingeordneten Anteilen in Prozentpunkten. Nenne die Richtung. Vergleiche die beiden Abstände und erkläre, warum die Richtung dabei wichtig ist.",
+          "sample": "DALLE-v2: 70 − 30 = 40 Prozentpunkte, männlich eingeordnet ist grösser. SD V1: 66 − 28 = 38 Prozentpunkte, weiblich eingeordnet ist grösser. Die Abstände unterscheiden sich nur um 2 Prozentpunkte, aber die Richtung ist umgekehrt. Prozentpunkte bezeichnen hier den Abstand zweier Anteile.",
+          "criteria": [
+            "2 Punkte für 40 Prozentpunkte und die Richtung bei DALLE-v2.",
+            "2 Punkte für 38 Prozentpunkte und die Richtung bei SD V1.",
+            "2 Punkte für die Nähe der Abstände bei entgegengesetzter Richtung und passende Einheit."
+          ]
+        },
+        {
+          "id": "mbi-i4-modellbias-c",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Vier Behauptungen prüfen (6 Punkte; je 1½): 1. Beide Modelle zeigten beim Prompt „person“ dieselbe Richtung. 2. Die 6 % „Unclear“ im SD-HE-Balken nennen die Identität einer dritten Gruppe echter Menschen. 3. Ein AE-Balken ist dasselbe wie der HE-Balken daneben. 4. Die Studie belegt, wie alle heutigen Bildgeneratoren Menschen darstellen. Ordne jede Behauptung als gestützt oder widerlegt ein und gib einen Daten- oder Methodenhinweis.",
+          "sample": "Alle vier Behauptungen sind widerlegt: 1. Die Richtungen sind umgekehrt. 2. „Unclear“ bezeichnet fehlende Mehrheit bei sichtbaren Zuschreibungen zu synthetischen Bildern, keine Identität. 3. HE bedeutet menschliche, AE automatische Auswertung; die Balken sind getrennt. 4. Getestet wurden nur zwei damalige Versionen, ein Prompt und eine begrenzte Bildauswahl.",
+          "criteria": [
+            "Je 1½ Punkte für eine zutreffende Einordnung mit passendem Daten- oder Methodenhinweis.",
+            "Die Kategorie „Unclear“ darf nicht als nichtbinäre Identität oder als Befund zu echten Personen gedeutet werden."
+          ]
+        },
+        {
+          "id": "mbi-i4-modellbias-d",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "D · Befund mit Grenze erklären (4 Punkte): Formuliere zwei bis vier Sätze für jemanden, der nur die Zahlen gesehen hat. Nenne einen konkreten Befund, eine Grenze der Stichprobe oder Kategorien und eine Frage, die mit dieser Studie offen bleibt. Keine persönliche Erfahrung nötig.",
+          "sample": "Bei „person“ unterscheiden sich die beiden alten Versionen in der Richtung der sichtbaren Zuschreibungen. Je Modell wurden nur die ersten 50 Bilder mit erkennbaren Menschen betrachtet, und die Geschlechtskategorien waren vereinfacht binär. Daraus folgt weder die Identität realer Menschen noch eine Aussage über heutige Modelle. Offen bleibt, wie andere Versionen und besser dokumentierte Kategorien abschneiden würden.",
+          "criteria": [
+            "1 Punkt für einen aus Tabelle oder Original belegten Befund.",
+            "1½ Punkte für eine konkrete methodische oder zeitliche Grenze.",
+            "1½ Punkte für eine dazu passende offene Frage."
+          ]
+        },
+        {
+          "id": "mbi-i4-modellbias-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Forschungsplan (6 getrennte Zusatzpunkte): Entwirf eine faire Nachprüfung für zwei genau benannte Modellversionen mit demselben neutralen Prompt. Lege Ergebniszahl und Auswahlregel vorher fest. Beschreibe, wie sichtbare Zuschreibungen, Uneinigkeit und fehlende Kategorien dokumentiert würden. Welche Schlussgrenze würdest du nennen? Du musst keine Bilder erzeugen.",
+          "sample": "Ich würde zwei genaue Versionen und dasselbe Datum, denselben Prompt und vergleichbare Einstellungen festhalten. Vorab lege ich je 50 oder mehr Ausgaben und eine feste Auswahlregel fest. Mehrere Beurteilende dokumentieren sichtbare Zuschreibungen, Uneinigkeit und fehlende Kategorien getrennt; niemand leitet Identitäten aus Bildern ab. Die Folgerung gilt nur für diese Versionen, Eingaben, Auswahl und Methode.",
+          "criteria": [
+            "1 Punkt für zwei genaue Versionen und identischen neutralen Prompt.",
+            "1 Punkt für vergleichbare Einstellungen und dokumentiertes Datum.",
+            "1 Punkt für vorab festgelegte gleiche Ergebniszahl und Auswahlregel.",
+            "1 Punkt für beschriebene sichtbare Zuschreibungen ohne Identitätsbehauptung.",
+            "1 Punkt für dokumentierte Uneinigkeit und fehlende Kategorien.",
+            "1 Punkt für eine passende Schlussgrenze. Andere begründete Verfahren gelten gleichwertig."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "7/8",
+        "competencyRef": "Thüringer MBI-Gymnasialplan, Erprobungsfassung 2026, §2.2.4/PDF-S.26, I4-SS2: Bias in Ergebnissen generativer Modelle reflektieren und diskutieren, Zielmarke Ende Klasse 8. Schriftlicher Quellenfall als freiwilliger Ausblick; echte Gruppendiskussion und aktuelle Modelle nicht abgedeckt.",
+        "checkedAt": "2026-10-27"
+      }
     }
   ]
 });

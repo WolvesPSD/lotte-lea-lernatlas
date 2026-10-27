@@ -361,3 +361,5 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id^="sp-b1-m04-"]{break-inside:avoid;page-break-inside:avoid}}
 /* D-L2/M20: keep each rubric with its task and avoid a one-line fifth adult page. */
 @media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-dl2-m20-a1"]){font-size:9.25pt;line-height:1.12}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-dl2-m20-a1"]) .print-task{margin-bottom:.42rem;break-inside:avoid;page-break-inside:avoid}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-dl2-m20-a1"]) .print-task h3{font-size:9.4pt;margin-bottom:.22rem}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-dl2-m20-a1"]) .print-practice li+li{margin-top:.2rem}}
+
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="sp-b2-m04-c"]{break-before:page;break-inside:avoid;page-break-inside:avoid}}

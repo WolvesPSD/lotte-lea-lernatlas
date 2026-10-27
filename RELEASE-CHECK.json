@@ -1,8 +1,8 @@
 {
-  "builtAt": "2026-10-27T18:43:18.413Z",
-  "releaseVersion": "2026.10.27-ma-termstruktur.1",
+  "builtAt": "2026-10-27T18:58:09.015Z",
+  "releaseVersion": "2026.10.27-sp-b2-m04-regelwerkstatt.1",
   "newTopicIds": [
-    "ma-termstruktur-kartons"
+    "sp-b2-m04-regelwerkstatt"
   ],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
@@ -18,9 +18,11 @@
     "203 Themen/952 Aufgabenfelder. Die tatsächliche visuelle Karte, zweite Fassung und Mittelwahl werden von Erwachsenen am Produkt geprüft; Browsernotizen allein zählen nicht als Visualisierungsnachweis. Die bisherigen 202 Themen bleiben unverändert.",
     "Nur den historischen Prüfhinweis im Manifest korrigiert; 203 Themen/952 Aufgabenfelder, Funktionen, Grafiken und Audiodateien unverändert.",
     "Mathematik M3: Freiwilliger Ende-8-Ausblick zu drei gleichwertigen Termumformungen, fremdem Minusklammerfehler und eigenem Abgleich. Drei Hauptfragen mit 20 Kriterienpunkten, freiwilliger Transfer mit getrennten 6 Punkten. Vier Kinderantworten zeigen keine Musterlösung.",
-    "204 Themen/956 Aufgabenfelder; alle bisherigen 203 Themen und Assets bleiben unverändert. Eine tatsächliche eigene Korrektur, externe Mathematikfachprüfung, Klasse-7-Stofffolge und Jahresabdeckung sind nicht belegt."
+    "204 Themen/956 Aufgabenfelder; alle bisherigen 203 Themen und Assets bleiben unverändert. Eine tatsächliche eigene Korrektur, externe Mathematikfachprüfung, Klasse-7-Stofffolge und Jahresabdeckung sind nicht belegt.",
+    "Sport B2-M04: freiwillige Klasse-7-Papiervorstufe zur Regelentwicklung. Fiktive Viererteams, K1–K3, zwei Modellrunden, eigene Regel und erst nach A–D sichtbarer Fünferteam-Transfer. 20 Haupt- und 6 getrennte Zusatzpunkte; alle Sachlösungen nur für Erwachsene.",
+    "205 Themen/961 Aufgabenfelder; die 204 bisherigen Themen bleiben unverändert. Kein Nachweis für tatsächliche Schulspielwahl, erprobte Regel, beobachtete Wirkung, Kinderleistung oder Jahresabdeckung."
   ],
-  "rollbackCommit": "17c4a88ed959bac1ea14c57d172ada7e83dbe6c0",
+  "rollbackCommit": "b1d407c42c344989cf02c16779a47f7ffc629750",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -225,7 +227,8 @@
     "sp-b1-m04-ausdauermethoden",
     "sp-b1-m05-armpositionen",
     "de-dl2-m20-motivnetz",
-    "ma-termstruktur-kartons"
+    "ma-termstruktur-kartons",
+    "sp-b2-m04-regelwerkstatt"
   ],
   "subjects": [
     "en",
@@ -333,5 +336,5 @@
     "et-liebesformen-werkevergleich",
     "mu09-pentatonik-tonvorrat"
   ],
-  "note": "M3-Termstruktur: isolierter Kandidat nach unabhängiger enger Fach- und Rollen-QA. Kinder-Onlineweg, A4-Druck, Browser und öffentliches Paket vor einer Veröffentlichung getrennt prüfen. Freiwilliger Ende-8-Ausblick, keine Kinderleistung oder Jahresabnahme."
+  "note": "B2-M04-Regelwerkstatt: isolierter Kandidat nach unabhängiger enger Manuskript-QA. Kinder-/Erwachsenen-, Stufen-, A4- und öffentliche Browsergates getrennt prüfen. Die Papieraufgabe ist keine Sportpraxis."
 }

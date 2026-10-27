@@ -17234,6 +17234,125 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "sp-b2-m04-regelwerkstatt",
+      "subjectId": "sp",
+      "title": "Regelwerkstatt: Wer kommt im Spiel vor?",
+      "scope": "Freiwillige Klasse-7-Papiervorstufe zum gültigen Sportplan 2026, B2-M04: eine erfundene Spielregel prüfen und verändern. Schulspiel und tatsächliche Spielwirkung bleiben offen.",
+      "levelStatus": "grade78-flex",
+      "levelLabel": "Klasse 7/8 · freiwilliges Regelmodell",
+      "released": true,
+      "prerequisite": "Alles ist erfunden. Arbeite allein mit den Karten; du sollst nichts nachspielen, filmen oder über echte Mitspielende berichten. Die 20 Hauptpunkte und 6 getrennten Zusatzpunkte sind Lernfeedback, keine Sportnote. Offene Antworten brauchen eine erwachsene Rückmeldung; Papierlogik ist keine beobachtete Sportleistung.",
+      "introduction": "Im erfundenen Spiel Zonenpass versuchen zwei Viererteams, einen Ball in eine Zielzone zu bringen. Jede Kartenfolge ist ein eigener Ballbesitz. Wer am Anfang steht, hat den Ball bereits berührt; wiederholte Namen meinen dieselbe Person. In der Grundregel gibt jeder Zieltreffer 1 Punkt. Testregel T: Ein Zieltreffer zählt nur, wenn im selben Ballbesitz mindestens drei verschiedene Personen des Teams Ballkontakt hatten. Sonst zählt er 0; nach jedem Treffer beginnt ein neuer Ballbesitz. Die Namen der Karten gehören zu einem Team. Die Regel macht keine Aussage über sichere Spielpraxis.",
+      "passage": "KARTENFOLGEN · jeweils ein Ballbesitz, alle mit Zieltreffer\nK1: Ada → Ben → Ada → Ziel\nK2: Ada → Ben → Cem → Ziel\nK3: Ada → Ben → Cem → Dora → Ziel\n\nZWEI ERFUNDENE BEOBACHTUNGSRUNDEN · je sechs Minuten, dieselben acht Personen, nacheinander gespielt. „Erreichte Personen“ zählt verschiedene Personen beider Teams mit mindestens einem Ballkontakt. „Streit-Unterbrechung“ bedeutet Uneinigkeit über die Wertung. Ein Zieltreffer ist unter T nicht automatisch ein zählender Punkt.\nGrundregel: 9 Zieltreffer · 9 zählende Punkte · 5 von 8 erreichte Personen · 1 Streit-Unterbrechung.\nTestregel T: 7 Zieltreffer · 4 zählende Punkte · 7 von 8 erreichte Personen · 4 Streit-Unterbrechungen.\n\nAus zwei Runden allein folgt keine Ursache. Eine echte Regelprobe könnte nur die Sportlehrkraft in einem gewählten sicheren Schulspiel betreuen.",
+      "stagedUpdate": {
+        "kind": "transfer",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und Zusatzkarte zeigen",
+        "text": "ZUSATZKARTE NACH A–D · Fünf statt vier: Ein Team hat nun fünf Personen. Testregel T verlangte ursprünglich mindestens drei von vier Personen im selben Ballbesitz. Für die neue Frage entscheidest du, ob bei ungefähr gleichem Teamanteil drei oder vier von fünf nötig sind. Alle Folgen treffen die Zielzone; Kontakt- und Ballbesitzdefinition bleiben gleich. Z1: Ada → Ben → Cem → Ziel. Z2: Ada → Ben → Cem → Dora → Ziel. Die sechs Zusatzpunkte zählen getrennt; das ist weiterhin nur ein Papiermodell."
+      },
+      "tasks": [
+        {
+          "id": "sp-b2-m04-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Regel anwenden (4 Punkte): Für K1, K2 und K3: Wie viele verschiedene Personen hatten Ballkontakt, wie viele Punkte gibt die Grundregel und wie viele T? Erkläre an K1, weshalb die Zahl der Pfeile oder Namensstationen allein nicht genügt.",
+          "sample": "K1: 2 verschiedene Personen (Ada, Ben), Grundregel 1, T 0. K2: 3 (Ada, Ben, Cem), Grundregel 1, T 1. K3: 4 (Ada, Ben, Cem, Dora), Grundregel 1, T 1. Ada erscheint in K1 zweimal, ist aber nur eine Person.",
+          "criteria": [
+            "Je 1 Punkt für jede vollständig richtige Kartenzeile K1–K3; eine falsche Zahl kostet nur den jeweiligen Zeilenpunkt.",
+            "1 Punkt für die Erklärung, dass verschiedene Personen statt Pfeile oder Berührungen gezählt werden."
+          ]
+        },
+        {
+          "id": "sp-b2-m04-b",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Folgen prüfen (6 Punkte): Gib für Zieltreffer, zählende Punkte, erreichte Personen und Streit-Unterbrechungen jeweils die Änderung von Grundregel zu T mit Richtung an. Beschreibe einen möglichen Vorteil und einen möglichen Nachteil von T, je mit Tabellenbeleg. Warum beweisen diese zwei Runden nicht, dass T die Unterschiede verursacht hat?",
+          "sample": "Zieltreffer 2 weniger (7−9=−2), zählende Punkte 5 weniger (4−9=−5), erreichte Personen 2 mehr (7−5=+2), Streit-Unterbrechungen 3 mehr (4−1=+3). Beteiligung könnte steigen, weil 7 statt 5 Personen Ballkontakt hatten. Mehr Streit könnte die Wertung erschweren, weil es 4 statt 1 Unterbrechung gab. Die Runden liefen nacheinander; Gewöhnung, Spielverlauf, Entscheidungen oder Zufall können mitgewirkt haben. Eine kontrollierte Gegenprobe fehlt.",
+          "criteria": [
+            "Vier gerichtete Differenzen je 0,5 Punkte = 2.",
+            "1 Punkt für einen möglichen Vorteil mit Tabellenbeleg.",
+            "1 Punkt für einen möglichen Nachteil mit Tabellenbeleg.",
+            "2 Punkte für begründete Nicht-Kausalität; blosses ‚man weiss es nicht‘ ohne Grund höchstens 1."
+          ]
+        },
+        {
+          "id": "sp-b2-m04-c",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 12,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "C · Version 2 entwickeln (8 Punkte): Verändere T oder entwirf eine andere überprüfbare Zählregel. Ziel: möglichst viele Personen beteiligen, ohne unnötige Stopps durch unklare Wertung. Definiere Ballkontakt und Ballbesitz, die nötige Zahl verschiedener Personen und die Punktfolge bei erfüllter sowie nicht erfüllter Bedingung. Ändere gegenüber T mindestens eine Bedingung, Schwelle oder Punktfolge. Entscheide K1 und K2 nach deiner eigenen Regel mit Begründung. Nenne einen erwarteten Vorteil und einen möglichen Nachteil; das sind Vermutungen, keine beobachteten Wirkungen.",
+          "sample": "Nur eine mögliche Regel: Jeder Zieltreffer zählt 1 Punkt; im selben Ballbesitz gibt es 1 Zusatzpunkt, wenn mindestens 3 verschiedene Teammitglieder den Ball berührt haben. Startperson und jede spätere Ballannahme zählen als Kontakt, Mehrfachkontakte derselben Person nur einmal; nach jedem Treffer beginnt ein neuer Ballbesitz. K1 gibt 1 Punkt (Ada und Ben), K2 gibt 2 (Ada, Ben, Cem). Ein möglicher Vorteil ist Anreiz zur Beteiligung ohne annullierten Treffer. Ein möglicher Nachteil ist, dass ein starkes Team Zusatzpunkte schneller sammeln könnte. Andere widerspruchsfreie geänderte Regeln gelten gleichwertig; die Beispielregel ist keine Schulregel.",
+          "criteria": [
+            "1 Punkt für definierte Kontakte und Ballbesitz.",
+            "1 Punkt für mindestens eine gegenüber T tatsächlich geänderte Bedingung, Schwelle oder Punktfolge; blosse Präzisierung genügt dafür nicht.",
+            "1 Punkt für eindeutige Punktfolge bei erfüllter und nicht erfüllter Bedingung.",
+            "1 Punkt für innere Widerspruchsfreiheit.",
+            "Je 1 Punkt für K1 und K2 nach der eigenen Regel = 2, nicht nur nach der Beispielregel.",
+            "Je 1 Punkt für plausiblen erwarteten Vorteil und möglichen Nachteil = 2; keine behauptete Wirkung."
+          ]
+        },
+        {
+          "id": "sp-b2-m04-d",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "D · Später fair prüfen (2 Punkte): Nenne zwei konkrete Beobachtungen, die eine Sportlehrkraft in einem tatsächlich gewählten, sicheren Schulspiel sammeln müsste, um deine Regel einzuschätzen. Keine Namen, persönlichen Leistungswerte oder Videos notieren.",
+          "sample": "Beispielsweise anonym pro Team und Runde zählen: wie viele verschiedene Personen einen Ballkontakt hatten und wie viele Wertungsunterbrechungen auftraten. Auch Zieltreffer oder zählende Punkte können passende Beobachtungsgrössen sein.",
+          "criteria": [
+            "Je 1 Punkt für eine konkrete, beobachtbare und zum Regelziel passende Grösse. Keine persönlichen Daten nötig."
+          ]
+        },
+        {
+          "id": "sp-b2-m04-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Zusatzkarte · Fünf statt vier (6 getrennte Punkte): 1. Soll bei ungefähr gleichem Teamanteil wie 3/4 weiterhin ‚mindestens drei‘ oder ‚mindestens vier‘ in einem Fünferteam gelten? Vergleiche 3/4, 3/5 und 4/5 und begründe. 2. Entscheide Z1 und Z2 nach deiner gewählten Fünferregel: Nenne je die Zahl verschiedener Personen und ob der Treffer als Punkt zählt. 3. Nenne eine mögliche Verbesserung für Beteiligung und eine mögliche Schwierigkeit, wenn mehr Personen je Ballbesitz nötig sind. Es sind Vermutungen.",
+          "sample": "3/4=0,75; 3/5=0,60; 4/5=0,80. Für ungefähr denselben Anteil liegt 4 von 5 näher bei 3/4 (5 statt 15 Prozentpunkte Abstand). Bei dieser Wahl hat Z1 3 verschiedene Personen und gibt 0 Punkte, Z2 hat 4 und gibt 1. Wer in Nr. 1 begründet 3 von 5 wählte, soll in Nr. 2 nach dieser Wahl folgerichtig bewertet werden; die fehlende Anteilsnähe bleibt in Nr. 1 sichtbar. Mehr Beteiligung ist denkbar, ebenso ein schwerer abzuschliessender Angriff oder mehr Zählstreit. Das sind keine gemessenen Wirkungen.",
+          "criteria": [
+            "1 Zusatzpunkt für korrekten Anteilsvergleich und 1 für begründete Wahl von 4/5 als näher an 3/4 = 2.",
+            "Je 1 Zusatzpunkt für eine vollständig stimmige Z1-/Z2-Zeile nach der ausdrücklich gewählten Fünferregel = 2.",
+            "Je 1 Zusatzpunkt für mögliche Verbesserung und mögliche Schwierigkeit = 2; keine angeblich beobachtete Wirkung."
+          ]
+        }
+      ],
+      "practice": {
+        "unscored": true,
+        "title": "Ein echtes Schulspiel nur fachkundig beobachten",
+        "childNote": "Diese Aufgabe ist ein Papiermodell. Nur falls die Sportlehrkraft im regulären Unterricht ein passendes Spiel auswählt, kann deine Regelidee dort besprochen und sicher erprobt werden. Du brauchst kein Heimspiel und keine Aufnahme.",
+        "childSteps": [
+          "Frage nach dem tatsächlich gewählten Schulspiel und seinen gültigen vereinfachten Regeln.",
+          "Besprich deine Regelidee und eine messbare Beobachtung mit der Lehrkraft; das Papiermodell setzt keine Schulregel fest.",
+          "Halte eine wirkliche Beobachtung und eine blosse Vermutung getrennt fest, ohne Namen oder persönliche Werte."
+        ],
+        "adultNote": "Die Lehrkraft entscheidet über Schulspiel, Sicherheit, Aufsicht und eine eventuelle Erprobung. Textpunkte nur für Papierregelverständnis; echte Regelentwicklung, Abstimmung, Anwendung oder Wirkung ohne fachkundige Unterrichtsbeobachtung als ‚nicht erhoben‘ kennzeichnen. Keine zusätzlichen privaten Spiel-, Video- oder Personendaten sammeln.",
+        "adultCriteria": [
+          "Schulspiel und tatsächlich gültige Regeln belegt oder ‚nicht erhoben‘.",
+          "Anonyme Team-/Rundenzähler nur bei beaufsichtigter schulischer Erprobung.",
+          "Regelentwurf, beobachtete Anwendung und tatsächliche Wirkung getrennt bewerten; aus zwei Papiermodellrunden keine Ursache ableiten."
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "Thüringer Sport Gymnasium Erprobung 2026, B2 Spielen, PDF-S. 31: Spielregeln entwickeln, ihre Auswirkung auf das Spiel beschreiben und gegebenenfalls situationsbezogen weiterentwickeln. B2 für Klasse 7 verbindlich; konkrete Schulspiele unbekannt.",
+        "checkedAt": "2026-10-27"
+      }
+    },
+    {
       "id": "sp-b1-s01-laufmomente",
       "subjectId": "sp",
       "title": "Zwei Laufmomente – was lässt sich beschreiben?",

@@ -755,18 +755,36 @@
       host.append(mainTasks);
       if (topic.practiceBeforeLastTask && topic.practice) host.append(renderPractice(topic.practice, false));
       const mainComplete = () => topic.tasks.slice(0, mainTaskCount).every(task => String(state.answers[task.id] || '').trim());
+      const feedbackGate = topic.stagedUpdate.feedbackBeforeUnlock ? create('label', 'feedback-before-update') : null;
+      const feedbackCheck = feedbackGate ? create('input') : null;
+      if (feedbackGate) {
+        feedbackCheck.type = 'checkbox';
+        feedbackCheck.disabled = !mainComplete();
+        feedbackGate.append(feedbackCheck);
+        appendText(feedbackGate, 'span', '', 'Ich habe meine Antworten mit einer erwachsenen Person besprochen und Rückmeldung erhalten. Die App kann das nicht selbst prüfen.');
+        feedbackGate.hidden = updateShown;
+        host.append(feedbackGate);
+      }
+      const readyForUpdate = () => mainComplete() && (!feedbackCheck || feedbackCheck.checked);
       const updateButton = button(topic.stagedUpdate.buttonLabel || `Hauptantworten festhalten und ${topic.stagedUpdate.kind === 'variant' ? 'Variante' : 'Korrektur'} zeigen`, () => {
-        if (!mainComplete()) return;
+        if (!readyForUpdate()) return;
         state.answers[marker] = 'ja'; save();
         mainInputs.forEach(input => { input.readOnly = true; });
-        updateButton.hidden = true; updateText.hidden = false; if (updateFigure) updateFigure.hidden = false; transferTasks.hidden = false;
+        updateButton.hidden = true; if (feedbackGate) feedbackGate.hidden = true; updateText.hidden = false; if (updateFigure) updateFigure.hidden = false; transferTasks.hidden = false;
         const autoCheck = host.querySelector('.auto-check-card');
         if (autoCheck) autoCheck.hidden = false;
         updateText.scrollIntoView({ block: 'start', behavior: 'instant' });
       }, 'check-button');
-      updateButton.disabled = !mainComplete();
+      updateButton.disabled = !readyForUpdate();
       updateButton.hidden = updateShown;
-      mainInputs.forEach(input => input.addEventListener('input', () => { updateButton.disabled = !mainComplete(); }));
+      mainInputs.forEach(input => input.addEventListener('input', () => {
+        if (feedbackCheck) {
+          feedbackCheck.checked = false;
+          feedbackCheck.disabled = !mainComplete();
+        }
+        updateButton.disabled = !readyForUpdate();
+      }));
+      feedbackCheck?.addEventListener('change', () => { updateButton.disabled = !readyForUpdate(); });
       host.append(updateButton);
       const updateText = appendText(host, 'blockquote', 'reading-passage', topic.stagedUpdate.text);
       updateText.hidden = !updateShown;

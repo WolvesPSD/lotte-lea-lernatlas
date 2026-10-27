@@ -363,3 +363,8 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 @media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-dl2-m20-a1"]){font-size:9.25pt;line-height:1.12}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-dl2-m20-a1"]) .print-task{margin-bottom:.42rem;break-inside:avoid;page-break-inside:avoid}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-dl2-m20-a1"]) .print-task h3{font-size:9.4pt;margin-bottom:.22rem}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-dl2-m20-a1"]) .print-practice li+li{margin-top:.2rem}}
 
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="sp-b2-m04-c"]{break-before:page;break-inside:avoid;page-break-inside:avoid}}
+
+.feedback-before-update{display:flex;align-items:flex-start;gap:.7rem;margin:1rem 0;padding:.9rem 1rem;border:1px solid #9bb8af;border-radius:.7rem;background:#edf6f2;color:#174b45;font-weight:650}
+.feedback-before-update input{flex:none;width:1.25rem;height:1.25rem;margin:.12rem 0 0}
+.feedback-before-update[hidden]{display:none!important}
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="go-g01-c"]{break-inside:avoid;page-break-inside:avoid}}

@@ -14499,6 +14499,134 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "go-g01-beleuchtungszonen",
+      "subjectId": "go",
+      "title": "Wo kann die Sonne im Zenit stehen?",
+      "scope": "Freiwilliger Klasse-7-Einstieg in einen begrenzten Ende-8-Teilfall zu Beleuchtungszonen, Wendekreisen und Zenitstand. Die Geltung des Geografieplans von 2013 für 2026/27 und Lottes Unterrichtsfolge sind ungeklärt; keine vollständige Klima- oder Vegetationsanalyse.",
+      "levelStatus": "additional-unclear",
+      "released": true,
+      "prerequisite": "Alle Orte A–E und R/S sind erfunden. Nutze nur die gerundeten Modellgrenzen 23,5° und 66,5°. Du brauchst kein eigenes Foto oder Ortswissen. Die 20 Hauptpunkte und 6 getrennten Zusatzpunkte sind Lernfeedback, keine Schulnote; offene Antworten beurteilt ein Mensch.",
+      "introduction": "Leite aus Achsneigung und Breitengrad ab, in welcher Beleuchtungszone ein Modellort liegt und wo die Sonne im Zenit stehen kann. Trenne diese Sonnengeometrie von Wetter, Niederschlag und Vegetation. Bearbeite A–E zuerst; eine neue Karte wird erst danach freigegeben.",
+      "sourceCards": [
+        {
+          "title": "Modellkarte · Sonnenlicht und Breiten",
+          "text": "Die Erdachse ist gegenüber der Senkrechten auf ihrer Bahnebene um ungefähr 23,5° geneigt. Wendekreise liegen bei etwa 23,5° N und 23,5° S. Dazwischen liegen die Tropen; zwischen Wendekreis und Polarkreis mittlere Breiten; jenseits der Polarkreise polare Breiten. Im Schulmodell liegt der Polarkreis bei 90° − 23,5° = 66,5° N/S. Zenit bedeutet: Die Sonne steht mittags senkrecht über dem Ort. Im Juni steht sie am nördlichen Wendekreis im Zenit, im Dezember am südlichen; an den Tagundnachtgleichen am Äquator. Die jeweils zur Sonne geneigte Halbkugel hat gegenüber ihrer abgewandten Stellung längere Tage. Um die Sommer-Sonnenwende dieser Halbkugel können jenseits ihres Polarkreises Tage ohne Sonnenuntergang auftreten. Die Achsneigung verändert Sonnenwinkel und Taglänge; Ortsklima folgt daraus allein nicht.",
+          "sourceLabel": "NOAA/NESDIS · What Is a Solstice?; NASA Science · Seeing Equinoxes and Solstices from Space",
+          "sourceUrl": "https://www.nesdis.noaa.gov/about/k-12-education/optical-phenomena/what-solstice",
+          "sourceNote": "Eigene gekürzte deutsche Modellzusammenfassung, NOAA/NASA am 27.10.2026 erneut geöffnet. Keine fremde Grafik übernommen."
+        },
+        {
+          "title": "Erfundene Modellorte · nur die Breite ist bekannt",
+          "text": "A: 0° · B: 23,5° N · C: 50° N · D: 70° N · E: 30° S. Weitere Orts- und Klimadaten sind unbekannt. Auf einem Wendekreis verwende in dieser Aufgabe die Tropen als Grenzbereich.",
+          "sourceLabel": "Eigene fiktive Modellkarte",
+          "sourceNote": "Die fünf Kennbuchstaben bezeichnen keine realen Orte."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–E",
+        "feedbackBeforeUnlock": true,
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–E festhalten und Zusatzkarte zeigen",
+        "text": "ZUSATZKARTE NACH A–E · Zwei neue erfundene Orte: R liegt bei 20° S und S bei 68° S. Zur Dezember-Sonnenwende steht die Sonne am südlichen Wendekreis (23,5° S) im Zenit; südlich des antarktischen Polarkreises (etwa 66,5° S) kann es Polartag geben. Für R und S sind keine weiteren Klima- oder Ortsdaten bekannt. Die sechs Zusatzpunkte zählen getrennt."
+      },
+      "tasks": [
+        {
+          "id": "go-g01-a",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Zonen zuordnen (5 Punkte): Ordne A, B, C, D und E jeweils den Tropen, mittleren Breiten oder polaren Breiten zu. Für B auf dem Wendekreis gilt in dieser Aufgabe ‚Tropen-Grenzbereich‘. Schreibe je Ort eine kurze Zeile.",
+          "sample": "A 0°: Tropen; B 23,5° N: Tropen-Grenzbereich; C 50° N: mittlere Breiten; D 70° N: polare Breiten; E 30° S: mittlere Breiten. Eine klar begründete Grenzlage für B ist sachgerecht.",
+          "criteria": [
+            "Je 1 Punkt für jede richtige Zuordnung A–E. Für B die fachlich klare Grenzlage anerkennen."
+          ]
+        },
+        {
+          "id": "go-g01-b",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "B · Grenzen verstehen (3 Punkte): Nenne den Breitengrad des nördlichen Wendekreises und des nördlichen Polarkreises. Zeige die Rechnung für den Polarkreis im Modell. Erkläre, weshalb C bei 50° N zwischen diesen Grenzen liegt.",
+          "sample": "Nördlicher Wendekreis: 23,5° N. Nördlicher Polarkreis: 90° − 23,5° = 66,5° N. 23,5° < 50° < 66,5°, also liegt C zwischen beiden Grenzen.",
+          "criteria": [
+            "1 Punkt: 23,5° N.",
+            "1 Punkt: 66,5° N mit der Rechnung 90° − 23,5°.",
+            "1 Punkt: C mit 23,5° < 50° < 66,5° oder gleichwertig begründet."
+          ]
+        },
+        {
+          "id": "go-g01-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Sonnenwenden übertragen (4 Punkte): Nenne für Juni und Dezember jeweils die stärker zur Sonne geneigte Halbkugel. Leite dann für B und E ab, ob ihre Tage um Juni länger oder kürzer sind als um Dezember. Begründe über die Achsneigung; erfinde keine Stundenzahl.",
+          "sample": "Im Juni ist die Nordhalbkugel stärker zur Sonne geneigt; B hat um Juni längere Tage als um Dezember. Im Dezember ist die Südhalbkugel stärker zugewandt; E hat um Juni kürzere Tage als um Dezember. Ursache ist die Achsneigung.",
+          "criteria": [
+            "1 Punkt: Juni = Nordhalbkugel; 1 Punkt: B im Juni längere Tage.",
+            "1 Punkt: Dezember = Südhalbkugel; 1 Punkt: E im Juni kürzere Tage.",
+            "Für bloß geratene Tagesrichtungen ohne erkennbaren Bezug zur Achsneigung höchstens 2/4."
+          ]
+        },
+        {
+          "id": "go-g01-d",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "D · Drei Behauptungen prüfen (6 Punkte): Beurteile jede Aussage als ‚getragen‘ oder ‚nicht getragen‘ und begründe: (1) Bei C steht die Sonne zur Juni-Sonnenwende im Zenit, weil C nördlich des Äquators liegt. (2) Bei D ist um die Juni-Sonnenwende ein Tag ohne Sonnenuntergang möglich. (3) Der nördliche Sommer entsteht hauptsächlich, weil die Erde im Juni näher an der Sonne ist.",
+          "sample": "(1) Nicht getragen: C liegt bei 50° N ausserhalb der Wendekreise; Zenit im Juni am nördlichen Wendekreis. (2) Getragen als Modellmöglichkeit: D 70° N liegt jenseits des Polarkreises bei 66,5° N. (3) Nicht getragen: Achsneigung, Sonnenwinkel und Taglänge erklären den Jahreszeitenvergleich, nicht Sonnennähe als Hauptursache.",
+          "criteria": [
+            "Je Aussage 1 Punkt für das richtige Urteil und 1 Punkt für die passende Begründung, insgesamt 6.",
+            "Bei (2) Möglichkeit statt sicherer Wetter- oder Temperaturbehauptung anerkennen."
+          ]
+        },
+        {
+          "id": "go-g01-e",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "E · Grenze der Modellkarte (2 Punkte): Jemand behauptet, aus E = 30° S seien Niederschlagsmenge und Vegetation bereits bekannt. Erkläre die Beleglücke und nenne eine zusätzliche Art von Orts- oder Klimainformation.",
+          "sample": "Breitengrad und Sonnengeometrie allein bestimmen keine konkrete Niederschlagsmenge oder Vegetation. Passend wären etwa datierte Niederschlags- und Temperaturreihen, Höhenlage, Meeresnähe, Winde oder eine geprüfte Vegetationskarte mit Zeitraum und Legende.",
+          "criteria": [
+            "1 Punkt: Breite allein reicht für konkrete Niederschläge/Vegetation nicht.",
+            "1 Punkt: eine passende zusätzliche Orts- oder Klimaquelle; ein weiterer Breitengrad reicht nicht."
+          ]
+        },
+        {
+          "id": "go-g01-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Zusatzkarte nach A–E (6 getrennte Punkte): (1) Ordne R und S je einer Beleuchtungszone zu und begründe mit den Grenzen. (2) Steht die Sonne genau zur Dezember-Sonnenwende bei R im Zenit? Nenne den dafür maßgeblichen Breitengrad. (3) Ist für S um diese Sonnenwende im Modell ein Tag ohne Sonnenuntergang möglich? Begründe. (4) Darf man allein aus R = 20° S eine bestimmte Niederschlagsmenge behaupten? Begründe.",
+          "sample": "R 20° S liegt in den Tropen; S 68° S liegt jenseits des antarktischen Polarkreises in polaren Breiten. Zur Dezember-Sonnenwende steht die Sonne bei 23,5° S im Zenit, nicht genau bei R. Bei S ist Polartag im Modell möglich, weil 68° S südlich von 66,5° S liegt. Niederschlag bei R folgt aus der Breite allein nicht; Orts-/Klimadaten fehlen.",
+          "criteria": [
+            "Je 1 Zusatzpunkt für R und S mit richtiger Zone und Grenzbezug; nur richtige Zone je 0,5 = 2.",
+            "1 Punkt: Dezember-Zenit bei 23,5° S; 1 Punkt: nicht genau bei R = 20° S = 2.",
+            "1 Punkt: Polartag bei S als Möglichkeit mit Breite begründet.",
+            "1 Punkt: keine konkrete Niederschlagsmenge ohne Orts-/Klimadaten."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2013er Geografie-Original; Geltung 2026/27 ungeklärt",
+        "gradeBand": "7/8, Ziel Ende Klasse 8",
+        "competencyRef": "Geografie Gymnasium 2013 §2.2, PDF-S. 14: G-01 mit klimabestimmenden Faktoren und Fachbegriffen Beleuchtungszone, Wendekreis, Zenitstand; Zielmarke Klassenstufe 8. Hier nur astronomischer Modellteil.",
+        "checkedAt": "2026-10-27"
+      }
+    },
+    {
       "id": "go-klima-vegetation-modell",
       "subjectId": "go",
       "title": "Klima und Pflanzen an zwei Modellorten",

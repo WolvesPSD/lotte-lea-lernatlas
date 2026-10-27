@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" role="img" aria-labelledby="title desc">
+  <title id="title">Vier schematische Frontansichten A1, A2, B1 und B2 mit blau markierter Hand und Körpermittellinie</title>
+  <desc id="desc">Gerade Sprintstrecke, erfundene Modellpositionen. Die blau markierte Hand L hat keine festgelegte anatomische Seite. A1: L links im Bild der gestrichelten Mittellinie. A2: L rechts im Bild der Mittellinie. B1 und B2: L jeweils links im Bild der Mittellinie. Es sind einzelne Zeitpunkte, keine aufgezeichnete Bewegung. Keine echte Person und keine Techniknote.</desc>
+  <rect width="1000" height="420" fill="#f8fafc"/>
+  <text x="32" y="37" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#17324a">Armpositionen von vorn · erfundene Modellbilder</text>
+  <text x="32" y="63" font-family="Arial,sans-serif" font-size="15" fill="#334155">L = markierte Hand · Seitenangaben im Bild · gestrichelt = Körpermittellinie</text>
+  <defs>
+    <g id="body" stroke="#334155" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <circle cx="0" cy="0" r="24" fill="#e2e8f0"/>
+      <path d="M-35 45 H35 M-25 45 V150 H25 V45 M-24 150 H24"/>
+      <path d="M-25 150 L-34 202 M25 150 L34 202"/>
+      <path d="M0 32 V213" stroke="#94a3b8" stroke-width="3" stroke-dasharray="7 7"/>
+    </g>
+  </defs>
+  <g font-family="Arial,sans-serif">
+    <g transform="translate(125 147)">
+      <rect x="-108" y="-58" width="216" height="277" rx="13" fill="#fff" stroke="#cbd5e1"/>
+      <text x="-84" y="-28" font-size="20" font-weight="700" fill="#17324a">A1 · t1</text>
+      <use href="#body"/>
+      <path d="M-35 45 L-53 108 M35 45 L54 112" stroke="#334155" stroke-width="5" fill="none"/>
+      <rect x="-66" y="97" width="24" height="24" rx="3" fill="#2563eb"/>
+      <text x="-61" y="115" font-size="16" font-weight="700" fill="#fff">L</text>
+      <circle cx="54" cy="112" r="11" fill="#f59e0b"/>
+    </g>
+    <g transform="translate(375 147)">
+      <rect x="-108" y="-58" width="216" height="277" rx="13" fill="#fff" stroke="#cbd5e1"/>
+      <text x="-84" y="-28" font-size="20" font-weight="700" fill="#17324a">A2 · t2</text>
+      <use href="#body"/>
+      <path d="M-35 45 L18 106 M35 45 L56 111" stroke="#334155" stroke-width="5" fill="none"/>
+      <rect x="6" y="94" width="24" height="24" rx="3" fill="#2563eb"/>
+      <text x="11" y="112" font-size="16" font-weight="700" fill="#fff">L</text>
+      <circle cx="56" cy="111" r="11" fill="#f59e0b"/>
+    </g>
+    <g transform="translate(625 147)">
+      <rect x="-108" y="-58" width="216" height="277" rx="13" fill="#fff" stroke="#cbd5e1"/>
+      <text x="-84" y="-28" font-size="20" font-weight="700" fill="#17324a">B1 · t1</text>
+      <use href="#body"/>
+      <path d="M-35 45 L-52 106 M35 45 L52 112" stroke="#334155" stroke-width="5" fill="none"/>
+      <rect x="-64" y="94" width="24" height="24" rx="3" fill="#2563eb"/>
+      <text x="-59" y="112" font-size="16" font-weight="700" fill="#fff">L</text>
+      <circle cx="52" cy="112" r="11" fill="#f59e0b"/>
+    </g>
+    <g transform="translate(875 147)">
+      <rect x="-108" y="-58" width="216" height="277" rx="13" fill="#fff" stroke="#cbd5e1"/>
+      <text x="-84" y="-28" font-size="20" font-weight="700" fill="#17324a">B2 · t2</text>
+      <use href="#body"/>
+      <path d="M-35 45 L-48 103 M35 45 L55 113" stroke="#334155" stroke-width="5" fill="none"/>
+      <rect x="-60" y="91" width="24" height="24" rx="3" fill="#2563eb"/>
+      <text x="-55" y="109" font-size="16" font-weight="700" fill="#fff">L</text>
+      <circle cx="55" cy="113" r="11" fill="#f59e0b"/>
+    </g>
+  </g>
+  <text x="30" y="398" font-family="Arial,sans-serif" font-size="13" fill="#475569">Schematische KI-Zeichnung · kein Bewegungsfilm · keine echte Lauftechnik</text>
+</svg>

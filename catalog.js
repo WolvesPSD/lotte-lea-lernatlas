@@ -17598,6 +17598,216 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "sp-b1-m05-armpositionen",
+      "subjectId": "sp",
+      "title": "Was zeigen zwei Armpositionen wirklich?",
+      "scope": "Freiwillige schriftliche Klasse-7-Vorbereitung im verbindlichen Bewegungsfeld B1 des gültigen Sportplans 2026. Vier erfundene Sprint-Standbilder üben nur eine begrenzte Beobachtung und eine bedingte Korrekturfrage. Die Lehrplankompetenz B1-M05 umfasst zusätzlich tatsächliches Laufen, Springen und Werfen/Stossen; Unterrichtsfolge und Disziplin der Schule sind unbekannt.",
+      "levelStatus": "grade78-flex",
+      "levelLabel": "Klasse 7/8 · Modellbeobachtung, Sportpraxis nur in der Schule",
+      "released": true,
+      "prerequisite": "Nur erfundene, schematische Frontansichten eines geraden Sprints; keine echte Person. Nicht laufen, filmen, messen oder zu Hause die Armbewegung korrigieren. Keine Körper-, Gesundheits-, Zeit- oder Leistungsdaten eingeben. 20 Haupt- und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Sportnote; offene Antworten bewertet die App nicht automatisch.",
+      "introduction": "Vergleiche die Bildmomente A1/A2 und B1/B2. Beschreibe zuerst nur, wo die markierte Hand L relativ zur Mittellinie steht. Ein einzelnes Standbild zeigt keinen Bewegungsverlauf und erlaubt keine Diagnose. Bearbeite A–C; danach erscheint eine weitere Textkarte.",
+      "passage": "MODELLKRITERIUM · Bei einem geraden Sprint würde eine Sportfachperson beobachten, ob Hände beim Armschwung wiederholt die Körpermittellinie überqueren. Zwei schematische Momente beweisen nicht, wie eine echte Person dauerhaft läuft. L ist nur die Kennung einer markierten Hand, keine anatomische Linksangabe. Links/rechts meint ausschliesslich die Bildseite. Die andere Hand ist orange markiert. Die gestrichelte Linie steht für die Körpermittellinie. Keine Kurve, kein Bewegungsfilm und kein echtes Kind.",
+      "diagram": {
+        "path": "assets/sp-b1-m05-armpositionen.svg",
+        "alt": "Vier schematische Frontansichten A1, A2, B1 und B2. Die blau markierte Hand L steht in A1 links, A2 rechts und B1/B2 links der gestrichelten Körpermittellinie; Seitenangaben meinen die Bildseite.",
+        "caption": "Eigene schematische KI-Zeichnung für einen fiktiven Modellvergleich. Vier Einzelzeitpunkte, kein Film, keine reale Lauftechnik oder Person. Die Bildbeschreibung bietet denselben Aufgabenweg ohne Farberkennung.",
+        "textAlternative": "Alle vier Frontansichten haben eine gestrichelte Körpermittellinie. Das blaue Quadrat L markiert eine Hand ohne anatomische Seitenfestlegung; der orange Kreis zeigt nur die andere Hand. A1/t1: L steht links im Bild der Linie. A2/t2: L steht rechts im Bild der Linie. B1/t1 und B2/t2: L steht jeweils links im Bild der Linie. Zwischen den Momenten sind Weg, Tempo, Kraft, Wiederholung und Körperursachen nicht ablesbar."
+      },
+      "cardsHeading": "Quellenkarte · Lehrplanziel und Trainerbeispiel trennen",
+      "sourceCards": [
+        {
+          "title": "Thüringer Sportplan 2026 · B1-M05",
+          "text": "B1 ist in Klasse 7 verbindlich. In der 7/8-Spalte sollen Bewegungsabläufe und bewegungsfeldgerechte Techniken beim Laufen, Springen, Werfen/Stossen beobachtet und korrigiert werden. Diese vier Modellbilder decken nur eine enge schriftliche Vorbereitungsfrage zum geraden Sprint ab.",
+          "sourceLabel": "Thüringer Schulportal · Sport Gymnasium 2026",
+          "sourceUrl": "https://www.schulportal-thueringen.de/media/detail?tspi=20580",
+          "sourceNote": "Erprobungsfassung, PDF-S. 2 und 22; Klasse 7 ab 2026/27. Keine konkrete Schuldisziplin festgelegt."
+        },
+        {
+          "title": "Athletics Ireland · Trainerbeispiel",
+          "text": "Der irische Sprintleitfaden nennt vor-/rückwärtige Armführung und das Vermeiden einer Überquerung der Körpermittellinie für den geraden Sprint. Daraus folgt für unser Papiermodell nur eine vorsichtige Beobachtungsfrage. Erst fachkundige Beobachtung mehrerer echter Schritte könnte ein wiederkehrendes Muster klären.",
+          "sourceLabel": "Athletics Ireland · AAi Coach Sprints Manual",
+          "sourceUrl": "https://www.athleticsireland.ie/wp-content/uploads/2024/10/AAI-Coach_Sprints_Manual.pdf",
+          "sourceNote": "PDF-S. 5 und 23–24, abgerufen 27.10.2026; irischer Trainervergleich, keine Thüringer Schulregel. Die Forderung nach weiterer Fachbeobachtung ist unsere pädagogische Ableitung."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "mainTaskCount": 7,
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A1–C2 festhalten und neue Modellmomente zeigen",
+        "text": "FREIWILLIGE NEUE TEXTKARTE NACH A–C · In zwei neuen erfundenen Momenten steht die markierte Hand R bei C1/t1 rechts im Bild der Mittellinie, bei C2/t2 links davon. Bei D1/t1 und D2/t2 steht R beide Male rechts im Bild. Die andere Hand ist nicht eingezeichnet. R ist nur eine Kennung, keine anatomische Seitenangabe. Zwischen den Momenten gibt es keine Beobachtung. Gerade Strecke, kein echtes Kind und keine neue Laufaufgabe; sechs Zusatzpunkte zählen getrennt."
+      },
+      "practice": {
+        "title": "Nur bei einer passenden beaufsichtigten Schulaufgabe",
+        "childNote": "Das Modellblatt löst keine Übung zu Hause aus. Falls die Schule eine passende Sportstunde anbietet, entscheidet die Sportlehrkraft über Disziplin, Aufsicht, Beobachtung und mögliche Korrektur. Ohne schulische Gelegenheit bleibt die tatsächliche B1-M05-Leistung nicht erhoben.",
+        "childSteps": [
+          "Die Sportlehrkraft benennt für Laufen, Springen oder Werfen/Stossen die konkrete Phase und ein fachlich bestätigtes Kriterium.",
+          "Eine echte Bewegung wird im regulären Unterricht aus geeigneter Perspektive beobachtet; was nicht sichtbar war, bleibt ausdrücklich offen.",
+          "Erst die Sportlehrkraft entscheidet, ob eine Korrektur fachlich passt; eine spätere Umsetzung müsste erneut real beobachtet werden."
+        ],
+        "adultNote": "Leerer Schulbeobachtungsweg, keine Kinderakte. Eltern und App vergeben keine Praxispunkte. Keine privaten Videos/Fotos, Gesundheits- oder Leistungswerte in dieses Projekt übernehmen.",
+        "adultCriteria": [
+          "Konkreter Bewegungsbereich, Phase und fachlich bestätigtes Kriterium der Schule bekannt",
+          "Tatsächliche Bewegung unter Aufsicht beobachtet und sichtbare von unsichtbaren Merkmalen getrennt",
+          "Fachliche Rückmeldung und gegebenenfalls erneute Beobachtung durch die Sportlehrkraft erfolgt"
+        ],
+        "unscored": true,
+        "printAdultNote": "Ohne reale Schulaufgabe, beaufsichtigte Beobachtung und Sportlehrkrafturteil bleibt B1-M05 nicht erhoben. Keine Heimübung, Filmaufnahme oder personenbezogene Laufdiagnose."
+      },
+      "tasks": [
+        {
+          "id": "sp-b1-m05-a1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 5,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "A1 · Schreibe für A1, A2, B1 und B2 jeweils, auf welcher Bildseite der Mittellinie die markierte Hand L steht. Nutze alle vier Bildkennungen. (4 Hauptpunkte)",
+          "sample": "A1: L links im Bild. A2: L rechts im Bild. B1: L links im Bild. B2: L links im Bild.",
+          "criteria": [
+            "Je 1 Punkt für jede korrekt zugeordnete Bildkennung und Bildseite: A1 links, A2 rechts, B1 links, B2 links."
+          ]
+        },
+        {
+          "id": "sp-b1-m05-a2",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "A2 · Nenne zwei verschiedene Dinge, die man aus diesen vier Einzelbildern nicht sicher erkennen kann. (2 Hauptpunkte)",
+          "sample": "Nicht zu erkennen sind zum Beispiel der Weg zwischen den Momenten und ob sich eine Armposition über mehrere Schritte wiederholt. Auch Tempo, Kraft oder Körperursachen sind nicht ablesbar.",
+          "criteria": [
+            "Je 1 Punkt für zwei unabhängige Grenzen, etwa Verlauf zwischen Zeitpunkten, Wiederholung, wirkliche Armgeschwindigkeit, Kraft, Beschwerden oder Körperursache. Keine erfundenen Messwerte anerkennen."
+          ]
+        },
+        {
+          "id": "sp-b1-m05-b1",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 5,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "B1 · In welchem Zeitpunktpaar wechselt L die Bildseite der Mittellinie? Belege die Aussage mit beiden Bildkennungen und erkläre, warum das noch keine wiederholte Kreuzung im echten Lauf beweist. (3 Hauptpunkte)",
+          "sample": "A1/A2: L steht zuerst links und danach rechts im Bild. Die beiden Momente zeigen keine durchgehende Bahn und keine Wiederholung über echte Schritte.",
+          "criteria": [
+            "1 Punkt: A1/A2 als Paar mit Bildseitenwechsel.",
+            "1 Punkt: A1 links und A2 rechts mit beiden Kennungen belegt.",
+            "1 Punkt: keine wiederholte echte Kreuzung oder durchgehende Bahn daraus behauptet."
+          ]
+        },
+        {
+          "id": "sp-b1-m05-b2",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "B2 · Was zeigen die zwei Momente des anderen Paars gemeinsam? Warum folgt daraus nicht, dass die Hand zwischen oder nach diesen Momenten nie die Linie überquert? (2 Hauptpunkte)",
+          "sample": "In B1 und B2 steht L jeweils links im Bild. Was zwischen den zwei Momenten oder danach geschieht, wurde nicht gezeigt.",
+          "criteria": [
+            "1 Punkt: B1/B2 zeigen L beide Male links im Bild.",
+            "1 Punkt: keine dauerhaft gleiche Handseite zwischen oder nach den Momenten behauptet."
+          ]
+        },
+        {
+          "id": "sp-b1-m05-b3",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 5,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "B3 · Jemand behauptet, A beweise dauerhaft falsches und B immer richtiges Laufen. Formuliere eine genauere, begrenzte Aussage. Was müsste eine Fachperson zusätzlich beobachten? (3 Hauptpunkte)",
+          "sample": "Bei A unterscheidet sich die sichtbare Bildseite der markierten Hand zwischen zwei Momenten; das kann Anlass für weiteres Hinsehen sein. B zeigt in zwei Momenten dieselbe Bildseite. Über eine dauerhafte echte Technik lässt sich aus beiden Paaren nichts Sicheres sagen. Eine Sportfachperson müsste mehrere Schritte beim geraden Laufen aus geeigneter Sicht beobachten.",
+          "criteria": [
+            "1 Punkt: dauerhafte Technikbehauptung zu beiden Paaren begrenzt.",
+            "1 Punkt: sichtbare A-Position als möglicher Anlass für weiteres Hinsehen statt Diagnose.",
+            "1 Punkt: fachkundige Beobachtung mehrerer echter Schritte aus geeigneter Sicht genannt."
+          ]
+        },
+        {
+          "id": "sp-b1-m05-c1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "C1 · Schreibe einen kurzen Satz zur sichtbaren Bildseite von L in A1 und A2. Trenne ihn von einem nicht beobachteten Bewegungsverlauf und bewerte keine Person. (2 Hauptpunkte)",
+          "sample": "In A1 steht L links, in A2 rechts im Bild der Mittellinie; wie sich die Hand dazwischen tatsächlich bewegte, zeigen die Bilder nicht.",
+          "criteria": [
+            "1 Punkt: sichtbarer Seitenunterschied zwischen A1 und A2 konkret beschrieben.",
+            "1 Punkt: kein unbeobachteter Bewegungspfad oder Person-/Leistungsurteil behauptet."
+          ]
+        },
+        {
+          "id": "sp-b1-m05-c2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "C2 · Formuliere als zweiten Satz eine bedingte Beobachtungsfrage oder mögliche Rückmeldung an eine Sportfachperson für einen echten beaufsichtigten geraden Lauf. Sie soll erst nach weiterer Beobachtung gelten, keine Selbstkorrektur zu Hause anordnen und keine Körperursache behaupten. (4 Hauptpunkte)",
+          "sample": "Könnte die Sportlehrkraft bei mehreren geraden Schritten beobachten, ob die markierte Hand wiederholt die Mittellinie überquert, bevor sie eine passende Rückmeldung gibt?",
+          "criteria": [
+            "1 Punkt: Sportfachperson und echter beaufsichtigter gerader Lauf als Adressat/Situation.",
+            "1 Punkt: wiederholte Mittellinienkreuzung als prüfbares Merkmal.",
+            "1 Punkt: weitere Beobachtung klar vor eine mögliche Korrektur gesetzt.",
+            "1 Punkt: keine Heimübung, Körper-/Gesundheitsursache oder Diagnose aus Modellbildern. Eine reine Frage kann alle Punkte erreichen."
+          ]
+        },
+        {
+          "id": "sp-b1-m05-v1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige neue Textkarte · V1: Vergleiche C1/C2 und D1/D2. Welches Paar deutet auf möglichen Klärungsbedarf? Warum beweist auch das andere Paar keine dauerhaft gleiche Handseite? (2 getrennte Zusatzpunkte)",
+          "sample": "C1/C2 stehen auf verschiedenen Bildseiten und können Anlass für weitere Beobachtung sein. D1/D2 zeigen R beide Male rechts; die Zeit dazwischen und danach ist unbekannt, also keine dauerhafte Aussage.",
+          "criteria": [
+            "1 Zusatzpunkt: C1/C2 als Paar mit möglichem Klärungsbedarf aus verschiedenen Bildseiten erkannt.",
+            "1 Zusatzpunkt: D1/D2 beide rechts, aber kein Beweis für dauerhaft gleiche Seite."
+          ]
+        },
+        {
+          "id": "sp-b1-m05-v2",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige neue Textkarte · V2: Welche eine Frage sollte eine Sportfachperson beim echten geraden Laufen klären, bevor sie eine Korrektur empfiehlt? (2 getrennte Zusatzpunkte)",
+          "sample": "Wandert R bei mehreren geraden Schritten wiederholt über die Mittellinie? Das müsste eine Sportfachperson an einer echten beaufsichtigten Bewegung beobachten.",
+          "criteria": [
+            "1 Zusatzpunkt: wiederholte Mittellinienkreuzung als prüfbare Frage.",
+            "1 Zusatzpunkt: geeignete echte Fachbeobachtung statt Standbildschluss genannt."
+          ]
+        },
+        {
+          "id": "sp-b1-m05-v3",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige neue Textkarte · V3: Formuliere eine bedingte respektvolle mögliche Rückmeldung erst nach bestätigter wiederholter Beobachtung. Nenne dabei die Grenze der zwei Modellbilder. (2 getrennte Zusatzpunkte)",
+          "sample": "Nur wenn eine Sportfachperson bei echten geraden Schritten wiederholt eine seitliche Bewegung über die Mittellinie sieht, könnte sie eine vor- und rückwärtigere Armführung besprechen. Die zwei Bilder allein belegen keine dauerhafte Technik und sind kein Übungsauftrag.",
+          "criteria": [
+            "1 Zusatzpunkt: nur nach bestätigter Wiederholung eine neutrale fachliche Rückmeldung zu möglichst vor-/rückwärtigem statt seitlichem Armpfad erwogen.",
+            "1 Zusatzpunkt: zwei Bilder erlauben keine Dauer-/Personendiagnose oder Übungsanordnung."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "Sportplan Gymnasium 2026, PDF-S. 2 und §2.1/PDF-S. 22: B1 in Klasse 7 verbindlich; Bewegungsabläufe und bewegungsfeldgerechte Techniken beim Laufen, Springen, Werfen/Stossen beobachten und korrigieren. Hier nur schriftliche Sprint-Standbild-Vorbereitung, echte Schulhandlung offen.",
+        "checkedAt": "2026-10-27"
+      }
+    },
+    {
       "id": "sp-b1-m02-transfergrenzen",
       "subjectId": "sp",
       "title": "Was lässt sich aus einer Sportstunde übertragen?",

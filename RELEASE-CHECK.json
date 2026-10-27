@@ -1,7 +1,9 @@
 {
-  "builtAt": "2026-10-27T17:56:35.606Z",
-  "releaseVersion": "2026.10.27-sp-b1-m04.2",
-  "newTopicIds": [],
+  "builtAt": "2026-10-27T18:04:32.936Z",
+  "releaseVersion": "2026.10.27-sp-b1-m05.1",
+  "newTopicIds": [
+    "sp-b1-m05-armpositionen"
+  ],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
     "199 Themen und alle Aufgaben, Lösungen, App-Funktionen und Assets unverändert; keine neue Kinderleistung oder Unterrichtsfolge behauptet.",
@@ -9,9 +11,11 @@
     "200 Themen/921 Aufgabenfelder; die anderen 199 Themen und bisherigen Assets bleiben unverändert. Eine gezielte CSS-Regel verbessert den Erwachsenendruck dieses Falls. Keine echte Redaktionsabsicht, Kinderleistung oder Klasse-7-Unterrichtsfolge behauptet.",
     "Sport B1-M04: Freiwillige schriftliche Klasse-7-Vorbereitung zu Ausdauermethoden anhand erfundener Pläne und einer begrenzten Notiz. Acht Hauptaufgaben (20 Punkte), danach drei getrennte Variantenfragen (6 Punkte).",
     "201 Themen/932 Aufgabenfelder. Die beaufsichtigte Sportpraxis und die tatsächliche Schulaufgabe bleiben ausdrücklich offen; keine Heimübung, Belastungsvorgabe oder persönliche Sportdaten. Die übrigen 200 Themen bleiben unverändert; eine Druckregel hält kurze Erwachsenenlösungen zusammen.",
-    "Sport B1-M04: Zwei kurze Textfelder A2 und B3 im Katalog auf vier Zeilen korrigiert. Die App zeigte bereits vier Zeilen als sicheren Rückfall; Aufgabeninhalt, Punkte, Quellen, Stufen und alle anderen Themen unverändert."
+    "Sport B1-M04: Zwei kurze Textfelder A2 und B3 im Katalog auf vier Zeilen korrigiert. Die App zeigte bereits vier Zeilen als sicheren Rückfall; Aufgabeninhalt, Punkte, Quellen, Stufen und alle anderen Themen unverändert.",
+    "Sport B1-M05: Freiwilliger schriftlicher Modellvergleich von vier erfundenen Sprint-Standbildern mit eigener Grafik und gleichwertiger Textbeschreibung. Sieben Hauptfragen (20 Punkte), danach drei getrennte Variantenfragen (6 Punkte).",
+    "202 Themen/942 Aufgabenfelder. Beobachtung und Korrektur einer echten Bewegung sowie die weiteren Disziplinen bleiben ausschliesslich in beaufsichtigter Schulpraxis offen; keine Heimübung oder persönlichen Sportdaten. Die bisherigen 201 Themen bleiben unverändert."
   ],
-  "rollbackCommit": "28c08cfbbdfe44f9728e70d43c76bc46ddd41942",
+  "rollbackCommit": "7b3b60b435d6e9b16571d4c64a2a36ead0fdd39d",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -213,7 +217,8 @@
     "mu09-pentatonik-tonvorrat",
     "mbi-i2-eigenrecherche-produkt",
     "de-diagramm-absicht-np",
-    "sp-b1-m04-ausdauermethoden"
+    "sp-b1-m04-ausdauermethoden",
+    "sp-b1-m05-armpositionen"
   ],
   "subjects": [
     "en",
@@ -320,5 +325,5 @@
     "et-liebesformen-werkevergleich",
     "mu09-pentatonik-tonvorrat"
   ],
-  "note": "Metadatenkorrektur für den Standard-Build. Schriftliche B1-M04-Vorbereitung; tatsächliche Sportpraxis, externe Fach-/Kinder- und Jahresabnahme offen."
+  "note": "Sport B1-M05: Quellen, Grafik und fiktive Schriftaufgaben im Manuskript unabhängig geprüft. Diese Papierfrage ersetzt weder echte Bewegung noch Sportlehrkrafturteil; App-, Druck- und Onlineabnahme sind vor Upload erforderlich."
 }

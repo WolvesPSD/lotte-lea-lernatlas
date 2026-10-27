@@ -1,6 +1,7 @@
 (() => {
   'use strict';
   const catalog = window.LOTTE_CATALOG;
+  const languageSupport = window.LOTTE_LANGUAGE_SUPPORT || {};
   const lotteKey = 'lotte-progress-v1';
   const legacyLotteKey = 'lotte-lea-local-v1'; // Existing untagged state belonged only to Lotte.
   const params = new URLSearchParams(window.location.search);
@@ -170,6 +171,29 @@
   }
   voiceGuideAudio.addEventListener('ended', () => stopVoiceGuide());
   window.addEventListener('pagehide', () => stopVoiceGuide());
+  function appendAdultLanguageSupport(parent, topic, forPrint = false) {
+    const support = languageSupport[topic.id];
+    if (!support || !['en', 'fr'].includes(topic.subjectId)) return;
+    const translations = support.translations || {};
+    const asText = value => Array.isArray(value) ? value.join('\n') : typeof value === 'string' ? value : '';
+    const parts = [
+      ['Ausgangstext auf Deutsch', translations.initialDe],
+      ['Text nach der ersten Vermutung auf Deutsch', translations.afterPredictionDe],
+      ['Spätere Änderung auf Deutsch', translations.afterMainDe],
+      ['Muster und feste Redeteile auf Deutsch', translations.adultSolutionDe],
+      ['Feste Vorlesestelle auf Deutsch', translations.fixedReadAloudDe]
+    ].map(([heading, value]) => [heading, asText(value)]).filter(([, value]) => value.trim());
+    if (!parts.length) return;
+    const panel = create('section', forPrint ? 'print-language-help' : 'adult-language-help');
+    appendText(panel, 'h3', '', 'Sprachhilfe auf Deutsch');
+    appendText(panel, 'p', 'muted', 'Die deutschen Fassungen sind ergänzt. Weitere anklickbare Aussprachehilfen werden noch geprüft.');
+    appendText(panel, 'p', 'muted', 'Nur für Erwachsene. Spätere Texte und Muster erst nach der eigenen Bearbeitung besprechen.');
+    for (const [heading, value] of parts) {
+      appendText(panel, 'h4', '', heading);
+      appendText(panel, 'p', 'language-translation', value);
+    }
+    parent.append(panel);
+  }
   function show(view) {
     stopVoiceGuide();
     if (activeProfile === 'lea') view = 'lea';
@@ -907,6 +931,7 @@
       appendText(section, 'p', 'eyebrow', subjectById.get(topic.subjectId).name);
       appendText(section, 'h2', '', topic.title);
       appendText(section, 'p', 'level-tag', levelLabel(topic));
+      appendAdultLanguageSupport(section, topic);
       if (topic.diagram) {
         const figure = create('figure', 'learning-diagram');
         const img = create('img'); img.src = topic.diagram.path; img.alt = topic.diagram.alt;
@@ -1018,6 +1043,7 @@
         && state.answers[`${topic.tasks[0].id}-update-gezeigt`] !== 'ja';
       appendText(section, 'h2', '', `${subjectById.get(topic.subjectId).name} · ${topic.title}`);
       appendText(section, 'p', 'print-level', levelLabel(topic));
+      if (mode === 'adult') appendAdultLanguageSupport(section, topic, true);
       if (mbiYearNote(topic)) appendText(section, 'p', 'print-context', mbiYearNote(topic));
       if (topic.prerequisite) appendText(section, 'p', 'print-context', topic.prerequisite);
       appendText(section, 'p', 'print-context', topic.introduction);

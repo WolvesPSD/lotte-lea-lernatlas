@@ -307,6 +307,9 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 .inline-voice-guide{min-height:44px;margin:.15rem 0 .8rem;border:1px solid #8aa9a1;border-radius:.7rem;background:#fffdf9;color:#145651;padding:.55rem .85rem;font:inherit;font-weight:700;cursor:pointer}
 .inline-voice-guide:hover,.inline-voice-guide:focus-visible{background:#e5f2ee}
 .inline-voice-guide[aria-pressed="true"]{background:#145651;color:#fff}
+.adult-language-help{margin:1rem 0;padding:1rem;border:1px solid #c7d9d3;border-radius:.8rem;background:#f2f8f5}
+.adult-language-help h4,.print-language-help h4{margin:.8rem 0 .25rem}
+.language-translation{white-space:pre-line}
 @media print{#voice-help{display:none!important}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id^="mbi-i6-felder-"]{break-inside:avoid}}
 @media print{body[data-print-mode^="adult"] #print-surface .print-topic:has(.print-task[data-task-id="de-szene-spielen-p1"]) .print-practice{break-before:auto}body[data-print-mode^="adult"] .print-task[data-task-id="de-szene-spielen-p3"]{break-inside:avoid}body[data-print-mode^="adult"] .print-task[data-task-id="de-szene-spielen-v"]{break-before:page}}

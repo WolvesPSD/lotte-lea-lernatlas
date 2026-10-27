@@ -1,15 +1,13 @@
 {
-  "builtAt": "2026-10-26T08:22:25.150Z",
-  "releaseVersion": "2026.10.26-maparameter.1",
-  "newTopicIds": [
-    "ma-parametervergleich"
-  ],
+  "builtAt": "2026-10-27T07:33:13Z",
+  "releaseVersion": "2026.10.27-language-de.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Mathematik M11: m und n an vier ganzen Geraden getrennt veraendern, vorhersagen, mit Werten kontrollieren und fuer alle x begruenden.",
-    "Freiwilliger Ende-8-Ausblick. Aufgaben 1–5 zuerst, neuer Transfer erst nach eigener Hauptbearbeitung; Muster und Rubrik im Erwachsenenbereich.",
-    "192 Themen/875 Aufgaben- und Notizfelder; die bisherigen 191 Themenobjekte bleiben erhalten. Keine privaten Quellen oder Lernstaende im Paket."
+    "Deutsche Erwachsenen-Sprachhilfe fuer alle 27 Englisch- und 18 Franzoesischthemen sowie den Erwachsenendruck ergaenzt.",
+    "Die 192 Themen und 875 Aufgaben-/Notizfelder bleiben unveraendert. Kinderweg und Kinderdruck enthalten keine deutsche Sprachhilfe.",
+    "Weitere anklickbare Aussprachehilfen sind separat in Arbeit und werden in diesem Paket nicht als fertig ausgewiesen. Keine privaten Fotos oder Lernstaende im Paket."
   ],
-  "rollbackCommit": "ac23382f791588f9a2b92bc19f0c71ada377eb19",
+  "rollbackCommit": "605d92ef5307cec085a458188436bd6182682f64",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -303,5 +301,5 @@
     "go-bananen-lieferkette",
     "et-liebesformen-werkevergleich"
   ],
-  "note": "Struktur, lokaler PDF-Hash und Lösungsfelder geprüft. Fach-, Geräte-, Datenschutz- und Veröffentlichungsfreigabe getrennt dokumentieren."
+  "note": "Uebersetzungen nur fuer Erwachsene; Audio-Nachruestung folgt nach Ton-/Phasenpruefung. Katalogobjekte, Aufgaben und Assets aus 2026.10.26-maparameter.1 unveraendert."
 }

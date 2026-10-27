@@ -1,15 +1,15 @@
 {
-  "builtAt": "2026-10-26T07:29:00.911Z",
-  "releaseVersion": "2026.10.26-mbii3clip.1",
+  "builtAt": "2026-10-26T08:22:25.150Z",
+  "releaseVersion": "2026.10.26-maparameter.1",
   "newTopicIds": [
-    "mbi-influencer-post-pruefen"
+    "ma-parametervergleich"
   ],
   "changeLog": [
-    "Medienbildung und Informatik I3: fiktiven Lernclip auf Meinungswirkung, Gegenleistung, unbelegte Behauptung und offene Bild-/Musikrechte pruefen.",
-    "Freiwilliger Ende-8-Ausblick. A–E zuerst, zweite Fassung F erst nach eigener Hauptbearbeitung; Sachloesungen getrennt im Erwachsenenbereich. Kein Konto, Bild, Musik oder echter Upload.",
-    "191 Themen/869 Aufgaben- und Notizfelder; die bisherigen 190 Themenobjekte bleiben erhalten. Keine privaten Quellen oder Lernstaende im Paket."
+    "Mathematik M11: m und n an vier ganzen Geraden getrennt veraendern, vorhersagen, mit Werten kontrollieren und fuer alle x begruenden.",
+    "Freiwilliger Ende-8-Ausblick. Aufgaben 1–5 zuerst, neuer Transfer erst nach eigener Hauptbearbeitung; Muster und Rubrik im Erwachsenenbereich.",
+    "192 Themen/875 Aufgaben- und Notizfelder; die bisherigen 191 Themenobjekte bleiben erhalten. Keine privaten Quellen oder Lernstaende im Paket."
   ],
-  "rollbackCommit": "315c04ab25cb8e5a645e46ab85f413ab0f55bfa2",
+  "rollbackCommit": "ac23382f791588f9a2b92bc19f0c71ada377eb19",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -201,7 +201,8 @@
     "sp-b1-m02-transfergrenzen",
     "sp-b1-m06-zielregel",
     "sp-b3-s10-geraetebahn-rueckblick",
-    "mbi-influencer-post-pruefen"
+    "mbi-influencer-post-pruefen",
+    "ma-parametervergleich"
   ],
   "subjects": [
     "en",
@@ -281,7 +282,8 @@
     "fr-questionnaire-atelier-cartes",
     "mbi-i1-datumswerte-sortieren",
     "mbi-i6-anwendungsfelder",
-    "mbi-influencer-post-pruefen"
+    "mbi-influencer-post-pruefen",
+    "ma-parametervergleich"
   ],
   "unclearValidityTopics": [
     "et-algebra-kulturtransfer",

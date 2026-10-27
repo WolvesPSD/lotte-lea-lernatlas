@@ -4189,6 +4189,124 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-parametervergleich",
+      "subjectId": "ma",
+      "title": "Was verändern m und n an einer Geraden?",
+      "scope": "Freiwilliger Ausblick auf das Ende-Klasse-8-Ziel M11. Der gültige Mathematikplan beginnt für Klasse 7 im Schuljahr 2026/27, doch dieser Parametervergleich ist keine bestätigte aktuelle Unterrichtseinheit.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Hilfreich sind Koordinaten, einfache Gleichungen und y=m·x+n. Rechne zuerst selbst. Ein digitales Graphwerkzeug darf danach zur Sichtkontrolle dienen; notiere eine verwendete Hilfe. Die App benotet freie Antworten nicht automatisch.",
+      "introduction": "Alle vier Funktionen gelten für jede reelle Zahl x; ihre Graphen sind ganze Geraden: f(x)=2x+1, g(x)=−x+1, h(x)=2x−2 und k(x)=1. Vergleiche zuerst die Parameter und sage die Änderungen voraus, bevor du die kleine Wertetabelle berechnest. Drei Tabellenstellen sind eine Kontrolle, kein allgemeiner Beweis. Die freiwillige neue Gerade p folgt erst nach den fünf Hauptaufgaben.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "1–5",
+        "mainTaskCount": 5,
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "1–5 festhalten und freiwilligen Transfer zeigen",
+        "text": "FREIWILLIGER TRANSFER NACH 1–5 · Die folgenden 6 Zusatzpunkte werden getrennt von den 20 Hauptpunkten gezählt."
+      },
+      "tasks": [
+        {
+          "id": "ma-parameter-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "Parameter erkennen (4 Punkte): Schreibe für f, g, h und k jeweils m und n auf. Bringe k zuerst selbst in die Form m·x+n.",
+          "sample": "f: m=2,n=1; g: m=−1,n=1; h: m=2,n=−2; k(x)=0·x+1, also m=0,n=1.",
+          "criteria": [
+            "Je 1 Punkt für ein vollständig richtiges Parameterpaar bei f, g, h und k (4); bei k gehört m=0 dazu."
+          ]
+        },
+        {
+          "id": "ma-parameter-2",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Zuerst vorhersagen (6 Punkte): Vergleiche f mit g: Welcher Parameter bleibt gleich, welcher ändert sich? Sage y-Achsenschnitt und Wachsen/Fallen voraus. Vergleiche f mit h: Welcher Parameter bleibt gleich, um wie viel sinkt der andere? Sage die Lage der ganzen Graphen und die Änderung jedes y-Werts voraus. Schreibe dies vor der Wertetabelle auf. Zusatz ohne Punkte: Was bedeutet m=0 für k?",
+          "sample": "f→g: n=1 bleibt, daher gleicher y-Schnitt (0|1); m wechselt von 2 zu −1, daher wachsend zu fallend. f→h: m=2 bleibt; n sinkt von 1 auf −2 um 3. Die verschiedenen ganzen Geraden sind parallel und h(x)=f(x)−3 für jedes x. k ist bei m=0 konstant.",
+          "criteria": [
+            "1 Punkt: f/g haben n=1 und denselben y-Schnitt (0|1).",
+            "1 Punkt: m=2→−1 und damit wachsend→fallend.",
+            "1 Punkt: f/h haben dasselbe m=2.",
+            "1 Punkt: n sinkt von 1 auf −2 um 3.",
+            "1 Punkt: ganze f/h-Graphen verschieden parallel.",
+            "1 Punkt: h(x)=f(x)−3 für jedes x; ein Tabellenbeispiel allein genügt nicht. Unbepunktet: k ist horizontal."
+          ]
+        },
+        {
+          "id": "ma-parameter-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Mit Werten kontrollieren (4 Punkte): Berechne für f, g, h und k jeweils die Werte bei x=−1, x=0 und x=1. Ordne sie als vier Zeilen mit je drei Werten. Markiere für dich eine Stelle, die deine Vorhersage stützt. Eine optionale digitale Graphsicht dient nur zur Kontrolle; notiere dann Werkzeug und Beobachtung.",
+          "sample": "x=−1,0,1: f: −1,1,3; g: 2,1,0; h: −4,−2,0; k: 1,1,1. Beispielsweise f(0)=g(0)=1 und h(−1)=f(−1)−3. Markierung und digitale Graphsicht sind unbepunktet.",
+          "criteria": [
+            "Je 1 Punkt für eine vollständig selbst berechnete richtige Wertezeile für f, g, h und k (4). Markierung und optionale Graphsicht sind unbepunktet."
+          ]
+        },
+        {
+          "id": "ma-parameter-4",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "Achsenschnitte prüfen (4 Punkte): Bestimme für jede der vier ganzen Geraden, ob und wo sie die x-Achse schneidet. Zeige für f, g und h den Ansatz y=0. Begründe bei k ohne Raten.",
+          "sample": "f: 0=2x+1 ⇒ x=−1/2, also (−1/2|0). g: 0=−x+1 ⇒ (1|0). h: 0=2x−2 ⇒ (1|0). k(x)=1 ist nie 0, also kein x-Achsenschnitt. g/h haben denselben x-Schnitt, sind aber nicht identisch.",
+          "criteria": [
+            "f: ½ Punkt für korrektes 0=2x+1 und ½ für (−1/2|0).",
+            "g: ½ Punkt für korrektes 0=−x+1 und ½ für (1|0).",
+            "h: ½ Punkt für korrektes 0=2x−2 und ½ für (1|0).",
+            "1 Punkt: k(x)=1 ist nie 0, deshalb kein x-Schnitt. Gleichwertiger richtiger Rechenweg zählt."
+          ]
+        },
+        {
+          "id": "ma-parameter-5",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "Aussagen beurteilen (2 Punkte): A: „Gleiches n bedeutet parallele Geraden.“ B: „Wenn bei gleichem m der Wert n um 3 sinkt, sinkt jeder Funktionswert um 3.“ Entscheide mit den Vorschriften oder einer allgemeinen Rechnung. Eine Zeichnung oder nur drei Tabellenwerte reichen nicht als Begründung.",
+          "sample": "A ist falsch: f und g haben n=1, aber m=2 bzw. −1; sie schneiden sich bei (0|1). B ist richtig: (mx+n−3)−(mx+n)=−3 für jedes x; hier h(x)−f(x)=−3.",
+          "criteria": [
+            "1 Punkt: A mit f/g als Gegenbeispiel und unterschiedlichen Steigungen widerlegt.",
+            "1 Punkt: B für beliebiges x algebraisch oder über h(x)=f(x)−3 begründet, nicht nur mit Tabellenwerten."
+          ]
+        },
+        {
+          "id": "ma-parameter-6",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer nach 1–5 (6 getrennte Zusatzpunkte): Die neue ganze Gerade p geht durch (0|−2) und (1|1). Bestimme p(x)=m·x+n. Vergleiche p mit h: Welcher Parameter ist gleich? Parallel, identisch oder Schnitt? Berechne und prüfe ihren Schnittpunkt. Welche Gerade steigt bei x→x+1 stärker?",
+          "sample": "Aus (0|−2) folgt n_p=−2, und m_p=(1−(−2))/(1−0)=3; also p(x)=3x−2. p/h haben n=−2, aber m=3 bzw. 2, daher Schnitt bei x=0, nicht parallel oder identisch. 3x−2=2x−2 ergibt (0|−2), Probe p(0)=h(0)=−2. Bei einem x-Schritt steigt p um 3 und h um 2.",
+          "criteria": [
+            "1 Zusatzpunkt: m_p=3 aus den zwei Punkten.",
+            "1 Zusatzpunkt: p(x)=3x−2 mit n_p=−2.",
+            "1 Zusatzpunkt: gleicher n-Wert, verschiedene m-Werte; p/h schneiden, sind nicht parallel/identisch.",
+            "1 Zusatzpunkt: Gleichsetzen ergibt Schnitt (0|−2).",
+            "1 Zusatzpunkt: Probe p(0)=h(0)=−2.",
+            "1 Zusatzpunkt: p steigt je x-Schritt um 3, h um 2; p stärker."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. §2.2.11 PDF-S. 31 unter der Zielmarke Klassenstufe 8: Einfluss von m und n in x ↦ m·x+n auf lineare Funktionen erläutern.",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
       "id": "ma-lineare-funktionen",
       "subjectId": "ma",
       "title": "Zwei Tarife als lineare Funktionen",

@@ -1,8 +1,8 @@
 {
-  "builtAt": "2026-10-27T08:58:51.536Z",
-  "releaseVersion": "2026.10.27-mbi-o01.1",
+  "builtAt": "2026-10-27T09:15:42.044Z",
+  "releaseVersion": "2026.10.27-de-belegkarte.1",
   "newTopicIds": [
-    "mbi-i6-o01-access"
+    "de-belegkarte-m20m22"
   ],
   "changeLog": [
     "Deutsche Erwachsenen-Sprachhilfe fuer alle 27 Englisch- und 18 Franzoesischthemen sowie den Erwachsenendruck ergaenzt.",
@@ -12,9 +12,11 @@
     "MBI I6-SS01: freiwilliger Ende-8-Teilfall zum fiktiven kindgerichteten Datenhinweis, mit zwei Quellenkarten, vier Hauptaufgaben (20 Punkte), real nur beobachtbarer Zweierdiskussion und späterem Transfer (6 getrennte Punkte).",
     "193 Themen und 881 Aufgaben-/Notizfelder; die bisherigen 192 Themen bleiben unveraendert. Keine privaten Quellen, Konten oder Lernstaende im Paket.",
     "MBI I6-O01: freiwilliger PC-/Access-Ende-8-Teilfall mit fiktiven Daten. A/D 8 schriftliche Punkte; B/C 12 Praxispunkte nur nach direkter Beobachtung; Transfer 6 getrennte schriftliche Punkte. Browsernotizen sind kein Access-Nachweis.",
-    "194 Themen und 886 Aufgaben-/Notizfelder; die bisherigen 193 Themen bleiben unveraendert. Kein vorgefertigtes Access-Projekt, keine privaten Daten oder Lernstaende im Paket."
+    "194 Themen und 886 Aufgaben-/Notizfelder; die bisherigen 193 Themen bleiben unveraendert. Kein vorgefertigtes Access-Projekt, keine privaten Daten oder Lernstaende im Paket.",
+    "Deutsch D-L6 M20/M22: freiwillige Belegkarte zum vorhandenen fiktiven 16-Zeilen-Text. Vier Felder, zwei begrenzte Beziehungen, reflektierte Wahl von Papier/lokalem Textdokument/lokaler Folie, lineare Textfassung und spätere Zettel-Variante. 20 Haupt- und 6 getrennte Transferpunkte.",
+    "195 Themen und 890 Aufgaben-/Notizfelder; 194 vorherige Themen bleiben unveraendert. Leere A4-PDF-Vorlage als optionaler Download, keine privaten Daten oder Lernstaende."
   ],
-  "rollbackCommit": "62fcd1bc85969807dd7381c7a0ff6df52bead8f6",
+  "rollbackCommit": "644352c34ebc4b5fd06c7f5a7af30bb153a71ef8",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -209,7 +211,8 @@
     "mbi-influencer-post-pruefen",
     "ma-parametervergleich",
     "mbi-i6-ss01-transparenz",
-    "mbi-i6-o01-access"
+    "mbi-i6-o01-access",
+    "de-belegkarte-m20m22"
   ],
   "subjects": [
     "en",
@@ -312,5 +315,5 @@
     "go-bananen-lieferkette",
     "et-liebesformen-werkevergleich"
   ],
-  "note": "I6-O01 ist ein freiwilliger Ende-8-Teilfall. Echter Access-/Kinderlauf bleibt offen. Fehlende Programmbedienung als nicht erhoben ausweisen, nicht als 0 oder fertig. Keine Schuleinheit Klasse 7 oder Jahresabdeckung belegt."
+  "note": "D-L6 M20/M22 ist ein freiwilliger 7/8-Teilweg. Browsernotizen belegen weder eine echte Belegkarte noch die Nutzung eines Darstellungsmediums. Papier ist gleichberechtigt; digitale Bedienung nur bei Beobachtung. Kein Ganzschrift- oder Jahresnachweis."
 }

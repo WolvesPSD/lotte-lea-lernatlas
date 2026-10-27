@@ -20003,6 +20003,133 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "Thüringer MBI-Erprobungsfassung 2026, §2.2.6/PDF-S.27–28, I6-O01: Datenmodelle und Beziehungen in einem DBMS implementieren. Freiwilliger Ende-8-Teilfall; keine bestätigte Klasse-7-Unterrichtsfolge und noch kein Kinder-/Access-Lauf.",
         "checkedAt": "2026-10-27"
       }
+    },
+    {
+      "id": "de-belegkarte-m20m22",
+      "subjectId": "de",
+      "title": "Aus einem Lesetext wird eine Belegkarte",
+      "scope": "Freiwilliger 7/8-Leseweg: ein eigenes Leseergebnis mit vier Feldern und zwei begrenzten Beziehungen sichtbar machen, das Darstellungsmedium wählen und die Wahl reflektieren. Die tatsächliche Karte und Nutzung werden ausserhalb der Browsernotizen geprüft.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Du brauchst den fiktiven 16-Zeilen-Text auf dieser Seite und Papier oder ein bereits vorhandenes lokales Text- oder Folienprogramm. Kein Konto und keine Daten deiner echten Schule. Eine leere A4-Vorlage ist freiwillig; eine eigene Form ist genauso richtig.",
+      "introduction": "Lies Z1–Z16 und fertige wirklich eine sichtbare Belegkarte an: vier Felder, zwei beschriftete Verbindungen und eine Textfassung. Du darfst Papier, ein lokales Dokument oder eine lokale Folie wählen. A–C ergeben höchstens 20 Kriterienpunkte, die erst am echten Produkt und seiner Begründung geprüft werden können. Eine Eingabe hier ist nur eine Notiz und belegt weder Zeichnen noch Programmbedienung. Nach A–C erscheint eine erfundene spätere Änderung mit 6 getrennten Punkten. Die App bewertet offene Antworten nicht automatisch.",
+      "practiceBeforeLastTask": true,
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C und erste Belegkarte",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "Notizen festhalten und Änderung zeigen",
+        "text": "SPÄTERE ERFUNDENE ÄNDERUNG · Erst nach deiner ersten Belegkarte: Nach vier Wochen liegen insgesamt 40 Zettel vor. Davon loben 24 das gemeinsame Besprechen, 10 wünschen sich mehr ruhige Plätze, 6 schlagen eine andere Tischordnung vor. Die Gruppe hat weiterhin nicht gezählt, wie viele verschiedene Personen den Tisch genutzt haben oder wie viele freie ruhige Plätze es in den beiden Pausen gab. Diese Karte ist eine neue fiktive Information, keine Stelle Z1–Z16."
+      },
+      "tasks": [
+        {
+          "id": "de-belegkarte-m20m22-a",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 8,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Vier Belegfelder (8 Punkte): Erstelle auf deinem gewählten Medium eine eigene Belegkarte mit vier erkennbaren Feldern: Zweck und Zeitraum; Regeln für beide Pausen; erste Rückmeldungen; eine konkrete Lücke für eine Dauerentscheidung. Beim Rückmeldungsfeld gehören die Gesamtzahl und alle drei Arten mit ihren Zahlen aus Z9 und Z10 dazu. Zettel sind nicht automatisch Personen. Gib auch für die anderen unterschiedlichen Teilaussagen passende Z-Zeilen an. Notiere hier nur deine Feldtexte und Belege; die echte Karte ist ein getrenntes Produkt.",
+          "sample": "1 Zweck: vier Wochen prüfen, ob stilles Lesen und leises Besprechen am selben Tisch möglich sind (Z4/Z8). 2 Regeln: erste Pause still lesen, zweite Pause leise über Texte sprechen, ohne andere Plätze zu stören (Z5/Z6). 3 Nach Woche eins 18 Zettel: 11 loben das gemeinsame Besprechen, 5 wünschen mehr Ruhe, 2 andere Tischordnung (Z9/Z10); Zettel sind nicht alle Personen. 4 Offen: tatsächliche Nutzung und freie ruhige Plätze sind noch nicht beobachtet (Z11/Z16). Andere texttreue Anordnungen sind gleichwertig.",
+          "criteria": [
+            "Je Feld 1 Punkt für den verlangten vollständigen Inhalt und 1 für passende Z-Belege zu allen unterschiedlichen Teilaussagen.",
+            "Für Rückmeldungen gilt 18 = 11 + 5 + 2 mit Bezugsgruppe Zettel; Z9 und Z10 gehören beide dazu.",
+            "Eine Zeilennummer ohne passende Aussage ist kein Quellenbeleg. Zeichnung/Medium durch die Browsernotiz nicht nachgewiesen."
+          ]
+        },
+        {
+          "id": "de-belegkarte-m20m22-b",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 7,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "B · Zwei Beziehungen (6 Punkte): Verbinde Felder auf deiner echten Karte mit zwei beschrifteten Linien oder Pfeilen. Erkläre erstens, was die elf lobenden Zettel für eine Dauerentscheidung stützen und was sie nicht beweisen. Erkläre zweitens, was die Pausenregel bezweckt und warum ihre Wirkung auf ruhige Plätze noch offen ist. Schreibe an jeden Pfeil mindestens eine Z-Stelle für den gestützten Zusammenhang und eine andere passende Z-Stelle für seine Grenze. Notiere hier die Pfeiltexte als lineare Textalternative.",
+          "sample": "Pfeil 1: Elf lobende Zettel nach Woche eins sind ein Hinweis auf geschätzte Gespräche (Z9), aber keine Schulmehrheit oder sichere Dauerentscheidung; tatsächliche Nutzendenzahl und Nichtantwortende fehlen (Z11–Z12/Z14). Pfeil 2: Die Regel trennt stilles Lesen und leises Gespräch nach Pausen (Z5–Z6), beweist aber nicht, dass genügend ruhige Plätze frei bleiben; das soll erst beobachtet werden (Z16).",
+          "criteria": [
+            "Je Pfeil 1 Punkt für den richtigen Zusammenhang, 1 für die Aussagegrenze und 1 für Belege zu beiden Seiten.",
+            "Ein unbeschrifteter Pfeil oder eine unbelegte Mehrheits-/Wirkungsbehauptung erfüllt den Beziehungsauftrag nicht."
+          ]
+        },
+        {
+          "id": "de-belegkarte-m20m22-c",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C · Mittelwahl, echte Karte und Textfassung (6 Punkte): Wähle Papier, ein lokales Textdokument oder eine lokale Folie und erstelle die Karte dort wirklich. Warum passt dein Mittel zu vier Feldern und zwei Beziehungen, und welche konkrete Grenze hat es? Schreibe darunter eine kurze lineare Textfassung, die alle vier Inhalte und beide begrenzten Beziehungen auch ohne Pfeilbild verständlich macht. Notiere hier Mittel, Begründung und Textfassung; nur die wirkliche Karte belegt die Nutzung.",
+          "sample": "Beispiel Papier: Vier Felder sind nebeneinander schnell sichtbar; beim Vorlesen braucht es zusätzlich eine geordnete Textfassung. Beispiel einer solchen Fassung: Die Gruppe prüft vier Wochen lang Lesen und leises Gespräch am selben Tisch (Z4/Z8). Die erste Pause ist still, die zweite erlaubt Gespräche ohne Störung (Z5/Z6). Nach Woche eins gibt es 18 Zettel, davon 11 Lob, 5 Ruhewünsche und 2 andere Tischordnungen (Z9/Z10). Das ist ein Hinweis, aber keine Mehrheit aller Personen und kein Dauerbeschluss (Z11–Z14). Die Regel beweist auch noch keine freien ruhigen Plätze; das soll beobachtet werden (Z16). Eine lokale Folie oder ein Dokument kann gleichwertig sein.",
+          "criteria": [
+            "2 Punkte nur, wenn die Karte im selbst gewählten Mittel tatsächlich erstellt und als vier Felder mit zwei beschrifteten Beziehungen lesbar ist; reine Browsernotiz genügt nicht.",
+            "2 Punkte für aufgabenbezogenen Vorteil sowie konkrete Grenze oder Anpassung des Mittels. Papier ist gleichberechtigt.",
+            "2 Punkte für eine lineare Textfassung mit vier Kernaussagen und beiden begrenzten Beziehungen. Keine zweite Inhaltsstrafe für denselben A-/B-Fehler."
+          ]
+        },
+        {
+          "id": "de-belegkarte-m20m22-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "V · Zweite Fassung (6 getrennte Zusatzpunkte): Aktualisiere deine echte Karte nach der neuen fiktiven Vierwocheninformation. Kennzeichne 40 = 24 + 10 + 6 als Zettel, nicht als Personen. Passe einen Pfeil zur möglichen Dauerentscheidung an: Was ist stärker gestützt, was weiterhin unbewiesen? Trenne Originaltext Z1–Z16 und spätere Änderung ausdrücklich. Welche Beobachtung freier ruhiger Plätze fehlt noch? Notiere hier deine Änderungen, aber prüfe die wirklich geänderte Karte separat.",
+          "sample": "Nach vier Wochen liegen insgesamt 40 Zettel vor: 24 loben das Besprechen, 10 wünschen mehr Ruhe, 6 andere Tischordnung. Gegenüber Woche eins gibt es 13 weitere lobende Zettel; das ist ein weiterer Hinweis, aber weder eine Schulmehrheit noch eine gemessene Wirkung auf Ruheplätze. Der Stand 40/24/10/6 kommt aus der späteren fiktiven Änderung, nicht aus Z1–Z16. Beobachtung, ob in beiden Pausen genügend ruhige Plätze frei bleiben, fehlt weiterhin.",
+          "criteria": [
+            "2 Punkte für die richtige Vierwochen-Zettelzahl 40 = 24 + 10 + 6 samt Zeit und Bezugsgruppe.",
+            "2 Punkte für einen geänderten Pfeil mit neuem Hinweis und weiter offener Dauerentscheidung; 24−11=13 zusätzliche Lobzettel, aber keine belegte gestiegene Quote oder anhaltendes Interesse.",
+            "2 Punkte für Quellenabgrenzung Original/Variante und ausdrücklich fehlende Ruheplatzbeobachtung."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Belegkarte wirklich erstellen · leere A4-Vorlage",
+        "unscored": true,
+        "childNote": "Die A4-Vorlage ist freiwillig und enthält keine Lösung. Du kannst sie drucken oder vier eigene Kästen zeichnen. Erstelle eine Karte auf Papier, in einem lokalen Dokument oder auf einer lokalen Folie; speichere nichts in einer Cloud und nutze keine echten Schulangaben. Ergänze eine lineare Textfassung unter deiner Karte.",
+        "childSteps": [
+          "Vier eigene Felder für Zweck/Zeitraum, Pausenregeln, erste Rückmeldungen und eine offene Frage anlegen.",
+          "Zwei beschriftete Verbindungen mit Textbelegen und Aussagegrenzen sichtbar machen.",
+          "Das gewählte Medium wirklich benutzen und in zwei bis drei Sätzen Vorteil sowie Grenze erklären.",
+          "Textfassung schreiben, sodass vier Inhalte und beide Beziehungen ohne Pfeile verständlich sind.",
+          "Erst nach Abgabe der ersten Karte die neue fiktive Vierwocheninformation für eine zweite Fassung ansehen."
+        ],
+        "childHandoutsNote": "Freiwillige leere A4-Vorlage ohne Lösung; eine eigene Kartenform ist genauso möglich. Das PDF ist nicht als Screenreader-geeignet geprüft.",
+        "childHandoutsPrintNote": "Die leere A4-Vorlage ist freiwillig und enthält keine Lösung. Sie liegt im Lernatlas unter",
+        "childHandouts": [
+          {
+            "label": "Leere Belegkartenvorlage als PDF öffnen oder herunterladen",
+            "path": "assets/de-belegkartenvorlage.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-belegkartenvorlage.pdf"
+          }
+        ],
+        "adultNote": "Der Beobachtungsbogen vergibt keine zweiten Punkte. Die 20 Hauptpunkte stehen in A–C; tatsächliches Produkt und Mittelwahl sind für C direkt am Ergebnis oder bei der Arbeit zu prüfen. Eine Browsernotiz beweist keine Karte und ein Papierprodukt keine digitale Bedienung.",
+        "adultGuide": [
+          "Vier Felder, zwei Beziehungen, Mittelwahl/-nutzung und Textfassung anhand der getrennten Rubrik prüfen.",
+          "Papier ist fachlich gleichwertig; digitale Bedienung nur behaupten, wenn sie gesehen wurde.",
+          "Wenn nur eine Textnotiz vorliegt, Produkt/Nutzung als nicht erhoben markieren und keine volle C-Wertung vergeben."
+        ],
+        "adultCriteria": [
+          "Gewähltes Mittel: Papier, lokales Textdokument oder lokale Folie; selbst gewählt oder vorgegeben?",
+          "Echte Karte mit vier Feldern und zwei beschrifteten Beziehungen vorhanden und lesbar?",
+          "Aufgabenbezogener Vorteil, Grenze/Anpassung und lineare Textfassung sichtbar?",
+          "Falls digital: tatsächliche Bedienhandlung beobachtet? Papier belegt keine digitale Bedienung."
+        ],
+        "printAdultNote": "Nur tatsächlich vorhandenes Produkt und beobachtete Mittelwahl/-nutzung vermerken. Dieser Bogen vergibt keine zusätzlichen Punkte; A–C nach der getrennten Rubrik bewerten.",
+        "handouts": [
+          {
+            "label": "Leere Belegkartenvorlage als PDF",
+            "path": "assets/de-belegkartenvorlage.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-belegkartenvorlage.pdf"
+          }
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "7/8",
+        "competencyRef": "Thüringer Deutsch-Erprobungsfassung Gymnasium 2026, §2.2.2/PDF-S.27, Methoden M20 (Textinhalte und -strukturen visualisieren) und M22 (Medien/digitale Werkzeuge für Leseergebnispräsentation auswählen und reflektiert nutzen), Zielhorizont Ende Klasse 8. Freiwilliger Einstieg in Klasse 7, keine bestätigte aktuelle Schuleinheit.",
+        "checkedAt": "2026-10-27"
+      },
+      "passage": "Ein Tisch für zwei Arten von Pause\n\nAm Anfang\nZ1 Seit einigen Wochen steht in der Bibliothek der erfundenen Sonnenfeldschule ein großer Tisch am Fenster.\nZ2 Früher lagen dort Bücherstapel, und zwischen ihnen konnte jeweils nur eine Person sitzen.\nZ3 Nun bietet der Tisch acht Plätze. Darüber hängt ein Schild: „Lese- und Austauschtisch – Probephase“.\nZ4 Die Bibliotheksgruppe möchte herausfinden, ob Lesen und leises Besprechen am selben Ort möglich sind.\n\nSo läuft der Versuch\nZ5 Dienstags und donnerstags ist der Tisch in der ersten Mittagspause für stilles Lesen vorgesehen.\nZ6 An diesen beiden Tagen dürfen Gruppen dort in der zweiten Mittagspause über gelesene Texte sprechen, solange sie andere Plätze nicht stören.\nZ7 Eine Reservierung ist nicht nötig. Wer keinen Platz findet, kann auf die freien Einzelsitze im hinteren Raum ausweichen.\nZ8 Bis zum Ende des vierwöchigen Versuchs liegen Zettel für freiwillige Rückmeldungen an der Ausleihe.\n\nWas die ersten Rückmeldungen zeigen\nZ9 Nach der ersten Woche sind 18 Zettel abgegeben worden. Elf loben, dass man ein Buch gemeinsam besprechen kann.\nZ10 Fünf wünschen sich noch mehr ruhige Plätze. Zwei enthalten nur Vorschläge für eine andere Tischordnung.\nZ11 Die Zettel sagen nichts darüber, wie viele Schülerinnen und Schüler den Tisch tatsächlich genutzt haben.\nZ12 Auch wer keinen Zettel abgegeben hat, kann den Versuch gut oder schlecht finden; dazu fehlen Angaben.\n\nZwei Lesarten\nZ13 Die Schülersprecherin sagt: „Elf positive Zettel zeigen, dass wir den Tisch sofort dauerhaft brauchen.“\nZ14 Der Bibliothekar antwortet: „Elf Stimmen sind ein Hinweis. Für einen Beschluss sollten wir die vier Wochen abwarten.“\nZ15 Beide wollen die Rückmeldungen lesen; sie unterscheiden sich darin, wie weit die ersten Zahlen schon tragen.\nZ16 Am Ende der Probephase soll die Gruppe auch beobachten, ob in den beiden Pausen genügend ruhige Plätze frei bleiben."
     }
   ]
 });

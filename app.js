@@ -891,7 +891,7 @@
       }
     }
     if (!adult && practice.childHandouts) {
-      appendText(section, 'p', 'muted', 'Freiwillige Zusatzkarten enthalten keine Lösungen. Eine Sprechleistung zählt nur, wenn sie wirklich gehört wurde.');
+      appendText(section, 'p', 'muted', practice.childHandoutsNote || 'Freiwillige Zusatzkarten enthalten keine Lösungen. Eine Sprechleistung zählt nur, wenn sie wirklich gehört wurde.');
       for (const handout of practice.childHandouts) {
         const link = create('a', 'lab-open');
         link.href = handout.path;
@@ -1206,7 +1206,7 @@
           for (let line = 0; line < topic.practice.childWritingLines; line++) lines.append(create('div', 'writing-line'));
           practiceSection.append(lines);
         }
-        if (mode === 'child') for (const handout of topic.practice.childHandouts || []) appendText(practiceSection, 'p', 'print-context', `Freiwillige Zusatzkarte separat im Lernatlas öffnen und drucken: ${handout.publicUrl}. Ohne echte Sprech- und Feedbackrunde ist sie nur eine Anleitung.`);
+        if (mode === 'child') for (const handout of topic.practice.childHandouts || []) appendText(practiceSection, 'p', 'print-context', topic.practice.childHandoutsPrintNote ? `${topic.practice.childHandoutsPrintNote} ${handout.publicUrl || handout.path}.` : `Freiwillige Zusatzkarte separat im Lernatlas öffnen und drucken: ${handout.publicUrl || handout.path}. Ohne echte Sprech- und Feedbackrunde ist sie nur eine Anleitung.`);
         if (mode === 'adult') {
           for (const handout of topic.practice.handouts || []) appendText(practiceSection, 'p', 'print-context', `${handout.label}: ${handout.publicUrl}. Nur zur passenden Phase und ohne Erwachsenenlösung ausgeben.`);
           if (topic.practice.observationKind === 'private-reflection') {

@@ -353,3 +353,5 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="de-belegkarte-m20m22-a"]{break-inside:avoid;page-break-inside:avoid}}
 
 .language-audio-control{margin:.5rem 0}
+
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="de-kommentar-s20-funktion"]{break-inside:avoid;page-break-inside:avoid}}

@@ -1,9 +1,7 @@
 {
-  "builtAt": "2026-10-27T09:36:59.025Z",
-  "releaseVersion": "2026.10.27-ma-m2-kopfrechnen.1",
-  "newTopicIds": [
-    "ma-m2-kopfrechnen"
-  ],
+  "builtAt": "2026-10-27T09:46:46.395Z",
+  "releaseVersion": "2026.10.27-de-s20-formen.1",
+  "newTopicIds": [],
   "changeLog": [
     "Deutsche Erwachsenen-Sprachhilfe fuer alle 27 Englisch- und 18 Franzoesischthemen sowie den Erwachsenendruck ergaenzt.",
     "Die 192 Themen und 875 Aufgaben-/Notizfelder bleiben unveraendert. Kinderweg und Kinderdruck enthalten keine deutsche Sprachhilfe.",
@@ -17,9 +15,11 @@
     "195 Themen und 890 Aufgaben-/Notizfelder; 194 vorherige Themen bleiben unveraendert. Leere A4-PDF-Vorlage als optionaler Download, keine privaten Daten oder Lernstaende.",
     "Französisch: Ein lokal geprüfter 7,590-Sekunden-Kontextclip zu fr-attend-kontextpruefen. Kinderknopf erscheint erst nach der festgehaltenen Anfangsvermutung; derselbe Knopf stoppt den Ton. 195 Themen/890 Aufgabenfelder unverändert.",
     "Mathematik M2: freiwilliger Ende-8-Kopfrechenweg mit rationalen Zahlen und allen vier Grundoperationen, 20 Haupt- und 6 getrennte Transferpunkte. Ein Selbstbericht belegt keine Hilfsmittelfreiheit.",
-    "196 Themen und 896 Aufgaben-/Notizfelder; 195 frühere Themen bleiben unveraendert. Keine privaten Daten oder Lernstaende."
+    "196 Themen und 896 Aufgaben-/Notizfelder; 195 frühere Themen bleiben unveraendert. Keine privaten Daten oder Lernstaende.",
+    "Deutsch S20: Im vorhandenen D-L4-Kommentar kommt nach sechs Hauptantworten eine redaktionelle Tabelle der drei berichteten Besuchswerte hinzu, mit vier freiwilligen Form-/Funktionsfragen und 10 getrennten Zusatzpunkten. Die frühere Überschriftenvariante bleibt erhalten.",
+    "196 Themen und 900 Aufgaben-/Notizfelder; keine neue Themen-ID und alle anderen 195 Themen unveraendert. Eigene SVG-Tabelle, keine privaten Daten oder Lernstaende."
   ],
-  "rollbackCommit": "554b3a6c749e3b9731b74a525bd5abecbf1c5bed",
+  "rollbackCommit": "6cf2b8b09637fe2a982c6488ce7277eaca427321",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -320,5 +320,5 @@
     "go-bananen-lieferkette",
     "et-liebesformen-werkevergleich"
   ],
-  "note": "M2-Kopfrechnen ist ein freiwilliger Ende-8-Ausblick, nicht bestätigter Klasse-7-Stoff. Browserwege und Selbstberichte belegen keine tatsächliche Kopfrechenleistung oder Hilfsmittelfreiheit."
+  "note": "S20 ist eine optionale Fortsetzung im bestehenden fiktiven D-L4-Kommentar, keine neue amtliche Vergleichspflicht. Die Tabelle ordnet A05 neu und ist keine originale Zählnotiz oder unabhängige Beobachtung."
 }

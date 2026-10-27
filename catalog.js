@@ -9844,15 +9844,22 @@ window.LOTTE_CATALOG = Object.freeze({
       "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Der Kommentar, die Verfasserin, das Portal, der Leseraum, das angegebene Datum und alle Zahlen sind erfunden. Eine erwähnte Zählnotiz liegt nicht als eigene Quelle vor. Du brauchst keine echten Angaben über dich oder deine Schule.",
-      "introduction": "Lesefrage: Was will die Verfasserin erreichen, und was lässt sich aus ihren Angaben tatsächlich schließen? Ein Kommentar verbindet berichtete Angaben mit einer Meinung. Eine Sachangabe ist eine im Text prüfbare Behauptung, aber dadurch noch keine außerhalb des Textes bewiesene Tatsache. Eine Wertung ist eine Einschätzung. Nenne bei Belegen die Zeile und erkläre, was sie trägt. Ein Besuch ist ein gezählter Vorgang und nicht zwingend eine andere Person. Die Kriterien helfen beim Vergleichen; es gibt keine automatische Note.",
+      "introduction": "Lesefrage: Was will die Verfasserin erreichen, und was lässt sich aus ihren Angaben tatsächlich schließen? Ein Kommentar verbindet berichtete Angaben mit einer Meinung. Eine Sachangabe ist eine im Text prüfbare Behauptung, aber dadurch noch keine außerhalb des Textes bewiesene Tatsache. Eine Wertung ist eine Einschätzung. Nenne bei Belegen die Zeile und erkläre, was sie trägt. Ein Besuch ist ein gezählter Vorgang und nicht zwingend eine andere Person. Die Kriterien helfen beim Vergleichen; es gibt keine automatische Note. Nach dem Hauptteil gibt es neben dem Überschriftenvergleich eine kurze freiwillige Formkarte mit 10 eigenen Lernpunkten. Beide Zusätze bleiben getrennt von den 20 Hauptpunkten.",
       "passage": "FIKTIVER KOMMENTAR · QUELLE A\nA01 Länger offen? Erst weiter testen!\nA02 Kommentar von Mila Winter im erfundenen Jugendportal „Fensterplatz“, 29. September 2026.\nA03 Der erfundene Leseraum Nordbogen schließt mittwochs gewöhnlich um 16 Uhr.\nA04 Für einen Test im September blieb er an drei Mittwochen bis 17 Uhr offen.\nA05 Eine hier nicht beigelegte Zählnotiz meldet für die zusätzliche Stunde 12, 9 und 15 Besuche.\nA06 Zusammen sind das 36 Besuche in diesen drei Stunden; ob Personen mehrfach kamen, steht dort nicht.\nA07 Ich finde, das ist ein guter Grund, den späteren Mittwoch weiter auszuprobieren.\nA08 Deshalb wünsche ich mir vier weitere Test-Mittwoche.\nA09 Ob die Besuchenden nach einem Kurs kamen, weiß ich nicht; dazu fehlen Angaben.\nA10 Vor einer dauerhaften Entscheidung sollte geklärt werden, ob Personal und Räume für die zusätzliche Stunde verfügbar sind.\nA11 Ein Erfolg für alle Jugendlichen ist mit diesen drei Stunden nicht bewiesen.",
       "stagedUpdate": {
         "kind": "variant",
         "mainLabel": "1–6",
         "childPrintAfterUnlock": true,
-        "buttonLabel": "Hauptantworten festhalten und Überschriftenvergleich öffnen",
-        "printNote": "Die zweite Überschrift und die freiwillige Zusatzaufgabe erst nach den Hauptantworten ansehen.",
-        "text": "FREIWILLIGER TRANSFER · ZWEI ÜBERSCHRIFTEN, EIN KOMMENTAR\nFassung 1 (bisher A01): „Länger offen? Erst weiter testen!“\nFassung 2 (mögliche andere Überschrift): „36 Besuche in drei Teststunden“\nA02–A11 bleiben in beiden Fassungen unverändert. Keine Überschrift beweist, wie wirkliche Lesende reagieren würden."
+        "buttonLabel": "Hauptantworten festhalten und Zusatzkarten öffnen",
+        "printNote": "Überschriftenvergleich und Formkarte erst nach den sechs Hauptantworten ansehen.",
+        "text": "FREIWILLIGER TRANSFER · ZWEI ÜBERSCHRIFTEN, EIN KOMMENTAR\nFassung 1 (bisher A01): „Länger offen? Erst weiter testen!“\nFassung 2 (mögliche andere Überschrift): „36 Besuche in drei Teststunden“\nA02–A11 bleiben in beiden Fassungen unverändert. Keine Überschrift beweist, wie wirkliche Lesende reagieren würden.\n\nZUSÄTZLICHE FREIWILLIGE FORMKARTE · Die unten gezeigte Tabelle ordnet nur die drei in A05 berichteten Werte 12, 9, 15 neu. Die Ziffern 1–3 bezeichnen ihre Nennreihenfolge, keine neuen Kalenderdaten. Die ursprüngliche Zählnotiz liegt weiterhin nicht vor. Vergleiche am selben Inhalt den linearen Kommentar und die nichtlineare Tabelle. Diese vier Fragen ergeben 10 eigene Lernpunkte und ersetzen den Überschriftenvergleich nicht.",
+        "mainTaskCount": 6,
+        "image": {
+          "path": "assets/de-s20-besuchstabelle.svg",
+          "alt": "Redaktionelle Tabelle: Nennung 1, 2, 3 in A05; berichtete Besuche 12, 9, 15. Keine ursprüngliche Zählnotiz.",
+          "caption": "Eigene redaktionelle Tabelle aus den drei A05-Werten; keine zweite Originalquelle.",
+          "textAlternative": "Redaktionelle Tabelle aus Kommentarzeile A05. Spalten: Nennreihenfolge 1, 2, 3. Zeile: Besuche in je einer zusätzlichen Mittwochs-Stunde 12, 9, 15. Die Reihenfolge bezeichnet keine zusätzlichen Kalenderdaten. Die nicht beigelegte ursprüngliche Zählnotiz bleibt unbekannt; Besuche sind keine nachgewiesenen verschiedenen Personen."
+        }
       },
       "tasks": [
         {
@@ -9946,6 +9953,62 @@ window.LOTTE_CATALOG = Object.freeze({
             "2 Punkte: je Überschrift eine passende Wortstelle und deren unterschiedlicher Fokus; keine bevorzugte Fassung verlangen.",
             "2 Punkte: je eine mögliche erste Erwartung mit Beleg am Überschriftenwortlaut; Vermutung nicht als gemessene Wirkung ausgeben.",
             "2 Punkte: eine unveränderte Angabe aus A02–A11 plus klare Grenze zwischen Überschrift und tatsächlicher Leserreaktion."
+          ]
+        },
+        {
+          "id": "de-kommentar-s20-herkunft",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "S20/1 · Herkunft prüfen (2 zusätzliche Punkte): Welche Information aus Quelle A wurde in der redaktionellen Tabelle neu angeordnet? Nenne die genaue A-Zeile. Warum ist diese Tabelle nicht die ursprüngliche Zählnotiz?",
+          "sample": "A05 nennt für drei zusätzliche Mittwochs-Stunden 12, 9, 15 Besuche. Die Tabelle setzt genau diese berichteten Werte in die Nennreihenfolge 1–3. A05 sagt ausdrücklich, dass die ursprüngliche Zählnotiz nicht beigelegt ist; die redaktionelle Tabelle ist deshalb kein unabhängiger Zählnachweis.",
+          "criteria": [
+            "1 Punkt für A05 und 12/9/15 als neu geordnete Besuchswerte.",
+            "1 Punkt für die klare Trennung zwischen Kommentarwiedergabe und fehlender ursprünglicher Zählnotiz."
+          ]
+        },
+        {
+          "id": "de-kommentar-s20-spezifik",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "S20/2 · Spezifik beider Formen (4 zusätzliche Punkte): Erkläre an je einem konkreten Merkmal, wie A03–A11 seinen Gedankengang linear entfaltet und wie die Tabelle die Zahlen nichtlinear ordnet. Welche Information entnimmst du aus jeder Form direkt gut? Nur „Text gegen Tabelle“ reicht nicht.",
+          "sample": "Der Kommentar führt von Test und Zahlen (A03–A06) über Milas Wertung und Vorschlag (A07–A08) zu noch offenen Bedingungen (A09–A11). Die Tabelle stellt drei Werte nebeneinander, sodass man sie gezielt vergleichen kann. Im Kommentar finde ich Milas begründeten Vorschlag; in der Tabelle finde ich rasch die drei berichteten Werte. Die Tabelle selbst empfiehlt nichts.",
+          "criteria": [
+            "Je 1 Punkt für konkreten linearen Gedankengang, konkrete nichtlineare Ordnung, direkt entnehmbare Kommentar-Information und direkt entnehmbare Tabellen-Information.",
+            "Keine Behauptung einer beobachteten Leserwirkung verlangen."
+          ]
+        },
+        {
+          "id": "de-kommentar-s20-funktion",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "S20/3 · Funktion an zwei Fragen (2 zusätzliche Punkte): Welche Form hilft dir bei a) „Wie lauten die drei berichteten Werte?“ und bei b) „Welchen nächsten Schritt schlägt Mila vor, und welche Bedingung soll vor einer dauerhaften Entscheidung geprüft werden?“ Begründe die Wahl kurz. Du darfst beide Formen zusammen nutzen, wenn du ihren Beitrag trennst.",
+          "sample": "a) In der Tabelle lassen sich 12/9/15 schnell nachsehen; A05 bleibt die Textquelle. b) Der Kommentar nennt vier weitere Test-Mittwoche (A08), vor einer Dauerentscheidung aber noch die Prüfung von Personal und Räumen (A10). Die Tabelle enthält diesen Vorschlag und diese Bedingung nicht.",
+          "criteria": [
+            "1 Punkt für Tabelle als gezielte Wertübersicht mit A05 als Quelle.",
+            "1 Punkt für Kommentar als Träger von Vorschlag und Vorbedingung mit sinngetreuen A08-/A10-Belegen."
+          ]
+        },
+        {
+          "id": "de-kommentar-s20-grenze",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "S20/4 · Grenze der neuen Form (2 zusätzliche Punkte): Jemand behauptet: „Die Tabelle beweist 36 verschiedene Jugendliche und zeigt, dass Mila sofort dauerhaft öffnen will.“ Nenne beide Denkfehler mit passenden A-Stellen. Warum belegt die neue Tabellenform diese Behauptung gegenüber Quelle A nicht besser? Behaupte keine echte Wirkung auf Lesende.",
+          "sample": "36 ist die Summe berichteter Besuche, nicht die Zahl verschiedener Jugendlicher; Wiederholungsbesuche und Alter bleiben offen (A05–A06). Mila möchte vier weitere Test-Mittwoche (A08) und vorher Personal/Räume prüfen (A10), keine sofortige Daueröffnung. Die Tabelle ordnet nur A05 neu, enthält keine zusätzliche Beobachtung, keine Personendaten und keinen Vorschlag; ihre Form erhöht die Beweiskraft der Behauptung nicht.",
+          "criteria": [
+            "1 Punkt für beide getrennten Fehlschlüsse mit passenden A-Stellen.",
+            "1 Punkt nur für den eigenen Formtransfer: Die redaktionelle Tabelle fügt keinen unabhängigen Beleg hinzu. Alte Zahlenkritik allein ergibt höchstens 1/2."
           ]
         }
       ],

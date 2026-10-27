@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 352" role="img" aria-labelledby="title desc">
+  <title id="title">Zwei fiktive Anzeigen N und P zur Belegung am Montag</title>
+  <desc id="desc">N hebt Raum A mit der Überschrift Raum A ist beliebter und den grossen Zahlen 24 und 18 hervor; die Balken stehen auf einer gemeinsamen Anzahlskala von 0 bis 30 belegten Plätzen. P fragt neutral nach belegten Plätzen und zeigt A 24 von 30 gleich 80 Prozent sowie B 18 von 20 gleich 90 Prozent auf einer gemeinsamen Anteilsskala von 0 bis 100 Prozent. Die vollständigen Werte stehen zusätzlich als Textalternative und Rohdatentabelle bereit.</desc>
+  <rect width="800" height="352" fill="#f4f6f4"/>
+  <rect x="12" y="12" width="378" height="328" rx="12" fill="#fffaf6" stroke="#9b422b" stroke-width="2"/>
+  <rect x="410" y="12" width="378" height="328" rx="12" fill="#f8fbfd" stroke="#566b7d" stroke-width="2"/>
+  <g font-family="Arial, sans-serif" fill="#172234">
+    <text x="32" y="42" font-size="19" font-weight="700">Anzeige N</text>
+    <text x="32" y="83" font-size="28" font-weight="700" fill="#90311d">Raum A ist beliebter!</text>
+    <text x="32" y="130" font-size="27" font-weight="800">A: 24</text>
+    <rect x="32" y="143" width="322" height="19" rx="3" fill="#e1e6eb"/>
+    <rect x="32" y="143" width="258" height="19" rx="3" fill="#b6583b"/>
+    <text x="32" y="207" font-size="27" font-weight="800">B: 18</text>
+    <rect x="32" y="220" width="322" height="19" rx="3" fill="#e1e6eb"/>
+    <rect x="32" y="220" width="193" height="19" rx="3" fill="#b6583b"/>
+    <text x="32" y="279" font-size="15">Belegte Plätze am Montag, 15:30 Uhr.</text>
+    <text x="32" y="303" font-size="14">Balken: gemeinsame Skala 0–30 Plätze.</text>
+    <text x="430" y="42" font-size="19" font-weight="700">Anzeige P</text>
+    <text x="430" y="79" font-size="20" font-weight="700" fill="#174b68">Wie viele Plätze waren</text>
+    <text x="430" y="105" font-size="20" font-weight="700" fill="#174b68">am Montag belegt?</text>
+    <text x="430" y="143" font-size="19" font-weight="700">A: 24 von 30 = 80 %</text>
+    <rect x="430" y="156" width="322" height="19" rx="3" fill="#e1e6eb"/>
+    <rect x="430" y="156" width="258" height="19" rx="3" fill="#227093"/>
+    <text x="430" y="217" font-size="19" font-weight="700">B: 18 von 20 = 90 %</text>
+    <rect x="430" y="230" width="322" height="19" rx="3" fill="#e1e6eb"/>
+    <rect x="430" y="230" width="290" height="19" rx="3" fill="#227093"/>
+    <text x="430" y="286" font-size="14">Fiktive Momentaufnahme um 15:30 Uhr.</text>
+    <text x="430" y="309" font-size="14">Balken: gemeinsame Skala 0–100 %.</text>
+  </g>
+</svg>

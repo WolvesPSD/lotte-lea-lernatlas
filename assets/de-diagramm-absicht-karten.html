@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fiktive Leseraum-Zählung: Zwei Anzeigen</title>
+  <style>
+    :root { color-scheme: light; font: 1rem/1.5 system-ui, sans-serif; }
+    body { color: #172234; background: #fff; max-width: 58rem; margin: auto; padding: 1rem; }
+    h1, h2 { line-height: 1.2; }
+    .note { border-left: .35rem solid #315879; background: #eef4f8; padding: .6rem 1rem; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); gap: 1.25rem; margin: 1.5rem 0; }
+    figure { margin: 0; border: 2px solid #566b7d; border-radius: .5rem; padding: 1rem; }
+    figcaption { font-weight: 700; margin-bottom: .75rem; }
+    .n { border-color: #9b422b; background: #fffaf6; }
+    .n h2 { color: #90311d; font-size: 1.65rem; margin: .2rem 0 1rem; }
+    .n .count { font-size: 1.5rem; font-weight: 800; }
+    .n .fine { font-size: .78rem; color: #4e4a46; }
+    .p h2 { color: #174b68; font-size: 1.25rem; margin: .2rem 0 1rem; }
+    .row { margin: .65rem 0; }
+    .bar-track { height: 1.1rem; background: #e1e6eb; border-radius: .2rem; overflow: hidden; }
+    .bar-fill { display: block; height: 100%; background: #b6583b; }
+    .p .bar-fill { background: #227093; }
+    .p .limit { border-top: 1px solid #91a5b2; margin-top: 1rem; padding-top: .45rem; font-size: .92rem; }
+    .table-scroll { max-width: 100%; overflow-x: auto; }
+    .table-scroll:focus-visible { outline: 3px solid #aa4d15; outline-offset: 2px; }
+    .swipe-hint { display: none; font-size: .85rem; }
+    table { border-collapse: collapse; width: 100%; min-width: 34rem; }
+    th, td { border: 1px solid #687989; padding: .45rem; text-align: left; }
+    details { margin: 1rem 0; }
+    summary { font-weight: 700; cursor: pointer; }
+    summary:focus-visible { outline: 3px solid #aa4d15; }
+    @media (max-width: 600px) { .swipe-hint { display: block; } }
+    @media print { body { max-width: none; } figure { break-inside: avoid; } .cards { grid-template-columns: 1fr 1fr; } table { min-width: 0; } .swipe-hint { display: none; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Zwei erfundene Anzeigen zum selben Montag</h1>
+    <p class="note"><strong>Nur Übungsdaten.</strong> In einer erfundenen Testwoche wurden am Montag um 15:30 Uhr in Raum A 24 von 30 und in Raum B 18 von 20 Plätzen belegt vorgefunden.</p>
+    <section class="cards" aria-label="Zwei unterschiedlich gestaltete Anzeigen">
+      <figure class="n" aria-labelledby="n-title">
+        <figcaption>Anzeige N</figcaption>
+        <h2 id="n-title">Raum A ist beliebter!</h2>
+        <div class="row"><div class="count">A: 24</div><div class="bar-track" aria-hidden="true"><span class="bar-fill" style="width:80%"></span></div></div>
+        <div class="row"><div class="count">B: 18</div><div class="bar-track" aria-hidden="true"><span class="bar-fill" style="width:60%"></span></div></div>
+        <p class="fine">Belegte Plätze am Montag, 15:30 Uhr. Balken: gemeinsame Skala 0–30 belegte Plätze.</p>
+      </figure>
+      <figure class="p" aria-labelledby="p-title">
+        <figcaption>Anzeige P</figcaption>
+        <h2 id="p-title">Wie viele Plätze waren am Montag belegt?</h2>
+        <div class="row"><strong>A: 24 von 30 = 80 %</strong><div class="bar-track" aria-hidden="true"><span class="bar-fill" style="width:80%"></span></div></div>
+        <div class="row"><strong>B: 18 von 20 = 90 %</strong><div class="bar-track" aria-hidden="true"><span class="bar-fill" style="width:90%"></span></div></div>
+        <p class="limit">Fiktive Momentaufnahme um 15:30 Uhr. Balken: gemeinsame Skala 0–100 % der Plätze je Raum.</p>
+      </figure>
+    </section>
+    <details>
+      <summary>Textalternative mit denselben Kartenangaben</summary>
+      <p>N hat die große Überschrift „Raum A ist beliebter!“, sehr große Zahlen A 24 und B 18 und kleinere Angaben zu Tag, Zeit und belegten Plätzen. Die Balken zeigen Anzahlen auf gemeinsamer Skala 0–30; Kapazitäten stehen nicht in der Anzeige. P fragt nach belegten Plätzen, zeigt A 24 von 30 = 80 % und B 18 von 20 = 90 % gleichberechtigt und Balkenanteile auf gemeinsamer Skala 0–100 %.</p>
+    </details>
+    <p class="swipe-hint">Die Rohdatentabelle kannst du auf schmalen Bildschirmen seitlich verschieben.</p>
+    <div class="table-scroll" role="region" aria-label="Fiktive Rohdatentabelle, seitlich verschiebbar" tabindex="0"><table>
+      <caption>Fiktive Rohdaten des bereits vorhandenen Leseraum-Modells</caption>
+      <thead><tr><th scope="col">Tag, 15:30 Uhr</th><th scope="col">Raum</th><th scope="col">Belegt</th><th scope="col">Plätze insgesamt</th><th scope="col">Anteil</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Montag</th><td>A</td><td>24</td><td>30</td><td>80 %</td></tr>
+        <tr><th scope="row">Montag</th><td>B</td><td>18</td><td>20</td><td>90 %</td></tr>
+        <tr><th scope="row">Donnerstag</th><td>A</td><td>15</td><td>30</td><td>50 %</td></tr>
+        <tr><th scope="row">Donnerstag</th><td>B</td><td>18</td><td>20</td><td>90 %</td></tr>
+      </tbody>
+    </table></div>
+  </main>
+</body>
+</html>

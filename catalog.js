@@ -5405,6 +5405,141 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "de-diagramm-absicht-np",
+      "subjectId": "de",
+      "title": "Was wollen zwei Diagrammansichten hervorheben?",
+      "scope": "Freiwilliger Klasse-7-Einstieg zum Ende-8-Ziel D-L5: nichtlineare Gestaltung und mögliche Kommunikationsabsicht im gültigen Deutschplan. Keine bestätigte aktuelle Unterrichtseinheit und keine belegte Leserwirkung.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Hilfreich sind Anteile und Prozentwerte. Beide erfundenen Anzeigen N und P stehen auch als gleichwertige Textalternative bereit; du brauchst keine eigenen Schul- oder Personendaten.",
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "PDF-S. 2: Deutschplan ab 2026/27 in Klasse 7. §2.2.2 PDF-S. 26: Funktion nichtlinearer Texte, Autorintention und begrenzte Schlussfolgerungen als Ende-8-Ziel. §3.2 PDF-S. 48: interaktive Diagramme als 7/8-Beispiel, nicht als Klasse-7-Pflichtthema.",
+        "checkedAt": "2026-10-26"
+      },
+      "introduction": "Lies die Datenkarte und vergleiche dann die zwei sichtbar unterschiedlich gestalteten Anzeigen zum selben Montag. Formuliere Absichten und Leserwirkungen nur als Möglichkeiten. Die Daten belegen keine Vorlieben. Schreibe zuerst A–D; erst danach erscheint eine neue fiktive Redaktionsnotiz mit V1–V2.",
+      "diagram": {
+        "path": "assets/de-diagramm-absicht-np.svg",
+        "alt": "Zwei fiktive Karten zum Montag: N betont A mit 24 gegenüber B 18 und nennt A beliebter. P zeigt A 24 von 30 gleich 80 Prozent und B 18 von 20 gleich 90 Prozent.",
+        "caption": "Zwei eigens erfundene Anzeigen N und P zum selben Montag. Balken dienen nur der Gestaltung; die Zahlen und Skalen stehen auch im Textweg.",
+        "textAlternative": "N: grosse wertende Überschrift „Raum A ist beliebter!“, sehr grosse Zahlen A 24 und B 18, Balken auf gemeinsamer Anzahlskala 0–30 belegte Plätze, kleine Zeile „Belegte Plätze am Montag, 15:30 Uhr“; Kapazitäten fehlen in N. P: neutrale Frage „Wie viele Plätze waren am Montag belegt?“, A 24 von 30 = 80 %, B 18 von 20 = 90 %, gleich grosse Beschriftungen und Balken auf gemeinsamer Anteilsskala 0–100 %, Fusszeile „Fiktive Momentaufnahme um 15:30 Uhr“."
+      },
+      "lab": {
+        "path": "assets/de-diagramm-absicht-karten.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-diagramm-absicht-karten.html",
+        "title": "Anzeigen N und P mit Rohdatentabelle",
+        "description": "Die zwei erfundenen Karten mit Textalternative und allen vier Datenzeilen als zugängliche Einzelansicht. Keine Schalter, kein Konto und keine Speicherung.",
+        "scoredInteraction": false,
+        "printNote": "Die beiden Anzeigen stehen zusätzlich im Kinderblatt. Die Einzelansicht bietet grosse Karten und die Rohdatentabelle; dieser Fall bewertet ihre Gestaltung, keine Schalterbedienung."
+      },
+      "passage": "FIKTIVE DATENKARTE · Montag und Donnerstag wurden um 15:30 Uhr belegte Plätze gezählt. Raum A hat 30, Raum B 20 Plätze. Montag: A 24 von 30 = 80 %, B 18 von 20 = 90 %. Donnerstag: A 15 von 30 = 50 %, B 18 von 20 = 90 %. Beide Anzeigen N und P zeigen nur den Montag. Die Zählung erfasst keine Vorlieben und keine Aufenthaltsdauer.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "mainTaskCount": 4,
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und neue Redaktionsnotiz zeigen",
+        "text": "FREIWILLIGE NEUE FIKTIVE NOTIZ NACH A–D · „Ich wollte den Unterschied in der Anzahl belegter Plätze am Montag zeigen. Deshalb habe ich 24 und 18 gross gesetzt. Über Vorlieben wollte ich nichts behaupten. Die Überschrift ‚Raum A ist beliebter!‘ habe ich beim ersten Entwurf trotzdem stehen lassen.“ Diese spätere Selbstaussage beweist keine tatsächliche Leserwirkung."
+      },
+      "tasks": [
+        {
+          "id": "de-np-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "A. Daten und Deutung trennen (4 Punkte): Schreibe für Montag um 15:30 Uhr zwei sichere Sätze: einen zur Anzahl belegter Plätze und einen zum Anteil mit den Raumkapazitäten als Nenner. Nenne eine Aussage der Anzeige N, die daraus nicht folgt, und den fehlenden Beleg.",
+          "sample": "Montag um 15:30 Uhr waren in A 24 und in B 18 Plätze belegt; A hatte sechs mehr. A nutzte 24/30 = 80 %, B 18/20 = 90 % seiner Plätze; B lag beim Anteil um zehn Prozentpunkte höher. Die N-Überschrift „A ist beliebter“ folgt daraus nicht, denn eine Momentbelegung belegt keine Vorlieben oder Gründe.",
+          "criteria": [
+            "1 Punkt: Montag, 15:30 Uhr, A 24 und B 18 belegte Plätze als sicherer Anzahlvergleich; A sechs mehr darf ergänzen, ist aber nicht nötig.",
+            "1 Punkt: A 24/30 = 80 % und B 18/20 = 90 % als sicherer Anteilvergleich; B zehn Prozentpunkte höher darf ergänzen, ist aber nicht nötig.",
+            "1 Punkt: „A ist beliebter“ als unbelegte N-Aussage erkannt.",
+            "1 Punkt: fehlende Vorlieben-/Gründeerhebung benannt; Momentbelegung ist keine Präferenzbefragung. Andere genaue sichere Sätze gelten."
+          ]
+        },
+        {
+          "id": "de-np-b",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B. Gestaltung vergleichen (5 Punkte): Nenne zwei konkrete Gestaltungsentscheidungen in N und zwei in P. Erkläre an einer davon, welcher Eindruck bei Lesenden entstehen könnte. Behaupte keine tatsächlich beobachtete Reaktion.",
+          "sample": "N nutzt die wertende Überschrift „beliebter“ und setzt 24/18 sehr gross; die Kapazitäten fehlen. P fragt neutral und zeigt 24 von 30 sowie 18 von 20 samt Prozenten und gemeinsamer Anteilsskala. Die grossen absoluten Zahlen in N könnten A zunächst stärker genutzt erscheinen lassen; ob jemand so reagierte, ist unbekannt.",
+          "criteria": [
+            "1 Punkt je zwei konkrete N-Mittel, z. B. wertende Schlagzeile, grosse Zahlen, kleine Messzeile oder ausgelassene Kapazitäten (2).",
+            "1 Punkt je zwei konkrete P-Mittel, z. B. neutrale Frage, beide Nenner, Prozentwerte oder Anteilsskala (2).",
+            "1 Punkt: eine plausible Wirkung vorsichtig als Möglichkeit mit einem konkreten Gestaltungssignal verknüpft; tatsächliche Leserreaktion nicht behauptet."
+          ]
+        },
+        {
+          "id": "de-np-c",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C. Mögliche Absicht vorsichtig erschliessen (5 Punkte): Welche zwei unterschiedlichen Kommunikationsziele könnte die fiktive Person hinter N verfolgt haben? Formuliere beide als Möglichkeit, stütze jedes mit einem anderen Signal aus N und benenne, was du über die tatsächliche Absicht nicht sicher wissen kannst.",
+          "sample": "Vielleicht wollte die Person sachlich auf die grössere Anzahl in A hinweisen; dafür sprechen 24/18 und die Messzeile. Vielleicht wollte sie A als bevorzugten Raum erscheinen lassen; dafür spricht „beliebter“ oder die grosse Hervorhebung. Beide Deutungen bleiben Hypothesen; die innere Absicht folgt aus der Anzeige allein nicht.",
+          "criteria": [
+            "Je 1 Punkt für zwei unterschiedliche plausible Ziele, sachliche Anzahlinformation und mögliche Lenkung sind Beispiele (2).",
+            "Je 1 Punkt für zwei unterschiedliche passende Signale aus N, etwa 24/18 samt Messzeile und wertende Überschrift (2).",
+            "1 Punkt: tatsächliche innere Absicht als aus N nicht sicher erkennbar begrenzt; keine Betrugsabsicht als Tatsache."
+          ]
+        },
+        {
+          "id": "de-np-d",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "D. Redaktionell verbessern (6 Punkte): Schreibe für N eine korrekte neue Überschrift mit Montag, 15:30 Uhr, belegten Plätzen und beiden Zahlen. Ergänze einen sichtbaren Zusatz mit den unterschiedlichen Raumgrössen. Erkläre, weshalb das klarer ist und was auch diese Fassung über die Menschen nicht beweist.",
+          "sample": "„Montag, 15:30 Uhr: In Raum A waren 24, in Raum B 18 Plätze belegt.“ Sichtbarer Zusatz: „A hat insgesamt 30, B 20 Plätze.“ Das nennt die Messgrösse und die unterschiedlichen Grundlagen; auch diese Momentzählung beweist keine Vorliebe.",
+          "criteria": [
+            "1 Punkt: Montag und 15:30 Uhr.",
+            "1 Punkt: Messgrösse belegte Plätze.",
+            "1 Punkt: beide richtigen Werte 24 und 18.",
+            "1 Punkt: keine unbelegte Vorliebe oder Ursache in der neuen Überschrift.",
+            "1 Punkt: sichtbarer Zusatz „A 30, B 20 Plätze insgesamt“.",
+            "1 Punkt: unterschiedliche Kapazitäten begrenzen den Vergleich; Belegung beweist keine Vorliebe. Andere vollständige Formulierungen gelten."
+          ]
+        },
+        {
+          "id": "de-np-v1",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "V1. Neue Notiz einordnen (3 getrennte Zusatzpunkte): Welches Ziel behauptet die fiktive Person nun? Nenne ein Signal aus N, das dazu passt, und eines, das dem behaupteten Ziel widerspricht.",
+          "sample": "Die fiktive Person behauptet nun, nur den Unterschied der Anzahl zeigen zu wollen. Die grossen 24/18 passen dazu. Die Überschrift „Raum A ist beliebter!“ widerspricht, weil sie eine Vorliebe nahelegt.",
+          "criteria": [
+            "1 Zusatzpunkt: behauptetes Ziel Anzahlunterschied, nicht Vorliebe.",
+            "1 Zusatzpunkt: grosses 24/18 als passendes Signal.",
+            "1 Zusatzpunkt: „A ist beliebter!“ als Widerspruch. Die spätere Notiz ist eine Selbstaussage, keine unabhängige Prüfung."
+          ]
+        },
+        {
+          "id": "de-np-v2",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "V2. Daten, Absicht und Wirkung trennen (3 getrennte Zusatzpunkte): Ändert die neue Notiz die Zählwerte oder die mögliche Wirkung der alten Überschrift automatisch? Unterscheide Absichtsaussage, sachlich korrekte Überschrift und tatsächlich gemessene Leserreaktion. Schreibe eine faire Rückmeldung an die fiktive Redaktion.",
+          "sample": "Die Notiz ändert weder Zahlen noch Kapazitäten. Die alte Überschrift kann weiterhin eine Vorliebe nahelegen; ob sie jemanden wirklich fehlleitete, ist ohne Leserbeobachtung unbekannt. Faire Rückmeldung: Wenn die Anzahl gemeint ist, nennen Sie 24 gegenüber 18 belegte Plätze und die unterschiedlichen Raumgrössen; eine echte Wirkung behaupten wir nicht.",
+          "criteria": [
+            "1 Zusatzpunkt: Zählwerte und Nenner bleiben unverändert.",
+            "1 Zusatzpunkt: unbelegte Präferenzwirkung bleibt möglich, tatsächliche Leserwirkung ohne Beobachtung offen.",
+            "1 Zusatzpunkt: faire, zahlen- und kapazitätsgebundene Rückmeldung ohne behauptete Täuschung."
+          ]
+        }
+      ]
+    },
+    {
       "id": "mbi-farbkarten-tabellenlabor",
       "subjectId": "mbi",
       "title": "Farbkarten: Formel und Vergleich",

@@ -1,12 +1,16 @@
 {
-  "builtAt": "2026-10-27T11:25:11.277Z",
-  "releaseVersion": "2026.10.27-jahrgang.1",
-  "newTopicIds": [],
+  "builtAt": "2026-10-27T11:52:27.072Z",
+  "releaseVersion": "2026.10.27-de-dl5-np.1",
+  "newTopicIds": [
+    "de-diagramm-absicht-np"
+  ],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
-    "199 Themen und alle Aufgaben, Lösungen, App-Funktionen und Assets unverändert; keine neue Kinderleistung oder Unterrichtsfolge behauptet."
+    "199 Themen und alle Aufgaben, Lösungen, App-Funktionen und Assets unverändert; keine neue Kinderleistung oder Unterrichtsfolge behauptet.",
+    "Deutsch D-L5: Ein freiwilliger 7/8-Diagrammvergleich zu möglicher Gestaltungsabsicht ergänzt den vorhandenen Schalterfall. Vier Hauptfragen (20 Punkte), danach zwei getrennte Transferfragen (6 Punkte), fiktive Daten und zugänglicher Textweg.",
+    "200 Themen/921 Aufgabenfelder; die anderen 199 Themen und bisherigen Assets bleiben unverändert. Eine gezielte CSS-Regel verbessert den Erwachsenendruck dieses Falls. Keine echte Redaktionsabsicht, Kinderleistung oder Klasse-7-Unterrichtsfolge behauptet."
   ],
-  "rollbackCommit": "f84fb3fe43c0297a5745928a9bb75ff8ceeb98c8",
+  "rollbackCommit": "964df50b5a3bd07cb6d5d033b56f6d7f0a197a43",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -206,7 +210,8 @@
     "ma-m2-kopfrechnen",
     "mbi-i4-modellbias-person",
     "mu09-pentatonik-tonvorrat",
-    "mbi-i2-eigenrecherche-produkt"
+    "mbi-i2-eigenrecherche-produkt",
+    "de-diagramm-absicht-np"
   ],
   "subjects": [
     "en",
@@ -313,5 +318,5 @@
     "et-liebesformen-werkevergleich",
     "mu09-pentatonik-tonvorrat"
   ],
-  "note": "I2-M1 ist ein freiwilliger Ende-8-Produktweg. App-Texteingaben und ein technischer Browserlauf belegen keine eigene Kinderrecherche, lokale Dateierstellung, Wiederöffnung oder Revision; externe Fach- und Familienabnahme bleiben offen."
+  "note": "D-L5-N/P ist ein intern unabhängig geprüfter freiwilliger Klasse-7-Einstieg in ein Ende-8-Ziel. UI-/Drucktrennung von Lösungen ist kein Quelltext-Zugriffsschutz. Externe Fach-, Screenreader-, Kinder- und Schuljahresprüfung offen."
 }

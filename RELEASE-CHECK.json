@@ -1,7 +1,9 @@
 {
-  "builtAt": "2026-10-27T20:04:44.537Z",
-  "releaseVersion": "2026.10.27-ma-m4-jahrgang.1",
-  "newTopicIds": [],
+  "builtAt": "2026-10-27T20:22:26.833Z",
+  "releaseVersion": "2026.10.27-sp-b7-ss06-fairness.1",
+  "newTopicIds": [
+    "sp-b7-ss06-fairnessurteil"
+  ],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
     "199 Themen und alle Aufgaben, Lösungen, App-Funktionen und Assets unverändert; keine neue Kinderleistung oder Unterrichtsfolge behauptet.",
@@ -26,9 +28,11 @@
     "Deutsch D-W5: freiwilliger Ende-8-Ausblick zu zwei Stichpunktformen. Drei Hauptaufgaben (12 Kriterienpunkte), danach die getrennte D1-Änderung (4 Zusatzpunkte), eigener leerer Liste-/Tabellenbogen ohne Lösungen.",
     "Im Erwachsenen-A4-Druck beginnt die dreizeilige Aussage–Beleg/Grenze-Rubrik auf einer neuen Seite und bleibt zusammen.",
     "208 Themen/975 Antwortfelder; 207 bisherige Themen und App-Funktionen unverändert. Kein Nachweis für Kinderleistung, aktuelle Klasse-7-Unterrichtseinheit oder volle D-W5-/Jahresabdeckung.",
-    "Mathematik M4: Die bestehende Rechnerprobe als freiwilligen Klasse-8-Ausblick statt als 7/8-Fall gekennzeichnet. Vier Metadatenfelder, Versionsanzeige und Manifest angepasst; 208 Themen/975 Antwortfelder, Aufgaben, Lösungen, Assets und App-Funktionen unverändert."
+    "Mathematik M4: Die bestehende Rechnerprobe als freiwilligen Klasse-8-Ausblick statt als 7/8-Fall gekennzeichnet. Vier Metadatenfelder, Versionsanzeige und Manifest angepasst; 208 Themen/975 Antwortfelder, Aufgaben, Lösungen, Assets und App-Funktionen unverändert.",
+    "Sport B7-SS06: freiwillige schriftliche Fairnessprüfung an vier fiktiven Aussagen. Vier Hauptaufgaben mit 20 Punkten, eine erst nach A–D sichtbare Zusatzkarte mit 6 getrennten Punkten; Lösungen und Fehlerfeedback nur für Erwachsene. Schulwahl, Stufe und echte Fairnesshandlung unbekannt.",
+    "209 Themen/980 Antwortfelder. Die 208 bisherigen Themen bleiben unverändert; weder Sportpraxis noch Klasse-7- oder Jahresabdeckung folgt aus der Papieraufgabe."
   ],
-  "rollbackCommit": "35017c2414aabd4592df3c1041e347e071ace8ad",
+  "rollbackCommit": "6fd5eaef634556f0fb8d5261c0ae924bd7d14eeb",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -237,7 +241,8 @@
     "sp-b2-m04-regelwerkstatt",
     "go-g01-beleuchtungszonen",
     "ma-zahlbereiche-rechenwege",
-    "de-stichpunktformen-belege"
+    "de-stichpunktformen-belege",
+    "sp-b7-ss06-fairnessurteil"
   ],
   "subjects": [
     "en",
@@ -349,5 +354,5 @@
     "mu09-pentatonik-tonvorrat",
     "go-g01-beleuchtungszonen"
   ],
-  "note": "Jahrgangskennzeichnung aus §2.2.4 korrigiert. Klasse-7-Rechnerweg bleibt als eigener Praxisanker. Keine neue Kinder-, Fach- oder Jahresabnahme; Prüfbelege in wissen/APP-MATHEMATIK-M4-RECHNERPROBE-ONLINE-2026-PRUEFKARTE.md."
+  "note": "B7-SS06: isolierter Kandidat nach enger unabhängiger Manuskript-QA. App-/Browser-/Druck-/Datenschutzprüfung vor Veröffentlichung erforderlich; wissen/APP-SPORT-B7-SS06-FAIRNESSURTEIL-ENTWURF-2026-PRUEFKARTE.md."
 }

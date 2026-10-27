@@ -17667,6 +17667,125 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "sp-b7-ss06-fairnessurteil",
+      "subjectId": "sp",
+      "title": "Was lässt sich über Fairness wirklich sagen?",
+      "scope": "Freiwillige schriftliche Klasse-7/8-Vorübung zu B7-SS06 des gültigen Sportplans 2026. Ob die Schule B7 in Lottes Klasse gewählt hat, ist unbekannt. Keine Partnerhandlung oder Sportleistung.",
+      "levelStatus": "grade78-flex",
+      "levelLabel": "Klasse 7/8 · freiwillige B7-Schriftübung",
+      "released": true,
+      "prerequisite": "Alle Personen und Aussagen sind erfunden. Du brauchst keine eigenen Sporterfahrungen, Gefühle oder körperlichen Fähigkeiten mitzuteilen. Die 20 Hauptpunkte und 6 getrennten Zusatzpunkte sind Lernfeedback, keine Sportnote. Es findet keine Partnerübung statt.",
+      "introduction": "Der Thüringer Sportplan 2026 nennt im Bewegungsfeld „Mit- und gegeneinander Kämpfen“ die Reflexion von Fairness. Er gibt keine Detailregel für diese erfundene Geschichte vor. N und M erhielten vor einer beaufsichtigten Modellrunde dieselbe Startbedingung. Ein Bericht soll nur das als sicher behaupten, was beobachtet wurde. Für ein Fairnessurteil braucht es ein Kriterium und eine Aussage über die Grenze der Beobachtung. Dieses Papiermodell beschreibt keine Bewegungstechnik und fordert keine Runde.",
+      "passage": "VIER FIKTIVE AUSSAGEN\nP: „Ich habe gesehen, dass N und M vor Beginn dieselbe Startbedingung erklärt bekamen.“\nQ: „N gewann; deshalb war die ganze Runde sicher fair.“\nR: „Ein Bericht nur über den Beginn entscheidet nicht, was später geschah.“\nS: „M sagt, N habe später eine Absprache missachtet. N bestreitet das. Eine weitere Beobachtung dazu liegt nicht vor.“",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und neue Berichtskarte zeigen",
+        "text": "ZUSATZKARTE NACH A–D · In einem anderen erfundenen Bericht hatten beide beim Beginn dieselbe Regelkarte. Später sah nur eine Person ein kurzes Stück der Runde. Das Ergebnis ist bekannt, aber ein vollständiger Ablaufbericht fehlt. Jemand folgert: „Der Gewinner hat sich bestimmt die ganze Zeit fair verhalten.“ Die sechs Zusatzpunkte zählen getrennt; auch diese Karte ist kein Bericht über eine wirkliche Sportstunde."
+      },
+      "tasks": [
+        {
+          "id": "sp-b7-ss06-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Plan und Modell trennen (4 Punkte): Nenne das Fairnessziel, das der Sportplan tatsächlich nennt; eine Regel dieser fiktiven Vereinbarung; eine Aussage, die du aus dem Plan nicht über Lottes Schule ableiten darfst; und eine praktische Leistung, die dieses Blatt nicht prüft.",
+          "sample": "Der Plan nennt Fairness reflektieren. Im Modell sollen Berichte nur Beobachtetes sicher behaupten. Aus dem Plan folgt weder, dass Lottes Schule B7 gewählt hat, noch welche Sportart oder Stufe sie nutzt. Tatsächliches faires Partnerverhalten oder Kampftechnik werden hier nicht geprüft.",
+          "criteria": [
+            "1 Punkt für Fairnessreflexion als Planziel.",
+            "1 Punkt für eine ausdrücklich fiktive Modellregel, etwa gleiche Startbedingung oder Berichtsgrenze.",
+            "1 Punkt für eine nicht belegte Schulwahl, Sportart, Stufe oder Unterrichtsfolge.",
+            "1 Punkt für eine nicht geprüfte praktische Leistung wie faires Partnerhandeln oder Technik."
+          ]
+        },
+        {
+          "id": "sp-b7-ss06-b",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Belege ordnen (6 Punkte): Wähle aus P–S eine direkt berichtete Beobachtung, einen unbegründeten Schluss über die ganze Runde und einen offenen Widerspruch. Begründe bei jeder Auswahl in einem Satz die unterschiedliche Beweiskraft. Jede Aussage darf höchstens einmal gewählt werden; eine passende Aussage bleibt übrig.",
+          "sample": "P berichtet eine Beobachtung zur gleichen Erklärung am Beginn, nicht zur ganzen Runde. Q schließt vom Sieg ohne Beleg auf vollständige Fairness. S enthält einen offenen Widerspruch ohne weitere Beobachtung. R bleibt übrig und benennt die Grenze eines kurzen Berichts.",
+          "criteria": [
+            "Je 1 Punkt für P als direkte Anfangsbeobachtung, Q als überdehnten Schluss und S als offenen Widerspruch = 3.",
+            "Je 1 Punkt für eine sachlich passende Begründung ihrer unterschiedlichen Beweiskraft = 3. R ist eine Berichtsgrenze, keine zusätzliche Beobachtung."
+          ]
+        },
+        {
+          "id": "sp-b7-ss06-c",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C · Fair urteilen (6 Punkte): Eine fiktive Person schreibt: „M hat sicher recht, N war unfair.“ Antworte sachlich mit einem Fairnesskriterium und zwei verschiedenen passenden Details aus P–S. Sage genau, was noch offen ist. Schlage einen fairen nächsten Klärungsschritt vor, ohne jemanden zu einer Wiederholung oder körperlichen Übung aufzufordern.",
+          "sample": "Ein Kriterium ist, gemeinsam vereinbarte Bedingungen einzuhalten. P belegt eine gleiche Erklärung am Anfang; S zeigt widersprüchliche Aussagen zum späteren Verlauf. Darum ist weder Ms Vorwurf bewiesen noch N pauschal entlastet. Der spätere Ablauf bleibt offen. Eine zuständige erwachsene Fachperson könnte vorhandene vollständige Beobachtungsnotizen prüfen oder beide Aussagen ohne Vorfestlegung anhören.",
+          "criteria": [
+            "1 Punkt für ein prüfbares Fairnesskriterium.",
+            "Je 1 Punkt für zwei verschiedene passende Details aus P–S = 2.",
+            "1 Punkt für die Zurückweisung des sicheren Urteils ohne pauschale Entlastung.",
+            "1 Punkt für die ausdrücklich offene Reichweite des späteren Ablaufs.",
+            "1 Punkt für einen fairen Klärungsschritt ohne Wiederholung, Kinder-Schiedsrichterrolle oder Technikentscheidung."
+          ]
+        },
+        {
+          "id": "sp-b7-ss06-d",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "D · Eigene Begründung prüfen (4 Punkte): Benenne eine Stärke deines schriftlichen Arguments zu C und eine konkrete Schwäche oder Unsicherheit. Formuliere dann einen überarbeiteten Satz, der die Schwäche wirklich verbessert. Du bewertest nur deinen Text, nicht deine Person oder deinen Körper.",
+          "sample": "Eine Stärke ist, dass ich P und S getrennt habe. Schwach war mein Satz „N war bestimmt fair“, weil er mehr behauptet, als die Berichte zeigen. Besser: „Über Ns Verhalten nach dem Beginn ist ohne weitere Beobachtung kein sicheres Urteil möglich.“ Auch andere textbezogene, sachlich passende Revisionen gelten.",
+          "criteria": [
+            "1 Punkt für eine konkret benannte textbezogene Stärke.",
+            "1 Punkt für eine konkret benannte textbezogene Schwäche oder Unsicherheit.",
+            "1 Punkt für einen überarbeiteten Satz.",
+            "1 Punkt dafür, dass die Überarbeitung die benannte Schwäche inhaltlich behebt; keine Bewertung persönlicher Eigenschaften."
+          ]
+        },
+        {
+          "id": "sp-b7-ss06-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Zusatzkarte (6 getrennte Punkte): 1. Welche Angabe der neuen Karte ist direkt belegt, und welche Folgerung über die ganze Runde geht zu weit? 2. Nenne ein Fairnesskriterium, das man in einem vollständigeren, fachkundig erhobenen Bericht prüfen könnte, und erkläre, warum der kurze Bericht nicht genügt. 3. Schreibe einen vorsichtigen Satz, der das bekannte Ergebnis und die offene Fairnessfrage zugleich wiedergibt.",
+          "sample": "Belegt sind die gemeinsame Regelkarte am Beginn und das bekannte Ergebnis; ein kurzer späterer Sichtausschnitt belegt nicht faires Verhalten während der ganzen Runde. Ein Kriterium wäre die Einhaltung der für beide geltenden Absprachen; dafür fehlt der vollständige Ablauf. Vorsichtig: „Das Ergebnis ist bekannt, aber über Fairness während der ganzen Runde ist damit noch nichts entschieden.“",
+          "criteria": [
+            "1 Zusatzpunkt für einen direkt belegten Teilbefund und 1 für die überzogene Gesamtaussage = 2.",
+            "1 Zusatzpunkt für ein prüfbares Fairnesskriterium und 1 für die Grenze des kurzen Berichts = 2.",
+            "1 Zusatzpunkt für das bekannte Ergebnis und 1 für die weiterhin offene Fairnessfrage in einem vorsichtigen Satz = 2."
+          ]
+        }
+      ],
+      "practice": {
+        "unscored": true,
+        "title": "Faire Handlung nur im gewählten Schulunterricht beobachten",
+        "childNote": "Dieses Blatt prüft keine Fairnesshandlung. Ob B7 an deiner Schule stattfindet, entscheidet die Schule. Nichts zu Hause nachspielen oder filmen.",
+        "childSteps": [
+          "Faire Handlung und die eigene Umsetzung können nur im passenden, betreuten Unterricht fachkundig beobachtet werden."
+        ],
+        "adultNote": "B7 ist alternativ-verbindlich; Schulwahl und Stufe sind unbekannt. Die aktuelle Schulsport-Sicherheitsvorschrift und örtliche Bedingungen sind für Praxis hier nicht verifiziert. Textpunkte betreffen nur begrenzte Berichte und Argumente. Praktische Umsetzung, Selbsteinschätzung bei der Umsetzung von Fairness und Sicherheit ohne fachkundige Unterrichtsbeobachtung als „nicht erhoben“ kennzeichnen.",
+        "adultCriteria": [
+          "Schulwahl und Stufe belegt oder „nicht erhoben“.",
+          "Tatsächliches faires Handeln und Selbsteinschätzung bei seiner Umsetzung nur durch fachkundige Unterrichtsbeobachtung belegt oder „nicht erhoben“.",
+          "Keine Partnerhandlung, Technik oder Sicherheitskompetenz aus der Schriftaufgabe ableiten."
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "Thüringer Sport Gymnasium Erprobung 2026, B7 §2.7, PDF-S. 63 und 67: Fairness reflektieren; B7 alternativ-verbindlich, konkrete Klasse-7-Schulwahl/Stufe unbekannt. Die Selbstbeurteilung bei der Umsetzung von Fairness wird im Papierfall nicht geprüft.",
+        "checkedAt": "2026-10-27"
+      }
+    },
+    {
       "id": "sp-b1-s01-laufmomente",
       "subjectId": "sp",
       "title": "Zwei Laufmomente – was lässt sich beschreiben?",

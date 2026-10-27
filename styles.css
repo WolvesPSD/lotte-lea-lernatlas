@@ -369,3 +369,5 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 .feedback-before-update[hidden]{display:none!important}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="go-g01-c"]{break-inside:avoid;page-break-inside:avoid}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="de-stichpunkte-b"]{break-before:page;break-inside:avoid;page-break-inside:avoid}}
+
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="sp-b7-ss06-c"]{break-before:page;break-inside:avoid;page-break-inside:avoid}}

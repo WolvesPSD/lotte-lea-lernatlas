@@ -1,8 +1,8 @@
 {
-  "builtAt": "2026-10-27T19:37:52.108Z",
-  "releaseVersion": "2026.10.27-ma-zahlbereiche.1",
+  "builtAt": "2026-10-27T19:52:25.833Z",
+  "releaseVersion": "2026.10.27-de-stichpunkte.1",
   "newTopicIds": [
-    "ma-zahlbereiche-rechenwege"
+    "de-stichpunktformen-belege"
   ],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
@@ -24,9 +24,12 @@
     "Geografie G-01: freiwilliger Ende-8-Vorgriff zur Sonnengeometrie mit erfundenen Orten. Fünf Hauptaufgaben (20 Kriterienpunkte), nach ausdrücklich bestätigter Erwachsenenrückmeldung eine Zusatzkarte (6 getrennte Punkte).",
     "206 Themen/967 Aufgabenfelder. Die bisherige 205er Basis und Assets bleiben unverändert; Geltung des Geografieplans 2013 für 2026/27, reale Unterrichtsfolge und Jahresabdeckung ungeklärt.",
     "Mathematik M2: freiwilliger Ende-8-Ausblick zu Zahlbereichserweiterungen N→Z→Q und rationalem Addieren mit Rechengesetzen. Drei Hauptaufgaben mit 20 Kriterienpunkten, freiwilliger Transfer mit 6 getrennten Punkten; fiktive Kühlkammerwerte.",
-    "207 Themen/971 Antwortfelder; die bisherigen 206 Themen und alle Assets sowie App-Funktionen bleiben unverändert. Keine bestätigte Klasse-7-Unterrichtseinheit, Kinderleistung oder volle M2-/Jahresabdeckung."
+    "207 Themen/971 Antwortfelder; die bisherigen 206 Themen und alle Assets sowie App-Funktionen bleiben unverändert. Keine bestätigte Klasse-7-Unterrichtseinheit, Kinderleistung oder volle M2-/Jahresabdeckung.",
+    "Deutsch D-W5: freiwilliger Ende-8-Ausblick zu zwei Stichpunktformen. Drei Hauptaufgaben (12 Kriterienpunkte), danach die getrennte D1-Änderung (4 Zusatzpunkte), eigener leerer Liste-/Tabellenbogen ohne Lösungen.",
+    "Im Erwachsenen-A4-Druck beginnt die dreizeilige Aussage–Beleg/Grenze-Rubrik auf einer neuen Seite und bleibt zusammen.",
+    "208 Themen/975 Antwortfelder; 207 bisherige Themen und App-Funktionen unverändert. Kein Nachweis für Kinderleistung, aktuelle Klasse-7-Unterrichtseinheit oder volle D-W5-/Jahresabdeckung."
   ],
-  "rollbackCommit": "64369d55f7419bd6f03c26406d3fdfa130c0e3b2",
+  "rollbackCommit": "13ea5afe5ad6f363a12a8491fedc2f15ed5bd505",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -234,7 +237,8 @@
     "ma-termstruktur-kartons",
     "sp-b2-m04-regelwerkstatt",
     "go-g01-beleuchtungszonen",
-    "ma-zahlbereiche-rechenwege"
+    "ma-zahlbereiche-rechenwege",
+    "de-stichpunktformen-belege"
   ],
   "subjects": [
     "en",
@@ -322,7 +326,8 @@
     "mbi-i4-modellbias-person",
     "mbi-i2-eigenrecherche-produkt",
     "ma-termstruktur-kartons",
-    "ma-zahlbereiche-rechenwege"
+    "ma-zahlbereiche-rechenwege",
+    "de-stichpunktformen-belege"
   ],
   "unclearValidityTopics": [
     "et-algebra-kulturtransfer",
@@ -344,5 +349,5 @@
     "mu09-pentatonik-tonvorrat",
     "go-g01-beleuchtungszonen"
   ],
-  "note": "Isolierter M2-Kandidat aus aktuellem Pin; frische Browser-/Rollen-/Druck- und A4-Gates vor Upload. Externe Mathematikfachsicht und reale Kinderbearbeitung offen."
+  "note": "Isolierter D-W5-Kandidat aus aktuellem Onlinepin. Vor Upload frische Rollen-/Stufen-/Browser-/A4- und Diff-Gates; externe Deutschfachsicht und reale Kinderbearbeitung offen."
 }

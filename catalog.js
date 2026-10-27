@@ -5885,6 +5885,102 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "de-stichpunktformen-belege",
+      "subjectId": "de",
+      "title": "Welche Stichpunkte helfen beim Schreiben?",
+      "scope": "Freiwilliger Ausblick auf ein Ende-8-Ziel. Zwei Formen der Stichpunkterstellung stehen in § 2.2.4 unter Klassenstufe 8; Lottes aktuelle Unterrichtsfolge ist unbekannt.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Alle Angaben sind erfunden. Nutze nur die AG-Notiz Z1–Z5. Schreibe keine Namen oder echten Schuldaten auf. Die spätere D1-Karte erscheint erst nach deinen Antworten A–C. Keine echte Ankündigung veröffentlichen.",
+      "introduction": "Du bereitest eine kurze Ankündigung vor und prüfst drei übertriebene Aussagen. Dazu verwendest du zwei verschiedene Formen: eine geordnete Stichwortliste für die Textplanung und eine Aussage–Beleg/Grenze-Tabelle für den Faktencheck. Schreibe knappe Stichpunkte statt eines Aufsatzes. Die Kriterien dienen der Selbstprüfung, nicht als Schulnote. Freie Antworten kann die App nicht automatisch bewerten.",
+      "lab": {
+        "path": "assets/de-stichpunktformen-bogen.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-stichpunktformen-bogen.html",
+        "title": "Leerer Stichpunktbogen",
+        "description": "Druckbare Liste und Tabelle ohne Lösungen oder D1-Karte; Antworten bleiben auf deinem Blatt oder im Übungsraum.",
+        "printNote": "Der leere Bogen mit vier Listenzeilen und drei Tabellenzeilen kann separat gedruckt werden. Das Kinderblatt zeigt die spätere D1-Karte erst nach A–C.",
+        "scoredInteraction": false,
+        "published": true
+      },
+      "passage": "FIKTIVE AG-NOTIZ VOM 9. OKTOBER 2026\nZ1 Eine erfundene Schul-AG erhielt 30 anonyme Rückmeldungen in einer kleinen Ideenrunde. Das war keine Befragung der ganzen Schule.\nZ2 18 Rückmeldungen nannten eine ruhige Leseecke, 8 nannten Gruppenspiele, 4 enthielten keine Entscheidung.\nZ3 Raum A4 kann für einen geplanten Probetermin am Dienstag von 15 bis 16 Uhr genutzt werden. Ein wöchentliches Angebot ist nicht beschlossen.\nZ4 Für diesen einen Termin stehen 12 Bücher und 6 Hocker bereit. Weitere Materialien sind nicht zugesagt.\nZ5 Die Aufsicht ist angefragt, aber noch nicht zugesagt. Ohne Aufsicht findet der Probetermin nicht statt.\n\nNEUE, VERKÜRZTE PROBEFASSUNG NUR FÜR DIESE ÜBUNG\nA2 „Alle waren begeistert und wollten täglich lesen.“\nA3 „Raum A4 ist die ganze Woche frei; die Bücher reichen sicher für alle.“\nA4 „Ab morgen öffnen wir jeden Tag.“",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "mainTaskCount": 3,
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "Antworten A–C festhalten und D1 zeigen",
+        "text": "SPÄTERE FIKTIVE MITTEILUNG D1 · 12. Oktober 2026: Eine zuständige Aufsicht für den einen geplanten Probetermin am Dienstag von 15 bis 16 Uhr ist nun zugesagt. Über eine wöchentliche Nutzung von Raum A4 wurde weiterhin nicht entschieden. Z1–Z4 bleiben unverändert."
+      },
+      "tasks": [
+        {
+          "id": "de-stichpunkte-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "adultOnlySolution": true,
+          "prompt": "A · Geordnete Stichwortliste (4 Hauptpunkte): Schreibe vier kurze Stichpunkte in einer für eine knappe Ankündigung sinnvollen Reihenfolge: (1) Reichweite der Ideenrunde, (2) Interesse und Alternativen, (3) geplanter Termin, Raum und Ausstattung, (4) offene Aufsicht. Schreibe keine ganzen Sätze. Nenne zu jedem Punkt die passenden Z-Nummern.",
+          "sample": "1. 30 Rückmeldungen aus kleiner Ideenrunde, keine Schulbefragung (Z1). 2. 18 Leseecke, 8 Gruppenspiele, 4 ohne Entscheidung (Z2). 3. Ein geplanter Dienstag 15–16 Uhr in A4; 12 Bücher und 6 Hocker bereit (Z3–Z4). 4. Aufsicht angefragt, noch offen; ohne sie kein Termin (Z5).",
+          "criteria": [
+            "1 Punkt: knapper, richtig belegter Stichpunkt zur kleinen Ideenrunde und ihrer begrenzten Reichweite (Z1).",
+            "1 Punkt: Interesse, Alternative und offene Rückmeldungen aus Z2 in knapper Form unterschieden.",
+            "1 Punkt: genau ein geplanter Termin in A4 aus Z3 und Ausstattung aus Z4 zusammen richtig genannt; fehlt Z3 oder Z4, 0 statt 1 Punkt.",
+            "1 Punkt: Aufsicht als noch offene Bedingung aus Z5 erfasst; Reihenfolge für eine Ankündigung nutzbar und die Form insgesamt stichpunktartig."
+          ]
+        },
+        {
+          "id": "de-stichpunkte-b",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "adultOnlySolution": true,
+          "prompt": "B · Aussage–Beleg/Grenze-Tabelle (6 Hauptpunkte): Prüfe A2, A3 und A4 jeweils getrennt. Schreibe für jede Zeile zuerst eine kurze sachlich haltbare Ersatz-Aussage und daneben die Z-Nummern mit der entscheidenden Grenze. Nutze etwa „A2 | Ersatz | Beleg und Grenze“ als Tabellenzeile; bei A3 und A4 genauso. Schreibe Stichpunkte, keine ganzen Absätze.",
+          "sample": "A2 | 18 der 30 Rückmeldungen nannten die Leseecke | Z1–Z2; nur kleine Ideenrunde, nicht „alle“ oder täglich. A3 | A4, 12 Bücher und 6 Hocker für einen geplanten Probetermin | Z3–Z4; keine ganze Woche und keine sichere Ausstattung für alle. A4 | Ein einmaliger Probetermin wird erwogen | Z3/Z5; Aufsicht noch offen, keine tägliche Öffnung.",
+          "criteria": [
+            "1 Punkt: A2 durch eine kurze Ersatz-Aussage mit 18 von 30 Rückmeldungen ersetzt.",
+            "1 Punkt: zu A2 Z1–Z2 und begrenzte Ideenrunde statt „alle/täglich“ als Grenze genannt.",
+            "1 Punkt: A3 durch einen auf einen geplanten Termin begrenzten Raum-/Ausstattungssatz ersetzt.",
+            "1 Punkt: zu A3 Z3–Z4 und weder ganze Woche noch gesicherte Ausstattung für alle als Grenze genannt.",
+            "1 Punkt: A4 durch einen noch bedingten, einmaligen Probetermin ersetzt.",
+            "1 Punkt: zu A4 Z3/Z5 und offene Aufsicht statt täglicher Öffnung als Grenze genannt."
+          ]
+        },
+        {
+          "id": "de-stichpunkte-c",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "adultOnlySolution": true,
+          "prompt": "C · Form wählen (2 Hauptpunkte): Welche der beiden Formen hilft dir eher, eine kurze Ankündigung zu gliedern? Welche hilft dir eher, übertriebene Aussagen vor Veröffentlichung zu prüfen? Begründe jede Wahl mit einem konkreten Unterschied der Formen. Prüfe danach selbst: Hat jeder Stichpunkt einen Z-Beleg, und wo hast du eine Behauptung ausdrücklich begrenzt?",
+          "sample": "Die geordnete Liste hilft mir beim Aufbau der Ankündigung, weil sie die Punkte in eine sinnvolle Reihenfolge bringt. Die Tabelle hilft mir beim Prüfen, weil jede alte Aussage direkt neben ihrem Beleg und ihrer Grenze steht. Eine andere begründete Zuordnung kann ebenfalls richtig sein.",
+          "criteria": [
+            "1 Punkt: Form für Gliederung mit einer konkreten Eigenschaft wie Reihenfolge und Knappheit begründet.",
+            "1 Punkt: Form für Übertreibungsprüfung mit einer konkreten Eigenschaft wie direkter Zuordnung von Aussage, Beleg und Grenze begründet; eine abweichende, sachlich überzeugende Wahl zählt ebenfalls."
+          ]
+        },
+        {
+          "id": "de-stichpunkte-d",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Freiwilliger Transfer nach D1 (4 Zusatzpunkte): (1) Ändere genau den Listenpunkt, der die Aufsicht betraf, und markiere D1 als neuen Beleg. (2) Welche zusätzliche, erst durch D1 belegte Aussage über den einen beaufsichtigten Probetermin darf nun in deine A4-Ersatz-Aussage? Nenne D1 und die Grenze. (3) Nenne eine Aussage aus Z1–Z4, die D1 nicht ändert, und begründe kurz. Behaupte weder, dass der Termin bereits stattfand, noch eine tägliche oder wöchentliche Öffnung.",
+          "sample": "1. „Aufsicht für einen Dienstag-Probetermin zugesagt (D1)“. 2. „Der beaufsichtigte Probetermin am Dienstag 15–16 Uhr kann geplant werden“; D1 belegt die Aufsicht nur für diesen einen Termin, nicht tägliche oder wöchentliche Nutzung. 3. „18 Rückmeldungen für die Leseecke (Z2)“ bleibt unverändert, denn D1 ändert nur den Aufsichtsstand.",
+          "criteria": [
+            "1 Zusatzpunkt: den Aufsichtspunkt knapp aktualisiert und D1 als neuen Beleg genannt.",
+            "1 Zusatzpunkt: die nun belegte Aufsicht für genau den einen geplanten Dienstagstermin in A4 ergänzt.",
+            "1 Zusatzpunkt: D1 mit der Grenze „keine tägliche oder wöchentliche Öffnung beschlossen“ verknüpft; nicht als bereits durchgeführter Termin ausgegeben.",
+            "1 Zusatzpunkt: eine richtige, weiterhin unveränderte Z1–Z4-Aussage mit Quelle und kurzer Begründung genannt."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Deutsch Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. §2.2.4/PDF-S.29 nennt unter Klassenstufe 8: verschiedene Formen der Stichpunkterstellung anwenden.",
+        "checkedAt": "2026-10-27"
+      }
+    },
+    {
       "id": "de-drama-lyrik-spuren",
       "subjectId": "de",
       "title": "Eine Szene und ein Gedicht: Spuren lesen",

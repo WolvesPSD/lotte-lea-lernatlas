@@ -5026,6 +5026,99 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-termstruktur-kartons",
+      "subjectId": "ma",
+      "title": "Karten im Karton: Terme umformen",
+      "scope": "Freiwilliger Klasse-8-Ausblick zu einem engen M3-Teilziel: Termstruktur verstehen und Terme durch Ausmultiplizieren, Zusammenfassen und Ausklammern gleichwertig umformen. Keine bestätigte aktuelle Klasse-7-Einheit oder vollständige M3-Abdeckung.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Hilfreich sind einfache Variablen, Addition und die Regel vor einer Minusklammer. Die Kartons sind erfunden. Rechne zuerst selbst; einzelne eingesetzte Werte sind Gegenproben und ersetzen keinen symbolischen Umformweg.",
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. § 2.2.3 PDF-S. 25–26 nennt unter Klassenstufe 8 Termstrukturen sowie äquivalentes Zusammenfassen, Ausmultiplizieren und Ausklammern; eigene Fehler gezielt korrigieren.",
+        "checkedAt": "2026-10-22"
+      },
+      "introduction": "Ein Term beschreibt hier den Kartenbestand nach drei Vorgängen. Du erklärst zuerst die Struktur, formst dann denselben Term auf drei Arten um und prüfst anschliessend einen fremden Fehler sowie deine eigene Rechnung. Stütze: a(b+c)=ab+ac; vor einer Minusklammer wird der ganze Klammerinhalt mit −1 multipliziert. Im anderen Beispiel ist 3n+5 ein Term, 3n+5=17 eine Gleichung mit gesuchtem n. Ein Rechner kann einzelne Werte kontrollieren; die App bewertet offene Umformungen nicht automatisch. Der freiwillige Transfer hat eigene Punkte.",
+      "passage": "ERFUNDENE KARTENWERKSTATT\nIn jedem gleich gefüllten Karton liegen n gewöhnliche und 2 Zusatzkarten. n ist eine nichtnegative ganze Zahl.\nDie Werkstatt erhält zuerst 3 Kartons, danach 2 weitere und gibt 1 ganzen Karton zurück. Es gehen keine einzelnen Karten verloren.\nAuf dem Zettel steht für den Endbestand:\nT(n) = 3(n+2) + 2(n+2) − (n+2).",
+      "tasks": [
+        {
+          "id": "ma-termstruktur-1",
+          "kind": "reflection",
+          "adultOnlySolution": true,
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "prompt": "A. Termstruktur (4 Kriterienpunkte): Erkläre, was n, n+2, 3(n+2), 2(n+2) und −(n+2) in der Geschichte bedeuten. Wie viele volle Kartons bleiben nach den drei Vorgängen? Begründe die Zahl ohne Ausmultiplizieren.",
+          "sample": "n ist die nichtnegative ganze Zahl gewöhnlicher Karten je Karton. n+2 zählt mit den zwei Zusatzkarten alle Karten eines Kartons. 3(n+2) und 2(n+2) zählen die zuerst und später erhaltenen Kartons; −(n+2) zieht einen ganzen zurückgegebenen Karton ab. 3+2−1=4 gleich gefüllte Kartons bleiben.",
+          "criteria": [
+            "1 Punkt: n als nichtnegative ganze Zahl gewöhnlicher Karten je Karton.",
+            "1 Punkt: n+2 als alle Karten je Karton einschliesslich zweier Zusatzkarten.",
+            "1 Punkt: die drei, zwei und ein ganzer zurückgegebener Karton werden den drei Termteilen samt Minus sinnvoll zugeordnet.",
+            "1 Punkt: netto vier gleich gefüllte Kartons aus 3+2−1 begründet; gleichwertige Worte zählen."
+          ]
+        },
+        {
+          "id": "ma-termstruktur-2",
+          "kind": "reflection",
+          "adultOnlySolution": true,
+          "points": 9,
+          "writingLines": 13,
+          "inputRows": 13,
+          "prompt": "B. Drei Umformungen (9 Kriterienpunkte): Multipliziere jede der drei Klammern aus. Fasse die gleichartigen n-Terme und reinen Zahlen zusammen. Klammere aus dem vereinfachten Term den grössten gemeinsamen positiven ganzzahligen Faktor aus und notiere alle Fassungen. Setze n=4 in den ursprünglichen und den vereinfachten Term ein, vergleiche die Werte und erkläre ihren Sachbezug. Eine Einsetzung allein beweist die Gleichheit nicht für alle n.",
+          "sample": "3(n+2)=3n+6; 2(n+2)=2n+4; −(n+2)=−n−2. Zusammen: 3n+6+2n+4−n−2=(3+2−1)n+(6+4−2)=4n+8. Ausgeklammert: 4(n+2). Bei n=4: ursprünglich 3·6+2·6−6=24; vereinfacht 4·4+8=24 Karten in vier Kartons. Die symbolischen Schritte zeigen die Gleichwertigkeit, n=4 kontrolliert nur einen Wert.",
+          "criteria": [
+            "1 Punkt: 3(n+2)=3n+6.",
+            "1 Punkt: 2(n+2)=2n+4.",
+            "1 Punkt: −(n+2)=−n−2.",
+            "1 Punkt: n-Koeffizienten zu 4n zusammengefasst.",
+            "1 Punkt: Zahlenterme zu +8 zusammengefasst.",
+            "1 Punkt: 4(n+2) als korrekt ausgeklammerte Form mit Faktor 4.",
+            "1 Punkt: ursprünglicher Term bei n=4 ergibt 24.",
+            "1 Punkt: vereinfachter Term bei n=4 ergibt ebenfalls 24.",
+            "1 Punkt: beide Werte als 24 Karten in vier Kartons erklärt; ein einzelner Zahlenwert allein ist kein allgemeiner Gleichwertigkeitsbeweis."
+          ]
+        },
+        {
+          "id": "ma-termstruktur-3",
+          "kind": "reflection",
+          "adultOnlySolution": true,
+          "points": 7,
+          "writingLines": 11,
+          "inputRows": 11,
+          "prompt": "C. Fremdfehler und eigene Kontrolle (7 Kriterienpunkte): Ein fremder Zettel macht aus −(n+2) den Ausdruck −n+2. Markiere die fehlerhafte Vorzeichenregel und korrigiere sie. Vereinfache den fehlerhaften Term selbst. Setze n=0 in den ursprünglichen Term, den fehlerhaften Term und deinen eigenen vereinfachten Term aus B ein. Wenn deine B-Fassung abweicht, korrigiere sie; wenn sie passt, erkläre die Übereinstimmung. Nenne eine konkrete Kontrolle für künftige Minusklammern.",
+          "sample": "Beim Minus vor der Klammer muss auch die +2 negativ werden: −(n+2)=−n−2. Der fehlerhafte Weg liefert 3n+6+2n+4−n+2=4n+12. Bei n=0 zählt der Ausgangsterm 3·2+2·2−2=8 Karten; der falsche Term ergibt 12. Meine B-Fassung 4n+8 ergibt 8 und passt zu diesem Spezialfall. Vor dem Zusammenfassen schreibe ich −(n+2)=(-1)n+(-1)2 und kontrolliere bei n=0 gegen die Kartons. Eine andere tatsächlich gezeigte eigene Korrektur zählt ebenfalls.",
+          "criteria": [
+            "1 Punkt: die Stelle −(n+2) → −n+2 als Fehler erkannt.",
+            "1 Punkt: −n−2 mit Wirkung von −1 auf beide Klammerterme erklärt.",
+            "1 Punkt: fehlerhaften Term nachvollziehbar zu 4n+12 hergeleitet; bloss der Endterm reicht nicht.",
+            "1 Punkt: ursprünglicher Term bei n=0 ergibt 8 Karten.",
+            "1 Punkt: fehlerhafter Term bei n=0 ergibt 12 und widerspricht dem Original.",
+            "1 Punkt: eigene B-Fassung bei n=0 wirklich verglichen und Abweichung berichtigt oder Übereinstimmung erklärt; eine Musterlösung ohne eigene Kontrolle genügt nicht.",
+            "1 Punkt: konkrete Vorzeichenkontrolle für künftige Minusklammern, nicht nur „besser aufpassen“."
+          ]
+        },
+        {
+          "id": "ma-termstruktur-4",
+          "kind": "reflection",
+          "adultOnlySolution": true,
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "prompt": "Freiwilliger Transfer · 6 eigene Punkte, nicht zu A–C addieren: Vereinfache F(x)=2(2x−1)+3(x+2)−x zuerst durch Ausmultiplizieren und Zusammenfassen, dann durch Ausklammern. Vergleiche ursprünglichen und letzten Term bei x=2. x ist eine beliebige nichtnegative ganze Zahl.",
+          "sample": "2(2x−1)=4x−2 und 3(x+2)=3x+6; −x bleibt negativ. Daher F(x)=4x−2+3x+6−x=6x+4=2(3x+2). Bei x=2: 2·3+3·4−2=16 und 2(3·2+2)=16. Das ist eine Gegenprobe für x=2, kein Beweis für alle x.",
+          "criteria": [
+            "1 Punkt: erster Klammerterm zu 4x−2 ausmultipliziert.",
+            "1 Punkt: zweiter Klammerterm zu 3x+6 ausmultipliziert.",
+            "1 Punkt: letztes −x bleibt negativ.",
+            "1 Punkt: richtig zu 6x+4 zusammengefasst.",
+            "1 Punkt: zu 2(3x+2) ausgeklammert.",
+            "1 Punkt: bei x=2 beide Formen richtig als 16 verglichen."
+          ]
+        }
+      ]
+    },
+    {
       "id": "ma-umfang-identitaet-rechtecke",
       "subjectId": "ma",
       "title": "Zwei Rechtecke, derselbe Umfang?",

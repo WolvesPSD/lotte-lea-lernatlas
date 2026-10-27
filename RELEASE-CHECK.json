@@ -1,7 +1,9 @@
 {
-  "builtAt": "2026-10-27T18:32:55.706Z",
-  "releaseVersion": "2026.10.27-de-dl2-m20.2",
-  "newTopicIds": [],
+  "builtAt": "2026-10-27T18:43:18.413Z",
+  "releaseVersion": "2026.10.27-ma-termstruktur.1",
+  "newTopicIds": [
+    "ma-termstruktur-kartons"
+  ],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
     "199 Themen und alle Aufgaben, Lösungen, App-Funktionen und Assets unverändert; keine neue Kinderleistung oder Unterrichtsfolge behauptet.",
@@ -14,9 +16,11 @@
     "202 Themen/942 Aufgabenfelder. Beobachtung und Korrektur einer echten Bewegung sowie die weiteren Disziplinen bleiben ausschliesslich in beaufsichtigter Schulpraxis offen; keine Heimübung oder persönlichen Sportdaten. Die bisherigen 201 Themen bleiben unverändert.",
     "Deutsch D-L2/M20: Freiwilliger literarischer 7/8-Visualisierungsweg mit zwei eigenen Gedichten, eigener leerer A4-SVG-Vorlage und sieben Hauptfragen (20 Punkte). Erst nach dem ersten Motivnetz folgen ein dritter eigener Text und drei getrennte Zusatzfragen (6 Punkte).",
     "203 Themen/952 Aufgabenfelder. Die tatsächliche visuelle Karte, zweite Fassung und Mittelwahl werden von Erwachsenen am Produkt geprüft; Browsernotizen allein zählen nicht als Visualisierungsnachweis. Die bisherigen 202 Themen bleiben unverändert.",
-    "Nur den historischen Prüfhinweis im Manifest korrigiert; 203 Themen/952 Aufgabenfelder, Funktionen, Grafiken und Audiodateien unverändert."
+    "Nur den historischen Prüfhinweis im Manifest korrigiert; 203 Themen/952 Aufgabenfelder, Funktionen, Grafiken und Audiodateien unverändert.",
+    "Mathematik M3: Freiwilliger Ende-8-Ausblick zu drei gleichwertigen Termumformungen, fremdem Minusklammerfehler und eigenem Abgleich. Drei Hauptfragen mit 20 Kriterienpunkten, freiwilliger Transfer mit getrennten 6 Punkten. Vier Kinderantworten zeigen keine Musterlösung.",
+    "204 Themen/956 Aufgabenfelder; alle bisherigen 203 Themen und Assets bleiben unverändert. Eine tatsächliche eigene Korrektur, externe Mathematikfachprüfung, Klasse-7-Stofffolge und Jahresabdeckung sind nicht belegt."
   ],
-  "rollbackCommit": "4da64f9d53f3e9f5f0bc0ed80f871bda73e75e0f",
+  "rollbackCommit": "17c4a88ed959bac1ea14c57d172ada7e83dbe6c0",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -220,7 +224,8 @@
     "de-diagramm-absicht-np",
     "sp-b1-m04-ausdauermethoden",
     "sp-b1-m05-armpositionen",
-    "de-dl2-m20-motivnetz"
+    "de-dl2-m20-motivnetz",
+    "ma-termstruktur-kartons"
   ],
   "subjects": [
     "en",
@@ -306,7 +311,8 @@
     "mbi-i6-o01-access",
     "ma-m2-kopfrechnen",
     "mbi-i4-modellbias-person",
-    "mbi-i2-eigenrecherche-produkt"
+    "mbi-i2-eigenrecherche-produkt",
+    "ma-termstruktur-kartons"
   ],
   "unclearValidityTopics": [
     "et-algebra-kulturtransfer",
@@ -327,5 +333,5 @@
     "et-liebesformen-werkevergleich",
     "mu09-pentatonik-tonvorrat"
   ],
-  "note": "Deutsch D-L2/M20 ist ein freiwilliger Klasse-7-Einstieg in das Ende-8-Ziel. Manuskript und A4-Druck wurden unabhängig eng nachgeprüft; Browser, Stufung und Datenschutz lokal getestet. Der öffentliche Auslieferungsbeleg steht in der Projekt-Prüfkarte. Echte Kinderkarte, beobachtete Mittelwahl, externe Deutschfachsicht und Jahresabnahme bleiben offen."
+  "note": "M3-Termstruktur: isolierter Kandidat nach unabhängiger enger Fach- und Rollen-QA. Kinder-Onlineweg, A4-Druck, Browser und öffentliches Paket vor einer Veröffentlichung getrennt prüfen. Freiwilliger Ende-8-Ausblick, keine Kinderleistung oder Jahresabnahme."
 }

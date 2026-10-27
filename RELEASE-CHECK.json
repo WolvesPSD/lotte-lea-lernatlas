@@ -1,18 +1,17 @@
 {
-  "builtAt": "2026-10-27T17:49:20.630Z",
-  "releaseVersion": "2026.10.27-sp-b1-m04.1",
-  "newTopicIds": [
-    "sp-b1-m04-ausdauermethoden"
-  ],
+  "builtAt": "2026-10-27T17:56:35.606Z",
+  "releaseVersion": "2026.10.27-sp-b1-m04.2",
+  "newTopicIds": [],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
     "199 Themen und alle Aufgaben, Lösungen, App-Funktionen und Assets unverändert; keine neue Kinderleistung oder Unterrichtsfolge behauptet.",
     "Deutsch D-L5: Ein freiwilliger 7/8-Diagrammvergleich zu möglicher Gestaltungsabsicht ergänzt den vorhandenen Schalterfall. Vier Hauptfragen (20 Punkte), danach zwei getrennte Transferfragen (6 Punkte), fiktive Daten und zugänglicher Textweg.",
     "200 Themen/921 Aufgabenfelder; die anderen 199 Themen und bisherigen Assets bleiben unverändert. Eine gezielte CSS-Regel verbessert den Erwachsenendruck dieses Falls. Keine echte Redaktionsabsicht, Kinderleistung oder Klasse-7-Unterrichtsfolge behauptet.",
     "Sport B1-M04: Freiwillige schriftliche Klasse-7-Vorbereitung zu Ausdauermethoden anhand erfundener Pläne und einer begrenzten Notiz. Acht Hauptaufgaben (20 Punkte), danach drei getrennte Variantenfragen (6 Punkte).",
-    "201 Themen/932 Aufgabenfelder. Die beaufsichtigte Sportpraxis und die tatsächliche Schulaufgabe bleiben ausdrücklich offen; keine Heimübung, Belastungsvorgabe oder persönliche Sportdaten. Die übrigen 200 Themen bleiben unverändert; eine Druckregel hält kurze Erwachsenenlösungen zusammen."
+    "201 Themen/932 Aufgabenfelder. Die beaufsichtigte Sportpraxis und die tatsächliche Schulaufgabe bleiben ausdrücklich offen; keine Heimübung, Belastungsvorgabe oder persönliche Sportdaten. Die übrigen 200 Themen bleiben unverändert; eine Druckregel hält kurze Erwachsenenlösungen zusammen.",
+    "Sport B1-M04: Zwei kurze Textfelder A2 und B3 im Katalog auf vier Zeilen korrigiert. Die App zeigte bereits vier Zeilen als sicheren Rückfall; Aufgabeninhalt, Punkte, Quellen, Stufen und alle anderen Themen unverändert."
   ],
-  "rollbackCommit": "7b39fdee864803580488e0156952e9bff08bbe30",
+  "rollbackCommit": "28c08cfbbdfe44f9728e70d43c76bc46ddd41942",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -321,5 +320,5 @@
     "et-liebesformen-werkevergleich",
     "mu09-pentatonik-tonvorrat"
   ],
-  "note": "Sport B1-M04: Quellen und fiktive Schriftaufgaben unabhängig geprüft. Die Papierantwort ersetzt weder den zweckmässigen Einsatz beim Üben noch eine fachliche Schulbeobachtung. Echte Praxis-, Kinder-, Design- und Jahresabnahme offen."
+  "note": "Metadatenkorrektur für den Standard-Build. Schriftliche B1-M04-Vorbereitung; tatsächliche Sportpraxis, externe Fach-/Kinder- und Jahresabnahme offen."
 }

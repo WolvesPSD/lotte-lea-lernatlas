@@ -358,3 +358,4 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="mbi-i4-modellbias-b"]{break-inside:avoid;page-break-inside:avoid}}
 @media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-np-a"]){font-size:9.2pt;line-height:1.1}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-np-a"]) .print-diagram img{max-height:58mm}body[data-print-mode^="adult"] .print-task[data-task-id="de-np-b"]{break-inside:avoid;page-break-inside:avoid}}
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id^="sp-b1-m04-"]{break-inside:avoid;page-break-inside:avoid}}

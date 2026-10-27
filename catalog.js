@@ -17371,6 +17371,233 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "sp-b1-m04-ausdauermethoden",
+      "subjectId": "sp",
+      "title": "Welche Ausdauermethode passt zum Auftrag?",
+      "scope": "Freiwillige schriftliche Klasse-7-Vorbereitung zum verbindlichen B1-Methodenziel im gültigen Sportplan 2026. Methodenwahl am erfundenen Plan ist keine beaufsichtigt eingesetzte Ausdauermethode. Die tatsächliche Schulaufgabe und Unterrichtsfolge sind unbekannt.",
+      "levelStatus": "grade78-flex",
+      "levelLabel": "Klasse 7/8 · Schriftvorbereitung, Sportpraxis nur in der Schule",
+      "released": true,
+      "prerequisite": "Hier wird nicht gelaufen und kein Training geplant. Alle Karten sind erfunden; keine Gesundheits-, Puls-, Leistungs- oder Personendaten eingeben. Methode, Dauer, Tempo, Pausen, Ort und Sicherheit bestimmt die Sportlehrkraft im Unterricht. 20 Haupt- und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Sportnote; offene Antworten bewertet die App nicht automatisch.",
+      "introduction": "Vergleiche A und B als Papiermodelle, prüfe die fiktive Notiz N und trenne einen Plan von tatsächlichem Üben. Beantworte zuerst A–C. Danach erscheint eine mehrdeutige Zusatzkarte Z. Die Quellen erklären Beispiele, wählen aber keine Methode für deine Schule.",
+      "passage": "MODELLKARTE · Dauermethode bedeutet in diesem Blatt einen zusammenhängenden Laufteil ohne eingeplante Erholungspause; Intervallmethode mehrere Laufteile mit eingeplanten Erholungspausen. Dies sind vereinfachte Planformen, keine ausführbaren Übungen.\n\nPLAN A: Start → zusammenhängender Laufteil → Ziel. Keine Erholungspause ist eingeplant.\nPLAN B: Start → Laufteil → Erholungspause → Laufteil → Erholungspause → Laufteil → Ziel. Zwei Erholungspausen sind eingeplant.\n\nERFUNDENE AUFTRÄGE · X: Eine von der Lehrkraft passend festgelegte Laufphase wird ohne eingeplante Pause gleichmässig durchlaufen. Y: Mehrere von der Lehrkraft festgelegte Laufphasen werden durch eingeplante Erholungspausen getrennt.\n\nERFUNDENE NOTIZ N · Für eine spätere Stunde steht Plan B auf dem Lehrerzettel. In der ersten geplanten Pause wurde tatsächlich angehalten. Nach dem zweiten Laufteil entfiel die zweite geplante Pause. Wie sich eine bestimmte Person fühlte, wurde nicht erhoben. N ist keine Beobachtung Lottes oder ihrer Klasse.",
+      "cardsHeading": "Quellenkarte · Beispiel und Lehrplanziel unterscheiden",
+      "sourceCards": [
+        {
+          "title": "Thüringer Sportplan 2026",
+          "text": "B1 ist in Klasse 7 verbindlich. In der 7/8-Spalte steht, Methoden der Ausdauerschulung beim Üben zweckmässig einzusetzen. Der Plan legt hier keine Methode, Dauer oder Schulfolge fest.",
+          "sourceLabel": "Thüringer Schulportal · Sport Gymnasium 2026",
+          "sourceUrl": "https://www.schulportal-thueringen.de/media/detail?tspi=20580",
+          "sourceNote": "PDF-S. 2, 12–13 und 22; Klasse 7 ab 2026/27."
+        },
+        {
+          "title": "DLJ: Methoden je nach Aufgabe",
+          "text": "Der Zeitschätzlauf nennt Dauer- und Intervallmethode als mögliche Wege je nach Aufgabe. Die DLJ-Übungssammlung erklärt beim Farbenlauf eine Intervallform mit Laufbelastungen und ausreichenden Pausen. Die Kinderleichtathletik-Beispiele sind keine Belastungsvorgabe für Klasse 7.",
+          "sourceLabel": "Deutsche Leichtathletik-Jugend · Zeitschätzlauf 2017 und Übungssammlung 2022",
+          "sourceUrl": "https://www.leichtathletik.de/fileadmin/user_upload/004_LA_fuer_Alle/03_Schule-Verein/Praxistipps/DLJ_Uebungssammlung_2022_Final.pdf",
+          "additionalSourceLabel": "DLJ · Zeitschätzlauf 2017",
+          "additionalSourceUrl": "https://www.leichtathletik.de/fileadmin/user_upload/004_LA_fuer_Alle/03_Schule-Verein/Praxistipps/Uebungen_Disziplinen/UebungderWoche_KW38_Lauf_Zeitschaetzlauf.pdf",
+          "sourceNote": "Farbenlauf, PDF-S. 238; der zweite Link führt zum Zeitschätzlauf 2017."
+        },
+        {
+          "title": "Bundesjugendspiele: eine Wettbewerbsoption",
+          "text": "Das Handbuch 2024 beschreibt in Abschnitt 7.6 für 7/8 einen Lauf ohne Pause als eine Option. Daraus folgt weder eine Thüringer Unterrichtspflicht noch eine Methodenwahl für diese Schule.",
+          "sourceLabel": "Bundesjugendspiele-Handbuch 2024",
+          "sourceUrl": "https://www.leichtathletik.de/fileadmin/user_upload/004_LA_fuer_Alle/03_Schule-Verein/Bundesjugendspiele/bjs_handbuch_korrektur_3_2024.pdf",
+          "sourceNote": "Abschnitt 7.6; keine Zeit-/Intensitätsvorgabe aus dem Handbuch in dieser Aufgabe."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–C",
+        "mainTaskCount": 8,
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A1–C3 festhalten und mehrdeutige Karte Z zeigen",
+        "text": "FREIWILLIGE NEUE MODELLKARTE Z · Laufteil → sehr langsames Weiterbewegen → Laufteil. Ob das mittlere Stück eine bewusst geplante Erholungspause oder bloss ein langsamerer Abschnitt derselben zusammenhängenden Laufphase ist, steht nicht dabei. Keine echte Übung daraus ableiten. Die sechs Punkte zählen getrennt."
+      },
+      "practice": {
+        "title": "Nur falls die Schule diese Methode ohnehin übt",
+        "childNote": "Diese Praxis wird nicht zu Hause durchgeführt. Wenn die Sportlehrkraft in einer regulären Stunde eine passende Ausdaueraufgabe stellt, kann das Blatt helfen, anschliessend eine fachliche Rückmeldung zu verstehen. Ohne solche Gelegenheit bleibt die Praxis nicht erhoben.",
+        "childSteps": [
+          "Die Sportlehrkraft benennt die für diese Stunde gewählte Methode und den Zweck.",
+          "Die tatsächliche Lauf-/Pausenfolge wird im regulären Unterricht fachlich beobachtet; keine privaten Messwerte hier festhalten.",
+          "Die Lehrkraft beurteilt den Einsatz für genau diese Aufgabe und Situation. Eine einzelne Stunde beweist keine allgemeine Kondition oder Sicherheit."
+        ],
+        "adultNote": "Leerer Schulbeobachtungsweg. Nur bei ohnehin stattfindendem, beaufsichtigtem Unterricht und freiwillig zugelassener Rückmeldung. Eltern und App vergeben keine Praxispunkte; ohne Schulbeleg alles nicht erhoben lassen.",
+        "adultCriteria": [
+          "Schulisch festgelegte Methode, Unterrichtszweck und Kriterien bekannt",
+          "Tatsächliche Lauf-/Pausenfolge in der konkreten Stunde fachlich beobachtet",
+          "Zweckmässigkeit für diese Situation durch die Sportlehrkraft beurteilt"
+        ],
+        "unscored": true,
+        "printAdultNote": "Nur leerer Schulweg: keine Heimübung, keine privaten Puls-, Gesundheits- oder Leistungsangaben. Ohne beaufsichtigte Aufgabe und Sportlehrkraft-Rückmeldung bleibt B1-M04 nicht erhoben."
+      },
+      "tasks": [
+        {
+          "id": "sp-b1-m04-a1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "A1 · Ordne Plan A und B je einer der beiden Methoden zu. Nenne zu jeder Zuordnung einen sichtbaren Beleg aus dem Schema. (4 Hauptpunkte)",
+          "sample": "A zeigt das Dauermodell, weil keine Erholungspause eingeplant ist. B zeigt das Intervallmodell: Mehrere Laufteile sind durch eingeplante Erholungspausen getrennt.",
+          "criteria": [
+            "1 Punkt: A der Dauermethode zugeordnet.",
+            "1 Punkt: A mit fehlender eingeplanter Erholungspause begründet.",
+            "1 Punkt: B der Intervallmethode zugeordnet.",
+            "1 Punkt: B mit eingeplanten Erholungspausen zwischen Laufteilen begründet."
+          ]
+        },
+        {
+          "id": "sp-b1-m04-a2",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 2,
+          "inputRows": 3,
+          "adultOnlySolution": true,
+          "prompt": "A2 · Welche Quelle setzt das Thüringer Lehrplanziel: Sportplan, DLJ-Blatt oder Bundesjugendspiele-Handbuch? (1 Hauptpunkt)",
+          "sample": "Der Thüringer Sportplan 2026. Die DLJ erklärt Methodenbeispiele; das Bundesjugendspiele-Handbuch nennt eine Wettbewerbsoption.",
+          "criteria": [
+            "1 Punkt: Thüringer Sportplan 2026 als Quelle des Lehrplanziels genannt."
+          ]
+        },
+        {
+          "id": "sp-b1-m04-b1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "B1 · Welcher Plan passt zu Auftrag Y und warum? Ein erfundenes Kind streicht für X nur auf der Papierkarte die zweite Pause in B. Ist X damit schon strukturell erfüllt? Nenne die noch nötige Änderung auf der Karte und begründe mit der verbleibenden Pause. (4 Hauptpunkte; keine reale Belastungsanweisung)",
+          "sample": "Y passt zu B, denn dessen Laufteile sind durch geplante Pausen getrennt. Nach Streichen nur der zweiten Pause bleibt die erste: X ist noch nicht erfüllt. Für das schriftliche X-Modell müsste auch die erste Pause auf der Karte entfallen. Daraus folgt keine Empfehlung, beim realen Laufen Pausen wegzulassen.",
+          "criteria": [
+            "1 Punkt: Y → B.",
+            "1 Punkt: Begründung durch eingeplante Pausen zwischen Laufteilen.",
+            "1 Punkt: X nach Streichung nur der zweiten Pause noch nicht erfüllt.",
+            "1 Punkt: Die erste verbliebene Pause müsste im schriftlichen Plan für X ebenfalls entfallen."
+          ]
+        },
+        {
+          "id": "sp-b1-m04-b2",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "B2 · Behauptung: Weil die Bundesjugendspiele eine 7/8-Option ohne Pause nennen, müsse Lotte immer Plan A wählen. Nenne zwei verschiedene Gründe, warum dieser Schluss nicht gilt. (2 Hauptpunkte)",
+          "sample": "Die Bundesjugendspiele beschreiben eine Wettbewerbsoption, keine Thüringer Schulpflicht. Die Methode hängt ausserdem vom konkreten Unterrichtszweck und den Festlegungen der Sportlehrkraft ab.",
+          "criteria": [
+            "Je 1 Punkt für zwei verschiedene Grenzen, etwa Verbandsoption ist keine Schulpflicht und das Thüringer M04-Ziel schreibt keine bestimmte Methode für jede Stunde vor; gleiche Aussage nur einmal zählen."
+          ]
+        },
+        {
+          "id": "sp-b1-m04-b3",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 2,
+          "inputRows": 3,
+          "adultOnlySolution": true,
+          "prompt": "B3 · Nenne eine konkrete Angabe, die für eine echte Unterrichtsentscheidung auf den Karten fehlt und die Sportlehrkraft klären müsste. (1 Hauptpunkt; keine persönlichen Daten eintragen)",
+          "sample": "Zum Beispiel der konkrete Unterrichtszweck, die beaufsichtigte Schulaufgabe oder passende Vorgaben der Sportlehrkraft.",
+          "criteria": [
+            "1 Punkt: eine tatsächlich fehlende Angabe, etwa Unterrichtszweck, passend festgelegte Dauer/Tempo/Pausen, Ort/Aufsicht, Gruppenvoraussetzungen oder konkrete Schulaufgabe."
+          ]
+        },
+        {
+          "id": "sp-b1-m04-c1",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 5,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "C1 · Was belegt die erfundene Notiz N über den ersten und den zweiten Pausenübergang? Wurde Plan B vollständig wie vorgesehen genutzt? (3 Hauptpunkte)",
+          "sample": "Die erste geplante Pause wurde eingehalten; die zweite entfiel. Plan B wurde damit nicht vollständig wie vorgesehen genutzt.",
+          "criteria": [
+            "1 Punkt: erste Pause wurde eingehalten.",
+            "1 Punkt: zweite Pause entfiel.",
+            "1 Punkt: B wurde nicht vollständig wie geplant genutzt."
+          ]
+        },
+        {
+          "id": "sp-b1-m04-c2",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "C2 · Jemand folgert aus N, die zweite Pause sei für die ganze Klasse unnötig und das Üben für alle sicher gewesen. Nenne zwei verschiedene konkrete Belege, die dafür fehlen. (2 Hauptpunkte)",
+          "sample": "N enthält keine individuelle Befindlichkeit oder Voraussetzung und keine fachliche Sicherheitsbeobachtung. Aus der ausdrücklich fiktiven Notiz lässt sich zudem keine reale Klassenbeobachtung ableiten.",
+          "criteria": [
+            "Je 1 Punkt für zwei konkret fehlende, unterschiedliche Belege, etwa individuelle Voraussetzungen/Befindlichkeit, fachliche Sicherheitsbeobachtung, Lehrkraftbegründung oder reale Klassenbeobachtung; die blosse Wiederholung „N beweist Sicherheit nicht“ genügt nicht."
+          ]
+        },
+        {
+          "id": "sp-b1-m04-c3",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 6,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "C3 · Was müsste in einer wirklichen beaufsichtigten Sportstunde beobachtet und fachlich geprüft werden, um einen zweckmässigen Methodeneinsatz beim Üben zu beurteilen? Nenne die tatsächliche Methodenfolge, den Unterrichtszweck samt Lehrkraftvorgaben und die zuständige Person. Keine eigene Übung durchführen. (3 Hauptpunkte)",
+          "sample": "Die tatsächliche Folge von Lauf- und Pausenphasen müsste im Unterricht beobachtet und mit dem konkreten Zweck und den passenden Vorgaben der Sportlehrkraft verglichen werden. Die Sportlehrkraft beaufsichtigt und beurteilt den Einsatz fachlich.",
+          "criteria": [
+            "1 Punkt: tatsächliche Lauf-/Pausenfolge einer konkreten Übung als Beobachtung genannt.",
+            "1 Punkt: konkreter Unterrichtszweck und passende Lehrkraftvorgaben als Massstab genannt.",
+            "1 Punkt: Sportlehrkraft als fachlich prüfende und beaufsichtigende Person genannt."
+          ]
+        },
+        {
+          "id": "sp-b1-m04-v1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Karte Z · V1: Kannst du die Methode aus Z sicher zuordnen? Begründe mit dem langsamen Mittelteil. (2 getrennte Zusatzpunkte)",
+          "sample": "Nein. Z sagt nicht, ob das langsame Stück als Erholungspause geplant ist oder als langsamerer Teil derselben Laufphase.",
+          "criteria": [
+            "1 Zusatzpunkt: nicht sicher zuordenbar.",
+            "1 Zusatzpunkt: die offene Absicht des Mittelteils als Grund genannt."
+          ]
+        },
+        {
+          "id": "sp-b1-m04-v2",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Karte Z · V2: Nenne beide möglichen Deutungen des langsamen Mittelteils und die jeweils passende Methode im vereinfachten Modell. (2 getrennte Zusatzpunkte)",
+          "sample": "Geplante Erholung zwischen Laufteilen wäre hier das Intervallmodell. Bloss langsameres Weiterlaufen innerhalb einer zusammenhängenden Laufphase ohne geplante Erholungspause wäre das Dauermodell dieses Blatts.",
+          "criteria": [
+            "1 Zusatzpunkt: geplante Erholung zwischen Laufteilen → Intervallmodell.",
+            "1 Zusatzpunkt: langsameres Weiterlaufen ohne geplante Erholungspause innerhalb einer zusammenhängenden Phase → Dauermodell dieses Blatts."
+          ]
+        },
+        {
+          "id": "sp-b1-m04-v3",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Karte Z · V3: Formuliere eine sachliche Rückfrage an die Sportlehrkraft, die Absicht des Mittelteils und Unterrichtszweck klärt, ohne eine Belastung vorzuschreiben. (2 getrennte Zusatzpunkte)",
+          "sample": "Ist das langsame Stück als Erholungspause gedacht, und was möchten wir mit der Folge im Unterricht üben?",
+          "criteria": [
+            "1 Zusatzpunkt: Rückfrage klärt die Absicht des Mittelteils.",
+            "1 Zusatzpunkt: dieselbe Rückfrage klärt den Unterrichtszweck."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "Sportplan 2026, PDF-S. 2 und 12–13: Klasse 7 ab 2026/27, B1 verbindlich. §2.1/PDF-S. 22: Methoden der Ausdauerschulung beim Üben zweckmässig einsetzen. Papierwahl ist nur Vorbereitung, die praktische Zielhandlung bleibt offen.",
+        "checkedAt": "2026-10-27"
+      }
+    },
+    {
       "id": "sp-b1-m02-transfergrenzen",
       "subjectId": "sp",
       "title": "Was lässt sich aus einer Sportstunde übertragen?",

@@ -347,3 +347,5 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 @media print{body[data-print-mode^="child"] .print-task[data-task-id="sp-b1-m02-c"]{break-before:page;break-inside:auto;page-break-inside:auto}body[data-print-mode^="adult"] .print-task[data-task-id="sp-b1-m02-b"]{break-before:page;break-inside:avoid;page-break-inside:avoid}}
 
 @media print{body[data-print-mode^="child"] #print-surface:has(.print-task[data-task-id="mbi-i6-ss01-a"]) .print-practice{break-inside:avoid;page-break-inside:avoid}}
+
+@media print{body[data-print-mode^="child"] #print-surface:has(.print-task[data-task-id="mbi-i6-o01-a"]) .print-practice{break-inside:avoid;page-break-inside:avoid}}

@@ -1226,7 +1226,11 @@
           } else {
             const observationMax = Number.isInteger(topic.practice.observationMax) ? topic.practice.observationMax : 16;
             const observationLabel = topic.practice.observationLabel || 'Vortrag';
-            if (topic.practice.observationKind === 'school-measurement') {
+            if (topic.practice.observationKind === 'software-practice') {
+              appendText(practiceSection, 'p', '', `Beobachtung: ☐ selbst durchgeführt  ☐ mit Hilfe  ☐ nach Versuch nicht korrekt  ☐ nicht erhoben. Ohne direkte ${observationLabel} keine Praxiswertung.`);
+              appendText(practiceSection, 'p', '', 'Beobachtete Tabellen-, Beziehungs- und Abfrageschritte: _______________________________________________');
+              appendText(practiceSection, 'p', '', `Nur vollständig beobachtete B/C-Teilrubriken werten: Praxis ____ / ${observationMax}. Bei „nicht erhoben“ Teilpunkte getrennt ausweisen; keine Gesamtsumme /20. Die Transferhandlung bleibt unbepunktet.`);
+            } else if (topic.practice.observationKind === 'school-measurement') {
               appendText(practiceSection, 'p', '', `Beobachtung: ☐ durchgeführt  ☐ mit Hilfe  ☐ abgebrochen  ☐ nicht erhoben. Ohne ${observationLabel} keine Punktzahl eintragen.`);
               appendText(practiceSection, 'p', '', 'Freigegebene Geräte, Messbereiche und schulische Sicherheitsregel: __________________________________________');
               appendText(practiceSection, 'p', '', 'Tatsächlich beobachtete Handlung, Messgrenze oder Abbruchgrund: ___________________________________________');

@@ -19854,6 +19854,155 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "Thüringer MBI-Erprobungsfassung 2026, §2.2.6/PDF-S.28: I6-SS01 zu Datenschutzrecht, Ethik, Transparenz, Diskussion und verantwortlichen Lösungen; Zielmarke Ende Klasse 8. Keine konkrete Klasse-7-Unterrichtsfolge belegt.",
         "checkedAt": "2026-10-27"
       }
+    },
+    {
+      "id": "mbi-i6-o01-access",
+      "subjectId": "mbi",
+      "title": "Zwei Tabellen in Access selbst verbinden",
+      "scope": "Freiwilliger Ende-8-Ausblick: ein fiktives Datenmodell in Microsoft Access auf einem PC selbst anlegen, verbinden und abfragen. Schriftliche Erklärungen und tatsächlich beobachtete Bedienung werden getrennt betrachtet.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst einen PC, auf dem Microsoft Access bereits ohne neue Anmeldung verfügbar ist. Fehlt Access, beende die Praxis mit „nicht erhoben“. Installiere nichts. Nutze nur die erfundenen Buchdaten; keine Namen oder echten Ausleihen.",
+      "introduction": "Baue die leere Datenbank selbst. A und D sind schriftliche Fragen mit zusammen 8 Kriterienpunkten. B und C betreffen ausschliesslich beobachtete Access-Handlungen mit zusammen 12 Praxispunkten; eine Notiz im Browser beweist keine Bedienung. Nur bei vollständig beobachteter Praxis kann eine Summe von 20 Punkten entstehen. Die freiwillige spätere Vorhersage hat 6 getrennte schriftliche Punkte. Die App bewertet offene Antworten nicht automatisch.",
+      "passage": "FIKTIVE LESEECKE · Eine kleine Leseecke möchte wissen, welche Buchtitel derzeit ausgeliehen sind. Sie braucht Titel, Ausleihdatum und Rückgabestatus. Sie speichert absichtlich weder Namen der Ausleihenden noch einzelne Buchexemplare. Lege lokal die leere Datei Leseecke_Uebung.accdb an. Erstelle tblBuch und tblAusleihe in der Tabellenentwurfsansicht. BuchID und VorgangID sind jeweils Primärschlüssel vom Typ Kurzer Text; beide BuchID-Felder müssen denselben Typ haben. Titel und Kategorie sind Kurzer Text, Seiten ist Zahl, beide Datumsfelder sind Datum/Uhrzeit. Trage die fiktiven Datenkarten ein; „leer“ bedeutet ein wirklich leeres Feld. Verbinde tblBuch.BuchID mit tblAusleihe.BuchID und aktiviere referentielle Integrität. Keine Kaskadenlöschung und keine ungültige Testeingabe. Erstelle dann die Auswahlabfrage Q_AktuellOffen mit Titel, AusgeliehenAm und ZurueckAm. Kriterium unter ZurueckAm: Ist Null (englisch: Is Null). Sortiere AusgeliehenAm aufsteigend, speichere und starte die Abfrage. Prüfe im Beziehungsfenster 1 bei tblBuch und ∞ bei tblAusleihe sowie die aktivierte referentielle Integrität. Die Datei bleibt lokal und wird nicht geteilt.",
+      "sourceCards": [
+        {
+          "title": "Datenkarte 1 · tblBuch",
+          "text": "Felder: BuchID | Titel | Kategorie | Seiten. B101 | Sternenatlas | Sach | 96. B102 | Wolkenwerkstatt | Roman | 140. B103 | Code im Garten | Abenteuer | 128. B104 | Küstenlabor | Sach | 84. Alle Titel sind erfunden.",
+          "sourceLabel": "Eigene fiktive Datenkarte · Fachpaket I6-O01",
+          "sourceNote": "Kein echter Bibliotheksbestand."
+        },
+        {
+          "title": "Datenkarte 2 · tblAusleihe",
+          "text": "Felder: VorgangID | BuchID | AusgeliehenAm | ZurueckAm. V001 | B101 | 02.10.2026 | 07.10.2026. V002 | B102 | 04.10.2026 | leer. V003 | B103 | 06.10.2026 | 08.10.2026. V004 | B104 | 14.10.2026 | leer. Das Wort „leer“ wird nicht eingetragen; das Datumsfeld bleibt tatsächlich leer.",
+          "sourceLabel": "Eigene fiktive Datenkarte · Fachpaket I6-O01",
+          "sourceNote": "Keine Namen und keine echten Ausleihen."
+        },
+        {
+          "title": "Access-Hilfe · Tabellenbeziehung und Abfrage",
+          "text": "Microsoft erklärt Primärschlüssel, Beziehungen und Auswahlabfragen. Lies die Hilfe bei Bedarf; die Arbeitsschritte und Entscheidungen führst du selbst aus. Ein geöffnetes Hilfedokument ist kein Nachweis für eine erstellte Datenbank.",
+          "sourceLabel": "Microsoft Support · Create, edit or delete a relationship",
+          "sourceUrl": "https://support.microsoft.com/en-us/access/create-edit-or-delete-a-relationship",
+          "sourceNote": "Produktdokumentation, am 27.10.2026 für Access 2016–2024 und Microsoft 365 im Fachpaket geprüft."
+        }
+      ],
+      "practiceBeforeLastTask": true,
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D und Access-Praxis",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "Hauptteil festhalten und freiwillige Änderung zeigen",
+        "text": "FREIWILLIGE ÄNDERUNG NACH DEM HAUPTTEIL · Vorhersage zuerst aufschreiben: Ergänze in tblBuch B105 | Spur im Speicher | Sach | 152 und in tblAusleihe V005 | B105 | 24.10.2026 | leer. Führe Q_AktuellOffen erneut aus. Trage danach für V005 als ZurueckAm den 27.10.2026 ein und führe die Abfrage noch einmal aus. Eine schriftliche Vorhersage beweist nicht, dass diese Schritte in Access ausgeführt wurden."
+      },
+      "tasks": [
+        {
+          "id": "mbi-i6-o01-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "A · Modell (4 schriftliche Punkte): Warum stehen Titel, Kategorie und Seiten in tblBuch, die Daten jeder einzelnen Ausleihe aber in tblAusleihe? Erkläre, wie viele Vorgänge zu einem Titel gehören können und zu wie vielen Titeln ein Vorgang gehört.",
+          "sample": "Ein Titel wird in tblBuch einmal beschrieben; tblAusleihe enthält jeden Ausleihvorgang einzeln. Ein Buchtitel kann mehrere Vorgänge haben, jeder Vorgang gehört zu genau einem Buchtitel. So müssen Kategorie und Seitenzahl nicht in jedem Vorgang wiederholt werden.",
+          "criteria": [
+            "2 Punkte für saubere Trennung von Titel- und Vorgangsdaten.",
+            "Je 1 Punkt für die beiden Richtungen der 1-zu-viele-Beziehung."
+          ]
+        },
+        {
+          "id": "mbi-i6-o01-b",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 2,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "unscoredNote": true,
+          "prompt": "B · Tabellen und Beziehung (6 Praxispunkte, nur bei direkter Beobachtung): Lege beide Tabellen, Felder, Schlüssel und fiktiven Daten selbst in Access an. Verbinde BuchID mit referentieller Integrität. Dieses Feld ist nur für deine Frage oder „nicht erhoben“; Text hier zählt nicht als Access-Nachweis.",
+          "sample": "Nur die tatsächlich beobachtete Access-Bedienung werten. Eine Notiz, ein Screenshot oder eine fertige Datei beweist keine eigene Ausführung. Ohne Beobachtung B als nicht erhoben markieren.",
+          "criteria": [
+            "2 Punkte für Tabellen und passende Feldtypen, 1 für Schlüssel und passende BuchID-Typen, 1 für fiktive Daten mit echten Null-Feldern, 2 für gespeicherte 1-zu-∞-Beziehung mit referentieller Integrität.",
+            "Punkte nur für direkt beobachtete Handlung; fehlende Gelegenheit ist nicht 0 Punkte."
+          ]
+        },
+        {
+          "id": "mbi-i6-o01-c",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 2,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "unscoredNote": true,
+          "prompt": "C · Abfrage (6 Praxispunkte, nur bei direkter Beobachtung): Erstelle und speichere Q_AktuellOffen selbst in Access. Zeige Titel und beide Datumsfelder, filtere leere ZurueckAm-Felder, sortiere aufsteigend und prüfe das Ergebnis. Dieses Notizfeld ist kein Nachweis der Handlung.",
+          "sample": "Erwartete Ausgabe nach eigenem Access-Lauf: Wolkenwerkstatt, 04.10.2026; Küstenlabor, 14.10.2026. Nur direkt beobachtete Access-Schritte werten. Ohne Beobachtung C als nicht erhoben markieren.",
+          "criteria": [
+            "Je 1 Punkt für Tabellenverknüpfung, Anzeigefelder, Ist-Null-Kriterium sowie Sortierung plus Speichern unter Q_AktuellOffen; 2 für Ausführen und Prüfen der beiden Treffer.",
+            "Eine aus Datenkarten abgeleitete richtige Antwort ersetzt den Access-Lauf nicht."
+          ]
+        },
+        {
+          "id": "mbi-i6-o01-d",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "D · Integrität und Datensparsamkeit (4 schriftliche Punkte): Warum sollte Access B999 ohne passenden Titel in tblBuch nicht als Fremdschlüssel speichern? Nenne eine Frage, die diese Datenbank ohne Personennamen beantworten kann, und eine Frage, die sie gerade deshalb nicht beantworten kann.",
+          "sample": "Mit aktivierter referentieller Integrität darf B999 ohne passenden Buch-Primärschlüssel nicht in tblAusleihe stehen. Die Datenbank kann zeigen, welche Vorgänge offen sind und zu welchem Titel sie gehören. Sie kann nicht sagen, wer das Buch ausgeliehen hat.",
+          "criteria": [
+            "2 Punkte für die begründete Integritätsregel ohne ungültige Testeingabe.",
+            "Je 1 Punkt für eine beantwortbare und eine wegen fehlender Namen unbeantwortbare Frage."
+          ]
+        },
+        {
+          "id": "mbi-i6-o01-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "Freiwillige Vorhersage (6 getrennte schriftliche Punkte): Welche offenen Titel erwartest du nach B105/V005 mit leerem ZurueckAm, welche nach dem Rückgabedatum für V005? Warum zeigt die gespeicherte Abfrage beim erneuten Start den aktuellen Tabellenstand statt eine alte Ergebniskopie? Notiere zuerst die Vorhersage; führe die Änderung anschliessend nur in deiner lokalen Access-Übungsdatei aus.",
+          "sample": "Zuerst drei offene Vorgänge: Wolkenwerkstatt, Küstenlabor, Spur im Speicher. Nach ZurueckAm = 27.10.2026 bei V005 bleiben Wolkenwerkstatt und Küstenlabor offen. Die Auswahlabfrage liest bei jedem Ausführen die aktuellen Daten erneut.",
+          "criteria": [
+            "Je 2 Punkte für die beiden zutreffenden Vorhersagen.",
+            "2 Punkte für die Erklärung der erneut gelesenen Tabellenwerte.",
+            "Die tatsächliche Access-Änderung getrennt und unbepunktet beobachten; Schriftantwort ist kein Bediennachweis."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Access-Praxis · nur am PC",
+        "childNote": "Führe B und C selbst in Access aus. Die App kann weder Access bedienen noch prüfen, was du dort getan hast. Wenn Access fehlt, stoppe mit „nicht erhoben“; eine Textantwort oder Druckseite ersetzt die Praxis nicht. Nutze ausschliesslich erfundene Daten.",
+        "childSteps": [
+          "Leere lokale Datenbank Leseecke_Uebung.accdb anlegen; beide Tabellen und passende Feldtypen selbst bestimmen.",
+          "Primärschlüssel setzen, vier fiktive Datenzeilen je Tabelle eingeben; V002 und V004 haben wirklich leere Rückgabefelder.",
+          "BuchID-Felder verbinden, referentielle Integrität aktivieren und 1-zu-∞ sowie ausgeschaltete Kaskadenlöschung prüfen.",
+          "Q_AktuellOffen mit Titel und beiden Datumsfeldern erstellen, Ist Null filtern, nach AusgeliehenAm sortieren, speichern und ausführen.",
+          "Eine begleitende Person kann B/C nur nach direkt beobachteten Handlungen beurteilen; die Datei nicht hochladen oder versenden."
+        ],
+        "adultNote": "B und C sind zusammen 12 Praxispunkte und ausschliesslich bei direkt beobachteter Access-Bedienung beurteilbar. Schriftliche Notizen, Screenshots und eine fertige Datei genügen nicht. Bei fehlender Beobachtung „nicht erhoben“ ausweisen und keine Summe /20 bilden.",
+        "observationKind": "software-practice",
+        "observationMax": 12,
+        "observationLabel": "Access-Praxis",
+        "adultGuide": [
+          "B-Rubrik: 2 Tabellen/Feldtypen, 1 Schlüssel und passende BuchID-Typen, 1 korrekte fiktive Daten, 2 gespeicherte RI-Beziehung mit 1-zu-∞.",
+          "C-Rubrik: je 1 für Join, drei Anzeigefelder, Ist-Null-Kriterium und Sortierung plus Speichern; 2 für Lauf und Prüfung der zwei Treffer.",
+          "A und D zusammen 8 schriftliche Punkte; Transfer 6 schriftliche Zusatzpunkte. Erst wenn A–D vollständig erhoben sind, ist /20 zulässig. Keine persönlichen Daten notieren.",
+          "Die tatsächliche Access-Änderung im Transfer nur getrennt und unbepunktet beobachten."
+        ],
+        "adultCriteria": [
+          "B: Tabellen/Feldtypen und beide Primärschlüssel selbst angelegt; fiktive Daten mit echten leeren Rückgabefeldern eingetragen.",
+          "B: Beziehung selbst gespeichert; referentielle Integrität aktiv, 1-zu-∞ sichtbar, Kaskadenlöschung aus.",
+          "C: Join, drei Anzeigefelder, Ist Null und aufsteigende Sortierung selbst angelegt; Q_AktuellOffen gespeichert.",
+          "C: Abfrage selbst ausgeführt und die zwei Ausgangstreffer überprüft."
+        ],
+        "printAdultNote": "Beobachtungsbogen für B/C: Teilkriterien nur bei direkt gesehener Access-Bedienung werten. Sonst „nicht erhoben“. Kein Gesamtergebnis /20, solange B/C nicht vollständig beobachtet wurden. Die Transferhandlung ist unbepunktet."
+      },
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "Thüringer MBI-Erprobungsfassung 2026, §2.2.6/PDF-S.27–28, I6-O01: Datenmodelle und Beziehungen in einem DBMS implementieren. Freiwilliger Ende-8-Teilfall; keine bestätigte Klasse-7-Unterrichtsfolge und noch kein Kinder-/Access-Lauf.",
+        "checkedAt": "2026-10-27"
+      }
     }
   ]
 });

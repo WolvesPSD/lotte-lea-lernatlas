@@ -171,6 +171,46 @@
   }
   voiceGuideAudio.addEventListener('ended', () => stopVoiceGuide());
   window.addEventListener('pagehide', () => stopVoiceGuide());
+  const languageAudio = new Audio();
+  languageAudio.preload = 'none';
+  let activeLanguageButton = null;
+  function stopLanguageAudio() {
+    languageAudio.pause();
+    languageAudio.removeAttribute('src');
+    languageAudio.load();
+    if (activeLanguageButton) {
+      activeLanguageButton.textContent = activeLanguageButton.dataset.startLabel;
+      activeLanguageButton.setAttribute('aria-pressed', 'false');
+      activeLanguageButton = null;
+    }
+  }
+  function appendLanguageClip(parent, clip) {
+    if (!clip?.path || !clip?.label) return null;
+    const control = create('div', 'language-audio-control');
+    const play = button(`${clip.label} anhören`, async () => {
+      if (activeLanguageButton === play) { stopLanguageAudio(); return; }
+      stopVoiceGuide();
+      stopLanguageAudio();
+      activeLanguageButton = play;
+      play.textContent = 'Anhören stoppen';
+      play.setAttribute('aria-pressed', 'true');
+      languageAudio.src = clip.path;
+      try { await languageAudio.play(); }
+      catch { if (activeLanguageButton === play) stopLanguageAudio(); }
+    }, 'inline-voice-guide');
+    play.dataset.startLabel = play.textContent;
+    play.setAttribute('aria-pressed', 'false');
+    control.append(play);
+    parent.append(control);
+    return control;
+  }
+  function appendLanguageClips(parent, topic, phase) {
+    return (languageSupport[topic.id]?.clips || [])
+      .filter(clip => clip.phase === phase && (!clip.surface || clip.surface === 'app'))
+      .map(clip => appendLanguageClip(parent, clip)).filter(Boolean);
+  }
+  languageAudio.addEventListener('ended', stopLanguageAudio);
+  window.addEventListener('pagehide', stopLanguageAudio);
   function appendAdultLanguageSupport(parent, topic, forPrint = false) {
     const support = languageSupport[topic.id];
     if (!support || !['en', 'fr'].includes(topic.subjectId)) return;
@@ -192,10 +232,12 @@
       appendText(panel, 'h4', '', heading);
       appendText(panel, 'p', 'language-translation', value);
     }
+    if (!forPrint) for (const clip of support.clips || []) appendLanguageClip(panel, clip);
     parent.append(panel);
   }
   function show(view) {
     stopVoiceGuide();
+    stopLanguageAudio();
     if (activeProfile === 'lea') view = 'lea';
     if (view === 'lea' && activeProfile !== 'lea') view = 'home';
     overviewGuideButton.hidden = view !== 'home';
@@ -634,7 +676,7 @@
         if (!String(state.answers[first.id] || '').trim()) return;
         state.answers[marker] = 'ja'; save();
         if (firstInput) firstInput.readOnly = true;
-        showButton.hidden = true; contextText.hidden = false; remaining.hidden = false;
+        showButton.hidden = true; contextText.hidden = false; contextAudio.forEach(control => { control.hidden = false; }); remaining.hidden = false;
         contextText.scrollIntoView({ block: 'start', behavior: 'instant' });
       }, 'check-button');
       showButton.disabled = !String(state.answers[first.id] || '').trim();
@@ -643,6 +685,8 @@
       host.append(showButton);
       const contextText = appendText(host, 'blockquote', 'reading-passage', topic.stagedPrompt.text);
       contextText.hidden = !shown;
+      const contextAudio = appendLanguageClips(host, topic, 'afterPrediction');
+      contextAudio.forEach(control => { control.hidden = !shown; });
       const remaining = create('div'); remaining.hidden = !shown;
       for (let index = 1; index < topic.tasks.length; index++) remaining.append(renderTask(topic, topic.tasks[index], index));
       host.append(remaining);

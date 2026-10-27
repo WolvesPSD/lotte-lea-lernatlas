@@ -546,7 +546,7 @@ window.LOTTE_LANGUAGE_SUPPORT = Object.freeze({
   },
   "fr-attend-kontextpruefen": {
     "draft": false,
-    "audioPending": true,
+    "audioPending": false,
     "translations": {
       "initialDe": [
         "Englisch attend heisst an einer Veranstaltung teilnehmen; das ähnlich geschriebene französische Wort ist vor der Kontextkarte nur eine Vermutung."
@@ -560,7 +560,14 @@ window.LOTTE_LANGUAGE_SUPPORT = Object.freeze({
       ],
       "fixedReadAloudDe": []
     },
-    "clips": []
+    "clips": [
+      {
+        "phase": "afterPrediction",
+        "label": "Französischen Kontext",
+        "path": "assets/fr-attend-kontext-lernlangsam.wav",
+        "surface": "app"
+      }
+    ]
   },
   "fr-camille-geschichte-fortsetzen": {
     "draft": false,

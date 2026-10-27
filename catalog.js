@@ -20130,6 +20130,115 @@ window.LOTTE_CATALOG = Object.freeze({
         "checkedAt": "2026-10-27"
       },
       "passage": "Ein Tisch für zwei Arten von Pause\n\nAm Anfang\nZ1 Seit einigen Wochen steht in der Bibliothek der erfundenen Sonnenfeldschule ein großer Tisch am Fenster.\nZ2 Früher lagen dort Bücherstapel, und zwischen ihnen konnte jeweils nur eine Person sitzen.\nZ3 Nun bietet der Tisch acht Plätze. Darüber hängt ein Schild: „Lese- und Austauschtisch – Probephase“.\nZ4 Die Bibliotheksgruppe möchte herausfinden, ob Lesen und leises Besprechen am selben Ort möglich sind.\n\nSo läuft der Versuch\nZ5 Dienstags und donnerstags ist der Tisch in der ersten Mittagspause für stilles Lesen vorgesehen.\nZ6 An diesen beiden Tagen dürfen Gruppen dort in der zweiten Mittagspause über gelesene Texte sprechen, solange sie andere Plätze nicht stören.\nZ7 Eine Reservierung ist nicht nötig. Wer keinen Platz findet, kann auf die freien Einzelsitze im hinteren Raum ausweichen.\nZ8 Bis zum Ende des vierwöchigen Versuchs liegen Zettel für freiwillige Rückmeldungen an der Ausleihe.\n\nWas die ersten Rückmeldungen zeigen\nZ9 Nach der ersten Woche sind 18 Zettel abgegeben worden. Elf loben, dass man ein Buch gemeinsam besprechen kann.\nZ10 Fünf wünschen sich noch mehr ruhige Plätze. Zwei enthalten nur Vorschläge für eine andere Tischordnung.\nZ11 Die Zettel sagen nichts darüber, wie viele Schülerinnen und Schüler den Tisch tatsächlich genutzt haben.\nZ12 Auch wer keinen Zettel abgegeben hat, kann den Versuch gut oder schlecht finden; dazu fehlen Angaben.\n\nZwei Lesarten\nZ13 Die Schülersprecherin sagt: „Elf positive Zettel zeigen, dass wir den Tisch sofort dauerhaft brauchen.“\nZ14 Der Bibliothekar antwortet: „Elf Stimmen sind ein Hinweis. Für einen Beschluss sollten wir die vier Wochen abwarten.“\nZ15 Beide wollen die Rückmeldungen lesen; sie unterscheiden sich darin, wie weit die ersten Zahlen schon tragen.\nZ16 Am Ende der Probephase soll die Gruppe auch beobachten, ob in den beiden Pausen genügend ruhige Plätze frei bleiben."
+    },
+    {
+      "id": "ma-m2-kopfrechnen",
+      "subjectId": "ma",
+      "title": "Vier Grundrechenarten im Kopf durchdenken",
+      "scope": "Freiwilliger Ende-8-Ausblick: kurze exakte Rechnungen mit rationalen Zahlen bei Addition, Subtraktion, Multiplikation und Division. Rechenweg, Gegenprobe und Werkzeugwahl begründen; tatsächliche Hilfsmittelfreiheit ist im Browser nicht beobachtbar.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst die Bedeutung von Brüchen, Vorzeichen und dem Kehrwert. Die kleine Stütze unten darfst du vor dem Start lesen. Dies ist keine bestätigte aktuelle Klasse-7-Unterrichtseinheit.",
+      "introduction": "Bearbeite A–D möglichst zuerst ohne Taschenrechner und ohne Zeitdruck. Schreibe kurze Zwischenschritte. Wenn du doch ein Hilfsmittel nutzt, notiere ehrlich welches und wofür. Eine Browserangabe beweist keine beobachtete Kopfrechenleistung. E vergleicht deine Wege; danach erscheint ein freiwilliger Transfer. A–E ergeben höchstens 20 Lernpunkte, der Transfer 6 getrennte Zusatzpunkte. Offene Antworten werden nicht automatisch bewertet.",
+      "passage": "KLEINE RECHENSTÜTZE · Beim Addieren oder Subtrahieren müssen Brüche gleichnamig sein. a − b = a + (−b). Beim Multiplizieren von Brüchen darfst du einen Zähler mit einem Nenner kürzen, bevor du die ganzzahligen Faktoren multiplizierst. Beim Dividieren durch einen Bruch multiplizierst du mit seinem Kehrwert; durch null darfst du nicht teilen. Frage dich bei jeder Rechnung: Ist das Vorzeichen plausibel, und bleibt der Bruch exakt?",
+      "stagedUpdate": {
+        "kind": "transfer",
+        "mainLabel": "A–E",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "Hauptwege festhalten und Transfer zeigen",
+        "text": "FREIWILLIGER TRANSFER NACH A–E · Nutze die bisherigen Wege jetzt in einer Verbindung aus Addition und Multiplikation. Die sechs Zusatzpunkte werden getrennt von den 20 Hauptpunkten betrachtet. Eine Rechnerkontrolle darf erst nach dem eigenen Erstversuch erfolgen."
+      },
+      "tasks": [
+        {
+          "id": "ma-m2-kopfrechnen-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Addieren (4 Punkte): Berechne −7/12 + 1/2 und 5/6 + (−3/4) genau. Nenne zu jeder Rechnung einen kurzen Kopfrechenschritt. Vermerke ehrlich, wenn du dafür ein Hilfsmittel genutzt hast.",
+          "sample": "−7/12 + 1/2 = −7/12 + 6/12 = −1/12. 5/6 + (−3/4) = 10/12 − 9/12 = 1/12. Jeweils erst gleichnamig gemacht, dann die Zähler samt Vorzeichen verrechnet.",
+          "criteria": [
+            "Je Rechnung 1 Punkt für sinnvolles Gleichnamigmachen beziehungsweise Vorzeichenumformen und 1 Punkt für das exakte Ergebnis samt kurzem Vorgehen.",
+            "Ein Selbstbericht ohne Hilfsmittel ist keine beobachtete Kopfrechenleistung."
+          ]
+        },
+        {
+          "id": "ma-m2-kopfrechnen-b",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "B · Subtrahieren (4 Punkte): Berechne 5/9 − 2/3 und −5/8 − (−7/12) genau. Schreibe bei der zweiten Rechnung zuerst auf, welche Gegenzahl du zum Minuenden addierst. Vermerke einen genutzten Helfer ehrlich.",
+          "sample": "5/9 − 2/3 = 5/9 − 6/9 = −1/9. Bei −5/8 − (−7/12) addiere ich +7/12: −15/24 + 14/24 = −1/24.",
+          "criteria": [
+            "B1: 1 Punkt für gleichnamige Brüche, 1 für exaktes Ergebnis und Weg.",
+            "B2: 1 Punkt für Addition der Gegenzahl, 1 für exaktes Ergebnis und Weg."
+          ]
+        },
+        {
+          "id": "ma-m2-kopfrechnen-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "C · Multiplizieren (4 Punkte): Berechne (−9/14) · (7/27) durch geeignetes Kürzen. Schreibe auf, welche Faktoren du vor dem Multiplizieren kürzt und wie du das Vorzeichen bestimmst.",
+          "sample": "Ein negativer und ein positiver Faktor ergeben Minus. 9/27 kürzt zu 1/3 und 7/14 zu 1/2. Also (−9/14) · (7/27) = −1/(2·3) = −1/6.",
+          "criteria": [
+            "1 Punkt für negatives Vorzeichen, 2 für korrektes Kürzen vor dem Produkt, 1 für −1/6. Gleichwertige saubere Wege zählen."
+          ]
+        },
+        {
+          "id": "ma-m2-kopfrechnen-d",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "D · Dividieren (4 Punkte): Berechne (−10/21) : (25/14). Schreibe zuerst die gleichwertige Multiplikation, kürze vor dem Multiplizieren und prüfe Vorzeichen und Divisor.",
+          "sample": "(−10/21) : (25/14) = (−10/21) · (14/25). 10/25 = 2/5, 14/21 = 2/3; daher −4/15. Der Divisor 25/14 ist nicht null; das Ergebnis muss negativ sein.",
+          "criteria": [
+            "Je 1 Punkt für Kehrwert des Divisors, negatives Vorzeichen, richtiges Kürzen und −4/15."
+          ]
+        },
+        {
+          "id": "ma-m2-kopfrechnen-e",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 10,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "E · Den eigenen Weg prüfen (4 Punkte): Wähle zwei Aufgaben aus A–D, die zu zwei verschiedenen Grundoperationen gehören. Erkläre für jede, warum du sie gut im Kopf überblickst oder lieber schriftlich rechnest, und nenne je eine passende Gegenprobe. Erkläre bei mindestens einer der beiden Aufgaben auch, wann ein Taschenrechner Zeit sparen könnte und was du danach selbst prüfen müsstest.",
+          "sample": "Beispiel: A1 ist durch Zwölftel übersichtlich im Kopf; als Gegenprobe addiere ich 7/12 zum Ergebnis und erhalte 1/2. D rechne ich lieber schriftlich, weil Kehrwert und zwei Kürzungen zusammenkommen; Gegenprobe: (−4/15) · (25/14) = −10/21. Ein Rechner kann bei grösseren Zahlen Zeit sparen, aber Eingabe, Vorzeichen und Grössenordnung muss ich selbst prüfen. Andere konkrete, stimmige Entscheidungen zählen.",
+          "criteria": [
+            "Pro gewählter Operation 1 Punkt für einen konkreten Strukturgrund zur Kopf-/Schrift-/Rechnerwahl und 1 Punkt für eine passende Gegenprobe.",
+            "Bei mindestens einer Aufgabe gehört die Rechnerreflexion zum einen Strategiepunkt; sie erzeugt keinen fünften Punkt.",
+            "Die vier Punkte bewerten Erklärungen, kein behauptetes Tempo oder unbeobachtete Hilfsmittelfreiheit."
+          ]
+        },
+        {
+          "id": "ma-m2-kopfrechnen-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "V · Geschickter Transfer (6 getrennte Zusatzpunkte): Berechne (−7/18 + 1/6) · 9/2 möglichst ohne Taschenrechner. Zeige, welche Summanden du gleichnamig machst, wo du kürzt und warum Vorzeichen und Grösse des Ergebnisses plausibel sind. Eine Gegenprobe darfst du erst nach deinem Erstversuch machen.",
+          "sample": "−7/18 + 1/6 = −7/18 + 3/18 = −4/18 = −2/9. Dann (−2/9) · 9/2 = −1. Ein negativer Summenwert mal positiver Faktor bleibt negativ; 2/9 mal 9/2 ist genau 1.",
+          "criteria": [
+            "1 Punkt gleichnamig machen, 1 Punkt Summe −2/9, 2 Punkte sinnvolles Kürzen über Kreuz, 1 Punkt −1 samt Vorzeichen, 1 Punkt passende Grössen-/Vorzeichenprobe.",
+            "Sechs Punkte separat von A–E; echter Hilfsmittelverzicht lässt sich aus dem Browser nicht beweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "Thüringer Mathematik-Erprobungsfassung Gymnasium 2026, §2.2.2/PDF-S.25: Grundrechenoperationen rationaler Zahlen auch im Kopf und vorteilhaftes Rechnen, Zielmarke Klassenstufe 8. Freiwilliger Ende-8-Ausblick; aktuelle Klasse-7-Unterrichtsfolge unbekannt.",
+        "checkedAt": "2026-10-27"
+      }
     }
   ]
 });

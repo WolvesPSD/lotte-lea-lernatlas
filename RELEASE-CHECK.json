@@ -1,8 +1,8 @@
 {
-  "builtAt": "2026-10-27T19:29:36.004Z",
-  "releaseVersion": "2026.10.27-go-g01-beleuchtungszonen.1",
+  "builtAt": "2026-10-27T19:37:52.108Z",
+  "releaseVersion": "2026.10.27-ma-zahlbereiche.1",
   "newTopicIds": [
-    "go-g01-beleuchtungszonen"
+    "ma-zahlbereiche-rechenwege"
   ],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
@@ -22,9 +22,11 @@
     "Sport B2-M04: freiwillige Klasse-7-Papiervorstufe zur Regelentwicklung. Fiktive Viererteams, K1–K3, zwei Modellrunden, eigene Regel und erst nach A–D sichtbarer Fünferteam-Transfer. 20 Haupt- und 6 getrennte Zusatzpunkte; alle Sachlösungen nur für Erwachsene.",
     "205 Themen/961 Aufgabenfelder; die 204 bisherigen Themen bleiben unverändert. Kein Nachweis für tatsächliche Schulspielwahl, erprobte Regel, beobachtete Wirkung, Kinderleistung oder Jahresabdeckung.",
     "Geografie G-01: freiwilliger Ende-8-Vorgriff zur Sonnengeometrie mit erfundenen Orten. Fünf Hauptaufgaben (20 Kriterienpunkte), nach ausdrücklich bestätigter Erwachsenenrückmeldung eine Zusatzkarte (6 getrennte Punkte).",
-    "206 Themen/967 Aufgabenfelder. Die bisherige 205er Basis und Assets bleiben unverändert; Geltung des Geografieplans 2013 für 2026/27, reale Unterrichtsfolge und Jahresabdeckung ungeklärt."
+    "206 Themen/967 Aufgabenfelder. Die bisherige 205er Basis und Assets bleiben unverändert; Geltung des Geografieplans 2013 für 2026/27, reale Unterrichtsfolge und Jahresabdeckung ungeklärt.",
+    "Mathematik M2: freiwilliger Ende-8-Ausblick zu Zahlbereichserweiterungen N→Z→Q und rationalem Addieren mit Rechengesetzen. Drei Hauptaufgaben mit 20 Kriterienpunkten, freiwilliger Transfer mit 6 getrennten Punkten; fiktive Kühlkammerwerte.",
+    "207 Themen/971 Antwortfelder; die bisherigen 206 Themen und alle Assets sowie App-Funktionen bleiben unverändert. Keine bestätigte Klasse-7-Unterrichtseinheit, Kinderleistung oder volle M2-/Jahresabdeckung."
   ],
-  "rollbackCommit": "b912081ae3a57ba471c9a6294f72ebfe2ec0a2cd",
+  "rollbackCommit": "64369d55f7419bd6f03c26406d3fdfa130c0e3b2",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -231,7 +233,8 @@
     "de-dl2-m20-motivnetz",
     "ma-termstruktur-kartons",
     "sp-b2-m04-regelwerkstatt",
-    "go-g01-beleuchtungszonen"
+    "go-g01-beleuchtungszonen",
+    "ma-zahlbereiche-rechenwege"
   ],
   "subjects": [
     "en",
@@ -318,7 +321,8 @@
     "ma-m2-kopfrechnen",
     "mbi-i4-modellbias-person",
     "mbi-i2-eigenrecherche-produkt",
-    "ma-termstruktur-kartons"
+    "ma-termstruktur-kartons",
+    "ma-zahlbereiche-rechenwege"
   ],
   "unclearValidityTopics": [
     "et-algebra-kulturtransfer",
@@ -340,5 +344,5 @@
     "mu09-pentatonik-tonvorrat",
     "go-g01-beleuchtungszonen"
   ],
-  "note": "Isolierter G01-Kandidat: alte Planfassung und freiwilliger Vorgriff ausdrücklich gekennzeichnet; A4, Browser, Druck, Datentrennung und Live-Auslieferung getrennt prüfen."
+  "note": "Isolierter M2-Kandidat aus aktuellem Pin; frische Browser-/Rollen-/Druck- und A4-Gates vor Upload. Externe Mathematikfachsicht und reale Kinderbearbeitung offen."
 }

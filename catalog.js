@@ -9931,6 +9931,96 @@ window.LOTTE_CATALOG = Object.freeze({
       }
     },
     {
+      "id": "ma-zahlbereiche-rechenwege",
+      "subjectId": "ma",
+      "title": "Warum Zahlen wachsen",
+      "scope": "Freiwilliger, gestützter Klasse-8-Ausblick auf zwei Teilziele von M2: Zahlbereichserweiterungen N→Z→Q begründen und Rechengesetze bei rationalen Zahlen vorteilhaft nutzen. Keine bestätigte aktuelle Klasse-7-Einheit und keine vollständige M2-Jahresabdeckung.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Hilfreich sind einfache Brüche, gemeinsame Nenner und die Bedeutung eines Vorzeichens. Die Kühlkammer ist erfunden; die angegebenen Werte sind Rechenwerte, keine echten Messungen. Ein Taschenrechner darf zur Nachkontrolle dienen; die Aufgabe verlangt eigene Rechenschritte und Gründe.",
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "PDF-S. 2: ab 2026/27 für Klasse 7, ab 2027/28 für Klasse 8. § 2.2.2 PDF-S. 24–25: unter der Zielmarke Klassenstufe 8 die Erweiterungen N→Z und Z→Q an Beispielen begründen und Rechengesetze zum vorteilhaften Rechnen anwenden.",
+        "checkedAt": "2026-10-22"
+      },
+      "introduction": "In zwei getrennten fiktiven Kühlkammer-Versuchen rechnest du mit Temperaturänderungen. Zuerst begründest du, warum natürliche und ganze Zahlen für bestimmte Ergebnisse nicht ausreichen. Danach berechnest du denselben Endwert auf zwei Wegen und prüfst einen Vorzeichenfehler. N enthält keine negativen Zahlen; Z enthält ganze negative Zahlen; Q enthält Brüche ganzer Zahlen mit Nenner ungleich null. Schreibe vor dem Umordnen jede Änderung als Summand mit Vorzeichen. Die App bewertet offene Rechenwege nicht automatisch.",
+      "passage": "Versuch A · Start +3 °C; Änderung −5 °C; danach Änderung +1/2 °C.\n\nGetrennter Versuch B · Start −3/2 °C; Änderungen in dieser Reihenfolge: +7/4 °C, +1/2 °C, −3/4 °C.\n\nDas sind erfundene Modellwerte, keine Messdaten.",
+      "tasks": [
+        {
+          "id": "ma-zahlbereiche-1",
+          "kind": "reflection",
+          "adultOnlySolution": true,
+          "points": 8,
+          "writingLines": 10,
+          "inputRows": 10,
+          "prompt": "A. Zwei Zahlbereichserweiterungen (8 Kriterienpunkte): Berechne für Versuch A zuerst 3−5 und dann −2+1/2. Erkläre, warum natürliche Zahlen für das erste und ganze Zahlen für das zweite Ergebnis nicht ausreichen. Nenne jeweils den passenden grösseren Zahlbereich. Schreibe −2 auch als Bruch ganzer Zahlen und notiere °C bei den Ergebnissen.",
+          "sample": "3−5=−2 °C. Natürliche Zahlen enthalten keine negativen Zahlen; −2 gehört zu den ganzen Zahlen Z. Danach: −2+1/2=−4/2+1/2=−3/2 °C=−1,5 °C. Das ist keine ganze Zahl, gehört aber zu den rationalen Zahlen Q. Auch −2=−2/1 gehört zu Q. Es wird keine echte Messgenauigkeit behauptet.",
+          "criteria": [
+            "1 Punkt: 3−5 als passende Rechnung.",
+            "1 Punkt: −2 °C als erstes Ergebnis mit Einheit.",
+            "1 Punkt: N reicht wegen des negativen Ergebnisses nicht.",
+            "1 Punkt: Z als Zahlbereich für −2 genannt.",
+            "1 Punkt: −2+1/2 als zweite Rechnung mit richtigem Vorzeichen.",
+            "1 Punkt: −3/2 °C oder −1,5 °C als zweites Ergebnis mit Einheit.",
+            "1 Punkt: Z reicht für −3/2 nicht, da der Wert nicht ganzzahlig ist.",
+            "1 Punkt: Q umfasst −3/2 und −2=−2/1; gleichwertige Bruchschreibweisen zählen."
+          ]
+        },
+        {
+          "id": "ma-zahlbereiche-2",
+          "kind": "reflection",
+          "adultOnlySolution": true,
+          "points": 8,
+          "writingLines": 12,
+          "inputRows": 12,
+          "prompt": "B. Zwei Rechenwege (8 Kriterienpunkte): Berechne den Endwert von Versuch B einmal Schritt für Schritt in Ereignisfolge und einmal durch geschicktes Paaren der vier vorzeichenbehafteten Summanden. Schreibe vor dem Umordnen −3/4 als +(−3/4). Nenne die Gesetze der Addition, die Vertauschen und neues Klammern erlauben, und erkläre den Vorteil deiner Paarung. Stimmen die Endwerte mit Einheit überein?",
+          "sample": "In Reihenfolge: −3/2+7/4+1/2−3/4=−6/4+7/4+2/4−3/4; die Zwischenwerte sind 1/4, 3/4 und 0 °C. Als Summe: (−3/2)+(7/4)+(1/2)+(−3/4). Mit Vertauschungs- und Verbindungsgesetz der Addition: (−3/2+1/2)+(7/4−3/4)=−1+1=0 °C. Die Paare ergeben zwei ganze Zahlen. Das Minus von −3/4 bleibt erhalten.",
+          "criteria": [
+            "2 Punkte: Ereignisfolge mit nachvollziehbaren Zwischenwerten 1/4 und 3/4 (je 1).",
+            "1 Punkt: die vier Summanden vor dem Umordnen mit −3/4 als negativem Summanden geschrieben.",
+            "2 Punkte: sinnvolle Paarung und beide Paarwerte −1 sowie +1 (je 1).",
+            "1 Punkt: Vertauschungs- und Verbindungsgesetz der Addition korrekt benannt oder sinngemäss erklärt; beide Ideen müssen erkennbar sein.",
+            "1 Punkt: Vorteil der Paarung als zwei einfach zu addierende ganze Zahlen erklärt.",
+            "1 Punkt: beide Wege ergeben denselben Endwert 0 °C; andere gleichwertige Rechenwege gelten."
+          ]
+        },
+        {
+          "id": "ma-zahlbereiche-3",
+          "kind": "reflection",
+          "adultOnlySolution": true,
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "prompt": "C. Fremden Zettel prüfen (4 Kriterienpunkte): Dort steht: „−3/2+7/4+1/2−3/4 = −3/2+(7/4+1/2+3/4) = +3/2 °C.“ Markiere die unzulässige Umformung, gib den richtigen Endwert und formuliere eine konkrete Kontrolle, mit der du beim nächsten Mal keinen Änderungsterm ohne Vorzeichen umordnest.",
+          "sample": "Beim Einklammern wurde aus −3/4 fälschlich +3/4. Summanden dürfen vertauscht werden, ihre Vorzeichen aber nicht wechseln. Richtig ist −3/2+7/4+1/2−3/4=0 °C. Ich schreibe zuerst +(−3/4), gleiche alle vier vorzeichenbehafteten Summanden mit den Daten ab und rechne als Gegenprobe in Ereignisfolge. „Besser aufpassen“ allein beschreibt keine Kontrolle.",
+          "criteria": [
+            "1 Punkt: Stelle −3/4 → +3/4 markiert.",
+            "1 Punkt: erklärt, dass Vertauschen oder Klammern das Vorzeichen eines Summanden nicht ändern darf.",
+            "1 Punkt: richtiger Endwert 0 °C.",
+            "1 Punkt: konkrete Vorzeichenkontrolle oder unabhängige Ereignisfolge als künftige Fehlervermeidung; allgemeines „aufpassen“ reicht nicht."
+          ]
+        },
+        {
+          "id": "ma-zahlbereiche-4",
+          "kind": "reflection",
+          "adultOnlySolution": true,
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 9,
+          "prompt": "Freiwilliger Transfer · 6 eigene Punkte, nicht zu A–C addieren: Ein dritter erfundener Versuch startet bei −5/4 °C; danach ändern sich die Werte um +3/2 °C, −1/2 °C und +1/4 °C. Ordne die vier Summanden für einen kurzen Rechenweg, erkläre die Paarung und gib den Endwert mit Einheit an.",
+          "sample": "(−5/4)+(3/2)+(−1/2)+(1/4) = (−5/4+1/4)+(3/2−1/2) = −1+1 = 0 °C. Die Summanden bleiben mit ihrem Vorzeichen erhalten. Vertauschungs- und Verbindungsgesetz erlauben die Paarung zu zwei ganzen Zahlen. Ein anderer richtig begründeter Rechenweg ist gleichwertig.",
+          "criteria": [
+            "1 Punkt: alle vier Summanden mit richtigen Vorzeichen.",
+            "2 Punkte: eine sinnvolle, vollständig gezeigte Paarung; je ein Punkt für ein korrektes Paar.",
+            "1 Punkt: beide Paarwerte −1 und +1 richtig.",
+            "1 Punkt: Endwert 0 °C mit Einheit.",
+            "1 Punkt: Umordnen/Verbinden als zulässiger Schritt und Vorteil der Ganzzahlpaare erklärt."
+          ]
+        }
+      ]
+    },
+    {
       "id": "ma-potenzen-rechnerwahl",
       "subjectId": "ma",
       "title": "Potenzen und Rechnerwahl prüfen",

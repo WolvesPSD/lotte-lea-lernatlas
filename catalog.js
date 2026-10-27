@@ -20187,7 +20187,7 @@ window.LOTTE_CATALOG = Object.freeze({
         ]
       },
       "releaseEvidence": {
-        "validFor": "2027/28",
+        "validFor": "2026/27",
         "gradeBand": "7/8",
         "competencyRef": "Thüringer Deutsch-Erprobungsfassung Gymnasium 2026, §2.2.2/PDF-S.27, Methoden M20 (Textinhalte und -strukturen visualisieren) und M22 (Medien/digitale Werkzeuge für Leseergebnispräsentation auswählen und reflektiert nutzen), Zielhorizont Ende Klasse 8. Freiwilliger Einstieg in Klasse 7, keine bestätigte aktuelle Schuleinheit.",
         "checkedAt": "2026-10-27"
@@ -20297,8 +20297,8 @@ window.LOTTE_CATALOG = Object.freeze({
         }
       ],
       "releaseEvidence": {
-        "validFor": "2026/27",
-        "gradeBand": "7/8",
+        "validFor": "2027/28",
+        "gradeBand": "8",
         "competencyRef": "Thüringer Mathematik-Erprobungsfassung Gymnasium 2026, §2.2.2/PDF-S.25: Grundrechenoperationen rationaler Zahlen auch im Kopf und vorteilhaftes Rechnen, Zielmarke Klassenstufe 8. Freiwilliger Ende-8-Ausblick; aktuelle Klasse-7-Unterrichtsfolge unbekannt.",
         "checkedAt": "2026-10-27"
       }
@@ -20411,7 +20411,7 @@ window.LOTTE_CATALOG = Object.freeze({
       ],
       "releaseEvidence": {
         "validFor": "2027/28",
-        "gradeBand": "7/8",
+        "gradeBand": "8",
         "competencyRef": "Thüringer MBI-Gymnasialplan, Erprobungsfassung 2026, §2.2.4/PDF-S.26, I4-SS2: Bias in Ergebnissen generativer Modelle reflektieren und diskutieren, Zielmarke Ende Klasse 8. Schriftlicher Quellenfall als freiwilliger Ausblick; echte Gruppendiskussion und aktuelle Modelle nicht abgedeckt.",
         "checkedAt": "2026-10-27"
       }

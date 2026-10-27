@@ -1,33 +1,12 @@
 {
-  "builtAt": "2026-10-27T10:58:23.467Z",
-  "releaseVersion": "2026.10.27-mbi-i2-m1.2",
-  "newTopicIds": [
-    "mbi-i2-eigenrecherche-produkt"
-  ],
+  "builtAt": "2026-10-27T11:25:11.277Z",
+  "releaseVersion": "2026.10.27-jahrgang.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Deutsche Erwachsenen-Sprachhilfe fuer alle 27 Englisch- und 18 Franzoesischthemen sowie den Erwachsenendruck ergaenzt.",
-    "Die 192 Themen und 875 Aufgaben-/Notizfelder bleiben unveraendert. Kinderweg und Kinderdruck enthalten keine deutsche Sprachhilfe.",
-    "Weitere anklickbare Aussprachehilfen sind separat in Arbeit und werden in diesem Paket nicht als fertig ausgewiesen. Keine privaten Fotos oder Lernstaende im Paket.",
-    "Beim bestehenden Deutschkommentar kommt ein freiwilliger, erst nach sechs Hauptantworten sichtbarer Ueberschriftenvergleich mit sechs getrennten Zusatzpunkten hinzu; die bisherigen Aufgaben bleiben inhaltlich unveraendert. Insgesamt 192 Themen und 876 Aufgaben-/Notizfelder.",
-    "MBI I6-SS01: freiwilliger Ende-8-Teilfall zum fiktiven kindgerichteten Datenhinweis, mit zwei Quellenkarten, vier Hauptaufgaben (20 Punkte), real nur beobachtbarer Zweierdiskussion und späterem Transfer (6 getrennte Punkte).",
-    "193 Themen und 881 Aufgaben-/Notizfelder; die bisherigen 192 Themen bleiben unveraendert. Keine privaten Quellen, Konten oder Lernstaende im Paket.",
-    "MBI I6-O01: freiwilliger PC-/Access-Ende-8-Teilfall mit fiktiven Daten. A/D 8 schriftliche Punkte; B/C 12 Praxispunkte nur nach direkter Beobachtung; Transfer 6 getrennte schriftliche Punkte. Browsernotizen sind kein Access-Nachweis.",
-    "194 Themen und 886 Aufgaben-/Notizfelder; die bisherigen 193 Themen bleiben unveraendert. Kein vorgefertigtes Access-Projekt, keine privaten Daten oder Lernstaende im Paket.",
-    "Deutsch D-L6 M20/M22: freiwillige Belegkarte zum vorhandenen fiktiven 16-Zeilen-Text. Vier Felder, zwei begrenzte Beziehungen, reflektierte Wahl von Papier/lokalem Textdokument/lokaler Folie, lineare Textfassung und spätere Zettel-Variante. 20 Haupt- und 6 getrennte Transferpunkte.",
-    "195 Themen und 890 Aufgaben-/Notizfelder; 194 vorherige Themen bleiben unveraendert. Leere A4-PDF-Vorlage als optionaler Download, keine privaten Daten oder Lernstaende.",
-    "Französisch: Ein lokal geprüfter 7,590-Sekunden-Kontextclip zu fr-attend-kontextpruefen. Kinderknopf erscheint erst nach der festgehaltenen Anfangsvermutung; derselbe Knopf stoppt den Ton. 195 Themen/890 Aufgabenfelder unverändert.",
-    "Mathematik M2: freiwilliger Ende-8-Kopfrechenweg mit rationalen Zahlen und allen vier Grundoperationen, 20 Haupt- und 6 getrennte Transferpunkte. Ein Selbstbericht belegt keine Hilfsmittelfreiheit.",
-    "196 Themen und 896 Aufgaben-/Notizfelder; 195 frühere Themen bleiben unveraendert. Keine privaten Daten oder Lernstaende.",
-    "Deutsch S20: Im vorhandenen D-L4-Kommentar kommt nach sechs Hauptantworten eine redaktionelle Tabelle der drei berichteten Besuchswerte hinzu, mit vier freiwilligen Form-/Funktionsfragen und 10 getrennten Zusatzpunkten. Die frühere Überschriftenvariante bleibt erhalten.",
-    "196 Themen und 900 Aufgaben-/Notizfelder; keine neue Themen-ID und alle anderen 195 Themen unveraendert. Eigene SVG-Tabelle, keine privaten Daten oder Lernstaende.",
-    "MBI I4-SS2: historischer, quellengebundener Bildgenerator-Vergleich mit eigener Datentabelle der visuell geprüften HE-Balken; vier Hauptaufgaben 20 Punkte und ein später freiwilliger Forschungsplan mit 6 getrennten Zusatzpunkten. Original-PDF nur verlinkt; keine Abbildung kopiert.",
-    "197 Themen und 905 Aufgaben-/Notizfelder; alle 196 früheren Themen unverändert. Keine privaten Bilder, Daten oder Lernstände.",
-    "Musik Mu-09: freiwilliger, fachgeltungsoffener Ende-8-Vorgriff. C-Dur-Pentatonik aus gegebenem Vorrat herleiten, erst danach drei Reihen prüfen und eine eigene Papierreihenfolge planen; später getrennter G-Dur-Transfer. 20 Haupt- und 6 Zusatzpunkte. Keine Ton- oder Spielabnahme.",
-    "198 Themen/910 reguläre Aufgabenfelder; 197 bisherige Themenobjekte unverändert. Keine privaten Fotos, Antworten oder Lernstände im Paket.",
-    "MBI I2-M1: eigene begrenzte Mondphasenfrage, begründete Quellen- und Werkzeugwahl, lokale Wissenskarte und beobachtbare Revision. Vier Hauptfelder mit 20 Kriterienpunkten und ein späterer freiwilliger Transfer mit 6 getrennten Punkten. Nur direkte öffentliche Quellenlinks; keine fremden Bilder, privaten Daten oder Lernstände.",
-    "199 Themen und 915 reguläre Aufgabenfelder; alle 198 früheren Themen unverändert."
+    "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
+    "199 Themen und alle Aufgaben, Lösungen, App-Funktionen und Assets unverändert; keine neue Kinderleistung oder Unterrichtsfolge behauptet."
   ],
-  "rollbackCommit": "005c2d3eccd9caec2f1eb8fc40cf424bb40a047a",
+  "rollbackCommit": "f84fb3fe43c0297a5745928a9bb75ff8ceeb98c8",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",

@@ -1,8 +1,8 @@
 {
-  "builtAt": "2026-10-27T18:04:32.936Z",
-  "releaseVersion": "2026.10.27-sp-b1-m05.1",
+  "builtAt": "2026-10-27T18:22:23.430Z",
+  "releaseVersion": "2026.10.27-de-dl2-m20.1",
   "newTopicIds": [
-    "sp-b1-m05-armpositionen"
+    "de-dl2-m20-motivnetz"
   ],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
@@ -13,9 +13,11 @@
     "201 Themen/932 Aufgabenfelder. Die beaufsichtigte Sportpraxis und die tatsächliche Schulaufgabe bleiben ausdrücklich offen; keine Heimübung, Belastungsvorgabe oder persönliche Sportdaten. Die übrigen 200 Themen bleiben unverändert; eine Druckregel hält kurze Erwachsenenlösungen zusammen.",
     "Sport B1-M04: Zwei kurze Textfelder A2 und B3 im Katalog auf vier Zeilen korrigiert. Die App zeigte bereits vier Zeilen als sicheren Rückfall; Aufgabeninhalt, Punkte, Quellen, Stufen und alle anderen Themen unverändert.",
     "Sport B1-M05: Freiwilliger schriftlicher Modellvergleich von vier erfundenen Sprint-Standbildern mit eigener Grafik und gleichwertiger Textbeschreibung. Sieben Hauptfragen (20 Punkte), danach drei getrennte Variantenfragen (6 Punkte).",
-    "202 Themen/942 Aufgabenfelder. Beobachtung und Korrektur einer echten Bewegung sowie die weiteren Disziplinen bleiben ausschliesslich in beaufsichtigter Schulpraxis offen; keine Heimübung oder persönlichen Sportdaten. Die bisherigen 201 Themen bleiben unverändert."
+    "202 Themen/942 Aufgabenfelder. Beobachtung und Korrektur einer echten Bewegung sowie die weiteren Disziplinen bleiben ausschliesslich in beaufsichtigter Schulpraxis offen; keine Heimübung oder persönlichen Sportdaten. Die bisherigen 201 Themen bleiben unverändert.",
+    "Deutsch D-L2/M20: Freiwilliger literarischer 7/8-Visualisierungsweg mit zwei eigenen Gedichten, eigener leerer A4-SVG-Vorlage und sieben Hauptfragen (20 Punkte). Erst nach dem ersten Motivnetz folgen ein dritter eigener Text und drei getrennte Zusatzfragen (6 Punkte).",
+    "203 Themen/952 Aufgabenfelder. Die tatsächliche visuelle Karte, zweite Fassung und Mittelwahl werden von Erwachsenen am Produkt geprüft; Browsernotizen allein zählen nicht als Visualisierungsnachweis. Die bisherigen 202 Themen bleiben unverändert."
   ],
-  "rollbackCommit": "7b3b60b435d6e9b16571d4c64a2a36ead0fdd39d",
+  "rollbackCommit": "e398b8e09b05f8afdad7633b72787833b5960363",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -218,7 +220,8 @@
     "mbi-i2-eigenrecherche-produkt",
     "de-diagramm-absicht-np",
     "sp-b1-m04-ausdauermethoden",
-    "sp-b1-m05-armpositionen"
+    "sp-b1-m05-armpositionen",
+    "de-dl2-m20-motivnetz"
   ],
   "subjects": [
     "en",
@@ -325,5 +328,5 @@
     "et-liebesformen-werkevergleich",
     "mu09-pentatonik-tonvorrat"
   ],
-  "note": "Sport B1-M05: Quellen, Grafik und fiktive Schriftaufgaben im Manuskript unabhängig geprüft. Diese Papierfrage ersetzt weder echte Bewegung noch Sportlehrkrafturteil; App-, Druck- und Onlineabnahme sind vor Upload erforderlich."
+  "note": "D-L2/M20: Manuskript bereits unabhängig fachlich eng geprüft; App-, Druck-, Design-, Datenschutz- und Online-Gates vor Upload erforderlich. Keine Kinderleistung, aktuelle Unterrichtsfolge oder Jahresabnahme behauptet."
 }

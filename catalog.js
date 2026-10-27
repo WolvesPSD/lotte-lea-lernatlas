@@ -20767,6 +20767,222 @@ window.LOTTE_CATALOG = Object.freeze({
       "passage": "Ein Tisch für zwei Arten von Pause\n\nAm Anfang\nZ1 Seit einigen Wochen steht in der Bibliothek der erfundenen Sonnenfeldschule ein großer Tisch am Fenster.\nZ2 Früher lagen dort Bücherstapel, und zwischen ihnen konnte jeweils nur eine Person sitzen.\nZ3 Nun bietet der Tisch acht Plätze. Darüber hängt ein Schild: „Lese- und Austauschtisch – Probephase“.\nZ4 Die Bibliotheksgruppe möchte herausfinden, ob Lesen und leises Besprechen am selben Ort möglich sind.\n\nSo läuft der Versuch\nZ5 Dienstags und donnerstags ist der Tisch in der ersten Mittagspause für stilles Lesen vorgesehen.\nZ6 An diesen beiden Tagen dürfen Gruppen dort in der zweiten Mittagspause über gelesene Texte sprechen, solange sie andere Plätze nicht stören.\nZ7 Eine Reservierung ist nicht nötig. Wer keinen Platz findet, kann auf die freien Einzelsitze im hinteren Raum ausweichen.\nZ8 Bis zum Ende des vierwöchigen Versuchs liegen Zettel für freiwillige Rückmeldungen an der Ausleihe.\n\nWas die ersten Rückmeldungen zeigen\nZ9 Nach der ersten Woche sind 18 Zettel abgegeben worden. Elf loben, dass man ein Buch gemeinsam besprechen kann.\nZ10 Fünf wünschen sich noch mehr ruhige Plätze. Zwei enthalten nur Vorschläge für eine andere Tischordnung.\nZ11 Die Zettel sagen nichts darüber, wie viele Schülerinnen und Schüler den Tisch tatsächlich genutzt haben.\nZ12 Auch wer keinen Zettel abgegeben hat, kann den Versuch gut oder schlecht finden; dazu fehlen Angaben.\n\nZwei Lesarten\nZ13 Die Schülersprecherin sagt: „Elf positive Zettel zeigen, dass wir den Tisch sofort dauerhaft brauchen.“\nZ14 Der Bibliothekar antwortet: „Elf Stimmen sind ein Hinweis. Für einen Beschluss sollten wir die vier Wochen abwarten.“\nZ15 Beide wollen die Rückmeldungen lesen; sie unterscheiden sich darin, wie weit die ersten Zahlen schon tragen.\nZ16 Am Ende der Probephase soll die Gruppe auch beobachten, ob in den beiden Pausen genügend ruhige Plätze frei bleiben."
     },
     {
+      "id": "de-dl2-m20-motivnetz",
+      "subjectId": "de",
+      "title": "Zwei Gedichte als Motivnetz darstellen",
+      "scope": "Freiwilliger literarischer 7/8-Leseweg zur Visualisierung von Textinhalten und Beziehungen nach §2.2.2 des Thüringer Deutschplans 2026. Zwei selbst verfasste Gedichte bilden den Grundteil; ein dritter erfundener Text folgt später. Die tatsächlich gestaltete Karte und eine mögliche Werkzeugnutzung werden getrennt von Browsernotizen geprüft.",
+      "levelStatus": "grade78-flex",
+      "levelLabel": "Klasse 7/8 · Ende-8-Ziel, Unterrichtsfolge offen",
+      "released": true,
+      "prerequisite": "Du brauchst nur die zwei erfundenen Gedichte auf dieser Seite und Papier oder ein bereits vorhandenes lokales Text-/Folienprogramm. Die leere Vorlage ist freiwillig; eine eigene Anordnung ist gleichwertig. Keine echten Schul-, Familien- oder Personendaten eingeben oder hochladen.",
+      "introduction": "Lies A und B vollständig. Sammle erst Belege und entwirf dann wirklich ein sichtbares Motivnetz mit mindestens vier Knoten, beschrifteten Verbindungen und Zeilenhinweisen. Die Texte schildern getrennte Situationen; dieselbe Person oder Adresse ist nicht belegt. A–D ergeben höchstens 20 Lernpunkte. Nach deinem fertigen Grundnetz folgt ein neuer vierzeiliger Text C mit sechs getrennten Punkten. Die Eingaben hier sind nur Notizen und beweisen weder eine gezeichnete Karte noch Programmbedienung. Offene Antworten bewertet die App nicht automatisch.",
+      "passage": "GEDICHT A · LICHT ANLASSEN\nA1 Ich lasse das Licht an,\nA2 wenn die Straße dunkel wird.\nA3 Ein Streifen Fensterlicht liegt\nA4 auf dem Kies bis zum Gartentor.\n\nA5 Ich lasse das Licht an.\nA6 Die Tasse kühlt am Tisch.\nA7 Im Fensterglas steht noch ein Zimmer;\nA8 draußen klingt noch kein Schritt.\n\nA9 Ich lasse das Licht an.\nA10 Vielleicht bleibt heute alles still.\nA11 Der Kies trägt einen hellen Weg,\nA12 den niemand gehen muss.\n\nGEDICHT B · LETZTER BUS\nB1 Der letzte Bus biegt ab.\nB2 Ein Fenster trägt noch Licht.\nB3 Dahinter hebt sich etwas:\nB4 eine Hand? ein Vorhang?\nB5 Im dunklen Busglas\nB6 fährt mein Gesicht\nB7 über fremde Fenster.\nB8 Das Licht wird kleiner.\nB9 Die Frage fährt mit.\n\nWÖRTERHILFE · Ein Motiv ist ein wiederkehrendes Bild oder Element. Ein Knoten ist ein beschriftetes Feld; eine beschriftete Verbindung zeigt, wie zwei Felder zusammenhängen. Die Ich-Stimmen sind nicht automatisch die Personen, die die Gedichte verfasst haben.",
+      "cardsHeading": "Quellen und Geltungsgrenze",
+      "sourceCards": [
+        {
+          "title": "Thüringer Deutschplan 2026 · Texte visualisieren",
+          "text": "§2.2.2/PDF-S. 27 nennt als 7/8-Ziel, Textinhalte und -strukturen geeignet zu visualisieren. Dieses Angebot übt das an zwei Gedichten und einem späteren Transfer. Der Ende-8-Zielhorizont und Lottes aktuelle Unterrichtsfolge bleiben getrennt.",
+          "sourceLabel": "Thüringer Schulportal · Deutsch Gymnasium 2026",
+          "sourceUrl": "https://www.schulportal-thueringen.de/media/detail?tspi=20556",
+          "sourceNote": "Erprobungsfassung ab Klasse 7 im Schuljahr 2026/27; PDF-S. 2 und 27. Keine bestätigte aktuelle Unterrichtseinheit."
+        },
+        {
+          "title": "Gedichte A und B · eigene fiktive Projekttexte",
+          "text": "Die beiden Texte wurden für dieses Projekt selbst verfasst. Ihre ähnlichen Bilder verbinden die Gedichtpersonen nicht zu einer gemeinsamen Handlung. Text C ist ebenfalls eigens verfasst und erscheint erst nach dem Grundteil.",
+          "sourceLabel": "Eigene fiktive Projekttexte",
+          "sourceNote": "Kein übernommener Gedichttext; keine echte Person, Adresse oder Schulklasse."
+        }
+      ],
+      "lab": {
+        "path": "assets/de-motivnetz-leervorlage.svg",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-motivnetz-leervorlage.svg",
+        "title": "Leere Motivnetz-Vorlage",
+        "description": "Die freiwillige A4-SVG-Vorlage hat leere Knoten und Linien zum Selbstbeschriften, darunter einen freien Zusatzknoten. Öffne sie in einem neuen Tab zum Drucken oder Speichern. Für eine spätere Erweiterung kannst du den freien Bereich oder eine zweite Kopie nutzen; eine ganz eigene Anordnung auf Papier oder im lokalen Text-/Folienprogramm ist gleichwertig. Die App speichert keine Einträge in der Vorlage.",
+        "printNote": "Leere A4-SVG-Vorlage ohne Lösung; eigene Anordnung ist gleichwertig. Das tatsächliche Netz und die selbstständige Mittelwahl müssen getrennt angesehen werden.",
+        "scoredInteraction": false
+      },
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D und erstes eigenes Motivnetz",
+        "mainTaskCount": 7,
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "Erstes Motivnetz ist fertig – Text C zeigen",
+        "text": "SPÄTERER ERFUNDENER TEXT C · Erst nach dem eigenen Grundnetz lesen.\nC1 Im Fenster über dem Laden brennt noch Licht.\nC2 Vom gegenüberliegenden Weg sehe ich\nC3 einen Schatten am Fenster gleiten.\nC4 Wer ihn wirft, erkenne ich nicht.\nDie C-Stimme ist nicht automatisch dieselbe Person wie A oder B; ihr Ort und der Ursprung des Schattens bleiben begrenzt. Sechs getrennte Zusatzpunkte."
+      },
+      "practiceBeforeLastTask": true,
+      "tasks": [
+        {
+          "id": "de-dl2-m20-a1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "A1 · Welches konkrete Bild oder Ding kommt in beiden Gedichten vor? Nenne je eine passende A- und B-Zeile. (2 Hauptpunkte)",
+          "sample": "Fensterlicht: A3 nennt einen Streifen Fensterlicht; B2 nennt ein Fenster mit Licht. Auch A7 und B2 können als Belegpaar passen.",
+          "criteria": [
+            "1 Punkt: Fensterlicht/Licht am Fenster als konkretes gemeinsames Motiv.",
+            "1 Punkt: passende A- und B-Zeile gemeinsam; eine abstrakte Hoffnung ohne Textbild genügt nicht."
+          ]
+        },
+        {
+          "id": "de-dl2-m20-a2",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "A2 · Wo nimmt die A-Stimme ungefähr wahr oder handelt sie, und was tut sie selbst? Stütze beide Aussagen mit A-Zeilen. (2 Hauptpunkte)",
+          "sample": "Die Stimme ist im oder am Haus (etwa A6–A7); sie lässt selbst das Licht an (A1, A5 oder A9). Ein bestimmter Haushalt ist nicht belegt.",
+          "criteria": [
+            "1 Punkt: ungefährer Blickpunkt im/am Haus mit Raumbezug A6–A7 oder A3–A4.",
+            "1 Punkt: eigenes Anlassen des Lichts mit A1/A5/A9."
+          ]
+        },
+        {
+          "id": "de-dl2-m20-a3",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "A3 · Von wo blickt die B-Stimme ungefähr, und was beobachtet sie nur? Belege es mit B-Zeilen und markiere eine unsichere Beobachtung als Frage. (2 Hauptpunkte)",
+          "sample": "Sie blickt aus dem fahrenden Bus (B1, B5–B7), sieht ein leuchtendes Fenster und etwas Unklares dahinter (B2–B4). Ob es eine Hand oder ein Vorhang ist, bleibt eine Frage.",
+          "criteria": [
+            "1 Punkt: Blickpunkt aus dem fahrenden Bus mit B1/B5–B7.",
+            "1 Punkt: B2–B4 als Licht und nicht sicher identifiziertes Etwas beschrieben; sichere Hand ist nicht belegt."
+          ]
+        },
+        {
+          "id": "de-dl2-m20-b1",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "B1 · Schreibe einen Vergleichssatz: Wer hat in A und B welches Verhältnis zum Licht? Verwende je einen A- und B-Beleg und trenne Handlung von Beobachtung. (3 Hauptpunkte)",
+          "sample": "In A lässt die Stimme das Licht selbst an (A1/A5/A9), in B beobachtet die Stimme beim Vorbeifahren ein beleuchtetes Fenster (B1–B2/B8). Gleiche Bilder beweisen keine gemeinsame Person oder Adresse.",
+          "criteria": [
+            "1 Punkt: A lässt Licht selbst an, mit A1/A5/A9.",
+            "1 Punkt: B sieht Fensterlicht beim Vorbeifahren, mit B1–B2/B8.",
+            "1 Punkt: Handlung und Beobachtung als Unterschied, ohne gemeinsame Identität zu behaupten."
+          ]
+        },
+        {
+          "id": "de-dl2-m20-b2",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "B2 · Schreibe einen zweiten Vergleichssatz: Welche mögliche Bedeutung oder Beobachtung bleibt in A und B jeweils offen? Belege beide Seiten und formuliere Vermutungen als Vermutungen. (3 Hauptpunkte)",
+          "sample": "A8/A10–A12 lassen offen, ob der helle Weg Einladung oder Loslassen einer Erwartung bedeutet. B3–B4/B9 lassen offen, ob hinter dem Fenster eine Hand oder ein Vorhang zu sehen ist. Beide Offenheiten sind nicht dieselbe Tatsache.",
+          "criteria": [
+            "1 Punkt: eine plausible, mit A8/A10–A12 belegte offene A-Deutung.",
+            "1 Punkt: B3–B4/B9 als ungewisse Beobachtung.",
+            "1 Punkt: beide als Möglichkeiten statt Fakten getrennt; andere texttragfähige A-Deutungen zählen."
+          ]
+        },
+        {
+          "id": "de-dl2-m20-c",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "C · Stelle wirklich ein sichtbares Motivnetz auf Papier oder in einem lokalen Programm her: mindestens vier getrennte Knoten für A, B, gemeinsames Motiv und offene Frage(n); A und B jeweils mit dem Motiv verbinden; zwei weitere beschriftete Vergleiche aus B1/B2 und passende Zeilenbelege ergänzen. Zeichne oder gestalte selbst; ein Fliesstext allein genügt nicht. Notiere hier nur deine geplanten Knoten und Beziehungen. Die sechs Punkte kann ein Erwachsener nur am echten Netz prüfen, nicht an dieser Browsernotiz. (6 Hauptpunkte)",
+          "sample": "Mögliche Karte: Knoten A 'Licht wird angelassen', B 'Licht wird gesehen', gemeinsames Fensterlicht, offen 'Was bedeutet es / was hebt sich?'. Vergleichslinien etwa 'selbst tun ↔ vorbeifahren' und 'mögliche Einladung ↔ ungewisse Beobachtung'. Dies ist nur ein Erwachsenenbeispiel; andere belegte Anordnungen sind gleichwertig.",
+          "criteria": [
+            "2 Punkte: mindestens vier unterscheidbare Knoten A, B, gemeinsames Motiv und offene Frage(n) am tatsächlichen Produkt.",
+            "1 Punkt: A und B sichtbar mit dem Motiv verbunden.",
+            "2 Punkte: zwei beschriftete Verbindungen zeigen die Unterschiede aus B1 und B2.",
+            "1 Punkt: passende A-/B-Zeilen an Aussagen, ohne gemeinsame Person oder Adresse als Fakt. Browsernotiz allein: Produkt nicht erhoben."
+          ]
+        },
+        {
+          "id": "de-dl2-m20-d",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "D · Schreibe unter dein tatsächliches Netz eine kurze lineare Textfassung: Was haben A und B gemeinsam, was trennt sie, und was bleibt offen? Nenne eine konkrete Nuance, die deine Karte vereinfacht oder auslässt. Notiere die Fassung auch hier, falls du später weitermachen willst. (2 Hauptpunkte)",
+          "sample": "Beide Texte zeigen Fensterlicht; in A lässt eine Stimme Licht an, in B sieht eine Stimme Licht beim Wegfahren. Ob der helle Weg für jemanden gedacht ist und was sich im Busfenster hebt, bleibt offen. Das Netz zeigt die Wiederholung 'Ich lasse das Licht an' (A1/A5/A9) nur vereinfacht.",
+          "criteria": [
+            "1 Punkt: verständliche lineare Fassung mit Gemeinsamkeit, Unterschied und Offenheit.",
+            "1 Punkt: konkrete Grenze der Verdichtung, etwa Wiederholung A1/A5/A9 oder Wegfahren B8–B9."
+          ]
+        },
+        {
+          "id": "de-dl2-m20-v1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 4,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "Späterer Text C · V1: Nenne das konkrete Bild, das C mit A und B verbindet, mit C-Zeile. Beschreibe den Blickpunkt der C-Stimme mit einer weiteren C-Zeile. (2 getrennte Zusatzpunkte)",
+          "sample": "C1 zeigt Fensterlicht über dem Laden; C2 verankert den Blickpunkt auf dem gegenüberliegenden Weg. Eine Ladeninhaberin ist nicht belegt.",
+          "criteria": [
+            "1 Zusatzpunkt: C1 als Fensterlicht über dem Laden.",
+            "1 Zusatzpunkt: C2 als Blickpunkt auf dem gegenüberliegenden Weg."
+          ]
+        },
+        {
+          "id": "de-dl2-m20-v2",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "Späterer Text C · V2: Vergleiche C mit A bei Handeln/Beobachten und mit B bei Unsicherheit. Verwende jeweils eine C-Zeile und eine A- oder B-Zeile. Behaupte keine gemeinsame Person oder Adresse. (2 getrennte Zusatzpunkte)",
+          "sample": "A1/A5/A9: A lässt Licht an; C1–C2: C beobachtet aus Entfernung. B3–B4: B identifiziert das Etwas nicht sicher; C3–C4: C weiss nicht, wer den Schatten wirft. Die Ungewissheiten bleiben verschieden.",
+          "criteria": [
+            "1 Zusatzpunkt: A/C Handlung gegen Beobachtung mit je einem Beleg.",
+            "1 Zusatzpunkt: B/C unterschiedliche Unsicherheit mit je einem Beleg; keine gemeinsame Identität erfunden."
+          ]
+        },
+        {
+          "id": "de-dl2-m20-v3",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "Späterer Text C · V3: Ergänze dein echtes Motivnetz um einen C-Knoten und zwei beschriftete Verbindungen: zum gemeinsamen Motiv und zu einer offenen Frage. Zeige bei C4, was nicht bestätigt ist. Halte die alte A/B-Karte erkennbar. Notiere hier nur die geplante Ergänzung; die Punkte brauchen die sichtbar geänderte Karte. (2 getrennte Zusatzpunkte)",
+          "sample": "Eigenständiger C-Knoten: 'beobachtet Licht über dem Laden (C1)'; eine Verbindung zum gemeinsamen Fensterlicht und eine zweite zur offenen Frage 'Wer wirft den Schatten? unbekannt (C4)'. A/B-Beziehungen bleiben lesbar.",
+          "criteria": [
+            "1 Zusatzpunkt: echter C-Knoten mit beschrifteter Beziehung zum gemeinsamen Lichtmotiv am Produkt.",
+            "1 Zusatzpunkt: zweite beschriftete Beziehung zur offenen Frage mit C4, ohne Person/Adresse zu behaupten; alte A/B-Beziehungen bleiben sichtbar. Browsernotiz allein: Produkt nicht erhoben."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Motivnetz wirklich zeichnen oder lokal gestalten",
+        "unscored": true,
+        "childNote": "Die Vorlage ist freiwillig und enthält keine Lösung. Du kannst sie drucken oder speichern und eine eigene Form wählen. Stelle das erste Netz wirklich vor Text C her; nutze später den freien Zusatzknoten, eine zweite Kopie oder ein zusätzliches Blatt für die Ergänzung. Textfelder speichern nur deine Notizen; sie ersetzen weder das Netz noch die selbstständige Wahl und Nutzung des Mittels.",
+        "childSteps": [
+          "Nach A1–B2 vier oder mehr eigene Knoten und die geforderten beschrifteten Beziehungen auf Papier oder in einem lokalen Text-/Folienprogramm herstellen.",
+          "Zeilenbelege an den passenden Aussagen eintragen und eine kurze lineare Textfassung mit Grenze unter das Netz schreiben.",
+          "Erst nach dem ersten fertigen Netz Text C freigeben und den C-Knoten samt zwei Beziehungen auf einer zweiten Fassung ergänzen.",
+          "Beide Fassungen nur lokal behalten oder einer erwachsenen Person direkt zeigen; nichts hochladen oder versenden."
+        ],
+        "adultNote": "Der Beobachtungsbogen vergibt keine zweiten Punkte. C (6 Hauptpunkte) und V3 (2 Zusatzpunkte) sind nur an tatsächlich vorhandenen visuellen Fassungen bewertbar. Browsernotizen allein oder ein ausgefülltes Textfeld sind kein Netz. Papier ist gleichwertig; digitale Bedienung nur als beobachtet markieren, wenn sie wirklich stattfand.",
+        "adultCriteria": [
+          "Erste eigene Karte mit vier oder mehr Knoten, A/B-Motivbeziehungen, zwei beschrifteten Vergleichen und Zeilenbelegen vorhanden?",
+          "Gewähltes Mittel und eigene Gestaltung nachvollziehbar; bei digitalem Weg tatsächliche Bedienung gesehen oder offen?",
+          "Lineare Textfassung und eine konkrete Verdichtungsgrenze unter der Karte vorhanden?",
+          "Nach Text C zweite sichtbar ergänzte Fassung mit C-Knoten und zwei beschrifteten Beziehungen vorhanden?"
+        ],
+        "printAdultNote": "Keine Punkte allein aus Browsernotizen vergeben. C und V3 nur am vorliegenden Netz beziehungsweise seiner zweiten Fassung prüfen; ohne Produkt 'nicht erhoben'. Keine Kinderkarte in dieses Projekt hochladen."
+      },
+      "releaseEvidence": {
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "Deutsch Gymnasium Erprobungsfassung 2026, §2.2.2/PDF-S.27, M20 Textinhalte und -strukturen nach dem Lesen geeignet visualisieren; freiwilliger literarischer Klasse-7-Einstieg zum Ende-8-Ziel. Keine aktuelle Schulfolge belegt.",
+        "checkedAt": "2026-10-27"
+      }
+    },
+    {
       "id": "ma-m2-kopfrechnen",
       "subjectId": "ma",
       "title": "Vier Grundrechenarten im Kopf durchdenken",

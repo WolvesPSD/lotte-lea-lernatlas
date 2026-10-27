@@ -20415,6 +20415,120 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "Thüringer MBI-Gymnasialplan, Erprobungsfassung 2026, §2.2.4/PDF-S.26, I4-SS2: Bias in Ergebnissen generativer Modelle reflektieren und diskutieren, Zielmarke Ende Klasse 8. Schriftlicher Quellenfall als freiwilliger Ausblick; echte Gruppendiskussion und aktuelle Modelle nicht abgedeckt.",
         "checkedAt": "2026-10-27"
       }
+    },
+    {
+      "id": "mu09-pentatonik-tonvorrat",
+      "subjectId": "mu",
+      "title": "Fünf Töne aus zwei Dur-Reihen ableiten",
+      "scope": "Freiwilliger gestützter Klasse-7-Vorgriff auf einen schriftlichen Teil von Mu-09 mit Zielmarke Ende Klasse 8 im älteren Musikplan. Die Fachgeltung 2026/27 und die Unterrichtsfolge sind ungeklärt. Tonnamen auf Papier sind kein Nachweis für Hören, Singen oder Spielen.",
+      "levelStatus": "additional-unclear",
+      "released": true,
+      "prerequisite": "Du brauchst nur die gegebene C-Dur-Karte. Bearbeite A zunächst selbst. Die Auswahl in B erscheint erst, nachdem du A festgehalten hast. Die App bewertet freie Antworten nicht automatisch; 20 Haupt- und 6 getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "introduction": "AUSGANGSKARTE C-DUR · Stufe 1 = C; 2 = D; 3 = E; 4 = F; 5 = G; 6 = A; 7 = H. Für diese Übung entsteht die C-Dur-Pentatonik, indem du die Stufen 4 und 7 weglässt. Penta bedeutet fünf. Die Buchstaben sind Tonnamen, noch keine gespielte Melodie. Aus dem Tonvorrat allein folgt keine sichere Herkunfts- oder Klangaussage.",
+      "firstTaskGate": {
+        "unlockLabel": "A festhalten und Auswahl B zeigen",
+        "afterLabel": "B–C",
+        "printBefore": "Druckfolge: Erst A mit der C-Dur-Karte bearbeiten. Die Aufgaben B und C werden nach dem Festhalten von A im Übungsraum zum Kinderdruck freigegeben. Ein Papierblatt belegt die Bearbeitungsreihenfolge nicht.",
+        "printAfter": "Druckfolge: A ist festgehalten. Jetzt B und C bearbeiten; der freiwillige G-Dur-Transfer wird erst nach den Hauptantworten zum Kinderdruck freigegeben.",
+        "printComplete": "Druckfolge: A zuerst, dann B und C, zuletzt der freiwillige G-Dur-Transfer. Ein Ausdruck belegt die Bearbeitungsreihenfolge nicht."
+      },
+      "stagedUpdate": {
+        "kind": "transfer",
+        "mainLabel": "A–C",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "Hauptantworten festhalten und G-Dur-Transfer öffnen",
+        "text": "FREIWILLIGER TRANSFER NACH A–C · Die G-Dur-Reihe ist gegeben: G – A – H – C – D – E – Fis (F♯), Stufen 1 bis 7. Wende dieselbe Weglassregel an. Die sechs Zusatzpunkte bleiben getrennt von den 20 Hauptpunkten. Eine Tonfolge auf Papier ist noch keine gehörte oder gespielte Skala."
+      },
+      "tasks": [
+        {
+          "id": "mu09-pentatonik-a",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 7,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "A · Herleitung vor der Auswahl (6 Hauptpunkte): Nenne die beiden wegzulassenden Stufennummern und zugehörigen Tonnamen. Schreibe die fünf verbleibenden Töne in der Reihenfolge der C-Dur-Karte auf. Erkläre mit einem Satz, warum der Vorrat pentatonisch heisst.",
+          "sample": "Stufen 4 und 7, also F und H, werden weggelassen. Es bleiben C – D – E – G – A. Der Vorrat heisst pentatonisch, weil er fünf verschiedene Töne enthält.",
+          "criteria": [
+            "Je 1 Punkt für die Stufennummern 4 und 7 sowie für die zugehörigen Töne F und H: 4 Punkte.",
+            "1 Punkt für C – D – E – G – A in dieser Reihenfolge.",
+            "1 Punkt für fünf verschiedene Töne als Erklärung von penta. Wenn die Auswahl B bereits gesehen wurde, A2 nur als gestützte Übung werten."
+          ]
+        },
+        {
+          "id": "mu09-pentatonik-b1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "B1 · Auswahl prüfen (4 Hauptpunkte). X: C – D – E – G – A. Y: C – D – E – F – G. Z: C – E – F – G – H. Wähle die zur Regel passende Reihe und begründe mit den Stufen 4 und 7. Nenne für Y und Z je einen konkreten Fehler.",
+          "sample": "X passt: F auf Stufe 4 und H auf Stufe 7 fehlen. Y enthält F oder lässt A aus. Z enthält F/H oder lässt D und A aus.",
+          "criteria": [
+            "1 Punkt für X.",
+            "1 Punkt für die passende Begründung mit F/Stufe 4 und H/Stufe 7.",
+            "1 Punkt für einen konkreten Fehler in Y.",
+            "1 Punkt für einen konkreten Fehler in Z; gleichwertige richtige Unterschiede gelten."
+          ]
+        },
+        {
+          "id": "mu09-pentatonik-b2",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "B2 · Eigene Tonfolge auf Papier (6 Hauptpunkte): Plane zwei 4/4-Takte mit je vier Viertel-Zählzeiten. Schreibe für jede der acht Positionen genau einen erlaubten Tonnamen aus dem passenden Fünf-Ton-Vorrat. Beginne und ende mit C und nutze mindestens drei verschiedene Töne. Ein kleines Motiv aus Takt 1 soll in Takt 2 erkennbar wiederkehren, aber mindestens ein Ton muss sich ändern. Notiere als Text: Takt 1: 1 | 2 | 3 | 4. Takt 2: 1 | 2 | 3 | 4. Du musst nichts aufnehmen oder vorsingen.",
+          "sample": "Eine mögliche Folge: Takt 1 C | D | E | G; Takt 2 C | D | A | C. Das Motiv C–D kehrt wieder; die Fortsetzung ändert sich. Andere passende Folgen sind gleichwertig.",
+          "criteria": [
+            "1 Punkt für zwei Vierergruppen mit je einem Tonnamen pro Viertel-Zählzeit.",
+            "2 Punkte, wenn alle acht Namen aus C/D/E/G/A stammen; 1 bei genau einem Fremdton, sonst 0.",
+            "1 Punkt für C am Anfang und Ende, je 0,5.",
+            "1 Punkt für mindestens drei verschiedene erlaubte Töne.",
+            "1 Punkt für ein erkennbar wiederkehrendes Motiv mit wenigstens einem geänderten Ton; 0,5 bei identischer Wiederholung ohne Änderung."
+          ]
+        },
+        {
+          "id": "mu09-pentatonik-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "C · Aussagen begrenzen (4 Hauptpunkte): Ein fremder Entwurf behauptet: 1. „Pentatonisch bedeutet sechs verschiedene Töne.“ 2. „Aus diesen fünf Tonnamen weiss man sicher, aus welchem Land die Musik kommt.“ Erkläre für jede Aussage den Fehler und schreibe eine sachlich tragfähige Alternative.",
+          "sample": "1. Hier sind es fünf verschiedene Töne, nicht sechs. 2. Ein Tonvorrat verrät kein sicheres Herkunftsland; dazu wären konkrete Informationen über ein bestimmtes Stück und seine Quelle nötig.",
+          "criteria": [
+            "Je 1 Punkt für die sachlich erklärte Widerlegung beider Behauptungen.",
+            "Je 1 Punkt für eine passende Alternative zu beiden Behauptungen.",
+            "Keine kulturelle Herkunft aus einem blossen Tonvorrat behaupten."
+          ]
+        },
+        {
+          "id": "mu09-pentatonik-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger G-Dur-Transfer (6 getrennte Zusatzpunkte): Nenne zu den Stufen 4 und 7 der gegebenen G-Dur-Reihe die Töne, streiche sie und schreibe die fünf übrigen Töne in Reihenfolge. Benenne den neuen Vorrat passend. Notiere danach eine eigene Vier-Ton-Zeile nur mit diesen Tönen, die mit G beginnt und endet.",
+          "sample": "Stufe 4 ist C, Stufe 7 Fis (F♯). Übrig bleiben G – A – H – D – E: hier die G-Dur-Pentatonik. Eine mögliche Vier-Ton-Zeile ist G – A – D – G.",
+          "criteria": [
+            "Je 1 Punkt für C auf Stufe 4 und Fis/F♯ auf Stufe 7.",
+            "2 Punkte für fünf ausschliesslich richtige übrige Töne in vollständiger Reihenfolge; 1 Punkt bei richtigem Vorrat in anderer Reihenfolge.",
+            "1 Punkt für eine passende Benennung als G-Dur-Pentatonik.",
+            "1 Punkt für vier erlaubte Töne mit G am Anfang und Ende. Die sechs Punkte getrennt von den 20 Hauptpunkten ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "primaryUrl": "https://www.schulportal-thueringen.de/web/guest/lehrplaene/gymnasium",
+        "primarySha256": "0F7847F86FDFA779173E48B0D9FFAF4494252145D125DB346A7991B300E3F981",
+        "validFor": "2025/26 amtlich belegt; 2026/27 ungeklärt",
+        "gradeBand": "7/8, Ziel Ende Klasse 8",
+        "competencyRef": "Musik Gymnasium 2012/13, §2.2.3.3/PDF-S.25: ausgewählte Skalen, darunter Pentatonik, erkennen und benennen; Notation an musizierpraktische Erfahrung gebunden. Hier nur eine freiwillige schriftliche Teilübung.",
+        "checkedAt": "2026-10-27",
+        "reviewNote": "App-Ableger der getrennten Kinder-/Erwachsenenblätter und einer unabhängigen engen Prüfung. A vor der Antwortauswahl B; 20 Haupt- und 6 getrennte Zusatzpunkte. Keine gespielte oder gehörte Skala und keine aktuelle Fachgeltungsbehauptung."
+      }
     }
   ]
 });

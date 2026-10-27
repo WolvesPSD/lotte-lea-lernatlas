@@ -1112,11 +1112,14 @@
         : hideChildReadingUpdate
           ? `Druckfolge: Zuerst die Titelvermutung, danach ${topic.stagedReading.plan ? 'Lesetext, Plan' : 'Lesetext'} und Hauptaufgaben bearbeiten. Die Änderung wird erst nach dem Festhalten der Hauptantworten zum Druck freigegeben.`
           : 'Druckfolge: Seite mit Titel und Vermutung zuerst bearbeiten. Die folgende Textseite erst danach ansehen; den Änderungstext erst nach den Hauptaufgaben ansehen. Eine bedruckte Seite allein beweist diese Reihenfolge nicht.');
-      if (topic.firstTaskGate && mode === 'child') appendText(section, 'p', 'print-context', hideChildFirstGate
-        ? `Druckfolge: Zuerst nur A aus dem Gedächtnis bearbeiten. ${topic.firstTaskGate.afterLabel || 'B–D'} werden nach dem Festhalten von A im Übungsraum zum Kinderdruck freigegeben. Papier allein beweist keinen Hilfsmittelverzicht.`
-        : hideChildUpdate
-          ? `Druckfolge: A ist festgehalten. Jetzt ${topic.firstTaskGate.afterLabel || 'B–D'} bearbeiten. Der freiwillige Transfer wird erst danach zum Kinderdruck freigegeben.`
-          : `Druckfolge: A zuerst, dann ${topic.firstTaskGate.afterLabel || 'B–D'}, zuletzt der freiwillige Transfer. Papier allein beweist keinen Hilfsmittelverzicht.`);
+      if (topic.firstTaskGate && mode === 'child') {
+        const afterLabel = topic.firstTaskGate.afterLabel || 'B–D';
+        appendText(section, 'p', 'print-context', hideChildFirstGate
+          ? (topic.firstTaskGate.printBefore || 'Druckfolge: Zuerst nur A aus dem Gedächtnis bearbeiten. ' + afterLabel + ' werden nach dem Festhalten von A im Übungsraum zum Kinderdruck freigegeben. Papier allein beweist keinen Hilfsmittelverzicht.')
+          : hideChildUpdate
+            ? (topic.firstTaskGate.printAfter || 'Druckfolge: A ist festgehalten. Jetzt ' + afterLabel + ' bearbeiten. Der freiwillige Transfer wird erst danach zum Kinderdruck freigegeben.')
+            : (topic.firstTaskGate.printComplete || 'Druckfolge: A zuerst, dann ' + afterLabel + ', zuletzt der freiwillige Transfer. Papier allein beweist keinen Hilfsmittelverzicht.'));
+      }
       if (topic.stagedUpdate && !topic.firstTaskGate && mode === 'child') appendText(section, 'p', 'print-context', hideChildUpdate
         ? `Druckfolge: Zuerst die Hauptaufgaben ${topic.stagedUpdate.mainLabel || 'A–C'} bearbeiten. Die Zusatzseite wird nach dem Festhalten dieser Antworten im Übungsraum freigegeben.`
         : `Druckfolge: Zuerst die Hauptaufgaben ${topic.stagedUpdate.mainLabel || 'A–C'} auf den ersten Seiten bearbeiten. ${topic.stagedUpdate.printNote || `Die spätere ${topic.stagedUpdate.kind === 'variant' ? 'Variante' : 'Korrektur'} auf der Zusatzseite erst danach ansehen.`} Papier allein beweist diese Reihenfolge nicht.`);

@@ -1,8 +1,8 @@
 {
-  "builtAt": "2026-10-27T09:59:31.131Z",
-  "releaseVersion": "2026.10.27-mbi-i4-modellbias.1",
+  "builtAt": "2026-10-27T10:20:24.346Z",
+  "releaseVersion": "2026.10.27-mu09-pentatonik.1",
   "newTopicIds": [
-    "mbi-i4-modellbias-person"
+    "mu09-pentatonik-tonvorrat"
   ],
   "changeLog": [
     "Deutsche Erwachsenen-Sprachhilfe fuer alle 27 Englisch- und 18 Franzoesischthemen sowie den Erwachsenendruck ergaenzt.",
@@ -21,9 +21,11 @@
     "Deutsch S20: Im vorhandenen D-L4-Kommentar kommt nach sechs Hauptantworten eine redaktionelle Tabelle der drei berichteten Besuchswerte hinzu, mit vier freiwilligen Form-/Funktionsfragen und 10 getrennten Zusatzpunkten. Die frühere Überschriftenvariante bleibt erhalten.",
     "196 Themen und 900 Aufgaben-/Notizfelder; keine neue Themen-ID und alle anderen 195 Themen unveraendert. Eigene SVG-Tabelle, keine privaten Daten oder Lernstaende.",
     "MBI I4-SS2: historischer, quellengebundener Bildgenerator-Vergleich mit eigener Datentabelle der visuell geprüften HE-Balken; vier Hauptaufgaben 20 Punkte und ein später freiwilliger Forschungsplan mit 6 getrennten Zusatzpunkten. Original-PDF nur verlinkt; keine Abbildung kopiert.",
-    "197 Themen und 905 Aufgaben-/Notizfelder; alle 196 früheren Themen unverändert. Keine privaten Bilder, Daten oder Lernstände."
+    "197 Themen und 905 Aufgaben-/Notizfelder; alle 196 früheren Themen unverändert. Keine privaten Bilder, Daten oder Lernstände.",
+    "Musik Mu-09: freiwilliger, fachgeltungsoffener Ende-8-Vorgriff. C-Dur-Pentatonik aus gegebenem Vorrat herleiten, erst danach drei Reihen prüfen und eine eigene Papierreihenfolge planen; später getrennter G-Dur-Transfer. 20 Haupt- und 6 Zusatzpunkte. Keine Ton- oder Spielabnahme.",
+    "198 Themen/910 reguläre Aufgabenfelder; 197 bisherige Themenobjekte unverändert. Keine privaten Fotos, Antworten oder Lernstände im Paket."
   ],
-  "rollbackCommit": "decdf1f0d4289b6cb9ac05721450f82da1ffafca",
+  "rollbackCommit": "7edae46ddd72422392848cfa88d53ab9b723b334",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -221,7 +223,8 @@
     "mbi-i6-o01-access",
     "de-belegkarte-m20m22",
     "ma-m2-kopfrechnen",
-    "mbi-i4-modellbias-person"
+    "mbi-i4-modellbias-person",
+    "mu09-pentatonik-tonvorrat"
   ],
   "subjects": [
     "en",
@@ -324,7 +327,8 @@
     "ge-bauernartikel-freiheit-deutung",
     "go-reisepfeile-auslandsreisen",
     "go-bananen-lieferkette",
-    "et-liebesformen-werkevergleich"
+    "et-liebesformen-werkevergleich",
+    "mu09-pentatonik-tonvorrat"
   ],
-  "note": "Der MBI-I4-Fall untersucht zwei Bildmodellversionen von 2023 als freiwilligen Ende-8-Ausblick. Er belegt keine heutige Modellverteilung, reale Gruppendiskussion oder Kinderleistung; externe Fachabnahme bleibt offen."
+  "note": "Der Mu-09-Papierfall ist nur ein freiwilliger schriftlicher Teilaspekt. Musikfachgeltung 2026/27, Hören/Spielen/Singen, Kinderleistung und Jahresabdeckung bleiben offen."
 }

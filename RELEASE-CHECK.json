@@ -1,8 +1,8 @@
 {
-  "builtAt": "2026-10-27T10:20:24.346Z",
-  "releaseVersion": "2026.10.27-mu09-pentatonik.1",
+  "builtAt": "2026-10-27T10:58:23.467Z",
+  "releaseVersion": "2026.10.27-mbi-i2-m1.2",
   "newTopicIds": [
-    "mu09-pentatonik-tonvorrat"
+    "mbi-i2-eigenrecherche-produkt"
   ],
   "changeLog": [
     "Deutsche Erwachsenen-Sprachhilfe fuer alle 27 Englisch- und 18 Franzoesischthemen sowie den Erwachsenendruck ergaenzt.",
@@ -23,9 +23,11 @@
     "MBI I4-SS2: historischer, quellengebundener Bildgenerator-Vergleich mit eigener Datentabelle der visuell geprüften HE-Balken; vier Hauptaufgaben 20 Punkte und ein später freiwilliger Forschungsplan mit 6 getrennten Zusatzpunkten. Original-PDF nur verlinkt; keine Abbildung kopiert.",
     "197 Themen und 905 Aufgaben-/Notizfelder; alle 196 früheren Themen unverändert. Keine privaten Bilder, Daten oder Lernstände.",
     "Musik Mu-09: freiwilliger, fachgeltungsoffener Ende-8-Vorgriff. C-Dur-Pentatonik aus gegebenem Vorrat herleiten, erst danach drei Reihen prüfen und eine eigene Papierreihenfolge planen; später getrennter G-Dur-Transfer. 20 Haupt- und 6 Zusatzpunkte. Keine Ton- oder Spielabnahme.",
-    "198 Themen/910 reguläre Aufgabenfelder; 197 bisherige Themenobjekte unverändert. Keine privaten Fotos, Antworten oder Lernstände im Paket."
+    "198 Themen/910 reguläre Aufgabenfelder; 197 bisherige Themenobjekte unverändert. Keine privaten Fotos, Antworten oder Lernstände im Paket.",
+    "MBI I2-M1: eigene begrenzte Mondphasenfrage, begründete Quellen- und Werkzeugwahl, lokale Wissenskarte und beobachtbare Revision. Vier Hauptfelder mit 20 Kriterienpunkten und ein späterer freiwilliger Transfer mit 6 getrennten Punkten. Nur direkte öffentliche Quellenlinks; keine fremden Bilder, privaten Daten oder Lernstände.",
+    "199 Themen und 915 reguläre Aufgabenfelder; alle 198 früheren Themen unverändert."
   ],
-  "rollbackCommit": "7edae46ddd72422392848cfa88d53ab9b723b334",
+  "rollbackCommit": "005c2d3eccd9caec2f1eb8fc40cf424bb40a047a",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -224,7 +226,8 @@
     "de-belegkarte-m20m22",
     "ma-m2-kopfrechnen",
     "mbi-i4-modellbias-person",
-    "mu09-pentatonik-tonvorrat"
+    "mu09-pentatonik-tonvorrat",
+    "mbi-i2-eigenrecherche-produkt"
   ],
   "subjects": [
     "en",
@@ -309,7 +312,8 @@
     "mbi-i6-ss01-transparenz",
     "mbi-i6-o01-access",
     "ma-m2-kopfrechnen",
-    "mbi-i4-modellbias-person"
+    "mbi-i4-modellbias-person",
+    "mbi-i2-eigenrecherche-produkt"
   ],
   "unclearValidityTopics": [
     "et-algebra-kulturtransfer",
@@ -330,5 +334,5 @@
     "et-liebesformen-werkevergleich",
     "mu09-pentatonik-tonvorrat"
   ],
-  "note": "Der Mu-09-Papierfall ist nur ein freiwilliger schriftlicher Teilaspekt. Musikfachgeltung 2026/27, Hören/Spielen/Singen, Kinderleistung und Jahresabdeckung bleiben offen."
+  "note": "I2-M1 ist ein freiwilliger Ende-8-Produktweg. App-Texteingaben und ein technischer Browserlauf belegen keine eigene Kinderrecherche, lokale Dateierstellung, Wiederöffnung oder Revision; externe Fach- und Familienabnahme bleiben offen."
 }

@@ -20529,6 +20529,127 @@ window.LOTTE_CATALOG = Object.freeze({
         "checkedAt": "2026-10-27",
         "reviewNote": "App-Ableger der getrennten Kinder-/Erwachsenenblätter und einer unabhängigen engen Prüfung. A vor der Antwortauswahl B; 20 Haupt- und 6 getrennte Zusatzpunkte. Keine gespielte oder gehörte Skala und keine aktuelle Fachgeltungsbehauptung."
       }
+    },
+    {
+      "id": "mbi-i2-eigenrecherche-produkt",
+      "subjectId": "mbi",
+      "title": "Eine eigene Frage recherchieren und eine Wissenskarte gestalten",
+      "scope": "Freiwilliger Ende-8-Ausblick in MBI I2-M1: eine eigene begrenzte Sachfrage, passende Quellen und ein vorhandenes lokales Werkzeug wählen, selbst recherchieren, eine Karte erstellen und nach Quellenvergleich überarbeiten. Keine bestätigte Klasse-7-Unterrichtsfolge oder beobachtete Kinderleistung.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Arbeite nur mit einem von einer erwachsenen Person freigegebenen Gerät und einem bereits vorhandenen lokalen Programm. Nutze keine Konten, Cloud-Synchronisierung, KI-Eingaben, persönlichen Angaben, Fotos oder Uploads; lasse auch das Namensfeld auf dem allgemeinen Druckblatt leer. Kannst du Quelle, Gerät oder Programm nicht nutzen, halte den betreffenden Schritt als „nicht erhoben“ fest; installiere nichts.",
+      "introduction": "Für die erfundene Sternenwerkstatt entsteht eine einseitige digitale Wissenskarte zu deiner eigenen, eng gefassten Frage über Mondphasen. Die deutschsprachigen Seiten von ESA Kids und DLR_next sind zwei Startquellen; eine andere öffentliche, nicht persönliche Quelle braucht vorher die Zustimmung einer erwachsenen Person. Die App speichert nur deine Notizen in diesem Browser. Sie kann weder einen Quellenbesuch noch eine separate Produktdatei, deren Wiederöffnung oder deine Überarbeitung erkennen. A–D bilden 20 manuell zu prüfende Kriterienpunkte; der spätere Transfer hat 6 getrennte Zusatzpunkte. Eine Papierantwort allein beweist keine praktische Handlung.",
+      "passage": "ARBEITSFOLGE · A: Formuliere deine Frage, Zielgruppe und begründete Werkzeugwahl. B: Öffne freigegebene Quellen selbst, wähle die passendere und halte zwei eigene Sachnotizen mit Quellenbeleg fest. C: Erstelle in einem bereits vorhandenen lokalen Programm eine einseitige Wissenskarte mit Titel, knapper Antwort und Quellenzeile samt tatsächlichem Abrufdatum. Text allein ist möglich; kopiere keine fremde Abbildung. D: Speichere die Karte in einem zulässigen lokalen, nicht synchronisierten Ordner, schliesse sie, öffne sie selbst erneut und verbessere nach Quellenvergleich mindestens eine Stelle. Zeige Frage, Karte und Arbeitsschritte einer erwachsenen Begleitperson nur lokal. Die App liest deine Karte nicht ein und versendet nichts.",
+      "cardsHeading": "Zwei mögliche Startquellen",
+      "sourceCards": [
+        {
+          "title": "ESA Kids · Mondphasen",
+          "text": "Öffne die deutschsprachige Seite der Europäischen Weltraumorganisation erst nach deiner eigenen Frage. Suche die Stelle, die zu dieser Frage passt, und notiere Herausgeber, Seitentitel und dein tatsächliches Abrufdatum. Du musst nicht die ganze Seite lesen.",
+          "sourceLabel": "ESA Kids · Mondphasen",
+          "sourceUrl": "https://kids.esa.int/de/moon_phases/",
+          "sourceNote": "Öffentliche externe Seite vom 15.11.2004; Zugriff zuletzt am 27.10.2026 geprüft. Keine Abbildung daraus kopieren."
+        },
+        {
+          "title": "DLR_next · Die Mondphasen im Obst-Planetarium",
+          "text": "Vergleiche die deutschsprachige Seite des Deutschen Zentrums für Luft- und Raumfahrt mit deiner Frage. Sie ist ausführlicher und bietet ein Modell; entscheide nach der konkreten hilfreichen Stelle, nicht nach dem Organisationsnamen. Wenn Zeitangaben von ESA und DLR verschieden wirken, notiere den Unterschied als offene Frage.",
+          "sourceLabel": "DLR_next · Die Mondphasen im Obst-Planetarium",
+          "sourceUrl": "https://www.dlr.de/de/next/raumfahrt/sonnensystem/mission-apollo-11-mond-special/was-man-ueber-den-mond-wissen-sollte/die-mondphasen-im-obst-planetarium",
+          "sourceNote": "Öffentliche externe Seite; Zugriff zuletzt am 27.10.2026 geprüft. Keine Abbildung daraus kopieren."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "transfer",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "Hauptnotizen festhalten und freiwilligen Transfer zeigen",
+        "text": "FREIWILLIGER TRANSFER NACH A–D · Eine jüngere Person soll deine Karte verstehen. Überarbeite eine Stelle für diese Zielgruppe, prüfe die neue Aussage erneut an deiner Quelle und begründe die Änderung. Die 6 Zusatzpunkte bleiben von den 20 Hauptpunkten getrennt. Der Knopf bestätigt nur ausgefüllte App-Felder, keine beobachtete Recherche oder Produktdatei."
+      },
+      "tasks": [
+        {
+          "id": "mbi-i2-eigenrecherche-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Eigene Frage und Plan (4 Punkte): Formuliere eine begrenzte Frage über Mondphasen für die fiktive Sternenwerkstatt. Für wen ist deine Karte gedacht und was soll diese Person verstehen? Wähle ein bereits vorhandenes lokales Programm und begründe, welche Funktion davon zu deiner Karte passt. Nenne keinen persönlichen Gerätepfad.",
+          "sample": "Mögliche Frage: Warum sieht der Mond im Laufe eines Monats verschieden aus? Zielgruppe: jüngere Besucher der Sternenwerkstatt; sie sollen den Zusammenhang von Sonnenlicht, Mondumlauf und unserer Ansicht verstehen. Ein bereits vorhandenes Textprogramm passt, weil eine kurze Karte mit Titel, zwei Sätzen und Quellenzeile ausreicht. Eine andere eng passende Frage oder ein anderes vorhandenes Werkzeug ist gleichwertig.",
+          "criteria": [
+            "2 Punkte für eigene, auf Mondphasen begrenzte und fachlich passende Frage; je 1 Punkt für eigenen Fokus und Passung.",
+            "1 Punkt für eine nachvollziehbare Zielgruppe oder Leseabsicht.",
+            "1 Punkt für ein vorhandenes lokales Werkzeug mit begründeter Produktfunktion; keine Vorgabe eines bestimmten Programms."
+          ]
+        },
+        {
+          "id": "mbi-i2-eigenrecherche-b",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 12,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "B · Quellenwahl und eigene Notizen (6 Punkte): Öffne die freigegebenen ESA-/DLR-Seiten selbst und suche gezielt zu deiner Frage. Notiere zu zwei betrachteten Quellen Herausgeber, Seitentitel, hilfreiche oder unpassende Stelle und dein tatsächliches Abrufdatum. Begründe die Wahl einer Quelle für deine Karte und schreibe zwei kurze Sachnotizen in eigenen Worten, jeweils mit Quellenbezug. Wenn etwas nicht erreichbar oder unklar ist, markiere es; eine andere öffentliche Quelle braucht vorher erwachsene Zustimmung. Ein Linkklick oder diese Eingabe beweist keinen Quellenbesuch.",
+          "sample": "Beispiel für die Modellfrage: ESA Kids, „Mondphasen“, am tatsächlichen Arbeitstag geöffnet; DLR_next, „Die Mondphasen im Obst-Planetarium“, ebenfalls geprüft. DLR erläutert den wechselnden Blick auf die beleuchtete Mondhälfte ausführlicher; ESA ist kürzer, aber die alte Formulierung zur Rückseite sollte nicht ungeprüft übernommen werden. Eigene Notizen könnten sein: Der Mond leuchtet nicht selbst, sondern reflektiert Sonnenlicht (ESA/DLR). Während seines Umlaufs sehen wir unterschiedlich viel von der beleuchteten Hälfte (DLR). Falls ein Kind nach der Dauer fragt: Etwa 27,3 Tage beziehen sich auf einen Umlauf relativ zu fernen Sternen, etwa 29,5 Tage auf gleiche Phase zu gleicher Phase; NASA Science „Top Moon Questions“ erklärt die Differenz durch die Bewegung von Erde und Mond um die Sonne. ESA nennt die 29½ Tage beim Phasenmonat vereinfacht einen Umlauf. Die Zeitangaben nicht als eine einzige Umlaufdauer behandeln. Der tatsächliche Quellenbesuch ist nur durch Beobachtung feststellbar.",
+          "criteria": [
+            "2 Punkte für nachvollziehbare Quellenangabe mit Organisation, Titel und tatsächlichem Abrufdatum; eine genehmigte passende Ersatzquelle gilt gleichwertig.",
+            "2 Punkte für eine an der eigenen Frage und einer konkreten Seitenstelle begründete Quellenwahl; Organisationsname allein genügt nicht.",
+            "2 Punkte für zwei eigene fachlich passende Sachnotizen mit je einem rückverfolgbaren Quellenbezug. Ohne beobachteten Quellenzugang dessen Praxisanteil „nicht erhoben“ markieren."
+          ]
+        },
+        {
+          "id": "mbi-i2-eigenrecherche-c",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 8,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "C · Eigene digitale Wissenskarte (5 Punkte): Erstelle in deinem gewählten vorhandenen Programm eine einseitige Karte mit eigenem Titel, deiner Frage, zwei passenden Gedanken in eigenen Worten und einer Quellenzeile aus Organisation, Seitentitel und tatsächlichem Abrufdatum. Eine eigene einfache Skizze ist freiwillig; Text allein genügt. Notiere hier nur, was deine Karte verständlich macht, und zeige die Datei lokal. Lade keine Datei hoch. Das Textfeld beweist keine Produktion.",
+          "sample": "Eine mögliche Karte zur Modellfrage erklärt knapp: Der Mond hat kein eigenes Licht. Die Sonne beleuchtet eine Hälfte; während des Umlaufs sehen wir von der Erde unterschiedlich viel davon. Darunter steht eine nachvollziehbare Quellenzeile zu DLR_next, „Die Mondphasen im Obst-Planetarium“, mit tatsächlichem Abrufdatum. Ein fertiger Beispieltext ersetzt keine vom Kind selbst erstellte und lokal gezeigte Produktdatei.",
+          "criteria": [
+            "1 Punkt für eigenen Titel und erkennbare Frage in der tatsächlich gezeigten Karte.",
+            "2 Punkte für zwei zur Frage passende, quellengestützte Sachgedanken in eigenen Worten.",
+            "1 Punkt für knappe, zur genannten Zielgruppe passende Lesbarkeit; eine Grafik ist nicht erforderlich.",
+            "1 Punkt für Quellenzeile mit Organisation, Seitentitel und tatsächlichem Abrufdatum. Ohne beobachtetes eigenes Produkt Produktkriterien „nicht erhoben“ statt automatisch erfüllt."
+          ]
+        },
+        {
+          "id": "mbi-i2-eigenrecherche-d",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Lokal sichern, wieder öffnen und überarbeiten (5 Punkte): Speichere die Karte selbst an einem zulässigen lokalen, nicht synchronisierten Ort. Schliesse die Datei und öffne genau sie wieder. Vergleiche beide Sachgedanken nochmals mit deiner Quelle und verbessere mindestens eine Stelle begründet. Notiere hier neutralen Dateinamen, überprüfte Aussage, Änderung und Grund; keinen persönlichen vollständigen Pfad. Wenn ein Schritt nicht möglich war, schreibe „nicht erhoben“. App-Wiederaufnahme ist kein Wiederöffnen deiner Produktdatei.",
+          "sample": "Beobachtungsbeispiel: Das Kind speichert eine Karte mit neutralem Namen lokal, schliesst das Programm, findet und öffnet die Datei selbst wieder. Beim erneuten DLR-Abgleich präzisiert es „Der Mond wird anders beleuchtet“ zu „Wir sehen unterschiedlich viel von der beleuchteten Hälfte“. Dateiöffnung und Änderung müssen tatsächlich beobachtet werden; ein Textbericht allein belegt sie nicht.",
+          "criteria": [
+            "1 Punkt nur bei beobachtetem selbstständigem Speichern an einem geeigneten lokalen Ort; sonst „nicht erhoben“.",
+            "1 Punkt nur bei beobachtetem Schliessen und Wiederöffnen derselben vollständigen Produktdatei; sonst „nicht erhoben“.",
+            "1 Punkt für erneuten Abgleich beider Aussagen mit der benannten Quelle; Quellenhandlung beobachten.",
+            "1 Punkt für mindestens eine fachlich oder sprachlich begründete tatsächliche Änderung an der Karte.",
+            "1 Punkt für verständliche Erklärung der Änderung und einer offenen Grenze; reine Behauptung einer Revision genügt nicht."
+          ]
+        },
+        {
+          "id": "mbi-i2-eigenrecherche-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer (6 getrennte Zusatzpunkte): Eine jüngere Besucherin oder ein jüngerer Besucher soll deine bereits erstellte Karte verstehen. Ändere eine Stelle in der lokalen Datei für diese Zielgruppe. Prüfe die neue Aussage erneut an der Quelle und notiere hier, was du geändert hast, weshalb es hilft und welche Seitenstelle die Aussage trägt. Ohne eigene Datei oder Beobachtung bleibt die Praxis „nicht erhoben“.",
+          "sample": "Beispiel: Ein langer Satz wird in zwei kurze Sätze getrennt und „beleuchtete Hälfte“ mit eigenen einfachen Worten erklärt. Die neue Fassung bleibt an der DLR-Seite geprüft; das Kind erklärt den Lesbarkeitsgewinn für Jüngere. Nur eine beobachtete Änderung der eigenen Datei zählt als Produkttransfer.",
+          "criteria": [
+            "2 Punkte für konkrete zielgruppengerechte Änderung an der tatsächlich bearbeiteten Karte.",
+            "2 Punkte für erneute fachliche Prüfung der geänderten Aussage an der angegebenen Quelle.",
+            "2 Punkte für Erklärung, weshalb die Änderung der jüngeren Zielgruppe hilft; nicht beobachtete Produktarbeit „nicht erhoben“."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "Thüringer MBI-Erprobungsfassung 2026, §2.2.2/PDF-S.25, I2-M1: selbstständig planen, Inhalte recherchieren und verarbeiten sowie Medienprodukt mit geeigneter Hard-/Software erstellen; Zielmarke Ende Klassenstufe 8. Einzelner freiwilliger, begrenzter Produktweg, keine aktuelle Unterrichtsfolge oder vollständige M1-Praxis belegt.",
+        "checkedAt": "2026-10-27"
+      }
     }
   ]
 });

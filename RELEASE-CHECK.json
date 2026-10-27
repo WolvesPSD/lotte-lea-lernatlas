@@ -1,14 +1,18 @@
 {
-  "builtAt": "2026-10-27T08:13:38Z",
-  "releaseVersion": "2026.10.27-de-headline.1",
-  "newTopicIds": [],
+  "builtAt": "2026-10-27T08:37:57.745Z",
+  "releaseVersion": "2026.10.27-mbi-ss01.1",
+  "newTopicIds": [
+    "mbi-i6-ss01-transparenz"
+  ],
   "changeLog": [
     "Deutsche Erwachsenen-Sprachhilfe fuer alle 27 Englisch- und 18 Franzoesischthemen sowie den Erwachsenendruck ergaenzt.",
     "Die 192 Themen und 875 Aufgaben-/Notizfelder bleiben unveraendert. Kinderweg und Kinderdruck enthalten keine deutsche Sprachhilfe.",
     "Weitere anklickbare Aussprachehilfen sind separat in Arbeit und werden in diesem Paket nicht als fertig ausgewiesen. Keine privaten Fotos oder Lernstaende im Paket.",
-    "Beim bestehenden Deutschkommentar kommt ein freiwilliger, erst nach sechs Hauptantworten sichtbarer Ueberschriftenvergleich mit sechs getrennten Zusatzpunkten hinzu; die bisherigen Aufgaben bleiben inhaltlich unveraendert. Insgesamt 192 Themen und 876 Aufgaben-/Notizfelder."
+    "Beim bestehenden Deutschkommentar kommt ein freiwilliger, erst nach sechs Hauptantworten sichtbarer Ueberschriftenvergleich mit sechs getrennten Zusatzpunkten hinzu; die bisherigen Aufgaben bleiben inhaltlich unveraendert. Insgesamt 192 Themen und 876 Aufgaben-/Notizfelder.",
+    "MBI I6-SS01: freiwilliger Ende-8-Teilfall zum fiktiven kindgerichteten Datenhinweis, mit zwei Quellenkarten, vier Hauptaufgaben (20 Punkte), real nur beobachtbarer Zweierdiskussion und späterem Transfer (6 getrennte Punkte).",
+    "193 Themen und 881 Aufgaben-/Notizfelder; die bisherigen 192 Themen bleiben unveraendert. Keine privaten Quellen, Konten oder Lernstaende im Paket."
   ],
-  "rollbackCommit": "734ca7b7809331a63ef93574eafe694f80a43e24",
+  "rollbackCommit": "42bcb789765317265844d0f54025f6549ece109f",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -201,7 +205,8 @@
     "sp-b1-m06-zielregel",
     "sp-b3-s10-geraetebahn-rueckblick",
     "mbi-influencer-post-pruefen",
-    "ma-parametervergleich"
+    "ma-parametervergleich",
+    "mbi-i6-ss01-transparenz"
   ],
   "subjects": [
     "en",
@@ -282,7 +287,8 @@
     "mbi-i1-datumswerte-sortieren",
     "mbi-i6-anwendungsfelder",
     "mbi-influencer-post-pruefen",
-    "ma-parametervergleich"
+    "ma-parametervergleich",
+    "mbi-i6-ss01-transparenz"
   ],
   "unclearValidityTopics": [
     "et-algebra-kulturtransfer",
@@ -302,5 +308,5 @@
     "go-bananen-lieferkette",
     "et-liebesformen-werkevergleich"
   ],
-  "note": "Uebersetzungen nur fuer Erwachsene; Audio-Nachruestung folgt nach Ton-/Phasenpruefung. Gegenueber 2026.10.27-language-de.1 aendern sich ausschliesslich der Deutschkommentar de-kommentar-leseraum und die Paketversion; alle anderen Katalogobjekte und Assets bleiben unveraendert."
+  "note": "I6-SS01 ist ein enger freiwilliger Ende-8-Teilfall. Gespraechspunkte nur nach real beobachteter Zweierarbeit; Soloantworten sind Vorbereitung. Rechtsquellen sind vereinfacht und ersetzen keine Rechtspruefung. Audio-Nachruestung bleibt getrennt offen."
 }

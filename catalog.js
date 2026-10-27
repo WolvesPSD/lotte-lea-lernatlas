@@ -19715,6 +19715,145 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "PDF-S. 2: Deutsch Klasse 7 ab 2026/27. §2.2.3 PDF-S. 28: „Texte szenisch gestalten“ als dialogisches Sprechen mit Zielmarke Ende Klasse 8; Redebeiträge planen, ausführen und reflektieren sowie kriteriell Rückmeldung geben.",
         "checkedAt": "2026-10-25"
       }
+    },
+    {
+      "id": "mbi-i6-ss01-transparenz",
+      "subjectId": "mbi",
+      "title": "Versteht ein Kind den Datenhinweis?",
+      "scope": "Freiwilliger 7/8-Teilfall zum Ende-8-Ziel I6-SS01. Schriftliche Quellenanwendung und eine nur bei echter Zweierarbeit beobachtbare Diskussion; keine bestätigte Klasse-7-Unterrichtseinheit oder Rechtsprüfung einer wirklichen App.",
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Der Fall ist vollständig erfunden. Verwende keine echten Konten, Namen, Suchverläufe oder Ausleihdaten. Wenn keine zweite Person mitmacht, kannst du beide Rollen schriftlich vorbereiten; eine Diskussion ist dann nicht erhoben.",
+      "introduction": "Lies den fiktiven Hinweis und die zwei Quellenkarten. A–D bilden vier Hauptaufgaben mit höchstens 20 Kriterienpunkten. Die vier Gesprächspunkte in C gibt es nur für eine tatsächlich geführte Runde. Nach Antworten auf A–D erscheint ein freiwilliger Transfer mit sechs getrennten Punkten. Die App bewertet offene Antworten nicht automatisch.",
+      "passage": "ERFUNDENE LESE-APP BÜCHERBLICK · „Wir erfassen deine gesuchten Buchtitel und welche Vorschläge du anklickst. Wir verwenden deine Daten, um Bücherblick zu verbessern. Dienstleister können Daten erhalten. Wir speichern Daten, solange es nötig ist.“ Der Hinweis nennt weder die verantwortliche Stelle noch einen Kontakt. Auch der genaue Verbesserungszweck, die Empfänger und eine konkrete Speicherregel bleiben offen. Ob eine wirkliche App so arbeitet, ist nicht Teil der Aufgabe.",
+      "sourceCards": [
+        {
+          "title": "Karte 1 · Geltende DSGVO-Regel",
+          "text": "Art. 12 Abs. 1: Informationen über die Verwendung persönlicher Daten sollen präzise, transparent, verständlich und leicht zugänglich sowie in klarer und einfacher Sprache sein. Das ist besonders wichtig, wenn sich die Information an Kinder richtet. Art. 13: Wenn Daten direkt bei einer Person erhoben werden, gehören unter anderem die verantwortliche Stelle, Zweck, Empfänger und geplante Speicherdauer oder deren Kriterien zu den mitzuteilenden Angaben. Diese Karte ist eine vereinfachte Auswahl, keine vollständige Rechtsprüfung.",
+          "sourceLabel": "EUR-Lex · Verordnung (EU) 2016/679, Art. 12–13",
+          "sourceUrl": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679",
+          "sourceNote": "Amtlicher Normtext; vereinfachte eigene Zusammenfassung. Für echte Fälle den aktuellen Originaltext prüfen."
+        },
+        {
+          "title": "Karte 2 · DSK-Vorschläge von 2025",
+          "text": "Die Datenschutzkonferenz (DSK) vereint Datenschutzaufsichtsbehörden von Bund und Ländern. Im November 2025 schlug sie zusätzliche Verbesserungen zum Schutz von Kindern in der DSGVO vor. Ein Vorschlag der DSK ändert den geltenden Gesetzestext nicht automatisch. Unterscheide daher die geltende Regel in Karte 1 von den möglichen künftigen Änderungen in dieser Karte.",
+          "sourceLabel": "Datenschutzkonferenz · Entschliessung vom 20.11.2025",
+          "sourceUrl": "https://www.datenschutzkonferenz-online.de/media/en/Entschliessung_Datenschutz-von-Kindern.pdf",
+          "sourceNote": "Amtliche Behördenposition; Reformvorschläge, kein geltender zusätzlicher DSGVO-Text."
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und freiwilligen Transfer zeigen",
+        "text": "FREIWILLIGER TRANSFER NACH A–D · Eine erfundene Kinderbibliothek möchte Ausleihen zählen, um Bücher nachzukaufen. Vergleiche zwei gedachte Wege: einzelne Ausleihen mit Namen speichern oder nur Gesamtzahlen pro Buchtitel erfassen. Es gibt keine echte Bibliothek und keine echten Personendaten."
+      },
+      "tasks": [
+        {
+          "id": "mbi-i6-ss01-a",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 13,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "A · Den Hinweis untersuchen (5 Hauptpunkte): Ordne für jede der fünf Fragen „klar genannt“, „unklar“ oder „fehlt im Hinweis“ zu und belege deine Entscheidung mit Wörtern aus dem fiktiven Hinweis: Welche Daten werden erfasst? Wofür genau werden sie verwendet? Wer erhält Daten? Wie lange werden sie gespeichert? Wer ist verantwortlich und wo kann ich nachfragen?",
+          "sample": "Erfasste Daten: klar genannt (gesuchte Titel und angeklickte Vorschläge). Genauer Zweck: unklar („verbessern“). Empfänger: unklar („Dienstleister“ ohne nähere Angabe). Speicherdauer: unklar („solange es nötig ist“ ohne Regel). Verantwortliche Stelle und Kontakt: fehlen im Hinweis.",
+          "criteria": [
+            "Je 1 Punkt für jede der fünf passend eingestufte Zeilen mit Bezug auf den konkreten Wortlaut.",
+            "„Klar genannt“ für den unbestimmten Zweck, unbekannte Dienstleister oder die offene Speicherdauer ist nicht durch den Hinweis gedeckt."
+          ]
+        },
+        {
+          "id": "mbi-i6-ss01-b",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 11,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Quellen unterscheiden (5 Hauptpunkte): Nenne aus Karte 1 eine Anforderung an Informationen für Kinder (2 Punkte) und zwei Angaben, über die bei direkter Datenerhebung informiert werden soll (2 Punkte). Sind die DSK-Vorschläge aus Karte 2 allein durch ihre Veröffentlichung bereits geltendes Recht? Begründe (1 Punkt).",
+          "sample": "Die Information soll präzise und verständlich, leicht zugänglich und in klarer, einfacher Sprache sein, besonders für Kinder. Zu den Angaben gehören beispielsweise verantwortliche Stelle, genauer Zweck, Empfänger und Speicherdauer oder Kriterien. Die DSK-Entschliessung enthält Reformvorschläge; ihre Veröffentlichung ändert die DSGVO nicht automatisch.",
+          "criteria": [
+            "2 Punkte für eine zutreffende Art.-12-Anforderung mit erkennbarem Kinderbezug.",
+            "Je 1 Punkt für zwei unterschiedliche, auf Karte 1 gestützte Art.-13-Angaben.",
+            "1 Punkt für die Unterscheidung DSK-Vorschlag versus geltendes Recht mit Begründung."
+          ]
+        },
+        {
+          "id": "mbi-i6-ss01-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 10,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Zwei Perspektiven, ein Gespräch (höchstens 4 Hauptpunkte, nur nach tatsächlich beobachteter Zweierarbeit): Kinderrat erklärt eine Unklarheit; App-Team nennt einen möglichen Nutzen und antwortet auf einen Einwand; beide wechseln die Rollen und nennen Gegenargumente; gemeinsam haltet ihr Einigung und offene Prüfung fest. Notiere danach stichwortartig Einwand, Gegenargument und offenen Punkt. Ohne zweite Person sind deine zwei schriftlichen Rollen nur Vorbereitung, keine beobachtete Diskussion.",
+          "sample": "Mögliche Gesprächslinie: Der Kinderrat fragt nach der genauen Speicherregel. Das App-Team erklärt einen möglichen Nutzen von Buchvorschlägen, erkennt aber die Lücke an. Nach Rollenwechsel wird ein Gegenargument zur Speicherung einzelner Klicks genannt. Beide einigen sich auf einen klaren Zweckhinweis und lassen die konkrete Rechtsprüfung offen. Dies ist ein Beispiel, kein abzulesendes Skript.",
+          "criteria": [
+            "Nur bei tatsächlicher Runde: je 1 Punkt für die vier im Auftrag beschriebenen hörbaren Gesprächsschritte.",
+            "Die Stichworte allein und eine schriftliche Soloalternative belegen keine gemeinsame Diskussion; in diesem Fall Gesprächspunkte als „nicht erhoben“ markieren."
+          ]
+        },
+        {
+          "id": "mbi-i6-ss01-d",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 14,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "D · Verantwortliche Änderung (6 Hauptpunkte): Entwerft einen kurzen, verständlichen Hinweis für Kinder und eine passende Änderung am erfundenen App-Ablauf. Nennt Daten und genauen Zweck (2), verantwortliche Stelle/Kontakt, Empfänger und eine Speicherregel oder markiert unbekannte Angaben offen (2). Wählt eine konkrete datensparsame Änderung und begründet Vorteil und Grenze (2). Behauptet weder eine reale Rechtsverletzung noch eine gesetzlich zwingende bestimmte Löschfrist.",
+          "sample": "Beispiel: „Bücherblick kann dir Bücher vorschlagen. Dafür würden gesuchte Titel verwendet. Wer die App verantwortet, welche Dienstleister Daten erhalten und wie lange Daten gespeichert werden, muss vor einem echten Einsatz noch konkret festgelegt und verständlich erklärt werden. Fragen sollen an eine noch zu benennende Kontaktstelle gehen.“ Denkbare Änderung: Vorschläge ohne dauerhaftes Klickprotokoll; Vorteil weniger Verlaufsdaten, Grenze weniger personalisierte Vorschläge. Keine Aussage über die Rechtmässigkeit eines realen Dienstes.",
+          "criteria": [
+            "2 Punkte für verständliche Angabe der erfassten Daten und eines hinreichend genauen fiktiven Zwecks.",
+            "2 Punkte für verantwortliche Stelle/Kontakt, Empfänger und Speicherregel als fiktive konkrete Angabe oder ausdrücklich offene Lücke; nichts als echt ausgeben.",
+            "2 Punkte für eine konkrete datensparsame Änderung mit Vorteil und begründeter Grenze. Die Beispieländerung ist nicht gesetzlich vorgeschrieben."
+          ]
+        },
+        {
+          "id": "mbi-i6-ss01-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Freiwilliger Transfer (6 getrennte Zusatzpunkte): Vergleiche für die erfundene Kinderbibliothek „einzelne Ausleihen mit Namen speichern“ und „nur Gesamtzahlen pro Buchtitel erfassen“. Erkläre den Unterschied der gespeicherten Daten. Nenne für jeden Weg einen Nutzen und eine Grenze. Können auch kleine Gesamtzahlen oder seltene Titel Rückschlüsse auf Personen zulassen? Formuliere eine verständliche Erklärung für Kinder und eine offene Frage, die eine zuständige erwachsene Datenschutzfachperson prüfen müsste. Verwende keine echten Personen-, Buch- oder Ausleihdaten.",
+          "sample": "Bei Einzelausleihen mit Namen könnte die Bibliothek einen offenen Vorgang einer Person zuordnen, speichert dafür aber personenbezogene Verknüpfungen. Titelbezogene Gesamtzahlen helfen beim Nachkauf, sagen aber nicht, wer ein Buch zurückbringen muss. Sie sind nicht automatisch anonym: Bei kleinen Gruppen oder seltenen Titeln könnten Rückschlüsse möglich sein. Kindgerechte Erklärung: „Wir zählen, wie oft ein Buchtitel ausgeliehen wurde, damit wir wissen, ob wir weitere Exemplare brauchen.“ Offene Fachfrage: Können die geplanten Gesamtzahlen bei kleinen Gruppen oder seltenen Titeln einzelne Menschen erkennbar machen?",
+          "criteria": [
+            "2 Punkte für den Unterschied personenbezogene Einzelausleihe versus titelbezogene Gesamtzahl und die Vorsicht, Gesamtzahlen nicht automatisch anonym zu nennen.",
+            "2 Punkte für einen zutreffenden Nutzen und eine Grenze je Weg; kleine Gruppen oder seltene Titel können Rückschlüsse ermöglichen.",
+            "2 Punkte für eine verständliche Erklärung an Kinder und eine konkrete offene Datenschutz-/Rechtsfrage an eine zuständige Fachperson."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Gespräch nur bei echter Zweierarbeit",
+        "unscored": true,
+        "printObservationFooter": "Diese vier beobachteten Schritte sind ausschliesslich der Nachweis für Aufgabe C (höchstens 4 Punkte). Der Bogen vergibt keine zweiten Gesprächspunkte. Ohne reale Zweierarbeit C als nicht erhoben markieren.",
+        "childNote": "Diese Runde ist freiwillig. Spielt beide Rollen nacheinander und hört einander zu. Ohne zweite Person kannst du C schriftlich vorbereiten; die Gesprächsleistung bleibt dann nicht erhoben.",
+        "childSteps": [
+          "Kinderrat: Nenne eine konkrete Unklarheit des fiktiven Hinweises und erkläre, warum sie wichtig sein könnte.",
+          "App-Team: Beschreibe einen möglichen Nutzen der Vorschläge und antworte auf den Einwand.",
+          "Wechselt die Rollen und formuliert je ein Gegenargument zur gerade vertretenen Sicht.",
+          "Sprecht eine mögliche gemeinsame Änderung und mindestens eine offene Prüfungsfrage aus."
+        ],
+        "adultNote": "Die vier Gesprächspunkte aus C nur nach einem tatsächlich gehörten Austausch beurteilen. Schriftliche Antworten, ein Skript und eine Solo-Vorbereitung sind kein Gesprächsbeleg. Keine echten Kinder- oder Kontodaten notieren.",
+        "adultGuide": [
+          "Zuerst die Kinderkarte allein bearbeiten lassen; die Erwachsenenbeispiele erst danach öffnen.",
+          "Wenn keine zweite Person verfügbar ist, Gespräch als „nicht erhoben“ vermerken und die übrigen schriftlichen Teile getrennt betrachten."
+        ],
+        "adultCriteria": [
+          "Hörbar: Kinderrat erklärt eine konkrete Unklarheit und ihre mögliche Bedeutung.",
+          "Hörbar: App-Team nennt einen Nutzen und antwortet auf einen Einwand.",
+          "Hörbar: Beide wechseln die Rollen und bringen Gegenargumente ein.",
+          "Hörbar: Beide formulieren eine Einigung und eine noch zu prüfende Frage."
+        ],
+        "printAdultNote": "Vier Gesprächskriterien nur nach real beobachteter Zweierarbeit werten; sonst „nicht erhoben“."
+      },
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "Thüringer MBI-Erprobungsfassung 2026, §2.2.6/PDF-S.28: I6-SS01 zu Datenschutzrecht, Ethik, Transparenz, Diskussion und verantwortlichen Lösungen; Zielmarke Ende Klasse 8. Keine konkrete Klasse-7-Unterrichtsfolge belegt.",
+        "checkedAt": "2026-10-27"
+      }
     }
   ]
 });

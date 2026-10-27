@@ -1,13 +1,14 @@
 {
-  "builtAt": "2026-10-27T07:33:13Z",
-  "releaseVersion": "2026.10.27-language-de.1",
+  "builtAt": "2026-10-27T08:13:38Z",
+  "releaseVersion": "2026.10.27-de-headline.1",
   "newTopicIds": [],
   "changeLog": [
     "Deutsche Erwachsenen-Sprachhilfe fuer alle 27 Englisch- und 18 Franzoesischthemen sowie den Erwachsenendruck ergaenzt.",
     "Die 192 Themen und 875 Aufgaben-/Notizfelder bleiben unveraendert. Kinderweg und Kinderdruck enthalten keine deutsche Sprachhilfe.",
-    "Weitere anklickbare Aussprachehilfen sind separat in Arbeit und werden in diesem Paket nicht als fertig ausgewiesen. Keine privaten Fotos oder Lernstaende im Paket."
+    "Weitere anklickbare Aussprachehilfen sind separat in Arbeit und werden in diesem Paket nicht als fertig ausgewiesen. Keine privaten Fotos oder Lernstaende im Paket.",
+    "Beim bestehenden Deutschkommentar kommt ein freiwilliger, erst nach sechs Hauptantworten sichtbarer Ueberschriftenvergleich mit sechs getrennten Zusatzpunkten hinzu; die bisherigen Aufgaben bleiben inhaltlich unveraendert. Insgesamt 192 Themen und 876 Aufgaben-/Notizfelder."
   ],
-  "rollbackCommit": "605d92ef5307cec085a458188436bd6182682f64",
+  "rollbackCommit": "734ca7b7809331a63ef93574eafe694f80a43e24",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -301,5 +302,5 @@
     "go-bananen-lieferkette",
     "et-liebesformen-werkevergleich"
   ],
-  "note": "Uebersetzungen nur fuer Erwachsene; Audio-Nachruestung folgt nach Ton-/Phasenpruefung. Katalogobjekte, Aufgaben und Assets aus 2026.10.26-maparameter.1 unveraendert."
+  "note": "Uebersetzungen nur fuer Erwachsene; Audio-Nachruestung folgt nach Ton-/Phasenpruefung. Gegenueber 2026.10.27-language-de.1 aendern sich ausschliesslich der Deutschkommentar de-kommentar-leseraum und die Paketversion; alle anderen Katalogobjekte und Assets bleiben unveraendert."
 }

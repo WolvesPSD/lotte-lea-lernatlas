@@ -9840,12 +9840,20 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "de-kommentar-leseraum",
       "subjectId": "de",
       "title": "Ein Kommentar: Was belegen Besuchszahlen?",
-      "scope": "Freiwilliger, gestützter Einstieg in lineare pragmatische Texte im gültigen 7/8-Rahmen. Die Kompetenzen aus § 2.2.2 sind als Ziel bis Ende Klasse 8 markiert; der Kommentar ist ein Beispiel in der 7/8-Spalte. Kein belegter aktueller Klasse-7-Unterrichtsstoff.",
+      "scope": "Freiwilliger, gestützter Einstieg in lineare pragmatische Texte im gültigen 7/8-Rahmen. Die Kompetenzen aus § 2.2.2 sind als Ziel bis Ende Klasse 8 markiert; der Kommentar ist ein Beispiel in der 7/8-Spalte. Der Überschriftenvergleich ist ein getrennter freiwilliger Transfer nach den sechs Hauptaufgaben. Kein belegter aktueller Klasse-7-Unterrichtsstoff.",
       "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Der Kommentar, die Verfasserin, das Portal, der Leseraum, das angegebene Datum und alle Zahlen sind erfunden. Eine erwähnte Zählnotiz liegt nicht als eigene Quelle vor. Du brauchst keine echten Angaben über dich oder deine Schule.",
       "introduction": "Lesefrage: Was will die Verfasserin erreichen, und was lässt sich aus ihren Angaben tatsächlich schließen? Ein Kommentar verbindet berichtete Angaben mit einer Meinung. Eine Sachangabe ist eine im Text prüfbare Behauptung, aber dadurch noch keine außerhalb des Textes bewiesene Tatsache. Eine Wertung ist eine Einschätzung. Nenne bei Belegen die Zeile und erkläre, was sie trägt. Ein Besuch ist ein gezählter Vorgang und nicht zwingend eine andere Person. Die Kriterien helfen beim Vergleichen; es gibt keine automatische Note.",
       "passage": "FIKTIVER KOMMENTAR · QUELLE A\nA01 Länger offen? Erst weiter testen!\nA02 Kommentar von Mila Winter im erfundenen Jugendportal „Fensterplatz“, 29. September 2026.\nA03 Der erfundene Leseraum Nordbogen schließt mittwochs gewöhnlich um 16 Uhr.\nA04 Für einen Test im September blieb er an drei Mittwochen bis 17 Uhr offen.\nA05 Eine hier nicht beigelegte Zählnotiz meldet für die zusätzliche Stunde 12, 9 und 15 Besuche.\nA06 Zusammen sind das 36 Besuche in diesen drei Stunden; ob Personen mehrfach kamen, steht dort nicht.\nA07 Ich finde, das ist ein guter Grund, den späteren Mittwoch weiter auszuprobieren.\nA08 Deshalb wünsche ich mir vier weitere Test-Mittwoche.\nA09 Ob die Besuchenden nach einem Kurs kamen, weiß ich nicht; dazu fehlen Angaben.\nA10 Vor einer dauerhaften Entscheidung sollte geklärt werden, ob Personal und Räume für die zusätzliche Stunde verfügbar sind.\nA11 Ein Erfolg für alle Jugendlichen ist mit diesen drei Stunden nicht bewiesen.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "1–6",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "Hauptantworten festhalten und Überschriftenvergleich öffnen",
+        "printNote": "Die zweite Überschrift und die freiwillige Zusatzaufgabe erst nach den Hauptantworten ansehen.",
+        "text": "FREIWILLIGER TRANSFER · ZWEI ÜBERSCHRIFTEN, EIN KOMMENTAR\nFassung 1 (bisher A01): „Länger offen? Erst weiter testen!“\nFassung 2 (mögliche andere Überschrift): „36 Besuche in drei Teststunden“\nA02–A11 bleiben in beiden Fassungen unverändert. Keine Überschrift beweist, wie wirkliche Lesende reagieren würden."
+      },
       "tasks": [
         {
           "id": "de-kommentar-1",
@@ -9926,13 +9934,26 @@ window.LOTTE_CATALOG = Object.freeze({
             "1 Punkt: Milas Bewertung oder Vorschlag davon getrennt.",
             "1 Punkt: konkrete offene Prüffrage, zum Beispiel Personal, Raum, Mehrfachbesuche oder weiterer Bedarf."
           ]
+        },
+        {
+          "id": "de-kommentar-headline-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 9,
+          "prompt": "Freiwilliger Transfer nach 1–6 (6 getrennte Zusatzpunkte): Vergleiche die beiden Überschriften bei unverändertem A02–A11. (1) Nenne für jede Überschrift ein Wort oder eine Formulierung, die den ersten Blick lenkt, und beschreibe den Unterschied. (2) Welche erste Erwartung könnte jede Überschrift auslösen? Begründe beide Möglichkeiten am Wortlaut. (3) Nenne eine gleichbleibende Textinformation und erkläre, weshalb keine Überschrift die Reaktion wirklicher Lesender beweist. Eine andere begründete mögliche Wirkung gilt ebenso; niemand muss befragt werden.",
+          "sample": "Fassung 1 fragt nach längerem Öffnen und fordert mit „Erst weiter testen!“ einen vorsichtigen nächsten Schritt. Fassung 2 stellt „36 Besuche“ und „drei Teststunden“ voran. Deshalb könnte eine lesende Person bei 1 zuerst eine noch offene Entscheidung, bei 2 zuerst die Zahl und den kleinen Testumfang erwarten. A05–A06 berichten in beiden Fassungen dieselben 36 Besuche in drei Zusatzstunden; verschiedene Personen oder wirkliche Leserreaktionen sind dadurch nicht belegt. Andere textnah begründete Möglichkeiten gelten.",
+          "criteria": [
+            "2 Punkte: je Überschrift eine passende Wortstelle und deren unterschiedlicher Fokus; keine bevorzugte Fassung verlangen.",
+            "2 Punkte: je eine mögliche erste Erwartung mit Beleg am Überschriftenwortlaut; Vermutung nicht als gemessene Wirkung ausgeben.",
+            "2 Punkte: eine unveränderte Angabe aus A02–A11 plus klare Grenze zwischen Überschrift und tatsächlicher Leserreaktion."
+          ]
         }
       ],
       "releaseEvidence": {
         "validFor": "2026/27",
         "gradeBand": "7/8",
-        "competencyRef": "PDF-S. 2: Fassung für Klasse 7 ab 2026/27. § 2.2.2, PDF-S. 26–27: pragmatische Texte, Textfunktion, Absicht, Aufbau, Sachinformation/Wertung und begründeter Schluss als Ziel bis Ende Klasse 8. § 3.2, PDF-S. 47–48: Kommentar als exemplarische 7/8-Textsorte. PDF-S. 46: Unterrichtsfolge durch Lehrkräfte.",
-        "checkedAt": "2026-10-21"
+        "competencyRef": "PDF-S. 2: Fassung für Klasse 7 ab 2026/27. § 2.2.2, PDF-S. 26–27: pragmatische Texte, Textfunktion, Absicht, Aufbau, Gestaltungselemente/Funktion/Wirkung, Sachinformation/Wertung und begründeter Schluss als Ziel bis Ende Klasse 8. § 3.2, PDF-S. 47–48: Kommentar als exemplarische 7/8-Textsorte. PDF-S. 46: Unterrichtsfolge durch Lehrkräfte. Freiwilliger Überschriftenvergleich nach D-L4-Fachpaket und enger unabhängiger QA vom 27.10.2026.",
+        "checkedAt": "2026-10-27"
       }
     },
     {

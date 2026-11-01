@@ -1,9 +1,7 @@
 {
-  "builtAt": "2026-10-27T20:22:26.833Z",
-  "releaseVersion": "2026.10.27-sp-b7-ss06-fairness.1",
-  "newTopicIds": [
-    "sp-b7-ss06-fairnessurteil"
-  ],
+  "builtAt": "2026-11-01T08:08:20.909Z",
+  "releaseVersion": "2026.11.01-schulart.1",
+  "newTopicIds": [],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
     "199 Themen und alle Aufgaben, Lösungen, App-Funktionen und Assets unverändert; keine neue Kinderleistung oder Unterrichtsfolge behauptet.",
@@ -30,9 +28,10 @@
     "208 Themen/975 Antwortfelder; 207 bisherige Themen und App-Funktionen unverändert. Kein Nachweis für Kinderleistung, aktuelle Klasse-7-Unterrichtseinheit oder volle D-W5-/Jahresabdeckung.",
     "Mathematik M4: Die bestehende Rechnerprobe als freiwilligen Klasse-8-Ausblick statt als 7/8-Fall gekennzeichnet. Vier Metadatenfelder, Versionsanzeige und Manifest angepasst; 208 Themen/975 Antwortfelder, Aufgaben, Lösungen, Assets und App-Funktionen unverändert.",
     "Sport B7-SS06: freiwillige schriftliche Fairnessprüfung an vier fiktiven Aussagen. Vier Hauptaufgaben mit 20 Punkten, eine erst nach A–D sichtbare Zusatzkarte mit 6 getrennten Punkten; Lösungen und Fehlerfeedback nur für Erwachsene. Schulwahl, Stufe und echte Fairnesshandlung unbekannt.",
-    "209 Themen/980 Antwortfelder. Die 208 bisherigen Themen bleiben unverändert; weder Sportpraxis noch Klasse-7- oder Jahresabdeckung folgt aus der Papieraufgabe."
+    "209 Themen/980 Antwortfelder. Die 208 bisherigen Themen bleiben unverändert; weder Sportpraxis noch Klasse-7- oder Jahresabdeckung folgt aus der Papieraufgabe.",
+    "Schulart-Auswahl statt Namen: Gymnasium Klasse 7 zeigt den bisherigen Katalog; Regelschule, Gemeinschaftsschule und Gesamtschule zeigen einen leeren Vorbereitungsbereich ohne Gymnasialantworten. Jahrgangsfilter nennen Zielstand und offene Unterrichtsfolge."
   ],
-  "rollbackCommit": "6fd5eaef634556f0fb8d5261c0ae924bd7d14eeb",
+  "rollbackCommit": "8a9ca2a342a5e842a53941c5be31b48c97b007da",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -354,5 +353,5 @@
     "mu09-pentatonik-tonvorrat",
     "go-g01-beleuchtungszonen"
   ],
-  "note": "B7-SS06: isolierter Kandidat nach enger unabhängiger Manuskript-QA. App-/Browser-/Druck-/Datenschutzprüfung vor Veröffentlichung erforderlich; wissen/APP-SPORT-B7-SS06-FAIRNESSURTEIL-ENTWURF-2026-PRUEFKARTE.md."
+  "note": "UI-only Kandidat vom gepinnten 209er-Katalog. Spanisch Klasse 6 und natürliche Text-/Audioüberarbeitung sind separat in Arbeit; keine fachliche Deckung oder Kinderabnahme aus diesem UI-Update."
 }

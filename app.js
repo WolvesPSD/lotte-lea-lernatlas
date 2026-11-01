@@ -6,23 +6,25 @@
   const legacyLotteKey = 'lotte-lea-local-v1'; // Existing untagged state belonged only to Lotte.
   const params = new URLSearchParams(window.location.search);
   const preview = params.get('preview') === '1';
-  let activeProfile = params.get('profile') === 'lea' ? 'lea' : 'lotte';
+  const supportedSchoolTypes = new Set(['gymnasium', 'regelschule', 'gemeinschaftsschule', 'gesamtschule']);
+  let activeSchoolType = supportedSchoolTypes.has(params.get('school')) ? params.get('school') : params.get('profile') === 'lea' ? 'regelschule' : 'gymnasium';
+  let activeProfile = activeSchoolType === 'gymnasium' ? 'lotte' : 'lea';
   const availableTopics = catalog.topics.filter(topic => topic.released || preview);
   const topicById = new Map(availableTopics.map(topic => [topic.id, topic]));
   const subjectById = new Map(catalog.subjects.map(subject => [subject.id, subject]));
   const levelLabels = {
     'grade7': 'Klasse 7 · Unterrichtsstand offen',
     'grade78-flex': 'Klasse 7/8 · Unterrichtsfolge offen',
-    'grade8-outlook': 'Ausblick Klasse 8 · freiwillig',
-    'grade6-bridge': 'MNT-Ende 6 · freiwillige Klasse-7-Brücke',
-    'additional-unclear': 'Freiwillig · Lehrplan 2026/27 ungeklärt'
+    'grade8-outlook': 'Zielstand Ende Klasse 8 · Unterrichtsfolge offen',
+    'grade6-bridge': 'Grundlage Klasse 6 · MNT-Brücke',
+    'additional-unclear': 'Fach- oder Planzuordnung offen'
   };
   const isGrade6Review = topic => topic.releaseEvidence?.gradeBand === '6-Grundlage, 7-Wiederholung' || topic.levelStatus === 'grade6-bridge';
   const stagedUpdateMarker = topic => topic.stagedUpdate?.markerKey || `${topic.tasks[0].id}-update-gezeigt`;
   const levelLabel = topic => topic.levelLabel || (topic.levelStatus === 'grade6-bridge'
     ? levelLabels['grade6-bridge']
     : isGrade6Review(topic)
-    ? 'Wiederholung Klasse 6 · freiwillig'
+    ? 'Grundlagen Klasse 6 · Wiederholung'
     : levelLabels[topic.levelStatus] || 'Jahrgangsbezug offen');
   const mbiYearNote = topic => topic.subjectId === 'mbi' && topic.levelStatus === 'grade78-flex' && !isGrade6Review(topic)
     ? 'MBI ist in Klasse 7 eingeführt. Dieses Teilziel hat den Zielstand Ende Klasse 8; welche Teile jetzt im Unterricht vorkommen, ist unbekannt.'
@@ -81,7 +83,7 @@
   $('#choose-description').textContent = preview
     ? 'Interner Prüfmodus: Zusätzlich sind gesperrte Entwürfe zur Technik- und Fachprüfung sichtbar.'
     : availableTopics.length
-      ? 'Wähle, was ihr gerade macht oder was du zusätzlich üben möchtest. Jahrgangs- und Quellenstand stehen bei jedem Thema.'
+      ? 'Wähle ein Thema aus eurem Unterricht oder eines, das du zusätzlich üben möchtest. Bei jedem Thema steht, für welchen Jahrgang es gedacht ist und worauf es sich stützt.'
       : 'Intern geprüfte Übungsmodule werden hier nach Prüfung auswählbar.';
   if (!preview && availableTopics.length === 0) $('#home-lead').textContent = 'Die Übungsmodule werden intern geprüft. Bis zur Freigabe sind hier keine Lernaufgaben verfügbar.';
   const lotteReleaseStatus = $('#release-status').textContent;
@@ -256,19 +258,18 @@
     if (heading) { heading.tabIndex = -1; heading.focus({ preventScroll: true }); }
   }
   document.querySelectorAll('[data-nav]').forEach(el => el.addEventListener('click', () => show(el.dataset.nav)));
-  function selectProfile(profile) {
+  function selectSchoolType(schoolType) {
+    if (!supportedSchoolTypes.has(schoolType)) return;
+    activeSchoolType = schoolType;
+    const profile = schoolType === 'gymnasium' ? 'lotte' : 'lea';
     activeProfile = profile;
     document.body.dataset.profile = profile;
-    $('#release-status').textContent = profile === 'lea' ? 'Leas eigener Bereich ist vorbereitet · noch keine Aufgaben freigegeben.' : lotteReleaseStatus;
-    for (const control of document.querySelectorAll('[data-profile]')) {
-      if (!control.classList.contains('profile-chip')) continue;
-      control.classList.toggle('active', control.dataset.profile === profile);
-      control.classList.toggle('later', control.dataset.profile !== profile);
-      control.setAttribute('aria-pressed', String(control.dataset.profile === profile));
-    }
+    $('#school-type').value = schoolType;
+    $('#release-status').textContent = profile === 'lea' ? 'Für diese Schulart sind noch keine eigens abgeglichenen Aufgaben freigegeben.' : lotteReleaseStatus;
     const url = new URL(window.location.href);
-    if (profile === 'lea') url.searchParams.set('profile', 'lea');
-    else url.searchParams.delete('profile');
+    url.searchParams.delete('profile');
+    if (profile === 'lea') url.searchParams.set('school', schoolType);
+    else url.searchParams.delete('school');
     history.replaceState(null, '', url);
     $('#print-surface').replaceChildren();
     delete document.body.dataset.printMode;
@@ -282,7 +283,8 @@
     }
     show(profile === 'lea' ? 'lea' : 'home');
   }
-  document.querySelectorAll('[data-profile]').forEach(el => el.addEventListener('click', () => selectProfile(el.dataset.profile)));
+  $('#school-type').addEventListener('change', event => selectSchoolType(event.target.value));
+  document.querySelectorAll('[data-school-type]').forEach(el => el.addEventListener('click', () => selectSchoolType(el.dataset.schoolType)));
   $('.source-jump').addEventListener('click', () => { $('.source-panel').open = true; $('#sources-heading').scrollIntoView({ block: 'start' }); });
   const adultJumpTargets = { sources: '#sources-heading', print: '#print-children', backup: '#backup-heading' };
   document.querySelectorAll('[data-adult-jump]').forEach(control => control.addEventListener('click', () => {
@@ -405,7 +407,7 @@
       : `${availableTopics.length} Themen in ${groups.filter(group => group.querySelector('.topic-card')).length} Fächern verfügbar.`;
     const stageNote = $('#topic-stage-note');
     stageNote.hidden = stage !== 'grade7-and-flex';
-    if (!stageNote.hidden) stageNote.textContent = 'Startauswahl: Themen für Klasse 7 und freiwillige Themen mit Zielstand 7/8. Welche 7/8-Themen Lotte gerade in der Schule behandelt, ist offen. Für weitere Themen „Alle Angebote“ wählen.';
+    if (!stageNote.hidden) stageNote.textContent = 'Hier siehst du Themen mit Klasse-7-Bezug und Übungen zu Zielen der Klassen 7/8. Wir wissen nicht, welche davon ihr gerade im Unterricht habt. Weitere Themen findest du unter „Alle Angebote“.';
   }
   $('#topic-search-input').addEventListener('input', applyTopicSearch);
   $('#topic-stage-filter').addEventListener('change', applyTopicSearch);
@@ -1062,7 +1064,7 @@
         ? 'Die amtliche Fachseite nennt den 2026er Plan. Die vorhandene Basketball-Regelkarte entstand dagegen aus dem älteren Plan und ersetzt keine Schulspielwahl.'
         : 'Ein öffentlicher Direktlink zur hier beschriebenen Fachfassung wurde nicht sicher geprüft. Der Link führt zur amtlichen Fachübersicht; die erreichbare Datei kann davon abweichen.');
       if (subject.id === 'fr') {
-        appendText(card, 'p', 'source-status', 'Schulischer Sprachweg: Ein Elternbrief für Klasse 5 im Schuljahr 2024/25 nennt Französisch als zweite Fremdsprache ab Klasse 6. Bei regulärem Jahrgangsverlauf passt das zu Lottes aktuellem Fach. Ihr persönlicher Beginn und Lernstand sind nicht belegt.');
+        appendText(card, 'p', 'source-status', 'Schulischer Sprachweg: Ein Elternbrief einer Schule für Klasse 5 im Schuljahr 2024/25 nennt Französisch als zweite Fremdsprache ab Klasse 6. Das belegt keinen einheitlichen Beginn an allen Gymnasien. Der konkrete Sprachweg und Lernstand sind hier nicht erfasst.');
         const schoolLink = create('a', 'source-link school-source-link', 'Suhler Elternbrief zur zweiten Fremdsprache öffnen ↗');
         schoolLink.href = 'https://www.eulegym.de/_files/ugd/e0a47f_542a0be4579b47a8b3b706cafe2fff68.pdf';
         schoolLink.target = '_blank'; schoolLink.rel = 'noopener noreferrer';
@@ -1331,7 +1333,7 @@
     if (activeProfile !== 'lotte') return;
     const content = JSON.stringify({ format: 'lotte-lea-local-backup', version: 1, profile: 'lotte', exportedAt: new Date().toISOString(), selected: state.selected, active: state.active, answers: state.answers }, null, 2);
     const url = URL.createObjectURL(new Blob([content], { type: 'application/json' }));
-    const link = create('a'); link.href = url; link.download = `lotte-sicherung-${new Date().toISOString().slice(0, 10)}.json`;
+    const link = create('a'); link.href = url; link.download = `gymnasium-lernstand-${new Date().toISOString().slice(0, 10)}.json`;
     document.body.append(link); link.click(); link.remove();
     setTimeout(() => URL.revokeObjectURL(url), 60000);
     $('#backup-status').textContent = 'Private Sicherung heruntergeladen. Bitte geschützt aufbewahren; sie enthält Antworten.';
@@ -1406,7 +1408,7 @@
     if (activeProfile !== 'lotte') return;
     show('feedback');
     $('[data-contact-choice="feedback"]').click();
-    $('#feedback-profile').value = 'Lotte';
+    $('#feedback-profile').value = 'Gymnasium';
     $('#feedback-profile').dispatchEvent(new Event('change'));
     $('#feedback-topic').value = state.active || '';
     $('#feedback-area').value = 'Lernen und Antwortprüfung';
@@ -1429,28 +1431,28 @@
     });
   }
   $('#feedback-profile').addEventListener('change', () => {
-    const lotte = $('#feedback-profile').value === 'Lotte';
-    feedbackTopic.disabled = !lotte;
-    if (!lotte) feedbackTopic.value = '';
+    const gymnasium = $('#feedback-profile').value === 'Gymnasium';
+    feedbackTopic.disabled = !gymnasium;
+    if (!gymnasium) feedbackTopic.value = '';
   });
   $('#feedback-form').addEventListener('submit', event => {
     event.preventDefault();
     const conclusion = $('#feedback-conclusion').value.trim();
     const error = $('#feedback-error').value.trim();
     const wish = $('#feedback-wish').value.trim();
-    const selectedTopic = $('#feedback-profile').value === 'Lotte' ? topicById.get(feedbackTopic.value) : null;
+    const selectedTopic = $('#feedback-profile').value === 'Gymnasium' ? topicById.get(feedbackTopic.value) : null;
     const reference = selectedTopic ? `${subjectById.get(selectedTopic.subjectId).name} · ${selectedTopic.title} (${levelLabel(selectedTopic)})` : 'Kein Thema gewählt';
     if (![conclusion, error, wish].some(Boolean)) { $('#feedback-status').textContent = 'Bitte mindestens ein Textfeld ausfüllen.'; return; }
     const subject = `Lotte & Lea: ${$('#feedback-type').value}`;
-    const body = `Feedback zur Lotte-&-Lea-App\n\nBereich: ${$('#feedback-profile').value || 'nicht angegeben'}\nArt: ${$('#feedback-type').value}\nApp-Bereich: ${$('#feedback-area').value || 'nicht angegeben'}\nFach/Thema: ${reference}\nAufgabe/Stelle: ${$('#feedback-task').value.trim() || 'nicht angegeben'}\nGerät/Browser: ${$('#feedback-device').value.trim() || 'nicht angegeben'}\n\nFazit:\n${conclusion || '—'}\n\nBeschreibung:\n${error || '—'}\n\nErwartetes Verhalten oder Vorschlag:\n${wish || '—'}\n\nLernantworten und Anhänge werden nicht automatisch übernommen.`;
+    const body = `Feedback zur Lotte-&-Lea-App\n\nSchulart/Bereich: ${$('#feedback-profile').value || 'nicht angegeben'}\nArt: ${$('#feedback-type').value}\nApp-Bereich: ${$('#feedback-area').value || 'nicht angegeben'}\nFach/Thema: ${reference}\nAufgabe/Stelle: ${$('#feedback-task').value.trim() || 'nicht angegeben'}\nGerät/Browser: ${$('#feedback-device').value.trim() || 'nicht angegeben'}\n\nFazit:\n${conclusion || '—'}\n\nBeschreibung:\n${error || '—'}\n\nErwartetes Verhalten oder Vorschlag:\n${wish || '—'}\n\nLernantworten und Anhänge werden nicht automatisch übernommen.`;
     prepareDraft('feedback', subject, body);
   });
   $('#material-form').addEventListener('submit', event => {
     event.preventDefault();
     if (!$('#material-form').reportValidity()) return;
-    const body = `Fehlende Unterrichtsinformation für Lotte & Lea\n\nBereich: ${$('#material-profile').value || 'nicht angegeben'}\nFach: ${$('#material-subject').value.trim()}\nThema: ${$('#material-topic').value.trim()}\nWelche Information fehlt:\n${$('#material-missing').value.trim()}\n\nBereits bekannt:\n${$('#material-known').value.trim() || '—'}\n\nHilfreiche Ergänzung:\n${$('#material-use').value.trim() || '—'}\n\nFreiwilliger Hinweis:\n${$('#material-note').value.trim() || '—'}\n\nFotos oder Arbeitsblätter nur bei Bedarf im E-Mail-Programm selbst anhängen.`;
+    const body = `Fehlende Unterrichtsinformation für Lotte & Lea\n\nSchulart: ${$('#material-profile').value || 'nicht angegeben'}\nFach: ${$('#material-subject').value.trim()}\nThema: ${$('#material-topic').value.trim()}\nWelche Information fehlt:\n${$('#material-missing').value.trim()}\n\nBereits bekannt:\n${$('#material-known').value.trim() || '—'}\n\nHilfreiche Ergänzung:\n${$('#material-use').value.trim() || '—'}\n\nFreiwilliger Hinweis:\n${$('#material-note').value.trim() || '—'}\n\nFotos oder Arbeitsblätter nur bei Bedarf im E-Mail-Programm selbst anhängen.`;
     prepareDraft('material', 'Lotte & Lea: Unterrichtsinformation fehlt', body);
   });
 
-  selectProfile(activeProfile);
+  selectSchoolType(activeSchoolType);
 })();

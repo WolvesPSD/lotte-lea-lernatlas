@@ -371,3 +371,8 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="de-stichpunkte-b"]{break-before:page;break-inside:avoid;page-break-inside:avoid}}
 
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="sp-b7-ss06-c"]{break-before:page;break-inside:avoid;page-break-inside:avoid}}
+
+.school-type-label{font-weight:700;color:var(--petrol)}
+#school-type{min-height:44px;max-width:100%;padding:.45rem .7rem;border:2px solid var(--petrol);border-radius:.7rem;background:#fff;color:var(--petrol);font:inherit;font-weight:700;cursor:pointer}
+#school-type:focus-visible{outline:3px solid #b56b20;outline-offset:2px}
+@media(max-width:740px){.school-type-label{font-size:.78rem}#school-type{font-size:.82rem;min-width:0}.device-chip{width:auto;justify-content:center;border:0;padding-left:0}}

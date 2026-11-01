@@ -15,6 +15,9 @@ body[data-view=adult] .adult-entry{display:none}
 .brand-mark,.primary,.topic-tab[aria-current=true]{background:var(--petrol)}
 .brand-dot{color:#d3e7d9}
 .header-context{display:flex;flex-wrap:wrap;align-items:center;gap:.55rem;margin-left:auto;font-size:.82rem}
+.school-type-label{font-weight:700;color:var(--petrol)}
+#school-type{min-height:44px;max-width:100%;padding:.45rem .7rem;border:2px solid var(--petrol);border-radius:.7rem;background:#fff;color:var(--petrol);font:inherit;font-weight:700;cursor:pointer}
+#school-type:focus-visible{outline:3px solid #b56b20;outline-offset:2px}
 .profile-chip,.device-chip{display:inline-flex;align-items:center;min-height:36px;padding:.42rem .72rem;border-radius:99px;white-space:nowrap}
 .profile-chip{border:0;font-weight:650}
 .profile-chip.active{background:var(--petrol);color:#fff}
@@ -22,7 +25,7 @@ body[data-view=adult] .adult-entry{display:none}
 body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body[data-profile=lea] footer button{display:none!important}
 .subject-groups{display:grid;gap:.7rem}
 .topic-search{margin:-.7rem 0 1.4rem;max-width:46rem}.topic-search label{display:block;font-weight:700;margin-bottom:.45rem}.topic-search-controls{display:flex;gap:.6rem}.topic-search input{min-width:0;flex:1;border:1px solid #abbdb2;border-radius:.65rem;background:#fff;color:#17272a;padding:.75rem}.topic-search button{border:1px solid #a7b8b2;border-radius:.65rem;background:#fff;color:#17463f;padding:.7rem .9rem;font-weight:650}.topic-search p{margin:.5rem 0 0;color:#536169;font-size:.88rem}.topic-card[hidden],.subject-group[hidden]{display:none!important}@media(max-width:480px){.topic-search-controls{flex-wrap:wrap}.topic-search input{flex-basis:100%}}
-.topic-stage-controls{display:flex;align-items:center;gap:.75rem;margin-top:.8rem}.topic-stage-controls label{margin:0}.topic-stage-controls select{max-width:100%;border:1px solid #abbdb2;border-radius:.65rem;background:#fff;color:#17272a;padding:.65rem .75rem;font:inherit}.topic-stage-controls select:focus-visible{outline:3px solid #146e62;outline-offset:2px}@media(max-width:480px){.topic-stage-controls{align-items:stretch;flex-direction:column;gap:.35rem}.topic-stage-controls select{width:100%}}
+.topic-stage-controls{display:flex;align-items:center;gap:.75rem;margin-top:.8rem}.topic-stage-controls[hidden]{display:none}.topic-stage-controls label{margin:0}.topic-stage-controls select{max-width:100%;border:1px solid #abbdb2;border-radius:.65rem;background:#fff;color:#17272a;padding:.65rem .75rem;font:inherit}.topic-stage-controls select:focus-visible{outline:3px solid #146e62;outline-offset:2px}@media(max-width:480px){.topic-stage-controls{align-items:stretch;flex-direction:column;gap:.35rem}.topic-stage-controls select{width:100%}}
 .subject-group{border:1px solid #dce4df;background:#fff;border-radius:.9rem;overflow:hidden}
 .subject-group[open]{border-color:#9dbeb0}
 .subject-group-heading{display:flex;align-items:center;justify-content:space-between;gap:.7rem;cursor:pointer;padding:1rem 1.2rem;list-style:none}
@@ -58,6 +61,8 @@ body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body
 .site-header nav button[data-nav=adult]{display:flex;align-items:center;gap:.35rem}
 .site-header nav button[data-nav=adult] svg{display:block;width:1.15rem;height:1.15rem}
 .adult-nav-label-mobile{display:none}
+.adult-topic,.adult-task{overflow-wrap:anywhere}
+@media print{#print-surface:has(.print-task[data-task-id="mbi-i3-lebenswelt-a"]) .print-practice,#print-surface:has(.print-task[data-task-id="mbi-i3-lebenswelt-a"]) .print-task[data-task-id="mbi-i3-lebenswelt-b"]{break-inside:avoid;page-break-inside:avoid}}
 .site-header nav button[aria-current=page]{background:var(--petrol-light);color:var(--petrol)}
 .hero{background:linear-gradient(135deg,#fffdf8,#eee9df);border:1px solid var(--line);position:relative}
 .hero:after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.18;background-image:linear-gradient(#c8c3b9 1px,transparent 1px),linear-gradient(90deg,#c8c3b9 1px,transparent 1px);background-size:40px 40px;mask-image:linear-gradient(to left,#000,transparent 70%)}
@@ -98,7 +103,7 @@ body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body
   .site-header{padding:.7rem 1rem;display:grid;grid-template-columns:1fr auto;align-items:center;gap:.45rem}
   .brand{font-size:1rem}.brand-mark{width:2.3rem;height:2.3rem}
   .adult-entry{display:block;background:#ffe3a0;color:#3f2d13;border:2px solid #a36b19;border-radius:.65rem;padding:.5rem .7rem;font-size:.82rem;font-weight:800;min-height:44px;box-shadow:0 2px 7px #5d3f1430}
-  .header-context{margin:0;gap:.4rem;grid-column:1/-1}.profile-chip,.device-chip{font-size:.72rem;min-height:30px;padding:.25rem .52rem}.device-chip{width:auto;justify-content:center;border:0;padding-left:0}
+  .header-context{margin:0;gap:.4rem;grid-column:1/-1}.school-type-label{font-size:.78rem}#school-type{font-size:.82rem;min-width:0}.device-chip{font-size:.72rem;min-height:30px;padding:.25rem .52rem;width:auto;justify-content:center;border:0;padding-left:0}
   .site-header nav{position:fixed;bottom:0;left:0;right:0;margin:0;padding:.35rem max(.3rem,env(safe-area-inset-left)) max(.35rem,env(safe-area-inset-bottom));background:#fffdf9;border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:54px 54px;gap:.12rem;overflow:visible;box-shadow:0 -5px 22px #17262612}
   .site-header nav button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.05rem;grid-row:2;min-height:54px;padding:.2rem .05rem;font-size:clamp(.64rem,2.8vw,.72rem);line-height:1.1;white-space:nowrap}
   .site-header nav button>span{font-size:1.35rem;margin:0}
@@ -233,6 +238,13 @@ body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="ma-termstruktur-3"]{break-before:page}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="ma-drei-formen-2"]{break-before:page}}
 .live-reading-card{border:1px solid var(--line);border-radius:.9rem;background:#edf6f4;padding:1rem 1.2rem;margin:1.2rem 0}.live-reading-card h3{font-family:ui-serif,Georgia,serif;font-size:1.45rem;margin:0 0 .4rem}.live-reading-card p{margin:.2rem 0 .8rem}.live-reading-script,.print-live-reading-script{white-space:pre-line}.print-live-reading-script{border:1px solid #cbd7d0;padding:.55rem;break-inside:avoid}
+.image-story-card{border:1px solid #c9d8d2;border-radius:.9rem;background:#f1f7f4;padding:1rem;margin:1rem 0}.image-story-card h3{margin:.1rem 0 .35rem}.image-story-figure{max-width:700px;margin:.8rem 0}.image-story-figure img{display:block;width:100%;height:auto;border:1px solid #bbcfc8;border-radius:.55rem;background:#fff}.image-story-figure figcaption{font-size:.85rem;color:#526168;margin-top:.35rem}.image-story-adult-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.7rem}.image-story-adult-gallery .image-story-figure{margin:.3rem 0}
+@media print{.print-image-story{break-inside:avoid}.print-image-story img{max-height:70mm;object-fit:contain}body[data-print-mode^="adult"] .print-image-story img{max-height:54mm}}
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="de-buchabend-4"]{break-before:page;break-inside:avoid}}
+@media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-ds1-moderation-p1"]){font-size:9.5pt;line-height:1.12}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-ds1-moderation-p1"]) .print-task{margin-bottom:.55rem}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-ds1-moderation-p1"]) .print-practice p{margin:.25rem 0}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-ds1-moderation-p1"]) .print-practice ol{margin:.4rem 0}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-ds1-moderation-p1"]) .print-practice li+li{margin-top:.2rem}}
+@media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="en-m-live-prep"]){font-size:9.5pt;line-height:1.13}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="en-m-live-prep"]) .print-practice p{margin:.12rem 0}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="en-m-live-prep"]) .print-practice ol{margin:.25rem 0}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="en-m-live-prep"]) .print-practice li+li{margin-top:.12rem}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="en-m-live-prep"]) .print-task{margin-bottom:.35rem}}
+@media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="ge-reformationsdrucke-a"]){font-size:9.5pt;line-height:1.12}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="ge-reformationsdrucke-a"]) .print-task{margin-bottom:.42rem}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="ge-reformationsdrucke-a"]) .print-task h3{margin-bottom:.18rem}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="ge-reformationsdrucke-a"]) .print-task ol{margin:.15rem 0}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="ge-reformationsdrucke-a"]) .print-source-cards .learning-source-card{margin:.2rem 0}}
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="ge-bauernartikel-b"]{break-inside:avoid}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="de-hoernachricht-3"]{break-before:page}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="et-raum-5"]+.print-passage{break-before:page;break-inside:avoid}body[data-print-mode^="adult"] .print-task[data-task-id="et-raum-6"]{break-inside:avoid}}
 .reveal-sample{min-height:44px;padding:.55rem .8rem;border:1px solid #075b61;border-radius:.55rem;background:#fff;color:#075b61;font-weight:700;cursor:pointer}.reveal-sample:hover,.reveal-sample:focus-visible{background:#edf6f4}
@@ -247,6 +259,7 @@ body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body
 @media print{body[data-print-mode^="adult"] .print-practice{break-before:page}.print-practice{break-inside:auto}.print-practice li{break-inside:avoid}}
 @media print{body[data-print-mode^="child"] #print-surface:has(.print-task[data-task-id="en-garden-dialogue-2"]) .print-practice{break-before:page}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="fr-livre-samedi-4"]{break-before:page}}
+@media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="fr-graphique-a"]){font-size:9pt;line-height:1.12}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="fr-graphique-a"]) .print-task{margin-bottom:.5rem}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="de-eigene-ganzschrift-3"]{break-before:page}}
 @media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-lesetreff-dialog-2"]){font-size:9.5pt;line-height:1.14}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-lesetreff-dialog-2"]) .print-task{margin-bottom:.55rem}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="ma-reelle-zahlen-4"],body[data-print-mode^="adult"] .print-task[data-task-id="ma-kreisweg-2"]{break-before:page}}
@@ -296,6 +309,10 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 @media print{body[data-print-mode^="adult"] #print-surface .print-topic:has(.print-task[data-task-id="en-feelings-reply-dialog-2"]) .print-practice{break-before:page}}
 @media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="go-helens-a"]){font-size:9.25pt;line-height:1.1}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="go-helens-a"]) .print-task{margin-bottom:.45rem}body[data-print-mode^="adult"] .print-task[data-task-id="go-helens-a"],body[data-print-mode^="adult"] .print-task[data-task-id="go-helens-e"]{break-inside:avoid}}
 /* Optional spoken orientation: visible controls, no automatic playback. */
+.feedback-before-update{display:flex;align-items:flex-start;gap:.7rem;margin:1rem 0;padding:.9rem 1rem;border:1px solid #9bb8af;border-radius:.7rem;background:#edf6f2;color:#174b45;font-weight:650}
+.feedback-before-update input{flex:none;width:1.25rem;height:1.25rem;margin:.12rem 0 0}
+.feedback-before-update[hidden]{display:none!important}
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="go-g01-c"]{break-inside:avoid}}
 .voice-help{display:flex;align-items:center;flex-wrap:wrap;gap:.55rem;margin:0 clamp(1rem,4vw,4rem) 1.4rem;color:#536169}
 .voice-help button{min-height:44px;border:1px solid #8aa9a1;border-radius:.7rem;background:#fffdf9;color:#145651;padding:.55rem .85rem;font:inherit;font-weight:700;cursor:pointer}
 .voice-help button:hover,.voice-help button:focus-visible{background:#e5f2ee}
@@ -307,6 +324,8 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 .inline-voice-guide{min-height:44px;margin:.15rem 0 .8rem;border:1px solid #8aa9a1;border-radius:.7rem;background:#fffdf9;color:#145651;padding:.55rem .85rem;font:inherit;font-weight:700;cursor:pointer}
 .inline-voice-guide:hover,.inline-voice-guide:focus-visible{background:#e5f2ee}
 .inline-voice-guide[aria-pressed="true"]{background:#145651;color:#fff}
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.language-audio-control{margin:.5rem 0}
 .adult-language-help{margin:1rem 0;padding:1rem;border:1px solid #c7d9d3;border-radius:.8rem;background:#f2f8f5}
 .adult-language-help h4,.print-language-help h4{margin:.8rem 0 .25rem}
 .language-translation{white-space:pre-line}
@@ -314,65 +333,28 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id^="mbi-i6-felder-"]{break-inside:avoid}}
 @media print{body[data-print-mode^="adult"] #print-surface .print-topic:has(.print-task[data-task-id="de-szene-spielen-p1"]) .print-practice{break-before:auto}body[data-print-mode^="adult"] .print-task[data-task-id="de-szene-spielen-p3"]{break-inside:avoid}body[data-print-mode^="adult"] .print-task[data-task-id="de-szene-spielen-v"]{break-before:page}}
 @media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="en-water-path-other-route"]) .print-task{margin-bottom:.55rem}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="en-water-path-other-route"]) .print-task h3{margin-bottom:.3rem}}
-
-@media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="ge-reformationsdrucke-a"]){font-size:9.5pt;line-height:1.12}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="ge-reformationsdrucke-a"]) .print-task{margin-bottom:.42rem}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="ge-reformationsdrucke-a"]) .print-task h3{margin-bottom:.18rem}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="ge-reformationsdrucke-a"]) .print-task ol{margin:.15rem 0}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="ge-reformationsdrucke-a"]) .print-source-cards .learning-source-card{margin:.2rem 0}}
-
-@media print{body[data-print-mode^="adult"] .print-task[data-task-id="ge-bauernartikel-b"]{break-inside:avoid}}
-
+@media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="en-red-panda-source-line"]){font-size:9.25pt;line-height:1.1}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="en-red-panda-source-line"]) .print-task{margin-bottom:.35rem}body[data-print-mode^="adult"] .print-task[data-task-id="en-red-panda-plan"]{break-before:page}body[data-print-mode^="adult"] .print-task[data-task-id^="en-red-panda-"]{break-inside:avoid}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="go-reisepfeile-b"]{break-inside:avoid}}
-
 @media print{#print-surface:has(.print-task[data-task-id="fr-qui-est-ce-plan"]) .print-practice{break-before:page}}
-
-@media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="fr-graphique-a"]){font-size:9pt;line-height:1.12}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="fr-graphique-a"]) .print-task{margin-bottom:.5rem}}
-
-@media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-ds1-moderation-p1"]){font-size:9.5pt;line-height:1.12}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-ds1-moderation-p1"]) .print-task{margin-bottom:.55rem}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-ds1-moderation-p1"]) .print-practice p{margin:.25rem 0}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-ds1-moderation-p1"]) .print-practice ol{margin:.4rem 0}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-ds1-moderation-p1"]) .print-practice li+li{margin-top:.2rem}}
-
-.adult-topic,.adult-task{overflow-wrap:anywhere}
-
-@media print{#print-surface:has(.print-task[data-task-id="mbi-i3-lebenswelt-a"]) .print-practice,#print-surface:has(.print-task[data-task-id="mbi-i3-lebenswelt-a"]) .print-task[data-task-id="mbi-i3-lebenswelt-b"]{break-inside:avoid;page-break-inside:avoid}}
-
 .image-textway{border:1px solid #9dbab4;border-radius:.65rem;padding:.7rem 1rem;background:#f6fbf9;margin:.8rem 0 1rem}.image-textway summary{font-weight:700;cursor:pointer}.image-textway p{line-height:1.55;margin:.7rem 0 0}.staged-update-image[hidden]{display:none!important}
 @media print{#print-surface:has(.print-task[data-task-id="fr-w-image-a"]) .print-diagram{break-inside:avoid}#print-surface:has(.print-task[data-task-id="fr-w-image-a"]) .print-task[data-task-id="fr-w-image-transfer"]{break-inside:avoid}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="fr-w-image-a"]{break-before:page;break-inside:avoid}}
 @media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="sp-b1-s01-1"]){font-size:9.5pt;line-height:1.12}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="sp-b1-s01-1"]) .print-diagram img{max-height:78mm}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="sp-b1-s01-1"]) .print-task{margin-bottom:.4rem}}
-@media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="en-red-panda-source-line"]){font-size:9.25pt;line-height:1.1}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="en-red-panda-source-line"]) .print-task{margin-bottom:.35rem}body[data-print-mode^="adult"] .print-task[data-task-id="en-red-panda-plan"]{break-before:page}body[data-print-mode^="adult"] .print-task[data-task-id^="en-red-panda-"]{break-inside:avoid}}
-
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id^="sp-b1-s01-sprung-"]{break-inside:avoid;page-break-inside:avoid}}
-
 @media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="mbi-i3-challenge-a"]){font-size:9.25pt;line-height:1.1}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="mbi-i3-challenge-a"]) .print-task{margin-bottom:.35rem;break-inside:avoid;page-break-inside:avoid}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="mbi-i3-challenge-a"]) .print-task h3{font-size:9.4pt;margin-bottom:.18rem}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="mbi-i3-challenge-a"]) .print-source-cards .learning-source-card{padding:.2rem .35rem;margin:.18rem 0}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="mbi-i3-challenge-a"]) .print-source-cards .learning-source-card p{font-size:8.6pt;line-height:1.1;margin:.1rem 0}}
-
 @media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="sp-b1-s01-ws-a"]){font-size:9.25pt;line-height:1.1}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="sp-b1-s01-ws-a"]) .print-task{margin-bottom:.35rem;break-inside:avoid;page-break-inside:avoid}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="sp-b1-s01-ws-a"]) .print-task h3{font-size:9.4pt;margin-bottom:.18rem}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="sp-b1-s01-ws-a"]) .print-source-cards .learning-source-card{padding:.2rem .35rem;margin:.18rem 0}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="sp-b1-s01-ws-a"]) .print-source-cards .learning-source-card p{font-size:8.6pt;line-height:1.1;margin:.1rem 0}}
 @media print{body[data-print-mode^="child"] .print-task[data-task-id="sp-b1-s01-ws-d"]{break-before:page;break-inside:auto;page-break-inside:auto}}
-
 @media print{body[data-print-mode^="child"] .print-task[data-task-id="sp-b1-m02-c"]{break-before:page;break-inside:auto;page-break-inside:auto}body[data-print-mode^="adult"] .print-task[data-task-id="sp-b1-m02-b"]{break-before:page;break-inside:avoid;page-break-inside:avoid}}
-
+@media print{body[data-print-mode^="child"] #print-surface:has(.print-task[data-task-id="en-m-live-prep"]) .print-practice{break-before:page;page-break-before:always;break-inside:avoid;page-break-inside:avoid}}
 @media print{body[data-print-mode^="child"] #print-surface:has(.print-task[data-task-id="mbi-i6-ss01-a"]) .print-practice{break-inside:avoid;page-break-inside:avoid}}
-
 @media print{body[data-print-mode^="child"] #print-surface:has(.print-task[data-task-id="mbi-i6-o01-a"]) .print-practice{break-inside:avoid;page-break-inside:avoid}}
-
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="de-belegkarte-m20m22-a"]{break-inside:avoid;page-break-inside:avoid}}
-
-.language-audio-control{margin:.5rem 0}
-
-@media print{body[data-print-mode^="adult"] .print-task[data-task-id="de-kommentar-s20-funktion"]{break-inside:avoid;page-break-inside:avoid}}
-
-@media print{body[data-print-mode^="adult"] .print-task[data-task-id="mbi-i4-modellbias-b"]{break-inside:avoid;page-break-inside:avoid}}
-@media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-np-a"]){font-size:9.2pt;line-height:1.1}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-np-a"]) .print-diagram img{max-height:58mm}body[data-print-mode^="adult"] .print-task[data-task-id="de-np-b"]{break-inside:avoid;page-break-inside:avoid}}
-@media print{body[data-print-mode^="adult"] .print-task[data-task-id^="sp-b1-m04-"]{break-inside:avoid;page-break-inside:avoid}}
 /* D-L2/M20: keep each rubric with its task and avoid a one-line fifth adult page. */
 @media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-dl2-m20-a1"]){font-size:9.25pt;line-height:1.12}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-dl2-m20-a1"]) .print-task{margin-bottom:.42rem;break-inside:avoid;page-break-inside:avoid}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-dl2-m20-a1"]) .print-task h3{font-size:9.4pt;margin-bottom:.22rem}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-dl2-m20-a1"]) .print-practice li+li{margin-top:.2rem}}
-
-@media print{body[data-print-mode^="adult"] .print-task[data-task-id="sp-b2-m04-c"]{break-before:page;break-inside:avoid;page-break-inside:avoid}}
-
-.feedback-before-update{display:flex;align-items:flex-start;gap:.7rem;margin:1rem 0;padding:.9rem 1rem;border:1px solid #9bb8af;border-radius:.7rem;background:#edf6f2;color:#174b45;font-weight:650}
-.feedback-before-update input{flex:none;width:1.25rem;height:1.25rem;margin:.12rem 0 0}
-.feedback-before-update[hidden]{display:none!important}
-@media print{body[data-print-mode^="adult"] .print-task[data-task-id="go-g01-c"]{break-inside:avoid;page-break-inside:avoid}}
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="de-kommentar-s20-funktion"]{break-inside:avoid;page-break-inside:avoid}}
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="mbi-i4-modellbias-b"]{break-inside:avoid;page-break-inside:avoid}}
+@media print{body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-np-a"]){font-size:9.2pt;line-height:1.1}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="de-np-a"]) .print-diagram img{max-height:58mm}body[data-print-mode^="adult"] .print-task[data-task-id="de-np-b"]{break-inside:avoid;page-break-inside:avoid}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="de-stichpunkte-b"]{break-before:page;break-inside:avoid;page-break-inside:avoid}}
-
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id^="sp-b1-m04-"]{break-inside:avoid;page-break-inside:avoid}}
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="sp-b2-m04-c"]{break-before:page;break-inside:avoid;page-break-inside:avoid}}
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="sp-b7-ss06-c"]{break-before:page;break-inside:avoid;page-break-inside:avoid}}
-
-.school-type-label{font-weight:700;color:var(--petrol)}
-#school-type{min-height:44px;max-width:100%;padding:.45rem .7rem;border:2px solid var(--petrol);border-radius:.7rem;background:#fff;color:var(--petrol);font:inherit;font-weight:700;cursor:pointer}
-#school-type:focus-visible{outline:3px solid #b56b20;outline-offset:2px}
-@media(max-width:740px){.school-type-label{font-size:.78rem}#school-type{font-size:.82rem;min-width:0}.device-chip{width:auto;justify-content:center;border:0;padding-left:0}}

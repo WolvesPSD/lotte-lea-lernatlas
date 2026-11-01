@@ -73,10 +73,10 @@ window.LOTTE_CATALOG = Object.freeze({
     {
       "id": "mu",
       "name": "Musik",
-      "plan": "Gymnasium 2026; Klasse 7 ab 2026/27",
-      "scope": "7/8-Ziele überwiegend bis Ende Klasse 8; Unterrichtsfolge offen",
-      "availabilityLabel": "Lehrplan 2026 gilt · Übungen noch nicht zugeordnet",
-      "availabilityReason": "Der Musiklehrplan 2026 gilt für Klasse 7 ab 2026/27. Die zwei schriftlichen Übungen stammen aus dem älteren Plan. Ob sie zu den neuen 7/8-Zielen passen, wird noch geprüft. Welche Themen gerade im Unterricht vorkommen, ist unbekannt. Hören und Musizieren werden hier nicht geprüft.",
+      "plan": "Gymnasium: Entwurf 2026; Geltung 2026/27 offen",
+      "scope": "Der Entwurf nennt 7/8-Ziele bis Ende Klasse 8; Geltung und Unterrichtsfolge offen",
+      "availabilityLabel": "Musik-Lehrplan 2026/27 noch nicht bestätigt",
+      "availabilityReason": "Das amtliche Schulportal veröffentlicht einen Musik-Entwurf 2026. Dessen PDF-S. 2 sieht Klasse 7 ab 2026/27 vor; eine getrennte amtliche Bestätigung der Geltung liegt uns noch nicht vor. Die zwei schriftlichen Übungen stammen aus dem älteren Plan. Ihre Zuordnung zum Entwurf wird geprüft. Hören und Musizieren werden hier nicht geprüft.",
       "source": "https://www.schulportal-thueringen.de/media/detail?tspi=20577"
     },
     {
@@ -16832,10 +16832,10 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "mu09-bass-triole-taktwechsel",
       "subjectId": "mu",
       "title": "Zwei Takte im Bassschlüssel lesen",
-      "scope": "Zusätzliche schriftliche Übung aus dem älteren Musikplan zu Bassschlüssel, Achteltriole und Taktwechsel. Der Musikplan 2026 gilt für Klasse 7; die Zuordnung dieser Übung zu seinen 7/8-Zielen und die Unterrichtsfolge sind noch ungeprüft. Lesen einer Notenzeile belegt kein Hören, Singen oder Spielen.",
+      "scope": "Zusätzliche schriftliche Übung aus dem älteren Musikplan zu Bassschlüssel, Achteltriole und Taktwechsel. Ob der neue Entwurf 2026/27 gilt und ob diese Übung zu seinen 7/8-Zielen passt, ist noch ungeklärt. Lesen einer Notenzeile belegt kein Hören, Singen oder Spielen.",
       "levelStatus": "additional-unclear",
       "released": true,
-      "prerequisite": "Diese Übung stammt aus dem älteren Musikplan; ob sie ein Ziel des für Klasse 7 geltenden Plans 2026 trifft, wird noch geprüft. Die Notenzeile ist eigens erfunden. Du kannst die Grafik oder ihre vollständige Textalternative nutzen; keine Aufnahme und kein Vorspielen sind nötig. Die App prüft freie Antworten nicht automatisch.",
+      "prerequisite": "Diese Übung stammt aus dem älteren Musikplan. Der neue Entwurf nennt zwar Klasse 7 ab 2026/27, seine Geltung und die Zuordnung dieser Übung sind aber noch nicht bestätigt. Die Notenzeile ist eigens erfunden. Du kannst die Grafik oder ihre vollständige Textalternative nutzen; keine Aufnahme und kein Vorspielen sind nötig. Die App prüft freie Antworten nicht automatisch.",
       "introduction": "Zwei erfundene Takte zeigen Noten im Bassschlüssel. Die fünf Linien heißen von unten L1 bis L5, die Zwischenräume R1 bis R4. Der Bassschlüssel legt F auf L4 fest. Die Stammtöne C–D–E–F–G–A–H wiederholen sich; vom einen Linien- oder Zwischenraumplatz zum nächsten gehst du einen Stammtonschritt. Eine Viertelnote dauert einen Viertelpuls, eine gewöhnliche Achtelnote einen halben. Drei Achtel unter der Triolenklammer 3 teilen sich gleichmäßig die Zeit von zwei gewöhnlichen Achteln. Eine Viertelpause belegt einen Viertelpuls ohne Tonanfang. 4/4 hat hier vier, 3/4 drei Viertelpulse pro Takt. 20 Haupt- und sechs getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
       "diagram": {
         "path": "assets/mu09-bass-triole-taktwechsel-2026.svg",
@@ -16934,10 +16934,11 @@ window.LOTTE_CATALOG = Object.freeze({
         }
       ],
       "releaseEvidence": {
-        "validFor": "2012/13-Original als historische Inhaltsquelle; für Klasse 7 ab 2026/27 gilt Musik 2026. Zuordnung dieses Übungsfalls zum neuen Plan offen.",
+        "validFor": "2012/13-Original als historische Inhaltsquelle; 2026/27-Geltung des amtlichen Entwurfs 2026 ungeklärt. Zuordnung dieses Übungsfalls offen.",
         "gradeBand": "7/8, Ziel Ende Klasse 8",
         "competencyRef": "Musik Gymnasium 2012/13, §2.2.3.3 PDF-/Drucks.25: bis Ende Klasse 8 u. a. Bassschlüssel-Stammtöne, Triolen und Taktwechsel; Notationskenntnis ist mit musizierpraktischen Erfahrungen verbunden.",
-        "checkedAt": "2026-10-22"
+        "checkedAt": "2026-10-22",
+        "independentCheck": "Kinderblatt, Erwachsenenlösung, eigenes SVG und gerendertes Notenbild intern unabhängig ohne P1/P2 auf Tonpositionen, Zeitwerte, Rubrik und Praxisgrenze geprüft. Separater App-Abgleich ohne P1/P2; lokale 390-/1280-px-, Stufen-, Wiederaufnahme-, Kinder-/Erwachsenendruck- und A4-Sicht bestanden. Screenreader, echte Kinder- und externe Musikfachprüfung sowie Geltung und Zuordnung zum Musik-Entwurf 2026 stehen aus."
       }
     },
     {
@@ -21854,10 +21855,10 @@ window.LOTTE_CATALOG = Object.freeze({
       "id": "mu09-pentatonik-tonvorrat",
       "subjectId": "mu",
       "title": "Fünf Töne aus zwei Dur-Reihen ableiten",
-      "scope": "Zusätzliche schriftliche Pentatonik-Übung aus dem älteren Musikplan. Der Musikplan 2026 gilt für Klasse 7; die Zuordnung dieser Übung zu seinen 7/8-Zielen und die Unterrichtsfolge sind noch ungeprüft. Tonnamen auf Papier sind kein Nachweis für Hören, Singen oder Spielen.",
+      "scope": "Zusätzliche schriftliche Pentatonik-Übung aus dem älteren Musikplan. Ob der neue Entwurf 2026/27 gilt und ob diese Übung zu seinen 7/8-Zielen passt, ist noch ungeklärt. Tonnamen auf Papier sind kein Nachweis für Hören, Singen oder Spielen.",
       "levelStatus": "additional-unclear",
       "released": true,
-      "prerequisite": "Du brauchst nur die gegebene C-Dur-Karte. Bearbeite A zunächst selbst. Die Auswahl in B erscheint erst, nachdem du A festgehalten hast. Die App bewertet freie Antworten nicht automatisch; 20 Haupt- und 6 getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
+      "prerequisite": "Diese Übung stammt aus dem älteren Musikplan. Ob der neue Entwurf 2026/27 gilt und ob die Übung dazu passt, ist noch ungeklärt. Du brauchst nur die gegebene C-Dur-Karte. Bearbeite A zunächst selbst. Die Auswahl in B erscheint erst, nachdem du A festgehalten hast. Die App bewertet freie Antworten nicht automatisch; 20 Haupt- und 6 getrennte Zusatzpunkte sind Lernfeedback, keine Schulnote.",
       "introduction": "AUSGANGSKARTE C-DUR · Stufe 1 = C; 2 = D; 3 = E; 4 = F; 5 = G; 6 = A; 7 = H. Für diese Übung entsteht die C-Dur-Pentatonik, indem du die Stufen 4 und 7 weglässt. Penta bedeutet fünf. Die Buchstaben sind Tonnamen, noch keine gespielte Melodie. Aus dem Tonvorrat allein folgt keine sichere Herkunfts- oder Klangaussage.",
       "firstTaskGate": {
         "unlockLabel": "A festhalten und Auswahl B zeigen",
@@ -21957,11 +21958,12 @@ window.LOTTE_CATALOG = Object.freeze({
       "releaseEvidence": {
         "primaryUrl": "https://www.schulportal-thueringen.de/web/guest/lehrplaene/gymnasium",
         "primarySha256": "0F7847F86FDFA779173E48B0D9FFAF4494252145D125DB346A7991B300E3F981",
-        "validFor": "2012/13-Original als historische Inhaltsquelle; für Klasse 7 ab 2026/27 gilt Musik 2026. Zuordnung dieses Übungsfalls zum neuen Plan offen.",
+        "validFor": "2012/13-Original als historische Inhaltsquelle; 2026/27-Geltung des amtlichen Entwurfs 2026 ungeklärt. Zuordnung dieses Übungsfalls offen.",
         "gradeBand": "7/8, Ziel Ende Klasse 8",
         "competencyRef": "Musik Gymnasium 2012/13, §2.2.3.3/PDF-S.25: ausgewählte Skalen, darunter Pentatonik, erkennen und benennen; Notation an musizierpraktische Erfahrung gebunden. Hier nur eine freiwillige schriftliche Teilübung.",
         "checkedAt": "2026-10-27",
-        "reviewNote": "App-Ableger der getrennten Kinder-/Erwachsenenblätter und einer unabhängigen engen Prüfung. A vor der Antwortauswahl B; 20 Haupt- und 6 getrennte Zusatzpunkte. Keine gespielte oder gehörte Skala und keine bestätigte Zuordnung zum geltenden Musikplan 2026."
+        "reviewNote": "App-Ableger der getrennten Kinder-/Erwachsenenblätter und einer unabhängigen engen Prüfung. A vor der Antwortauswahl B; 20 Haupt- und 6 getrennte Zusatzpunkte. Keine gespielte oder gehörte Skala und keine bestätigte Geltung oder Zuordnung zum Musik-Entwurf 2026.",
+        "independentCheck": "Unabhängige enge Musik-/App-QA, A4-Renderings und HTTPS-Browserprüfung in wissen/APP-MUSIK-MU09-PENTATONIK-2026-PRUEFKARTE.md. Ein vorwegnehmender B2-Wortlaut korrigiert; echte Musizierpraxis, Geltung und Zuordnung zum Musik-Entwurf 2026 und externe Fachabnahme offen."
       }
     },
     {

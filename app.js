@@ -2,17 +2,24 @@
   'use strict';
   const catalog = window.LOTTE_CATALOG;
   const languageSupport = window.LOTTE_LANGUAGE_SUPPORT || {};
+  const foreignLanguageSubjects = new Set(['en', 'fr', 'es']);
   const lotteKey = 'lotte-progress-v1';
   const legacyLotteKey = 'lotte-lea-local-v1'; // Existing untagged state belonged only to Lotte.
+  const gymnasium6Key = 'gymnasium-grade6-progress-v1';
   const params = new URLSearchParams(window.location.search);
   const preview = params.get('preview') === '1';
-  const supportedSchoolTypes = new Set(['gymnasium', 'regelschule', 'gemeinschaftsschule', 'gesamtschule']);
+  const supportedSchoolTypes = new Set(['gymnasium', 'gymnasium-6', 'regelschule', 'gemeinschaftsschule', 'gesamtschule']);
   let activeSchoolType = supportedSchoolTypes.has(params.get('school')) ? params.get('school') : params.get('profile') === 'lea' ? 'regelschule' : 'gymnasium';
-  let activeProfile = activeSchoolType === 'gymnasium' ? 'lotte' : 'lea';
-  const availableTopics = catalog.topics.filter(topic => topic.released || preview);
-  const topicById = new Map(availableTopics.map(topic => [topic.id, topic]));
+  let activeProfile = activeSchoolType === 'gymnasium' || activeSchoolType === 'gymnasium-6' ? 'lotte' : 'lea';
+  let activeGymMode = activeSchoolType === 'gymnasium-6' ? 'gymnasium-6' : 'gymnasium';
+  // Legacy topics belong to Klasse 7. A Klasse-6 topic needs an explicit, reviewed schoolModes entry.
+  const topicsForMode = mode => catalog.topics.filter(topic => (topic.released || preview)
+    && (Array.isArray(topic.schoolModes) ? topic.schoolModes.includes(mode) : mode === 'gymnasium'));
+  let availableTopics = topicsForMode(activeGymMode);
+  let topicById = new Map(availableTopics.map(topic => [topic.id, topic]));
   const subjectById = new Map(catalog.subjects.map(subject => [subject.id, subject]));
   const levelLabels = {
+    'grade6': 'Klasse 6 · Unterrichtsstand offen',
     'grade7': 'Klasse 7 · Unterrichtsstand offen',
     'grade78-flex': 'Klasse 7/8 · Unterrichtsfolge offen',
     'grade8-outlook': 'Zielstand Ende Klasse 8 · Unterrichtsfolge offen',
@@ -21,12 +28,14 @@
   };
   const isGrade6Review = topic => topic.releaseEvidence?.gradeBand === '6-Grundlage, 7-Wiederholung' || topic.levelStatus === 'grade6-bridge';
   const stagedUpdateMarker = topic => topic.stagedUpdate?.markerKey || `${topic.tasks[0].id}-update-gezeigt`;
-  const levelLabel = topic => topic.levelLabel || (topic.levelStatus === 'grade6-bridge'
+  const levelLabel = topic => activeGymMode === 'gymnasium-6'
+    ? (topic.grade6Label || 'Klasse 6 · Unterrichtsstand offen')
+    : topic.levelLabel || (topic.levelStatus === 'grade6-bridge'
     ? levelLabels['grade6-bridge']
     : isGrade6Review(topic)
     ? 'Grundlagen Klasse 6 · Wiederholung'
     : levelLabels[topic.levelStatus] || 'Jahrgangsbezug offen');
-  const mbiYearNote = topic => topic.subjectId === 'mbi' && topic.levelStatus === 'grade78-flex' && !isGrade6Review(topic)
+  const mbiYearNote = topic => activeGymMode !== 'gymnasium-6' && topic.subjectId === 'mbi' && topic.levelStatus === 'grade78-flex' && !isGrade6Review(topic)
     ? 'MBI ist in Klasse 7 eingeführt. Dieses Teilziel hat den Zielstand Ende Klasse 8; welche Teile jetzt im Unterricht vorkommen, ist unbekannt.'
     : '';
   const matchesStage = (topic, stage) => stage === 'all'
@@ -86,13 +95,12 @@
       ? 'Wähle ein Thema aus eurem Unterricht oder eines, das du zusätzlich üben möchtest. Bei jedem Thema steht, für welchen Jahrgang es gedacht ist und worauf es sich stützt.'
       : 'Intern geprüfte Übungsmodule werden hier nach Prüfung auswählbar.';
   if (!preview && availableTopics.length === 0) $('#home-lead').textContent = 'Die Übungsmodule werden intern geprüft. Bis zur Freigabe sind hier keine Lernaufgaben verfügbar.';
-  const lotteReleaseStatus = $('#release-status').textContent;
-
   function load() {
     try {
-      const parsed = JSON.parse(localStorage.getItem(lotteKey) ?? localStorage.getItem(legacyLotteKey));
+      const grade6 = activeGymMode === 'gymnasium-6';
+      const parsed = JSON.parse(grade6 ? localStorage.getItem(gymnasium6Key) : localStorage.getItem(lotteKey) ?? localStorage.getItem(legacyLotteKey));
       if (!parsed || parsed.version !== 1) return structuredClone(initial);
-      if (parsed.profile !== undefined && parsed.profile !== 'lotte') return structuredClone(initial);
+      if (grade6 ? parsed.profile !== 'gymnasium-6' : parsed.profile !== undefined && parsed.profile !== 'lotte') return structuredClone(initial);
       const selected = Array.isArray(parsed.selected) ? [...new Set(parsed.selected.filter(id => topicById.has(id)))] : [];
       const active = selected.includes(parsed.active) ? parsed.active : selected[0] || null;
       const answers = parsed.answers && typeof parsed.answers === 'object' && !Array.isArray(parsed.answers) ? parsed.answers : {};
@@ -100,7 +108,9 @@
     } catch { return structuredClone(initial); }
   }
   function save() {
-    try { localStorage.setItem(lotteKey, JSON.stringify({ version: 1, profile: 'lotte', ...state })); }
+    if (activeProfile !== 'lotte') return;
+    try { localStorage.setItem(activeGymMode === 'gymnasium-6' ? gymnasium6Key : lotteKey,
+      JSON.stringify({ version: 1, profile: activeGymMode === 'gymnasium-6' ? 'gymnasium-6' : 'lotte', ...state })); }
     catch { const status = $('#storage-status'); if (status) status.textContent = 'Speichern ist in diesem Browser gerade nicht möglich.'; }
     for (const section of document.querySelectorAll('.auto-check-card[data-topic-id]')) {
       const topic = topicById.get(section.dataset.topicId);
@@ -154,6 +164,7 @@
   }
   async function toggleVoiceGuide(key) {
     if (activeVoiceGuide === key) { stopVoiceGuide(); return; }
+    stopLanguageAudio();
     stopVoiceGuide();
     if (key !== 'overview' && !Object.prototype.hasOwnProperty.call(voiceGuideNames, key)) return;
     activeVoiceGuide = key;
@@ -198,24 +209,24 @@
       play.setAttribute('aria-pressed', 'true');
       languageAudio.src = clip.path;
       try { await languageAudio.play(); }
-      catch { if (activeLanguageButton === play) stopLanguageAudio(); }
+      catch { if (activeLanguageButton === play) { stopLanguageAudio(); status.textContent = 'Die Aufnahme konnte nicht gestartet werden.'; } }
     }, 'inline-voice-guide');
     play.dataset.startLabel = play.textContent;
     play.setAttribute('aria-pressed', 'false');
-    control.append(play);
+    const status = appendText(control, 'span', 'visually-hidden', '');
+    status.setAttribute('role', 'status');
+    control.prepend(play);
     parent.append(control);
     return control;
   }
   function appendLanguageClips(parent, topic, phase) {
-    return (languageSupport[topic.id]?.clips || [])
-      .filter(clip => clip.phase === phase && (!clip.surface || clip.surface === 'app'))
-      .map(clip => appendLanguageClip(parent, clip)).filter(Boolean);
+    const clips = languageSupport[topic.id]?.clips || [];
+    const controls = clips.filter(clip => clip.phase === phase && (!clip.surface || clip.surface === 'app')).map(clip => appendLanguageClip(parent, clip)).filter(Boolean);
+    return controls;
   }
-  languageAudio.addEventListener('ended', stopLanguageAudio);
-  window.addEventListener('pagehide', stopLanguageAudio);
   function appendAdultLanguageSupport(parent, topic, forPrint = false) {
     const support = languageSupport[topic.id];
-    if (!support || !['en', 'fr'].includes(topic.subjectId)) return;
+    if (!support || !foreignLanguageSubjects.has(topic.subjectId)) return;
     const translations = support.translations || {};
     const asText = value => Array.isArray(value) ? value.join('\n') : typeof value === 'string' ? value : '';
     const parts = [
@@ -225,10 +236,11 @@
       ['Muster und feste Redeteile auf Deutsch', translations.adultSolutionDe],
       ['Feste Vorlesestelle auf Deutsch', translations.fixedReadAloudDe]
     ].map(([heading, value]) => [heading, asText(value)]).filter(([, value]) => value.trim());
-    if (!parts.length) return;
+    if (!parts.length && !(support.clips || []).length) return;
     const panel = create('section', forPrint ? 'print-language-help' : 'adult-language-help');
     appendText(panel, 'h3', '', 'Sprachhilfe auf Deutsch');
-    appendText(panel, 'p', 'muted', 'Die deutschen Fassungen sind ergänzt. Weitere anklickbare Aussprachehilfen werden noch geprüft.');
+    if (support.draft) appendText(panel, 'p', 'muted', 'Redaktionelle Arbeitsfassung: Übersetzungen und Aufnahmen sind noch nicht vollständig geprüft.');
+    else if (support.audioPending) appendText(panel, 'p', 'muted', 'Die deutschen Fassungen sind ergänzt. Weitere anklickbare Aussprachehilfen werden noch geprüft.');
     appendText(panel, 'p', 'muted', 'Nur für Erwachsene. Spätere Texte und Muster erst nach der eigenen Bearbeitung besprechen.');
     for (const [heading, value] of parts) {
       appendText(panel, 'h4', '', heading);
@@ -237,6 +249,8 @@
     if (!forPrint) for (const clip of support.clips || []) appendLanguageClip(panel, clip);
     parent.append(panel);
   }
+  languageAudio.addEventListener('ended', stopLanguageAudio);
+  window.addEventListener('pagehide', stopLanguageAudio);
   function show(view) {
     stopVoiceGuide();
     stopLanguageAudio();
@@ -260,27 +274,50 @@
   document.querySelectorAll('[data-nav]').forEach(el => el.addEventListener('click', () => show(el.dataset.nav)));
   function selectSchoolType(schoolType) {
     if (!supportedSchoolTypes.has(schoolType)) return;
+    const profile = schoolType === 'gymnasium' || schoolType === 'gymnasium-6' ? 'lotte' : 'lea';
+    const nextGymMode = schoolType === 'gymnasium-6' ? 'gymnasium-6' : 'gymnasium';
     activeSchoolType = schoolType;
-    const profile = schoolType === 'gymnasium' ? 'lotte' : 'lea';
     activeProfile = profile;
+    if (profile === 'lotte' && nextGymMode !== activeGymMode) {
+      activeGymMode = nextGymMode;
+      availableTopics = topicsForMode(activeGymMode);
+      topicById = new Map(availableTopics.map(topic => [topic.id, topic]));
+      state = load();
+    }
     document.body.dataset.profile = profile;
+    document.body.dataset.gymnasiumGrade = activeGymMode === 'gymnasium-6' ? '6' : '7';
     $('#school-type').value = schoolType;
-    $('#release-status').textContent = profile === 'lea' ? 'Für diese Schulart sind noch keine eigens abgeglichenen Aufgaben freigegeben.' : lotteReleaseStatus;
+    $('#release-status').textContent = profile === 'lea'
+      ? 'Für diese Schulart sind noch keine eigens abgeglichenen Aufgaben freigegeben.'
+      : preview ? 'Interner Prüfmodus · diese Ansicht kann ungeprüfte Aufgaben enthalten.'
+        : availableTopics.length ? `${availableTopics.length} intern geprüfte Übungsthemen verfügbar · Die Jahresabdeckung ist noch im Aufbau.`
+          : 'Für Gymnasium Klasse 6 sind noch keine eigens geprüften Aufgaben freigegeben.';
+    $('#choose-grade-label').textContent = `Gymnasium · Klasse ${activeGymMode === 'gymnasium-6' ? '6' : '7'}`;
+    $('#choose-description').textContent = activeGymMode === 'gymnasium-6'
+      ? 'Hier erscheinen nur ausdrücklich für Gymnasium Klasse 6 geprüfte und freigegebene Themen.'
+      : preview ? 'Interner Prüfmodus: Zusätzlich sind gesperrte Entwürfe zur Technik- und Fachprüfung sichtbar.'
+        : availableTopics.length ? 'Wähle ein Thema aus eurem Unterricht oder eines, das du zusätzlich üben möchtest. Bei jedem Thema steht, für welchen Jahrgang es gedacht ist und worauf es sich stützt.'
+          : 'Intern geprüfte Übungsmodule werden hier nach Prüfung auswählbar.';
+    $('#backup-intro').textContent = `Diese Sicherung gehört zum Gymnasium Klasse ${activeGymMode === 'gymnasium-6' ? '6' : '7'} dieses Browsers. Antworten werden hier im Browserprofil gespeichert; beim Download entsteht zusätzlich eine private Datei mit allen Antworten. Andere Personen mit demselben Browserprofil oder Zugriff auf die Datei können sie sehen. Beim Löschen der Websitedaten kann der Browserstand verloren gehen. Du kannst die Datei später bewusst auf einem anderen Gerät im passenden Jahrgang importieren. Der Import ersetzt nur den Stand dieses Jahrgangs vollständig.`;
+    $('#topic-stage-controls').hidden = activeGymMode === 'gymnasium-6';
+    $('#topic-stage-filter').value = activeGymMode === 'gymnasium-6' ? 'all' : 'grade7-and-flex';
+    $('#topic-search-input').value = '';
+    openGroupsBeforeFilter = null;
+    $('#backup-status').textContent = '';
+    updateFeedbackTopics();
     const url = new URL(window.location.href);
     url.searchParams.delete('profile');
-    if (profile === 'lea') url.searchParams.set('school', schoolType);
+    if (schoolType !== 'gymnasium') url.searchParams.set('school', schoolType);
     else url.searchParams.delete('school');
     history.replaceState(null, '', url);
     $('#print-surface').replaceChildren();
     delete document.body.dataset.printMode;
-    if (profile === 'lea') {
-      $('#topic-list').replaceChildren();
-      $('#subject-list').replaceChildren();
-      $('#topic-tabs').replaceChildren();
-      $('#work-content').replaceChildren();
-      $('#adult-content').replaceChildren();
-      $('#parent-source-list').replaceChildren();
-    }
+    $('#topic-list').replaceChildren();
+    $('#subject-list').replaceChildren();
+    $('#topic-tabs').replaceChildren();
+    $('#work-content').replaceChildren();
+    $('#adult-content').replaceChildren();
+    $('#parent-source-list').replaceChildren();
     show(profile === 'lea' ? 'lea' : 'home');
   }
   $('#school-type').addEventListener('change', event => selectSchoolType(event.target.value));
@@ -301,11 +338,15 @@
     const host = $('#home-topic-cards'); host.replaceChildren();
     $('#home-lead').textContent = selectedTopics.length
       ? `${selectedTopics.length} ${selectedTopics.length === 1 ? 'Thema' : 'Themen'} aus ${new Set(selectedTopics.map(topic => topic.subjectId)).size} ${new Set(selectedTopics.map(topic => topic.subjectId)).size === 1 ? 'Fach' : 'Fächern'} ausgewählt. Du kannst die Auswahl jederzeit ändern.`
-      : 'Wähle aus, was du heute üben möchtest. Themen aus mehreren Fächern passen in eine Lerneinheit.';
+      : activeGymMode === 'gymnasium-6' && availableTopics.length === 0
+        ? 'Für Gymnasium Klasse 6 sind noch keine eigenen Themen freigegeben. Geprüfte Pakete erscheinen später hier.'
+        : 'Wähle aus, was du heute üben möchtest. Themen aus mehreren Fächern passen in eine Lerneinheit.';
     if (selectedTopics.length === 0) {
       const empty = create('div', 'home-topic-empty');
-      appendText(empty, 'h3', '', 'Noch keine Themen ausgewählt');
-      appendText(empty, 'p', '', 'Öffne die Fachübersicht und stelle deine Lerneinheit selbst zusammen.');
+      appendText(empty, 'h3', '', activeGymMode === 'gymnasium-6' && availableTopics.length === 0 ? 'Klasse-6-Themen in Vorbereitung' : 'Noch keine Themen ausgewählt');
+      appendText(empty, 'p', '', activeGymMode === 'gymnasium-6' && availableTopics.length === 0
+        ? 'Es werden nur eigens geprüfte Klasse-6-Pakete freigeschaltet.'
+        : 'Öffne die Fachübersicht und stelle deine Lerneinheit selbst zusammen.');
       empty.append(button('Themen wählen →', () => show('choose'), 'secondary'));
       host.append(empty);
     }
@@ -339,11 +380,25 @@
     $('#home-progress-ring').style.setProperty('--progress', total ? `${Math.round(answeredTotal / total * 100)}%` : '0%');
     $('#home-progress-text').textContent = total
       ? `${total - answeredTotal} Aufgabe${total - answeredTotal === 1 ? '' : 'n'} in deiner Auswahl noch offen. Die Zahl zählt nur Textfelder; offene Texte prüfst du mit den Kriterien.${selectedTopics.some(topic => topic.practiceBeforeLastTask) ? ' Eine getrennte Praxisleistung wird hier nicht als erledigt gezählt oder automatisch bewertet.' : ''}`
-      : 'Wähle zuerst ein Thema. Danach siehst du hier deine beantworteten Aufgaben.';
+      : activeGymMode === 'gymnasium-6' && availableTopics.length === 0
+        ? 'Sobald ein Klasse-6-Thema freigegeben ist, erscheint hier dein Lernstand.'
+        : 'Wähle zuerst ein Thema. Danach siehst du hier deine beantworteten Aufgaben.';
     const nextTopic = selectedTopics.find(topic => topic.tasks.some(task => !String(state.answers[task.id] || '').trim())) || selectedTopics[0];
     const nextTask = nextTopic?.tasks.find(task => !String(state.answers[task.id] || '').trim());
     let gatedPreview = null;
-    if (nextTopic?.stagedReading) {
+    if (nextTopic?.imageStory) {
+      const first = nextTopic.tasks[0], second = nextTopic.tasks[1];
+      const imagesShown = state.answers[`${first.id}-bilder-gezeigt`] === 'ja';
+      const continuationShown = state.answers[`${second.id}-fortsetzung-gezeigt`] === 'ja';
+      const updateShown = state.answers[`${first.id}-update-gezeigt`] === 'ja';
+      const subjectName = subjectById.get(nextTopic.subjectId).name;
+      if (!imagesShown && String(state.answers[first.id] || '').trim())
+        gatedPreview = `${subjectName} · ${nextTopic.title}: Vermutung festhalten und Bildfolge beginnen.`;
+      else if (imagesShown && !continuationShown)
+        gatedPreview = `${subjectName} · ${nextTopic.title}: ${second.prompt}`;
+      else if (continuationShown && !updateShown && !nextTopic.tasks.slice(2, -1).some(task => !String(state.answers[task.id] || '').trim()))
+        gatedPreview = `${subjectName} · ${nextTopic.title}: Hauptaufgaben festhalten und freiwilligen Transfer öffnen.`;
+    } else if (nextTopic?.stagedReading) {
       const first = nextTopic.tasks[0];
       const sourceShown = state.answers[`${first.id}-text-gezeigt`] === 'ja';
       const updateShown = state.answers[`${first.id}-update-gezeigt`] === 'ja';
@@ -353,14 +408,15 @@
       else if (sourceShown && !updateShown && nextTopic.tasks.slice(1, -1).every(task => nextTopic.stagedReading.optionalMainTaskIds?.includes(task.id) || String(state.answers[task.id] || '').trim()))
         gatedPreview = `${subjectName} · ${nextTopic.title}: Hauptantworten festhalten und freiwillige Änderung öffnen.`;
     } else if (nextTopic?.stagedUpdate) {
-      const first = nextTopic.tasks[0];
       const updateShown = state.answers[stagedUpdateMarker(nextTopic)] === 'ja';
       const mainComplete = nextTopic.tasks.slice(0, -1).every(task => String(state.answers[task.id] || '').trim());
       if (!updateShown && mainComplete)
         gatedPreview = `${subjectById.get(nextTopic.subjectId).name} · ${nextTopic.title}: Hauptantworten festhalten und freiwillige Änderung öffnen.`;
     }
     $('#home-next-text').textContent = gatedPreview || (!nextTopic
-      ? 'Nach deiner Themenwahl erscheint hier eine Aufgabe aus deiner eigenen Auswahl.'
+      ? activeGymMode === 'gymnasium-6' && availableTopics.length === 0
+        ? 'Noch kein Klasse-6-Thema freigegeben.'
+        : 'Nach deiner Themenwahl erscheint hier eine Aufgabe aus deiner eigenen Auswahl.'
       : nextTask
         ? `${subjectById.get(nextTopic.subjectId).name} · ${nextTopic.title}: ${nextTask.prompt}`
         : `Alle gewählten Textfelder haben eine Antwort. Vergleiche offene Antworten mit den Kriterien oder wähle weitere Themen.${selectedTopics.some(topic => topic.practiceBeforeLastTask) ? ' Eine getrennte Praxisleistung ist dadurch noch nicht nachgewiesen.' : ''}`);
@@ -414,7 +470,9 @@
   $('#topic-search-clear').addEventListener('click', () => { $('#topic-search-input').value = ''; applyTopicSearch(); $('#topic-search-input').focus(); });
   function renderChoose() {
     const host = $('#topic-list'); host.replaceChildren();
-    if (availableTopics.length === 0) appendText(host, 'p', 'empty-state', 'Noch keine intern geprüften Themen. Der Jahreskatalog wird geprüft.');
+    if (availableTopics.length === 0) appendText(host, 'p', 'empty-state', activeGymMode === 'gymnasium-6'
+      ? 'Für Gymnasium Klasse 6 ist noch kein eigenes Thema freigegeben.'
+      : 'Noch keine intern geprüften Themen. Der Jahreskatalog wird geprüft.');
     const orderedSubjects = [...catalog.subjects].sort((a, b) => {
       const countA = availableTopics.filter(topic => topic.subjectId === a.id).length;
       const countB = availableTopics.filter(topic => topic.subjectId === b.id).length;
@@ -428,7 +486,9 @@
       appendText(summary, 'strong', '', subject.name);
       appendText(summary, 'span', 'subject-group-count', '');
       group.append(summary);
-      if (topics.length === 0) appendText(group, 'p', 'subject-group-empty', subject.availabilityReason || 'Noch keine geprüften Aufgaben für dieses Fach.');
+      if (topics.length === 0) appendText(group, 'p', 'subject-group-empty', activeGymMode === 'gymnasium-6'
+        ? 'Für Gymnasium Klasse 6 ist hier noch kein eigenes Thema freigegeben.'
+        : subject.availabilityReason || 'Noch keine geprüften Aufgaben für dieses Fach.');
       else {
         const grid = create('div', 'topic-grid');
         for (const topic of topics) {
@@ -461,8 +521,10 @@
     for (const subject of catalog.subjects) {
       const row = create('div', 'subject-row');
       appendText(row, 'strong', '', subject.name);
-      appendText(row, 'span', '', `Lehrplanstand ${subject.plan} · Bezug ${subject.scope}`);
-      appendText(row, 'span', '', `${availableTopics.filter(topic => topic.subjectId === subject.id).length} auswählbare Module · ${catalog.topics.filter(topic => topic.subjectId === subject.id && topic.released).length} intern geprüft`);
+      appendText(row, 'span', '', activeGymMode === 'gymnasium-6'
+        ? 'Klasse-6-Quellenstand und Jahrgangsbezug stehen beim jeweils freigegebenen Thema.'
+        : `Lehrplanstand ${subject.plan} · Bezug ${subject.scope}`);
+      appendText(row, 'span', '', `${availableTopics.filter(topic => topic.subjectId === subject.id).length} auswählbare Module · ${availableTopics.filter(topic => topic.subjectId === subject.id && topic.released).length} intern geprüft`);
       list.append(row);
     }
     updateSelection();
@@ -528,6 +590,7 @@
   }
 
   function renderWork() {
+    stopLanguageAudio();
     const empty = state.selected.length === 0;
     $('#work-empty').hidden = !empty; $('#work-layout').hidden = empty;
     if (empty) return;
@@ -571,6 +634,7 @@
     appendText(intro, 'p', '', topic.introduction);
     if (topic.passage) appendText(intro, 'blockquote', 'reading-passage', topic.passage);
     if (topic.sourceCards) appendSourceCards(intro, topic.sourceCards, false, topic.cardsHeading);
+    appendLanguageClips(intro, topic, 'initial');
     if (topic.tasks.some(task => task.helpAfterAttempt)) appendText(intro, 'p', 'learning-step-note', 'Erst selbst antworten und „Antwort prüfen“ wählen. Danach kannst du die freiwillige Formenhilfe öffnen.');
     if (topic.stagedReading) appendText(intro, 'p', 'muted', `Zuerst nur der Titel: ${topic.stagedReading.title}. Der Lesetext erscheint nach deiner ersten Vermutung.`);
     if (topic.stagedPrompt) appendText(intro, 'p', 'muted', 'Schreibe zuerst deine eigene Vermutung auf. Der kurze Kontext erscheint erst, wenn du sie festgehalten hast.');
@@ -585,6 +649,13 @@
         appendText(details, 'p', '', topic.diagram.textAlternative);
         intro.append(details);
       }
+    }
+    if (topic.imageStory) {
+      const firstImage = topic.imageStory.images[0];
+      const figure = create('figure', 'image-story-figure');
+      const img = create('img'); img.src = firstImage.path; img.alt = firstImage.alt;
+      figure.append(img); appendText(figure, 'figcaption', '', firstImage.caption);
+      intro.append(figure);
     }
     if (topic.lab) {
       const lab = create('section', 'lab-card');
@@ -620,7 +691,82 @@
       readingCard.append(link); intro.append(readingCard);
     }
     host.append(intro);
-    if (topic.firstTaskGate) {
+    if (topic.imageStory) {
+      const story = topic.imageStory;
+      const first = topic.tasks[0], second = topic.tasks[1];
+      const imagesMarker = `${first.id}-bilder-gezeigt`;
+      const continuationMarker = `${second.id}-fortsetzung-gezeigt`;
+      const updateMarker = `${first.id}-update-gezeigt`;
+      const imagesShown = state.answers[imagesMarker] === 'ja';
+      const continuationShown = state.answers[continuationMarker] === 'ja';
+      const updateShown = state.answers[updateMarker] === 'ja';
+      const firstCard = renderTask(topic, first, 0);
+      const firstInput = firstCard.querySelector('textarea');
+      if (imagesShown && firstInput) firstInput.readOnly = true;
+      host.append(firstCard);
+      const showImages = button('Vermutung festhalten und Bildfolge beginnen', () => {
+        if (!String(state.answers[first.id] || '').trim()) return;
+        state.answers[imagesMarker] = 'ja'; save();
+        if (firstInput) firstInput.readOnly = true;
+        showImages.hidden = true; presentation.hidden = false; secondCard.hidden = false; showContinuation.hidden = false;
+        presentation.scrollIntoView({ block: 'start', behavior: 'instant' });
+      }, 'check-button');
+      showImages.disabled = !String(state.answers[first.id] || '').trim(); showImages.hidden = imagesShown;
+      firstInput?.addEventListener('input', () => { showImages.disabled = !firstInput.value.trim(); });
+      host.append(showImages);
+      const presentation = create('section', 'image-story-card');
+      presentation.hidden = !imagesShown;
+      appendText(presentation, 'h3', '', 'Bildfolge für die erwachsene Vorführung');
+      appendText(presentation, 'p', 'muted', 'Die erwachsene Person schaltet passend zu den vier Rollenbeiträgen weiter. Zuerst Bild 1, dann Bild 2 und danach Bild 3. Die App spielt keinen Ton ab.');
+      const figure = create('figure', 'image-story-figure');
+      const picture = create('img');
+      const caption = create('figcaption');
+      figure.append(picture, caption); presentation.append(figure);
+      let imageIndex = 0;
+      const showImage = () => {
+        const image = story.images[imageIndex];
+        picture.src = image.path; picture.alt = image.alt; caption.textContent = image.caption;
+        nextImage.textContent = imageIndex === story.images.length - 1 ? 'Bild 1 erneut zeigen' : `Bild ${imageIndex + 2} zeigen`;
+      };
+      const nextImage = button('', () => { imageIndex = (imageIndex + 1) % story.images.length; showImage(); }, 'check-button');
+      showImage(); presentation.append(nextImage); host.append(presentation);
+      const secondCard = renderTask(topic, second, 1);
+      const secondInput = secondCard.querySelector('textarea');
+      secondCard.hidden = !imagesShown;
+      if (continuationShown && secondInput) secondInput.readOnly = true;
+      host.append(secondCard);
+      const continuation = create('div'); continuation.hidden = !continuationShown;
+      for (let index = 2; index < topic.tasks.length - 1; index++) continuation.append(renderTask(topic, topic.tasks[index], index));
+      const mainInputs = [...continuation.querySelectorAll('textarea')];
+      if (updateShown) mainInputs.forEach(input => { input.readOnly = true; });
+      const mainComplete = () => topic.tasks.slice(0, -1).every(task => String(state.answers[task.id] || '').trim());
+      const showUpdate = button('Aufgaben 1–6 festhalten und Transfer zeigen', () => {
+        if (!mainComplete()) return;
+        state.answers[updateMarker] = 'ja'; save();
+        mainInputs.forEach(input => { input.readOnly = true; });
+        showUpdate.hidden = true; updateText.hidden = false; updateTask.hidden = false;
+        updateText.scrollIntoView({ block: 'start', behavior: 'instant' });
+      }, 'check-button');
+      showUpdate.disabled = !mainComplete(); showUpdate.hidden = updateShown;
+      mainInputs.forEach(input => input.addEventListener('input', () => { showUpdate.disabled = !mainComplete(); }));
+      continuation.append(showUpdate);
+      const updateText = appendText(continuation, 'blockquote', 'reading-passage', topic.stagedUpdate.text);
+      updateText.hidden = !updateShown;
+      const updateTask = renderTask(topic, topic.tasks.at(-1), topic.tasks.length - 1);
+      updateTask.hidden = !updateShown;
+      continuation.append(updateTask);
+      const showContinuation = button('Erste Hörantwort festhalten und Fortsetzung zeigen', () => {
+        if (!String(state.answers[second.id] || '').trim()) return;
+        state.answers[continuationMarker] = 'ja'; save();
+        if (secondInput) secondInput.readOnly = true;
+        showContinuation.hidden = true; continuation.hidden = false;
+        continuation.scrollIntoView({ block: 'start', behavior: 'instant' });
+      }, 'check-button');
+      showContinuation.disabled = !String(state.answers[second.id] || '').trim();
+      showContinuation.hidden = !imagesShown || continuationShown;
+      secondInput?.addEventListener('input', () => { showContinuation.disabled = !secondInput.value.trim(); });
+      host.append(showContinuation, continuation);
+    } else if (topic.firstTaskGate) {
       const first = topic.tasks[0];
       const firstMarker = `${first.id}-erste-stufe-gezeigt`;
       const transferMarker = `${first.id}-update-gezeigt`;
@@ -642,6 +788,8 @@
       if (transferShown) mainInputs.forEach(input => { input.readOnly = true; });
       const transferText = appendText(remaining, 'blockquote', 'reading-passage', topic.stagedUpdate.text);
       transferText.hidden = !transferShown;
+      const transferAudio = appendLanguageClips(remaining, topic, 'afterMain');
+      transferAudio.forEach(control => { control.hidden = !transferShown; });
       const transferTask = renderTask(topic, topic.tasks.at(-1), topic.tasks.length - 1);
       transferTask.hidden = !transferShown;
       remaining.append(transferTask);
@@ -651,6 +799,7 @@
         state.answers[transferMarker] = 'ja'; save();
         mainInputs.forEach(input => { input.readOnly = true; });
         transferButton.hidden = true; transferText.hidden = false; transferTask.hidden = false;
+        transferAudio.forEach(control => { control.hidden = false; });
         transferText.scrollIntoView({ block: 'start', behavior: 'instant' });
       }, 'check-button');
       transferButton.disabled = !mainComplete(); transferButton.hidden = transferShown;
@@ -678,7 +827,8 @@
         if (!String(state.answers[first.id] || '').trim()) return;
         state.answers[marker] = 'ja'; save();
         if (firstInput) firstInput.readOnly = true;
-        showButton.hidden = true; contextText.hidden = false; contextAudio.forEach(control => { control.hidden = false; }); remaining.hidden = false;
+        showButton.hidden = true; contextText.hidden = false; remaining.hidden = false;
+        contextAudio.forEach(control => { control.hidden = false; });
         contextText.scrollIntoView({ block: 'start', behavior: 'instant' });
       }, 'check-button');
       showButton.disabled = !String(state.answers[first.id] || '').trim();
@@ -708,6 +858,7 @@
         state.answers[sourceMarker] = 'ja'; save();
         if (predictionInput) predictionInput.readOnly = true;
         sourceButton.hidden = true; sourceText.hidden = false; if (sourcePlan) sourcePlan.hidden = false; mainTasks.hidden = false; updateButton.hidden = false;
+        sourceAudio.forEach(control => { control.hidden = false; });
         sourceText.scrollIntoView({ block: 'start', behavior: 'instant' });
       }, 'check-button');
       sourceButton.disabled = !String(state.answers[first.id] || '').trim();
@@ -716,6 +867,8 @@
       host.append(sourceButton);
       const sourceText = appendText(host, 'blockquote', 'reading-passage', reading.text);
       sourceText.hidden = !sourceShown;
+      const sourceAudio = appendLanguageClips(host, topic, 'afterPrediction');
+      sourceAudio.forEach(control => { control.hidden = !sourceShown; });
       let sourcePlan = null;
       if (reading.plan) {
         sourcePlan = create('figure', 'learning-diagram');
@@ -735,6 +888,7 @@
         state.answers[updateMarker] = 'ja'; save();
         mainInputs.forEach(input => { input.readOnly = true; });
         updateButton.hidden = true; updateText.hidden = false; transferTask.hidden = false;
+        updateAudio.forEach(control => { control.hidden = false; });
         updateText.scrollIntoView({ block: 'start', behavior: 'instant' });
       }, 'check-button');
       updateButton.disabled = !mainComplete();
@@ -743,6 +897,8 @@
       mainTasks.append(updateButton);
       const updateText = appendText(host, 'blockquote', 'reading-passage', reading.updateText);
       updateText.hidden = !updateShown;
+      const updateAudio = appendLanguageClips(host, topic, 'afterMain');
+      updateAudio.forEach(control => { control.hidden = !updateShown; });
       const transferTask = renderTask(topic, topic.tasks.at(-1), topic.tasks.length - 1);
       transferTask.hidden = !updateShown;
       host.append(transferTask);
@@ -755,7 +911,7 @@
       const updateShown = state.answers[marker] === 'ja';
       if (updateShown) mainInputs.forEach(input => { input.readOnly = true; });
       host.append(mainTasks);
-      if (topic.practiceBeforeLastTask && topic.practice) host.append(renderPractice(topic.practice, false));
+      if (topic.practiceBeforeLastTask && topic.practice) host.append(renderPractice(topic, false));
       const mainComplete = () => topic.tasks.slice(0, mainTaskCount).every(task => String(state.answers[task.id] || '').trim());
       const feedbackGate = topic.stagedUpdate.feedbackBeforeUnlock ? create('label', 'feedback-before-update') : null;
       const feedbackCheck = feedbackGate ? create('input') : null;
@@ -773,6 +929,7 @@
         state.answers[marker] = 'ja'; save();
         mainInputs.forEach(input => { input.readOnly = true; });
         updateButton.hidden = true; if (feedbackGate) feedbackGate.hidden = true; updateText.hidden = false; if (updateFigure) updateFigure.hidden = false; transferTasks.hidden = false;
+        updateAudio.forEach(control => { control.hidden = false; });
         const autoCheck = host.querySelector('.auto-check-card');
         if (autoCheck) autoCheck.hidden = false;
         updateText.scrollIntoView({ block: 'start', behavior: 'instant' });
@@ -790,6 +947,8 @@
       host.append(updateButton);
       const updateText = appendText(host, 'blockquote', 'reading-passage', topic.stagedUpdate.text);
       updateText.hidden = !updateShown;
+      const updateAudio = appendLanguageClips(host, topic, 'afterMain');
+      updateAudio.forEach(control => { control.hidden = !updateShown; });
       let updateFigure = null;
       if (topic.stagedUpdate.image) {
         const image = topic.stagedUpdate.image;
@@ -813,13 +972,13 @@
       host.append(transferTasks);
     } else {
       for (const [index, task] of topic.tasks.entries()) {
-        if (topic.practiceBeforeLastTask && index === topic.tasks.length - 1) host.append(renderPractice(topic.practice, false));
+        if (topic.practiceBeforeLastTask && index === topic.tasks.length - 1) host.append(renderPractice(topic, false));
         host.append(renderTask(topic, task, index));
       }
     }
-    if (topic.practice && !topic.practiceBeforeLastTask) host.append(renderPractice(topic.practice, false));
+    if (topic.practice && !topic.practiceBeforeLastTask) host.append(renderPractice(topic, false));
     if (topic.autoCheck) host.append(renderAutoCheck(topic));
-    const storage = appendText(host, 'p', 'privacy-note', 'Deine Antworten werden nur in diesem Browser gespeichert.'); storage.id = 'storage-status';
+    const storage = appendText(host, 'p', 'privacy-note', 'Deine Antworten werden in diesem Browser gespeichert. Eine private Sicherungsdatei kannst du selbst herunterladen.'); storage.id = 'storage-status';
   }
   function renderAutoCheck(topic) {
     const check = topic.autoCheck;
@@ -851,6 +1010,7 @@
       ? `Notizfeld ${index + 1} von ${topic.tasks.length} · Praxis separat`
       : `Aufgabe ${index + 1} von ${topic.tasks.length}`);
     appendText(card, 'h3', '', task.prompt);
+    appendLanguageClips(card, topic, `task:${task.id}`);
     if (task.draftReferenceTaskId) {
       card.dataset.referenceTaskId = task.draftReferenceTaskId;
       appendText(card, 'p', 'muted', 'Dein Entwurf aus B zum Vergleichen:');
@@ -927,7 +1087,8 @@
     card.append(result); return card;
   }
 
-  function renderPractice(practice, adult) {
+  function renderPractice(topic, adult) {
+    const practice = topic.practice;
     const section = create('section', adult ? 'adult-practice' : 'practice-card');
     appendText(section, 'p', 'eyebrow', adult ? 'Nur bei echter Beobachtung' : 'Praxis ausserhalb des Textfelds');
     appendText(section, 'h3', '', practice.title);
@@ -936,6 +1097,7 @@
     const list = create('ol');
     (adult ? practice.adultCriteria : practice.childSteps).forEach(step => appendText(list, 'li', '', step));
     section.append(list);
+    if (!adult) appendLanguageClips(section, topic, 'practice');
     if (adult && practice.adultSupplementalCriteria) {
       appendText(section, 'h4', '', practice.adultSupplementalTitle);
       appendText(section, 'p', '', practice.adultSupplementalNote);
@@ -979,7 +1141,7 @@
     if (adult) appendText(section, 'p', 'muted', practice.observationKind === 'private-reflection'
       ? 'Nur bei freiwilligem Gespräch und fairer Gelegenheit beobachten. Ohne Gespräch alle vier Kriterien nicht erhoben. Keine Namen, Themenwahl, Aussagen oder Stichwörter notieren; keine automatische Punktzahl oder Schulnote.'
       : practice.unscored === true
-      ? 'Nur tatsächlich Beobachtetes eintragen. Keine Gelegenheit und nicht beobachtet unterscheiden; keine Punkte, Summe oder Schulnote ableiten.'
+      ? 'Nur tatsächlich Beobachtetes eintragen. Keine Gelegenheit und nicht beobachtet unterscheiden. Diese Praxisliste vergibt keine zusätzlichen Punkte oder Schulnote; Aufgabenpunkte bleiben getrennt.'
       : practice.noTotal === true
       ? 'Nur nach fairer Gelegenheit je Kriterium beobachten. Ohne Gelegenheit: nicht erhoben statt 0. Keine Gesamtpunktzahl oder Schulnote ableiten.'
       : 'Pro Kriterium die tatsächlich beobachteten Punkte und Hilfen auf dem Lösungsblatt notieren. Ohne durchgeführte Beobachtung: nicht erhoben. Keine automatische Punktzahl.');
@@ -1022,9 +1184,20 @@
         appendText(section, 'h3', '', 'Vorlesetext – vor der Hörbearbeitung verdecken');
         appendText(section, 'p', 'live-reading-script', topic.liveReading.script);
       }
+      if (topic.imageStory) {
+        appendText(section, 'p', 'muted', topic.imageStory.adultNote);
+        const gallery = create('div', 'image-story-adult-gallery');
+        for (const image of topic.imageStory.images) {
+          const figure = create('figure', 'image-story-figure');
+          const img = create('img'); img.src = image.path; img.alt = image.alt;
+          figure.append(img); appendText(figure, 'figcaption', '', image.caption);
+          gallery.append(figure);
+        }
+        section.append(gallery);
+      }
       if (topic.reading) appendText(section, 'p', 'muted', topic.reading.adultNote);
       for (const [index, task] of topic.tasks.entries()) {
-        if (topic.practiceBeforeLastTask && index === topic.tasks.length - 1) section.append(renderPractice(topic.practice, true));
+        if (topic.practiceBeforeLastTask && index === topic.tasks.length - 1) section.append(renderPractice(topic, true));
         const item = create('article', 'adult-task'); item.dataset.taskId = task.id;
         appendText(item, 'h3', '', topic.practiceBeforeLastTask ? task.prompt : `${index + 1}. ${task.prompt}`);
         const answer = state.answers[task.id];
@@ -1036,7 +1209,7 @@
         if (task.kind === 'reflection') appendText(item, 'p', 'muted', 'Offene Antwort: Kriterien gemeinsam prüfen; keine sichere automatische Note.');
         section.append(item);
       }
-      if (topic.practice && !topic.practiceBeforeLastTask) section.append(renderPractice(topic.practice, true));
+      if (topic.practice && !topic.practiceBeforeLastTask) section.append(renderPractice(topic, true));
       host.append(section);
     }
   }
@@ -1048,8 +1221,12 @@
     for (const subject of catalog.subjects) {
       const card = create('article', 'source-card');
       appendText(card, 'h3', '', subject.name);
-      appendText(card, 'p', '', `Fassung und Jahrgang: ${subject.plan}. ${subject.scope}.`);
-      const sourceStatus = subject.id === 'sp'
+      appendText(card, 'p', '', activeGymMode === 'gymnasium-6'
+        ? 'Gymnasium Klasse 6: Verbindlichkeit, Schulfolge und Quelle müssen je freigegebenem Thema gesondert geprüft sein.'
+        : `Fassung und Jahrgang: ${subject.plan}. ${subject.scope}.`);
+      const sourceStatus = activeGymMode === 'gymnasium-6'
+        ? 'Der bisherige Klasse-7-Quellenstand wird nicht als Klasse-6-Nachweis übernommen.'
+        : subject.id === 'sp'
         ? 'Lehrplanquelle: Ministerielle Erprobungsfassung 2026; Klasse 7 ab 2026/27. Konkrete Sportspiele und weitere Bewegungsfelder wählt die Schule.'
         : subject.id === 'mnt'
         ? 'Lehrplanquelle: Ministerielle Erprobungsfassung 2026 intern geprüft; sie setzt MNT 2026/27 für Klasse 5 in Kraft. Ein passender Klasse-7-Bezug ist nicht belegt.'
@@ -1057,20 +1234,22 @@
           ? 'Lehrplanquelle: Ministerielles Original 2026 intern geprüft; öffentlicher Datei-Abgleich steht aus.'
           : 'Lehrplanquelle: Fachstand aus der amtlichen Übersicht 2025/26; Gültigkeit 2026/27 noch offen.';
       appendText(card, 'p', 'source-status', sourceStatus);
-      const link = create('a', 'source-link', subject.id === 'sp' ? 'Amtliche Sportfassung öffnen ↗' : 'Amtliche Gymnasialübersicht öffnen ↗');
-      link.href = subject.id === 'sp' ? subject.source : overview; link.target = '_blank'; link.rel = 'noopener noreferrer';
+      const link = create('a', 'source-link', activeGymMode === 'gymnasium-6' || subject.id !== 'sp' ? 'Amtliche Gymnasialübersicht öffnen ↗' : 'Amtliche Sportfassung öffnen ↗');
+      link.href = activeGymMode === 'gymnasium-6' || subject.id !== 'sp' ? overview : subject.source; link.target = '_blank'; link.rel = 'noopener noreferrer';
       card.append(link);
-      appendText(card, 'p', 'source-small', subject.id === 'sp'
+      appendText(card, 'p', 'source-small', activeGymMode === 'gymnasium-6'
+        ? 'Der Link führt zur amtlichen Übersicht. Die passende Fachfassung und ihr Klasse-6-Status werden für jedes neue Thema einzeln belegt.'
+        : subject.id === 'sp'
         ? 'Die amtliche Fachseite nennt den 2026er Plan. Die vorhandene Basketball-Regelkarte entstand dagegen aus dem älteren Plan und ersetzt keine Schulspielwahl.'
         : 'Ein öffentlicher Direktlink zur hier beschriebenen Fachfassung wurde nicht sicher geprüft. Der Link führt zur amtlichen Fachübersicht; die erreichbare Datei kann davon abweichen.');
-      if (subject.id === 'fr') {
+      if (subject.id === 'fr' && activeGymMode !== 'gymnasium-6') {
         appendText(card, 'p', 'source-status', 'Schulischer Sprachweg: Ein Elternbrief einer Schule für Klasse 5 im Schuljahr 2024/25 nennt Französisch als zweite Fremdsprache ab Klasse 6. Das belegt keinen einheitlichen Beginn an allen Gymnasien. Der konkrete Sprachweg und Lernstand sind hier nicht erfasst.');
         const schoolLink = create('a', 'source-link school-source-link', 'Suhler Elternbrief zur zweiten Fremdsprache öffnen ↗');
         schoolLink.href = 'https://www.eulegym.de/_files/ugd/e0a47f_542a0be4579b47a8b3b706cafe2fff68.pdf';
         schoolLink.target = '_blank'; schoolLink.rel = 'noopener noreferrer';
         card.append(schoolLink);
       }
-      const topics = catalog.topics.filter(topic => topic.subjectId === subject.id && topic.released);
+      const topics = availableTopics.filter(topic => topic.subjectId === subject.id && topic.released);
       appendText(card, 'p', 'source-status', `Themenableitung: ${topics.length ? topics.map(topic => topic.title).join('; ') : 'Noch kein nutzbares Themenpaket aus diesem Fach.'}`);
       appendText(card, 'p', 'source-status', `Aufgabenprüfung: ${topics.length ? `${topics.length} intern geprüft${topics.length === 1 ? 'es Paket' : 'e Pakete'} mit Musterlösung` : 'Keine Aufgabe freigegeben'}. Keine Aussage über den aktuellen Schulstoff.`);
       if (topics.length) {
@@ -1086,6 +1265,7 @@
 
   function preparePrint(mode, ids = state.selected) {
     if (activeProfile !== 'lotte') return;
+    ids = ids.filter(id => topicById.has(id));
     if (ids.length === 0) { show('choose'); return; }
     const page = $('#print-surface'); page.replaceChildren();
     const manualBookOnly = ids.every(id => topicById.get(id)?.tasks.every(task => task.manualBookReview));
@@ -1105,15 +1285,31 @@
         && state.answers[`${topic.tasks[0].id}-kontext-gezeigt`] !== 'ja';
       const hideChildReadingUpdate = mode === 'child' && topic.stagedReading
         && state.answers[`${topic.tasks[0].id}-update-gezeigt`] !== 'ja';
+      const hideChildStoryLater = mode === 'child' && topic.imageStory
+        && state.answers[`${topic.tasks[1].id}-fortsetzung-gezeigt`] !== 'ja';
       appendText(section, 'h2', '', `${subjectById.get(topic.subjectId).name} · ${topic.title}`);
       appendText(section, 'p', 'print-level', levelLabel(topic));
       if (mode === 'adult') appendAdultLanguageSupport(section, topic, true);
       if (mbiYearNote(topic)) appendText(section, 'p', 'print-context', mbiYearNote(topic));
-      if (topic.prerequisite) appendText(section, 'p', 'print-context', topic.prerequisite);
-      appendText(section, 'p', 'print-context', topic.introduction);
+      if (topic.prerequisite && !(topic.imageStory && mode === 'child')) appendText(section, 'p', 'print-context', topic.prerequisite);
+      appendText(section, 'p', 'print-context', topic.imageStory && mode === 'child'
+        ? 'Zuerst nur Bild 1 ansehen und Aufgabe 1 vor dem Hören festhalten. Die erwachsene Person führt Bilder und Rollen zweimal vor; Antworten und Hilfen selbst notieren. Das ist Lernfeedback, keine Schulnote.'
+        : topic.introduction);
       if (topic.passage) appendText(section, 'p', 'print-passage', topic.passage);
       if (topic.printPassage) appendText(section, 'p', 'print-passage', topic.printPassage);
       if (topic.sourceCards) appendSourceCards(section, topic.sourceCards, true, topic.cardsHeading);
+      if (topic.imageStory) {
+        if (mode === 'child') appendText(section, 'p', 'print-context', hideChildStoryLater
+          ? 'Druckfolge: Bild 1 und Aufgaben 1–2 zuerst; Bild 2/3 nur bei der Erwachsenen-Vorführung. Weitere Fragen erst nach Antwort 2.'
+          : 'Bild 2/3 zeigt die erwachsene Person während der Vorführung; dieses Blatt enthält nur Bild 1. Papier allein beweist tatsächliches Hören nicht.');
+        else appendText(section, 'p', 'print-context', topic.imageStory.adultNote);
+        for (const image of mode === 'child' ? topic.imageStory.images.slice(0, 1) : topic.imageStory.images) {
+          const figure = create('figure', 'print-diagram print-image-story');
+          const img = create('img'); img.src = image.path; img.alt = image.alt;
+          figure.append(img); appendText(figure, 'figcaption', '', image.caption);
+          section.append(figure);
+        }
+      }
       if (topic.stagedReading && mode === 'adult') {
         appendText(section, 'p', 'print-passage', topic.stagedReading.text);
         if (topic.stagedReading.plan) {
@@ -1135,12 +1331,12 @@
       if (topic.firstTaskGate && mode === 'child') {
         const afterLabel = topic.firstTaskGate.afterLabel || 'B–D';
         appendText(section, 'p', 'print-context', hideChildFirstGate
-          ? (topic.firstTaskGate.printBefore || 'Druckfolge: Zuerst nur A aus dem Gedächtnis bearbeiten. ' + afterLabel + ' werden nach dem Festhalten von A im Übungsraum zum Kinderdruck freigegeben. Papier allein beweist keinen Hilfsmittelverzicht.')
+          ? (topic.firstTaskGate.printBefore || `Druckfolge: Zuerst nur A aus dem Gedächtnis bearbeiten. ${afterLabel} werden nach dem Festhalten von A im Übungsraum zum Kinderdruck freigegeben. Papier allein beweist keinen Hilfsmittelverzicht.`)
           : hideChildUpdate
-            ? (topic.firstTaskGate.printAfter || 'Druckfolge: A ist festgehalten. Jetzt ' + afterLabel + ' bearbeiten. Der freiwillige Transfer wird erst danach zum Kinderdruck freigegeben.')
-            : (topic.firstTaskGate.printComplete || 'Druckfolge: A zuerst, dann ' + afterLabel + ', zuletzt der freiwillige Transfer. Papier allein beweist keinen Hilfsmittelverzicht.'));
+            ? (topic.firstTaskGate.printAfter || `Druckfolge: A ist festgehalten. Jetzt ${afterLabel} bearbeiten. Der freiwillige Transfer wird erst danach zum Kinderdruck freigegeben.`)
+            : (topic.firstTaskGate.printComplete || `Druckfolge: A zuerst, dann ${afterLabel}, zuletzt der freiwillige Transfer. Papier allein beweist keinen Hilfsmittelverzicht.`));
       }
-      if (topic.stagedUpdate && !topic.firstTaskGate && mode === 'child') appendText(section, 'p', 'print-context', hideChildUpdate
+      if (topic.stagedUpdate && !topic.firstTaskGate && !topic.imageStory && mode === 'child') appendText(section, 'p', 'print-context', hideChildUpdate
         ? `Druckfolge: Zuerst die Hauptaufgaben ${topic.stagedUpdate.mainLabel || 'A–C'} bearbeiten. Die Zusatzseite wird nach dem Festhalten dieser Antworten im Übungsraum freigegeben.`
         : `Druckfolge: Zuerst die Hauptaufgaben ${topic.stagedUpdate.mainLabel || 'A–C'} auf den ersten Seiten bearbeiten. ${topic.stagedUpdate.printNote || `Die spätere ${topic.stagedUpdate.kind === 'variant' ? 'Variante' : 'Korrektur'} auf der Zusatzseite erst danach ansehen.`} Papier allein beweist diese Reihenfolge nicht.`);
       if (topic.diagram && !topic.diagram.afterFirstTask && (mode === 'child' || topic.diagram.adultPrint !== false)) {
@@ -1187,6 +1383,7 @@
       let stagedUpdatePrint = null;
       for (const [index, task] of topic.tasks.entries()) {
         if (hideChildFirstGate && index > 0) continue;
+        if (hideChildStoryLater && index > 1) continue;
         if (hideChildUpdate && index >= (topic.stagedUpdate.mainTaskCount ?? topic.tasks.length - 1)) continue;
         if (hideChildReadingSource && index > 0) continue;
         if (hideChildPromptContext && index > 0) continue;
@@ -1273,9 +1470,13 @@
           for (let line = 0; line < topic.practice.childWritingLines; line++) lines.append(create('div', 'writing-line'));
           practiceSection.append(lines);
         }
-        if (mode === 'child') for (const handout of topic.practice.childHandouts || []) appendText(practiceSection, 'p', 'print-context', topic.practice.childHandoutsPrintNote ? `${topic.practice.childHandoutsPrintNote} ${handout.publicUrl || handout.path}.` : `Freiwillige Zusatzkarte separat im Lernatlas öffnen und drucken: ${handout.publicUrl || handout.path}. Ohne echte Sprech- und Feedbackrunde ist sie nur eine Anleitung.`);
+        if (mode === 'child') for (const handout of topic.practice.childHandouts || []) appendText(practiceSection, 'p', 'print-context', topic.released
+          ? (topic.practice.childHandoutsPrintNote ? `${topic.practice.childHandoutsPrintNote} ${handout.publicUrl || handout.path}.` : `Freiwillige Zusatzkarte separat im Lernatlas öffnen und drucken: ${handout.publicUrl || handout.path}. Ohne echte Sprech- und Feedbackrunde ist sie nur eine Anleitung.`)
+          : `Lokale Vorschau: Zusatzkarte im Lernatlas über ${handout.path} öffnen und drucken; noch nicht online. Ohne echte Sprech- und Feedbackrunde ist sie nur eine Anleitung.`);
         if (mode === 'adult') {
-          for (const handout of topic.practice.handouts || []) appendText(practiceSection, 'p', 'print-context', `${handout.label}: ${handout.publicUrl}. Nur zur passenden Phase und ohne Erwachsenenlösung ausgeben.`);
+          for (const handout of topic.practice.handouts || []) appendText(practiceSection, 'p', 'print-context', topic.released
+            ? `${handout.label}: ${handout.publicUrl}. Nur zur passenden Phase und ohne Erwachsenenlösung ausgeben.`
+            : `${handout.label}: lokale Vorschau ${handout.path}, noch nicht online. Nur zur passenden Phase ausgeben.`);
           if (topic.practice.observationKind === 'private-reflection') {
             appendText(practiceSection, 'p', '', 'Ohne freiwilliges Gespräch: alle vier Kriterien nicht erhoben. Nichtnutzung oder Nichtauskunft ist keine Fehlleistung. Nur bei fairer Gelegenheit für alle vier Kriterien: Gesprächsbeobachtung ____ / 8; sonst keine vergleichbare Summe. Keine Namen, Bereichswahl, persönlichen Aussagen oder Stichwörter auf dem Bogen notieren.');
           } else if (topic.practice.unscored === true) {
@@ -1331,9 +1532,12 @@
 
   $('#export-progress').addEventListener('click', () => {
     if (activeProfile !== 'lotte') return;
-    const content = JSON.stringify({ format: 'lotte-lea-local-backup', version: 1, profile: 'lotte', exportedAt: new Date().toISOString(), selected: state.selected, active: state.active, answers: state.answers }, null, 2);
+    const grade6 = activeGymMode === 'gymnasium-6';
+    const content = JSON.stringify({ format: 'lotte-lea-local-backup', version: grade6 ? 2 : 1,
+      profile: grade6 ? 'gymnasium-6' : 'lotte', ...(grade6 ? { schoolMode: 'gymnasium-6' } : {}),
+      exportedAt: new Date().toISOString(), selected: state.selected, active: state.active, answers: state.answers }, null, 2);
     const url = URL.createObjectURL(new Blob([content], { type: 'application/json' }));
-    const link = create('a'); link.href = url; link.download = `gymnasium-lernstand-${new Date().toISOString().slice(0, 10)}.json`;
+    const link = create('a'); link.href = url; link.download = `${grade6 ? 'gymnasium-klasse6-lernstand' : 'gymnasium-lernstand'}-${new Date().toISOString().slice(0, 10)}.json`;
     document.body.append(link); link.click(); link.remove();
     setTimeout(() => URL.revokeObjectURL(url), 60000);
     $('#backup-status').textContent = 'Private Sicherung heruntergeladen. Bitte geschützt aufbewahren; sie enthält Antworten.';
@@ -1342,11 +1546,16 @@
     if (activeProfile !== 'lotte') { event.target.value = ''; return; }
     const file = event.target.files?.[0];
     if (!file) return;
+    const importMode = activeGymMode;
     const status = $('#backup-status');
     try {
       if (file.size > 1024 * 1024) throw new Error('Datei ist zu groß (maximal 1 MB).');
       const imported = JSON.parse(await file.text());
-      if (imported.format !== 'lotte-lea-local-backup' || imported.version !== 1 || (imported.profile !== undefined && imported.profile !== 'lotte') || !Array.isArray(imported.selected) || !imported.answers || typeof imported.answers !== 'object' || Array.isArray(imported.answers)) throw new Error('Dateiformat, Version oder Lernbereich passt nicht.');
+      if (activeProfile !== 'lotte' || activeGymMode !== importMode) throw new Error('Der Lernbereich wurde während des Imports gewechselt.');
+      const matchingBackup = importMode === 'gymnasium-6'
+        ? imported.version === 2 && imported.profile === 'gymnasium-6' && imported.schoolMode === 'gymnasium-6'
+        : imported.version === 1 && (imported.profile === undefined || imported.profile === 'lotte');
+      if (imported.format !== 'lotte-lea-local-backup' || !matchingBackup || !Array.isArray(imported.selected) || !imported.answers || typeof imported.answers !== 'object' || Array.isArray(imported.answers)) throw new Error('Dateiformat, Version oder Lernbereich passt nicht.');
       const validTaskIds = new Set(availableTopics.flatMap(topic => topic.tasks.map(task => task.id)));
       for (const topic of availableTopics) for (const question of topic.autoCheck?.questions || []) validTaskIds.add(question.id);
       const validMarkerIds = new Set();
@@ -1355,13 +1564,17 @@
         if (firstId && topic.stagedReading) {
           validMarkerIds.add(`${firstId}-text-gezeigt`);
           validMarkerIds.add(`${firstId}-update-gezeigt`);
+        } else if (firstId && topic.imageStory) {
+          validMarkerIds.add(`${firstId}-bilder-gezeigt`);
+          validMarkerIds.add(`${topic.tasks[1].id}-fortsetzung-gezeigt`);
+          validMarkerIds.add(`${firstId}-update-gezeigt`);
         } else if (firstId && topic.stagedPrompt) {
           validMarkerIds.add(`${firstId}-kontext-gezeigt`);
         } else if (firstId && topic.firstTaskGate) {
           validMarkerIds.add(`${firstId}-erste-stufe-gezeigt`);
           validMarkerIds.add(`${firstId}-update-gezeigt`);
         } else if (firstId && topic.stagedUpdate) {
-          validMarkerIds.add(`${firstId}-update-gezeigt`); // Keep historical backups.
+          validMarkerIds.add(`${firstId}-update-gezeigt`); // Preserve older local backups after a staged-topic revision.
           validMarkerIds.add(stagedUpdateMarker(topic));
         }
         for (const task of topic.tasks) if (task.helpAfterAttempt) {
@@ -1371,7 +1584,8 @@
       }
       if (imported.selected.some(id => !topicById.has(id)) || Object.entries(imported.answers).some(([id, value]) =>
         typeof value !== 'string' || (validMarkerIds.has(id) ? value !== 'ja' : !validTaskIds.has(id) || value.length > 5000))) throw new Error('Sicherung enthält unbekannte Themen oder ungültige Antworten.');
-      if (!window.confirm('Diese Sicherung ersetzt den gesamten bisherigen Lernstand in diesem Browser. Fortfahren?')) { status.textContent = 'Import abgebrochen; bisheriger Stand bleibt erhalten.'; return; }
+      if (!window.confirm(`Diese Sicherung ersetzt den bisherigen Lernstand für Gymnasium Klasse ${importMode === 'gymnasium-6' ? '6' : '7'} in diesem Browser. Fortfahren?`)) { status.textContent = 'Import abgebrochen; bisheriger Stand bleibt erhalten.'; return; }
+      if (activeProfile !== 'lotte' || activeGymMode !== importMode) throw new Error('Der Lernbereich wurde während des Imports gewechselt.');
       state = { selected: [...new Set(imported.selected)], active: imported.selected.includes(imported.active) ? imported.active : imported.selected[0] || null, answers: imported.answers };
       save(); renderAdult();
       status.textContent = 'Sicherung importiert. Der bisherige Stand wurde ersetzt.';
@@ -1382,10 +1596,14 @@
   const recipient = window.LOTTE_CONTACT_EMAIL || '';
   $('#contact-setup-status').textContent = recipient ? 'Der Entwurf ist an Robert adressiert. Prüfe ihn vor dem Senden im E-Mail-Programm.' : 'Der E-Mail-Kontakt ist noch nicht eingerichtet.';
   const feedbackTopic = $('#feedback-topic');
-  for (const topic of availableTopics) {
-    const option = create('option', '', `${subjectById.get(topic.subjectId).name} · ${topic.title} (${levelLabel(topic)})`);
-    option.value = topic.id;
-    feedbackTopic.append(option);
+  function updateFeedbackTopics() {
+    feedbackTopic.replaceChildren();
+    const empty = create('option', '', 'Optional wählen'); empty.value = ''; feedbackTopic.append(empty);
+    for (const topic of availableTopics) {
+      const option = create('option', '', `${subjectById.get(topic.subjectId).name} · ${topic.title} (${levelLabel(topic)})`);
+      option.value = topic.id;
+      feedbackTopic.append(option);
+    }
   }
   for (const id of ['feedback-profile', 'material-profile']) {
     const optional = create('option', '', 'Nicht angegeben'); optional.value = '';

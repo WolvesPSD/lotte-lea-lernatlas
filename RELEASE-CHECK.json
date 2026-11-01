@@ -1,6 +1,6 @@
 {
-  "builtAt": "2026-11-01T08:08:20.909Z",
-  "releaseVersion": "2026.11.01-schulart.1",
+  "builtAt": "2026-11-01T08:36:04.382Z",
+  "releaseVersion": "2026.11.01-musikplan.1",
   "newTopicIds": [],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
@@ -29,9 +29,10 @@
     "Mathematik M4: Die bestehende Rechnerprobe als freiwilligen Klasse-8-Ausblick statt als 7/8-Fall gekennzeichnet. Vier Metadatenfelder, Versionsanzeige und Manifest angepasst; 208 Themen/975 Antwortfelder, Aufgaben, Lösungen, Assets und App-Funktionen unverändert.",
     "Sport B7-SS06: freiwillige schriftliche Fairnessprüfung an vier fiktiven Aussagen. Vier Hauptaufgaben mit 20 Punkten, eine erst nach A–D sichtbare Zusatzkarte mit 6 getrennten Punkten; Lösungen und Fehlerfeedback nur für Erwachsene. Schulwahl, Stufe und echte Fairnesshandlung unbekannt.",
     "209 Themen/980 Antwortfelder. Die 208 bisherigen Themen bleiben unverändert; weder Sportpraxis noch Klasse-7- oder Jahresabdeckung folgt aus der Papieraufgabe.",
-    "Schulart-Auswahl statt Namen: Gymnasium Klasse 7 zeigt den bisherigen Katalog; Regelschule, Gemeinschaftsschule und Gesamtschule zeigen einen leeren Vorbereitungsbereich ohne Gymnasialantworten. Jahrgangsfilter nennen Zielstand und offene Unterrichtsfolge."
+    "Schulart-Auswahl statt Namen: Gymnasium Klasse 7 zeigt den bisherigen Katalog; Regelschule, Gemeinschaftsschule und Gesamtschule zeigen einen leeren Vorbereitungsbereich ohne Gymnasialantworten. Jahrgangsfilter nennen Zielstand und offene Unterrichtsfolge.",
+    "Musik-Quellenkorrektur: Der amtliche Gymnasialplan 2026 gilt für Klasse 7 ab 2026/27. Die zwei bisherigen Musikübungen stammen aus dem Plan 2012/13 und bleiben ohne bestätigte Zuordnung zum neuen 7/8-Plan. Keine Aufgabe, Lösung oder Jahrgangszählung geändert."
   ],
-  "rollbackCommit": "8a9ca2a342a5e842a53941c5be31b48c97b007da",
+  "rollbackCommit": "422531890e0e52b6474dec2e1657f383b4d74e77",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -353,5 +354,5 @@
     "mu09-pentatonik-tonvorrat",
     "go-g01-beleuchtungszonen"
   ],
-  "note": "UI-only Kandidat vom gepinnten 209er-Katalog. Spanisch Klasse 6 und natürliche Text-/Audioüberarbeitung sind separat in Arbeit; keine fachliche Deckung oder Kinderabnahme aus diesem UI-Update."
+  "note": "Nur Musik-Quellen-/Statuswortlaut vom gepinnten 209er-Katalog. Alt→Neu-Fachcrosswalk und Kinder-/Musikpraxis-Abnahme offen."
 }

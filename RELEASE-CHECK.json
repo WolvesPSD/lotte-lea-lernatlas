@@ -1,6 +1,6 @@
 {
-  "builtAt": "2026-11-01T08:48:21.069Z",
-  "releaseVersion": "2026.11.01-musikstatus.2",
+  "builtAt": "2026-11-01T09:49:29.813Z",
+  "releaseVersion": "2026.11.01-jahrgang6.3",
   "newTopicIds": [],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
@@ -31,7 +31,8 @@
     "209 Themen/980 Antwortfelder. Die 208 bisherigen Themen bleiben unverändert; weder Sportpraxis noch Klasse-7- oder Jahresabdeckung folgt aus der Papieraufgabe.",
     "Schulart-Auswahl statt Namen: Gymnasium Klasse 7 zeigt den bisherigen Katalog; Regelschule, Gemeinschaftsschule und Gesamtschule zeigen einen leeren Vorbereitungsbereich ohne Gymnasialantworten. Jahrgangsfilter nennen Zielstand und offene Unterrichtsfolge.",
     "Musik-Quellenkorrektur: Der amtliche Gymnasialplan 2026 gilt für Klasse 7 ab 2026/27. Die zwei bisherigen Musikübungen stammen aus dem Plan 2012/13 und bleiben ohne bestätigte Zuordnung zum neuen 7/8-Plan. Keine Aufgabe, Lösung oder Jahrgangszählung geändert.",
-    "Musik-Statuskorrektur: Das amtliche Medienobjekt nennt die Fassung ausdrücklich Entwurf 2026. PDF-S. 2 sieht Klasse 7 ab 2026/27 vor; eine separate aktuelle Geltungsbestätigung ist noch nicht belegt. Fachkopf und zwei ältere Übungen nennen die Unsicherheit jetzt ausdrücklich. Keine Aufgabe oder Lösung geändert."
+    "Musik-Statuskorrektur: Das amtliche Medienobjekt nennt die Fassung ausdrücklich Entwurf 2026. PDF-S. 2 sieht Klasse 7 ab 2026/27 vor; eine separate aktuelle Geltungsbestätigung ist noch nicht belegt. Fachkopf und zwei ältere Übungen nennen die Unsicherheit jetzt ausdrücklich. Keine Aufgabe oder Lösung geändert.",
+    "Gymnasium Klasse 6 als eigener, derzeit noch leerer Bereich: Themen nur nach ausdrücklicher Fach-/Jahrgangsfreigabe. Klasse-7-Antworten und Sicherungen bleiben getrennt; beide Jahrgänge weisen Kreuzimporte ab. Die Datenschutztexte benennen die herunterladbare private Sicherungsdatei ausdrücklich. Keine Spanisch-Aufgabe oder andere unveröffentlichte Forschungsdatei hochgeladen."
   ],
   "rollbackCommit": "aaf98ce363a0e860396914e7782b262a5e3bc165",
   "releasedTopics": [
@@ -355,5 +356,5 @@
     "mu09-pentatonik-tonvorrat",
     "go-g01-beleuchtungszonen"
   ],
-  "note": "Korrektur einer überstarken Geltungsaussage. 209 Themen und 980 Antwortfelder unverändert. Der neue N07-Fall bleibt unveröffentlicht, bis Geltung und App-Gates geklärt sind."
+  "note": "209 bisherige Themen und 980 Antwortfelder unverändert. Musik-Geltungsaussage aus musikstatus.2 korrigiert; Klasse-6-Modus nur als getrennte Vorbereitung. App-Code und Layout aus der lokal geprüften Arbeitsfassung; drei bestehende Erwachsenen-Druckregeln aus musikstatus.2 erhalten. Browser-/Druck-/Release-Gates separat."
 }

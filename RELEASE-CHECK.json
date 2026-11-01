@@ -1,6 +1,6 @@
 {
-  "builtAt": "2026-11-01T08:36:04.382Z",
-  "releaseVersion": "2026.11.01-musikplan.1",
+  "builtAt": "2026-11-01T08:48:21.069Z",
+  "releaseVersion": "2026.11.01-musikstatus.2",
   "newTopicIds": [],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
@@ -30,9 +30,10 @@
     "Sport B7-SS06: freiwillige schriftliche Fairnessprüfung an vier fiktiven Aussagen. Vier Hauptaufgaben mit 20 Punkten, eine erst nach A–D sichtbare Zusatzkarte mit 6 getrennten Punkten; Lösungen und Fehlerfeedback nur für Erwachsene. Schulwahl, Stufe und echte Fairnesshandlung unbekannt.",
     "209 Themen/980 Antwortfelder. Die 208 bisherigen Themen bleiben unverändert; weder Sportpraxis noch Klasse-7- oder Jahresabdeckung folgt aus der Papieraufgabe.",
     "Schulart-Auswahl statt Namen: Gymnasium Klasse 7 zeigt den bisherigen Katalog; Regelschule, Gemeinschaftsschule und Gesamtschule zeigen einen leeren Vorbereitungsbereich ohne Gymnasialantworten. Jahrgangsfilter nennen Zielstand und offene Unterrichtsfolge.",
-    "Musik-Quellenkorrektur: Der amtliche Gymnasialplan 2026 gilt für Klasse 7 ab 2026/27. Die zwei bisherigen Musikübungen stammen aus dem Plan 2012/13 und bleiben ohne bestätigte Zuordnung zum neuen 7/8-Plan. Keine Aufgabe, Lösung oder Jahrgangszählung geändert."
+    "Musik-Quellenkorrektur: Der amtliche Gymnasialplan 2026 gilt für Klasse 7 ab 2026/27. Die zwei bisherigen Musikübungen stammen aus dem Plan 2012/13 und bleiben ohne bestätigte Zuordnung zum neuen 7/8-Plan. Keine Aufgabe, Lösung oder Jahrgangszählung geändert.",
+    "Musik-Statuskorrektur: Das amtliche Medienobjekt nennt die Fassung ausdrücklich Entwurf 2026. PDF-S. 2 sieht Klasse 7 ab 2026/27 vor; eine separate aktuelle Geltungsbestätigung ist noch nicht belegt. Fachkopf und zwei ältere Übungen nennen die Unsicherheit jetzt ausdrücklich. Keine Aufgabe oder Lösung geändert."
   ],
-  "rollbackCommit": "422531890e0e52b6474dec2e1657f383b4d74e77",
+  "rollbackCommit": "aaf98ce363a0e860396914e7782b262a5e3bc165",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -354,5 +355,5 @@
     "mu09-pentatonik-tonvorrat",
     "go-g01-beleuchtungszonen"
   ],
-  "note": "Nur Musik-Quellen-/Statuswortlaut vom gepinnten 209er-Katalog. Alt→Neu-Fachcrosswalk und Kinder-/Musikpraxis-Abnahme offen."
+  "note": "Korrektur einer überstarken Geltungsaussage. 209 Themen und 980 Antwortfelder unverändert. Der neue N07-Fall bleibt unveröffentlicht, bis Geltung und App-Gates geklärt sind."
 }

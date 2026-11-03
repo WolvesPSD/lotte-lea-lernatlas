@@ -489,7 +489,7 @@ window.LOTTE_LANGUAGE_SUPPORT = Object.freeze({
         "Optionale Karte 3 vom 17. November erst nach A–C: Raum L5 ersetzt L4. Donnerstag 12:40–13:10 Uhr bleibt, keine anderen Informationen kommen hinzu."
       ],
       "adultSolutionDe": [
-        "Musterfelder: Riley Morgan; 13; 7B; Comics; Donnerstag; 12:40 Uhr Beginn; 13:10 Uhr Ende; Raum L4; Heft möglich: Ja. Unbelegte Felder wie E-Mail-Adresse bleiben NOT GIVEN = nicht angegeben. Karte 3 ändert nur Raum auf L5, auch dann bleibt E-Mail unbekannt."
+        "Musterfelder: Riley Morgan; 13; 7B; Comics; Donnerstag; 12:40 Uhr Beginn; 13:10 Uhr Ende; Raum L4; Heft möglich: Ja. B10 Kontakt-E-Mail: NOT GIVEN (nicht angegeben); B11 Platz bereits bestätigt: NOT GIVEN; B12 Terminquelle: spätere Korrektur/Karte 2. Karte 3 ändert nur den Raum auf L5; E-Mail-Adresse und Platzzusage bleiben ohne Angabe."
       ],
       "fixedReadAloudDe": []
     },

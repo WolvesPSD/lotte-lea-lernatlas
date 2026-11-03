@@ -2147,6 +2147,44 @@ window.LOTTE_CATALOG = Object.freeze({
         "gradeBand": "7/8",
         "competencyRef": "PDF-S. 2: Deutsch Klasse 7 ab 2026/27. § 2.2.5 PDF-S. 30–31: Sprachvariation und ausgewählte Erscheinungen des Sprachwandels als Ziele bis Ende Klasse 8. § 3.5 PDF-S. 52: Sprache und Sprachgebrauch im 7/8-Bereich; Schulfolge offen.",
         "checkedAt": "2026-10-21"
+      },
+      "practice": {
+        "title": "Sprechwerkstatt: verschiedene Wörter und Arten des Willkommens",
+        "childNote": "Zusätzlicher Einstieg in ein Ziel bis Ende Klasse 8; die Unterrichtsfolge ist offen. Die Karten dieser Werkstatt sind ein eigenes Material und gehören nicht zu den erfundenen Tabellen oben. Du brauchst eine freiwillig zuhörende Person, aber keine Angaben über deine Familie. Die Werkstatt zählt nicht zur Punktzahl der vier App-Aufgaben.",
+        "childSteps": [
+          "Öffne die Kinderkarte. Sie enthält eine ältere Atlas-Angabe und klar gekennzeichnete erfundene Vorschläge. Bearbeite zuerst die vier schriftlichen Vorbereitungsfragen auf Papier oder einem eigenen leeren Blatt.",
+          "Berichte einer freiwillig zuhörenden Person etwa 60–90 Sekunden über die Beobachtungen. Unterscheide die Atlas-Angabe von den erfundenen Aussagen. Die Karten dürfen dir helfen; lies sie nicht bloss vollständig vor.",
+          "Lass dir danach eine eigene Rückfrage stellen und antworte darauf. Ohne zuhörende Person bleibt die mündliche Runde nicht erhoben. Eine schriftliche Antwort ersetzt sie nicht.",
+          "Die vierte erfundene Person auf der Kinderkarte ist eine getrennte Zusatzrunde. Ihr könnt sie später bearbeiten; niemand muss eine Familiengeschichte oder private Angaben erzählen."
+        ],
+        "adultNote": "Die schriftliche Vorbereitung (8 Kriterienpunkte), der wirklich gehörte Bericht (höchstens 12) und die Variante (3 schriftlich + 3 live) stehen im getrennten Bogen. Nicht mit den 20 Punkten der vorhandenen App-Aufgaben zusammenzählen; keine automatische Bewertung oder Schulnote.",
+        "adultGuide": [
+          "Quelle dieser zusätzlichen Werkstatt: Thüringer Deutsch-Erprobungsfassung 2026, §2.2.3/PDF-S. 29, Ziel bis Ende Klasse 8: kulturelle und sprachliche Vielfalt zunehmend selbstständig wahrnehmen. Für Klasse 7 ist dies ein gestützter Einstieg; keine belegte aktuelle Unterrichtseinheit und kein Nachweis realer Vielfalt an der Schule.",
+          "Die Atlas-Angabe von 2012 beschreibt begrenzte Ortsmeldungen zu einer bestimmten Gebäckform. Die Personen und ihre Vorschläge sind erfunden und vertreten keine ganze Gruppe. Keine Herkunft, Familiensprache, Religion oder privaten Erfahrungen abfragen.",
+          "Die genaue schriftliche Rubrik, sechs Live-Kriterien und die getrennte Variante stehen ausschliesslich im Erwachsenenbogen. Ohne wirklich gehörten Bericht: nicht erhoben statt null. Ohne echte Rückfrage bleibt das entsprechende Kriterium nicht erhoben; keine vergleichbare 12er-Summe bilden."
+        ],
+        "adultCriteria": [
+          "Beobachte nur, was die Person tatsächlich sagt: zwei sprachliche Beobachtungen und zwei unterschiedliche beschriebene Arten des Willkommens.",
+          "Achte darauf, dass Atlas-Meldungen und erfundene Aussagen unterschieden und Pauschalbehauptungen begrenzt werden.",
+          "Stelle eine eigene, vorher unbekannte Rückfrage. Beurteile die bezogene Antwort, keine persönliche Offenlegung, Herkunft oder Akzent."
+        ],
+        "childHandouts": [
+          {
+            "path": "assets/de-ss12-kind.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-ss12-kind.pdf",
+            "label": "Kinderkarte zur Sprechwerkstatt als PDF öffnen"
+          }
+        ],
+        "childHandoutsNote": "Diese Kinderkarte enthält Material und Aufträge, keine Lösungen. Schriftliche Antworten auf ein eigenes Blatt schreiben.",
+        "childHandoutsPrintNote": "Getrennte lösungsfreie Kinderkarte zur Sprechwerkstatt separat öffnen und drucken:",
+        "handouts": [
+          {
+            "path": "assets/de-ss12-erwachsene.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-ss12-erwachsene.pdf",
+            "label": "Lösung und Live-Bogen nur für Erwachsene öffnen"
+          }
+        ],
+        "handoutsNote": "Der Erwachsenenbogen enthält Lösungen und Bewertungsbeispiele. Getrennt von der Kinderkarte halten. Nur tatsächlich Gehörtes bewerten."
       }
     },
     {
@@ -3822,11 +3860,11 @@ window.LOTTE_CATALOG = Object.freeze({
           "kind": "reflection",
           "points": 8,
           "writingLines": 12,
-          "prompt": "Ereignisse (8 Kriterienpunkte): Schreibe die Farbpfade in A („mindestens einmal Rot“), F („gleiche Farbe“) und A ∩ F auf. Berechne P(A) auch über das Gegenereignis „kein Rot“, P(F) und P(A ∩ F). Gib gekürzte Brüche und entsprechende Anteile von 36 Einzelpfaden an. Können A und F zugleich eintreten?",
+          "prompt": "Ereignisse (8 Kriterienpunkte): Schreibe die Ereignisse als Mengen von Farbpfaden: A={…} für „mindestens einmal Rot“, F={…} für „gleiche Farbe“ und A ∩ F={…}. In den Mengenklammern stehen Farbpfade; für die Wahrscheinlichkeiten zählen die 36 gleich wahrscheinlichen, einzeln bezeichneten Plättchenpaare. Berechne P(A) auch über das Gegenereignis „kein Rot“, P(F) und P(A ∩ F). Gib gekürzte Brüche und entsprechende Anteile von 36 Einzelpfaden an. Können A und F zugleich eintreten?",
           "sample": "A={RR,RB,RG,BR,GR}. Kein Rot: BB,BG,GB,GG; P(kein R)=(3/6)²=9/36=1/4, also P(A)=27/36=3/4. F={RR,BB,GG} hat Gewichte 9/36+4/36+1/36=14/36=7/18. A ∩ F={RR} mit 9/36=1/4. RR gehört zu beiden; A und F sind nicht unvereinbar. Die Mengenklammern bezeichnen Farbpfade; bei der Rechnung zählen ihre verschieden großen Einzelpfadgruppen.",
           "criteria": [
-            "1 Punkt: A-Farbpfade vollständig und ohne fremde Pfade.",
-            "1 Punkt: F-Farbpfade RR, BB, GG.",
+            "1 Punkt: A als Farbpfadmenge mit geschweiften Klammern vollständig und ohne fremde Pfade.",
+            "1 Punkt: F={RR,BB,GG} als Farbpfadmenge mit geschweiften Klammern.",
             "1 Punkt: A ∩ F={RR} und gemeinsame Möglichkeit erklärt.",
             "1 Punkt: Gegenereignis „kein Rot“ aus zwei nichtroten Ziehungen korrekt.",
             "1 Punkt: P(A)=27/36=3/4.",
@@ -3840,7 +3878,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "kind": "reflection",
           "points": 7,
           "writingLines": 13,
-          "prompt": "Venn-Bild und Vereinigung (7 Kriterienpunkte): Zeichne zwei überschneidende Kreise A und F in einem Rechteck für alle 36 Einzelpfade. Trage die Anzahlen für „nur A“, „A ∩ F“, „nur F“ und „weder A noch F“ ein. Berechne P(A ∪ F) erst mit P(A)+P(F)−P(A ∩ F), dann über das Gegenereignis. Prüfe, dass die vier Regionen zusammen 36 ergeben. Zeige dein Venn-Bild getrennt; der Text allein belegt es nicht.",
+          "prompt": "Venn-Bild und Vereinigung (7 Kriterienpunkte): Im Venn-Bild zählst du jetzt die 36 gleich wahrscheinlichen, einzeln bezeichneten Plättchenpaare. Die Farbpfadmengen aus Aufgabe 2 helfen dir, diese Einzelpaare den Ereignissen zuzuordnen. Zeichne zwei überschneidende Kreise A und F in einem Rechteck für diese 36 Einzelpfade. Trage die Anzahlen für „nur A“, „A ∩ F“, „nur F“ und „weder A noch F“ ein. Berechne P(A ∪ F) erst mit P(A)+P(F)−P(A ∩ F), dann über das Gegenereignis. Prüfe, dass die vier Regionen zusammen 36 ergeben. Zeige dein Venn-Bild getrennt; der Text allein belegt es nicht.",
           "sample": "Nur A umfasst RB,RG,BR,GR mit 6+3+6+3=18 Einzelpfaden. A ∩ F ist RR mit 9. Nur F: BB,GG mit 4+1=5. Weder noch: BG,GB mit 2+2=4. Probe 18+9+5+4=36. P(A ∪ F)=27/36+14/36−9/36=32/36=8/9. Das Gegenereignis umfasst BG und GB, also 4/36; daher 1−4/36=32/36=8/9. Der Schnitt wird beim einfachen Addieren doppelt gezählt. Die Papierzeichnung braucht eigene Sichtprüfung.",
           "criteria": [
             "1 Punkt: nur A mit 18 Einzelpfaden im tatsächlich gezeigten Venn-Bild.",

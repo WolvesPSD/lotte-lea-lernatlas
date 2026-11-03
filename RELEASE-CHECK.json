@@ -1,6 +1,6 @@
 {
-  "builtAt": "2026-11-03T08:21:21.383Z",
-  "releaseVersion": "2026.11.03-m2druck.3",
+  "builtAt": "2026-11-03T08:45:21.767Z",
+  "releaseVersion": "2026.11.03-ss12m13.1",
   "newTopicIds": [],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
@@ -35,9 +35,11 @@
     "Gymnasium Klasse 6 als eigener, derzeit noch leerer Bereich: Themen nur nach ausdrücklicher Fach-/Jahrgangsfreigabe. Klasse-7-Antworten und Sicherungen bleiben getrennt; beide Jahrgänge weisen Kreuzimporte ab. Die Datenschutztexte benennen die herunterladbare private Sicherungsdatei ausdrücklich. Keine Spanisch-Aufgabe oder andere unveröffentlichte Forschungsdatei hochgeladen.",
     "Eigenes Spanisch-Fach im Gymnasium-6-Modus mit einem geprüften Drei-Sätze-Schreibfall, vollständiger deutscher Erwachsenenhilfe und zwei langsam gesprochenen Hörhilfen. Lehrplangeltung 2026/27 und konkrete Schulbelegung bleiben offen; keine Klasse-7-Abdeckung.",
     "Optionale getrennte PDF-Druckblätter zur bestehenden unbewerteten M2-Rechnerpraxis; keine neue Themen-ID oder beobachtete Kinderleistung.",
-    "M2-Druckfehler behoben: keine sachfremde Sprech-/Feedbackrunde, keine undefined-Adresse oder falscher Hinweis auf lösungsfreien Erwachsenenbogen."
+    "M2-Druckfehler behoben: keine sachfremde Sprech-/Feedbackrunde, keine undefined-Adresse oder falscher Hinweis auf lösungsfreien Erwachsenenbogen.",
+    "Deutsch: Sprechwerkstatt zu verschiedenen Wörtern und Arten des Willkommens mit getrennten Kinder-/Erwachsenen-PDFs am vorhandenen Thema. Ende-8-Einstieg; Live-Leistung nur nach tatsächlichem Hören, Punkte getrennt.",
+    "Mathematik: Ziehaufgaben verlangen A, F und Schnitt als Mengen von Farbpfaden und trennen sie von den 36 gleich wahrscheinlichen Einzelpaaren. Aufgaben und Punkte unverändert."
   ],
-  "rollbackCommit": "f57ac0c38b5e079dcf80231e58a5c1ac892e09f7",
+  "rollbackCommit": "8c14d382fef2001ce52ce057916268b254e18304",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -362,5 +364,5 @@
     "go-g01-beleuchtungszonen",
     "es6-mochila-tres-frases"
   ],
-  "note": "210 Themen/983 Felder unverändert. Nur PDF-Druckhinweise der bestehenden M2-Rechnerpraxis korrigiert: gültige Adressen, sachgerechter Kinderhinweis, Erwachsenenbogen mit Kontrollwerten. Keine neue Praxisleistung."
+  "note": "210 Themen und 983 Antwortfelder. SS12-Sprechwerkstatt und M13-Mengenschreibweise unabhängig intern sowie in Browser und A4-Druck geprüft. Keine neue reale Kinderleistung oder vollständige Jahresabdeckung. Bestehende Audios unverändert; neue Audio- und Leo-Entwürfe nicht enthalten."
 }

@@ -1,7 +1,9 @@
 {
-  "builtAt": "2026-11-03T09:20:13.288Z",
-  "releaseVersion": "2026.11.03-klartext.1",
-  "newTopicIds": [],
+  "builtAt": "2026-11-03T09:33:31.985Z",
+  "releaseVersion": "2026.11.03-m12beweis.1",
+  "newTopicIds": [
+    "ma-pythagoras-vier-dreiecke-beweis"
+  ],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
     "199 Themen und alle Aufgaben, Lösungen, App-Funktionen und Assets unverändert; keine neue Kinderleistung oder Unterrichtsfolge behauptet.",
@@ -39,9 +41,10 @@
     "Deutsch: Sprechwerkstatt zu verschiedenen Wörtern und Arten des Willkommens mit getrennten Kinder-/Erwachsenen-PDFs am vorhandenen Thema. Ende-8-Einstieg; Live-Leistung nur nach tatsächlichem Hören, Punkte getrennt.",
     "Mathematik: Ziehaufgaben verlangen A, F und Schnitt als Mengen von Farbpfaden und trennen sie von den 36 gleich wahrscheinlichen Einzelpaaren. Aufgaben und Punkte unverändert.",
     "Spanisch Klasse6: Leos Nachricht an einen neuen Plan anpassen, drei Aufgaben mit neun Kriterienpunkten. Zwei langsame Aussprachehilfen per Anhören/Stopp und getrennte deutsche Erwachsenenübersetzung. Geltung2026/27 und Schulbelegung offen, keine Klasse7-Abdeckung.",
-    "Drei Hinweise verständlicher und genauer: Rückmeldung vor Geografie-Zusatzkarte, Pfeil am Treffgegenstand und schriftliches Gesprächsbeispiel ohne behauptete Durchführung."
+    "Drei Hinweise verständlicher und genauer: Rückmeldung vor Geografie-Zusatzkarte, Pfeil am Treffgegenstand und schriftliches Gesprächsbeispiel ohne behauptete Durchführung.",
+    "Mathematik: allgemeiner Pythagoras-Flächenbeweis mit vier Dreiecken, 20 Haupt- und 6 getrennten Transferpunkten, SVG und Textalternative. Klasse 8-Ausblick ab 2027/28, keine aktuelle Klasse 7-Abdeckung."
   ],
-  "rollbackCommit": "d5ee3d28cb3f66005baf306f50c9727d63bfbe6d",
+  "rollbackCommit": "0d10e6a0eaf0613f4c3f2f11773c4f41c728c1d1",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -253,7 +256,8 @@
     "de-stichpunktformen-belege",
     "sp-b7-ss06-fairnessurteil",
     "es6-mochila-tres-frases",
-    "es6-nachricht-aendern"
+    "es6-nachricht-aendern",
+    "ma-pythagoras-vier-dreiecke-beweis"
   ],
   "subjects": [
     "en",
@@ -368,5 +372,5 @@
     "es6-mochila-tres-frases",
     "es6-nachricht-aendern"
   ],
-  "note": "211 Themen/986 Antwortfelder unverändert. Genau drei Hinweise präzisiert: Geografie-Rückmeldung vor Zusatzkarte, englischer Treffgegenstand und Erwachsenen-Schriftbeispiel ohne behauptete Gesprächsdurchführung. Unabhängiger enger Nachcheck und gezielte Browser-/Druckprüfung vorhanden. Punkte, Sperrlogik, Quellen-/Jahrgangsgrenzen und sämtliche Audios unverändert."
+  "note": "212 Themen/991 Antwortfelder. Ein neuer allgemeiner M12-Beweisweg; alle211 bisherigen Themen unverändert. Interne unabhängige Mathematik-/Logikprüfung und lokale Browser-/Stufen-/Druckprüfung; keine echte Kinderleistung oder vollständige Jahresdeckung. Transfer erst nach A–D und bestätigter Rückmeldung, Lösungen nur bei Erwachsenen. Neue Spanisch-Audiokandidaten nicht enthalten."
 }

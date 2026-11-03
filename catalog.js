@@ -22279,6 +22279,126 @@ window.LOTTE_CATALOG = Object.freeze({
         "primarySha256": "0C40ADBFF8263B61694711AC25DD673B336C92AA0019BA369FED273990AC3019",
         "manuscriptSha256": "0cae64f63e833408b8850fe8144939c4b3ba6fbe1e86bb67e0ce01c2dfe37c94"
       }
+    },
+    {
+      "id": "ma-pythagoras-vier-dreiecke-beweis",
+      "subjectId": "ma",
+      "title": "Vier Dreiecke und ein Flächenbeweis",
+      "scope": "Freiwilliger Ausblick auf Klasse 8: ein allgemeiner Flächenbeweis des Satzes des Pythagoras. Thüringer Mathematik-Erprobungsfassung 2026, §2.2.12/PDF-S.32; Zieltafel Klasse 8, gültig ab 2027/28. Keine bestätigte Klasse-7-Unterrichtseinheit, Schulfolge offen.",
+      "schoolModes": [
+        "gymnasium"
+      ],
+      "levelStatus": "grade8-outlook",
+      "released": true,
+      "prerequisite": "Du brauchst rechte Winkel, Dreiecks- und Quadratflächen sowie einfache Termumformungen. a und b sind beliebige positive Kathetenlängen. Wenn das Ausmultiplizieren neu ist, nutze die vier Rechteckflächen a·a, a·b, b·a und b·b als Hilfe und halte fest, welche Unterstützung du genutzt hast. 20 Haupt- und 6 getrennte Zusatzpunkte sind Lernrückmeldung, keine Schulnote. Offene Begründungen prüft eine Person.",
+      "introduction": "Erkläre zuerst, warum die grüne Figur ein Quadrat ist. Vergleiche danach zwei Rechnungen für dieselbe grosse Fläche. Ein Zahlenbeispiel kontrolliert die Rechnung; die allgemeine Begründung muss für beliebige passende Längen gelten. Bearbeite A–D und besprich deine Antworten mit einer erwachsenen Person. Bestätige danach das Gespräch, bevor du die Transferkarte öffnest.",
+      "passage": "AUSGANGSFIGUR\nEin grosses Quadrat hat die Seitenlänge a+b. In seinen Ecken liegen vier kongruente rechtwinklige Dreiecke. Zusammen mit der grünen Figur füllen sie das grosse Quadrat ohne Lücken oder Überlappungen. Jedes hat die Katheten a und b und die Hypotenuse c. Die vier Seiten mit der Länge c begrenzen die grüne Figur in der Mitte.\nAm oberen inneren Eckpunkt liegen links der spitze Winkel α, in der Mitte der grüne Winkel und rechts der spitze Winkel β an einer geraden Linie. α und β sind die beiden spitzen Winkel des rechtwinkligen Ausgangsdreiecks. Die drei anderen Ecklagen entstehen durch Drehen derselben Anordnung.\nDas Schema gibt keine Zentimeterwerte vor. Seine sichtbaren Winkel oder Längen darfst du nicht mit dem Lineal als Beweis verwenden. Du kannst deine Rechnungen hier oder auf einem eigenen Blatt festhalten.",
+      "diagram": {
+        "path": "assets/ma-m12-vier-dreiecke.svg",
+        "alt": "Vier kongruente rechtwinklige Dreiecke in den Ecken eines Quadrats der Seitenlänge a+b. Ihre Hypotenusen der Länge c begrenzen ein grünes inneres Viereck; dessen Form ist zu begründen.",
+        "caption": "Schematische Darstellung. Nicht abmessen; Winkelargument und Rechnung tragen den Beweis.",
+        "textAlternative": "Jede Aussenseite des grossen Quadrats setzt sich aus a und b zusammen. In jeder Ecke liegt eine Kopie desselben rechtwinkligen Dreiecks mit Katheten a und b. Die Hypotenusen c bilden die vier Seiten des inneren Vierecks. Am oberen inneren Eckpunkt ergänzen sich α, der gesuchte grüne Winkel und β zu einem gestreckten Winkel. α und β sind die zwei spitzen Winkel eines rechtwinkligen Dreiecks. Die Anordnung wiederholt sich an den anderen drei Ecken. Die vier Dreiecke und die innere grüne Figur füllen zusammen das ganze äussere Quadrat ohne Lücken oder Überlappungen."
+      },
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "feedbackBeforeUnlock": true,
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und Transferkarte zeigen",
+        "text": "SPÄTERE TRANSFERKARTE · Das äussere Quadrat hat weiterhin die Seite a+b; innen liegen dieselben vier rechtwinkligen Dreiecke und die nach dem Winkelcheck begründete Quadratfigur. Jemand schreibt:\n(a+b)² = c² + 2ab. Weil (a+b)² = a²+b², folgt a²+b² = c²+2ab.\nDie sechs Zusatzpunkte werden getrennt gerechnet."
+      },
+      "tasks": [
+        {
+          "id": "ma-m12-beweis-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "A · Flächenbausteine (4 Hauptpunkte): Begründe, warum die vier Dreiecke flächengleich sind, und gib die Fläche eines Dreiecks mit a und b an. Nenne jede Seitenlänge der grünen Figur. Warum folgt aus diesen Seitenlängen allein noch nicht, dass sie ein Quadrat ist?",
+          "sample": "Die vier Dreiecke sind kongruente Kopien desselben rechtwinkligen Dreiecks, also flächengleich. Jedes hat die Fläche ab/2. Jede innere Seite ist eine Hypotenuse c. Vier gleich lange Seiten können auch eine nicht rechtwinklige Raute begrenzen; die Winkel müssen noch begründet werden.",
+          "criteria": [
+            "1 Punkt: vier kongruente Kopien erklären die Flächengleichheit.",
+            "1 Punkt: Dreiecksfläche ab/2.",
+            "1 Punkt: jede innere Seite hat die Länge c.",
+            "1 Punkt: gleiche Seiten allein reichen ohne rechte Innenwinkel nicht; eine nicht rechtwinklige Raute ist ein passendes Gegenbeispiel."
+          ]
+        },
+        {
+          "id": "ma-m12-beweis-b",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "B · Ist die grüne Figur ein Quadrat? (5 Hauptpunkte): Welchen Zusammenhang haben α und β im rechtwinkligen Ausgangsdreieck? Stelle am oberen inneren Eckpunkt eine Winkelgleichung auf und bestimme damit den grünen Winkel. Begründe, weshalb derselbe Schluss für die anderen drei Ecken gilt. Was folgt zusammen mit den Seitenlängen?",
+          "sample": "Im rechtwinkligen Dreieck gilt α+β=90°. Am oberen inneren Eckpunkt gilt α+γ+β=180°. Also γ=180°−(α+β)=90°. Die anderen Ecklagen sind Drehungen derselben Anordnung; dort entstehen ebenfalls rechte Innenwinkel. Mit vier Seiten c ist die innere Figur ein Quadrat.",
+          "criteria": [
+            "1 Punkt: α+β=90°.",
+            "1 Punkt: α+grüner Innenwinkel+β=180° als gestreckter Winkel.",
+            "1 Punkt: Innenwinkel als 180°−(α+β) oder gleichwertigen Schritt bestimmt.",
+            "1 Punkt: daraus 90° abgeleitet, nicht aus dem Bild gemessen.",
+            "1 Punkt: gleiche Ecklage durch Drehung an allen Ecken und zusammen mit vier Seiten c als Quadrat begründet."
+          ]
+        },
+        {
+          "id": "ma-m12-beweis-c",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "C · Zwei Rechnungen für dieselbe Fläche (6 Hauptpunkte): Schreibe die Fläche des grossen Quadrats als Term. Zerlege seine Fläche gedanklich in die vier Rechtecke a·a, a·b, b·a und b·b und notiere ihre Summe als Term. Gib dann die Gesamtfläche der vier Dreiecke und die Fläche der nun begründeten grünen Figur an. Setze Aussenfläche = Dreiecke + grüne Figur. Forme zu c² = a²+b² um und begründe, welche gleiche Grösse du auf beiden Seiten wegnimmst.",
+          "sample": "Die Aussenfläche ist (a+b)²=a²+ab+ab+b²=a²+2ab+b². Vier Dreiecke ergeben 4·ab/2=2ab; das innere Quadrat hat c². Also a²+2ab+b²=2ab+c². Auf beiden Seiten 2ab subtrahieren ergibt a²+b²=c². Gleichwertig ist c²=a²+b².",
+          "criteria": [
+            "1 Punkt: äussere Quadratfläche (a+b)².",
+            "1 Punkt: Rechtecksumme a²+ab+ab+b² bzw. a²+2ab+b².",
+            "1 Punkt: vier Dreiecke 4·ab/2=2ab.",
+            "1 Punkt: nach B begründete innere Quadratfläche c².",
+            "1 Punkt: richtige Flächenbilanz, etwa a²+2ab+b²=2ab+c².",
+            "1 Punkt: begründete Subtraktion von 2ab auf beiden Seiten und Ergebnis a²+b²=c² oder c²=a²+b²."
+          ]
+        },
+        {
+          "id": "ma-m12-beweis-d",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "D · Beweis, Gegenprobe und Umkehrung (5 Hauptpunkte): Ein Kind behauptet: „Mit a=3, b=4 und c=5 ist der Satz für alle rechtwinkligen Dreiecke bewiesen.“ Erkläre, was diese Probe zeigt und warum der symbolische Flächenweg allgemeiner ist. Ein anderes Kind meint, der Flächenweg beweise zugleich die umgekehrte Richtung: Jedes Dreieck mit a²+b²=c² sei rechtwinklig. Welche Eigenschaft war schon am Anfang vorausgesetzt, und welcher eigene Satz wäre für die umgekehrte Richtung nötig? Prüfe schliesslich mit 3/4/5 die Aussenfläche und vier Dreiecke plus grünes Quadrat durch eine Zahlengleichheit.",
+          "sample": "Die 3/4/5-Probe kontrolliert nur einen Zahlenfall. Der Flächenweg arbeitet mit beliebigen positiven Katheten a,b und allgemeinen Winkel-/Flächenschritten. Rechtwinklige Ausgangsdreiecke waren vorausgesetzt; die umgekehrte Richtung braucht die Umkehrung des Satzes des Pythagoras als eigenen Begründungsweg. Numerisch: (3+4)²=49=4·(3·4/2)+5²=24+25.",
+          "criteria": [
+            "1 Punkt: Zahlenprobe ist nur ein Fall, kein Beweis für alle.",
+            "1 Punkt: Allgemeinheit über beliebige positive a,b und die Winkel-/Flächenargumente erläutert.",
+            "1 Punkt: rechte Ausgangswinkel als Voraussetzung erkannt.",
+            "1 Punkt: Umkehrung des Satzes des Pythagoras als eigene Richtung benannt.",
+            "1 Punkt: beide numerischen Flächenwerte 49 und 24+25=49 in einer richtigen Gleichheit."
+          ]
+        },
+        {
+          "id": "ma-m12-beweis-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "E · Einen fehlerhaften Beweis reparieren (6 getrennte Zusatzpunkte): Welcher Term fehlt in der behaupteten zweiten Gleichheit der Transferkarte? Begründe mit den vier Rechteckflächen und schreibe die richtige Gleichheit für (a+b)² auf. Setze sie in die erste Gleichheit ein und nenne die gleiche Grösse, die du auf beiden Seiten wegnimmst. Teste die falsche zweite Gleichheit mit a=5 und b=12. Warum widerlegt dieser Zahlenwiderspruch die falsche Behauptung, ersetzt aber nicht die allgemeine richtige Begründung? Zeige zu jeder Antwort deine Rechnung oder Begründung. Gemessene Längen aus der Skizze zählen nicht als Beweis.",
+          "sample": "Es fehlen zwei Rechtecke ab, also 2ab. Richtig ist (a+b)²=a²+2ab+b². In der ersten Gleichheit folgt a²+2ab+b²=c²+2ab; auf beiden Seiten 2ab abziehen ergibt a²+b²=c². Für 5 und 12 gilt (5+12)²=289, aber 5²+12²=169: die behauptete Gleichheit ist falsch. Ein Gegenbeispiel widerlegt eine Allbehauptung; die richtige allgemeine Identität braucht die symbolischen Flächen-/Algebraschritte.",
+          "criteria": [
+            "2 Zusatzpunkte: zwei fehlende Rechtecke ab erkannt (1) und korrekte Entwicklung (a+b)²=a²+2ab+b² (1).",
+            "2 Zusatzpunkte: richtig in die Flächenbilanz eingesetzt (1), 2ab auf beiden Seiten subtrahiert und korrektes Ergebnis(1).",
+            "2 Zusatzpunkte: 289≠169 für 5/12 korrekt (1), Gegenbeispiel widerlegt falsche Allbehauptung, ersetzt aber nicht den allgemeinen richtigen Beweis(1)."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28 für Klasse 8; freiwilliger Vorgriff in Klasse 7",
+        "gradeBand": "8",
+        "competencyRef": "Mathematik-Erprobungsfassung Gymnasium 2026: PDF-S.2 setzt Klasse 8 ab 2027/28 in Kraft; §2.2.12/PDF-S.31–32 unter Zieltafel Klasse 8 nennt Satz/Umkehrung des Pythagoras bei Begründungen und Beweisen. Dies ist nur ein allgemeiner Flächenbeweis, keine gesamte M12-Abdeckung.",
+        "primarySha256": "91838D21BB7035A3E30890E837A47425B3766F3A38066AF6559F167AFC399D26",
+        "checkedAt": "2026-11-03"
+      }
     }
   ]
 });

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 580" role="img" aria-labelledby="title desc">
+  <title id="title">Vier rechtwinklige Dreiecke in einem großen Quadrat</title>
+  <desc id="desc">Ein äußeres Quadrat mit Seitenlänge a plus b besteht aus vier kongruenten rechtwinkligen Dreiecken und einem geneigten inneren Viereck. Die äußeren Teilstrecken sind mit a und b beschriftet, eine innere Seite mit c. Zwei spitze Winkel heißen Alpha und Beta. Es ist eine schematische Zeichnung.</desc>
+  <rect width="560" height="580" fill="#fffdf8"/>
+  <text x="280" y="29" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#18334a">Vier gleiche Dreiecke · eine innere Figur</text>
+  <g stroke="#264653" stroke-width="2.4" stroke-linejoin="round">
+    <polygon points="60,60 240,60 60,300" fill="#f3d9a0"/>
+    <polygon points="240,60 480,60 480,240" fill="#e7bd89"/>
+    <polygon points="480,240 480,480 300,480" fill="#f3d9a0"/>
+    <polygon points="300,480 60,480 60,300" fill="#e7bd89"/>
+    <polygon points="240,60 480,240 300,480 60,300" fill="#badbcd"/>
+    <rect x="60" y="60" width="420" height="420" fill="none" stroke-width="3"/>
+  </g>
+  <g font-family="Arial,sans-serif" fill="#17334a" font-size="22" font-weight="bold">
+    <text x="150" y="53" text-anchor="middle">a</text>
+    <text x="360" y="53" text-anchor="middle">b</text>
+    <text x="245" y="519" text-anchor="middle">a + b</text>
+    <text x="355" y="138" text-anchor="middle">c</text>
+    <text x="177" y="106" text-anchor="middle">α</text>
+    <text x="292" y="99" text-anchor="middle">β</text>
+    <text x="269" y="295" text-anchor="middle">?</text>
+  </g>
+  <path d="M60 81 H81 V60" fill="none" stroke="#264653" stroke-width="2"/>
+  <text x="280" y="551" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#536875">KI-erstellt · schematische Grafik, nicht zum Abmessen</text>
+</svg>

@@ -18,6 +18,10 @@
   let availableTopics = topicsForMode(activeGymMode);
   let topicById = new Map(availableTopics.map(topic => [topic.id, topic]));
   const subjectById = new Map(catalog.subjects.map(subject => [subject.id, subject]));
+  const visibleSubjects = () => catalog.subjects.filter(subject =>
+    (!Array.isArray(subject.schoolModes) || subject.schoolModes.includes(activeGymMode))
+    && (activeGymMode !== 'gymnasium-6' || subject.schoolModes?.includes('gymnasium-6')
+      || availableTopics.some(topic => topic.subjectId === subject.id)));
   const levelLabels = {
     'grade6': 'Klasse 6 · Unterrichtsstand offen',
     'grade7': 'Klasse 7 · Unterrichtsstand offen',
@@ -473,7 +477,7 @@
     if (availableTopics.length === 0) appendText(host, 'p', 'empty-state', activeGymMode === 'gymnasium-6'
       ? 'Für Gymnasium Klasse 6 ist noch kein eigenes Thema freigegeben.'
       : 'Noch keine intern geprüften Themen. Der Jahreskatalog wird geprüft.');
-    const orderedSubjects = [...catalog.subjects].sort((a, b) => {
+    const orderedSubjects = visibleSubjects().sort((a, b) => {
       const countA = availableTopics.filter(topic => topic.subjectId === a.id).length;
       const countB = availableTopics.filter(topic => topic.subjectId === b.id).length;
       return Number(countB > 0) - Number(countA > 0) || a.name.localeCompare(b.name, 'de');
@@ -518,7 +522,7 @@
       host.append(group);
     }
     const list = $('#subject-list'); list.replaceChildren();
-    for (const subject of catalog.subjects) {
+    for (const subject of visibleSubjects()) {
       const row = create('div', 'subject-row');
       appendText(row, 'strong', '', subject.name);
       appendText(row, 'span', '', activeGymMode === 'gymnasium-6'
@@ -635,7 +639,7 @@
     if (topic.passage) appendText(intro, 'blockquote', 'reading-passage', topic.passage);
     if (topic.sourceCards) appendSourceCards(intro, topic.sourceCards, false, topic.cardsHeading);
     appendLanguageClips(intro, topic, 'initial');
-    if (topic.tasks.some(task => task.helpAfterAttempt)) appendText(intro, 'p', 'learning-step-note', 'Erst selbst antworten und „Antwort prüfen“ wählen. Danach kannst du die freiwillige Formenhilfe öffnen.');
+    if (topic.tasks.some(task => task.helpAfterAttempt)) appendText(intro, 'p', 'learning-step-note', 'Erst selbst antworten und „Antwort prüfen“ wählen. Danach kannst du die freiwillige Hilfe öffnen.');
     if (topic.stagedReading) appendText(intro, 'p', 'muted', `Zuerst nur der Titel: ${topic.stagedReading.title}. Der Lesetext erscheint nach deiner ersten Vermutung.`);
     if (topic.stagedPrompt) appendText(intro, 'p', 'muted', 'Schreibe zuerst deine eigene Vermutung auf. Der kurze Kontext erscheint erst, wenn du sie festgehalten hast.');
     if (topic.diagram && !topic.diagram.afterFirstTask) {
@@ -1052,7 +1056,7 @@
     if (task.helpAfterAttempt) {
       const helpText = appendText(card, 'p', 'task-help', task.helpAfterAttempt);
       helpText.hidden = state.answers[helpUsedKey] !== 'ja';
-      helpButton = button('Formenhilfe nach Erstversuch öffnen', () => {
+      helpButton = button(task.helpButtonLabel || 'Hilfe nach Erstversuch öffnen', () => {
         if (state.answers[helpAttemptKey] !== 'ja') return;
         state.answers[helpUsedKey] = 'ja'; save();
         helpButton.hidden = true; helpText.hidden = false;
@@ -1202,7 +1206,7 @@
         appendText(item, 'h3', '', topic.practiceBeforeLastTask ? task.prompt : `${index + 1}. ${task.prompt}`);
         const answer = state.answers[task.id];
         appendText(item, 'p', 'muted', `Eingabe im Kinderbereich: ${answer ? String(answer) : 'noch keine'}`);
-        if (task.helpAfterAttempt) appendText(item, 'p', 'muted', `Formenhilfe nach Erstversuch: ${state.answers[`${task.id}-hilfe-genutzt`] === 'ja' ? 'genutzt' : 'nicht als genutzt vermerkt'}. Dieser Status ist keine automatische Leistungsbewertung.`);
+        if (task.helpAfterAttempt) appendText(item, 'p', 'muted', `Hilfe nach Erstversuch: ${state.answers[`${task.id}-hilfe-genutzt`] === 'ja' ? 'genutzt' : 'nicht als genutzt vermerkt'}. Dieser Status ist keine automatische Leistungsbewertung.`);
         appendText(item, 'p', 'sample-answer', `${task.unscoredNote ? 'Hinweis ohne Bewertung' : task.manualBookReview ? 'Methodenbeispiel zu Heidi, kein Inhaltsschlüssel für dieses Buch' : 'Lösung'}: ${task.sample || task.correctLabel || task.correct}`);
         const steps = task.explanation || task.criteria || [];
         const ol = create('ol'); steps.forEach(step => appendText(ol, 'li', '', step)); item.append(ol);
@@ -1218,14 +1222,18 @@
     const host = $('#parent-source-list'); host.replaceChildren();
     const overview = 'https://www.schulportal-thueringen.de/web/guest/lehrplaene/gymnasium';
     const currentIds = new Set(['de', 'en', 'fr', 'ma', 'mbi', 'bi', 'ch', 'ph', 'sp']);
-    for (const subject of catalog.subjects) {
+    for (const subject of visibleSubjects()) {
       const card = create('article', 'source-card');
       appendText(card, 'h3', '', subject.name);
       appendText(card, 'p', '', activeGymMode === 'gymnasium-6'
-        ? 'Gymnasium Klasse 6: Verbindlichkeit, Schulfolge und Quelle müssen je freigegebenem Thema gesondert geprüft sein.'
+        ? subject.id === 'es'
+          ? 'Gymnasium Klasse 6: Der Spanisch-Lehrplan ist für 2025/26 belegt. Fortgeltung 2026/27 und Unterrichtsfolge an deiner Schule sind noch offen.'
+          : 'Gymnasium Klasse 6: Verbindlichkeit, Schulfolge und Quelle müssen je freigegebenem Thema gesondert geprüft sein.'
         : `Fassung und Jahrgang: ${subject.plan}. ${subject.scope}.`);
       const sourceStatus = activeGymMode === 'gymnasium-6'
-        ? 'Der bisherige Klasse-7-Quellenstand wird nicht als Klasse-6-Nachweis übernommen.'
+        ? subject.id === 'es'
+          ? 'Der Klasse-6-Spanischfall ist eine eng geprüfte Übung. Eine bestätigte 2026/27-Pflichtzuordnung folgt daraus noch nicht.'
+          : 'Der bisherige Klasse-7-Quellenstand wird nicht als Klasse-6-Nachweis übernommen.'
         : subject.id === 'sp'
         ? 'Lehrplanquelle: Ministerielle Erprobungsfassung 2026; Klasse 7 ab 2026/27. Konkrete Sportspiele und weitere Bewegungsfelder wählt die Schule.'
         : subject.id === 'mnt'
@@ -1234,11 +1242,19 @@
           ? 'Lehrplanquelle: Ministerielles Original 2026 intern geprüft; öffentlicher Datei-Abgleich steht aus.'
           : 'Lehrplanquelle: Fachstand aus der amtlichen Übersicht 2025/26; Gültigkeit 2026/27 noch offen.';
       appendText(card, 'p', 'source-status', sourceStatus);
-      const link = create('a', 'source-link', activeGymMode === 'gymnasium-6' || subject.id !== 'sp' ? 'Amtliche Gymnasialübersicht öffnen ↗' : 'Amtliche Sportfassung öffnen ↗');
-      link.href = activeGymMode === 'gymnasium-6' || subject.id !== 'sp' ? overview : subject.source; link.target = '_blank'; link.rel = 'noopener noreferrer';
+      const link = create('a', 'source-link', subject.id === 'es' ? 'Amtlichen Spanisch-Lehrplan öffnen ↗' : activeGymMode === 'gymnasium-6' || subject.id !== 'sp' ? 'Amtliche Gymnasialübersicht öffnen ↗' : 'Amtliche Sportfassung öffnen ↗');
+      link.href = subject.id === 'es' ? subject.source : activeGymMode === 'gymnasium-6' || subject.id !== 'sp' ? overview : subject.source; link.target = '_blank'; link.rel = 'noopener noreferrer';
       card.append(link);
+      if (subject.id === 'es' && activeGymMode === 'gymnasium-6') {
+        const validity = create('a', 'source-link', 'Amtliche Gültigkeitsübersicht 2025/26 öffnen ↗');
+        validity.href = 'https://www.schulportal-thueringen.de/get-data/cb0fc796-40e8-4305-b4d6-fbae88bdefa4/Uebersicht_Gueltigkeit_Lehrplaene.pdf';
+        validity.target = '_blank'; validity.rel = 'noopener noreferrer';
+        card.append(validity);
+      }
       appendText(card, 'p', 'source-small', activeGymMode === 'gymnasium-6'
-        ? 'Der Link führt zur amtlichen Übersicht. Die passende Fachfassung und ihr Klasse-6-Status werden für jedes neue Thema einzeln belegt.'
+        ? subject.id === 'es'
+          ? 'Die Fachfassung erläutert die Klasse-6-Ziele. Die getrennte amtliche Gültigkeitsübersicht belegt bisher nur das Schuljahr 2025/26.'
+          : 'Der Link führt zur amtlichen Übersicht. Die passende Fachfassung und ihr Klasse-6-Status werden für jedes neue Thema einzeln belegt.'
         : subject.id === 'sp'
         ? 'Die amtliche Fachseite nennt den 2026er Plan. Die vorhandene Basketball-Regelkarte entstand dagegen aus dem älteren Plan und ersetzt keine Schulspielwahl.'
         : 'Ein öffentlicher Direktlink zur hier beschriebenen Fachfassung wurde nicht sicher geprüft. Der Link führt zur amtlichen Fachübersicht; die erreichbare Datei kann davon abweichen.');
@@ -1398,7 +1414,7 @@
         const item = create('div', 'print-task'); item.dataset.taskId = task.id;
         if (topic.stagedUpdate && mode === 'adult' && index === (topic.stagedUpdate.mainTaskCount ?? topic.tasks.length - 1) - 1) item.classList.add('print-keep-together');
         appendText(item, 'h3', '', topic.practiceBeforeLastTask ? task.prompt : `${index + 1}. ${task.prompt}`);
-        if (mode === 'adult' && task.helpAfterAttempt) appendText(item, 'p', 'muted', `Formenhilfe nach Erstversuch: ${state.answers[`${task.id}-hilfe-genutzt`] === 'ja' ? 'genutzt' : 'nicht als genutzt vermerkt'}. Dieser Status ist keine automatische Leistungsbewertung.`);
+        if (mode === 'adult' && task.helpAfterAttempt) appendText(item, 'p', 'muted', `Hilfe nach Erstversuch: ${state.answers[`${task.id}-hilfe-genutzt`] === 'ja' ? 'genutzt' : 'nicht als genutzt vermerkt'}. Dieser Status ist keine automatische Leistungsbewertung.`);
         if (mode === 'child') {
           if (task.options) task.options.forEach(option => appendText(item, 'p', '', `☐ ${option}`));
           else {
@@ -1411,6 +1427,9 @@
           const ol = create('ol'); (task.explanation || task.criteria || []).forEach(step => appendText(ol, 'li', '', step)); item.append(ol);
         }
         section.append(item);
+        if (mode === 'child' && task.printHelpAfterUse && task.helpAfterAttempt && state.answers[`${task.id}-hilfe-genutzt`] === 'ja') {
+          appendText(section, 'p', 'print-context', `Wortstütze nach eigenem Versuch: ${task.helpAfterAttempt}`);
+        }
         if (index === topic.tasks.length - 1) finalPrintedTask = item;
         if (topic.stagedPrompt && mode === 'child' && index === 0 && !hideChildPromptContext) appendText(section, 'p', 'print-staged-source print-passage', topic.stagedPrompt.text);
         if (topic.stagedReading && mode === 'child' && index === 0 && !hideChildReadingSource) {

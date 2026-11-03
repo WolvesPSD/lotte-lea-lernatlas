@@ -1,4 +1,3 @@
-// Nur intern geprüfte Themen; nicht freigegebene Prüfaufgaben und lokale Quellenpfade sind ausgeschlossen.
 window.LOTTE_CATALOG = Object.freeze({
   "version": 1,
   "status": "familienversion",
@@ -100,6 +99,16 @@ window.LOTTE_CATALOG = Object.freeze({
       "name": "Medienbildung und Informatik",
       "plan": "Gymnasium 2026, Erprobungsfassung; Klasse 7 ab 2026/27, Klasse 8 ab 2027/28",
       "scope": "§ 2.2.1–2.2.6 ausdrücklich Klassenstufe 8; schulische Reihenfolge offen"
+    },
+    {
+      "id": "es",
+      "name": "Spanisch",
+      "schoolModes": [
+        "gymnasium-6"
+      ],
+      "plan": "Gymnasium Klasse 6: amtliche Entwurfsfassung 2025; für 2025/26 belegt",
+      "scope": "Fortgeltung 2026/27 und konkrete Schulbelegung offen. Eigene Klasse-6-Übungen, keine Klasse-7-Jahresabdeckung.",
+      "source": "https://www.schulportal-thueringen.de/tip/resources/medien/65646?dateiname=LP_GY_Spanisch_Entwurfsfassung2025.pdf"
     }
   ],
   "topics": [
@@ -22085,6 +22094,70 @@ window.LOTTE_CATALOG = Object.freeze({
         "gradeBand": "8",
         "competencyRef": "Thüringer MBI-Erprobungsfassung 2026, §2.2.2/PDF-S.25, I2-M1: selbstständig planen, Inhalte recherchieren und verarbeiten sowie Medienprodukt mit geeigneter Hard-/Software erstellen; Zielmarke Ende Klassenstufe 8. Einzelner freiwilliger, begrenzter Produktweg, keine aktuelle Unterrichtsfolge oder vollständige M1-Praxis belegt.",
         "checkedAt": "2026-10-27"
+      }
+    },
+    {
+      "id": "es6-mochila-tres-frases",
+      "subjectId": "es",
+      "title": "Una mochila imaginaria: drei eigene Sätze",
+      "scope": "Spanisch-Übung für Gymnasium Klasse 6. Das Thüringer Klasse-6-Ziel ist für 2025/26 belegt; die amtliche Fortgeltung 2026/27 und die Unterrichtsfolge an deiner Schule sind noch offen. Diese Übung ist keine bestätigte Pflichtaufgabe und zählt nicht zu Klasse 7.",
+      "schoolModes": [
+        "gymnasium-6"
+      ],
+      "levelStatus": "grade6",
+      "grade6Label": "Gymnasium · Klasse 6 · Unterrichtsfolge offen",
+      "released": true,
+      "prerequisite": "Spanisch für Gymnasium Klasse 6: Die Unterrichtsfolge und Lehrplangeltung 2026/27 sind noch offen. Alles ist erfunden. Benutze keine echten Namen, Schulsachen oder persönlichen Angaben. Schreibe selbst drei kurze spanische Sätze. Die 8 Lernpunkte helfen beim Prüfen, sind keine Schulnote. Offene spanische Texte werden von einer erwachsenen Person beurteilt; die App kann sie nicht automatisch bewerten.",
+      "introduction": "Eine neue Mitschülerin möchte wissen, was in deinem erfundenen Rucksack steckt. Lies den spanischen Auftrag. Den spanischen Auftrag und die Wortstütze kannst du dir langsam anhören. Die deutsche Erklärung hilft dir beim Verstehen; deine drei Sätze schreibst du auf Spanisch.",
+      "passage": "Escribe tres frases para presentar tu mochila imaginaria a una nueva compañera. Elige dos objetos. Añade un color para la mochila o para uno de los objetos. No escribas datos personales.\n\nWortstütze: mi mochila = mein Rucksack · hay = es gibt · tengo = ich habe · un libro = ein Buch · un cuaderno = ein Heft · un lápiz = ein Bleistift · una goma = ein Radiergummi · rojo/roja = rot · azul = blau · verde = grün · y = und · también = auch.\n\nDeutsch: Schreibe drei einfache spanische Sätze über deinen erfundenen Rucksack. Nenne zwei Gegenstände und eine Farbe für den Rucksack oder einen Gegenstand. Schreibe keine echten persönlichen Angaben.",
+      "tasks": [
+        {
+          "id": "es6-mochila-a",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "A · Drei eigene spanische Sätze (6 Lernpunkte): Satz 1 nennt etwas in deinem erfundenen Rucksack. Satz 2 nennt einen zweiten Gegenstand. Satz 3 nennt eine Farbe des Rucksacks oder eines Gegenstands. Du darfst die Wortstütze verwenden und eigene passende Wörter ergänzen.",
+          "sample": "En mi mochila hay un libro. También tengo un cuaderno. Mi cuaderno es azul. Deutsch: In meinem Rucksack ist ein Buch. Ich habe auch ein Heft. Mein Heft ist blau. Andere verständliche eigene Sätze mit zwei Gegenständen und einer zugeordneten Farbe zählen ebenso.",
+          "criteria": [
+            "Je 1 Punkt für jeden der drei verständlichen einfachen spanischen Sätze (3 Punkte). Kleine Schreibfehler ohne Bedeutungsverlust als Lernhinweis behandeln.",
+            "Je 1 Punkt für zwei unterscheidbare Gegenstände und 1 Punkt für eine verständlich dem Rucksack oder einem Gegenstand zugeordnete Farbe (3 Punkte). Sinnvolle Wörter ausserhalb der Stütze gelten ebenfalls."
+          ]
+        },
+        {
+          "id": "es6-mochila-b",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 3,
+          "inputRows": 3,
+          "adultOnlySolution": true,
+          "prompt": "B · Ein Wort prüfen (1 Lernpunkt): Wähle ein spanisches Wort aus deinen drei Sätzen. Vergleiche seine Schreibung mit der Wortstütze oder einem anderen bekannten Wort. Notiere das Wort, womit du verglichen hast, und ob du etwas verbessert hast.",
+          "sample": "Beispiel: Ich habe „cuaderno“ in Satz 2 mit „un cuaderno“ aus der Wortstütze verglichen. Die Schreibung passt. Eine konkrete Korrektur ist genauso gültig.",
+          "criteria": [
+            "1 Punkt für ein benanntes Wort aus dem eigenen Text mit nachvollziehbarem Vergleich oder konkreter Korrektur. Bloss „geprüft“ ohne Stelle reicht nicht."
+          ]
+        },
+        {
+          "id": "es6-mochila-c",
+          "kind": "reflection",
+          "points": 1,
+          "writingLines": 3,
+          "inputRows": 3,
+          "adultOnlySolution": true,
+          "prompt": "C · Farbe prüfen (1 Lernpunkt): Zu welchem Wort in deinem Text gehört die Farbe: zum Rucksack oder zu welchem Gegenstand? Nenne die Stelle und verbessere deinen Satz, falls die Zuordnung unklar ist.",
+          "sample": "Beispiel: „azul“ gehört in Satz 3 zu „mi cuaderno“. Bei einer anderen sinnvollen Farbe am Rucksack oder an einem Gegenstand gilt dieselbe Prüfung.",
+          "criteria": [
+            "1 Punkt für eine benannte und geprüfte Farbzuordnung im eigenen Satz; eine begründete Verbesserung zählt ebenfalls. Die Farbe darf zum Rucksack oder zu einem Gegenstand gehören."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "Gymnasium Klasse 6 2025/26 belegt; 2026/27 offen",
+        "gradeBand": "6",
+        "competencyRef": "Spanisch Gymnasium 2025, §2.1.4, PDF-S. 16: sehr einfache Texte verfassen und Geschriebenes prüfen",
+        "primarySha256": "0C40ADBFF8263B61694711AC25DD673B336C92AA0019BA369FED273990AC3019",
+        "checkedAt": "2026-11-03"
       }
     }
   ]

@@ -961,5 +961,33 @@ window.LOTTE_LANGUAGE_SUPPORT = Object.freeze({
       "fixedReadAloudDe": []
     },
     "clips": []
+  },
+  "es6-mochila-tres-frases": {
+    "draft": false,
+    "audioPending": false,
+    "translations": {
+      "initialDe": [
+        "Spanischer Auftrag: Schreibe drei Sätze, um einer neuen Mitschülerin deinen erfundenen Rucksack vorzustellen. Wähle zwei Gegenstände. Ergänze eine Farbe für den Rucksack oder einen der Gegenstände. Schreibe keine persönlichen Angaben.",
+        "Wortstütze: mi mochila = mein Rucksack; hay = es gibt; tengo = ich habe; un libro = ein Buch; un cuaderno = ein Heft; un lápiz = ein Bleistift; una goma = ein Radiergummi; rojo/roja = rot; azul = blau; verde = grün; y = und; también = auch."
+      ],
+      "afterPredictionDe": [],
+      "afterMainDe": [],
+      "adultSolutionDe": [
+        "Muster und Übersetzung stehen nur in den getrennten Erwachsenenlösungen der drei Aufgaben. Verständliche andere Eigenformulierungen mit zwei Gegenständen und einer Farbe gelten ebenfalls."
+      ],
+      "fixedReadAloudDe": []
+    },
+    "clips": [
+      {
+        "phase": "initial",
+        "label": "Spanischen Auftrag",
+        "path": "assets/es6-mochila-auftrag.wav"
+      },
+      {
+        "phase": "task:es6-mochila-a",
+        "label": "Spanische Wortstütze",
+        "path": "assets/es6-mochila-wortstuetze.wav"
+      }
+    ]
   }
 });

@@ -22571,6 +22571,140 @@ window.LOTTE_CATALOG = Object.freeze({
         "competencyRef": "Mathematik-Erprobungsfassung Gymnasium 2026, SHA-256 91838D21BB7035A3E30890E837A47425B3766F3A38066AF6559F167AFC399D26: PDF-S.2 Klasse 7 ab 2026/27, Klasse 8 ab 2027/28; §2.2.1/PDF-S.24 M1 ausdrücklich Ziel Klassenstufe 8, einschliesslich Futtervorrat. PDF-S.23 direkte Proportionalität Klasse 6. Manuskripte/enge QA vom 03.11.2026; Unabhängiger Text-/Logikabgleich sowie lokale Browser- und Druckprüfung; keine externe Fach- oder Kinderabnahme. NCETM stützt nur konstantes Produkt und Darstellungswechsel, keine Thüringer Alterszuordnung. Papierblatt belegt keine MBI-Bedienung oder MNT-7-Zuordnung.",
         "checkedAt": "2026-11-03"
       }
+    },
+    {
+      "id": "de-s2-m02-mondphasen-quellensuche",
+      "subjectId": "de",
+      "title": "Eine Mondfrage finden, ordnen und erklären",
+      "schoolModes": [
+        "gymnasium"
+      ],
+      "levelStatus": "grade8-outlook",
+      "levelLabel": "Ende Klasse 8 · freiwilliger Vorgriff",
+      "released": true,
+      "scope": "Ausblick auf ein Deutschziel bis Ende Klasse 8. Du kannst die Aufgabe schon in Klasse 7 versuchen. Ob und wann ihr das in der Schule behandelt, ist offen.",
+      "prerequisite": "Eine erwachsene Person gibt dir Gerät und Quelle frei. Du brauchst einen lesbaren digitalen Text und für B eine freiwillig zuhörende Person. Kein Konto, keine Installation, kein Upload und keine Aufnahme deiner Stimme.",
+      "introduction": "Deine Frage lautet: Warum sehen wir den Mond mal rund und mal als Sichel? Suche selbst die passende Textstelle auf der freigegebenen Seite. Du kannst Überschriften prüfen, scrollen oder die Textsuche benutzen. Notiere deinen eigenen Weg. Bilder und Video brauchst du nicht. Wenn die Seite nicht erreichbar ist, halte das fest und frage nach einer freigegebenen Ersatzquelle. Eine fertige Zusammenfassung gilt nicht als eigene Suche. A hat acht schriftliche Kriterienpunkte; B hat zwölf getrennte Punkte nur nach wirklichem Zuhören. Die Punkte sind Lernfeedback, keine Schulnote. Die App bewertet offene Antworten, deine Recherche und dein Sprechen nicht automatisch.",
+      "sourceCards": [
+        {
+          "title": "Deine Textquelle · DLR_next",
+          "text": "Öffne den Text und finde selbst die Stelle oder Stellen zu deiner Frage. Du musst keine Bilder oder Videos ansehen und keine persönliche Angabe machen. Die App kann nicht bestätigen, dass du die Quelle selbst gelesen hast.",
+          "sourceLabel": "Die Mondphasen im Obst-Planetarium · Originalseite",
+          "sourceUrl": "https://www.dlr.de/de/next/raumfahrt/sonnensystem/mission-apollo-11-mond-special/was-man-ueber-den-mond-wissen-sollte/die-mondphasen-im-obst-planetarium",
+          "sourceNote": "Öffentliche Sachquelle auf Deutsch. Prüfe bei deiner Bearbeitung, ob die Seite erreichbar und lesbar ist; notiere das tatsächliche Abrufdatum."
+        }
+      ],
+      "passage": "Bereite eine kurze Erklärung für eine andere Person vor. Du brauchst keine eigene Mondbeobachtung und keine privaten Daten. Nutze die vier Felder, um deine Erklärung vorzubereiten.",
+      "tasks": [
+        {
+          "id": "de-s2-m02-mond-a1",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "A1 · Quelle und Fundstelle (2 Punkte): Notiere Herausgeber, Seitentitel und wo du die Antwort im Text gefunden hast. Welche Wörter oder Schritte haben dich dorthin geführt? Halte Quelle, Fundstelle und deinen Suchweg fest. Wenn der Zugang nicht klappt, beschreibe den Abbruch statt eine Fundstelle zu erfinden.",
+          "sample": "DLR_next und Seitentitel „Die Mondphasen im Obst-Planetarium“ (1); nachvollziehbare Textstelle, etwa der zusammenfassende Absatz zur Bestrahlung des Mondes (1). Bei freigegebener Ersatzquelle deren wirkliche Angaben und Fundstelle werten. Der Suchweg wird beobachtet bzw. als nicht gesehen kenntlich gemacht; ein eingetragener Weg allein beweist die Handlung nicht.",
+          "criteria": [
+            "1 Punkt für passenden Herausgeber und Seitentitel.",
+            "1 Punkt für eine nachvollziehbare, zur Frage passende Fundstelle. Tatsächlichen Suchweg und Hilfe getrennt beobachten; keine erfundene Recherche werten."
+          ]
+        },
+        {
+          "id": "de-s2-m02-mond-a2",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "A2 · Zwei eigene Sachnotizen (2 Punkte): Notiere in eigenen Worten zwei verschiedene Gedanken, die zur Frage passen. Halte zu jedem Gedanken fest, was du aus der Quelle entnimmst und wo du es ungefähr gefunden hast. Kopiere keine Bilder oder längeren Sätze.",
+          "sample": "Sonnenlicht beleuchtet ungefähr eine Hälfte des Mondes (1). Während der Mond die Erde umkreist, sehen wir von der Erde verschieden viel dieser beleuchteten Hälfte (1). Eigene treffende Worte und passenden Quellenbezug prüfen. Die Umlaufzahl und der Phasenzyklus sind verschiedene Zeitgrössen; Zahlen sind zur Kernantwort nicht erforderlich.",
+          "criteria": [
+            "1 Punkt für die ungefähr zur Hälfte sonnenbeleuchtete Mondkugel in eigenen passenden Worten.",
+            "1 Punkt für den beim Umlauf veränderten Blick von der Erde auf die beleuchtete Hälfte. Quelle/Notizweg prüfen; keine auswendig wiederholte Erwachsenenlösung ohne eigenen Quellenweg als eigene Arbeit werten."
+          ]
+        },
+        {
+          "id": "de-s2-m02-mond-a3",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "A3 · Ordnen (2 Punkte): Nummeriere deine beiden Notizen so, dass eine andere Person die Antwort versteht. Verbinde sie knapp, zum Beispiel mit „Zuerst …, deshalb …“. Erkläre, weshalb deine Reihenfolge hilft.",
+          "sample": "Eine mögliche Reihenfolge beginnt mit Licht und beleuchteter Hälfte und erklärt danach den Umlauf und den veränderten Erdblick (1). Eine passende Begründung ist, dass so die Ursache vor der sichtbaren Folge klar wird (1). Andere sachlich verständliche Ordnungen sind gleichwertig.",
+          "criteria": [
+            "1 Punkt für eine sachlich verständliche Reihenfolge und Verbindung der beiden Notizen.",
+            "1 Punkt für eine nachvollziehbare Begründung dieser Ordnung; nicht allein die Musterreihenfolge verlangen."
+          ]
+        },
+        {
+          "id": "de-s2-m02-mond-a4",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "A4 · Verdichten (2 Punkte): Formuliere aus deinen Notizen höchstens drei Stichworte oder kurze Satzteile für deine mündliche Antwort. Nenne eine Angabe auf der Seite, die du für deine Antwort weglässt, und erkläre warum.",
+          "sample": "Höchstens drei geeignete Stichworte oder Satzteile, etwa „Sonne beleuchtet Hälfte – Mond läuft um Erde – wir sehen verschieden viel Helles“ (1). Eine entbehrliche Seitenangabe wird genannt und das Weglassen begründet, etwa die Erdumdrehung in 24 Stunden, die die enge Frage nicht beantwortet (1). Es ist keine Änderung an der fremden Webseite verlangt.",
+          "criteria": [
+            "1 Punkt für höchstens drei passende Stichworte oder kurze Satzteile, die die Kernantwort tragen.",
+            "1 Punkt für eine tatsächlich entbehrliche Seitenangabe samt schlüssiger Begründung des Weglassens."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "B · Eine kurze Erklärung frei sprechen",
+        "observationMax": 12,
+        "observationLabel": "wirklich gehörte freie Erklärung",
+        "childNote": "B zählt nur, wenn dir wirklich eine Person zuhört. Ohne Zuhören bleibt B „nicht erhoben“, nicht null. Die acht schriftlichen Punkte aus A bleiben davon getrennt; ohne gehörte Erklärung gibt es keine vergleichbare Gesamtsumme von 20 Punkten. Die App zeichnet deine Stimme nicht auf.",
+        "childSteps": [
+          "Frage eine freiwillig zuhörende Person, ob du ihr die Mondfrage kurz erklären darfst.",
+          "Erkläre die Frage in ungefähr einer Minute mithilfe deiner Stichworte oder kurzen Satzteile aus A4. Lies keinen abgeschriebenen Absatz vor. Die genaue Sekundenzahl zählt nicht.",
+          "Nenne kurz die Seite, die du benutzt hast. Bleibe bei dem, was deine Quelle stützt.",
+          "Die Person darf danach eine Rückfrage stellen. Halte auf Papier fest, was du bei einer zweiten Erklärung ändern würdest. Eine zweite Rede ist keine Pflicht.",
+          "Wenn niemand zuhört oder du nur die Vorbereitung machst, bleibt B nicht erhoben. Ein vorbereiteter Ausdruck kann beim Erklären helfen; er belegt keine eigene digitale Suche."
+        ],
+        "adultNote": "A wird getrennt mit acht schriftlichen Punkten geprüft. B umfasst sechs gehörte Kriterien mit je 0–2 Punkten, höchstens zwölf. Ohne echte Erklärung B nicht erhoben statt 0/12; dann keine Gesamtsumme /20 bilden. Eine richtige Rede beweist nicht, dass die digitale Recherche selbstständig erfolgte.",
+        "adultGuide": [
+          "Prozessbeobachtung getrennt und ohne zusätzliche Punkte festhalten: Seite selbst geöffnet; passende Textstelle selbst gefunden; zwei eigene Notizen erstellt; Notizen geordnet und auf höchstens drei Stichworte oder Satzteile verdichtet. Je Schritt selbst / mit Hilfe / nicht gesehen sowie konkrete Lese- oder Navigationshilfe notieren. Keine persönlichen Gerätepfade oder Aufnahmen sammeln.",
+          "Je Sprechkriterium: 2 = hörbar erfüllt mit konkretem Beleg; 1 = teilweise oder mit dokumentierter Hilfe; 0 = trotz fairer Gelegenheit nicht gezeigt. Ohne wirkliche Erklärung nicht erhoben. Dialekt oder Akzent allein ist kein Fehler. Quellenzugang und Fremdwörter dürfen erklärt werden; Suchweg, Notizen und Verdichtung nicht vorsagen.",
+          "Nach der Erklärung eine klare Stärke und einen nächsten Schritt nennen. Eine Rückfrage ist möglich, keine zusätzliche Fachprüfung oder Pflicht zu einer zweiten Rede. Nur tatsächlich Gehörtes notieren; ein Textfeld oder Linkklick belegt keine Recherche oder Rede.",
+          "Fachlicher Kontrollhinweis: Die etwa 27 Tage Mondumlauf bei DLR und etwa 29,5 Tage Phasenzyklus bei NASA sind nicht austauschbar. Für die enge Frage werden keine Zahlen benötigt. Auf den wechselnden Erdblick auf die sonnenbeleuchtete Hälfte achten, nicht vermeintliches tägliches Wachsen des Mondkörpers.",
+          "Die getrennte Variantenkarte erst nach A und der wirklich gehörten Erklärung B ausgeben. Ohne B bleibt sie zurückgestellt. Der Link ist nur eine manuelle Ausgabehilfe, kein Nachweis, dass gesprochen wurde. Variante getrennt mit 3 schriftlichen und 3 Live-Punkten, niemals zu den Hauptpunkten addieren."
+        ],
+        "adultCriteria": [
+          "0–2 Punkte: Frage und Antwort sind für die zuhörende Person erkennbar.",
+          "0–2 Punkte: Sonnenlicht und beleuchtete Hälfte werden sachlich richtig erklärt.",
+          "0–2 Punkte: Der veränderte Erdblick beim Mondumlauf wird sachlich richtig erklärt.",
+          "0–2 Punkte: Beide Gedanken sind verständlich geordnet und verbunden.",
+          "0–2 Punkte: Die Erklärung ist auf die Frage verdichtet, überwiegend in eigenen Worten und ohne unnötige Zahlen.",
+          "0–2 Punkte: Die Quelle wird genannt; Lautstärke, Aussprache und Tempo sind verständlich."
+        ],
+        "handouts": [
+          {
+            "label": "Spätere Variantenkarte für das Kind · erst nach gehörter Erklärung B ausgeben",
+            "path": "assets/de-mondphasen-variante.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-mondphasen-variante.pdf"
+          }
+        ],
+        "adultSupplementalTitle": "Spätere Variante · 3 schriftliche +3 Live-Punkte",
+        "adultSupplementalNote": "Erst nach A/B separat ausgeben. Ohne gehörte Zusatzantwort die drei Live-Punkte nicht erhoben, keine 0. Schriftliche und gehörte Leistung getrennt notieren.",
+        "adultSupplementalCriteria": [
+          "Schriftlich 1 Punkt: Der Mondkörper selbst schrumpft nicht.",
+          "Schriftlich 1 Punkt: Die sichtbare helle Fläche ändert sich durch den Blick auf die beleuchtete Hälfte beim Umlauf.",
+          "Schriftlich 1 Punkt: Höchstens zwei geeignete Stichworte und eine freundliche, für eine jüngere Person verständliche Antwortidee.",
+          "Live 1 Punkt nur gehört: freundliche Ansprache.",
+          "Live 1 Punkt nur gehört: richtige kurze Ursache.",
+          "Live 1 Punkt nur gehört: verständliche Antwort ohne zusätzliche unbelegte Behauptung."
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "checkedAt": "2026-11-03",
+        "competencyRef": "Deutsch-Gymnasium-Erprobungsfassung 2026, §2.2.3/PDF-S.28: Informationen mediengestützt einholen, ordnen und verdichten, Ziel bis Ende Klasse 8. PDF-S.2: Klasse 7 ab 2026/27. Tatsächliche Unterrichtsfolge offen. Enger Quellen-/Manuskript-/Rubriknachcheck vorhanden, Unabhängiger Quellen-/Rubrik-/Ableitungscheck sowie lokale Browser-/Druckprüfung; keine Kinder-, externe Fach- oder Jahresabnahme."
+      }
     }
   ]
 });

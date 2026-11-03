@@ -1,8 +1,8 @@
 {
-  "builtAt": "2026-11-03T17:19:05.263Z",
-  "releaseVersion": "2026.11.03-m1futter.1",
+  "builtAt": "2026-11-03T17:31:26.919Z",
+  "releaseVersion": "2026.11.03-demond.1",
   "newTopicIds": [
-    "ma-m1-futtervorrat"
+    "de-s2-m02-mondphasen-quellensuche"
   ],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
@@ -46,9 +46,10 @@
     "Englisch-Formular: Deutsche Erwachsenenübersicht nennt B10 E-Mail und B11 Platzzusage ausdrücklich als nicht angegeben sowie B12 Karte 2 als Terminquelle. Karte 3 ändert nur den Raum. Aufgaben, Punkte und sämtliche Audios unverändert.",
     "Deutsch Der rote Faden: Vier getrennte PDF-Karten für Erwachsenen-Ausgabe ergänzen Vorabfragen, Wortklärung, Sinnabschnitte und eigene Belegkarte. Bei bekanntem Text vier Vorabpunkte nicht erhoben; 16 Methodenpunkte und sechs spätere Punkte getrennt. Keine neue Geschichte oder Topic-ID.",
     "Vier Textstellen präzisiert: Nila-Dativ, eindeutiger Gruppenbezug im Erwachsenen-Beschwerdemuster sowie je ein Punkt pro richtigem N-/P-Gestaltungsmittel. Aufgaben und Punkte unverändert.",
-    "Mathematik: Futtervorrat mit Bestandswechsel, 20 Hauptpunkten und 6 getrennten Variantenpunkten. Klasse-8-Ausblick; Papierzeichnung nur am tatsächlichen Werk prüfen. Keine zusätzliche Jahresabdeckung."
+    "Mathematik: Futtervorrat mit Bestandswechsel, 20 Hauptpunkten und 6 getrennten Variantenpunkten. Klasse-8-Ausblick; Papierzeichnung nur am tatsächlichen Werk prüfen. Keine zusätzliche Jahresabdeckung.",
+    "Deutsch: eigene Fundstellensuche, Notizen, Ordnung und kurze freie Mondphasen-Erklärung. 8 schriftliche und12 nur gehörte Punkte; spätere Kinderkarte nur für manuelle Erwachsenenausgabe,3+3 Zusatzpunkte getrennt. Klasse-8-Ausblick, offene Schulfolge."
   ],
-  "rollbackCommit": "041cec2e08f951b3b420a008bdffa9517eccbc93",
+  "rollbackCommit": "a85bd86eb413dc8bc6e051ca746eaaf476d7178b",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -262,7 +263,8 @@
     "es6-mochila-tres-frases",
     "es6-nachricht-aendern",
     "ma-pythagoras-vier-dreiecke-beweis",
-    "ma-m1-futtervorrat"
+    "ma-m1-futtervorrat",
+    "de-s2-m02-mondphasen-quellensuche"
   ],
   "subjects": [
     "en",
@@ -377,5 +379,5 @@
     "es6-mochila-tres-frases",
     "es6-nachricht-aendern"
   ],
-  "note": "213 Themen/997 Antwortfelder. Die 212 bisherigen Themen unverändert; unabhängiger Ableitungsabgleich bestanden. Paket-/Browserprüfung320/390/1280 und neun normale A4-Seiten gesichtet. Klasse-8-Ausblick, keine zusätzliche Jahresabdeckung, privaten Daten oder Audioänderungen. Online-Nachweis separat."
+  "note": "214 Themen/1001 Antwortfelder; 213 bisherige Themen unverändert. Unabhängige Text-/Logik-/Variantenprüfung bestanden; Browser320/390/1280, getrennte Profile, Wiederaufnahme und sechs normale A4-Seiten geprüft. Keine Aufnahme, private Quellen oder neue Fremdmedien. Praxis nur tatsächlich beobachten; Klasse-8-Ausblick und keine Jahresvollständigkeit. Online-Nachweis separat."
 }

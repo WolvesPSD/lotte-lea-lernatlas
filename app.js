@@ -1132,7 +1132,7 @@
       }
     }
     if (adult && practice.handouts) {
-      appendText(section, 'p', 'muted', 'Getrennte Karten nur zur passenden Phase ausgeben; die Links enthalten keine Erwachsenenlösung.');
+      appendText(section, 'p', 'muted', practice.handoutsNote || 'Getrennte Karten nur zur passenden Phase ausgeben; die Links enthalten keine Erwachsenenlösung.');
       for (const handout of practice.handouts) {
         const link = create('a', 'lab-open');
         link.href = handout.path;

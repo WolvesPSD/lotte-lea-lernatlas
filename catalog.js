@@ -10165,7 +10165,21 @@ window.LOTTE_CATALOG = Object.freeze({
           "Sie begründete eine eigene Plausibilitätskontrolle mit Rechenweg, Überschlag oder Vergleichswert.",
           "Eine nötige Rückfrage zum Tastenweg bezog sich ausschliesslich auf das konkrete Gerät und erfolgte erst nach dem ersten eigenen Versuch."
         ],
-        "unscored": true
+        "unscored": true,
+        "childHandouts": [
+          {
+            "path": "assets/m2-rechner-kind.pdf",
+            "label": "Leeres Rechnerblatt als PDF öffnen"
+          }
+        ],
+        "childHandoutsNote": "Freiwilliges Arbeitsblatt ohne Kontrollwerte. Nutze nur eine vertraute Rechnung.",
+        "handouts": [
+          {
+            "path": "assets/m2-rechner-erwachsene.pdf",
+            "label": "Getrennten Beobachtungsbogen für Erwachsene öffnen"
+          }
+        ],
+        "handoutsNote": "Dieser Bogen enthält Kontrollwerte und bleibt bei der erwachsenen Person. Nur tatsächlich Beobachtetes eintragen."
       },
       "tasks": [
         {

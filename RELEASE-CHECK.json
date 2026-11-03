@@ -1,6 +1,6 @@
 {
-  "builtAt": "2026-11-03T08:05:23.479Z",
-  "releaseVersion": "2026.11.03-m2druck.2",
+  "builtAt": "2026-11-03T08:21:21.383Z",
+  "releaseVersion": "2026.11.03-m2druck.3",
   "newTopicIds": [],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
@@ -34,9 +34,10 @@
     "Musik-Statuskorrektur: Das amtliche Medienobjekt nennt die Fassung ausdrücklich Entwurf 2026. PDF-S. 2 sieht Klasse 7 ab 2026/27 vor; eine separate aktuelle Geltungsbestätigung ist noch nicht belegt. Fachkopf und zwei ältere Übungen nennen die Unsicherheit jetzt ausdrücklich. Keine Aufgabe oder Lösung geändert.",
     "Gymnasium Klasse 6 als eigener, derzeit noch leerer Bereich: Themen nur nach ausdrücklicher Fach-/Jahrgangsfreigabe. Klasse-7-Antworten und Sicherungen bleiben getrennt; beide Jahrgänge weisen Kreuzimporte ab. Die Datenschutztexte benennen die herunterladbare private Sicherungsdatei ausdrücklich. Keine Spanisch-Aufgabe oder andere unveröffentlichte Forschungsdatei hochgeladen.",
     "Eigenes Spanisch-Fach im Gymnasium-6-Modus mit einem geprüften Drei-Sätze-Schreibfall, vollständiger deutscher Erwachsenenhilfe und zwei langsam gesprochenen Hörhilfen. Lehrplangeltung 2026/27 und konkrete Schulbelegung bleiben offen; keine Klasse-7-Abdeckung.",
-    "Optionale getrennte PDF-Druckblätter zur bestehenden unbewerteten M2-Rechnerpraxis; keine neue Themen-ID oder beobachtete Kinderleistung."
+    "Optionale getrennte PDF-Druckblätter zur bestehenden unbewerteten M2-Rechnerpraxis; keine neue Themen-ID oder beobachtete Kinderleistung.",
+    "M2-Druckfehler behoben: keine sachfremde Sprech-/Feedbackrunde, keine undefined-Adresse oder falscher Hinweis auf lösungsfreien Erwachsenenbogen."
   ],
-  "rollbackCommit": "2a9a744f383c2e26cf1c4f4c738260141b4ba3b5",
+  "rollbackCommit": "f57ac0c38b5e079dcf80231e58a5c1ac892e09f7",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -361,5 +362,5 @@
     "go-g01-beleuchtungszonen",
     "es6-mochila-tres-frases"
   ],
-  "note": "210 Themen/983 Antwortfelder. Nur zwei getrennte PDF-Drucklinks am bestehenden M2-Thema und der passende Erwachsenenhinweis ergänzt. Aufgaben, Lösungen und alle übrigen 209 Themen unverändert; keine reale Rechnerbedienung oder neue Jahresabdeckung bestätigt."
+  "note": "210 Themen/983 Felder unverändert. Nur PDF-Druckhinweise der bestehenden M2-Rechnerpraxis korrigiert: gültige Adressen, sachgerechter Kinderhinweis, Erwachsenenbogen mit Kontrollwerten. Keine neue Praxisleistung."
 }

@@ -10169,17 +10169,20 @@ window.LOTTE_CATALOG = Object.freeze({
         "childHandouts": [
           {
             "path": "assets/m2-rechner-kind.pdf",
-            "label": "Leeres Rechnerblatt als PDF öffnen"
+            "label": "Leeres Rechnerblatt als PDF öffnen",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/m2-rechner-kind.pdf"
           }
         ],
         "childHandoutsNote": "Freiwilliges Arbeitsblatt ohne Kontrollwerte. Nutze nur eine vertraute Rechnung.",
         "handouts": [
           {
             "path": "assets/m2-rechner-erwachsene.pdf",
-            "label": "Getrennten Beobachtungsbogen für Erwachsene öffnen"
+            "label": "Getrennten Beobachtungsbogen für Erwachsene öffnen",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/m2-rechner-erwachsene.pdf"
           }
         ],
-        "handoutsNote": "Dieser Bogen enthält Kontrollwerte und bleibt bei der erwachsenen Person. Nur tatsächlich Beobachtetes eintragen."
+        "handoutsNote": "Dieser Bogen enthält Kontrollwerte und bleibt bei der erwachsenen Person. Nur tatsächlich Beobachtetes eintragen.",
+        "childHandoutsPrintNote": "Freiwilliges Rechnerblatt ohne Kontrollwerte separat öffnen und drucken:"
       },
       "tasks": [
         {

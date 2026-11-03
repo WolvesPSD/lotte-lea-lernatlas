@@ -251,7 +251,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "writingLines": 5,
           "inputRows": 7,
           "adultOnlySolution": true,
-          "prompt": "A2 · Nachricht an Ben (6 Hauptpunkte): Schreibe zwei bis drei englische Sätze mit Anrede. Nenne Freitag um 16 Uhr und den Eingang. Umschreibe den Treffgegenstand dort so, dass Ben seinen Pfeil zur Turnhalle erkennt. Verwende das fehlende englische Einzelwort nicht.",
+          "prompt": "A2 · Nachricht an Ben (6 Hauptpunkte): Schreibe zwei bis drei englische Sätze mit Anrede. Nenne Freitag um 16 Uhr und den Eingang. Umschreibe den Gegenstand am Eingang. Erwähne auch den Pfeil zur Turnhalle, damit Ben den Treffpunkt erkennt. Verwende das fehlende englische Einzelwort nicht.",
           "sample": "Hi Ben, meet me on Friday at 4 pm by the thing with an arrow to the gym. It is next to the entrance.",
           "criteria": [
             "1 Punkt: Ben ist als Adressat erkennbar.",
@@ -14757,7 +14757,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "levelStatus": "additional-unclear",
       "released": true,
       "prerequisite": "Alle Orte A–E und R/S sind erfunden. Nutze nur die gerundeten Modellgrenzen 23,5° und 66,5°. Du brauchst kein eigenes Foto oder Ortswissen. Die 20 Hauptpunkte und 6 getrennten Zusatzpunkte sind Lernfeedback, keine Schulnote; offene Antworten beurteilt ein Mensch.",
-      "introduction": "Leite aus Achsneigung und Breitengrad ab, in welcher Beleuchtungszone ein Modellort liegt und wo die Sonne im Zenit stehen kann. Trenne diese Sonnengeometrie von Wetter, Niederschlag und Vegetation. Bearbeite A–E zuerst; eine neue Karte wird erst danach freigegeben.",
+      "introduction": "Leite aus Achsneigung und Breitengrad ab, in welcher Beleuchtungszone ein Modellort liegt und wo die Sonne im Zenit stehen kann. Trenne diese Sonnengeometrie von Wetter, Niederschlag und Vegetation. Bearbeite zuerst A–E und besprich deine Antworten mit einer erwachsenen Person. Bestätige dieses Gespräch danach mit dem Häkchen. Erst dann kannst du die Zusatzkarte öffnen.",
       "sourceCards": [
         {
           "title": "Modellkarte · Sonnenlicht und Breiten",

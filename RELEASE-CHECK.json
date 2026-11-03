@@ -1,6 +1,6 @@
 {
-  "builtAt": "2026-11-03T09:53:29.732Z",
-  "releaseVersion": "2026.11.03-formhilfe.1",
+  "builtAt": "2026-11-03T10:00:39.803Z",
+  "releaseVersion": "2026.11.03-dl1papier.1",
   "newTopicIds": [],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
@@ -41,9 +41,10 @@
     "Spanisch Klasse6: Leos Nachricht an einen neuen Plan anpassen, drei Aufgaben mit neun Kriterienpunkten. Zwei langsame Aussprachehilfen per Anhören/Stopp und getrennte deutsche Erwachsenenübersetzung. Geltung2026/27 und Schulbelegung offen, keine Klasse7-Abdeckung.",
     "Drei Hinweise verständlicher und genauer: Rückmeldung vor Geografie-Zusatzkarte, Pfeil am Treffgegenstand und schriftliches Gesprächsbeispiel ohne behauptete Durchführung.",
     "Mathematik: allgemeiner Pythagoras-Flächenbeweis mit vier Dreiecken, 20 Haupt- und 6 getrennten Transferpunkten, SVG und Textalternative. Klasse 8-Ausblick ab 2027/28, keine aktuelle Klasse 7-Abdeckung.",
-    "Englisch-Formular: Deutsche Erwachsenenübersicht nennt B10 E-Mail und B11 Platzzusage ausdrücklich als nicht angegeben sowie B12 Karte 2 als Terminquelle. Karte 3 ändert nur den Raum. Aufgaben, Punkte und sämtliche Audios unverändert."
+    "Englisch-Formular: Deutsche Erwachsenenübersicht nennt B10 E-Mail und B11 Platzzusage ausdrücklich als nicht angegeben sowie B12 Karte 2 als Terminquelle. Karte 3 ändert nur den Raum. Aufgaben, Punkte und sämtliche Audios unverändert.",
+    "Deutsch Der rote Faden: Vier getrennte PDF-Karten für Erwachsenen-Ausgabe ergänzen Vorabfragen, Wortklärung, Sinnabschnitte und eigene Belegkarte. Bei bekanntem Text vier Vorabpunkte nicht erhoben; 16 Methodenpunkte und sechs spätere Punkte getrennt. Keine neue Geschichte oder Topic-ID."
   ],
-  "rollbackCommit": "d96b08d3d3aff467081c0784f66d620c788b1c9a",
+  "rollbackCommit": "08024b15ea831304a2842d954de5d419b768d79e",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -371,5 +372,5 @@
     "es6-mochila-tres-frases",
     "es6-nachricht-aendern"
   ],
-  "note": "212 Themen/991 Antwortfelder unverändert. Genau ein deutsches Erwachsenen-Hilfetextfeld ergänzt. Unabhängig abgeglichen, Browser320/390/1280 und vier A4-Seiten geprüft. Keine neue Kompetenzabdeckung oder Kinderleistung."
+  "note": "212 Themen/991 Antwortfelder unverändert. Nur practice am vorhandenen Deutschthema und vier eigene PDF-Dateien ergänzt. Kontrollierte Papier-Ausgabe statt behaupteter digitaler Erstlesesperre; tatsächliches Kinderwerk und Reihenfolge bleiben beobachtungsabhängig. Keine ganze D-L1-/Jahresabdeckung. App-Code, bisherige Aufgaben/Punkte und Audios unverändert."
 }

@@ -6195,6 +6195,54 @@ window.LOTTE_CATALOG = Object.freeze({
         "gradeBand": "7/8",
         "competencyRef": "PDF-S. 2: Inkraftsetzung für Klasse 7 ab 2026/27. § 2.2.2 auf PDF-S. 26–27: literarische Texte, Figurenhandlungen/-motive, Gestaltung und begründete Deutungen unter der Zielmarke Klassenstufe 8. § 3.2 auf PDF-S. 47: Kurzgeschichten als Beispiel in der 7/8-Spalte; in Klasse 5–7 jährlich mindestens eine Ganzschrift.",
         "checkedAt": "2026-10-21"
+      },
+      "practice": {
+        "title": "Leseweg auf Papier: Fragen, Abschnitte und Belegkarte",
+        "childNote": "Wenn du den Text hier schon gelesen hast, ist die Vorbereitung auf Papier ein Rückblick. Die vier Punkte für die Vorbereitung vor dem ersten Lesen werden dann nicht erhoben. Die erwachsene Begleitperson findet die getrennten Karten im Erwachsenenbereich. Die Papierarbeit wird getrennt von den bisherigen Erzählaufgaben besprochen.",
+        "childSteps": [
+          "Für den Rückblick zuerst eine eigene Frage und zwei Vermutungen festhalten. Das ist keine nachträgliche Erstlese-Vorhersage.",
+          "Das Textblatt von der Begleitperson erhalten. Bearbeite Wortklärung und Abschnitte selbst; erst danach die bisherigen Erzählaufgaben und Muster vergleichen.",
+          "Die vier Felder der Belegkarte und den beschrifteten Pfeil wirklich auf Papier oder in einem eigenen Dokument gestalten. Eine Notiz im App-Textfeld ersetzt die Karte nicht.",
+          "Die spätere Variante erst nach der eigenen Hauptarbeit erhalten. Beleggrenzen an der vorgegebenen fremden Karte prüfen."
+        ],
+        "adultNote": "Vier getrennte Druckdateien für die Ausgabe durch Erwachsene. Vor jeder App-Geschichte und bisherigen Analyseaufgabe erfragen, ob die Geschichte bekannt ist. Nur bei unbekanntem Text und tatsächlich vorher ausgefüllter Vorabkarte sind die vier Vorbereitungspunkte erhebbar. Wer das Thema hier bereits gelesen hat, arbeitet rückblickend; vier Punkte nicht erhoben.",
+        "adultGuide": [
+          "Reihenfolge: 1 Vorabkarte ohne Geschichte; 2 Text und Hauptblatt; 3 spätere Variante. Die Lösung bleibt bei Erwachsenen. Erst nach eigener Abschnittbildung und Belegkarte alte App-Aufgaben oder Muster nutzen. Die App sichert diese Papier-Reihenfolge nicht technisch.",
+          "Papierwertung getrennt: vier Vorbereitungspunkte nur bei echter Erstlesegelegenheit; sonst nicht erhoben. 16 Methodenpunkte und sechs Transferpunkte separat. Keine Addition zu den bisherigen Erzählaufgaben und keine Schulnote."
+        ],
+        "adultCriteria": [
+          "Vorbekanntheit und tatsächliche Ausgabe-Reihenfolge dokumentiert; Rückblick nicht als Erstlesen gewertet.",
+          "Eigene Frage/Vermutungen wieder aufgenommen und mit passender Textstelle sowie offener Grenze verglichen.",
+          "Kontextwort mit zwei Textindizien erklärt; zusätzliche Raumbehauptungen begrenzt.",
+          "Drei oder vier lückenlose Sinnabschnitte mit eigenen Überschriften und begründeter Grenze selbst erstellt.",
+          "Eigenes Werk mit vier passenden unterschiedlichen Belegfeldern, Zeilennummern und beschriftetem Beziehungspfeil vorhanden.",
+          "Spätere fremde Karte anhand verbleibender und wegfallender Textbelege überarbeitet."
+        ],
+        "unscored": true,
+        "printObservationFooter": "Dieser App-Bogen enthält keine eigene Punktsumme. Nur erhaltene Papierwerke und beobachtete Reihenfolge anhand der getrennten Erwachsenenlösung werten. Vier Vorabpunkte bei bekanntem Text nicht erhoben; 16 Haupt- und sechs Transferpunkte getrennt. Keine Punkte aus blossen App-Notizen ableiten.",
+        "handoutsNote": "Die ersten drei Dateien werden nacheinander ausgegeben; Datei 4 enthält Lösungen und bleibt bei Erwachsenen. Die öffentlich erreichbaren PDFs sind durch diese Linktrennung nicht zugriffsgeschützt.",
+        "handouts": [
+          {
+            "path": "assets/de-dl1-vorabkarte.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-dl1-vorabkarte.pdf",
+            "label": "1 · Vorabkarte vor dem Text öffnen"
+          },
+          {
+            "path": "assets/de-dl1-kinderblatt.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-dl1-kinderblatt.pdf",
+            "label": "2 · Textblatt und leere Belegkarte öffnen"
+          },
+          {
+            "path": "assets/de-dl1-variante.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-dl1-variante.pdf",
+            "label": "3 · Spätere Variante öffnen"
+          },
+          {
+            "path": "assets/de-dl1-erwachsenenloesung.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-dl1-erwachsenenloesung.pdf",
+            "label": "4 · Lösung nur für Erwachsene öffnen"
+          }
+        ]
       }
     },
     {

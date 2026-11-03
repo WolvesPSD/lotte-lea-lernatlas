@@ -22447,6 +22447,130 @@ window.LOTTE_CATALOG = Object.freeze({
         "primarySha256": "91838D21BB7035A3E30890E837A47425B3766F3A38066AF6559F167AFC399D26",
         "checkedAt": "2026-11-03"
       }
+    },
+    {
+      "id": "ma-m1-futtervorrat",
+      "subjectId": "ma",
+      "title": "Reicht der Futtervorrat?",
+      "schoolModes": [
+        "gymnasium"
+      ],
+      "levelStatus": "grade8-outlook",
+      "levelLabel": "Klasse 8 · Ausblick bis Ende Klasse 8",
+      "released": true,
+      "scope": "Ausblick auf Klasse 8. Du kannst die Aufgabe schon in Klasse 7 versuchen, wenn dir die Grundlagen vertraut sind. Ob und wann ihr das in der Schule behandelt, ist offen.",
+      "prerequisite": "Du brauchst Multiplikation und Division mit positiven ganzen Zahlen. Du solltest Wertetabellen lesen und Punkte in ein Koordinatensystem eintragen können. Lege Papier für die Zeichnung bereit und zeige sie einer erwachsenen Person. Wenn dir direkte und umgekehrte Proportionalität noch nicht vertraut sind, kläre die Wörter vor Aufgabe B. Eine erwachsene Person prüft offene Antworten.",
+      "introduction": "Alle Zahlen und Tiere sind erfunden; keine Fütterungsempfehlung. Erst ohne Taschenrechner arbeiten; spätere Nutzung mit Zweck notieren. Rechnungen mit Einheiten zeigen. A–E: 20 Kriterienpunkte als Lernfeedback, keine Schulnote; spätere Variante: sechs getrennte Zusatzpunkte. Lösungen bleiben bis nach Bearbeitung im Erwachsenenbereich.",
+      "passage": "Ein erfundener Vorrat reicht für sechs Tiere genau 15 Tage. Jedes Tier verbraucht im Modell täglich dieselbe Menge. Vor Beginn wird kein Futter ergänzt oder weggenommen. Die Tierzahl ist eine positive ganze Zahl.",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–E",
+        "mainTaskCount": 5,
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–E festhalten und spätere Variante zeigen",
+        "text": "FREIWILLIGE VARIANTE NACH A–E · Ein anderer Vorrat reicht für acht Tiere genau 15 Tage. Nach drei vollen Tagen mit diesen acht Tieren sind es ab dem nächsten Tag zwölf Tiere insgesamt. Gleiche Tagesration je Tier, kein Nachschub. Sechs Zusatzpunkte getrennt von den 20 Hauptpunkten."
+      },
+      "tasks": [
+        {
+          "id": "ma-m1-futtervorrat-a",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "A · Modell erklären (3 Punkte). Nenne zwei Annahmen, ohne die man aus „6 Tiere, 15 Tage“ keine zuverlässige Umrechnung auf eine andere Tierzahl machen könnte. Erkläre in einem Satz, warum bei mehr Tieren die Reichweite unter diesen Annahmen sinkt.",
+          "sample": "Zwei passende Annahmen, etwa gleiche tägliche Ration je Tier und kein Nachschub/Verlust (je 1). Bei festem Vorrat teilen mehr Tiere dieselbe Menge, darum sinkt die Tageszahl (1). Gleichwertige, sachlich passende Annahmen zählen.",
+          "criteria": [
+            "Je 1 Punkt für zwei passende Annahmen; gleichwertige sachliche Annahmen gelten (2).",
+            "1 Punkt für die Erklärung, weshalb mehr Tiere denselben Vorrat schneller verbrauchen."
+          ]
+        },
+        {
+          "id": "ma-m1-futtervorrat-b",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "B · Tabelle und Produkt (5 Punkte). Ergänze die Tage für 9, 10 und 15 Tiere. Rechne dabei über das Produkt „Tierzahl × Tage“ und gib dessen Einheit an. Kontrolliere zwei verschiedene Tabellenpaare mit dem Produkt. Ist die Zuordnung direkt oder umgekehrt proportional? Begründe mit der passenden Rechenregel.\nTierzahl: 6 | 9 | 10 | 15\nTage: 15 | ? | ? | ?",
+          "sample": "`6 Tiere × 15 Tage = 90 Tier-Tage` (1). Tabelle: 9 Tiere → 10 Tage, 10 → 9, 15 → 6 (zusammen 2; zwei richtig = 1, alle drei = 2). Zwei unterschiedliche Kontrollen, z. B. `9×10=90`, `15×6=90` (1). Umgekehrt proportional, weil das Produkt konstant ist (1). Die Einheit „Tier-Tage“ ist im ersten Punkt enthalten; reine Zahl ohne Einheit nur teilweise. Nicht „direkt proportional“ wegen fallender Tageszahl.",
+          "criteria": [
+            "1 Punkt für 90 Tier-Tage mit Einheit; reine Zahl ohne Einheit nur teilweise.",
+            "2 Punkte für alle drei Tabellenwerte; zwei richtig = 1, alle drei = 2.",
+            "1 Punkt für zwei verschiedene Produktkontrollen.",
+            "1 Punkt für umgekehrte Proportionalität mit konstantem Produkt."
+          ]
+        },
+        {
+          "id": "ma-m1-futtervorrat-c",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C · Darstellung prüfen (4 Punkte). Trage die vier Tabellenpaare in ein Koordinatensystem ein: Tierzahl waagerecht, Reichweite in Tagen senkrecht. Wähle für beide Achsen eine passende, gleichmässige Skala und beschrifte sie. Ein Kind verbindet die Punkte mit einer Geraden und zeichnet zusätzlich `(0 | 90)`. Prüfe beide Schritte. Erkläre, welche Werte für die Tierzahl im Sachmodell überhaupt zulässig sind. Zeichne auf Papier und zeige die tatsächliche Zeichnung einer erwachsenen Person; dieses Textfeld kann sie nicht prüfen.",
+          "sample": "Vier Punkte `(6|15)`, `(9|10)`, `(10|9)`, `(15|6)` mit passenden Achsen (2; 1 bei höchstens einem kleinen Eintragungs-/Achsenfehler). Eine Gerade ist falsch: schon diese Paare haben keine konstante additive Steigung; als abstrakte Beziehung gilt `T=90/n` (1). Letzter Punkt (1) nur gemeinsam für beide Aussagen: `(0|90)` ist ausgeschlossen, weil `0×90≠90`, **und** im Sachmodell sind nur positive **ganze** Tierzahlen zulässig; bei `n=0` ist keine Reichweite definiert. Bei nur einer der beiden Aussagen einen halben Punkt geben. Keine glatte Kurve als zwingende Sachzeichnung verlangen.",
+          "criteria": [
+            "2 Punkte nur anhand der tatsächlich gezeigten Papierzeichnung: vier richtige Punkte und passende, beschriftete Achsen mit gleichmässiger Skala; 1 bei höchstens einem kleinen Eintragungs-/Achsenfehler. Eine Notiz im Textfeld beweist keinen Graphen.",
+            "1 Punkt für die begründete Ablehnung der Geraden; keine glatte Kurve als zwingende Sachzeichnung verlangen.",
+            "1 Punkt gemeinsam für Ausschluss von (0|90) und positive ganze Tierzahlen im Sachmodell; bei nur einer Aussage 0,5."
+          ]
+        },
+        {
+          "id": "ma-m1-futtervorrat-d",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "D · Planänderung (5 Punkte). Zunächst fressen 6 Tiere vier volle Tage aus dem Vorrat. Danach kommen Tiere dazu; ab dann sind es 11 Tiere insgesamt. Berechne, wie viele volle Tage der Restvorrat nun reicht. Zeige zwei Wege oder eine Rechnung und eine Kontrolle über beide Zeitabschnitte zusammen. Ein Vorschlag lautet: „Einfach den ursprünglichen Vorrat durch 11 teilen.“ Erkläre, warum das nach den ersten vier Tagen falsch wäre.",
+          "sample": "Anfang `90 Tier-Tage` (1), Verbrauch `6×4=24 Tier-Tage` (1), Rest `66 Tier-Tage` (1), `66/11=6 Tage` **und** Kontrolle des ganzen Verlaufs `6×4+11×6=90 Tier-Tage` beziehungsweise ein zweiter begründeter Weg (1), Erklärung: `90/11` lässt den bereits verbrauchten Anteil stehen (1). Wenn ein Kind gleich `90−24` rechnet, ist der erste Punkt durch eine klar bezeichnete Anfangsmenge zu werten. Die blosse Umkehrprobe `11×6=66` kontrolliert nur die zweite Phase und genügt nicht für den ausdrücklich verlangten Gesamtcheck. `90/11≈8,18` ist weder Restreichweite noch ein sinnvoller voller Tag nach vier Tagen.",
+          "criteria": [
+            "1 Punkt für klar bezeichnete Anfangskapazität 90 Tier-Tage, auch innerhalb von 90−24.",
+            "1 Punkt für Verbrauch 6×4=24 Tier-Tage.",
+            "1 Punkt für Rest 66 Tier-Tage.",
+            "1 Punkt zusammen für 6 Tage Restreichweite und Kontrolle über beide Abschnitte 6×4+11×6=90 Tier-Tage oder zweiten begründeten Weg; bei nur einem Bestandteil 0,5. 11×6=66 allein prüft nur die zweite Phase.",
+            "1 Punkt für Erklärung, dass 90/11 bereits verbrauchten Vorrat mitrechnet."
+          ]
+        },
+        {
+          "id": "ma-m1-futtervorrat-e",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "E · Grenzen und Werkzeug (3 Punkte). Angenommen, die tägliche Ration wäre bei einem Tier anders als bei den übrigen: Würde deine Tabelle dann unverändert gelten? Begründe. Entscheide für B oder D, ob ein Taschenrechner dir bei diesen Zahlen wirklich hilft, und begründe die Entscheidung. Ein Taschenrechner darf eine Rechnung prüfen; er entscheidet nicht, ob die Annahmen passen.",
+          "sample": "Andere Ration bricht die angenommene konstante Tier-Tage-Rechnung (2: Entscheidung 1, sachliche Begründung 1). Werkzeugentscheidung für B oder D, jeweils mit Bezug auf die kleinen Zahlen und die eigene Prüfung (1). „Taschenrechner ist immer besser“ ohne Begründung zählt nicht; eine begründete Nutzung zur Gegenprobe ist zulässig.",
+          "criteria": [
+            "1 Punkt für Entscheidung, dass die Tabelle bei anderer Ration nicht unverändert gilt.",
+            "1 Punkt für sachliche Begründung zur gebrochenen Modellannahme.",
+            "1 Punkt für begründete Werkzeugentscheidung für B oder D mit Bezug auf Zahlen und eigene Prüfung; begründete Gegenprobe zählt."
+          ]
+        },
+        {
+          "id": "ma-m1-futtervorrat-f",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "F · Spätere Variante, sechs getrennte Zusatzpunkte: Nutze die erst nach A–E gezeigten Angaben. 1. Gib die anfängliche Kapazität in Tier-Tagen an. 2. Berechne Verbrauch und Rest nach drei Tagen. 3. Berechne die Restreichweite für zwölf Tiere und prüfe durch Multiplikation. 4. Erkläre, warum 8×15÷12 nicht die gesuchte Restreichweite ist.",
+          "sample": "`8×15=120 Tier-Tage` (1). `8×3=24 Tier-Tage` verbraucht (1), `120−24=96 Tier-Tage` übrig (1). `96/12=8 Tage` (1) und `12×8=96` als Probe (1). `8×15/12=10` bezieht sich auf den **unverbrauchten** Anfangsvorrat; nach drei Tagen ist die gesuchte Restreichweite 8, nicht 10 Tage (1). Diese 6 Punkte werden nicht zu den 20 Hauptpunkten gerechnet.",
+          "criteria": [
+            "1 Zusatzpunkt für 120 Tier-Tage.",
+            "Je 1 Zusatzpunkt für 24 Tier-Tage Verbrauch und 96 Tier-Tage Rest.",
+            "Je 1 Zusatzpunkt für acht Tage Restreichweite und 12×8=96 als Probe.",
+            "1 Zusatzpunkt für Erklärung, dass 8×15÷12 den unverbrauchten Anfangsvorrat betrifft. Zusatzpunkte getrennt ausweisen."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "competencyRef": "Mathematik-Erprobungsfassung Gymnasium 2026, SHA-256 91838D21BB7035A3E30890E837A47425B3766F3A38066AF6559F167AFC399D26: PDF-S.2 Klasse 7 ab 2026/27, Klasse 8 ab 2027/28; §2.2.1/PDF-S.24 M1 ausdrücklich Ziel Klassenstufe 8, einschliesslich Futtervorrat. PDF-S.23 direkte Proportionalität Klasse 6. Manuskripte/enge QA vom 03.11.2026; Unabhängiger Text-/Logikabgleich sowie lokale Browser- und Druckprüfung; keine externe Fach- oder Kinderabnahme. NCETM stützt nur konstantes Produkt und Darstellungswechsel, keine Thüringer Alterszuordnung. Papierblatt belegt keine MBI-Bedienung oder MNT-7-Zuordnung.",
+        "checkedAt": "2026-11-03"
+      }
     }
   ]
 });

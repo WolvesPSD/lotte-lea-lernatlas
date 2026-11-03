@@ -22214,6 +22214,71 @@ window.LOTTE_CATALOG = Object.freeze({
         "primarySha256": "0C40ADBFF8263B61694711AC25DD673B336C92AA0019BA369FED273990AC3019",
         "checkedAt": "2026-11-03"
       }
+    },
+    {
+      "id": "es6-nachricht-aendern",
+      "subjectId": "es",
+      "title": "Leos Nachricht an den neuen Plan anpassen",
+      "scope": "Gymnasium Klasse 6, Spanisch-Entwurf 2025. Für 2025/26 belegt; Fortgeltung 2026/27 und Schulbelegung offen. Keine Klasse-7-Jahresabdeckung.",
+      "schoolModes": [
+        "gymnasium-6"
+      ],
+      "levelStatus": "grade6",
+      "grade6Label": "Gymnasium · Klasse 6 · Unterrichtsfolge offen",
+      "released": true,
+      "prerequisite": "Alle Angaben sind erfunden. Verwende keine eigenen Namen oder Termine. Du darfst die Wortstütze nutzen. Neun Lernpunkte sind Rückmeldung, keine Schulnote; offene Texte prüft eine erwachsene Person.",
+      "introduction": "Leo schreibt Inés. Seine erste Nachricht passt zum alten Plan. Ändere sie für die neue Zeichenstunde. Halte zuerst drei Notizen fest. Du kannst dir Leos erste Nachricht vor Aufgabe A und die spanische Wortstütze bei Aufgabe B anhören.",
+      "passage": "ERSTE NACHRICHT\nHola, Inés:\nEl martes dibujo en la sala 2.\nTraigo un lápiz.\nHasta pronto,\nLeo\n\nNEUER PLAN\nDonnerstag statt Dienstag; Raum 3 statt Raum 2; Papier statt Bleistift. Zeichnen, Inés und Leo bleiben gleich.\n\nWORTSTÜTZE\nmartes = Dienstag; jueves = Donnerstag; dibujo = ich zeichne; en la sala = im Raum; traigo = ich bringe mit; un lápiz = ein Bleistift; papel = Papier; Hola = Hallo; Hasta pronto = Bis bald. Ziffern sind erlaubt.",
+      "tasks": [
+        {
+          "id": "es6-text-a",
+          "kind": "reflection",
+          "points": 3,
+          "writingLines": 4,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "A · Drei kurze Notizen (3 Lernpunkte): Halte auf Deutsch oder mit spanischen Wörtern fest, was du an Tag, Raum und Material ändern musst. Schreibe noch nicht die ganze Nachricht.",
+          "sample": "Donnerstag, Raum 3, Papier. Deutsche oder spanische Änderungsnotizen sind möglich.",
+          "criteria": [
+            "Je 1 Punkt für eine nachvollziehbare Änderungsnotiz zu Tag, Raum und Material. Noch keine spanische Satzform bewerten."
+          ]
+        },
+        {
+          "id": "es6-text-b",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "B · Nachricht ändern (4 Lernpunkte): Schreibe Leos Nachricht auf Spanisch so, dass sie zum neuen Plan passt. Verwende die Vorlage und die Wortstütze. Inés bleibt die Empfängerin, Leo der Absender. Anrede und Gruss kannst du übernehmen. Du musst keine zusätzlichen Sätze erfinden.",
+          "sample": "Hola, Inés: El jueves dibujo en la sala 3. Traigo papel. Hasta pronto, Leo. Deutsch: Hallo, Inés. Am Donnerstag zeichne ich in Raum 3. Ich bringe Papier mit. Bis bald, Leo.",
+          "criteria": [
+            "Je 1 Punkt für richtigen Tag, Raum und Material (3).",
+            "1 Punkt für verständliche spanische Mitteilung mit Zeichnen und dem Bezug Leo an Inés. Verständliche kleine Schreibfehler als Lernhinweise; Vorlage darf übernommen werden."
+          ]
+        },
+        {
+          "id": "es6-text-c",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "C · Zweimal prüfen (2 Lernpunkte): Vergleiche ein spanisches Wort aus deiner Nachricht mit der Wortstütze. Nenne das Wort und ob du etwas korrigiert hast. Prüfe danach eine deiner neuen Angaben gegen den neuen Plan: Welche Stelle hast du verglichen? Auch ein begründetes „passt“ zählt.",
+          "sample": "Ich verglich jueves mit der Wortstütze: passt. Ich verglich sala 3 mit Raum 3 im neuen Plan: passt. Eine echte Korrektur zählt ebenso; keinen Fehler erfinden.",
+          "criteria": [
+            "1 Punkt für konkretes Wort und nachvollziehbaren Schreibvergleich.",
+            "1 Punkt für konkrete neue Angabe und Abgleich zum Plan. Bloss alles geprüft genügt nicht."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "gradeBand": "6",
+        "validFor": "2025/26 belegt; 2026/27 offen",
+        "competencyRef": "Spanisch-Entwurf 2025 §2.1.4/PDF-S.16, vorgefertigte Texte sinnvoll ändern und mit Hilfen kontrollieren",
+        "primarySha256": "0C40ADBFF8263B61694711AC25DD673B336C92AA0019BA369FED273990AC3019",
+        "manuscriptSha256": "0cae64f63e833408b8850fe8144939c4b3ba6fbe1e86bb67e0ce01c2dfe37c94"
+      }
     }
   ]
 });

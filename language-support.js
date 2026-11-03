@@ -989,5 +989,34 @@ window.LOTTE_LANGUAGE_SUPPORT = Object.freeze({
         "path": "assets/es6-mochila-wortstuetze.wav"
       }
     ]
+  },
+  "es6-nachricht-aendern": {
+    "draft": false,
+    "audioPending": false,
+    "translations": {
+      "initialDe": [
+        "Erste Nachricht: Hallo, Inés. Am Dienstag zeichne ich in Raum 2. Ich bringe einen Bleistift mit. Bis bald, Leo.",
+        "Wortstütze: martes Dienstag; jueves Donnerstag; dibujo ich zeichne; en la sala im Raum; traigo ich bringe mit; un lápiz ein Bleistift; papel Papier; Hola Hallo; Hasta pronto Bis bald."
+      ],
+      "afterPredictionDe": [],
+      "afterMainDe": [],
+      "adultSolutionDe": [
+        "Neue Nachricht: Hallo, Inés. Am Donnerstag zeichne ich in Raum 3. Ich bringe Papier mit. Bis bald, Leo.",
+        "Zulässige Alternative: Hola, Inés. El jueves estoy en la sala 3 y dibujo. Traigo papel. Hasta pronto, Leo. Deutsch: Hallo, Inés. Am Donnerstag bin ich in Raum 3 und zeichne. Ich bringe Papier mit. Bis bald, Leo."
+      ],
+      "fixedReadAloudDe": []
+    },
+    "clips": [
+      {
+        "phase": "initial",
+        "label": "Leos ursprüngliche Nachricht",
+        "path": "assets/es6-leo-nachricht-20261103.wav"
+      },
+      {
+        "phase": "task:es6-text-b",
+        "label": "Spanische Wortstütze",
+        "path": "assets/es6-leo-wortstuetze-20261103.wav"
+      }
+    ]
   }
 });

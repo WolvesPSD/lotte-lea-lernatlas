@@ -1,7 +1,9 @@
 {
-  "builtAt": "2026-11-03T08:45:21.767Z",
-  "releaseVersion": "2026.11.03-ss12m13.1",
-  "newTopicIds": [],
+  "builtAt": "2026-11-03T08:52:53.385Z",
+  "releaseVersion": "2026.11.03-es6leo.1",
+  "newTopicIds": [
+    "es6-nachricht-aendern"
+  ],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
     "199 Themen und alle Aufgaben, Lösungen, App-Funktionen und Assets unverändert; keine neue Kinderleistung oder Unterrichtsfolge behauptet.",
@@ -37,9 +39,10 @@
     "Optionale getrennte PDF-Druckblätter zur bestehenden unbewerteten M2-Rechnerpraxis; keine neue Themen-ID oder beobachtete Kinderleistung.",
     "M2-Druckfehler behoben: keine sachfremde Sprech-/Feedbackrunde, keine undefined-Adresse oder falscher Hinweis auf lösungsfreien Erwachsenenbogen.",
     "Deutsch: Sprechwerkstatt zu verschiedenen Wörtern und Arten des Willkommens mit getrennten Kinder-/Erwachsenen-PDFs am vorhandenen Thema. Ende-8-Einstieg; Live-Leistung nur nach tatsächlichem Hören, Punkte getrennt.",
-    "Mathematik: Ziehaufgaben verlangen A, F und Schnitt als Mengen von Farbpfaden und trennen sie von den 36 gleich wahrscheinlichen Einzelpaaren. Aufgaben und Punkte unverändert."
+    "Mathematik: Ziehaufgaben verlangen A, F und Schnitt als Mengen von Farbpfaden und trennen sie von den 36 gleich wahrscheinlichen Einzelpaaren. Aufgaben und Punkte unverändert.",
+    "Spanisch Klasse6: Leos Nachricht an einen neuen Plan anpassen, drei Aufgaben mit neun Kriterienpunkten. Zwei langsame Aussprachehilfen per Anhören/Stopp und getrennte deutsche Erwachsenenübersetzung. Geltung2026/27 und Schulbelegung offen, keine Klasse7-Abdeckung."
   ],
-  "rollbackCommit": "8c14d382fef2001ce52ce057916268b254e18304",
+  "rollbackCommit": "78b572dd48da10f3c1aec10c6991e27732cac7f1",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -250,7 +253,8 @@
     "ma-zahlbereiche-rechenwege",
     "de-stichpunktformen-belege",
     "sp-b7-ss06-fairnessurteil",
-    "es6-mochila-tres-frases"
+    "es6-mochila-tres-frases",
+    "es6-nachricht-aendern"
   ],
   "subjects": [
     "en",
@@ -362,7 +366,8 @@
     "et-liebesformen-werkevergleich",
     "mu09-pentatonik-tonvorrat",
     "go-g01-beleuchtungszonen",
-    "es6-mochila-tres-frases"
+    "es6-mochila-tres-frases",
+    "es6-nachricht-aendern"
   ],
-  "note": "210 Themen und 983 Antwortfelder. SS12-Sprechwerkstatt und M13-Mengenschreibweise unabhängig intern sowie in Browser und A4-Druck geprüft. Keine neue reale Kinderleistung oder vollständige Jahresabdeckung. Bestehende Audios unverändert; neue Audio- und Leo-Entwürfe nicht enthalten."
+  "note": "211 Themen/986 Antwortfelder. Genau ein Spanisch6-Angebot ergänzt; alle210 bisherigen Themen unverändert. Interne unabhängige Fach-/Logikprüfung, Browser-/Druckprüfung und Roberts Tonrückmeldung zu genau den beiden WAVs vorhanden. Keine echte Kinderleistung oder vollständige Jahresabdeckung behauptet."
 }

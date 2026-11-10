@@ -22705,6 +22705,144 @@ window.LOTTE_CATALOG = Object.freeze({
         "checkedAt": "2026-11-03",
         "competencyRef": "Deutsch-Gymnasium-Erprobungsfassung 2026, §2.2.3/PDF-S.28: Informationen mediengestützt einholen, ordnen und verdichten, Ziel bis Ende Klasse 8. PDF-S.2: Klasse 7 ab 2026/27. Tatsächliche Unterrichtsfolge offen. Enger Quellen-/Manuskript-/Rubriknachcheck vorhanden, Unabhängiger Quellen-/Rubrik-/Ableitungscheck sowie lokale Browser-/Druckprüfung; keine Kinder-, externe Fach- oder Jahresabnahme."
       }
+    },
+    {
+      "id": "mbi-i2-m2-eigene-zugaengliche-karte",
+      "subjectId": "mbi",
+      "title": "Eine gut nutzbare digitale Infokarte erstellen",
+      "schoolModes": [
+        "gymnasium"
+      ],
+      "levelStatus": "grade8-outlook",
+      "levelLabel": "Ende Klasse 8 · freiwilliger Vorgriff",
+      "released": true,
+      "scope": "Ausblick auf ein Ziel bis Ende Klasse 8. Du kannst die Aufgabe schon in Klasse 7 versuchen. Ob und wann ihr das in der Schule behandelt, ist offen.",
+      "prerequisite": "Du brauchst ein bereits vorhandenes lokales Schreibprogramm, in dem du selbst speichern und deine Datei wieder öffnen kannst. Eine erwachsene Person gibt den lokalen Speicherort frei und beobachtet die Bedienung. Kein Konto, keine Installation, keine Synchronisierung und kein Upload.",
+      "introduction": "Erstelle aus den Angaben eine einseitige digitale Infokarte für eine andere Person. Sie soll auch bei grosser Textansicht und ohne Farberkennung verständlich bleiben. Eine eigene Zeichnung ist freiwillig; wichtige Bildinformationen müssen zusätzlich als Text zugänglich sein. Die Felder unten sind deine Notizen. Sie erzeugen keine Datei und beweisen weder die Bedienung noch die Zugänglichkeit. Eine erwachsene Person prüft die tatsächliche Datei und deine Handlungen. A–D haben 20 Kriterienpunkte als Lernfeedback, keine Schulnote; die spätere Variante sechs getrennte Zusatzpunkte. Die App vergibt diese Punkte nicht automatisch.",
+      "passage": "ERFUNDENE STERNENWERKSTATT · Besuchsabend: Dienstag, 16:30 Uhr, Werkraum 2. Mitbringen: Stift und Papier. Falls Werkraum 2 nicht nutzbar ist, findet dieselbe Veranstaltung stattdessen Mittwoch, 17:00 Uhr, in Werkraum 4 statt. Das ist eine Ersatzregel, keine zweite Veranstaltung. Es gibt keine echte Schule und keine Anmeldedaten.",
+      "practiceBeforeLastTask": true,
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainLabel": "A–D",
+        "mainTaskCount": 4,
+        "feedbackBeforeUnlock": true,
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und spätere Änderung zeigen",
+        "text": "SPÄTERE VARIANTE NACH RÜCKMELDUNG · Nutze deine eigene lokale Datei weiter. Der Regeltermin ist jetzt Donnerstag, 17:30 Uhr, Werkraum 3. Die bisherige Ersatzregel fällt vollständig weg. Mitbringen bleibt Stift und Papier. Sechs Zusatzpunkte werden getrennt von den 20 Hauptpunkten rückgemeldet. Keine Veröffentlichung."
+      },
+      "tasks": [
+        {
+          "id": "mbi-i2-m2-karte-a",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 6,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "A · Plan (4 Punkte): Notiere vor dem Öffnen des Programms, wer die Karte lesen soll und welche drei Informationen für diese Person unverzichtbar sind. Welches vorhandene Programm und Dateiformat wählst du und weshalb? Brauchst du ein Bild oder reichen Worte? Begründe deine Entscheidung.",
+          "sample": "Zielgruppe benannt (1); Regeltermin, bedingte Ersatzregel und Mitbringen als drei wichtige Inhalte erfasst (1); vorhandenes lokales Werkzeug/Format mit passendem Grund gewählt (1); Bildentscheidung begründet (1). Ein Bild ist nicht notwendig. Keine persönliche Geräteadresse oder vollständigen Pfad verlangen.",
+          "criteria": [
+            "1 Punkt für benannte Zielgruppe.",
+            "1 Punkt für die drei wichtigen Inhalte Regeltermin, Ersatzregel und Mitbringen.",
+            "1 Punkt für vorhandenes lokales Werkzeug/Format mit Grund.",
+            "1 Punkt für begründete Bildentscheidung."
+          ]
+        },
+        {
+          "id": "mbi-i2-m2-karte-b",
+          "kind": "reflection",
+          "points": 8,
+          "writingLines": 8,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "B · Eigene Datei (8 Punkte): Erstelle und speichere die Infokarte selbst lokal. Verwende einen Titel und erkennbare Abschnitte, mit echten Überschriftenfunktionen, falls dein Programm sie bietet. Trenne Regeltermin und Ersatzregel mit Wörtern; Farbe darf nur zusätzlich helfen. Nenne das Mitbringen. Wenn ein Bild wichtige Informationen trägt, ergänze passenden Alternativtext oder gleichwertige sichtbare Textinformation. Schliesse und öffne deine Datei selbst wieder. Notiere hier nur Dateiname, Format und nötige Hilfe, keine persönlichen Pfade. Zeige die tatsächliche Datei; diese Notiz beweist keine Produktion.",
+          "sample": "Mögliches Produkt: Titel Sternenwerkstatt: Besuchsabend; Regeltermin Dienstag, 16:30 Uhr, Werkraum 2; bei nicht nutzbarem Werkraum stattdessen Mittwoch, 17:00 Uhr, Werkraum 4; Mitbringen Stift und Papier. Ein Bild ist nicht erforderlich. Nur am tatsächlich selbst bearbeiteten Produkt und beobachteter Bedienung werten: eigene Erstellung/Speicherung 2, Titel/Abschnitte 1, Regeltermin 1, vollständige Ersatzregel statt Zusatztermin 1, Stift/Papier 1, Information unabhängig von Farbe und bei wichtigem Bild zusätzlich als Text 1, eigenes Schliessen/Wiederöffnen samt Dateiname/Format 1. Blosse Fettschrift beweist keine maschinenlesbare Struktur.",
+          "criteria": [
+            "2 Punkte nur für beobachtete eigene Erstellung und lokale Speicherung. Bei Erwachsenenerstellung diese zwei Punkte nicht vergeben; übrige Sachpunkte nur für nachweislich selbst bearbeitete Anteile.",
+            "1 Punkt für Titel und erkennbare Abschnitte, möglichst echte Überschriftenfunktion.",
+            "1 Punkt für vollständigen Regeltermin Dienstag, 16:30 Uhr, Werkraum 2.",
+            "1 Punkt für vollständige bedingte Ersatzregel Mittwoch, 17:00 Uhr, Werkraum 4 als stattdessen, nicht zweite Veranstaltung.",
+            "1 Punkt für Stift und Papier.",
+            "1 Punkt für Information unabhängig von Farbe sowie bei wichtigem Bild zusätzlich als Text.",
+            "1 Punkt für beobachtetes eigenes Schliessen/Wiederöffnen mit Dateiname und Format. Textfeldeintrag allein genügt nicht."
+          ]
+        },
+        {
+          "id": "mbi-i2-m2-karte-c",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 10,
+          "inputRows": 9,
+          "adultOnlySolution": true,
+          "prompt": "C · Drei Prüfungen (6 Punkte): Prüfe an deiner wieder geöffneten Datei (a) alle Fakten ohne Farbinformation: Lies nur die Wörter und benutze Farbcodes nicht als Hinweis, (b) bei etwa 200 % Ansicht alle Termine und die Ersatzregel und (c) eine sinnvolle Inhaltsreihenfolge allein mit Tastatur oder mit einer vorhandenen Vorlesefunktion. Scrollen und mehrere Bildschirmseiten sind erlaubt; kein Inhalt darf fehlen oder unlesbar werden. Notiere je Prüfung Durchführung und Beobachtung. Bei einem Problem nenne es und eine mögliche Korrektur. Wenn keines auffällt, schreibe „kein Problem beobachtet“ und begründe das mit deiner Prüfung. Ein nicht möglicher Prüfweg bleibt „nicht erhoben“, nicht bestanden.",
+          "sample": "Je Prüfweg 1 Punkt nur für tatsächlich beobachtete Durchführung und 1 für eine konkrete korrekte Beobachtung mit Problem/Korrektur oder begründetem kein Problem. Ohne Farbe müssen Regeltermin/Ersatz sprachlich erkennbar sein; bei etwa 200 % müssen alle Fakten erreichbar und lesbar bleiben; Tastatur/Vorlesen muss eine sinnvolle Reihenfolge ergeben. Scrollen ist erlaubt. Bei nicht erhoben für einen Weg 0/2 und den nicht durchführbaren Test ausdrücklich kennzeichnen, keine angenommene Zugänglichkeit. Das ist keine WCAG- oder Assistenztechnik-Vollprüfung.",
+          "criteria": [
+            "Ohne Farbe: 1 Punkt für beobachtete Durchführung und 1 für konkrete korrekte Beobachtung mit Problem/Korrektur oder begründetem kein Problem.",
+            "Etwa 200 %: 1 Punkt für beobachtete Durchführung und 1 für konkrete korrekte Beobachtung, dass Fakten vollständig erreichbar/lesbar bleiben oder welches Problem samt Korrektur besteht. Scrollen erlaubt.",
+            "Tastatur oder vorhandene Vorlesefunktion: 1 Punkt für tatsächliche Durchführung und 1 für konkrete korrekte Beobachtung zur Reihenfolge samt Problem/Korrektur oder begründetem kein Problem.",
+            "Nicht verfügbarer Prüfweg: nicht erhoben und 0/2 gemäss Manuskriptrubrik; keine bestandene Prüfung und kein Kompetenz- oder WCAG-Urteil daraus ableiten. Die App vergibt diese Punkte nicht automatisch."
+          ]
+        },
+        {
+          "id": "mbi-i2-m2-karte-d",
+          "kind": "reflection",
+          "points": 2,
+          "writingLines": 5,
+          "inputRows": 5,
+          "adultOnlySolution": true,
+          "prompt": "D · Verbessern (2 Punkte): Ändere nach einer Prüfung mindestens eine konkrete Stelle deiner Datei und begründe, wem das hilft. Wenn kein Problem aufgefallen ist, verbessere die Klarheit einer Formulierung. Speichere die geänderte Datei, schliesse sie und öffne sie noch einmal selbst. Halte hier Änderung, Grund und nötige Hilfe fest; zeige die Datei lokal.",
+          "sample": "Eine eigene erkennbare Änderung mit adressatenbezogenem Grund (1), erneutes Speichern und Öffnen der geänderten Datei beobachtet (1). Beispiel: Ersatztermin mit stattdessen kennzeichnen, damit er auch ohne Farbe nicht als zweite Veranstaltung missverstanden wird. Auch bei zuvor keinem Problem ist eine Klarheitsverbesserung erforderlich. Ohne Änderung keine zwei Punkte.",
+          "criteria": [
+            "1 Punkt für tatsächlich eigene erkennbare Änderung mit adressatenbezogenem Grund.",
+            "1 Punkt für beobachtetes erneutes Speichern und Öffnen der geänderten Datei. Eine Beschreibung allein beweist beides nicht."
+          ]
+        },
+        {
+          "id": "mbi-i2-m2-karte-v",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "V · Änderung ohne Informationsverlust (6 getrennte Zusatzpunkte): Nutze die erst nach Rückmeldung gezeigte Änderung in deiner eigenen Datei. Ersetze den Regeltermin, entferne die alte Ersatzregel aus Text und gegebenenfalls Bild/Alternativtext vollständig und lass das Mitbringen stehen. Prüfe die neue Datei ohne Farbinformation und erneut bei etwa 200 %; notiere Beobachtung oder „nicht erhoben“. Speichere, schliesse und öffne selbst wieder. Erläutere eine Zugänglichkeitsentscheidung. Notiere neutralen Dateinamen/Format und etwaige Hilfe, keinen persönlichen Pfad.",
+          "sample": "Je 1 Zusatzpunkt für: Donnerstag, 17:30 Uhr, Werkraum 3 korrekt; alte Ersatzregel aus Text und gegebenenfalls Bild/Alternativtext vollständig entfernt; Stift/Papier unverändert; ohne Farbe tatsächlich geprüft; etwa 200 % tatsächlich geprüft und Beobachtung notiert; eigene gespeicherte/wieder geöffnete Revision mit erklärtem Zugänglichkeitsgrund. Ein nicht verfügbarer Prüfweg bleibt 0 und nicht erhoben. Erwachsene technische Hilfe getrennt notieren; nicht allein vom Endtext auf selbstständige Bearbeitung schliessen. Diese sechs Punkte nicht zu den Hauptpunkten addieren.",
+          "criteria": [
+            "1 Zusatzpunkt für vollständigen neuen Regeltermin Donnerstag, 17:30 Uhr, Werkraum 3.",
+            "1 Zusatzpunkt für vollständige Entfernung der alten Ersatzregel aus allen verwendeten Darstellungen, nicht bloss Übermalen.",
+            "1 Zusatzpunkt für unverändert Stift und Papier.",
+            "1 Zusatzpunkt für tatsächlich beobachtete Prüfung ohne Farbe.",
+            "1 Zusatzpunkt für tatsächlich beobachtete Prüfung bei etwa 200 % samt Beobachtungsnotiz; nicht verfügbar bleibt 0 und nicht erhoben.",
+            "1 Zusatzpunkt für eigene gespeicherte/wieder geöffnete Revision plus erklärten Zugänglichkeitsgrund. Technische Hilfe separat festhalten."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Die eigene Datei tatsächlich zeigen und prüfen",
+        "unscored": true,
+        "childNote": "Die Kriterienpunkte aus A–D beziehen sich auf deine Planung, echte Datei und beobachtete Prüfungen. Diese Erinnerungsliste gibt keine zusätzlichen Punkte. Wenn kein geeignetes vorhandenes Programm verfügbar ist, bleibt die Produktion nicht erhoben; eine von Erwachsenen erzeugte Datei ist nicht dein Produkt.",
+        "childSteps": [
+          "Wähle ein vorhandenes lokales Programm. Nutze den von einer erwachsenen Person freigegebenen, nicht synchronisierten Speicherort. Installiere nichts und lade nichts hoch.",
+          "Erstelle deine Karte selbst, speichere sie und öffne sie nach dem Schliessen wieder.",
+          "Prüfe deine Datei ohne Farbinformation, bei etwa 200 % und mit Tastatur oder vorhandener Vorlesefunktion. Sage ehrlich, wenn ein Prüfweg nicht möglich ist.",
+          "Zeige einer erwachsenen Person Datei, Beobachtungen und eigene Verbesserung. Eine Notiz in der App ist kein Nachweis der Bedienung.",
+          "Besprecht die Hauptkarte, bevor ihr die spätere Änderung öffnet. Das Bestätigen einer Rückmeldung in der App beweist keine beobachtete Handlung."
+        ],
+        "adultNote": "Nur tatsächliche Eigenhandlung und Datei prüfen. Die 20 Haupt- und sechs Zusatzpunkte stehen bereits in den Aufgabenrubriken; diese Beobachtungsliste ist unbepunktet und darf sie nicht verdoppeln. Wenn kein geeignetes Werkzeug vorhanden ist, Produktion nicht erhoben dokumentieren, keine Erwachsenendatei als Kindprodukt ausgeben.",
+        "adultCriteria": [
+          "Eigene Erstellung/Speicherung und Schliessen/Wiederöffnen tatsächlich gesehen oder Hilfe/nicht gesehen getrennt festgehalten.",
+          "Regeltermin und bedingte Ersatzregel am echten Produkt geprüft; keine zweite Veranstaltung unterstellen.",
+          "Drei Prüfwege und konkrete Beobachtungen am gewählten Format kontrolliert; ein nicht verfügbarer Weg bleibt nicht erhoben und erhält gemäss Aufgabenrubrik keine Punkte, nicht automatisch eine Fehlleistung des Kindes behaupten.",
+          "Eigene Verbesserung samt Grund und erneutes Speichern/Öffnen beobachtet. App-Wiederaufnahme ist nicht das Wiederöffnen der Produktdatei.",
+          "Feedback zur Hauptkarte tatsächlich besprochen; spätere Variante und ihre sechs Punkte getrennt halten. Checkbox ist Selbstauskunft, kein Technikbeweis."
+        ],
+        "printObservationLabels": "☐ selbst beobachtet  ☐ mit Hilfe beobachtet  ☐ nicht gesehen  ☐ nicht verfügbar",
+        "printObservationFooter": "Diese Liste vergibt keine Zusatzpunkte. Nicht beobachtete oder technisch nicht mögliche Handlungen getrennt dokumentieren; kein pauschales Zugänglichkeits-, Assistenztechnik- oder WCAG-Konformitätsurteil. Keine privaten Dateien oder vollständigen Gerätepfade sammeln."
+      },
+      "releaseEvidence": {
+        "validFor": "2027/28",
+        "gradeBand": "8",
+        "checkedAt": "2026-11-03",
+        "competencyRef": "MBI-Erprobungsfassung Gymnasium 2026 §2.2.2/PDF-S.25: Grundsätze der Zugänglichkeit und Barrierefreiheit bei eigener Produktion digitaler Inhalte anwenden, Ziel Klassenstufe 8. PDF-S.2: Klasse 7 ab 2026/27. Schulfolge offen. Manuskript-/Quellen-/Rubrik-QA liegt vor; Unabhängiger Ableitungscheck und lokale Browser-/Druckprüfung; reale Kinderdatei, externe Fach- und Jahresabnahme bleiben offen."
+      }
     }
   ]
 });

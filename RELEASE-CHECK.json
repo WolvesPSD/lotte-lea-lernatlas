@@ -1,8 +1,8 @@
 {
-  "builtAt": "2026-11-10T08:14:58.412Z",
-  "releaseVersion": "2026.11.10-i2m2.1",
+  "builtAt": "2026-11-11T21:12:55Z",
+  "releaseVersion": "2026.11.11-mbi-suchansichten.1",
   "newTopicIds": [
-    "mbi-i2-m2-eigene-zugaengliche-karte"
+    "mbi-suchansichten-bias"
   ],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
@@ -49,9 +49,13 @@
     "Mathematik: Futtervorrat mit Bestandswechsel, 20 Hauptpunkten und 6 getrennten Variantenpunkten. Klasse-8-Ausblick; Papierzeichnung nur am tatsächlichen Werk prüfen. Keine zusätzliche Jahresabdeckung.",
     "Deutsch: eigene Fundstellensuche, Notizen, Ordnung und kurze freie Mondphasen-Erklärung. 8 schriftliche und12 nur gehörte Punkte; spätere Kinderkarte nur für manuelle Erwachsenenausgabe,3+3 Zusatzpunkte getrennt. Klasse-8-Ausblick, offene Schulfolge.",
     "MBI: eigene lokale Infokarte erstellen, wieder öffnen, ohne Farbinformation/bei200%/mit Tastatur oder Vorlesefunktion prüfen und verbessern.20 Hauptpunkte und6 getrennte Variantenpunkte, nur manuell am tatsächlichen Werk prüfen. Klasse-8-Ausblick.",
-    "Kinderdruck nennt bei Aufgaben mit Rückmeldegate vor und nach Freischaltung ausdrücklich die Rückmeldung durch Erwachsene; Fälle ohne dieses Gate behalten ihren Druckhinweis."
+    "Kinderdruck nennt bei Aufgaben mit Rückmeldegate vor und nach Freischaltung ausdrücklich die Rückmeldung durch Erwachsene; Fälle ohne dieses Gate behalten ihren Druckhinweis.",
+    "MBI I4: zwei simulierte Suchansichten und eine redaktionell geschriebene KI-Kurzantwort prüfen; 22 Hauptpunkte und 6 getrennte Zusatzpunkte, Klasse-7-Vorausblick auf Zielstand Ende Klasse 8.",
+    "Kinderdruck klärt, dass Rückmeldung zur App selbst geschrieben wird und Lernantworten nicht automatisch übernommen werden.",
+    "MBI-Suchfall: drei Kinderformulierungen nach abgeglichener Natürlichkeitsprüfung vereinfacht; Bedeutungsgrenzen, Rubrik und Punkte unverändert.",
+    "Die Zusatzfrage F verweist jetzt auf die vorherige Änderungskarte statt deren Text im Aufgabenprompt zu wiederholen; Inhalt und 6 Zusatzpunkte bleiben."
   ],
-  "rollbackCommit": "eefb4fc3ee8411d1e7c18060f1574a0828040636",
+  "rollbackCommit": "46c2959907596137ebeaba5c78ee30e99c20cf5a",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -267,7 +271,8 @@
     "ma-pythagoras-vier-dreiecke-beweis",
     "ma-m1-futtervorrat",
     "de-s2-m02-mondphasen-quellensuche",
-    "mbi-i2-m2-eigene-zugaengliche-karte"
+    "mbi-i2-m2-eigene-zugaengliche-karte",
+    "mbi-suchansichten-bias"
   ],
   "subjects": [
     "en",
@@ -358,7 +363,8 @@
     "ma-termstruktur-kartons",
     "ma-zahlbereiche-rechenwege",
     "de-stichpunktformen-belege",
-    "ma-m4-rechnerprobe"
+    "ma-m4-rechnerprobe",
+    "mbi-suchansichten-bias"
   ],
   "unclearValidityTopics": [
     "et-algebra-kulturtransfer",
@@ -382,5 +388,5 @@
     "es6-mochila-tres-frases",
     "es6-nachricht-aendern"
   ],
-  "note": "215 Themen/1006 Antwortfelder;214 bisherige Themen unverändert. Unabhängiger fachlicher/logischer Ableitungs- und enger Code-Deltacheck bestanden. Paket-/Profil-/Browserprüfung320/390/1280, Wiederaufnahme, Rückmeldegate und10 normale A4-Seiten geprüft. Kinderdruck nennt Erwachsenenrückmeldung vor/nach Freischaltung; ohne Gate unveränderter Hinweis geprüft. Keine privaten Daten, Audioänderung oder automatische Datei-/Konformitätsbewertung. Reale Kinderdatei/Schulfolge/Jahresabdeckung offen. Online-Nachweis separat."
+  "note": "216 Themen/1012 Aufgaben. 215 bisherige veröffentlichte Themen aus der exakt geprüften Basis unverändert übernommen. MBI I4 bleibt ein fiktiver Ende-Klasse-8-Vorausblick, keine belegte aktuelle Klasse-7-Einheit. Chrome-Gate mobil/desktop und Kinder-/Erwachsenendruck bestanden; Kinderdruckhinweis zur App-Rückmeldung ergänzt. Echte Kinderbearbeitung, externe Fachabnahme, physischer Druck, Screenreader, Schulfolge und Jahresvollständigkeit bleiben offen. Die drei Formulierungsanpassungen wurden danach erneut im Kinder-/Erwachsenendruck und im Browsergate geprüft."
 }

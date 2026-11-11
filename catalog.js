@@ -22843,6 +22843,129 @@ window.LOTTE_CATALOG = Object.freeze({
         "checkedAt": "2026-11-03",
         "competencyRef": "MBI-Erprobungsfassung Gymnasium 2026 §2.2.2/PDF-S.25: Grundsätze der Zugänglichkeit und Barrierefreiheit bei eigener Produktion digitaler Inhalte anwenden, Ziel Klassenstufe 8. PDF-S.2: Klasse 7 ab 2026/27. Schulfolge offen. Manuskript-/Quellen-/Rubrik-QA liegt vor; Unabhängiger Ableitungscheck und lokale Browser-/Druckprüfung; reale Kinderdatei, externe Fach- und Jahresabnahme bleiben offen."
       }
+    },
+    {
+      "id": "mbi-suchansichten-bias",
+      "subjectId": "mbi",
+      "title": "Zwei Suchansichten und eine KI-Antwort prüfen",
+      "scope": "Gestützter Vorausblick für Gymnasium, Klasse 7, auf MBI §2.2.4 mit Zielstand Ende Klasse 8. Alle Suchtreffer, Verlaufsdaten und die KI-Antwort sind erfunden; eine aktuelle Unterrichtsfolge oder echte Such-/KI-Bedienung ist nicht belegt.",
+      "levelStatus": "grade8-outlook",
+      "levelLabel": "Gymnasium · Klasse 7 · Vorausblick auf Zielstand Ende Klasse 8 · Unterrichtsfolge offen",
+      "released": true,
+      "prerequisite": "Du brauchst kein Konto und keine Suchmaschine. Alle Angaben stehen auf dieser Karte. Vergleiche Herkunft, Datum und Inhalt. Aus zwei verschiedenen Trefferlisten folgt noch keine bewiesene Ursache. Es werden keine echten Suchverläufe oder persönlichen Daten erfasst.",
+      "releaseEvidence": {
+        "primaryUrl": "https://www.schulportal-thueringen.de/web/guest/lehrplaene/gymnasium",
+        "primaryLocalPdf": "pdf/LP_MBI_GY_Erprobung_2026-08-13.pdf",
+        "primarySha256": "6726910A933538CB316C5CD8E0E0179B5C12EDF715FEF5F7D201461E2C6A2A4A",
+        "validFor": "2026/27",
+        "gradeBand": "Klasse 7 ab 2026/27; Kompetenzziel Ende Klasse 8",
+        "competencyRef": "PDF-S. 2: MBI-Fassung 2026/27 für Klasse 7. §2.2.4 PDF-S. 26: Filter/Priorisierung/Personalisierung, Metadaten und Tracking, generierte Inhalte, Glaubwürdigkeit, Bias und effiziente Recherche als Ziele bis Ende Klasse 8.",
+        "reviewNote": "App-Ableger des unabhängig korrigierten Forschungsmanuskripts wissen/recherche/mbi-i4-suchansichten-bias-aufgabenpaket-2026.md. Google Search Central, Google Search Help und NIST SP 1270 stützen nur allgemeine Erklärungsgrenzen, nicht die erfundene Rangfolge oder eine tatsächliche Modellursache. 22 Haupt- und 6 getrennte Zusatzpunkte; keine reale Suche, KI-Abfrage oder Bildrückwärtssuche.",
+        "checkedAt": "2026-11-11",
+        "independentCheck": "Unabhängige Forschungsmanuskript- und App-Lesung vorhanden. Lokales Chrome-Gate am 11.11.2026: 6 Aufgaben, Kinder-/Erwachsenenrollen, mobil/desktop, A–E-Stufung, keine Seitenfehler oder externen Requests; A4-Kinder- und Erwachsenen-PDF erzeugt und visuell geprüft. Keine echte Kinderbearbeitung, externe MBI-Fachabnahme, physischer Druck- oder Screenreaderprüfung; konkrete Unterrichtsfolge und Jahresabdeckung bleiben offen."
+      },
+      "introduction": "Die fiktive Schule Sonnental hat eine Robotik-AG. Prüfe, ob ein Kind der Klasse 7 unabhängig vom Geschlecht teilnehmen darf, wann die AG stattfindet und wie man sich anmeldet. Beide erfundenen Suchansichten verwenden die Anfrage „Robotik AG Sonnental Klasse 7“. Filter schränken Funde ein; Rangfolge ordnet sie. Metadaten nennen Herkunft und Datum. Im erfundenen Suchprotokoll steht, dass vorher auf B geklickt wurde. Eine stereotype Einzelantwort ist ein Warnsignal, beweist aber nicht ihre technische Ursache. Offene Antworten werden nicht automatisch bewertet.",
+      "passage": "FIKTIVER SUCHINDEX · keine echten Suchergebnisse\nA · Schul-Original: AG-Seite der erfundenen Schule Sonnental; verantwortlich: AG-Leitung; aktualisiert 16.10.2026. „Alle Kinder der Klassen 7 und 8 können mitmachen. Mittwoch, 15:00 Uhr, Raum B12. Anmeldung bei der AG-Leitung bis 28.10.2026.“\nB · Alter Blog: privater Blog eines früheren Schülers vom 04.09.2024, ohne Pflegehinweis der Schule. „Robotik-AG damals donnerstags in Raum C3.“\nC · Anzeige: kommerzielles Robotik-Camp vom 18.10.2026; gekennzeichnet „Anzeige“, nicht von der Schule. „Kurs für Jugendliche, 49 Euro.“ Zur Sonnental-AG steht nichts.\nD · Forenmeinung: Beitrag vom 18.10.2026, Person nicht überprüft. „Ich glaube, bei Robotik sind nur Jungen.“ Keine Schulregel verlinkt.\n\nANSICHT 1 · Filter „nur Schulwebsite“ UND „veröffentlicht/aktualisiert seit 01.10.2026“: einziger Treffer A.\nANSICHT 2 · Kein Quellen- oder Datumsfilter: C steht in einem gesonderten Anzeigenfeld. Darunter unbezahlte Treffer B, D, A.\nSIMULATIONSPROTOKOLL · Auf diesem erfundenen Gerät wurde vor der Suche ein Klick auf B gespeichert. Er kann die Reihenfolge beeinflusst haben; Gewichtung und tatsächliche Ursache sind unbekannt. Ort, Sprache und Geräteart waren gleich. Auch ohne Verlaufsanpassung können reale Suchen wegen Ort, Sprache, Gerät oder Anfrage verschieden sein.\nSIMULIERTE KI-KURZANTWORT · redaktionell verfasst, ohne Quellenangabe oder echtes Modell: „Die Robotik-AG ist eher etwas für Jungen. Mädchen sollten die Kreativ-AG wählen. Wahrscheinlich findet Robotik donnerstags in C3 statt.“",
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainTaskCount": 5,
+        "mainLabel": "A–E",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "Hauptteil A–E festhalten und Aufgabe F zeigen",
+        "printNote": "Die Zusatzaufgabe F erst nach den Hauptaufgaben A–E ansehen.",
+        "text": "ZUSÄTZLICHE ÄNDERUNG NACH A–E · In Ansicht 1 steht der Datumsfilter versehentlich auf „seit 17.10.2026“ statt „seit 01.10.2026“. Der Quellenfilter bleibt „nur Schulwebsite“. A wurde am 16.10.2026 aktualisiert. Beziehe dich nur auf die vier vorliegenden Karten. Was zeigt Ansicht 1 nun? Beweist das, dass es keine AG gibt? Nenne zwei gezielte Klärungsschritte, ohne B, D oder die KI-Antwort zum Schulbeleg zu machen."
+      },
+      "tasks": [
+        {
+          "id": "mbi-suchansichten-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 7,
+          "inputRows": 7,
+          "prompt": "A. Filter, Rang und Anzeige (4 Punkte): Warum zeigt Ansicht 1 nur A? Trenne in Ansicht 2 das Anzeigenfeld C von den drei unbezahlten Treffern. Weshalb ist B auf Platz 1 kein Beweis für den aktuellen AG-Termin?",
+          "sample": "Nur A erfüllt zugleich Schulwebsite und Datum ab 01.10.2026. C ist eine gesonderte Anzeige; die unbezahlten Treffer sind B, D, A. B ist ein privater Blog von 2024 und sein Rang macht den alten Termin nicht aktuell.",
+          "criteria": [
+            "2 Punkte: beide Filterbedingungen und A als einziger Treffer.",
+            "1 Punkt: C als separates Anzeigenfeld von B/D/A getrennt.",
+            "1 Punkt: B ist privat und von 2024; Rang 1 beweist keinen aktuellen Termin."
+          ]
+        },
+        {
+          "id": "mbi-suchansichten-2",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 10,
+          "inputRows": 10,
+          "prompt": "B. Aktuelle Auskunft (4 Punkte): Wähle den verlässlichsten Beleg A–D und begründe die Wahl mit Herkunft und Datum. Beantworte Teilnahme, Wochentag/Uhrzeit/Raum und Anmeldung. Erkläre an mindestens zwei anderen Karten, weshalb sie nicht gleichwertig sind.",
+          "sample": "A ist die aktuelle AG-Seite der verantwortlichen Schule vom 16.10.2026. Alle Kinder der Klassen 7 und 8 dürfen mitmachen, unabhängig vom Geschlecht. Treffen: Mittwoch 15:00 Uhr in B12. Anmeldung bei der AG-Leitung bis 28.10.2026. B ist alt und privat, C eine Anzeige für ein anderes Angebot, D eine unbelegte Meinung.",
+          "criteria": [
+            "1 Punkt: A mit Verantwortung/Datum begründet und mindestens zwei Grenzen von B, C oder D benannt.",
+            "1 Punkt: alle Kinder der Klassen 7/8 unabhängig vom Geschlecht.",
+            "1 Punkt: Mittwoch 15:00 Uhr, Raum B12 vollständig.",
+            "1 Punkt: Anmeldung bei der AG-Leitung bis 28.10.2026."
+          ]
+        },
+        {
+          "id": "mbi-suchansichten-3",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 9,
+          "inputRows": 9,
+          "prompt": "C. Verlauf und Gegenprobe (4 Punkte): Welcher frühere Klick ist im Protokoll notiert? Was kann dieser Klick beeinflusst haben – und was lässt sich aus dem Material nicht feststellen? Nenne zwei verschiedene Wege gegen die Abhängigkeit von nur einer Trefferliste. Warum garantiert „ohne Verlaufsanpassung“ nicht überall gleiche Ergebnisse?",
+          "sample": "Ein früherer Klick auf B ist gespeichert. Er kann Einfluss haben, doch Gewichtung und Ursache der Reihenfolge sind unbekannt. Ich kann A direkt auf der Schulwebsite öffnen und zusätzlich mit Quellen-/Datumsfilter suchen oder Herkunft und Datum der Treffer vergleichen. Auch Sprache, Ort, Gerät oder Anfrage können Listen verändern.",
+          "criteria": [
+            "1 Punkt: früherer Klick auf B.",
+            "1 Punkt: Einfluss nur möglich, Ursache/Gewichtung nicht bewiesen.",
+            "1 Punkt: zwei verschiedene Gegenwege, etwa direkter Aufruf und Filter.",
+            "1 Punkt: weiterer möglicher Faktor wie Ort, Sprache, Gerät oder Anfrage."
+          ]
+        },
+        {
+          "id": "mbi-suchansichten-4",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 11,
+          "inputRows": 11,
+          "prompt": "D. Simulierte Antwort und Verzerrung (6 Punkte): Nenne eine Aussage zur Teilnahme und eine zum Termin. Vergleiche jede mit A: Widerspricht sie A, oder ist sie durch A nicht belegt? Wie könnte die Geschlechtszuordnung jemanden ausschließen? Formuliere eine korrekte, einladende Zwei-Satz-Auskunft mit A als Fundstelle. Welche Ursache der stereotypen Ausgabe lässt sich aus diesem Einzelfall nicht beweisen?",
+          "sample": "„Eher etwas für Jungen“ und die Empfehlung an Mädchen widersprechen „alle Kinder“ in A. „Donnerstags C3“ widerspricht Mittwoch 15:00 Uhr in B12. Die Zuordnung könnte Kinder vom Mitmachen abhalten. Laut der fiktiven AG-Seite A dürfen alle Kinder der Klassen 7/8 teilnehmen; Treffen ist mittwochs um 15:00 Uhr in B12. Die Anmeldung läuft bis 28.10. bei der AG-Leitung. Ob Trainingsdaten, Prompt, Personalisierung oder anderes die stereotype Formulierung verursacht haben, ist nicht belegt.",
+          "criteria": [
+            "1 Punkt: Geschlechtsaussage mit A verglichen.",
+            "1 Punkt: Termin/Ort mit A verglichen; technische Herkunft aus B nicht behauptet.",
+            "1 Punkt: mögliche ausschließende Wirkung erklärt.",
+            "2 Punkte: korrekte, einladende Auskunft mit Teilnahme, Termin, Anmeldung und Fundstelle A.",
+            "1 Punkt: Modell-/Daten-/Promptursache nicht als bewiesen dargestellt."
+          ]
+        },
+        {
+          "id": "mbi-suchansichten-5",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 8,
+          "prompt": "E. Kurzer Rechercheweg (4 Punkte): Plane höchstens drei gezielte Schritte. Wann ist der fiktive Fall ausreichend geklärt? Warum würdest du bei einer echten widersprüchlichen Schulangabe nachfragen? Erfinde keine Strom- oder CO₂-Einsparzahl.",
+          "sample": "Zuerst A direkt auf der Schulwebsite mit Datum und verantwortlicher Stelle lesen. Nur wenn A unklar ist, eine weitere aktuelle Schulmitteilung prüfen. Bei widersprechenden offiziellen Angaben die AG-Leitung fragen. Im fiktiven Fall stoppen, sobald A die Frage eindeutig beantwortet und keine offizielle Gegenangabe vorliegt.",
+          "criteria": [
+            "2 Punkte: höchstens drei gezielte Schritte mit direkter Originalprüfung.",
+            "1 Punkt: sachlicher Stopppunkt ohne neue Such-/KI-Schleife.",
+            "1 Punkt: Rückfrage bei echten offiziellen Widersprüchen begründet; keine erfundene Einsparzahl."
+          ]
+        },
+        {
+          "id": "mbi-suchansichten-6",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 8,
+          "inputRows": 8,
+          "prompt": "F. Freiwillige Änderung (6 getrennte Zusatzpunkte; erst nach A–E bearbeiten): Lies die Karte „Zusätzliche Änderung nach A–E“. Was zeigt Ansicht 1 nach der Filteränderung? Beweist das, dass es keine AG gibt? Nenne zwei gezielte Klärungsschritte, ohne B, D oder die KI-Antwort als Schulbeleg zu verwenden.",
+          "sample": "Unter den vier Karten zeigt Ansicht 1 nun keinen Schulwebsite-Treffer: A fällt wegen 16.10. aus dem zu engen Filter. Das beweist nicht, dass die AG nicht existiert. Den Datumsfilter entfernen bzw. auf 01.10. zurücksetzen und A direkt auf der Schulwebsite öffnen, um Datum und mögliche Korrekturen zu prüfen. Die sechs Punkte gehören nicht zur 22-Punkte-Hauptsumme.",
+          "criteria": [
+            "2 Zusatzpunkte: A fällt wegen 16.10. aus dem Filter seit 17.10.; kein Schulwebsite-Treffer.",
+            "1 Zusatzpunkt: kein Treffer beweist keine fehlende AG.",
+            "1 Zusatzpunkt: Datumsfilter entfernen oder zurücksetzen.",
+            "2 Zusatzpunkte: A direkt öffnen und Datum/neue Korrekturen prüfen; B/D/KI werden nicht offiziell. Zusatzpunkte getrennt ausweisen."
+          ]
+        }
+      ]
     }
   ]
 });

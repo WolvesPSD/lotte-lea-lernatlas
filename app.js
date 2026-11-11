@@ -1289,7 +1289,7 @@
     appendText(page, 'p', 'print-kicker', preview ? 'Lotte & Lea · Prüfmodus: kann ungeprüfte Aufgaben enthalten' : 'Lotte & Lea · Lernmaterial mit Quellenstand im Themenkatalog');
     appendText(page, 'h1', '', mode === 'child' ? 'Arbeitsblatt' : unscoredNotesOnly ? 'Hinweisblatt für Erwachsene' : manualBookOnly ? 'Prüfblatt für Erwachsene' : 'Lösungsblatt für Erwachsene');
     appendText(page, 'p', '', mode === 'child' ? 'Name: ____________________   Datum: __________' : unscoredNotesOnly ? 'Die Notizen und der getrennte Praxisbogen sind unbewertet. Nur eine tatsächlich beobachtete Handlung kann fachlich beurteilt werden.' : manualBookOnly ? 'Die Heidi-Beispiele zeigen die Methode. Inhaltliche Antworten nur mit dem tatsächlich gewählten Buch und derselben Ausgabe prüfen.' : 'Diese Musterlösungen erklären die Schritte. Offene Antworten brauchen eine persönliche Prüfung.');
-    if (mode === 'child') appendText(page, 'p', 'print-feedback-note', 'Wenn du der App etwas rückmelden möchtest, kannst du den Text selbst im Lernatlas schreiben. Antworten aus diesem Arbeitsblatt werden nicht automatisch übernommen.');
+    if (mode === 'child') appendText(page, 'p', 'print-feedback-note', 'Wenn du der App etwas rückmelden möchtest, schreibe die Rückmeldung selbst im Lernatlas. Antworten aus diesem Arbeitsblatt werden nicht automatisch zu deiner Rückmeldung hinzugefügt.');
     for (const id of ids) {
       const topic = topicById.get(id); const section = create('section', 'print-topic');
       const hideChildUpdate = mode === 'child' && topic.stagedUpdate?.childPrintAfterUnlock === true

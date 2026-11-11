@@ -1,9 +1,7 @@
 {
-  "builtAt": "2026-11-11T21:12:55Z",
-  "releaseVersion": "2026.11.11-mbi-suchansichten.1",
-  "newTopicIds": [
-    "mbi-suchansichten-bias"
-  ],
+  "builtAt": "2026-11-11T23:53:59Z",
+  "releaseVersion": "2026.11.12-mbi-suchansichten.2",
+  "newTopicIds": [],
   "changeLog": [
     "Drei Jahrgangs-Metadaten an die amtlichen Thüringer 2026er Lehrplanfassungen und die dokumentierte Ende-8-Zielmarke angepasst.",
     "199 Themen und alle Aufgaben, Lösungen, App-Funktionen und Assets unverändert; keine neue Kinderleistung oder Unterrichtsfolge behauptet.",
@@ -53,7 +51,9 @@
     "MBI I4: zwei simulierte Suchansichten und eine redaktionell geschriebene KI-Kurzantwort prüfen; 22 Hauptpunkte und 6 getrennte Zusatzpunkte, Klasse-7-Vorausblick auf Zielstand Ende Klasse 8.",
     "Kinderdruck klärt, dass Rückmeldung zur App selbst geschrieben wird und Lernantworten nicht automatisch übernommen werden.",
     "MBI-Suchfall: drei Kinderformulierungen nach abgeglichener Natürlichkeitsprüfung vereinfacht; Bedeutungsgrenzen, Rubrik und Punkte unverändert.",
-    "Die Zusatzfrage F verweist jetzt auf die vorherige Änderungskarte statt deren Text im Aufgabenprompt zu wiederholen; Inhalt und 6 Zusatzpunkte bleiben."
+    "Die Zusatzfrage F verweist jetzt auf die vorherige Änderungskarte statt deren Text im Aufgabenprompt zu wiederholen; Inhalt und 6 Zusatzpunkte bleiben.",
+    "MBI-I4-F: Die Kinderfrage wiederholt den Änderungskartentext nicht mehr und benennt die zwei Klärungsschritte einfacher; die Rubrik bleibt unverändert.",
+    "Rückmeldungshinweis in Lernansicht und Kinderdruck präzisiert: Antworten werden nicht automatisch zur Rückmeldung hinzugefügt."
   ],
   "rollbackCommit": "46c2959907596137ebeaba5c78ee30e99c20cf5a",
   "releasedTopics": [
@@ -388,5 +388,5 @@
     "es6-mochila-tres-frases",
     "es6-nachricht-aendern"
   ],
-  "note": "216 Themen/1012 Aufgaben. 215 bisherige veröffentlichte Themen aus der exakt geprüften Basis unverändert übernommen. MBI I4 bleibt ein fiktiver Ende-Klasse-8-Vorausblick, keine belegte aktuelle Klasse-7-Einheit. Chrome-Gate mobil/desktop und Kinder-/Erwachsenendruck bestanden; Kinderdruckhinweis zur App-Rückmeldung ergänzt. Echte Kinderbearbeitung, externe Fachabnahme, physischer Druck, Screenreader, Schulfolge und Jahresvollständigkeit bleiben offen. Die drei Formulierungsanpassungen wurden danach erneut im Kinder-/Erwachsenendruck und im Browsergate geprüft."
+  "note": "216 Themen/1012 Antwortfelder. Folgekorrektur des bereits veröffentlichten MBI-I4-Pakets; keine neue Themen-ID. Chrome-Gate und A4-Druck erneut geprüft. Externe Fachsicht, Kinderprobe, Papierdruck, Screenreader, konkrete Schulfolge und Jahresvollständigkeit bleiben offen."
 }

@@ -22956,7 +22956,7 @@ window.LOTTE_CATALOG = Object.freeze({
           "points": 6,
           "writingLines": 8,
           "inputRows": 8,
-          "prompt": "F. Freiwillige Änderung (6 getrennte Zusatzpunkte; erst nach A–E bearbeiten): Lies die Karte „Zusätzliche Änderung nach A–E“. Was zeigt Ansicht 1 nach der Filteränderung? Beweist das, dass es keine AG gibt? Nenne zwei gezielte Klärungsschritte, ohne B, D oder die KI-Antwort als Schulbeleg zu verwenden.",
+          "prompt": "F. Freiwillige Änderung (6 getrennte Zusatzpunkte; erst nach A–E bearbeiten): Lies die Karte „Zusätzliche Änderung nach A–E“. Was zeigt Ansicht 1 nach der Filteränderung? Beweist das, dass es keine AG gibt? Nenne zwei nächste Schritte, mit denen du prüfst, ob es die AG gibt. Verwende B, D oder die KI-Antwort dabei nicht als Schulbeleg.",
           "sample": "Unter den vier Karten zeigt Ansicht 1 nun keinen Schulwebsite-Treffer: A fällt wegen 16.10. aus dem zu engen Filter. Das beweist nicht, dass die AG nicht existiert. Den Datumsfilter entfernen bzw. auf 01.10. zurücksetzen und A direkt auf der Schulwebsite öffnen, um Datum und mögliche Korrekturen zu prüfen. Die sechs Punkte gehören nicht zur 22-Punkte-Hauptsumme.",
           "criteria": [
             "2 Zusatzpunkte: A fällt wegen 16.10. aus dem Filter seit 17.10.; kein Schulwebsite-Treffer.",

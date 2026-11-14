@@ -2004,6 +2004,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "tasks": [
         {
           "id": "mbi-festbezug-1",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 3,
           "writingLines": 5,
@@ -2017,6 +2018,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-festbezug-2",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 7,
           "writingLines": 8,
@@ -2032,6 +2034,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-festbezug-3",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 4,
           "writingLines": 6,
@@ -2046,6 +2049,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-festbezug-4",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 6,
           "writingLines": 8,
@@ -5699,6 +5703,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "tasks": [
         {
           "id": "mbi-farbkarten-1",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 2,
           "writingLines": 4,
@@ -5711,6 +5716,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-farbkarten-2",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 3,
           "writingLines": 5,
@@ -5724,6 +5730,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-farbkarten-3",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 2,
           "writingLines": 5,
@@ -5736,6 +5743,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-farbkarten-4",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 5,
           "writingLines": 8,
@@ -7900,6 +7908,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-quellen-3",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "prompt": "Erkläre in drei bis fünf Sätzen, wie du bei einer echten, möglicherweise geänderten Veranstaltung verlässlich nachprüfen würdest. Nenne die Rolle von Datum/Herkunft, einen Schritt bei verbleibendem Widerspruch und die Grenze einer KI-Zusammenfassung.",
           "sample": "Ich öffne die Seite des Veranstalters selbst und prüfe die jüngste datierte Mitteilung samt Korrekturen. Einen weitergeleiteten Beitrag oder eine KI-Antwort mit fehlender Fundstelle behandle ich nur als Hinweis. Wenn die Originalseite widersprüchlich bleibt, frage ich beim Veranstalter nach, bevor ich mich auf Ort und Zeit verlasse. Persönliche Angaben würde ich nur über einen geprüften Anmeldeweg eingeben.",
@@ -11491,6 +11500,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "tasks": [
         {
           "id": "mbi-medienkarte-1",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 4,
           "writingLines": 6,
@@ -11504,6 +11514,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-medienkarte-2",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 9,
           "writingLines": 11,
@@ -11519,6 +11530,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-medienkarte-3",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 5,
           "writingLines": 8,
@@ -11533,6 +11545,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-medienkarte-4",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 6,
           "writingLines": 8,
@@ -11548,6 +11561,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-medienkarte-5",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 6,
           "writingLines": 9,
@@ -12192,6 +12206,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "tasks": [
         {
           "id": "mbi-simunet-1",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 7,
           "writingLines": 10,
@@ -12210,6 +12225,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-simunet-2",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 3,
           "writingLines": 7,
@@ -12224,6 +12240,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-simunet-3",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 5,
           "writingLines": 9,
@@ -12266,6 +12283,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "tasks": [
         {
           "id": "mbi-luefter-1",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 4,
           "writingLines": 6,
@@ -12281,6 +12299,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-luefter-2",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 7,
           "writingLines": 10,
@@ -12299,6 +12318,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-luefter-3",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 7,
           "writingLines": 10,
@@ -12317,6 +12337,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-luefter-4",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 4,
           "writingLines": 7,
@@ -12332,6 +12353,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-luefter-5",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 3,
           "writingLines": 6,
@@ -12668,6 +12690,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "tasks": [
         {
           "id": "mbi-buchlabor-1",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 4,
           "writingLines": 6,
@@ -12681,6 +12704,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-buchlabor-2",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 6,
           "writingLines": 8,
@@ -12694,6 +12718,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-buchlabor-3",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 5,
           "writingLines": 8,
@@ -12709,6 +12734,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-buchlabor-4",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 5,
           "writingLines": 7,
@@ -22878,6 +22904,7 @@ window.LOTTE_CATALOG = Object.freeze({
       "tasks": [
         {
           "id": "mbi-suchansichten-1",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 4,
           "writingLines": 7,
@@ -22892,6 +22919,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-suchansichten-2",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 4,
           "writingLines": 10,
@@ -22907,6 +22935,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-suchansichten-3",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 4,
           "writingLines": 9,
@@ -22922,6 +22951,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-suchansichten-4",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 6,
           "writingLines": 11,
@@ -22938,6 +22968,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-suchansichten-5",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 4,
           "writingLines": 8,
@@ -22952,6 +22983,7 @@ window.LOTTE_CATALOG = Object.freeze({
         },
         {
           "id": "mbi-suchansichten-6",
+          "adultOnlySolution": true,
           "kind": "reflection",
           "points": 6,
           "writingLines": 8,

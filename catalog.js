@@ -1,4 +1,4 @@
-window.LOTTE_CATALOG = Object.freeze({
+window.LOTTE_CATALOG=Object.freeze({
   "version": 1,
   "status": "familienversion",
   "subjects": [
@@ -843,7 +843,29 @@ window.LOTTE_CATALOG = Object.freeze({
         "gradeBand": "8",
         "competencyRef": "PDF-S. 2: Klasse 8 ab 2027/28. §2.2.14, PDF-S. 32–33: Pyramide, Zylinder, Kegel und Kugel in verschiedenen Darstellungen erkennen; Netze für Pyramide und Zylinder. Dreiecksprisma unter §2.2.7, PDF-S. 28–29, ebenfalls Zielstand Ende Klasse 8.",
         "checkedAt": "2026-10-25"
-      }
+      },
+      "practice": {
+        "title": "Freiwillig: eine Pyramide selbst auf Papier zeichnen",
+        "unscored": true,
+        "childNote": "Empfohlene Reihenfolge: nach A–C und vor dem Kreisumriss-Transfer. Keine zusätzlichen Punkte. Nutze Lineal, Geodreieck, Bleistift und eigenes Papier. Die Körperkarten sind nicht massstäblich; zeichne eine eigene neue Darstellung. Gerade quadratische Pyramide mit echter Grundkante 8 cm und senkrechter Körperhöhe 3 cm. Gewählte Kabinettregel: Vorderkante 8 cm, gezeichnete Tiefenkanten 4 cm bei 45 Grad nach rechts oben. Ohne Material oder Gelegenheit nicht erhoben; keine Aufnahme oder Übermittlung nötig.",
+        "childSteps": [
+          "Zeichne AB 8 cm waagrecht, A links und B rechts. Zeichne von A nach D und von B nach C jeweils 4 cm bei 45 Grad nach rechts oben; beide Strecken sind parallel. Verbinde D und C zur Grundfläche.",
+          "Zeichne die beiden Diagonalen der Grundfläche dünn als Hilfslinien. Ihr Schnittpunkt ist M. Zeichne von M 3 cm senkrecht nach oben zur Spitze S.",
+          "Verbinde S mit A,B,C,D. Unterscheide Körperkanten von Hilfslinien. Zeichne für diese festgelegte Ansicht verdeckte Körperkanten gestrichelt.",
+          "Beschrifte getrennt die echte Grundkante 8 cm, die gezeichnete halbe Tiefe 4 cm und die senkrechte Körperhöhe 3 cm. Prüfe zwei Längen sowie Parallelität oder Winkel selbst. Erkläre mit eigenen Worten, warum die4 cm im Bild nicht die echte Grundflächentiefe sind. Zeige das eigene Blatt später zur Sichtprüfung; keine Aufnahme nötig."
+        ],
+        "adultNote": "Unbepunktete Sichtprüfung nur am tatsächlichen Papierprodukt. Die ursprünglichen 8 Punkte aus dem separaten C-Manuskript werden hier nicht vergeben. Bestehende 20+6 Punkte unverändert. Keine Null, keine Summe und keine Schulnote bei fehlender Gelegenheit. Die Reihenfolge ist eine Empfehlung, keine technische Durchführungssperre. Keine Namen oder Aufnahmen speichern; übliche Zeichenungenauigkeit ohne erfundene Millimeternorm besprechen.",
+        "adultCriteria": [
+          "AB 8 cm und zwei parallele4 cm-Tiefenkanten bei 45 Grad nach rechts oben tatsächlich mit Lineal/Geodreieck geprüft?",
+          "Grundparallelogramm geschlossen, dünne Diagonalen und Mittelpunkt M erkennbar?",
+          "Spitze S 3 cm senkrecht über M, nicht über einer Ecke oder als schräge Seitenhöhe?",
+          "Vier Verbindungen von S zu den Grundecken und die verdeckte Körperkante für diese genaue Ansicht richtig: nur CD gestrichelt; AD und DS sind bei diesen Massen sichtbar. Hilfslinien nicht als Körperkanten werten.",
+          "Echte8 cm, gezeichnete4 cm und senkrechte3 cm getrennt beschriftet und halbe Bildtiefe erklärt?",
+          "Eigene zwei Masskontrollen und eine Winkel-/Parallelitätskontrolle nachvollziehbar am Blatt gezeigt? Korrektur bei echtem Bedarf oder begründetes Beibehalten zulassen."
+        ],
+        "printObservationFooter": "Keine zusätzlichen Punkte. Richtiges Beispiel oder Textfeld ersetzt keine selbst gezeichnete Pyramide. Ohne tatsächlich gesehenes Blatt nicht erhoben; keine automatische Kompetenz- oder Jahresabnahme."
+      },
+      "practiceBeforeLastTask": true
     },
     {
       "id": "de-songtext-rueck-ein-stueck",

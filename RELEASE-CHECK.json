@@ -1,13 +1,13 @@
 {
-  "builtAt": "2026-11-13T07:44:10.463Z",
-  "releaseVersion": "2026.11.13-mbi-kinderrollen.1",
+  "builtAt": "2026-11-16T15:53:04.383Z",
+  "releaseVersion": "2026.11.16-m14papier.1",
   "newTopicIds": [],
   "changeLog": [
-    "32 offene Schreibaufgaben in acht bestehenden MBI-Themen verweisen nach der Kinderantwort auf die getrennte Erwachsenenlösung, statt Muster und Kriterien automatisch anzuzeigen.",
-    "216 Themen/1012 Antwortfelder; alle Aufgaben, Lösungen, Quellen, Punkte, Choice-Prüfungen, Freischaltungen, App-Funktionen und 95 Assets gegenüber dem öffentlichen Pin unverändert.",
-    "Keine neue Kinder-, Papier-, externe Fach- oder Jahresabnahme; lokale M24-/FR-Ergänzungen und Familienwerkzeuge sind nicht Bestandteil dieses Pakets."
+    "Mathematik: freiwilliger Papierweg für eine eigene Pyramidenzeichnung am bestehenden Körper-/Netzthema; keine zusätzlichen Punkte.",
+    "Klare Zeichenregel 8 cm Vorderkante, 4 cm gezeichnete Tiefe und 3 cm senkrechte Höhe; tatsächliches Papierprodukt getrennt prüfen.",
+    "216 vorhandene Themen und 1012 Antwortfelder erhalten; alle ursprünglichen Aufgaben, Punkte, Lösungen, Medien und übrigen Themen unverändert."
   ],
-  "rollbackCommit": "5533952e017bd96b08a7b4a1638051a3ccbbf3e6",
+  "rollbackCommit": "967e85dc643a6db87768b298e90cb732600afb14",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -340,11 +340,11 @@
     "es6-mochila-tres-frases",
     "es6-nachricht-aendern"
   ],
-  "note": "Isolierte Rollen-Korrektur auf dem öffentlichen Pin; 32 geprüfte Kennzeichnungen. Veröffentlichung auf dem bestehenden GitHub-Pages-Link gemäss Roberts fortgeltender Paket-Uploadfreigabe vom 22.10.2026, Originalchat Zeile 48159. Deployment-Ergebnis wird separat protokolliert.",
-  "catalogSha256": "6616892DB4822073FAF87075AA9475B7A41BFDA08FCD3D2646C79005DEB01747",
+  "note": "Geprüfter zielgebundener Seitenupdate gemäss direkter Nutzerfreigabe vom 16.11.2026. Keine private Quelle oder Lernstände enthalten. Keine neue Jahres-, Kinder- oder externe Fachabnahme.",
+  "catalogSha256": "C8744C80BDACB44A9BA07F2659C7314174737F18757198094EAC58B4F480BE00",
   "sourceBaseline": {
-    "version": "2026.11.12-mbi-suchansichten.2",
-    "commit": "5533952e017bd96b08a7b4a1638051a3ccbbf3e6",
-    "catalogSha256": "5C1D94485625EFEC163FB2C436174E086B63302CEEB7ACE37EA6F2AD3096BFBB"
+    "version": "2026.11.13-mbi-kinderrollen.1",
+    "commit": "967e85dc643a6db87768b298e90cb732600afb14",
+    "catalogSha256": "6616892DB4822073FAF87075AA9475B7A41BFDA08FCD3D2646C79005DEB01747"
   }
 }

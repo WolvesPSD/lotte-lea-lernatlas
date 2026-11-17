@@ -81,10 +81,10 @@ window.LOTTE_CATALOG=Object.freeze({
     {
       "id": "ge",
       "name": "Geschichte",
-      "plan": "2021 (2025/26)",
-      "scope": "7/8; Stand 2026/27 offen",
-      "availabilityLabel": "Lehrplan 2026/27 ungeklärt",
-      "availabilityReason": "Für Klasse 7 im Schuljahr 2026/27 wissen wir noch nicht sicher, welcher amtliche Geschichte-Lehrplan gilt. Vier freiwillige Quellenfälle aus der älteren Fassung sind verfügbar; sie sind keine bestätigten aktuellen Klasse-7-Einheiten."
+      "plan": "Gymnasium: Geschichte 2021 · Klasse 7 im Schuljahr 2026/27",
+      "scope": "7/8-Zielraum; schulische Auswahl und Reihenfolge offen",
+      "availabilityLabel": "Planbasis für Klasse 7 bestätigt",
+      "availabilityReason": "Die aktuelle amtliche Gymnasiumsübersicht ordnet Geschichte 2021 der Klasse 7 im Schuljahr 2026/27 zu. Die vorhandenen Quellenfälle bleiben Übungsangebote. Welche der Wahlthemen Lottes Schule behandelt und in welcher Reihenfolge, ist unbekannt; aus der Planbasis folgt keine bestätigte einzelne Unterrichtseinheit."
     },
     {
       "id": "go",
@@ -22903,7 +22903,6 @@ window.LOTTE_CATALOG=Object.freeze({
       "prerequisite": "Du brauchst kein Konto und keine Suchmaschine. Alle Angaben stehen auf dieser Karte. Vergleiche Herkunft, Datum und Inhalt. Aus zwei verschiedenen Trefferlisten folgt noch keine bewiesene Ursache. Es werden keine echten Suchverläufe oder persönlichen Daten erfasst.",
       "releaseEvidence": {
         "primaryUrl": "https://www.schulportal-thueringen.de/web/guest/lehrplaene/gymnasium",
-        "primaryLocalPdf": "pdf/LP_MBI_GY_Erprobung_2026-08-13.pdf",
         "primarySha256": "6726910A933538CB316C5CD8E0E0179B5C12EDF715FEF5F7D201461E2C6A2A4A",
         "validFor": "2026/27",
         "gradeBand": "Klasse 7 ab 2026/27; Kompetenzziel Ende Klasse 8",
@@ -23020,6 +23019,148 @@ window.LOTTE_CATALOG=Object.freeze({
           ]
         }
       ]
+    },
+    {
+      "id": "ge-grundrechte-norm-vollzug",
+      "subjectId": "ge",
+      "title": "Grundrechte 1848: Gesetz und Wirklichkeit unterscheiden",
+      "released": true,
+      "levelStatus": "grade8-outlook",
+      "levelLabel": "Freiwilliger Einstieg · Ziel bis Ende Klasse 8",
+      "scope": "Enger H06a/H-M-Quellenfall. Gültige Planbasis Geschichte 2021 für 2026/27; konkrete Klasse-7-Unterrichtsfolge offen. Keine vollständige Revolution-, H06a- oder Jahresabdeckung.",
+      "prerequisite": "Eigene sinngemässe Wiedergabe zweier getrennter Gesetzesstellen; heutige Sprache statt historischer Buchstabentreue. Keine Angaben zu deiner Familie, politischen Haltung oder persönlichen Erfahrungen nötig.",
+      "introduction": "Fünf Hauptaufgaben mit 4+4+6+4+2=20 Kriterienpunkten. Erst nach Antworten und besprochener Rückmeldung erscheint eine freiwillige Ausstellungskarte mit 6 getrennten Punkten. Freie Antworten prüft ein Mensch; keine automatische Schulnote.",
+      "passage": "Historische Frage: Welche Gleichheit wurde Ende 1848 gesetzlich formuliert und was kann man daraus über die damalige Wirklichkeit sagen? Wörter: Eine Rechtsnorm legt Regeln fest. Vollzug bedeutet deren tatsächliche Anwendung. Eine spätere Darstellung ordnet frühere Ereignisse ein. Dokumentdatum, formaler Rechtsbeginn und Durchsetzung sind verschiedene Fragen.",
+      "cardsHeading": "Historische Norm und drei heutige Kontextangaben",
+      "sourceCards": [
+        {
+          "title": "A · Gesetz vom 27. Dezember 1848 – zwei ausgewählte Stellen",
+          "text": "Eigene sinngemässe Wiedergabe nach Artikel I §1 und Artikel II §7: Das Gesetz bestimmt das deutsche Volk über die Angehörigen der Staaten, die das deutsche Reich bilden. Es formuliert für die Deutschen Gleichheit vor dem Gesetz. Die dazwischenliegenden Paragraphen und weitere Teile von §7 sind hier ausgelassen. „Vor dem Gesetz“ ist die heutige sprachliche Wiedergabe; kein buchstabengetreues historisches Zitat. Redaktionelle Herkunftsangabe: Ausfertigung durch Reichsverweser Erzherzog Johann nach Beschluss der Nationalversammlung. Sie ist kein zusätzlicher Gesetzessatz.",
+          "sourceLabel": "Wienbibliothek: zeitgenössischer Nachdruck, Beilage zum Bayerischen Eilboten, 1848",
+          "sourceUrl": "https://www.digital.wienbibliothek.at/wbrobv/content/titleinfo/2026114"
+        },
+        {
+          "title": "B1 · Heutige bpb-Darstellung: geplantes Volkshaus 1849",
+          "text": "Die Darstellung beschreibt für das geplante Volkshaus allgemeines Männerwahlrecht. Das ist eine spätere historische Einordnung und kein weiterer Satz aus A.",
+          "sourceLabel": "bpb: Verfassungsgebung und Wahlrecht, heutige Darstellung",
+          "sourceUrl": "https://www.bpb.de/shop/zeitschriften/izpb/572098/von-der-krise-zum-revolutionsende-die-veraenderung-der-handlungsspielraeume-seit-dem-herbst-1848/"
+        },
+        {
+          "title": "B2 · Heutige Bundesarchiv-Darstellung: Anerkennung und Macht",
+          "text": "Die meisten deutschen Staaten veröffentlichten und anerkannten die Grundrechte. Österreich, Preussen, Bayern und Hannover verweigerten die Anerkennung der neuen Ordnung. Gegen ihren Willen konnte die Nationalversammlung die Grundrechte nicht durchsetzen. Diese spätere Einordnung ist kein damaliger Erlebnisbericht einzelner Betroffener.",
+          "sourceLabel": "Bundesarchiv: Dezember 1848, Objekt DB 1-U/96 und Kontext",
+          "sourceUrl": "https://www.bundesarchiv.de/themen-entdecken/online-entdecken/storys/schlaglichter-einer-revolution/dezember-1848/"
+        },
+        {
+          "title": "B3 · Abweichende heutige Angaben zum Rechtsbeginn",
+          "text": "Die bpb nennt 27. Dezember, der Bundestag 28. Dezember 1848 nach Verkündung. Das Bundesarchiv nennt den Folgetag der Verkündigung, ohne in diesem Absatz deren Datum eindeutig zu bestimmen. Diese Aufgabe entscheidet den Widerspruch nicht. Das Dokumentdatum 27. Dezember beweist weder den Rechtsbeginn noch einen Vollzug überall.",
+          "sourceLabel": "Bundestag: Kalenderblatt zu den Grundrechten",
+          "sourceUrl": "https://www.bundestag.de/dokumente/textarchiv/1848-12-21-grundrechte-584354"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "ge-h06a-1",
+          "kind": "reflection",
+          "points": 4,
+          "prompt": "Quellensteckbrief · 4 Punkte. Nenne zu A Gattung, Dokumentdatum, ausfertigende Stelle und Perspektive/Absicht. Erkläre zusätzlich, warum eine heutige Webseite den dort wiedergegebenen historischen Text nicht selbst zu einer heutigen Meinung macht.",
+          "sample": "A erschliesst einen zeitgenössischen normativen Gesetzestext, Dokumentdatum 27.12.1848. Reichsverweser Erzherzog Johann fertigte das Gesetz nach Beschluss der Nationalversammlung aus. Gesetzgeberische Perspektive: Rechte festlegen, keine Erfahrungen protokollieren. Heutige Edition, unsere heutige Paraphrase und historischer Norminhalt sind verschiedene Ebenen; der Entstehungszeitpunkt der Webseite ändert den historischen Inhalt nicht in eine heutige Meinung.",
+          "criteria": [
+            "Gattung 1; Dokumentdatum 1; ausfertigende Stelle und gesetzgeberische Perspektive/Absicht zusammen 1; Unterscheidung historische Norm/heutige Wiedergabe 1. Nationalversammlung als Beschlussorgan anerkennen, wenn Beschluss und Ausfertigung unterschieden werden. Insgesamt 4."
+          ],
+          "hint": "Trenne Beschlussorgan, Ausfertigung, historisches Gesetz und heutige Wiedergabe.",
+          "adultOnlySolution": true,
+          "inputRows": 8,
+          "writingLines": 10
+        },
+        {
+          "id": "ge-h06a-2",
+          "kind": "reflection",
+          "points": 4,
+          "prompt": "Wortlaut und Grenze · 4 Punkte. Gib die beiden Aussagen aus A jeweils in eigenen Worten wieder und nenne die dort bezeichneten Menschen. Kennzeichne ausdrücklich den Normcharakter. Nenne eine Aussage über den Alltag 1848/49, die A allein nicht beweist.",
+          "sample": "Artikel I §1 bestimmt das deutsche Volk über die Angehörigen der Staaten, die das deutsche Reich bilden. Artikel II §7 formuliert Gleichheit der Deutschen vor dem Gesetz. Dies ist eine Rechtsnorm. Sie beweist beispielsweise weder gleiche Behandlung bei einem bestimmten Gericht noch gleiches Wahlrecht oder tatsächlichen Vollzug in allen Staaten.",
+          "criteria": [
+            "§1 mit Staatszugehörigkeit und Reichweitenbezug 1; §7 mit den Deutschen und rechtlicher Gleichheit 1; ausdrücklich Norm statt Erfahrung 1; konkrete nicht bewiesene Alltags-/Politikbehauptung 1. Insgesamt 4."
+          ],
+          "hint": "Gleichheit vor dem Gesetz ist nicht gleiches Vermögen und nicht automatisch gleiches Wahlrecht.",
+          "adultOnlySolution": true,
+          "inputRows": 8,
+          "writingLines": 10
+        },
+        {
+          "id": "ge-h06a-3",
+          "kind": "reflection",
+          "points": 6,
+          "prompt": "Drei Behauptungen · 6 Punkte. Ordne jede Aussage ein: durch A gedeckt, durch B widerlegt oder mit A allein nicht entscheidbar. Je Aussage genügt eine richtige Einordnung mit passender genauer Materialstelle und Begründung. Mehrere Kennzeichnungen sind möglich, wenn du ihre Materialbasis unterscheidest. a) Das Gesetz nennt die Deutschen als Träger der Gleichheit vor dem Gesetz. b) A beweist, dass Frauen das 1849 geplante Volkshaus wählen konnten. c) Ob der formale Beginn am 27. oder 28. Dezember lag: Seine Rechte wurden deshalb in allen Einzelstaaten vollständig durchgesetzt.",
+          "sample": "a) Durch A gedeckt: zweiter ausgewählter Satz, Artikel II §7, nennt die Deutschen und gesetzliche Gleichheit; kein Vollzugsbericht. b) Vollständig richtig ist entweder „mit A allein nicht entscheidbar“, da keine Wahlregel in den zwei Sätzen steht, ODER „durch B1 widerlegt“ für das geplante Volkshaus, da dort Männerwahlrecht steht. c) Vollständig richtig ist entweder „mit A allein nicht entscheidbar“, da Norminhalt keinen Vollzug in allen Staaten berichtet, ODER „durch B2 widerlegt“, da benannte Staaten Anerkennung verweigerten und Durchsetzung gegen sie fehlte. B3 betrifft Rechtsbeginn, nicht Durchführung. Je eine richtige, materialgerecht begründete Einordnung reicht; keine Doppelantwort verlangen.",
+          "criteria": [
+            "Je a/b/c: richtige materialbezogene Einordnung 1 und passende Stelle samt Begründung 1. Bei b/c A-allein-Argument ODER zutreffender B-Gegenbeleg gleichwertig für je 2 Punkte. Keine doppelte Einordnung voraussetzen. Insgesamt 6."
+          ],
+          "hint": "Prüfe für jede Aussage, was genau A oder B sagt. Ein richtig begründeter Weg genügt.",
+          "adultOnlySolution": true,
+          "inputRows": 8,
+          "writingLines": 10
+        },
+        {
+          "id": "ge-h06a-4",
+          "kind": "reflection",
+          "points": 4,
+          "prompt": "Quellenvergleich · 4 Punkte. Warum ist A als Rechtsnorm aussagekräftig, ohne den Vollzug zu beweisen? Nutze B1 und B2. Formuliere eine Frage nach einer weiteren zeitgenössischen Quelle, mit der eine konkrete Erfahrung oder staatliche Praxis an einem benannten Ort und zu einer benannten Zeit geprüft werden könnte.",
+          "sample": "A belegt formulierte Rechte, keine Beobachtung ihrer Umsetzung. B1 begrenzt die Wahlrechtsfolgerung auf das beschriebene Männerwahlrecht; B2 zeigt Anerkennungs- und Machtgrenzen in bestimmten Staaten. Mögliche weitere Frage: Wie behandelte ein preussisches Gericht 1849 einen Gleichheitsanspruch und was zeigt ein datiertes Urteil dazu? Das ist eine gesuchte Quellengattung, kein behaupteter Aktenfund.",
+          "criteria": [
+            "Norm/Vollzug unterscheiden 1; B1 angemessen verwenden 1; B2 angemessen verwenden 1; prüfbare Frage mit Ort, Zeit und zeitgenössischem Quellentyp 1. Insgesamt 4."
+          ],
+          "hint": "Welche Stelle berichtet eine Norm, welche eine Grenze? Eine gesuchte Akte ist noch kein Fund.",
+          "adultOnlySolution": true,
+          "inputRows": 8,
+          "writingLines": 10
+        },
+        {
+          "id": "ge-h06a-5",
+          "kind": "reflection",
+          "points": 2,
+          "prompt": "Begrenztes Urteil · 2 Punkte. Was wurde Ende 1848 gesetzlich formuliert, was ist laut B eingeschränkt, was bleibt offen? Antworte in zwei oder drei Sätzen. Kennzeichne etwa mit „im Gesetz“ und „laut der späteren Darstellung“, welche Art von Beleg du verwendest.",
+          "sample": "Im Gesetz vom Dezember 1848 wurde Gleichheit der Deutschen vor dem Gesetz formuliert. Laut den späteren Darstellungen bestanden beim geplanten Volkshaus Männerwahlrecht und Durchsetzungsgrenzen in mehreren Staaten. Wie einzelne Menschen die Norm tatsächlich erlebten, bleibt mit A und B offen.",
+          "criteria": [
+            "Belegter Normkern 1; gekennzeichnete Kontextgrenze und offene Erfahrung 1. Keine eigene politische Haltung oder Familienangabe verlangen. Insgesamt 2."
+          ],
+          "hint": "Was ist formuliert, was laut Kontext eingeschränkt, was müsste eine weitere Quelle zeigen?",
+          "adultOnlySolution": true,
+          "inputRows": 8,
+          "writingLines": 10
+        },
+        {
+          "id": "ge-h06a-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "optional": true,
+          "prompt": "Freiwillige Ausstellungskarte · 6 getrennte Zusatzpunkte. Prüfe den später eingeblendeten fiktiven Entwurf. Ordne historische Norm und heutige Darstellungen zu. Korrigiere seine Aussagen zu allen Menschen, Frauenwahlrecht und vollständiger Durchsetzung mit A/B. Schreibe eine neue Karte mit höchstens drei Sätzen einschliesslich einer offenen prüfbaren Frage. Lege dich nicht auf einen aus B3 ungesicherten Rechtsbeginn fest.",
+          "sample": "A erschliesst eine historische Rechtsnorm, B spätere Darstellungen. „Alle Menschen“ überschreitet die bezeichnete Gruppe der Deutschen; Frauenwahlrecht zum geplanten Volkshaus folgt nicht aus A und widerspricht B1. „Alle Staaten befolgten“ widerspricht B2. Beispielkarte mit drei Sätzen: „Das auf 27. Dezember 1848 datierte Gesetz formulierte Gleichheit der Deutschen vor dem Gesetz; der genaue Rechtsbeginn wird in den hier gelesenen Darstellungen unterschiedlich datiert. Für das geplante Volkshaus beschreibt B1 Männerwahlrecht, B2 nennt Grenzen der Anerkennung und Durchsetzung in mehreren Staaten. Wie wurde ein Gleichheitsanspruch 1849 in Preussen behandelt und was zeigt ein datiertes Gerichtsprotokoll dazu?“ Kein tatsächlicher Fund behauptet.",
+          "criteria": [
+            "Historische Norm und heutige Darstellung korrekt getrennt 1; drei falsche Verallgemeinerungen jeweils belegt berichtigt 3; neue Karte mit höchstens drei Sätzen, gekennzeichneten Belegrollen und ohne ungesichertes Einzel-Rechtsbeginn-Datum 1; prüfbare Frage mit Ort, Zeit und zeitgenössischer Quellengattung ohne erfundenen Fund 1. Insgesamt 6, getrennt von 20."
+          ],
+          "hint": "Gib der Karte nur Aussagen, die die gewählten Belege tragen. Die gesuchte Zusatzquelle bleibt eine Frage.",
+          "adultOnlySolution": true,
+          "inputRows": 10,
+          "writingLines": 12
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainTaskCount": 5,
+        "mainLabel": "1–5",
+        "feedbackBeforeUnlock": true,
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "Hauptaufgaben festhalten und Ausstellungskarte prüfen",
+        "text": "SPÄTERE WEITERFRAGE · FIKTIVE AUSSTELLUNGSKARTE VON 2026\nDie Karten A und B1–B3 bleiben sichtbar. Ein erfundener Redaktionsentwurf lautet: „Seit dem 27. Dezember 1848 waren in Deutschland alle Menschen vor dem Gesetz gleich, Frauen durften das Volkshaus wählen und alle Staaten befolgten die Grundrechte.“ Dies ist ein heutiger Übungstext, kein historisches Zitat.",
+        "printNote": "Erst fünf Hauptaufgaben bearbeiten und besprechen; anschliessend den fiktiven Redaktionsentwurf und die Zusatzaufgabe ausgeben."
+      },
+      "releaseEvidence": {
+        "validFor": "2026/27: Geschichte 2021 als amtliche Planbasis; konkrete Schulfolge offen",
+        "gradeBand": "7/8, Ziel Ende Klasse 8",
+        "competencyRef": "§2.2.1–2.2.2, Ende Klasse 8: Quelle/Darstellung, begründetes Urteil, liberale/nationale Bewegung.",
+        "checkedAt": "2026-11-17"
+      }
     }
   ]
 });

@@ -1,13 +1,18 @@
 {
-  "builtAt": "2026-11-16T15:53:04.383Z",
-  "releaseVersion": "2026.11.16-m14papier.1",
-  "newTopicIds": [],
-  "changeLog": [
-    "Mathematik: freiwilliger Papierweg für eine eigene Pyramidenzeichnung am bestehenden Körper-/Netzthema; keine zusätzlichen Punkte.",
-    "Klare Zeichenregel 8 cm Vorderkante, 4 cm gezeichnete Tiefe und 3 cm senkrechte Höhe; tatsächliches Papierprodukt getrennt prüfen.",
-    "216 vorhandene Themen und 1012 Antwortfelder erhalten; alle ursprünglichen Aufgaben, Punkte, Lösungen, Medien und übrigen Themen unverändert."
+  "builtAt": "2026-11-17T14:54:46.384Z",
+  "releaseVersion": "2026.11.17-grundrechte.3",
+  "newTopicIds": [
+    "ge-grundrechte-norm-vollzug"
   ],
-  "rollbackCommit": "967e85dc643a6db87768b298e90cb732600afb14",
+  "changeLog": [
+    "Geschichte: Quellenfall zu Grundrechten 1848, Norm und tatsächlicher Durchsetzung; fünf Hauptaufgaben mit 20 und eine spätere freiwillige Ausstellungskarte mit sechs getrennten Punkten.",
+    "Freiwilliger Ausblick bis Ende Klasse 8; konkrete Klasse-7-Unterrichtsfolge offen. Keine vollständige Revolution- oder Jahresabdeckung.",
+    "Geschichte-Fachhinweis auf die belegte amtliche Planbasis 2021 für 2026/27 aktualisiert. 216 vorhandene Themen und 1012 Antwortfelder bleiben erhalten; ein Thema mit sechs Feldern kommt hinzu.",
+    "Speichern: Freigabemarker erst nach erfolgreichem Schreiben übernehmen; bei Fehler bleiben weitere Inhalte geschlossen und Antworten bearbeitbar. Sicherungsimport prüft aktive Phasenketten und schreibt vor Zustandsübernahme.",
+    "Sicherungsimport: endliche Dateigrenze aus den bekannten Feldern statt pauschaler 1-MB-Sperre, damit grössere eigene Jahressicherungen wieder eingelesen werden können.",
+    "Öffentliche Metadaten: eine interne lokale PDF-Pfadangabe beim bestehenden MBI-Suchansichten-Thema entfernt; Aufgaben, Lösungen und fachliche Einordnung bleiben gleich."
+  ],
+  "rollbackCommit": "ec6c5f961b8d6752871aa14ad4ce876d5a03dc82",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -224,7 +229,8 @@
     "ma-m1-futtervorrat",
     "de-s2-m02-mondphasen-quellensuche",
     "mbi-i2-m2-eigene-zugaengliche-karte",
-    "mbi-suchansichten-bias"
+    "mbi-suchansichten-bias",
+    "ge-grundrechte-norm-vollzug"
   ],
   "subjects": [
     "en",
@@ -316,7 +322,8 @@
     "ma-zahlbereiche-rechenwege",
     "de-stichpunktformen-belege",
     "ma-m4-rechnerprobe",
-    "mbi-suchansichten-bias"
+    "mbi-suchansichten-bias",
+    "ge-grundrechte-norm-vollzug"
   ],
   "unclearValidityTopics": [
     "et-algebra-kulturtransfer",
@@ -340,11 +347,11 @@
     "es6-mochila-tres-frases",
     "es6-nachricht-aendern"
   ],
-  "note": "Geprüfter zielgebundener Seitenupdate gemäss direkter Nutzerfreigabe vom 16.11.2026. Keine private Quelle oder Lernstände enthalten. Keine neue Jahres-, Kinder- oder externe Fachabnahme.",
-  "catalogSha256": "C8744C80BDACB44A9BA07F2659C7314174737F18757198094EAC58B4F480BE00",
+  "note": "217 Themen und 1018 Antwortfelder. Neues freiwilliges Geschichte-Angebot bis Ende Klasse 8; konkrete Unterrichtsfolge und vollständige Jahresabdeckung offen. Speicher- und Sicherungsimportkorrekturen, keine automatische Leistungsbewertung.",
+  "catalogSha256": "E1F46B7C93029EE1298F6E6BE210328882F2365331DDB68436AB2CDE483B584D",
   "sourceBaseline": {
-    "version": "2026.11.13-mbi-kinderrollen.1",
-    "commit": "967e85dc643a6db87768b298e90cb732600afb14",
-    "catalogSha256": "6616892DB4822073FAF87075AA9475B7A41BFDA08FCD3D2646C79005DEB01747"
+    "releaseVersion": "2026.11.16-m14papier.1",
+    "mainCommit": "ec6c5f961b8d6752871aa14ad4ce876d5a03dc82",
+    "catalogSha256": "C8744C80BDACB44A9BA07F2659C7314174737F18757198094EAC58B4F480BE00"
   }
 }

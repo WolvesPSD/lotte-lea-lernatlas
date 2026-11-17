@@ -32,6 +32,64 @@
   };
   const isGrade6Review = topic => topic.releaseEvidence?.gradeBand === '6-Grundlage, 7-Wiederholung' || topic.levelStatus === 'grade6-bridge';
   const stagedUpdateMarker = topic => topic.stagedUpdate?.markerKey || `${topic.tasks[0].id}-update-gezeigt`;
+  const progressiveStages = topic => topic.progressiveTasks?.stages || [];
+  const progressiveAnswered = (stage, answers) => stage.taskIds.every(id => typeof answers[id] === 'string' && answers[id].trim());
+  function progressiveCommittedCount(topic, answers = state.answers) {
+    let count = 0;
+    for (const stage of progressiveStages(topic)) {
+      if (!stage.marker || answers[stage.marker] !== 'ja' || !progressiveAnswered(stage, answers)) break;
+      count++;
+    }
+    return count;
+  }
+  function progressiveTaskAvailable(topic, taskId) {
+    const index = progressiveStages(topic).findIndex(stage => stage.taskIds.includes(taskId));
+    return index >= 0 && index <= progressiveCommittedCount(topic);
+  }
+  function validateProgressiveAnswers(topic, answers) {
+    let previousCommitted = true;
+    for (const stage of progressiveStages(topic)) {
+      const marked = stage.marker && answers[stage.marker] === 'ja';
+      const hasAnswer = stage.taskIds.some(id => typeof answers[id] === 'string' && answers[id].trim());
+      if ((!previousCommitted && (marked || hasAnswer)) || (marked && !progressiveAnswered(stage, answers)))
+        throw new Error('Die Sicherung enthält unvollständige Phasenfreigaben.');
+      previousCommitted = previousCommitted && Boolean(marked);
+    }
+  }
+  function validateImportedPhaseAnswers(topic, answers) {
+    if (topic.progressiveTasks) { validateProgressiveAnswers(topic, answers); return; }
+    const marked = key => answers[key] === 'ja';
+    const requirePhase = (marker, ids = [], predecessors = []) => {
+      if (marked(marker) && (!ids.every(id => typeof answers[id] === 'string' && answers[id].trim())
+          || !predecessors.every(marked)))
+        throw new Error('Die Sicherung enthält unvollständige Freigaben für „' + topic.title + '“. Sie passt möglicherweise zu einer älteren Aufgabenfassung. Der bisherige Stand und die Datei bleiben unverändert.');
+    };
+    const first = topic.tasks[0]?.id;
+    if (topic.strategyCycles) {
+      const flow = topic.strategyCycles;
+      requirePhase(flow.variantMarker, flow.mainTaskIds, flow.mainCycles.map(cycle => cycle.initialMarker));
+      for (const cycle of [...flow.mainCycles, ...flow.variantCycles]) {
+        const predecessors = flow.variantCycles.includes(cycle) ? [flow.variantMarker] : [];
+        requirePhase(cycle.initialMarker, [cycle.initialTaskId], predecessors);
+        requirePhase(cycle.cardMarker, [], [cycle.initialMarker, ...predecessors]);
+      }
+    } else if (topic.imageStory) {
+      const second = topic.tasks[1].id;
+      requirePhase(first + '-bilder-gezeigt', [first]);
+      requirePhase(second + '-fortsetzung-gezeigt', [second], [first + '-bilder-gezeigt']);
+      requirePhase(first + '-update-gezeigt', topic.tasks.slice(0, -1).map(task => task.id), [first + '-bilder-gezeigt', second + '-fortsetzung-gezeigt']);
+    } else if (topic.firstTaskGate) {
+      requirePhase(first + '-erste-stufe-gezeigt', [first]);
+      requirePhase(first + '-update-gezeigt', topic.tasks.slice(0, -1).map(task => task.id), [first + '-erste-stufe-gezeigt']);
+    } else if (topic.stagedPrompt) {
+      requirePhase(first + '-kontext-gezeigt', [first]);
+    } else if (topic.stagedReading) {
+      requirePhase(first + '-text-gezeigt', [first]);
+      requirePhase(first + '-update-gezeigt', topic.tasks.slice(1, -1).filter(task => !topic.stagedReading.optionalMainTaskIds?.includes(task.id)).map(task => task.id), [first + '-text-gezeigt']);
+    } else if (topic.stagedUpdate) {
+      requirePhase(stagedUpdateMarker(topic), topic.tasks.slice(0, topic.stagedUpdate.mainTaskCount ?? topic.tasks.length - 1).map(task => task.id));
+    }
+  }
   const levelLabel = topic => activeGymMode === 'gymnasium-6'
     ? (topic.grade6Label || 'Klasse 6 · Unterrichtsstand offen')
     : topic.levelLabel || (topic.levelStatus === 'grade6-bridge'
@@ -111,11 +169,17 @@
       return { selected, active, answers };
     } catch { return structuredClone(initial); }
   }
+  function writeState(nextState) {
+    localStorage.setItem(activeGymMode === 'gymnasium-6' ? gymnasium6Key : lotteKey,
+      JSON.stringify({ version: 1, profile: activeGymMode === 'gymnasium-6' ? 'gymnasium-6' : 'lotte', ...nextState }));
+  }
   function save() {
     if (activeProfile !== 'lotte') return;
-    try { localStorage.setItem(activeGymMode === 'gymnasium-6' ? gymnasium6Key : lotteKey,
-      JSON.stringify({ version: 1, profile: activeGymMode === 'gymnasium-6' ? 'gymnasium-6' : 'lotte', ...state })); }
+    try { writeState(state); }
     catch { const status = $('#storage-status'); if (status) status.textContent = 'Speichern ist in diesem Browser gerade nicht möglich.'; }
+    refreshProgressIndicators();
+  }
+  function refreshProgressIndicators() {
     for (const section of document.querySelectorAll('.auto-check-card[data-topic-id]')) {
       const topic = topicById.get(section.dataset.topicId);
       if (topic) section.hidden = autoCheckLocked(topic);
@@ -129,6 +193,28 @@
         ? `${answered} von ${topic.tasks.length} Notizfeldern · Praxis separat`
         : `${answered} von ${topic.tasks.length} beantwortet`;
     }
+  }
+  function commitPhaseMarker(marker, trigger) {
+    if (activeProfile !== 'lotte') return false;
+    const nextState = { ...state, answers: { ...state.answers, [marker]: 'ja' } };
+    try { writeState(nextState); }
+    catch {
+      let status = trigger.previousElementSibling;
+      if (!status?.classList.contains('phase-storage-status')) {
+        status = create('p', 'learning-step-note phase-storage-status');
+        status.setAttribute('aria-live', 'polite');
+        trigger.before(status);
+      }
+      status.textContent = 'Freigabe konnte nicht gespeichert werden. Weitere Inhalte bleiben geschlossen. Bewahre deine Antworten auf und versuche es erneut, wenn Speichern wieder möglich ist.';
+      status.hidden = false;
+      status.scrollIntoView({ block: 'nearest' });
+      return false;
+    }
+    state = nextState;
+    refreshProgressIndicators();
+    const status = trigger.previousElementSibling;
+    if (status?.classList.contains('phase-storage-status')) status.hidden = true;
+    return true;
   }
   function button(label, callback, className = '') {
     const el = create('button', className, label);
@@ -708,9 +794,9 @@
       const firstInput = firstCard.querySelector('textarea');
       if (imagesShown && firstInput) firstInput.readOnly = true;
       host.append(firstCard);
-      const showImages = button('Vermutung festhalten und Bildfolge beginnen', () => {
+      const showImages = button('Vermutung festhalten und Bildfolge beginnen', event => {
         if (!String(state.answers[first.id] || '').trim()) return;
-        state.answers[imagesMarker] = 'ja'; save();
+        if (!commitPhaseMarker(imagesMarker, event.currentTarget)) return;
         if (firstInput) firstInput.readOnly = true;
         showImages.hidden = true; presentation.hidden = false; secondCard.hidden = false; showContinuation.hidden = false;
         presentation.scrollIntoView({ block: 'start', behavior: 'instant' });
@@ -744,9 +830,9 @@
       const mainInputs = [...continuation.querySelectorAll('textarea')];
       if (updateShown) mainInputs.forEach(input => { input.readOnly = true; });
       const mainComplete = () => topic.tasks.slice(0, -1).every(task => String(state.answers[task.id] || '').trim());
-      const showUpdate = button('Aufgaben 1–6 festhalten und Transfer zeigen', () => {
+      const showUpdate = button('Aufgaben 1–6 festhalten und Transfer zeigen', event => {
         if (!mainComplete()) return;
-        state.answers[updateMarker] = 'ja'; save();
+        if (!commitPhaseMarker(updateMarker, event.currentTarget)) return;
         mainInputs.forEach(input => { input.readOnly = true; });
         showUpdate.hidden = true; updateText.hidden = false; updateTask.hidden = false;
         updateText.scrollIntoView({ block: 'start', behavior: 'instant' });
@@ -759,9 +845,9 @@
       const updateTask = renderTask(topic, topic.tasks.at(-1), topic.tasks.length - 1);
       updateTask.hidden = !updateShown;
       continuation.append(updateTask);
-      const showContinuation = button('Erste Hörantwort festhalten und Fortsetzung zeigen', () => {
+      const showContinuation = button('Erste Hörantwort festhalten und Fortsetzung zeigen', event => {
         if (!String(state.answers[second.id] || '').trim()) return;
-        state.answers[continuationMarker] = 'ja'; save();
+        if (!commitPhaseMarker(continuationMarker, event.currentTarget)) return;
         if (secondInput) secondInput.readOnly = true;
         showContinuation.hidden = true; continuation.hidden = false;
         continuation.scrollIntoView({ block: 'start', behavior: 'instant' });
@@ -798,9 +884,9 @@
       transferTask.hidden = !transferShown;
       remaining.append(transferTask);
       const mainComplete = () => topic.tasks.slice(0, -1).every(task => String(state.answers[task.id] || '').trim());
-      const transferButton = button('Hauptantworten festhalten und Transfer zeigen', () => {
+      const transferButton = button('Hauptantworten festhalten und Transfer zeigen', event => {
         if (!mainComplete()) return;
-        state.answers[transferMarker] = 'ja'; save();
+        if (!commitPhaseMarker(transferMarker, event.currentTarget)) return;
         mainInputs.forEach(input => { input.readOnly = true; });
         transferButton.hidden = true; transferText.hidden = false; transferTask.hidden = false;
         transferAudio.forEach(control => { control.hidden = false; });
@@ -809,9 +895,9 @@
       transferButton.disabled = !mainComplete(); transferButton.hidden = transferShown;
       mainInputs.forEach(input => input.addEventListener('input', () => { transferButton.disabled = !mainComplete(); }));
       remaining.insertBefore(transferButton, transferText);
-      const firstButton = button(topic.firstTaskGate.unlockLabel, () => {
+      const firstButton = button(topic.firstTaskGate.unlockLabel, event => {
         if (!String(state.answers[first.id] || '').trim()) return;
-        state.answers[firstMarker] = 'ja'; save();
+        if (!commitPhaseMarker(firstMarker, event.currentTarget)) return;
         if (firstInput) firstInput.readOnly = true;
         firstButton.hidden = true; remaining.hidden = false;
         remaining.scrollIntoView({ block: 'start', behavior: 'instant' });
@@ -827,9 +913,9 @@
       const firstInput = firstCard.querySelector('textarea');
       if (shown && firstInput) firstInput.readOnly = true;
       host.append(firstCard);
-      const showButton = button('Erste Vermutung festhalten und Kontext zeigen', () => {
+      const showButton = button('Erste Vermutung festhalten und Kontext zeigen', event => {
         if (!String(state.answers[first.id] || '').trim()) return;
-        state.answers[marker] = 'ja'; save();
+        if (!commitPhaseMarker(marker, event.currentTarget)) return;
         if (firstInput) firstInput.readOnly = true;
         showButton.hidden = true; contextText.hidden = false; remaining.hidden = false;
         contextAudio.forEach(control => { control.hidden = false; });
@@ -857,9 +943,9 @@
       const predictionInput = predictionCard.querySelector('textarea');
       if (predictionInput && sourceShown) predictionInput.readOnly = true;
       host.append(predictionCard);
-      const sourceButton = button('Lesetext nach meiner Vermutung zeigen', () => {
+      const sourceButton = button('Lesetext nach meiner Vermutung zeigen', event => {
         if (!String(state.answers[first.id] || '').trim()) return;
-        state.answers[sourceMarker] = 'ja'; save();
+        if (!commitPhaseMarker(sourceMarker, event.currentTarget)) return;
         if (predictionInput) predictionInput.readOnly = true;
         sourceButton.hidden = true; sourceText.hidden = false; if (sourcePlan) sourcePlan.hidden = false; mainTasks.hidden = false; updateButton.hidden = false;
         sourceAudio.forEach(control => { control.hidden = false; });
@@ -887,9 +973,9 @@
       if (updateShown) mainInputs.forEach(input => { input.readOnly = true; });
       host.append(mainTasks);
       const mainComplete = () => topic.tasks.slice(1, -1).every(task => reading.optionalMainTaskIds?.includes(task.id) || String(state.answers[task.id] || '').trim());
-      const updateButton = button('Hauptantworten festhalten und Änderung zeigen', () => {
+      const updateButton = button('Hauptantworten festhalten und Änderung zeigen', event => {
         if (!mainComplete()) return;
-        state.answers[updateMarker] = 'ja'; save();
+        if (!commitPhaseMarker(updateMarker, event.currentTarget)) return;
         mainInputs.forEach(input => { input.readOnly = true; });
         updateButton.hidden = true; updateText.hidden = false; transferTask.hidden = false;
         updateAudio.forEach(control => { control.hidden = false; });
@@ -928,9 +1014,9 @@
         host.append(feedbackGate);
       }
       const readyForUpdate = () => mainComplete() && (!feedbackCheck || feedbackCheck.checked);
-      const updateButton = button(topic.stagedUpdate.buttonLabel || `Hauptantworten festhalten und ${topic.stagedUpdate.kind === 'variant' ? 'Variante' : 'Korrektur'} zeigen`, () => {
+      const updateButton = button(topic.stagedUpdate.buttonLabel || `Hauptantworten festhalten und ${topic.stagedUpdate.kind === 'variant' ? 'Variante' : 'Korrektur'} zeigen`, event => {
         if (!readyForUpdate()) return;
-        state.answers[marker] = 'ja'; save();
+        if (!commitPhaseMarker(marker, event.currentTarget)) return;
         mainInputs.forEach(input => { input.readOnly = true; });
         updateButton.hidden = true; if (feedbackGate) feedbackGate.hidden = true; updateText.hidden = false; if (updateFigure) updateFigure.hidden = false; transferTasks.hidden = false;
         updateAudio.forEach(control => { control.hidden = false; });
@@ -1056,22 +1142,22 @@
     if (task.helpAfterAttempt) {
       const helpText = appendText(card, 'p', 'task-help', task.helpAfterAttempt);
       helpText.hidden = state.answers[helpUsedKey] !== 'ja';
-      helpButton = button(task.helpButtonLabel || 'Hilfe nach Erstversuch öffnen', () => {
+      helpButton = button(task.helpButtonLabel || 'Hilfe nach Erstversuch öffnen', event => {
         if (state.answers[helpAttemptKey] !== 'ja') return;
-        state.answers[helpUsedKey] = 'ja'; save();
+        if (!commitPhaseMarker(helpUsedKey, event.currentTarget)) return;
         helpButton.hidden = true; helpText.hidden = false;
       }, 'check-button');
       helpButton.hidden = state.answers[helpAttemptKey] !== 'ja' || state.answers[helpUsedKey] === 'ja';
       card.append(helpButton);
     }
-    card.append(button(task.unscoredNote ? 'Notiz festhalten' : task.manualBookReview ? 'Prüfweg ansehen' : 'Antwort prüfen', () => {
+    card.append(button(task.unscoredNote ? 'Notiz festhalten' : task.manualBookReview ? 'Prüfweg ansehen' : 'Antwort prüfen', event => {
       const value = state.answers[task.id] || '';
       const outcome = taskResult(task, value);
       result.replaceChildren(); result.dataset.status = outcome.status;
       appendText(result, 'p', '', outcome.label);
       if (outcome.status !== 'empty' && outcome.status !== 'invalid') {
         if (task.helpAfterAttempt && state.answers[helpAttemptKey] !== 'ja') {
-          state.answers[helpAttemptKey] = 'ja'; save();
+          if (!commitPhaseMarker(helpAttemptKey, event.currentTarget)) return;
           if (helpButton) helpButton.hidden = false;
         }
         const showSolution = () => {
@@ -1569,13 +1655,6 @@
     const importMode = activeGymMode;
     const status = $('#backup-status');
     try {
-      if (file.size > 1024 * 1024) throw new Error('Datei ist zu groß (maximal 1 MB).');
-      const imported = JSON.parse(await file.text());
-      if (activeProfile !== 'lotte' || activeGymMode !== importMode) throw new Error('Der Lernbereich wurde während des Imports gewechselt.');
-      const matchingBackup = importMode === 'gymnasium-6'
-        ? imported.version === 2 && imported.profile === 'gymnasium-6' && imported.schoolMode === 'gymnasium-6'
-        : imported.version === 1 && (imported.profile === undefined || imported.profile === 'lotte');
-      if (imported.format !== 'lotte-lea-local-backup' || !matchingBackup || !Array.isArray(imported.selected) || !imported.answers || typeof imported.answers !== 'object' || Array.isArray(imported.answers)) throw new Error('Dateiformat, Version oder Lernbereich passt nicht.');
       const validTaskIds = new Set(availableTopics.flatMap(topic => topic.tasks.map(task => task.id)));
       for (const topic of availableTopics) for (const question of topic.autoCheck?.questions || []) validTaskIds.add(question.id);
       const validMarkerIds = new Set();
@@ -1602,12 +1681,30 @@
           validMarkerIds.add(`${task.id}-hilfe-genutzt`);
         }
       }
+      // JSON may encode one UTF-16 code unit as six ASCII bytes (for example a control character).
+      // Bound a full valid yearly backup, rather than rejecting the app's own larger exports.
+      const maxAnswerChars = 5000;
+      const maxBackupBytes = Math.max(1024 * 1024, 65536
+        + [...validTaskIds].reduce((sum, id) => sum + 6 * id.length + 6 * maxAnswerChars + 8, 0)
+        + [...validMarkerIds].reduce((sum, id) => sum + 6 * id.length + 6 * 'ja'.length + 8, 0)
+        + availableTopics.reduce((sum, topic) => sum + 6 * topic.id.length + 8, 0));
+      if (file.size > maxBackupBytes) throw new Error('Datei ist für diesen Lernbereich zu groß. Bitte verwende eine unveränderte Lernstand-Sicherung.');
+      const imported = JSON.parse(await file.text());
+      if (activeProfile !== 'lotte' || activeGymMode !== importMode) throw new Error('Der Lernbereich wurde während des Imports gewechselt.');
+      const matchingBackup = importMode === 'gymnasium-6'
+        ? imported.version === 2 && imported.profile === 'gymnasium-6' && imported.schoolMode === 'gymnasium-6'
+        : imported.version === 1 && (imported.profile === undefined || imported.profile === 'lotte');
+      if (imported.format !== 'lotte-lea-local-backup' || !matchingBackup || !Array.isArray(imported.selected) || !imported.answers || typeof imported.answers !== 'object' || Array.isArray(imported.answers)) throw new Error('Dateiformat, Version oder Lernbereich passt nicht.');
       if (imported.selected.some(id => !topicById.has(id)) || Object.entries(imported.answers).some(([id, value]) =>
         typeof value !== 'string' || (validMarkerIds.has(id) ? value !== 'ja' : !validTaskIds.has(id) || value.length > 5000))) throw new Error('Sicherung enthält unbekannte Themen oder ungültige Antworten.');
+      for (const topic of availableTopics) validateImportedPhaseAnswers(topic, imported.answers);
       if (!window.confirm(`Diese Sicherung ersetzt den bisherigen Lernstand für Gymnasium Klasse ${importMode === 'gymnasium-6' ? '6' : '7'} in diesem Browser. Fortfahren?`)) { status.textContent = 'Import abgebrochen; bisheriger Stand bleibt erhalten.'; return; }
       if (activeProfile !== 'lotte' || activeGymMode !== importMode) throw new Error('Der Lernbereich wurde während des Imports gewechselt.');
-      state = { selected: [...new Set(imported.selected)], active: imported.selected.includes(imported.active) ? imported.active : imported.selected[0] || null, answers: imported.answers };
-      save(); renderAdult();
+      const nextState = { selected: [...new Set(imported.selected)], active: imported.selected.includes(imported.active) ? imported.active : imported.selected[0] || null, answers: imported.answers };
+      try { writeState(nextState); }
+      catch { throw new Error('Der neue Stand konnte im Browser nicht gespeichert werden. Der bisherige Stand bleibt erhalten. Bewahre die Sicherungsdatei auf.'); }
+      state = nextState;
+      renderAdult();
       status.textContent = 'Sicherung importiert. Der bisherige Stand wurde ersetzt.';
     } catch (error) { status.textContent = `Import nicht möglich: ${error.message}`; }
     finally { event.target.value = ''; }

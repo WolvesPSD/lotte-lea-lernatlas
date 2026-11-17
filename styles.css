@@ -365,3 +365,13 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 @media print{#print-surface:has(.print-task[data-task-id="mbi-i2-m2-karte-a"]) .print-practice{break-before:page}body[data-print-mode^="adult"] #print-surface:has(.print-task[data-task-id="mbi-i2-m2-karte-a"]){font-size:9.5pt;line-height:1.15}body[data-print-mode^="adult"] .print-task[data-task-id^="mbi-i2-m2-karte-"]{break-inside:avoid;page-break-inside:avoid}}
 
 @media print{.print-topic:has(.print-task[data-task-id^='ma-netzkarten-']) .print-practice{break-inside:avoid;page-break-inside:avoid}}
+
+/* Grundrechte 1848: Druckhinweise und Erwachsenenaufgaben zusammenhalten. */
+@media print {
+ .print-topic:has(.print-task[data-task-id^='ge-h06a-']) .print-context { overflow-wrap: anywhere; word-break: break-word; break-inside: avoid; page-break-inside: avoid; }
+ body[data-print-mode^='adult'] .print-task[data-task-id^='ge-h06a-'] { break-inside: avoid; page-break-inside: avoid; }
+}
+@media print {
+ .print-topic:has(.print-task[data-task-id^='ge-h06a-']) .print-passage { break-inside: avoid; page-break-inside: avoid; }
+}
+

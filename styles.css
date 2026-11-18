@@ -133,7 +133,7 @@ body[data-profile=lea] .site-header nav,body[data-profile=lea] .adult-entry,body
   body[data-view=work] .section-heading .eyebrow{display:none}
   body[data-view=work] .section-heading h1{font-size:1.45rem;letter-spacing:-.02em;margin:0}
   body[data-view=work] .section-heading>p:last-child{font-size:.8rem;line-height:1.25;margin:.15rem 0 0}
-  .work-layout{gap:.55rem}
+  .work-layout{gap:.55rem;grid-template-columns:minmax(0,1fr)}
   .work-route{position:static;display:block}
   .route-heading{display:none}
   #switch-topic{display:block;width:100%;text-align:left;border:1px solid var(--line);border-radius:.6rem;background:#fffdf9;color:var(--petrol);font-size:.85rem;font-weight:700;min-height:44px;padding:.35rem .7rem}

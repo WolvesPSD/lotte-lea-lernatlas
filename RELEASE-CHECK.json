@@ -1,12 +1,12 @@
 {
-  "builtAt": "2026-11-18T12:28:42.321Z",
-  "releaseVersion": "2026.11.18-kommagrenzen.1",
+  "builtAt": "2026-11-18T14:56:19.110Z",
+  "releaseVersion": "2026.11.18-mobilwechsel.1",
   "newTopicIds": [],
   "changeLog": [
-    "Deutsch: freiwillige unbewertete Kommakarten zum bestehenden Berichtsfall ergänzt. Kinderkarte erst nach eigener Meldung und Hauptteil, Erwachsenenhilfe getrennt. Ohne passende eigene Textstelle bleibt die Anwendung offen.",
-    "217 Themen und 1018 Antwortfelder bleiben unverändert; bestehende 20 Haupt- und sechs getrennte Variantenpunkte des Berichtsfalls werden nicht erweitert. Zwei zusätzliche PDF-Karten, keine neue Schulnote oder automatische Erledigtbestätigung."
+    "Mobilansicht: Die vorhandene einspaltige Arbeitsfläche bis740px darf auf die verfügbare Breite schrumpfen. Ein vorhandenes Raster erhält grid-template-columns:minmax(0,1fr), damit der Themenwechsel bei mehreren Themen nicht über den Rand ragt. Keine Schriftverkleinerung oder Inhaltsausblendung.",
+    "217 Themen und1018 Antwortfelder sowie alle Aufgaben, PDFs, Rollen- und Speicherfunktionen bleiben unverändert. Nur eine CSS-Eigenschaft und Versions-/Paketangaben geändert."
   ],
-  "rollbackCommit": "1be884fed2f4ae2dff60ab47cb4f7ba5a9d2b46e",
+  "rollbackCommit": "47c82d1da251fb6a2165bc053614f7379acdc148",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -341,18 +341,21 @@
     "es6-mochila-tres-frases",
     "es6-nachricht-aendern"
   ],
-  "note": "Die freiwilligen Kommakarten ergänzen den vorhandenen Bericht. Aufgaben und Punkte bleiben unverändert. Rollen-, Sicherungs- und Druckprüfungen am Veröffentlichungspaket sind bestanden. Keine tatsächliche Kinder-, externe Fach- oder Jahresabnahme.",
+  "note": "Isolierter öffentlicher Mobilfix: lokale Kandidaten-Browserprüfung320/390/1280, Profil-/Sicherungsprüfung und4DruckPDF20Seiten bestanden, unabhängig gegengeprüft und Rootsichtig. AuditausgabePASS/ChildClose0, äusserer Beobachter ohne terminalen Exitcode; kein erfundener Terminal0.217Themen/1018Antwortfelder und101unveränderteDateien bewahrt. Veröffentlichung wird getrennt belegt; direkte HTTPS-/Livebrowserprüfung weiterhin nicht bestätigt.",
   "catalogSha256": "0E206289BFC949033ABE1428C96F351F385FAA40090798035149156C0C0875B2",
   "sourceBaseline": {
-    "releaseVersion": "2026.11.17-grundrechte.3",
-    "mainCommit": "1be884fed2f4ae2dff60ab47cb4f7ba5a9d2b46e",
-    "catalogSha256": "E1F46B7C93029EE1298F6E6BE210328882F2365331DDB68436AB2CDE483B584D"
+    "releaseVersion": "2026.11.18-kommagrenzen.1",
+    "mainCommit": "47c82d1da251fb6a2165bc053614f7379acdc148",
+    "catalogSha256": "0E206289BFC949033ABE1428C96F351F385FAA40090798035149156C0C0875B2"
   },
-  "parentCommit": "1be884fed2f4ae2dff60ab47cb4f7ba5a9d2b46e",
+  "parentCommit": "47c82d1da251fb6a2165bc053614f7379acdc148",
   "parentVerification": {
-    "checkedAt": "2026-11-18",
-    "method": "Read-only repository comparison: recorded parent versus main",
-    "status": "identical",
+    "status": "actual-connector-ref-and-tree-package-parity-confirmed",
+    "checkedAt": "2026-11-18T15:04:59.620Z",
+    "mainCommit": "47c82d1da251fb6a2165bc053614f7379acdc148",
+    "tree": "b0719ef7b8c7736171c28485b91e74add26b1ab9",
+    "all104BaseBlobsMatch": true,
+    "remoteOnlyREADMEPreserve": true,
     "servedHttpsBytesCheckedToday": false,
     "repeatBeforeAnyPublication": true
   }

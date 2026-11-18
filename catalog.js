@@ -5795,7 +5795,7 @@ window.LOTTE_CATALOG=Object.freeze({
       "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Hilfreich sind Zeilenbelege und kurze Randnotizen. Orientierend bedeutet Überblick, selektiv bedeutet gezielte Suche, genau bedeutet Prüfung von Zusammenhang und Aussagegrenze.",
-      "introduction": "Lies zunächst nur den Titel und die vier Zwischenüberschriften im folgenden fiktiven Text. Notiere dir eine Frage und eine vorläufige Vermutung; suche dann im ganzen Text nach einer Antwort und nach einem möglichen Gegenbeleg. Die App prüft nicht, in welcher Reihenfolge du liest. Zeilennummer und passender Inhalt bilden zusammen einen Beleg. „Reservierung“ heißt: einen Platz vorher verbindlich vormerken. „Rückmeldung“ ist eine freiwillige Reaktion. Die Bezugsgruppe ist die Gruppe, über die eine Zahl etwas aussagt. Offene Antworten vergleichst du selbst mit Muster und Kriterien; es gibt keine automatische Note.",
+      "introduction": "Lies zunächst nur den Titel und die vier Zwischenüberschriften im folgenden fiktiven Text. Notiere dir eine Frage und eine vorläufige Vermutung; suche dann im ganzen Text nach einer Antwort und nach einem möglichen Gegenbeleg. Die App prüft nicht, in welcher Reihenfolge du liest. Zeilennummer und passender Inhalt bilden zusammen einen Beleg. „Reservierung“ heißt: einen Platz vorher verbindlich vormerken. „Rückmeldung“ ist eine freiwillige Reaktion. Die Bezugsgruppe ist die Gruppe, über die eine Zahl etwas aussagt. Offene Antworten vergleichst du selbst mit Muster und Kriterien; es gibt keine automatische Note. Wenn dir beim Lesen ein Zusammenhang unklar wird, findest du unter den Aufgaben einen freiwilligen Klärungsweg. Du kannst ihn schon beim Lesen nutzen; wenn du keinen Bedarf hast, ist das in Ordnung.",
       "passage": "Ein Tisch für zwei Arten von Pause\n\nAm Anfang\nZ1 Seit einigen Wochen steht in der Bibliothek der erfundenen Sonnenfeldschule ein großer Tisch am Fenster.\nZ2 Früher lagen dort Bücherstapel, und zwischen ihnen konnte jeweils nur eine Person sitzen.\nZ3 Nun bietet der Tisch acht Plätze. Darüber hängt ein Schild: „Lese- und Austauschtisch – Probephase“.\nZ4 Die Bibliotheksgruppe möchte herausfinden, ob Lesen und leises Besprechen am selben Ort möglich sind.\n\nSo läuft der Versuch\nZ5 Dienstags und donnerstags ist der Tisch in der ersten Mittagspause für stilles Lesen vorgesehen.\nZ6 An diesen beiden Tagen dürfen Gruppen dort in der zweiten Mittagspause über gelesene Texte sprechen, solange sie andere Plätze nicht stören.\nZ7 Eine Reservierung ist nicht nötig. Wer keinen Platz findet, kann auf die freien Einzelsitze im hinteren Raum ausweichen.\nZ8 Bis zum Ende des vierwöchigen Versuchs liegen Zettel für freiwillige Rückmeldungen an der Ausleihe.\n\nWas die ersten Rückmeldungen zeigen\nZ9 Nach der ersten Woche sind 18 Zettel abgegeben worden. Elf loben, dass man ein Buch gemeinsam besprechen kann.\nZ10 Fünf wünschen sich noch mehr ruhige Plätze. Zwei enthalten nur Vorschläge für eine andere Tischordnung.\nZ11 Die Zettel sagen nichts darüber, wie viele Schülerinnen und Schüler den Tisch tatsächlich genutzt haben.\nZ12 Auch wer keinen Zettel abgegeben hat, kann den Versuch gut oder schlecht finden; dazu fehlen Angaben.\n\nZwei Lesarten\nZ13 Die Schülersprecherin sagt: „Elf positive Zettel zeigen, dass wir den Tisch sofort dauerhaft brauchen.“\nZ14 Der Bibliothekar antwortet: „Elf Stimmen sind ein Hinweis. Für einen Beschluss sollten wir die vier Wochen abwarten.“\nZ15 Beide wollen die Rückmeldungen lesen; sie unterscheiden sich darin, wie weit die ersten Zahlen schon tragen.\nZ16 Am Ende der Probephase soll die Gruppe auch beobachten, ob in den beiden Pausen genügend ruhige Plätze frei bleiben.",
       "tasks": [
         {
@@ -5876,6 +5876,19 @@ window.LOTTE_CATALOG=Object.freeze({
         "gradeBand": "7/8",
         "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. § 2.2.2 PDF-S. 27 unter Zielmarke Klassenstufe 8: orientierendes und selektives Lesen, Strategien vor/während/nach dem Lesen, Wortklärung, Schlüsselstellen, Stichwörter/Randnotizen, Sinnabschnitte, strukturierte Ergebnisse und Austausch über verschiedene Deutungen. Die dort ebenfalls genannte praktische Bibliotheks-/Archivrecherche und digitale Navigation prüft dieser Textfall nicht.",
         "checkedAt": "2026-10-21"
+      },
+      "practice": {
+        "title": "Freiwillig: einen unklaren Zusammenhang klären",
+        "childNote": "Falls dir beim Lesen ein Zusammenhang unklar wird: Zeige die betroffene Stelle und sag kurz, was du schon verstehst und welche Verbindung dir noch fehlt. Lies die passende Textstelle nochmals oder frage gezielt nach; prüfe dann am Text, ob es klarer geworden ist oder was offen bleibt. Eine mündliche Erklärung oder kurze private Notiz genügt. Wenn du keinen Klärungsbedarf hast, ist das in Ordnung. Erfinde keine Schwierigkeit. Keine zusätzlichen Punkte und nichts hochladen.",
+        "childSteps": [
+          "Du kannst diesen Weg bei einer echten Frage während des Lesens nutzen. Auch beim erneuten Lesen ist Klärung möglich; eine erst nachträglich gewählte Stelle bleibt ein Rückblick."
+        ],
+        "adultNote": "Freiwillige Begleitung ohne zusätzliche Punkte. Nur eine tatsächlich eigene Verstehensfrage aufgreifen; Modelle erst nach dem eigenen Versuch besprechen. Keine Schwierigkeit verlangen und nichts protokollieren.",
+        "adultGuide": [
+          "Nur bei einer tatsächlich eigenen Verstehensfrage begleiten; keine Schwierigkeit vorgeben. Beispiel nur für Erwachsene: Das Kind könnte sagen: „Ich verstehe, dass es zwei Pausen gibt. In Z6 weiss ich aber noch nicht, worauf ‚an diesen beiden Tagen‘ zeigt und wie das mit Z5 zusammenhängt.“ Nur wenn dies seine echte Frage ist, Z5 und Z6 nebeneinander lesen lassen und zuerst die eigene Verbindung anhören; keine fertige Antwort zu Aufgabe 2 vorsagen. Eine offene Information im Text oder eine begründet mehrdeutige Lesart ist nicht automatisch eigenes Nichtverstehen. Keine Schwierigkeit ist zulässig und kein vollständiger Verstehensnachweis. Beim erneuten Lesen ist echte Klärung möglich; eine erst nachträglich gewählte Stelle bleibt Rückblick. Genutzte Modelle und Hilfen berücksichtigen."
+        ],
+        "adultCriteria": [],
+        "unscored": true
       }
     },
     {
@@ -11137,6 +11150,29 @@ window.LOTTE_CATALOG=Object.freeze({
         "gradeBand": "7/8",
         "competencyRef": "PDF-S. 2: Mathematik Klasse 7 ab 2026/27. § 2.2.4 PDF-S. 26–27: Ende-Klasse-8-Ziel zu Anteilen in Kreis- und Streifendiagrammen, Grundwert/Prozentsatz/Prozentwert sowie selbstständiger Diagrammprüfung und -verbesserung.",
         "checkedAt": "2026-10-22"
+      },
+      "practice": {
+        "title": "Freiwillig: Prozent und Promille mit dem richtigen Ganzen",
+        "childNote": "Dieser freiwillige Zusatz zum Zielhorizont Ende Klasse 8 nutzt einen anderen erfundenen Büchereifall. Er gehört nicht zu den 250/200 Personen im Pausenraumfall. Prozent bedeutet von hundert, Promille (‰) von tausend. Der Grundwert ist jeweils das gemeinte Ganze. Du kannst auf Papier rechnen oder deinen Rechenweg mündlich erklären; es gibt keine Zusatzpunkte und kein neues Antwortfeld. Dieser Zusatz speichert deine Rechnung nicht.",
+        "childSteps": [
+          "Im eigenen Büchereifall wurden 1 200 Personen eingeladen; 900 antworteten. Unter den Antworten waren 90 Stimmen für „keine Neuerung“. Über die Meinung der Nichtantwortenden ist nichts bekannt.",
+          "Prüfe die Behauptung: „90 Stimmen für keine Neuerung entsprechen 100 ‰ aller Eingeladenen.“ Bewerte und berichtige sie, falls nötig. Zeige deine Rechnung und nenne den Grundwert. Für welches andere Ganze wäre 100 ‰ passend?",
+          "Berechne für dieselben 900 Antworten die Antwortquote unter allen 1 200 Eingeladenen in Prozent und Promille. Benenne das Ganze und erkläre, wie derselbe Anteil in beiden Schreibweisen dargestellt wird."
+        ],
+        "adultNote": "Dieser freiwillige Promille-Zusatz erhält keine zusätzlichen Punkte. Bücherei und Pausenraum sind zwei getrennte erfundene Fälle. Die bisherigen 20+6 Punkte gelten weiterhin nur für die Aufgaben zum Pausenraum. Die Rechnung auf Papier oder die mündliche Erklärung wird nicht in der App gespeichert und nicht automatisch bewertet.",
+        "adultGuide": [
+          "Erst den eigenen Rechenweg ansehen oder anhören; die folgenden Modelle getrennt halten. Allgemeine Stütze: erst das gemeinte Ganze benennen, dann Anteil/Ganzes bilden; Prozent skaliert auf hundert, Promille auf tausend. Bruch-, Dezimal- und Dreisatzwege sind gleichwertig. Kein Bedarf an weiteren Diagrammen oder einer neuen Umfrage.",
+          "Bei allen 1 200 Eingeladenen gilt: 90/1200 = 0,075 = 7,5 % = 75 ‰. Die Behauptung mit 100 ‰ für alle Eingeladenen ist falsch. 90/900 = 0,1 = 10 % = 100 ‰ ist dagegen für die 900 Antwortenden richtig. Das Zeichen allein entscheidet nicht; der Nenner muss passen.",
+          "Die Antwortquote unter den 1 200 Eingeladenen ist 900/1200 = 0,75 = 75 % = 750 ‰. Die Zahl der Antworten bleibt gleich, nur die Skala wechselt. Fehlende Antworten belegen keine Meinung. Richtige äquivalente Wege anerkennen; eine nachgelesene Musterrechnung nicht als eigene ungestützte Leistung ausgeben."
+        ],
+        "adultCriteria": [
+          "Der verwendete Grundwert wird passend benannt und begründet; 1 200 Eingeladene und 900 Antwortende werden unterschieden.",
+          "Die Behauptung wird mit 75 ‰ für alle Eingeladenen berichtigt; 100 ‰ wird nur auf die Antwortenden bezogen.",
+          "Die Antwortquote wird als derselbe Anteil mit 75 % und 750 ‰ erklärt.",
+          "Nur tatsächlich Gezeigtes oder Erklärtes besprechen; keine zusätzlichen Punkte, automatische Note oder Erledigtmarkierung."
+        ],
+        "unscored": true,
+        "childWritingLines": 0
       }
     },
     {

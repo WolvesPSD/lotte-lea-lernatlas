@@ -1,12 +1,12 @@
 {
-  "builtAt": "2026-11-18T14:56:19.110Z",
-  "releaseVersion": "2026.11.18-mobilwechsel.1",
+  "builtAt": "2026-11-18T16:34:32.701Z",
+  "releaseVersion": "2026.11.18-lernwege.1",
   "newTopicIds": [],
   "changeLog": [
-    "Mobilansicht: Die vorhandene einspaltige Arbeitsfläche bis740px darf auf die verfügbare Breite schrumpfen. Ein vorhandenes Raster erhält grid-template-columns:minmax(0,1fr), damit der Themenwechsel bei mehreren Themen nicht über den Rand ragt. Keine Schriftverkleinerung oder Inhaltsausblendung.",
-    "217 Themen und1018 Antwortfelder sowie alle Aufgaben, PDFs, Rollen- und Speicherfunktionen bleiben unverändert. Nur eine CSS-Eigenschaft und Versions-/Paketangaben geändert."
+    "Zwei freiwillige Lernwege in vorhandenen Themen: Prozent und Promille im getrennten erfundenen Büchereifall vergleichen; beim Lesen eine tatsächlich eigene unklare Verbindung gezielt klären oder offenlassen. Kein Bedarf ist beim Leseweg zulässig.",
+    "Beide Wege ohne zusätzliche Punkte, Pflichtserie, Antwortfelder oder Erledigtmarker. Erwachsene erhalten getrennte Begleitung. Bestehende217Themen/1018Antwortfelder, Mathematik20+6 und Deutsch25Punkte, Aufgaben, Texte, Grafik und bisherige Zusatzstufe bleiben erhalten; nur der kurze neue Lesewegweiser ergänzt die Einleitung."
   ],
-  "rollbackCommit": "47c82d1da251fb6a2165bc053614f7379acdc148",
+  "rollbackCommit": "cdec1f5d75cd42554b667eef57245ea9bd8c8581",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -341,22 +341,51 @@
     "es6-mochila-tres-frases",
     "es6-nachricht-aendern"
   ],
-  "note": "Isolierter öffentlicher Mobilfix: lokale Kandidaten-Browserprüfung320/390/1280, Profil-/Sicherungsprüfung und4DruckPDF20Seiten bestanden, unabhängig gegengeprüft und Rootsichtig. AuditausgabePASS/ChildClose0, äusserer Beobachter ohne terminalen Exitcode; kein erfundener Terminal0.217Themen/1018Antwortfelder und101unveränderteDateien bewahrt. Veröffentlichung wird getrennt belegt; direkte HTTPS-/Livebrowserprüfung weiterhin nicht bestätigt.",
-  "catalogSha256": "0E206289BFC949033ABE1428C96F351F385FAA40090798035149156C0C0875B2",
+  "note": "Lokal geprüfte freiwillige Promille- und Leseverständniswege. Dieser Metadatenstand dokumentiert die Prüfungen vor der kontrollierten Veröffentlichung. Die Veröffentlichungs-/HTTPS-Flags sind dieser Prüfzeitpunkt, kein späterer Live-Status. Keine Kinder-, externe Fach-, Schulfolgen- oder Jahresabnahme und keine behauptete direkte HTTPS-Auslieferung.",
+  "catalogSha256": "8E603086D93F4753A1CA5587F7F7322E51591C358A7EFFC76AA9005912DF75CE",
   "sourceBaseline": {
-    "releaseVersion": "2026.11.18-kommagrenzen.1",
-    "mainCommit": "47c82d1da251fb6a2165bc053614f7379acdc148",
+    "releaseVersion": "2026.11.18-mobilwechsel.1",
+    "mainCommit": "cdec1f5d75cd42554b667eef57245ea9bd8c8581",
     "catalogSha256": "0E206289BFC949033ABE1428C96F351F385FAA40090798035149156C0C0875B2"
   },
-  "parentCommit": "47c82d1da251fb6a2165bc053614f7379acdc148",
+  "parentCommit": "cdec1f5d75cd42554b667eef57245ea9bd8c8581",
   "parentVerification": {
-    "status": "actual-connector-ref-and-tree-package-parity-confirmed",
-    "checkedAt": "2026-11-18T15:04:59.620Z",
-    "mainCommit": "47c82d1da251fb6a2165bc053614f7379acdc148",
-    "tree": "b0719ef7b8c7736171c28485b91e74add26b1ab9",
-    "all104BaseBlobsMatch": true,
+    "status": "Public GitHub GET ref/commit/recursive-tree and104local-baselineGitBlobSHA1 matches verified.",
+    "checkedAtUTC": "2026-11-18 16:18:30 UTC",
+    "mainCommit": "cdec1f5d75cd42554b667eef57245ea9bd8c8581",
+    "tree": "424d3a238af467a14f31502714e0c4e97cf104fd",
+    "all104BaseFilesMatchedRemote": true,
     "remoteOnlyREADMEPreserve": true,
     "servedHttpsBytesCheckedToday": false,
     "repeatBeforeAnyPublication": true
+  },
+  "candidateStatus": "READY_FOR_CONTROLLED_PUBLICATION_LOCALLY_VERIFIED",
+  "candidateVerification": {
+    "staticScope": "Only two optional learning paths; Math childWritingLines=0 removes orphan optional writing-page.215other topics/101other files unchanged from public baseline; 217topics/1018answerfields.",
+    "runtimeStatus": "PASS: frozen V2 roles, mixed selection, partial/full export-freshimport-reload, existing stage and profile isolation; V4 differs only in optional child print lines.",
+    "printStatus": "PASS: current10PDF36pages18types = 4freshV4MathChild +6byte-identicalV2other PDFs; fullDOM+SVGtext/digits/accents/A4/glyphbounds/widthpixelparity.",
+    "independentCandidateReviewStatus": "PASS: static BD527885035449FE59BB83DD10E116C79EF7659DE4B36A6E34AE38737C3C90EF; combined E4445C96AF63219505ED837D7AA37C4223D4B8CEDECFFC64DAA5616735FD94F5.",
+    "rootVisualScope": "All18currenttypes at contact scale plus five actual390element views. No full-resolution individualallpages or realchildperformance claim.",
+    "browserExitEvidence": "V2 actual0; V4 targeted childprint actual0; both associated auditors actual0. No repeated fullregression for layout-onlydelta.",
+    "verificationScope": "Local build-time evidence before Gitrefmove. Published/servedflags below describe this verification checkpoint.",
+    "servedHttpsBytesVerified": false,
+    "liveBrowserVerified": false,
+    "published": false
+  },
+  "historicalBaselineQA": {
+    "releaseVersion": "2026.11.18-mobilwechsel.1",
+    "note": "Isolierter öffentlicher Mobilfix: lokale Kandidaten-Browserprüfung320/390/1280, Profil-/Sicherungsprüfung und4DruckPDF20Seiten bestanden, unabhängig gegengeprüft und Rootsichtig. AuditausgabePASS/ChildClose0, äusserer Beobachter ohne terminalen Exitcode; kein erfundener Terminal0.217Themen/1018Antwortfelder und101unveränderteDateien bewahrt. Veröffentlichung wird getrennt belegt; direkte HTTPS-/Livebrowserprüfung weiterhin nicht bestätigt.",
+    "scope": "Dated mobile-baseline evidence only, not current two-learning-path runtime/print verification."
+  },
+  "presentationDelta": {
+    "topic": "ma-diagrammrevision-pausenraum",
+    "field": "practice.childWritingLines",
+    "before": 6,
+    "after": 0,
+    "acceptedSourceValue": 6,
+    "reason": "Optional child-writing block caused orphan page. Removing optional lines preserves paper/oral choice, all tasks/models/points and avoids contentless tail page.",
+    "scope": "Only presentation. Text/models/tasks/points/stage/otherfields/code/styles unchanged. FourfreshMathchildPDFs required; sixunaffectedV2PDFs remainmappedhistoricalcurrent.",
+    "status": "PASS_FROZEN_V4_LAYOUT",
+    "validation": "InitialMathchild3pages, after4; allcurrent10PDFs contain actualinstructionaltext on everypage. No renderer/CSS change."
   }
 }

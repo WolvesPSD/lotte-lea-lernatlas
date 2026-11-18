@@ -1,18 +1,12 @@
 {
-  "builtAt": "2026-11-17T14:54:46.384Z",
-  "releaseVersion": "2026.11.17-grundrechte.3",
-  "newTopicIds": [
-    "ge-grundrechte-norm-vollzug"
-  ],
+  "builtAt": "2026-11-18T12:28:42.321Z",
+  "releaseVersion": "2026.11.18-kommagrenzen.1",
+  "newTopicIds": [],
   "changeLog": [
-    "Geschichte: Quellenfall zu Grundrechten 1848, Norm und tatsächlicher Durchsetzung; fünf Hauptaufgaben mit 20 und eine spätere freiwillige Ausstellungskarte mit sechs getrennten Punkten.",
-    "Freiwilliger Ausblick bis Ende Klasse 8; konkrete Klasse-7-Unterrichtsfolge offen. Keine vollständige Revolution- oder Jahresabdeckung.",
-    "Geschichte-Fachhinweis auf die belegte amtliche Planbasis 2021 für 2026/27 aktualisiert. 216 vorhandene Themen und 1012 Antwortfelder bleiben erhalten; ein Thema mit sechs Feldern kommt hinzu.",
-    "Speichern: Freigabemarker erst nach erfolgreichem Schreiben übernehmen; bei Fehler bleiben weitere Inhalte geschlossen und Antworten bearbeitbar. Sicherungsimport prüft aktive Phasenketten und schreibt vor Zustandsübernahme.",
-    "Sicherungsimport: endliche Dateigrenze aus den bekannten Feldern statt pauschaler 1-MB-Sperre, damit grössere eigene Jahressicherungen wieder eingelesen werden können.",
-    "Öffentliche Metadaten: eine interne lokale PDF-Pfadangabe beim bestehenden MBI-Suchansichten-Thema entfernt; Aufgaben, Lösungen und fachliche Einordnung bleiben gleich."
+    "Deutsch: freiwillige unbewertete Kommakarten zum bestehenden Berichtsfall ergänzt. Kinderkarte erst nach eigener Meldung und Hauptteil, Erwachsenenhilfe getrennt. Ohne passende eigene Textstelle bleibt die Anwendung offen.",
+    "217 Themen und 1018 Antwortfelder bleiben unverändert; bestehende 20 Haupt- und sechs getrennte Variantenpunkte des Berichtsfalls werden nicht erweitert. Zwei zusätzliche PDF-Karten, keine neue Schulnote oder automatische Erledigtbestätigung."
   ],
-  "rollbackCommit": "ec6c5f961b8d6752871aa14ad4ce876d5a03dc82",
+  "rollbackCommit": "1be884fed2f4ae2dff60ab47cb4f7ba5a9d2b46e",
   "releasedTopics": [
     "en-library-update-audio",
     "en-w-word-gap-paraphrase",
@@ -347,11 +341,19 @@
     "es6-mochila-tres-frases",
     "es6-nachricht-aendern"
   ],
-  "note": "217 Themen und 1018 Antwortfelder. Neues freiwilliges Geschichte-Angebot bis Ende Klasse 8; konkrete Unterrichtsfolge und vollständige Jahresabdeckung offen. Speicher- und Sicherungsimportkorrekturen, keine automatische Leistungsbewertung.",
-  "catalogSha256": "E1F46B7C93029EE1298F6E6BE210328882F2365331DDB68436AB2CDE483B584D",
+  "note": "Die freiwilligen Kommakarten ergänzen den vorhandenen Bericht. Aufgaben und Punkte bleiben unverändert. Rollen-, Sicherungs- und Druckprüfungen am Veröffentlichungspaket sind bestanden. Keine tatsächliche Kinder-, externe Fach- oder Jahresabnahme.",
+  "catalogSha256": "0E206289BFC949033ABE1428C96F351F385FAA40090798035149156C0C0875B2",
   "sourceBaseline": {
-    "releaseVersion": "2026.11.16-m14papier.1",
-    "mainCommit": "ec6c5f961b8d6752871aa14ad4ce876d5a03dc82",
-    "catalogSha256": "C8744C80BDACB44A9BA07F2659C7314174737F18757198094EAC58B4F480BE00"
+    "releaseVersion": "2026.11.17-grundrechte.3",
+    "mainCommit": "1be884fed2f4ae2dff60ab47cb4f7ba5a9d2b46e",
+    "catalogSha256": "E1F46B7C93029EE1298F6E6BE210328882F2365331DDB68436AB2CDE483B584D"
+  },
+  "parentCommit": "1be884fed2f4ae2dff60ab47cb4f7ba5a9d2b46e",
+  "parentVerification": {
+    "checkedAt": "2026-11-18",
+    "method": "Read-only repository comparison: recorded parent versus main",
+    "status": "identical",
+    "servedHttpsBytesCheckedToday": false,
+    "repeatBeforeAnyPublication": true
   }
 }

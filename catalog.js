@@ -7138,6 +7138,37 @@ window.LOTTE_CATALOG=Object.freeze({
         "gradeBand": "7/8",
         "competencyRef": "S. 2: Inkraftsetzung für Klasse 7 ab 2026/27. § 2.2.5 S. 30–31: Sprachreflexion, funktionale Untersuchung von Wortformen und Wortbedeutung unter Zielmarke Klassenstufe 8. § 3.5 S. 51–52: Konjunktiv I/II sowie Synonyme und Antonyme in der Spalte 7/8.",
         "checkedAt": "2026-10-21"
+      },
+      "practice": {
+        "title": "Freiwilliger Kommagrenzenvergleich nach deinem Bericht",
+        "unscored": true,
+        "childNote": "Erst deine eigene Meldung und den Hauptteil abschliessen. Danach kannst du eine getrennte Papierkarte zum Satzbau erhalten. Sie ist freiwillig und bringt keine zusätzlichen Punkte.",
+        "childSteps": [
+          "Bewahre deinen ersten Bericht für den Vergleich auf.",
+          "Bitte nach dem Hauptteil bei Bedarf um die Kinderkarte. Eine kurze Erklärung ist ebenfalls möglich.",
+          "Prüfe nur eine tatsächlich vorhandene passende eigene Textstelle. Du musst keinen Fehler erfinden; ohne passende Stelle bleibt die eigene Anwendung offen."
+        ],
+        "adultNote": "Getrennter unbewerteter Anschluss; bestehende 20 Haupt- und sechs Variantenpunkte bleiben unverändert. Keine Gelegenheit zur Bearbeitung bedeutet nicht erhoben.",
+        "adultGuide": [
+          "Kinderkarte erst nach eigener Meldung und abgeschlossenem Hauptteil ausgeben, Erwachsenenhilfe getrennt halten. Die nach Hilfe folgende Variante ist unterstützt. Eine Anleitung oder ein PDF-Link sichert die Reihenfolge nicht technisch.",
+          "Die vier nummerierten Fragen sind keine vier Punkte. Nur eine tatsächlich vorhandene passende eigene Stelle prüfen; schon richtige Zeichensetzung darf begründet werden. Keine neue Meldung und keinen Fehler erzwingen."
+        ],
+        "adultCriteria": [
+          "Kommagrenze und abhängigen Aussageinhalt an den vorgegebenen Sätzen erklären.",
+          "Subjekte und zugehörige finite Formen beim begründeten Vergleich berücksichtigen.",
+          "Eigene Anwendung nur an einer vorhandenen passenden Stelle beobachten; genutzte Hilfe getrennt berücksichtigen."
+        ],
+        "handoutsNote": "Zwei getrennte Papierkarten: Kinderkarte erst nach Meldung und Hauptteil; Erwachsenenhilfe bei Erwachsenen halten. PDF-Links sind keine Zugriffssperre. Keine Zusatzpunkte.",
+        "handouts": [
+          {
+            "path": "assets/de-r2-kommagrenze-kind.pdf",
+            "label": "Kinderkarte · erst nach Bericht und Hauptteil"
+          },
+          {
+            "path": "assets/de-r2-kommagrenze-erwachsene.pdf",
+            "label": "Getrennte Erwachsenenhilfe · Kommagrenzen"
+          }
+        ]
       }
     },
     {

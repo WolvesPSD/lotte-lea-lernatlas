@@ -4388,7 +4388,7 @@ window.LOTTE_CATALOG=Object.freeze({
       "levelStatus": "grade8-outlook",
       "released": true,
       "prerequisite": "Du brauchst Koordinaten (x|y), Dezimalzahlen und einfache Gleichungen. Die Hilfe y = m·x + n bedeutet: m ist die Änderung pro zusätzlicher x-Einheit, n der Wert bei x = 0. Hier gilt x in km und y in €. Zeichne den Graphen auf Papier oder auf einem Ausdruck des Gitters; zeige die Zeichnung zusätzlich, denn das Antwortfeld kann sie nicht prüfen.",
-      "introduction": "Eine erfundene Gruppe vergleicht zwei Fahrpreise für 0 bis 12 km, ohne Rundung auf ganze Kilometer und ohne weitere Kosten. Auch Bruchteile eines Cents dürfen im mathematischen Modell als Zwischenwerte auftreten; alle hier verlangten Vergleichsstrecken ergeben ganze Eurobeträge. x ist die Streckenlänge in km, y der Preis in €. Tarif A hat die Tabellenpunkte (2|7) und (6|15). Beim Graphen von Tarif B sind (0|11) und (8|19) gegeben. Für beide Tarife ist der Graph im ganzen Bereich 0 ≤ x ≤ 12 eine gerade Strecke. Die dritte Liste C enthält nur die Paare (0|3), (2|7), (4|13), (6|21); Zwischenwerte sind unbekannt. Alle Angaben sind fiktiv. Die Grafik zeigt nur die vorgegebenen vier Tarifpunkte; zeichne die Strecken selbst. Schreibe Rechenwege und Einheiten; offene Antworten werden nicht automatisch benotet.",
+      "introduction": "Eine erfundene Gruppe vergleicht zwei Fahrpreise für 0 bis 12 km, ohne Rundung auf ganze Kilometer und ohne weitere Kosten. Auch Bruchteile eines Cents dürfen im mathematischen Modell als Zwischenwerte auftreten; alle hier verlangten Vergleichsstrecken ergeben ganze Eurobeträge. x ist die Streckenlänge in km, y der Preis in €. Tarif A hat die Tabellenpunkte (2|7) und (6|15). Beim Graphen von Tarif B sind (0|11) und (8|19) gegeben. Für beide Tarife ist der Graph im ganzen Bereich 0 ≤ x ≤ 12 eine gerade Strecke. Die dritte Liste C enthält nur die Paare (0|3), (2|7), (4|13), (6|21); Zwischenwerte sind unbekannt. Alle Angaben sind fiktiv. Die Grafik zeigt nur die vorgegebenen vier Tarifpunkte; zeichne die Strecken selbst. Schreibe Rechenwege und Einheiten; offene Antworten werden nicht automatisch benotet. Nach „Funktion und Bereich“ und „A aus der Tabelle“ kannst du unter den Aufgaben freiwillig eigene Begriffserklärungen und die Wortstütze nutzen. Die bisherigen Punkte bleiben unverändert.",
       "diagram": {
         "path": "assets/ma-lineare-tarife.svg",
         "alt": "Koordinatengitter von 0 bis 12 km waagerecht und 0 bis 30 Euro senkrecht. Es sind nur vier vorgegebene Punkte markiert: Tarif A bei 2 km und 7 Euro sowie 6 km und 15 Euro; Tarif B bei 0 km und 11 Euro sowie 8 km und 19 Euro. Es sind keine Geraden oder Schnittpunkte eingezeichnet. Die Listenwerte C gehören nicht zu diesem Graphen.",
@@ -4486,6 +4486,31 @@ window.LOTTE_CATALOG=Object.freeze({
         "gradeBand": "8",
         "competencyRef": "PDF-S. 2: Erprobungslehrplan gilt 2026/27 für Klasse 7, 2027/28 für Klasse 8. § 2.2.11, PDF-S. 31 unter „Klassenstufe 8“: Funktionen beurteilen, lineare Zusammenhänge aus Punkten/Tabelle/Graph/Vorschrift bestimmen, Steigung und Achsenabschnitt deuten, begrenzten Definitions- und Wertebereich, Graph und Schnitt zweier Geraden prüfen.",
         "checkedAt": "2026-10-21"
+      },
+      "practice": {
+        "title": "Freiwillig: Funktionen mit Fachbegriffen erklären",
+        "childNote": "Freiwilliger, unbewerteter Zusatz zum 7/8-Lernweg, Zielhorizont Ende Klasse 8. Keine Aussage über die aktuelle Unterrichtsfolge. Bearbeite zuerst die vorhandenen Aufgaben „Funktion und Bereich“ und „A aus der Tabelle“ im Tarifvergleich. Ihre Punkte bleiben unverändert. Du brauchst deine dortigen Ergebnisse; hier kommen keine neuen Tarifdaten hinzu.",
+        "childSteps": [
+          "Erkläre mit eigenen Worten allgemein, was eine Zuordnung zu einer Funktion macht. Deine Erklärung soll auch zu anderen Beispielen als Preisen passen. Prüfe anschliessend: Dürfen zwei verschiedene erlaubte Eingaben denselben Ausgabewert haben? Begründe deine Antwort.",
+          "Hilfe, wenn du sie brauchst: Überlege, welche Werte überhaupt als Eingabe erlaubt sind und wie viele Ausgaben zu jeder einzelnen erlaubten Eingabe gehören dürfen. Verwechsle verschiedene Eingaben mit mehreren Ausgaben für dieselbe Eingabe nicht. Notiere, ob du diese Hilfe genutzt hast.",
+          "Wortstütze: Der Quotient aus der Änderung des y-Werts und der dazugehörigen Änderung des x-Werts heisst Differenzenquotient: (y₂ − y₁) / (x₂ − x₁). Die beiden x-Werte müssen verschieden sein. Verwende im Zähler und Nenner dieselbe Reihenfolge der beiden Punkte. Bei einer linearen Funktion beschreibt dieser Quotient den Anstieg, auch Steigung genannt.",
+          "Sieh auf deinen bereits berechneten Tarif A zurück. Beschreibe mit den Wörtern Differenzenquotient, Anstieg (Steigung) und y-Achsenabschnitt, wie dein Ergebnis den Tarif beschreibt. Erkläre dabei, was Änderungen der Strecke und des Preises bedeuten und wofür der y-Achsenabschnitt im Modell steht. Du musst die Rechnung nicht noch einmal ausführen.",
+          "Du kannst schriftlich oder mündlich antworten. Die Wortstütze ist ausdrücklich eine Hilfe; ihr Gebrauch belegt keinen Abruf ohne Hilfe."
+        ],
+        "adultNote": "Nur zusammen mit dem getrennten Kinderzusatz und dem bestehenden Tariffall verwenden. Freiwilliger, unbewerteter Ende-8-Lernweg; keine neue Aufgabenwertung, kein Klasse-7-Pflicht- oder Leistungsnachweis.",
+        "adultGuide": [
+          "Eine Funktion ordnet jeder Eingabe aus ihrem Definitionsbereich genau einen Ausgabewert zu. Alltagssprache ist gleichwertig, wenn erlaubte Eingaben und eindeutige Zuordnung klar sind. Verschiedene Eingaben dürfen denselben Ausgabewert haben, beispielsweise bei einer konstanten Funktion. Eine erlaubte Eingabe ohne Ausgabe oder mit zwei verschiedenen Ausgaben erfüllt diese Definition nicht. Aus einer endlichen Werteliste darf keine ungenannte Fortsetzung abgeleitet werden. Bei unvollständiger Erklärung auf die Hilfe verweisen, keine Musterdefinition als Eigenleistung werten.",
+          "Im unveränderten Tarif A liegen die Punkte (2|7) und (6|15) vor: Der Differenzenquotient (15−7)/(6−2) ist 2 Euro pro Kilometer. Er beschreibt die Steigung des linearen Tarifmodells: pro zusätzlichem Kilometer steigt der Preis um zwei Euro. Der y-Achsenabschnitt ist 3 Euro; das ist der Modellpreis bei null Kilometern beziehungsweise die Grundgebühr. Beide Punkte erfüllen A(x)=2x+3. Eine gleichzeitige Umkehr beider Differenzen ist korrekt. Nicht nur im Zähler oder nur im Nenner umkehren. Unterschiedliche x-Werte sind Voraussetzung. Die Aussage betrifft das vorhandene lineare Modell und seinen zugelassenen Bereich; keine realen Angebote ausserhalb dieses Bereichs behaupten.",
+          "Gleichwertige Erklärung zulassen. Rückmeldung getrennt zu Definition, Unterscheidung der Eingaben, Quotient, Einheit und Achsenabschnitt geben; keine zusätzliche Punktesumme erfinden. Bei mündlicher Bearbeitung nur tatsächlich Gehörtes festhalten. Eine abgelesene Wortstütze, ein Mustertext oder ein Erwachsenenvortrag belegt keine eigenständige Kinderleistung."
+        ],
+        "adultCriteria": [
+          "Die eigene allgemeine Funktionserklärung nennt jede erlaubte Eingabe und genau eine zugeordnete Ausgabe; gleichwertige Alltagssprache anerkennen.",
+          "Verschiedene Eingaben dürfen denselben Ausgabewert haben; die Erklärung unterscheidet dies von mehreren Ausgaben für dieselbe Eingabe.",
+          "Differenzenquotient mit verschiedenen x-Werten und gleicher Reihenfolge beider Differenzen fachsprachlich mit dem Anstieg (Steigung) verknüpft.",
+          "Die Einheit Euro pro Kilometer und der y-Achsenabschnitt als Modellpreis bei null Kilometern werden am vorhandenen Tarif erklärt; zugelassenen Bereich beachten.",
+          "Genutzte Hilfen und Modelle berücksichtigen; mündlich nur tatsächlich Gehörtes besprechen. Keine zusätzliche Punktesumme oder Erledigtwertung."
+        ],
+        "unscored": true
       }
     },
     {
@@ -5010,7 +5035,7 @@ window.LOTTE_CATALOG=Object.freeze({
       "levelStatus": "grade8-outlook",
       "released": true,
       "prerequisite": "Hilfreich sind Dezimalzahlen, einfache Variablen und gleiche Rechenoperationen auf beiden Gleichungsseiten. Du kannst mit der Tabelle beginnen und die Gleichung danach bearbeiten.",
-      "introduction": "Ein erfundener Lernclub bestellt 1 bis 40 gleichartige Experimentierkästen, immer eine ganze Anzahl. Anbieter A verlangt 18 € feste Buchungsgebühr und 2 € pro Kasten. Anbieter B verlangt 42 € feste Buchungsgebühr und 0,50 € pro Kasten. Es gibt keine weiteren Kosten oder Rabatte. Nenne die Anzahl n, schreibe Einheiten zu deinen Ergebnissen und zeige deine Rechenschritte. Schreibe Antworten hier oder auf dem Kinderblatt; offene Antworten werden nicht automatisch benotet.",
+      "introduction": "Ein erfundener Lernclub bestellt 1 bis 40 gleichartige Experimentierkästen, immer eine ganze Anzahl. Anbieter A verlangt 18 € feste Buchungsgebühr und 2 € pro Kasten. Anbieter B verlangt 42 € feste Buchungsgebühr und 0,50 € pro Kasten. Es gibt keine weiteren Kosten oder Rabatte. Nenne die Anzahl n, schreibe Einheiten zu deinen Ergebnissen und zeige deine Rechenschritte. Schreibe Antworten hier oder auf dem Kinderblatt; offene Antworten werden nicht automatisch benotet. Unter den Aufgaben findest du einen freiwilligen Überschlag zum Preis von A für 24 Kästen. Wenn du den genauen Preis schon kennst, nutzt du ihn als rückblickende Plausibilitätskontrolle; die bisherigen Punkte bleiben unverändert.",
       "tasks": [
         {
           "id": "ma-experimentierkaesten-1",
@@ -5090,6 +5115,20 @@ window.LOTTE_CATALOG=Object.freeze({
             "1 Punkt: n = (P − 18) ÷ 2 mit nachvollziehbarem Umstellen.",
             "1 Punkt: n = 20 samt Probe 58 € und zulässigem Bereich."
           ]
+        },
+        {
+          "id": "ma-experimentierkaesten-begriffe-notiz",
+          "kind": "reflection",
+          "points": 0,
+          "writingLines": 8,
+          "inputRows": 8,
+          "unscoredNote": true,
+          "adultOnlySolution": true,
+          "prompt": "Begriffe erklären – ohne zusätzliche Punkte: Erkläre in eigenen Worten Variable, Term und Gleichung. Nutze dazu die Anzahlvariable und einen deiner Preisterme aus Aufgabe 1 sowie deine eigene Gleichung aus Aufgabe 3. Sage, was jedes Wort bedeutet, wie sich ein Term von einer Gleichung unterscheidet und welche Rolle die Variable dabei hat. Bloss die Beispiele zuzuordnen genügt nicht. Du brauchst die Gleichung nicht nochmals zu lösen. Diese Erklärung erhält eine eigene Rückmeldung ohne Punkte; die bisherigen 20 Kriterienpunkte bleiben unverändert.",
+          "sample": "Eine Variable ist ein Zeichen, das für Zahlen beziehungsweise Werte aus einem vereinbarten Bereich stehen kann. Hier bezeichnet n die Anzahl der Kästen; erlaubt sind ganze Zahlen 1 bis 40. Eine Variable muss nicht immer eine erst zu ermittelnde Unbekannte sein. Ein Term ist ein mathematischer Ausdruck, etwa eine Zahl, eine Variable oder eine zulässige Verbindung solcher Ausdrücke durch Rechenoperationen. 18 + 2n beschreibt hier den Zahlenwert des Preises in Euro; bei eingesetztem n lässt sich sein Wert berechnen. Nicht jeder Term muss eine Variable enthalten. Eine Gleichung setzt zwei Terme mit einem Gleichheitszeichen gleich. Bei einer Gleichung mit Variablen ist zu prüfen, für welche erlaubten Werte beide Seiten denselben Wert haben. 18 + 2n = 42 + 0,50n fordert hier gleiche Preise. Der einzelne Preisterm stellt diese Gleichheitsbedingung nicht auf. Auch konstante Gleichungen und Identitäten kommen vor; nicht jede Gleichung hat genau eine unbekannte Zahl oder genau eine Lösung.",
+          "criteria": [
+            "Rückmeldung ohne Punkte: Sind die drei allgemeinen Bedeutungen erkennbar? Werden Term und Gleichheitsbedingung unterschieden und die Rolle der Anzahlvariablen erklärt? Verständliche gleichwertige Formulierungen zulassen; die eigenen Beispiele dürfen abweichen, auch eine fehlerhafte vorherige Gleichung erlaubt eine sinnvolle Begriffserklärung. Ein fehlender Fachausdruck bei klarer Bedeutung ist Anlass für einen Hinweis, keine automatische Gesamtabwertung. Keine Änderung der bisherigen 20 Punkte; kein Nachweis tatsächlicher Kinderbearbeitung."
+          ]
         }
       ],
       "releaseEvidence": {
@@ -5097,6 +5136,31 @@ window.LOTTE_CATALOG=Object.freeze({
         "gradeBand": "8",
         "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. § 2.2.3, PDF-S. 25–26, unter „Klassenstufe 8“: Variablen, Terme und Gleichungen; Sachverhalte modellieren, Werte berechnen, äquivalent umformen, Formeln umstellen und Ergebnisse kontrollieren.",
         "checkedAt": "2026-10-21"
+      },
+      "practice": {
+        "title": "Freiwillig: erst ungefähr, dann genau",
+        "childNote": "Freiwilliger Zusatz ohne weitere Punkte zum vorhandenen Experimentierkästen-Fall, Aufgabe „Wertetabelle“. 7/8-Lernweg mit Zielhorizont Ende Klasse 8, keine Aussage über deine aktuelle Unterrichtsfolge. Nutze die bereits gegebenen Preise von Anbieter A für 24 Kästen; keine neuen Angebotsbedingungen.",
+        "childSteps": [
+          "Wenn du diesen genauen Preis noch nicht berechnet oder gesehen hast, versuche zuerst einen Überschlag. Kennst du das genaue Ergebnis schon, ist dies eine nachträgliche Plausibilitätskontrolle. Sage ehrlich, welcher Fall bei dir zutrifft.",
+          "Runde eine oder mehrere der vorhandenen Zahlen so, dass du den Preis im Kopf leicht ungefähr bestimmen kannst. Schreibe deine gerundeten Zahlen und deinen Rechenweg auf oder erkläre sie mündlich. Begründe kurz, warum dein Überschlag zur Grössenordnung passt.",
+          "Vergleiche anschliessend mit deiner genauen Rechnung aus der Wertetabelle: Liegt dein Überschlag darüber oder darunter, und um wie viel? Erkläre, was der Vergleich kontrolliert und warum ein passender Überschlag die genaue Rechnung nicht beweist. Hier sollst du nicht erneut entscheiden, welcher Anbieter günstiger ist.",
+          "Hilfe bei Bedarf: Trenne feste Gebühr und Kosten für die Kästen. Runde so, dass du weiterhin beide Preisbestandteile berücksichtigst. Auch unterschiedliche sinnvolle Rundungen sind möglich; nenne die verwendete Hilfe. Eine blosse Wiederholung des exakten Preises ist noch kein Überschlag."
+        ],
+        "adultNote": "Freiwilliger Zusatz ohne weitere Punkte zum vorhandenen Termfall. Schriftliche oder mündliche Erklärung ist möglich. Die bisherige Wertetabelle und die 20 Kriterienpunkte bleiben unverändert; eine neue Eingabe oder Erledigtwertung entsteht nicht.",
+        "adultGuide": [
+          "Im unveränderten Modell gilt für Anbieter A A(n)=18+2n Euro bei einer ganzen Anzahl von 1 bis 40 Kästen. Für 24 Kästen lautet der genaue Preis 18+2·24=66 Euro.",
+          "Ein möglicher echter Überschlag ist 20+2·25=70 Euro: Grundgebühr von 18 auf 20, Anzahl von 24 auf 25 gerundet, Stückpreis 2 beibehalten. Er liegt vier Euro über dem genauen Preis; beide Aufrundungen erklären die Richtung. Ebenso vertretbar sind beispielsweise 20+2·24=68 Euro oder 20+2·20=60 Euro, jeweils mit offengelegter Rundung, korrekter Vergleichsrichtung und einer Erklärung der Grössenordnung. Keine einzige Rundungsweise oder unbegründete Genauigkeitsschwelle vorschreiben. Rechnerisch falsche Vergleiche nicht als gleichwertig akzeptieren.",
+          "Die Rückmeldung prüft: beide Preisbestandteile berücksichtigt; nachvollziehbar vereinfachte Rechnung statt exakter Wiederholung; Rundung genannt; Vergleich und Abweichung korrekt; Reichweite verstanden. Ein Überschlag kann grobe Grössenordnungsfehler auffällig machen, beweist aber weder einen exakten Preis noch eine allgemeine Anbieterentscheidung. Der Vergleich mit der eigenen genauen Rechnung ist kein unabhängiger Beweis ihrer Fehlerfreiheit.",
+          "War 66 Euro schon bekannt, nur rückblickende Plausibilitätsprüfung festhalten. Eine gelesene Musterrechnung oder Erwachsenenrechnung ist keine eigene Kinderleistung; Hilfen offen benennen. Fehlt eine eigene Erklärung, bleibt die Handlung unbeobachtet, nicht automatisch falsch. Kein zusätzliches Punkteraster oder Leistungsurteil."
+        ],
+        "adultCriteria": [
+          "Feste Gebühr und Kosten für die Kästen werden im eigenen Überschlag berücksichtigt.",
+          "Gerundete Zahlen und nachvollziehbar vereinfachter Rechenweg werden benannt; keine blosse Wiederholung des genauen Preises als Überschlag werten.",
+          "Vergleichsrichtung und Abweichung zum eigenen genauen Ergebnis sind korrekt; unterschiedliche sinnvolle Rundungen anerkennen.",
+          "Die Erklärung trennt Grössenordnungskontrolle vom Beweis einer genauen Rechnung oder einer allgemeinen Anbieterentscheidung.",
+          "Kenntnis des genauen Ergebnisses, genutzte Hilfen und Modelle werden berücksichtigt; ohne eigene Erklärung bleibt die Handlung unbeobachtet. Keine zusätzlichen Punkte oder automatische Leistungswertung."
+        ],
+        "unscored": true
       }
     },
     {
@@ -22376,6 +22440,56 @@ window.LOTTE_CATALOG=Object.freeze({
         "competencyRef": "Spanisch Gymnasium 2025, §2.1.4, PDF-S. 16: sehr einfache Texte verfassen und Geschriebenes prüfen",
         "primarySha256": "0C40ADBFF8263B61694711AC25DD673B336C92AA0019BA369FED273990AC3019",
         "checkedAt": "2026-11-03"
+      },
+      "practice": {
+        "title": "Freiwillige Zusatzwege auf Papier",
+        "unscored": true,
+        "childNote": "Bearbeite zuerst deine eigene Rucksackantwort. Danach kannst du bei einer erwachsenen Person eine getrennte Abschreibkarte erhalten. Diese Übung ist freiwillig und unbewertet. Der Rückblick auf deine eigene Arbeit ist ein anderer freiwilliger Weg. Abschreiben ist dafür keine Voraussetzung; du musst nicht beide Wege nutzen.",
+        "childSteps": [
+          "Bewahre deine eigene Rucksackantwort auf, bevor du die Abschreibvorlage ansiehst.",
+          "Bitte danach bei Bedarf um die Papierkarte und vergleiche deinen Abschreibversuch gemeinsam mit der Begleitung."
+        ],
+        "adultNote": "Die Vorlage ist zugleich die Musterantwort des vorhandenen Rucksackauftrags. Eine geplante unbeeinflusste eigene Antwort vor der Ausgabe tatsächlich festhalten. Die bestehende Aufgabe und ihre 8 Lernpunkte bleiben unverändert; der Papierzusatz ist unbewertet.",
+        "adultGuide": [
+          "Kinderkarte erst nach der eigenen Rucksackantwort ausgeben, wenn eine unbeeinflusste Eigenantwort geplant ist. Bereits gesehene Muster und tatsächlich genutzte Hilfe berücksichtigen; alternativ bewusst getrennt üben und den späteren eigenen Text als unterstützt einordnen. Dieselben Sätze nicht doppelt als unabhängige freie Textproduktion und Abschreibnachweis zählen.",
+          "Die sichtbare Vorlage bleibt beim Abschreiben verfügbar. Vorlesen und Zeigen sind erlaubt, aber keine Schreibweise vorab korrigieren. Danach gemeinsam mit der Vorlage vergleichen; ein Extrablatt ist erlaubt. Keine zusätzlichen Sätze, Punkte oder Schreibzeit verlangen.",
+          "Die vollständige deutsche Erwachsenenhilfe für die Rückmeldung verwenden. Ohne tatsächlichen Abschreibversuch ist Kopiertreue nicht beobachtet; eine Tastaturantwort oder das Öffnen der Datei belegt keine Handschrift. Keine neue Audio- oder Hörprüfung ist für den sichtbaren Kopiervergleich nötig.",
+          "Getrennter freiwilliger Rückblick erst nach dem eigenen Rucksackversuch und den tatsächlichen Prüfungen B/C. Abschreiben ist keine Voraussetzung und beide Wege sind keine Pflichtserie. Ohne eigene Arbeit oder Prüfung für später aufbewahren; bei Teilversuch nur tatsächlich bearbeitete Stellen besprechen. Bereits bekannte Modelle/Abschreibvorlagen berücksichtigen. Die getrennte Erwachsenenhilfe zum Rückblick vollständig verwenden; keine gewünschte positive Selbstaussage oder Verbesserung verlangen."
+        ],
+        "adultCriteria": [
+          "Die drei Vorlagezeilen beziehungsweise Sätze in derselben Reihenfolge vergleichen. Ein Umbruch aus Platzgründen ist nicht automatisch ein fehlendes Wort; Satzfolge und tatsächliche Zeichen vom Papierlayout unterscheiden.",
+          "Jedes Wort der sichtbaren Vorlage ist vorhanden; kein zusätzliches Inhaltswort wurde eingefügt.",
+          "Gross- und Kleinschreibung, Punkte und den sichtbaren Akzent in „También“ mit der Vorlage vergleichen. „cuaderno“ und „azul“ erhalten keinen zusätzlichen Akzent.",
+          "Abweichungen nur markieren und gemeinsam besprechen, nicht automatisch bewerten. Erhaltene Hilfe nicht als selbstständige Kontrolle ausgeben; Rückmeldung auf die tatsächlich verglichene Stelle begrenzen."
+        ],
+        "handoutsNote": "Kinderkarte erst zur passenden Papierübung ausgeben und Erwachsenenhilfe getrennt bereithalten. Die Reihenfolge ist eine Verwendungsanweisung, keine technische Zugriffssperre. Die zusätzlichen Rückblickkarten sind unabhängig von der Abschreibübung: erst nach eigener A/B/C-Arbeit verwenden, ohne Versuch oder Prüfung für später aufbewahren. Rückblickhilfe für Erwachsene getrennt behalten; keine Pflichtserie.",
+        "handouts": [
+          {
+            "path": "assets/es6-ws1-abschreiben-kind.pdf",
+            "label": "Kinderkarte · erst nach eigener Rucksackantwort ausgeben"
+          },
+          {
+            "path": "assets/es6-ws1-abschreiben-erwachsene.pdf",
+            "label": "Getrennte deutsche Erwachsenenhilfe · Abschreiben begleiten"
+          },
+          {
+            "path": "assets/es6-wss4-rueckblick-kind.pdf",
+            "label": "Getrennter Rückblick · Kinderkarte erst nach eigener A/B/C-Arbeit"
+          },
+          {
+            "path": "assets/es6-wss4-rueckblick-erwachsene.pdf",
+            "label": "Getrennte Erwachsenenhilfe · eigenen Rückblick begleiten"
+          }
+        ],
+        "childHandoutsNote": "Unabhängig vom Abschreiben: Nutze die freiwillige Rückblickkarte erst nach deinem eigenen Rucksacktext und den tatsächlichen Wort-/Farbprüfungen B und C. Ohne eigenen Versuch oder Prüfung bewahre sie für später auf. Kurze deutsche Stichpunkte genügen; es gibt keine zusätzlichen Punkte.",
+        "childHandouts": [
+          {
+            "path": "assets/es6-wss4-rueckblick-kind.pdf",
+            "label": "Freiwilliger Rückblick auf meinen Text · nach eigener A/B/C-Arbeit"
+          }
+        ],
+        "childHandoutsPrintNote": "Unabhängig vom Abschreiben: Die freiwillige Rückblickkarte erst nach eigener A/B/C-Arbeit im Lernatlas öffnen und bei Bedarf separat drucken. Ohne eigenen Versuch oder Prüfung für später aufbewahren. Diese Übersicht ersetzt die Rückblickkarte nicht; keine zusätzlichen Punkte.",
+        "printAdultHandoutsNote": "Kinderkarte · erst nach eigener Rucksackantwort ausgeben: assets/es6-ws1-abschreiben-kind.pdf. Getrennte deutsche Erwachsenenhilfe · Abschreiben begleiten: assets/es6-ws1-abschreiben-erwachsene.pdf. Getrennter Rückblick · Kinderkarte erst nach eigener A/B/C-Arbeit: assets/es6-wss4-rueckblick-kind.pdf. Getrennte Erwachsenenhilfe · eigenen Rückblick begleiten: assets/es6-wss4-rueckblick-erwachsene.pdf. Kinderkarte erst zur passenden Papierübung ausgeben und Erwachsenenhilfe getrennt bereithalten. Die Reihenfolge ist eine Verwendungsanweisung, keine technische Zugriffssperre. Die zusätzlichen Rückblickkarten sind unabhängig von der Abschreibübung: erst nach eigener A/B/C-Arbeit verwenden, ohne Versuch oder Prüfung für später aufbewahren. Rückblickhilfe für Erwachsene getrennt behalten; keine Pflichtserie."
       }
     },
     {

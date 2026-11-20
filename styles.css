@@ -375,3 +375,7 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
  .print-topic:has(.print-task[data-task-id^='ge-h06a-']) .print-passage { break-inside: avoid; page-break-inside: avoid; }
 }
 
+
+@media print {
+body[data-print-mode^="child"] #print-surface .print-topic:has(.print-task[data-task-id="ma-lineare-funktionen-1"]) .print-practice{break-before:page}
+}

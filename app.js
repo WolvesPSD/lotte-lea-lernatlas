@@ -1580,9 +1580,12 @@
           ? (topic.practice.childHandoutsPrintNote ? `${topic.practice.childHandoutsPrintNote} ${handout.publicUrl || handout.path}.` : `Freiwillige Zusatzkarte separat im Lernatlas öffnen und drucken: ${handout.publicUrl || handout.path}. Ohne echte Sprech- und Feedbackrunde ist sie nur eine Anleitung.`)
           : `Lokale Vorschau: Zusatzkarte im Lernatlas über ${handout.path} öffnen und drucken; noch nicht online. Ohne echte Sprech- und Feedbackrunde ist sie nur eine Anleitung.`);
         if (mode === 'adult') {
+          if (topic.practice.printAdultHandoutsNote) appendText(practiceSection, 'p', 'print-context', topic.practice.printAdultHandoutsNote);
+          else {
           for (const handout of topic.practice.handouts || []) appendText(practiceSection, 'p', 'print-context', topic.released
             ? `${handout.label}: ${handout.publicUrl || handout.path}. ${topic.practice.handoutsNote || 'Nur zur passenden Phase und ohne Erwachsenenlösung ausgeben.'}`
             : `${handout.label}: lokale Vorschau ${handout.path}, noch nicht online. Nur zur passenden Phase ausgeben.`);
+          }
           if (topic.practice.observationKind === 'private-reflection') {
             appendText(practiceSection, 'p', '', 'Ohne freiwilliges Gespräch: alle vier Kriterien nicht erhoben. Nichtnutzung oder Nichtauskunft ist keine Fehlleistung. Nur bei fairer Gelegenheit für alle vier Kriterien: Gesprächsbeobachtung ____ / 8; sonst keine vergleichbare Summe. Keine Namen, Bereichswahl, persönlichen Aussagen oder Stichwörter auf dem Bogen notieren.');
           } else if (topic.practice.unscored === true) {

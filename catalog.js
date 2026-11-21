@@ -23412,6 +23412,144 @@ window.LOTTE_CATALOG=Object.freeze({
         "checkedAt": "2026-11-21",
         "reviewNote": "21.11.2026: Vorhandene unabhängige Manuskript-/Papierprüfung und lokale Zugangsprüfung als Herkunft. Freiwilliger Materialzugang zum Ende-8-Ziel, keine bestätigte Klasse-7-Pflicht. Die tatsächliche Rede, Kinderleistung, externe Fach-/Altersprüfung, konkrete Schulfolge und Jahresabnahme bleiben offen. Der isolierte öffentliche Renderer-Kandidat wird noch separat geprüft; diese Kennzeichnung ist keine bereits erfolgte Onlinefreigabe."
       }
+    },
+    {
+      "id": "ge-h02e-perspektiverzaehlung-papier",
+      "subjectId": "ge",
+      "title": "Zwei Quellenperspektiven nacherzählen - Papiermaterial",
+      "released": true,
+      "levelStatus": "grade8-outlook",
+      "levelLabel": "Freiwilliger gestützter Ende-8-Ausblick · Schulfolge offen",
+      "materialOnly": true,
+      "scope": "Freiwilliger Schreibweg im Zielraum Klassen 7/8 bis Ende Klasse 8. Die Unterrichtsfolge in Klasse 7 ist offen. Dieser Teilbereich ist kein Gesamtjahresnachweis.",
+      "prerequisite": "Nutze die zwei Quellenkarten im Kinder-PDF. Für deine Notizen kannst du den dortigen Schreibraum oder ein eigenes Blatt verwenden. Andere App-Aufgaben musst du nicht vorher abschliessen.",
+      "introduction": "Die zwei Quellenkarten und der Schreibauftrag stehen im Kinder-PDF. Die heutige Nacherzählung bleibt von Originalstimme und wortgetreuem Zitat getrennt. Hier speichert die App nur die Auswahl; Öffnen und Drucken belegen keine Bearbeitung.",
+      "tasks": [],
+      "practice": {
+        "title": "Kinderblatt öffnen und nach den Quellenkarten arbeiten",
+        "unscored": true,
+        "childNote": "Im Kinder-PDF findest du beide Quellenkarten und die Aufgaben, darunter je eine Nacherzählung von drei bis fünf Sätzen. Wenn längeres Schreiben anstrengend ist, reichen je drei kurze Sätze mit dem Quellenrahmen im Kinder-PDF. Lösungen bleiben im getrennten Erwachsenen-PDF.",
+        "childSteps": [
+          "Öffne das Kinder-PDF und nutze die beiden Quellenkarten.",
+          "Bearbeite die dortigen Aufgaben auf Papier; die App erfasst keine Antworten oder Leistung."
+        ],
+        "childHandoutsNote": "Nur das Kinderblatt separat öffnen und drucken.",
+        "childHandoutsPrintNote": "Das Kinder-PDF separat öffnen und drucken. Diese Materialübersicht ersetzt weder Quellenkarten noch Schreibraum oder Bearbeitung.",
+        "childHandouts": [
+          {
+            "label": "Kinderblatt mit zwei Quellenkarten öffnen und drucken",
+            "path": "assets/ge-h02e-perspektiverzaehlung/01-kinderblatt.pdf"
+          }
+        ],
+        "adultNote": "Die vorhandenen 20 Kriterienpunkte (4+8+4+4) gelten nur für die Aufgaben im Papiermaterial und sind formative Rückmeldung, keine App-Punkte, Schulnote oder Kompetenzdiagnose.",
+        "adultGuide": [
+          "Nur tatsächlich vorliegende Antworten anhand des getrennten Erwachsenen-PDFs besprechen; fehlende Bearbeitung ist kein automatischer Nullwert.",
+          "Die dort präzisierte zugängliche Drittperson bleibt bei erkennbarer Quellenperspektive zulässig; keine unbelegte innere Rede oder Quellenneutralität als Perspektivnachweis werten."
+        ],
+        "adultCriteria": [
+          "Kinder- und Erwachsenenblatt getrennt verwendet; Modelle nicht als Kinderantwort ausgegeben.",
+          "Quellenrahmung, Belege und Überlieferungsgrenzen nach dem Papier-Raster betrachtet; kein automatischer Leistungsnachweis aus der Auswahl."
+        ],
+        "handoutsNote": "Nur für Erwachsene: Modelle und Rückmelderaster getrennt vom Kinderblatt aufbewahren und verwenden. Die getrennten Rollenlinks sind keine technische Zugriffssperre.",
+        "handouts": [
+          {
+            "label": "Nur Erwachsene: Modelle und Rückmelderaster öffnen",
+            "path": "assets/ge-h02e-perspektiverzaehlung/02-erwachsenenloesung.pdf"
+          }
+        ],
+        "printAdultHandoutsNote": "Dies ist nur eine Materialübersicht. Modelle und 20-Kriterien-Raster stehen im separat zu öffnenden Erwachsenen-PDF; keine Punkte oder Erledigtwertung in der App."
+      },
+      "releaseEvidence": {
+        "primaryLocalPdf": "pdf/LP_GY_Ge_Fassung_20210913.pdf",
+        "primarySha256": "ADEF1D39DEC54EA6ACF27F2EA8EB0FFB2B31417952358C3F7197CF9DCBE5C4BA",
+        "competencyRef": "H02-Einleitungsfliesstext/PDF18: Perspektiverzählen als enger Teilanschluss innerhalb7/8 bis Ende8; keine neue Bullet-ID und keine gesamte H02-Abdeckung.",
+        "checkedAt": "2026-11-21",
+        "reviewNote": "Vorhandene begrenzte Manuskript-, Quellenlogik-, Papier- und lokale Zugangsprüfungen als Herkunft. Freiwilliger Schreibweg im Zielraum Klassen7/8 bis Ende8; konkrete Unterrichtsfolge unbekannt. Auswahl und Dateiöffnung belegen keine Bearbeitung. Tatsächliche Kinderleistung, externe Fach-/Altersprüfung, H02-Gesamt- und Jahresabnahme bleiben offen."
+      }
+    },
+    {
+      "id": "de-zu-infinitivkomma",
+      "subjectId": "de",
+      "title": "Kommas bei zu-Infinitivgruppen: Grenzen erkennen und begründen",
+      "released": true,
+      "levelStatus": "grade78-flex",
+      "scope": "Begrenzter Wiederholungs- und Festigungsweg aus dem Thüringer Rechtschreibrahmen 2026 für Klassen 7/8. Keine getrennte Klasse-7-Unterrichtsfolge oder vollständige Zeichensetzungsabdeckung.",
+      "prerequisite": "Schreibe vollständige Sätze mit allen nötigen Kommas. Markiere die zu-Infinitivgruppe in Textfeldern mit Klammern; auf Papier ist auch Unterstreichen möglich. Die Klammern sind nur eine Lernhilfe und kein Teil der korrekten Satzzeichen.",
+      "introduction": "Drei Hauptaufträge mit 8+6+6=20 möglichen Kriterienpunkten, keine Schulnote. Freie Antworten werden nicht automatisch bewertet. Danach kannst du freiwillig einen eigenen Satz auf Papier prüfen, ohne zusätzliche Punkte.",
+      "passage": "DIE REGEL · Satzwertige zu-Infinitivgruppen werden mit Komma abgegrenzt. In den folgenden klaren Beispielen erkennst du sie an zu plus einer Verbform. Am Satzanfang oder -ende steht ein Komma an der inneren Grenze; mitten im Satz steht links und rechts je ein Komma.\nBeispiele: Wir prüfen den Entwurf, um die Regel zu verstehen. / Um die Regel zu verstehen, prüfen wir den Entwurf. / Der Plan, die Beispiele zu ordnen, hilft beim Arbeiten.\nDas ist keine Regel „vor jedes zu ein Komma“: Nicht erweiterte Formen und mehrteilige Prädikate müssen gesondert betrachtet werden; sie sind hier nicht der Übungsfall.",
+      "tasks": [
+        {
+          "id": "de-infinitivkomma-a",
+          "kind": "reflection",
+          "points": 8,
+          "prompt": "A · Kommas einsetzen (8 Punkte): Setze alle nötigen Kommas und markiere jeweils die vollständige zu-Infinitivgruppe mit Klammern.\n1 Lea öffnet das Heft um die Beispiele zu vergleichen.\n2 Um die Regel zu prüfen liest sie den Satz noch einmal.\n3 Der Wunsch die Aufgabe allein zu lösen blieb bestehen.\n4 Lotte arbeitet weiter ohne den Text zu verändern.",
+          "sample": "1 Lea öffnet das Heft, (um die Beispiele zu vergleichen).\n2 (Um die Regel zu prüfen), liest sie den Satz noch einmal.\n3 Der Wunsch, (die Aufgabe allein zu lösen), blieb bestehen.\n4 Lotte arbeitet weiter, (ohne den Text zu verändern).",
+          "criteria": [
+            "Je Satz 1 Punkt für vollständige richtige Kommasetzung und 1 Punkt für die vollständig markierte Gruppe, zusammen 8. Bei Satz 3 müssen beide Kommas stimmen.",
+            "Klammern dienen nur der Markierung; Unterstreichen auf Papier ist gleichwertig. Andere Rechtschreibung nicht in diese Punktwertung einrechnen."
+          ],
+          "adultOnlySolution": true,
+          "writingLines": 10,
+          "inputRows": 8,
+          "hint": "Suche zuerst die zu-Verbform. Welche Wörter gehören noch zu dieser Gruppe? Wo geht der übergeordnete Satz weiter?"
+        },
+        {
+          "id": "de-infinitivkomma-b",
+          "kind": "reflection",
+          "points": 6,
+          "prompt": "B · Wo endet die Gruppe? (6 Punkte): Setze Klammern um die zu-Infinitivgruppe und ergänze alle nötigen Kommas.\n1 Der Versuch die Reihenfolge sorgfältig zu prüfen gelang.\n2 Ohne lange zu überlegen ordnete Lea die Satzkarten neu.\n3 Lotte bat darum den letzten Satz noch einmal zu lesen.",
+          "sample": "1 Der Versuch, (die Reihenfolge sorgfältig zu prüfen), gelang.\n2 (Ohne lange zu überlegen), ordnete Lea die Satzkarten neu.\n3 Lotte bat darum, (den letzten Satz noch einmal zu lesen).",
+          "criteria": [
+            "Je Satz 1 Punkt für die vollständigen Kommas und 1 Punkt für passende Gruppengrenzen, zusammen 6. Im eingeschobenen ersten Satz beide Kommas erforderlich.",
+            "Die Klammern sind eine Lernhilfe, keine zusätzlichen Satzzeichen."
+          ],
+          "adultOnlySolution": true,
+          "writingLines": 9,
+          "inputRows": 7,
+          "hint": "Lies die Gruppe probeweise allein. Bleibt nach ihrem Ende noch ein Teil des übergeordneten Satzes übrig?"
+        },
+        {
+          "id": "de-infinitivkomma-c",
+          "kind": "reflection",
+          "points": 6,
+          "prompt": "C · Fehler finden und erklären (6 Punkte): In den Sätzen fehlen Kommas. Schreibe beide Sätze richtig, markiere die jeweilige zu-Infinitivgruppe und erkläre zu jedem Satz, woran du sie erkennst und weshalb du das Komma oder die Kommas setzt.\n1 Wir verglichen die Sätze um den Unterschied zu entdecken.\n2 Der Plan die Beispiele neu zu sortieren war hilfreich.",
+          "sample": "1 Wir verglichen die Sätze, (um den Unterschied zu entdecken). Die Gruppe beginnt mit um und endet beim zu-Infinitiv entdecken; am Satzende wird ihre innere Grenze mit Komma markiert.\n2 Der Plan, (die Beispiele neu zu sortieren), war hilfreich. Die satzwertige Gruppe gehört zum Nomen Plan; als Einschub wird sie links und rechts mit Komma abgegrenzt.",
+          "criteria": [
+            "Je Satz 1 Punkt für vollständige Interpunktion, 1 Punkt für die erkannte Gruppe und 1 Punkt für eine verständliche passende Regelbegründung: insgesamt 6.",
+            "Fachbegriffe nicht auswendig verlangen. Sinngemäss richtige Begründungen zulassen. Ausserhalb dieses Übungsziels liegende Rechtschreibung nicht bepunkten."
+          ],
+          "adultOnlySolution": true,
+          "writingLines": 12,
+          "inputRows": 10,
+          "hint": "Der zweite Satz läuft nach der Gruppe weiter. Prüfe beide Grenzen der eingeschobenen Gruppe."
+        }
+      ],
+      "practice": {
+        "title": "D · Freiwillig: eigener Beispielsatz",
+        "unscored": true,
+        "childNote": "Keine zusätzlichen Punkte. Du kannst nach A–C einen eigenen Satz auf Papier schreiben und besprechen. Verwende eine erfundene Figur oder ein neutrales Schulthema; keine persönlichen Daten nötig.",
+        "childSteps": [
+          "Schreibe einen eigenen klaren Satz mit einer satzwertigen zu-Infinitivgruppe.",
+          "Markiere die vollständige Gruppe mit Klammern oder unterstreiche sie. Setze alle nötigen Kommas.",
+          "Erkläre die Grenze der Gruppe. Wenn deine Konstruktion mehrdeutig ist, besprecht sie oder wähle einen anderen, klareren Satz."
+        ],
+        "adultNote": "Unbepunkteter Transfer, kein vierter Hauptauftrag. 20 Hauptpunkte bleiben unverändert. Eine ausgefüllte Antwort oder ein richtig abgeschriebenes Beispiel beweist keine freie Anwendung.",
+        "adultCriteria": [
+          "Eigene satzwertige Gruppe mit zu-Infinitiv erkennbar?",
+          "Alle Wörter der Gruppe passend markiert und Komma bzw. beidseitige Kommas gesetzt?",
+          "Grenzen verständlich erklärt; mehrteilige Prädikate und nicht erweiterte Formen nicht schematisch als Fehler behandeln."
+        ],
+        "printObservationFooter": "Freiwillig und unbepunktet; kein Ersatz für fachliche Besprechung oder Jahresabnahme."
+      },
+      "releaseEvidence": {
+        "primaryUrl": "https://grammis.ids-mannheim.de/rechtschreibung/6203",
+        "primaryLocalPdf": "pdf/Rechtschreibrahmen_Thueringen_2026.pdf",
+        "primarySha256": "A25A9FAAA4C2314FD8D81133233926D7423915FEB1E1498725E124EF4110DBB8",
+        "competencyRef": "Rechtschreibrahmen 2026, PDF-S.59, Wiederholung/Festigung Klassen7/8; Deutschplan2026 §3.5 PDF-S.51.",
+        "checkedAt": "2026-11-16",
+        "gradeBand": "7/8, keine getrennte Klasse7-Folge",
+        "reviewNote": "Vorhandene begrenzte Manuskript-, Quellen- und lokale Darstellungsprüfungen als Herkunft. Wiederholung und Festigung für Klassen7/8; konkrete Unterrichtsfolge unbekannt. Drei offene Hauptantworten werden manuell besprochen; der eigene Papiersatz ist freiwillig und unbepunktet. Tatsächliche Kinderleistung, externe Fach-/Altersprüfung, freie Anwendung und Jahresabnahme bleiben offen."
+      }
     }
   ]
 });

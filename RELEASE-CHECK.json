@@ -1,47 +1,55 @@
 {
-  "builtAt": "2026-11-21T04:44:59.320Z",
-  "releaseVersion": "2026.11.21-appell.1",
+  "builtAt": "2026-11-21T06:19:14.549Z",
+  "releaseVersion": "2026.11.21-h02e-komma.1",
   "status": "VERIFIED_SCOPED_LOCAL_PREPUBLICATION_CHECKPOINT",
-  "rollbackCommit": "5d4de56de62b64d622fe60fec4ca32cebedb573a",
-  "baselineRelease": "2026.11.21-enhoeren.1",
-  "topics": 218,
-  "answerFields": 1019,
+  "rollbackCommit": "4704d4a99db0bf23407984791558883695774dda",
+  "baselineRelease": "2026.11.21-appell.1",
+  "topics": 220,
+  "answerFields": 1022,
   "oldAnswerFieldsPreserved": 1019,
   "newTopicIds": [
-    "de-appellrede-papier"
+    "ge-h02e-perspektiverzaehlung-papier",
+    "de-zu-infinitivkomma"
   ],
-  "newTaskIds": [],
+  "newTaskIds": [
+    "de-infinitivkomma-a",
+    "de-infinitivkomma-b",
+    "de-infinitivkomma-c"
+  ],
   "changeLog": [
-    "Ein freiwilliger Ende8-Appell-Papierzugang mit getrennten Kinder-/Erwachsenen-PDFs; keine Klasse7-Pflichtbehauptung.",
-    "Material-only-Darstellung ohne Antwortfelder, Punkte oder Erledigtmarker; Auswahl ist keine Redeleistung.",
-    "217 bisherige Themen und1019 Taskobjekte unverändert; kein Gesamtimport des lokalen Katalogs/Renderers."
+    "Freiwilliger H02e-Papierzugang im Zielraum7/8 bis Ende8 mit getrennten Kinder-/Erwachsenen-PDFs; keine App-Antworten oder Erledigtmarker.",
+    "Infinitivkomma: drei offene Hauptaufgaben8+6+6=20; freiwilliger unbepunkteter Papiersatz ohne viertes Feld.",
+    "218alte Themen und1019alte Taskobjekte unverändert; zwei genaue Kinderhinweis-Hooks und eine eigene DE-Erwachsenendruckregel."
   ],
   "compatibility": {
-    "oldBackupForward": "Tatsächlich gezielt geprüft: Antwort in der alten217-Baseline eingegeben/exportiert und in frischen218-Kandidaten importiert; Neuladen erhielt den exakten Stand. Keine Prüfung aller möglichen alten Sicherungen oder1019 ausgefüllter Eingaben.",
-    "materialRoundTrip": "Reine Materialauswahl tatsächlich exportiert, in frischen Kandidaten importiert und neu geladen: selected/active und leere answers exakt. Gemischter Export mit fünf normalen Antworten und bestehendem Stufenmarker ebenfalls exakt wiederhergestellt; Appell erzeugt keinen Antwortschlüssel.",
-    "cancelInvalid": "Bestätigungsabbruch und ungültiger Appell-Erledigtmarker mit expliziten Statusmeldungen und byteidentischem gespeichertem Vorher-/Nachherstand geprüft.",
-    "oldReleaseReverse": "Tatsächlich geprüft: Die neue reine Appell-Auswahlsicherung wird von der alten217-Fassung als unbekanntes Thema abgelehnt. Keine Rückwärtskompatibilität behauptet oder Daten still entfernt; Originaldatei aufbewahren.",
-    "state": "Keine neuen Antwort-/Marker-/Storageformate. Auswahl/active sind keine Papier- oder Redeleistung."
+    "oldBackupForward": "Tatsächlich gezielt geprüft: Eine in der alten218-Fassung eingegebene und exportierte Antwort wurde im frischen Kandidaten importiert und nach Neuladen exakt erhalten. Kein Test aller alten Sicherungen oder1019 ausgefüllter Felder.",
+    "paperAndMixed": "Reine H02e-Auswahl und gemischte Auswahl mit vier normalen Antworten tatsächlich exportiert, frisch importiert und neu geladen. H02e erzeugt keine Antwort- oder Erledigtmarker.",
+    "germanRoundTrip": "Drei tatsächlich eingegebene DE-Antworten nach Neuladen sowie Export und frischem Import mit Neuladen exakt erhalten; ein falscher Antwortdatentyp wurde vor Bestätigung abgewiesen.",
+    "cancelInvalid": "Bestätigungsabbruch und ungültiger H02e-Leistungsmarker mit ausdrücklichen Statusmeldungen und unverändertem gespeichertem Stand geprüft.",
+    "oldReleaseReverse": "Neue H02e-Auswahlsicherung wird von der alten218-Fassung als unbekannte Auswahl abgewiesen. Keine Rückwärtskompatibilität und kein stilles Entfernen von Daten.",
+    "state": "Vorhandenes Speicherformat unverändert. Drei neue offene DE-Antwortfelder; H02e speichert nur Auswahl/active, keine Papierleistung."
   },
   "validation": {
-    "static": "Unabhängiger begrenzter Port-/Daten-/Privacyreview bestanden:110Dateien, fünf erlaubte Änderungen und zwei geprüfte PDFs;217Alt-Topics/1019Tasks/Globals exakt.25JS-Ersetzungen und CSS vollständig umkehrbar, State-/Backupcode und bestehende Handoutlogik erhalten.",
-    "runtime": "Belegte Teilgatekette am isolierten Kandidaten bei320/390/1280: Ende8-/All-Filter erlauben Appell, normaler Klasse7-Standardfilter und Klasse6 schliessen es aus; keine Inputs/0/0/NaN/Erledigtbehauptung. Reine/gemischte Papierauswahl,1Kinder-/1Adult-PDFöffnung und gezielte Sicherungsgates geprüft. M3/M11 sowie ES6 im richtigen Klasse6-Kontext gezielt geprüft. Kein zusammengesetzter Gesamtprozess-Exit0: frühere Harnessabbrüche und separate Teilläufe bleiben qualifiziert.",
-    "print": "Elf erzeugte Übersichtsseiten (SingleKind1/SingleAdult1/MischKind3/MischAdult6) mit dualen Lesern und tatsächlicher Sicht aller11Seiten geprüft;23048Glyphen ohne Randfehler, A4 innerhalb dokumentierter Chromiumtoleranz. Rollen/Punkte-/Papiergrenzen erhalten. Öffentliche/lokale Texte sind nicht global byte-/pixelgleich; eng dokumentierte Label-/Vorschau-/Normalphasenhinweise bleiben unterschieden. Druckaudit tatsächlicher Exit0.",
-    "observability": "Ein späterer eigenständiger kurzer Smoke mit tatsächlichem Exit0 erfasste neun Ansichten:0ConsoleErrors/0Warnings/0Pageerrors,7file:-Requests,0fehlgeschlageneRequests/0externeVersuche. Nur diese neun Ansichten; kein Replay früherer Druck-/Backup-/PDFgates und keine nachträgliche Gesamt-Nullfehlerbehauptung für die früheren Teilläufe.",
-    "processQualification": "Funktionale Teilgatekette enthält dokumentierte Harnessabbrüche; letzter ES6-Teillauf und Druckaudit haben eigene tatsächliche Exit0. Der spätere9Ansichten-Observabilitylauf hat separat tatsächlichen Exit0. Autor-NodeExit0 ist vom unbeobachteten regulären Wrapperexit und dessen Ctrl-C-Cleanup1 getrennt.",
-    "remote": "NOT_PUBLISHED: dieser lokale Prüfstand enthält keine Git-/Remote-/Pinänderung, Pages- oder ausgelieferte HTTPS-Abnahme.",
-    "independentFinal": "Begrenzter unabhängiger statischer Review, funktionale Teilgatekette und späterer Observability-Smoke liegen vor. Nur diese Metadaten-Endfassung wartet noch auf ihren unabhängigen engen Deltareview.",
+    "static": "Unabhängiger begrenzter Daten-/Port-/Privacyreview bestanden:220Themen/1022Tasks; alle218alten Themen/Globals und1019alten Taskobjekte exakt. Genau zwei Hinweisfragmente und eine eigene DE-Erwachsenendruckregel; fünf geänderte Textdateien und zwei geprüfte H02e-PDFs.",
+    "H02e": "Am tatsächlichen Kandidaten bei320/390/1280 geprüft: Ende8-/All-Auswahl, keine Klasse6-Zuordnung und kein Auftauchen im Klasse7-Standardfilter; Keine Antwortfelder, keine0von0-/NaN-Anzeige und keine Erledigtwertung. Getrennte Kinder-/Erwachsenen-PDFs tatsächlich geöffnet. Reine/gemischte Auswahl, Sicherungen und Appell-Kinderhinweise gezielt geprüft.",
+    "german": "Drei echte offene UI-Antworten mit manueller Erwachsenenrückmeldung, keine Kindermusterlösung, freie Antworten nicht automatisch bewertet. Drei Hauptaufgaben8+6+6=20; D bleibt freiwilliger unbepunkteter Papiersatz ohne viertes Feld. Eigener tatsächlicher Lauf erfolgreich beendet.",
+    "print": "H02e-Übersichten mit1/1/4/4Seiten plus1Appell-Kinderseite sowie DE-Drucke mit2/3/3/5Seiten geprüft. Duale Leser, tatsächliche Sicht, A4 innerhalb dokumentierter Toleranz und keine Glyph-Randfehler. Alle neun DE-Sätze, Modelle und Rubriken erhalten; keine neue Prüfung der unveränderten Quell-PDFs.",
+    "processQualification": "H02e ist eine belegte Teilgatekette: Der Hauptlauf endete nicht regulär erfolgreich; ein gezielter Appell-Nachschritt und der Druckaudit wurden jeweils erfolgreich beendet. Kein zusammengesetzter Gesamtprozess-Exit0. DE-Lauf und DE-Druckaudit wurden separat erfolgreich beendet.",
+    "observability": "In den dokumentierten tatsächlichen Prüfkontexten keine aktuellen Konsolenfehler, Warnungen, Seitenfehler, fehlgeschlagenen oder externen Anfragen; nur lokale Dateien. Kein Audio abgespielt. Diese Aussage gilt nur für die erfassten Fälle, nicht für alle220Themen.",
+    "headerCount": "220Katalogthemen und218im Gymnasium-Klasse7-Modus verfügbare Themen sind korrekt getrennt: zwei ES6-Themen gehören ausschliesslich zum Klasse6-Modus. Ein früherer abweichender Befund wurde begründet zurückgenommen; kein Headerfix nötig.",
+    "remote": "NOT_PUBLISHED: Dieser lokale Kandidatenstand enthält keine Git-/Remote-/Pinänderung, Pages- oder ausgelieferte HTTPS-Abnahme.",
+    "independentFinal": "Statischer Review und beide begrenzten Kandidatenprüfungen samt qualifiziertem Nachtrag liegen vor. Diese Metadaten-Endfassung wartet noch auf den eigenen unabhängigen Deltareview.",
     "evidenceHashes": {
-      "staticReview": "30D98ED6CF50EA7E58D6F0AD0C7D68197FF8D4BB544FBAD8697F72D0036CF23F",
-      "runtimePartGateReview": "2D042418C7D924C6D12EE9609FA60F3AAB5C27D7B5CBB9C8ED0111356132D4FA",
-      "observabilityAddendum": "BF229BE6664CF9FA7990E902F4CDE2A579D97A1358911FAE0CCF3841CAE81362"
+      "staticReview": "EE97EF41613EBE074B12AC9B331C09D6FF38B7FD204BF9CBFF0E87137B36220D",
+      "H02eReview": "C5096D73E2D48A04B0A78D91BDFE795D26DF0F403109EC3DF1C5EF285DE26927",
+      "germanReview": "507CD8D443F9BAEB21A49E18256AFAB77C43A2571EF46C520755BB26FC45134A",
+      "headerCorrection": "7A48DF45150D8362CB97E2BF55AC391DC9CAD11E254F21DA69191C32BAC11E11"
     }
   },
   "limits": [
-    "Ende8/freiwilliger gestützter Klasse7-Einstieg; konkrete Schulfolge unbekannt.",
-    "8schriftliche/12nur bei gehörter Rede und freiwillige3+3 nur auf getrennten Papierkriterien; keine App-Materialpunkte und keine20/26Summe ohne Rede.",
-    "Keine tatsächliche Kinderrede, externe Fach-/Alters-, Selbstständigkeits-, Klassen7- oder Jahresabnahme.",
-    "Linkrollen sind keine technische Zugriffssperre."
+    "Zielräume7/8 bis Ende8, konkrete Schulfolge unbekannt; keine aktuelle Klasse7-Pflichtfolge.",
+    "Keine echte Kinderleistung, externe umfassende Fach-/Alters-, Schulfolgen- oder Jahresabnahme.",
+    "Vorhandene lokale und Papierprüfungen sind Herkunft; sie ersetzen keine tatsächliche öffentliche Kandidatenprüfung."
   ],
-  "verificationScope": "Begrenzt geprüfter lokaler Vorveröffentlichungskandidat: konkrete Teilgates und späterer separater Observability-Smoke, kein globaler Gesamtprozess-Exit0. Keine vollständige218Topic-/1019Input-Interaktion, tatsächliche Kinderrede, externe Fach-/Alters-/Jahresabnahme oder Veröffentlichung/HTTPS-Auslieferungsbehauptung."
+  "verificationScope": "Begrenzt geprüfter isolierter Vorveröffentlichungskandidat. H02e-Teilgatekette und separater DE-Lauf bleiben prozessual getrennt; kein globaler GesamtExit0 oder vollständiger220Themen-/1022Feldertest. Keine tatsächliche Kinderleistung, externe Fach-/Alters-, Schulfolgen-, Jahres- oder Live-Auslieferungsabnahme."
 }

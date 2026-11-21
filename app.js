@@ -716,8 +716,10 @@
     tabs.classList.remove('open');
     const topic = topicById.get(state.active); const host = $('#work-content'); host.replaceChildren();
     $('#print-current-child').textContent = isMaterialOnly(topic) ? 'Materialübersicht drucken' : "Dieses Arbeitsblatt drucken";
+    const materialPrintNote = isMaterialOnly(topic) && typeof topic.practice?.childHandoutsPrintNote === 'string'
+      ? topic.practice.childHandoutsPrintNote.trim() : '';
     $('#work-actions > p').textContent = isMaterialOnly(topic)
-      ? 'Diese Übersicht ersetzt nicht die getrennten Papierkarten. Öffne diese im Erwachsenenbereich und drucke sie separat; verdeckte und spätere Blätter bleiben unter Kontrolle einer erwachsenen Person.'
+      ? (materialPrintNote || 'Diese Übersicht ersetzt nicht die getrennten Papierkarten. Öffne diese im Erwachsenenbereich und drucke sie separat; verdeckte und spätere Blätter bleiben unter Kontrolle einer erwachsenen Person.')
       : "Das Arbeitsblatt enthält keine Lösungen. Schreibe deine Rückmeldung selbst im Lernatlas. Antworten aus diesem Arbeitsblatt werden nicht automatisch zu deiner Rückmeldung hinzugefügt.";
     const storageIntro = $('#work-view .section-heading p:not(.eyebrow)');
     if (storageIntro?.firstChild) storageIntro.firstChild.textContent = isMaterialOnly(topic)
@@ -1415,9 +1417,13 @@
         && state.answers[`${topic.tasks[1].id}-fortsetzung-gezeigt`] !== 'ja';
       appendText(section, 'h2', '', `${subjectById.get(topic.subjectId).name} · ${topic.title}`);
       appendText(section, 'p', 'print-level', levelLabel(topic));
-      if (isMaterialOnly(topic)) appendText(section, 'p', 'print-context', mode === 'adult'
-        ? 'Papier-/Praxisweg: Diese Übersicht ist keine Erwachsenenlösung. Die getrennten Erwachsenen-PDFs separat öffnen und drucken; die dort genannte Reihenfolge und Darbietungsgrenzen beachten. Keine automatische Leistungsmessung.'
-        : 'Papier-/Praxisweg: Diese Übersicht enthält nicht die verlinkten Arbeitsblätter. Öffne und drucke die Kinder-PDFs separat mit einer erwachsenen Person; verdeckte und spätere Blätter bleiben unter deren Kontrolle. Keine automatische Leistungsmessung.');
+      if (isMaterialOnly(topic)) {
+        const childPrintContext = typeof topic.practice?.childHandoutsPrintNote === 'string'
+          ? topic.practice.childHandoutsPrintNote.trim() : '';
+        appendText(section, 'p', 'print-context', mode === 'adult'
+          ? 'Papier-/Praxisweg: Diese Übersicht ist keine Erwachsenenlösung. Die getrennten Erwachsenen-PDFs separat öffnen und drucken; die dort genannte Reihenfolge und Darbietungsgrenzen beachten. Keine automatische Leistungsmessung.'
+          : (childPrintContext || 'Papier-/Praxisweg: Diese Übersicht enthält nicht die verlinkten Arbeitsblätter. Öffne und drucke die Kinder-PDFs separat mit einer erwachsenen Person; verdeckte und spätere Blätter bleiben unter deren Kontrolle. Keine automatische Leistungsmessung.'));
+      }
       if (mode === 'adult') appendAdultLanguageSupport(section, topic, true);
       if (mbiYearNote(topic)) appendText(section, 'p', 'print-context', mbiYearNote(topic));
       if (topic.prerequisite && !(topic.imageStory && mode === 'child')) appendText(section, 'p', 'print-context', topic.prerequisite);

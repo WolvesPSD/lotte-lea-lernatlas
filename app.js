@@ -179,6 +179,10 @@
     catch { const status = $('#storage-status'); if (status) status.textContent = 'Speichern ist in diesem Browser gerade nicht möglich.'; }
     refreshProgressIndicators();
   }
+  function isMaterialOnly(topic) {
+    return topic?.materialOnly === true && Array.isArray(topic.tasks) && topic.tasks.length === 0;
+  }
+
   function refreshProgressIndicators() {
     for (const section of document.querySelectorAll('.auto-check-card[data-topic-id]')) {
       const topic = topicById.get(section.dataset.topicId);
@@ -189,7 +193,7 @@
       if (!topic) continue;
       const answered = topic.tasks.filter(task => String(state.answers[task.id] || '').trim()).length;
       const progress = tab.querySelector('small');
-      if (progress) progress.textContent = topic.practiceBeforeLastTask
+      if (progress) progress.textContent = isMaterialOnly(topic) ? 'Papier-/Praxisweg' : topic.practiceBeforeLastTask
         ? `${answered} von ${topic.tasks.length} Notizfeldern · Praxis separat`
         : `${answered} von ${topic.tasks.length} beantwortet`;
     }
@@ -451,25 +455,29 @@
       const top = create('div', 'home-topic-top');
       appendText(top, 'span', 'home-subject-mark', subject.name.slice(0, 1));
       appendText(top, 'strong', '', subject.name);
-      appendText(top, 'span', 'home-topic-fraction', topic.practiceBeforeLastTask ? `${answered}/${topic.tasks.length} Notizen` : `${answered}/${topic.tasks.length}`);
+      appendText(top, 'span', 'home-topic-fraction', isMaterialOnly(topic) ? 'Papier-/Praxisweg' : topic.practiceBeforeLastTask ? `${answered}/${topic.tasks.length} Notizen` : `${answered}/${topic.tasks.length}`);
       card.append(top);
+      if (!isMaterialOnly(topic)) {
       const bar = create('div', 'home-topic-bar');
       bar.setAttribute('role', 'progressbar'); bar.setAttribute('aria-label', `${subject.name}: ${topic.practiceBeforeLastTask ? 'ausgefüllte Notizfelder; zusätzliche Praxis separat prüfen' : 'beantwortete Aufgaben'}`);
       bar.setAttribute('aria-valuenow', String(answered)); bar.setAttribute('aria-valuemin', '0'); bar.setAttribute('aria-valuemax', String(topic.tasks.length));
       const fill = create('span'); fill.style.width = `${Math.round(answered / topic.tasks.length * 100)}%`; bar.append(fill); card.append(bar);
+      }
       appendText(card, 'h3', '', topic.title);
       appendText(card, 'p', 'home-topic-level', levelLabel(topic));
-      appendText(card, 'p', 'home-topic-teaser', `${topic.practiceBeforeLastTask ? `${topic.tasks.length} Notizfelder und getrennte Praxis` : `${topic.tasks.length} Aufgabe${topic.tasks.length === 1 ? '' : 'n'}`} · ${topic.scope}`);
+      appendText(card, 'p', 'home-topic-teaser', `${isMaterialOnly(topic) ? 'Papiermaterial · keine automatische Leistungsmessung' : topic.practiceBeforeLastTask ? `${topic.tasks.length} Notizfelder und getrennte Praxis` : `${topic.tasks.length} Aufgabe${topic.tasks.length === 1 ? '' : 'n'}`} · ${topic.scope}`);
       card.append(button(answered ? 'Weiterlernen →' : 'Thema öffnen →', () => { state.active = topic.id; save(); show('work'); }, 'home-topic-open'));
       host.append(card);
     }
+    const hasPaperMaterial = selectedTopics.some(isMaterialOnly);
     const total = selectedTopics.reduce((sum, topic) => sum + topic.tasks.length, 0);
     const answeredTotal = selectedTopics.reduce((sum, topic) => sum + topic.tasks.filter(task => String(state.answers[task.id] || '').trim()).length, 0);
     $('#home-progress-count').textContent = total ? `${answeredTotal}/${total}` : '–';
-    $('#home-progress-ring').querySelector('span').textContent = total ? 'Aufgaben beantwortet' : 'Thema wählen';
+    $('#home-progress-ring').querySelector('span').textContent = total ? 'Aufgaben beantwortet' : hasPaperMaterial ? 'Papiermaterial' : 'Thema wählen';
     $('#home-progress-ring').style.setProperty('--progress', total ? `${Math.round(answeredTotal / total * 100)}%` : '0%');
     $('#home-progress-text').textContent = total
-      ? `${total - answeredTotal} Aufgabe${total - answeredTotal === 1 ? '' : 'n'} in deiner Auswahl noch offen. Die Zahl zählt nur Textfelder; offene Texte prüfst du mit den Kriterien.${selectedTopics.some(topic => topic.practiceBeforeLastTask) ? ' Eine getrennte Praxisleistung wird hier nicht als erledigt gezählt oder automatisch bewertet.' : ''}`
+      ? `${total - answeredTotal} Aufgabe${total - answeredTotal === 1 ? '' : 'n'} in deiner Auswahl noch offen. Die Zahl zählt nur Textfelder; offene Texte prüfst du mit den Kriterien.${selectedTopics.some(topic => topic.practiceBeforeLastTask) ? ' Eine getrennte Praxisleistung wird hier nicht als erledigt gezählt oder automatisch bewertet.' : ''}${hasPaperMaterial ? ' Zusätzlich ist Papiermaterial gewählt. Dessen Nutzung und Praxis werden nicht automatisch als Leistung gemessen.' : ''}`
+      : hasPaperMaterial ? 'Papiermaterial ist ausgewählt. Öffne den Papier-/Praxisweg. Keine automatische Leistungsmessung; die Auswahl belegt keine Durchführung.'
       : activeGymMode === 'gymnasium-6' && availableTopics.length === 0
         ? 'Sobald ein Klasse-6-Thema freigegeben ist, erscheint hier dein Lernstand.'
         : 'Wähle zuerst ein Thema. Danach siehst du hier deine beantworteten Aufgaben.';
@@ -507,9 +515,10 @@
       ? activeGymMode === 'gymnasium-6' && availableTopics.length === 0
         ? 'Noch kein Klasse-6-Thema freigegeben.'
         : 'Nach deiner Themenwahl erscheint hier eine Aufgabe aus deiner eigenen Auswahl.'
+      : isMaterialOnly(nextTopic) ? `${nextTopic.title}: Papiermaterial öffnen. Vorlesen und Praxis werden hier nicht als erledigt erfasst.`
       : nextTask
         ? `${subjectById.get(nextTopic.subjectId).name} · ${nextTopic.title}: ${nextTask.prompt}`
-        : `Alle gewählten Textfelder haben eine Antwort. Vergleiche offene Antworten mit den Kriterien oder wähle weitere Themen.${selectedTopics.some(topic => topic.practiceBeforeLastTask) ? ' Eine getrennte Praxisleistung ist dadurch noch nicht nachgewiesen.' : ''}`);
+        : `Alle gewählten Textfelder haben eine Antwort. Vergleiche offene Antworten mit den Kriterien oder wähle weitere Themen.${selectedTopics.some(topic => topic.practiceBeforeLastTask) ? ' Eine getrennte Praxisleistung ist dadurch noch nicht nachgewiesen.' : ''}${hasPaperMaterial ? ' Das zusätzlich gewählte Papiermaterial und seine Praxis sind damit nicht als durchgeführt nachgewiesen.' : ''}`);
     $('#home-next-button').textContent = selectedTopics.length ? 'Zum Lernen →' : 'Themen wählen →';
     $('#home-next-button').hidden = selectedTopics.length === 0;
     $('#home-next-button').classList.toggle('primary', false);
@@ -595,7 +604,7 @@
           appendText(body, 'strong', '', topic.title);
           appendText(body, 'span', 'level-tag', levelLabel(topic));
           appendText(body, 'span', 'topic-review-status', topic.released ? 'Intern geprüft' : 'Nur Prüfmodus · noch nicht freigegeben');
-          appendText(body, 'span', 'muted topic-short-reason', topic.scope);
+          appendText(body, 'span', 'muted topic-short-reason', isMaterialOnly(topic) ? `Papier-/Praxisweg · ${topic.scope}` : topic.scope);
           choice.append(body); card.append(choice);
           const detail = create('details', 'topic-card-details');
           appendText(detail, 'summary', '', 'Begründung und Voraussetzung');
@@ -634,7 +643,7 @@
       if (!topic) continue;
       const item = create('li', 'selected-route-item');
       appendText(item, 'strong', '', subjectById.get(topic.subjectId)?.name || topic.subjectId);
-      appendText(item, 'span', '', topic.title);
+      appendText(item, 'span', '', isMaterialOnly(topic) ? `${topic.title} · Papier-/Praxisweg` : topic.title);
       route.append(item);
     }
     for (const group of document.querySelectorAll('.subject-group')) {
@@ -695,7 +704,7 @@
       const answered = topic.tasks.filter(task => String(state.answers[task.id] || '').trim()).length;
       appendText(tab, 'strong', '', subjectById.get(topic.subjectId).name);
       appendText(tab, 'span', '', topic.title);
-      appendText(tab, 'small', '', topic.practiceBeforeLastTask
+      appendText(tab, 'small', '', isMaterialOnly(topic) ? 'Papier-/Praxisweg' : topic.practiceBeforeLastTask
         ? `${answered} von ${topic.tasks.length} Notizfeldern · Praxis separat`
         : `${answered} von ${topic.tasks.length} beantwortet`);
       tab.dataset.topicId = id;
@@ -706,12 +715,20 @@
     $('#switch-topic').textContent = `Thema wechseln · ${state.selected.length} Themen ausgewählt ▾`;
     tabs.classList.remove('open');
     const topic = topicById.get(state.active); const host = $('#work-content'); host.replaceChildren();
+    $('#print-current-child').textContent = isMaterialOnly(topic) ? 'Materialübersicht drucken' : "Dieses Arbeitsblatt drucken";
+    $('#work-actions > p').textContent = isMaterialOnly(topic)
+      ? 'Diese Übersicht ersetzt nicht die getrennten Papierkarten. Öffne diese im Erwachsenenbereich und drucke sie separat; verdeckte und spätere Blätter bleiben unter Kontrolle einer erwachsenen Person.'
+      : "Das Arbeitsblatt enthält keine Lösungen. Schreibe deine Rückmeldung selbst im Lernatlas. Antworten aus diesem Arbeitsblatt werden nicht automatisch zu deiner Rückmeldung hinzugefügt.";
+    const storageIntro = $('#work-view .section-heading p:not(.eyebrow)');
+    if (storageIntro?.firstChild) storageIntro.firstChild.textContent = isMaterialOnly(topic)
+      ? 'Dieser Papier-/Praxisweg speichert keine Antworten oder Durchführung. '
+      : 'Antworten werden in diesem Browser gespeichert. ';
     const intro = create('div', 'work-intro');
     appendText(intro, 'p', 'eyebrow', subjectById.get(topic.subjectId).name);
     appendText(intro, 'h2', '', topic.title);
     appendText(intro, 'p', 'level-tag', levelLabel(topic));
     if (mbiYearNote(topic)) appendText(intro, 'p', 'muted', mbiYearNote(topic));
-    if (topic.introduction.length + (topic.passage?.length || 0) > 550) {
+    if (!isMaterialOnly(topic) && topic.introduction.length + (topic.passage?.length || 0) > 550) {
       intro.append(button('Zu Aufgabe 1 ↓', () => {
         const heading = host.querySelector('.task-card h3');
         if (!heading) return;
@@ -1068,7 +1085,7 @@
     }
     if (topic.practice && !topic.practiceBeforeLastTask) host.append(renderPractice(topic, false));
     if (topic.autoCheck) host.append(renderAutoCheck(topic));
-    const storage = appendText(host, 'p', 'privacy-note', 'Deine Antworten werden in diesem Browser gespeichert. Eine private Sicherungsdatei kannst du selbst herunterladen.'); storage.id = 'storage-status';
+    const storage = appendText(host, 'p', 'privacy-note', isMaterialOnly(topic) ? 'Hier wird nur deine Themenauswahl gespeichert. Papierantworten, Vorlesen und Gespräche werden nicht gespeichert oder automatisch als erledigt markiert. Die verlinkten PDFs öffnest und druckst du getrennt.' : 'Deine Antworten werden in diesem Browser gespeichert. Eine private Sicherungsdatei kannst du selbst herunterladen.'); storage.id = 'storage-status';
   }
   function renderAutoCheck(topic) {
     const check = topic.autoCheck;
@@ -1239,6 +1256,9 @@
   }
 
   function renderAdult() {
+    const paperSelectionOnly = state.selected.length > 0 && state.selected.every(id => isMaterialOnly(topicById.get(id)));
+    $('#print-adult').textContent = paperSelectionOnly ? 'Materialübersicht für Erwachsene drucken' : 'Lösungsblatt drucken';
+    $('#print-children').textContent = paperSelectionOnly ? 'Materialübersicht für Kinder drucken' : 'Kinder-Arbeitsblatt drucken';
     renderSources();
     const host = $('#adult-content'); host.replaceChildren();
     if (state.selected.length === 0) { appendText(host, 'p', 'empty-state', 'Noch keine Themen gewählt.'); return; }
@@ -1370,14 +1390,17 @@
     ids = ids.filter(id => topicById.has(id));
     if (ids.length === 0) { show('choose'); return; }
     const page = $('#print-surface'); page.replaceChildren();
-    const manualBookOnly = ids.every(id => topicById.get(id)?.tasks.every(task => task.manualBookReview));
-    const unscoredNotesOnly = ids.every(id => topicById.get(id)?.tasks.every(task => task.unscoredNote));
+    const materialOnly = ids.every(id => isMaterialOnly(topicById.get(id)));
+    const hasPaperMaterial = ids.some(id => isMaterialOnly(topicById.get(id)));
+    const manualBookOnly = !hasPaperMaterial && ids.every(id => topicById.get(id)?.tasks.every(task => task.manualBookReview));
+    const unscoredNotesOnly = !hasPaperMaterial && ids.every(id => topicById.get(id)?.tasks.every(task => task.unscoredNote));
     appendText(page, 'p', 'print-kicker', preview ? 'Lotte & Lea · Prüfmodus: kann ungeprüfte Aufgaben enthalten' : 'Lotte & Lea · Lernmaterial mit Quellenstand im Themenkatalog');
-    appendText(page, 'h1', '', mode === 'child' ? 'Arbeitsblatt' : unscoredNotesOnly ? 'Hinweisblatt für Erwachsene' : manualBookOnly ? 'Prüfblatt für Erwachsene' : 'Lösungsblatt für Erwachsene');
-    appendText(page, 'p', '', mode === 'child' ? 'Name: ____________________   Datum: __________' : unscoredNotesOnly ? 'Die Notizen und der getrennte Praxisbogen sind unbewertet. Nur eine tatsächlich beobachtete Handlung kann fachlich beurteilt werden.' : manualBookOnly ? 'Die Heidi-Beispiele zeigen die Methode. Inhaltliche Antworten nur mit dem tatsächlich gewählten Buch und derselben Ausgabe prüfen.' : 'Diese Musterlösungen erklären die Schritte. Offene Antworten brauchen eine persönliche Prüfung.');
+    appendText(page, 'h1', '', materialOnly ? (mode === 'child' ? 'Materialübersicht' : 'Materialübersicht für Erwachsene') : mode === 'child' ? 'Arbeitsblatt' : unscoredNotesOnly ? 'Hinweisblatt für Erwachsene' : manualBookOnly ? 'Prüfblatt für Erwachsene' : 'Lösungsblatt für Erwachsene');
+    appendText(page, 'p', '', materialOnly ? 'Diese Ausgabe ist nur eine Materialübersicht. Die verlinkten PDF-Blätter separat öffnen und drucken. Die Übersicht ersetzt keine tatsächliche Bearbeitung oder Beobachtung.' : mode === 'child' ? 'Name: ____________________   Datum: __________' : unscoredNotesOnly ? 'Die Notizen und der getrennte Praxisbogen sind unbewertet. Nur eine tatsächlich beobachtete Handlung kann fachlich beurteilt werden.' : manualBookOnly ? 'Die Heidi-Beispiele zeigen die Methode. Inhaltliche Antworten nur mit dem tatsächlich gewählten Buch und derselben Ausgabe prüfen.' : 'Diese Musterlösungen erklären die Schritte. Offene Antworten brauchen eine persönliche Prüfung.');
     if (mode === 'child') appendText(page, 'p', 'print-feedback-note', 'Wenn du der App etwas rückmelden möchtest, schreibe die Rückmeldung selbst im Lernatlas. Antworten aus diesem Arbeitsblatt werden nicht automatisch zu deiner Rückmeldung hinzugefügt.');
     for (const id of ids) {
       const topic = topicById.get(id); const section = create('section', 'print-topic');
+      if (mode === 'adult' && topic.id === 'de-appellrede-papier' && isMaterialOnly(topic)) section.classList.add('print-appell-overview-adult');
       const hideChildUpdate = mode === 'child' && topic.stagedUpdate?.childPrintAfterUnlock === true
         && state.answers[stagedUpdateMarker(topic)] !== 'ja';
       const hideChildFirstGate = mode === 'child' && topic.firstTaskGate
@@ -1392,6 +1415,9 @@
         && state.answers[`${topic.tasks[1].id}-fortsetzung-gezeigt`] !== 'ja';
       appendText(section, 'h2', '', `${subjectById.get(topic.subjectId).name} · ${topic.title}`);
       appendText(section, 'p', 'print-level', levelLabel(topic));
+      if (isMaterialOnly(topic)) appendText(section, 'p', 'print-context', mode === 'adult'
+        ? 'Papier-/Praxisweg: Diese Übersicht ist keine Erwachsenenlösung. Die getrennten Erwachsenen-PDFs separat öffnen und drucken; die dort genannte Reihenfolge und Darbietungsgrenzen beachten. Keine automatische Leistungsmessung.'
+        : 'Papier-/Praxisweg: Diese Übersicht enthält nicht die verlinkten Arbeitsblätter. Öffne und drucke die Kinder-PDFs separat mit einer erwachsenen Person; verdeckte und spätere Blätter bleiben unter deren Kontrolle. Keine automatische Leistungsmessung.');
       if (mode === 'adult') appendAdultLanguageSupport(section, topic, true);
       if (mbiYearNote(topic)) appendText(section, 'p', 'print-context', mbiYearNote(topic));
       if (topic.prerequisite && !(topic.imageStory && mode === 'child')) appendText(section, 'p', 'print-context', topic.prerequisite);
@@ -1631,7 +1657,7 @@
       }
       page.append(section);
     }
-    document.body.dataset.printMode = `${mode === 'adult' && unscoredNotesOnly ? 'adult-note' : mode}-${preview ? 'preview' : 'release'}`;
+    document.body.dataset.printMode = materialOnly ? `material-${preview ? 'preview' : 'release'}` : `${mode === 'adult' && unscoredNotesOnly ? 'adult-note' : mode}-${preview ? 'preview' : 'release'}`;
     window.print();
   }
   $('#print-children').addEventListener('click', () => preparePrint('child'));

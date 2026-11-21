@@ -1,39 +1,47 @@
 {
-  "builtAt": "2026-11-21T03:56:46.365Z",
-  "releaseVersion": "2026.11.21-enhoeren.1",
+  "builtAt": "2026-11-21T04:44:59.320Z",
+  "releaseVersion": "2026.11.21-appell.1",
   "status": "VERIFIED_SCOPED_LOCAL_PREPUBLICATION_CHECKPOINT",
-  "rollbackCommit": "2b0ad638d01ba0662e44c3e94ffaca0115a59171",
-  "baselineRelease": "2026.11.20-lernwege.1",
-  "topics": 217,
+  "rollbackCommit": "5d4de56de62b64d622fe60fec4ca32cebedb573a",
+  "baselineRelease": "2026.11.21-enhoeren.1",
+  "topics": 218,
   "answerFields": 1019,
   "oldAnswerFieldsPreserved": 1019,
-  "newTopicIds": [],
+  "newTopicIds": [
+    "de-appellrede-papier"
+  ],
   "newTaskIds": [],
   "changeLog": [
-    "EN-H: nur introduction und practice des bestehenden Themas en-library-update-audio aus dem separat geprüften lokalen Stand übernommen.",
-    "Unbepunktete freiwillige Vorabvermutung ohne Hörsperre; bekanntes Material als Rückblick.",
-    "Freiwillige Entwicklungseinschätzung nur mit tatsächlicher passender Vergleichsbasis, sonst jetziges Verstehen; keine neuen Antwortfelder, Tests oder Pflichtportfolios.",
-    "216 andere Themen, alle1019 Aufgaben, bestehende Punkte/Audio/Transkripte und übrige Metadaten unverändert."
+    "Ein freiwilliger Ende8-Appell-Papierzugang mit getrennten Kinder-/Erwachsenen-PDFs; keine Klasse7-Pflichtbehauptung.",
+    "Material-only-Darstellung ohne Antwortfelder, Punkte oder Erledigtmarker; Auswahl ist keine Redeleistung.",
+    "217 bisherige Themen und1019 Taskobjekte unverändert; kein Gesamtimport des lokalen Katalogs/Renderers."
   ],
   "compatibility": {
-    "oldBackupForward": "Gezielt tatsächlich geprüft: Fünf synthetische Antworten in der bisherigen öffentlichen 217-Themen-Fassung eingegeben und exportiert; Import in einen frischen Kandidaten mit Neuladen erhielt alle fünf exakten Antworten. Kein Nachweis aller denkbaren Altsicherungen oder 1019 ausgefüllter Eingaben.",
-    "progress": "Fünf bestehende Aufgaben mit 20 Punkten unverändert. Freiwilliger Rückblick nach Aufgabe5 ohne neue Eingaben, Schaltflächen oder Erledigtmarker; keine neuen speicherbaren Antwort-IDs.",
-    "candidateRoundTrip": "Tatsächlicher Kandidatenexport wurde in einen weiteren frischen Kandidaten importiert; Neuladen erhielt Antworten und Auswahlzustand. Gezielter Abbruch und ungültiger Zusatzschlüssel wurden mit explizitem Status und unverändertem gespeicherten Stand geprüft.",
-    "oldReleaseReverse": "Eine tatsächliche Rückwärtsprüfung in die alte Fassung wurde nicht durchgeführt und wird nicht behauptet."
+    "oldBackupForward": "Tatsächlich gezielt geprüft: Antwort in der alten217-Baseline eingegeben/exportiert und in frischen218-Kandidaten importiert; Neuladen erhielt den exakten Stand. Keine Prüfung aller möglichen alten Sicherungen oder1019 ausgefüllter Eingaben.",
+    "materialRoundTrip": "Reine Materialauswahl tatsächlich exportiert, in frischen Kandidaten importiert und neu geladen: selected/active und leere answers exakt. Gemischter Export mit fünf normalen Antworten und bestehendem Stufenmarker ebenfalls exakt wiederhergestellt; Appell erzeugt keinen Antwortschlüssel.",
+    "cancelInvalid": "Bestätigungsabbruch und ungültiger Appell-Erledigtmarker mit expliziten Statusmeldungen und byteidentischem gespeichertem Vorher-/Nachherstand geprüft.",
+    "oldReleaseReverse": "Tatsächlich geprüft: Die neue reine Appell-Auswahlsicherung wird von der alten217-Fassung als unbekanntes Thema abgelehnt. Keine Rückwärtskompatibilität behauptet oder Daten still entfernt; Originaldatei aufbewahren.",
+    "state": "Keine neuen Antwort-/Marker-/Storageformate. Auswahl/active sind keine Papier- oder Redeleistung."
   },
   "validation": {
-    "static": "Unabhängige begrenzte Daten-/Datei-/Allowlistprüfung bestanden: genau zwei Felder am bestehenden Hörthema, drei erlaubte Dateideltas gegenüber der Ausgangsfassung, 217 Themen und alle1019 bestehenden Taskobjekte/Antwort-IDs erhalten. Keine vollständige semantische oder interaktive Prüfung aller Themen.",
-    "runtime": "Tatsächlicher isolierter Kandidatenlauf bei320/390/1280Breite bestanden: neutrale Vorabvermutung ohne Pflichtfeld/Hörsperre, fünf Aufgaben mit20Punkten, freiwilliger Rückblick nach Aufgabe5 ohne neue Inputs, Rollen-/Darstellungs- und gezielte Sicherungsgates. NativeAudio blieb passiv bei currentTime0/paused, ohne Play-, Trial- oder Seekaktion. Hauptlauf und gezielter Importstatus-Nachcheck endeten jeweils mit tatsächlich erfasstem Exit0.",
-    "print": "Sechs tatsächlich erzeugte Druckseiten (Kind2/Adult4) mit beiden Textlesern geprüft; alle neuen Texteinheiten exakt (Kind5/Adult6), alle sechs Seiten persönlich gesehen.11824 sichtbare Glyphen ohne Randfehler; keine beobachtete Abschneidung/Überlagerung oder Kindlösungs-/Transkriptleckage. A4 mit dokumentierter Chromium-Rundungstoleranz, keine separate Breiten-Pixelgleichheit behauptet. Druckaudit endete mit tatsächlichem Exit0.",
-    "remote": "NOT_PUBLISHED: keine Git-/Remote-/Public-Pinänderung, keine Pages- oder ausgelieferte HTTPS-Prüfung durch diesen lokalen Prüfstand.",
-    "independentFinal": "Begrenzter unabhängiger Datenreview und tatsächlicher Kandidaten-UI-/Druck-/Sicherungsreview bestanden. Diese ausschliessliche Metadaten-Endfassung wartet noch auf ihren eigenen engen unabhängigen Deltareview."
+    "static": "Unabhängiger begrenzter Port-/Daten-/Privacyreview bestanden:110Dateien, fünf erlaubte Änderungen und zwei geprüfte PDFs;217Alt-Topics/1019Tasks/Globals exakt.25JS-Ersetzungen und CSS vollständig umkehrbar, State-/Backupcode und bestehende Handoutlogik erhalten.",
+    "runtime": "Belegte Teilgatekette am isolierten Kandidaten bei320/390/1280: Ende8-/All-Filter erlauben Appell, normaler Klasse7-Standardfilter und Klasse6 schliessen es aus; keine Inputs/0/0/NaN/Erledigtbehauptung. Reine/gemischte Papierauswahl,1Kinder-/1Adult-PDFöffnung und gezielte Sicherungsgates geprüft. M3/M11 sowie ES6 im richtigen Klasse6-Kontext gezielt geprüft. Kein zusammengesetzter Gesamtprozess-Exit0: frühere Harnessabbrüche und separate Teilläufe bleiben qualifiziert.",
+    "print": "Elf erzeugte Übersichtsseiten (SingleKind1/SingleAdult1/MischKind3/MischAdult6) mit dualen Lesern und tatsächlicher Sicht aller11Seiten geprüft;23048Glyphen ohne Randfehler, A4 innerhalb dokumentierter Chromiumtoleranz. Rollen/Punkte-/Papiergrenzen erhalten. Öffentliche/lokale Texte sind nicht global byte-/pixelgleich; eng dokumentierte Label-/Vorschau-/Normalphasenhinweise bleiben unterschieden. Druckaudit tatsächlicher Exit0.",
+    "observability": "Ein späterer eigenständiger kurzer Smoke mit tatsächlichem Exit0 erfasste neun Ansichten:0ConsoleErrors/0Warnings/0Pageerrors,7file:-Requests,0fehlgeschlageneRequests/0externeVersuche. Nur diese neun Ansichten; kein Replay früherer Druck-/Backup-/PDFgates und keine nachträgliche Gesamt-Nullfehlerbehauptung für die früheren Teilläufe.",
+    "processQualification": "Funktionale Teilgatekette enthält dokumentierte Harnessabbrüche; letzter ES6-Teillauf und Druckaudit haben eigene tatsächliche Exit0. Der spätere9Ansichten-Observabilitylauf hat separat tatsächlichen Exit0. Autor-NodeExit0 ist vom unbeobachteten regulären Wrapperexit und dessen Ctrl-C-Cleanup1 getrennt.",
+    "remote": "NOT_PUBLISHED: dieser lokale Prüfstand enthält keine Git-/Remote-/Pinänderung, Pages- oder ausgelieferte HTTPS-Abnahme.",
+    "independentFinal": "Begrenzter unabhängiger statischer Review, funktionale Teilgatekette und späterer Observability-Smoke liegen vor. Nur diese Metadaten-Endfassung wartet noch auf ihren unabhängigen engen Deltareview.",
+    "evidenceHashes": {
+      "staticReview": "30D98ED6CF50EA7E58D6F0AD0C7D68197FF8D4BB544FBAD8697F72D0036CF23F",
+      "runtimePartGateReview": "2D042418C7D924C6D12EE9609FA60F3AAB5C27D7B5CBB9C8ED0111356132D4FA",
+      "observabilityAddendum": "BF229BE6664CF9FA7990E902F4CDE2A579D97A1358911FAE0CCF3841CAE81362"
+    }
   },
   "limits": [
-    "Ende8/freiwilliger gestützter Klasse7-Einstieg, konkrete Schulfolge unbekannt.",
-    "Keine Kinder-/Hörentwicklungs-/Jahresabnahme.",
-    "Audioqualität benötigt weiterhin tatsächliches englischkundiges Anhören; technische Wiedergabe ersetzt dies nicht.",
-    "Papierhinweise/Rollenanzeige sind keine Zugriffssperre; tatsächliche Hilfen/Phasen offen.",
-    "Lokale Vorgängerprüfungen sind Eingänge, kein Beweis für diesen älteren öffentlichen Renderer."
+    "Ende8/freiwilliger gestützter Klasse7-Einstieg; konkrete Schulfolge unbekannt.",
+    "8schriftliche/12nur bei gehörter Rede und freiwillige3+3 nur auf getrennten Papierkriterien; keine App-Materialpunkte und keine20/26Summe ohne Rede.",
+    "Keine tatsächliche Kinderrede, externe Fach-/Alters-, Selbstständigkeits-, Klassen7- oder Jahresabnahme.",
+    "Linkrollen sind keine technische Zugriffssperre."
   ],
-  "verificationScope": "Begrenzter lokaler Vorveröffentlichungsprüfstand. Gezielte reale Kandidaten-UI-/Druck-/Sicherungsgates sind belegt; keine Interaktionsabnahme aller217Themen/1019Eingaben, keine echte Kinder-/Hörqualitäts-/Hörentwicklungs-/Jahresabnahme und keine Veröffentlichung oder HTTPS-Auslieferungsbehauptung."
+  "verificationScope": "Begrenzt geprüfter lokaler Vorveröffentlichungskandidat: konkrete Teilgates und späterer separater Observability-Smoke, kein globaler Gesamtprozess-Exit0. Keine vollständige218Topic-/1019Input-Interaktion, tatsächliche Kinderrede, externe Fach-/Alters-/Jahresabnahme oder Veröffentlichung/HTTPS-Auslieferungsbehauptung."
 }

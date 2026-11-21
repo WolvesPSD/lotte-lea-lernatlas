@@ -379,3 +379,20 @@ body[data-view=work] .release-version{margin:0 0 1rem;text-align:left}
 @media print {
 body[data-print-mode^="child"] #print-surface .print-topic:has(.print-task[data-task-id="ma-lineare-funktionen-1"]) .print-practice{break-before:page}
 }
+
+/* Dedicated running header for an all-material overview; task sheets keep existing modes. */
+@media print{
+  body[data-print-mode=material-preview] #print-surface{page:material-preview-sheet}
+  body[data-print-mode=material-release] #print-surface{page:material-release-sheet}
+}
+@page material-preview-sheet{
+  @top-left{content:"Lotte & Lea · Prüfmodus: kann ungeprüfte Aufgaben enthalten · Materialübersicht";font:8pt Arial,sans-serif;color:#555}
+  @top-right{content:"Seite " counter(page) " von " counter(pages);font:8pt Arial,sans-serif;color:#555}
+}
+@page material-release-sheet{
+  @top-left{content:"Lotte & Lea · Materialübersicht";font:8pt Arial,sans-serif;color:#555}
+  @top-right{content:"Seite " counter(page) " von " counter(pages);font:8pt Arial,sans-serif;color:#555}
+}
+
+/* Appell adult overview: match the existing 10pt adult print, including material-only mode. */
+@media print { #print-surface .print-topic.print-appell-overview-adult { font-size:10pt; } }

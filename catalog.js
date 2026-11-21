@@ -23357,6 +23357,61 @@ window.LOTTE_CATALOG=Object.freeze({
         "competencyRef": "§2.2.1–2.2.2, Ende Klasse 8: Quelle/Darstellung, begründetes Urteil, liberale/nationale Bewegung.",
         "checkedAt": "2026-11-17"
       }
+    },
+    {
+      "id": "de-appellrede-papier",
+      "subjectId": "de",
+      "title": "Eine Position mündlich vertreten - Papiermaterial",
+      "released": true,
+      "levelStatus": "grade8-outlook",
+      "materialOnly": true,
+      "scope": "Freiwilliger Einstieg in ein Sprechziel bis Ende Klasse 8: eine eigene Position begründen und einen Appell formulieren. Der Deutschlehrplan gilt für Klasse 7 ab 2026/27; die konkrete Unterrichtsfolge ist unbekannt. Dieser Papierweg ist keine bestätigte Klasse-7-Pflicht oder bereits gehörte Rede.",
+      "prerequisite": "Für den Redeplan brauchst du die Kinderkarte und ein eigenes Blatt oder den vorgesehenen Schreibraum. Wenn du vortragen möchtest, brauchst du eine freiwillig zuhörende Person. Ohne Vortrag bleibt der mündliche Anteil nicht erhoben.",
+      "introduction": "Du nutzt hier getrennte PDF-Unterlagen zum vorhandenen Appellfall. Es gibt keine Antwortfelder und keine automatische Fortschritts- oder Sprechbewertung. Die Kinderkarte enthält die eigene Sachkarte; Muster und Beobachtungsbogen bleiben getrennt bei der erwachsenen Person. Die Auswahl oder das Öffnen einer Datei beweist keine Bearbeitung oder Rede.",
+      "tasks": [],
+      "practice": {
+        "title": "Kinderkarte öffnen, Redeplan notieren, freiwillig vortragen",
+        "unscored": true,
+        "childNote": "Die Kinderkarte hat ihre eigene Sachkarte und eigene Kriterien. Andere Sprechaufgaben musst du dafür nicht vorher abschliessen. Du brauchst keine Aufnahme und keine echten Angaben über deine Schule.",
+        "childSteps": [
+          "Öffne die Kinderkarte und nutze ihren Schreibraum oder ein eigenes Blatt für deinen Stichwortplan.",
+          "Wenn du vortragen möchtest, sprich mit deinem Plan vor einer freiwillig zuhörenden Person. Ohne Vortrag bleibt der mündliche Teil nicht erhoben.",
+          "Nach einem Vortrag kannst du den Rückblick der Kinderkarte nutzen. Die freiwillige Variante und ihre schriftlichen und mündlichen Anteile bleiben getrennt."
+        ],
+        "childHandoutsNote": "Nur die Kinderkarte öffnen und separat drucken. Sie enthält keine Musterrede. Die App bewertet weder deinen Plan noch einen Vortrag.",
+        "childHandoutsPrintNote": "Die Kinderkarte als eigene PDF separat öffnen und drucken. Diese Übersicht ersetzt weder den Redeplan noch eine tatsächlich gehörte Rede.",
+        "childHandouts": [
+          {
+            "label": "Kinderkarte zur Appellrede öffnen und drucken",
+            "path": "assets/de-appellrede-papier/01-kinderkarte.pdf"
+          }
+        ],
+        "adultNote": "Die getrennte Erwachsenen-PDF enthält offene Pro-/Contra-Modelle, Rubrik, Fehlerfeedback und den leeren Beobachtungsbogen. 8 schriftliche Vorbereitungspunkte und 12 Punkte nur bei tatsächlich gehörter Rede getrennt betrachten; die freiwillige Variante hat 3 schriftliche und 3 mündliche Punkte. Keine gehörte Rede aus einem Redeplan oder Dateiabruf ableiten.",
+        "adultGuide": [
+          "Nur die tatsächlich bearbeitete Vorbereitung und eine wirklich gehörte freiwillige Rede anhand der passenden PDF-Kriterien besprechen. Hilfen und fehlende Gelegenheit kenntlich machen; nicht erhoben ist keine Nullwertung.",
+          "Keine Gesamtpunktzahl 20 oder 26 ausweisen, wenn ein Vortragsteil nicht gehört wurde. Die Materialübersicht vergibt selbst keine Punkte oder Schulnote und markiert keine Leistung als fertig."
+        ],
+        "adultCriteria": [
+          "Kinderkarte und Erwachsenenlösung mit Beobachtungsbogen getrennt verwendet; keine Musterrede als Kinderantwort ausgegeben.",
+          "Vorbereitung, tatsächlich gehörter Vortrag und optionale Variante mit den getrennten Papierkriterien betrachtet.",
+          "Ohne tatsächlichen Vortrag die mündlichen Kriterien nicht erhoben gelassen; keine automatische Gesamtwertung abgeleitet."
+        ],
+        "handoutsNote": "Nur für Erwachsene: Diese PDF enthält die möglichen Lösungen und den leeren Beobachtungsbogen. Die Kinderkarte bleibt eine separate Datei. Die Linktrennung ist keine technische Zugriffssperre.",
+        "handouts": [
+          {
+            "label": "Nur Erwachsene: Lösung und Beobachtungsbogen öffnen",
+            "path": "assets/de-appellrede-papier/02-erwachsenenloesung-beobachtung.pdf"
+          }
+        ],
+        "printAdultHandoutsNote": "Dies ist nur eine Materialübersicht. Die getrennte Erwachsenen-PDF im Lernatlas separat öffnen und drucken: Sie enthält mögliche Musterreden, die Rubrik und den leeren Beobachtungsbogen. Die Kinderkarte ist eine eigene PDF. Ohne gehörte Rede bleibt der mündliche Teil nicht erhoben."
+      },
+      "releaseEvidence": {
+        "primaryLocalPdf": "pdf/LP_Deutsch_GY_Erprobung_2026-08-13.pdf",
+        "primarySha256": "E2F2944051ED349BC1C5C86D2AC922D551E0D1D059833B15338462FA3ACF44F2",
+        "competencyRef": "§2.2.3/PDF28, S13 argumentieren/begründen/appellieren als Ende-8-Ziel innerhalb7/8; Plan Klasse7 ab2026/27, Schulfolge unbekannt.",
+        "checkedAt": "2026-11-21",
+        "reviewNote": "21.11.2026: Vorhandene unabhängige Manuskript-/Papierprüfung und lokale Zugangsprüfung als Herkunft. Freiwilliger Materialzugang zum Ende-8-Ziel, keine bestätigte Klasse-7-Pflicht. Die tatsächliche Rede, Kinderleistung, externe Fach-/Altersprüfung, konkrete Schulfolge und Jahresabnahme bleiben offen. Der isolierte öffentliche Renderer-Kandidat wird noch separat geprüft; diese Kennzeichnung ist keine bereits erfolgte Onlinefreigabe."
+      }
     }
   ]
 });

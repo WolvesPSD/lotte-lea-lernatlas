@@ -120,7 +120,7 @@ window.LOTTE_CATALOG=Object.freeze({
       "levelStatus": "grade78-flex",
       "released": true,
       "prerequisite": "Bevor du die Aufnahme zum ersten Mal abspielst, hört eine englischkundige erwachsene Person den Ton und gleicht die wichtigen Angaben mit der getrennten Lösung ab. Unklare Stellen werden nicht bewertet; dann gibt es keine volle 20-Punkte-Summe. Beginne ohne Wortliste. Eine unklare Wendung darfst du vor dem zweiten Hören erfragen oder nachschlagen; notiere die Hilfe. Pausen und ein dritter Hörgang sind erlaubt. Antworte auf Deutsch oder in verständlichem Englisch.",
-      "introduction": "Eine fiktive Person spricht eine kurze englische Mitteilung. Hör zuerst ganz zu und beantworte erst danach die Fragen. Beim zweiten Hören kannst du Notizen machen. Lies das Transkript in der Erwachsenenlösung erst nach deiner eigenen Hörbearbeitung. Wenn kein Ton verfügbar ist, ist dies höchstens eine Leseübung, kein Nachweis für Hörverstehen.",
+      "introduction": "Vor dem ersten Hören: Vermute in einem Satz, worum eine kurze englische Mitteilung gehen könnte. Die Vermutung wird nicht bewertet. Wenn dir nichts einfällt, kannst du die Aufnahme trotzdem anhören. Wenn du den Ton oder das Skript schon kennst, ist dies ein Rückblick und keine erste Vermutung. Eine fiktive Person spricht eine kurze englische Mitteilung. Hör zuerst ganz zu und beantworte erst danach die Fragen. Beim zweiten Hören kannst du Notizen machen. Lies das Transkript in der Erwachsenenlösung erst nach deiner eigenen Hörbearbeitung. Wenn kein Ton verfügbar ist, ist dies höchstens eine Leseübung, kein Nachweis für Hörverstehen.",
       "audio": {
         "path": "assets/en-library-update-chatterbox-slow.wav",
         "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/en-library-update-chatterbox-slow.wav",
@@ -207,6 +207,21 @@ window.LOTTE_CATALOG=Object.freeze({
         "gradeBand": "7/8",
         "competencyRef": "Erste Fremdsprache § 2.2.1, PDF-S. 25–26: globales, selektives und genaueres Hörverstehen zu vertrauten Themen; Inkraftsetzung für Klasse 7 ab 2026/27 auf PDF-S. 2. Ziele bis Ende Klasse 8.",
         "checkedAt": "2026-10-25"
+      },
+      "practice": {
+        "title": "Freiwilliger Rückblick aufs Hören",
+        "unscored": true,
+        "childNote": "Nach einer tatsächlichen Hörbearbeitung kannst du mündlich oder auf eigenem Papier zurückblicken. Keine Zusatzpunkte, keine Aufnahme und keine privaten Erlebnisse nötig.",
+        "childSteps": [
+          "Was verstehst du jetzt sicher, und wo bist du noch unsicher? Nenne, wenn möglich, eine konkrete Stelle aus deinem Hören und die dabei genutzte Hilfe.",
+          "Wenn du eine passende Vergleichserfahrung hast: Was hat sich beim Verstehen verändert oder ist gleich geblieben? Nutze zum Beispiel deine vorhandenen Hörnotizen. Du brauchst keinen zweiten Test und musst keine Verbesserung behaupten. Ohne passende Vergleichsbasis bleibt deine Entwicklung offen; du kannst dich auf dein jetziges Verstehen beschränken."
+        ],
+        "adultNote": "Dieser freiwillige Rückblick ersetzt weder den vorherigen englischkundigen Tonabgleich noch eine Hörabnahme. Er vergibt keine zusätzlichen Punkte und wird nicht automatisch als erledigt gewertet. Eigene Einschätzung und tatsächliche Beobachtung getrennt halten.",
+        "adultCriteria": [
+          "Eine eigene Einschätzung darf sich auf tatsächlich gehörte Stellen und genutzte Hilfen stützen. Bei Bedarf mit offenen Fragen unterstützen; keine erwartete Verbesserung oder Erwachsenenwertung vorsagen.",
+          "Ein Vergleich ist nur bei passender eigener Erfahrung möglich. Unverändertes Verstehen, Unsicherheit oder fehlende Vergleichsbasis sind zulässig. Keine festen Termine, zwei gleich bepunkteten Tests oder ein Pflichtportfolio verlangen.",
+          "Ohne Hörgelegenheit bleibt eine Hörentwicklung nicht erhoben. Unklarer Ton und angebotene Hilfen sind Bedingungen, keine persönlichen Fehler. Vorbereitete Antworten, eigener Wissensgebrauch und überwiegende Selbstständigkeit sind damit nicht automatisch nachgewiesen."
+        ]
       }
     },
     {

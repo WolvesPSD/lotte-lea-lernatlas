@@ -1,40 +1,39 @@
 {
-  "builtAt": "2026-11-20T22:06:14.731Z",
-  "releaseVersion": "2026.11.20-lernwege.1",
-  "status": "VERIFIED_LOCAL_PREPUBLICATION_CHECKPOINT",
-  "rollbackCommit": "e3f90df09f065a54faa7907a3fb0b53f8fdcb4bc",
-  "baselineRelease": "2026.11.18-lernwege.1",
+  "builtAt": "2026-11-21T03:56:46.365Z",
+  "releaseVersion": "2026.11.21-enhoeren.1",
+  "status": "VERIFIED_SCOPED_LOCAL_PREPUBLICATION_CHECKPOINT",
+  "rollbackCommit": "2b0ad638d01ba0662e44c3e94ffaca0115a59171",
+  "baselineRelease": "2026.11.20-lernwege.1",
   "topics": 217,
   "answerFields": 1019,
-  "oldAnswerFieldsPreserved": 1018,
+  "oldAnswerFieldsPreserved": 1019,
   "newTopicIds": [],
-  "newTaskIds": [
-    "ma-experimentierkaesten-begriffe-notiz"
-  ],
+  "newTaskIds": [],
   "changeLog": [
-    "M11: freiwillige Funktionserklärung und Differenzenquotient am bestehenden Tarif, Zielhorizont Ende8.",
-    "M3: unbewertete Begriffserklärung als zusätzliches speicherbares0P-Notizfeld sowie unabhängiger freiwilliger Überschlag am bestehenden Preisfall.",
-    "ES6: zwei unabhängige freiwillige Papierwege Abschreiben und Rückblick mit getrennten Kinder-/Erwachsenen-PDFs; eigene Arbeit und tatsächliche Prüfung bleiben manuelle Verwendungsbedingungen.",
-    "Bestehende214andereThemen und alle1018altenAufgaben unverändert; vorhandeneScopes/Schulmodi/Punkte erhalten."
+    "EN-H: nur introduction und practice des bestehenden Themas en-library-update-audio aus dem separat geprüften lokalen Stand übernommen.",
+    "Unbepunktete freiwillige Vorabvermutung ohne Hörsperre; bekanntes Material als Rückblick.",
+    "Freiwillige Entwicklungseinschätzung nur mit tatsächlicher passender Vergleichsbasis, sonst jetziges Verstehen; keine neuen Antwortfelder, Tests oder Pflichtportfolios.",
+    "216 andere Themen, alle1019 Aufgaben, bestehende Punkte/Audio/Transkripte und übrige Metadaten unverändert."
   ],
   "compatibility": {
-    "oldBackupForward": "Gezielt verifiziert: Die bisherige öffentliche Fassung exportiert sechs synthetische M3-Antworten; der neue Stand importiert sie mit unveränderten Werten und leerem zusätzlichem Notizfeld und erhält sie nach Neuladen. Zusätzlich wurden vollständige und teilweise Sicherungen mit neuer Notiz sowie getrennte ES6-Sicherungen exportiert, frisch importiert und nach Neuladen geprüft. Kein allgemeiner Nachweis jeder denkbaren Altsicherung.",
-    "progress": "M3 hat sieben statt sechs Textfelder; die zusätzliche Begriffsnotiz bleibt bei null Punkten und erzeugt keine Freischaltung oder automatische Leistungswertung. Die allgemeine Textfeldzählung folgt aus dem geprüften Renderer; der genaue 6/7-Anzeigetext wurde nicht gesondert im Browser geprüft.",
-    "oldReleaseReverse": "Sicherung mit neuerNotizantwort wird von alterVersion als unbekannterSchlüssel abgelehnt; aktuelleSicherung aufbewahren, keineAntwort entfernen."
+    "oldBackupForward": "Gezielt tatsächlich geprüft: Fünf synthetische Antworten in der bisherigen öffentlichen 217-Themen-Fassung eingegeben und exportiert; Import in einen frischen Kandidaten mit Neuladen erhielt alle fünf exakten Antworten. Kein Nachweis aller denkbaren Altsicherungen oder 1019 ausgefüllter Eingaben.",
+    "progress": "Fünf bestehende Aufgaben mit 20 Punkten unverändert. Freiwilliger Rückblick nach Aufgabe5 ohne neue Eingaben, Schaltflächen oder Erledigtmarker; keine neuen speicherbaren Antwort-IDs.",
+    "candidateRoundTrip": "Tatsächlicher Kandidatenexport wurde in einen weiteren frischen Kandidaten importiert; Neuladen erhielt Antworten und Auswahlzustand. Gezielter Abbruch und ungültiger Zusatzschlüssel wurden mit explizitem Status und unverändertem gespeicherten Stand geprüft.",
+    "oldReleaseReverse": "Eine tatsächliche Rückwärtsprüfung in die alte Fassung wurde nicht durchgeführt und wird nicht behauptet."
   },
   "validation": {
-    "static": "Unabhängige statische Prüfung bestanden: 16 Prüfbereiche und 228 gebundene Identitäten; 217 Themen, alle 1018 bisherigen Aufgabenobjekte unverändert und eine zusätzliche eindeutige unbewertete Notiz, insgesamt 1019 Textfelder. 214 andere Themen und bestehende Metadaten erhalten.",
-    "runtime": "Gezieltes Funktionsgate mit 13 Ergebnisgruppen bestanden: drei Themen bei 320/390/1280 Breite, Kinder-/Erwachsenenrollen, Gymnasium-6-/Klasse-7-/Lea-Trennung, bestehende manuelle Bedingungen, fünf tatsächliche lokale PDF-Linköffnungen mit Ressourcenidentität, Sicherungsexport/-import mit Neuladen, Abbruch und ungültigen Zusatzmarkern sowie alter Handout-Druckfallback. Kein vollständiger Lauf über alle Themen.",
-    "print": "Zwölf PDFs mit 36 Seiten und 18 unterschiedlichen Seitentypen geprüft: vollständiger DOM-/SVG-Text, Zahlen und Eurozeichen, A4-Seiten, Zeichenbegrenzungen und identische Breitenrenderings; unabhängige Gegenlese und tatsächliche Sicht aller Typen sowie kritischer Einzelseiten. M11-Seitenumbruch nur im eigenen Kinder-Themencontainer, M3 und Promille im Mehrfachdruck unverändert. ES6 vier Erwachsenenlabels/-adressen und gemeinsamer Hinweis jeweils einmal; Kinderdruck ohne Erwachsenenmodelle.",
-    "remote": "Bereitstellung und spätere Online-Version sind getrennt anhand der jeweiligen Git-/Pages-Bereitstellungsnachweise zu beurteilen. Dieser lokale Prüfstand verändert oder ersetzt keine Bereitstellung und behauptet keine frische Prüfung ausgelieferter HTTPS-Bytes.",
-    "processObservation": "Alle erwarteten Funktionsprüfungen, erwartetes Schliessen der Browserkontexte, Bereinigung und abschliessende Datei-Integritätsprüfung sowie Ergebnisartefakte sind abgeschlossen. Eine separate Hostprüfung fand den Laufprozess nicht mehr. Sein Betriebssystem-Exitcode wurde nicht erfasst; daraus wird kein Exitcode 0 behauptet. Der getrennte PDF-Auditor endete nachweislich mit Exitcode 0.",
-    "independentFinal": "Unabhängiger finaler Review im beschriebenen lokalen Umfang bestanden. Die begrenzte Beobachtbarkeit des Browserprozess-Exitcodes bleibt ausdrücklich erhalten."
+    "static": "Unabhängige begrenzte Daten-/Datei-/Allowlistprüfung bestanden: genau zwei Felder am bestehenden Hörthema, drei erlaubte Dateideltas gegenüber der Ausgangsfassung, 217 Themen und alle1019 bestehenden Taskobjekte/Antwort-IDs erhalten. Keine vollständige semantische oder interaktive Prüfung aller Themen.",
+    "runtime": "Tatsächlicher isolierter Kandidatenlauf bei320/390/1280Breite bestanden: neutrale Vorabvermutung ohne Pflichtfeld/Hörsperre, fünf Aufgaben mit20Punkten, freiwilliger Rückblick nach Aufgabe5 ohne neue Inputs, Rollen-/Darstellungs- und gezielte Sicherungsgates. NativeAudio blieb passiv bei currentTime0/paused, ohne Play-, Trial- oder Seekaktion. Hauptlauf und gezielter Importstatus-Nachcheck endeten jeweils mit tatsächlich erfasstem Exit0.",
+    "print": "Sechs tatsächlich erzeugte Druckseiten (Kind2/Adult4) mit beiden Textlesern geprüft; alle neuen Texteinheiten exakt (Kind5/Adult6), alle sechs Seiten persönlich gesehen.11824 sichtbare Glyphen ohne Randfehler; keine beobachtete Abschneidung/Überlagerung oder Kindlösungs-/Transkriptleckage. A4 mit dokumentierter Chromium-Rundungstoleranz, keine separate Breiten-Pixelgleichheit behauptet. Druckaudit endete mit tatsächlichem Exit0.",
+    "remote": "NOT_PUBLISHED: keine Git-/Remote-/Public-Pinänderung, keine Pages- oder ausgelieferte HTTPS-Prüfung durch diesen lokalen Prüfstand.",
+    "independentFinal": "Begrenzter unabhängiger Datenreview und tatsächlicher Kandidaten-UI-/Druck-/Sicherungsreview bestanden. Diese ausschliessliche Metadaten-Endfassung wartet noch auf ihren eigenen engen unabhängigen Deltareview."
   },
   "limits": [
-    "Kein neuer Klasse7-/ES6-/Jahres-/Kinderleistungsnachweis.",
-    "M11/M3 Zielhorizont Ende8; ES6 Klasse6 mit offener2026/27Fortgeltung/Schulfolge.",
-    "Rollenanzeige und Reihenfolgehinweise sind keine Zugriffssperre."
+    "Ende8/freiwilliger gestützter Klasse7-Einstieg, konkrete Schulfolge unbekannt.",
+    "Keine Kinder-/Hörentwicklungs-/Jahresabnahme.",
+    "Audioqualität benötigt weiterhin tatsächliches englischkundiges Anhören; technische Wiedergabe ersetzt dies nicht.",
+    "Papierhinweise/Rollenanzeige sind keine Zugriffssperre; tatsächliche Hilfen/Phasen offen.",
+    "Lokale Vorgängerprüfungen sind Eingänge, kein Beweis für diesen älteren öffentlichen Renderer."
   ],
-  "localVerificationAt": "2026-11-20T22:31:33.284Z",
-  "verificationScope": "Lokale, gezielte Prüfung dieser Produktdateien und Metadaten: keine Aussage über eine spätere Veröffentlichung, alle Themen oder tatsächliche Lernleistungen."
+  "verificationScope": "Begrenzter lokaler Vorveröffentlichungsprüfstand. Gezielte reale Kandidaten-UI-/Druck-/Sicherungsgates sind belegt; keine Interaktionsabnahme aller217Themen/1019Eingaben, keine echte Kinder-/Hörqualitäts-/Hörentwicklungs-/Jahresabnahme und keine Veröffentlichung oder HTTPS-Auslieferungsbehauptung."
 }

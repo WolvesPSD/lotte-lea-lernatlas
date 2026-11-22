@@ -1,79 +1,70 @@
 {
-  "releaseVersion": "2026.11.22-ma-gleichung-inhaltlich.1",
+  "schemaVersion": 1,
+  "version": "2026.11.22-en-estuary-reading.1",
   "status": "SCOPED_RELEASE_READY",
-  "builtAt": "2026-11-22T18:20:49.419Z",
-  "baselineCommit": "36de9772173735a6cb1046e64b00b453a16ec3f7",
-  "baselineRelease": "2026.11.22-ma-formelsammlung.1",
-  "rollbackCommit": "36de9772173735a6cb1046e64b00b453a16ec3f7",
-  "topics": 226,
-  "taskObjects": 1033,
-  "contentDelta": "One optional unscored task in existing price topic plus exact one old terminology-prompt navigation field; old20points and practice preserved; catalog.version and topic.releaseEvidence explicit metadata.",
+  "builtAt": "2026-11-22T19:59:11.046Z",
+  "baseline": {
+    "commit": "2377d5728fa14786051d0058726eec62402bf509",
+    "tree": "24afe0671e3af5172a330f2c2b69700a281e4b2f",
+    "version": "2026.11.22-ma-gleichung-inhaltlich.1",
+    "candidate": "app/output/release-candidate-ma-gleichung-inhaltlich-20261122-v3"
+  },
+  "rollbackCommit": "2377d5728fa14786051d0058726eec62402bf509",
+  "change": "One optional English materialOnly paper route with two separate approved-source manuscript PDFs; no oldtopic/task/renderer/style/state-schema change.",
+  "inventory": {
+    "topics": 227,
+    "taskObjects": 1033
+  },
   "validation": {
-    "draftMath": "PASS_SCOPED",
-    "draftLanguageRole": "PASS_SCOPED",
-    "staticIntegration": "PASS_SCOPED_V1_INTEGRATION_AND_SINGLE_V2_METADATA_DELTA",
-    "runtime": "PASS_SCOPED_LOCAL_SEPARATE_RUNS",
-    "appPrint": "PASS_4_CHILD_AND_4_ADULT_A4_PAGES_INDEPENDENTLY_OPENED_AND_VIEWED",
+    "sourceManuscript": "SCOPED_INDEPENDENT_PASS",
+    "appTextV2": "SCOPED_INDEPENDENT_DELTA_PASS",
+    "pdfOutput": "PASS_INDEPENDENT_2_CHILD_2_ADULT_PAGES_TEXT_ROLES_SIGHT",
+    "staticIntegration": "PASS_226_OLD_TOPICS_1033_OLD_TASKS_UNCHANGED_119_OLD_FILES_BYTE_EQUAL",
+    "runtime": "PASS_SCOPED_LOCAL_FILE_33_ASSERTIONS_ACTUAL_SHELL_AND_NODE_EXIT0",
+    "appPrint": "PASS_INDEPENDENT_1_CHILD_1_ADULT_A4_PAGES_OPENED_AND_VIEWED",
     "publication": "READY_NOT_YET_DEPLOYED"
   },
   "evidence": {
-    "output/leitung-20261122/m3-o07-inhaltlicher-weg-draft/task-delta.json": "43AA39CE77DA96A266EB13AF12D9887A3A26BBDAFDAE06CDE8F8609B1309721F",
-    "output/leitung-20261122/m3-o07-inhaltlicher-weg-draft/navigation-delta.json": "6C06725169230373D1500EA94290CE87A4CFA186CEC7D3778234374935A9573F",
-    "output/leitung-20261122/m3-o07-inhaltlicher-weg-draft/manifest.json": "804F8C4269B70424452453F195DE579169B76637BFA458A9A53E2C7B56DDBAB6",
-    "output/leitung-20261122/m3-o07-inhaltlicher-weg-draft/navigation-manifest.json": "F8A58A8486C4D7B7CA3809B8199F7118066D0CE4FA9EAD8FF15EB2C390356D5B",
-    "output/leitung-20261122/m3-o07-inhaltlicher-weg-draft/independent-math-review/manifest.json": "14BBC76CFBCB4424E44AC59C5101F65E1F9C5B851116E9ED215E9C60DF2749C0",
-    "output/leitung-20261122/m3-o07-inhaltlicher-weg-draft/independent-language-role-review/manifest.json": "9E22F7135B6D15A5DAD98DC00463A8E98ADD581D0D8D23623AE4630B2E999385",
-    "output/leitung-20261122/m3-o07-inhaltlicher-weg-release/independent-static-review/manifest.json": "6EE71753A4B489F3A00CAC8EF909C7EE5E794D17ECBB00A8C6A35AA278E03A41",
-    "output/leitung-20261122/m3-o07-inhaltlicher-weg-release/independent-static-review/source-note-v2-delta/manifest.json": "EBDF67F8CBDDA21382F777D202FBDCE718C24174CD71C9778EABCA81A018E17D",
-    "output/leitung-20261122/m3-o07-inhaltlicher-weg-release/root-runtime-freeze.json": "91A152C1DE7B3FBE810BFA6153AC901D3B92CBE7C802D5896A418A8E50030BCD",
-    "output/leitung-20261122/m3-o07-inhaltlicher-weg-release/independent-runtime-review/manifest.json": "C0C1279D3E548CA9AD9B3C50C27C5740FBD1003304F7B8314039673A7F84D437",
-    "output/leitung-20261122/m3-o07-inhaltlicher-weg-release/root-process-evidence.json": "DBA3B2AC3EA5BE4248EA90AD6FE81F3DCCF15FADBB449B1920863018F2E4BADF",
-    "output/leitung-20261122/m3-o07-inhaltlicher-weg-release/root-visual-review.json": "1237807A508873D963FC209B52A13BF3991E0511382EAB0229837E434B781932",
-    "output/leitung-20261122/m3-o07-inhaltlicher-weg-release/root-source-note-render-boundary.json": "340BC533F3E1A6AE2D9B2853A89869DD0633EAAB07D9458C66CC22E9D54E305F"
+    "output/leitung-20261122/en-l-estuary-reading-addendum/root-material-adoption.json": "1A0A97E113F56AE7B68F71FF5913A5819FF292CEB50EF666313C9324A5C5C971",
+    "output/leitung-20261122/en-l-estuary-reading-addendum/paper-app-draft/independent-text-schema-review/v2-delta/manifest.json": "835FC532FDB7334A779FD85669F387EFE857846F207FBB5D415CD1CC473D3119",
+    "output/pdf/en-l-estuary-reading-20261122-v1/manifest.json": "01818A55B054128A369FA964AD875713BC702179BC0786D38EB8FBCC3E21E3C6",
+    "output/leitung-20261122/en-l-estuary-reading-addendum/release/independent-static-review/manifest.json": "1BE1A83ACEF557B6CCBC1A27FC11BF9F11B63C09CB489949236D4656B066BFC8",
+    "output/pdf/en-l-estuary-reading-20261122-v1/independent-output-review/manifest.json": "3487A7D1DF95087480404D6899D391A1F2DF5CB320375AD4223455D8535B8AAF",
+    "output/leitung-20261122/en-l-estuary-reading-addendum/release/root-runtime-freeze.json": "D127F1C1C65D2787842798A9DCC3404966EDDB9E2517A44B8F96498E7B7AA280",
+    "output/leitung-20261122/en-l-estuary-reading-addendum/release/independent-runtime-review/manifest.json": "CAB0C61869CA1067B76AA6447411C184140D76BC774BAADAAC3CDFA6F2C79BFA",
+    "output/leitung-20261122/en-l-estuary-reading-addendum/release/root-process-evidence.json": "206A4DD5879F3941898479BA5A0C3A1F3802CD7F69966A2709BFED22241F067F",
+    "output/leitung-20261122/en-l-estuary-reading-addendum/release/root-visual-review.json": "59B3BFFCC5DD5EA00F9668C3AAAE646585B535D9375B98C0B96A552C03820073"
   },
-  "limits": [
-    "grade8-outlook retained; no prescribed grade7 school sequence",
-    "No actual learner derivation/first-discovery or performance claim",
-    "No full M3/math/year/device/printer/screenreader/liveHTTPS acceptance",
-    "Adult role is not authentication or a timing lock"
+  "boundaries": [
+    "No observed learner reading or independent word inference",
+    "No real device, physical print, screenreader or liveHTTPS acceptance",
+    "No fullEnglish or11subjectyear claim",
+    "NOAA prose only with attribution and own adaptation clearly marked; no logos/images/video"
   ],
-  "finalizedAt": "2026-11-22T18:36:03.913Z",
+  "privacy": "Only code and approved public learning materials; no personal answers/progress/private sources.",
+  "sourceAttribution": "NOAA National Ocean Service, What is an estuary?, https://oceanservice.noaa.gov/facts/estuary.html, updated23Sep2026/access22Nov2026; express conditional website copying rule, no endorsement.",
+  "finalizedAt": "2026-11-22T20:09:54.082Z",
   "runtimeEvidence": {
-    "actualSeparateRuns": [
-      {
-        "assertions": 37,
-        "actualCmdExit": 0,
-        "nodeExit": 0,
-        "toolChunk": "7d90ea"
-      },
-      {
-        "assertions": 9,
-        "actualCmdExit": 0,
-        "nodeExit": 0,
-        "toolChunk": "ebf79d"
-      },
-      {
-        "assertions": 3,
-        "actualCmdExit": 0,
-        "nodeExit": 0,
-        "toolChunk": "8d54d4"
-      }
-    ],
-    "scope": "Three separate scoped runs, not one49-unique-assertion series. New and old mixed notes through real export/fresh import, complete new model and feedback only Adult; full prompt rectangle clearance at320/390.",
+    "actualCmdExit": 0,
+    "nodeExit": 0,
+    "toolChunk": "81c8b7",
+    "assertions": 33,
     "scroll": {
-      "observations": 4,
-      "textRectangles": 82,
-      "actualHits": 738
+      "observations": 8,
+      "textRectangles": 48,
+      "hits": 432,
+      "widths": [
+        320,
+        390
+      ]
     },
-    "print": {
-      "childPages": 4,
-      "adultPages": 4,
-      "rootAndIndependentSight": true,
-      "independentPdfContentUnits": {
-        "child": 15,
-        "adult": 52
-      }
-    },
-    "sourceNote": "reviewNote is stored metadata, not rendered; exact competencyRef/date li separately observed."
+    "state": "Real downloaded Lotte backup andfreshimport withfilledoldtask andnewpaperselection; no newreadinganswer/performance.",
+    "pdfLinks": "3real localfileclicks to2targets,200/applicationPDF; noPDFpainting/HTTPS claim.",
+    "appA4": "1child+1adultpage,8currentScreens/renders actuallyseen, bothPDFs independentlyopened.",
+    "evidenceLimits": [
+      "AdultDOM explicitlycriterion0+note, every(true)addsnoevidence; bothcriteria separatelyvisibleandA4checked",
+      "MixedprintDOM2topics only, no repeatedold8pagePDFpass",
+      "FirstA4extractExit1 dueURLlinebreak; correctedURLwhitespacecomparisonExit0, PDFsunchanged"
+    ]
   }
 }

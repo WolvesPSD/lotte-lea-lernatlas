@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.22-ma-gleichung-inhaltlich.1",
+  "version": "2026.11.22-en-estuary-reading.1",
   "status": "familienversion",
   "subjects": [
     {
@@ -24289,6 +24289,82 @@ window.LOTTE_CATALOG = {
         "reviewNote": "Eigene organisierte Mathe-Referenz mit neun Einträgen, zehn Registerzeilen und zwei freiwilligen Suchwegen. Getrennte Kinder-Referenz, Kinder-Suchblatt und Erwachsenenbegleitung mit 4/2/2 Seiten. Die Quellen-, Inhalts-, Rollen- und PDF-Ausgabeprüfungen betreffen dieses begrenzte Angebot; keine vollständige M3- oder Jahresabnahme.",
         "checkedAt": "2026-11-22",
         "independentCheck": "Unabhängige Quellen-, Inhalts-, Rollen- und PDF-Ausgabeprüfungen sind dokumentiert. Tatsächliche Nutzung, Schul-/Prüfungszulassung und Jahresabnahme bleiben offen. Die technischen Kandidaten- und Freigabenachweise werden getrennt im Releasecheck gebunden."
+      }
+    },
+    {
+      "id": "en-estuary-reading-paper",
+      "subjectId": "en",
+      "title": "Fluss und Meer: englischen Sachtext lesen",
+      "released": true,
+      "levelStatus": "grade78-flex",
+      "materialOnly": true,
+      "scope": "Freiwilliger gestützter englischer Leseweg im 7/8-Rahmen bis Ende Klasse 8. Du wählst einen authentischen Sachtextauszug oder eine klar gekennzeichnete vereinfachte Alternative. Die konkrete Unterrichtsfolge ist unbekannt.",
+      "prerequisite": "Diese Karte eignet sich, wenn du einen kurzen englischen Text mit Wortstützen lesen möchtest. Lies sie am Bildschirm oder als Ausdruck. Bei Bedarf kann dich jemand begleiten.",
+      "introduction": "Die Kinderkarte enthält zwei englische Texte zur Auswahl. Ein Text genügt. Du prüfst Aussagen mit Textstellen und kannst dir bei einem Wort eine passende Spur suchen. Die Begleitkarte mit möglichen Erklärungen bleibt getrennt.",
+      "tasks": [],
+      "practice": {
+        "title": "Einen Text wählen, Belege finden und Wörter prüfen",
+        "unscored": true,
+        "childNote": "Öffne die Kinderkarte oder nimm ihren Ausdruck. Für diesen Leseweg gibt es keine Antwortfelder oder Punkte in der App. Du kannst zeigen, markieren oder kurz auf Deutsch oder Englisch erklären.",
+        "childSteps": [
+          "Wähle auf der Kinderkarte den NOAA-Originalauszug oder die kürzere eigene Fassung des Lernprojekts. Bearbeite die beiden Informationsfragen mit passenden Textstellen. Ein Text genügt.",
+          "Wähle bei der Wortarbeit eine Spur, die dir beim Klären oder Überprüfen hilft: Wortteile, ein ähnliches Wortmuster oder ein dir bekanntes deutsches Vergleichswort. Wenn ein Wort schon bekannt ist, sag das. Du musst kein unbekanntes Wort erfinden.",
+          "Erkläre oder notiere deine Vermutung und den Hinweis aus deinem Text. Eine begründete Bestätigung oder eine offene Frage ist möglich. Erst nach deinem eigenen Versuch kannst du weitere Hilfe wählen. Du darfst pausieren oder aufhören."
+        ],
+        "childHandoutsNote": "Die Kinderkarte enthält Texte, Fragen und Hilfen. Öffne sie direkt oder nutze einen Ausdruck. Mögliche Erklärungen stehen getrennt in der Begleitkarte.",
+        "childHandoutsPrintNote": "Kinderkarte separat öffnen oder ausdrucken. Ein Text und eine gewählte Wortspur genügen; die Begleitkarte bleibt getrennt. Das Öffnen der Karte belegt noch keine Leseleistung.",
+        "childHandouts": [
+          {
+            "path": "assets/en-estuary-reading/01-kinderkarte.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/en-estuary-reading/01-kinderkarte.pdf",
+            "label": "Kinderkarte: zwei Texte zur Auswahl und Leseaufträge"
+          }
+        ],
+        "adultNote": "Geben Sie die Kinderkarte getrennt von der Begleitkarte aus. Die Wortstützen der Kinderkarte dürfen beim Lesen helfen. Warten Sie bei der gewählten Wortspur zuerst den eigenen Versuch ab. Geben Sie danach bei Bedarf einen Hinweis und besprechen Sie mögliche Bedeutungen. Die Rollenansicht ist keine technische Zugriffssperre.",
+        "adultGuide": [
+          "Das Kind wählt Originalauszug oder vereinfachte Alternative. Die getrennte Begleitkarte nennt für beide Fassungen passende Textbelege zur typischen Fluss-/Meerwasserverbindung, zur Süsswasserausnahme und zum Nutzen für Tiere. Zeigen, Markieren und kurze deutsche oder englische Erklärungen sind gleichwertig.",
+          "Wortbildung, Analogie und bedingter Sprachvergleich sind wählbare Angebote. Ein bekanntes Wort oder fehlendes deutsches Vergleichswissen ehrlich benennen. Nachfragen sollen auf Textstellen oder übertragene Wortteile zielen; mögliche Bedeutungen erst nach eigenem Versuch besprechen.",
+          "Nur die tatsächlich gezeigte Erklärung und verwendete Hilfe rückmelden. Nachgesagte Modelle sind kein selbstständiger Wortschluss. Eine begründete Bestätigung darf bestehen bleiben. Keine zusätzlichen Punkte, keine automatische Praxis- oder Kompetenzbewertung."
+        ],
+        "adultCriteria": [
+          "Im gewählten Text je eine passende Stelle für den häufigen Fall und die Ausnahme zeigen. Zur Tierfrage genügt eine passende Möglichkeit mit Textbeleg.",
+          "Bei der gewählten Wortspur die eigene Vermutung, den bedeutungstragenden Hinweis und die Prüfung am Text unterscheiden; Bekanntheit, Hilfe und offene Frage ehrlich lassen."
+        ],
+        "handoutsNote": "Kinder- und Begleitkarte separat öffnen oder drucken. Die Begleitkarte enthält mögliche Bedeutungen und Rückmeldungen, sie bleibt während des eigenen Versuchs bei der Begleitung.",
+        "handouts": [
+          {
+            "path": "assets/en-estuary-reading/01-kinderkarte.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/en-estuary-reading/01-kinderkarte.pdf",
+            "label": "Kinderkarte separat"
+          },
+          {
+            "path": "assets/en-estuary-reading/02-begleitung.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/en-estuary-reading/02-begleitung.pdf",
+            "label": "Getrennte Begleitkarte mit möglichen Erklärungen"
+          }
+        ],
+        "printAdultGuide": [
+          "Kinder- und Begleitkarte getrennt ausgeben. Ein Text und eine Wortspur genügen. Eigene Textbelege und Vermutungen vor Mustern abwarten; Bekanntheit, echte Hilfe und offene Fragen unterscheiden. Keine Zusatzpunkte oder automatische Leistungsbewertung."
+        ],
+        "printAdultHandoutsNote": "Zwei getrennte Karten separat öffnen oder ausdrucken: Kinderkarte https://wolvespsd.github.io/lotte-lea-lernatlas/assets/en-estuary-reading/01-kinderkarte.pdf ; Begleitkarte mit möglichen Erklärungen https://wolvespsd.github.io/lotte-lea-lernatlas/assets/en-estuary-reading/02-begleitung.pdf. Die Begleitkarte bleibt beim eigenen Versuch getrennt."
+      },
+      "sourceBindings": {
+        "output/leitung-20261122/en-l-estuary-reading-addendum/KIND.md": "0C57A4794FB69400EEF4B13ADACC6574DB169E07185BF3BB8D1003C3C15D8E94",
+        "output/leitung-20261122/en-l-estuary-reading-addendum/BEGLEITUNG.md": "DE9F9C33DF4969F5650F3A64F98707F6270E6E03429DC338C9AB50F9912F61E6",
+        "output/leitung-20261122/en-l-estuary-reading-addendum/root-material-adoption.json": "1A0A97E113F56AE7B68F71FF5913A5819FF292CEB50EF666313C9324A5C5C971",
+        "output/leitung-20261122/en-l-estuary-reading-addendum/independent-review/report.md": "EE5C7F001BAEA6BFD5274C5DF08632C121072488E906B4A70D1E88CBD0B389C8",
+        "output/leitung-20261122/en-l-prepared-component-acceptance/root-prepared-component-acceptance.json": "F885D0B81B31E9C2042F831B32F6E506319EFCD8F987D9DE1D0A20C41E77BDE6",
+        "pdf/LP_Englisch_GY_Erprobungsfassung_2026-08-27.pdf": "685D0D3E16F3BFE39B508CC38D9376510B054AB4FC7E3648B67796903858EC6A"
+      },
+      "releaseEvidence": {
+        "primaryUrl": "https://www.schulportal-thueringen.de/web/guest/lehrplaene/gymnasium",
+        "primaryLocalPdf": "pdf/LP_Englisch_GY_Erprobungsfassung_2026-08-27.pdf",
+        "primarySha256": "685D0D3E16F3BFE39B508CC38D9376510B054AB4FC7E3648B67796903858EC6A",
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "Englisch-Erprobungsfassung Gymnasium 2026, erste Fremdsprache, §2.2.2 PDF-S.26–27; authentische und adaptierte Sachtexte lesen, Informationen belegen und Wortschatz erschliessen. Zielhorizont Ende Klasse 8, Einführung Klasse 7 ab 2026/27; konkrete Schulfolge unbekannt.",
+        "checkedAt": "2026-11-22",
+        "reviewNote": "Originalprosa: NOAA National Ocean Service, What is an estuary?, https://oceanservice.noaa.gov/facts/estuary.html, Stand23.09.2026/Abruf22.11.2026.158Wörter unverändert, separate eigene vereinfachte Fassung; keine NOAA-Unterstützung behauptet. Manuskripte unabhängig geprüft; PDF- und technische Ausgabenachweise sind getrennt im Releasecheck gebunden. Tatsächliches Lesen, Selbstständigkeit, Geräte und Jahresabnahme offen."
       }
     }
   ]

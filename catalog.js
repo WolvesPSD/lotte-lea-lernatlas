@@ -23748,6 +23748,231 @@ window.LOTTE_CATALOG=Object.freeze({
         "primarySha256": "5F402E60C107569F057DEA13E9423B2D8A0EC8669410B9BE79BA180FC36EDAA1",
         "reviewNote": "Scoped independent text/source/action and local A4 PDF V2 reviews passed. Exact baseline preservation and candidate integration independently checked. Twenty targeted file-runtime/state/import/role checks passed with Exit0; twelve separate scroll/click/load checks passed with Exit0 and independent evidence addendum. Four actual A4 overview PDFs/eight pages reviewed for roles, glyph bounds and layout. No actual French human model, child action, physical print, real device, screenreader, HTTPS, complete H-S5 or annual acceptance; native PDF viewer painting not established by the headless click check."
       }
+    },
+    {
+      "id": "ma-m2-zehnerpotenzen-papier",
+      "subjectId": "ma",
+      "title": "Zahlen mit Zehnerpotenzen auf Papier",
+      "released": true,
+      "levelStatus": "grade8-outlook",
+      "materialOnly": true,
+      "scope": "Freiwilliger Papierweg zu rationalen Zahlen im Zielraum 7/8 bis Ende Klasse 8. Die normalisierte Schreibweise ist die gewählte Lernform dieses Blatts, keine zusätzliche amtliche Klasse-7-Pflicht. Die konkrete Unterrichtsfolge ist unbekannt; kein vollständiges M2- oder Jahresangebot allein aus diesem Weg.",
+      "prerequisite": "Hilfreich sind Brüche, Dezimalzahlen, Vorzeichen und das Lesen geordneter Zahlen. Für deine Zeichnungen brauchst du Papier und ein Lineal. Schaut gemeinsam, welche Aufgaben gerade passen.",
+      "introduction": "Du schreibst Zahlen als Zahl mal Zehnerpotenz, vergleichst Werte und zeichnest sie auf Zahlenstrahlen. Dafür arbeitest du mit dem getrennten Kinderblatt. Die Lösung bleibt bei der Begleitung.",
+      "tasks": [],
+      "practice": {
+        "title": "Umschreiben, vergleichen und selbst zeichnen",
+        "unscored": true,
+        "childNote": "Hier gibt es keine Antwortfelder. Deine Rechnungen und Zeichnungen gehören auf das Kinderblatt oder dein eigenes Papier.",
+        "childSteps": [
+          "Öffne das fünfseitige Kinderblatt oder bitte die Begleitung um einen Ausdruck. Die getrennte Erwachsenenlösung bleibt während deiner eigenen Bearbeitung bei ihr.",
+          "Nutze die Merkhilfe und bearbeite die Aufgaben A bis D. Schreibe deine Rechenwege auf und zeichne die verlangten Zahlenstrahlen selbst.",
+          "Der spätere Transfer ist freiwillig. Du darfst um Hilfe bitten, eine Pause machen oder aufhören; besprochen wird nur, was du wirklich bearbeitet hast.",
+          "Vergleicht danach deine eigenen Wege mit den Hinweisen der Begleitung. Öffnen und Auswählen werden hier nicht als erledigte Aufgaben gewertet."
+        ],
+        "adultNote": "Geben Sie das Kinderblatt getrennt von der Erwachsenenlösung aus. Lesen Sie die Lösung vor der Besprechung; die beiden Links sind Rollentrennung, keine technische Zugriffssperre.",
+        "adultGuide": [
+          "Verwenden Sie das vorhandene Kinderblatt mit fünf Seiten und die passende Erwachsenenlösung mit vier Seiten. Beide gehören zum selben kanonischen Papierstand; keine ältere Kinderfassung mit genauer D-Lösung im Selbstcheck verwenden.",
+          "A bis D umfassen zusammen 20 Hauptpunkte; der freiwillige Transfer hat sechs getrennte Zusatzpunkte. Das sind Punkte, nicht 20 beziehungsweise sechs einzelne Aufgaben. Die vollständigen Aufgaben und Rubriken in den PDFs bleiben unverändert.",
+          "Die Auswertung erfolgt anhand der tatsächlich vorliegenden Papierarbeit und der vorhandenen Rubrik ausserhalb der App. Es gibt hier keine automatische Bewertung, keinen Punkte-Eintrag und keine automatisch erledigte Praxis.",
+          "Die normalisierte Form ist eine deklarierte Lernform dieses freiwilligen Ende-8-Ausblicks. Daraus keine zusätzliche amtliche Klasse-7-Pflicht, bestätigte Unterrichtsfolge oder vollständige M2-Abdeckung ableiten."
+        ],
+        "adultCriteria": [
+          "Die vorhandene Erwachsenenrubrik zur jeweiligen Aufgabe verwenden; Hauptteil und freiwilligen Transfer getrennt halten.",
+          "Nur tatsächlich vorhandene Rechnungen, Begründungen und eigene Zeichnungen besprechen; gegebene Hilfe benennen, Öffnen der Datei nicht als Leistung werten."
+        ],
+        "handoutsNote": "Kinderblatt und Erwachsenenlösung separat vorbereiten. Während der eigenen Bearbeitung nur das Kinderblatt ausgeben.",
+        "handouts": [
+          {
+            "path": "assets/ma-m2-zehnerpotenzen/01-kinderblatt.pdf",
+            "label": "Lösungsfreies Kinderblatt · 5 Seiten",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-m2-zehnerpotenzen/01-kinderblatt.pdf"
+          },
+          {
+            "path": "assets/ma-m2-zehnerpotenzen/02-erwachsenenloesung.pdf",
+            "label": "Getrennte Erwachsenenlösung · 4 Seiten",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-m2-zehnerpotenzen/02-erwachsenenloesung.pdf"
+          }
+        ],
+        "childHandoutsNote": "Das Kinderblatt enthält Aufgaben, Merkhilfe und Zeichenraum. Du kannst es selbst öffnen; die getrennte Erwachsenenlösung gehört zur späteren Besprechung.",
+        "childHandouts": [
+          {
+            "path": "assets/ma-m2-zehnerpotenzen/01-kinderblatt.pdf",
+            "label": "Lösungsfreies Kinderblatt · 5 Seiten",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-m2-zehnerpotenzen/01-kinderblatt.pdf"
+          }
+        ],
+        "childHandoutsPrintNote": "Das lösungsfreie Kinderblatt mit den vollständigen Aufgaben separat öffnen und drucken. Rechne und zeichne auf diesem Blatt oder deinem eigenen Papier. Kinderblatt:",
+        "printAdultHandoutsNote": "Getrennte PDFs: Kinderblatt (5 Seiten): https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-m2-zehnerpotenzen/01-kinderblatt.pdf. Erwachsenenlösung (4 Seiten): https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-m2-zehnerpotenzen/02-erwachsenenloesung.pdf. Während der eigenen Bearbeitung nur das Kinderblatt ausgeben; die Lösung bleibt getrennt.",
+        "printAdultGuide": [
+          "Verwenden Sie die hier verlinkten getrennten PDFs. A bis D umfassen 20 Hauptpunkte; der freiwillige Transfer hat sechs getrennte Zusatzpunkte. Aufgaben und Rubriken bleiben unverändert. Werten Sie nur die tatsächliche Papierarbeit nach der vorhandenen Rubrik aus; keine automatische App-Bewertung, kein Punkte-Eintrag und keine automatisch erledigte Praxis.",
+          "Die normalisierte Form ist eine deklarierte Lernform dieses freiwilligen Ende-8-Ausblicks. Daraus keine zusätzliche amtliche Klasse-7-Pflicht, bestätigte Unterrichtsfolge oder vollständige M2-Abdeckung ableiten."
+        ]
+      },
+      "sourceBindings": {
+        "canonicalNavigation": {
+          "path": "wissen/MATHEMATIK-M2-KANONISCHER-MANUSKRIPTSTAND-2026-11-18.md",
+          "sha256": "987B92A59FF15F2239CE0B0C10F91010971E7E078218B0D66441AFCC2F10A6A7"
+        },
+        "canonicalRoleDelta": {
+          "path": "output/math-m2-fairness-fix-20261118/source-v3-role-delta.json",
+          "sha256": "D37EB193AA99C37EDBBA18B779C9002BA4B02856481A8AFA4CE51B82939C95FC"
+        },
+        "canonicalChildSource": {
+          "path": "output/math-m2-fairness-fix-20261118/source-v3/mathematik-m2-zehnerpotenzen-kinderblatt-2026-11-18-v3.md",
+          "sha256": "300D97120C9489BF27C0874903B7444FE45FF0CE921756B5B8EDF5899C0B9EAC"
+        },
+        "canonicalAdultSource": {
+          "path": "output/math-m2-fairness-fix-20261118/source-v3/mathematik-m2-zehnerpotenzen-erwachsenenloesung-2026-11-18-v3.md",
+          "sha256": "CB94A55C80153EFC152BD4F2D3237A94EB66A932F9BB8A0D31BDD252569F9990"
+        },
+        "canonicalQaSource": {
+          "path": "output/math-m2-fairness-fix-20261118/source-v3/mathematik-m2-zehnerpotenzen-qa-2026-11-18-v3.md",
+          "sha256": "D1C8A591C6B7D1CDEABE7CAEEB40FF88329FDDFF4F1997980FC8B3B6A8500871"
+        },
+        "rootClosure": {
+          "path": "wissen/MATHE-M2-ZEHNERPOTENZEN-PAPIER-ROOTABSCHLUSS-2026-11-21.md",
+          "sha256": "8F3CE0892E5B9737C0B43FB29619FC6E01F85759C77DDF659750159AC9C63C45"
+        },
+        "paperReview": {
+          "path": "output/pdf/math-m2-zehnerpotenzen-20261121-v1/independent-paper-review-20261121.json",
+          "sha256": "2218A45A258C694DF6D89D4CD59483A95E2485750D2464C7C599C6138F5A8FA0"
+        },
+        "authorReport": {
+          "path": "output/pdf/math-m2-zehnerpotenzen-20261121-v1/author-report.json",
+          "sha256": "63D9A817A4FC254729005971889A8C69C1B69A9D9736D9CB9A8A943F0A10CA3F"
+        },
+        "authorManifest": {
+          "path": "output/pdf/math-m2-zehnerpotenzen-20261121-v1/author-manifest.json",
+          "sha256": "B3298D325AE445E941D9E2F44A13226070544A09BFF04A34EB2F77B33A94C03C"
+        },
+        "childPdf": {
+          "path": "output/pdf/math-m2-zehnerpotenzen-20261121-v1/01-kinderblatt.pdf",
+          "sha256": "77489CACFD7C6A0CF76298D288596897FA6669A7197CC9B5AB8BE6F04DFAEA8D"
+        },
+        "adultPdf": {
+          "path": "output/pdf/math-m2-zehnerpotenzen-20261121-v1/02-erwachsenenloesung.pdf",
+          "sha256": "D6538FB408BEF84ECA1D132396882B8B665B9D532A09E9D629C3ABA088CE4D5A"
+        }
+      },
+      "releaseEvidence": {
+        "checkedAt": "2026-11-22",
+        "competencyRef": "Thüringer Mathematik-Erprobungsfassung Gymnasium 2026, § 2.2.2, PDF-Seite 25: Rationale Zahlen auf Zahlengeraden und mit abgetrennten Zehnerpotenzen darstellen. Ziel Ende Klasse 8 im Rahmen 7/8; freiwilliger Ausblick, konkrete Klasse-7-Unterrichtsfolge unbekannt. Die normalisierte Form ist die gewählte Lernform, keine zusätzliche amtliche Pflicht.",
+        "primarySha256": "91838D21BB7035A3E30890E837A47425B3766F3A38066AF6559F167AFC399D26",
+        "reviewNote": "Kanonischer source-v3-Zweig und unveränderte fünfseitige Kinder- sowie vierseitige Erwachsenen-Papierausgabe im dokumentierten Umfang unabhängig geprüft. Zugangstext und direkter lösungsfreier Kinderlink getrennt geprüft. 20 Hauptpunkte und sechs freiwillige Zusatzpunkte bleiben auf Papier, ohne automatische App-Bewertung. Kein vollständiges M2, bestätigte Schulfolge, Lernendenleistung, reales Gerät, physischer Drucker oder Jahresabschluss daraus. Laufversuche und deren Grenzen stehen getrennt in der Release-Prüfkette."
+      }
+    },
+    {
+      "id": "ma-m2-gruppenprozess-papier",
+      "subjectId": "ma",
+      "title": "Gemeinsam rationale Zahlen auf Papier prüfen",
+      "released": true,
+      "levelStatus": "grade8-outlook",
+      "materialOnly": true,
+      "scope": "Freiwilliger Ende-Klasse-8-Ausblick im Zielraum 7/8. Die konkrete Schulfolge ist unbekannt. Dieser Papierweg belegt weder vollständige Klasse-7-Abdeckung noch einen M2- oder Jahresabschluss.",
+      "prerequisite": "Hilfreich sind rationale Zahlen, Brüche und Vorzeichen. Du brauchst Papier und einen Stift; für die gemeinsamen Teile eine wirklich mitarbeitende Person.",
+      "introduction": "Du prüfst rationale Zahlensummen und begründest deine Wege. Mit einer anderen Person könnt ihr Vorschlagen und Prüfen fair tauschen und über eure wirkliche Zusammenarbeit nachdenken.",
+      "tasks": [],
+      "practice": {
+        "title": "Eigener Start und echte Zusammenarbeit",
+        "unscored": true,
+        "childNote": "Hier gibt es keine Antwortfelder. Arbeite auf dem Kinderblatt oder auf eigenem Papier. Du musst keine Namen oder persönlichen Daten angeben.",
+        "childSteps": [
+          "Öffne das lösungsfreie Kinderblatt mit drei Seiten oder lass dir einen Ausdruck geben. Die getrennte Erwachsenenlösung bleibt während deiner eigenen Bearbeitung bei der Begleitung.",
+          "Beginne mit A allein. Wenn eine andere Person wirklich mitarbeitet, bearbeitet B gemeinsam: Tauscht bei den ersten beiden Beispielen Vorschlagen und Prüfen; vereinbart für das dritte eure Beiträge.",
+          "Erklärt in C eure Begründungen. Prüft unterschiedliche Antworten mit einem Beleg. Beschreibt in D eine wirkliche Stelle eurer Zusammenarbeit. Erfolg und sofortige Einigkeit sind erlaubt; ihr müsst keinen Fehler oder Streit vorspielen.",
+          "Ohne Partnerperson kannst du A lösen und B vorbereiten. Markiere C, D und den Rollenwechsel-Transfer als nicht durchgeführt. Erfunde keine Partnerantwort oder Gruppenleistung.",
+          "Der Rollenwechsel-Transfer ist freiwillig und braucht echte Zusammenarbeit mit getauschten Anfangsrollen. Du darfst um Hilfe bitten, pausieren oder aufhören. Besprochen wird nur, was wirklich stattgefunden hat."
+        ],
+        "adultNote": "Kinderblatt und Erwachsenenlösung getrennt ausgeben. Die Links ordnen die Rollen; sie sind keine technische Zugriffssperre.",
+        "adultGuide": [
+          "Verwenden Sie das geprüfte dreiseitige Kinderblatt und die getrennte dreiseitige Erwachsenenlösung. Die vollständigen Lernaufträge, Modelle und Rubriken stehen unverändert in diesen PDFs.",
+          "A bis D sind vier Hauptblöcke mit 4 + 8 + 4 + 4 = 20 Hauptpunkten, nicht 20 Aufgaben. Der freiwillige Transfer hat sechs getrennte Zusatzpunkte. Verwenden Sie die vorhandene Rubrik ausserhalb der App.",
+          "Ohne echte Partnerperson ist A nutzbar und B nur Vorbereitung. C, D und Rollenwechsel-Transfer sind nicht durchgeführt. Eine Musterlösung oder simulierte Partnerantwort belegt keine Gruppenhandlung; vergeben Sie dafür keine erfundenen Gruppenpunkte.",
+          "Begleiten Sie tatsächlichen fairen Rollenwechsel und nachvollziehbare Begründungen. Erfolg und Einigkeit sind zulässig; keine Fehler-, Streit- oder Unsicherheitspflicht. Keine Namenpflicht oder zusätzliche Datensammlung.",
+          "Die App vergibt hier keine automatischen Punkte und keinen Erledigtstatus. Dateiöffnen ist keine Leistung. Schulfolge und tatsächliche Lernenden-/Partnerbewährung bleiben offen; freiwilliger Ende-8-Ausblick, kein Klasse-7- oder Jahrespass."
+        ],
+        "adultCriteria": [
+          "Die vorhandenen Modelle und die Rubrik 4 + 8 + 4 + 4 verwenden; sechs freiwillige Zusatzpunkte getrennt halten. Keine zusätzliche Bewertungsrubrik.",
+          "Nur wirkliche Rechnungen, Begründungen und beobachtete Beiträge besprechen; verwendete Hilfe ehrlich benennen. Fehlende Gelegenheit zur Partnerhandlung ist kein Nachweis einer misslungenen Gruppenleistung."
+        ],
+        "handoutsNote": "Während der eigenen Bearbeitung nur das Kinderblatt ausgeben. Die Erwachsenenlösung dient der getrennten Begleitung und späteren Besprechung.",
+        "handouts": [
+          {
+            "path": "assets/ma-m2-gruppenprozess/01-kinderblatt.pdf",
+            "label": "Lösungsfreies Kinderblatt · 3 Seiten",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-m2-gruppenprozess/01-kinderblatt.pdf"
+          },
+          {
+            "path": "assets/ma-m2-gruppenprozess/02-erwachsenenloesung.pdf",
+            "label": "Getrennte Erwachsenenlösung · 3 Seiten",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-m2-gruppenprozess/02-erwachsenenloesung.pdf"
+          }
+        ],
+        "childHandoutsNote": "Öffne hier nur das Kinderblatt oder lass dir einen Ausdruck geben.",
+        "childHandouts": [
+          {
+            "path": "assets/ma-m2-gruppenprozess/01-kinderblatt.pdf",
+            "label": "Lösungsfreies Kinderblatt · 3 Seiten",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-m2-gruppenprozess/01-kinderblatt.pdf"
+          }
+        ],
+        "childHandoutsPrintNote": "Öffne oder drucke das lösungsfreie Gruppenblatt separat. Ohne Partnerperson kannst du A lösen und B nur vorbereiten; C, D und Rollenwechsel-Transfer sind nicht durchgeführt. Keine Partnerantwort oder Gruppenarbeit erfinden.",
+        "printAdultHandoutsNote": "Getrennte PDFs: Kinderblatt (3 Seiten): https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-m2-gruppenprozess/01-kinderblatt.pdf. Erwachsenenlösung (3 Seiten): https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-m2-gruppenprozess/02-erwachsenenloesung.pdf. Während der eigenen Bearbeitung nur das Kinderblatt ausgeben; die Lösung bleibt getrennt."
+      },
+      "releaseEvidence": {
+        "checkedAt": "2026-11-22",
+        "competencyRef": "Mathematik 2026, § 2.2.2, PDF-Seite 25: rationale Rechnungen; kooperativ diskutieren, Gruppenverantwortung übernehmen und mit Erfolg beziehungsweise Misserfolg umgehen. Zielhorizont Ende Klasse 8 im Raum 7/8.",
+        "primaryLocalPdf": "pdf/LP_Mathematik_GY_Erprobung_2026-08-25.pdf",
+        "primarySha256": "91838D21BB7035A3E30890E837A47425B3766F3A38066AF6559F167AFC399D26",
+        "reviewNote": "Vorhandene Kinder- und Erwachsenenmanuskripte sowie getrennte dreiseitige Papierfassungen im dokumentierten Umfang unabhängig geprüft. Zugangstext, Partnergrenzen, Kinderlink und Druckverweise getrennt geprüft. 20 Hauptpunkte und sechs freiwillige Zusatzpunkte bleiben auf Papier, ohne automatische App-Bewertung. Reale Zusammenarbeit, Lernendenleistung, Schulfolge, Geräte, physischer Druck und Jahresabnahme sind damit nicht belegt; technische Prüfkette separat im Release-Nachweis."
+      },
+      "sourceBindings": {
+        "canonicalChildSource": {
+          "path": "wissen/recherche/mathematik-m2-gruppenprozess-kinderblatt-2026.md",
+          "sha256": "12F31E5876E4ABCB3363FFF4B68C60557A261B2014F11DFBA46993461726FC7B"
+        },
+        "canonicalAdultSource": {
+          "path": "wissen/recherche/mathematik-m2-gruppenprozess-erwachsenenloesung-2026.md",
+          "sha256": "5A71A1474C6C074434D560755079A7E0DAFC6BFB6BABCD9E38889F3D780F6681"
+        },
+        "canonicalQaSource": {
+          "path": "wissen/recherche/mathematik-m2-gruppenprozess-qa-2026.md",
+          "sha256": "957BD39079AC7965DAA09620B8B8AD9A63A4701B8D8724568BA1C4D3E162C3CE"
+        },
+        "childPdf": {
+          "path": "output/pdf/math-m2-gruppenprozess-20261122-v1/01-kinderblatt.pdf",
+          "sha256": "EF232CB3F0D45FFAB33D6E25D94F77000ACB7903ACDB9CB0373D67D3B8348B8D"
+        },
+        "adultPdf": {
+          "path": "output/pdf/math-m2-gruppenprozess-20261122-v1/02-erwachsenenloesung.pdf",
+          "sha256": "CF38E2F730F1BACC40B63920CC0985286D4DE63A6FC5F40FBE6F33D5B10A17F5"
+        },
+        "paperReview": {
+          "path": "output/pdf/math-m2-gruppenprozess-20261122-v1/independent-paper-review/review.md",
+          "sha256": "E2D95A70A01A6054A262D8FE1EE5EF94CDA8D3A552C8E42C6D2DF7C13FFDC946"
+        },
+        "paperReviewManifest": {
+          "path": "output/pdf/math-m2-gruppenprozess-20261122-v1/independent-paper-review/manifest.json",
+          "sha256": "664239DD81A383DFEB2024478D33FFC159C6E68739BE4E70DCFE5447F269F0D4"
+        },
+        "authorManifest": {
+          "path": "output/pdf/math-m2-gruppenprozess-20261122-v1/manifest.json",
+          "sha256": "67EDAAFEF480CC80E138A865C391CC29E59A1D92300DB369105DD5A5A57507DD"
+        },
+        "materialDecision": {
+          "path": "output/leitung-20261122/m2-material-acceptance-proposal/root-independent-material-adoption.json",
+          "sha256": "29AAD7EA2E80AA16D6818987A81C6955C44F676DEFC2B08BF0E92BF35FF3ED16"
+        },
+        "primaryPdf": {
+          "path": "pdf/LP_Mathematik_GY_Erprobung_2026-08-25.pdf",
+          "sha256": "91838D21BB7035A3E30890E837A47425B3766F3A38066AF6559F167AFC399D26"
+        },
+        "draftDecision": {
+          "path": "output/leitung-20261122/m2-gruppenprozess-paper-app-draft/decision.json",
+          "sha256": "5D2000257E7068B6486EAAF14D18FB96B178676953E2A675B2122353156FA610"
+        }
+      }
     }
   ]
 });

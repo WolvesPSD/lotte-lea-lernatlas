@@ -1,51 +1,70 @@
 {
-  "releaseVersion": "2026.11.22-de-beschreibung.1",
-  "status": "VERIFIED_SCOPED_LOCAL_PREPUBLICATION_CHECKPOINT",
-  "builtAt": "2026-11-22T11:53:39.758748+00:00",
-  "baselineCommit": "6b21340132a50eadade9f877c2c063e52f132703",
-  "baselineRelease": "2026.11.22-fr-hoeren-handeln.1",
-  "rollbackCommit": "6b21340132a50eadade9f877c2c063e52f132703",
-  "topics": 222,
+  "builtAt": "2026-11-22T13:09:45.439863+00:00",
+  "releaseVersion": "2026.11.22-ma-m2-papier.1",
+  "status": "SCOPED_RELEASE_READY",
+  "baselineCommit": "ead5df7505ea2f8678293779920cf0315aab8854",
+  "baselineRelease": "2026.11.22-de-beschreibung.1",
+  "rollbackCommit": "ead5df7505ea2f8678293779920cf0315aab8854",
+  "topics": 224,
   "answerFields": 1029,
-  "changedTaskIds": [
-    "de-woerter-4"
+  "oldTopicsPreserved": 222,
+  "oldAnswerFieldsPreserved": 1029,
+  "newTopicIds": [
+    "ma-m2-zehnerpotenzen-papier",
+    "ma-m2-gruppenprozess-papier"
   ],
-  "newTopicIds": [],
   "newTaskIds": [],
-  "contentDelta": "Exactly adultOnlySolution:true on de-woerter-4. All task text, sample, criteria, points, topic metadata and all other catalog data preserved.",
+  "newAssetSha256": {
+    "assets/ma-m2-zehnerpotenzen/01-kinderblatt.pdf": "77489CACFD7C6A0CF76298D288596897FA6669A7197CC9B5AB8BE6F04DFAEA8D",
+    "assets/ma-m2-zehnerpotenzen/02-erwachsenenloesung.pdf": "D6538FB408BEF84ECA1D132396882B8B665B9D532A09E9D629C3ABA088CE4D5A",
+    "assets/ma-m2-gruppenprozess/01-kinderblatt.pdf": "EF232CB3F0D45FFAB33D6E25D94F77000ACB7903ACDB9CB0373D67D3B8348B8D",
+    "assets/ma-m2-gruppenprozess/02-erwachsenenloesung.pdf": "CF38E2F730F1BACC40B63920CC0985286D4DE63A6FC5F40FBE6F33D5B10A17F5"
+  },
   "validation": {
-    "beforeRuntime": "One observed child check reveals the complete sample; original failed selector probe preserved.",
-    "static": "Reversing one new boolean restores baseline catalog deeply.",
-    "afterRuntime": "Nine exact role/reload/print checks passed, actual shell exit0. Child sample hidden after check/reload; adult sample and five criteria retained.",
-    "independentReview": "Independent one-boolean full-catalog preservation, all114 candidate/baseline files, renderer path, script and raw results reviewed; all six actual A4 pages and two screenshots seen.",
-    "print": "Child and adult A4 PDFs each3 pages inspected; child solution-free, adult sample and5 criteria retained. No physical printer acceptance.",
-    "publication": "NOT_DEPLOYED"
+    "content": "Both existing complete paper families and new wrapper texts independently checked in scoped reviews; four source PDFs byte-identical.",
+    "static": "All222 old topics and1029 tasks deep-equal, renderer/CSS/oldassets unchanged.",
+    "runtime": "Scoped evidence: initial38 assertions and18 step observations with162 actual hit probes ended Exit1 at a later source locator. Remaining19 assertions completed actual CMD/Node Exit0: exact source rows/date, four PDF loads, export/reload/fresh import and roles. No unique summed or single-series overall pass.",
+    "print": "Current child overview2 A4 pages reused unchanged fromV4; current V6 adult overview2 A4 pages independently viewed without orphan footer. Original four source PDFs total15 pages accepted unchanged.",
+    "publication": "READY_NOT_YET_DEPLOYED",
+    "adultPrintCompaction": "Accepted: four role-labelled URLs retained once with separation instruction.",
+    "adultPrintGuide": "Accepted one print-only guide; end8 boundary exact and full screen guide unchanged. Actual final2page adult output independently accepted."
   },
-  "inheritedBaselineEvidence": {
-    "path": "wissen/ONLINE-FR-HOEREN-HANDELN-ROOTABSCHLUSS-2026-11-22.md",
-    "releaseCheckSha256": "E38237925D715F94DC8BCDF4FC233B97EB33C9982DD213A66CE596BABF4F5550"
-  },
-  "limits": [
-    "No new S03/Deutsch/year acceptance",
-    "No actual learner or school-sequence evidence",
-    "No HTTPS/live-device/physical-printer/screenreader acceptance",
-    "Research master unchanged; no new server integration",
-    "Adult area is role separation, not access control.",
-    "Mobile card screenshots contain fixed navigation over a text band; no full overlay-free or scrolling acceptance from them."
-  ],
-  "reviewEvidence": {
-    "subject": {
-      "path": "output\\leitung-20261122\\de-s03-written-description-decision\\independent-review\\review.json",
-      "sha256": "EF8547345D9CE110D41D45FB6D8C1825586D7E294DB169471D0185C9456FDDF6"
+  "textReviews": [
+    {
+      "draft": "output\\leitung-20261122\\m2-zehnerpotenzen-paper-app-draft\\paper-topic-compatible-v4.json",
+      "draftSha256": "BD602D4E0E71DE7FC93CF551641B1319E6159FE14D54E069992680EC8AA3BCAC",
+      "reviewManifest": "output\\leitung-20261122\\m2-zehnerpotenzen-paper-app-draft\\independent-print-contract-v4-review\\manifest.json",
+      "reviewManifestSha256": "51BC08C77A3611278DCCEE573551100C69A335FF9217604321E1FBED2368E43F"
     },
-    "rolesRuntimePrint": {
-      "path": "output\\leitung-20261122\\de-s03-written-description-decision\\independent-role-correction-review\\review.json",
-      "sha256": "8F87065432B225310D46861F10A0197A5B1F3C9D583C3BD7F8D5E6E180D05500"
-    },
-    "runtime": {
-      "path": "output\\leitung-20261122\\de-s03-written-description-decision\\role-candidate-runtime\\result.json",
-      "sha256": "94C94D7F84F581FD3DF7D198F5A14AD2F19B01AFF0C8D502ED8C7E4182DBE54C"
+    {
+      "draft": "output\\leitung-20261122\\m2-gruppenprozess-paper-app-draft\\paper-topic-compatible-v2.json",
+      "draftSha256": "ABC002E2387A98F7A4A3672218E6679149754EADE0BE013891C4B89D9FC4C94B",
+      "reviewManifest": "output\\leitung-20261122\\m2-gruppenprozess-paper-app-draft\\independent-text-role-review\\manifest.json",
+      "reviewManifestSha256": "736A92407EA5107A4357164A00B5BAC672EB42918ED716BD96BB283F981DDB3E"
     }
-  },
-  "frozenAt": "2026-11-22T11:57:17.407235+00:00"
+  ],
+  "limits": [
+    "Voluntary end8 outlook in7/8 frame, no confirmed grade7 sequence or wholeM2/year acceptance.",
+    "20main+6optional points for each original worksheet remain outside automatic app scoring.",
+    "No actual child/partner performance, device, physical-printer, screenreader or HTTPS acceptance.",
+    "Research master and production renderer unchanged."
+  ],
+  "independentReviewManifests": [
+    {
+      "path": "output/leitung-20261122/m2-paper-bundle-final/independent-static-review/manifest.json",
+      "sha256": "97CA6919516534FBC040B447DCE67F8B6E64B6755DCC89A5EEE25DED6862FA70"
+    },
+    {
+      "path": "output/leitung-20261122/m2-paper-bundle-final/independent-final-runtime-review/manifest.json",
+      "sha256": "240EE6D04557C731EED6EC027BC3644D48669A8CC67DE441C3FDAAF0CE6AC05D"
+    },
+    {
+      "path": "output/leitung-20261122/m2-paper-bundle-final/independent-final-runtime-review/v5-print-delta/manifest.json",
+      "sha256": "AFD968DEFEBDC12947354C2F550A2B4286195F46254A97549F93A4E18B6B3BDC"
+    },
+    {
+      "path": "output/leitung-20261122/m2-paper-bundle-final/independent-final-runtime-review/v6-adult-output/manifest.json",
+      "sha256": "8695F8319B221C700FF9963FE19C990B850B50813ED32B2DB84F0AF85C2F439A"
+    }
+  ]
 }

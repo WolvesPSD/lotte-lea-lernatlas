@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.22-ma-m4-kreislesen.1",
+  "version": "2026.11.22-de-hoernachricht-rollen.1",
   "status": "familienversion",
   "subjects": [
     {
@@ -5652,7 +5652,8 @@ window.LOTTE_CATALOG = {
             "1 Punkt: fiktive Bibliotheksnachricht zum Kartentausch als Thema.",
             "1 Punkt: Änderung des Plans/Termins als Hauptsache, ohne alle Einzelheiten vorwegzunehmen.",
             "1 Punkt: nur den neuen Termin weitergeben. „Karten zu Büchern“ allein beschreibt noch nicht die Änderungsabsicht."
-          ]
+          ],
+          "adultOnlySolution": true
         },
         {
           "id": "de-hoernachricht-2",
@@ -5666,7 +5667,8 @@ window.LOTTE_CATALOG = {
             "Je 1 Punkt für Mittwoch, 15:00 Uhr und kleiner Leseraum in der Spalte „zuerst“ (3).",
             "Je 1 Punkt für Donnerstag, 15:30 Uhr und langer Tisch im Eingangsbereich in der Spalte „jetzt“ (3).",
             "1 Punkt für Ende 16:10 Uhr. „Am Eingang“ ist gleichwertig, wenn der Ort klar bleibt; richtig gehörte, aber falsch zugeordnete Werte als Teilstärke rückmelden."
-          ]
+          ],
+          "adultOnlySolution": true
         },
         {
           "id": "de-hoernachricht-3",
@@ -5681,7 +5683,8 @@ window.LOTTE_CATALOG = {
             "1 Punkt: eigenes Buch ist nicht nötig, weil Karten Bücher der Bibliothek beschreiben.",
             "1 Punkt: Autorenlesung am Donnerstag am langen Tisch ist unbelegt; Lesung und neuer Kartentausch-Ort nicht vermischen.",
             "1 Punkt: „ab morgen“ ist ohne Datum der gesprochenen Nachricht kein bestimmtes Kalenderdatum."
-          ]
+          ],
+          "adultOnlySolution": true
         },
         {
           "id": "de-hoernachricht-4",
@@ -5697,7 +5700,8 @@ window.LOTTE_CATALOG = {
             "1 Punkt: ein Signal für den neuen Plan, z. B. „Das ändert sich“ oder „findet deshalb statt“.",
             "2 Punkte: gültigen Donnerstag, 15:30 Uhr und langen Tisch im Eingangsbereich vollständig in einem Satz weitergegeben; für zwei richtige Angaben 1 Punkt, für weniger oder eine alte Angabe als gültig 0 Punkte.",
             "Die Hörzahl ist Hilfeinformation ohne Zusatzpunkt; Rechtschreibfehler ohne Bedeutungsverlust nicht als Hörfehler werten."
-          ]
+          ],
+          "adultOnlySolution": true
         }
       ],
       "releaseEvidence": {

@@ -1,50 +1,42 @@
 {
-  "releaseVersion": "2026.11.22-ma-m4-kreislesen.1",
+  "releaseVersion": "2026.11.22-de-hoernachricht-rollen.1",
   "status": "SCOPED_RELEASE_READY",
-  "baselineCommit": "a72beea5c79277949fc181e9e86e1184160f5474",
-  "rollbackCommit": "a72beea5c79277949fc181e9e86e1184160f5474",
-  "topics": 225,
-  "taskObjects": 1032,
-  "newTaskObjects": 3,
-  "newScoredPoints": 0,
-  "targetTopic": "ma-kreisablesen-stationen",
-  "oldTopicsPreserved": 224,
-  "oldTaskObjectsPreserved": 1029,
-  "change": "One new guided circle-reading topic with three optional unscored notes, separate adult solutions/observation and one SVG. Native note/role/print renderer unchanged. One asset-specific min-width override only.",
-  "content": "Independent math/20slice geometry, exact corrected SVG canvas/legend and topic text/role reviews accepted. Three voluntary0point notes at guided5percent reading; equivalent text-data input is not visual performance. No wholeM4/year claim.",
+  "baselineCommit": "afd36ea7dc21506345d681e1a8c39a03f9dae728",
+  "rollbackCommit": "afd36ea7dc21506345d681e1a8c39a03f9dae728",
+  "contentDelta": "Only adultOnlySolution:true on all four existing de-hoernachricht-live tasks. Text, criteria, samples, 20 points and every other topic/task retained.",
+  "validation": {
+    "independentTextRole": "PASS all four full concrete hearing models belong in adult role; four exact flags only",
+    "runtime": "PASS32 targeted checks; baseline four sample displays reproduced; corrected four result texts sample/criteria free, adult models retained, filled reload/export/fresh import preserved",
+    "print": "PASS2child+2adult A4pages opened and visually checked by Root and independent reviewer; script and models only adult",
+    "publication": "READY_NOT_YET_DEPLOYED"
+  },
+  "inheritedBaseline": {
+    "releaseVersion": "2026.11.22-ma-m4-kreislesen.1",
+    "releaseCheckSha256": "991D03D121D39055F20AD2EC8DDCAB49AD85C4CA04CFC067CF868546DC0348C1"
+  },
   "limits": [
-    "Guided5percent reading, not full unassisted diagram competency or wholeM4/year coverage.",
-    "No actual learner visual-reading, text-data use as visual proof, school-sequence, device, physical-printer, screenreader or HTTPS acceptance."
+    "No actual heard delivery, learner performance, school sequence, whole German or annual acceptance",
+    "No HTTPS/live device/printer/screenreader acceptance",
+    "Adult role is not an authentication or time lock; master unchanged"
   ],
-  "publication": "READY_NOT_YET_DEPLOYED",
-  "static": "All224old topics/1029old task objects preserved. One new topic/three unscored notes. One SVG added; only four old files changed. CSS old prefix exact plus one146byte unique-new-SVG min-width rule; renderer unchanged.",
-  "runtime": "Staged evidence: probeExit0; V1 records28 passed assertions but overallExit1 at hidden desktop mobile switch, and criterion-text portions of three combined tests were weak/not adopted. V2 directly checks actual result criteria/sample absence and imported controls, adult/source/print:24remaining checks actualCMD/NodeExit0. Filled new3+old1 answers survive real export/reload/fresh import; no performance marker. No summed unique or one-series overall pass.",
-  "visibility": "Whole diagram320/390 measured with18image hit probes; actual Tab/Enter opens and displays correct SVG200/image-svg document. Separate final question/result-paragraph scroll addendum18observations/162hits actualCMD/NodeExit0; first rounded-wrapper probe Exit1 retained, no product mutation. No general pixel/assistive/device pass.",
-  "print": "Actual child2/adult2 A4 PDFs and all4endrenders independently opened/viewed: full chart/questions, adult models/observation separated, no orphan/clipping/visible faulty glyph. TwoFontBBox parser diagnostics retained; zero glyph-bound outliers alone not treated as quality proof. No physical printer acceptance.",
-  "reviews": [
-    {
-      "path": "output/leitung-20261122/m4-circle-reading-pilot/independent-math-svg-review/manifest.json",
-      "sha256": "B7729EE9B291E0027392B33A3378FD9FE31DED17E1BB12FB90C9E1AAF63385E4"
-    },
-    {
-      "path": "output/leitung-20261122/m4-circle-reading-pilot/independent-math-svg-review/visual-v2-delta/manifest.json",
-      "sha256": "428325AB10BFA167EDD3B3A640BF3C4E4569EC59BD4435359176A1148C2F210D"
-    },
-    {
-      "path": "output/leitung-20261122/m4-circle-reading-app-draft/independent-text-role-review/manifest.json",
-      "sha256": "6F66255B71D398D0F6C86346954E3DFBFD989CBFE7510B19F72EA70822CDF066"
-    },
-    {
-      "path": "output/leitung-20261122/m4-circle-reading-release/independent-static-integration-review/manifest.json",
-      "sha256": "6DF1A286B3B21B1465C40963A5FA680A92741639A6B0AC9F40DC7F321FE27D13"
-    },
-    {
-      "path": "output/leitung-20261122/m4-circle-reading-release/independent-runtime-print-review/manifest.json",
-      "sha256": "C71BC7F78B9EB33D958FBE42DCBA94E00BE74CA9B8F4E3615543A29FF8D8B5AE"
-    },
-    {
-      "path": "output/leitung-20261122/m4-circle-reading-release/independent-runtime-print-review/text-scroll-addendum/manifest.json",
-      "sha256": "8034EE61A48A477B760AC67C4638902119D968CA415022F6C4F7E13B5C095358"
-    }
+  "evidence": {
+    "independent-role-review/manifest.json": "768BD8EDEE761A23ABF7AE8FF860F6DF5A9ECBE5E385B92BF24A1BED72D1EBB3",
+    "independent-runtime-review/manifest.json": "B3935A78350E13AD8513FB9C39AF02101344E134EF10897DEF54FEDB1BEB4035"
+  },
+  "runtimeEvidence": {
+    "scriptSha256": "809019FBE6F7BE4BD60C459CFCC916023505B5C9F3616C14D596C1117E7B9369",
+    "resultSha256": "340A51D5558B4868488328A2A69ACB31DC9E6F8BFFB6125040733DCEED8BE926",
+    "rootFreezeSha256": "1236566D9F37723AF59C1EDCB2891128EAE1A159C1A16F9F41C68D595F0CDA18",
+    "actualCmdExit": 0,
+    "toolChunk": "7573bf",
+    "nodeExit": 0
+  },
+  "boundaries": [
+    "32checks are a targeted single role series, not full product/year acceptance",
+    "320/390 screens show last complete neutral result; first paragraph viewport+center hit measured, no full-question/element scroll guarantee",
+    "Fresh import rechecks exact field values and no sample nodes; full criteria string absence checked before export",
+    "catalog.version changed as explicit release metadata; reversal of entire catalog needs four flags AND version restored",
+    "V1 builder wrapper failure Exit1 before catalog write retained, not a failed browser run",
+    "No actual hearing/child, HTTPS/live device/printer/screenreader/full German/year acceptance"
   ]
 }

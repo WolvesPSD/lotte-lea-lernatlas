@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="70 0 500 500" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
+  <title id="title">Stationswahl: vier Kategorien in einem Kreisdiagramm</title>
+  <desc id="desc">Ein fertiger Kreis mit zwanzig gleich großen Hilfsteilen, ab 12 Uhr im Uhrzeigersinn. A umfasst sechs, B drei, C sieben und D vier Hilfsteile. Ein Hilfsteil entspricht fünf Prozent. Die Kategorien sind durch Buchstaben und Farben gekennzeichnet.</desc>
+  <rect x="80" y="0" width="480" height="500" fill="#ffffff"/>
+  <text x="310" y="28" text-anchor="middle" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#152238">Stationswahl</text>
+  <text x="310" y="52" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#334155">20 gleich große Hilfsteile · ein Hilfsteil = 5 %</text>
+  <g id="circle" transform="translate(-40,0)" stroke="#ffffff" stroke-width="2">
+    <g id="A" data-category="A" fill="#2f6fed">
+      <path data-slice="01" data-category="A" data-percent="5" d="M300 300 L300 120 A180 180 0 0 1 355.62 128.81 Z"/>
+      <path data-slice="02" data-category="A" data-percent="5" d="M300 300 L355.62 128.81 A180 180 0 0 1 405.80 154.38 Z"/>
+      <path data-slice="03" data-category="A" data-percent="5" d="M300 300 L405.80 154.38 A180 180 0 0 1 445.62 194.20 Z"/>
+      <path data-slice="04" data-category="A" data-percent="5" d="M300 300 L445.62 194.20 A180 180 0 0 1 471.19 244.38 Z"/>
+      <path data-slice="05" data-category="A" data-percent="5" d="M300 300 L471.19 244.38 A180 180 0 0 1 480 300 Z"/>
+      <path data-slice="06" data-category="A" data-percent="5" d="M300 300 L480 300 A180 180 0 0 1 471.19 355.62 Z"/>
+    </g>
+    <g id="B" data-category="B" fill="#ef9b26">
+      <path data-slice="07" data-category="B" data-percent="5" d="M300 300 L471.19 355.62 A180 180 0 0 1 445.62 405.80 Z"/>
+      <path data-slice="08" data-category="B" data-percent="5" d="M300 300 L445.62 405.80 A180 180 0 0 1 405.80 445.62 Z"/>
+      <path data-slice="09" data-category="B" data-percent="5" d="M300 300 L405.80 445.62 A180 180 0 0 1 355.62 471.19 Z"/>
+    </g>
+    <g id="C" data-category="C" fill="#2f9c72">
+      <path data-slice="10" data-category="C" data-percent="5" d="M300 300 L355.62 471.19 A180 180 0 0 1 300 480 Z"/>
+      <path data-slice="11" data-category="C" data-percent="5" d="M300 300 L300 480 A180 180 0 0 1 244.38 471.19 Z"/>
+      <path data-slice="12" data-category="C" data-percent="5" d="M300 300 L244.38 471.19 A180 180 0 0 1 194.20 445.62 Z"/>
+      <path data-slice="13" data-category="C" data-percent="5" d="M300 300 L194.20 445.62 A180 180 0 0 1 154.38 405.80 Z"/>
+      <path data-slice="14" data-category="C" data-percent="5" d="M300 300 L154.38 405.80 A180 180 0 0 1 128.81 355.62 Z"/>
+      <path data-slice="15" data-category="C" data-percent="5" d="M300 300 L128.81 355.62 A180 180 0 0 1 120 300 Z"/>
+      <path data-slice="16" data-category="C" data-percent="5" d="M300 300 L120 300 A180 180 0 0 1 128.81 244.38 Z"/>
+    </g>
+    <g id="D" data-category="D" fill="#a65bb8">
+      <path data-slice="17" data-category="D" data-percent="5" d="M300 300 L128.81 244.38 A180 180 0 0 1 154.38 194.20 Z"/>
+      <path data-slice="18" data-category="D" data-percent="5" d="M300 300 L154.38 194.20 A180 180 0 0 1 194.20 154.38 Z"/>
+      <path data-slice="19" data-category="D" data-percent="5" d="M300 300 L194.20 154.38 A180 180 0 0 1 244.38 128.81 Z"/>
+      <path data-slice="20" data-category="D" data-percent="5" d="M300 300 L244.38 128.81 A180 180 0 0 1 300 120 Z"/>
+    </g>
+    <circle cx="300" cy="300" r="180" fill="none" stroke="#152238" stroke-width="3"/>
+    <g id="sector-boundaries" fill="none" stroke="#152238" stroke-width="3">
+      <line data-boundary="A-B" x1="300" y1="300" x2="471.19" y2="355.62"/>
+      <line data-boundary="B-C" x1="300" y1="300" x2="355.62" y2="471.19"/>
+      <line data-boundary="C-D" x1="300" y1="300" x2="128.81" y2="244.38"/>
+      <line data-boundary="D-A" x1="300" y1="300" x2="300" y2="120"/>
+    </g>
+    <g font-family="system-ui,sans-serif" font-size="30" font-weight="800" text-anchor="middle" dominant-baseline="middle" fill="#152238" stroke="#ffffff" stroke-width="6" paint-order="stroke">
+      <text data-label="A" x="398" y="235">A</text>
+      <text data-label="B" x="380" y="380">B</text>
+      <text data-label="C" x="220" y="380">C</text>
+      <text data-label="D" x="202" y="235">D</text>
+    </g>
+  </g>
+  <g id="legend" font-family="system-ui,sans-serif" font-size="15" fill="#152238">
+    <rect x="440" y="118" width="18" height="18" rx="3" fill="#2f6fed"/><text x="467" y="132">A</text>
+    <rect x="440" y="150" width="18" height="18" rx="3" fill="#ef9b26"/><text x="467" y="164">B</text>
+    <rect x="440" y="182" width="18" height="18" rx="3" fill="#2f9c72"/><text x="467" y="196">C</text>
+    <rect x="440" y="214" width="18" height="18" rx="3" fill="#a65bb8"/><text x="467" y="228">D</text>
+    <text x="440" y="270" font-size="16">Ein Hilfsteil</text>
+    <text x="440" y="289" font-size="16">entspricht 5 %.</text>
+  </g>
+</svg>

@@ -1,33 +1,50 @@
 {
-  "releaseVersion": "2026.11.22-ma-m3-gespraech.1",
+  "releaseVersion": "2026.11.22-ma-m4-kreislesen.1",
   "status": "SCOPED_RELEASE_READY",
-  "baselineCommit": "dc8b98e2ea5159dab4f02e7799751f3adf45ca0e",
-  "rollbackCommit": "dc8b98e2ea5159dab4f02e7799751f3adf45ca0e",
-  "topics": 224,
-  "taskObjects": 1029,
-  "change": "One voluntary unscored cooperative practice block on existing ma-umfang-id-5 context plus exact source note/date. All1029 old task objects and223 other topics unchanged.",
-  "contentReview": "Independent text/action/role and exact schema/text adapter review accepted. Three voluntary steps at existing E; all six written tasks/20points unchanged.",
+  "baselineCommit": "a72beea5c79277949fc181e9e86e1184160f5474",
+  "rollbackCommit": "a72beea5c79277949fc181e9e86e1184160f5474",
+  "topics": 225,
+  "taskObjects": 1032,
+  "newTaskObjects": 3,
+  "newScoredPoints": 0,
+  "targetTopic": "ma-kreisablesen-stationen",
+  "oldTopicsPreserved": 224,
+  "oldTaskObjectsPreserved": 1029,
+  "change": "One new guided circle-reading topic with three optional unscored notes, separate adult solutions/observation and one SVG. Native note/role/print renderer unchanged. One asset-specific min-width override only.",
+  "content": "Independent math/20slice geometry, exact corrected SVG canvas/legend and topic text/role reviews accepted. Three voluntary0point notes at guided5percent reading; equivalent text-data input is not visual performance. No wholeM4/year claim.",
   "limits": [
-    "End8 outlook in7/8, unknown actual grade7 sequence.",
-    "No new tasks, automatic points or practice completion; original six written tasks/20points remain separate.",
-    "No actual child/partner dialogue, collection-use, wholeM3/year, device/printer/screenreader/HTTPS acceptance."
+    "Guided5percent reading, not full unassisted diagram competency or wholeM4/year coverage.",
+    "No actual learner visual-reading, text-data use as visual proof, school-sequence, device, physical-printer, screenreader or HTTPS acceptance."
   ],
   "publication": "READY_NOT_YET_DEPLOYED",
-  "staticReview": "118files,115unchanged from M2 baseline; no assets/renderer/CSS change. All223 other topics and1029 old task objects structurally identical.",
-  "runtimeReview": "Staged scoped evidence: V1 nineteen passed/one failed reload-selector assertion/Exit1; V2 seventeen passed/one failed closed-source-detail assertion/Exit1; V3 eleven source/print rest checks actual CMD/Node Exit0. Six step observations/54 actual hit probes at320/390; filled-answer reload, export and fresh import of cleared existing task state, adult criteria and exact source/date. No summed unique checks or one-series overall pass; no filled-answer import claim.",
-  "printReview": "Actual child3+adult3 A4 PDFs opened and all six endrenders independently viewed. Complete conversation sections, correct roles, original tasks/20points retained, no orphan footer. No physical-printer or actual dialogue acceptance.",
+  "static": "All224old topics/1029old task objects preserved. One new topic/three unscored notes. One SVG added; only four old files changed. CSS old prefix exact plus one146byte unique-new-SVG min-width rule; renderer unchanged.",
+  "runtime": "Staged evidence: probeExit0; V1 records28 passed assertions but overallExit1 at hidden desktop mobile switch, and criterion-text portions of three combined tests were weak/not adopted. V2 directly checks actual result criteria/sample absence and imported controls, adult/source/print:24remaining checks actualCMD/NodeExit0. Filled new3+old1 answers survive real export/reload/fresh import; no performance marker. No summed unique or one-series overall pass.",
+  "visibility": "Whole diagram320/390 measured with18image hit probes; actual Tab/Enter opens and displays correct SVG200/image-svg document. Separate final question/result-paragraph scroll addendum18observations/162hits actualCMD/NodeExit0; first rounded-wrapper probe Exit1 retained, no product mutation. No general pixel/assistive/device pass.",
+  "print": "Actual child2/adult2 A4 PDFs and all4endrenders independently opened/viewed: full chart/questions, adult models/observation separated, no orphan/clipping/visible faulty glyph. TwoFontBBox parser diagnostics retained; zero glyph-bound outliers alone not treated as quality proof. No physical printer acceptance.",
   "reviews": [
     {
-      "path": "output/leitung-20261122/m3-umfang-cooperation-draft/independent-text-action-review/manifest.json",
-      "sha256": "70F653A4F4A4D883D3E8D147ED67C7E5171A2F715D97479D920DF71F15BC3509"
+      "path": "output/leitung-20261122/m4-circle-reading-pilot/independent-math-svg-review/manifest.json",
+      "sha256": "B7729EE9B291E0027392B33A3378FD9FE31DED17E1BB12FB90C9E1AAF63385E4"
     },
     {
-      "path": "output/leitung-20261122/m3-umfang-cooperation-draft/independent-static-integration-review/manifest.json",
-      "sha256": "0C74BF0AA77B174C9DF25ACB017083343C39489C087A2AC2AF2F720E4540D032"
+      "path": "output/leitung-20261122/m4-circle-reading-pilot/independent-math-svg-review/visual-v2-delta/manifest.json",
+      "sha256": "428325AB10BFA167EDD3B3A640BF3C4E4569EC59BD4435359176A1148C2F210D"
     },
     {
-      "path": "output/leitung-20261122/m3-umfang-cooperation-draft/independent-runtime-print-review/manifest.json",
-      "sha256": "9479975F9D5A88B178DE344169C84355FE4973E8E7C75672F13F5D0A65808B4A"
+      "path": "output/leitung-20261122/m4-circle-reading-app-draft/independent-text-role-review/manifest.json",
+      "sha256": "6F66255B71D398D0F6C86346954E3DFBFD989CBFE7510B19F72EA70822CDF066"
+    },
+    {
+      "path": "output/leitung-20261122/m4-circle-reading-release/independent-static-integration-review/manifest.json",
+      "sha256": "6DF1A286B3B21B1465C40963A5FA680A92741639A6B0AC9F40DC7F321FE27D13"
+    },
+    {
+      "path": "output/leitung-20261122/m4-circle-reading-release/independent-runtime-print-review/manifest.json",
+      "sha256": "C71BC7F78B9EB33D958FBE42DCBA94E00BE74CA9B8F4E3615543A29FF8D8B5AE"
+    },
+    {
+      "path": "output/leitung-20261122/m4-circle-reading-release/independent-runtime-print-review/text-scroll-addendum/manifest.json",
+      "sha256": "8034EE61A48A477B760AC67C4638902119D968CA415022F6C4F7E13B5C095358"
     }
   ]
 }

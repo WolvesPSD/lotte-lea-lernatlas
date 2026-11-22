@@ -398,3 +398,6 @@ body[data-print-mode^="child"] #print-surface .print-topic:has(.print-task[data-
 @media print { #print-surface .print-topic.print-appell-overview-adult { font-size:10pt; } }
 
 @media print{body[data-print-mode^='adult'] .print-task[data-task-id^='de-infinitivkomma-']{break-inside:avoid;page-break-inside:avoid}}
+
+/* New standalone circle only: retain existing diagram sizing. */
+.learning-diagram img[src="assets/ma-kreisanteile-stationen.svg"]{min-width:0}

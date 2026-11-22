@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.22-ma-m3-gespraech.1",
+  "version": "2026.11.22-ma-m4-kreislesen.1",
   "status": "familienversion",
   "subjects": [
     {
@@ -23994,6 +23994,103 @@ window.LOTTE_CATALOG = {
           "path": "output/leitung-20261122/m2-gruppenprozess-paper-app-draft/decision.json",
           "sha256": "5D2000257E7068B6486EAAF14D18FB96B178676953E2A675B2122353156FA610"
         }
+      }
+    },
+    {
+      "id": "ma-kreisablesen-stationen",
+      "subjectId": "ma",
+      "title": "Stationswahl: einen fertigen Kreis lesen",
+      "released": true,
+      "levelStatus": "grade78-flex",
+      "scope": "Freiwilliger angeleiteter 7/8-Lesefall zum Zielhorizont Ende Klasse 8 mit 5-%-Hilfen. Die konkrete Schulfolge ist unbekannt.",
+      "prerequisite": "Du kannst kleine gleich grosse Teile abzählen. Die Legende hilft dir beim Zuordnen zu Prozenten.",
+      "introduction": "Die Stationswahl und alle Zahlen sind erfunden. Lies zuerst die Grafik. Der Kreis zeigt ein Ganzes mit 20 gleich grossen Hilfsteilen. Ein Hilfsteil entspricht 5 %. Die Buchstaben helfen auch, wenn Farben schlecht sichtbar sind. Du brauchst keinen neuen Kreis zu zeichnen und keine Winkel zu berechnen.",
+      "diagram": {
+        "path": "assets/ma-kreisanteile-stationen.svg",
+        "alt": "Kreisdiagramm zur erfundenen Stationswahl mit den Buchstaben A bis D und kleinen Hilfsteilen.",
+        "caption": "Ein Hilfsteil entspricht 5 %. Alle 20 Hilfsteile gehören zum ganzen Kreis.",
+        "textAlternative": "Falls die Grafik nicht lesbar ist: A hat 6, B hat 3, C hat 7 und D hat 4 gleich grosse Hilfsteile. Ein Hilfsteil entspricht 5 %. Das ist ein Textdatenweg; er zeigt nicht, dass du die Werte am Bild abgelesen hast."
+      },
+      "tasks": [
+        {
+          "id": "ma-kreisablesen-b",
+          "kind": "reflection",
+          "points": 0,
+          "unscoredNote": true,
+          "adultOnlySolution": true,
+          "writingLines": 3,
+          "inputRows": 4,
+          "prompt": "B · Wie gross ist der Anteil von B in Prozent? Zeige ihn zusätzlich an den kleinen Hilfsteilen. Du kannst mündlich oder auf Papier antworten; eine Notiz hier ist freiwillig.",
+          "sample": "B: 3 Hilfsteile entsprechen 15 %.",
+          "criteria": [
+            "3 Hilfsteile für B am Diagramm zeigen und mit je 5 % zu 15 % zuordnen."
+          ]
+        },
+        {
+          "id": "ma-kreisablesen-c",
+          "kind": "reflection",
+          "points": 0,
+          "unscoredNote": true,
+          "adultOnlySolution": true,
+          "writingLines": 3,
+          "inputRows": 4,
+          "prompt": "C · Wie gross ist der Anteil von C in Prozent? Zeige ihn zusätzlich an den kleinen Hilfsteilen. Du kannst mündlich oder auf Papier antworten; eine Notiz hier ist freiwillig.",
+          "sample": "C: 7 Hilfsteile entsprechen 35 %.",
+          "criteria": [
+            "7 Hilfsteile für C am Diagramm zeigen und mit je 5 % zu 35 % zuordnen."
+          ]
+        },
+        {
+          "id": "ma-kreisablesen-d",
+          "kind": "reflection",
+          "points": 0,
+          "unscoredNote": true,
+          "adultOnlySolution": true,
+          "writingLines": 3,
+          "inputRows": 4,
+          "prompt": "D · Wie gross ist der Anteil von D in Prozent? Wenn der ganze Kreis 200 Antworten darstellt: Wie viele Antworten gehören dann zu D? Du kannst mündlich oder auf Papier antworten; eine Notiz hier ist freiwillig.",
+          "sample": "D: 4 Hilfsteile entsprechen 20 %. 20 % von 200 sind 40 Antworten.",
+          "criteria": [
+            "4 Hilfsteile für D am Diagramm zeigen und zu 20 % zuordnen.",
+            "Den Übergang zu 40 von 200 Antworten nachvollziehbar erklären."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Deinen Ableseweg zeigen",
+        "unscored": true,
+        "childNote": "Die drei Fragen sind freiwillig und ohne Punkte. Antworte mündlich oder auf Papier; die Notizfelder kannst du leer lassen. Du darfst Hilfe nutzen, pausieren oder aufhören.",
+        "childSteps": [
+          "Zeige am fertigen Bild, welche Hilfsteile du für B, C und D abzählst. Du darfst sie markieren oder deinen Weg mündlich erklären.",
+          "Wenn das Bild nicht lesbar ist, nutze den Textdatenweg. Sage ehrlich dazu, ob du das Bild, die Textdaten oder Hilfe genutzt hast. Wenn niemand zusieht, bleibt das Zeigen unbeobachtet."
+        ],
+        "adultNote": "Die vorhandenen Fragen freiwillig und unbepunktet begleiten. Keine Partnerpflicht. Eine Notiz oder eine reine Antwortzahl belegt allein kein visuelles Ablesen.",
+        "adultGuide": [
+          "Zuerst fragen: „Welche Hilfsteile hast du gezählt?“ Markierung oder Erklärung ansehen. Nicht vorsagen; bei Bedarf auf „1 Hilfsteil = 5 %“ verweisen.",
+          "Mündliche und Papierantworten sind gleichermassen möglich. Verwendete Hilfe getrennt benennen. Bei Textdaten als Textdatenweg einordnen; ohne Beobachtung keine visuelle Handlung bestätigen."
+        ],
+        "adultCriteria": [
+          "Werden für B und C die jeweiligen Hilfsteile am Bild gezeigt und mit der 5-%-Legende zugeordnet?",
+          "Wird bei D der Ableseweg und der anschliessende Übergang zur Anzahl von 200 Antworten nachvollziehbar?",
+          "Bildweg, Textdatenweg, gegebene Hilfe und nicht beobachtete Handlung auseinanderhalten. Keine Punkte, Note oder automatische Erledigtmarkierung."
+        ],
+        "childHandoutsNote": "Hier kannst du dasselbe Kreisdiagramm einzeln zur Vergrösserung öffnen.",
+        "childHandoutsPrintNote": "Dasselbe Kreisdiagramm kann über den Link einzeln zur Vergrösserung geöffnet werden. Die Grafik ist auch auf diesem Blatt eingebunden.",
+        "childHandouts": [
+          {
+            "path": "assets/ma-kreisanteile-stationen.svg",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-kreisanteile-stationen.svg",
+            "label": "Kreisdiagramm einzeln öffnen und vergrössern"
+          }
+        ]
+      },
+      "releaseEvidence": {
+        "checkedAt": "2026-11-22",
+        "competencyRef": "PDF-S. 2: Mathematik Klasse 7 ab 2026/27. § 2.2.4 PDF-S. 26–27, Klassenstufe 8: prozentuale Anteile aus Kreis- und Streifendiagrammen ablesen. Eigener fiktiver, angeleiteter 5-%-Lesefall im 7/8-Rahmen; keine bestätigte Klasse-7-Unterrichtsfolge.",
+        "reviewNote": "Eigene Stationswahl mit drei freiwilligen unbewerteten Notizen. Bildweg und Textdatenersatz getrennt; Notizen belegen keine tatsächliche Ableseleistung. Quelldaten und Rollenbelege in den gesonderten Releaseprüfungen gebunden.",
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "primarySha256": "91838D21BB7035A3E30890E837A47425B3766F3A38066AF6559F167AFC399D26"
       }
     }
   ]

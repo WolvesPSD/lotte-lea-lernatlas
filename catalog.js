@@ -23679,6 +23679,74 @@ window.LOTTE_CATALOG=Object.freeze({
         "gradeBand": "7/8, keine getrennte Klasse7-Folge",
         "reviewNote": "Vorhandene begrenzte Manuskript-, Quellen- und lokale Darstellungsprüfungen als Herkunft. Wiederholung und Festigung für Klassen7/8; konkrete Unterrichtsfolge unbekannt. Drei offene Hauptantworten werden manuell besprochen; der eigene Papiersatz ist freiwillig und unbepunktet. Tatsächliche Kinderleistung, externe Fach-/Altersprüfung, freie Anwendung und Jahresabnahme bleiben offen."
       }
+    },
+    {
+      "id": "fr-hoeren-handeln-papier",
+      "subjectId": "fr",
+      "title": "Hören und auf dem Feld handeln",
+      "released": true,
+      "levelStatus": "grade78-flex",
+      "materialOnly": true,
+      "scope": "Freiwilliger gestützter Einstieg mit zwei gehörten Unterrichtsanweisungen im Zielraum bis Ende Klasse 8. Die konkrete Unterrichtsfolge ist unbekannt. Keine Punkte oder Schulnote; kein vollständiger Hör- oder Jahresnachweis.",
+      "prerequisite": "Eine französischkundige Person muss beide Anweisungen langsam, deutlich und natürlich sprechen können. Ohne geeignete Darbietung oder zugängliches Feld bleibt der betroffene Anteil nicht erhoben. Eine schriftliche Vorlage ersetzt kein gehörtes Modell.",
+      "introduction": "Du arbeitest auf einer getrennten Kinderkarte mit einem frischen Zeichenfeld. Eine erwachsene Person gibt sie dir und spricht zwei kurze französische Aufträge vor. Du musst nichts auf Französisch sagen oder übersetzen. Die Erwachsenenkarte bleibt verdeckt.",
+      "tasks": [],
+      "practice": {
+        "title": "Zuhören und auf dem Kinderfeld handeln",
+        "unscored": true,
+        "childNote": "Die Karten erhältst du von einer erwachsenen Person. Es gibt hier keine Antwortfelder. Öffnen und Auswählen werden nicht als Hörleistung oder erledigte Praxis gewertet.",
+        "childSteps": [
+          "Bitte eine französischkundige Person um die Kinderkarte und ein frisches Feld. Die Aufträge und Übersetzungen bleiben währenddessen bei der Begleitung.",
+          "Höre jeweils den kurzen Auftrag und handle danach auf dem Feld. Du darfst dir Zeit lassen, um Wiederholung bitten, Hilfe bekommen, eine Pause machen oder aufhören.",
+          "Wenn Markieren für dich nicht gut möglich ist, vereinbart vorher eine zugängliche andere Antwortweise. Es zählt nur, was dadurch tatsächlich sichtbar wird. Schönes Zeichnen und Schnelligkeit sind nicht das Ziel.",
+          "Die Begleitung beschreibt, was wirklich zu sehen war und welche Hilfe du bekommen hast. Du musst keine Schwierigkeit nennen. Namen, Antworten, Fotos und Aufnahmen brauchst du nicht zu versenden."
+        ],
+        "adultNote": "Bereiten Sie Kinder- und Erwachsenenkarte getrennt vor. Die Erwachsenenkarte enthält die zu sprechenden Sätze, Übersetzungen und Beobachtungshinweise; sie bleibt während der Durchführung verdeckt. Die Links sind keine technische Zugriffssperre.",
+        "adultGuide": [
+          "Lesen Sie die Erwachsenenkarte vollständig vor der Durchführung. Nur ein geeignetes französischkundiges menschliches Modell verwenden; keine deutsche Lautschrift oder Computerstimme als Ersatz. Bei unsicherer Aussprache oder Darbietung nicht erhoben statt Kinderfehler eintragen.",
+          "Vorher Sichtbarkeit und Zugänglichkeit des unbeschrifteten Felds sowie nötige Motorikalternativen klären. Während des Auftrags keine Zielzeichnung durch Blick, Finger, Geste oder Übersetzung verraten. Wiederholung und zusätzliche Erklärung, Vormachen oder Motorikhilfe getrennt festhalten.",
+          "Blosses Zeigen kann eine Zielauswahl zeigen, aber nicht die verlangte Markierhandlung. Eine fremd ausgeführte Bewegung ist Hilfe. Nach zusätzlicher Erklärung ausgeführtes Handeln beweist nicht rückwirkend selbstständiges Verstehen der ursprünglichen Darbietung.",
+          "Bekannte Aufträge nach Besprechung oder sichtbarer Lösung sind kein frischer unabhängiger Ersthörnachweis. Es gibt keine Punkte, keine Pflichtserie und keinen automatischen Leistungsstatus. Das PDF erläutert die konkreten Beobachtungs- und Feedbackmöglichkeiten."
+        ],
+        "adultCriteria": [
+          "Geeignete menschliche Darbietung und zugängliche Handlungsmöglichkeit tatsächlich vorhanden; andernfalls betroffenen Anteil nicht erhoben lassen.",
+          "Nur die beobachtete Zielauswahl und eigene Handlung beschreiben; tatsächlich gegebene Hilfe benennen. Keine geometrische Genauigkeit, Schönheit oder Geschwindigkeit bewerten.",
+          "Zwei Reaktionen nicht als allgemeine Hörkompetenz, vollständiges H-S5, schulische Jahresabdeckung oder abgeschlossenen Lernerfolg ausgeben."
+        ],
+        "handoutsNote": "Nur die Kinderkarte ausgeben; die Erwachsenenkarte mit Anweisungen und Übersetzungen bleibt bei der Begleitung. Beide PDFs separat drucken. Die App verbirgt diese Links in der Kinderansicht, bietet aber keine technische Zugriffssperre.",
+        "handouts": [
+          {
+            "path": "assets/fr-hoeren-handeln/01-kinderkarte.pdf",
+            "label": "Kinderkarte mit frischem Zeichenfeld"
+          },
+          {
+            "path": "assets/fr-hoeren-handeln/02-erwachsenenkarte.pdf",
+            "label": "Getrennte Karte für die Begleitung"
+          }
+        ]
+      },
+      "sourceBindings": {
+        "output/leitung-20261122/fr-h-s5-pilot/KINDERKARTE.md": "4B7BB21BFD47F730120A68A7832BF08BCC34A99B62ACA08B8D6851784F2B071A",
+        "output/leitung-20261122/fr-h-s5-pilot/ERWACHSENENKARTE.md": "53F9799133E2FDFB8D181921FF83B1B67F064A09057222A695D2B64505AE39DC",
+        "output/leitung-20261122/fr-h-s5-pilot/FELD.svg": "DB7A4B359E13843CE2A0FEE76CA1035BF7BCA12C4E95476ED3ED49B50AF507AB",
+        "output/leitung-20261122/fr-h-s5-pilot/app-topic-draft.json": "C1994B3118BD0F1E05E60BBCE064B1EDEC5DD2849E01380284AB20F9C3E808A0",
+        "output/leitung-20261122/fr-h-s5-pilot/independent-app-text/review.json": "A9F3046EBAFCD53015F91FEB9EDC384D675C0C8749446F3140032170DA456C19",
+        "output/leitung-20261122/fr-h-s5-pilot/independent-subject/review.json": "7129F8F31178D5AE376D6EDB05966EB4DFEE19191D94129AF8C5435DDCF682B3",
+        "output/leitung-20261122/fr-h-s5-pilot/independent-language/review.json": "FE74686A0DE2499D9EECC0996AFC7B8AAF87601D8DD4B440372BC8EDD254DBA9",
+        "output/leitung-20261122/fr-h-s5-pilot/pdf-output-v2/manifest.json": "3EBB48A0AAD3C19622F4504C890BEA0B8ECD8F2E49FC603141A03D7B5595460A",
+        "output/leitung-20261122/fr-h-s5-pilot/pdf-output-v2/output-delta.json": "76E5B0475720746D4F7E80F20F221E26303025ECCBF5BD1E0DF4D5D870F8D3C3",
+        "output/leitung-20261122/fr-h-s5-pilot/independent-pdf-output-v2/review.json": "05C317A1FD19C86384655CAC4EFD8707EDD2312887BEB3D35DC7CE2B1495EF62",
+        "output/leitung-20261122/fr-h-s5-pilot/root-pdf-v2-acceptance.json": "1A1D728EB3E19431A17BFF8703B21B34BAF56D4776C84341FAFF0E6946E0C726",
+        "output/leitung-20261122/fr-h-s5-pilot/independent-web-static/review.json": "9ED83B77663EC69B21882607D246223DB8BC4618FE1AC2BEE5B68C06CF6DAE5A",
+        "output/leitung-20261122/fr-h-s5-pilot/independent-runtime-evidence/review.json": "96DD208547747C1FADB972C0E554671EE900E5EFDF2AE18E4DC9C48BAC06A391",
+        "output/leitung-20261122/fr-h-s5-pilot/independent-runtime-evidence/link-scroll-addendum/review.json": "F8C4D2E6BE06AACC5506E8754E5BDDB017739FB658465B3BADC1A6716B536A2D"
+      },
+      "releaseEvidence": {
+        "checkedAt": "2026-11-22",
+        "competencyRef": "French 2026, §3.2.1/PDF59: simple classroom utterances understood and acted on; end8 horizon, grade7 introduction2026/27, actual school sequence unknown.",
+        "primarySha256": "5F402E60C107569F057DEA13E9423B2D8A0EC8669410B9BE79BA180FC36EDAA1",
+        "reviewNote": "Scoped independent text/source/action and local A4 PDF V2 reviews passed. Exact baseline preservation and candidate integration independently checked. Twenty targeted file-runtime/state/import/role checks passed with Exit0; twelve separate scroll/click/load checks passed with Exit0 and independent evidence addendum. Four actual A4 overview PDFs/eight pages reviewed for roles, glyph bounds and layout. No actual French human model, child action, physical print, real device, screenreader, HTTPS, complete H-S5 or annual acceptance; native PDF viewer painting not established by the headless click check."
+      }
     }
   ]
 });

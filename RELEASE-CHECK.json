@@ -1,70 +1,71 @@
 {
-  "builtAt": "2026-11-22T09:10:43.966750+00:00",
-  "releaseVersion": "2026.11.22-m4-vortrag.1",
+  "builtAt": "2026-11-22T10:21:42.381374+00:00",
+  "releaseVersion": "2026.11.22-fr-hoeren-handeln.1",
   "status": "VERIFIED_SCOPED_LOCAL_PREPUBLICATION_CHECKPOINT",
-  "baselineRelease": "2026.11.21-h02e-komma.1",
-  "baselineCommit": "df4deb51762cb3976638df011926f3200e921f51",
-  "baselineTree": "d4afc019fc545ecf83a79f4568897811ac0ff2e4",
-  "baselineCandidate": "output/release-candidate-h02e-komma-20261121-v2",
-  "baselineCatalogSha256": "5E9AFE2196B417F8622FF3FCB531AD18EA32FFD7734214D6F0ED5626DF681CC4",
-  "masterCatalogSha256": "9CD4315187F20F7B62E37683F87710B2351886F3E1892EE80312E8EF3AFBF3EA",
-  "topics": 221,
-  "answerFields": 1029,
-  "oldTopicsPreserved": 219,
-  "oldAnswerFieldsPreserved": 1022,
+  "baselineCommit": "c7db845dbf922423448db56829f1a071d8d57199",
+  "baselineRelease": "2026.11.22-m4-vortrag.1",
+  "rollbackCommit": "c7db845dbf922423448db56829f1a071d8d57199",
   "newTopicIds": [
-    "ma-prozentstruktur-bruchwege"
+    "fr-hoeren-handeln-papier"
   ],
-  "newTaskIds": [
-    "ma-prozentstruktur-1",
-    "ma-prozentstruktur-2",
-    "ma-prozentstruktur-3",
-    "ma-prozentstruktur-4",
-    "ma-prozentstruktur-5",
-    "ma-prozentstruktur-variante",
-    "ma-prozentstruktur-selbstcheck"
-  ],
-  "sourceBindings": {
-    "wissen/recherche/mathematik-m4-prozentstruktur-kinderblatt-2026.md": "AB15EBDB9F12E499D111C684916C91E9E97CCDCF48C09F6D976C8E58BDD11EAC",
-    "wissen/recherche/mathematik-m4-prozentstruktur-erwachsenenloesung-2026.md": "78A002C9A12F6521185C2104703F8513CDDCE4E1A179A77238115CF9D8B7899F",
-    "wissen/recherche/mathematik-m4-prozentstruktur-qa-2026.md": "0AE986B3E61E544D6DE07A2DA6F5A199E6C8031DA510708E6709E7A04FAF36FD"
+  "newTaskIds": [],
+  "topics": 222,
+  "answerFields": 1029,
+  "oldTopicsPreserved": 221,
+  "oldAnswerFieldsPreserved": 1029,
+  "newAssetSha256": {
+    "assets/fr-hoeren-handeln/01-kinderkarte.pdf": "5773975CDC59F0E28050348EC9A0E97656116483AD8C1DA0CB71364A194F0117",
+    "assets/fr-hoeren-handeln/02-erwachsenenkarte.pdf": "801247CB418F47E09E2420F54BDD8A0DE4341A4993ECD2C82E075F3EEC736E13"
   },
-  "changeLog": [
-    "Added the existing M4 percentage-relationship offer with seven tasks and unchanged 20 main plus 6 optional points; the voluntary self-check has no points. End-of-grade8 outlook, no claimed grade7 gap closure.",
-    "Synchronized two D-L3 reflection fields with the independently reviewed child/adult manuscripts: helpful or successful moments are valid alongside difficulties. Written6 and observed oral16 points retained.",
-    "All1022 previous tasks and219 previous topics retained exactly; the remaining previous topic differs only in the two approved reflection fields. Renderer, CSS,105 assets and state schema unchanged."
-  ],
+  "sourceBindings": {
+    "output/leitung-20261122/fr-h-s5-pilot/KINDERKARTE.md": "4B7BB21BFD47F730120A68A7832BF08BCC34A99B62ACA08B8D6851784F2B071A",
+    "output/leitung-20261122/fr-h-s5-pilot/ERWACHSENENKARTE.md": "53F9799133E2FDFB8D181921FF83B1B67F064A09057222A695D2B64505AE39DC",
+    "output/leitung-20261122/fr-h-s5-pilot/FELD.svg": "DB7A4B359E13843CE2A0FEE76CA1035BF7BCA12C4E95476ED3ED49B50AF507AB",
+    "output/leitung-20261122/fr-h-s5-pilot/app-topic-draft.json": "C1994B3118BD0F1E05E60BBCE064B1EDEC5DD2849E01380284AB20F9C3E808A0",
+    "output/leitung-20261122/fr-h-s5-pilot/independent-app-text/review.json": "A9F3046EBAFCD53015F91FEB9EDC384D675C0C8749446F3140032170DA456C19",
+    "output/leitung-20261122/fr-h-s5-pilot/independent-subject/review.json": "7129F8F31178D5AE376D6EDB05966EB4DFEE19191D94129AF8C5435DDCF682B3",
+    "output/leitung-20261122/fr-h-s5-pilot/independent-language/review.json": "FE74686A0DE2499D9EECC0996AFC7B8AAF87601D8DD4B440372BC8EDD254DBA9",
+    "output/leitung-20261122/fr-h-s5-pilot/pdf-output-v2/manifest.json": "3EBB48A0AAD3C19622F4504C890BEA0B8ECD8F2E49FC603141A03D7B5595460A",
+    "output/leitung-20261122/fr-h-s5-pilot/pdf-output-v2/output-delta.json": "76E5B0475720746D4F7E80F20F221E26303025ECCBF5BD1E0DF4D5D870F8D3C3",
+    "output/leitung-20261122/fr-h-s5-pilot/independent-pdf-output-v2/review.json": "05C317A1FD19C86384655CAC4EFD8707EDD2312887BEB3D35DC7CE2B1495EF62",
+    "output/leitung-20261122/fr-h-s5-pilot/root-pdf-v2-acceptance.json": "1A1D728EB3E19431A17BFF8703B21B34BAF56D4776C84341FAFF0E6946E0C726",
+    "output/leitung-20261122/fr-h-s5-pilot/independent-web-static/review.json": "9ED83B77663EC69B21882607D246223DB8BC4618FE1AC2BEE5B68C06CF6DAE5A",
+    "output/leitung-20261122/fr-h-s5-pilot/independent-runtime-evidence/review.json": "96DD208547747C1FADB972C0E554671EE900E5EFDF2AE18E4DC9C48BAC06A391",
+    "output/leitung-20261122/fr-h-s5-pilot/independent-runtime-evidence/link-scroll-addendum/review.json": "F8C4D2E6BE06AACC5506E8754E5BDDB017739FB658465B3BADC1A6716B536A2D"
+  },
   "validation": {
-    "static": "Independent bounded integration review passed; all1022 old tasks exact,219 old topics exact and only two approved D-L3 fields changed; M4 source identity preserved except approved release flag.",
-    "runtimeStateImport": "23 stored targeted checks passed: filters,seven real inputs,manual feedback,save/reload,export,historical local five-answer synthetic backup,abort/invalid datatype and fresh import/reload. The process later exited1 at a hidden print-screenshot; no overallExit0 is claimed.",
-    "responsiveViews": "M4 and D-L3 active-topic views separately checked at320/390/1280; six checks passed. Not all221 topics retested.",
-    "rolesAndPrint": "Six actual child/adult/single/mixed A4 PDFs,18 pages independently checked for role text,PDFium character bounds and rendered layout. Narrow390px print-media preview overflow remains distinct from clean actual A4 output.",
-    "dl3LanguageRole": "Independent exact two-field language/role review passed;6written+16oral preserved; no actual presentation observed.",
-    "publication": "Pending atomic main update and independent Git tree/Pages verification."
+    "content": "Independent scoped text/source/action and role review passed; local handout V2 closes F1 and retains exact child PDF.",
+    "static": "Independent candidate integration passed; all221 prior topics/all1029 old task objects deep-equal,109 baseline files exact; only new paper topic and2PDF assets.",
+    "runtimeStateImport": "20 targeted assertions passed, real processExit0; separate12 scroll/click/load assertions passed, real processExit0; both independently reviewed. Previous harness failures preserved, not called passes.",
+    "rolesAndPrint": "Child320/390/1280 and adult390 viewed; no child solution/handout links. Eight child steps scrolled with3hitprobes each at320/390. Four actual overviewA4PDFs/eight pages checked for role text,bounds and layout. Both separate source handouts independently reviewed.",
+    "pdfLinkNavigation": "Two actual local clicks opened correct file URLs and loaded application/pdf. Native viewer screenshots dark due blocked internal viewer requests in harness; no visual native viewer pass.",
+    "publication": "NOT_YET_DEPLOYED_AT_FREEZE"
   },
   "limits": [
-    "No actual child,device,physical-print or tool-free calculation acceptance.",
-    "No external mathematics review,school-sequence confirmation or full M4/eleven-subject annual acceptance.",
-    "No new HTTPS/live-browser observation; publication and Pages are separate subsequent evidence.",
-    "Segmented checks with preserved harness failures,not a fabricated successful overall process.",
-    "Local323-topic research master and public221-topic package remain different stages."
+    "No actual human French delivery or child action accepted.",
+    "No complete H-S5, school sequence or eleven-subject annual acceptance.",
+    "No real-device, physical-printer, screenreader or current HTTPS acceptance.",
+    "Research master and local renderer are not copied into this baseline-derived candidate.",
+    "Browser views and scripted scroll checks are not physical mobile-device or screenreader acceptance.",
+    "Headless native PDF viewer painting remains unverified; actual sourcePDF and A4 overview rendering checked independently."
   ],
-  "verificationScope": "Bounded independently reviewed content/preservation,segmented runtime/import/role and actualA4 gates. Appropriate as a voluntary checked learning offer; not full-year completion or observed learner competence.",
-  "rollbackCommit": "df4deb51762cb3976638df011926f3200e921f51",
-  "changedExistingTopicIds": [
-    "de-karte-im-regen-vortrag"
-  ],
-  "oldTopicsTwoReflectionFieldsOnly": "de-karte-im-regen-vortrag",
-  "compatibility": {
-    "schema": "Renderer and state schema unchanged; actual new seven-answer roundtrip checked.",
-    "historicalLocalBackup": "A historical synthetic local M4 backup with five main answers restored those answers; optional fields stayed blank. This is not a test of every old public backup.",
-    "cancelAndInvalid": "Explicit import cancellation retained stored data; invalid answer datatype rejected before writing.",
-    "reverse": "No reverse-compatibility claim; an older catalog can reject unknown new topic selection."
-  },
-  "releaseAuthorization": {
-    "scope": "One existing local M4 topic, plus two corrected reflection fields in the existing D-L3 topic; user-authorized regular checked website updates",
-    "M4Released": true,
-    "localResearchMasterM4Released": false,
-    "publicationAtBuildTime": "NOT_YET_DEPLOYED"
+  "frozenAt": "2026-11-22T10:35:54.933959+00:00",
+  "reviewEvidence": {
+    "static": {
+      "path": "output/leitung-20261122/fr-h-s5-pilot/independent-web-static/review.json",
+      "sha256": "9ED83B77663EC69B21882607D246223DB8BC4618FE1AC2BEE5B68C06CF6DAE5A"
+    },
+    "runtime": {
+      "path": "output/leitung-20261122/fr-h-s5-pilot/independent-runtime-evidence/review.json",
+      "sha256": "96DD208547747C1FADB972C0E554671EE900E5EFDF2AE18E4DC9C48BAC06A391"
+    },
+    "scrollClick": {
+      "path": "output/leitung-20261122/fr-h-s5-pilot/independent-runtime-evidence/link-scroll-addendum/review.json",
+      "sha256": "F8C4D2E6BE06AACC5506E8754E5BDDB017739FB658465B3BADC1A6716B536A2D"
+    },
+    "localPdf": {
+      "path": "output/leitung-20261122/fr-h-s5-pilot/independent-pdf-output-v2/review.json",
+      "sha256": "05C317A1FD19C86384655CAC4EFD8707EDD2312887BEB3D35DC7CE2B1495EF62"
+    }
   }
 }

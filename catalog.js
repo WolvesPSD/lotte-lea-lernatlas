@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.22-ma-formelsammlung.1",
+  "version": "2026.11.22-ma-gleichung-inhaltlich.1",
   "status": "familienversion",
   "subjects": [
     {
@@ -5210,6 +5210,23 @@ window.LOTTE_CATALOG = {
           ]
         },
         {
+          "id": "ma-experimentierkaesten-inhaltlicher-gleichstand",
+          "kind": "reflection",
+          "points": 0,
+          "unscoredNote": true,
+          "adultOnlySolution": true,
+          "writingLines": 5,
+          "inputRows": 5,
+          "prompt": "Freiwilliger Denkauftrag ohne Punkte · Wann kosten beide Angebote gleich viel? Leite aus den Preisangaben her, bei welcher erlaubten Anzahl die Preise gleich sind. Begründe auch, ob es unter den ganzen Zahlen von 1 bis 40 eine weitere passende Anzahl geben kann. Ein Tipp: Vergleiche zuerst die festen Gebühren. Überlege dann, wie sich der Preisabstand mit jedem zusätzlichen Kasten verändert. Du darfst eine Tabelle nutzen, wenn du erklärst, warum deine passende Anzahl die einzige ist. Wenn du die Anzahl schon aus der Wertetabelle kennst, erkläre den Weg trotzdem aus den Preisangaben. Du kannst mündlich oder auf Papier antworten. Eine Notiz hier ist freiwillig. Die Gleichung löst du separat im Auftrag «Gleicher Preis».",
+          "sample": "Die feste Gebühr von B ist 42 € − 18 € = 24 € höher. Pro weiterem Kasten wächst der Preis von A um 2 €, der von B um 0,50 €. A holt deshalb je Kasten 1,50 € auf. Der Gebührenabstand ist der Ausgangspunkt aus den Preisangaben. Er setzt keine Bestellung von null Kästen voraus. 24 € geteilt durch 1,50 € je Kasten ergibt 16 Kästen. 16 ist eine ganze Zahl im erlaubten Bereich von 1 bis 40. Mit jedem weiteren Kasten sinkt der vorzeichenbehaftete Unterschied B minus A um denselben positiven Betrag von 1,50 €. Vor 16 ist B teurer, nach 16 ist A teurer. Darum sind die Preise bei genau einer erlaubten Anzahl gleich. Die Lösungsmenge ist {16}.",
+          "criteria": [
+            "Die Erklärung unterscheidet die einmaligen Gebühren von den Kosten pro Kasten. Sie zeigt nachvollziehbar, wie der Unterschied der Festgebühren durch den unterschiedlichen Zuwachs je Kasten ausgeglichen wird.",
+            "Die Anzahl für den gleichen Preis wird aus den Bedingungen hergeleitet und als ganze Zahl im Bereich 1 bis 40 geprüft. Eine sprachliche Antwort genügt.",
+            "Die Begründung schliesst weitere zulässige Lösungen aus. Ein gleichwertiger Sachweg oder eine nachvollziehbare Tabelle mit Begründung über den ganzen erlaubten Bereich gilt. Ein einzelner Tabellenfund oder eine Einsetzprobe belegt nur, dass die Anzahl passt.",
+            "Bei bereits bekanntem Treffer die sachliche Begründung anerkennen. Mündliche und schriftliche Erklärungen gleich behandeln. Rückmeldung ohne Punkte oder Note. Ein leeres Notizfeld sagt nichts darüber aus, ob der Denkweg ausserhalb der App bearbeitet wurde."
+          ]
+        },
+        {
           "id": "ma-experimentierkaesten-3",
           "kind": "reflection",
           "points": 5,
@@ -5269,7 +5286,7 @@ window.LOTTE_CATALOG = {
           "inputRows": 8,
           "unscoredNote": true,
           "adultOnlySolution": true,
-          "prompt": "Begriffe erklären – ohne zusätzliche Punkte: Erkläre in eigenen Worten Variable, Term und Gleichung. Nutze dazu die Anzahlvariable und einen deiner Preisterme aus Aufgabe 1 sowie deine eigene Gleichung aus Aufgabe 3. Sage, was jedes Wort bedeutet, wie sich ein Term von einer Gleichung unterscheidet und welche Rolle die Variable dabei hat. Bloss die Beispiele zuzuordnen genügt nicht. Du brauchst die Gleichung nicht nochmals zu lösen. Diese Erklärung erhält eine eigene Rückmeldung ohne Punkte; die bisherigen 20 Kriterienpunkte bleiben unverändert.",
+          "prompt": "Begriffe erklären – ohne zusätzliche Punkte: Erkläre in eigenen Worten Variable, Term und Gleichung. Nutze dazu die Anzahlvariable und einen deiner Preisterme aus Aufgabe 1 sowie deine eigene Gleichung aus der Aufgabe «Gleicher Preis». Sage, was jedes Wort bedeutet, wie sich ein Term von einer Gleichung unterscheidet und welche Rolle die Variable dabei hat. Bloss die Beispiele zuzuordnen genügt nicht. Du brauchst die Gleichung nicht nochmals zu lösen. Diese Erklärung erhält eine eigene Rückmeldung ohne Punkte; die bisherigen 20 Kriterienpunkte bleiben unverändert.",
           "sample": "Eine Variable ist ein Zeichen, das für Zahlen beziehungsweise Werte aus einem vereinbarten Bereich stehen kann. Hier bezeichnet n die Anzahl der Kästen; erlaubt sind ganze Zahlen 1 bis 40. Eine Variable muss nicht immer eine erst zu ermittelnde Unbekannte sein. Ein Term ist ein mathematischer Ausdruck, etwa eine Zahl, eine Variable oder eine zulässige Verbindung solcher Ausdrücke durch Rechenoperationen. 18 + 2n beschreibt hier den Zahlenwert des Preises in Euro; bei eingesetztem n lässt sich sein Wert berechnen. Nicht jeder Term muss eine Variable enthalten. Eine Gleichung setzt zwei Terme mit einem Gleichheitszeichen gleich. Bei einer Gleichung mit Variablen ist zu prüfen, für welche erlaubten Werte beide Seiten denselben Wert haben. 18 + 2n = 42 + 0,50n fordert hier gleiche Preise. Der einzelne Preisterm stellt diese Gleichheitsbedingung nicht auf. Auch konstante Gleichungen und Identitäten kommen vor; nicht jede Gleichung hat genau eine unbekannte Zahl oder genau eine Lösung.",
           "criteria": [
             "Rückmeldung ohne Punkte: Sind die drei allgemeinen Bedeutungen erkennbar? Werden Term und Gleichheitsbedingung unterschieden und die Rolle der Anzahlvariablen erklärt? Verständliche gleichwertige Formulierungen zulassen; die eigenen Beispiele dürfen abweichen, auch eine fehlerhafte vorherige Gleichung erlaubt eine sinnvolle Begriffserklärung. Ein fehlender Fachausdruck bei klarer Bedeutung ist Anlass für einen Hinweis, keine automatische Gesamtabwertung. Keine Änderung der bisherigen 20 Punkte; kein Nachweis tatsächlicher Kinderbearbeitung."
@@ -5280,7 +5297,8 @@ window.LOTTE_CATALOG = {
         "validFor": "2027/28",
         "gradeBand": "8",
         "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. § 2.2.3, PDF-S. 25–26, unter „Klassenstufe 8“: Variablen, Terme und Gleichungen; Sachverhalte modellieren, Werte berechnen, äquivalent umformen, Formeln umstellen und Ergebnisse kontrollieren.",
-        "checkedAt": "2026-10-21"
+        "checkedAt": "2026-11-22",
+        "reviewNote": "Freiwilliger inhaltlicher Denkauftrag zum vorhandenen Preisfall ohne zusätzliche Punkte. Die vollständige Lösungsmenge wird aus den Preisbedingungen begründet; der algebraische Auftrag und die bisherigen 20 Punkte bleiben erhalten. Fachlich und sprachlich im genannten Umfang geprüft. Daraus folgt kein Nachweis einer tatsächlichen Bearbeitung."
       },
       "practice": {
         "title": "Freiwillig: erst ungefähr, dann genau",

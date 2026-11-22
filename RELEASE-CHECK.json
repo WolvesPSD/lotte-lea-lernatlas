@@ -1,63 +1,79 @@
 {
-  "releaseVersion": "2026.11.22-ma-formelsammlung.1",
+  "releaseVersion": "2026.11.22-ma-gleichung-inhaltlich.1",
   "status": "SCOPED_RELEASE_READY",
-  "builtAt": "2026-11-22T16:54:50.446Z",
-  "baselineCommit": "025ca102e9e472ec2b7418c008c3f83256cc365a",
-  "baselineRelease": "2026.11.22-de-hoernachricht-rollen.1",
-  "rollbackCommit": "025ca102e9e472ec2b7418c008c3f83256cc365a",
+  "builtAt": "2026-11-22T18:20:49.419Z",
+  "baselineCommit": "36de9772173735a6cb1046e64b00b453a16ec3f7",
+  "baselineRelease": "2026.11.22-ma-formelsammlung.1",
+  "rollbackCommit": "36de9772173735a6cb1046e64b00b453a16ec3f7",
   "topics": 226,
-  "taskObjects": 1032,
-  "contentDelta": "One new unscored tasks-empty paper-access topic and exact4/2/2 PDF copies; all225old topics and1032old task objects retained; no renderer/CSS/state-schema change",
+  "taskObjects": 1033,
+  "contentDelta": "One optional unscored task in existing price topic plus exact one old terminology-prompt navigation field; old20points and practice preserved; catalog.version and topic.releaseEvidence explicit metadata.",
   "validation": {
-    "sourceAndPdf": "Bounded independent author/material/text/role and original4+2+2 PDF-content/register/sight reviews accepted; exact asset copies bound",
-    "topicData": "V2 text/schema delta and exact learner-facing scope reviewed; three print fields independently reviewed; full screen guide and original source PDFs preserved",
-    "integration": "Independent122file/225oldtopic/1032oldtask preservation PASS; only one new tasks-empty material topic and three PDF assets",
-    "runtime": "V1 targeted42checks actualCMDExit0+Node0; currentV3 exact three-Adult-print-fields dependency delta supports UI/source/links/state/filled-backup reuse",
-    "appPrint": "Final child1A4 fromV1 unchanged; final Adult1A4 V3-corrected5checks actualCMDExit0+Node0. Both actual PDFs opened/extracted and final PNGs viewed independently; historical adultV1/V2 outputs retained",
+    "draftMath": "PASS_SCOPED",
+    "draftLanguageRole": "PASS_SCOPED",
+    "staticIntegration": "PASS_SCOPED_V1_INTEGRATION_AND_SINGLE_V2_METADATA_DELTA",
+    "runtime": "PASS_SCOPED_LOCAL_SEPARATE_RUNS",
+    "appPrint": "PASS_4_CHILD_AND_4_ADULT_A4_PAGES_INDEPENDENTLY_OPENED_AND_VIEWED",
     "publication": "READY_NOT_YET_DEPLOYED"
   },
   "evidence": {
-    "output/leitung-20261122/m3-formula-collection-paper-app-draft-v2/paper-topic-draft-v2.json": "3D999EC2B3FCC99150684AED1CCCCD3567CB5F592EC81D2187CE625E91F03759",
-    "output/leitung-20261122/m3-formula-collection-paper-app-draft-v2/root-scope-wording-proposal.json": "9CF608648CAA9B32DB62E91F308D35C9CA468A0EFB473B00D7C681CE8F40530F",
-    "output/leitung-20261122/m3-formula-collection-paper-app-draft-v2/manifest-v2.json": "8A4BDC4512796CF60A2DEE1DFA211EF27937D34EDDD3A4996FDFABFA2ACEF90A",
-    "output/leitung-20261122/m3-formula-collection-paper-app-draft-v2/independent-v2-delta-review/report.md": "3246B66C14550800D2870A881203C52A24DB56B2B7E27CA59842B3612DADAE8A",
-    "output/leitung-20261122/m3-formula-collection-paper-app-draft-v2/independent-v2-delta-review/manifest.json": "00051E4A9B1DCB50F40633BD8BFE266DB292F6C6198C96288FA38BB5EF1C4FAF",
-    "output/pdf/m3-formelsammlung-20261122-v2/manifest.json": "D0FDFB8AE4EC94895DA79A8DC57A67FD4F9CDD901EE7BE84FCB34C7944DBEDD8",
-    "output/pdf/m3-formelsammlung-20261122-v2/independent-output-review/review.md": "EFC1FEF9B25F0FE996983D5200953079E1DBC3E8771A16BDF2B212C39C82B5A4",
-    "output/pdf/m3-formelsammlung-20261122-v2/independent-output-review/manifest.json": "29A0907A3F5EEA0D5E0284E63FD5DE1E1B1F412FAED938AAE63DA357BD0C94A3",
-    "output/pdf/m3-formelsammlung-20261122-v2/root-scoped-output-adoption.json": "E1D346F7E3BE1E99DA16C31984E7904D853DD86AD1F1980CD7CABC0AE1490FF1"
+    "output/leitung-20261122/m3-o07-inhaltlicher-weg-draft/task-delta.json": "43AA39CE77DA96A266EB13AF12D9887A3A26BBDAFDAE06CDE8F8609B1309721F",
+    "output/leitung-20261122/m3-o07-inhaltlicher-weg-draft/navigation-delta.json": "6C06725169230373D1500EA94290CE87A4CFA186CEC7D3778234374935A9573F",
+    "output/leitung-20261122/m3-o07-inhaltlicher-weg-draft/manifest.json": "804F8C4269B70424452453F195DE579169B76637BFA458A9A53E2C7B56DDBAB6",
+    "output/leitung-20261122/m3-o07-inhaltlicher-weg-draft/navigation-manifest.json": "F8A58A8486C4D7B7CA3809B8199F7118066D0CE4FA9EAD8FF15EB2C390356D5B",
+    "output/leitung-20261122/m3-o07-inhaltlicher-weg-draft/independent-math-review/manifest.json": "14BBC76CFBCB4424E44AC59C5101F65E1F9C5B851116E9ED215E9C60DF2749C0",
+    "output/leitung-20261122/m3-o07-inhaltlicher-weg-draft/independent-language-role-review/manifest.json": "9E22F7135B6D15A5DAD98DC00463A8E98ADD581D0D8D23623AE4630B2E999385",
+    "output/leitung-20261122/m3-o07-inhaltlicher-weg-release/independent-static-review/manifest.json": "6EE71753A4B489F3A00CAC8EF909C7EE5E794D17ECBB00A8C6A35AA278E03A41",
+    "output/leitung-20261122/m3-o07-inhaltlicher-weg-release/independent-static-review/source-note-v2-delta/manifest.json": "EBDF67F8CBDDA21382F777D202FBDCE718C24174CD71C9778EABCA81A018E17D",
+    "output/leitung-20261122/m3-o07-inhaltlicher-weg-release/root-runtime-freeze.json": "91A152C1DE7B3FBE810BFA6153AC901D3B92CBE7C802D5896A418A8E50030BCD",
+    "output/leitung-20261122/m3-o07-inhaltlicher-weg-release/independent-runtime-review/manifest.json": "C0C1279D3E548CA9AD9B3C50C27C5740FBD1003304F7B8314039673A7F84D437",
+    "output/leitung-20261122/m3-o07-inhaltlicher-weg-release/root-process-evidence.json": "DBA3B2AC3EA5BE4248EA90AD6FE81F3DCCF15FADBB449B1920863018F2E4BADF",
+    "output/leitung-20261122/m3-o07-inhaltlicher-weg-release/root-visual-review.json": "1237807A508873D963FC209B52A13BF3991E0511382EAB0229837E434B781932",
+    "output/leitung-20261122/m3-o07-inhaltlicher-weg-release/root-source-note-render-boundary.json": "340BC533F3E1A6AE2D9B2853A89869DD0633EAAB07D9458C66CC22E9D54E305F"
   },
   "limits": [
-    "No actual child lookup/use, school/exam, live HTTPS/device/printer/screenreader or complete M3/year acceptance",
-    "Structural PDF register destinations are checked; no viewer click/painting inferred",
-    "Inventory counts are not annual coverage quotas; research master unchanged"
+    "grade8-outlook retained; no prescribed grade7 school sequence",
+    "No actual learner derivation/first-discovery or performance claim",
+    "No full M3/math/year/device/printer/screenreader/liveHTTPS acceptance",
+    "Adult role is not authentication or a timing lock"
   ],
-  "printDeltaScope": "Only three adult-print fields versusV1; full screen guide, criteria, child output and source4+2+2PDFs unchanged. Print guide duplicates are omitted from overview because criteria/role note and linked adult PDF retain all functional instructions/models.",
-  "independentReviewManifests": {
-    "output/leitung-20261122/m3-formula-collection-release/independent-static-review/manifest.json": "6FBECC9736223DF0C9EF15AB2571E5770F226896B06051C5FE4D739C720E02A4",
-    "output/leitung-20261122/m3-formula-collection-release/independent-static-review/print-v3-delta/manifest.json": "90BE393902676B43AAD8CF6C2947C4E3242A438ABD4D3197CB3D933AC7EE97C2",
-    "output/leitung-20261122/m3-formula-collection-release/independent-static-review/print-v3-delta/provenance-clarification-manifest.json": "C4C0DD49A167823B37062881D39D56E947EEB9310C0DAEBF7CE087AF922FC33D",
-    "output/leitung-20261122/m3-formula-collection-release/independent-runtime-review/manifest.json": "211E146FA836030EF83CB498D964E0132EE26DCA1AEC6DBE3933D6F865C0A735"
-  },
-  "proofLimits": {
-    "scroll": "12 TextRange observations,65actual text rectangles,195point hits cover4step texts+2link texts at320/390; separated positions, not whole-page pixel/assistive proof",
-    "pdfAccess": "5real role-link activations on3files, fresh file200/applicationPDF responses; one focus+Enter activation, not sequential Tab/inside-viewer navigation/painting",
-    "defaultFilter": "Correct default grade7-and-flex value and checkbox presence, then actual selected work view; no standalone default-filter visibility claim",
-    "backup": "Actual download plus fresh confirmed import preserve selected paper+oldcircle IDs and one exact filled old answer/control. Export metadata separated from learning payload; no new paper-performance marker",
-    "assertionScope": "42full-path and5Adult-print checks are separately scoped with overlap; no47unique or single-series combined total pass",
-    "historicalFailures": "FirstV3 Adult harness recorded4checks/3passed/Exit1 beforePDF due unescaped parentheses in literal count; exact-string count corrected without product change. V1/V2 Adult print layouts remain history",
-    "originalMaterial": "All8 original PDF pages reused by exact bytes and prior independent content/register/role/sight review; no new source/formula series",
-    "actualUse": "No actual child lookup/use, school/exam permission, device/printer/screenreader, servedHTTPS/livebrowser or completeM3/year acceptance"
-  },
+  "finalizedAt": "2026-11-22T18:36:03.913Z",
   "runtimeEvidence": {
-    "fullV1ResultSha256": "106347F5A38C93DB33750F7B8E7DCC41DDA956A79CE5595FD1359CFC02D5D1AD",
-    "fullV1ScriptSha256": "63E1F13907B7CEC7595FEEDFD386CDBB64D71549E5FCE4D631DDF69EF639D3BA",
-    "rootFreezeSha256": "4449FDCAE0751A6237472EE7C1FEB2FA04E2B0C803F2D4CD90B3F691D04266F2",
-    "finalAdultResultSha256": "662D387977A28ACB55597C0747658A82F49300281017D3DDBDF8FD3624EFA8AF",
-    "finalAdultScriptSha256": "5DF139629F55768D3AA692A09B1B12B19C85B11034DD3A97A63D83F45FA75DE5",
-    "rootFinalSightSha256": "6077F7217DFEC4FF31A52A04DB2A44279EDB4FF1E617C03E5A17D0A0789FA295",
-    "actualCmdRuntimeChunk": "2524cf",
-    "actualCmdAdultChunk": "2a1ebb",
-    "rootFinalSightPath": "output/leitung-20261122/m3-formula-collection-release/root-final-screen-sight.json"
+    "actualSeparateRuns": [
+      {
+        "assertions": 37,
+        "actualCmdExit": 0,
+        "nodeExit": 0,
+        "toolChunk": "7d90ea"
+      },
+      {
+        "assertions": 9,
+        "actualCmdExit": 0,
+        "nodeExit": 0,
+        "toolChunk": "ebf79d"
+      },
+      {
+        "assertions": 3,
+        "actualCmdExit": 0,
+        "nodeExit": 0,
+        "toolChunk": "8d54d4"
+      }
+    ],
+    "scope": "Three separate scoped runs, not one49-unique-assertion series. New and old mixed notes through real export/fresh import, complete new model and feedback only Adult; full prompt rectangle clearance at320/390.",
+    "scroll": {
+      "observations": 4,
+      "textRectangles": 82,
+      "actualHits": 738
+    },
+    "print": {
+      "childPages": 4,
+      "adultPages": 4,
+      "rootAndIndependentSight": true,
+      "independentPdfContentUnits": {
+        "child": 15,
+        "adult": 52
+      }
+    },
+    "sourceNote": "reviewNote is stored metadata, not rendered; exact competencyRef/date li separately observed."
   }
 }

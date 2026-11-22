@@ -1,70 +1,33 @@
 {
-  "builtAt": "2026-11-22T13:09:45.439863+00:00",
-  "releaseVersion": "2026.11.22-ma-m2-papier.1",
+  "releaseVersion": "2026.11.22-ma-m3-gespraech.1",
   "status": "SCOPED_RELEASE_READY",
-  "baselineCommit": "ead5df7505ea2f8678293779920cf0315aab8854",
-  "baselineRelease": "2026.11.22-de-beschreibung.1",
-  "rollbackCommit": "ead5df7505ea2f8678293779920cf0315aab8854",
+  "baselineCommit": "dc8b98e2ea5159dab4f02e7799751f3adf45ca0e",
+  "rollbackCommit": "dc8b98e2ea5159dab4f02e7799751f3adf45ca0e",
   "topics": 224,
-  "answerFields": 1029,
-  "oldTopicsPreserved": 222,
-  "oldAnswerFieldsPreserved": 1029,
-  "newTopicIds": [
-    "ma-m2-zehnerpotenzen-papier",
-    "ma-m2-gruppenprozess-papier"
-  ],
-  "newTaskIds": [],
-  "newAssetSha256": {
-    "assets/ma-m2-zehnerpotenzen/01-kinderblatt.pdf": "77489CACFD7C6A0CF76298D288596897FA6669A7197CC9B5AB8BE6F04DFAEA8D",
-    "assets/ma-m2-zehnerpotenzen/02-erwachsenenloesung.pdf": "D6538FB408BEF84ECA1D132396882B8B665B9D532A09E9D629C3ABA088CE4D5A",
-    "assets/ma-m2-gruppenprozess/01-kinderblatt.pdf": "EF232CB3F0D45FFAB33D6E25D94F77000ACB7903ACDB9CB0373D67D3B8348B8D",
-    "assets/ma-m2-gruppenprozess/02-erwachsenenloesung.pdf": "CF38E2F730F1BACC40B63920CC0985286D4DE63A6FC5F40FBE6F33D5B10A17F5"
-  },
-  "validation": {
-    "content": "Both existing complete paper families and new wrapper texts independently checked in scoped reviews; four source PDFs byte-identical.",
-    "static": "All222 old topics and1029 tasks deep-equal, renderer/CSS/oldassets unchanged.",
-    "runtime": "Scoped evidence: initial38 assertions and18 step observations with162 actual hit probes ended Exit1 at a later source locator. Remaining19 assertions completed actual CMD/Node Exit0: exact source rows/date, four PDF loads, export/reload/fresh import and roles. No unique summed or single-series overall pass.",
-    "print": "Current child overview2 A4 pages reused unchanged fromV4; current V6 adult overview2 A4 pages independently viewed without orphan footer. Original four source PDFs total15 pages accepted unchanged.",
-    "publication": "READY_NOT_YET_DEPLOYED",
-    "adultPrintCompaction": "Accepted: four role-labelled URLs retained once with separation instruction.",
-    "adultPrintGuide": "Accepted one print-only guide; end8 boundary exact and full screen guide unchanged. Actual final2page adult output independently accepted."
-  },
-  "textReviews": [
-    {
-      "draft": "output\\leitung-20261122\\m2-zehnerpotenzen-paper-app-draft\\paper-topic-compatible-v4.json",
-      "draftSha256": "BD602D4E0E71DE7FC93CF551641B1319E6159FE14D54E069992680EC8AA3BCAC",
-      "reviewManifest": "output\\leitung-20261122\\m2-zehnerpotenzen-paper-app-draft\\independent-print-contract-v4-review\\manifest.json",
-      "reviewManifestSha256": "51BC08C77A3611278DCCEE573551100C69A335FF9217604321E1FBED2368E43F"
-    },
-    {
-      "draft": "output\\leitung-20261122\\m2-gruppenprozess-paper-app-draft\\paper-topic-compatible-v2.json",
-      "draftSha256": "ABC002E2387A98F7A4A3672218E6679149754EADE0BE013891C4B89D9FC4C94B",
-      "reviewManifest": "output\\leitung-20261122\\m2-gruppenprozess-paper-app-draft\\independent-text-role-review\\manifest.json",
-      "reviewManifestSha256": "736A92407EA5107A4357164A00B5BAC672EB42918ED716BD96BB283F981DDB3E"
-    }
-  ],
+  "taskObjects": 1029,
+  "change": "One voluntary unscored cooperative practice block on existing ma-umfang-id-5 context plus exact source note/date. All1029 old task objects and223 other topics unchanged.",
+  "contentReview": "Independent text/action/role and exact schema/text adapter review accepted. Three voluntary steps at existing E; all six written tasks/20points unchanged.",
   "limits": [
-    "Voluntary end8 outlook in7/8 frame, no confirmed grade7 sequence or wholeM2/year acceptance.",
-    "20main+6optional points for each original worksheet remain outside automatic app scoring.",
-    "No actual child/partner performance, device, physical-printer, screenreader or HTTPS acceptance.",
-    "Research master and production renderer unchanged."
+    "End8 outlook in7/8, unknown actual grade7 sequence.",
+    "No new tasks, automatic points or practice completion; original six written tasks/20points remain separate.",
+    "No actual child/partner dialogue, collection-use, wholeM3/year, device/printer/screenreader/HTTPS acceptance."
   ],
-  "independentReviewManifests": [
+  "publication": "READY_NOT_YET_DEPLOYED",
+  "staticReview": "118files,115unchanged from M2 baseline; no assets/renderer/CSS change. All223 other topics and1029 old task objects structurally identical.",
+  "runtimeReview": "Staged scoped evidence: V1 nineteen passed/one failed reload-selector assertion/Exit1; V2 seventeen passed/one failed closed-source-detail assertion/Exit1; V3 eleven source/print rest checks actual CMD/Node Exit0. Six step observations/54 actual hit probes at320/390; filled-answer reload, export and fresh import of cleared existing task state, adult criteria and exact source/date. No summed unique checks or one-series overall pass; no filled-answer import claim.",
+  "printReview": "Actual child3+adult3 A4 PDFs opened and all six endrenders independently viewed. Complete conversation sections, correct roles, original tasks/20points retained, no orphan footer. No physical-printer or actual dialogue acceptance.",
+  "reviews": [
     {
-      "path": "output/leitung-20261122/m2-paper-bundle-final/independent-static-review/manifest.json",
-      "sha256": "97CA6919516534FBC040B447DCE67F8B6E64B6755DCC89A5EEE25DED6862FA70"
+      "path": "output/leitung-20261122/m3-umfang-cooperation-draft/independent-text-action-review/manifest.json",
+      "sha256": "70F653A4F4A4D883D3E8D147ED67C7E5171A2F715D97479D920DF71F15BC3509"
     },
     {
-      "path": "output/leitung-20261122/m2-paper-bundle-final/independent-final-runtime-review/manifest.json",
-      "sha256": "240EE6D04557C731EED6EC027BC3644D48669A8CC67DE441C3FDAAF0CE6AC05D"
+      "path": "output/leitung-20261122/m3-umfang-cooperation-draft/independent-static-integration-review/manifest.json",
+      "sha256": "0C74BF0AA77B174C9DF25ACB017083343C39489C087A2AC2AF2F720E4540D032"
     },
     {
-      "path": "output/leitung-20261122/m2-paper-bundle-final/independent-final-runtime-review/v5-print-delta/manifest.json",
-      "sha256": "AFD968DEFEBDC12947354C2F550A2B4286195F46254A97549F93A4E18B6B3BDC"
-    },
-    {
-      "path": "output/leitung-20261122/m2-paper-bundle-final/independent-final-runtime-review/v6-adult-output/manifest.json",
-      "sha256": "8695F8319B221C700FF9963FE19C990B850B50813ED32B2DB84F0AF85C2F439A"
+      "path": "output/leitung-20261122/m3-umfang-cooperation-draft/independent-runtime-print-review/manifest.json",
+      "sha256": "9479975F9D5A88B178DE344169C84355FE4973E8E7C75672F13F5D0A65808B4A"
     }
   ]
 }

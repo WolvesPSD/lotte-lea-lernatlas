@@ -1,5 +1,5 @@
-window.LOTTE_CATALOG=Object.freeze({
-  "version": 1,
+window.LOTTE_CATALOG = {
+  "version": "2026.11.22-ma-m3-gespraech.1",
   "status": "familienversion",
   "subjects": [
     {
@@ -5500,8 +5500,30 @@ window.LOTTE_CATALOG=Object.freeze({
       "releaseEvidence": {
         "validFor": "2027/28",
         "gradeBand": "8",
-        "competencyRef": "PDF-S. 2: Inkrafttreten 2026/27 für Klasse 7 und 2027/28 für Klasse 8. § 2.2.3 PDF-S. 25–26 unter Klassenstufe 8: Skizze, Tabelle, Terme und Gleichungen; Formelsammlung zielgerichtet nutzen; Spezialfälle und Verallgemeinern.",
-        "checkedAt": "2026-10-24"
+        "competencyRef": "PDF-S. 2: Inkrafttreten 2026/27 für Klasse 7 und 2027/28 für Klasse 8. § 2.2.3 PDF-S. 25–26 unter Klassenstufe 8: Skizze, Tabelle, Terme und Gleichungen; Formelsammlung zielgerichtet nutzen; Spezialfälle und Verallgemeinern. Zusatz 22.11.2026, PDF-S.26: kooperativ erläutern/reflektieren; Denkweisen respektieren, vergleichen und bei Bedarf integrieren. Freiwilliger Gesprächsanschluss an E, kein Leistungs- oder Ganzzielnachweis.",
+        "checkedAt": "2026-11-22"
+      },
+      "practice": {
+        "title": "Freiwillig über deinen Wege-Vergleich sprechen",
+        "unscored": true,
+        "childNote": "Dieser Gesprächsanschluss gehört zu deinem vorhandenen Vergleich in E. Er ist freiwillig und unbepunktet. Du musst nichts zusätzlich eingeben und keine Namen nennen.",
+        "childSteps": [
+          "Wenn eine zweite Person freiwillig mitmacht, erkläre ihr deinen eigenen Vergleich aus E. Zeige an deiner vorhandenen Arbeit, worauf du dich beziehst. Die andere Person hört zu und kann nachfragen oder ihre eigene Sicht zeigen.",
+          "Geht aufeinander ein und prüft gemeinsam, welche Gemeinsamkeiten oder Unterschiede ihr in euren Überlegungen findet. Bleibt bei konkreten Stellen und sachlichen Gründen. Gleiche Wege und Einigkeit sind genauso erlaubt wie unterschiedliche Sichtweisen; niemand muss einen Fehler oder Streit erfinden.",
+          "Überlegt, was du beibehältst oder begründet veränderst. Verbinde Gedanken nur, wenn das hilfreich oder nötig ist; du musst deine Meinung nicht ändern. Ohne zweite Person kannst du deine Erklärung vorbereiten, aber das echte Gespräch ist dann nicht durchgeführt."
+        ],
+        "adultNote": "Optionaler Gesprächsanschluss mit einer geeigneten zweiten Person, auch geeigneter Begleitung. Keine zusätzliche Rechenaufgabe, kein Pflichtrollenwechsel und keine Pflicht zu zwei verschiedenen Wegen. Lösungen vor der eigenen Erklärung nicht vorwegnehmen.",
+        "adultGuide": [
+          "An den bereits vorhandenen eigenen E-Vergleich anknüpfen. Als Hilfe können Sie fragen: „Auf welche Stelle beziehst du dich?“ oder „Was meinst du damit?“ Zeit zum Erklären lassen; keine fachliche Antwort vorsagen.",
+          "Nur tatsächliches Erklären, Zuhören und Bezugnehmen beobachten. Eine eigene zweite Sicht ist möglich, aber keine zusätzliche eigenständige Aufgabenbearbeitung der zweiten Person erforderlich.",
+          "Ohne zweite Person ist nur Vorbereitung möglich: Gespräch nicht durchgeführt, kooperative Handlung nicht erhoben. Keine Partnerantwort simulieren. Die bestehende Einzelarbeit bleibt gültig.",
+          "Die sechs schriftlichen Aufgaben behalten ihre 20 Punkte. Dieses freiwillige Gespräch erhält keine zusätzlichen Punkte oder Note. Besprechen Sie nur tatsächlich Geschehenes; Vorbereitung ohne zweite Person zählt nicht als Gespräch."
+        ],
+        "adultCriteria": [
+          "Wird der eigene vorhandene E-Vergleich verständlich an einer konkreten Stelle erläutert? Nur tatsächlich Gezeigtes oder Gehörtes beschreiben.",
+          "Wird zugehört und sachlich auf eine Frage, Rückmeldung oder Sicht der anderen Person eingegangen? Nicht allein Anwesenheit oder Anklicken als Gespräch werten.",
+          "Werden Gemeinsamkeiten oder vorhandene Unterschiede mit Gründen geprüft? Gleiche Wege und begründetes Beibehalten sind gültig. Gedanken nur bei hilfreichem oder erforderlichem Anlass integrieren; keine Änderung oder Einigung erzwingen."
+        ]
       }
     },
     {
@@ -23975,4 +23997,4 @@ window.LOTTE_CATALOG=Object.freeze({
       }
     }
   ]
-});
+};

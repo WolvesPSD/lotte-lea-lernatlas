@@ -1346,6 +1346,8 @@
         ? 'Lehrplanquelle: Ministerielle Erprobungsfassung 2026; Klasse 7 ab 2026/27. Konkrete Sportspiele und weitere Bewegungsfelder wählt die Schule.'
         : subject.id === 'mnt'
         ? 'Lehrplanquelle: Ministerielle Erprobungsfassung 2026 intern geprüft; sie setzt MNT 2026/27 für Klasse 5 in Kraft. Ein passender Klasse-7-Bezug ist nicht belegt.'
+        : subject.id === 'ge'
+          ? 'Lehrplanquelle: Laut amtlicher Thüringer Gymnasiumsübersicht gilt der Lehrplan Geschichte 2021 für Klasse 7 im Schuljahr 2026/27. Welche Wahlthemen die Schule behandelt und in welcher Reihenfolge, ist offen.'
         : currentIds.has(subject.id)
           ? 'Lehrplanquelle: Ministerielles Original 2026 intern geprüft; öffentlicher Datei-Abgleich steht aus.'
           : 'Lehrplanquelle: Fachstand aus der amtlichen Übersicht 2025/26; Gültigkeit 2026/27 noch offen.';
@@ -1403,6 +1405,7 @@
     for (const id of ids) {
       const topic = topicById.get(id); const section = create('section', 'print-topic');
       if (mode === 'adult' && topic.id === 'de-appellrede-papier' && isMaterialOnly(topic)) section.classList.add('print-appell-overview-adult');
+      if (mode === 'adult' && topic.id === 'ge-h02e-perspektiverzaehlung-papier' && isMaterialOnly(topic)) section.classList.add('print-h02e-overview-adult');
       const hideChildUpdate = mode === 'child' && topic.stagedUpdate?.childPrintAfterUnlock === true
         && state.answers[stagedUpdateMarker(topic)] !== 'ja';
       const hideChildFirstGate = mode === 'child' && topic.firstTaskGate

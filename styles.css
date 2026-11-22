@@ -401,3 +401,13 @@ body[data-print-mode^="child"] #print-surface .print-topic:has(.print-task[data-
 
 /* New standalone circle only: retain existing diagram sizing. */
 .learning-diagram img[src="assets/ma-kreisanteile-stationen.svg"]{min-width:0}
+
+/* H02e adult material overview: keep the complete feedback block on its own page. */
+@media print {
+  #print-surface .print-topic.print-h02e-overview-adult .print-practice {
+    break-before: page;
+    page-break-before: always;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}

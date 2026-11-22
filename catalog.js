@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.22-en-estuary-reading.1",
+  "version": "2026.11.22-ge-s3-rekonstruktion.1",
   "status": "familienversion",
   "subjects": [
     {
@@ -23597,48 +23597,63 @@ window.LOTTE_CATALOG = {
       "materialOnly": true,
       "scope": "Freiwilliger Schreibweg im Zielraum Klassen 7/8 bis Ende Klasse 8. Die Unterrichtsfolge in Klasse 7 ist offen. Dieser Teilbereich ist kein Gesamtjahresnachweis.",
       "prerequisite": "Nutze die zwei Quellenkarten im Kinder-PDF. Für deine Notizen kannst du den dortigen Schreibraum oder ein eigenes Blatt verwenden. Andere App-Aufgaben musst du nicht vorher abschliessen.",
-      "introduction": "Die zwei Quellenkarten und der Schreibauftrag stehen im Kinder-PDF. Die heutige Nacherzählung bleibt von Originalstimme und wortgetreuem Zitat getrennt. Hier speichert die App nur die Auswahl; Öffnen und Drucken belegen keine Bearbeitung.",
+      "introduction": "Die zwei Quellenkarten und der Schreibauftrag stehen im Kinder-PDF. Die heutige Nacherzählung bleibt von Originalstimme und wortgetreuem Zitat getrennt. Hier speichert die App nur die Auswahl; Öffnen und Drucken belegen keine Bearbeitung. Wenn du möchtest, erklärt eine zusätzliche Kinderkarte, wie Frage und Belegauswahl deine Darstellung formen.",
       "tasks": [],
       "practice": {
         "title": "Kinderblatt öffnen und nach den Quellenkarten arbeiten",
         "unscored": true,
-        "childNote": "Im Kinder-PDF findest du beide Quellenkarten und die Aufgaben, darunter je eine Nacherzählung von drei bis fünf Sätzen. Wenn längeres Schreiben anstrengend ist, reichen je drei kurze Sätze mit dem Quellenrahmen im Kinder-PDF. Lösungen bleiben im getrennten Erwachsenen-PDF.",
+        "childNote": "Im Kinder-PDF findest du beide Quellenkarten und die Aufgaben, darunter je eine Nacherzählung von drei bis fünf Sätzen. Wenn längeres Schreiben anstrengend ist, reichen je drei kurze Sätze mit dem Quellenrahmen im Kinder-PDF. Lösungen bleiben im getrennten Erwachsenen-PDF. Der Zusatz ist freiwillig und bringt keine weiteren Punkte. Du kannst kurz schreiben, Stellen zeigen und mündlich erklären oder diktieren.",
         "childSteps": [
           "Öffne das Kinder-PDF und nutze die beiden Quellenkarten.",
-          "Bearbeite die dortigen Aufgaben auf Papier; die App erfasst keine Antworten oder Leistung."
+          "Bearbeite die dortigen Aufgaben auf Papier; die App erfasst keine Antworten oder Leistung.",
+          "Wenn du möchtest, nutze zusätzlich die Kinderkarte „Wie entsteht eine Darstellung von Vergangenheit?“ zusammen mit den Quellenkarten aus dem Grundblatt."
         ],
-        "childHandoutsNote": "Nur das Kinderblatt separat öffnen und drucken.",
-        "childHandoutsPrintNote": "Das Kinder-PDF separat öffnen und drucken. Diese Materialübersicht ersetzt weder Quellenkarten noch Schreibraum oder Bearbeitung.",
+        "childHandoutsNote": "Öffne das Grundblatt mit den Quellenkarten. Wenn du den Zusatz wählst, öffne auch die Zusatzkarte. Bei Bedarf kannst du die Blätter einzeln drucken.",
+        "childHandoutsPrintNote": "Das Grundblatt enthält die Quellenkarten. Die Zusatzkarte brauchst du nur, wenn du den freiwilligen Erklärauftrag wählst. Die Übersicht ersetzt die Blätter und deine Bearbeitung nicht.",
         "childHandouts": [
           {
             "label": "Kinderblatt mit zwei Quellenkarten öffnen und drucken",
-            "path": "assets/ge-h02e-perspektiverzaehlung/01-kinderblatt.pdf"
+            "path": "assets/ge-h02e-perspektiverzaehlung/01-kinderblatt.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ge-h02e-perspektiverzaehlung/01-kinderblatt.pdf"
+          },
+          {
+            "label": "Freiwilliger Zusatz: Eine Darstellung von Vergangenheit erklären",
+            "path": "assets/ge-s3-rekonstruktion/01-kinderkarte.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ge-s3-rekonstruktion/01-kinderkarte.pdf"
           }
         ],
         "adultNote": "Die vorhandenen 20 Kriterienpunkte (4+8+4+4) gelten nur für die Aufgaben im Papiermaterial und sind formative Rückmeldung, keine App-Punkte, Schulnote oder Kompetenzdiagnose.",
         "adultGuide": [
           "Nur tatsächlich vorliegende Antworten anhand des getrennten Erwachsenen-PDFs besprechen; fehlende Bearbeitung ist kein automatischer Nullwert.",
-          "Die dort präzisierte zugängliche Drittperson bleibt bei erkennbarer Quellenperspektive zulässig; keine unbelegte innere Rede oder Quellenneutralität als Perspektivnachweis werten."
+          "Die dort präzisierte zugängliche Drittperson bleibt bei erkennbarer Quellenperspektive zulässig; keine unbelegte innere Rede oder Quellenneutralität als Perspektivnachweis werten.",
+          "Beim freiwilligen Zusatz zuerst den eigenen Versuch abwarten. Frage, passende Belege, begründete Auswahl und Grenze am tatsächlichen Beitrag besprechen; erst danach das Modell zeigen. Vorhandene Wort- und Rollenhilfe bleiben nutzbar. Keine Zusatzpunkte."
         ],
         "adultCriteria": [
           "Kinder- und Erwachsenenblatt getrennt verwendet; Modelle nicht als Kinderantwort ausgegeben.",
-          "Quellenrahmung, Belege und Überlieferungsgrenzen nach dem Papier-Raster betrachtet; kein automatischer Leistungsnachweis aus der Auswahl."
+          "Quellenrahmung, Belege und Überlieferungsgrenzen nach dem Papier-Raster betrachtet; kein automatischer Leistungsnachweis aus der Auswahl.",
+          "Nur bei Nutzung des freiwilligen Zusatzes: eigene Verbindung zwischen Frage, Belegen, Auswahl und Darstellungsgrenze betrachtet; ein nachgesprochenes Modell allein belegt keine eigene Erklärung."
         ],
         "handoutsNote": "Nur für Erwachsene: Modelle und Rückmelderaster getrennt vom Kinderblatt aufbewahren und verwenden. Die getrennten Rollenlinks sind keine technische Zugriffssperre.",
         "handouts": [
           {
             "label": "Nur Erwachsene: Modelle und Rückmelderaster öffnen",
-            "path": "assets/ge-h02e-perspektiverzaehlung/02-erwachsenenloesung.pdf"
+            "path": "assets/ge-h02e-perspektiverzaehlung/02-erwachsenenloesung.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ge-h02e-perspektiverzaehlung/02-erwachsenenloesung.pdf"
+          },
+          {
+            "label": "Nur Erwachsene: Begleitung zum freiwilligen Rekonstruktionszusatz",
+            "path": "assets/ge-s3-rekonstruktion/02-begleitung.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ge-s3-rekonstruktion/02-begleitung.pdf"
           }
         ],
-        "printAdultHandoutsNote": "Dies ist nur eine Materialübersicht. Modelle und 20-Kriterien-Raster stehen im separat zu öffnenden Erwachsenen-PDF; keine Punkte oder Erledigtwertung in der App."
+        "printAdultHandoutsNote": "Getrennte Erwachsenenblätter: Grundfall mit 20-Kriterien-Raster https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ge-h02e-perspektiverzaehlung/02-erwachsenenloesung.pdf ; freiwilliger Zusatz ohne weitere Punkte https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ge-s3-rekonstruktion/02-begleitung.pdf . Modelle getrennt von den Kinderblättern verwenden; diese Übersicht ersetzt die Erwachsenenblätter nicht."
       },
       "releaseEvidence": {
         "primaryLocalPdf": "pdf/LP_GY_Ge_Fassung_20210913.pdf",
         "primarySha256": "ADEF1D39DEC54EA6ACF27F2EA8EB0FFB2B31417952358C3F7197CF9DCBE5C4BA",
-        "competencyRef": "H02-Einleitungsfliesstext/PDF18: Perspektiverzählen als enger Teilanschluss innerhalb7/8 bis Ende8; keine neue Bullet-ID und keine gesamte H02-Abdeckung.",
-        "checkedAt": "2026-11-21",
-        "reviewNote": "Vorhandene begrenzte Manuskript-, Quellenlogik-, Papier- und lokale Zugangsprüfungen als Herkunft. Freiwilliger Schreibweg im Zielraum Klassen7/8 bis Ende8; konkrete Unterrichtsfolge unbekannt. Auswahl und Dateiöffnung belegen keine Bearbeitung. Tatsächliche Kinderleistung, externe Fach-/Altersprüfung, H02-Gesamt- und Jahresabnahme bleiben offen."
+        "competencyRef": "H02-Einleitungsfliesstext/PDF18: Perspektiverzählen als enger Teilanschluss innerhalb7/8 bis Ende8; keine neue Bullet-ID und keine gesamte H02-Abdeckung. S3/§2.2.1/PDF19: Konstruktcharakter und Prinzipien historischen Denkens am vorhandenen Quellenfall erklären. M5 bleibt teilweise offen.",
+        "checkedAt": "2026-11-22",
+        "reviewNote": "Vorhandene begrenzte Manuskript-, Quellenlogik-, Papier- und lokale Zugangsprüfungen als Herkunft. Freiwilliger Schreibweg im Zielraum Klassen7/8 bis Ende8; konkrete Unterrichtsfolge unbekannt. Auswahl und Dateiöffnung belegen keine Bearbeitung. Tatsächliche Kinderleistung, externe Fach-/Altersprüfung, H02-Gesamt- und Jahresabnahme bleiben offen. S3-Zusatzmanuskript unabhängig angenommen; getrennte PDF-, App- und technische Ausgabenachweise werden im Releasecheck gebunden. Keine neue Quelle, keine weiteren Punkte und kein Vergleich zweier Darstellungen desselben Gegenstands nach M5."
       }
     },
     {

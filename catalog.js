@@ -2309,7 +2309,8 @@ window.LOTTE_CATALOG=Object.freeze({
             "1 Punkt: mindestens zwei Wörter aus dem Material als mögliche Bezeichnungen.",
             "1 Punkt: deutliche Kennzeichnung der kleinen erfundenen Befragung ohne Allgemeingeltung.",
             "1 Punkt: faire Begründung ohne Abwertung anderer Wörter oder Sprecher; alternative verständliche Formulierungen gelten."
-          ]
+          ],
+          "adultOnlySolution": true
         }
       ],
       "releaseEvidence": {

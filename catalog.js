@@ -776,6 +776,135 @@ window.LOTTE_CATALOG=Object.freeze({
       }
     },
     {
+      "id": "ma-prozentstruktur-bruchwege",
+      "subjectId": "ma",
+      "title": "Prozentbeziehungen: vom Anteil zum Ganzen und zurück",
+      "released": true,
+      "levelStatus": "grade8-outlook",
+      "levelLabel": "7/8-Vorgriff · Ziel Ende Klasse 8",
+      "scope": "Du löst innermathematische Prozentbeziehungen: Grundwerte rückwärts bestimmen, verschiedene Grundwerte vergleichen und aufeinanderfolgende Anteile verbinden. Freiwilliger gestützter 7/8-Vorgriff auf ein Ende-8-Ziel; konkrete Unterrichtsfolge unbekannt. Keine ganze M4-/Jahresabdeckung.",
+      "prerequisite": "Du brauchst Brüche wie ein Viertel und ein Achtel, Multiplikation/Division sowie Grundwert, Prozentsatz und Prozentwert. Falls etwas neu ist, zuerst erklären lassen. Versuche die fünf Hauptaufträge nach Möglichkeit ohne Rechner, Formelsammlung oder digitale Hilfe. Hilfe ist erlaubt: Notiere sie freiwillig; richtige Mathematik zählt trotzdem. Nur eine tatsächliche Beobachtung bestätigt eine Bearbeitung ohne Hilfsmittel.",
+      "introduction": "Fünf Hauptaufträge ergeben 4+4+4+5+3=20 Kriterienpunkte. Eine freiwillige Variante hat 6 getrennte Punkte, die Selbstkontrolle ist unbepunktet. Du kannst die freiwillige Variante zusätzlich bearbeiten. Freie Rechenwege manuell besprechen, keine automatische Note.",
+      "passage": "Die Zahlen beschreiben reine mathematische Beziehungen. Keine echte Rechnung, Steuer, Umfrage oder aktuelle Zinsangabe. Alle ausdrücklich gesuchten Grundwerte sind positiv. Zeige deine Rechenwege und Rückproben. Fachlich gleichwertige Bruch- und Kopfrechenwege sind zulässig.",
+      "tasks": [
+        {
+          "id": "ma-prozentstruktur-1",
+          "kind": "reflection",
+          "points": 4,
+          "adultOnlySolution": true,
+          "writingLines": 9,
+          "inputRows": 8,
+          "prompt": "Vom Teil zum Ganzen (4 P): 25 % einer unbekannten positiven Zahl G sind 18. Bestimme G. Schreibe eine passende Gleichung oder Bruchrechnung auf, erkläre, warum du vom Teil auf das Ganze schliessen darfst, und prüfe dein Ergebnis rückwärts.",
+          "hint": "Schreibe den gegebenen Anteil als einfachen Bruch und denke vom Teil zum Ganzen.",
+          "sample": "25 %=1/4. Aus G/4=18 folgt G=18·4=72. Ein Viertel von 72 ist 18. Der Prozentwert ist ein Viertel des gesuchten Grundwerts, deshalb wird zur ganzen Zahl vervierfacht.",
+          "criteria": [
+            "25 %=1/4 oder korrekte Gleichung 1; G=72 1; Schluss Teil→Ganzes begründet 1; Rückwärtsprobe 1 = 4."
+          ]
+        },
+        {
+          "id": "ma-prozentstruktur-2",
+          "kind": "reflection",
+          "points": 4,
+          "adultOnlySolution": true,
+          "writingLines": 9,
+          "inputRows": 8,
+          "prompt": "Ein Achtel als Prozentwert (4 P): 12,5 % einer unbekannten positiven Zahl N sind 9. Bestimme N ohne Dezimaldivision. Zeige, wie du 12,5 % als einfachen Bruch nutzen kannst, und prüfe dein Ergebnis.",
+          "hint": "Nutze eine einfache Bruchdarstellung von 12,5 %; eine Dezimaldivision ist nicht nötig.",
+          "sample": "12,5 %=1/8, da 100 %/8=12,5 %. Also N/8=9, somit N=72. Probe: 72/8=9.",
+          "criteria": [
+            "Bruchgleichheit 1; Gleichung/Teilschritt 1; N=72 1; Probe 1 = 4. Dezimaldivision ist für den gefragten Weg nicht erforderlich."
+          ]
+        },
+        {
+          "id": "ma-prozentstruktur-3",
+          "kind": "reflection",
+          "points": 4,
+          "adultOnlySolution": true,
+          "writingLines": 9,
+          "inputRows": 8,
+          "prompt": "Zwei verschiedene Grundwerte (4 P): Vergleiche 20 % von 45 und 15 % von 60. Rechne beide Werte mit einem nachvollziehbaren Kopf- oder Bruchweg aus. Sind die Prozentwerte gleich? Erkläre, warum man die Prozentsätze allein hier nicht sinnvoll als grössere oder kleinere Anzahl vergleichen kann.",
+          "hint": "Halte beide Grundwerte getrennt und rechne jeweils den Anteil aus.",
+          "sample": "20 %=1/5, also 45/5=9. 15 %=3/20, also 60/20·3=9. Die Prozentwerte sind gleich, obwohl 20 % grösser als 15 % ist, weil die Grundwerte 45 und 60 verschieden sind.",
+          "criteria": [
+            "Erster Wert samt Weg 1; zweiter Wert samt Weg 1; Gleichheit 1; unterschiedliche Grundwerte als Erklärung 1 = 4."
+          ]
+        },
+        {
+          "id": "ma-prozentstruktur-4",
+          "kind": "reflection",
+          "points": 5,
+          "adultOnlySolution": true,
+          "writingLines": 13,
+          "inputRows": 8,
+          "prompt": "Verkettete Beziehungen (5 P): Es gilt A=40 % von B und B=150 % von C. Setze C=80. Berechne zuerst B, dann A. Bestimme ausserdem, wie viel Prozent von C die Zahl A ist. Zeige einen zweiten kurzen Weg, der direkt von C zu A führt.",
+          "hint": "Beachte die Reihenfolge C→B→A. Welche Faktoren verbinden die Grössen?",
+          "sample": "B=1,5·80=120. A=0,4·120=48. Damit A/C=48/80=3/5=60 %. Direkt: A=0,4·1,5· C=0,6C=48.",
+          "criteria": [
+            "B=120 1; A=48 1; A=60 % von C 1; direkte Verknüpfung 0,4·1,5=0,6 1; direkter Kontrollwert 0,6·80=48 1 = 5.",
+            "Fachlich gleichwertige Bruch- oder Kopfrechenwege zählen. Folgefehler bei 4 nicht für denselben Fehler mehrfach abziehen: Wird B einmal falsch berechnet und danach A=0,4·B mit diesem eigenen B rechnerisch richtig bestimmt, die richtige Anschlussmethode getrennt vom ersten Zahlenfehler werten. Die direkte Faktorkette 0,4·1,5=0,6 wird unabhängig davon geprüft. Ein mit falschen Zwischenwerten berechneter Quotient A/C kann von 60 % abweichen und darf dann nicht als numerisch richtiges 60-%-Ergebnis gelten. Beispiel bei C=80: falsches B=110, korrekt angeschlossenes A=44; A/B=40 %, aber A/C=55 %. Auftrag 5 bewertet die eigenständige Fehleranalyse, auch wenn Auftrag 4 bereits die 60 % ermittelt hat."
+          ]
+        },
+        {
+          "id": "ma-prozentstruktur-5",
+          "kind": "reflection",
+          "points": 3,
+          "adultOnlySolution": true,
+          "writingLines": 10,
+          "inputRows": 8,
+          "prompt": "Einen Denkfehler prüfen (3 P): Zu Auftrag 4 schreibt jemand: „40 % von 150 % sind 190 %, weil ich die beiden Prozentsätze addiere.“ Prüfe die Aussage mit einer Rechnung oder einem Bruchmodell. Benenne den Denkfehler und formuliere eine passende Regel für solche aufeinanderfolgenden Anteile.",
+          "hint": "Prüfe, worauf sich jeder Prozentsatz bezieht. Eine zweite Zahlenprobe ersetzt die geforderte allgemeine Regel nicht.",
+          "sample": "Aufeinanderfolgende Anteile werden multipliziert: 0,40·1,50=0,60, also 60 % von C. Addieren zu 190 % behandelt zwei verschiedene Bezugsgrössen fälschlich wie eine gemeinsame Summe; auch die Zahlen aus 4 widerlegen es, denn 48/80=60 %.",
+          "criteria": [
+            "Rechnung/Bruchmodell mit 60 % oder passende Zahlenprobe 1; falsche Addition wegen unterschiedlicher Bezugsstufen erklärt 1; allgemeine Multiplikationsregel für aufeinanderfolgende Anteile 1 = 3. Eine zweite Zahlenprobe ersetzt die Regel nicht."
+          ]
+        },
+        {
+          "id": "ma-prozentstruktur-variante",
+          "kind": "reflection",
+          "variant": true,
+          "points": 6,
+          "adultOnlySolution": true,
+          "writingLines": 15,
+          "inputRows": 12,
+          "prompt": "Freiwillige Variante · 6 getrennte Zusatzpunkte. Jetzt gilt weiter A=40 % von B und B=150 % von C, aber A=72 ist bekannt. Bestimme B und C auf zwei nachvollziehbaren Wegen: einmal über B, einmal direkt über den Anteil von C. Prüfe durch Einsetzen in beide Ausgangsbeziehungen. Erkläre, warum man nicht einfach 72· 0,40 rechnen darf, um B zu erhalten.",
+          "hint": "Jetzt ist A bekannt. Trenne die Umkehrrechnung über B vom direkten Anteil an C und prüfe beide ursprünglichen Beziehungen.",
+          "sample": "Über B: 72=0,4B, also B=72/(2/5)=72·5/2=180 (1 Punkt für Ansatz/Umkehrung, 1 für Ergebnis). Dann 180=1,5C, also C=120 (1). Direkt: A=0,6C, also C=72/(3/5)=120 (1). Beide Ausgangsbeziehungen geprüft: 0,4·180=72 und 1,5·120=180 (zusammen 1). 72·0,4 wäre erneut 40 % von A, nicht der gesuchte Grundwert B; der Umkehrweg dividiert durch 0,4 (1). 6 Punkte. Den direkten Weg nur einmal als eigenen Weg werten; wiederholtes Abschreiben der ersten Rechnung erfüllt ihn nicht.",
+          "criteria": [
+            "Über B: Ansatz/Umkehrung1 P und B-Ergebnis1 P.",
+            "C über B1 P, unabhängiger direkter Weg zu C1 P.",
+            "Beide Ausgangsbeziehungen zusammen geprüft1 P.",
+            "Erklärt, weshalb72·0,4 erneut einen Anteil vonA statt B ergibt1 P."
+          ]
+        },
+        {
+          "id": "ma-prozentstruktur-selbstcheck",
+          "kind": "reflection",
+          "points": 0,
+          "adultOnlySolution": true,
+          "writingLines": 5,
+          "inputRows": 4,
+          "prompt": "Freiwillige Selbstkontrolle ohne Punkte: Welcher Schritt war zuerst unklar? Welche Hilfe hast du gegebenenfalls benutzt? Welche Rückwärtsprobe hat dir geholfen?",
+          "hint": "Du darfst Hilfe nutzen und hier notieren. Ein Selbstbericht ist kein Beweis einer Bearbeitung ohne Hilfsmittel.",
+          "sample": "Eigene passende Notiz zulassen; keine richtige Vorliebe oder zwingende Hilfsmittelfreiheit verlangen.",
+          "criteria": [
+            "Keine Punkte oder Abzüge. Wirkliche Hilfsmittelfreiheit braucht separate Beobachtung; keine Gruppenleistung aus einer Notiz ableiten."
+          ]
+        }
+      ],
+      "sourceBindings": {
+        "wissen/recherche/mathematik-m4-prozentstruktur-kinderblatt-2026.md": "AB15EBDB9F12E499D111C684916C91E9E97CCDCF48C09F6D976C8E58BDD11EAC",
+        "wissen/recherche/mathematik-m4-prozentstruktur-erwachsenenloesung-2026.md": "78A002C9A12F6521185C2104703F8513CDDCE4E1A179A77238115CF9D8B7899F",
+        "wissen/recherche/mathematik-m4-prozentstruktur-qa-2026.md": "0AE986B3E61E544D6DE07A2DA6F5A199E6C8031DA510708E6709E7A04FAF36FD"
+      },
+      "releaseEvidence": {
+        "primaryLocalPdf": "pdf/LP_Mathematik_GY_Erprobung_2026-08-25.pdf",
+        "primarySha256": "91838D21BB7035A3E30890E837A47425B3766F3A38066AF6559F167AFC399D26",
+        "competencyRef": "§2.2.4 PDF26–27, Klassenstufe8: inner-/aussermathematische Prozentprobleme, einfache Fälle auch ohne Hilfsmittel. Enger innermathematischer Anschluss.",
+        "checkedAt": "2026-11-17",
+        "reviewNote": "OriginalPDF26/27+Hash neu gelesen; vorhandenes23OctPaket20+6. FrühererRubrikP2Aufgabe5korrigiert, neuerFolgefehlerP3präzisiert und GegenbeispielC80/B110/A44=>55% statt60% dokumentiert. Keine tatsächliche Hilfsmittelfreiheit, Kinder-, App-, Druck- oder Jahresabnahme."
+      }
+    },
+    {
       "id": "ma-koerper-netzkarten",
       "subjectId": "ma",
       "title": "Welche Körper passen zu den Netzkarten?",
@@ -12987,7 +13116,7 @@ window.LOTTE_CATALOG=Object.freeze({
           "Gliedere den Text in Karte, Brücke, Nachfrage und Entscheidung. Sprich jeden Teil erst mit Vorlage, dann aus dem Gedächtnis.",
           "Verbinde die vier Teile. Eine vereinbarte knappe Gedächtnisstütze ohne vollständige Verse darf bereitliegen.",
           "Trage alle vier Strophen einer anwesenden Person vor, ohne den vollständigen Text abzulesen. Setze mindestens zwei passende Pausen und betone mindestens zwei passende Wörter oder Stellen hörbar; andere sinnvolle Gestaltungen darfst du zusätzlich versuchen.",
-          "Sage danach mündlich, welche Stelle schwer zu erinnern war und wie du beim nächsten Mal gezielt üben würdest."
+          "Sage nach dem Vortrag mündlich: Nenne eine konkrete Stelle deines Vortrags. Was hat dir beim Erinnern oder Sprechen geholfen, oder was fiel dir schwer? Was möchtest du beim nächsten Mal beibehalten oder anders üben?"
         ],
         "adultNote": "Nur nach einem wirklich gehörten Vortrag ausfüllen. Ohne Durchführung „nicht erhoben“ ankreuzen, nie 0/16 aus einer fehlenden Beobachtung ableiten. Vorher vereinbarte Hilfen sachlich notieren; die Rubrik ist formative Übungsrückmeldung, keine Schulnote.",
         "adultCriteria": [
@@ -12996,7 +13125,7 @@ window.LOTTE_CATALOG=Object.freeze({
           "Verständliche Artikulation (0–2): 2 = durchgehend verständlich; 1 = einzelne Stellen unklar, Kern verständlich; 0 = Kern auch nach normaler Nachfrage nicht verständlich. Dialekt, Akzent, Nervosität oder vereinbarte Sprechhilfe allein sind keine Fehler.",
           "Tempo und Pausen (0–2): 2 = Handlung gut folgbar und mindestens zwei passende Pausen; 1 = im Wesentlichen folgbar, streckenweise gehetzt oder monoton; 0 = Verlauf kaum folgbar. Persönliche Sprechgeschwindigkeit allein nicht abwerten.",
           "Bedeutungsbezogene Betonung (0–2): 2 = mindestens zwei hörbare passende Akzente; 1 = ein passender Akzent; 0 = keine erkennbare Gestaltung oder sinnverdrehende Akzente. Eine andere plausible Gestaltung gilt ebenso.",
-          "Mündliche Reflexion (0–2): je 1 Punkt für eine konkrete schwere Erinnerungs- oder Sprechstelle und einen dazu passenden nächsten Übungsschritt; allgemeines „mehr üben“ allein genügt nicht."
+          "Mündliche Reflexion (0–2): 1 Punkt für eine konkrete Erinnerungs- oder Sprechstelle mit Erklärung, was dabei half oder schwerfiel. Eine gelungene Stelle zählt ebenso; keine Schwierigkeit erfinden lassen. 1 Punkt für einen dazu passenden nächsten Schritt zum Beibehalten oder gezielten Üben; allgemeines „mehr üben“ ohne Bezug genügt nicht. Die Reflexion ist keine zusätzliche Gedächtnisprobe."
         ]
       },
       "releaseEvidence": {

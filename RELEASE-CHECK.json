@@ -1,55 +1,70 @@
 {
-  "builtAt": "2026-11-21T06:19:14.549Z",
-  "releaseVersion": "2026.11.21-h02e-komma.1",
+  "builtAt": "2026-11-22T09:10:43.966750+00:00",
+  "releaseVersion": "2026.11.22-m4-vortrag.1",
   "status": "VERIFIED_SCOPED_LOCAL_PREPUBLICATION_CHECKPOINT",
-  "rollbackCommit": "4704d4a99db0bf23407984791558883695774dda",
-  "baselineRelease": "2026.11.21-appell.1",
-  "topics": 220,
-  "answerFields": 1022,
-  "oldAnswerFieldsPreserved": 1019,
+  "baselineRelease": "2026.11.21-h02e-komma.1",
+  "baselineCommit": "df4deb51762cb3976638df011926f3200e921f51",
+  "baselineTree": "d4afc019fc545ecf83a79f4568897811ac0ff2e4",
+  "baselineCandidate": "output/release-candidate-h02e-komma-20261121-v2",
+  "baselineCatalogSha256": "5E9AFE2196B417F8622FF3FCB531AD18EA32FFD7734214D6F0ED5626DF681CC4",
+  "masterCatalogSha256": "9CD4315187F20F7B62E37683F87710B2351886F3E1892EE80312E8EF3AFBF3EA",
+  "topics": 221,
+  "answerFields": 1029,
+  "oldTopicsPreserved": 219,
+  "oldAnswerFieldsPreserved": 1022,
   "newTopicIds": [
-    "ge-h02e-perspektiverzaehlung-papier",
-    "de-zu-infinitivkomma"
+    "ma-prozentstruktur-bruchwege"
   ],
   "newTaskIds": [
-    "de-infinitivkomma-a",
-    "de-infinitivkomma-b",
-    "de-infinitivkomma-c"
+    "ma-prozentstruktur-1",
+    "ma-prozentstruktur-2",
+    "ma-prozentstruktur-3",
+    "ma-prozentstruktur-4",
+    "ma-prozentstruktur-5",
+    "ma-prozentstruktur-variante",
+    "ma-prozentstruktur-selbstcheck"
   ],
-  "changeLog": [
-    "Freiwilliger H02e-Papierzugang im Zielraum7/8 bis Ende8 mit getrennten Kinder-/Erwachsenen-PDFs; keine App-Antworten oder Erledigtmarker.",
-    "Infinitivkomma: drei offene Hauptaufgaben8+6+6=20; freiwilliger unbepunkteter Papiersatz ohne viertes Feld.",
-    "218alte Themen und1019alte Taskobjekte unverändert; zwei genaue Kinderhinweis-Hooks und eine eigene DE-Erwachsenendruckregel."
-  ],
-  "compatibility": {
-    "oldBackupForward": "Tatsächlich gezielt geprüft: Eine in der alten218-Fassung eingegebene und exportierte Antwort wurde im frischen Kandidaten importiert und nach Neuladen exakt erhalten. Kein Test aller alten Sicherungen oder1019 ausgefüllter Felder.",
-    "paperAndMixed": "Reine H02e-Auswahl und gemischte Auswahl mit vier normalen Antworten tatsächlich exportiert, frisch importiert und neu geladen. H02e erzeugt keine Antwort- oder Erledigtmarker.",
-    "germanRoundTrip": "Drei tatsächlich eingegebene DE-Antworten nach Neuladen sowie Export und frischem Import mit Neuladen exakt erhalten; ein falscher Antwortdatentyp wurde vor Bestätigung abgewiesen.",
-    "cancelInvalid": "Bestätigungsabbruch und ungültiger H02e-Leistungsmarker mit ausdrücklichen Statusmeldungen und unverändertem gespeichertem Stand geprüft.",
-    "oldReleaseReverse": "Neue H02e-Auswahlsicherung wird von der alten218-Fassung als unbekannte Auswahl abgewiesen. Keine Rückwärtskompatibilität und kein stilles Entfernen von Daten.",
-    "state": "Vorhandenes Speicherformat unverändert. Drei neue offene DE-Antwortfelder; H02e speichert nur Auswahl/active, keine Papierleistung."
+  "sourceBindings": {
+    "wissen/recherche/mathematik-m4-prozentstruktur-kinderblatt-2026.md": "AB15EBDB9F12E499D111C684916C91E9E97CCDCF48C09F6D976C8E58BDD11EAC",
+    "wissen/recherche/mathematik-m4-prozentstruktur-erwachsenenloesung-2026.md": "78A002C9A12F6521185C2104703F8513CDDCE4E1A179A77238115CF9D8B7899F",
+    "wissen/recherche/mathematik-m4-prozentstruktur-qa-2026.md": "0AE986B3E61E544D6DE07A2DA6F5A199E6C8031DA510708E6709E7A04FAF36FD"
   },
+  "changeLog": [
+    "Added the existing M4 percentage-relationship offer with seven tasks and unchanged 20 main plus 6 optional points; the voluntary self-check has no points. End-of-grade8 outlook, no claimed grade7 gap closure.",
+    "Synchronized two D-L3 reflection fields with the independently reviewed child/adult manuscripts: helpful or successful moments are valid alongside difficulties. Written6 and observed oral16 points retained.",
+    "All1022 previous tasks and219 previous topics retained exactly; the remaining previous topic differs only in the two approved reflection fields. Renderer, CSS,105 assets and state schema unchanged."
+  ],
   "validation": {
-    "static": "Unabhängiger begrenzter Daten-/Port-/Privacyreview bestanden:220Themen/1022Tasks; alle218alten Themen/Globals und1019alten Taskobjekte exakt. Genau zwei Hinweisfragmente und eine eigene DE-Erwachsenendruckregel; fünf geänderte Textdateien und zwei geprüfte H02e-PDFs.",
-    "H02e": "Am tatsächlichen Kandidaten bei320/390/1280 geprüft: Ende8-/All-Auswahl, keine Klasse6-Zuordnung und kein Auftauchen im Klasse7-Standardfilter; Keine Antwortfelder, keine0von0-/NaN-Anzeige und keine Erledigtwertung. Getrennte Kinder-/Erwachsenen-PDFs tatsächlich geöffnet. Reine/gemischte Auswahl, Sicherungen und Appell-Kinderhinweise gezielt geprüft.",
-    "german": "Drei echte offene UI-Antworten mit manueller Erwachsenenrückmeldung, keine Kindermusterlösung, freie Antworten nicht automatisch bewertet. Drei Hauptaufgaben8+6+6=20; D bleibt freiwilliger unbepunkteter Papiersatz ohne viertes Feld. Eigener tatsächlicher Lauf erfolgreich beendet.",
-    "print": "H02e-Übersichten mit1/1/4/4Seiten plus1Appell-Kinderseite sowie DE-Drucke mit2/3/3/5Seiten geprüft. Duale Leser, tatsächliche Sicht, A4 innerhalb dokumentierter Toleranz und keine Glyph-Randfehler. Alle neun DE-Sätze, Modelle und Rubriken erhalten; keine neue Prüfung der unveränderten Quell-PDFs.",
-    "processQualification": "H02e ist eine belegte Teilgatekette: Der Hauptlauf endete nicht regulär erfolgreich; ein gezielter Appell-Nachschritt und der Druckaudit wurden jeweils erfolgreich beendet. Kein zusammengesetzter Gesamtprozess-Exit0. DE-Lauf und DE-Druckaudit wurden separat erfolgreich beendet.",
-    "observability": "In den dokumentierten tatsächlichen Prüfkontexten keine aktuellen Konsolenfehler, Warnungen, Seitenfehler, fehlgeschlagenen oder externen Anfragen; nur lokale Dateien. Kein Audio abgespielt. Diese Aussage gilt nur für die erfassten Fälle, nicht für alle220Themen.",
-    "headerCount": "220Katalogthemen und218im Gymnasium-Klasse7-Modus verfügbare Themen sind korrekt getrennt: zwei ES6-Themen gehören ausschliesslich zum Klasse6-Modus. Ein früherer abweichender Befund wurde begründet zurückgenommen; kein Headerfix nötig.",
-    "remote": "NOT_PUBLISHED: Dieser lokale Kandidatenstand enthält keine Git-/Remote-/Pinänderung, Pages- oder ausgelieferte HTTPS-Abnahme.",
-    "independentFinal": "Statischer Review und beide begrenzten Kandidatenprüfungen samt qualifiziertem Nachtrag liegen vor. Diese Metadaten-Endfassung wartet noch auf den eigenen unabhängigen Deltareview.",
-    "evidenceHashes": {
-      "staticReview": "EE97EF41613EBE074B12AC9B331C09D6FF38B7FD204BF9CBFF0E87137B36220D",
-      "H02eReview": "C5096D73E2D48A04B0A78D91BDFE795D26DF0F403109EC3DF1C5EF285DE26927",
-      "germanReview": "507CD8D443F9BAEB21A49E18256AFAB77C43A2571EF46C520755BB26FC45134A",
-      "headerCorrection": "7A48DF45150D8362CB97E2BF55AC391DC9CAD11E254F21DA69191C32BAC11E11"
-    }
+    "static": "Independent bounded integration review passed; all1022 old tasks exact,219 old topics exact and only two approved D-L3 fields changed; M4 source identity preserved except approved release flag.",
+    "runtimeStateImport": "23 stored targeted checks passed: filters,seven real inputs,manual feedback,save/reload,export,historical local five-answer synthetic backup,abort/invalid datatype and fresh import/reload. The process later exited1 at a hidden print-screenshot; no overallExit0 is claimed.",
+    "responsiveViews": "M4 and D-L3 active-topic views separately checked at320/390/1280; six checks passed. Not all221 topics retested.",
+    "rolesAndPrint": "Six actual child/adult/single/mixed A4 PDFs,18 pages independently checked for role text,PDFium character bounds and rendered layout. Narrow390px print-media preview overflow remains distinct from clean actual A4 output.",
+    "dl3LanguageRole": "Independent exact two-field language/role review passed;6written+16oral preserved; no actual presentation observed.",
+    "publication": "Pending atomic main update and independent Git tree/Pages verification."
   },
   "limits": [
-    "Zielräume7/8 bis Ende8, konkrete Schulfolge unbekannt; keine aktuelle Klasse7-Pflichtfolge.",
-    "Keine echte Kinderleistung, externe umfassende Fach-/Alters-, Schulfolgen- oder Jahresabnahme.",
-    "Vorhandene lokale und Papierprüfungen sind Herkunft; sie ersetzen keine tatsächliche öffentliche Kandidatenprüfung."
+    "No actual child,device,physical-print or tool-free calculation acceptance.",
+    "No external mathematics review,school-sequence confirmation or full M4/eleven-subject annual acceptance.",
+    "No new HTTPS/live-browser observation; publication and Pages are separate subsequent evidence.",
+    "Segmented checks with preserved harness failures,not a fabricated successful overall process.",
+    "Local323-topic research master and public221-topic package remain different stages."
   ],
-  "verificationScope": "Begrenzt geprüfter isolierter Vorveröffentlichungskandidat. H02e-Teilgatekette und separater DE-Lauf bleiben prozessual getrennt; kein globaler GesamtExit0 oder vollständiger220Themen-/1022Feldertest. Keine tatsächliche Kinderleistung, externe Fach-/Alters-, Schulfolgen-, Jahres- oder Live-Auslieferungsabnahme."
+  "verificationScope": "Bounded independently reviewed content/preservation,segmented runtime/import/role and actualA4 gates. Appropriate as a voluntary checked learning offer; not full-year completion or observed learner competence.",
+  "rollbackCommit": "df4deb51762cb3976638df011926f3200e921f51",
+  "changedExistingTopicIds": [
+    "de-karte-im-regen-vortrag"
+  ],
+  "oldTopicsTwoReflectionFieldsOnly": "de-karte-im-regen-vortrag",
+  "compatibility": {
+    "schema": "Renderer and state schema unchanged; actual new seven-answer roundtrip checked.",
+    "historicalLocalBackup": "A historical synthetic local M4 backup with five main answers restored those answers; optional fields stayed blank. This is not a test of every old public backup.",
+    "cancelAndInvalid": "Explicit import cancellation retained stored data; invalid answer datatype rejected before writing.",
+    "reverse": "No reverse-compatibility claim; an older catalog can reject unknown new topic selection."
+  },
+  "releaseAuthorization": {
+    "scope": "One existing local M4 topic, plus two corrected reflection fields in the existing D-L3 topic; user-authorized regular checked website updates",
+    "M4Released": true,
+    "localResearchMasterM4Released": false,
+    "publicationAtBuildTime": "NOT_YET_DEPLOYED"
+  }
 }

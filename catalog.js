@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.22-de-hoernachricht-rollen.1",
+  "version": "2026.11.22-ma-formelsammlung.1",
   "status": "familienversion",
   "subjects": [
     {
@@ -24095,6 +24095,182 @@ window.LOTTE_CATALOG = {
         "validFor": "2026/27",
         "gradeBand": "7/8",
         "primarySha256": "91838D21BB7035A3E30890E837A47425B3766F3A38066AF6559F167AFC399D26"
+      }
+    },
+    {
+      "id": "ma-formelsammlung-suchwege",
+      "subjectId": "ma",
+      "title": "Formelsammlung: Suchwege und passende Beziehungen",
+      "released": true,
+      "materialOnly": true,
+      "unscored": true,
+      "levelStatus": "grade78-flex",
+      "scope": "Kleine Mathe-Referenz mit zwei Suchwegen zum Suchen, Auswählen und Anwenden. Freiwillig für Klasse 7/8, Zielhorizont Ende Klasse 8; Unterrichtsfolge und Schul-/Prüfungszulassung ungeprüft.",
+      "prerequisite": "Hilfreich sind Grundbegriffe zu Länge, Fläche, Masse, Volumen und Anteil. Die Referenz erklärt Zeichen, Einheiten und Voraussetzungen; die konkrete Suche und Auswahl bleiben eigene Handlung.",
+      "introduction": "Du arbeitest mit einer lösungsfreien Mathe-Referenz und einem getrennten Suchblatt. Die Erwachsenenbegleitung bleibt bei der Begleitung. Du darfst die Kinderunterlagen direkt öffnen oder ausdrucken.",
+      "tasks": [],
+      "practice": {
+        "title": "Zwei Suchwege in einer kleinen Mathe-Referenz",
+        "unscored": true,
+        "materialOnly": true,
+        "childNote": "Die Kinder-Referenz enthält Formeln, Zeichen, Einheiten und Voraussetzungen, aber keine Lösungen zu den beiden Suchfällen. Öffne die Referenz und das Suchblatt direkt oder nimm einen Ausdruck.",
+        "childSteps": [
+          "Öffne die Kinder-Referenz und das Kinder-Suchblatt direkt oder bitte um einen Ausdruck. Die Erwachsenenbegleitung bleibt während deiner eigenen Bearbeitung getrennt.",
+          "Bearbeite den Rechteck-Suchweg: Finde für R (4 cm breit, 2 cm hoch) und S (3 cm breit, 3 cm hoch) die Beziehung für den Außenrand. Vergleiche bei Bedarf den passenden Eintrag mit dem ähnlichen Flächeneintrag und zeige, sage oder schreibe deine Auswahl mit Einheit.",
+          "Bearbeite den fiktiven Dichte-Suchweg: Bei 540 g Masse und 200 cm³ Volumen sollst du herausfinden, welche Masse auf 1 cm³ entfällt. Finde den passenden Eintrag, deute Zeichen und Einheiten und erkläre deinen Weg.",
+          "Du darfst ohne Hilfe, mit einem Registerhinweis, mit Einheitenhilfe oder gemeinsam weiterarbeiten. Sage, zeige oder halte fest, welche Hilfe du tatsächlich genutzt hast. Öffnen, Auswählen und Bearbeiten werden nur ausserhalb der App besprochen; es gibt keine automatische Bewertung."
+        ],
+        "adultNote": "Geben Sie die lösungsfreie Kinder-Referenz und das Kinder-Suchblatt getrennt von der Erwachsenenbegleitung aus. Die drei Handouts gehören zusammen, aber die Erwachsenen-PDF bleibt bei der Begleitung.",
+        "adultGuide": [
+          "Verwenden Sie dieselben drei getrennten Handouts: Kinder-Referenz, Kinder-Suchblatt und Erwachsenenbegleitung. Das Kind darf Referenz und Suchblatt direkt öffnen oder auf Papier nutzen; die Erwachsenenbegleitung bleibt bis zur Besprechung getrennt.",
+          "Besprechen Sie zuerst die tatsächlich gefundene Registerstelle, die Unterscheidung ähnlicher Einträge, Zeichen/Einheiten und die Anwendung im Rechteckfall. Das Öffnen einer Datei allein ist kein Suchnachweis.",
+          "Besprechen Sie danach den fiktiven Dichtefall mit 540 g und 200 cm³. Die Erwachsenenlösung enthält 2,7 g/cm³ und die Rückeinsetz-Kontrolle; diese Angaben werden nicht in die Kinderhandouts übernommen.",
+          "Mündliche, zeigende und schriftliche Erklärungen sind gleichwertig. Verwendete Hilfe und nicht beobachtete Nutzung getrennt festhalten. Keine Punkte, Namen, automatische Erledigtmarkierung oder Praxisannahme aus diesem Papierweg ableiten."
+        ],
+        "adultCriteria": [
+          "Passenden Referenzeintrag tatsächlich aufgesucht und zur Auswahl genutzt; blosses Öffnen oder ein bekanntes Stichwort nicht als Suchleistung werten.",
+          "Rechteck: Aussenrand und Fläche anhand Bedeutung/Einheit unterschieden und die vorhandenen Masse passend angewendet.",
+          "Dichte: Suchziel Masse je 1 cm³, Zeichen/Einheiten und fiktiver Charakter korrekt erklärt; Modellantwort nur in der Erwachsenenbegleitung verwenden.",
+          "Mündliche, zeigende oder schriftliche Antwortform sowie verwendete Hilfe dokumentiert; nicht beobachtete Nutzung als nicht erhoben führen."
+        ],
+        "handoutsNote": "Drei getrennte Unterlagen: Kinder-Referenz mit 4 Seiten, Kinder-Suchblatt mit 2 Seiten und Erwachsenenbegleitung mit 2 Seiten. Geben Sie die beiden Kinderunterlagen getrennt von den Erwachsenenmodellen aus.",
+        "handouts": [
+          {
+            "path": "assets/ma-formelsammlung-suchwege/01-kinder-referenz.pdf",
+            "label": "Kinder-Referenz · 4 Seiten",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-formelsammlung-suchwege/01-kinder-referenz.pdf"
+          },
+          {
+            "path": "assets/ma-formelsammlung-suchwege/02-kinder-suchblatt.pdf",
+            "label": "Kinder-Suchblatt · 2 Seiten",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-formelsammlung-suchwege/02-kinder-suchblatt.pdf"
+          },
+          {
+            "path": "assets/ma-formelsammlung-suchwege/03-erwachsenenbegleitung.pdf",
+            "label": "Erwachsenenbegleitung · 2 Seiten",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-formelsammlung-suchwege/03-erwachsenenbegleitung.pdf"
+          }
+        ],
+        "childHandoutsNote": "Öffne die Kinder-Referenz und das Kinder-Suchblatt direkt oder nimm einen Ausdruck. Die Erwachsenenbegleitung bleibt getrennt bei der Begleitung; sie ist kein Kinderlink.",
+        "childHandoutsPrintNote": "Die beiden lösungsfreien Kinderhandouts direkt öffnen oder ausdrucken. Bearbeite die Suchwege mündlich, durch Zeigen oder schriftlich auf dem Ausdruck oder eigenem Papier; die Erwachsenenbegleitung bleibt bis zur Besprechung ausserhalb des Kinderwegs.",
+        "childHandouts": [
+          {
+            "path": "assets/ma-formelsammlung-suchwege/01-kinder-referenz.pdf",
+            "label": "Kinder-Referenz · 4 Seiten",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-formelsammlung-suchwege/01-kinder-referenz.pdf"
+          },
+          {
+            "path": "assets/ma-formelsammlung-suchwege/02-kinder-suchblatt.pdf",
+            "label": "Kinder-Suchblatt · 2 Seiten",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-formelsammlung-suchwege/02-kinder-suchblatt.pdf"
+          }
+        ],
+        "printAdultGuide": [],
+        "printAdultHandoutsNote": "Kinderreferenz (4 Seiten): https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-formelsammlung-suchwege/01-kinder-referenz.pdf ; Suchblatt (2 Seiten): https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-formelsammlung-suchwege/02-kinder-suchblatt.pdf ; Erwachsenenbegleitung (2 Seiten, getrennt): https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-formelsammlung-suchwege/03-erwachsenenbegleitung.pdf .",
+        "printAdultNote": "Kinderunterlagen digital oder auf Papier nutzen; Erwachsenenmodelle getrennt ausgeben."
+      },
+      "sourceBindings": {
+        "materialBundle": {
+          "path": "output/leitung-20261122/m3-formula-collection-material-v5-final/manifest.json",
+          "sha256": "DB5185338458249F264105C9B3EBCACB073B8E48327B353A538C7623B96CC61A"
+        },
+        "childReference": {
+          "path": "output/leitung-20261122/m3-formula-collection-material-v5-final/KINDER-REFERENZ.md",
+          "sha256": "4F8B11AC41973B9CFCE2D45B01C256192FDCADC063A72972F11BC7B9F9B8B9D6"
+        },
+        "childSearch": {
+          "path": "output/leitung-20261122/m3-formula-collection-material-v5-final/KINDER-SUCHBLATT.md",
+          "sha256": "77A4943666B608F71C20DA6C16D7C497D821974614ACD35F04C7590592682CD0"
+        },
+        "adultModels": {
+          "path": "output/leitung-20261122/m3-formula-collection-material-v5-final/ERWACHSENEN-MODELLE.md",
+          "sha256": "CF3B6363D5677400429950B69C418C38531CFB030749EEC77DBE6432DE8D25A1"
+        },
+        "contract": {
+          "path": "output/leitung-20261122/m3-formula-collection-contract/contract-v5.json",
+          "sha256": "B4677134F96FF4AF2FCC062A8F9DBB55880B835E9AD6B536C6C24187ADBC3655"
+        },
+        "catalogSnapshot": {
+          "path": "app/catalog.js",
+          "sha256": "9CD4315187F20F7B62E37683F87710B2351886F3E1892EE80312E8EF3AFBF3EA",
+          "idLiteralCheck": "ma-formelsammlung-suchwege absent from current catalog.js snapshot"
+        },
+        "currentPublicRenderer": {
+          "sha256": "0E3125E464F29003DE16810D3AC4A9B8EB518470075923290365D6A0D92304B9",
+          "provenance": "Root-authorized current public renderer snapshot; no local product file changed"
+        },
+        "publicBaselineSnapshot": {
+          "path": "app/current-public-baseline.json",
+          "sha256": "C24F06A6FA3384630AF5BF35C00F1C681F907AC7D93FFF328D8BC22EB7654D09",
+          "topics": 225,
+          "taskObjects": 1032,
+          "idLiteralCheck": "absent from the current pinned baseline catalog identity; no product write"
+        },
+        "publicCatalogIdentity": {
+          "sourceReview": "output/leitung-20261122/m3-formula-collection-paper-app-draft/independent-text-role-schema-review/report.md",
+          "sha256": "9EE418E28F11586EED7BB43173DF6E530A034A2CC87C21D59F39EFCB225D4B08",
+          "gitCommit": "025ca102e9e472ec2b7418c008c3f83256cc365a",
+          "gitTree": "c1052b47d2ad36091e220f9db4f986d2740b0bb6",
+          "catalogGitBlob": "5561a1b108c63e650ee489d83618937a6c2083bd",
+          "catalogSha256": "E32E18112257A4EBA3F855C6C22D122B783C0F17B8CF2BF0BEF365D85E9254E4",
+          "idLiteralCheck": "ma-formelsammlung-suchwege absent in locally read catalog with exact current public tree/blob identity"
+        },
+        "independentSchemaReview": {
+          "path": "output/leitung-20261122/m3-formula-collection-paper-app-draft/independent-text-role-schema-review/report.md",
+          "sha256": "9EE418E28F11586EED7BB43173DF6E530A034A2CC87C21D59F39EFCB225D4B08",
+          "status": "Historical V1 review retained; the accepted V2 text/schema delta is separately bound by independentTopicDeltaReview."
+        },
+        "rootDecision": {
+          "path": "output/leitung-20261122/m3-formula-collection-material-v5-final/root-output-production-decision.json",
+          "sha256": "419EFD543A171C89CE83DCB5EBB978799A0F7FE3D1D9FB4A6542EE0495FCBC1D"
+        },
+        "officialPdf": {
+          "path": "pdf/LP_Mathematik_GY_Erprobung_2026-08-25.pdf",
+          "sha256": "91838D21BB7035A3E30890E837A47425B3766F3A38066AF6559F167AFC399D26"
+        },
+        "pdfOutputsV2": {
+          "manifest": {
+            "path": "output/pdf/m3-formelsammlung-20261122-v2/manifest.json",
+            "sha256": "D0FDFB8AE4EC94895DA79A8DC57A67FD4F9CDD901EE7BE84FCB34C7944DBEDD8"
+          },
+          "independentOutputReview": {
+            "path": "output/pdf/m3-formelsammlung-20261122-v2/independent-output-review/review.md",
+            "sha256": "EFC1FEF9B25F0FE996983D5200953079E1DBC3E8771A16BDF2B212C39C82B5A4"
+          },
+          "files": [
+            {
+              "path": "01-kinder-referenz.pdf",
+              "pages": 4,
+              "sha256": "D4D7C591F8E6BD0C32658B8334550B1316E3CE1A73870AA543A7F48505480E1B"
+            },
+            {
+              "path": "02-kinder-suchblatt.pdf",
+              "pages": 2,
+              "sha256": "9D50ACDF6D3AB7E7CEFA2C0D3E7228017556610729109DAD8C383EB3DAFE3F05"
+            },
+            {
+              "path": "03-erwachsenenbegleitung.pdf",
+              "pages": 2,
+              "sha256": "ACBC4106ECD0B3B6B19AB4C42C9C3481CA816B440118225C22D99FE68A08C43D"
+            }
+          ],
+          "status": "exact_candidate_copies_bound"
+        },
+        "independentTopicDeltaReview": {
+          "path": "output/leitung-20261122/m3-formula-collection-paper-app-draft-v2/independent-v2-delta-review/report.md",
+          "sha256": "3246B66C14550800D2870A881203C52A24DB56B2B7E27CA59842B3612DADAE8A"
+        }
+      },
+      "releaseEvidence": {
+        "primaryUrl": "https://www.schulportal-thueringen.de/web/guest/lehrplaene/gymnasium",
+        "primaryLocalPdf": "pdf/LP_Mathematik_GY_Erprobung_2026-08-25.pdf",
+        "primarySha256": "91838D21BB7035A3E30890E837A47425B3766F3A38066AF6559F167AFC399D26",
+        "validFor": "2026/27",
+        "gradeBand": "7/8",
+        "competencyRef": "Thüringer Mathematik-Erprobungsfassung Gymnasium 2026, PDF-S. 2 und § 2.2.3 PDF-S. 25–26: zielgerichtete Formelsammlungsnutzung im M3-Zielraum und eigener Such-/Anwendungsweg bis Ende Klasse 8. Die Breite der Referenzfamilien ist Autorenwahl, kein amtliches Pflichtpaket; keine bestätigte konkrete Klasse-7-Unterrichtsfolge.",
+        "reviewNote": "Eigene organisierte Mathe-Referenz mit neun Einträgen, zehn Registerzeilen und zwei freiwilligen Suchwegen. Getrennte Kinder-Referenz, Kinder-Suchblatt und Erwachsenenbegleitung mit 4/2/2 Seiten. Die Quellen-, Inhalts-, Rollen- und PDF-Ausgabeprüfungen betreffen dieses begrenzte Angebot; keine vollständige M3- oder Jahresabnahme.",
+        "checkedAt": "2026-11-22",
+        "independentCheck": "Unabhängige Quellen-, Inhalts-, Rollen- und PDF-Ausgabeprüfungen sind dokumentiert. Tatsächliche Nutzung, Schul-/Prüfungszulassung und Jahresabnahme bleiben offen. Die technischen Kandidaten- und Freigabenachweise werden getrennt im Releasecheck gebunden."
       }
     }
   ]

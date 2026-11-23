@@ -1,50 +1,51 @@
 {
   "schemaVersion": 1,
-  "version": "2026.11.23-kreis-quellen.1",
-  "status": "SCOPED_LOCAL_RELEASE_GATES_PASSED_FINAL_METADATA_REVIEW_REQUIRED",
-  "builtAt": "2026-11-23T04:38:20.936Z",
+  "version": "2026.11.23-m11-fr-bild.1",
+  "status": "SCOPED_LOCAL_RELEASE_GATES_PASSED_EXACT_FINAL_PACKAGE_REVIEW_REQUIRED",
+  "builtAt": "2026-11-23T05:51:36.054Z",
   "baseline": {
-    "commit": "675feda96b0061a5cc7ea1d9ce14b2eedaad2a58",
-    "tree": "13a376f646d2d02b17eec15d2ae9e036b6ae1383",
-    "version": "2026.11.23-m7m8-praxis.1",
-    "candidate": "app/output/release-candidate-m7m8-praxis-20261123-v3"
+    "commit": "2a28aaff2f171d595efcf341951fb0c63775358e",
+    "tree": "425ef30ed5e8ceaa594b2d016c5c911452f52ea9",
+    "version": "2026.11.23-kreis-quellen.1",
+    "candidate": "app/output/release-candidate-kreis-quellen-20261123-v4"
   },
-  "rollbackCommit": "675feda96b0061a5cc7ea1d9ce14b2eedaad2a58",
-  "change": "ExistingM10circle topic gains two optional unscored model cases (wheel distance/road ring). ExistingG03C prompt restores canonicalQ2/Q4evidence instruction for unchanged1point criterion. CSS append only429bytes scoped to G03Cscreenheading and M10childpracticekeep-together. All1032other taskobjects, allmathTaskObjects,225otherTopics, renderer/assets/state unchanged.",
+  "rollbackCommit": "2a28aaff2f171d595efcf341951fb0c63775358e",
+  "change": "OptionalM11PDFaccessandtwoFRimage-BAdultcriteria corrected:unambiguous0.5greeting+0.5all4sentences,andfair0.5shelf+0.5alreadyrequiredcontent/locationaboutanypicturedmotif;exactbookcountoptional. Prompt/Frenchsample/5points/Adultroleunchanged.",
   "inventory": {
     "topics": 227,
     "taskObjects": 1033
   },
   "validation": {
-    "textRole": "INDEPENDENT_M10_PORT_AND_G03_SINGLE_PROMPT_REVIEWS_PASSED",
-    "static": "INDEPENDENT_V1_PACKAGE_V2_ONE_PROMPT_AND_V3_TWO_SCOPED_CSS_RULES_PASSED",
-    "runtime": "SCOPED_V2_REUSE_PLUS_V3_OVERFLOW_CORRECTION; TWO_FILLED_SYNTHETIC_ANSWER_EXPORT_CONFIRMED_IMPORT_RELOAD_IN_V2",
-    "digitalA4": "SIX_EFFECTIVE_PDFS25A4PAGES: FOUR_V2_REUSE15PAGES_PLUS_TWO_NEW_V3_CHILD10PAGES, INDEPENDENTLY_OPENED_AND_VIEWED",
-    "independentFinalPackageReview": "REQUIRED_FOR_THIS_METADATA_ONLY_V4_BEFORE_UPLOAD",
-    "publication": "NOT_DEPLOYED",
-    "processScope": "V2probe16Exit0; initialmain22PASS/1FAIL Exit1; separateRest75Exit0; CSS8Exit0; V3target30Exit0; PDF/Render exits retained individually. No unique aggregate series."
+    "textRole": "M11_SIX_FIELD_PORT_AND_FR_TWO_CRITERIA_FAIRNESS_V2_INDEPENDENT_PASS",
+    "handoutPdf": "FIVE_EFFECTIVE_HANDOUT_PAGES_V1_REUSE4_PLUS_V2_CHANGED_ADULT1_INDEPENDENT_PASS",
+    "static": "V1_PACKAGE_AND_V2_FR_TWO_CRITERIA_METADATA_DELTA_INDEPENDENT_PASS",
+    "runtime": "M11_SCOPED_V1_REUSE_AND_FR_V2_TARGETED_13CHECKS;CLASSIFIER_AUTOMATION_LIMIT_BOUND_TO_INDEPENDENT_RAW_AND_SEPARATE_8CASE_OFFLINE_CORRECTION",
+    "digitalA4": "M11_CHILD4_ADULT3_PLUS_FR_ADULT4_PAGES_PERSONALLY_VIEWED_INDEPENDENTLY;NO_FR_CHILD_REPRINT_NEEDED_FOR_ADULT_ONLY_DELTA",
+    "independentFinalPackageReview": "Required_before_upload;completion_recorded_in_external_release_evidence",
+    "publication": "NOT_DEPLOYED_AT_BUILD"
   },
-  "limits": [
-    "No reallearner/device/printer/screenreader/whole-subject/year acceptance",
-    "No HTTPS delivery or live-browser proof of this unpublished version; parent675feda proof not inherited",
-    "End8/voluntary7-8 and unknownschoolsequence; formalGeographyvalidity unresolved"
-  ],
   "evidence": [
     {
-      "path": "output/leitung-20261123/m10-bo-app-output-draft/release/root-integration-approval.json",
-      "sha256": "6D2DC6710FF47C55708396B1405067198C89FAF838E3662278BD1D256ED6150C"
+      "path": "output/leitung-20261123/m11-kb-app-output-draft/release/root-integration-approval.json",
+      "sha256": "99DD11EA7A989B19FA012FFBE83D4DEA9CA04BB38947064F79F8B9C01FFD3F18"
     },
     {
-      "path": "output/leitung-20261123/go-bananen-c-source-prompt-correction/manifest.json",
-      "sha256": "8DA64AF1E6DD85B40365673EE16DDAA060B76D52E39D50D19A4B18818375A5C7"
+      "path": "output/leitung-20261123/m11-kb-app-output-draft/release/root-runtime-print-adoption-v1.json",
+      "sha256": "5FF949909F43A17FC7971747C1061D6644C4405561276937A11A53B56A571982"
     },
     {
-      "path": "output/leitung-20261123/go-bananen-c-source-prompt-correction/independent-text-role-review/review.json",
-      "sha256": "CCEA3D0B7CB7B5524859DEC3F1E4186237D1ECA349459E3A845F5A00F9B580AD"
+      "path": "output/leitung-20261123/fr-w-image-two-criteria-public-correction/independent-criteria-review/v2-delta/review.json",
+      "sha256": "048C9E8A74C19E68C0E331C6AB89D4ED8138E651D043259D190877272A7F3695"
+    },
+    {
+      "path": "output/leitung-20261123/m11-kb-app-output-draft/release/root-combined-runtime-print-adoption.json",
+      "sha256": "A6B7219EB2A057546FB6546AF22599218E71AD673E8EA6E63D8822839FD7E60D"
     }
   ],
-  "runtimeAndPrintEvidence": {
-    "path": "output/leitung-20261123/m10-bo-app-output-draft/release/root-runtime-print-approval.json",
-    "sha256": "624B2417B9EEA4698972B4EB710B6F31ECB85E2199D25C5C16BAB291C67BA721"
-  }
+  "limits": [
+    "Noextraautomaticpoints/completionfromopening/printing;optionalunscoredpaperextension.",
+    "End8voluntary7/8;unknownschoolsequence. Historicalwagecoverage1May2024,notactualpaidwage/currentadvice/currencyranking.",
+    "Noactuallearner/device/physicalprinter/screenreader/yearacceptance.",
+    "Currentparent2a28HTTPS/liveLandingproofdoesnotverifythiscandidate."
+  ]
 }

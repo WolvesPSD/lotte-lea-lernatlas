@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.23-kreis-quellen.1",
+  "version": "2026.11.23-m11-fr-bild.1",
   "status": "familienversion",
   "subjects": [
     {
@@ -4655,7 +4655,30 @@ window.LOTTE_CATALOG = {
           "Die Einheit Euro pro Kilometer und der y-Achsenabschnitt als Modellpreis bei null Kilometern werden am vorhandenen Tarif erklärt; zugelassenen Bereich beachten.",
           "Genutzte Hilfen und Modelle berücksichtigen; mündlich nur tatsächlich Gehörtes besprechen. Keine zusätzliche Punktesumme oder Erledigtwertung."
         ],
-        "unscored": true
+        "unscored": true,
+        "childHandoutsNote": "„Stundenlohn und Fahrpreise vergleichen“ ist ein freiwilliger Zusatz ohne Punkte. Öffne das Kinderblatt oder lass es dir ausdrucken.",
+        "childHandoutsPrintNote": "Freiwillig und ohne Punkte: „Stundenlohn und Fahrpreise vergleichen“. Kinderblatt öffnen oder ausdrucken:",
+        "childHandouts": [
+          {
+            "label": "Kinderblatt: Stundenlohn und Fahrpreise vergleichen (PDF, 3 Seiten)",
+            "path": "assets/ma-m11-kb-contexts/01-kinderblatt.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-m11-kb-contexts/01-kinderblatt.pdf"
+          }
+        ],
+        "handoutsNote": "Freiwilliger Zusatz ohne Punkte: „Stundenlohn und Fahrpreise vergleichen“. Dem Kind nur das Kinderblatt öffnen oder ausdrucken. Die Lösungsmodelle erst nach dem eigenen Versuch besprechen.",
+        "handouts": [
+          {
+            "label": "Kinderblatt: Stundenlohn und Fahrpreise vergleichen (PDF, 3 Seiten)",
+            "path": "assets/ma-m11-kb-contexts/01-kinderblatt.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-m11-kb-contexts/01-kinderblatt.pdf"
+          },
+          {
+            "label": "Begleitblatt für Erwachsene (PDF, 2 Seiten)",
+            "path": "assets/ma-m11-kb-contexts/02-begleitung.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-m11-kb-contexts/02-begleitung.pdf"
+          }
+        ],
+        "printAdultHandoutsNote": "Freiwilliger Zusatz ohne Punkte. Kinderblatt (3 Seiten) öffnen oder ausdrucken: https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-m11-kb-contexts/01-kinderblatt.pdf. Begleitung (2 Seiten): https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-m11-kb-contexts/02-begleitung.pdf. Modelle erst nach dem eigenen Versuch besprechen."
       }
     },
     {
@@ -14049,10 +14072,10 @@ window.LOTTE_CATALOG = {
           "prompt": "B · Kurze französische Nachricht (5 Hauptpunkte): Schreibe an eine erfundene Freundin oder einen erfundenen Freund vier einfache französische Sätze über Bild A. Nenne Person mit geöffnetem Buch, Lampe, Pflanze und Regal; nutze zwei Lagewörter. Wähle bei Bedarf einen erfundenen Namen für die Anrede und bleibe bei überprüfbaren Bildmerkmalen.",
           "sample": "Salut Alice, / Une personne tient un livre ouvert. Il y a une lampe à gauche. Il y a une plante à droite. Je vois deux livres sur une étagère. Der Schrägstrich markiert einen Zeilenwechsel nach der Anrede; andere verständliche Formulierungen zählen.",
           "criteria": [
-            "1 Punkt: Nachrichtenform mit erfundener Anrede und vier einfachen Sätzen, je 0,5.",
+            "1 Punkt: Nachrichtenform mit erfundener Anrede (0,5 P) und alle vier einfachen französischen Sätze zusammen (0,5 P; nicht je Satz).",
             "1 Punkt: Person und geöffnetes Buch, je 0,5.",
             "1 Punkt: Lampe und Pflanze, je 0,5.",
-            "1 Punkt: zwei Bücher und Regalposition, je 0,5.",
+            "1 Punkt: 0,5 für das bildtreu genannte Regal und 0,5 für eine passende Inhalts- oder Lageangabe zu einem der genannten Bildmerkmale. Eine der verlangten Lageangaben kann dafür zählen. Die genaue Bücherzahl ist freiwillig.",
             "1 Punkt: zwei passende Lagewörter und insgesamt verständliches Französisch; bei nur einem passenden Lagewort oder teilweise verständlicher Formulierung 0,5. Farben sind freiwillig."
           ]
         },

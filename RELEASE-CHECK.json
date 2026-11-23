@@ -1,51 +1,45 @@
 {
   "schemaVersion": 1,
-  "version": "2026.11.23-m11-fr-bild.1",
-  "status": "SCOPED_LOCAL_RELEASE_GATES_PASSED_EXACT_FINAL_PACKAGE_REVIEW_REQUIRED",
-  "builtAt": "2026-11-23T05:51:36.054Z",
+  "version": "2026.11.23-de-m06.1",
+  "builtAt": "2026-11-23T07:26:47.468Z",
+  "status": "LOCAL_SCOPED_GATES_ACCEPTED_FINAL_PACKAGE_REVIEW_REQUIRED_NOT_DEPLOYED",
   "baseline": {
-    "commit": "2a28aaff2f171d595efcf341951fb0c63775358e",
-    "tree": "425ef30ed5e8ceaa594b2d016c5c911452f52ea9",
-    "version": "2026.11.23-kreis-quellen.1",
-    "candidate": "app/output/release-candidate-kreis-quellen-20261123-v4"
+    "commit": "4e59097199ca7546880c92d7710f7af91a6edc2b",
+    "tree": "13f0b03df8a5f31d34d220a57aa8a2129a1cdcf3",
+    "version": "2026.11.23-m11-fr-bild.1",
+    "candidate": "app/output/release-candidate-m11-fr-bild-20261123-v3"
   },
-  "rollbackCommit": "2a28aaff2f171d595efcf341951fb0c63775358e",
-  "change": "OptionalM11PDFaccessandtwoFRimage-BAdultcriteria corrected:unambiguous0.5greeting+0.5all4sentences,andfair0.5shelf+0.5alreadyrequiredcontent/locationaboutanypicturedmotif;exactbookcountoptional. Prompt/Frenchsample/5points/Adultroleunchanged.",
+  "rollbackCommit": "4e59097199ca7546880c92d7710f7af91a6edc2b",
+  "change": "N-topic only:3existingliveReadingtextappendices addoptionalM06focusduringsecondhearing. Oldtextprefixes,4tasks20points/4Adultflags/script/sources retained. No newinput/state/points/assets/renderer. CSS exclusively2adult-printNTask2/3rules tokeepTask2togetherandremoveoldforcedTask3pagebreak.",
   "inventory": {
     "topics": 227,
     "taskObjects": 1033
   },
   "validation": {
-    "textRole": "M11_SIX_FIELD_PORT_AND_FR_TWO_CRITERIA_FAIRNESS_V2_INDEPENDENT_PASS",
-    "handoutPdf": "FIVE_EFFECTIVE_HANDOUT_PAGES_V1_REUSE4_PLUS_V2_CHANGED_ADULT1_INDEPENDENT_PASS",
-    "static": "V1_PACKAGE_AND_V2_FR_TWO_CRITERIA_METADATA_DELTA_INDEPENDENT_PASS",
-    "runtime": "M11_SCOPED_V1_REUSE_AND_FR_V2_TARGETED_13CHECKS;CLASSIFIER_AUTOMATION_LIMIT_BOUND_TO_INDEPENDENT_RAW_AND_SEPARATE_8CASE_OFFLINE_CORRECTION",
-    "digitalA4": "M11_CHILD4_ADULT3_PLUS_FR_ADULT4_PAGES_PERSONALLY_VIEWED_INDEPENDENTLY;NO_FR_CHILD_REPRINT_NEEDED_FOR_ADULT_ONLY_DELTA",
-    "independentFinalPackageReview": "Required_before_upload;completion_recorded_in_external_release_evidence",
-    "publication": "NOT_DEPLOYED_AT_BUILD"
+    "textRole": "INDEPENDENT_V1_CORE_AND_EXACT_V2_F1_F2_PASS",
+    "static": "INDEPENDENT_V1_CORE_STATIC_PLUS_V2_EXACT_PRINT_CSS_REUSE_PASS",
+    "runtime": "V1_SEPARATE_PROBE8_MAIN42_POSITIVE_SCOPED_REUSE_NOT_UNIQUE_TOTAL",
+    "digitalA4": "EFFECTIVE_CHILD2_V1_REUSE_ADULT2_V2_PERSONALLY_AND_INDEPENDENTLY_SEEN",
+    "publication": "NOT_DEPLOYED",
+    "independentFinalPackageReview": "REQUIRED_EXACT_RC_ONLY_V3_BEFORE_UPLOAD"
   },
-  "evidence": [
-    {
-      "path": "output/leitung-20261123/m11-kb-app-output-draft/release/root-integration-approval.json",
-      "sha256": "99DD11EA7A989B19FA012FFBE83D4DEA9CA04BB38947064F79F8B9C01FFD3F18"
-    },
-    {
-      "path": "output/leitung-20261123/m11-kb-app-output-draft/release/root-runtime-print-adoption-v1.json",
-      "sha256": "5FF949909F43A17FC7971747C1061D6644C4405561276937A11A53B56A571982"
-    },
-    {
-      "path": "output/leitung-20261123/fr-w-image-two-criteria-public-correction/independent-criteria-review/v2-delta/review.json",
-      "sha256": "048C9E8A74C19E68C0E331C6AB89D4ED8138E651D043259D190877272A7F3695"
-    },
-    {
-      "path": "output/leitung-20261123/m11-kb-app-output-draft/release/root-combined-runtime-print-adoption.json",
-      "sha256": "A6B7219EB2A057546FB6546AF22599218E71AD673E8EA6E63D8822839FD7E60D"
-    }
-  ],
+  "evidence": {
+    "path": "output/leitung-20261123/de-hoeren-m06-priority-prepared-material-decision/release/root-combined-local-gates-adoption.json",
+    "sha256": "C203D4B75EAAFC2C9ACF915FAA882D4DF34CCE414F70B7D5276C006CFA50987D"
+  },
   "limits": [
-    "Noextraautomaticpoints/completionfromopening/printing;optionalunscoredpaperextension.",
-    "End8voluntary7/8;unknownschoolsequence. Historicalwagecoverage1May2024,notactualpaidwage/currentadvice/currencyranking.",
-    "Noactuallearner/device/physicalprinter/screenreader/yearacceptance.",
-    "Currentparent2a28HTTPS/liveLandingproofdoesnotverifythiscandidate."
-  ]
+    "Realnaturalhiddenhumanreading remainsrequired; noactualhearingorattentionfromtext.",
+    "OptionalM06addition0points; ordinarytasksunchanged. No newdigitalstorageofM06supplementdata.",
+    "End8voluntary7/8; concretegrade7schoolsequenceopen.",
+    "No actualchild/device/printer/screenreader/yearacceptance. BaselineHTTPS/liveevidence doesnotverifythiscandidate."
+  ],
+  "printCorrection": {
+    "finding": {
+      "path": "output/leitung-20261123/de-hoeren-m06-priority-prepared-material-decision/release/root-v1-adult-print-finding.json",
+      "sha256": "33CC002222D871E1760BFA23E04D6975A1BE0D50CF462F6965B9E108547355EF"
+    },
+    "scope": "OnlyNTask2/3 adult-print; allscreenandchildmedia unaffected by appendedselector. No catalogue/JS/assets/statechanges fromV1."
+  },
+  "priorV1AdultLayout": "CORRECTION_REQUIRED_HISTORICAL_3PAGES_NOT_RETROACTIVELY_PASSED",
+  "processScope": "V1separate8/42checks;V2Adult11checks; no50/61uniqueorone-seriesclaim. HistoricalPDFhelperfailurespreserved."
 }

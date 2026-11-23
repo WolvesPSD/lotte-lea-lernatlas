@@ -422,3 +422,6 @@ body[data-print-mode^="child"] #print-surface .print-topic:has(.print-task[data-
 @media screen{#work-content .task-card[data-task-id="go-bananen-c"] h3{overflow-wrap:anywhere}}
 /* M10 child print: keep both optional model cases with their shared formula help. */
 @media print{body[data-print-mode^="child"] #print-surface .print-topic:has(.print-task[data-task-id="ma-kreisweg-1"]) .print-practice{break-inside:avoid;page-break-inside:avoid}}
+
+/* M06: keep the second adult task together; let the following task share its page. */
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="de-hoernachricht-2"]{break-inside:avoid;page-break-inside:avoid}body[data-print-mode^="adult"] .print-task[data-task-id="de-hoernachricht-3"]{break-before:auto;page-break-before:auto}}

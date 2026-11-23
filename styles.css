@@ -425,3 +425,6 @@ body[data-print-mode^="child"] #print-surface .print-topic:has(.print-task[data-
 
 /* M06: keep the second adult task together; let the following task share its page. */
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="de-hoernachricht-2"]{break-inside:avoid;page-break-inside:avoid}body[data-print-mode^="adult"] .print-task[data-task-id="de-hoernachricht-3"]{break-before:auto;page-break-before:auto}}
+
+/* Leseweg/KI V2: only Epik adult print spacing; retain font sizes and complete content. */
+@media print{body[data-print-mode^="adult"] #print-surface .print-topic:has(.print-task[data-task-id="de-roter-faden-1"]) .print-practice p{margin:.35em 0}body[data-print-mode^="adult"] #print-surface .print-topic:has(.print-task[data-task-id="de-roter-faden-1"]) .print-practice ol{margin:.45em 0}body[data-print-mode^="adult"] #print-surface .print-topic:has(.print-task[data-task-id="de-roter-faden-1"]) .print-practice li+li{margin-top:.3rem}}

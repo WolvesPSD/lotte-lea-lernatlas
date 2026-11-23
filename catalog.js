@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.23-sprachwahl-regel.1",
+  "version": "2026.11.23-leseweg-ki.2",
   "status": "familienversion",
   "subjects": [
     {
@@ -2023,6 +2023,50 @@ window.LOTTE_CATALOG = {
         "gradeBand": "7/8",
         "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. §2.2.2 PDF-S. 26–27: digitale Texte, Verlässlichkeit insbesondere KI-generierter Texte und Lesestrategien als Zielmarke Klasse 8. §3.2 PDF-S. 46–47: Art/Reihenfolge schulisch bestimmt; mindestens eine Kinder-/Jugend-Ganzschrift je Schuljahr 5–7 und ein auswendig gelernter/presentierter Text je Schuljahr 5–9.",
         "checkedAt": "2026-10-22"
+      },
+      "practice": {
+        "title": "Eine KI-Kurzfassung am Original prüfen",
+        "childNote": "Freiwilliger Quellenvergleich ohne Zusatzpunkte. Die Kinderkarte enthält eine echte KI-Kurzfassung und den passenden Originalauszug. Du kannst deine Antwort sagen, die Stelle zeigen oder eine kurze Notiz auf Papier machen.",
+        "childSteps": [
+          "Lies die KI-Kurzfassung und den Originalauszug in der Kinderkarte. Wähle eine Aussage, die du prüfen möchtest.",
+          "Zeige die passende Stelle im Original. Erkläre mit eigenen Worten, warum die Aussage für dich zutrifft, nur teilweise zutrifft oder sich hier nicht entscheiden lässt. Ein begründetes «trifft zu» zählt genauso; einen Fehler musst du nicht finden.",
+          "Sage, wofür dir die Kurzfassung genügt oder bei welcher Frage du im Original nachsehen würdest. Sag dazu, wenn dir jemand beim Finden oder Vergleichen geholfen hat."
+        ],
+        "adultNote": "Ein freiwilliger Quellenvergleich an einer echten KI-Antwort, getrennt vom bestehenden simulierten Fall. Alle bisherigen Aufgaben und Punkte bleiben unverändert.",
+        "adultGuide": [
+          "Zuerst die eigene Aussagewahl, Originalstelle und Begründung abwarten. Die Begleitkarte enthält fünf unabhängig geprüfte Einordnungen für die Besprechung nach dem eigenen Versuch. Eigene Beiträge von Hinweisen und vorgegebenen Stellen unterscheiden.",
+          "Das Urteil betrifft die selbst gewählte Aussage und ihren Zweck, nicht automatisch alle fünf Sätze. Eine treffende Wiedergabe, eine begründete Einschränkung und eine offene Frage sind zulässig. Die Phasen im Original sind keine Pflichtliste aller Schritte bei jeder Lektüre."
+        ],
+        "adultCriteria": [
+          "Eine selbst gewählte Aussage mit einer passenden tatsächlichen Originalstelle verglichen; eigene Auswahl und Hilfe unterschieden.",
+          "Eigenes begründetes Urteil zur Zuverlässigkeit der gewählten Aussage, auch bei treffender Wiedergabe, erklärt.",
+          "Einen begrenzten Nutzen der Kurzfassung oder eine Frage für das Original benannt; kein Gesamturteil aus nur einer geprüften Aussage abgeleitet."
+        ],
+        "unscored": true,
+        "childHandouts": [
+          {
+            "path": "assets/de-lesen-ki-vergleich-kind.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-lesen-ki-vergleich-kind.pdf",
+            "label": "Freiwilliger KI-Quellenvergleich · Kinderkarte mit Originalauszug"
+          }
+        ],
+        "childHandoutsNote": "Die Kinderkarte enthält die echte Kurzfassung, den Originalauszug und eine Suchhilfe. Wähle eine Aussage aus der KI-Kurzfassung und vergleiche sie mit dem Original. Du musst keinen Fehler finden.",
+        "childHandoutsPrintNote": "Freiwilliger Quellenvergleich ohne Zusatzpunkte: Eine selbst gewählte Aussage aus der KI-Kurzfassung am Original prüfen. Kinderkarte mit Originalauszug öffnen oder ausdrucken:",
+        "handouts": [
+          {
+            "path": "assets/de-lesen-ki-vergleich-kind.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-lesen-ki-vergleich-kind.pdf",
+            "label": "Kinderkarte mit KI-Kurzfassung und Originalauszug"
+          },
+          {
+            "path": "assets/de-lesen-ki-vergleich-begleitung.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-lesen-ki-vergleich-begleitung.pdf",
+            "label": "Begleitung zum KI-Quellenvergleich · nur für Erwachsene"
+          }
+        ],
+        "handoutsNote": "Kinderkarte und Begleitung getrennt ausgeben. Die Hinweise der Begleitung gehören erst nach dem eigenen Versuch zur Besprechung. Öffentliche Dateien sind durch diese Linktrennung nicht zugriffsgeschützt.",
+        "printObservationFooter": "Nur einen tatsächlich durchgeführten Aussagevergleich besprechen. Keine zusätzlichen Punkte, Schulnote oder pauschale Bewertung aller fünf Sätze. Ohne eigene Quellenprüfung bleibt dieser Anteil nicht erhoben.",
+        "printAdultHandoutsNote": "Kinderkarte mit KI-Kurzfassung und Originalauszug: https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-lesen-ki-vergleich-kind.pdf; Begleitung zum KI-Quellenvergleich · nur für Erwachsene: https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-lesen-ki-vergleich-begleitung.pdf. Kinderkarte und Begleitung getrennt ausgeben. Die Hinweise der Begleitung gehören erst nach dem eigenen Versuch zur Besprechung. Öffentliche Dateien sind durch diese Linktrennung nicht zugriffsgeschützt."
       }
     },
     {
@@ -6576,9 +6620,10 @@ window.LOTTE_CATALOG = {
       },
       "practice": {
         "title": "Leseweg auf Papier: Fragen, Abschnitte und Belegkarte",
-        "childNote": "Wenn du den Text hier schon gelesen hast, ist die Vorbereitung auf Papier ein Rückblick. Die vier Punkte für die Vorbereitung vor dem ersten Lesen werden dann nicht erhoben. Die erwachsene Begleitperson findet die getrennten Karten im Erwachsenenbereich. Die Papierarbeit wird getrennt von den bisherigen Erzählaufgaben besprochen.",
+        "childNote": "Wenn du den Text hier schon gelesen hast, ist die Vorbereitung auf Papier ein Rückblick. Die vier Punkte für die Vorbereitung vor dem ersten Lesen werden dann nicht erhoben. Die erwachsene Begleitperson findet die getrennten Karten im Erwachsenenbereich. Die Papierarbeit wird getrennt von den bisherigen Erzählaufgaben besprochen. Für einen freiwilligen erneuten Lesedurchgang kannst du die Kinderkarte mit Markiertext öffnen. Sie setzt die erste vollständige Lektüre voraus und bringt keine Zusatzpunkte.",
         "childSteps": [
           "Für den Rückblick zuerst eine eigene Frage und zwei Vermutungen festhalten. Das ist keine nachträgliche Erstlese-Vorhersage.",
+          "Wenn du den Text bereits ganz gelesen hast und noch einmal lesen möchtest: Nutze die Kinderkarte mit Markiertext. Markiere beim Weiterlesen eine Stelle zu deiner Frage, notiere ihre Funktion und prüfe deine vorläufigen Abschnittsgrenzen. Deine Lesespuren kannst du danach für die vorhandenen Papieraufgaben nutzen; eine zweite Antwort ist nicht nötig.",
           "Das Textblatt von der Begleitperson erhalten. Bearbeite Wortklärung und Abschnitte selbst; erst danach die bisherigen Erzählaufgaben und Muster vergleichen.",
           "Die vier Felder der Belegkarte und den beschrifteten Pfeil wirklich auf Papier oder in einem eigenen Dokument gestalten. Eine Notiz im App-Textfeld ersetzt die Karte nicht.",
           "Die spätere Variante erst nach der eigenen Hauptarbeit erhalten. Beleggrenzen an der vorgegebenen fremden Karte prüfen."
@@ -6586,7 +6631,8 @@ window.LOTTE_CATALOG = {
         "adultNote": "Vier getrennte Druckdateien für die Ausgabe durch Erwachsene. Vor jeder App-Geschichte und bisherigen Analyseaufgabe erfragen, ob die Geschichte bekannt ist. Nur bei unbekanntem Text und tatsächlich vorher ausgefüllter Vorabkarte sind die vier Vorbereitungspunkte erhebbar. Wer das Thema hier bereits gelesen hat, arbeitet rückblickend; vier Punkte nicht erhoben.",
         "adultGuide": [
           "Reihenfolge: 1 Vorabkarte ohne Geschichte; 2 Text und Hauptblatt; 3 spätere Variante. Die Lösung bleibt bei Erwachsenen. Erst nach eigener Abschnittbildung und Belegkarte alte App-Aufgaben oder Muster nutzen. Die App sichert diese Papier-Reihenfolge nicht technisch.",
-          "Papierwertung getrennt: vier Vorbereitungspunkte nur bei echter Erstlesegelegenheit; sonst nicht erhoben. 16 Methodenpunkte und sechs Transferpunkte separat. Keine Addition zu den bisherigen Erzählaufgaben und keine Schulnote."
+          "Papierwertung getrennt: vier Vorbereitungspunkte nur bei echter Erstlesegelegenheit; sonst nicht erhoben. 16 Methodenpunkte und sechs Transferpunkte separat. Keine Addition zu den bisherigen Erzählaufgaben und keine Schulnote.",
+          "Den freiwilligen erneuten Lesedurchgang vor der ausgearbeiteten Wortklärung, Abschnittsbildung und Belegkarte anbieten. Kinderkarte mit Markiertext und Begleitung getrennt ausgeben. Tatsächliche Markierung, Randnotiz, Aufbauwahrnehmung und Prüfung eigener Grenzen während des erneuten Lesens von späteren Spuren und Selbstbericht unterscheiden. Keine zweite Antwort oder zusätzlichen Punkte; die getrennte Papierwertung bleibt bestehen."
         ],
         "adultCriteria": [
           "Vorbekanntheit und tatsächliche Ausgabe-Reihenfolge dokumentiert; Rückblick nicht als Erstlesen gewertet.",
@@ -6594,11 +6640,12 @@ window.LOTTE_CATALOG = {
           "Kontextwort mit zwei Textindizien erklärt; zusätzliche Raumbehauptungen begrenzt.",
           "Drei oder vier lückenlose Sinnabschnitte mit eigenen Überschriften und begründeter Grenze selbst erstellt.",
           "Eigenes Werk mit vier passenden unterschiedlichen Belegfeldern, Zeilennummern und beschriftetem Beziehungspfeil vorhanden.",
-          "Spätere fremde Karte anhand verbleibender und wegfallender Textbelege überarbeitet."
+          "Spätere fremde Karte anhand verbleibender und wegfallender Textbelege überarbeitet.",
+          "Nur beim freiwilligen erneuten Lesedurchgang: tatsächliche eigene Markierung und Randnotiz sowie Prüfung vorläufiger Abschnittsgrenzen beim Weiterlesen beobachtet; Hilfe und nicht erhobene Schritte getrennt."
         ],
         "unscored": true,
         "printObservationFooter": "Dieser App-Bogen enthält keine eigene Punktsumme. Nur erhaltene Papierwerke und beobachtete Reihenfolge anhand der getrennten Erwachsenenlösung werten. Vier Vorabpunkte bei bekanntem Text nicht erhoben; 16 Haupt- und sechs Transferpunkte getrennt. Keine Punkte aus blossen App-Notizen ableiten.",
-        "handoutsNote": "Die ersten drei Dateien werden nacheinander ausgegeben; Datei 4 enthält Lösungen und bleibt bei Erwachsenen. Die öffentlich erreichbaren PDFs sind durch diese Linktrennung nicht zugriffsgeschützt.",
+        "handoutsNote": "Die ersten drei Dateien werden nacheinander ausgegeben; Datei 4 enthält Lösungen und bleibt bei Erwachsenen. Die öffentlich erreichbaren PDFs sind durch diese Linktrennung nicht zugriffsgeschützt. Dateien 5 und 6 gehören zum freiwilligen erneuten Lesedurchgang; Kinderkarte und Begleitung getrennt ausgeben.",
         "handouts": [
           {
             "path": "assets/de-dl1-vorabkarte.pdf",
@@ -6619,8 +6666,28 @@ window.LOTTE_CATALOG = {
             "path": "assets/de-dl1-erwachsenenloesung.pdf",
             "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-dl1-erwachsenenloesung.pdf",
             "label": "4 · Lösung nur für Erwachsene öffnen"
+          },
+          {
+            "path": "assets/de-lesen-lesephase-kind.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-lesen-lesephase-kind.pdf",
+            "label": "5 · Freiwilliger erneuter Leseweg · Kinderkarte und Markiertext"
+          },
+          {
+            "path": "assets/de-lesen-lesephase-begleitung.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-lesen-lesephase-begleitung.pdf",
+            "label": "6 · Begleitung zum erneuten Lesen · nur für Erwachsene"
           }
-        ]
+        ],
+        "childHandouts": [
+          {
+            "path": "assets/de-lesen-lesephase-kind.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-lesen-lesephase-kind.pdf",
+            "label": "Freiwillig erneut lesen · Kinderkarte mit Markiertext"
+          }
+        ],
+        "childHandoutsNote": "Die Kinderkarte ist für einen freiwilligen erneuten Lesedurchgang nach der ersten vollständigen Lektüre. Sie enthält keine Lösungen. Du brauchst ein Textexemplar, auf dem du markieren und Randnotizen machen kannst.",
+        "childHandoutsPrintNote": "Freiwilliger erneuter Leseweg mit Markiertext nach der ersten vollständigen Lektüre, ohne Zusatzpunkte. Kinderkarte mit Markiertext auf Papier oder digital zum Markieren nutzen:",
+        "printAdultHandoutsNote": "1 · Vorabkarte vor dem Text öffnen: https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-dl1-vorabkarte.pdf; 2 · Textblatt und leere Belegkarte öffnen: https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-dl1-kinderblatt.pdf; 3 · Spätere Variante öffnen: https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-dl1-variante.pdf; 4 · Lösung nur für Erwachsene öffnen: https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-dl1-erwachsenenloesung.pdf; 5 · Freiwilliger erneuter Leseweg · Kinderkarte und Markiertext: https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-lesen-lesephase-kind.pdf; 6 · Begleitung zum erneuten Lesen · nur für Erwachsene: https://wolvespsd.github.io/lotte-lea-lernatlas/assets/de-lesen-lesephase-begleitung.pdf. Die ersten drei Dateien werden nacheinander ausgegeben; Datei 4 enthält Lösungen und bleibt bei Erwachsenen. Die öffentlich erreichbaren PDFs sind durch diese Linktrennung nicht zugriffsgeschützt. Dateien 5 und 6 gehören zum freiwilligen erneuten Lesedurchgang; Kinderkarte und Begleitung getrennt ausgeben."
       }
     },
     {

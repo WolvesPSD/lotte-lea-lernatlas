@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.23-m5-zusatzkarten.1",
+  "version": "2026.11.23-m6-deutung-prismenfix.1",
   "status": "familienversion",
   "subjects": [
     {
@@ -5063,7 +5063,7 @@ window.LOTTE_CATALOG = {
           "kind": "reflection",
           "points": 2,
           "writingLines": 5,
-          "prompt": "Denkfehler finden (2 Kriterienpunkte): Jemand sagt: „Die Box fasst 360 cm³, also reichen 360 cm² Karton.“ Warum folgt das nicht? Wie groß ist die Summe der sechs Außenflächen im idealen Modell ohne Laschen und Verluste?",
+          "prompt": "Denkfehler finden (2 Kriterienpunkte): Jemand sagt: „Die Box fasst 360 cm³, also reichen 360 cm² Karton.“ Warum folgt das nicht? Wie groß ist die Summe der fünf Außenflächen im idealen Modell ohne Laschen und Verluste?",
           "sample": "cm³ misst Raum, cm² Fläche. Die gleiche Zahl 360 ergibt hier zufällig auch die Mantelfläche; Boden und Deckel zu je 24 cm² fehlen. Die gesamte ideale Oberfläche beträgt 408 cm².",
           "criteria": [
             "1 Punkt: Fläche und Volumen samt Einheiten klar getrennt.",
@@ -7235,6 +7235,41 @@ window.LOTTE_CATALOG = {
         "gradeBand": "8",
         "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. § 2.2.6 PDF-S. 28 unter Klassenstufe 8: Ergebnismengen ein-/zweistufig, Mengenschreibweise, relative Häufigkeit, geeignete Simulationen sowie Tabellen und Diagramme.",
         "checkedAt": "2026-10-22"
+      },
+      "practice": {
+        "title": "Freiwillig weiterdenken: Modellwert oder zwei Laborläufe",
+        "unscored": true,
+        "childNote": "Wähle «Deutung», «Partnervergleich», beide oder keinen Teil. Die Teile sind unabhängig. Bei beiden kannst du die Reihenfolge selbst wählen. Es gibt keine Zusatzpunkte und kein neues App-Eingabefeld. Du kannst erklären, zeigen oder auf eigenem Papier notieren. Halte nur echte Versuchsdaten fest.",
+        "childSteps": [
+          "Deutung · Nach deinem eigenen Versuch zu A: Nimm deinen berechneten Modellwert. Was erwartest du bei vielen Wiederholungen derselben Ziehregel für den Anteil der Versuche, die zu A gehören? Formuliere deinen eigenen Gedanken und begründe ihn am Kartenmodell.",
+          "Deutung · Prüfe deinen Gedanken. Legt der Modellwert eine genaue Trefferzahl für eine bestimmte Reihe fest? Muss jeder weitere Stand näher liegen als der vorige? Wenn du B tatsächlich durchgeführt hast, kannst du deine Daten als Beispiel nutzen. Trenne sie vom Modellwert. Ohne B kannst du am Modell weiterdenken. Ein neuer Lauf ist dafür nicht nötig.",
+          "Deutung · Erkläre, was du begründet beibehalten oder genauer ausdrücken würdest. Was bleibt offen? Eine passende erste Erklärung darf bestehen bleiben. Wenn du einen Einstieg brauchst: «Für viele Wiederholungen erwarte ich …, weil … . Für eine einzelne Reihe bedeutet das aber nicht … .»",
+          "Partnervergleich · Für diesen Teil braucht ihr eine freiwillige Mitperson und je einen eigenen vollständigen Laborlauf. Nach deiner Arbeit an A bis C sicherst du deinen 500er-Stand vor dem Zurücksetzen oder Neuladen. Notiere Lauf I, Versuchszahl und Trefferzahl. Wenn du die ganze Summenverteilung behalten willst, speichere und prüfe die CSV oder den Ausdruck. Beim Neuladen geht der Laborstand verloren.",
+          "Nutzt ihr dasselbe Gerät, wählt nach dem Sichern «Neuen Lauf beginnen». Partnervergleich · Die zweite Person erzeugt ihren eigenen Lauf mit «20 Versuche starten», «80 weitere» und «400 weitere» und notiert ihn als Lauf II. Ein zweites Gerät ist möglich. Beide Läufe verwenden dieselbe Regel: zweimal aus 1 bis 4 ziehen, nach dem ersten Zug zurücklegen und neu mischen. A bedeutet «Summe mindestens 6». Fehlt ein eigener vollständiger Lauf oder eine Mitperson, bleibt der Vergleich offen. Zählt keinen Lauf zweimal und erfindet keine Daten.",
+          "Partnervergleich · Prüft die Laufbezeichnungen und vergleicht nur die beiden vollständigen 500er-Stände. Jede Person erklärt anhand ihrer Trefferzahl den Bruch und den Prozentwert. Nach jeder Erklärung stellt die andere Person eine konkrete Rückfrage oder ihr prüft die Rechnung gemeinsam. Klärt eine Unstimmigkeit, wenn es eine gibt.",
+          "Partnervergleich · Bestimmt den Abstand der Prozentwerte in Prozentpunkten. Die Werte dürfen gleich sein. Erklärt, was aus den beiden Läufen folgt und was offenbleibt. Ändert ein einzelner Lauf die berechnete Modellwahrscheinlichkeit? Kann er beweisen, dass echte Papierkarten fair gemischt und gezogen werden? Haltet nur fest, was ihr wirklich getan und erklärt habt. Nennt keine Namen und macht keine Aufnahme oder Fotos."
+        ],
+        "adultNote": "Beide Teile sind freiwillig und unbepunktet. Der Deutungsweg ist nach A auch ohne Laborlauf möglich. Beim Partnervergleich nur tatsächlich ausgeführte Teile und geäusserte Begründungen rückmelden. Die gewählte Hilfe getrennt festhalten. Die bisherigen 20 Hauptpunkte und sechs getrennten Transferpunkte gelten wie bisher.",
+        "adultGuide": [
+          "Deutung · Warten Sie den eigenen Versuch zu A und den ersten eigenen Gedanken ab. Bei Rechenunsicherheit kann die vorhandene Paartabelle helfen. Fragen Sie zunächst offen: «Was stammt aus der Modellregel, was aus einem beobachteten Lauf?» oder «Was meinst du mit ungefähr oder immer?» Das Modell und die Zahl erst danach besprechen.",
+          "Deutung · Mit Zurücklegen und gleichem Zufallsmodell sind 16 geordnete Paare gleich wahrscheinlich. Zu A gehören (2,4), (3,3), (3,4), (4,2), (4,3) und (4,4). P(A) = 6/16 = 3/8 = 37,5 %. Bei vielen unabhängigen Wiederholungen derselben Regel erwartet man einen relativen Anteil nahe diesem Wert. Ein endlicher Lauf kann abweichen. Es gibt keine exakte Trefferzahl, keine garantierte Nähe bei einer festen Versuchszahl, keine stetige Annäherung und keine Pflicht zum Ausgleich im nächsten Versuch. Der Modellwert beweist keine Fairness von Papierkarten. Ein tatsächlicher B-Lauf kann illustrieren, entscheidet die Langfristfrage aber nicht allein.",
+          "Partnervergleich · Ein Gerät reicht. Den eigenen Lauf und bei Bedarf die gesamte für C benötigte Summenverteilung zuerst sichern und die gespeicherte Ausgabe prüfen. Zwei getrennte, von den jeweiligen Personen erzeugte 500er-Stände unter derselben Regel sind nötig. Fehlende, verlorene oder bloss vorgegebene Daten als solche stehen lassen. Kein erneuter Lauf, nur um andere Werte zu erhalten. Kein Zusammenlegen zu einem 1 000er-Lauf erforderlich.",
+          "Partnervergleich · Für 500 Versuche gilt h = k/500 und der Prozentwert ist k/5. Der Abstand ist |k₁ − k₂|/5 Prozentpunkte. Beispiel für die Rückmeldung: 180 und 195 Treffer ergeben 36 und 39 %, also drei Prozentpunkte Abstand. Das sind Rechenbeispiele, keine Versuchsdaten. Gleichstand ergibt null. Gleichheit belegt keine identischen Zufallsfolgen und Abweichung allein ändert den Modellwert nicht. Auch ein weiter entfernter Anteil ist möglich.",
+          "Partnervergleich · An der tatsächlichen Erklärung des Gegenübers anknüpfen. Erwachsene dürfen unterstützen oder als freiwillige zweite Person beim Vergleich mitwirken, ohne die Kinderantwort vorzugeben. Für das Nachvollziehen der Argumentation anderer Schülerinnen und Schüler (SS4) braucht es tatsächlich ein Schülergegenüber. Eine erwachsene Ersatzrolle bereitet die Handlung vor, belegt aber keinen Austausch unter Lernenden."
+        ],
+        "adultCriteria": [
+          "Deutung · Ein eigener Gedanke nennt und begründet die zu erwartende relative Häufigkeit bei vielen unabhängigen Wiederholungen. Modellwert, tatsächlich vorliegende Beobachtung und Grenze eines endlichen Laufs bleiben unterscheidbar.",
+          "Deutung · Der Gedanke wird begründet beibehalten oder präzisiert. Eine offene Frage kann benannt werden. Sie ist ein Anhaltspunkt für weitere Hilfe. Ohne eigenen B-Lauf bleibt die Datenbeobachtung unerhoben. Die Deutung ist trotzdem möglich. Keine Korrektur eines richtigen Gedankens verlangen.",
+          "Partnervergleich · Zwei unterscheidbare eigene Datensätze haben dieselbe Regel und je 500 Versuche. Herkunft, Hilfe und fehlende Daten sind nachvollziehbar. Das Vorliegen der Daten allein belegt keine Kinderbedienung.",
+          "Partnervergleich · Jede Person erläutert ihre eigene Rechnung. Die andere reagiert mit einer konkreten Frage oder Rechnungsprüfung. Tatsächliche Beiträge, Hilfe und Art des Gegenübers getrennt festhalten.",
+          "Partnervergleich · Prozentwerte und ihr Abstand in Prozentpunkten werden erklärt. Mindestens eine Grenze der Schlussfolgerung wird begründet. Gleichstand und eine begründet unveränderte Rechnung sind zulässig."
+        ],
+        "printObservationFooter": "Nur tatsächlich Beobachtetes und den Hilfegrad namenlos festhalten. Nicht gewählte oder nicht durchgeführte Teile bleiben offen. Keine zusätzlichen Punkte, keine automatische Bewertung und kein Nachweis einer Zeichnung, Papierziehung oder Schülerzusammenarbeit aus einem gespeicherten Datensatz.",
+        "printAdultGuide": [
+          "Deutung · Erst eigenen A-Versuch und Gedanken abwarten. Bei Bedarf Paartabelle und neutrale Fragen zu Modell, Beobachtung und «ungefähr/immer» nutzen. Danach das bereits in A ausgeführte Modell besprechen: mit Zurücklegen 16 gleich wahrscheinliche geordnete Paare, sechs günstig, P(A)=6/16=3/8=37,5 %. Bei vielen unabhängigen Wiederholungen derselben Regel erwartet man einen relativen Anteil nahe diesem Wert. Keine exakte Trefferzahl, garantierte Nähe bei fester Versuchszahl, stetige Annäherung oder Ausgleichspflicht folgt daraus. Der Modellwert ist kein Beweis für die Fairness echter Karten. Ein tatsächlicher B-Lauf kann illustrieren, entscheidet die Langfristfrage nicht allein.",
+          "Partnervergleich · Eigenen Lauf und bei Bedarf die gesamte Summenverteilung vor Reset/Neuladen sichern und gespeicherte Ausgabe prüfen. Zwei durch die jeweilige Person erzeugte 500er-Stände unter gleicher Regel sind nötig. Ein Gerät genügt: nach dem Sichern «Neuen Lauf beginnen». Fehlende, verlorene oder vorgegebene Daten kennzeichnen. Kein Wiederholen nur für andere Werte, kein Zusammenlegen zu 1 000 nötig. Für je 500 gilt h=k/500, Prozentwert k/5; Abstand |k₁−k₂|/5 Prozentpunkte. Rechenbeispiel, keine Versuchsdaten: 180 und 195 Treffer ergeben 36 und 39 %, also 3 Prozentpunkte Abstand. Gleichstand ergibt null, belegt keine identischen Zufallsfolgen; auch ein weiter entfernter Anteil ändert den Modellwert nicht.",
+          "Partnervergleich · Beide erklären ihre Rechnung; nach jeder Erklärung reagiert die andere Person mit Rückfrage oder gemeinsamer Prüfung. An tatsächlichen Beiträgen anknüpfen, keine Kinderantwort vorgeben. Erwachsene dürfen freiwillig unterstützen oder mitvergleichen. Das Nachvollziehen der Argumentation anderer Schülerinnen und Schüler erfordert ein tatsächlich erklärendes Schülergegenüber; eine erwachsene Ersatzrolle belegt diesen Austausch nicht."
+        ]
       }
     },
     {

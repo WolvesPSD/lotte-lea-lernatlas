@@ -1,45 +1,343 @@
 {
   "schemaVersion": 1,
-  "version": "2026.11.23-m5-zusatzkarten.1",
-  "status": "SCOPED_LOCAL_AND_INDEPENDENT_EVIDENCE_GATES_PASSED_FINAL_PACKAGE_REVIEW_REQUIRED_BEFORE_UPLOAD",
-  "builtAt": "2026-11-23T00:47:47.864Z",
+  "version": "2026.11.23-m6-deutung-prismenfix.1",
+  "status": "SCOPED_LOCAL_RELEASE_GATES_PASSED_FINAL_METADATA_REVIEW_REQUIRED",
+  "builtAt": "2026-11-23T01:45:54.589Z",
   "baseline": {
-    "commit": "cd90e1a26d976767000528d183be7ba4275916aa",
-    "version": "2026.11.22-mbi-i6-gespraech-quellen.1",
-    "candidate": "app/output/release-candidate-mbi-i6-gespraech-quellen-20261122-v3"
+    "commit": "c89a31a014a72e818c321fa7e2ec20c218b33c00",
+    "tree": "1f67df707e7e2a418844e5c033dbc0e07a692008",
+    "version": "2026.11.23-m5-zusatzkarten.1",
+    "candidate": "app/output/release-candidate-m5-zusatzkarten-20261123-v2"
   },
-  "rollbackCommit": "cd90e1a26d976767000528d183be7ba4275916aa",
-  "change": "Two existing M5 topics gain voluntary unscored practice blocks; two accepted role-separated PDF assets. All existing task objects, points, role flags, source evidence, renderer, CSS and state schema unchanged.",
+  "rollbackCommit": "c89a31a014a72e818c321fa7e2ec20c218b33c00",
+  "change": "Existing M6 topic gains independently optional unscored model interpretation and own-run partner comparison. Existing triangular-prism task6 prompt corrects six exterior faces to five. No other task/data/point/role/source/renderer/CSS/state/asset change.",
   "inventory": {
     "topics": 227,
     "taskObjects": 1033
   },
   "validation": {
-    "textRole": "INDEPENDENT_V2_SCOPED_PASS",
-    "paper": "INDEPENDENT_SCOPED_PASS",
-    "runtime": "SCOPED_LOCAL_INTERACTION_LINK_STATE_EXPORT_IMPORT_AND_INDEPENDENT_EVIDENCE_REVIEW_PASSED",
-    "appPrint": "SIX_APP_PDFS_24_A4_PAGES_INDEPENDENTLY_OPENED_AND_EACH_END_PAGE_VIEWED",
-    "independentFinalPackageReview": "REQUIRED_BEFORE_UPLOAD",
-    "publication": "NOT_DEPLOYED"
+    "textRole": "INDEPENDENT_M6_TWO_STEP_DELTA_PASSED",
+    "prism": "INDEPENDENT_SINGLE_PROMPT_CORRECTION_PASSED",
+    "staticBuild": "V1_INDEPENDENT_STATIC_PASS_PLUS_SINGLE_PRINTFIELD_V5_TEXT_PASS",
+    "runtime": "V1_MAIN_73_CHECKS_EXIT0_WITH_SEPARATE_CORRECTED_13_CHECK_PROBE; FILLED_TWO_ANSWER_EXPORT_IMPORT_RELOAD_AND_MOBILE_HIT_TESTS_VERIFIED",
+    "appPrint": "SIX_EFFECTIVE_OUTPUTS_24_A4_PAGES: V1_FOUR_REUSED_15_PAGES_PLUS_V2_TWO_NEW_ADULT_OUTPUTS_9_PAGES; INDEPENDENTLY_VIEWED; ORPHAN_FIXED",
+    "independentFinalPackageReview": "REQUIRED_FOR_THIS_METADATA_ONLY_V3_BEFORE_UPLOAD",
+    "publication": "NOT_DEPLOYED",
+    "limits": "Browser/probe/print/delta evidence are separate runs, no combined unique-check sum. V2 mixed-topic order differed; topic-based projection passed on same PDFs after initial comparison Exit1. No laboratory navigation/run, learner/partner, physical printer, screenreader or served-HTTPS acceptance."
   },
   "limits": [
-    "Ende8/voluntary7-8 scope retained; school sequence unknown",
-    "No learner, device, printer, screenreader, live HTTPS or annual acceptance",
-    "Bauhaus external original view not bundled; availability and visibility remain conditions"
+    "TargetEnd8/voluntary7-8 outlook, actualschoolsequenceunknown",
+    "Old manual task self-check after valid answer retained; newpracticeadultguide separate, no access-security guarantee",
+    "Partner path requires two genuine saved own500runs and suitable voluntary counterpart; SS4needs student counterpart",
+    "No learner/device/physicalprinter/screenreader/liveHTTPS/year acceptance"
   ],
-  "finalizedAt": "2026-11-23T01:00:21.448Z",
   "evidence": {
-    "rootOutputApproval": {
-      "path": "output/leitung-20261123/m5-app-output-draft/root-output-approval.json",
-      "sha256": "D96E51A27FC2D3DA8F8EF6F7223EA7E2983611AC89380FE3F580CAE74905E1CC"
-    },
-    "independentStatic": {
-      "path": "output/leitung-20261123/m5-app-output-draft/release/independent-static-review/manifest.json",
-      "sha256": "7B426C82406BEA0679310D68DA91BA64C2FDCAE811BBA418F3CCFFA42EC8F470"
-    },
-    "rootRuntime": {
-      "path": "output/leitung-20261123/m5-app-output-draft/release/root-runtime-adoption.json",
-      "sha256": "E8C789A71878127C5AA75497FFEA0CEDB1728EC99D783CE1064AA576A1763D65"
+    "path": "output/leitung-20261123/m6-app-practice-draft/root-integration-approval.json",
+    "sha256": "E46850D311837E1047EEC06854D06FCF1E11320A22B0A8D21DCB7AA35818F424"
+  },
+  "printGuide": {
+    "scope": "Only M6 adultprint field, no screen/child/task/role/source/point/renderer/CSS/state/asset changes",
+    "approval": {
+      "path": "output/leitung-20261123/m6-app-practice-draft/root-print-guide-approval.json",
+      "sha256": "0D85FCA7C0047552FE26EDAED6BBF33AD3B97459FC0A70410DD4E1513DB6CF94"
     }
-  }
+  },
+  "runtimeAndPrintEvidence": [
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/candidate-build-manifest-v1.json",
+      "sha256": "66049788EEB21A1E5B9A7CD776750634A0540F69A8A587DA6E7293605A855D1C"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/independent-static-review/report.md",
+      "sha256": "A4FAC921169A2DDEBA093739E02979D475052391D5FFAEA98FCCC983BC8400E2"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/independent-static-review/review.json",
+      "sha256": "413E24552E078B5001E36C64E1D8E57D01156D46512D004BE6453727AF4ABDB6"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/independent-static-review/freeze.cjs",
+      "sha256": "B58999D1DB36B1BD8FA87A679F5771ADF140706072792C0665A3890619726D65"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/independent-static-review/manifest.json",
+      "sha256": "94166A45B46DC4CF9069C44C38EBA1CE828B50A46F23560932DBFD061E5D9694"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/independent-runtime-evidence/v1-scoped/manifest.json",
+      "sha256": "39BA6448A18B4D73F43AA86880237B05A9E2A2B53738C223008C0CC2D718FA94"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/candidate-build-manifest-v2.json",
+      "sha256": "D59B4692910E8ECE8B029D5C023FB41422EF5510651896A91F948BB4FB787E41"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/draft-topic-v5.json",
+      "sha256": "823A903A68A2429D05EF1C7518F45EB3617D824EA8B0950139F6037621E3E4FB"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/draft-topic-v2.json",
+      "sha256": "7DEDCFC1F8B74640C9BF7E7E33A170D5485BFFA3E4C6171CF84048E702DB86C3"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/root-print-guide-approval.json",
+      "sha256": "0D85FCA7C0047552FE26EDAED6BBF33AD3B97459FC0A70410DD4E1513DB6CF94"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/independent-text-role-review/v3-print-guide/v5-proof-delta/report.md",
+      "sha256": "6FEE7B76798008C9FB826332C3C76BDE08C1348925E3F8FB57121107776258D0"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v1/manifest.json",
+      "sha256": "38BDDA3A33D3F83C38DE9198447934F60DE83977184C25005B80111B5F879289"
+    },
+    {
+      "path": "output/leitung-20261123/m5-app-output-draft/release/runtime-v1/audit-app-a4.py",
+      "sha256": "EB632DCF88713D0AA06592E07CBD9384C3C02B4085BAAD5D2AF1C862F016CDC6"
+    },
+    {
+      "path": "output/leitung-20261122/mbi-i6-scoped-app-corrections/release/runtime-v1/audit-a4.py",
+      "sha256": "E7E0CD704C69ABA05E4459162A79C2A87F53EF501854605E4713E2B9701E2381"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v1/run-1/result.json",
+      "sha256": "D981B61D05CC835462C70AE91EEF7913DE8F688EBED87CE0FA9CFB21918374E9"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v1/run-1/node-exit.json",
+      "sha256": "2758E32446C380DF1A40FD90120AC95330A77C09D312F5A83AFEB47F2164C8E7"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v1/run-1/synthetic-backup.json",
+      "sha256": "849855EADE67EBBE6165368620333A0E819109298CABA6D8BF46D7440516F802"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v1/run-1-shell-exit.json",
+      "sha256": "B06B9BB6C48E6D6935B5CDB6A3D59A99A6DD3448DC2B6CE39A7217414DA5F655"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v1/run-1-a4/audit.json",
+      "sha256": "EF3E652BB1E660127ED3CD5D311E76EBADA2F1BCE307926ABBADEA47F1E51D5E"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v1/visual-review.json",
+      "sha256": "A2E437A92520CCB1DD25AF06EB5C1E23CD61F8760AF7B8285DAE9D2122F21099"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v1/run-1/m6-child.pdf",
+      "sha256": "AEA335EA792A6FF84A31219011930B353B19C650273B718DAC95D668488EC728"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v1/run-1/prism-child.pdf",
+      "sha256": "9A162D39EE36E6CCD6394882019E932C8822BB2C0D4C2D9134A843819511B7C8"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v1/run-1/prism-adult.pdf",
+      "sha256": "8524D7B001A5A0B3BBE3BAE7DE0079F121C25D90274F708152E677A6B52C3967"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v1/run-1/mixed-child.pdf",
+      "sha256": "A067BB570CEAC6633D55498A69BD224D66EAC0C270D917699E92F5B4A27E8521"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v1/run-1/m6-adult.pdf",
+      "sha256": "851E9ADA55CE0E765F398260AB4795C76B95DC6F346E7114D56A7F219FF81059"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v1/run-1/mixed-adult.pdf",
+      "sha256": "CC5FDDAC13C6AC6A99DC6F7557EC7C90F5A087120843C60E3C41DA4C07CB4B9C"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/audit.json",
+      "sha256": "C159BE780EFCBC4B2D7658E5BF8720494B12B35AA0494F432695CD67738DDC2F"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/m6-adult-1.png",
+      "sha256": "1E694F7E691B3A64B180066711A0C2BD5BAC959530EC0A27204306BDB6735D20"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/m6-adult-1.txt",
+      "sha256": "C709DB9F9BE3E53B13A64511FF16AD4D308BB79344D4DD4805BE2DFB812F33A4"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/m6-adult-2.png",
+      "sha256": "296FA3E70B0E43716033F32DF3BB58864D5D33480EA05BB5E589D89DF0B71630"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/m6-adult-2.txt",
+      "sha256": "877F5A2CC3811FF5C6B49C3EFB396653AA30A829DF4AF1ECF5BD5B0887B7770D"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/m6-adult-3.png",
+      "sha256": "DEDAB1A296C98249AA448D9DA6717E3760FE4AE622EE92BD6E1831D3566B119C"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/m6-adult-3.txt",
+      "sha256": "2E1611B9B47DDE3CD787A97F734CEF470A4BEC8230B17CF986B5A11337F4504D"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/m6-adult-contact.png",
+      "sha256": "72610345C32039B56EC66C9055AC582FA9028617679E03D11D2D518C6A8BEBBE"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/mixed-adult-1.png",
+      "sha256": "27DE8FF87888DA515737178B4FD8BDED26C02A9A668BD1FBDD8BCD943902C0A5"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/mixed-adult-1.txt",
+      "sha256": "3906B9BBA15DE0E9736379452C6EC4DEF9451A99DD70A12104FCFE79EAB77597"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/mixed-adult-2.png",
+      "sha256": "8E30201EFF0E60A4CFFAA94FE635343AA7E19CF13DB486ED255B2061795D0876"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/mixed-adult-2.txt",
+      "sha256": "A3985A5B329396773D2FFFBAB6DF80F40EA3DF514E42498429D275470432D6B1"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/mixed-adult-3.png",
+      "sha256": "4FEF21287D6059F79F1DE4BA255DAA1616FD6FFDE0EA15D7194E3EA95FF45BB4"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/mixed-adult-3.txt",
+      "sha256": "A513DC793CF92E7A6A11774BD691010873CB14E74742772A7B910BAC7947EEB8"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/mixed-adult-4.png",
+      "sha256": "B40FC0672BB1E2E4EA42592DDFC09924963ADA063DF4FA8B51748F5305797CE7"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/mixed-adult-4.txt",
+      "sha256": "E922F7E8394216F873F9201CE23CAAC492072A31FD9AD35B4BB511753E630515"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/mixed-adult-5.png",
+      "sha256": "1809FF392AD661CA1368EA25EB395AB104BFF7B9815F15FAC3C73DF8C5C5FA04"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/mixed-adult-5.txt",
+      "sha256": "158C6AD041866A02E5649A9E7DA49F31D0B06E443B3E3C9035E6C600058E6D91"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/mixed-adult-6.png",
+      "sha256": "CD70E05F69A5E874A7AE14CC7585E966B266153B5B4652985DDA22F9A3FD0304"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/mixed-adult-6.txt",
+      "sha256": "BADED681E578E54A2C2E5D114DAF740AA16C1AECB1E4288616B35B761466B337"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/mixed-adult-contact.png",
+      "sha256": "D8C0619CDB95FE55100AA0B2C0A9F1BFA070FF219FA484159F577B10864F13D7"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/app-a4/mixed-topic-text-projection.json",
+      "sha256": "0468F350A0FC88D8EA9E61E7CFF5C4BF63D55FE3B8BF2CB3250ECF9A18CE810C"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/audit-a4.py",
+      "sha256": "A34D360FC1C93F396E97184E50A561E14B8A995789CA307CFAF3D3983BFBD32E"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/audit-shell-exit.json",
+      "sha256": "082800CA20A1A995DF17D2C5E5A990853806CECB862A68B06DC1ABFBB44EDF73"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/audit-stderr.txt",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/audit-stdout.txt",
+      "sha256": "B3CBFA14C714E7F2EF326BF09AB1A82A0E6AFA26252BDCD8AEEDA83B9F956326"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/mixed-text-shell-exit.json",
+      "sha256": "CC817BF55A52E1539D58A53344553EC1AD4C82931395EAF3FDF6CCC4339B2391"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/mixed-text-stderr.txt",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/mixed-text-stdout.txt",
+      "sha256": "AEFBCAD973294C2ED7DB52E3E2BD1E3616E30C38DF7A53D9B2B191D9F98F8692"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/node-stderr.txt",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/node-stdout.txt",
+      "sha256": "F7E5107CE7713CD4ED7F662226767C9D8C5FA3B2D138D162A438D427320661E4"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/process-evidence.json",
+      "sha256": "53989DEE6DDD98669A41B6A8FC0E5A26FEBB7F0A4AD73AFDA5D3A0783AEC84AD"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/report.md",
+      "sha256": "BCFAF40C21DA5E1DB45DCD7B7206BFE3F4A49AC8D59C600AD96A68758A9CAAAC"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/run-1/candidate-after.json",
+      "sha256": "FF043B8F14239BF8E2B568EA64E7F37D7FDE50E2AF4287E48A249514E9A04FE8"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/run-1/candidate-before.json",
+      "sha256": "FF043B8F14239BF8E2B568EA64E7F37D7FDE50E2AF4287E48A249514E9A04FE8"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/run-1/m6-adult-dom.txt",
+      "sha256": "51BF37B930D9D6528B7BCCF2F6A823FEC2EC8C414C522F92BF3D1D65DEE5F668"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/run-1/m6-adult.pdf",
+      "sha256": "5D485C9A9BF73ABB17E24C9E6486AFFF5BA569258D492283A5BD2FC785418035"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/run-1/mixed-adult-dom.txt",
+      "sha256": "528C02F24E987F23546EEA30FB144B9DD4A8C2F19B760546E1535B7446215E3F"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/run-1/mixed-adult.pdf",
+      "sha256": "89EC63C288C34686C25194055A54221C00BBEA801A188244683235D495DD5F9A"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/run-1/node-exit.json",
+      "sha256": "C0177D0DA086915B94E899311C73857963E63784FE5DFB78ADBDE2961EA39562"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/run-1/result.json",
+      "sha256": "95682C9E694C67CF5D6A1DBD15A1403646BEEB596FC8F43FA9D4EFDE77365BDF"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/run-1/topic-delta.json",
+      "sha256": "7F09EFE334EA89094F0E10CB01DB3057D7BDAFFD9ADEF04D96649A9FE7741B65"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/run.cjs",
+      "sha256": "C93D80DA9D41CAEF2D454A5AF39289C8B5FB9A63640320CD39258EDD61656D01"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/shell-exit.json",
+      "sha256": "B06B9BB6C48E6D6935B5CDB6A3D59A99A6DD3448DC2B6CE39A7217414DA5F655"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/verify-mixed-topic-text.py",
+      "sha256": "26F26B8AD667FB341C7D2AECC0AD578081F54F204FBA364297171E7990FACED9"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/visual-review.json",
+      "sha256": "E5C1D1FB75A6F01527C771D8BCD599A17DCF89BF0C07F2DD8219EDCF7833C70A"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/runtime-v2-adult-print/manifest.json",
+      "sha256": "6EE178274CF7CFF1039AF0C6579DB5AC56A304341B2CB2F978EB47C3104305F9"
+    },
+    {
+      "path": "output/leitung-20261123/m6-app-practice-draft/release/independent-runtime-evidence/v2-adult-print/manifest.json",
+      "sha256": "8CB3E6B0FCE8D6A16B9EC431E22140F9D3B6A3F6834E6DD7DCDF711E24379943"
+    }
+  ]
 }

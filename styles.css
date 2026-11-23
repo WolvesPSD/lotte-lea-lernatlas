@@ -417,3 +417,8 @@ body[data-print-mode^="child"] #print-surface .print-topic:has(.print-task[data-
 
 /* M7 child print: keep its short voluntary reflection title, note and steps together. */
 @media print{body[data-print-mode^="child"] #print-surface .print-topic:has(.print-task[data-task-id="ma-schraegbild-1"]) .print-practice{break-inside:avoid;page-break-inside:avoid}}
+
+/* G03 C: wrap its long role word without changing the prompt. */
+@media screen{#work-content .task-card[data-task-id="go-bananen-c"] h3{overflow-wrap:anywhere}}
+/* M10 child print: keep both optional model cases with their shared formula help. */
+@media print{body[data-print-mode^="child"] #print-surface .print-topic:has(.print-task[data-task-id="ma-kreisweg-1"]) .print-practice{break-inside:avoid;page-break-inside:avoid}}

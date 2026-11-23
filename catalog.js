@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.23-m7m8-praxis.1",
+  "version": "2026.11.23-kreis-quellen.1",
   "status": "familienversion",
   "subjects": [
     {
@@ -4753,6 +4753,30 @@ window.LOTTE_CATALOG = {
         "gradeBand": "8",
         "competencyRef": "PDF-S. 2: Inkraftsetzung 2026/27 für Klasse 7, 2027/28 für Klasse 8. § 2.2.10, PDF-S. 30 unter „Klassenstufe 8“: π als Umfang-Durchmesser-Verhältnis, Umfangs- und Flächenformeln anschaulich erklären und anwenden, Einheiten und sinnvolle Rundung.",
         "checkedAt": "2026-10-21"
+      },
+      "practice": {
+        "title": "Welche Kreisgrösse hilft hier?",
+        "childNote": "Zwei freiwillige Aufgaben ohne Punkte. Du kannst eine davon wählen oder beide bearbeiten. Erkläre deinen Rechenweg und die Grenze des Modells. Du kannst deinen Ansatz auf Papier zeigen oder mündlich erklären. Du kannst diese Zusätze unabhängig von den Beet-Aufgaben bearbeiten. Formelhilfe für beide Aufgaben: Durchmesser d = 2r, Kreisumfang U = πd = 2πr, Kreisfläche A = πr². r ist der Radius. 100 cm = 1 m. Du kannst das Ergebnis exakt mit π angeben. Eine Dezimalzahl kennzeichnest du als Näherung.",
+        "childSteps": [
+          "A · Ein Rad für eine Weganzeige. Eine Werkstatt überlegt, wie eine Weganzeige aus gezählten Radumdrehungen die Strecke berechnen kann. Im Modell hat das Rad 64 cm Durchmesser. Es rollt geradeaus, ohne zu rutschen. Der Zähler zeigt 25 volle Umdrehungen. Welche Grösse am Rad gibt die Strecke bei einer vollen Umdrehung an? Erkläre deinen Ansatz und berechne den Weg für alle 25 Umdrehungen. Gib ihn in Metern an. Nenne einen Grund, weshalb die Anzeige bei einem echten Rad von der tatsächlich zurückgelegten Strecke abweichen könnte.",
+          "B · Belagsfläche im Plan eines Kreisverkehrs. In einem erfundenen Plan ist die Mittelinsel kreisrund und hat 8 m Radius. Direkt um die Insel liegt eine 4 m breite Fahrbahn. Die Breite ist auf der Linie vom Mittelpunkt nach aussen angegeben. Im Modell läuft die Fahrbahn als geschlossener Ring um die Insel. Zu- und Abfahrten sind in der Rechnung nicht enthalten. Welche Fläche gehört in die Belagsübersicht? Erkläre, welcher Teil des Plans mitzählt, und berechne die Fläche der ringförmigen Fahrbahn in Quadratmetern. Welche Aussage über einen echten Kreisverkehr könntest du mit dieser Rechnung allein nicht treffen? Begründe kurz."
+        ],
+        "adultNote": "Beide Modellfälle sind unabhängig voneinander freiwillig und unbepunktet. Die Formelhilfe gilt für diese Zusätze. Lass das Kind zuerst einen eigenen Ansatz versuchen. Wenn es danach stockt, gib zunächst eine Rückfrage als Hilfe. Zeige die Modellrechnung und die gerundeten Werte erst bei der Rückmeldung nach dem eigenen Versuch.",
+        "adultGuide": [
+          "A · Radumfang und Weganzeige. Modell: Bei einer vollen Umdrehung ohne Rutschen wird einmal die ganze Randlänge abgerollt. Der Umfang liefert die Strecke pro Umdrehung. Mit d = 64 cm = 0,64 m sind das 0,64π m. In 25 Umdrehungen legt das Modellrad 25 · 0,64π m = 16π m zurück, also etwa 50,27 m auf zwei Dezimalstellen.",
+          "Hilfe: «Welcher Teil des Rads wird bei einer Umdrehung einmal abgerollt?» Falls der Ansatz in Zentimetern beginnt, erst mit 25 · 64π cm = 1600π cm rechnen und dann in Meter umwandeln. Den Weg in ganzen Radumfängen oder als Produkt angeben lassen.",
+          "Rückmeldung: Schlüssig ist eine Erklärung, die Randlänge, Zahl der Umdrehungen und Gesamtstrecke verbindet. Ein Ergebnis in Metern mit passender Exakt- oder Näherungskennzeichnung genügt. Als Modellgrenze gilt etwa, dass ein echtes Rad rutschen kann oder sich der wirksame Abrollumfang durch die Belastung ändert. Gleichwertige Gründe anerkennen. Der Fall setzt weder eine gemessene Strecke noch eine tatsächlich eingestellte Anzeige voraus.",
+          "B · Fahrbahnring in einer Belagsübersicht. Modell: Der Strassenbauplan fragt nach der Fläche der Fahrbahn. Die Mittelinsel gehört nicht dazu. Innenradius 8 m, Aussenradius 8 m + 4 m = 12 m. Von der Kreisfläche bis zum Aussenrand wird die Inselscheibe abgezogen. So ergibt sich π · (12 m)² − π · (8 m)² = (144 − 64)π m² = 80π m², also etwa 251,33 m² auf zwei Dezimalstellen.",
+          "Hilfe: «Wo beginnt und endet die 4-m-Breite? Welcher Teil liegt im grossen Kreis, gehört aber nicht zur Belagsfläche?» Bei π · (4 m)² zurück zur Lage der Fahrbahnbreite fragen. Sie ist die Differenz der beiden Radien. Eine Erklärung ohne Zeichnung reicht.",
+          "Rückmeldung: Passend ist ein Rechenweg, der den äusseren Kreis und die ausgenommene Insel auseinanderhält und eine Fläche in Quadratmetern angibt. Die Zahl beschreibt nur die horizontale Fläche des idealisierten Rings. Zu- und Abfahrten können die reale Belagsfläche verändern. Auch eine unregelmässige Randlinie ist eine begründete Modellgrenze. Für eine tatsächliche Materialmenge wären weitere Angaben wie die Schichtdicke nötig. Die Aufgabe enthält keine Aussage zur Verkehrsführung, Sicherheit oder Bauausführung."
+        ],
+        "adultCriteria": [
+          "A · Weganzeige: Das Kind erklärt den Umfang als Strecke je Umdrehung, gibt die Gesamtstrecke in Metern an und begründet eine Modellgrenze.",
+          "B · Kreisverkehr: Das Kind grenzt die Fahrbahn von der Insel ab, begründet die Flächendifferenz, gibt Quadratmeter an und erläutert eine Modellgrenze."
+        ],
+        "unscored": true,
+        "printObservationLabels": "☐ auf Papier gezeigt  ☐ mündlich erklärt  ☐ Hilfe genutzt  ☐ nicht bearbeitet",
+        "printObservationFooter": "Beide Wege sind gleichwertig. Beobachte nur den erklärten Rechenweg und die Modellgrenze. Die Aufgaben sind freiwillig und unbepunktet. Die Regeln zum hilfsmittelfreien Erstversuch gelten in den jeweiligen Kreisaufgaben weiter."
       }
     },
     {
@@ -15864,7 +15888,7 @@ window.LOTTE_CATALOG = {
           "writingLines": 10,
           "inputRows": 10,
           "adultOnlySolution": true,
-          "prompt": "C · Wer kann was prüfen oder ändern? (5 Hauptpunkte): Wähle einen Akteur aus Unternehmen/Handelskette und einen aus Verbraucherinnen/Verbraucherverband. Nenne für beide je eine realistische Frage oder Handlung zu Einkaufsbedingungen, Informationen oder Löhnen. Erkläre, weshalb die Möglichkeiten verschieden sind und warum daraus noch keine nachgewiesene Wirkung folgt.",
+          "prompt": "C · Wer kann was prüfen oder ändern? (5 Hauptpunkte): Wähle einen Akteur aus Unternehmen/Handelskette und einen aus Verbraucherinnen/Verbraucherverband. Nenne für beide je eine realistische Frage oder Handlung zu Einkaufsbedingungen, Informationen oder Löhnen. Erkläre, weshalb die Möglichkeiten verschieden sind und warum daraus noch keine nachgewiesene Wirkung folgt. Stütze deine Erklärung mit mindestens einer passenden Angabe aus Q2 oder Q4.",
           "sample": "Eine Handelskette könnte Einkaufsbedingungen dokumentieren und Preisstufen offenlegen. Ein Verbraucherverband könnte diese Angaben oder einen Prüfbericht anfordern. Die Handelskette trifft Beschaffungs- oder Vertragsentscheidungen, der Verband fragt nach und vertritt Interessen. Q2/Q4 beschreiben Beteiligte und Ziele, aber ohne Vertrags-, Lohn- und Prüfdaten ist keine Wirkung nachgewiesen.",
           "criteria": [
             "1 Punkt für konkreten Unternehmens-/Handelsakteur mit passender Frage oder Handlung.",

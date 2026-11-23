@@ -1,45 +1,36 @@
 {
   "schemaVersion": 1,
-  "version": "2026.11.23-de-m06.1",
-  "builtAt": "2026-11-23T07:26:47.468Z",
+  "version": "2026.11.23-sprachwahl-regel.1",
+  "builtAt": "2026-11-23T08:36:23.972Z",
   "status": "LOCAL_SCOPED_GATES_ACCEPTED_FINAL_PACKAGE_REVIEW_REQUIRED_NOT_DEPLOYED",
   "baseline": {
-    "commit": "4e59097199ca7546880c92d7710f7af91a6edc2b",
-    "tree": "13f0b03df8a5f31d34d220a57aa8a2129a1cdcf3",
-    "version": "2026.11.23-m11-fr-bild.1",
-    "candidate": "app/output/release-candidate-m11-fr-bild-20261123-v3"
+    "commit": "7c369cbfd7ed4337b8f61d59033b0569ed9d8119",
+    "tree": "573bf3216741ca4529f20fb9ee68cb77af1e1294",
+    "version": "2026.11.23-de-m06.1",
+    "candidate": "app/output/release-candidate-de-m06-20261123-v3"
   },
-  "rollbackCommit": "4e59097199ca7546880c92d7710f7af91a6edc2b",
-  "change": "N-topic only:3existingliveReadingtextappendices addoptionalM06focusduringsecondhearing. Oldtextprefixes,4tasks20points/4Adultflags/script/sources retained. No newinput/state/points/assets/renderer. CSS exclusively2adult-printNTask2/3rules tokeepTask2togetherandremoveoldforcedTask3pagebreak.",
+  "rollbackCommit": "7c369cbfd7ed4337b8f61d59033b0569ed9d8119",
+  "change": "Exactly6existingfieldoperationsacross2GermanTopics:optionalownlanguagechoiceandjointconversationruleagreement; Adultguides familywordingcorrectedbyindependentF1. OneAdultOnlyP3sample changesfromstatedruletoproposedrule. No newtasks/points/flags/state/assets/renderer/CSS.",
   "inventory": {
     "topics": 227,
     "taskObjects": 1033
   },
   "validation": {
-    "textRole": "INDEPENDENT_V1_CORE_AND_EXACT_V2_F1_F2_PASS",
-    "static": "INDEPENDENT_V1_CORE_STATIC_PLUS_V2_EXACT_PRINT_CSS_REUSE_PASS",
-    "runtime": "V1_SEPARATE_PROBE8_MAIN42_POSITIVE_SCOPED_REUSE_NOT_UNIQUE_TOTAL",
-    "digitalA4": "EFFECTIVE_CHILD2_V1_REUSE_ADULT2_V2_PERSONALLY_AND_INDEPENDENTLY_SEEN",
+    "textRole": "INDEPENDENT_SIX_FIELDS_AND_EXACT_F1_PASS",
+    "static": "INDEPENDENT_EXACT_INTEGRATION_PASS",
+    "runtime": "SEPARATE_DOM9_MAIN50_SCOPED_PASS_NO_UNIQUE_SUM",
+    "digitalA4": "FOUR_INDIVIDUAL_A4_2_2_3_2_PAGES_ALL_NINE_ROOT_AND_INDEPENDENT_SEEN",
     "publication": "NOT_DEPLOYED",
-    "independentFinalPackageReview": "REQUIRED_EXACT_RC_ONLY_V3_BEFORE_UPLOAD"
+    "independentFinalPackageReview": "REQUIRED_EXACT_RC_ONLY_V2_BEFORE_UPLOAD"
   },
   "evidence": {
-    "path": "output/leitung-20261123/de-hoeren-m06-priority-prepared-material-decision/release/root-combined-local-gates-adoption.json",
-    "sha256": "C203D4B75EAAFC2C9ACF915FAA882D4DF34CCE414F70B7D5276C006CFA50987D"
+    "path": "output/leitung-20261123/de-sprechen-s02-ss06-public-output-draft-v2/release/root-combined-local-gates-adoption.json",
+    "sha256": "4D5E54F67C6DBF1A25C7E456798CD86FCE6E484E5163CE80FC442F59A38F7054"
   },
   "limits": [
-    "Realnaturalhiddenhumanreading remainsrequired; noactualhearingorattentionfromtext.",
-    "OptionalM06addition0points; ordinarytasksunchanged. No newdigitalstorageofM06supplementdata.",
-    "End8voluntary7/8; concretegrade7schoolsequenceopen.",
-    "No actualchild/device/printer/screenreader/yearacceptance. BaselineHTTPS/liveevidence doesnotverifythiscandidate."
+    "Optionaladditionsunscored; existingS02A5/B3/8livecriteria12 andSS06base12/extra6 retained. Actualspeaking/agreementnotinferred.",
+    "End8withinvoluntary7/8; grade7specificschoolsequenceunknown.",
+    "Historical16Novlocalgatesnotautomaticallycurrentcandidategates; nofullGerman/year/device/printer/screenreaderacceptance."
   ],
-  "printCorrection": {
-    "finding": {
-      "path": "output/leitung-20261123/de-hoeren-m06-priority-prepared-material-decision/release/root-v1-adult-print-finding.json",
-      "sha256": "33CC002222D871E1760BFA23E04D6975A1BE0D50CF462F6965B9E108547355EF"
-    },
-    "scope": "OnlyNTask2/3 adult-print; allscreenandchildmedia unaffected by appendedselector. No catalogue/JS/assets/statechanges fromV1."
-  },
-  "priorV1AdultLayout": "CORRECTION_REQUIRED_HISTORICAL_3PAGES_NOT_RETROACTIVELY_PASSED",
-  "processScope": "V1separate8/42checks;V2Adult11checks; no50/61uniqueorone-seriesclaim. HistoricalPDFhelperfailurespreserved."
+  "processScope": "Two separate browser scopes9and50; no59unique orsingle-seriesclaim. Local three roleHTMLclicks; no currentHTTPS,learner,physicaldevice/printer oryearpass."
 }

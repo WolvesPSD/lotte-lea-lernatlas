@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.23-de-m06.1",
+  "version": "2026.11.23-sprachwahl-regel.1",
   "status": "familienversion",
   "subjects": [
     {
@@ -13533,7 +13533,7 @@ window.LOTTE_CATALOG = {
           "writingLines": 7,
           "inputRows": 7,
           "prompt": "P3 · Schriftplan: Notiere eine kurze Reihenfolge für etwa 8–10 Minuten: Einstieg, beide Stimmen, Klärung, Abschluss. Plane eine freundliche Möglichkeit, lange Rede zu bremsen oder eine stille Person einzuladen, ohne zu behaupten, dass dies passieren wird.",
-          "sample": "Ziel und Ausredenlassen nennen; A und B nacheinander einladen; unklare Wörter klären und eine Reaktion der anderen Person ermöglichen; Einigkeit und offene Punkte am Ende trennen. Bei langer Rede könnte ich „Danke, ich möchte dazu auch B hören“ sagen.",
+          "sample": "Neutrales Ziel nennen und Ausredenlassen als Regel zur gemeinsamen Prüfung vorschlagen; A und B nacheinander einladen; unklare Wörter klären und eine Reaktion der anderen Person ermöglichen; Einigkeit und offene Punkte am Ende trennen. Bei langer Rede könnte ich „Danke, ich möchte dazu auch B hören“ sagen.",
           "criteria": [
             "Einstieg, beide Stimmen, Klärung und begrenzter Abschluss sind plausibel geordnet.",
             "Eine respektvolle, nur bedarfsweise genutzte Leitungsaktion ist vorbereitet.",
@@ -13574,7 +13574,8 @@ window.LOTTE_CATALOG = {
         "childNote": "Du leitest selbst; zwei andere Personen vertreten A und B mit verdeckten Einzelkarten. Eine möglichst getrennte erwachsene Person beobachtet. Ohne echte Wechselrede und Beobachtung: nicht erhoben. Die App macht keine Aufnahme und zählt ausgefüllte Felder nicht als gesprochene Leistung.",
         "childSteps": [
           "Lass die Rollen A und B von einer erwachsenen Person getrennt aushändigen. Sieh ihre Einzelkarten nicht vor der Runde.",
-          "Nenne ein neutrales Ziel und eine einfache Regel. Gib beiden Personen Raum, bevor du nach Besitzwechsel und Rückgabe fragst.",
+          "Nenne ein neutrales Ziel. Schlage vor den Sachfragen eine einfache Gesprächsregel vor. Frage beide Beteiligten, ob sie diese tragen oder ändern möchten; hört beide Stimmen und bestätigt nur die gemeinsam getragene Fassung hörbar. Eine bekannte Regel darf bestätigt werden; keine Änderung erfinden. Schweigen ist keine Zustimmung. Ohne Einigung bleibt die Regel offen; nötigenfalls pausieren oder beenden, keine Zustimmung spielen. Ohne Runde nur Vorbereitung. Diese Vereinbarung bleibt ohne Zusatzpunkte und belegt noch kein späteres Einhalten.",
+          "Gib danach beiden Personen Raum, bevor du nach Besitzwechsel und Rückgabe fragst. Beachte die tatsächlich getragene Regel im weiteren Gespräch. Kein Zusatztermin oder Pflichtdurchgang.",
           "Greife mindestens eine wirkliche Aussage auf und ermögliche der anderen Person eine faire Antwort. Halte das Gespräch beim Thema, ohne eine Lieblingslösung durchzusetzen.",
           "Schliesse mit dem tatsächlich getragenen Zwischenstand oder ausdrücklich ohne Einigung. Erlaubnis, Kennzeichnung und Aufsicht dürfen offen bleiben.",
           "Erst nach dem beendeten Gespräch: Nachnotiz schreiben. Eine erwachsene Person kann dann die optionale neue Bedingung für eine zweite, getrennt beobachtete Runde aushändigen."
@@ -13601,10 +13602,12 @@ window.LOTTE_CATALOG = {
         "adultNote": "Nur nach tatsächlich gehörter Dreier-Runde werten. Ideal: Lotte moderiert, zwei andere Personen vertreten A/B, eine weitere erwachsene Person beobachtet nur. Bei mitspielender Beobachtung die geringere Unabhängigkeit vermerken; ohne Beobachtung keine Punkte. 2 = klar selbst gezeigt, 1 = teilweise oder nach zusätzlicher neutraler Hilfe, 0 = trotz fairer Gelegenheit nicht gezeigt, — = Gelegenheit fehlte. Bei — keine vergleichbare 12er-Summe; ohne Runde alles „nicht erhoben“. Schriftplan und Nachnotiz nie hinzurechnen. A: sechs Bücher dauerhaft abgeben, ohne Ausleihzettel. B: vier Bücher nur verleihen, Rückgabe noch ungeklärt. Vorab nur die eigene Rollenkarte aushändigen; Lotte sieht beide nicht.",
         "printAdultNote": "Nur eine wirklich gehörte Dreier-Runde werten: 2 = selbst gezeigt, 1 = teilweise/mit neutraler Hilfe, 0 = trotz fairer Gelegenheit nicht gezeigt, — = Gelegenheit fehlte. Bei — keine vergleichbare 12er-Summe; ohne Runde nicht erhoben. Schriftplan und Nachnotiz bleiben ohne Sprechpunkte. A: sechs Bücher dauerhaft ohne Ausleihzettel abgeben; B: vier nur verleihen, Rückgabe ungeklärt.",
         "adultGuide": [
+          "Gesprächsregel vereinbaren, ohne Zusatzpunkte: Regelangebot und beide Stimmen/Änderungswünsche hören, nur tatsächlich getragene Fassung hörbar als vereinbart festhalten. Auch bekannte Regel bestätigen lassen; Schweigen ist keine Zustimmung. Ohne Einigung offen, nötigenfalls freiwillig pausieren/beenden; ohne Runde nur Vorbereitung und nicht erhoben. Erwachsene Rollen dürfen Zustimmung weder vorsagen noch erzwingen. Status/Hilfe höchstens privat notieren. Das 12+6-Raster und seine Kriterien bleiben unverändert, keine neue automatische Abzugsregel. Vereinbaren und späteres Einhalten getrennt beobachten.",
           "Karten A/B getrennt aushändigen; Kerninformationen spätestens auf offene Nachfrage einbringen. Eine tatsächlich gesprochene Einigung ist keine Pflicht. Die optionale Karte mit nur einer unbeschrifteten Kiste erst nach der ersten beendeten Runde geben; drei getrennte Zusatzkriterien zu je 0/1/2/—, höchstens sechs Punkte nur nach echter zweiter Runde.",
           "Erwachsene dürfen A/B spielen. Wer zugleich mitspielt und beobachtet, vermerkt die geringere Unabhängigkeit. Keine Aufnahme, privaten Namen oder wirkliche Bücherliste anlegen."
         ],
         "printAdultGuide": [
+          "Gesprächsregel vereinbaren, ohne Zusatzpunkte: Regelangebot und beide Stimmen/Änderungswünsche hören, nur tatsächlich getragene Fassung hörbar als vereinbart festhalten. Auch bekannte Regel bestätigen lassen; Schweigen ist keine Zustimmung. Ohne Einigung offen, nötigenfalls freiwillig pausieren/beenden; ohne Runde nur Vorbereitung und nicht erhoben. Erwachsene Rollen dürfen Zustimmung weder vorsagen noch erzwingen. Status/Hilfe höchstens privat notieren. Das 12+6-Raster und seine Kriterien bleiben unverändert, keine neue automatische Abzugsregel. Vereinbaren und späteres Einhalten getrennt beobachten.",
           "A/B getrennt aushändigen, Lotte sieht die Rollen nicht. Einigung ist keine Pflicht; Aufstellerlaubnis bleibt offen. Mitspielende Beobachtung ist weniger unabhängig.",
           "Zusatzkarte erst nach beendeter Grundrunde; zweite Runde getrennt beobachten. Keine Aufnahme oder privaten Namen notieren."
         ],
@@ -13762,10 +13765,12 @@ window.LOTTE_CATALOG = {
         "title": "Praxis: eine Regel frei erklären",
         "childNote": "Erkläre ungefähr 90–150 Sekunden lang für eine jüngere Person die Nachnamenregel mit mindestens zwei verschiedenen Buchbeispielen. Zeige den möglichen Titelfehler und sage, was die Karte über die heutige Verfügbarkeit nicht weiß. Eine andere verständliche Dauer ist kein automatischer Fehler. Nutze nur Regelkarte und Stichwörter; die feste Rückfrage stellt die zuhörende Person erst danach. Ohne gehörte Erklärung gibt es keine mündliche Wertung.",
         "childSteps": [
+          "Freiwilliger Sprachwahlblick ohne Zusatzpunkte: Überlege vor der Erklärung an einer eigenen Formulierung, welche Wortwahl, Wortform oder Satzstellung verständlich und an der Standardsprache orientiert passt. Nur lauter/höflicher ist noch nicht dieser Schritt. Kurz und natürlich ist möglich; Dialekt oder Akzent allein sind kein Fehler. Passendes begründet beibehalten, keinen Fehler erfinden. Bei wirklichem Normzweifel geeignete Grammatik/Wörterbuch oder fachkundige Person nutzen; ungeklärte Frage offenlassen, keine Hilfe erzwingen. Keinen fertigen Redetext schreiben. Nutze die gewählte Fassung in dieser freien Erklärung.",
           "Beginne bei der Frage der jüngeren Person. Nenne die Nachnamenregel statt nur die richtigen Regale aufzuzählen.",
           "Erkläre mindestens zwei verschiedene Buch-Regal-Zuordnungen mit dem jeweiligen Nachnamen und den Titelfehler bei „Zugvogel“.",
           "Schließe mit der Grenze: „Gehört zu diesem Abschnitt“ heißt nicht „steht heute dort“. Schau nur kurz auf deine Stichwörter.",
-          "Antworte nach der Erklärung mündlich auf die feste Rückfrage der zuhörenden Person. Sage danach eine Stärke und einen konkreten nächsten Übungsschritt; die Selbstreflexion bekommt keine Extra-Punkte."
+          "Antworte nach der Erklärung mündlich auf die feste Rückfrage der zuhörenden Person. Sage danach eine Stärke und einen konkreten nächsten Übungsschritt; die Selbstreflexion bekommt keine Extra-Punkte.",
+          "Nach der ohnehin vorgesehenen freien Erklärung betrachte eine tatsächlich gesprochene Stelle: Was passte an Wortwahl oder Satzgestaltung, was bleibt offen? Keine Aufnahme/private Sprachbeispiele, kein Zusatztermin oder zweiter Pflichtdurchlauf. Ohne gehörte Rede bleibt die Anwendung nicht erhoben. Die bisherigen Punkte bleiben unverändert."
         ],
         "observationMax": 12,
         "observationLabel": "Erklärung",
@@ -13779,6 +13784,9 @@ window.LOTTE_CATALOG = {
           "Verständlichkeit und Tempo (0–2): 2 = gut hörbar mit sinnvollen Pausen; 1 = einzelne schwierige Stellen, Kern verständlich; 0 = Kern trotz Nachfrage unverständlich; — ohne Durchführung.",
           "Stichwortnutzung (0–1): 1 = eigenständig aus Stichwörtern erklärt statt vollständigen Text abgelesen; kurze Blicke und vereinbarte Sprechhilfen sind erlaubt; sonst 0 oder —.",
           "Feste Rückfrage (0–2): je 1 für Berg/B → A–F trotz Titel-Z und „heutige Verfügbarkeit unbekannt“; verständliche sinngleiche Antwort gilt; — wenn Frage nicht gestellt."
+        ],
+        "adultGuide": [
+          "Sprachwahl prüfen, ohne Zusatzpunkte: Eine tatsächlich eigene Formulierung auf standardsprachliche Wortwahl, Wortform oder Satzbau prüfen und ihre Eignung für die jüngere Zuhörerrolle begründen lassen. Vorbereitung und gehörte Anwendung trennen. Passendes darf bleiben, keinen Fehler oder Änderungszwang. Nicht bloss Lautstärke/Höflichkeit prüfen; formell ist nicht automatisch angemessen. Gesprochene Variation nicht pauschal mit Schriftgrammatik bewerten; kein Herkunfts-/Dialekt-/Akzentdefizit. Konkrete Normzweifel geeignet nachschlagen oder fachkundig klären, ungeklärtes Urteil offenlassen, Hilfe kenntlich machen und nicht erzwingen. In der ohnehin vorgesehenen freien Erklärung nutzen und eine gehörte Stelle begrenzt reflektieren. Ohne Rede keine Anwendung, kein zweiter Pflichtversuch oder Aufnahme. Für A bleiben 5 Punkte, für B 3 Punkte. Die acht Kriterien für die Erklärung, insgesamt höchstens 12 Punkte, und die feste Rückfrage gelten weiter. Es gibt keinen automatischen Abzug. Eine einzelne Stelle erlaubt nur eine Rückmeldung zu dieser Stelle."
         ]
       },
       "releaseEvidence": {

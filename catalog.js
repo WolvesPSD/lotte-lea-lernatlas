@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.23-m6-deutung-prismenfix.1",
+  "version": "2026.11.23-m7m8-praxis.1",
   "status": "familienversion",
   "subjects": [
     {
@@ -7046,6 +7046,31 @@ window.LOTTE_CATALOG = {
         "gradeBand": "8",
         "competencyRef": "PDF-S. 2: Mathematik Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. § 2.2.8 PDF-S. 29 unter Klassenstufe 8: binomische Formeln geometrisch begründen, Terme umformen und auf lineare Gleichungen zurückführen; einfache Probleme ohne Hilfsmittel, KB-Anregung Pascalsches Dreieck.",
         "checkedAt": "2026-10-23"
+      },
+      "practice": {
+        "title": "Aufgabe C gemeinsam weiterdenken",
+        "unscored": true,
+        "childNote": "Freiwilliger Zusatz ohne Punkte zur Gleichung aus Aufgabe C. Schreibe zuerst allein deinen Plan und halte deinen ersten Versuch ohne Formelkarte und Rechner fest. Er darf unvollständig sein. Falls du danach Hilfe nutzt, notiere sie wie in C. Beginnt erst dann zu zweit. Wer C ebenfalls als Einzelaufgabe bearbeitet, hält zuvor den eigenen Versuch fest. Wenn niemand mitarbeitet, kannst du C trotzdem allein bearbeiten. Der gemeinsame Zusatz ist dann nicht durchgeführt. Zeigen, Erklären oder Ergänzen auf eurem Blatt genügt. Keine Eingabe in der App nötig.",
+        "childSteps": [
+          "Schaut gemeinsam auf den Weg zu C. Zeig, wo du stehst. Entscheidet, welchen Schritt ihr für eure Lösung klären oder prüfen wollt. Einen schon richtigen Weg könnt ihr gemeinsam begründen und absichern.",
+          "Übernehmt beide selbst einen Beitrag und führt ihn aus. Ihr könnt zum Beispiel eine Umformung erklären, einen Schritt begründet prüfen oder die Probe übernehmen. Ihr dürft euch helfen. Achtet darauf, dass jede Person selbst etwas zur gemeinsamen Lösung beiträgt.",
+          "Verbindet eure Beiträge. Erklärt einander, wie sie zur Lösung und zur Prüfung im Grundbereich und in der Ausgangsgleichung beitragen. Einigkeit ist in Ordnung. Benennt eine offene Frage, falls etwas unklar bleibt. Zeig oder sag zum Schluss, was du selbst beigetragen hast, was die andere Person getan hat und welche Hilfe du genutzt hast."
+        ],
+        "adultNote": "Der gemeinsame Zusatz beginnt nach dem eigenen Plan und festgehaltenen Erstversuch ohne Formelkarte und Rechner. Warten Sie den eigenen Versuch ab, bevor Sie ein Modell zeigen. Spätere gemeinsame Arbeit und Hilfen nicht als selbstständige oder hilfsmittelfreie Erstleistung werten. C und seine Bewertung gelten getrennt.",
+        "adultGuide": [
+          "Fragen Sie bei Bedarf: «Was wollt ihr klären? Welchen Beitrag kannst du selbst übernehmen?» Eine begründete gemeinsame Bestätigung genügt. Zwei Methoden, feste Rollen oder Rollenwechsel sind nicht erforderlich.",
+          "Fachlicher Rückhalt nach dem eigenen Versuch: links x²−9, rechts x²−2x+3. Dasselbe x² auf beiden Seiten abziehen ergibt −9=−2x+3 und damit x=6. Im Grundbereich x>3 gilt L={6}. Originalprobe: 9·3=5²+2=27. Andere korrekte Umformungen sind gleichwertig."
+        ],
+        "adultCriteria": [
+          "Beide wählen je einen konkreten Beitrag zur Lösung oder Prüfung derselben Gleichung und übernehmen dafür Verantwortung.",
+          "Beide arbeiten tatsächlich mit und verbinden ihre begründeten Beiträge zu einem gemeinsamen Weg. Eine begründete Bestätigung oder ehrlich offene Frage ist möglich.",
+          "Eigenen Beitrag, Beitrag des Gegenübers und Hilfe unterscheiden. Reines Abnicken, nachgesagte Lösung oder zwei unverbundene Einzelwege belegen keine gemeinsame Arbeit."
+        ],
+        "printAdultNote": "Freiwillig, 0 Zusatzpunkte. Erst eigener Plan und festgehaltener Erstversuch ohne Formelkarte und Rechner, dann Zusammenarbeit. Spätere Hilfe und gemeinsame Lösung sind kein Beleg für einen selbstständigen oder hilfsmittelfreien Erstversuch; C nach dem bisherigen Raster rückmelden.",
+        "printAdultGuide": [
+          "Erst nach dem eigenen Versuch rückmelden. Fragen: Was klärt ihr, was übernimmst du? Modell: x²−9=x²−2x+3 ergibt nach Abzug von x² den Wert x=6. Für x>3 gilt L={6}. Originalprobe: 9·3=5²+2=27. Andere korrekte Wege zulassen."
+        ],
+        "printObservationFooter": "Ohne tatsächlich mitarbeitende zweite Person wurde der Zusatz nicht durchgeführt. Einigkeit oder eine offene Frage sind zulässig. Keine zweite Methode oder Rollenwechsel verlangen."
       }
     },
     {
@@ -14637,6 +14662,30 @@ window.LOTTE_CATALOG = {
         "gradeBand": "8",
         "competencyRef": "PDF-S. 2: Mathematik Klasse 7 ab 2026/27 und Klasse 8 ab 2027/28. § 2.2.7 PDF-S. 28–29 unter „Klassenstufe 8“: Prismen in verschiedenen Darstellungsformen erkennen und maßstäblich im Schrägbild und als Netz darstellen.",
         "checkedAt": "2026-10-22"
+      },
+      "practice": {
+        "title": "Mein Schrägbild prüfen und weiterlernen",
+        "unscored": true,
+        "childNote": "Freiwillig, ohne Punkte. Nimm dein begonnenes oder fertiges Schrägbild aus Aufgabe B. Du kannst auch dein Netz aus Bauaufgabe A oder aus Aufgabe 2 der Prismenbox nutzen. Verwende dein eigenes Blatt statt einer Musterzeichnung. Fehlt es, mach den Zusatz später. Arbeite hier getrennt von Aufgaben ohne Hilfsmittel. Zeige und erkläre deinen Weg oder notiere kurz etwas auf deinem Blatt. Du brauchst nichts in der App einzutragen.",
+        "childSteps": [
+          "Schätze dich ein. Zeige eine Stelle oder nenne einen Prüfschritt an deinem Blatt: Was gelingt dir, was ist noch unsicher? Vergleiche, falls möglich, mit einer früheren eigenen Arbeit oder Erinnerung. Was fällt dir leichter, was bleibt gleich oder schwierig? Ohne Vergleichspunkt hältst du deinen jetzigen Stand als Ausgangspunkt fest.",
+          "Wähle einen passenden Prüfweg. Erkläre, warum er zu deiner Einschätzung und zu dieser Stelle passt. Du kannst zum Beispiel eine gezeichnete Länge mit der Auftragsregel vergleichen, mit Lineal oder Geodreieck eine Kante prüfen oder beim Netz zwei Kanten prüfen, die beim Falten zusammenkommen. Auch eine sicher angewandte Regel darfst du überprüfen.",
+          "Wende deinen Weg an derselben Stelle an. Zeige, was du tatsächlich gemessen, verglichen, markiert oder geändert hast. Was bestätigt sich, was kannst du jetzt genauer erklären und was bleibt offen? Sage, welchen Schritt du selbst gemacht hast und welche Hilfe du genutzt hast. Du brauchst keinen Fehler zu finden, nichts neu zu zeichnen und keine Verbesserung nachzuweisen."
+        ],
+        "adultNote": "Freiwilliger Zusatz am eigenen Schrägbild B oder an einem eigenen Netz aus Bauaufgabe A oder Prismenbox 2. Eine Teilzeichnung genügt. Ohne eigenes Blatt können die Schritte später erprobt werden. Warten Sie den eigenen Versuch ab. Die Punkte der Grundaufgaben gelten getrennt.",
+        "adultGuide": [
+          "Bei Bedarf neutral fragen: «Welche Stelle willst du prüfen? Welches Werkzeug oder welche Regel passt dazu?» Erst nach dem eigenen Versuch ein Beispiel besprechen: Bei B kann das Kind eine gezeichnete Tiefenkante messen und die 3 cm mit der wirklichen Tiefe von 6 cm verknüpfen. Beim Netz kann es selbst zwei aufeinander treffende Kanten zeigen und vergleichen; andere korrekte Netzanordnungen sind möglich. Die Hilfsmittelfreiheit anderer Aufgaben gilt weiter."
+        ],
+        "adultCriteria": [
+          "Eigene Einschätzung an einer Stelle oder einem Prüfschritt am eigenen Blatt. Ein früherer Vergleich ist optional. Eine Erinnerung ist eine Selbsteinschätzung; ohne Vergleich bleibt der aktuelle Stand ein Ausgangspunkt.",
+          "Passender Prüfweg selbst gewählt und Bezug zur Einschätzung erklärt. Eine bereits richtige Stelle darf gezielt bestätigt werden.",
+          "Prüfweg an derselben Stelle tatsächlich angewandt und Ergebnis eingeordnet: bestätigt, geändert oder noch offen. Festhalten, was das Kind selbst getan hat und welche Hilfe es nutzte. Planung und Fremdausführung gelten nicht als Eigenhandlung."
+        ],
+        "printAdultNote": "Freiwillig, 0 Zusatzpunkte. Eigenes Schrägbild B oder eigenes Netz (Bauaufgabe A/Prismenbox 2); eine Teilzeichnung genügt. Bei fehlendem Blatt später versuchen. Rückmeldung nach dem eigenen Versuch.",
+        "printAdultGuide": [
+          "Neutral nach Stelle und Prüfmöglichkeit fragen. Danach ein passendes Beispiel: bei B die gezeichnete Tiefenkante von 3 cm mit der wirklichen Tiefe von 6 cm verknüpfen, beim Netz zusammengehörige Kanten prüfen; andere korrekte Netze zulassen. Vorgaben zum Hilfsmittelverzicht bei anderen Aufgaben bleiben bestehen."
+        ],
+        "printObservationFooter": "Hilfe und eigenen Beitrag getrennt festhalten. Selbstauskunft über frühere Arbeit ist kein Nachweis von Fortschritt. Auch eine bestätigte Stelle oder offene Frage ist ein mögliches Ergebnis."
       }
     },
     {

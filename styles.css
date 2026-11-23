@@ -414,3 +414,6 @@ body[data-print-mode^="child"] #print-surface .print-topic:has(.print-task[data-
 
 /* I6 SS01 adult print: keep transfer context, task, model and criteria together. */
 @media print{body[data-print-mode^="adult"] #print-surface .print-passage:has(+ .print-task[data-task-id="mbi-i6-ss01-transfer"]){break-before:page;page-break-before:always;break-after:avoid;page-break-after:avoid}body[data-print-mode^="adult"] .print-task[data-task-id="mbi-i6-ss01-transfer"]{break-inside:avoid;page-break-inside:avoid}}
+
+/* M7 child print: keep its short voluntary reflection title, note and steps together. */
+@media print{body[data-print-mode^="child"] #print-surface .print-topic:has(.print-task[data-task-id="ma-schraegbild-1"]) .print-practice{break-inside:avoid;page-break-inside:avoid}}

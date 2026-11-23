@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.22-mbi-i6-gespraech-quellen.1",
+  "version": "2026.11.23-m5-zusatzkarten.1",
   "status": "familienversion",
   "subjects": [
     {
@@ -5640,6 +5640,41 @@ window.LOTTE_CATALOG = {
         "gradeBand": "8",
         "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. § 2.2.5 PDF-S. 27 unter Klassenstufe 8: Umfang und Fläche von Dreiecken, Parallelogrammen, Trapezen; Dreiecksflächenformel ohne Hilfsmittel angeben und anwenden.",
         "checkedAt": "2026-10-22"
+      },
+      "practice": {
+        "title": "Freiwillige Zusatzkarten zu Rand und Formen",
+        "unscored": true,
+        "childNote": "Wähle freiwillig eine Zusatzkarte. Dafür gibt es keine Punkte und du trägst nichts in die App ein. Bearbeite A zuerst mit den dort genannten Hilfsmittelgrenzen. Die Karte zu P passt direkt nach deiner Umfangsrechnung in B.",
+        "childSteps": [
+          "Parallelogramm P: Zeige an der vorhandenen Figur die vier Randseiten und erkläre, wie die gleich langen Paare in deiner Rechnung vorkommen. Bei Bedarf hilft dir die Randstütze aus B.",
+          "Schmuckentwurf: Schau dir die Zeichnung auf der Kinderkarte an. Begründe die Form und Lage der markierten Flächen. Beschreibe, was sich durch die gedachte Verschiebung ändert. Wie wirkt der Entwurf danach auf dich, und woran machst du das fest?",
+          "Bauhaus-Plakat: Öffne die Museumsansicht über die Kinderkarte. Zeige an derselben schwarzen Form einen geraden und einen gebogenen Rand. Beschreibe getrennt, was du siehst und wie eine gedachte Änderung auf dich wirken würde. Wenn du den Rand auch mit Hilfe nicht erkennen kannst, bleibt die Bilduntersuchung offen."
+        ],
+        "childHandoutsNote": "Öffne die Kinderkarten direkt oder nimm einen Ausdruck. Du kannst zeigen und erzählen oder deine Beobachtung kurz auf Papier festhalten.",
+        "childHandoutsPrintNote": "Kinderkarten direkt öffnen oder ausdrucken. Du kannst zeigen und erzählen oder deine Beobachtung kurz auf Papier festhalten.",
+        "childHandouts": [
+          {
+            "label": "Kinderkarten zu P, Schmuck und Bauhaus (PDF)",
+            "path": "assets/ma-m5-zusatzkarten/01-kinderkarten.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-m5-zusatzkarten/01-kinderkarten.pdf"
+          }
+        ],
+        "adultNote": "Die drei Zusatzkarten bleiben freiwillig und unbepunktet. Für die bestehenden Aufgaben gilt das bisherige 20+6-Raster. Geben Sie bei Bedarf eine kleine Rückfrage oder helfen Sie beim Öffnen oder Vergrössern. Warten Sie die eigene Beobachtung oder Erklärung ab.",
+        "adultCriteria": [
+          "P nach der Umfangsrechnung in B: Das Kind erklärt die vier Randseiten und die paarweise gleichen Gegenseiten am vorhandenen Ansatz. Die begründete Vierseitensumme und der begründet zusammengefasste Ansatz sind gleichwertig.",
+          "Fiktiver Schmuckentwurf: Das Kind belegt die Formmerkmale und eine Beziehung zwischen markierten Flächen an der Zeichnung. Es trennt die gedachte Lageänderung von ihrer möglichen Wirkung.",
+          "Bauhaus-Plakat: Das Kind zeigt an derselben Form den geraden und den gebogenen Rand und erklärt die mögliche Wirkung einer gedachten Änderung anhand der Form. Beobachtung und Wirkung bleiben getrennt. Bei nicht erkennbarer Ansicht ist die Bilduntersuchung nicht erhoben; keine Winkel oder Radien aus der Ansicht bestimmen."
+        ],
+        "handoutsNote": "Die Begleitung enthält Rückmeldemodelle für Erwachsene. Die Kinderkarten sind separat zugänglich. Zeigen Sie die Modelle erst nach einem eigenen Versuch.",
+        "handouts": [
+          {
+            "label": "Begleitung und Rückmeldung für Erwachsene (PDF)",
+            "path": "assets/ma-m5-zusatzkarten/02-begleitung.pdf",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-m5-zusatzkarten/02-begleitung.pdf"
+          }
+        ],
+        "printAdultHandoutsNote": "Begleitung für Erwachsene: https://wolvespsd.github.io/lotte-lea-lernatlas/assets/ma-m5-zusatzkarten/02-begleitung.pdf. Rückmeldemodelle nach dem eigenen Versuch besprechen. Die Kinderkarten separat ausgeben.",
+        "printObservationFooter": "Halten Sie nur fest, was am Material tatsächlich gezeigt oder erklärt wurde und welche Hilfe nötig war. Ohne erkennbares Bild bleibt die Bilduntersuchung offen. Die Zusatzkarten vergeben keine Punkte."
       }
     },
     {
@@ -21046,6 +21081,32 @@ window.LOTTE_CATALOG = {
         "gradeBand": "8",
         "competencyRef": "PDF-S. 2: Erprobungsfassung für Klasse 7 ab 2026/27; §2.2.5 PDF-S. 27 unter Klassenstufe 8: Dreiecksflächen, sinnvolle Einheiten, sachbezogenes Runden und Reflexion zu Formelsammlung und digitalen Mathematikwerkzeugen. Keine Klasse-7-Reihenfolge vorgegeben.",
         "checkedAt": "2026-10-24"
+      },
+      "practice": {
+        "title": "Freiwillig: am eigenen Blatt messen",
+        "unscored": true,
+        "childNote": "Freiwillige Messrunde, ohne Punkte. Das ist ein anderer Fall als die erfundenen Modellflächen in der App. Deine eigenen Masse ersetzen dort keine vorgegebenen Werte. Du brauchst nur ein flaches rechteckiges Blatt, einen Stift und ein Lineal. Nichts zerschneiden oder bauen; keine Fotos oder persönlichen Angaben senden. Fehlt etwas, bleibt die Messrunde offen.",
+        "childSteps": [
+          "Lege das Blatt flach hin. Beschrifte seine vier Ecken der Reihe nach mit A, B, C, D. Zeichne die Diagonale von A nach C. Du untersuchst das Dreieck A–B–C, nicht die ganze Blattfläche.",
+          "Miss AB, BC und AC am wirklichen Blatt mit dem Lineal. Notiere die drei Längen mit Einheit auf deinem Papier. Erkläre einer erwachsenen Person, wo du die Nullmarke angelegt und wie du abgelesen hast. Wähle ein Blatt, dessen Kanten du gut erreichen und messen kannst.",
+          "Welche deiner Dreiecksseiten können Grundseite und dazu senkrechte Höhe sein? Begründe am rechteckigen Blatt. Berechne aus deinen Messwerten die Dreiecksfläche und seinen gesamten Umfang. Schreibe den Rechenweg und passende Einheiten dazu. Hilfe darfst du nutzen; sage, welche du wirklich gebraucht hast.",
+          "Prüfe dein Ergebnis: Welcher Zusammenhang besteht zwischen der Dreiecksfläche und der Fläche des ganzen rechteckigen Blatts? Warum gehört die Diagonale zum Dreiecksrand, obwohl sie kein Rand des ganzen Blatts ist?",
+          "Miss eine Strecke noch einmal und vergleiche. Gleiches oder etwas anderes Ablesen ist möglich. Notiere, welche Genauigkeit dein Lineal und deine Ablesung hergeben. Wähle eine passende Ergebnisdarstellung und begründe sie: Viele Rechnerstellen sind kein Beweis einer ebenso genauen Messung.",
+          "Zeige einer erwachsenen Person nur das Blatt, die echten Messungen und deinen Rechenweg. Ohne tatsächliches Messen ist es eine Vorbereitung, kein Messnachweis. Ein Bildschirmbild der App wird nicht abgemessen. Du musst nichts in ein zusätzliches Appfeld eintragen."
+        ],
+        "adultNote": "Unbepunkteter eigener Papierfall, getrennt von den vorgegebenen Modellflächen und ihren 20+6 Punkten. Tatsächliche Messung, Papierzeichnung, Rechnung und Hilfe getrennt beobachten. Keine Beispielmasse erfinden oder Appnotizen als Messnachweis werten.",
+        "adultGuide": [
+          "Ein sicher erreichbares, flaches rechteckiges Blatt ohne relevantes privates Material verwenden. Kein Schneiden, Zugang zu grossen Flächen, Verrücken von Möbeln oder fotografischer Nachweis erforderlich. Das gewählte Lineal soll die Messung ermöglichen. Ein zu grosses Blatt darf durch ein kleineres ersetzt werden; keine improvisierte Messmethode erzwingen.",
+          "Nur bewerten, was wirklich gesehen und gehört wurde: Ecken A–B–C–D umlaufend, Diagonale AC, Messung an der Nullmarke mit einheitlicher Längeneinheit. Bei unklarer Rechteckform Modellannahme offenlegen oder passenderes Blatt wählen. Eine kleine Randabweichung ist kein allgemeiner mathematischer Fehler.",
+          "Im idealisierten Rechteck bilden AB und BC die senkrechten Katheten des Dreiecks ABC. Beide Zuordnungen als Grundseite/Höhe gelten. Wer stattdessen AC als Grundseite wählt, braucht eine zusätzlich korrekt eingezeichnete und gemessene senkrechte Höhe von B auf AC; ein solcher nachvollziehbarer Zusatzweg ist ebenfalls zulässig, aber nicht nötig. Die Formel mit den beiden gemessenen Katheten bleibt der einfache vorgesehene Weg. Aus den tatsächlich gemessenen Zahlen folgt als Modellrechnung A≈AB·BC/2 und U≈AB+BC+AC. Die Fläche des ganzen Rechtecks ist näherungsweise AB·BC; die Diagonale halbiert es im geometrischen Modell. AC gehört zum Rand von ABC, nicht zum äusseren Rand des Blatts. cm und cm² unterscheiden.",
+          "Keine Musterlängen erfinden oder Kindermessungen durch vorher ausgedachte Werte ersetzen. Rundung, Ergebnisgrenze und Wiederholungsmessung an den wirklichen Einheiten/Teilstrichen/Ablesebedingungen beurteilen. Es gibt nicht automatisch eine richtige Anzahl von Nachkommastellen für jedes Blatt. Rechner dürfen kontrollieren; die Herkunft und Genauigkeit der Eingaben wird dadurch nicht verbessert. Ein identischer zweiter Messwert beweist keine Fehlerfreiheit; eine Abweichung ist ein Gesprächsanlass, keine Pflichtleistung."
+        ],
+        "adultCriteria": [
+          "Tatsächliche Längenmessung: Nullmarke, abgelesene Werte mit Einheit, gegebenenfalls genutzte Hilfe und wiederholte Strecke gesehen?",
+          "Modell und Rechnung: Dreieck statt ganzes Blatt, passende senkrechte Höhe, halbe Rechteckfläche und vollständiger Dreiecksrand am eigenen Papier verständlich erklärt?",
+          "Ergebnisgrenze: Rechenstellen von Messgenauigkeit unterschieden und eine zum eigenen Messgang passende Darstellung begründet?"
+        ],
+        "printObservationFooter": "Nur wirklich gesehene Messung und Erklärung beschreiben, keine Punkte oder automatische Schulnote. Ohne Gelegenheit bleibt die Messpraxis offen. Eigene Papierwerte nicht anstelle der fiktiven Appwerte verwenden; keine Foto-/Datenübertragung. Der enge Weg ist keine allgemeine Umweltvermessungs- oder Jahresabnahme."
       }
     },
     {

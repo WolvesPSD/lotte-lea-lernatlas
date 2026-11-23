@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.22-ge-s3-rekonstruktion.1",
+  "version": "2026.11.22-mbi-i6-gespraech-quellen.1",
   "status": "familienversion",
   "subjects": [
     {
@@ -16119,7 +16119,7 @@ window.LOTTE_CATALOG = {
       "scope": "Freiwilliger Klasse-7-Vorgriff auf einen engen I6-Teilbereich. Der Thüringer MBI-Lehrplan markiert die hier angesprochene Zielkompetenz für Ende Klasse 8 ab 2027/28. Die aktuelle Schuleinheit ist unbekannt. Nur öffentliche Hilfetexte und ein historischer Sammelbericht werden geprüft.",
       "levelStatus": "grade8-outlook",
       "released": true,
-      "prerequisite": "Du brauchst kein YouTube-Konto und sollst keine echten Verläufe, Profile oder Einstellungen öffnen oder ändern. Arbeite nur mit den drei Quellenkarten und ihren Originalquellen. Anbieterhilfe beschreibt ausgewählte Funktionen, nicht die vollständige Technik. Die App kann freie Antworten nicht automatisch bewerten.",
+      "prerequisite": "Du brauchst kein YouTube-Konto und sollst keine echten Verläufe, Profile oder Einstellungen öffnen oder ändern. Arbeite nur mit den drei Quellenkarten und ihren Originalquellen. Anbieterhilfe beschreibt ausgewählte Funktionen, nicht die vollständige Technik. Die App kann freie Antworten nicht automatisch bewerten. Die drei Quellenkarten A, B und C sind Zusammenfassungen der jeweils verlinkten Originalquellen. Wenn eine Originalquelle nicht lädt, notiere „Originalquelle nicht erreichbar“. Nutze die entsprechende Zusammenfassung auf der Quellenkarte. Das ist keine eigene Lektüre der Originalquelle. Wenn du eine Frage mit den verfügbaren Quellen und Karten nicht beantworten kannst, notiere sie als offen und erfinde keinen Beleg. Melde dich nicht an und ändere keine Kontoeinstellung.",
       "introduction": "Eine erfundene Person schaut für ein Schulprojekt einmalig Videos zu einem Thema und möchte später keine Vorschläge aufgrund genau dieses Wiedergabeverlaufs. Rekonstruiere einen kleinen belegten Datenweg, wähle auf Papier eine Möglichkeit und trenne Anbieterangabe, allgemeinen FTC-Befund und eigene Folgerung. A–C ergeben 20 Kriterienpunkte; der freiwillige Transfer hat sechs getrennte Zusatzpunkte. Das ist Lernfeedback, keine Schulnote.",
       "sourceCards": [
         {
@@ -16159,8 +16159,8 @@ window.LOTTE_CATALOG = {
           "writingLines": 12,
           "inputRows": 11,
           "adultOnlySolution": true,
-          "prompt": "A · Datenweg aus Quellen rekonstruieren (8 Hauptpunkte): Nenne zwei Arten von Aktivität, die je nach Einstellung im YouTube-Verlauf stehen können. Beschreibe den Zusammenhang zwischen eingeschaltetem Wiedergabeverlauf und Empfehlungen. Zeichne auf Papier oder beschreibe eine Pfeilkette „Aktivität → … → …“, die nur durch A oder B gestützte Schritte enthält. Nenne eine weitere Information oder Rückmeldung, die laut Hilfe Empfehlungen beeinflussen kann.",
-          "sample": "Angesehene Videos und Suchanfragen können je nach Einstellung im YouTube-Verlauf erfasst werden. Bei eingeschaltetem Verlauf kann YouTube dessen Angaben für passendere Empfehlungen verwenden. Beispiel: Video ansehen → Wiedergabeverlauf → Empfehlung, die diesen Verlauf mitberücksichtigt. Auch „Kein Interesse“ oder weitere Google-Kontoaktivität kann Einfluss haben. Das beschreibt keine interne Datenbank.",
+          "prompt": "A · Datenweg aus Quellen rekonstruieren (8 Hauptpunkte): Nenne zwei Arten von Aktivität, die je nach Einstellung im YouTube-Verlauf stehen können. Beschreibe den Zusammenhang zwischen eingeschaltetem Wiedergabeverlauf und Empfehlungen. Zeichne auf Papier oder beschreibe eine Pfeilkette „Aktivität → … → …“, die nur durch A oder B gestützte Schritte enthält. Nenne eine weitere Information oder Rückmeldung, die laut Hilfe Empfehlungen beeinflussen kann. Gib auch für die weitere Information oder Rückmeldung an, welche Quelle oder Quellenkarte sie stützt.",
+          "sample": "Angesehene Videos und Suchanfragen können je nach Einstellung im YouTube-Verlauf erfasst werden. Bei eingeschaltetem Verlauf kann YouTube dessen Angaben für passendere Empfehlungen verwenden. Beispiel: Video ansehen → Wiedergabeverlauf → Empfehlung, die diesen Verlauf mitberücksichtigt. Auch „Kein Interesse“ oder weitere Google-Kontoaktivität kann Einfluss haben. Das beschreibt keine interne Datenbank. Begleitung bei Quellenausfall: Halten Sie fest, welche Originalquellen und welche als Zusammenfassung gekennzeichneten Karten tatsächlich genutzt wurden. Antworten aus Karten sind keine eigene Originallektüre oder tatsächliche Kontohandlung. Beurteilen Sie nur mit den verfügbaren Belegen beantwortbare Anteile. Nicht beurteilbare Anteile bleiben nicht erhoben; sie erhalten nicht automatisch null Punkte. Wenn nicht alle Anteile beurteilbar sind, nennen Sie nur die beurteilten Punkte mit ihrem möglichen Umfang und bilden Sie keine vergleichbare 20-Punkte-Hauptsumme oder 6-Punkte-Zusatzsumme. Haupt- und Zusatzpunkte bleiben getrennt.",
           "criteria": [
             "2 Punkte: zwei verschiedene passende Aktivitäten, je 1.",
             "2 Punkte: eingeschalteter Wiedergabeverlauf als mögliche Datenquelle (1) und sein möglicher Einfluss auf Empfehlungen (1).",
@@ -21548,10 +21548,10 @@ window.LOTTE_CATALOG = {
           "writingLines": 10,
           "inputRows": 8,
           "adultOnlySolution": true,
-          "prompt": "C · Zwei Perspektiven, ein Gespräch (höchstens 4 Hauptpunkte, nur nach tatsächlich beobachteter Zweierarbeit): Kinderrat erklärt eine Unklarheit; App-Team nennt einen möglichen Nutzen und antwortet auf einen Einwand; beide wechseln die Rollen und nennen Gegenargumente; gemeinsam haltet ihr Einigung und offene Prüfung fest. Notiere danach stichwortartig Einwand, Gegenargument und offenen Punkt. Ohne zweite Person sind deine zwei schriftlichen Rollen nur Vorbereitung, keine beobachtete Diskussion.",
-          "sample": "Mögliche Gesprächslinie: Der Kinderrat fragt nach der genauen Speicherregel. Das App-Team erklärt einen möglichen Nutzen von Buchvorschlägen, erkennt aber die Lücke an. Nach Rollenwechsel wird ein Gegenargument zur Speicherung einzelner Klicks genannt. Beide einigen sich auf einen klaren Zweckhinweis und lassen die konkrete Rechtsprüfung offen. Dies ist ein Beispiel, kein abzulesendes Skript.",
+          "prompt": "C · Zwei Perspektiven, ein Gespräch (höchstens 4 Hauptpunkte, nur nach tatsächlich beobachteter Zweierarbeit): Kinderrat erklärt eine Unklarheit; App-Team nennt einen möglichen Nutzen und antwortet auf einen Einwand; beide wechseln die Rollen und nennen Gegenargumente; gemeinsam haltet ihr euren begründeten Gesprächsstand fest. Sagt, worin ihr zur besprochenen Frage übereinstimmt oder unterschiedlicher Meinung bleibt und was für euch geklärt ist oder noch offenbleibt. Notiere danach stichwortartig Einwand, Gegenargument und euren Gesprächsstand. Ohne zweite Person sind deine zwei schriftlichen Rollen nur Vorbereitung, keine beobachtete Diskussion.",
+          "sample": "Mögliche Gesprächslinie: Der Kinderrat fragt nach der genauen Speicherregel. Das App-Team erklärt einen möglichen Nutzen von Buchvorschlägen, erkennt aber die Lücke an. Nach Rollenwechsel wird ein Gegenargument zur Speicherung einzelner Klicks genannt. Beide halten fest, dass der Zweckhinweis verständlicher werden soll, weil «verbessern» zu ungenau ist. Ob einzelne Klicks dafür gespeichert werden sollten, beurteilen sie weiterhin unterschiedlich. Dies ist ein Beispiel, kein abzulesendes Skript.",
           "criteria": [
-            "Nur bei tatsächlicher Runde: je 1 Punkt für die vier im Auftrag beschriebenen hörbaren Gesprächsschritte.",
+            "Nur bei tatsächlicher Runde: je 1 Punkt für die ersten drei hörbaren Gesprächsschritte und 1 Punkt für den gemeinsam festgehaltenen, begründeten Gesprächsstand zur besprochenen Frage. Übereinstimmung oder fortbestehender Unterschied sowie ein geklärter oder offener Punkt sind gleichwertig.",
             "Die Stichworte allein und eine schriftliche Soloalternative belegen keine gemeinsame Diskussion; in diesem Fall Gesprächspunkte als „nicht erhoben“ markieren."
           ]
         },
@@ -21595,7 +21595,7 @@ window.LOTTE_CATALOG = {
           "Kinderrat: Nenne eine konkrete Unklarheit des fiktiven Hinweises und erkläre, warum sie wichtig sein könnte.",
           "App-Team: Beschreibe einen möglichen Nutzen der Vorschläge und antworte auf den Einwand.",
           "Wechselt die Rollen und formuliert je ein Gegenargument zur gerade vertretenen Sicht.",
-          "Sprecht eine mögliche gemeinsame Änderung und mindestens eine offene Prüfungsfrage aus."
+          "Haltet gemeinsam fest, wo ihr bei der besprochenen Frage übereinstimmt oder unterschiedlicher Meinung bleibt. Begründet euren Gesprächsstand und sagt, was für euch geklärt ist oder noch offenbleibt."
         ],
         "adultNote": "Die vier Gesprächspunkte aus C nur nach einem tatsächlich gehörten Austausch beurteilen. Schriftliche Antworten, ein Skript und eine Solo-Vorbereitung sind kein Gesprächsbeleg. Keine echten Kinder- oder Kontodaten notieren.",
         "adultGuide": [
@@ -21606,7 +21606,7 @@ window.LOTTE_CATALOG = {
           "Hörbar: Kinderrat erklärt eine konkrete Unklarheit und ihre mögliche Bedeutung.",
           "Hörbar: App-Team nennt einen Nutzen und antwortet auf einen Einwand.",
           "Hörbar: Beide wechseln die Rollen und bringen Gegenargumente ein.",
-          "Hörbar: Beide formulieren eine Einigung und eine noch zu prüfende Frage."
+          "Hörbar: Beide halten gemeinsam einen begründeten Gesprächsstand zur besprochenen Frage fest. Übereinstimmung oder fortbestehender Unterschied sowie ein für beide geklärter oder noch offener Punkt sind gleichwertig."
         ],
         "printAdultNote": "Vier Gesprächskriterien nur nach real beobachteter Zweierarbeit werten; sonst „nicht erhoben“."
       },

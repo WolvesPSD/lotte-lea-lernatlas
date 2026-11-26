@@ -1,127 +1,83 @@
 {
   "schemaVersion": 1,
-  "version": "2026.11.26-sprachwandel-kaspar.3",
-  "builtAt": "2026-11-26T21:59:43.832Z",
-  "status": "SCOPED_LOCAL_GATES_ACCEPTED_FINAL_METADATA_REVIEW_AND_PUBLIC_DELIVERY_PENDING",
+  "version": "2026.11.26-salzwege.2",
+  "builtAt": "2026-11-26T23:00:17.853Z",
+  "status": "SCOPED_SALT_LOCAL_GATES_ACCEPTED_FINAL_METADATA_AND_PUBLIC_DELIVERY_PENDING",
   "baseline": {
-    "version": "2026.11.23-ohra-datenkarte.1",
-    "commit": "3a9b1a4f800d50452244a25a226469104256f8b6",
-    "candidate": "app/output/release-candidate-go-ohra-20261126-v2",
-    "pinSha256": "D03350EEC0F9C81919B914700D42398BCEDE62DC3415B1C62A941BA4906214BC"
+    "candidate": "app/output/release-candidate-sprachwandel-kaspar-20261126-v4",
+    "version": "2026.11.26-sprachwandel-kaspar.3",
+    "commit": "ec7df844a976b18318366045f4bb3447186fdab3",
+    "pin": {
+      "path": "app/current-public-baseline.json",
+      "bytes": 5003,
+      "sha256": "6A4403A26451A0B1DD591BA7B547B30817CD1F79F0F448F74AA4898A29CB34E4"
+    }
   },
-  "rollbackCommit": "3a9b1a4f800d50452244a25a226469104256f8b6",
+  "rollbackCommit": "ec7df844a976b18318366045f4bb3447186fdab3",
   "change": {
     "newTopics": [
-      "de-als-wie-sprachwandel",
-      "de-normal-presse-sprachwandel",
-      "mu-kaspar-lied-berlin-amsterdam"
+      "go-salzwege-pfeildiagramm"
     ],
-    "newTasks": 11,
-    "newAssets": [],
+    "newTasks": 4,
     "existingTopicsChanged": 0,
     "existingTasksChanged": 0,
+    "newAssets": [],
+    "rendererChanged": false,
+    "cssChanged": true,
+    "stateSchemaChanged": false,
     "changedExistingFiles": [
       "RELEASE-CHECK.json",
-      "app.js",
       "catalog.js",
       "index.html",
       "styles.css"
     ],
-    "musicCatalogFields": [
-      "subjects[id=mu].plan",
-      "subjects[id=mu].scope",
-      "subjects[id=mu].source"
-    ],
-    "musicRendererGuard": "subject.id === 'mu' && activeGymMode === 'gymnasium'",
-    "stateSchemaChanged": false,
-    "cssScope": "Adult print only: existing als/wie task family and exact de-normal-presse-3 keep-together rules"
+    "cssScope": "Adult print only, exact four new salt tasks; keep question/model/criteria in a coherent block where page size permits."
   },
   "inventory": {
-    "topics": 231,
-    "taskObjects": 1044,
-    "oldTopicObjectsUnchanged": 228,
-    "oldTaskObjectsUnchanged": 1033,
+    "topics": 232,
+    "taskObjects": 1048,
+    "oldTopicObjectsUnchanged": 231,
+    "oldTaskObjectsUnchanged": 1044,
     "annualCoverageQuota": false
   },
   "validation": {
-    "adoptedIndependentTopicTextAndRoles": "PASS_SCOPED_INPUTS",
-    "adoptedIndependentMusicSourceContract": "PASS_SCOPED_INPUT",
-    "inverseRestoresFullBaselineCatalog": true,
-    "inverseRestoresRendererCssAndIndexBytes": true,
-    "candidateIndependentStatic": "PASS_SCOPED_V1_PLUS_V2_ATTRIBUTION_AND_V3_PRINT_DELTA",
-    "runtimeStateExportImport": "PASS_SCOPED_ELEVEN_SYNTHETIC_ANSWERS_AND_PHASE_MARKER_CONFIRMED_FRESH_IMPORT_RELOAD",
-    "actualRoleAndSourceDisplay": "PASS_SCOPED_LOCAL_ROLES_MOBILE_NOTE_AND_MUSIC_SOURCE_BRANCH",
-    "actualAppA4": "PASS_SCOPED_EXPLICIT_V1_V2_REUSE_PLUS_TWO_CORRECTED_V3_ADULT_OUTPUTS",
-    "finalPackage": "PENDING_INDEPENDENT_METADATA_REVIEW",
-    "GitPagesHTTPSLive": "PENDING"
+    "independentTextRolesAndThreeFieldDraft": "PASS_SCOPED_INPUTS",
+    "candidateIndependentStatic": "PASS_SCOPED_V1_INTEGRATION_PLUS_V2_ADULT_PRINT_DELTA",
+    "actualMobileDiagramAndSourceCards": "PASS_SCOPED_320_390_NEW_TOPIC_TEXT_REACH",
+    "actualChildAdultRoles": "PASS_SCOPED_FOUR_MANUAL_CHECKS_AND_SEPARATED_MODELS",
+    "syntheticStateExportImport": "PASS_SCOPED_FOUR_SYNTHETIC_ANSWERS_RELOAD_REAL_DOWNLOAD_CONFIRMED_FRESH_IMPORT_RELOAD",
+    "actualChildAdultA4DiagramSpace": "PASS_SCOPED_V1_CHILD_REUSE_PLUS_CORRECTED_V2_ADULT_OUTPUT",
+    "finalIndependentPackage": "PENDING_INDEPENDENT_METADATA_PARITY_REVIEW",
+    "GitPagesHTTPSPublicUI": "PENDING"
   },
   "evidence": [
     {
-      "path": "output/leitung-20261126/root-three-new-topics-build-adoption.json",
-      "bytes": 17549,
-      "sha256": "C31F3C47464759AE643F07F3B2F8A89EE04C7A7172F5953A3674CD710B42F678"
+      "path": "output/leitung-20261126/website-geo-salt-action-app-draft/root-v3-output-preparation-adoption.json",
+      "bytes": 8032,
+      "sha256": "D93DE6E2DFD85BF78B616C8222F7A3B17FFD21CBC8F4CBD769A8DC7CA8C1375A"
     },
     {
-      "path": "output/leitung-20261126/website-language-growth-selection/independent-text-role-review/review.json",
-      "bytes": 9142,
-      "sha256": "83810531276DF9CD0143355CCE75A5A22101D6EFA9E041681CCF2CF2DEA298F3"
+      "path": "output/leitung-20261126/website-geo-salt-action-app-draft/root-draft-transfer-adoption.json",
+      "bytes": 5644,
+      "sha256": "846201F06A877069F5E1246440DBF86658FE0D8EC27BCF0B635004A031372DDA"
     },
     {
-      "path": "output/leitung-20261126/website-language-growth-selection/delta-v2/independent-delta-review/review.json",
-      "bytes": 3219,
-      "sha256": "7C1DEF6A63B3EECF990610425A3638F13BC8BAA22DB235A9F7DCA748BA491704"
-    },
-    {
-      "path": "output/leitung-20261126/website-mu01-kaspar-app-draft/independent-v3-delta-review/review.json",
-      "bytes": 3888,
-      "sha256": "DA6960B53CC630324CE7DAD870C440F11F90E23C037735A4231549625A175290"
-    },
-    {
-      "path": "output/leitung-20261126/website-mu01-kaspar-app-draft/music-source-display-decision/independent-review/review.json",
-      "bytes": 6731,
-      "sha256": "06F620F7A3F32E18D1462D44132B0788E5932679FDAEA96E1E20011A2DF09CDD"
-    },
-    {
-      "path": "output/release-sprachwandel-kaspar-20261126/root-v2-static-and-v1-reuse-adoption.json",
-      "sha256": "A98DB75B1BBE1C02F5CE79A95AF36842FB39D94074E3790899AA0D14AAB45600"
-    },
-    {
-      "path": "output/release-sprachwandel-kaspar-20261126/root-v3-static-scoped-adoption.json",
-      "sha256": "F28A772C276E12D93BAAEF1FD4DE33BBC51417B34BA9F96FEF76941708C6255E"
-    },
-    {
-      "path": "output/release-sprachwandel-kaspar-20261126/root-v3-provenance-correction-adoption.json",
-      "sha256": "67DCA54E276150A2FFD03BC69C1ECC32B8A10D9A8C1529D5F8FE7C8BB62E5369"
-    },
-    {
-      "path": "output/release-sprachwandel-kaspar-20261126/root-local-runtime-print-adoption.json",
-      "sha256": "84EE98D11F088B74C0CB9CAC79D99BD853DA8A173782371562A1D62E4C8E8904"
+      "path": "output/release-geo-salzwege-20261126/root-local-runtime-adoption.json",
+      "bytes": 77650,
+      "sha256": "8076AF531DAFC8BD9503EB86D316BA33FDF8613F740CF4387015DD40741236F4"
     }
   ],
   "limits": [
-    "Isolated candidate only. No public or master changes.",
-    "Source evidence and text checks do not establish actual new UI or app print.",
-    "End-8 scope, school sequence open. No broader subject or annual acceptance.",
-    "Separate historical failed browser/audit processes retained. No aggregated single-series pass or actual learner, device, printer or annual acceptance."
+    "Isolated candidate release override only; no public/master change.",
+    "Paper or own text diagram, manual20base+6voluntary; general app progress counts app entries only.",
+    "End8 target; formal2026/27Grade7 applicability and school sequence open. No actual learner/device/printer/year acceptance.",
+    "Historical separate failed audits retained. No summed single-series pass or actual child/drawing/device/printer/year acceptance."
   ],
-  "updatedAt": "2026-11-26T22:33:47.918Z",
-  "previousCandidate": "app/output/release-candidate-sprachwandel-kaspar-20261126-v3",
-  "normalAttributionCorrection": {
-    "field": "sourceCards[0].sourceNote",
-    "sourceTextReview": "PASS_SCOPED_ONE_FIELD",
-    "actualV1ChildA4": "CONFIRMED_MISSING_CREDIT_FAIL_PRESERVED",
-    "actualV2NormalChildAdultAndMixedA4": "PASS_SCOPED_ATTRIBUTION_ONLY_V2_MIXED_ADULT_LAYOUT_FAIL_PRESERVED_SEPARATELY_CORRECTED_IN_V3",
-    "review": {
-      "path": "output/release-sprachwandel-kaspar-20261126/root-normal-attribution-fix-adoption.json",
-      "sha256": "397CE89D473F10AA16999D23E77D3A53437D8755AA4D9D5BBCD313092BA7E6A7"
-    }
+  "updatedAt": "2026-11-26T23:08:18.462Z",
+  "adultBreakCorrection": {
+    "previousCandidate": "app/output/release-candidate-geo-salzwege-20261126-v1",
+    "observed": "Root personally viewed V1Adult1-3: task1 question split between pages1/2 and task3 final criterion split between2/3.",
+    "actualCorrectedAdultA4": "PASS_SCOPED_ACTUAL_OUTPUT_AND_INDEPENDENT_EVIDENCE"
   },
-  "normalAdultBreakCorrection": {
-    "task": "de-normal-presse-3",
-    "scope": "Adult print only; keep complete prompt/model/criteria together where printable. No font reduction or content removal.",
-    "evidence": "runtime-v2/a4/mixed-adult-4.png and mixed-adult-5.png personally inspected by Root; last model sentence and criteria spill to near-empty final page.",
-    "actualCorrectedA4": "PASS_SCOPED_TWO_V3_ADULT_OUTPUTS",
-    "independentReview": "PASS_SCOPED_SEPARATE_EVIDENCE"
-  },
-  "finalizedAt": "2026-11-26T22:42:40.165Z"
+  "finalizedAt": "2026-11-26T23:25:47.315Z"
 }

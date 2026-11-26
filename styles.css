@@ -432,3 +432,5 @@ body[data-print-mode^="child"] #print-surface .print-topic:has(.print-task[data-
 @media print{body[data-print-mode^='adult'] .print-task[data-task-id^='de-alswie-']{break-inside:avoid;page-break-inside:avoid}}
 
 @media print{body[data-print-mode^='adult'] .print-task[data-task-id='de-normal-presse-3']{break-inside:avoid;page-break-inside:avoid}}
+
+@media print{body[data-print-mode^='adult'] .print-task[data-task-id^='go-salzwege-pfeildiagramm-']{break-inside:avoid;page-break-inside:avoid}}

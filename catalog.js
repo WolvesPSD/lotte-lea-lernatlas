@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.26-sprachwandel-kaspar.3",
+  "version": "2026.11.26-salzwege.2",
   "status": "familienversion",
   "subjects": [
     {
@@ -25018,6 +25018,180 @@ window.LOTTE_CATALOG = {
         "competencyRef": "Musik Gymnasium 2012, § 2.2.1.1 Stimme und Lied, PDF-/Drucks. 19, Mu-01-S03: Lieder gesellschaftlich bzw. historisch einordnen. Ein schriftlicher Fall.",
         "checkedAt": "2026-11-26",
         "independentCheck": "Die bisher datierten Quellen- und Manuskriptbelege gelten weiter. Text, Aufgaben und Rollentrennung am 26.11.2026 unabhängig geprüft. Laufzeit, App-Druck und öffentliche Auslieferung dieses Kandidaten stehen aus."
+      }
+    },
+    {
+      "id": "go-salzwege-pfeildiagramm",
+      "subjectId": "go",
+      "title": "Wohin gelangt Salz im Boden?",
+      "draftOnly": false,
+      "released": true,
+      "levelStatus": "grade78-flex",
+      "levelLabel": "Freiwilliger Klasse-7-Vorgriff · Ziel Ende Klasse 8",
+      "scope": "Ein eigenes Wirkungsgefüge zu Salz und Wasser im Boden. Geografieplan mit Titeljahr 2012 und Ziel Ende Klasse 8. Amtliche Klasse-7-Geltung 2026/27 und Schulfolge bleiben offen.",
+      "prerequisite": "Du brauchst den anderen Salzbilanzfall nicht bearbeitet zu haben. Die Aufgabe benutzt ein Modell. Du kannst auf Papier arbeiten oder dein eigenes Textdiagramm schreiben. Du musst dafür keine Antwort in die App eingeben. Die Anzeige zählt nur ausgefüllte App-Felder. Auf Papier Bearbeitetes und eine ausgelassene Variante können dort offen bleiben.",
+      "introduction": "Nutze die sechs Sachkarten. Sie beruhen auf allgemeinen FAO-Quellen und enthalten keine Messung für einen bestimmten Ort. Die Punkte sind Lernkriterien, keine Schulnote. Keine Probe, kein Experiment und keine Messung zu Hause erforderlich. Weder aus den Sachkarten noch aus deinem Diagramm darfst du eine konkrete Maßnahme für einen echten Acker empfehlen. Die Begleitung bespricht 20 Kriterienpunkte im Grundteil und getrennt bis zu 6 für die freiwillige Variante. Die App bewertet freie Antworten oder eine Zeichnung nicht automatisch.",
+      "passage": "Zeichenhilfe: Schreibe wichtige Begriffe in Kästchen und verbinde sie mit gerichteten, beschrifteten Pfeilen. A → B bedeutet „A kann unter der genannten Bedingung zu B beitragen“, nicht „A beweist B immer“. Zeichne einen Rahmen um den Wurzelbereich; unterscheide Vorgänge im Rahmen von Wasser/Salz außerhalb. Du darfst auf Papier zeichnen oder ein eigenes Textdiagramm mit Pfeilen schreiben. Eine bloße Liste von Sätzen ist noch kein Beziehungsgefüge.",
+      "cardsHeading": "Sechs Sachkarten für dein Wirkungsgefüge",
+      "sourceCards": [
+        {
+          "title": "A · Eintrag",
+          "text": "Bewässerungswasser kann gelöste Salze in den Boden bringen. Auch andere Salzquellen sind möglich.",
+          "sourceLabel": "FAO, *Irrigation Water Management*, Kapitel 7, vorläufige Ausgabe 1985",
+          "sourceUrl": "https://www.fao.org/4/r4082e/r4082e08.htm",
+          "sourceNote": "FAO, Irrigation Water Management, Kapitel 7, vorläufige Ausgabe 1985."
+        },
+        {
+          "title": "B · Wasserverlust",
+          "text": "Wasser kann verdunsten oder von Pflanzen aufgenommen werden. Die Verdunstung allein entfernt gelöste Salze nicht aus dem Wurzelbereich. Wasseraufnahme der Pflanze entfernt das Salz ebenfalls nicht automatisch. Verdunstung erzeugt keine neue Salzmasse."
+        },
+        {
+          "title": "C · Austrag",
+          "text": "Wasser, das den Wurzelbereich durchsickert, kann dort Salz aufnehmen. Damit dieses salzhaltige Sickerwasser den Bereich tatsächlich verlässt, braucht es einen geeigneten Abfluss."
+        },
+        {
+          "title": "D · Rückweg",
+          "text": "Ohne geeignete Entwässerung kann der Grundwasserstand steigen. Salziges Grundwasser kann Salz wieder in obere Bodenschichten und den Wurzelbereich bringen."
+        },
+        {
+          "title": "E · Pflanzen",
+          "text": "Hoher Salzgehalt im Wurzelbereich kann die Wasseraufnahme von Pflanzen beeinträchtigen. Das allein sagt noch nichts über einen gemessenen Ertrag."
+        },
+        {
+          "title": "F · Nachbarraum",
+          "text": "Abgeleitetes salzhaltiges Wasser ist nicht „verschwunden“: Wenn es in andere Böden oder Gewässer gelangt, kann dort eine Belastung entstehen. Dafür braucht es örtliche Daten.",
+          "sourceLabel": "FAO Soil Portal zu salzbeeinflussten Böden",
+          "sourceUrl": "https://www.fao.org/soils-portal/soil-management/manejo-de-suelos-problematicos/suelos-afectados-por-salinidad/more-information-on-salt-affected-soils/es/",
+          "sourceNote": "FAO Soil Portal zu salzbeeinflussten Böden."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "go-salzwege-pfeildiagramm-1",
+          "kind": "reflection",
+          "points": 4,
+          "adultOnlySolution": true,
+          "writingLines": 5,
+          "inputRows": 5,
+          "prompt": "Sachkarten prüfen · 4 Punkte: Ordne jede Aussage als gestützt, widerlegt oder mit diesen Karten nicht belegt ein: (a) „Bewässerungswasser kann Salz eintragen.“ (b) „Beim Verdunsten wird gelöstes Salz immer zusammen mit dem verdunstenden Wasser aus dem Wurzelbereich entfernt.“ (c) „Durchsickerndes Wasser mit geeignetem Abfluss kann Salz aus dem Wurzelbereich fortführen.“ (d) „Bei hohem Salzgehalt ist ein Ernteverlust von genau 30 % sicher.“",
+          "sample": "(a) gestützt, A; (b) widerlegt, B; (c) gestützt, C; (d) nicht belegt, E nennt nur eine mögliche Beeinträchtigung der Wasseraufnahme und keinen gemessenen Ernteprozentsatz.",
+          "criteria": [
+            "Jede richtig eingeordnete Aussage 1. Bei (b): Was geht fort, Wasser oder Salz? Bei (d): Mögliche Wirkung ist keine konkrete 30-%-Messung."
+          ]
+        },
+        {
+          "id": "go-salzwege-pfeildiagramm-2",
+          "kind": "reflection",
+          "points": 10,
+          "adultOnlySolution": true,
+          "writingLines": 18,
+          "inputRows": 8,
+          "prompt": "Eigenes Beziehungsgefüge · 10 Punkte: Zeichne oder schreibe ein Pfeildiagramm aus den Karten A–F. Es soll den Salz-Eintrag, den Unterschied zwischen Wasserverlust und Salzmasse, einen möglichen Salz-Austrag, den möglichen Rückweg über Grundwasser, eine bedingte Pflanzenwirkung und einen möglichen Folgeort des abgeleiteten Wassers zeigen. Markiere den Wurzelbereich als abgegrenzten Teil. Beschrifte die Pfeile so, dass ein „kann“ oder eine Bedingung nicht zu „geschieht immer“ wird. Du darfst eigene kurze Begriffskästchen verwenden. Übertrage keine FAO-Grafik.",
+          "sample": "Ein eigenes gerichtetes und verzweigtes Beziehungsgefüge. Die folgenden fünf Zweige zeigen eine mögliche Struktur.",
+          "criteria": [
+            "Bewässerungswasser mit gelöstem Salz → [WURZELBEREICH: Salzvorrat]",
+            "Wasserverdunstung / Pflanzen-Wasseraufnahme → Wasser verlässt den Wurzelbereich; Salzvorrat wird dadurch nicht automatisch entfernt",
+            "Sickerwasser durch die Wurzelzone → kann Salz aus [WURZELBEREICH: Salzvorrat] aufnehmen → bei geeignetem Abfluss: Salz außerhalb des Wurzelbereichs → möglicher Folgeort: andere Böden / Gewässer",
+            "fehlende geeignete Entwässerung → möglicher Grundwasseranstieg → salziges Grundwasser kann Salz zum Wurzelbereich zurückbringen",
+            "hoher Salzgehalt im Wurzelbereich → kann Pflanzen-Wasseraufnahme beeinträchtigen",
+            "Je Kriterium: 1 Salz aus Bewässerungswasser zum Wurzelbereich",
+            "Je Kriterium: 1 Verdunstung/Pflanzenaufnahme trennt Wasserverlust von verbleibendem Salz, ohne neue Salzmasse zu erfinden",
+            "Je Kriterium: 1 Sickerwasser durch die Wurzelzone kann Salz aufnehmen",
+            "Je Kriterium: 1 geeigneter Abfluss führt es aus dem Wurzelbereich",
+            "Je Kriterium: 1 fehlende Entwässerung kann Grundwasser steigen lassen",
+            "Je Kriterium: 1 salziges Grundwasser kann Salz zurückbringen",
+            "Je Kriterium: 1 hoher Salzgehalt kann Pflanzen-Wasseraufnahme beeinträchtigen",
+            "Je Kriterium: 1 abgeleitetes salzhaltiges Wasser kann andere Böden/Gewässer betreffen",
+            "Je Kriterium: 1 Wurzelbereich als erkennbar abgegrenztes System mit Ein-/Ausgängen",
+            "Je Kriterium: 1 gerichtete Pfeile mit wenigstens den entscheidenden Bedingungen, nicht bloß Sätze nebeneinander.",
+            "Gleichwertige Anordnung zulassen, wenn die Ursache-Folge-Richtung stimmt.",
+            "Bei „Salz weg“ die Systemgrenze fragen; bei einem sicheren Ertragspfeil den fehlenden Ortsbeleg.",
+            "Systemgrenze: Der Rahmen betrifft nur den Wurzelbereich; beim Austrag sinkt möglicherweise dessen Salzvorrat, während das Salz außerhalb weiterhin existiert. Verdunstung darf nicht als neue Salzmasse oder als Salztransport aus dem Boden dargestellt werden. Die FAO-Quelle nennt keine sichere lokale Höhe des Grundwassers, Konzentration oder Ernte."
+          ]
+        },
+        {
+          "id": "go-salzwege-pfeildiagramm-3",
+          "kind": "reflection",
+          "points": 6,
+          "adultOnlySolution": true,
+          "writingLines": 7,
+          "inputRows": 7,
+          "prompt": "Zwei zu starke Schlüsse reparieren · 6 Punkte: (a) „Mehr Bewässerung ohne Entwässerung spült das Salz sicher endgültig weg.“ (b) „Sobald salzhaltiges Wasser aus dem Wurzelbereich abläuft, ist das Umweltproblem gelöst und die Ernte steigt.“ Erkläre für jeden Satz, wo dein Pfeildiagramm ihm widerspricht und welche eine örtliche Angabe für eine echte Beurteilung zusätzlich nötig wäre. Bei (b) musst du beide Teile prüfen: den Verbleib des Salzes und den behaupteten Ernteanstieg.",
+          "sample": "(a) Der Schluss ist zu stark/falsch als Gewissheit (1). Als Diagrammbeleg: Ohne passende Drainage kann Grundwasser steigen und Salz zurückbringen oder Bewässerungswasser kann neuen Salzeintrag bringen (1). Eine konkret fehlende örtliche Datenart wie Grundwasserstand oder Funktion des Sickerwasser-Abflusses nennen (1). (b) Beide Gewissheitsbehauptungen sind zu stark (1). Das Diagramm zeigt beide Grenzen: Salz kann andere Böden/Gewässer erreichen, und ein Ernteanstieg folgt ohne Ertragsmessung nicht aus dem Austrag (zusammen 1). Eine konkret nötige örtliche Datenart (1), z. B. Salzfracht im Empfangsgewässer oder gemessener Ertrag zur passenden Pflanze.",
+          "criteria": [
+            "Die Datenart muss eine andere Aussage sein als die blosse Wiederholung des allgemeinen Diagrammbelegs.",
+            "Für volle Punkte beide Teilschlüsse ausdrücklich begrenzen. Nur der Umweltpfad oder nur der Ertragszweifel reicht für den gemeinsamen Diagrammpunkt nicht; eine der zwei passenden lokalen Datenarten genügt für den dritten Punkt.",
+            "Wichtig für Auftrag 3a: Die 3 Punkte sind eindeutig so zu vergeben: Urteil 1, Rückweg- oder Eintragsbeleg aus dem Diagramm 1, konkrete örtliche Datenart 1. Derselbe Rückweg-Beleg darf nicht zugleich als lokale Datenart zählen. Für 3b: Urteil zu beiden Teilbehauptungen 1, beide Diagrammgrenzen zusammen 1, eine konkrete örtliche Datenart 1. Damit ergibt sich 4 + 10 + 3 + 3 = 20. Alternativbelege sind zulässig, wenn sie die jeweilige Überbehauptung wirklich begrenzen."
+          ]
+        },
+        {
+          "id": "go-salzwege-pfeildiagramm-4",
+          "kind": "reflection",
+          "points": 6,
+          "adultOnlySolution": true,
+          "writingLines": 6,
+          "inputRows": 6,
+          "prompt": "Freiwillige Variante nach dem Grundteil · 6 zusätzliche Kriterienpunkte: FAO nennt als weitere mögliche Salzquelle auch salzhaltiges Ausgangsgestein. Ergänze in deinem Diagramm einen zweiten möglichen Salzursprung mit einem passenden Pfeil. Erkläre dann, weshalb ein salziger Boden nicht allein den Bewässerungsweg beweist. Nenne zwei verschiedene örtliche Datenarten, mit denen Fachleute die möglichen Eintragswege prüfen könnten; die Daten müssen erst erhoben werden. Auch diese Variante ist keine Diagnose eines realen Bodens.",
+          "sample": "Zusätzlicher Ursprung als neuer bedingter Pfeil: „Salzhaltiges Ausgangsgestein → Salz im Boden/Wurzelbereich möglich.“ Kein Automatismus für jede Region. Ursache nicht voreilig festlegen: Ein salziger Boden kann mehrere Ursachen haben. Aus dem Zustand allein folgt nicht, dass Bewässerungswasser die Salzquelle war. Zwei verschiedene örtliche Datenarten: Z. B. Salzgehalt des tatsächlich eingesetzten Bewässerungswassers und örtliche Boden-/Ausgangsgesteinsanalyse; alternativ Grundwasserstand plus Salzgehalt des Grundwassers als zusammengehöriger zweiter Datensatz, wenn diese Route geprüft wird. Zwei Datenarten allein würden die Ursache eines echten Feldes noch nicht vollständig beweisen; Zeiten, Flüsse, Konzentrationen und weitere Einträge können fehlen.",
+          "criteria": [
+            "Zusätzlicher Ursprung als neuer bedingter Pfeil: 2 (Quelle/Begriff 1, korrekte Richtung/Bedingung 1)",
+            "Ursache nicht voreilig festlegen: 2 (Alternative 1, Nichtbeweis 1)",
+            "Zwei verschiedene örtliche Datenarten: 2 (je geeignete unterschiedliche Datenart 1)"
+          ]
+        }
+      ],
+      "sourceBindings": {
+        "materialAdoption": {
+          "path": "output/leitung-20261123/geografie-m08-m10-prepared-material-decisions/root-m10-material-adoption.json",
+          "sha256": "38E30DDA415E8146F4E083D2EBD91A2B46BCB8AF169BB5F98FC535D55A0FAC7C",
+          "bytes": 6974
+        },
+        "child": {
+          "path": "wissen/recherche/geografie-gm10-salzwege-wirkungsgefuege-kinderblatt-2026.md",
+          "sha256": "3A001D7ADAD4FC311F58D830DF02307E9A8ABB63B5DA820278E14B09BD25DBB3",
+          "bytes": 5529
+        },
+        "adult": {
+          "path": "wissen/recherche/geografie-gm10-salzwege-wirkungsgefuege-erwachsenenloesung-2026.md",
+          "sha256": "62A4B5B89F1FD3028EA94E61310FB6218EE2C17EB3161658F5F1DEC2908A7812",
+          "bytes": 8971
+        },
+        "qa": {
+          "path": "wissen/recherche/geografie-gm10-salzwege-wirkungsgefuege-qa-2026.md",
+          "sha256": "E52DAC5311675984BC5492B487C9C3891477A9B1F0508BD26EB409E1B6313981",
+          "bytes": 7884
+        },
+        "independentMaterialReview": {
+          "path": "output/leitung-20261123/geografie-m08-m10-prepared-material-decisions/independent-action-role-review/review.json",
+          "sha256": "E8BA9B2AB3B12F467EEB9D20628333009742B0F31C66C9CB75D8361497DED06D",
+          "bytes": 4950
+        },
+        "primaryPlan": {
+          "path": "pdf/LP_GY_Geo_Endfassung_11_10_2013.pdf",
+          "sha256": "FFB7CDC31952970E13D77606F94FD8A2B4C9004FC99BA0C9024C7638769BF983",
+          "bytes": 228735
+        },
+        "reading": [
+          {
+            "url": "https://www.fao.org/4/r4082e/r4082e08.htm",
+            "source": "FAO, vorläufige Ausgabe 1985, Kapitel 7 §§ 7.1, 7.3, 7.5.1 und 7.6",
+            "checkedAt": "2026-10-23",
+            "basis": "Vorhandene Begleitung und QA. Kein erneuter Abruf."
+          },
+          {
+            "url": "https://www.fao.org/soils-portal/soil-management/manejo-de-suelos-problematicos/suelos-afectados-por-salinidad/more-information-on-salt-affected-soils/es/",
+            "source": "FAO Soil Portal, Salt-affected soils, Stand nicht angegeben",
+            "checkedAt": "2026-10-23",
+            "basis": "Vorhandene Begleitung und QA. Kein erneuter Abruf."
+          }
+        ]
+      },
+      "releaseEvidence": {
+        "validFor": "Geografieplan mit Titeljahr 2012, Ende Klasse 8. Formale Klasse-7-Geltung 2026/27 und konkrete Schulfolge offen.",
+        "gradeBand": "Klasse 7/8, Ziel Ende Klasse 8",
+        "competencyRef": "Geografie Gymnasium 2012, § 2.2 PDF-S. 16 / Drucks. 18, M10: einfache kausale Zusammenhänge als Beziehungsgefüge darstellen. Ein begrenzter Modellfall.",
+        "checkedAt": "2026-11-26",
+        "independentCheck": "Lokale getrennte Rollenmaterialien am 23.11.2026 angenommen. Die Text-/Rollenüberleitung und ihre drei Ausgabefelder wurden am 26.11.2026 unabhängig geprüft. Kein neuer Originalquellenabruf und kein daraus abgeleiteter Kinder-, Geräte-, Drucker- oder Jahresnachweis."
       }
     }
   ]

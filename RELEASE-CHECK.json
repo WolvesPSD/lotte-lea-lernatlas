@@ -1,119 +1,84 @@
 {
   "schemaVersion": 1,
-  "version": "2026.11.23-leseweg-ki.2",
-  "builtAt": "2026-11-23T11:11:03.287Z",
-  "status": "SCOPED_LOCAL_GATES_ACCEPTED_FINAL_PACKAGE_REVIEW_PENDING_NOT_DEPLOYED",
+  "version": "2026.11.23-ohra-datenkarte.1",
+  "builtAt": "2026-11-23T14:12:56.588Z",
+  "status": "LOCAL_STATIC_RUNTIME_ROLE_STATE_LINK_APP_PRINT_ACCEPTED_FINAL_METADATA_REVIEW_AND_PUBLIC_DELIVERY_PENDING",
   "baseline": {
-    "version": "2026.11.23-sprachwahl-regel.1",
-    "commit": "a94697e8f430574d377fd86df9c2749002e93ed0",
-    "candidate": "app/output/release-candidate-de-sprachwahl-regel-20261123-v2",
-    "pinSha256": "0384E93AC0B8265D0171FFE783AEC1A6548A934B787F609A59A1701579B07A98"
+    "version": "2026.11.23-leseweg-ki.2",
+    "commit": "be2945ffd38b7d96d364f2c91b3f720d965701ac",
+    "candidate": "app/output/release-candidate-de-leseweg-ki-20261123-v4",
+    "pinSha256": "519250CBE5818F1FE749468E6FC192C8EBB0AC26E339806145C7B82C8D49B8D3"
   },
-  "rollbackCommit": "a94697e8f430574d377fd86df9c2749002e93ed0",
+  "rollbackCommit": "be2945ffd38b7d96d364f2c91b3f720d965701ac",
   "change": {
-    "topics": [
-      "de-roter-faden-epik",
-      "de-lehrplan-quellenweg"
-    ],
-    "field": "Two existing practice fields plus exact Epik adultprint paragraph/list spacing; all tasks unchanged",
-    "existingTasksChanged": 0,
-    "newTopics": 0,
+    "newTopic": "go-ohra-datenkarte-papier",
     "newTasks": 0,
     "newPDFAssets": [
       {
-        "path": "assets/de-lesen-lesephase-kind.pdf",
-        "sha256": "50F1241F9B2D7A85517177C764800E61D03A5D94C78F2C452A6E1BDE39B502D3"
+        "path": "assets/go-ohra-datenkarte-papier/01-kinderblatt.pdf",
+        "sha256": "468E8FA39387651AFB31A459C456FA7A6BA1E9310C234EC4E5AAEE580278D942"
       },
       {
-        "path": "assets/de-lesen-lesephase-begleitung.pdf",
-        "sha256": "B872FE7B812ED1F8D00E73FE53E9AC2873083B1009DC555C0AA3CC6FE0C95CFF"
-      },
-      {
-        "path": "assets/de-lesen-ki-vergleich-kind.pdf",
-        "sha256": "1CAC25AB69E0CCADFA600CF061AFF08358E332871EEF4C18304CD683F643A5B9"
-      },
-      {
-        "path": "assets/de-lesen-ki-vergleich-begleitung.pdf",
-        "sha256": "7F5FFCDD99B6C92D612619F647E2F0009D0FF53AE4580C25C9FB6A512780E873"
+        "path": "assets/go-ohra-datenkarte-papier/02-begleitung.pdf",
+        "sha256": "33BF9FB76CA822AA968D5E9BCA39C0F4AE345121F5CFDA6C064CD06046538375"
       }
     ],
-    "stateSchemaChanged": false,
+    "existingTopicsChanged": 0,
+    "existingTasksChanged": 0,
     "rendererChanged": false,
-    "CSSChanged": true
+    "CSSChanged": false,
+    "stateSchemaChanged": false
   },
   "inventory": {
-    "structuralTopics": 227,
+    "topics": 228,
     "taskObjects": 1033,
-    "oldTopicsUnchanged": 225,
+    "oldTopicObjectsUnchanged": 227,
     "annualCoverageQuota": false
   },
+  "isolatedOverrides": {
+    "released": true,
+    "reviewNoteAndIndependentCheckUpdated": true,
+    "sourceDraftReleased": false,
+    "meaning": "Display override only in this isolated candidate; no master or public release flag changed."
+  },
   "validation": {
-    "independentTextMapping": "ACCEPTED_SCOPED_V2",
-    "independentFourA4Outputs": "ACCEPTED_SCOPED_6PAGES",
+    "localPdfOutputAndPaperDraftContent": "PASS_SCOPED",
     "inverseRestoresFullBaselineCatalog": true,
-    "existing1033TasksIdentical": true,
-    "runtime": "ACCEPTED_SCOPED_V1_15_PROBE_AND_102_MAIN_DISTINCT_NO_UNIQUE_SUM_CLAIM",
-    "realRoleLinks": "ACCEPTED_TEN_LOCAL_CLICKS_EIGHT_BOUND_PDFS_NO_NATIVE_PAINTING_CLAIM",
-    "stateExportFreshImport": "ACCEPTED_TWO_SYNTHETIC_ANSWER_KEYS_RELOAD_EXPORT_FRESH_IMPORT_RELOAD",
-    "actualAppRolePrint": "ACCEPTED_V1_CHILD3_CHILD4_ADULT3_REUSED_V2_EPIK_ADULT4_ORPHAN_CLOSED",
-    "independentFinalPackage": "PENDING",
+    "independentStaticPackage": "PASS_SCOPED",
+    "runtimeStateExportImport": "PASS_SCOPED_SYNTHETIC_FILLED_ANSWER",
+    "actualRoleLinks": "PASS_SCOPED_LOCAL_FILE_URL_AND_PDF_MIME_VIEWER_SHELL_NOT_PAINTING",
+    "actualAppA4": "PASS_SCOPED_ONE_COMPLETE_PAGE_PER_ROLE",
+    "finalPackage": "PENDING_INDEPENDENT_METADATA_REVIEW",
     "GitPagesHTTPSLive": "PENDING"
   },
   "evidence": [
     {
-      "path": "output/leitung-20261123/de-lesen-two-addenda-app-draft/root-text-mapping-adoption.json",
-      "sha256": "54C0EBC7300E7DE88078CEDD1C9494D0CF2A46A4519960886D9EA7CD3728F78B"
+      "path": "output/leitung-20261123/geografie-m13-visual-presentation-correction-v2/independent-root-paper-draft-review/review.json",
+      "sha256": "D620541B28E506C44FB0BBC9F67CD3017469E1B056543CEF219F44ADA515F7FF"
     },
     {
-      "path": "output/pdf/de-lesen-ergaenzungen-20261123-v1/root-paper-adoption.json",
-      "sha256": "948E1C2065817F4283430DA4DF4E9C5B9AC12EC479D30D11D6F9173A9E7F429C"
+      "path": "output/leitung-20261123/geografie-m13-visual-presentation-correction-v2/app-output-draft/paper-topic-draft.json",
+      "sha256": "CC983A7A6113C45F40CEBE586EAF6994FE062A20731ECD5E5C7D17F7930C1A4F"
     },
     {
-      "path": "output/leitung-20261123/de-lesen-two-addenda-app-draft/draft-fields-v2.json",
-      "sha256": "6C7CA8A7884A885621496CC10EEE56CA135050B398B0F0FE55918DC2D43F70FC"
+      "path": "output/release-go-ohra-datenkarte-20261123/root-static-adoption.json",
+      "sha256": "B64C87F8A9C01E2A87A760AF2E1D608AFAD1F810BD8CCEE13715A8E23BD06AB5"
     },
     {
-      "path": "output/release-de-leseweg-ki-20261123/root-static-adoption.json",
-      "sha256": "8D23D4EB47A42AB05E08C47718EDC28B3C814EE0D6F3DB77B64B65437DD2F401"
+      "path": "output/release-go-ohra-datenkarte-20261123/root-runtime-adoption-20261126.json",
+      "sha256": "A1E40553C021A993D4A25874EF8D3211ADD0106785C3F494D49269F712BB4AC9"
     },
     {
-      "path": "output/release-de-leseweg-ki-20261123/root-v1-runtime-adoption.json",
-      "sha256": "DE7722C815910F975752BD2E09E00E77D16311672A04BE92214F95AADBA502AE"
-    },
-    {
-      "path": "output/release-de-leseweg-ki-20261123/root-v2-adult-and-css-adoption.json",
-      "sha256": "24F05A0AF81B0FE4AE468F0A7B21EDD373D6C21155CBC636FDF4C9D6186E2122"
-    },
-    {
-      "path": "output/release-de-leseweg-ki-20261123/root-v2-adult-personal-visual-review.json",
-      "sha256": "E4CC1815D66426664CDED8B7CA46907B7D175923BB4465648CCDFEBCCED32B73"
+      "path": "output/release-go-ohra-datenkarte-20261123/root-app-a4-visual-review-20261126.json",
+      "sha256": "D4BBA105AA5C951B2FC2295302DA612A05DDE6470EE18FAD91919AB5489217AB"
     }
   ],
   "limits": [
-    "Local isolated candidate only, not deployed or pinned.",
-    "Original eleven-subject annual and all original subject/product/technical/practical requirements remain; no full-subject or year acceptance.",
-    "Prepared paper roles do not prove actual marking, knowledge use, source judgment or device/printer/screenreader/family performance.",
-    "Public URLs in print hints are planned until later exact delivery verification; role separation is not access control."
+    "Not deployed or pinned. Planned public URLs are not delivery proof.",
+    "20 base and 6 optional paper points remain manual outside the App; new topic is unscored with no task inputs.",
+    "End-8 outlook in 7/8 context; no confirmed Grade-7 school sequence or full subject/year acceptance.",
+    "Underlying scientific data are the accepted dated source state, not freshly reverified here.",
+    "All original device, accessibility, printer, family, learner and annual gates remain."
   ],
-  "processScope": "V4 is a metadata-only copy of V3. It carries forward the explicitly accepted scoped V1 runtime, role-link and state evidence and the three V1 role prints, plus the separately accepted V2 Epik adult print. No fresh V4 browser or print run, final package approval, or Git/Pages/HTTPS/live approval is claimed here.",
-  "date": "2026-11-23T10:33:57.021Z",
-  "previousCandidate": "app/output/release-candidate-de-leseweg-ki-20261123-v3",
-  "printSpacingDelta": {
-    "scope": "Only Epik adult print practice paragraph/list spacing; complete text, six URLs, notes, font sizes and screen/child/other-topic CSS unchanged.",
-    "taskAnchor": "de-roter-faden-1",
-    "cssAppend": "\n/* Leseweg/KI V2: only Epik adult print spacing; retain font sizes and complete content. */\n@media print{body[data-print-mode^=\"adult\"] #print-surface .print-topic:has(.print-task[data-task-id=\"de-roter-faden-1\"]) .print-practice p{margin:.35em 0}body[data-print-mode^=\"adult\"] #print-surface .print-topic:has(.print-task[data-task-id=\"de-roter-faden-1\"]) .print-practice ol{margin:.45em 0}body[data-print-mode^=\"adult\"] #print-surface .print-topic:has(.print-task[data-task-id=\"de-roter-faden-1\"]) .print-practice li+li{margin-top:.3rem}}\n",
-    "v1Runtime": "runtime-v1/manifest.json",
-    "v1Layout": "Epik adult final two observation lines orphaned on page5; preserved historical failure."
-  },
-  "metadataCorrection": {
-    "finding": "IndependentV2CSS_F1",
-    "field": "change.CSSChanged",
-    "before": false,
-    "after": true,
-    "scope": "Cumulative metadata now matches actual narrowly scoped CSS change; no CSS/runtime/content modification inV3."
-  },
-  "proofLimits": [
-    "Local exact-package acceptance is scoped. No HTTPS/Pages/livebrowser/nativePDFpainting/realdevice/printer/learner/year acceptance until separately evidenced."
-  ],
-  "dateMeaning": "The inherited date is the earlier V2 build timestamp; builtAt is the current metadata-only package creation timestamp."
+  "finalizedAt": "2026-11-26T21:38:10.067Z"
 }

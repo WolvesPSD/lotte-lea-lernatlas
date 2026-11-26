@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.23-leseweg-ki.2",
+  "version": "2026.11.23-ohra-datenkarte.1",
   "status": "familienversion",
   "subjects": [
     {
@@ -24647,6 +24647,81 @@ window.LOTTE_CATALOG = {
         "competencyRef": "Englisch-Erprobungsfassung Gymnasium 2026, erste Fremdsprache, §2.2.2 PDF-S.26–27; authentische und adaptierte Sachtexte lesen, Informationen belegen und Wortschatz erschliessen. Zielhorizont Ende Klasse 8, Einführung Klasse 7 ab 2026/27; konkrete Schulfolge unbekannt.",
         "checkedAt": "2026-11-22",
         "reviewNote": "Originalprosa: NOAA National Ocean Service, What is an estuary?, https://oceanservice.noaa.gov/facts/estuary.html, Stand23.09.2026/Abruf22.11.2026.158Wörter unverändert, separate eigene vereinfachte Fassung; keine NOAA-Unterstützung behauptet. Manuskripte unabhängig geprüft; PDF- und technische Ausgabenachweise sind getrennt im Releasecheck gebunden. Tatsächliches Lesen, Selbstständigkeit, Geräte und Jahresabnahme offen."
+      }
+    },
+    {
+      "id": "go-ohra-datenkarte-papier",
+      "subjectId": "go",
+      "title": "Ohra-Talsperre: Eine Datenkarte gestalten",
+      "released": true,
+      "draftOnly": true,
+      "materialOnly": true,
+      "unscored": true,
+      "levelStatus": "grade8-outlook",
+      "scope": "Freiwilliger Ausblick im 7/8-Rahmen bis Ende Klasse 8. Geografie 2012 dient 2026/27 auf Grundlage einer dokumentierten Kontinuitätsinferenz als Arbeitsbasis. Eine ausdrückliche Klasse-7-Zuordnung und die konkrete Schulfolge bleiben offen.",
+      "prerequisite": "Wähle Papier und Stift oder ein verfügbares Werkzeug für eine digitale Folie. Eine bestimmte App ist dafür nicht nötig.",
+      "introduction": "Du gestaltest eine Datenkarte zur Ohra-Talsperre für jemanden, der sie nicht kennt. Das Kinderblatt enthält den Auftrag mit einem fest datierten Betriebsstand, einen Selbstcheck und eine freiwillige Fehlerfinder-Aufgabe.",
+      "tasks": [],
+      "practice": {
+        "title": "Eine A4-Seite oder eine digitale Folie gestalten",
+        "unscored": true,
+        "materialOnly": true,
+        "childNote": "Gestalte eine eigene Papierseite oder Folie ausserhalb der App. Die Begleitung bespricht danach dein fertiges Ergebnis mit dir.",
+        "childSteps": [
+          "Öffne das Kinderblatt direkt oder nimm einen Ausdruck. Entscheide dich für eine A4-Seite auf Papier oder eine digitale Folie.",
+          "Gestalte deine Datenkarte mit den Angaben vom 11.11.2026 um 10 Uhr. Zeige, wofür die beiden Zahlen stehen, woher sie stammen und was sich aus diesem Betriebsstand ablesen lässt.",
+          "Nutze den Selbstcheck vor der Abgabe. Die Fehlerfinder-Aufgabe auf Seite 2 ist freiwillig. Ein Vortrag ist für diese Aufgabe nicht nötig."
+        ],
+        "childHandoutsNote": "Öffne das zweitseitige Kinderblatt direkt oder nutze einen Ausdruck. Wähle danach eine Papierseite oder eine digitale Folie.",
+        "childHandoutsPrintNote": "Das Kinderblatt separat öffnen oder ausdrucken. Gestalte daraufhin eine eigene A4-Seite oder digitale Folie. Die freiwillige Variante steht auf Seite 2 des Kinderblatts.",
+        "childHandouts": [
+          {
+            "path": "assets/go-ohra-datenkarte-papier/01-kinderblatt.pdf",
+            "label": "Kinderblatt zur Ohra-Datenkarte · 2 Seiten",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/go-ohra-datenkarte-papier/01-kinderblatt.pdf"
+          }
+        ],
+        "adultNote": "Geben Sie das Kinderblatt aus. Die getrennte Begleitung mit Modell und Raster bleibt bei Ihnen bis zur Besprechung.",
+        "adultGuide": [
+          "A4-Infoseite auf Papier und digitale Folie sind gleichwertige Möglichkeiten zur visuellen Gestaltung. Ein Vortrag, Publikum, ein bestimmtes Programm und ein zweites Produkt sind für diesen Auftrag entbehrlich.",
+          "Nutzen Sie den datierten TFW-Betriebsstand vom 11.11.2026 um 10 Uhr. Die Menge und der Betriebsraum-Füllgrad haben unterschiedliche Bezugsgrössen. Ein Einzelstand belegt weder einen Trend noch einen Wert für ganz Thüringen.",
+          "Werten Sie erst das tatsächlich vorliegende eigene Produkt mit der PDF-Rubrik aus. Die 20 Grundpunkte und sechs freiwilligen Variantenpunkte erfassen Sie getrennt ausserhalb der App."
+        ],
+        "adultCriteria": [
+          "Das tatsächlich vorliegende eigene Produkt anhand der vorhandenen visuellen, fachlichen und quellenbezogenen Kriterien beurteilen.",
+          "Betriebsstand, Einheit, Betriebsraum-Füllgrad und Aussagegrenze prüfen. Bei bearbeiteter Fehlerfinder-Variante das getrennte 6-Punkte-Raster verwenden."
+        ],
+        "handoutsNote": "Kinderblatt und Begleitung gehören zum selben Stand. Geben Sie während der Bearbeitung nur das Kinderblatt aus.",
+        "handouts": [
+          {
+            "path": "assets/go-ohra-datenkarte-papier/01-kinderblatt.pdf",
+            "label": "Kinderblatt zur Ohra-Datenkarte · 2 Seiten",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/go-ohra-datenkarte-papier/01-kinderblatt.pdf"
+          },
+          {
+            "path": "assets/go-ohra-datenkarte-papier/02-begleitung.pdf",
+            "label": "Getrennte Begleitung mit Bewertungsraster · 2 Seiten",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/go-ohra-datenkarte-papier/02-begleitung.pdf"
+          }
+        ],
+        "printAdultNote": "Kinderblatt ausgeben. Das getrennte Modell und Raster bleiben bis zur Besprechung bei der Begleitung.",
+        "printAdultGuide": [
+          "A4-Infoseite oder digitale Folie nach Wahl. Den datierten Betriebsstand und die beschränkte Aussagekraft des Einzelwerts erhalten.",
+          "Das tatsächlich vorliegende eigene Produkt manuell mit der PDF-Rubrik auswerten. Grundteil 20 Punkte, freiwillige Fehlerfinder-Variante sechs Punkte. Punkte werden ausserhalb der App geführt."
+        ],
+        "printAdultHandoutsNote": "Kinderblatt separat öffnen oder ausdrucken: https://wolvespsd.github.io/lotte-lea-lernatlas/assets/go-ohra-datenkarte-papier/01-kinderblatt.pdf . Begleitung mit Raster: https://wolvespsd.github.io/lotte-lea-lernatlas/assets/go-ohra-datenkarte-papier/02-begleitung.pdf . Während der Bearbeitung nur das Kinderblatt ausgeben.",
+        "printObservationFooter": "Nur ein tatsächlich vorliegendes eigenes Produkt beurteilen. Raster und Punkte stehen im getrennten Begleitblatt."
+      },
+      "releaseEvidence": {
+        "primaryUrl": "https://www.schulportal-thueringen.de/web/guest/lehrplaene/gymnasium",
+        "primaryLocalPdf": "pdf/LP_GY_Geo_Endfassung_11_10_2013.pdf",
+        "primarySha256": "FFB7CDC31952970E13D77606F94FD8A2B4C9004FC99BA0C9024C7638769BF983",
+        "validFor": "2026/27 als dokumentierte Kontinuitätsinferenz",
+        "gradeBand": "7/8",
+        "competencyRef": "Thüringer Geografie-Lehrplan Gymnasium 2012, lokale Endfassung 2013, § 2.2, PDF-S. 16 / Druck-S. 18, Methodenkompetenz: analoge und elektronische Präsentationstechniken anwenden. Zielhorizont Ende Klasse 8. Geografie 2012 als Arbeitsbasis 2026/27 aus dokumentierter Kontinuitätsinferenz, bei offener ausdrücklicher Klasse-7-Zuordnung und Schulfolge.",
+        "checkedAt": "2026-11-23",
+        "reviewNote": "Underlying M13 manuscript and new local PDF output/paper-topic content are accepted in their separate scoped reviews. This isolated candidate still requires runtime, state, role-link, App-print, final-package and later publication/delivery gates.",
+        "independentCheck": "PDF/topic output author: Mathematik/MBI. Independent output/text reviewer: Root, adopting the separate Fragen manuscript review. Four existing PDF page images seen and independent PDF extraction passed; no runtime, device, learner or annual acceptance inferred."
       }
     }
   ]

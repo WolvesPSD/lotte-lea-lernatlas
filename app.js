@@ -1338,6 +1338,7 @@
           ? 'Gymnasium Klasse 6: Der Spanisch-Lehrplan ist für 2025/26 belegt. Fortgeltung 2026/27 und Unterrichtsfolge an deiner Schule sind noch offen.'
           : 'Gymnasium Klasse 6: Verbindlichkeit, Schulfolge und Quelle müssen je freigegebenem Thema gesondert geprüft sein.'
         : `Fassung und Jahrgang: ${subject.plan}. ${subject.scope}.`);
+      const isGymnasiumMusic = subject.id === 'mu' && activeGymMode === 'gymnasium';
       const sourceStatus = activeGymMode === 'gymnasium-6'
         ? subject.id === 'es'
           ? 'Der Klasse-6-Spanischfall ist eine eng geprüfte Übung. Eine bestätigte 2026/27-Pflichtzuordnung folgt daraus noch nicht.'
@@ -1348,12 +1349,14 @@
         ? 'Lehrplanquelle: Ministerielle Erprobungsfassung 2026 intern geprüft; sie setzt MNT 2026/27 für Klasse 5 in Kraft. Ein passender Klasse-7-Bezug ist nicht belegt.'
         : subject.id === 'ge'
           ? 'Lehrplanquelle: Laut amtlicher Thüringer Gymnasiumsübersicht gilt der Lehrplan Geschichte 2021 für Klasse 7 im Schuljahr 2026/27. Welche Wahlthemen die Schule behandelt und in welcher Reihenfolge, ist offen.'
+        : isGymnasiumMusic
+          ? "Lehrplanquelle: Laut amtlicher Thüringer Gymnasiumsübersicht gilt der Lehrplan Musik 2012 für Klasse 7 im Schuljahr 2026/27."
         : currentIds.has(subject.id)
           ? 'Lehrplanquelle: Ministerielles Original 2026 intern geprüft; öffentlicher Datei-Abgleich steht aus.'
           : 'Lehrplanquelle: Fachstand aus der amtlichen Übersicht 2025/26; Gültigkeit 2026/27 noch offen.';
       appendText(card, 'p', 'source-status', sourceStatus);
-      const link = create('a', 'source-link', subject.id === 'es' ? 'Amtlichen Spanisch-Lehrplan öffnen ↗' : activeGymMode === 'gymnasium-6' || subject.id !== 'sp' ? 'Amtliche Gymnasialübersicht öffnen ↗' : 'Amtliche Sportfassung öffnen ↗');
-      link.href = subject.id === 'es' ? subject.source : activeGymMode === 'gymnasium-6' || subject.id !== 'sp' ? overview : subject.source; link.target = '_blank'; link.rel = 'noopener noreferrer';
+      const link = create('a', 'source-link', isGymnasiumMusic ? "Amtlichen Musik-Lehrplan 2012 öffnen ↗" : subject.id === 'es' ? 'Amtlichen Spanisch-Lehrplan öffnen ↗' : activeGymMode === 'gymnasium-6' || subject.id !== 'sp' ? 'Amtliche Gymnasialübersicht öffnen ↗' : 'Amtliche Sportfassung öffnen ↗');
+      link.href = isGymnasiumMusic ? subject.source : subject.id === 'es' ? subject.source : activeGymMode === 'gymnasium-6' || subject.id !== 'sp' ? overview : subject.source; link.target = '_blank'; link.rel = 'noopener noreferrer';
       card.append(link);
       if (subject.id === 'es' && activeGymMode === 'gymnasium-6') {
         const validity = create('a', 'source-link', 'Amtliche Gültigkeitsübersicht 2025/26 öffnen ↗');
@@ -1367,6 +1370,8 @@
           : 'Der Link führt zur amtlichen Übersicht. Die passende Fachfassung und ihr Klasse-6-Status werden für jedes neue Thema einzeln belegt.'
         : subject.id === 'sp'
         ? 'Die amtliche Fachseite nennt den 2026er Plan. Die vorhandene Basketball-Regelkarte entstand dagegen aus dem älteren Plan und ersetzt keine Schulspielwahl.'
+        : isGymnasiumMusic
+          ? "Der Link führt zur amtlichen Fassung 2012. Die beiden älteren schriftlichen Übungen stammen aus diesem Plan. Ihre bisherigen Belegstellen und Prüfgrenzen gelten weiter."
         : 'Ein öffentlicher Direktlink zur hier beschriebenen Fachfassung wurde nicht sicher geprüft. Der Link führt zur amtlichen Fachübersicht; die erreichbare Datei kann davon abweichen.');
       if (subject.id === 'fr' && activeGymMode !== 'gymnasium-6') {
         appendText(card, 'p', 'source-status', 'Schulischer Sprachweg: Ein Elternbrief einer Schule für Klasse 5 im Schuljahr 2024/25 nennt Französisch als zweite Fremdsprache ab Klasse 6. Das belegt keinen einheitlichen Beginn an allen Gymnasien. Der konkrete Sprachweg und Lernstand sind hier nicht erfasst.');

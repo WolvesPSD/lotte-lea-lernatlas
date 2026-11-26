@@ -428,3 +428,7 @@ body[data-print-mode^="child"] #print-surface .print-topic:has(.print-task[data-
 
 /* Leseweg/KI V2: only Epik adult print spacing; retain font sizes and complete content. */
 @media print{body[data-print-mode^="adult"] #print-surface .print-topic:has(.print-task[data-task-id="de-roter-faden-1"]) .print-practice p{margin:.35em 0}body[data-print-mode^="adult"] #print-surface .print-topic:has(.print-task[data-task-id="de-roter-faden-1"]) .print-practice ol{margin:.45em 0}body[data-print-mode^="adult"] #print-surface .print-topic:has(.print-task[data-task-id="de-roter-faden-1"]) .print-practice li+li{margin-top:.3rem}}
+
+@media print{body[data-print-mode^='adult'] .print-task[data-task-id^='de-alswie-']{break-inside:avoid;page-break-inside:avoid}}
+
+@media print{body[data-print-mode^='adult'] .print-task[data-task-id='de-normal-presse-3']{break-inside:avoid;page-break-inside:avoid}}

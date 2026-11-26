@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.23-ohra-datenkarte.1",
+  "version": "2026.11.26-sprachwandel-kaspar.3",
   "status": "familienversion",
   "subjects": [
     {
@@ -72,11 +72,11 @@ window.LOTTE_CATALOG = {
     {
       "id": "mu",
       "name": "Musik",
-      "plan": "Gymnasium: Entwurf 2026; Geltung 2026/27 offen",
-      "scope": "Der Entwurf nennt 7/8-Ziele bis Ende Klasse 8; Geltung und Unterrichtsfolge offen",
+      "plan": "Thüringer Gymnasium: Lehrplan Musik 2012, Klasse 7 im Schuljahr 2026/27",
+      "scope": "Zielhorizont bis Ende Klasse 8. Die Unterrichtsfolge an deiner Schule ist offen",
       "availabilityLabel": "Musik-Lehrplan 2026/27 noch nicht bestätigt",
       "availabilityReason": "Das amtliche Schulportal veröffentlicht einen Musik-Entwurf 2026. Dessen PDF-S. 2 sieht Klasse 7 ab 2026/27 vor; eine getrennte amtliche Bestätigung der Geltung liegt uns noch nicht vor. Die zwei schriftlichen Übungen stammen aus dem älteren Plan. Ihre Zuordnung zum Entwurf wird geprüft. Hören und Musizieren werden hier nicht geprüft.",
-      "source": "https://www.schulportal-thueringen.de/media/detail?tspi=20577"
+      "source": "https://www.schulportal-thueringen.de/tip/resources/medien/15751?dateiname=LP_GY_Musik_Endfassung_Maerz_2013.pdf"
     },
     {
       "id": "ge",
@@ -24722,6 +24722,302 @@ window.LOTTE_CATALOG = {
         "checkedAt": "2026-11-23",
         "reviewNote": "Underlying M13 manuscript and new local PDF output/paper-topic content are accepted in their separate scoped reviews. This isolated candidate still requires runtime, state, role-link, App-print, final-package and later publication/delivery gates.",
         "independentCheck": "PDF/topic output author: Mathematik/MBI. Independent output/text reviewer: Root, adopting the separate Fragen manuscript review. Four existing PDF page images seen and independent PDF extraction passed; no runtime, device, learner or annual acceptance inferred."
+      }
+    },
+    {
+      "id": "de-als-wie-sprachwandel",
+      "subjectId": "de",
+      "title": "Als und wie: Wandel, Standard und lockere Rede",
+      "released": true,
+      "levelStatus": "grade8-outlook",
+      "levelLabel": "Gestützter 7/8-Einstieg · Ziel bis Ende Klasse 8",
+      "scope": "Deutsch 2026, §2.2.5: ausgewählte Sprachwandelerscheinungen und Sprachvariation exemplarisch untersuchen; Ziel bis Ende Klasse 8. Der Plan gilt ab 2026/27 für Klasse 7; diese gestützte Auswahl belegt keine konkrete Unterrichtsfolge oder vollständige Sprachgeschichtsabdeckung.",
+      "prerequisite": "Drei Karten genügen. Du brauchst keine alten Schreibweisen zu entziffern, keine Familienbefragung und keine private Sprachprobe. Die Karten beschreiben ausgewählten Gebrauch; daraus lässt sich nicht auf die Herkunft oder das Können einer einzelnen Person schliessen.",
+      "introduction": "Untersuche Entwicklung, Vergleichsfunktionen und die Grenzen einer Behauptung. Vier Hauptaufträge mit 4 + 5 + 5 + 6 = 20 Kriterienpunkten; später 6 getrennte Transferpunkte. Eigene Formulierungen zählen, keine automatische Sprachbewertung und keine amtliche Note.",
+      "passage": "WÖRTERHILFE\nUngleichheit bedeutet hier „eine Sache ist größer als eine andere“; Gleichheit bedeutet „zwei Sachen sind gleich groß“. Standardsprache ist die Form, die man etwa in einem redigierten Sachtext oder einer schulischen Ausarbeitung erwartet. Umgangssprache ist eine lockere Sprechweise; sie kann regionale Formen enthalten. Sprachwandel betrifft Veränderungen des Gebrauchs über längere Zeit. Sprachvariation bedeutet, dass Formen nebeneinander vorkommen, beispielsweise je nach Situation.",
+      "cardsHeading": "Drei Quellenkarten · eigene vereinfachte Paraphrasen",
+      "sourceCards": [
+        {
+          "title": "Karte A · ältere Stufen (Alt- und Mittelhochdeutsch)",
+          "text": "Für einen Größenvergleich mit Ungleichheit wurde eine Form von denn verwendet; für Gleichheit eine Form von als. Die Wörter konnten anders geschrieben werden als heute. Aus einem einzelnen alten Beispiel lässt sich keine Regel für alle damaligen Regionen ableiten.",
+          "sourceLabel": "Eigene vereinfachte Paraphrase nach Kubczak/Schneider, IDS grammis, Stand 31.03.2024; keine eigene Sprachgebrauchserhebung",
+          "sourceUrl": "https://grammis.ids-mannheim.de/fragen/134"
+        },
+        {
+          "title": "Karte B · Übergang ab dem 16. Jahrhundert",
+          "text": "Bei Vergleichen begannen sich die Funktionen zu verschieben: wie wurde auch für Gleichheit gebraucht; als wurde auch für Ungleichheit gebraucht. Ältere und neuere Formen kamen dabei nebeneinander vor. Die Veränderung geschah nicht an einem einzigen Tag.",
+          "sourceLabel": "Eigene vereinfachte Paraphrase nach Kubczak/Schneider, IDS grammis, Stand 31.03.2024; keine eigene Sprachgebrauchserhebung"
+        },
+        {
+          "title": "Karte C · heutiger Gebrauch",
+          "text": "In der geschriebenen Standardsprache heißt es normalerweise größer als und so groß wie. In lockerer, teils regional gefärbter Rede kommt auch größer wie vor. Die Quelle beschreibt das als vorhandene Variation. Sie liefert keine sichere Vorhersage, welche Form in Zukunft alle Menschen verwenden.",
+          "sourceLabel": "Eigene vereinfachte Paraphrase nach Kubczak/Schneider, IDS grammis, Stand 31.03.2024; keine eigene Sprachgebrauchserhebung"
+        }
+      ],
+      "stagedUpdate": {
+        "kind": "variant",
+        "mainTaskCount": 4,
+        "mainLabel": "A–D",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "A–D festhalten und Redaktionskarte öffnen",
+        "text": "FIKTIVE REDAKTIONSKARTE NACH A–D\nEine Redaktion erhält zwei erfundene Sätze:\n„Mein Weg ist länger wie deiner.“\n„Unser Plakat ist so groß als eures.“\nDie Sätze sind keine echten Kinderäusserungen oder neue historische Quelle. Nutze weiterhin die Karten A–C.",
+        "printNote": "Die spätere Redaktionskarte folgt auf die vier Hauptaufgaben; sechs Transferpunkte getrennt halten."
+      },
+      "tasks": [
+        {
+          "id": "de-alswie-1",
+          "kind": "reflection",
+          "points": 4,
+          "writingLines": 8,
+          "inputRows": 6,
+          "adultOnlySolution": true,
+          "prompt": "Etappen ordnen · 4 Punkte. Bringe A, B und C in die zeitliche Reihenfolge und nenne für zwei Karten je ein Merkmal, an dem du die Etappe erkennst. Schreibe dazu, weshalb die Karten keine exakten Wechseltermine für alle Sprecher belegen.",
+          "sample": "A → B → C. A: denn bei Ungleichheit/als bei Gleichheit; B: nebeneinander vorkommende ältere und neuere Funktionen ab dem 16. Jahrhundert; C: heutige Standardformen und lockere Variante. Ein Etikett wie „ab 1500 sprachen alle sofort gleich“ ist nicht gedeckt.",
+          "criteria": [
+            "Reihenfolge 1; zwei verschiedene Kartenmerkmale je 1 (2); begrenzter, nicht allgemeiner Wechseltermin 1. Bei Verwechslung von B/C: Übergang und heutige Gebrauchslage getrennt markieren."
+          ],
+          "hint": "Nutze Zeitangaben und Kartenmerkmale. Trenne einen ungefähren Übergang von einem festen Wechseltermin."
+        },
+        {
+          "id": "de-alswie-2",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 9,
+          "inputRows": 7,
+          "adultOnlySolution": true,
+          "prompt": "Zwei Vergleichsfunktionen · 5 Punkte. Ergänze nach Karte A: Bei Ungleichheit stand eine Form von ___, bei Gleichheit eine Form von ___. Ergänze nach Karte C: In einem heutigen redigierten Schultext schreibst du „Unser Turm ist größer ___ der andere“ und „Unser Turm ist so groß ___ der andere“. Erkläre an einem der vier Einträge, warum die Zeit- oder Situationangabe wichtig ist.",
+          "sample": "A: denn, als. C: „größer als“, „so groß wie“. Zeit/Situation wichtig: Eine ältere Form ist nicht automatisch die erwartete Form im heutigen redigierten Schultext; lockere Rede und Standardschrift haben ebenfalls unterschiedliche Kontexte.",
+          "criteria": [
+            "Vier Einträge je 1 (4); eine korrekte Erklärung des Kontextunterschieds 1. Die ältere Schreibform danne/alsam ist nicht nötig."
+          ],
+          "hint": "Schreibe die vier Ergänzungen in der Reihenfolge der Aufgabe auf. Notiere für deine Erklärung auch den Kontext."
+        },
+        {
+          "id": "de-alswie-3",
+          "kind": "reflection",
+          "points": 5,
+          "writingLines": 10,
+          "inputRows": 8,
+          "adultOnlySolution": true,
+          "prompt": "Veränderung mit Belegen erklären · 5 Punkte. Verfasse zwei bis drei Sätze: Was änderte sich bei als und wie zwischen A und C? Nutze A, B und C: Beschreibe den älteren Gebrauch, den allmählichen Übergang und die heutige Standardsprache. Behaupte nicht, die Änderung habe überall gleichzeitig stattgefunden.",
+          "sample": "Etwa: „Karte A beschreibt denn beim Vergleich mit Ungleichheit und als bei Gleichheit. Karte B zeigt einen allmählichen Übergang; nach C erwartet die heutige geschriebene Standardsprache bei Ungleichheit als und bei Gleichheit wie.“",
+          "criteria": [
+            "Historischer Ausgang mit A 1; Übergang oder zeitliche Veränderung mit B 1; heutiger Standard mit C 1; zwei Karten konkret als Belege genutzt 1; keine behauptete Gleichzeitigkeit/Allgemeingültigkeit 1. Wenn B fehlt, kann der Punkt für Übergang nicht vergeben werden; eine anders formulierte, sachlich korrekte Einordnung bleibt möglich."
+          ],
+          "hint": "Nutze ausdrücklich alle drei Karten und formuliere den Verlauf in eigenen Worten."
+        },
+        {
+          "id": "de-alswie-4",
+          "kind": "reflection",
+          "points": 6,
+          "writingLines": 12,
+          "inputRows": 10,
+          "adultOnlySolution": true,
+          "prompt": "Eine starke Schlagzeile prüfen · 6 Punkte. Jemand schreibt: „Wer heute größer wie sagt, macht einfach einen Fehler. Im Jahr 2030 werden alle nur noch wie sagen, weil das Internet die Sprache verändert.“ Nenne drei verschiedene Probleme dieser Aussage und formuliere eine kurze, sachliche Alternative, die Karte C und die Grenze der Quelle beachtet.",
+          "sample": "Drei Probleme: (a) größer wie wird in der Quelle als vorkommende lockere, teils regionale Variante beschrieben; pauschale Abwertung als „einfach Fehler“ lässt den Kontext weg. (b) Eine allgemeine 2030-Prognose ist nicht belegt. (c) Die Internet-Ursache wird durch die Karten nicht belegt. Alternative: „Für einen heutigen redigierten Schultext wählen wir größer als. In lockerer Rede kommt auch größer wie vor; über einen künftigen vollständigen Wechsel sagen die Karten nichts Sicheres.“",
+          "criteria": [
+            "Drei voneinander verschiedene Probleme je 1 (3); sachliche Alternative mit Standardkontext 1, vorhandener Variation 1 und offener Zukunft 1. Nur „falsch“ durch „richtig“ ersetzen reicht nicht."
+          ],
+          "hint": "Trenne Kontext, Zukunftsaussage und behauptete Ursache. Begründe deine Einwände mit den Karten."
+        },
+        {
+          "id": "de-alswie-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "variant": true,
+          "writingLines": 13,
+          "inputRows": 11,
+          "adultOnlySolution": true,
+          "prompt": "Schreibe beide Sätze für einen heutigen redigierten Schulaushang passend um. Erkläre für jeden Satz, ob er eine Ungleichheit oder Gleichheit ausdrückt und weshalb du für diesen Adressaten die neue Form gewählt hast. Ergänze einen Satz dazu, warum die ursprünglichen Formen allein nicht beweisen, dass die fiktiven Schreibenden einen bestimmten Dialekt beherrschen oder aus einer bestimmten Region stammen.",
+          "sample": "Beispiel: „Mein Weg ist länger als deiner.“ (Ungleichheit.) „Unser Plakat ist so groß wie eures.“ (Gleichheit.) Für einen heutigen redigierten Schulaushang passen diese Formen zur in Karte C beschriebenen Standardsprache. Die fiktiven Originale allein belegen weder eine Region noch eine umfassende Dialektkompetenz: Es sind einzelne Formen ohne unabhängige Sprecher- oder Gebrauchsdaten.",
+          "criteria": [
+            "Satz 1 mit als 1, Ungleichheit plus Adressatenbegründung 1; Satz 2 mit wie 1, Gleichheit plus Adressatenbegründung 1; begründete Nichtableitung der Region 1 und der Dialektkompetenz 1. 6 Punkte, nicht additiv. Wenn das Kind die ursprünglichen Formen respektvoll als Varianten kontextualisiert und den redigierten Zieltext korrekt umformt, ist das positiv zu bewerten."
+          ]
+        }
+      ],
+      "sourceBindings": {
+        "wissen/recherche/deutsch-d-r3-als-wie-sprachgeschichte-kinderblatt-2026.md": "C6A0EFE15A3495DF2CEEDB55CAFA8FA17A536878D02C01288D29A527C06B9B1C",
+        "wissen/recherche/deutsch-d-r3-als-wie-sprachgeschichte-erwachsenenloesung-2026.md": "2B2CA7A46FD33CE8A5AA26EBAD46DF5AD400569EF05366252B75E1FEE8707638",
+        "wissen/recherche/deutsch-d-r3-als-wie-sprachgeschichte-variante-2026.md": "95A5834B06ABF298DD162B755633948A8C50F8D7B17230536AE5E868C667F9D2",
+        "wissen/recherche/deutsch-d-r3-als-wie-sprachgeschichte-quellen-2026-11-03.md": "6CAEEEE5204F01DCBDD7254621BB8B866B4C3F574995744E6EF83879803E0187",
+        "wissen/recherche/deutsch-d-r3-als-wie-sprachgeschichte-qa-2026-11-03.md": "023911FF513D8532B6C519B5EA1416FA94E6A622B3DB22DF1F96817ECA49100C"
+      },
+      "releaseEvidence": {
+        "primaryLocalPdf": "pdf/LP_Deutsch_GY_Erprobung_2026-08-13.pdf",
+        "primarySha256": "E2F2944051ED349BC1C5C86D2AC922D551E0D1D059833B15338462FA3ACF44F2",
+        "primaryUrl": "https://grammis.ids-mannheim.de/fragen/134",
+        "competencyRef": "§2.2.5 PDF30–31 unterKlassenstufe8: Sprachwandel exemplarisch, Entwicklungsetappen und gegenwärtige Variation. Nur ein grammatischer Belegfall.",
+        "validFor": "Deutschplan2026 gilt lautPDF2 ab2026/27 fürKlasse7; einzelnesZiel bisEndeKlasse8, konkreteSchulfolgeoffen.",
+        "gradeBand": "7/8 gestützt, ZielEnde8",
+        "checkedAt": "2026-11-26",
+        "reviewNote": "Manuskript und enge unabhängige QA03.11.2026 vorhanden; früherenAuftrag/Rubrik-P2 korrigiert. Originalhash/PDF2/30 und IDS-Kern/Änderungsdatum am17.11. erneutgelesen. Eigene kurzeParaphrasen/eigeneBeispielsätze, keineübernommeneQuelltabelle, Korpuszitate, GedichtzeileoderAbbildung. Keineaktuelle2026Frequenzmessungoder2030Prognose. NochkeineApp-/Druck-/Kinder-/Fachvoll-/Jahresabnahme. Text, Aufgaben und Rollentrennung am 26.11.2026 unabhängig geprüft. Laufzeit, App-Druck und öffentliche Auslieferung dieses Kandidaten stehen aus."
+      }
+    },
+    {
+      "id": "de-normal-presse-sprachwandel",
+      "subjectId": "de",
+      "title": "Was heisst hier «normal»?",
+      "released": true,
+      "levelStatus": "grade8-outlook",
+      "levelLabel": "7/8 · freiwilliger Vorgriff",
+      "scope": "Deutsch, § 2.2.5: Neuere Entwicklungstendenzen am Beispiel einer Pressestudie erkennen und bewerten. Ziel bis Ende Klasse 8. Die konkrete Schulfolge in Klasse 7 ist offen.",
+      "prerequisite": "Keine App-Eingaben oder Rechnungen nötig.",
+      "introduction": "Dieser freiwillige Vergleich bringt keine Punkte. Du brauchst keine persönlichen Angaben oder Aufnahmen; Name und Datum auf dem Ausdruck kannst du frei lassen. Du kannst auf eine Stelle zeigen und dazu erzählen oder auf Papier antworten. Eine Notiz in der App ist freiwillig. Falls du festhängst, lies noch einmal, was bei allen drei Zahlen gleich gezählt wird. Du kannst mit zwei Beispielen anfangen und dann das dritte dazunehmen.",
+      "passage": "Drei Pressebeispiele in eigenen Worten. Die Belegnummern gehören zur Studie.\n\n22.11.2019 · Die Presse · Beleg 16\nBei einem Hochwasser in Venedig lag das Wasser weit über dem normalen Meeresspiegel.\n\n04.08.2020 · Spiegel-Online · Beleg 8\nEltern fragen sich, wann ihre Kinder wieder einen normalen Schulalltag erleben können.\n\n28.02.2023 · Hannoversche Allgemeine · Beleg 3\nIn Venedig lag das Wasser bei Ebbe deutlich unter dem normalen Niveau.",
+      "cardsHeading": "Was die Studie gezählt hat",
+      "sourceCards": [
+        {
+          "title": "Treffer je Million Wörter",
+          "text": "Die Studie hat grössere Mengen von Pressetexten verglichen. Die Studie zählte das Adjektiv «normal», auch in Formen wie «normalen». Stand eine Verneinung wie «nicht» in der Nähe, liess sie solche Stellen soweit möglich weg. Die Zahlen geben die so gezählten Treffer je eine Million Wörter an. So sind auch unterschiedlich grosse Textmengen vergleichbar. Die drei Zahlen sind gerundet.\n\nVor der Pandemie: 71\nWährend der Pandemie: 104\nNach der Pandemie: 75\n\nDie Datumsangaben oben gehören zu den einzelnen Zeitungsstellen. Bei den Zeiträumen für die Zählung passen die Jahresangaben der Studie nicht überall zusammen. Für 2026 gibt es in der Studie keinen Messwert.",
+          "sourceLabel": "Elisabeth Scherr · Die Zweideutigkeit des Normalen und der diskursive Effekt disruptiver Ereignisse (2026)",
+          "sourceUrl": "https://doi.org/10.1007/s41244-026-00420-w",
+          "additionalSourceLabel": "Studie · Lizenz CC BY 4.0",
+          "additionalSourceUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "sourceNote": "Eigene Kurzparaphrasen, Auswahl und Rundung. Die Originalzeitungstexte und Originaltabellen sind hier nicht abgedruckt. Grundlage: Elisabeth Scherr, „Die Zweideutigkeit des Normalen und der diskursive Effekt disruptiver Ereignisse“ (2026), CC BY 4.0."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "de-normal-presse-1",
+          "kind": "reflection",
+          "points": 0,
+          "adultOnlySolution": true,
+          "writingLines": 3,
+          "inputRows": 4,
+          "prompt": "Lies die drei Pressebeispiele. Worauf bezieht sich «normal» jeweils? Vergleiche die beiden Wasserbeispiele mit dem Schulbeispiel. Erkläre an einer Stelle, was das Wort dort zu verstehen hilft.",
+          "sample": "Der normale Meeresspiegel (Beleg 16) ist der Vergleichswert für das Hochwasser. In Beleg 3 ist das tatsächliche Bezugswort «Niveau». Das Wasser liegt dort tiefer als üblich. In Beleg 8 geht es um einen vertrauten Schulalltag, dessen Rückkehr erhofft wird.",
+          "criteria": [
+            "Rückmelden, welche der drei Bezüge und welcher Vergleich nachvollziehbar erklärt wurden. Bei einer konkreten Stelle auf die Bedeutung achten. Eine begründete gemeinsame Idee des Üblichen oder Unsicherheit über den Ton der Paraphrase zulassen. Bleibt ein Teil offen, genügt diese Feststellung.",
+            "Die einzelnen Stellen zeigen Verwendungsmöglichkeiten. Aus ihren Datumsangaben lässt sich die Häufigkeit dieser Funktionen nicht ableiten."
+          ]
+        },
+        {
+          "id": "de-normal-presse-2",
+          "kind": "reflection",
+          "points": 0,
+          "adultOnlySolution": true,
+          "writingLines": 3,
+          "inputRows": 4,
+          "prompt": "Sieh dir die drei Häufigkeiten an. Wie ändern sich die gezählten Treffer je Million Wörter von der ersten zur zweiten und dann zur dritten Phase? Begründe deine Beobachtung mit den Werten. Du brauchst keine Prozente auszurechnen.",
+          "sample": "Die mittlere Phase liegt mit 104 deutlich über 71. Danach fällt die Häufigkeit auf 75, also nahe an den ersten Wert und etwas darüber.",
+          "criteria": [
+            "Bei Bedarf nachfragen, welche zwei Phasen das Kind vergleicht. Die dritte Phase zunächst selbst einbeziehen lassen. Eigene Erklärung und genutzte Hilfe auseinanderhalten."
+          ]
+        },
+        {
+          "id": "de-normal-presse-3",
+          "kind": "reflection",
+          "points": 0,
+          "adultOnlySolution": true,
+          "writingLines": 3,
+          "inputRows": 4,
+          "prompt": "Jemand meint: «Seit der mittleren Phase verwenden die untersuchten Zeitungen das Wort dauerhaft häufiger.» Wie weit überzeugt dich das? Erkläre, was die Zahlen zeigen und was für dich offenbleibt.",
+          "sample": "Die Zahlen zeigen einen zeitweiligen Anstieg in dieser Presseauswahl. Für dauerhaft höheren Gebrauch fehlt die weitere Entwicklung. Die Daten lassen offen, ob sich die Wortbedeutung geändert hat und wodurch die Häufung entstand.",
+          "criteria": [
+            "Eine begründete vorsichtige Antwort genügt. Die widersprüchliche Rohkorpuschronologie bleibt offen. Die Auswahl von 37 Publikationen ist kein Beleg für nationale Repräsentativität oder individuelles Sprechen. Für 2026 liegt kein Messwert vor.",
+            "Gezählt wurden Formen des Adjektivs, auch prädikative. Nahe Verneinungen wurden soweit möglich ausgeschlossen. Die Zählung betrifft keine richtige Sprache, positive Wertung oder das Substantiv «Normalität»."
+          ]
+        }
+      ],
+      "sourceBindings": [
+        {
+          "path": "output/leitung-20261123/de-sprachreflexion-s25-current-change-source-decision/addendum-v2/KIND.md",
+          "sha256": "B0DB3CCFA9502FD5F728B8FE1C53108C6C37BDCDC8CB2E01E1496560E7E6375A"
+        },
+        {
+          "path": "output/leitung-20261123/de-sprachreflexion-s25-current-change-source-decision/addendum-v2/DATEN.md",
+          "sha256": "F274B7A0DF7369985F182ABE1A6BA562439444F26AA13EC8EB82352A35203D14"
+        },
+        {
+          "path": "output/leitung-20261123/de-sprachreflexion-s25-current-change-source-decision/addendum-v2/BEGLEITUNG.md",
+          "sha256": "379049F6DA727E2A383405C5EFF0C3706B24AF61B5FCD606DDB5DAF0CFC3A4CD"
+        }
+      ],
+      "releaseEvidence": {
+        "primaryLocalPdf": "pdf/LP_Deutsch_GY_Erprobung_2026-08-13.pdf",
+        "primarySha256": "E2F2944051ED349BC1C5C86D2AC922D551E0D1D059833B15338462FA3ACF44F2",
+        "primaryUrl": "https://doi.org/10.1007/s41244-026-00420-w",
+        "competencyRef": "Deutsch 2026, § 2.2.5, PDF-S. 31, S25: Gegenwärtige Entwicklungstendenzen exemplarisch erkennen und werten, hier der Gebrauch eines Adjektivs in ausgewählter Presse.",
+        "validFor": "Deutschplan 2026 für Klasse 7 ab 2026/27, Ziel Ende Klasse 8, Schulfolge offen.",
+        "gradeBand": "7/8 gestützt, Ziel Ende 8",
+        "checkedAt": "2026-11-26",
+        "reviewNote": "Datiert angenommene lokale Rollen V2. Eigene Kurzparaphrasen und gerundete Trefferwerte. Widersprüchliche Korpusperioden bleiben offen. App-Entwurf zur unabhängigen Ausgabeprüfung. Text, Aufgaben und Rollentrennung am 26.11.2026 unabhängig geprüft. Laufzeit, App-Druck und öffentliche Auslieferung dieses Kandidaten stehen aus."
+      }
+    },
+    {
+      "id": "mu-kaspar-lied-berlin-amsterdam",
+      "subjectId": "mu",
+      "title": "Kaspars Lied in Berlin und Amsterdam",
+      "released": true,
+      "levelStatus": "grade78-flex",
+      "levelLabel": "Klasse 7/8 · Ziel Ende Klasse 8",
+      "scope": "Freiwillige schriftliche Einordnung eines Liedes im historischen Zusammenhang. Zielhorizont Ende Klasse 8. Die Unterrichtsfolge an deiner Schule ist offen.",
+      "prerequisite": "Ohne Punkte. Du kannst auf Papier schreiben. Hören, Singen und das Öffnen der Links sind freiwillig. Gib keine persönlichen Daten ein.",
+      "introduction": "Die Aufgabe ist freiwillig. Du brauchst nur die beiden Texte und etwas zum Schreiben. Die Links führen zu den Quellen. Wenn du Hilfe möchtest: Zeichne zwei Spalten für A und B. Nutze die Zeilen «Wann?», «Wo?» und «Was erfahre ich über das Lied?». Für diesen freiwilligen Vergleich gibt es keine Punkte. Eine Notiz in der App ist freiwillig; du kannst auf Papier antworten.",
+      "cardsHeading": "Zwei kurze Quellentexte",
+      "sourceCards": [
+        {
+          "title": "A · Eine Berliner Zeitung berichtet",
+          "text": "Am 18. Juni 1821 wurde Carl Maria von Webers Oper «Der Freischütz» im Berliner Schauspielhaus aufgeführt. Am 26. Juni 1821 erschien dazu eine Besprechung in einer Berliner Zeitung. Darin erwähnt der Rezensent «Hier im ird’schen Jammertal» als Lied im ersten Akt. Der Rezensent lobte dieses Lied besonders.",
+          "sourceLabel": "Berliner Besprechung in der Weber-Gesamtausgabe",
+          "sourceUrl": "https://weber-gesamtausgabe.de/de/A007979/Schriften/A030422.html?d=all&q=Sp%C3%A4th"
+        },
+        {
+          "title": "B · Eine Inszenierung in Amsterdam",
+          "text": "Im Juni 2022 zeigte die Dutch National Opera «Der Freischütz» in Amsterdam. OperaVision führt «Hier im ird’schen Jammertal» als Ausschnitt dieser Produktion auf. Darin singt Günther Groissböck die Rolle des Kaspar.",
+          "sourceLabel": "Ausschnittseite von OperaVision",
+          "sourceUrl": "https://operavision.eu/de/performance/der-freischuetz",
+          "additionalSourceLabel": "Spielplan der Dutch National Opera",
+          "additionalSourceUrl": "https://www.operaballet.nl/en/dutch-national-opera/2021-2022/der-freischutz"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "mu-kaspar-lied-berlin-amsterdam-1",
+          "kind": "reflection",
+          "points": 0,
+          "writingLines": 4,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "Notiere zu beiden Quellen, wann und wo etwas geschah und worum es ging. Halte bei A die Aufführung und den Zeitungsbericht auseinander.",
+          "sample": "Aufführung und Zeitung: Das Kind ordnet dem 18. Juni 1821 die Aufführung von Webers «Freischütz» im Berliner Schauspielhaus zu. Der 26. Juni 1821 ist das Erscheinungsdatum der Besprechung.",
+          "criteria": [
+            "Wenn das Kind stockt: Lass es in A zuerst die beiden Datumsangaben markieren und jeweils das zugehörige Ereignis dazuschreiben. Frag anschliessend: «Wessen Meinung hat die Zeitung festgehalten?» Gib die zusammenhängende Antwort erst nach dem eigenen Versuch als Rückmeldung."
+          ]
+        },
+        {
+          "id": "mu-kaspar-lied-berlin-amsterdam-2",
+          "kind": "reflection",
+          "points": 0,
+          "writingLines": 4,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "Erkläre in eigenen Worten, in welchem historischen Zusammenhang das Lied belegt ist. Nenne die Stelle aus A, auf die du dich stützt, und sag, wofür du B als Beleg verwenden kannst.",
+          "sample": "Als konkreter Beleg genügt sinngemäss, dass die Besprechung das Lied im ersten Akt der Oper eigens nennt. Spätere Produktion: B belegt den Kaspar-Ausschnitt zur Amsterdamer Inszenierung im Juni 2022. Der Spielplan gibt den 3.–25. Juni als Spielzeitraum an. Für die Einordnung genügt «Juni 2022». Das genaue Aufnahmedatum des Ausschnitts bleibt offen.",
+          "criteria": [
+            "Beispiel für die Rückmeldung: «Du hast erklärt, warum der Zeitungsbericht das Lied mit der Berliner Aufführung verbindet. Ergänze noch, wessen Urteil du aus der Zeitung kennst.»"
+          ]
+        },
+        {
+          "id": "mu-kaspar-lied-berlin-amsterdam-3",
+          "kind": "reflection",
+          "points": 0,
+          "writingLines": 4,
+          "inputRows": 4,
+          "adultOnlySolution": true,
+          "prompt": "Jemand sagt: «Damals hat das ganze Publikum das Lied besonders gemocht.» Prüfe mit A, was du zu dieser Aussage belegen kannst und was offenbleibt.",
+          "sample": "Urteil und Grenze: Die positive Wertung lässt sich dem Rezensenten zuschreiben. Wie das Publikum reagierte, bleibt anhand von A offen. Gleichwertige kurze Antworten gelten, wenn sie die Aussagegrenze verständlich machen.",
+          "criteria": [
+            "Die Bearbeitung funktioniert mit den beiden Texten. Hören und Singen sind freigestellt. Diese Aufgabe zeigt die historische Einordnung eines einzelnen Liedes."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "Thüringer Musikplan mit Titeljahr 2012, laut dokumentierter amtlicher Übersicht für Klasse 7 im Schuljahr 2026/27. Konkrete Schulfolge offen.",
+        "gradeBand": "Klasse 7/8, Ziel Ende Klasse 8",
+        "competencyRef": "Musik Gymnasium 2012, § 2.2.1.1 Stimme und Lied, PDF-/Drucks. 19, Mu-01-S03: Lieder gesellschaftlich bzw. historisch einordnen. Ein schriftlicher Fall.",
+        "checkedAt": "2026-11-26",
+        "independentCheck": "Die bisher datierten Quellen- und Manuskriptbelege gelten weiter. Text, Aufgaben und Rollentrennung am 26.11.2026 unabhängig geprüft. Laufzeit, App-Druck und öffentliche Auslieferung dieses Kandidaten stehen aus."
       }
     }
   ]

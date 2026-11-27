@@ -1,113 +1,103 @@
 {
   "schemaVersion": 1,
-  "version": "2026.11.27-tourismus-jahresvergleich.3",
-  "builtAt": "2026-11-27T02:28:06.817Z",
-  "status": "LOCAL_SCOPED_S05_EVIDENCE_ACCEPTED_PENDING_FINAL_PACKAGE_AND_PUBLICATION",
+  "version": "2026.11.27-quellensprache.2",
+  "builtAt": "2026-11-27T03:02:12.164Z",
+  "status": "LOCAL_SCOPED_HISTORY_S5_ACCEPTED_PENDING_FINAL_PACKAGE_AND_PUBLICATION",
   "baseline": {
-    "candidate": "app/output/release-candidate-ma-density-formula-20261127-v2",
-    "version": "2026.11.27-dichteformel.2",
-    "commit": "70486aff637df649153d16a5d861f96b8c857530",
+    "candidate": "app/output/release-candidate-geo-s05-year-change-20261127-v3",
+    "version": "2026.11.27-tourismus-jahresvergleich.3",
+    "commit": "268dd0942e013fdb20f90ad09d20b8c8764fd01a",
     "pin": {
       "path": "app/current-public-baseline.json",
-      "bytes": 4917,
-      "sha256": "D5ABAC262EF738B8232601514DC7DA2C37C4CA38F6463BCB7BEE108B76ECBA8E"
+      "bytes": 4966,
+      "sha256": "15DFF12CECD084F987455A64D23714DECC168136EEEF57D8F3E1184D07E8C5F1"
+    },
+    "activation": {
+      "path": "output/release-geo-s05-year-change-20261127/activation-v133-receipt.json",
+      "bytes": 2820,
+      "sha256": "A8C3BB25C9E64414FD219843373973C67292714CBDE4F0D84B4290DB7D62929F"
     }
   },
-  "rollbackCommit": "70486aff637df649153d16a5d861f96b8c857530",
+  "rollbackCommit": "268dd0942e013fdb20f90ad09d20b8c8764fd01a",
   "change": {
-    "newTopics": [
-      "go-tourismus-jahresvergleich"
+    "existingTopic": "ge-bauernartikel-freiheit-deutung",
+    "addedFields": [
+      "practice"
     ],
-    "newTasks": 3,
-    "existingTopicsChanged": 0,
-    "existingTasksChanged": 0,
-    "newAssets": [],
+    "changedSourceFields": [
+      "releaseEvidence.competencyRef",
+      "releaseEvidence.checkedAt",
+      "releaseEvidence.reviewNote"
+    ],
+    "newTopics": 0,
+    "newTasks": 0,
+    "newStateFields": 0,
     "rendererChanged": false,
-    "cssChanged": true,
-    "stateSchemaChanged": false,
-    "changedExistingFiles": [
-      "RELEASE-CHECK.json",
+    "cssChanged": false,
+    "assetsChanged": false,
+    "changedFiles": [
       "catalog.js",
       "index.html",
-      "styles.css"
+      "RELEASE-CHECK.json"
     ]
   },
   "inventory": {
     "topics": 235,
     "taskObjects": 1061,
-    "oldTopicObjectsUnchanged": 234,
-    "oldTaskObjectsUnchanged": 1058,
+    "changedTopic": 1,
+    "unchangedTopics": 234,
+    "allOldTaskObjectsUnchanged": 1061,
     "annualCoverageQuota": false
   },
   "validation": {
-    "independentTextRolesAndExactTwoFieldDelta": "PASS_SCOPED_INPUTS",
-    "candidateIndependentStatic": "PASS_SCOPED_V1_TRANSFER_AND_V2_EXACT_ADULT_CSS_DELTA_FINAL_METADATA_REVIEW_PENDING",
-    "actualChildAdultDataAndRoles": "PASS_SCOPED_3_MANUAL_CHILD_ACTIONS_NO_MODELS_EXACT_ADULT_MODELS_CRITERIA",
-    "actualManual0PointAndProgressBoundaryMobile": "PASS_SCOPED_320_390_COMPLETE_TEXT_RECTANGLES_EDGE_HITS_FIELD_ONLY_PROGRESS_BOUNDARY",
-    "actualChildAdultA4": "PASS_INDEPENDENT_V1_CHILD_2_A4_REUSE_AND_REPAIRED_V2_ADULT_2_A4",
-    "filledExportFreshImport": "PASS_3_FILLED_SYNTHETIC_ANSWERS_REAL_DOWNLOAD_CONFIRMED_FRESH_IMPORT_RELOAD_AND_CLEARING",
-    "finalIndependentPackage": "PENDING",
-    "GitPagesHTTPSPublicUI": "PENDING"
+    "independentTextRolesExactTwoLeafDeltaAndSourceContract": "PASS_SCOPED_ADOPTED_INPUTS",
+    "independentStaticTransfer": "PASS_SCOPED_EXISTING_TOPIC_PRACTICE_AND_SOURCE_ROW",
+    "actualPracticeRolesAndUnchangedBaseFields": "PASS_SCOPED_FOUR_OLD_TASKS_20_POINTS_NO_PRACTICE_INPUT_OR_AUTO_CREDIT",
+    "actualChildAdultA4": "PASS_INDEPENDENT_ACTUAL_V1_CHILD_3_A4_AND_ADULT_3_A4_REUSED_BY_EXACT_PARITY",
+    "actualMobilePracticeTextAndOptionalSourceLink": "PASS_SCOPED_320_390_FULL_TEXT_RECTANGLES_AND_EDGE_HITS_LINK_ATTRIBUTES_AND_DOWNLOAD_EVENT_ONLY",
+    "actualSpecificSourceAndUnchangedState": "PASS_SCOPED_OPEN_SOURCE_ROW_TWO_DATES_FOUR_FILLED_ANSWERS_REAL_EXPORT_CONFIRMED_FRESH_IMPORT_RELOAD_CLEARING",
+    "finalPackageAndPublicDelivery": "PENDING"
   },
   "evidence": [
     {
-      "path": "output/leitung-20261127/website-geo-s05-year-change-app-draft/root-draft-transfer-adoption.json",
-      "bytes": 12353,
-      "sha256": "C1925780BB93254A92FDED2C80D86EE7FBA088BAC64B527B7B54E94B8E5CC6EF"
+      "path": "output/leitung-20261127/website-ge-s5-language-comparison-app-draft/root-draft-transfer-adoption.json",
+      "bytes": 7454,
+      "sha256": "8FD95E83B3CE435638FF4C660C8221457E5B9A066C66CA2666B83642448F15DC"
     },
     {
-      "path": "output/release-geo-s05-year-change-20261127/runtime-v1-a4-title-continuation/adult-print-dom.json",
-      "bytes": 9641,
-      "sha256": "8CB9D9EE393D4E5295B15684742BEE1271A168CE2123AF328851DD11409E41C4"
+      "path": "output/release-history-s5-language-20261127/root-static-adoption.json",
+      "bytes": 97406,
+      "sha256": "47E37938F2632D01B76D7AD1BF5F0FF273AA6EC8F245A64E735981A06B92A75A"
     },
     {
-      "path": "output/release-geo-s05-year-change-20261127/runtime-v1-a4-title-continuation/adult.pdf",
-      "bytes": 86300,
-      "sha256": "2184CEA5DC3908A0541C22B0C7F31F7B3FAF8A5C731387DB6B2C3173B7164562"
+      "path": "output/release-history-s5-language-20261127/root-feasibility-adoption.json",
+      "bytes": 83812,
+      "sha256": "1670F71D88A2A30D3EB32CBA27BA8813936D43ED8ACB6EFD90738A27DDBFD1BB"
     },
     {
-      "path": "output/release-geo-s05-year-change-20261127/runtime-v1-a4-title-continuation/a4/adult-1.png",
-      "bytes": 438654,
-      "sha256": "B1B8A04CCAB1BFF33B4C49A187CB478FAD4754FB600E9866C1B3DFFC11BF9183"
-    },
-    {
-      "path": "output/release-geo-s05-year-change-20261127/runtime-v1-a4-title-continuation/a4/adult-2.png",
-      "bytes": 69641,
-      "sha256": "A435351AF2E86B6979AD2A2E710D1AFB2B8C4F22440114D6A26BD5E24CAE5E28"
-    },
-    {
-      "path": "output/release-geo-s05-year-change-20261127/root-static-adoption.json",
-      "bytes": 109009,
-      "sha256": "B2B4E804320D8328931DFB900AF0DD55AE7526DB7D68D5790A38543BCA1FED72"
-    },
-    {
-      "path": "output/release-geo-s05-year-change-20261127/root-local-roles-progress-a4-adoption.json",
-      "bytes": 128585,
-      "sha256": "DE6C84A2935A16941F763E1558B9B39681F654C8B1186037B13B86B3A086070F"
-    },
-    {
-      "path": "output/release-geo-s05-year-change-20261127/root-local-runtime-adoption.json",
-      "bytes": 43462,
-      "sha256": "65385540752DE6B8C36765C3FB26D6841F523E6B89CCAB1DD9C417BC793A3634"
+      "path": "output/release-history-s5-language-20261127/root-local-runtime-adoption.json",
+      "bytes": 90986,
+      "sha256": "880221A6F2339626EE83E2B5CFF6DF204886072F81FAE64FCCA8B0F85B9190FE"
     }
   ],
   "limits": [
-    "Research master and public Dichte pin remain unchanged until separate authorised publication and verified activation.",
-    "Three voluntary unscored manual reflection tasks. Field counters record nonempty App text, never paper/oral work, correctness or actual learning.",
-    "Exact dated Eurostat category/rates, national own-prior-year denominators and residence definition retained; no absolute ranking, causes, person count or whole-tourism conclusion.",
-    "Actual local outputs remain the V1 child two-page PDF and V2 adult two-page PDF, reused by exact unchanged role/content/print-path parity, not a new V3 PDF run.",
-    "Voluntary7/8 preview, targetEnd8. Formal Grade7 validity, school sequence, actual learners/devices/printer and subject/year acceptance open."
+    "Only the existing H02c topic gains a voluntary unscored language-comparison practice. All four base tasks and 20 points remain unchanged. No new topic or state schema.",
+    "Child/oral/paper practice is not counted by field progress and is never inferred from filled fields. No private beliefs, global historical language-change or legal judgement required.",
+    "Actual child and adult three-page A4s are separately retained V1 artifacts; final V2 changes only version/evidence metadata, not content or print paths.",
+    "BLB anchor and actual HTTP/download event are observed. Attachment header length is not a received-byte proof; saving the external PDF and viewer page2 remain unverified. The printed/app exercise carries its required short textual material itself.",
+    "Base review25.10.2026 remains distinct from the narrow S5 review27.11.2026. No base-source re-evaluation or learner/device/printer/whole-subject/year acceptance.",
+    "Final independent package, Git/Pages, canonical HTTPS, scoped public UI and verified central activation remain separate open gates."
   ],
-  "updatedAt": "2026-11-27T02:42:09.471Z",
+  "updatedAt": "2026-11-27T03:43:40.081Z",
   "recordedProcessBoundary": {
     "separateProcesses": true,
-    "overallSingleSeriesPass": false,
-    "history": "Original horizontal-space and subject-prefix harness failures retained. Python launcher failed before audit. Actual V1 adult task3 split was retained and corrected only by an exact adult-print keep-together rule; new V2 adult output independently reviewed. See bound reports for actual individual process exits and counts."
+    "singleSeriesTotalPass": false,
+    "history": "Initial optional PDF popup fragment assertion failed after HTTP200/applicationPDF. Bounded continuation recorded actual attachment download and acceptDownloads:false storage refusal, plus previously unexecuted adult/source/actual A4 gates. Two later preparation failures occurred before browser startup. Small mobile-selector probe and remaining runtime are separate successful processes. Original failures and process evidence remain unchanged."
   },
   "remainingPackageGates": [
-    "Independent final version/evidence metadata and functional parity review",
-    "Authorised publication with expected-parent lease",
-    "Independent Git/Pages and canonical HTTPS bytes, scoped actual public UI",
-    "Verified public pin activation and central control"
+    "Independent exact final metadata/package parity review",
+    "Expected-parent publication",
+    "Independent Git/Pages and canonical HTTPS bytes plus scoped public UI",
+    "Verified public pin and central-control activation"
   ]
 }

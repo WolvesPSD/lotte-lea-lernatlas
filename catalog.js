@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.27-tourismus-jahresvergleich.3",
+  "version": "2026.11.27-quellensprache.2",
   "status": "familienversion",
   "subjects": [
     {
@@ -17189,8 +17189,38 @@ window.LOTTE_CATALOG = {
       "releaseEvidence": {
         "validFor": "2025/26 belegt; 2026/27 ungeklärt",
         "gradeBand": "7/8, Ziel Ende Klasse 8",
-        "competencyRef": "Geschichte Gymnasium 2021, §2.2.1 PDF-S. 19–20: Quellen, Darstellungen und historisches Urteil; §2.2.2 PDF-S. 21: Reformation und Folgen. Hier nur enger Vergleich zweier gegensätzlicher Positionen zu Artikel 3 der Zwölf Artikel.",
-        "checkedAt": "2026-10-25"
+        "competencyRef": "Geschichte Gymnasium 2021, §2.2.1 PDF-S. 19–20: Quellen, Darstellungen und historisches Urteil; §2.2.2 PDF-S. 21: Reformation und Folgen. Grundteil: enger Vergleich zweier gegensätzlicher Positionen zu Artikel 3 der Zwölf Artikel (interne Prüfung am 2026-10-25). Freiwilliger 0-Punkte-Zusatz S5, §2.2.1, fünfter Sachkompetenzstrich (PDF-S. 19 / Drucks. 21, Ziel Ende Klasse 8): zeitgenössische Quellensprache und Gegenwartssprache unterscheiden; eigener Vergleich der kurzen Melanchthon-Druckstelle von 1525 und eines heutigen Übungssatzes. Konkrete Unterrichtsfolge offen.",
+        "checkedAt": "2026-11-27",
+        "reviewNote": "Grundteil/Altquellen und Prüfumfang vom 25.10.2026 unverändert. Der Quellen-/Handlungsentscheid und das getrennte lokale Rollenpaar S5 wurden am 27.11.2026 angenommen; der spätere Bildabgleich betrifft nur das kurze BLB-Wortpaar, nicht die vollständige Faksimilekollation der Altkarte B. Der Datumsstempel der sichtbaren Zeile dokumentiert die tatsächlich unabhängig angenommene App-Überleitung dieses Zusatzes; keine erneute Original-/Grundteil-/Fach-/Kinder-/Jahresprüfung."
+      },
+      "practice": {
+        "title": "Was meint «Freiheit» in diesen beiden Texten?",
+        "childNote": "Freiwilliger Zusatz · 0 Punkte. Du kannst deinen Vergleich mündlich erklären oder auf Papier schreiben. Die vier Antwortfelder gehören zum Grundteil. Der Zusatz wird in der App nicht als erledigt gezählt. Du musst nichts über deinen eigenen Glauben erzählen.",
+        "childSteps": [
+          "Druck von 1525. In seiner Antwort auf den dritten Bauernartikel schreibt Philipp Melanchthon «geystlicher freyheyt». Das lange s ist als s wiedergegeben, beide y stehen so im Druck. Fundstelle im digitalen Auszug der Badischen Landesbibliothek: Seite 2, erster Absatz unter der Überschrift zum dritten Artikel.",
+          "Zum Zusammenhang, heute in eigenen Worten zusammengefasst: Melanchthon schreibt, Christus befreie Menschen von Sünde. Seiner Ansicht nach konnte jemand dabei weiterhin leibeigen sein, also von einem Herrn abhängig bleiben.",
+          "Heute für diese Übung geschriebener Beispielsatz: «Sie hat die Freiheit, ihre Religion selbst zu wählen.»",
+          "Von wem stammen die alten Wörter? Woher kommt der heutige Satz? Erkläre in eigenen Worten den Unterschied zwischen den beiden Verwendungen von Freiheit. Zeige einen Hinweis im Wortpaar oder seinem Zusammenhang und einen im heutigen Satz. Tipp bei Bedarf: Wer spricht, und um welche Situation geht es jeweils?"
+        ],
+        "childWritingLines": 4,
+        "externalLinks": [
+          {
+            "label": "Badische Landesbibliothek · Druckstelle im digitalen Auszug, Seite 2",
+            "url": "https://digital.blb-karlsruhe.de/download/pdf/3391640.pdf#page=2",
+            "printNote": "Freiwillige Quellenansicht. Alle Angaben für den Vergleich stehen auf dem Blatt."
+          }
+        ],
+        "adultNote": "Freiwilliger Vergleich, mündlich oder auf Papier, ohne Zusatzpunkte. Die 20 Kriterienpunkte der vier Grundaufgaben bleiben separat. Beim eigenen Versuch kann die Begleitung den Kontext vorlesen oder auf Sprecher und Situation hinweisen.",
+        "adultGuide": [
+          "Erst nach dem eigenen Versuch besprechen. Mögliches Modell: Melanchthon meint 1525 mit «geystlicher freyheyt» die Befreiung von Sünde durch Christus. Dass für ihn äussere Abhängigkeit fortbestehen kann, verdeutlicht diesen Bezug. Der heute für die Übung geschriebene Satz meint mit «ihre Religion selbst zu wählen» eine Entscheidung über die eigene Religion. Der Vergleich erklärt nur diese beiden Verwendungen. Andere heutige Verwendungen von «Freiheit» bleiben möglich. Bewertet werden weder Glaubensüberzeugungen noch Aussagen über weltweit geltende Rechte. Keine persönlichen Glaubensangaben erfragen oder notieren.",
+          "Mögliche Rückmeldung, wenn beide Hinweise vom Kind kamen: «An der weiter möglichen Abhängigkeit hast du Melanchthons Sicht erklärt. Im heutigen Satz hast du die Wörter gezeigt, an denen du die Wahl erkennst.» Andere treffende Hinweise gelten ebenso. Bleibt es bei der Schreibweise, frage, worauf sich Freiheit an jeder Stelle bezieht."
+        ],
+        "adultCriteria": [
+          "Welche Herkunft hat das Kind dem Wortpaar und dem heutigen Beispielsatz zugeordnet?",
+          "Wie hat es den Unterschied mit einem konkreten Hinweis aus jeder Verwendung erklärt? Vorgelesene oder erklärte Stellen und den eigenen Beitrag getrennt festhalten."
+        ],
+        "unscored": true,
+        "printObservationFooter": "Nur den tatsächlich erklärten Vergleich rückmelden. Genutzte Hilfe getrennt vermerken. Keine Zusatzpunkte."
       }
     },
     {

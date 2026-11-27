@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.26-salzwege.2",
+  "version": "2026.11.27-modelltemperaturen.3",
   "status": "familienversion",
   "subjects": [
     {
@@ -25192,6 +25192,153 @@ window.LOTTE_CATALOG = {
         "competencyRef": "Geografie Gymnasium 2012, § 2.2 PDF-S. 16 / Drucks. 18, M10: einfache kausale Zusammenhänge als Beziehungsgefüge darstellen. Ein begrenzter Modellfall.",
         "checkedAt": "2026-11-26",
         "independentCheck": "Lokale getrennte Rollenmaterialien am 23.11.2026 angenommen. Die Text-/Rollenüberleitung und ihre drei Ausgabefelder wurden am 26.11.2026 unabhängig geprüft. Kein neuer Originalquellenabruf und kein daraus abgeleiteter Kinder-, Geräte-, Drucker- oder Jahresnachweis."
+      }
+    },
+    {
+      "id": "go-modelltemperaturen-diagramm-zeichnen",
+      "subjectId": "go",
+      "title": "Zwei Temperaturreihen selbst zeichnen",
+      "draftOnly": false,
+      "released": true,
+      "levelStatus": "grade78-flex",
+      "levelLabel": "Freiwilliger Klasse-7-Vorgriff · Ziel Ende Klasse 8",
+      "scope": "Eigene Diagrammwahl und -herstellung aus zwei fiktiven Temperatur-Monatsreihen. Geografieplan mit Titeljahr 2012, § 2.2, Ziel Ende Klasse 8. Amtliche Klasse-7-Geltung 2026/27 und Schulfolge bleiben offen.",
+      "prerequisite": "Du brauchst das Thema „Klima und Pflanzen an zwei Modellorten“ nicht vorher bearbeitet zu haben. Zeichne auf kariertem Papier oder, wenn du sicher damit arbeiten kannst, in einem Tabellenprogramm. Für die Zeichnung reicht ein eigenes kariertes Zusatzblatt; die Schreiblinien im Ausdruck sind für Notizen, kein Koordinatengitter. Du musst keine Antwort in die App eingeben. Die Anzeige zählt nur ausgefüllte App-Felder. Eine Zeichnung auf Papier und die ausgelassene freiwillige Aufgabe können in der Anzeige offen bleiben.",
+      "introduction": "K (Küstenort) und B (Binnenort) sind erfundene Modellorte. Hier stehen dieselben Temperaturwerte wie im Thema „Klima und Pflanzen an zwei Modellorten“. Dort liest, berechnest und deutest du die Daten; hier entscheidest du selbst über eine Diagrammform und zeichnest beide Reihen. Die Werte sind gedachte Monatsmittel in °C, keine Messungen an einem Ort, in einem bestimmten Jahr oder eines Klimatrends. Besprich 20 Kriterienpunkte im Grundteil und getrennt bis zu 4 für den freiwilligen Transfer. Das sind Lernkriterien, keine Schulnote. Die App bewertet dein Diagramm oder deine freien Antworten nicht automatisch. Persönliche Daten brauchst du nicht.",
+      "passage": "FIKTIVE MODELLTABELLE · Temperatur-Monatsmittel in °C\nMonat | K (°C) | B (°C)\nJan | K 4 | B −4\nFeb | K 5 | B −2\nMrz | K 7 | B 4\nApr | K 10 | B 11\nMai | K 14 | B 17\nJun | K 17 | B 22\nJul | K 19 | B 25\nAug | K 19 | B 24\nSep | K 16 | B 18\nOkt | K 12 | B 10\nNov | K 8 | B 3\nDez | K 5 | B −2",
+      "lab": {
+        "path": "assets/go-klima-modell-tabelle.html",
+        "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/go-klima-modell-tabelle.html",
+        "title": "Freiwillig: Modelltabelle als CSV herunterladen",
+        "description": "Falls du in einem Tabellenprogramm zeichnen möchtest, kannst du die bekannte Starttabelle ohne Lösungen, Formeln oder fertige Grafik herunterladen. Nutze für die Temperatur die Spalten B und C; für den freiwilligen Niederschlagstransfer die Spalte D. Speichere deine eigene Arbeitskopie. Papier reicht völlig aus; alle benötigten Werte stehen hier. Excel- oder Calc-Bedienung wurde für diesen Auftrag nicht geprüft.",
+        "printNote": "Optional, nicht nötig: Alle benötigten Werte stehen vollständig im Arbeitsblatt. Das Tabellenprogramm und die eigene Diagrammherstellung müssen getrennt beurteilt werden; ein Eintrag in der App beweist sie nicht.",
+        "scoredInteraction": false
+      },
+      "tasks": [
+        {
+          "id": "go-modelltemperaturen-diagramm-zeichnen-1",
+          "kind": "reflection",
+          "points": 3,
+          "adultOnlySolution": true,
+          "writingLines": 5,
+          "inputRows": 5,
+          "prompt": "Diagrammform wählen · 3 Kriterienpunkte: Entscheide dich für ein Liniendiagramm, ein gruppiertes Säulendiagramm oder ein Kreisdiagramm. Welche Form zeigt den Verlauf beider Reihen über zwölf geordnete Monate besonders gut? Begründe deine Wahl mit Zeitfolge und Vergleich. Sage, weshalb eine der anderen Formen für diese Daten ungeeignet ist. Eine andere gut begründete Form als deine erste Wahl ist erlaubt.",
+          "sample": "Ein Liniendiagramm ist für die geordnete Monatsfolge und den Vergleich zweier Verläufe besonders übersichtlich. Ein gruppiertes Säulendiagramm ist ebenfalls sachlich geeignet, wenn je Monat beide Reihen vergleichbar bleiben. Ein Kreisdiagramm ist ungeeignet: Die Monate sind hier keine Teile eines Ganzen, und B enthält negative Temperaturwerte.",
+          "criteria": [
+            "Geeignete Form: 1 Punkt.",
+            "Begründung anhand der Zeitfolge: 1 Punkt.",
+            "Vergleich und plausible Abgrenzung einer ungeeigneten Form: 1 Punkt."
+          ]
+        },
+        {
+          "id": "go-modelltemperaturen-diagramm-zeichnen-2",
+          "kind": "reflection",
+          "points": 13,
+          "adultOnlySolution": true,
+          "writingLines": 5,
+          "inputRows": 5,
+          "prompt": "Diagramm herstellen · 13 Kriterienpunkte: Zeichne auf kariertem Papier oder in einem Tabellenprogramm beide Reihen. Gib deinem Diagramm einen treffenden Titel. Beschrifte die waagerechte Achse mit allen zwölf Monaten in der richtigen Reihenfolge und die senkrechte Achse mit Temperatur in °C. Deine Skala muss Werte unter 0 °C bis mindestens 25 °C zeigen, gleichmäßig sein und erkennbare Teilstriche haben; der 0-°C-Wert muss erkennbar sein. Trage alle 24 Monatswerte ein und mache durch eine Legende erkennbar, welche Reihe K und welche B ist. Bei Linien verbindest du aufeinanderfolgende Punkte innerhalb derselben Reihe; bei Säulen stehen die zwei Werte jedes Monats als Gruppe und gehen von der Nullbasis aus. Farbunterschiede allein reichen für die Legende nicht: Nutze zusätzlich unterschiedliche Zeichen oder Linienstile beziehungsweise eine direkte Beschriftung.",
+          "sample": "Titel benennt Modell-Monatstemperaturen K/B; Monate Jan–Dez in Reihenfolge; °C-Achse mit linearer Skala, mindestens −4 bis 25 °C (z. B. −5 bis 25 in 5-°C-Schritten); alle Datenpunkte/Säulen an richtiger Stelle; K und B auch ohne Farbe unterscheidbar. Der Nullwert ist ablesbar; für Säulen ist er die gemeinsame Basis. Eine zusätzlich hervorgehobene Null-Linie ist bei Linien nicht nötig. Die Werte sind einzeln am eigenen Diagramm gegen die Eingabetabelle zu prüfen.",
+          "criteria": [
+            "Titel: 1 Punkt.",
+            "Monate/Reihenfolge: 2 Punkte.",
+            "Achsenname/Einheit: 1 Punkt.",
+            "Gleichmäßige Skala mit Negativ- und Maximalwert: 2 Punkte. Bei Linien genügt der ablesbare Nullwert; bei Säulen gemeinsame Nullbasis.",
+            "24 Werte: 6 Punkte. Je Monatspaar 0,5, wenn beide stimmen; bei nur einem richtigen Wert des Paars 0,25.",
+            "Legende bzw. eindeutige direkte Reihenbeschriftung und brauchbare Verbindung/Gruppierung: 1 Punkt. Sachlich gleichwertige Skalierungen und Formen akzeptieren, wenn keine Daten verfälscht werden. Nicht optische Schönheit bewerten; verzerrte Skala bei den Aufbaupunkten berücksichtigen. Nur das tatsächlich angefertigte Diagramm belegt die Herstellung; ohne Diagramm bleibt diese Handlung nicht erhoben."
+          ]
+        },
+        {
+          "id": "go-modelltemperaturen-diagramm-zeichnen-3",
+          "kind": "reflection",
+          "points": 4,
+          "adultOnlySolution": true,
+          "writingLines": 6,
+          "inputRows": 6,
+          "prompt": "Ablesen und begrenzen · 4 Kriterienpunkte: Nenne aus deinem Diagramm den Monat des höchsten B-Werts samt °C. Nenne alle Monate, in denen K den Höchstwert erreicht. Beschreibe eine Stelle, an der sich die Reihen zwischen zwei Monaten in ihrer Reihenfolge ändern. Erkläre in einem Satz, warum dein Diagramm keinen tatsächlichen Klimawandel beweist. Kontrolle: Stimmen alle eingetragenen Werte und der Vergleich mit der Datentabelle überein? Kann man Monate, Einheit, Skala und beide Reihen ohne deine Erklärung lesen?",
+          "sample": "B: 25 °C im Juli. K: 19 °C im Juli und August. Reihenfolge wechselt zwischen März und April (Mrz K 7 > B 4; Apr K 10 < B 11) und erneut zwischen September und Oktober (Sep K 16 < B 18; Okt K 12 > B 10). Eine dieser beiden Stellen reicht. Kein Klimawandelbeweis, weil beide Reihen frei erfunden sind; auch echte Monatsmittel zweier Orte allein würden keinen Zeittrend über Jahre belegen. Ein Wechsel der Reihenfolge zwischen Monatswerten genügt ohne Schnittpunktberechnung. Ein tatsächlicher Verlauf zwischen den Monatsmitten ist nicht beobachtet.",
+          "criteria": [
+            "B-Höchstwert und Monat: 1 Punkt.",
+            "Beide K-Monate: 1 Punkt.",
+            "Ein korrekter Wechsel mit Monatsintervall: 1 Punkt.",
+            "Erklärung der Grenze: 1 Punkt. Richtige Tabellenantworten können unabhängig von der Aufbauwertung in Aufgabe 2 angerechnet werden; sie belegen keine eigene Diagrammherstellung. Kontrolle ist Hilfe und kein Zusatzpunkt."
+          ]
+        },
+        {
+          "id": "go-modelltemperaturen-diagramm-zeichnen-4",
+          "kind": "reflection",
+          "points": 4,
+          "adultOnlySolution": true,
+          "writingLines": 5,
+          "inputRows": 5,
+          "prompt": "Freiwilliger Transfer · 4 zusätzliche Kriterienpunkte: Erstelle ein zweites kleines Diagramm nur für K, diesmal für die Niederschlags-Monatssummen in mm. Sie lauten von Jan bis Dez: 55, 45, 50, 55, 60, 65, 70, 70, 65, 60, 60, 65 mm. Wähle eine geeignete Form, begründe sie kurz und beschrifte Einheit und Monate. Erkläre, warum du Temperatur und Niederschlag nicht ohne klar getrennte Achsen/Einheiten als eine einzige Zahlenreihe einzeichnen darfst. Die freiwillige Aufgabe verändert die 20 Grundpunkte nicht.",
+          "sample": "K-Niederschlag Jan–Dez: 55, 45, 50, 55, 60, 65, 70, 70, 65, 60, 60, 65 mm. Ein Monats-Säulendiagramm mit Nullbasis ist gut geeignet, weil jede Zahl eine mittlere Monatssumme ist. Ein Liniendiagramm kann die saisonale Folge zeigen, darf aber nicht einen gemessenen Tagesverlauf vortäuschen. Ein Diagramm mit getrennten, klar benannten Achsen wäre prinzipiell möglich; es ist hier nicht gefordert.",
+          "criteria": [
+            "Geeignete Form mit kurzer Begründung: 1 Punkt.",
+            "Monate und mm korrekt: 1 Punkt.",
+            "Zwölf Werte sinngemäß richtig: 1 Punkt.",
+            "Unterscheidung von °C und mm sowie Warnung vor einer gemeinsamen unbeschrifteten Zahlenreihe: 1 Punkt. Separat bis zu 4 Zusatzpunkte, nicht in die 20 Grundpunkte einrechnen. Ohne freiwilligen Versuch nicht erhoben."
+          ]
+        }
+      ],
+      "sourceBindings": {
+        "materialAdoption": {
+          "path": "output/leitung-20261123/geografie-m07-diagram-prepared-material-decision/root-material-adoption.json",
+          "bytes": 4393,
+          "sha256": "C4B4F4DAF50478281CCB606513A0319BBB6BDFA69303E12CD01C51104CE4A441"
+        },
+        "child": {
+          "path": "wissen/recherche/geografie-gm07-klimamodell-diagramm-kinderblatt-2026.md",
+          "bytes": 3925,
+          "sha256": "4C9CF9479EBCFD87B2B0DAB836944D8969E58A099789F3398C3121D5EE1CC315"
+        },
+        "adult": {
+          "path": "wissen/recherche/geografie-gm07-klimamodell-diagramm-erwachsenenloesung-2026.md",
+          "bytes": 5328,
+          "sha256": "05C3DB6518E663479077743BDD83EB210C1BCC30178DAEB0349BAECF0DE9B652"
+        },
+        "qa": {
+          "path": "wissen/recherche/geografie-gm07-klimamodell-diagramm-qa-2026.md",
+          "bytes": 9602,
+          "sha256": "3CC4F3972D455CD4EC240196CA7B2862AFA1CAFD227D64C1F345B51EDC6EF221"
+        },
+        "independentMaterialReview": {
+          "path": "output/leitung-20261123/geografie-m07-diagram-prepared-material-decision/independent-action-role-review/report.md",
+          "bytes": 2678,
+          "sha256": "6518D8E517308BAC3F776A2FD62945A4A36203889897D4101178411CB1704FE9"
+        },
+        "primaryPlan": {
+          "path": "pdf/LP_GY_Geo_Endfassung_11_10_2013.pdf",
+          "bytes": 228735,
+          "sha256": "FFB7CDC31952970E13D77606F94FD8A2B4C9004FC99BA0C9024C7638769BF983"
+        },
+        "modelSource": {
+          "path": "wissen/recherche/geografie-g01-klima-vegetation-modell-kinderblatt-2026.md",
+          "bytes": 7477,
+          "sha256": "533FCBCAFE63FA7D8D5E254403C77D791DF3F00C0C794E0AB0B5E83F229819FB"
+        },
+        "inputCSV": {
+          "path": "wissen/recherche/materialien/116-klimamodell-start.csv",
+          "bytes": 291,
+          "sha256": "DED42ED58A27080E5BDD0F7EFF8B2FFB60A244CCC95B0911946AC1550AA26F15"
+        },
+        "existingPublicInputPage": {
+          "path": "app/output/release-candidate-geo-salzwege-20261126-v3/assets/go-klima-modell-tabelle.html",
+          "bytes": 2450,
+          "sha256": "F209A2416DC0A98C9B4A1D6F149EDB2FD411A63214E4A827C3FCB07302C61F52"
+        },
+        "existingPublicInputCSV": {
+          "path": "app/output/release-candidate-geo-salzwege-20261126-v3/assets/go-klima-modell-start.csv",
+          "bytes": 291,
+          "sha256": "DED42ED58A27080E5BDD0F7EFF8B2FFB60A244CCC95B0911946AC1550AA26F15"
+        }
+      },
+      "releaseEvidence": {
+        "validFor": "Geografieplan mit Titeljahr 2012, Ziel Ende Klasse 8. Formale Klasse-7-Geltung 2026/27 und konkrete Schulfolge offen.",
+        "gradeBand": "Klasse 7/8, Ziel Ende Klasse 8",
+        "competencyRef": "Geografie Gymnasium 2012, § 2.2 PDF-S. 16 / Drucks. 18, M07: Daten in eine geeignete Diagrammform umsetzen. Begrenzter fiktiver Modellfall.",
+        "checkedAt": "2026-11-27",
+        "independentCheck": "Die getrennten Rollenmaterialien wurden am 23.11.2026 angenommen. Die App-Überleitung und ihre Daten wurden am 27.11.2026 unabhängig geprüft. Die lokale Ausgabe- und Bedienungsprüfung umfasst getrennte Rollen, beide A4-Ausgaben, den Tabellen-Download und Sicherung/Import mit synthetischen Testantworten, jeweils im dokumentierten Umfang. Ein eigener Diagrammaufbau, Excel-/Calc-Bedienung, schulische Anerkennung und Jahresabnahme wurden dadurch nicht beobachtet."
       }
     }
   ]

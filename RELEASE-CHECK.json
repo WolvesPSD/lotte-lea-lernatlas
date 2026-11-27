@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "version": "2026.11.26-salzwege.2",
-  "builtAt": "2026-11-26T23:00:17.853Z",
-  "status": "SCOPED_SALT_LOCAL_GATES_ACCEPTED_FINAL_METADATA_AND_PUBLIC_DELIVERY_PENDING",
+  "version": "2026.11.27-modelltemperaturen.3",
+  "builtAt": "2026-11-27T00:01:06.125Z",
+  "status": "LOCAL_SCOPED_FUNCTIONAL_EVIDENCE_ACCEPTED_PENDING_FINAL_PACKAGE_AND_PUBLICATION",
   "baseline": {
-    "candidate": "app/output/release-candidate-sprachwandel-kaspar-20261126-v4",
-    "version": "2026.11.26-sprachwandel-kaspar.3",
-    "commit": "ec7df844a976b18318366045f4bb3447186fdab3",
+    "candidate": "app/output/release-candidate-geo-salzwege-20261126-v3",
+    "version": "2026.11.26-salzwege.2",
+    "commit": "05ba0cc13fdbe368c24a54113cf5628dda070899",
     "pin": {
       "path": "app/current-public-baseline.json",
-      "bytes": 5003,
-      "sha256": "6A4403A26451A0B1DD591BA7B547B30817CD1F79F0F448F74AA4898A29CB34E4"
+      "bytes": 4835,
+      "sha256": "1E60876F58434C221DF5958CF95ADBEA3D12CDF8DBAD97149B705BCA351B5015"
     }
   },
-  "rollbackCommit": "ec7df844a976b18318366045f4bb3447186fdab3",
+  "rollbackCommit": "05ba0cc13fdbe368c24a54113cf5628dda070899",
   "change": {
     "newTopics": [
-      "go-salzwege-pfeildiagramm"
+      "go-modelltemperaturen-diagramm-zeichnen"
     ],
     "newTasks": 4,
     "existingTopicsChanged": 0,
@@ -31,53 +31,60 @@
       "index.html",
       "styles.css"
     ],
-    "cssScope": "Adult print only, exact four new salt tasks; keep question/model/criteria in a coherent block where page size permits."
+    "cssScope": "Adult print only, four exact new M07 task blocks, keep question/model/criteria together where page size permits."
   },
   "inventory": {
-    "topics": 232,
-    "taskObjects": 1048,
-    "oldTopicObjectsUnchanged": 231,
-    "oldTaskObjectsUnchanged": 1044,
+    "topics": 233,
+    "taskObjects": 1052,
+    "oldTopicObjectsUnchanged": 232,
+    "oldTaskObjectsUnchanged": 1048,
     "annualCoverageQuota": false
   },
   "validation": {
-    "independentTextRolesAndThreeFieldDraft": "PASS_SCOPED_INPUTS",
-    "candidateIndependentStatic": "PASS_SCOPED_V1_INTEGRATION_PLUS_V2_ADULT_PRINT_DELTA",
-    "actualMobileDiagramAndSourceCards": "PASS_SCOPED_320_390_NEW_TOPIC_TEXT_REACH",
-    "actualChildAdultRoles": "PASS_SCOPED_FOUR_MANUAL_CHECKS_AND_SEPARATED_MODELS",
-    "syntheticStateExportImport": "PASS_SCOPED_FOUR_SYNTHETIC_ANSWERS_RELOAD_REAL_DOWNLOAD_CONFIRMED_FRESH_IMPORT_RELOAD",
-    "actualChildAdultA4DiagramSpace": "PASS_SCOPED_V1_CHILD_REUSE_PLUS_CORRECTED_V2_ADULT_OUTPUT",
-    "finalIndependentPackage": "PENDING_INDEPENDENT_METADATA_PARITY_REVIEW",
-    "GitPagesHTTPSPublicUI": "PENDING"
+    "independentTextDataRoles": "PASS_SCOPED_INPUTS",
+    "candidateIndependentStatic": "V1_TRANSFER_AND_V2_PRINT_DELTA_ADOPTED_FINAL_EVIDENCE_METADATA_PENDING",
+    "actualMobileDataAndManualRoles": "PASS_SCOPED_FUNCTIONAL_EVIDENCE_INDEPENDENTLY_ADOPTED",
+    "optionalHTMLAndCSVDownload": "PASS_ACTUAL_291BYTE_INPUT_FILE_WITH_RECORDED_REQUEST_EVENT",
+    "syntheticExportFreshImport": "PASS_ACTUAL_FOUR_FILLED_SYNTHETIC_VALUES_AND_CLEARING",
+    "actualChildAdultA4": "PASS_REUSED_CHILD3_AND_CORRECTED_ADULT2",
+    "finalIndependentPackage": "PENDING",
+    "GitPagesHTTPSPublicUI": "PENDING",
+    "requestErrorFree": "NOT_PASSED_ONE_RECORDED_CSV_REQUEST_EVENT",
+    "overallSingleSeriesPass": false
   },
   "evidence": [
     {
-      "path": "output/leitung-20261126/website-geo-salt-action-app-draft/root-v3-output-preparation-adoption.json",
-      "bytes": 8032,
-      "sha256": "D93DE6E2DFD85BF78B616C8222F7A3B17FFD21CBC8F4CBD769A8DC7CA8C1375A"
-    },
-    {
-      "path": "output/leitung-20261126/website-geo-salt-action-app-draft/root-draft-transfer-adoption.json",
-      "bytes": 5644,
-      "sha256": "846201F06A877069F5E1246440DBF86658FE0D8EC27BCF0B635004A031372DDA"
-    },
-    {
-      "path": "output/release-geo-salzwege-20261126/root-local-runtime-adoption.json",
-      "bytes": 77650,
-      "sha256": "8076AF531DAFC8BD9503EB86D316BA33FDF8613F740CF4387015DD40741236F4"
+      "path": "output/leitung-20261127/website-geo-m07-diagram-app-draft/root-draft-transfer-adoption.json",
+      "bytes": 11287,
+      "sha256": "1C63F7DE7CD43AC37F09EFBD04995DE95C500E6B6601B5A0B7EC03725C56565C"
     }
   ],
   "limits": [
-    "Isolated candidate release override only; no public/master change.",
-    "Paper or own text diagram, manual20base+6voluntary; general app progress counts app entries only.",
-    "End8 target; formal2026/27Grade7 applicability and school sequence open. No actual learner/device/printer/year acceptance.",
-    "Historical separate failed audits retained. No summed single-series pass or actual child/drawing/device/printer/year acceptance."
+    "Only isolated candidate release override; no current public pin or research master change.",
+    "Base20 plus optional4, own squared paper sufficient, ordinary print lines are not a coordinate grid.",
+    "Existing optional CSV input is not software-operation or drawing-performance evidence.",
+    "End8 target, formal Grade7 applicability and school sequence open. No actual learner/device/printer/annual acceptance."
   ],
-  "updatedAt": "2026-11-26T23:08:18.462Z",
+  "updatedAt": "2026-11-27T00:34:12.351Z",
   "adultBreakCorrection": {
-    "previousCandidate": "app/output/release-candidate-geo-salzwege-20261126-v1",
-    "observed": "Root personally viewed V1Adult1-3: task1 question split between pages1/2 and task3 final criterion split between2/3.",
-    "actualCorrectedAdultA4": "PASS_SCOPED_ACTUAL_OUTPUT_AND_INDEPENDENT_EVIDENCE"
+    "previousCandidate": "app/output/release-candidate-geo-m07-diagram-20261127-v1",
+    "observed": "Root personally viewed both actual V1Adult pages: task2 construction prompt split between1/2, model and rubric on2.",
+    "actualCorrectedAdultA4": "ACTUAL_V2_TWO_PAGES_ADOPTED"
   },
-  "finalizedAt": "2026-11-26T23:25:47.315Z"
+  "localRuntimeEvidence": {
+    "path": "output/release-geo-m07-diagram-20261127/root-local-runtime-adoption.json",
+    "bytes": 150081,
+    "sha256": "9460075901F928BBA8D4950E48369DBDBB1F8ADE1996DE641E41BA6CDCF91445"
+  },
+  "recordedProcessBoundary": {
+    "selectorProbe": "10/10 Shell/Node0",
+    "remaining": "73/74, NodeReportedExit1; shell lingered after summary and own handle was stopped with actualShellExit1",
+    "failedGate": "no-unexpected-external-page-or-request-errors",
+    "requestEvent": "One net::ERR_ABORTED for same exact CSV URL as completed byte-identical download with download.failure=null. No timing-causality or blanket request-errorfree claim.",
+    "historicalFailuresRetained": true
+  },
+  "remainingPackageGates": [
+    "Independent final version/evidence-note/RC package review",
+    "Authorized publication and actual Git/Pages/exact HTTPS/scoped public UI"
+  ]
 }

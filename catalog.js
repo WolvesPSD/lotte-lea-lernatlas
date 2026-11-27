@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.27-deux-ateliers.1",
+  "version": "2026.11.27-thueringen-staedte.1",
   "status": "familienversion",
   "subjects": [
     {
@@ -25939,6 +25939,113 @@ window.LOTTE_CATALOG = {
         "competencyRef": "Französisch als zweite Fremdsprache, § 3.2.4, PDF-S. 62: eigene Notizen, Mindmaps und Stichwortgerüste als Ziel bis Ende Klasse 8. § 3.5.2 gibt eine Orientierung für begründete Meinungsäusserung. Die konkrete Schulfolge bleibt offen.",
         "reviewNote": "Grundfall mit 20 Kriterienpunkten und freiwilligen unbepunkteten Prüfschritten aus getrennten Rollen übernommen; Quellen-/Text-/Handlungs-/Rollenüberleitung unabhängig geprüft. Bedienung, vollständige Text-Erreichbarkeit bei 320/390, Quellenansicht und gefüllte Sicherung mit bestätigtem Frischimport/Reload sind im isolierten Kandidaten geprüft. Tatsächliche Kinder- und Erwachsenenausgaben mit je drei A4-Seiten sind getrennt geprüft; die neue Adult-Druckregel hält Aufgabe B vollständig zusammen. Historische abgebrochene Prüfläufe und ihre Fehler bleiben separat dokumentiert. Die spätere 6-Punkte-Variante gehört nicht zu dieser Ausgabe. Keine menschliche Sprach-/Altersabnahme, tatsächliche Lernendenleistung, Geräte-/Drucker-, Fach- oder Jahresabnahme daraus abgeleitet.",
         "checkedAt": "2026-11-27"
+      }
+    },
+    {
+      "id": "go-thueringer-staedte-dichte-flaechennutzung",
+      "subjectId": "go",
+      "title": "Thüringer Städte mit zwei Datensätzen untersuchen",
+      "released": true,
+      "levelStatus": "grade8-outlook",
+      "scope": "Bedingt vorbereiteter methodischer Teilfall im Zielhorizont Ende 8, möglicher Vorgriff im Zeitraum 7/8. Formale Geltung für Klasse 7 und konkrete Schulfolge bleiben offen.",
+      "introduction": "Wie unterscheiden sich Erfurt, Gera und Jena bei Einwohnerdichte und Flächennutzung? Was lässt sich mit diesen Zahlen sagen – und was bleibt offen? Untersuche jeweils das gesamte Verwaltungsgebiet. Aufgaben 1 bis 5 ergeben 20 Punkte. Der Zusatz ist freiwillig und wird getrennt mit bis zu 6 Punkten besprochen. Die App zählt ausgefüllte Antwortfelder, auch das freiwillige Feld. Du kannst es leer lassen. Papierantworten zählen dort nicht mit.",
+      "passage": "Gemeinsamer Stichtag für alle Werte: 31.12.2024.\n\nErfurt\nEinwohner am 31.12.2024 (A): 218 793 Personen\nGesamtfläche (B): 26 991 ha\nLandwirtschaft (B): 14 905 ha\nWald (B): 2 087 ha\nGewässer (B): 566 ha\nSiedlungs- und Verkehrsfläche (B): 8 549 ha\nSonstige Fläche (B): 884 ha\n\nGera\nEinwohner am 31.12.2024 (A): 95 608 Personen\nGesamtfläche (B): 15 218 ha\nLandwirtschaft (B): 7 666 ha\nWald (B): 2 734 ha\nGewässer (B): 126 ha\nSiedlungs- und Verkehrsfläche (B): 4 414 ha\nSonstige Fläche (B): 278 ha\n\nJena\nEinwohner am 31.12.2024 (A): 109 725 Personen\nGesamtfläche (B): 11 477 ha\nLandwirtschaft (B): 3 570 ha\nWald (B): 4 070 ha\nGewässer (B): 102 ha\nSiedlungs- und Verkehrsfläche (B): 3 595 ha\nSonstige Fläche (B): 140 ha\n\nDie Einwohnerdichte bezieht die Einwohnerzahl auf die gesamte Stadtfläche. Sie ist kein Messwert dafür, wie dicht ein einzelnes Wohngebiet bebaut oder bewohnt ist.\n„Siedlungs- und Verkehrsfläche“ ist eine amtliche zusammengefasste Flächenkategorie. Sie ist nicht dasselbe wie reine Wohnfläche.\nDie Tabellen zeigen Vergleiche, aber keine Ursache. Eine Vermutung zu Verkehr, Arbeitsplätzen, Landschaft oder Stadtplanung braucht passende zusätzliche Belege.\nNenne bei beiden Quellen das Thüringer Landesamt für Statistik.",
+      "cardsHeading": "Quellen der Stadtangaben",
+      "sourceCards": [
+        {
+          "title": "A · Einwohnerbestand",
+          "text": "Copyright © Thüringer Landesamt für Statistik. Statistisches Jahrbuch Thüringen, Ausgabe 2025, Kapitel I, Tabelle 2, Druckseite 52, Bevölkerung insgesamt am 31.12.2024. Eigene Darstellung. Bevölkerungsfortschreibung auf Basis des Zensus 2022. Für die eigene Dichteberechnung verwendest du die Gesamtfläche 2024 aus B. Die Dichten im Jahrbuch beruhen auf Flächen vom 31.12.2023.",
+          "sourceUrl": "https://statistik.thueringen.de/informationen/jahrbuch/2025/pdf/TLS_JB2025_01.pdf",
+          "sourceLabel": "Jahrbuch 2025 · Kapitel I, PDF-Seite 10",
+          "sourceNote": "Die drei Einwohnerzahlen stehen jeweils in der ersten Datenzeile der Stadt."
+        },
+        {
+          "title": "B · Flächennutzung",
+          "text": "Thüringer Landesamt für Statistik. Pressemitteilung 211/2025: Waldfläche umfasst ein Drittel der Bodenfläche Thüringens, 03.09.2025. Tabelle auf Seite 2: Flächen nach Art der tatsächlichen Nutzung zum 31.12.2024 nach Kreisen. Eigene Darstellung. ALKIS, tatsächliche Nutzung, absolute Werte in Hektar. Die zusammengefasste Siedlungs- und Verkehrsfläche folgt den Abgrenzungen der Tabellenfussnote.",
+          "sourceUrl": "https://statistik.thueringen.de/presse/2025/pr_211_25.pdf",
+          "sourceLabel": "Pressemitteilung 211/2025 · Seite 2",
+          "sourceNote": "Alle sechs Flächen je Stadt stammen aus dieser Tabelle."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "go-thueringer-staedte-dichte-flaechennutzung-1",
+          "kind": "reflection",
+          "points": 3,
+          "prompt": "Frage und Daten prüfen (3 P.) Schreibe die Leitfrage mit eigenen Worten auf. Nenne beide Datenarten und ihren gemeinsamen Stichtag. (je 1 P.)",
+          "adultOnlySolution": true,
+          "sample": "Wie unterscheiden sich die drei Städte bei Dichte und Flächennutzung, und was bleibt offen? Einwohnerbestand und tatsächliche Flächennutzung, beide am 31.12.2024.",
+          "criteria": [
+            "Leitfrage sinngemäss; zwei Datenarten; gemeinsamer Stichtag"
+          ],
+          "writingLines": 4
+        },
+        {
+          "id": "go-thueringer-staedte-dichte-flaechennutzung-2",
+          "kind": "reflection",
+          "points": 3,
+          "prompt": "Hektar in Quadratkilometer umrechnen (3 P.) 1 km² = 100 ha. Ergänze für jede Stadt die Gesamtfläche in km². Runde auf zwei Nachkommastellen. Erfurt: 26 991 ÷ 100 = ____ km². Gera: 15 218 ÷ 100 = ____ km². Jena: 11 477 ÷ 100 = ____ km².",
+          "adultOnlySolution": true,
+          "sample": "Erfurt: 26 991 ha ÷ 100 = 269,91 km². Gera: 15 218 ha ÷ 100 = 152,18 km². Jena: 11 477 ha ÷ 100 = 114,77 km².",
+          "criteria": [
+            "drei Umrechnungen korrekt auf 2 Dezimalen"
+          ],
+          "writingLines": 5
+        },
+        {
+          "id": "go-thueringer-staedte-dichte-flaechennutzung-3",
+          "kind": "reflection",
+          "points": 5,
+          "prompt": "Einwohner je Quadratkilometer vergleichen (5 P.) Berechne für jede Stadt näherungsweise: Einwohnerdichte = Einwohnerzahl ÷ Gesamtfläche in km². Runde auf ganze Einwohner je km². Welche Stadt hat in diesem Vergleich den höchsten, welche den niedrigsten Wert? Belege deine Antwort mit den berechneten Zahlen. (3 P. Berechnungen, 2 P. Vergleich)",
+          "adultOnlySolution": true,
+          "sample": "Erfurt: 218 793 ÷ 269,91 ≈ 811 Einw./km². Gera: 95 608 ÷ 152,18 ≈ 628 Einw./km². Jena: 109 725 ÷ 114,77 ≈ 956 Einw./km². Jena hat den höchsten, Gera den niedrigsten Wert.",
+          "criteria": [
+            "drei Quotienten (3); höchster und niedrigster Wert belegt (2)"
+          ],
+          "writingLines": 7
+        },
+        {
+          "id": "go-thueringer-staedte-dichte-flaechennutzung-4",
+          "kind": "reflection",
+          "points": 4,
+          "prompt": "Zwei Anteile an der Gesamtfläche berechnen (4 P.) Berechne den Waldanteil von Erfurt und Jena sowie den Anteil der Siedlungs- und Verkehrsfläche von Gera: Anteil in Prozent = Teilfläche ÷ Gesamtfläche × 100. Runde auf eine Nachkommastelle. Zeige jeweils eine Rechnung. (je Stadt: Rechnung und Ergebnis)",
+          "adultOnlySolution": true,
+          "sample": "Erfurt, Wald: 2 087 ÷ 26 991 × 100 ≈ 7,7 %. Jena, Wald: 4 070 ÷ 11 477 × 100 ≈ 35,5 %. Gera, Siedlungs- und Verkehrsfläche: 4 414 ÷ 15 218 × 100 ≈ 29,0 %. Möglichst mit ungerundeten Zwischenergebnissen rechnen und erst das Endergebnis runden.",
+          "criteria": [
+            "drei passende Quotienten und Ergebnisse; je Stadt 1 Punkt plus 1 für vollständige Belegrechnungen insgesamt"
+          ],
+          "writingLines": 7
+        },
+        {
+          "id": "go-thueringer-staedte-dichte-flaechennutzung-5",
+          "kind": "reflection",
+          "points": 5,
+          "prompt": "Befund und Grenze (5 P.) Schreibe drei kurze Antworten: 1. Wähle eine Stadt. Beschreibe sie mit ihrer berechneten Einwohnerdichte und einem Flächenanteil aus Aufgabe 4. Nenne die Stadt, die Flächennutzung und beide Werte mit ihren Einheiten. (2 P.) 2. Erkläre, warum die Gesamtdichte einer Stadt nicht zeigt, wo innerhalb der Stadt die Menschen wohnen. (2 P.) 3. Nenne eine weitere Frage, für die du zusätzliche Daten bräuchtest. (1 P.)",
+          "adultOnlySolution": true,
+          "sample": "Jena hat rund 956 Einwohner je km² Gesamtfläche. Rund 35,5 % der Gesamtfläche Jenas sind Wald. Die Werte beschreiben verschiedene Eigenschaften. Ein Zahlenvergleich zwischen ihnen oder eine Aussage über die Besiedlung des Waldes ist daraus nicht möglich. Die Dichte mittelt über das gesamte Verwaltungsgebiet. Wo wohnen die Menschen innerhalb der Stadt? Dafür wären kleinräumige Bevölkerungsdaten nötig.",
+          "criteria": [
+            "zwei zutreffende Merkmale derselben Stadt mit passender Kategorie, Wert und Einheit (je 1); korrekte Aggregatgrenze (2); passende weitere Datenfrage (1)"
+          ],
+          "writingLines": 7
+        },
+        {
+          "id": "go-thueringer-staedte-dichte-flaechennutzung-6",
+          "kind": "reflection",
+          "points": 6,
+          "prompt": "Zusatz · freiwillig (6 P.). 1. Berechne für alle drei Städte den Anteil der Siedlungs- und Verkehrsfläche und ordne die Werte. (3 P.) 2. Formuliere eine vorsichtige Vermutung, die du mit diesen zwei Tabellen noch nicht beweisen kannst. Nenne dazu eine passende zusätzliche Datenart, die du für eine Prüfung bräuchtest. (3 P.)",
+          "adultOnlySolution": true,
+          "sample": "Siedlungs-/Verkehrsanteile richtig berechnet und geordnet (3): Erfurt ca. 31,7 %, Gera ca. 29,0 %, Jena ca. 31,3 %; aufsteigend Gera, Jena, Erfurt. Für eine Folgestudie eignen sich beispielsweise kleinräumige Bevölkerungsraster plus eine gleich abgegrenzte Nutzungskarte, oder Verkehrsdaten für einen konkret benannten Zusammenhang. Ohne diese Daten keine Ursache behaupten. Bei der Vermutung auf die genannte Datenart und die Grenzen der beiden Tabellen eingehen.",
+          "criteria": [
+            "Siedlungs-/Verkehrsanteile richtig berechnet und geordnet (3): Erfurt ca. 31,7 %, Gera ca. 29,0 %, Jena ca. 31,3 %; aufsteigend Gera, Jena, Erfurt.",
+            "Eine eindeutig als nicht bewiesen markierte Vermutung sowie passende zusätzliche Daten (3). Unterschiedliche plausible Antworten zulassen, wenn Grenze und Prüfung zusammenpassen."
+          ],
+          "writingLines": 7
+        }
+      ],
+      "releaseEvidence": {
+        "competencyRef": "Geografie Gymnasium, § 2.2, Methodenkompetenz M05: „fragegeleitet Räume analysieren“. Angeleiteter Teilfall im Zielhorizont Ende Klasse 8. Klasse 7 beruht auf einer Kontinuitätsinferenz, die konkrete Schulfolge bleibt offen.",
+        "checkedAt": "2026-11-27",
+        "reviewNote": "Angeleiteter Städtevergleich aus getrennten Rollen mit 21 übernommenen TLS-Werten und zwei zugeordneten Quellen. Fünf Grundaufgaben mit 20 manuell besprochenen Kriterienpunkten, freiwilliger Zusatz getrennt bis 6. Quellen-/Text-/Handlungs-/Rollenüberleitung und lokaler Kandidat unabhängig geprüft. Tatsächlich 238 sichtbare Angebote im Klasse-7-Profil bei 240 Katalogthemen; dies ist keine Jahresquote. Textrechtecke bei 320/390, manuelle Kinder-Rückmeldungen, getrennte Erwachsenenmodelle, geöffnete Themenquellenzeile und sechs synthetische Antworten über echten Sicherungsdownload, bestätigten Frischimport und Reload geprüft. Tatsächliche Kinder-A4 mit drei Seiten aus V2 und korrigierte Erwachsenen-A4 mit drei Seiten aus V3 getrennt angenommen; frühere Umbruch- und Auditfehler bleiben erhalten. Eigene Dichte nutzt die Gesamtfläche 2024, veröffentlichte Jahrbuchdichten mit Flächenstand 2023 sind getrennt. Angeleiteter Ende-8-Teilfall, Klasse-7-Kontinuitätsinferenz und konkrete Schulfolge offen. Keine beobachtete Lernendenleistung, physische Geräte-/Drucker-, Fach- oder Jahresabnahme."
       }
     }
   ]

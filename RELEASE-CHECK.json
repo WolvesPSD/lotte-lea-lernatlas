@@ -1,58 +1,62 @@
 {
-  "version": "2026.11.27-deux-ateliers.1",
-  "builtAt": "2026-11-27T11:04:12.604Z",
+  "version": "2026.11.27-thueringen-staedte.1",
+  "builtAt": "2026-11-27T12:41:15.266Z",
   "status": "LOCAL_SCOPED_GATES_ACCEPTED_FINAL_PACKAGE_INDEPENDENT_REVIEW_AND_PUBLIC_DELIVERY_PENDING",
   "baseline": {
-    "candidate": "app/output/release-candidate-geo-map-choice-20261127-v4",
-    "version": "2026.11.27-suedasien-kartenwahl.4",
-    "commit": "56c640b7a4b604c9572b6c84fc74ab9cf4315f1d",
+    "candidate": "app/output/release-candidate-fr-two-ateliers-20261127-final-v3",
+    "version": "2026.11.27-deux-ateliers.1",
+    "commit": "ca7db595bd0147aa33de9bf32d9117fdb4bce4f4",
     "pin": {
       "path": "app/current-public-baseline.json",
-      "bytes": 5183,
-      "sha256": "85D08C2D40FB063BDCA1E65721A1C7288B266985F568EE81AD9DE307EE98CC8B"
+      "bytes": 5628,
+      "sha256": "FECA3F9C79144AD2E8C5124F7E18A0E7B5572F1221DAC277B0709813ACCD05DD"
     },
     "manifest": {
-      "path": "output/release-geo-map-choice-20261127/candidate-build-manifest-v4.json",
-      "bytes": 52249,
-      "sha256": "717093F891069D9136944AEB4C8AC51D7EC302F5BEBBF9C6492FE8CFD8F3225F"
+      "path": "output/release-fr-two-ateliers-20261127/candidate-build-manifest-final-v3.json",
+      "bytes": 50217,
+      "sha256": "234A3CBD55A1F739D5556D971B707398AD916A4B8222F02910CC6D0B035EEC38"
+    },
+    "publicGate": {
+      "path": "output/release-fr-two-ateliers-20261127/root-postpublication-adoption.json",
+      "bytes": 4305,
+      "sha256": "24EB4B58E77CE9C19DF7F6683C92CDEBA15D5DB48B7EA0FA2CD98B7B32C882CE"
     }
   },
   "evidence": [
     {
-      "path": "output/release-fr-two-ateliers-20261127/root-candidate-v2-adult-output-adoption.json",
-      "bytes": 3903,
-      "sha256": "7AF304ADAACD2F8094C849173E4F562CBFD9312A9489CFF8B8C90694831483A1"
+      "path": "output/release-geo-thuringian-cities-20261127/root-remaining-runtime-v3-adoption.json",
+      "bytes": 3698,
+      "sha256": "952B8EF1EBE10249ABFD00C1D0945632E2F9E139ED2AF541F9BD22D39B25A58C"
     },
     {
-      "path": "output/release-fr-two-ateliers-20261127/root-candidate-v2-print-reuse-adoption.json",
-      "bytes": 5998,
-      "sha256": "FA585FA6851031B17DE9CC2F3316F436A639DD742177C8A4150D843A3552112A"
+      "path": "output/release-geo-thuringian-cities-20261127/root-v3-final-paper-adoption.json",
+      "bytes": 1520,
+      "sha256": "C1499CE0C397D839AE2DCBC57022FBF00E98A27702DF7DD885F89C1762E2CF20"
     },
     {
-      "path": "output/release-fr-two-ateliers-20261127/root-v2-runtime-child-output-adoption.json",
-      "bytes": 75893,
-      "sha256": "2CA1196B23A8CAABCD00759ED96F7CFD42E7478918EB0CEE21BD68B55269B30D"
+      "path": "output/release-geo-thuringian-cities-20261127/root-v3-child-reuse-adoption.json",
+      "bytes": 2496,
+      "sha256": "1451D526E0B6267347B188A3F82C417AB035423293CBC89629313A8E66848CD0"
     }
   ],
-  "scope": "One French topic, two exact fictional announcement cards, three manually assessed tasks8+10+2; optional help/rereading0. All238 previous topics and1068 previous tasks preserved. Existing renderer/assets/state unchanged; one new task-specific Adult print keep-inside rule.",
+  "scope": "One guided Geography M05 city-analysis topic,21 original values,two attributed TLS sources,six tasks20+6. All239 public predecessor topics and1071tasks preserved. Renderer/assets/state unchanged. CSS exceptions scoped to this topic in print: Child source heading with first card, Adult source heading with first card and complete task6 keep-together. No content or font reduction.",
   "validation": {
-    "sourceTextRoleTransfer": "INDEPENDENT_ROOT_ACCEPTED",
-    "runtimeStateBackupImport": "EXACT_ACCEPTED_V1_REUSED_VIA_V2_SCOPE_REVIEW",
-    "childA4": "ACTUAL3PAGES_V1_ACCEPTED_REUSED",
-    "adultA4": "ACTUAL3PAGES_V2_ACCEPTED_B_COMPLETE_ON_PAGE2",
+    "sourceTextRole": "INDEPENDENT_ROOT_ACCEPTED",
+    "runtimeMobileRolesSourceBackupImport": "ACTUAL_V3_MAIN_172_GROUPS_SEPARATE11_GROUP_PROBE_INDEPENDENT_ACCEPTED",
+    "childA4": "ACTUAL3PAGES_V2_ACCEPTED_REUSED_BY_EXACT_V3_PARITY",
+    "adultA4": "ACTUAL3PAGES_V3_ACCEPTED",
     "finalPackage": "PENDING_INDEPENDENT_REVIEW",
-    "publication": "NOT_YET_AUTHORIZED_FINAL_PACKAGE"
+    "publication": "NOT_YET_AUTHORIZED"
   },
   "historicalProcessLimits": [
-    "V1 remaining run stopped on empty paragraph selector; successful explicit continuation separate.",
-    "Child audit Exit1 white pixel rank; next audit Exit1 invalid raw-frame assertion; actual23 grouped writing lines and seven negative controls confirmed independently with complete page sight.",
-    "AdultV1 actual complete content but orphan B criterion failed layout.",
-    "First AdultV2 run Exit1 due current .2 versus historical .1 comparator before topic selection; exact comparator-only continuation separate.",
-    "No combined unique assertion total or retrospective upgrade of failed exits.",
-    "Original V2 builder exit unconfirmed because tool output truncated; existing files independently verified."
+    "V1 Child source heading alone page1; Adult not generated. V1 audit also mistakenly required two UI-only hidden source labels. Full bibliographies/notes/URLs remain required.",
+    "V2 actual Child3 passed; first Adult3 failed real heading orphan and task6 sentence split across2/3. Full text exists; original AuditExit1 and separate exact-header diagnosis retained.",
+    "V3 Adult3 has heading with cardA on2 and complete task6/model/criteria on3. V2 Child3 is historical reuse, not a new V3 Child capture.",
+    "Initial V2 builder guard expected child instead of actual child-release and stopped before writes; corrected builder and incidental unused empty noncandidate file documented.",
+    "No sum of separate check groups is presented as a unique combined series."
   ],
   "openGates": [
-    "Fresh public parent lease, Git/Pages, allcanonical HTTPS, bounded public UI and actual visible offer count.",
-    "Human language/age, physical devices/printer, observed learning, whole subject/year acceptance remain open."
+    "Fresh public parent lease, Git/Pages, all140 canonical HTTPS files plus landing and bounded public UI/actual offer count.",
+    "Formal Grade7 Geography plan applicability, school sequence, physical devices/printer, observed learners, whole subject and full annual acceptance remain open."
   ]
 }

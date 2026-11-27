@@ -1,79 +1,105 @@
 {
   "schemaVersion": 1,
-  "status": "LOCAL_SCOPED_GATES_ACCEPTED_FINAL_PACKAGE_AND_PUBLIC_DELIVERY_PENDING",
-  "version": "2026.11.27-en-m7-druckphase.3",
-  "builtAt": "2026-11-27T06:22:06.951Z",
+  "status": "LOCAL_HISTORY_EPOCH_GATES_ACCEPTED_FINAL_PACKAGE_AND_PUBLIC_DELIVERY_PENDING",
+  "version": "2026.11.27-epochenbegriffe.4",
+  "builtAt": "2026-11-27T06:51:04.074Z",
   "baseline": {
-    "candidate": "app/output/release-candidate-geo-sonnenbogen-20261127-v4",
-    "version": "2026.11.27-sonnenbogen.4",
-    "commit": "85de433beb51b539767ad1373d0319dfbbf85151",
+    "candidate": "app/output/release-candidate-en-m7-print-phase-20261127-v3",
+    "version": "2026.11.27-en-m7-druckphase.3",
+    "commit": "6dde01ee0e805362c7a18e5801f6bced8e1db76d",
     "pin": {
       "path": "app/current-public-baseline.json",
-      "bytes": 5111,
-      "sha256": "245DBF0845FD63119F04A641D95F0045A593E5760C117DCD20FF26FF918AC22B"
+      "bytes": 4460,
+      "sha256": "EFF0EB8FA71B3B71CBFE19E6CCEF3690173F32D2283DD42469FB43EE8D791428"
     },
     "manifest": {
-      "path": "output/release-geo-sonnenbogen-20261127/candidate-build-manifest-v4.json",
-      "bytes": 51481,
-      "sha256": "06825F1D80A2100BB198E1859FC474B63B91D53E337C0C7A57C19B42FEDAF6FF"
+      "path": "output/release-en-m7-print-phase-20261127/candidate-build-manifest-v3.json",
+      "bytes": 49161,
+      "sha256": "8D876A197FD988F92987077476D70153AD0CE3CA4F463A8D5F1B086954A6FB44"
+    },
+    "closedPublication": {
+      "path": "output/release-en-m7-print-phase-20261127/root-postpublication-adoption.json",
+      "bytes": 43135,
+      "sha256": "C92DBA1002AE4263045A7DA611A0D1D201A4D4EB077B25DBED166841D4547BEC"
     }
   },
-  "rollbackCommit": "85de433beb51b539767ad1373d0319dfbbf85151",
-  "changeKind": "EXISTING_TOPIC_PRINT_PHASE_REPAIR",
+  "rollbackCommit": "6dde01ee0e805362c7a18e5801f6bced8e1db76d",
   "change": {
-    "editedTopic": "en-paper-workshop-mediation",
-    "newTopics": 0,
-    "newTasks": 0,
+    "newTopic": "ge-hm-mittelalter-epochenbegriffe",
+    "newTopics": 1,
+    "newTasks": 4,
     "newStateSchemaFields": 0,
-    "phaseFlag": "/stagedUpdate/childPrintAfterUnlock",
     "manualCriteriaPoints": [
-      4,
-      12,
+      5,
+      5,
       4,
       6
     ],
+    "additionalPracticePoints": 0,
     "rendererChanged": false,
     "cssChanged": true,
     "assetsChanged": false,
-    "cssScope": "Adult print of en-paper-workshop-2 only"
+    "changedFiles": [
+      "catalog.js",
+      "index.html",
+      "styles.css",
+      "RELEASE-CHECK.json"
+    ]
   },
   "inventory": {
-    "topics": 236,
-    "taskObjects": 1064,
-    "allTaskObjectsUnchanged": true,
-    "other235TopicsUnchanged": true,
+    "topics": 237,
+    "taskObjects": 1068,
+    "all236PredecessorTopicsAnd1064TasksUnchanged": true,
     "annualCoverageQuota": false
   },
   "validation": {
-    "staticOneBooleanProposal": "PASS_SCOPED_ROOT_ADOPTED",
-    "independentCandidateStatic": "V1_STATIC_AND_V2_EXACT_DELTA_INDEPENDENTLY_ACCEPTED",
-    "actualChildBeforeAfterAndAdultA4": "V1_CHILD_INITIAL2_POSTUNLOCK3_REUSED_V2_ACTUAL_ADULT2_INDEPENDENTLY_ACCEPTED",
-    "stateExportFreshImport": "V2_40_CHECKS_ACTUAL_CMD_NODE_EXIT0_INDEPENDENTLY_ACCEPTED_PRIOR_PROBE_EXIT1_RETAINED",
-    "publicDelivery": "PENDING"
+    "textRoleTransfer": "PASS_SCOPED_INDEPENDENT_F1_F2_ROOT_ACCEPTED_UNCHANGED_TOPIC",
+    "independentCandidateStatic": "V3_REBASE_AND_EXACT_SELECTED_TOPIC_A4_REUSE_INDEPENDENTLY_ACCEPTED",
+    "actualRolesMobileSource": "V3_ACTUAL_320390_ROLES_SOURCE_AND_TEXT_ACCESS_INDEPENDENTLY_ACCEPTED",
+    "filledBackupFreshImport": "V3_ACTUAL_FOUR_FILLED_VALUES_EXPORT_CONFIRMED_FRESH_IMPORT_RELOAD_AND_EMPTY_RESTORE_INDEPENDENTLY_ACCEPTED",
+    "actualChildAdultA4": "ACTUAL_V1_CHILD4_V2_ADULT4_REUSED_ONLY_UNCHANGED_SINGLE_TOPIC_PRINT_PATH",
+    "finalPackagePublicDelivery": "PENDING"
   },
   "evidence": [
     {
-      "path": "output/leitung-20261127/en-m7-public-print-phase-scope-check/root-minimal-phase-fix-adoption.json",
-      "bytes": 23787,
-      "sha256": "FEF047245B89736CE924602A707A3BEEBBC6533029BF2B6A556686F2E25E30DA"
+      "path": "output/leitung-20261127/website-history-epoch-app-draft/root-text-role-transfer-adoption.json",
+      "bytes": 9238,
+      "sha256": "E21EC1BF2251E4BA770B92585017CE4B0777C41C67EF20850DC0172BF5D8E7AD"
     },
     {
-      "path": "output/release-en-m7-print-phase-20261127/root-v1-adult-layout-decision.json",
-      "bytes": 1696,
-      "sha256": "F428C6338672A5248E42DE7742030C9E3A4D08A099E96A6C95E36CE6F2F59B92"
+      "path": "output/release-history-epoch-20261127/root-v1-adult-layout-decision.json",
+      "bytes": 2328,
+      "sha256": "56202C6069439BF26D42DD4312E55CB47385AB00812CBC49395B4B89450B30EA"
     },
     {
-      "path": "output/release-en-m7-print-phase-20261127/root-local-acceptance.json",
-      "bytes": 85778,
-      "sha256": "B4CE65223D61CB8F9A9F64B46F844E82EC67E7C607D6075C9138D09ED4019044"
+      "path": "output/release-history-epoch-20261127/root-local-roles-a4-adoption.json",
+      "bytes": 53460,
+      "sha256": "22D3028557F7E1BAB101C07912C86B6F49A8DBA001BC32BBB674E546CF0141C5"
+    },
+    {
+      "path": "output/release-en-m7-print-phase-20261127/root-postpublication-adoption.json",
+      "bytes": 43135,
+      "sha256": "C92DBA1002AE4263045A7DA611A0D1D201A4D4EB077B25DBED166841D4547BEC"
+    },
+    {
+      "path": "output/release-en-m7-print-phase-20261127/public-pin-source-bridge.json",
+      "bytes": 819,
+      "sha256": "63E5886FC6F2805F7FA72C9AFAEFA5EA83FBA81B2A365C68D1B853D3881A7412"
+    },
+    {
+      "path": "output/release-history-epoch-20261127/root-v3-runtime-adoption.json",
+      "bytes": 39699,
+      "sha256": "E8880DD00F49A5F2F1DCCAB455DE12A5F626F8FE246E9CD382958D1DA65AF7EC"
     }
   ],
   "limits": [
-    "Only one existing child-print release flag is set; no port of the later local help/reflection practice.",
-    "The public initial-child A4 defect remains documented as baseline. Corrected local initial child2/postunlock child3 and new Adult2 A4, filled backup/fresh import and opened source row are independently accepted within their separate scopes; final package and public delivery remain pending.",
-    "Source and task wording, four task objects and20main+6optional criteria points unchanged. No automatic language assessment, new marker or state schema.",
-    "Source review22Oct2026 remains separate from narrow27Nov print-phase transfer. No new complete source/subject/year acceptance.",
-    "Renderer/assets/state code unchanged. One adult-print taskB keep-together rule added; child styles and the phase flag remain unchanged. Public pin and research master not modified.",
-    "This is a correctness repair of an existing offer, not a new topic, material component or manuscript output association."
+    "Four manually reviewed open tasks retain 5+5+4+6=20 criteria points as learning feedback, not a school grade. Nonempty fields prove no correctness or learning.",
+    "Voluntary unscored M5 comparison follows task3; oral/paper equally valid. Oxford is visible beforehand and explicitly for use after task4; no technical lock or current external availability is claimed.",
+    "Modern M/E cards remain short project paraphrases with Moran2018 and Ertl/Oschema online2022/issue2018 attribution; no inferred original Petrarca wording or author psychology.",
+    "History2021 Grade7 basis and End8 horizon remain separate from actual school sequence and learner/teacher/device/printer/subject/year acceptance.",
+    "V1 child4 and corrected V2 Adult4 actual A4 are independently accepted for exact same selected-topic print paths in V3. No new mixed-topic or physical print claim.",
+    "Actual V3 roles/source/text access at320390, four filled synthetic answers across reload/real export/confirmed fresh import/reload and subsequent empty restore are independently accepted in their bounded scope. Earlier failed layout/audit processes remain preserved.",
+    "Final V4 changes only version and release metadata. Renderer/CSS/assets/state code and every V3 topic/task object remain unchanged. Public pin and research master are not modified by this isolated build.",
+    "Final independent package review and authorised Git/Pages/HTTPS/public UI delivery remain separate pending gates."
   ]
 }

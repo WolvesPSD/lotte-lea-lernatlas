@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.27-en-m7-druckphase.3",
+  "version": "2026.11.27-epochenbegriffe.4",
   "status": "familienversion",
   "subjects": [
     {
@@ -25638,6 +25638,139 @@ window.LOTTE_CATALOG = {
         "competencyRef": "Geografie Gymnasium, Kapitel 2 (PDF 10 / Druck 12) und § 2.2 (PDF 14 / Druck 16), G-02 Tourismus und Freizeit: Freizeitpark und Verkehrsentwicklung am fiktiven regionalen Beispiel begründet verwenden. Zwei Grundaufträge und ein freiwilliges Urteil zum Endhalt; vollständiger fachsprachlicher Mindeststandard in allen Anforderungsbereichen offen.",
         "reviewNote": "Am 27.11.2026 unabhängig angenommene Text- und Rollenüberleitung der lokalen Sonnenbogen-Aufträge samt freiwilligem Begriffs-Urteil. Dieses Datum belegt die enge Überleitung; tatsächliche Bedienung, Druck und Veröffentlichung werden getrennt geprüft. Keine Fach-, Kinder- oder Jahresabnahme.",
         "checkedAt": "2026-11-27"
+      }
+    },
+    {
+      "id": "ge-hm-mittelalter-epochenbegriffe",
+      "subjectId": "ge",
+      "title": "Endete das Mittelalter an einem bestimmten Tag?",
+      "scope": "Freiwilliger, gestützter 7/8-Methodeneinstieg zu Epochenbegriffen. Ziel Ende Klasse 8, Unterrichtsfolge offen.",
+      "levelStatus": "grade78-flex",
+      "released": true,
+      "prerequisite": "Geschichte 2021 ist die belegte Planbasis für Klasse 7 im Schuljahr 2026/27. Der Zielhorizont bleibt Ende Klasse 8. Ob und wann deine Klasse Epochenbegriffe behandelt, bleibt offen.",
+      "introduction": "Historische Frage: Wer teilt Geschichte in „Mittelalter“ und „Renaissance“ ein, und weshalb können sich solche Zeiträume überschneiden? Die Aufgabe vergleicht heutige Fachdeutungen, keine mittelalterliche Augenzeugenquelle.",
+      "cardsHeading": "Zwei datierte Fachkarten, eine erfundene Meldung und eine freiwillige Zusatzkarte",
+      "passage": "Wörterhilfe: Eine Epoche ist ein von Menschen gebildeter Abschnitt der Geschichte. Periodisierung heisst, solche Abschnitte festzulegen. Eine Konvention ist eine verbreitete, nützliche Vereinbarung; sie ist keine Naturgrenze. Renaissance nennt man in vielen Darstellungen eine Bewegung, die sich unter anderem auf Texte und Kunst der Antike bezog. Überlappung bedeutet, dass ein Jahr zu zwei verschiedenen Untersuchungszeiträumen gehören kann.\n\nStütze bei Bedarf: Zeichne zwei Balken: Mittelalter ca. 500–1500 und Renaissance ca. 1300–1650. Zeige 1450 auf beiden. Frage dann: „Ist das ein Ereignis im Jahr 1450 oder unsere heutige Einteilung?“ Bei Aussagen über alle Menschen, Länder oder Schulen prüfe, ob eine Karte wirklich so weit reicht.\n\nSelbstkontrolle: Habe ich „ungefähr“ und „heutige Deutung“ beachtet? Habe ich Petrarca von den modernen Verfassern unterschieden: Moran bei Karte M, Ertl und Oschema bei Karte E? Die Musterlösung steht im Erwachsenenbereich.",
+      "sourceCards": [
+        {
+          "title": "Karte M · Fachartikel von 2018",
+          "text": "Der Altertumswissenschaftler Jerome Moran schreibt in einem 2018 veröffentlichten Fachartikel: Häufig wird das Mittelalter etwa von 500 bis 1500 angesetzt, die Renaissance etwa von 1300 bis 1650. Diese Zeitangaben überlappen. Manche Forschende setzen Anfang oder Ende anders. Moran führt die Idee einer „mittleren“ Zeit zwischen Antike und eigener Gegenwart auf Petrarca im 14. Jahrhundert zurück. Das ist Morans heutige historische Einordnung, nicht ein von uns gelesener Satz Petrarcas. Der Begriff entstand aus einer späteren Sicht auf vergangene Jahrhunderte; Menschen um 1060 mussten ihre eigene Zeit nicht so nennen. Die Karte ist unsere kurze deutsche Inhaltsangabe, kein wörtliches Zitat.",
+          "sourceLabel": "Jerome Moran, The R/renaissance(s), Humanists and Classics (2018)",
+          "sourceUrl": "https://www.cambridge.org/core/journals/journal-of-classics-teaching/article/rrenaissances-humanists-and-classics/D862398F8DB8DC4D0F1F5D91C4D2F05C",
+          "sourceNote": "Verlagsquelle: Jerome Moran, The R/renaissance(s), Humanists and Classics (2018). Eigene kurze deutsche Inhaltsangabe. Der Artikel ist laut dokumentierter Verlagsangabe CC BY 4.0."
+        },
+        {
+          "title": "Karte E · Fachartikel, online veröffentlicht 2022",
+          "text": "Die Historiker Thomas Ertl und Klaus Oschema beschreiben in ihrem Fachbeitrag ungefähr 500 bis 1500 als verbreitete Grenze des Mittelalters. Sie erklären, dass die Bezeichnung in europäischen Renaissance-Debatten geprägt wurde, in denen die Zeit dazwischen oft abgewertet wurde. Die beiden fragen auch, ob eine europäisch entstandene Einteilung einfach auf die Geschichte anderer Weltregionen übertragen werden kann. Das ist eine heutige Forschungsfrage; der Beitrag spricht nicht für alle Historikerinnen und Historiker. Er erschien online 2022 (der Jahrgang des Fachheftes trägt 2018). Auch diese Karte ist unsere knappe deutsche Inhaltsangabe.",
+          "sourceLabel": "Thomas Ertl und Klaus Oschema, Medieval Studies after the Global Turn (online 2022, Heftjahrgang 2018)",
+          "sourceUrl": "https://www.cambridge.org/core/journals/annales-histoire-sciences-sociales-english-edition/article/medieval-studies-after-the-global-turn/6172182D961BBEA9ADD0FF921B94E760",
+          "sourceNote": "Verlagsquelle: Thomas Ertl und Klaus Oschema, Medieval Studies after the Global Turn (online 2022, Heftjahrgang 2018). Eigene kurze deutsche Inhaltsangabe."
+        },
+        {
+          "title": "Karte F · erfundene Zeitachsenmeldung",
+          "text": "„Am 1. Januar 1500 wurde die ganze Welt auf einmal neuzeitlich. Die Renaissance begann erst nach 1500; 1450 kann unmöglich zugleich in eine Mittelalter- und eine Renaissance-Darstellung fallen. Alle Schulen Europas verwenden heute exakt Morans Jahreszahlen.“ Diese Meldung ist für die Übung erfunden, keine Aussage von M oder E.",
+          "sourceNote": "Für die Übung erfundene Meldung. Keine Fachquelle."
+        },
+        {
+          "title": "Oxford · freiwillig nach Aufgabe 4 · 0 Punkte",
+          "text": "Die Geschichtsfakultät Oxford nennt auf ihrer am 23.10.2026 abgerufenen Lehrangebotsseite beispielhafte Kursfenster 370–900, 1000–1300 und 1400–1650. Ein Erscheinungsjahr der Seite ist nicht angegeben, und die Universität bezeichnet die Optionen selbst als veränderlich. Warum sind diese Fenster keine drei lückenlosen, weltweit verbindlichen Epochen? Nenne eine Lücke und eine andere Art, Geschichte einzuteilen.",
+          "sourceLabel": "University of Oxford, Faculty of History, European and World History (first-year)",
+          "sourceUrl": "https://www.history.ox.ac.uk/european-and-world-history-first-year",
+          "sourceNote": "Quelle: University of Oxford, Faculty of History, European and World History (first-year). Abruf am 23.10.2026. Beispielhafte und veränderliche Kursfenster. Die Karte verspricht keine heutige Kursverfügbarkeit."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "ge-hm-mittelalter-epochenbegriffe-zeitraeume",
+          "kind": "reflection",
+          "points": 5,
+          "inputRows": 5,
+          "writingLines": 6,
+          "adultOnlySolution": true,
+          "prompt": "1. Zeiträume lesen · 5 Punkte. Ordne die Jahre 1200, 1450 und 1600 nach Karte M: Gehören sie dort zum Mittelalter, zur Renaissance oder zu beiden? Nenne den gemeinsamen ungefähren Zeitraum beider Bezeichnungen. Erkläre, weshalb „Mittelalter bis 1500“ bei M nicht bedeutet, dass 1500 ein plötzlicher Umschalttag für alle Lebensbereiche war.",
+          "sample": "Nach M liegt 1200 nur im genannten Mittelalterrahmen, 1450 in beiden, 1600 nur im genannten Renaissancerahmen. Die Überschneidung ist ungefähr 1300–1500. Eine historische Einteilung beschreibt längere, verschieden verlaufende Prozesse; die gerundete Endzahl 1500 ist kein belegter Umschalttag für Menschen oder Lebensbereiche.",
+          "criteria": [
+            "Drei Zuordnungen je 1, Überlappung 1, Erklärung zur Konvention statt Ereignistag 1. „Moran beweist, dass 1450 überall Renaissance war“ ist zu weitgehend: Es geht um Untersuchungsrahmen."
+          ]
+        },
+        {
+          "id": "ge-hm-mittelalter-epochenbegriffe-einteilung",
+          "kind": "reflection",
+          "points": 5,
+          "inputRows": 6,
+          "writingLines": 7,
+          "adultOnlySolution": true,
+          "prompt": "2. Wer teilte die Zeit später ein? · 5 Punkte. Welche spätere Person oder Gruppe nennen M und E im Zusammenhang mit der Idee vom „Mittelalter“? Inwiefern war der Ausdruck eine Perspektive auf die Vergangenheit? Welche Wertung konnte darin stecken? Warum darfst du daraus nicht schliessen, dass Menschen um 1060 sich selbst „mittelalterlich“ nannten? Unterscheide bei deiner Antwort die heutigen Artikel von einem nicht selbst gelesenen Text Petrarcas.",
+          "sample": "M nennt Petrarca im 14. Jahrhundert als Ausgangspunkt der Idee; E beschreibt die europäischen Renaissance-Debatten als Prägung des Mittelalterbegriffs. Man sah von einem späteren Zeitpunkt auf Jahrhunderte zwischen Antike und eigener Zeit zurück; darin konnte eine abwertende/dunkle Sicht liegen. Daraus folgt keine Selbstbezeichnung aller Menschen um 1060. M/E sind heutige Artikel; ein konkreter Satz Petrarcas ist hier nicht selbst gelesen.",
+          "criteria": [
+            "Petrarca mit Zeitkontext 1; Renaissance-Debatten 1; rückblickende Einteilung und daraus begrenzte Aussage zur Selbstbezeichnung 1; mögliche Abwertung 1; saubere Trennung moderner Deutung vom nicht eingesehenen Petrarca-Text 1. Keine Behauptung, Petrarca habe als einziger das Wort erfunden."
+          ]
+        },
+        {
+          "id": "ge-hm-mittelalter-epochenbegriffe-blickwinkel",
+          "kind": "reflection",
+          "points": 4,
+          "inputRows": 6,
+          "writingLines": 7,
+          "adultOnlySolution": true,
+          "prompt": "3. Zwei Blickwinkel vergleichen · 4 Punkte. Nenne eine Übereinstimmung zwischen M und E zur ungefähren Zeitgrenze. Welche zusätzliche Frage stellt E zur Weltregion? Erkläre, weshalb beide Karten heutige Fachdeutungen und keine Quellen aus dem Jahr 1450 sind. Formuliere eine vorsichtige Regel, wie du das Wort „Mittelalter“ bei einem Thema aus Europa oder einer anderen Weltregion benutzen würdest.",
+          "sample": "M und E nennen beide ungefähr 500–1500 als verbreiteten Mittelalterrahmen. E fragt nach der Übertragbarkeit einer europäischen Einteilung auf andere Weltregionen. Artikel von 2018/2022 sind im Erscheinungsdatum und Gegenstand heutige Deutungen, nicht Zeugnisse von 1450. Vorsichtige Regel: In europäischen Beispielen „Mittelalter“ als ungefähren Forschungsrahmen mit Ort/Zeit erläutern; bei anderen Regionen zuerst prüfen, ob diese Einteilung sachlich trägt, gegebenenfalls lokale Zeitbegriffe oder genau datierte Prozesse verwenden.",
+          "criteria": [
+            "gemeinsame Datierung 1; Raumfrage 1; Quellentyp/Datierung 1; begrenzte Anwendungsregel 1. Nicht aus E folgern, der Begriff sei für jede nicht europäische Geschichte verboten."
+          ]
+        },
+        {
+          "id": "ge-hm-mittelalter-epochenbegriffe-meldung",
+          "kind": "reflection",
+          "points": 6,
+          "inputRows": 8,
+          "writingLines": 9,
+          "adultOnlySolution": true,
+          "prompt": "4. F-Meldung prüfen · 6 Punkte. Trenne F in vier Behauptungen: (a) die Welt wechselte am 1.1.1500 überall gleichzeitig die Epoche; (b) die Renaissance begann erst nach 1500; (c) 1450 könne nicht in beiden Zeiträumen liegen; (d) alle europäischen Schulen nutzten genau Morans Zahlen. Entscheide bei jeder Aussage durch M/E widersprochen oder mit M/E nicht belegt, und begründe mit einer Kartenstelle bzw. fehlendem Beleg. „Widersprochen“ heisst: Eine Karte sagt direkt etwas anderes; blosses Zweifeln oder eine offene Forschungsfrage reicht dafür nicht. Schreibe eine vorsichtige Ersatzmeldung in ein bis zwei Sätzen.",
+          "sample": "(a) mit M/E nicht belegt: E stellt die globale Übertragung zur Diskussion, und keine Karte dokumentiert einen weltweiten Umschalttag am 1.1.1500 oder nennt ein direktes Gegenereignis. (b) widersprochen: M nennt den Renaissancebeginn ungefähr 1300. (c) widersprochen: 1450 liegt nach M im Überlappungsbereich. (d) mit M/E nicht belegt: Keine der Karten erhebt die Zeitfenster aller europäischen Schulen; E beschreibt eine Fachdebatte, keine Schulstatistik.",
+          "criteria": [
+            "Je 1 für Kategorie und passende Kartenbegründung bei (a)–(d) = 4. 2 für Ersatzmeldung: ungefähre/überlappende Perioden 1 und regionale/Quellenreichweite ohne Universalbehauptung 1.",
+            "Beispiel: „Fachleute verwenden für Europa oft Mittelalter etwa 500–1500 und Renaissance etwa 1300–1650. Die Abschnitte überlappen und ihre Übertragbarkeit auf andere Weltregionen muss eigens geprüft werden.“ Bei bereits abgegebenen Antworten die frühere Doppeldeutigkeit fair berücksichtigen: ein begründetes „widersprochen“ zu (a) nicht nachträglich abwerten."
+          ]
+        }
+      ],
+      "practiceBeforeLastTask": true,
+      "practice": {
+        "title": "Zwei Karten, ein Mittelalter",
+        "childNote": "Freiwilliger Zusatz nach Aufgabe 3. Du kannst deine Gedanken laut erklären oder auf Papier festhalten. Für den Zusatz gibt es keine Punkte. Die Karten M und E stehen bei diesem Thema. Leitfrage für beide Karten: Wie ordnet die Karte diese Zeit als Mittelalter ein? Was möchte sie dabei zeigen oder zur Diskussion stellen, soweit du das aus dem Text erkennen kannst? Gehe bei M und bei E gleich vor.",
+        "childSteps": [
+          "Stelle. Wähle in jeder Karte eine Stelle und zeige oder nenne sie.",
+          "Einordnung. Erkläre, womit die Stelle das Mittelalter in Verbindung bringt und was dieser Zusammenhang über die Einteilung zeigt.",
+          "Aussageziel. Stellt die Karte ausdrücklich eine Frage? Oder kannst du aus der Stelle begründet ableiten, was die Karte zeigen möchte? Eine zweite Stelle kann helfen. Wenn es unklar bleibt, erkläre, worüber deine Stelle keine Auskunft gibt.",
+          "Vergleiche zum Schluss beides. Wo stimmen M und E bei der Einordnung überein oder unterscheiden sich? Was kannst du über die erkennbaren Aussageziele beider Karten im Vergleich sagen? Sag auch, wenn der Vergleich an einer Stelle offenbleibt. Hilfe bei Bedarf: Beginne mit «An dieser Stelle verbindet die Karte das Mittelalter mit …». Frage dich dann: «Woran erkenne ich, was sie damit zeigen möchte?»"
+        ],
+        "childWritingLines": 4,
+        "adultNote": "Freiwilliger Zusatz nach Aufgabe 3. Das bisherige Raster mit 20 Punkten und seine Hilfen gelten weiter. Der Zusatz gibt keine Punkte. Eine mündliche Erklärung oder Zeigen mit Erklärung ist genauso geeignet wie eine Antwort auf Papier. Die 20 Kriterienpunkte dienen als Lernfeedback, nicht als Schulnote. Inhaltlich gleichwertige, sauber begrenzte Antworten zählen.",
+        "adultGuide": [
+          "Lassen Sie das Kind zuerst selbst eine Stelle je Karte wählen und erklären, welchen Zusammenhang sie herstellt. Bei Bedarf fragen Sie «Womit verbindet die Karte die Zeit hier?» oder «Welche Worte stützen deine Lesart?». Eine weitere Stelle oder eine begründet offen gelassene Absicht ist möglich. Wenn Sie eine Stelle oder einen Schluss vorgeben, berücksichtigen Sie die Hilfe bei der Rückmeldung.",
+          "Beispiel nach dem eigenen Versuch: M verbindet das Mittelalter mit der zeitlich überlappenden Renaissance und mit dem späteren Blick auf die vergangenen Jahrhunderte. Wer sich auf die überlappenden Zeitangaben und die abweichenden Grenzsetzungen stützt, kann daraus begründet lesen, dass die Karte die Einteilung als ungefähren Rahmen sichtbar macht. Das ist eine Deutung des gezeigten Texts.",
+          "Beispiel nach dem eigenen Versuch: E verbindet die verbreitete Zeitgrenze mit der Entstehung und Wertung der Bezeichnung in europäischen Renaissance-Debatten. Die Karte stellt ausdrücklich die Frage, ob eine europäisch entstandene Einteilung auf andere Weltregionen übertragbar ist.",
+          "Beispiel nach dem eigenen Versuch: Vergleich auf beiden Ebenen. Bei der Einordnung können beide den verbreiteten Zeitrahmen und den späteren Blick auf die Vergangenheit teilen. M setzt ihn vor allem in Beziehung zu einer zweiten Zeitspanne, E zu seiner europäischen Prägung und räumlichen Reichweite. Beim Aussageziel kann das Kind etwa die aus M abgeleitete Verdeutlichung einer ungefähren Grenze mit der in E ausdrücklich gestellten Frage zur räumlichen Übertragbarkeit vergleichen. Andere textgestützte Lesarten sind gleichwertig. Eine begründete Gemeinsamkeit, ein Unterschied oder eine benannte Beleggrenze ist auf jeder Ebene möglich.",
+          "Die deutschsprachigen Karten sind kurze Inhaltsangaben moderner Beiträge. Sie geben nur Auskunft über den dargestellten Ausschnitt. Private Motive der Autoren, die Absicht der gesamten Artikel und ein ursprünglicher Wortlaut Petrarcas bleiben offen."
+        ],
+        "adultCriteria": [
+          "Achten Sie darauf, dass das Kind den Zusammenhang und seinen Schluss an den gewählten Stellen erklärt und die beiden Karten auf beiden Ebenen tatsächlich vergleicht.",
+          "Zwei Datumsangaben oder zwei Themenwörter allein zeigen diesen Vergleich noch nicht.",
+          "Unterscheiden Sie bei der Rückmeldung eine ausdrückliche Frage, eine plausible Deutung und eine offen gebliebene Absicht."
+        ],
+        "adultSupplementalTitle": "Oxford · Rückmeldung zum freiwilligen Zusatz nach Aufgabe 4",
+        "adultSupplementalNote": "Erst nach dem eigenen Versuch. Die Frage steht auf der Oxford-Karte. 0 Zusatzpunkte.",
+        "adultSupplementalCriteria": [
+          "Die Oxford-Beispiele sind Lehrveranstaltungsfenster mit Auswahl und Lücken, etwa 900–1000 und 1300–1400 zwischen den drei genannten Angeboten. Sie sind weder lückenlose Geschichte noch weltweit verbindliche Epochengrenzen. Eine andere Gliederung könnte nach Region, Thema (Handel, Recht, Kunst) oder einem konkret datierten Wandel erfolgen. Aus dieser Lehrangebotsseite lässt sich keine Regel für Lottes Schule ableiten."
+        ],
+        "unscored": true,
+        "printObservationFooter": "M5 bleibt freiwillig. Nur tatsächlich erklärte Vergleiche rückmelden. Verwendete Hilfe getrennt festhalten. Keine Zusatzpunkte."
+      },
+      "releaseEvidence": {
+        "gradeBand": "7/8, Ziel Ende Klasse 8",
+        "competencyRef": "Geschichte Gymnasium 2021, amtliche Planbasis für Klasse 7 im Schuljahr 2026/27. §2.2.2, PDF-S. 21 / Drucks. 23: H-M-Epochenbegriffe und begrenzte Periodisierung, Grundmaterial unabhängig geprüft am 23.10.2026. §2.2.1, PDF-S. 20 / Drucks. 22, Methodenkompetenz M5: angeleiteter Vergleich der Sinnbildung und erkennbaren Aussageabsichten moderner Darstellungen, lokaler Zusatz angenommen am 23.11.2026. Ziel Ende Klasse 8, konkrete Unterrichtsfolge offen. Die App-Text- und Rollenüberleitung wurde am 27.11.2026 unabhängig eng geprüft; die genannten Grund- und Zusatzmaterialprüfungen behalten ihre getrennten Daten. Keine Laufzeit-, Druck-, Kinder- oder Jahresabnahme daraus.",
+        "checkedAt": "2026-11-27",
+        "reviewNote": "Vier vorhandene Grundaufgaben und der freiwillige M5-Vergleich quellen- und rollengebunden übergeleitet. F1/F2 am27.11.2026 unabhängig korrigiert angenommen. Kriterienpunkte sind Lernfeedback; andere inhaltlich gleichwertige, sauber begrenzte Antworten zählen. Kandidatenlaufzeit, Sicherung/Import, Rollen und tatsächlicher A4-Druck vor Veröffentlichung gesondert prüfen."
       }
     }
   ]

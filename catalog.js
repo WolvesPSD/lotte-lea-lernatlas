@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.27-modelltemperaturen.3",
+  "version": "2026.11.27-dichteformel.2",
   "status": "familienversion",
   "subjects": [
     {
@@ -25340,6 +25340,135 @@ window.LOTTE_CATALOG = {
         "checkedAt": "2026-11-27",
         "independentCheck": "Die getrennten Rollenmaterialien wurden am 23.11.2026 angenommen. Die App-Überleitung und ihre Daten wurden am 27.11.2026 unabhängig geprüft. Die lokale Ausgabe- und Bedienungsprüfung umfasst getrennte Rollen, beide A4-Ausgaben, den Tabellen-Download und Sicherung/Import mit synthetischen Testantworten, jeweils im dokumentierten Umfang. Ein eigener Diagrammaufbau, Excel-/Calc-Bedienung, schulische Anerkennung und Jahresabnahme wurden dadurch nicht beobachtet."
       }
+    },
+    {
+      "id": "ma-dichteformel-umstellen",
+      "subjectId": "ma",
+      "title": "Eine Naturformel Schritt für Schritt umstellen",
+      "released": true,
+      "levelStatus": "grade8-outlook",
+      "levelLabel": "7/8-Vorgriff · Ziel Ende Klasse 8",
+      "scope": "Du stellst eine vorgegebene Naturformel nach zwei Grössen um und prüfst Einheiten und Rückprobe. Freiwilliger gestützter 7/8-Vorgriff auf ein Ende-8-Ziel; keine bestätigte aktuelle Schulfolge oder vollständige M3-Abdeckung.",
+      "prerequisite": "Du solltest Variablen, Brüche und gleiche Operationen auf beiden Seiten einer Gleichung kennen. Alle Werte sind erfunden und positiv. Keine Messung, kein Experiment und keine Materialbestimmung.",
+      "introduction": "Fünf Hauptaufgaben: 3+8+4+3+2=20 Kriterienpunkte. Nach Rückmeldung folgt eine getrennte Variante mit 6 Punkten. Freie Antworten gemeinsam mit Erwachsenenlösung besprechen; keine automatische Schulnote.",
+      "passage": "Die Dichte ρ eines Körpers ist seine Masse m geteilt durch sein Volumen V:\n\nρ = m / V\n\nWir rechnen mit m in g, V in cm³ und ρ in g/cm³. Alle drei Größen sind in dieser Aufgabe positiv. Beim Umstellen muss auf beiden Seiten der Gleichung dasselbe geschehen. Du kannst eine neue Formel zusätzlich durch Einsetzen in die ursprüngliche Regel selbst kontrollieren. Die bewertete Rückprobe steht in Aufgabe 5.",
+      "tasks": [
+        {
+          "id": "ma-dichteformel-1",
+          "kind": "reflection",
+          "points": 3,
+          "adultOnlySolution": true,
+          "writingLines": 8,
+          "inputRows": 7,
+          "prompt": "1 · Bedeutung (3 P). Erkläre in einem Satz, was ρ=m/V bedeutet. Ordne m, V und ρ jeweils Bedeutung und Einheit zu.\nTipp bei Bedarf – Ordne jedem Zeichen eine Bedeutung und eine Einheit zu.",
+          "hint": "Ordne jedem Zeichen eine Bedeutung und eine Einheit zu.",
+          "sample": "ρ=m/V heißt Masse je Volumeneinheit. m = Masse (g), V = Volumen (cm³), ρ = Dichte (g/cm³).",
+          "criteria": [
+            "Bedeutung „Masse je Volumen“ 1; drei Größen mit richtiger Zuordnung/Einheit zusammen 2 (bei einem Fehler 1)"
+          ]
+        },
+        {
+          "id": "ma-dichteformel-2",
+          "kind": "reflection",
+          "points": 8,
+          "adultOnlySolution": true,
+          "writingLines": 12,
+          "inputRows": 7,
+          "prompt": "2 · Zwei Größen freistellen (8 P). Stelle die Regel einmal nach m und einmal nach V um. Schreibe bei jedem Weg die Zwischenzeile mit derselben Operation auf beiden Seiten auf. Erkläre bei V zusätzlich kurz, warum durch ρ geteilt werden darf.\nTipp bei Bedarf – Notiere dieselbe Operation links und rechts; beachte die Voraussetzung der Regelkarte.",
+          "hint": "Notiere dieselbe Operation links und rechts; beachte die Voraussetzung der Regelkarte.",
+          "sample": "Nach m: ρ=m/V; beide Seiten mal V: ρ·V=(m/V)·V=m, also m=ρ·V für V>0. Nach V: ρ=m/V; beide Seiten mal V: ρ·V=m; beide Seiten geteilt durch ρ: V=m/ρ. Das ist erlaubt, weil ρ>0 in diesem Modell gilt. Rückeinsetzen ergibt ρ=(ρ·V)/V bzw. ρ=m/(m/ρ) bei positiven Größen.",
+          "criteria": [
+            "m-Weg: gleiche Operation und Zwischenzeile 2, richtige Endregel 1; V-Weg: mal V und Zwischenzeile 2, Teilung durch ρ und Endregel 2, Positiv-/Nichtnullbegründung 1",
+            "Gleichwertige Umformungsfolgen zulassen. Richtiges Einsetzen allein ersetzt die algebraische Herleitung nicht."
+          ]
+        },
+        {
+          "id": "ma-dichteformel-3",
+          "kind": "reflection",
+          "points": 4,
+          "adultOnlySolution": true,
+          "writingLines": 8,
+          "inputRows": 7,
+          "prompt": "3 · Anwenden (4 P). Rechne mit deinen umgestellten Regeln: Fall A: ρ=2 g/cm³, V=15 cm³; gesucht m mit Einheit. Fall B: m=45 g, ρ=1,5 g/cm³; gesucht V mit Einheit.\nTipp bei Bedarf – Schreibe zuerst die gesuchte Grösse und deine passende Regel auf.",
+          "hint": "Schreibe zuerst die gesuchte Grösse und deine passende Regel auf.",
+          "sample": "A: m=2 g/cm³ · 15 cm³=30 g. B: V=45 g / (1,5 g/cm³)=30 cm³.",
+          "criteria": [
+            "A Ansatz und Ergebnis mit Einheit je 1; B Ansatz und Ergebnis mit Einheit je 1",
+            "Bei Folgefehlern Methode getrennt vom Rechenfehler bewerten; denselben Fehler nicht mehrfach vollständig abziehen."
+          ]
+        },
+        {
+          "id": "ma-dichteformel-4",
+          "kind": "reflection",
+          "points": 3,
+          "adultOnlySolution": true,
+          "writingLines": 8,
+          "inputRows": 7,
+          "prompt": "4 · Fehler finden (3 P). Tom schreibt für Fall B V=ρ/m. Prüfe seine Formel anhand der Einheiten. Erkläre den Fehler und korrigiere seine Regel.\nTipp bei Bedarf – Kürze die Einheiten in Toms Ausdruck und vergleiche mit der gesuchten Einheit.",
+          "hint": "Kürze die Einheiten in Toms Ausdruck und vergleiche mit der gesuchten Einheit.",
+          "sample": "ρ/m hätte die Einheit (g/cm³)/g=1/cm³, nicht cm³. Die gesuchte Regel ist V=m/ρ; Tom hat Zähler und Nenner vertauscht.",
+          "criteria": [
+            "falsche Einheit berechnet 1; erklärt, warum sie nicht zu Volumen passt 1; richtige Regel 1"
+          ]
+        },
+        {
+          "id": "ma-dichteformel-5",
+          "kind": "reflection",
+          "points": 2,
+          "adultOnlySolution": true,
+          "writingLines": 8,
+          "inputRows": 7,
+          "prompt": "5 · Rückprobe (2 P). Setze dein Ergebnis aus Fall B in die ursprüngliche Regel ρ=m/V ein. Vergleiche mit der vorgegebenen Dichte und schreibe einen Schlusssatz.\nTipp bei Bedarf – Verwende deine eigene Antwort aus Fall B; ein abweichendes Ergebnis ist Anlass zum Prüfen.",
+          "hint": "Verwende deine eigene Antwort aus Fall B; ein abweichendes Ergebnis ist Anlass zum Prüfen.",
+          "sample": "ρ=m/V=45 g / 30 cm³=1,5 g/cm³. Das stimmt mit der Angabe überein.",
+          "criteria": [
+            "Rückeinsetzen von Fall B mit Zahlen 1; Vergleich und Schlusssatz 1",
+            "Bei Folgefehlern Methode getrennt vom Rechenfehler bewerten; denselben Fehler nicht mehrfach vollständig abziehen."
+          ]
+        },
+        {
+          "id": "ma-dichteformel-transfer",
+          "kind": "reflection",
+          "points": 6,
+          "adultOnlySolution": true,
+          "writingLines": 12,
+          "inputRows": 9,
+          "prompt": "Späterer Transfer · 6 eigene Punkte: Ein erfundener Körper hat ρ=0,8 g/cm³ und m=24 g. 1. Bestimme sein Volumen mit Rechenweg und Einheit (2 P). 2. Ein anderer Körper hat genau dieses Volumen und ρ=1,2 g/cm³. Bestimme seine Masse samt Einheit (2 P). 3. Prüfe die zweite Antwort mit der ursprünglichen Dichteformel und erkläre, weshalb die Körper trotz gleichen Volumens verschiedene Massen haben können (2 P).\nTipp bei Bedarf – Trenne die Angaben der beiden erfundenen Körper. Nutze für die Rückprobe deine zweite Antwort.",
+          "hint": "Trenne die Angaben der beiden erfundenen Körper. Nutze für die Rückprobe deine zweite Antwort.",
+          "sample": "V=24 g/(0,8 g/cm³)=30 cm³. Beim zweiten Körper m=1,2 g/cm³ ·30 cm³=36 g. Rückprobe 36 g/30 cm³=1,2 g/cm³. Bei gleichem Volumen führt eine andere Dichte zu einer anderen Masse. Modellwerte, keine Messung.",
+          "criteria": [
+            "Volumen mit Ansatz und Einheit 2 P.",
+            "Zweite Masse mit Ansatz und Einheit 2 P.",
+            "Rückprobe und Erklärung zusammen 2 P."
+          ],
+          "variant": true
+        }
+      ],
+      "sourceBindings": {
+        "wissen/recherche/mathematik-m3-dichteformel-umstellen-kinderblatt-2026.md": "78100B51DB3DEDE0841F0D4D3AFD6602A83BEFD65C0E7415CF0ED1BC029CB303",
+        "wissen/recherche/mathematik-m3-dichteformel-umstellen-erwachsenenloesung-2026.md": "528EA2698E20C6BC4B750F2A7B4DE79865A01A3A1088D5BA706CE433F5C4921A",
+        "wissen/recherche/mathematik-m3-dichteformel-umstellen-variante-2026.md": "57F8DFDCE6EE09359F372C7C95D4D0662CB1550983B1622E64F82F4559D561BE",
+        "wissen/recherche/mathematik-m3-dichteformel-umstellen-quellen-2026-11-03.md": "DB971B91C5DE6377F65E3B5B666CC8608433107F2C995DD7F5DF08DD165C6462",
+        "wissen/recherche/mathematik-m3-dichteformel-umstellen-qa-2026-11-03.md": "4C32DE6A4CB34252467AFA5EA3D228315C8E0190E434F3E8636DC04BFFF777F9"
+      },
+      "releaseEvidence": {
+        "primaryLocalPdf": "pdf/LP_Mathematik_GY_Erprobung_2026-08-25.pdf",
+        "primarySha256": "91838D21BB7035A3E30890E837A47425B3766F3A38066AF6559F167AFC399D26",
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27, Klasse 8 ab 2027/28. § 2.2.3, PDF-S. 25–26 unter Klassenstufe 8: Formeln aus Mathematik und Naturwissenschaften umstellen. Freiwilliger 7/8-Vorgriff. Konkrete Unterrichtsfolge offen.",
+        "checkedAt": "2026-11-27",
+        "reviewNote": "Die gebundenen Rollenmanuskripte und Quellenprüfungen vom 03./17.11.2026 bleiben die fachliche Basis. Die unveränderten Aufgaben, sechs Hinweise und getrennten Erwachsenenkriterien wurden für diese App-Überleitung am 27.11.2026 unabhängig text-, rollen- und feldbezogen geprüft. Das neue Datum in der Quellenzeile bezeichnet diese Überleitungsprüfung, keinen neuen Originalabruf und keine beobachtete Kinderleistung. Tatsächliche Kandidaten-, Phasen-, Sicherungs- und Ausgabebelege werden getrennt im Releasepaket geführt. Freiwilliger 7/8-Vorgriff auf Ende Klasse 8, konkrete Schulfolge offen."
+      },
+      "stagedUpdate": {
+        "kind": "variant",
+        "feedbackBeforeUnlock": true,
+        "mainTaskCount": 5,
+        "mainLabel": "1–5",
+        "childPrintAfterUnlock": true,
+        "buttonLabel": "Hauptaufgaben festhalten und Transfer öffnen",
+        "text": "SPÄTERER MODELLFALL: Ein erfundener Körper hat die Dichte 0,8 g/cm³ und die Masse 24 g. Ein anderer Körper hat genau das daraus berechnete Volumen und die Dichte 1,2 g/cm³. Keine Messung.",
+        "printNote": "Nach Rückmeldung zu fünf Hauptaufgaben; sechs Transferpunkte getrennt halten."
+      },
+      "draftOnly": false
     }
   ]
 };

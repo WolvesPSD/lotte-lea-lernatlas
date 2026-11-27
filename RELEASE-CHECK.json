@@ -1,73 +1,58 @@
 {
-  "version": "2026.11.27-suedasien-kartenwahl.4",
-  "builtAt": "2026-11-27T08:43:36.176Z",
-  "status": "LOCAL_GEO_MAP_CHOICE_GATES_ACCEPTED_FINAL_PACKAGE_AND_PUBLIC_DELIVERY_PENDING",
+  "version": "2026.11.27-deux-ateliers.1",
+  "builtAt": "2026-11-27T11:04:12.604Z",
+  "status": "LOCAL_SCOPED_GATES_ACCEPTED_FINAL_PACKAGE_INDEPENDENT_REVIEW_AND_PUBLIC_DELIVERY_PENDING",
   "baseline": {
-    "commit": "f06e45ac7a25bc8ef76513432511adc1a735d7c8",
+    "candidate": "app/output/release-candidate-geo-map-choice-20261127-v4",
+    "version": "2026.11.27-suedasien-kartenwahl.4",
+    "commit": "56c640b7a4b604c9572b6c84fc74ab9cf4315f1d",
     "pin": {
       "path": "app/current-public-baseline.json",
-      "bytes": 4593,
-      "sha256": "CC666D9B4B602F101BD4A21F1831276053364D6822AF093F1E94E059F80DBE82"
+      "bytes": 5183,
+      "sha256": "85D08C2D40FB063BDCA1E65721A1C7288B266985F568EE81AD9DE307EE98CC8B"
+    },
+    "manifest": {
+      "path": "output/release-geo-map-choice-20261127/candidate-build-manifest-v4.json",
+      "bytes": 52249,
+      "sha256": "717093F891069D9136944AEB4C8AC51D7EC302F5BEBBF9C6492FE8CFD8F3225F"
     }
   },
   "evidence": [
     {
-      "path": "output/leitung-20261127/website-geo-m02-map-choice-app-draft/delta-v2/root-text-role-adoption.json",
-      "bytes": 7857,
-      "sha256": "115662FF3B8917FBF34968D7B7B411AB90764F0413B41785B2553752E0274465"
+      "path": "output/release-fr-two-ateliers-20261127/root-candidate-v2-adult-output-adoption.json",
+      "bytes": 3903,
+      "sha256": "7AF304ADAACD2F8094C849173E4F562CBFD9312A9489CFF8B8C90694831483A1"
     },
     {
-      "path": "output/leitung-20261127/geo-m02-renderer-contract-v2/root-static-adoption.json",
-      "bytes": 5720,
-      "sha256": "3758091890EB222B8BC9AA5CCDCA1ED34F65A57ED743D3212F6C1CA96FADD2CD"
+      "path": "output/release-fr-two-ateliers-20261127/root-candidate-v2-print-reuse-adoption.json",
+      "bytes": 5998,
+      "sha256": "FA585FA6851031B17DE9CC2F3316F436A639DD742177C8A4150D843A3552112A"
     },
     {
-      "path": "output/leitung-20261127/geo-m02-viewer-candidate-v1/root-output-adoption.json",
-      "bytes": 11983,
-      "sha256": "4AEF0EC1980B8C9EFDCC2147A512EB7ED553FCE6E09AEB3CE15A4C22A3CF386D"
-    },
-    {
-      "path": "output/release-geo-map-choice-20261127/root-v1-runtime-partial-adoption.json",
-      "bytes": 52240,
-      "sha256": "5E1752D22011A1E6A91C5C33DAC108CF5E48D2057340AB1A6DAC0D5CDEA9AD77"
-    },
-    {
-      "path": "output/release-geo-map-choice-20261127/root-v3-print-static-adoption.json",
-      "bytes": 99675,
-      "sha256": "430BE67CD7F12662DB8623648448C03F7BF74A25E5AE97330D35B9AF56CAA2A9"
-    },
-    {
-      "path": "output/release-geo-map-choice-20261127/root-v3-reuse-adoption.json",
-      "bytes": 70547,
-      "sha256": "33F9BC8C1621365745D3A49C460F28AD9DFB6E2138399ECA687ACBFD20AE6EC8"
-    },
-    {
-      "path": "output/release-geo-map-choice-20261127/root-v3-final-output-adoption.json",
-      "bytes": 49108,
-      "sha256": "546182385C8701D3D02CEC2CBBBE1810E2AB748164AB5EE05F21F7F3D6BC9D35"
+      "path": "output/release-fr-two-ateliers-20261127/root-v2-runtime-child-output-adoption.json",
+      "bytes": 75893,
+      "sha256": "2CA1196B23A8CAABCD00759ED96F7CFD42E7478918EB0CEE21BD68B55269B30D"
     }
   ],
-  "scope": "One unscored material-only map-choice offer;237 predecessor topics/1068 task objects preserved. New opt-in renderer contract; four viewer files. No public, master or state schema write.",
+  "scope": "One French topic, two exact fictional announcement cards, three manually assessed tasks8+10+2; optional help/rereading0. All238 previous topics and1068 previous tasks preserved. Existing renderer/assets/state unchanged; one new task-specific Adult print keep-inside rule.",
   "validation": {
-    "textRoles": "INDEPENDENTLY_ROOT_ACCEPTED_V2_WITH_F1_GUARDS",
-    "originalCardsRights": "EXACT_TWO_ORIGINALS_AND_BOUND_CCBYSA4_ATTRIBUTION_INDEPENDENTLY_ROOT_ACCEPTED",
-    "viewerStandalone": "INDEPENDENTLY_ROOT_ACCEPTED_SCOPED_27_EXISTING_SCREENS_WITH_LATER_TARGETED_MOVEMENT_DELTA",
-    "rendererStatic": "V3_PRINT_SCOPE_C1_AND_PUBLIC_PARITY_INDEPENDENTLY_ROOT_ACCEPTED",
-    "integratedRuntime": "V1_92_REMAINING_ACTUAL_ASSERTIONS_INDEPENDENTLY_ROOT_ACCEPTED_WITH_FAILED_PROBES_RETAINED",
-    "filledBackupFreshImport": "TWO_EXISTING_HISTORY_VALUES_SELECTION_ACTUAL_EXPORT_CONFIRMED_FRESH_IMPORT_RELOAD_AND_CLEANUP_INDEPENDENTLY_ROOT_ACCEPTED",
-    "actualChildSingleA4": "ACTUAL_V1_CHILD1_INDEPENDENTLY_CONFIRMED_REUSABLE_FOR_UNCHANGED_V3_PATH",
-    "actualAdultAndMixedA4": "ACTUAL_V3_ADULT_SINGLE1_MIXED_CHILD5_MIXED_ADULT6_INDEPENDENTLY_ROOT_ACCEPTED",
-    "finalPackagePublicDelivery": "PENDING"
+    "sourceTextRoleTransfer": "INDEPENDENT_ROOT_ACCEPTED",
+    "runtimeStateBackupImport": "EXACT_ACCEPTED_V1_REUSED_VIA_V2_SCOPE_REVIEW",
+    "childA4": "ACTUAL3PAGES_V1_ACCEPTED_REUSED",
+    "adultA4": "ACTUAL3PAGES_V2_ACCEPTED_B_COMPLETE_ON_PAGE2",
+    "finalPackage": "PENDING_INDEPENDENT_REVIEW",
+    "publication": "NOT_YET_AUTHORIZED_FINAL_PACKAGE"
   },
-  "limits": [
-    "Ende8/7-8 outlook and Grade7 continuity inference remain qualified; school sequence unknown.",
-    "No marks, scoring or input fields for map work; selection is not performance.",
-    "Actual child selection/interpretation, physical devices, printer, whole subject and annual acceptance remain open.",
-    "V2 adds only print classes and new-map-scoped print CSS; no font-size or text changes. Existing paper break-before override only when new map Adult output is selected; child History practice keep-together only when map child output is selected. V1 old failed probes and actual layout defects remain history.",
-    "V3 narrows the Adult mixed break-before exception to the new map and explicit Ohra overview only, in actual Adult mixed modes; H02e and other material routes retain previous breaks. Map Adult overview uses standard10pt already used by ordinary Adult outputs; child fonts and all text unchanged. Keep both criteria and their closing group together. Public diff corrected to131unchanged/5changed/4new; baseline.version explicitly bound.",
-    "Final V4 changes only catalog version, one new-topic evidence review note, six index version strings and release metadata. All learning content/roles/tasks, renderer/CSS/assets/state paths remain exact V3.",
-    "No one-series sum across early failed probes, V1 remainder, separate V2/V3 A4 and offline evidence reviews. V1/V2 actual layout failures remain preserved.",
-    "Actual mixed A4 acceptance is precisely map+Ohra+History in recorded order, not all combinations. Child1 reuse is limited to exact map single print.",
-    "Final package independent review, fresh expected-parent Git publication, matching Pages,140canonical HTTPS files and actual public UI remain separate pending delivery gates."
+  "historicalProcessLimits": [
+    "V1 remaining run stopped on empty paragraph selector; successful explicit continuation separate.",
+    "Child audit Exit1 white pixel rank; next audit Exit1 invalid raw-frame assertion; actual23 grouped writing lines and seven negative controls confirmed independently with complete page sight.",
+    "AdultV1 actual complete content but orphan B criterion failed layout.",
+    "First AdultV2 run Exit1 due current .2 versus historical .1 comparator before topic selection; exact comparator-only continuation separate.",
+    "No combined unique assertion total or retrospective upgrade of failed exits.",
+    "Original V2 builder exit unconfirmed because tool output truncated; existing files independently verified."
+  ],
+  "openGates": [
+    "Fresh public parent lease, Git/Pages, allcanonical HTTPS, bounded public UI and actual visible offer count.",
+    "Human language/age, physical devices/printer, observed learning, whole subject/year acceptance remain open."
   ]
 }

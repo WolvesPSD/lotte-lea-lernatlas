@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.27-suedasien-kartenwahl.4",
+  "version": "2026.11.27-deux-ateliers.1",
   "status": "familienversion",
   "subjects": [
     {
@@ -25852,6 +25852,94 @@ window.LOTTE_CATALOG = {
         "checkedAt": "2026-11-27"
       },
       "materialFormat": "interactive-map"
+    },
+    {
+      "id": "fr-deux-ateliers-notes-camille",
+      "subjectId": "fr",
+      "title": "Deux ateliers · von eigenen Notizen zur Nachricht an Camille",
+      "released": true,
+      "levelStatus": "grade8-outlook",
+      "scope": "Freiwilliger, gestützter Einstieg für Klasse 7. Die Ziele der zweiten Fremdsprache gelten bis Ende Klasse 8. Die konkrete Schulfolge ist offen.",
+      "introduction": "Beide Anzeigen und alle Personen sind erfunden. Schreibe als Noa. Deine Nachricht bleibt eine Übung; sie wird nicht verschickt. Bearbeite A, dann B und zuletzt C. Du kannst auf Papier arbeiten. Punkte und Rückmeldung besprecht ihr anhand deiner eigenen Arbeit. Die 20 Punkte sind Lernfeedback, keine Schulnote. Die Fortschrittsanzeige zählt nur ausgefüllte App-Textfelder. Papierantworten und die freiwilligen Prüfschritte werden dort nicht erfasst; das ist keine Bewertung.",
+      "prerequisite": "Wörterhilfe bei Bedarf: une couverture = Buchumschlag; les feuilles = Papierblätter; sur place = am Ort vorhanden; apporter = mitbringen; présenter = vorstellen; à deux = zu zweit. Die Hilfen verraten keine Wahl. Du schreibst als die fiktive Person Noa; Noa kann an beiden Tagen. Du darfst A oder B wählen und musst keine wirklichen Interessen über dich erzählen.",
+      "cardsHeading": "Zwei kurze französische Ankündigungen",
+      "sourceCards": [
+        {
+          "title": "A · Dessiner une couverture",
+          "text": "Mercredi, de 16 h à 16 h 45, la médiathèque propose un atelier de dessin. Tu dessines une couverture pour un livre imaginaire. Les feuilles et les crayons sont sur place. Tu peux travailler seul ou à deux."
+        },
+        {
+          "title": "B · Parler d'un livre",
+          "text": "Jeudi, de 16 h à 16 h 45, la médiathèque propose un atelier de lecture. Tu présentes un livre que tu aimes. Apporte ton livre. On travaille à deux."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "fr-deux-ateliers-notes-camille-notizen",
+          "kind": "reflection",
+          "points": 8,
+          "adultOnlySolution": true,
+          "inputRows": 7,
+          "writingLines": 8,
+          "prompt": "A · Eigene Arbeitsnotizen · 8 Punkte. Erstelle selbst eine kleine Liste oder Mindmap mit etwa vier bis acht kurzen Stichwortgruppen auf Französisch. Du darfst zusammengehörige Angaben, zum Beispiel Tag und Uhrzeit, in einer Gruppe notieren. Ordne sie A und B zu. Halte für beide Angebote Tag/Uhrzeit und Tätigkeit fest; notiere zusätzlich je eine wichtige Vorbereitung oder Materialangabe. Schreibe keine ganzen Sätze aus den Ankündigungen ab. Kürzel sind erlaubt, wenn du sie später noch verstehst. Eine Mindmap kannst du auf Papier zeichnen.",
+          "sample": "Mögliche Stichwortliste, nicht vorab an das Kind geben: A : mercredi, 16 h–16 h 45 ; dessin/couverture ; feuilles + crayons sur place / B : jeudi, 16 h–16 h 45 ; présenter un livre ; apporter un livre. Andere eigene Kurzformen und Mindmaps gelten.",
+          "criteria": [
+            "A-Tag/Zeit 1, A-Tätigkeit 1, A-Material 1; B-Tag/Zeit 1, B-Tätigkeit 1, B-Mitbringregel 1; erkennbare Zuordnung A/B 1, eigene knappe Notizform statt ganzer kopierter Ankündigung 1 = 8. Bei nur kopiertem Quelltext die sechs korrekten Fakten einzeln anerkennen, den Notizform-Punkt nicht geben."
+          ]
+        },
+        {
+          "id": "fr-deux-ateliers-notes-camille-nachricht",
+          "kind": "reflection",
+          "points": 10,
+          "adultOnlySolution": true,
+          "inputRows": 9,
+          "writingLines": 10,
+          "prompt": "B · Nachricht an Camille · 10 Punkte. Schreibe als Noa eine kurze französische Nachricht mit ungefähr 4–6 eigenen Sätzen an die fiktive Freundin Camille. Sage, welches Atelier du vorschlägst und warum; nutze dafür eine korrekte Angabe aus A oder B. Nenne auch einen zutreffenden Unterschied zum anderen Atelier. Frage Camille, ob sie mitkommen möchte, und verwende Anrede und Abschluss. Du kannst deine Notizen und die Wortstütze verwenden. Eine andere Satzanzahl ist in Ordnung, wenn alles verständlich ist. Schreibhilfe bei Bedarf, keine Musterlösung: Je préfère ... parce que ... · L'autre atelier ... · Est-ce que tu veux venir ? Wenn du beim Schreiben eine Sprachfrage hast, kannst du unten den freiwilligen Prüfschritt nutzen.",
+          "sample": "Beispiel für A: Salut Camille ! Je préfère l'atelier de dessin mercredi parce que les crayons sont sur place. On peut dessiner une couverture. L'autre atelier a lieu jeudi et il faut apporter un livre. Est-ce que tu veux venir avec moi ? À bientôt, Noa. Beispiel für B: Salut Camille ! Je préfère l'atelier de lecture jeudi parce qu'on peut parler d'un livre à deux. Il faut apporter un livre. L'autre atelier a lieu mercredi : on dessine une couverture. Est-ce que tu veux venir avec moi ? À bientôt, Noa. Keine der beiden Varianten ist die einzig richtige.",
+          "criteria": [
+            "Verständliche eigene Wahl mit je préfère oder gleichwertig 2; zutreffender Kartengrund, der für Camille erkennbar mit der Wahl zusammenhängt, zum Beispiel mit parce que, car oder einem klaren Folgesatz 2; ein sachlich richtiger Unterschied zum anderen Atelier 2; passende Frage an Camille 2; Anrede 0,5 und Abschluss 0,5 = 1; insgesamt verständliche französische eigene Sätze statt bloßer Stichwortliste 1 = 10. Sprachfehler nur dort abziehen, wo die jeweilige Funktion nicht verständlich ist; denselben Sachfehler nicht pauschal nochmals abziehen."
+          ]
+        },
+        {
+          "id": "fr-deux-ateliers-notes-camille-quellenkontrolle",
+          "kind": "reflection",
+          "points": 2,
+          "adultOnlySolution": true,
+          "inputRows": 5,
+          "writingLines": 5,
+          "prompt": "C · Quellenkontrolle · 2 Punkte. Unterstreiche in deinen Notizen zwei Angaben, die du in deiner Nachricht benutzt hast. Markiere an der passenden Ankündigung A oder B, wo du beide nachprüfen kannst. Wenn du beim Prüfen einen Fehler findest, verbessere ihn sichtbar; falls alles stimmt, schreibe „vérifié“ zu den beiden geprüften Stellen. Im Textfeld kannst du stattdessen für jede verwendete Notizangabe die passende Anzeige (A oder B) und die genaue Fundstelle nennen. Halte die Berichtigung oder „vérifié“ bei jeder Angabe fest.",
+          "sample": "Zwei in der Nachricht verwendete Notizangaben sind sichtbar mit den richtigen Karten abgeglichen; gefundene Fehler wurden berichtigt, andernfalls „vérifié“ markiert.",
+          "criteria": [
+            "Je eine konkrete, in der Nachricht verwendete Notizangabe mit passender A/B-Kartenmarkierung oder genauer A/B-Fundstellenangabe im Textfeld und sichtbarer Prüfung (Berichtigung oder „vérifié“) 1 = 2. Nicht bloss ein pauschales „alles richtig“."
+          ]
+        }
+      ],
+      "practice": {
+        "title": "Freiwillig: Meine französische Nachricht prüfen",
+        "unscored": true,
+        "childNote": "Freiwillige Ergänzung · keine Zusatzpunkte. Zur vorhandenen schriftlichen Aufgabe mit den beiden erfundenen Ateliers. Übungsangebot für Klasse 7; der Lehrplan nennt die Ziele bis Ende Klasse 8. Ob du sie schon im Unterricht behandelt hast, wissen wir nicht. Wähle mit der erwachsenen Begleitung nur den passenden Prüfschritt. Du kannst deine Prüfschritte mündlich oder kurz auf Deutsch oder Französisch erklären. Die bestehenden Notiz-, Nachrichten- und Quellenaufträge sowie ihre Punkte bleiben unverändert. Nichts versenden oder hochladen.",
+        "childSteps": [
+          "Wenn du beim Schreiben deiner französischen Nachricht eine Frage zu einem Wort oder einer Form hast, notiere zuerst deine Frage. Wähle selbst eine passende Worthilfe aus der Aufgabe oder schlage in einem Wörterbuch nach. Ein Online-Wörterbuch soll ohne Anmeldung zugänglich sein. Du brauchst kein KI-Tool und lädst deinen Text nirgends hoch. Welche Hilfe und welche Stelle hast du wirklich angesehen? Welche Bedeutung oder Form passt zu deinem Satz? Zeige an deiner eigenen französischen Nachricht, was du übernommen hast oder warum du die Hilfe nicht verwendet hast. Du darfst eine richtige Form beibehalten. Wenn du keine Frage hast, notiere „diesmal keine Hilfe benötigt“. Wenn keine passende Hilfe erreichbar ist, lasse die Frage offen. Erfinde keinen Fehler.",
+          "Lies deine eigene fertige Nachricht nochmals. Kannst du die Zeichen und Wortabstände erkennen und die Sätze auseinanderhalten?  Auf Papier: Kannst du deine Buchstaben ohne Raten entziffern? Schreibe eine schwer lesbare Stelle deutlicher, falls nötig. Am Bildschirm: Sind die Zeichen und Abstände in deinem Text klar erkennbar? Teile eine unübersichtliche Stelle sinnvoll auf oder verbessere ihre Darstellung, falls nötig. Ändere keine Geräteeinstellungen. Wenn du nichts ändern musst, notiere kurz „nochmals gelesen, keine schwer lesbare Stelle gefunden“. Wenn freiwillig jemand mitliest, darfst du nach einer schwer lesbaren Stelle fragen; ein Partner ist nicht nötig. Es geht um Lesbarkeit, nicht um schöne Schrift, Tempo oder fehlerfreies Französisch."
+        ],
+        "adultNote": "Zwei wählbare Optionen zum eigenen Ateliertext; keine zusätzlichen Punkte. Beide Prüfschritte gehören zu demselben Ateliertext. Nur die passende Hilfe wählen. Die 20 Kriterienpunkte sind Lernfeedback, keine Schulnote. Besprechen Sie Beispiele erst nach dem eigenen Versuch.",
+        "adultGuide": [
+          "Die eigenen Prüfschritte lassen sich mündlich oder kurz auf Deutsch oder Französisch erklären. Keine zusätzlichen Punkte, keine zusätzliche Datensammlung oder Speicherung von Kindertexten ausser den regulär im Browser gespeicherten App-Antworten. Die Notiz-/Nachrichtenfolge nicht durch Vorgaben ersetzen; Hilfen nur nach tatsächlichem Bedarf wählen. Der getrennte Hör-/Schreibweg M3 bleibt separat: keine Text-/Quellenkarten vor dortigen Hörantworten zeigen.",
+          "Wörterbucheintrag lesen, nur eigene kurze Notizen statt längerer Kopien festhalten."
+        ],
+        "adultCriteria": [
+          "A · Hilfsmittel: Frage vor der Hilfe, selbst gewählte wirklich betrachtete Hilfe/Fundstelle, satzbezogene Bedeutung/Form und Verwendung oder begründetes Verwerfen in der eigenen französischen Nachricht beobachten. Blosses „Wörterbuch benutzt“ belegt die konkrete Entscheidung nicht. Keine Frage: nicht erhoben; fehlender Zugang: offen; Hilfe vorgegeben: unterstützt. Keine künstliche Fehlersuche oder Pflicht zur Korrektur. Eine richtige Form darf bleiben. Analoger Teilweg ist keine Abnahme digitaler Hilfsmittel oder KI-Kompetenz.",
+          "B · Leserlichkeit: Das eigene fertige Papier- oder digitale Produkt rücklesen und eine schwer lesbare Stelle bei Bedarf deutlicher darstellen. Eine unveränderte lesbare Fassung ist möglich. Selbstbericht, freiwilliges fremdes Mitlesen und tatsächliche Änderung getrennt benennen; eigenes Rücklesen ist keine unabhängige Leserlichkeitsabnahme. Keine Schönheit-/Tempo-/Motorikbewertung, keine Gerätediagnose. Fremdsprachliche Richtigkeit und die vorhandene C-Quellenkontrolle bleiben andere Fragen."
+        ],
+        "printObservationFooter": "Hilfsmittelwahl und Rücklesen nur bei tatsächlich genutztem Prüfschritt rückmelden. Kein zusätzlicher Punkt."
+      },
+      "releaseEvidence": {
+        "validFor": "Klasse 7 ab 2026/27, Klasse 8 ab 2027/28",
+        "gradeBand": "7/8",
+        "competencyRef": "Französisch als zweite Fremdsprache, § 3.2.4, PDF-S. 62: eigene Notizen, Mindmaps und Stichwortgerüste als Ziel bis Ende Klasse 8. § 3.5.2 gibt eine Orientierung für begründete Meinungsäusserung. Die konkrete Schulfolge bleibt offen.",
+        "reviewNote": "Grundfall mit 20 Kriterienpunkten und freiwilligen unbepunkteten Prüfschritten aus getrennten Rollen übernommen; Quellen-/Text-/Handlungs-/Rollenüberleitung unabhängig geprüft. Bedienung, vollständige Text-Erreichbarkeit bei 320/390, Quellenansicht und gefüllte Sicherung mit bestätigtem Frischimport/Reload sind im isolierten Kandidaten geprüft. Tatsächliche Kinder- und Erwachsenenausgaben mit je drei A4-Seiten sind getrennt geprüft; die neue Adult-Druckregel hält Aufgabe B vollständig zusammen. Historische abgebrochene Prüfläufe und ihre Fehler bleiben separat dokumentiert. Die spätere 6-Punkte-Variante gehört nicht zu dieser Ausgabe. Keine menschliche Sprach-/Altersabnahme, tatsächliche Lernendenleistung, Geräte-/Drucker-, Fach- oder Jahresabnahme daraus abgeleitet.",
+        "checkedAt": "2026-11-27"
+      }
     }
   ]
 };

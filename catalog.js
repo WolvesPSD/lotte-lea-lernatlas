@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.27-sonnenbogen.4",
+  "version": "2026.11.27-en-m7-druckphase.3",
   "status": "familienversion",
   "subjects": [
     {
@@ -9901,7 +9901,8 @@ window.LOTTE_CATALOG = {
       "introduction": "Eine deutschsprachige Nachbarin fragt für ihre 13-jährige Tochter: „Was ist das? Darf sie hin? Wann und wo? Kostet es etwas? Muss sie Material mitbringen? Wie meldet sie sich an?“ Antworte auf Deutsch. Wähle die wichtigen Angaben aus dem englischen fiktiven Aushang und unterscheide belegte Angaben von unbekannten Zusagen. Wortstütze bei Bedarf: workshop = Werkstatt/Kurs; community library = öffentliche Bibliothek; provided = wird bereitgestellt; sign up = sich anmelden; library desk = Bibliothekstheke; places are limited = Plätze sind begrenzt. 20 Hauptpunkte und 6 getrennte freiwillige Zusatzpunkte sind Lernrückmeldung, keine Schulnote.",
       "passage": "FIKTIVER AUSHANG · Paper model workshop at the community library\nFor young people aged 11 to 14.\nSaturday, 10:00–11:30, in room 3 at the community library.\nThe workshop is free. Paper, glue and pens are provided. You do not need to bring materials.\nPlease sign up at the library desk by Thursday, 17:00. Places are limited.",
       "stagedUpdate": {
-        "text": "SPÄTERE FIKTIVE KORREKTUR · Nur für die freiwillige Zusatzaufgabe:\nSaturday, 11:00–12:30, in room 4. All other details stay the same."
+        "text": "SPÄTERE FIKTIVE KORREKTUR · Nur für die freiwillige Zusatzaufgabe:\nSaturday, 11:00–12:30, in room 4. All other details stay the same.",
+        "childPrintAfterUnlock": true
       },
       "tasks": [
         {
@@ -9969,8 +9970,9 @@ window.LOTTE_CATALOG = {
       "releaseEvidence": {
         "validFor": "2026/27",
         "gradeBand": "7/8",
-        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. § 2.2.5 PDF-S. 30–31: sinngemäße Übertragung in die andere Sprache, Auswahl wesentlicher Informationen, Notizen und Adressatenorientierung unter Zielmarke Klassenstufe 8.",
-        "checkedAt": "2026-10-22"
+        "competencyRef": "PDF-S. 2: Klasse 7 ab 2026/27. § 2.2.5 PDF-S. 30–31: sinngemäße Übertragung in die andere Sprache, Auswahl wesentlicher Informationen, Notizen und Adressatenorientierung unter Zielmarke Klassenstufe 8. Das fachliche Ausgangsmaterial behält den dokumentierten Prüfstand vom 22.10.2026. Das Datum 27.11.2026 bezeichnet ausschliesslich die unabhängig geprüfte Ein-Feld-Überleitung zum Kinderdruck-Phasenschutz; tatsächliche korrigierte Ausgabe und Laufzeit sind gesondert nachzuweisen.",
+        "checkedAt": "2026-11-27",
+        "reviewNote": "Ein bestehender Druckphasenschalter wird gesetzt. Ausgangs-/Korrekturtext, vier Aufgaben,20+6Rubriken, Arbeitsansicht, Zustandscode und Erwachsenenweg bleiben unverändert. Kein Port des späteren lokalen Hilfen-/Reflexionszusatzes. Tatsächliche Kandidaten-A4 vor/nach Freigabe sowie Rollen/Sicherung/Import und unabhängiger finaler Auslieferungsnachweis bleiben erforderlich."
       }
     },
     {

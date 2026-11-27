@@ -442,3 +442,11 @@ body[data-print-mode^="child"] #print-surface .print-topic:has(.print-task[data-
 
 /* Sonnenbogen: keep the third adult prompt, model and criteria together. */
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="go-sonnenbogen-park-anreise-endhalt"]{break-inside:avoid;page-break-inside:avoid}}
+
+/* Keep complete paper-workshop taskB together only in adult print. */
+@media print {
+  body[data-print-mode^="adult"] .print-task[data-task-id="en-paper-workshop-2"] {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}

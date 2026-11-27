@@ -439,3 +439,6 @@ body[data-print-mode^="child"] #print-surface .print-topic:has(.print-task[data-
 
 /* S05: keep the complete third adult task with its four feedback criteria. */
 @media print{body[data-print-mode^="adult"] .print-task[data-task-id="go-tourismus-jahresvergleich-3"]{break-inside:avoid;page-break-inside:avoid}}
+
+/* Sonnenbogen: keep the third adult prompt, model and criteria together. */
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="go-sonnenbogen-park-anreise-endhalt"]{break-inside:avoid;page-break-inside:avoid}}

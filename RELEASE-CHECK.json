@@ -1,103 +1,131 @@
 {
   "schemaVersion": 1,
-  "version": "2026.11.27-quellensprache.2",
-  "builtAt": "2026-11-27T03:02:12.164Z",
-  "status": "LOCAL_SCOPED_HISTORY_S5_ACCEPTED_PENDING_FINAL_PACKAGE_AND_PUBLICATION",
+  "status": "LOCAL_SCOPED_SONNENBOGEN_ACCEPTED_PENDING_FINAL_PACKAGE_AND_PUBLICATION",
+  "version": "2026.11.27-sonnenbogen.4",
+  "builtAt": "2026-11-27T04:47:21.592Z",
   "baseline": {
-    "candidate": "app/output/release-candidate-geo-s05-year-change-20261127-v3",
-    "version": "2026.11.27-tourismus-jahresvergleich.3",
-    "commit": "268dd0942e013fdb20f90ad09d20b8c8764fd01a",
+    "candidate": "app/output/release-candidate-history-s5-language-20261127-v2",
+    "version": "2026.11.27-quellensprache.2",
+    "commit": "53fec877e58fe9e2537b09c296b13300daabff76",
     "pin": {
       "path": "app/current-public-baseline.json",
-      "bytes": 4966,
-      "sha256": "15DFF12CECD084F987455A64D23714DECC168136EEEF57D8F3E1184D07E8C5F1"
+      "bytes": 4887,
+      "sha256": "3D02E493A13E3D98B4FFAF7CFF414766ED5167C10B5A4E2B8838B0DAE9B6CC12"
     },
     "activation": {
-      "path": "output/release-geo-s05-year-change-20261127/activation-v133-receipt.json",
-      "bytes": 2820,
-      "sha256": "A8C3BB25C9E64414FD219843373973C67292714CBDE4F0D84B4290DB7D62929F"
+      "path": "output/release-history-s5-language-20261127/activation-v136-receipt.json",
+      "bytes": 2852,
+      "sha256": "92851CB0F18830F2FCEA5575386A0D28452EE2EF7159DA7513DE6BDB36BD2486"
     }
   },
-  "rollbackCommit": "268dd0942e013fdb20f90ad09d20b8c8764fd01a",
+  "rollbackCommit": "53fec877e58fe9e2537b09c296b13300daabff76",
   "change": {
-    "existingTopic": "ge-bauernartikel-freiheit-deutung",
-    "addedFields": [
-      "practice"
+    "newTopic": "go-sonnenbogen-park-anreise",
+    "newTopics": 1,
+    "newTasks": 3,
+    "newStateSchemaFields": 0,
+    "points": [
+      0,
+      0,
+      0
     ],
-    "changedSourceFields": [
-      "releaseEvidence.competencyRef",
-      "releaseEvidence.checkedAt",
-      "releaseEvidence.reviewNote"
-    ],
-    "newTopics": 0,
-    "newTasks": 0,
-    "newStateFields": 0,
     "rendererChanged": false,
-    "cssChanged": false,
+    "cssChanged": true,
     "assetsChanged": false,
     "changedFiles": [
       "catalog.js",
       "index.html",
-      "RELEASE-CHECK.json"
-    ]
+      "RELEASE-CHECK.json",
+      "styles.css"
+    ],
+    "cssScope": "Only @media print and adult-mode task go-sonnenbogen-park-anreise-endhalt: break-inside/page-break-inside avoid."
   },
   "inventory": {
-    "topics": 235,
-    "taskObjects": 1061,
-    "changedTopic": 1,
-    "unchangedTopics": 234,
-    "allOldTaskObjectsUnchanged": 1061,
+    "topics": 236,
+    "taskObjects": 1064,
+    "all235OldTopicsAnd1061TasksUnchanged": true,
     "annualCoverageQuota": false
   },
   "validation": {
-    "independentTextRolesExactTwoLeafDeltaAndSourceContract": "PASS_SCOPED_ADOPTED_INPUTS",
-    "independentStaticTransfer": "PASS_SCOPED_EXISTING_TOPIC_PRACTICE_AND_SOURCE_ROW",
-    "actualPracticeRolesAndUnchangedBaseFields": "PASS_SCOPED_FOUR_OLD_TASKS_20_POINTS_NO_PRACTICE_INPUT_OR_AUTO_CREDIT",
-    "actualChildAdultA4": "PASS_INDEPENDENT_ACTUAL_V1_CHILD_3_A4_AND_ADULT_3_A4_REUSED_BY_EXACT_PARITY",
-    "actualMobilePracticeTextAndOptionalSourceLink": "PASS_SCOPED_320_390_FULL_TEXT_RECTANGLES_AND_EDGE_HITS_LINK_ATTRIBUTES_AND_DOWNLOAD_EVENT_ONLY",
-    "actualSpecificSourceAndUnchangedState": "PASS_SCOPED_OPEN_SOURCE_ROW_TWO_DATES_FOUR_FILLED_ANSWERS_REAL_EXPORT_CONFIRMED_FRESH_IMPORT_RELOAD_CLEARING",
-    "finalPackageAndPublicDelivery": "PENDING"
+    "textRoleTransfer": "PASS_SCOPED_INDEPENDENT_F2_DELTA_ROOT_ADOPTED",
+    "independentCandidateStatic": "PASS_SCOPED_V1_TRANSFER_AND_EXACT_V2_ADULT_PRINT_DELTA_FINAL_METADATA_REVIEW_PENDING",
+    "actualRolesMobileSource": "PASS_SCOPED_CHILD_ADULT_ROLES_EXACT_SOURCE_AND_MOBILE_TEXT_ACCESS_NO_AUTOMATIC_PERFORMANCE",
+    "filledBackupFreshImport": "PASS_THREE_DISTINCT_FILLED_SYNTHETIC_VALUES_REAL_EXPORT_CONFIRMED_FRESH_IMPORT_RELOAD_CLEARING",
+    "actualChildAdultA4": "PASS_INDEPENDENT_ACTUAL_V1_CHILD2_A4_REUSE_AND_REPAIRED_V2_ADULT2_A4",
+    "finalPackagePublicDelivery": "PENDING"
   },
   "evidence": [
     {
-      "path": "output/leitung-20261127/website-ge-s5-language-comparison-app-draft/root-draft-transfer-adoption.json",
-      "bytes": 7454,
-      "sha256": "8FD95E83B3CE435638FF4C660C8221457E5B9A066C66CA2666B83642448F15DC"
+      "path": "output/leitung-20261127/website-geo-sonnenbogen-app-draft/root-draft-transfer-adoption.json",
+      "bytes": 7793,
+      "sha256": "B190047809EFE2D1E7B70CBE1C66227FA1AD31BF589AE4F32CA934845A08D0BC"
     },
     {
-      "path": "output/release-history-s5-language-20261127/root-static-adoption.json",
-      "bytes": 97406,
-      "sha256": "47E37938F2632D01B76D7AD1BF5F0FF273AA6EC8F245A64E735981A06B92A75A"
+      "path": "output/release-geo-sonnenbogen-20261127/root-static-adoption.json",
+      "bytes": 71124,
+      "sha256": "41ACAE1E04201346E6AA633A77BA2A3D75D9BF730BF59644105D2474BE496BEC"
     },
     {
-      "path": "output/release-history-s5-language-20261127/root-feasibility-adoption.json",
-      "bytes": 83812,
-      "sha256": "1670F71D88A2A30D3EB32CBA27BA8813936D43ED8ACB6EFD90738A27DDBFD1BB"
+      "path": "output/release-geo-sonnenbogen-20261127/runtime-v1/manifest.json",
+      "bytes": 10172,
+      "sha256": "539B5E466AB771421DC63CE2F4D24C677313FC8612BFA4C7F1D51F70B0403D2D"
     },
     {
-      "path": "output/release-history-s5-language-20261127/root-local-runtime-adoption.json",
-      "bytes": 90986,
-      "sha256": "880221A6F2339626EE83E2B5CFF6DF204886072F81FAE64FCCA8B0F85B9190FE"
+      "path": "output/release-geo-sonnenbogen-20261127/root-local-roles-a4-adoption.json",
+      "bytes": 118528,
+      "sha256": "F61B1B4E2D4CD197FF5DD3B4FA51393D8B0D7D615318DCFE088906C5B3996B0F"
+    },
+    {
+      "path": "output/release-geo-sonnenbogen-20261127/root-local-runtime-adoption.json",
+      "bytes": 45056,
+      "sha256": "4AC0F0DDDAF8881AF2D41F0C4C5ACF65F5D02C3D94431D2FDCA735EDB707E6C4"
     }
   ],
   "limits": [
-    "Only the existing H02c topic gains a voluntary unscored language-comparison practice. All four base tasks and 20 points remain unchanged. No new topic or state schema.",
-    "Child/oral/paper practice is not counted by field progress and is never inferred from filled fields. No private beliefs, global historical language-change or legal judgement required.",
-    "Actual child and adult three-page A4s are separately retained V1 artifacts; final V2 changes only version/evidence metadata, not content or print paths.",
-    "BLB anchor and actual HTTP/download event are observed. Attachment header length is not a received-byte proof; saving the external PDF and viewer page2 remain unverified. The printed/app exercise carries its required short textual material itself.",
-    "Base review25.10.2026 remains distinct from the narrow S5 review27.11.2026. No base-source re-evaluation or learner/device/printer/whole-subject/year acceptance.",
-    "Final independent package, Git/Pages, canonical HTTPS, scoped public UI and verified central activation remain separate open gates."
+    "Single expressly fictional regional example, no real park/travel event and no timetable, distance, emissions, accessibility or visitor-number inference.",
+    "Three voluntary manual0P tasks, oral/paper alternatives. Field progress counts nonempty App fields, not oral/paper work, correctness or learning; no new completion field or state schema.",
+    "Adult-only solution fields implement UI role separation, not access security. Actual child/adult UI and printed roles are independently accepted in the bound limited local evidence; public UI delivery remains pending.",
+    "End8 voluntary7/8 outlook; formal Grade7 validity, school sequence and full terminology use across all requirement levels remain open.",
+    "checkedAt27Nov records the independently adopted narrow text/role transfer, not a runtime/print/public/whole-subject/year acceptance.",
+    "Research master and public pin unchanged by this isolated build. No publication before independent static, actual runtime/state/print and final package gates.",
+    "Two actual V1 child A4 pages are independently accepted for scoped reuse through exact content, renderer and child-print CSS parity. No new V2 or final-package child PDF was generated; these remain V1 artifacts.",
+    "The original V1 adult task3 split and auditExit1 remain preserved. Two new actual V2 adult A4 pages are independently accepted: task3 prompt, model and both criteria share page2, all content retained. No text/font/renderer/state change; no new final-package adult PDF generated.",
+    "This final package changes only catalog/HTML version and release-evidence metadata relative to the already accepted V2 content/print state. All topic content, sources, roles, renderer, V2CSS, assets and state code unchanged. Actual V1child2A4 and V2adult2A4 remain separate prior artifacts, not a new final-package print run.",
+    "Local scoped technical acceptance does not prove real learner/device/printer, school sequence, formalGrade7, whole subject or annual coverage."
   ],
-  "updatedAt": "2026-11-27T03:43:40.081Z",
+  "updatedAt": "2026-11-27T04:47:21.592Z",
   "recordedProcessBoundary": {
-    "separateProcesses": true,
-    "singleSeriesTotalPass": false,
-    "history": "Initial optional PDF popup fragment assertion failed after HTTP200/applicationPDF. Bounded continuation recorded actual attachment download and acceptDownloads:false storage refusal, plus previously unexecuted adult/source/actual A4 gates. Two later preparation failures occurred before browser startup. Small mobile-selector probe and remaining runtime are separate successful processes. Original failures and process evidence remain unchanged."
+    "v1Probe": {
+      "checks": 15,
+      "passed": 15,
+      "nodeExit": 0,
+      "shellExit": 0
+    },
+    "v1PrintCreation": {
+      "checks": 11,
+      "passed": 11,
+      "nodeExit": 0,
+      "shellExit": 0
+    },
+    "v1A4AuditExit": 1,
+    "v1AdultLayoutAccepted": false,
+    "actualV2AdultPrintAccepted": true,
+    "rootVisualDecision": {
+      "path": "output/release-geo-sonnenbogen-20261127/root-v1-adult-layout-decision.json",
+      "bytes": 1512,
+      "sha256": "A795BA1E760C63576835C5E077B2AD36B351FD213F5C86A0C9E2C31571B8E1FC"
+    },
+    "remainingRuntimeAdoption": {
+      "path": "output/release-geo-sonnenbogen-20261127/root-local-runtime-adoption.json",
+      "bytes": 45056,
+      "sha256": "4AC0F0DDDAF8881AF2D41F0C4C5ACF65F5D02C3D94431D2FDCA735EDB707E6C4"
+    },
+    "singleSeriesTotalPass": false
   },
   "remainingPackageGates": [
-    "Independent exact final metadata/package parity review",
-    "Expected-parent publication",
-    "Independent Git/Pages and canonical HTTPS bytes plus scoped public UI",
+    "Independent final exact version/evidence metadata and functional parity review",
+    "Expected-parent publication under existing user authorization",
+    "Independent Git/Pages and canonical HTTPS plus scoped actual public UI",
     "Verified public pin and central-control activation"
   ]
 }

@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.27-quellensprache.2",
+  "version": "2026.11.27-sonnenbogen.4",
   "status": "familienversion",
   "subjects": [
     {
@@ -25574,6 +25574,68 @@ window.LOTTE_CATALOG = {
         "competencyRef": "Geografie Gymnasium 2012, § 2.2, PDF-S. 14 / Drucks. 16, S05 in G-02: touristische Entwicklungen an ausgewählten Regionen beschreiben und vergleichen. Freiwilliger Jahresvergleich zweier Länder bis Ende Klasse 8. Formale Klasse-7-Geltung und konkrete Schulfolge offen.",
         "checkedAt": "2026-11-27",
         "reviewNote": "Der Quellen- und Handlungsentscheid sowie die getrennten lokalen Rollen wurden am 27.11.2026 angenommen. Die App-Überleitung und ihre zwei engen Textkorrekturen wurden am 27.11.2026 unabhängig geprüft. Die Daten bleiben die angenommene Auswahl aus Eurostat, Bericht16.10.2026/DatenabzugOktober2026; kein neuer Quellenabruf oder aktualisierte Zahlenreihe. Tatsächliche Kandidaten-, Rollen-, Fortschritts-, Sicherungs- und A4-Belege werden getrennt im Releasepaket geführt. Freiwilliger7/8-Vorgriff auf Ende8, formale Klasse7-Geltung und konkrete Schulfolge offen."
+      }
+    },
+    {
+      "id": "go-sonnenbogen-park-anreise",
+      "subjectId": "go",
+      "title": "Sonnenbogen: das Gelände und die Anreise",
+      "released": true,
+      "levelStatus": "grade8-outlook",
+      "levelLabel": "7/8-Vorgriff · Ziel Ende Klasse 8",
+      "scope": "Freiwilliger Ausblick für Klasse 7/8 auf ein Ziel Ende Klasse 8. Die formale Klasse-7-Geltung für 2026/27 und die konkrete Unterrichtsfolge sind offen.",
+      "introduction": "Du kannst jede Antwort mündlich geben oder auf Papier schreiben. Alle drei Aufgaben sind freiwillig und zählen 0 Punkte. Wenn du möchtest, kannst du deine Antwort auch hier eintragen. Die Anzeige zählt nur ausgefüllte App-Felder. Sie bewertet deine Erklärung nicht. Antworten auf Papier oder mündliche Antworten erscheinen dort nicht.",
+      "passage": "ERFUNDENER FALL · SONNENBOGEN\nOrte, Angebote und Busverbindung sind erfunden.\n\nAm Rand von Wiesenort liegt das Gelände Sonnenbogen. Es ist dauerhaft für Freizeitbesuche eingerichtet. Auf demselben Gelände gibt es eine Achterbahn, ein Karussell und eine Spielwelt. Für Gäste aus Lindenhafen ist der Besuch ein Tagesausflug ausserhalb ihres üblichen Lebensumfelds.\n\nStart und Ziel bleiben gleich: vom Bahnhof Lindenhafen zum Eingang Sonnenbogen.\nFrüher: Der Bus fuhr vom Bahnhof bis zum Dorfplatz Wiesenort. Von dort gingen die Gäste zu Fuss bis zum Eingang.\nSpäter: Dieselbe Linie fährt vom Bahnhof über den Dorfplatz weiter bis zum Eingang.",
+      "tasks": [
+        {
+          "id": "go-sonnenbogen-park-anreise-gelaende",
+          "kind": "reflection",
+          "points": 0,
+          "adultOnlySolution": true,
+          "inputRows": 4,
+          "writingLines": 4,
+          "prompt": "Passt der Begriff «Freizeitpark» zum Sonnenbogen? Verwende ihn in deiner Antwort und begründe deine Einordnung mit konkreten Merkmalen des Geländes. Tipp bei Bedarf: Wofür ist das Gelände eingerichtet, und was findet man dort?",
+          "sample": "Mögliches Beispiel nach dem eigenen Versuch: Ich würde Sonnenbogen als Freizeitpark einordnen. Das Gelände ist auf Dauer für Freizeitbesuche eingerichtet, und an einem Ort kann man beispielsweise Achterbahn fahren und die Spielwelt besuchen.",
+          "criteria": [
+            "Auf den Zusammenhang zwischen der Nutzung des Geländes und den genannten Angeboten eingehen. Eine begründete Auswahl genügt.",
+            "Nennt das Kind nur das Karussell, nachfragen, was es über das Gelände erfährt, zu dem es gehört. Eigene Begründung und Hilfe getrennt rückmelden."
+          ]
+        },
+        {
+          "id": "go-sonnenbogen-park-anreise-verbindung",
+          "kind": "reflection",
+          "points": 0,
+          "adultOnlySolution": true,
+          "inputRows": 4,
+          "writingLines": 6,
+          "prompt": "Beschreibe mit dem Begriff «Verkehrsentwicklung», was sich auf dieser Verbindung geändert hat. Beurteile, in welcher Hinsicht die Gäste mit dieser Linie den Eingang jetzt besser erreichen können. Nenne eine Frage zur Anreise, die offenbleibt, und erkläre, welche Angabe dir dafür fehlt. Tipp bei Bedarf: Verfolge den Weg vom selben Start zum selben Ziel. Wo hält der Bus jeweils zuletzt?",
+          "sample": "Mögliches Beispiel nach dem eigenen Versuch: Die Verkehrsentwicklung zeigt sich hier an der Verlängerung derselben Buslinie. Vom Bahnhof Lindenhafen kam man früher mit dem Bus bis zum Dorfplatz Wiesenort. Jetzt können Gäste bis zum Eingang Sonnenbogen im Bus bleiben. Wer die verlängerte Linie nutzt, spart sich den bisherigen letzten Fussweg. Wie lange die gesamte Anreise dauert, bleibt offen, weil Fahr- und Wartezeiten fehlen.",
+          "criteria": [
+            "Veränderung der Verbindung, konkreten Vorteil für Fahrgäste und begründete Aussagegrenze einzeln aufgreifen.",
+            "Bei einer behaupteten kürzeren Gesamtzeit nach der fehlenden Vergleichsangabe fragen. Andere begründete Grenzen sind gleichwertig. Eigene Erklärung und Hilfe auseinanderhalten. Über Barrierefreiheit, Emissionen oder Besuchszahlen liegen im Modell keine Angaben vor."
+          ]
+        },
+        {
+          "id": "go-sonnenbogen-park-anreise-endhalt",
+          "kind": "reflection",
+          "points": 0,
+          "adultOnlySolution": true,
+          "inputRows": 4,
+          "writingLines": 5,
+          "prompt": "Freiwilliger Urteilszusatz. Für die Übung erfundene Behauptung: «Erst seit der Bus bis zum Eingang fährt, kann man Sonnenbogen einen Freizeitpark nennen.» Beurteile, ob der neue Endhalt die Einordnung des Geländes begründet. Verwende den Begriff «Freizeitpark» in deinem Urteil und begründe es mit einem konkreten Merkmal des Geländes und der Änderung der Busverbindung. Du kannst offenlassen, seit wann die Einordnung passt, wenn du das begründest. Tipp bei Bedarf: Lies den Absatz zum Gelände und die Angaben zur Busfahrt. Welche Angabe findest du jeweils wo?",
+          "sample": "Mögliches Beispiel nach dem eigenen Versuch: Ich halte die Behauptung für unbegründet. Für die Bezeichnung Freizeitpark spricht, dass Sonnenbogen dauerhaft für Freizeitbesuche eingerichtet ist und auf demselben Gelände etwa eine Achterbahn und ein Karussell anbietet. Der neue Endhalt erklärt, warum Gäste in dieser Buslinie bis zum Eingang fahren können. Wann die Anlage zum Freizeitpark wurde, verrät die Busverbindung nicht.",
+          "criteria": [
+            "Greift das Kind im eigenen Urteil ein Merkmal des Geländes und die Änderung des Zugangs auf? Bei einer Antwort nur zum Fussweg nach der Angabe zum Gelände fragen.",
+            "Ein begründet offenes Urteil zur früheren Einordnung ist gleichwertig. Die Angaben datieren weder die Eröffnung noch einzelne Attraktionen. Eigenen Schluss und gegebene Hilfe getrennt rückmelden."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "Geografieplan Gymnasium, Titeljahr 2012. Dokumentierte Kontinuitätsinferenz als Arbeitsbasis; ausdrückliche Klasse-7-Geltung 2026/27 und konkrete Schulfolge offen.",
+        "gradeBand": "Klasse 7/8, Ziel Ende Klasse 8",
+        "competencyRef": "Geografie Gymnasium, Kapitel 2 (PDF 10 / Druck 12) und § 2.2 (PDF 14 / Druck 16), G-02 Tourismus und Freizeit: Freizeitpark und Verkehrsentwicklung am fiktiven regionalen Beispiel begründet verwenden. Zwei Grundaufträge und ein freiwilliges Urteil zum Endhalt; vollständiger fachsprachlicher Mindeststandard in allen Anforderungsbereichen offen.",
+        "reviewNote": "Am 27.11.2026 unabhängig angenommene Text- und Rollenüberleitung der lokalen Sonnenbogen-Aufträge samt freiwilligem Begriffs-Urteil. Dieses Datum belegt die enge Überleitung; tatsächliche Bedienung, Druck und Veröffentlichung werden getrennt geprüft. Keine Fach-, Kinder- oder Jahresabnahme.",
+        "checkedAt": "2026-11-27"
       }
     }
   ]

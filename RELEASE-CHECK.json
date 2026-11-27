@@ -1,95 +1,113 @@
 {
   "schemaVersion": 1,
-  "version": "2026.11.27-dichteformel.2",
-  "builtAt": "2026-11-27T01:09:36.785Z",
-  "status": "LOCAL_SCOPED_DENSITY_EVIDENCE_ACCEPTED_PENDING_FINAL_PACKAGE_AND_PUBLICATION",
+  "version": "2026.11.27-tourismus-jahresvergleich.3",
+  "builtAt": "2026-11-27T02:28:06.817Z",
+  "status": "LOCAL_SCOPED_S05_EVIDENCE_ACCEPTED_PENDING_FINAL_PACKAGE_AND_PUBLICATION",
   "baseline": {
-    "candidate": "app/output/release-candidate-geo-m07-diagram-20261127-v3",
-    "version": "2026.11.27-modelltemperaturen.3",
-    "commit": "bb8542069a0210f05fbab5e39987d19dcca1be51",
+    "candidate": "app/output/release-candidate-ma-density-formula-20261127-v2",
+    "version": "2026.11.27-dichteformel.2",
+    "commit": "70486aff637df649153d16a5d861f96b8c857530",
     "pin": {
       "path": "app/current-public-baseline.json",
-      "bytes": 4831,
-      "sha256": "6E2E50E53005D61296CDBD26488B4032CDCED1E2AD7C00A9BE62E23FFC6B128D"
+      "bytes": 4917,
+      "sha256": "D5ABAC262EF738B8232601514DC7DA2C37C4CA38F6463BCB7BEE108B76ECBA8E"
     }
   },
-  "rollbackCommit": "bb8542069a0210f05fbab5e39987d19dcca1be51",
+  "rollbackCommit": "70486aff637df649153d16a5d861f96b8c857530",
   "change": {
     "newTopics": [
-      "ma-dichteformel-umstellen"
+      "go-tourismus-jahresvergleich"
     ],
-    "newTasks": 6,
+    "newTasks": 3,
     "existingTopicsChanged": 0,
     "existingTasksChanged": 0,
     "newAssets": [],
     "rendererChanged": false,
-    "cssChanged": false,
+    "cssChanged": true,
     "stateSchemaChanged": false,
     "changedExistingFiles": [
       "RELEASE-CHECK.json",
       "catalog.js",
-      "index.html"
+      "index.html",
+      "styles.css"
     ]
   },
   "inventory": {
-    "topics": 234,
-    "taskObjects": 1058,
-    "oldTopicObjectsUnchanged": 233,
-    "oldTaskObjectsUnchanged": 1052,
+    "topics": 235,
+    "taskObjects": 1061,
+    "oldTopicObjectsUnchanged": 234,
+    "oldTaskObjectsUnchanged": 1058,
     "annualCoverageQuota": false
   },
   "validation": {
-    "independentTextRolesAndHintTransfer": "PASS_SCOPED_INPUTS",
-    "candidateIndependentStatic": "PASS_SCOPED_V1_TRANSFER_FINAL_VERSION_METADATA_REVIEW_PENDING",
-    "actualMainFeedbackTransferPhase": "PASS_SCOPED_ACTUAL_5_CONFIRMATION_RESET_COMMIT_READONLY_TRANSFER",
-    "actualManualRolesAndSourcesMobile": "PASS_SCOPED_320_390_BOTH_PHASES_SIX_MANUAL_ACTIONS_EXACT_SOURCE",
-    "actualChildBeforeAfterAndAdultA4": "PASS_INDEPENDENTLY_REVIEWED_3_4_2_A4_PAGES",
-    "filledExportFreshImportWithMarker": "PASS_FILLED_SYNTHETIC_ANSWERS_MARKER_CONFIRMED_FRESH_IMPORT_RELOAD_AND_CLEARING",
+    "independentTextRolesAndExactTwoFieldDelta": "PASS_SCOPED_INPUTS",
+    "candidateIndependentStatic": "PASS_SCOPED_V1_TRANSFER_AND_V2_EXACT_ADULT_CSS_DELTA_FINAL_METADATA_REVIEW_PENDING",
+    "actualChildAdultDataAndRoles": "PASS_SCOPED_3_MANUAL_CHILD_ACTIONS_NO_MODELS_EXACT_ADULT_MODELS_CRITERIA",
+    "actualManual0PointAndProgressBoundaryMobile": "PASS_SCOPED_320_390_COMPLETE_TEXT_RECTANGLES_EDGE_HITS_FIELD_ONLY_PROGRESS_BOUNDARY",
+    "actualChildAdultA4": "PASS_INDEPENDENT_V1_CHILD_2_A4_REUSE_AND_REPAIRED_V2_ADULT_2_A4",
+    "filledExportFreshImport": "PASS_3_FILLED_SYNTHETIC_ANSWERS_REAL_DOWNLOAD_CONFIRMED_FRESH_IMPORT_RELOAD_AND_CLEARING",
     "finalIndependentPackage": "PENDING",
     "GitPagesHTTPSPublicUI": "PENDING"
   },
   "evidence": [
     {
-      "path": "output/leitung-20261127/website-ma-density-formula-app-draft/root-draft-transfer-adoption.json",
-      "bytes": 9770,
-      "sha256": "70973F72D950D649BEEBB8908BDB4F1543628182E4BE58B00FCB320FA0C191A2"
+      "path": "output/leitung-20261127/website-geo-s05-year-change-app-draft/root-draft-transfer-adoption.json",
+      "bytes": 12353,
+      "sha256": "C1925780BB93254A92FDED2C80D86EE7FBA088BAC64B527B7B54E94B8E5CC6EF"
     },
     {
-      "path": "output/release-ma-density-formula-20261127/root-static-adoption.json",
-      "bytes": 73149,
-      "sha256": "824734BB19AF39612DFFDACF0FF5D64AC82D8B544DCC79D6EE889D4505FE30FB"
+      "path": "output/release-geo-s05-year-change-20261127/runtime-v1-a4-title-continuation/adult-print-dom.json",
+      "bytes": 9641,
+      "sha256": "8CB9D9EE393D4E5295B15684742BEE1271A168CE2123AF328851DD11409E41C4"
     },
     {
-      "path": "output/release-ma-density-formula-20261127/root-independent-phase-a4-adoption.json",
-      "bytes": 126261,
-      "sha256": "45C945E784E7A2046869DDE2D22446BF1EB9EC244F2C2B5A85EB964D866CF138"
+      "path": "output/release-geo-s05-year-change-20261127/runtime-v1-a4-title-continuation/adult.pdf",
+      "bytes": 86300,
+      "sha256": "2184CEA5DC3908A0541C22B0C7F31F7B3FAF8A5C731387DB6B2C3173B7164562"
     },
     {
-      "path": "output/release-ma-density-formula-20261127/root-local-runtime-adoption.json",
-      "bytes": 172203,
-      "sha256": "F58289B8AF8357CB3EDB0830E555033A032A1DB203F4976FA1F9052C53F7F866"
+      "path": "output/release-geo-s05-year-change-20261127/runtime-v1-a4-title-continuation/a4/adult-1.png",
+      "bytes": 438654,
+      "sha256": "B1B8A04CCAB1BFF33B4C49A187CB478FAD4754FB600E9866C1B3DFFC11BF9183"
+    },
+    {
+      "path": "output/release-geo-s05-year-change-20261127/runtime-v1-a4-title-continuation/a4/adult-2.png",
+      "bytes": 69641,
+      "sha256": "A435351AF2E86B6979AD2A2E710D1AFB2B8C4F22440114D6A26BD5E24CAE5E28"
+    },
+    {
+      "path": "output/release-geo-s05-year-change-20261127/root-static-adoption.json",
+      "bytes": 109009,
+      "sha256": "B2B4E804320D8328931DFB900AF0DD55AE7526DB7D68D5790A38543BCA1FED72"
+    },
+    {
+      "path": "output/release-geo-s05-year-change-20261127/root-local-roles-progress-a4-adoption.json",
+      "bytes": 128585,
+      "sha256": "DE6C84A2935A16941F763E1558B9B39681F654C8B1186037B13B86B3A086070F"
+    },
+    {
+      "path": "output/release-geo-s05-year-change-20261127/root-local-runtime-adoption.json",
+      "bytes": 43462,
+      "sha256": "65385540752DE6B8C36765C3FB26D6841F523E6B89CCAB1DD9C417BC793A3634"
     }
   ],
   "limits": [
-    "Research master and current public pin remain unchanged until separate publication and verified activation.",
-    "Five main tasks20 plus separate later transfer6; phase confirmation is self-report, never proof of actual feedback, correct calculation or learning.",
-    "All six hints and original task/rubric/phase data retained. Local three-role A4, phases, mobile, manual roles, exact source and synthetic filled backup/import are accepted only within the documented checks.",
-    "Voluntary7/8preview, targetEnd8/school sequence open. No measurement, experiment, actual learner, physical device/printer, school or annual acceptance.",
-    "Duplicated visible numbering remains a documented cosmetic issue; the six tasks remain unambiguous."
+    "Research master and public Dichte pin remain unchanged until separate authorised publication and verified activation.",
+    "Three voluntary unscored manual reflection tasks. Field counters record nonempty App text, never paper/oral work, correctness or actual learning.",
+    "Exact dated Eurostat category/rates, national own-prior-year denominators and residence definition retained; no absolute ranking, causes, person count or whole-tourism conclusion.",
+    "Actual local outputs remain the V1 child two-page PDF and V2 adult two-page PDF, reused by exact unchanged role/content/print-path parity, not a new V3 PDF run.",
+    "Voluntary7/8 preview, targetEnd8. Formal Grade7 validity, school sequence, actual learners/devices/printer and subject/year acceptance open."
   ],
-  "updatedAt": "2026-11-27T01:35:04.090Z",
+  "updatedAt": "2026-11-27T02:42:09.471Z",
   "recordedProcessBoundary": {
     "separateProcesses": true,
     "overallSingleSeriesPass": false,
-    "firstPdfAuditExit": 1,
-    "resolution": "A duplicated exact criterion in Adult tasks3/5 triggered a global uniqueness assertion. Separate contextual offline audit and independent PDF extraction/sight confirm both complete correct blocks on the unchanged PDF; original failure retained.",
-    "noProductCorrectionForAudit": true,
-    "actualProcessAndCheckCounts": "See exact adopted raw processes; no sum presented as one run."
+    "history": "Original horizontal-space and subject-prefix harness failures retained. Python launcher failed before audit. Actual V1 adult task3 split was retained and corrected only by an exact adult-print keep-together rule; new V2 adult output independently reviewed. See bound reports for actual individual process exits and counts."
   },
   "remainingPackageGates": [
-    "Independent final metadata/package and exact functional-content parity review",
+    "Independent final version/evidence metadata and functional parity review",
     "Authorised publication with expected-parent lease",
-    "Independent Git/Pages and canonical HTTPS delivery, scoped actual public UI",
-    "Verified public pin activation and final central control"
+    "Independent Git/Pages and canonical HTTPS bytes, scoped actual public UI",
+    "Verified public pin activation and central control"
   ]
 }

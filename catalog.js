@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.27-dichteformel.2",
+  "version": "2026.11.27-tourismus-jahresvergleich.3",
   "status": "familienversion",
   "subjects": [
     {
@@ -25469,6 +25469,82 @@ window.LOTTE_CATALOG = {
         "printNote": "Nach Rückmeldung zu fünf Hauptaufgaben; sechs Transferpunkte getrennt halten."
       },
       "draftOnly": false
+    },
+    {
+      "id": "go-tourismus-jahresvergleich",
+      "subjectId": "go",
+      "title": "Touristische Übernachtungen in Deutschland und Kroatien",
+      "released": true,
+      "draftOnly": false,
+      "levelStatus": "grade8-outlook",
+      "levelLabel": "7/8-Vorgriff · Ziel Ende Klasse 8",
+      "scope": "Freiwilliger 7/8-Vorgriff auf ein Ziel Ende Klasse 8. Du beschreibst und vergleichst die Veränderung der Übernachtungen internationaler Gäste in zwei Ländern. Die formale Geografie-Geltung für Klasse 7 im Schuljahr 2026/27 und die konkrete Unterrichtsfolge bleiben offen.",
+      "introduction": "Freiwillig und ohne Punkte. Die Datenkarte enthält alle Zahlen, die du brauchst. Du kannst mündlich oder auf Papier antworten. Eine Eingabe in der App ist freiwillig. Die Fortschrittsanzeige zählt nur ausgefüllte App-Felder. Mündliche Antworten und Papierantworten werden dort nicht erfasst; das ist keine Bewertung.",
+      "passage": "DATENKARTE\nÜbernachtungen internationaler Gäste in erfassten touristischen Unterkünften\nVeränderung 2025 gegenüber 2024\n\nDeutschland    −2,0 %\nKroatien    +0,8 %\n\nJedes Land wird mit seinem eigenen Wert von 2024 verglichen. Internationale Gäste wohnen ausserhalb des Landes, in dem sie übernachten. Ihr Pass spielt dabei keine Rolle.",
+      "cardsHeading": "Quellennachweis",
+      "sourceCards": [
+        {
+          "title": "Eurostat · Jahresergebnisse für touristische Unterkünfte",
+          "text": "Eigene Auswahl zweier Werte aus «Tourism statistics – annual results for the accommodation sector», Tabelle 3 auf Seite 5. Die Zahlen stehen direkt auf der Datenkarte.",
+          "sourceLabel": "Eurostat, Tabelle 3, Seite 5",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/SEPDF/cache/37341.pdf#page=5",
+          "additionalSourceLabel": "Eurostat, Wohnsitzland",
+          "additionalSourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary%3ACountry_of_residence&oldid=219791",
+          "sourceNote": "Bericht vom 16. Oktober 2026, Datenabzug Oktober 2026, Datensatz tour_occ_ninat. Spätere Revisionen sind möglich."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "go-tourismus-jahresvergleich-1",
+          "kind": "reflection",
+          "points": 0,
+          "adultOnlySolution": true,
+          "inputRows": 4,
+          "writingLines": 4,
+          "prompt": "Beschreibe für jedes Land in eigenen Worten, wie sich die Zahl der Übernachtungen von 2024 auf 2025 verändert hat. Nenne jeweils die Richtung und den Prozentwert.\nTipp bei Bedarf – Schau auf den Datenkopf und auf das Vorzeichen vor jeder Zahl. Frage dich, welche Übernachtungen die Datenkarte zählt und welche Jahre sie vergleicht.",
+          "sample": "In Deutschland gingen die Übernachtungen internationaler Gäste in erfassten touristischen Unterkünften 2025 gegenüber 2024 um 2,0 % zurück. In Kroatien nahmen sie um 0,8 % zu.",
+          "criteria": [
+            "Je Land Richtung, Prozentwert und Zeitbezug aufgreifen. Bei einem Zahlendreher oder falschen Vorzeichen zuerst auf die betreffende Zeile verweisen.",
+            "Bei Bedarf im Datenkopf gemeinsam Gästegruppe, Messgrösse und Vergleichsjahre finden lassen. Die Modelle erst nach dem eigenen Versuch besprechen."
+          ]
+        },
+        {
+          "id": "go-tourismus-jahresvergleich-2",
+          "kind": "reflection",
+          "points": 0,
+          "adultOnlySolution": true,
+          "inputRows": 4,
+          "writingLines": 4,
+          "prompt": "Vergleiche die beiden Entwicklungen in einer eigenen Aussage. Was fällt dir auf, wenn du sie nebeneinander anschaust?",
+          "sample": "Die Übernachtungszahlen entwickelten sich also in entgegengesetzte Richtungen.",
+          "criteria": [
+            "Bei zwei korrekten Einzelbeschreibungen ohne Vergleich gezielt nach ihrem Zusammenhang fragen. Die Vergleichsaussage beim Kind lassen."
+          ]
+        },
+        {
+          "id": "go-tourismus-jahresvergleich-3",
+          "kind": "reflection",
+          "points": 0,
+          "adultOnlySolution": true,
+          "inputRows": 4,
+          "writingLines": 4,
+          "prompt": "Nenne etwas, das du mit diesen zwei Werten nicht beurteilen kannst. Begründe es kurz mit dem, was die Datenkarte erfasst.",
+          "sample": "Aus den beiden Raten lässt sich beispielsweise die Zahl der angereisten Personen nicht bestimmen, weil Eurostat Übernachtungen zählt und eine Person mehrere Nächte bleiben kann.",
+          "criteria": [
+            "Für die Grenze auch andere passende Begründungen anerkennen, etwa zu einzelnen Orten, Ursachen oder zur Entwicklung des gesamten Tourismus.",
+            "Jede Rate verwendet den eigenen Vorjahreswert des Landes für dieselbe Gästegruppe. Eine Differenz in Prozentpunkten, eine Rückrechnung oder eine Rangfolge der absoluten Übernachtungszahlen ist dafür entbehrlich.",
+            "Der Zusatz ist freiwillig und unbepunktet. Mündliche Antworten und Papierantworten sind gleichwertig; ein leeres App-Feld belegt keine ausgelassene Handlung. Benennen, was das Kind selbst erklärt hat und wobei es Hilfe erhielt. Bei ausgelassener Handlung bleibt der entsprechende Teil offen.",
+            "Die Tabelle trägt den Vergleich für die erfasste Kategorie. Aus dem allgemeinen Hinweis zu Erfassungsschwellen bei Kapazitätsdaten folgt für dieses Länderpaar keine konkrete unterschiedliche Schwelle."
+          ]
+        }
+      ],
+      "releaseEvidence": {
+        "validFor": "Geografieplan Gymnasium mit Titeljahr 2012. Dokumentierte Kontinuitätsinferenz als Arbeitsbasis. Formale Klasse-7-Geltung 2026/27 und konkrete Schulfolge bleiben offen.",
+        "gradeBand": "Klasse 7/8, Ziel Ende Klasse 8",
+        "competencyRef": "Geografie Gymnasium 2012, § 2.2, PDF-S. 14 / Drucks. 16, S05 in G-02: touristische Entwicklungen an ausgewählten Regionen beschreiben und vergleichen. Freiwilliger Jahresvergleich zweier Länder bis Ende Klasse 8. Formale Klasse-7-Geltung und konkrete Schulfolge offen.",
+        "checkedAt": "2026-11-27",
+        "reviewNote": "Der Quellen- und Handlungsentscheid sowie die getrennten lokalen Rollen wurden am 27.11.2026 angenommen. Die App-Überleitung und ihre zwei engen Textkorrekturen wurden am 27.11.2026 unabhängig geprüft. Die Daten bleiben die angenommene Auswahl aus Eurostat, Bericht16.10.2026/DatenabzugOktober2026; kein neuer Quellenabruf oder aktualisierte Zahlenreihe. Tatsächliche Kandidaten-, Rollen-, Fortschritts-, Sicherungs- und A4-Belege werden getrennt im Releasepaket geführt. Freiwilliger7/8-Vorgriff auf Ende8, formale Klasse7-Geltung und konkrete Schulfolge offen."
+      }
     }
   ]
 };

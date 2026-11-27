@@ -436,3 +436,6 @@ body[data-print-mode^="child"] #print-surface .print-topic:has(.print-task[data-
 @media print{body[data-print-mode^='adult'] .print-task[data-task-id^='go-salzwege-pfeildiagramm-']{break-inside:avoid;page-break-inside:avoid}}
 
 @media print{body[data-print-mode^='adult'] .print-task[data-task-id^='go-modelltemperaturen-diagramm-zeichnen-']{break-inside:avoid;page-break-inside:avoid}}
+
+/* S05: keep the complete third adult task with its four feedback criteria. */
+@media print{body[data-print-mode^="adult"] .print-task[data-task-id="go-tourismus-jahresvergleich-3"]{break-inside:avoid;page-break-inside:avoid}}

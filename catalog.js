@@ -1,5 +1,5 @@
 window.LOTTE_CATALOG = {
-  "version": "2026.11.27-epochenbegriffe.4",
+  "version": "2026.11.27-suedasien-kartenwahl.4",
   "status": "familienversion",
   "subjects": [
     {
@@ -25772,6 +25772,86 @@ window.LOTTE_CATALOG = {
         "checkedAt": "2026-11-27",
         "reviewNote": "Vier vorhandene Grundaufgaben und der freiwillige M5-Vergleich quellen- und rollengebunden übergeleitet. F1/F2 am27.11.2026 unabhängig korrigiert angenommen. Kriterienpunkte sind Lernfeedback; andere inhaltlich gleichwertige, sauber begrenzte Antworten zählen. Kandidatenlaufzeit, Sicherung/Import, Rollen und tatsächlicher A4-Druck vor Veröffentlichung gesondert prüfen."
       }
+    },
+    {
+      "id": "go-suedasien-kartenwahl",
+      "subjectId": "go",
+      "title": "Zwei Fragen an Südasien",
+      "released": true,
+      "materialOnly": true,
+      "unscored": true,
+      "levelStatus": "grade8-outlook",
+      "scope": "Freiwilliger Ausblick im Doppeljahrgang 7/8 bis Ende Klasse 8. Die konkrete Schulfolge bleibt offen.",
+      "prerequisite": "Für die freie Wahl brauchst du beide Karten mit lesbaren Farben und Einheiten. Du kannst die Ansichten vergrössern und verschieben.",
+      "introduction": "Schau auf die indische Halbinsel, die nach Süden ins Meer ragt, und auf das Gebiet unmittelbar nördlich davon.",
+      "tasks": [],
+      "practice": {
+        "title": "Welche Karte hilft dir bei welcher Frage?",
+        "unscored": true,
+        "childNote": "Wähle für jede Frage selbst. Zeige jeweils zwei Bereiche auf der gewählten Karte. Erkläre an ihren Farben und an der Einheit der Farbskala, woran du deinen Vergleich erkennst. Du kannst auf die Stellen zeigen und erzählen oder deinen Vergleich kurz aufschreiben. Beides ist freiwillig und bringt keine Zusatzpunkte.",
+        "childSteps": [
+          "Wo liegt das Land höher, wo tiefer?",
+          "Wo leben auf gleich grosser Fläche mehr Menschen, wo weniger?"
+        ],
+        "childHandouts": [
+          {
+            "path": "assets/go-suedasien-kartenwahl/karten.html",
+            "label": "Beide Karten mit ihren Farbskalen öffnen",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/go-suedasien-kartenwahl/karten.html"
+          }
+        ],
+        "childHandoutsNote": "Öffne beide Karten. Wenn ein Bild fehlt oder die Farben und die Legende auch vergrössert schwer zu unterscheiden sind, lass den betreffenden Vergleich offen. Du brauchst weder persönliche Angaben noch Fotos. Du schickst nichts weiter.",
+        "childHandoutsPrintNote": "Öffne beide Karten für den Vergleich am Bildschirm. Du kannst auf einem Blatt schreiben oder die Stellen zeigen und mündlich erklären. Wenn ein Bild fehlt oder die Farben und die Legende auch vergrössert schwer zu unterscheiden sind, lass den betreffenden Vergleich offen. Du brauchst weder persönliche Angaben noch Fotos und schickst nichts weiter.",
+        "externalLinks": [
+          {
+            "label": "Fabio Crameri, Surface topography, Mollweide, 01.09.2021. ETOPO1 (Modellreferenz 2009). Grafik nach Crameri, Shephard und Heron (2020), s-Ink, CC BY-SA 4.0.",
+            "url": "https://s-ink.org/surface-topography",
+            "printNote": "Original und Quellenangaben bei s-Ink."
+          },
+          {
+            "label": "Eivind O. Straume, Population density, 01.06.2022. GPWv4, Raster A für 2020. Grafik von Eivind O. Straume, s-Ink, CC BY-SA 4.0.",
+            "url": "https://s-ink.org/population-density",
+            "printNote": "Original und Quellenangaben bei s-Ink."
+          },
+          {
+            "label": "Lizenz beider Grafiken · CC BY-SA 4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "printNote": "Lizenztext."
+          }
+        ],
+        "adultNote": "Stellen Sie beide Originalansichten mit lesbaren Legenden bereit. Für die transparente Reliefkarte einen hellen Hintergrund wählen. Bei Bedarf vergrössern. Lassen Sie das Kind für jede Frage selbst wählen. Prüfen Sie am verwendeten Gerät, ob die Farben unterscheidbar und die Einheiten lesbar sind. Für die freie Wahl müssen beide Ansichten zugänglich sein. Bei fehlender Ansicht oder unlesbarer Legende bleibt der betroffene Teil nicht erhoben.",
+        "adultGuide": [
+          "Das Kind entscheidet für jede Frage selbst, zeigt zwei Bereiche im gemeinsamen Raum und begründet seinen Vergleich mit Farbe und Einheit. Falls die Orientierung schwerfällt, dürfen Sie den Umriss der Halbinsel zeigen. Lassen Sie die beiden Vergleichsstellen offen. Unterscheiden Sie bei der Rückmeldung Hilfe beim Auffinden Südasiens, eigene Kartenwahl und eigene Auswertung. Haben Sie die passende Karte genannt, kann ein anschliessender selbst erklärter Farbvergleich weiterhin anerkannt werden.",
+          "Mögliche Ablesung nach dem eigenen Versuch. In Crameris Mollweide-Ansicht liegt nördlich der Halbinsel eine hellbraune Hochfläche. Die grüne Ebene unmittelbar südlich davon liegt gemäss der rechten Farbskala tiefer. Die Einheit ist Meter über dem Meeresspiegel. In Straumes Dichteraster für 2020 ist ein Streifen am Nordrand der indischen Ebene deutlich heller als die Fläche weiter nördlich. Die untere Farbskala weist dem helleren Bereich mehr Menschen je Quadratkilometer zu. Andere auffindbare Stellenpaare sind ebenso geeignet, wenn die Deutung zu ihrer Legende passt. Ortsnamen, Koordinaten, exakte Zahlen und eine Erklärung für die Besiedlung werden nicht verlangt.",
+          "Fabio Crameri, Surface topography, Mollweide, 01.09.2021. ETOPO1 (Modellreferenz 2009). Grafik nach Crameri, Shephard und Heron (2020), s-Ink, CC BY-SA 4.0.",
+          "Eivind O. Straume, Population density, 01.06.2022. GPWv4, Raster A für 2020. Grafik von Eivind O. Straume, s-Ink, CC BY-SA 4.0."
+        ],
+        "adultCriteria": [
+          "Welche Karte und welche beiden Bereiche hat das Kind zu jeder Frage selbst gewählt? Eine Hilfe beim Auffinden der Halbinsel gesondert festhalten.",
+          "Welche Unterschiede hat das Kind mit Farbe und Einheit erklärt? Haben Sie die Karte genannt, kann die anschliessende Auswertung weiterhin eigenständig sein. Andere begründete Stellenpaare gelten gleichwertig."
+        ],
+        "handouts": [
+          {
+            "path": "assets/go-suedasien-kartenwahl/karten.html",
+            "label": "Beide Karten mit ihren Farbskalen öffnen",
+            "publicUrl": "https://wolvespsd.github.io/lotte-lea-lernatlas/assets/go-suedasien-kartenwahl/karten.html"
+          }
+        ],
+        "handoutsNote": "Dieselben beiden lösungsfreien Karten wie im Kinderweg. Beispielstellen erst nach dem eigenen Versuch besprechen.",
+        "printAdultHandoutsNote": "Beide Karten mit Legenden am Bildschirm öffnen: https://wolvespsd.github.io/lotte-lea-lernatlas/assets/go-suedasien-kartenwahl/karten.html",
+        "printObservationFooter": "Bei fehlender Ansicht oder unlesbarer Legende bleibt der betreffende Teil nicht erhoben. Zeigen mit Erklärung und Schreiben sind gleichwertig. Keine Zusatzpunkte."
+      },
+      "releaseEvidence": {
+        "primaryUrl": "https://www.schulportal-thueringen.de/web/guest/lehrplaene/gymnasium",
+        "primaryLocalPdf": "pdf/LP_GY_Geo_Endfassung_11_10_2013.pdf",
+        "primarySha256": "FFB7CDC31952970E13D77606F94FD8A2B4C9004FC99BA0C9024C7638769BF983",
+        "validFor": "2026/27 als dokumentierte Kontinuitätsinferenz",
+        "gradeBand": "7/8",
+        "competencyRef": "Thüringer Geografie-Lehrplan Gymnasium 2012, lokale Endfassung 2013, § 2.2, Methodenkompetenz: „thematische und physische Karten selbstständig auswählen und auswerten“. Ziel Ende Klasse 8. Die Verwendung für Klasse 7 beruht auf Kontinuitätsinferenz, die konkrete Schulfolge bleibt offen.",
+        "reviewNote": "27.11.2026: Text- und Rollenüberleitung, konkrete Originalkarten und Lizenzzuordnung, lokaler Betrachter sowie isolierte Bedienung, Sicherung/Frischimport und Einzel- sowie geprüfte Mischdruckausgaben sind unabhängig im dokumentierten Umfang angenommen. Öffentliche Auslieferung und reale Geräte-/Lernleistungen sind eigenständige Nachweise. Keine beobachtete Kinderleistung, bestätigte Schulfolge oder Fach-/Jahresabnahme.",
+        "checkedAt": "2026-11-27"
+      },
+      "materialFormat": "interactive-map"
     }
   ]
 };

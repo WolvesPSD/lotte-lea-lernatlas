@@ -458,3 +458,17 @@ body[data-print-mode^="child"] #print-surface .print-topic:has(.print-task[data-
     page-break-inside: avoid;
   }
 }
+
+/* M02: only the new map print route and its explicitly selected mixed material pages. */
+@media print {
+  #print-surface .print-map-material-adult { font-size:10pt; }
+  #print-surface .print-map-material-adult p { margin:.35em 0; }
+  #print-surface .print-map-material-adult h2 { margin:.8rem 0 .4rem; }
+  #print-surface .print-map-material-adult .print-practice { margin-top:.6rem; padding-top:.4rem; }
+  #print-surface .print-map-material-adult .print-practice h3 { margin:.5em 0; }
+  #print-surface .print-map-material-adult .print-practice ol { margin:.45em 0; break-inside:avoid; page-break-inside:avoid; break-after:avoid; page-break-after:avoid; }
+  #print-surface .print-map-material-adult .print-practice > ol ~ p { break-before:avoid; page-break-before:avoid; }
+  #print-surface .print-map-material-adult .print-practice li + li { margin-top:.3rem; }
+  body:where([data-print-mode^="adult"]) #print-surface:has(.print-map-material-adult) :where(.print-map-material-adult, .print-ohra-material-overview) .print-practice { break-before:auto; page-break-before:auto; }
+  body[data-print-mode^="child"] #print-surface:has(.print-map-material-child) .print-topic:has(.print-task[data-task-id^="ge-hm-mittelalter-epochenbegriffe-"]) .print-practice { break-inside:avoid; page-break-inside:avoid; }
+}

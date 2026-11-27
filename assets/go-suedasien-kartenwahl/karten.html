@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="de">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Zwei Weltkarten · Südasien</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f5ee;color:#162b30;font:1rem/1.5 system-ui,sans-serif}
+main{max-width:80rem;margin:auto;padding:clamp(.6rem,2vw,1.7rem)}
+h1{font:600 clamp(1.75rem,4vw,2.6rem)/1.1 Georgia,serif;margin:0 0 .65rem}p,figure{margin:0 0 .65rem}
+.controls{display:flex;gap:.4rem;flex-wrap:wrap;margin:.6rem 0}
+button{font:inherit;color:inherit;background:white;padding:.42rem .75rem;border:1px solid #758888;border-radius:.35rem;cursor:pointer}
+button[aria-pressed=true]{color:white;background:#185351}button:disabled{color:#656b6b;cursor:default}
+:focus-visible{outline:3px solid #a85113;outline-offset:2px}
+#pane{max-width:100%;height:clamp(16rem,63vh,40rem);background:white;overflow:auto;overscroll-behavior:contain;border:1px solid #81908c;position:relative}
+img{display:block;margin:0 auto;height:auto}[hidden]{display:none!important}
+figcaption{padding:.65rem .2rem;font-size:.92rem}a{color:#07575d}#error{padding:.6rem;background:#fff2cf}#status{font-weight:600}
+</style>
+<main>
+<h1>Zwei Weltkarten</h1>
+<p>Wähle eine Karte. Du kannst jederzeit zur anderen wechseln.</p>
+<div class="controls" aria-label="Kartenauswahl"><button data-map="relief" aria-pressed="false">Surface topography</button><button data-map="density" aria-pressed="false">Population density</button></div>
+<p id="error" role="alert" hidden></p><p id="status" role="status">Karten werden geladen.</p>
+<section id="viewer" hidden>
+<div class="controls"><button id="fit">Übersicht</button><button id="minus">Verkleinern</button><button id="plus">Vergrössern</button></div>
+<p id="help">Zum Verschieben im Bild scrollen. Mit der Tastatur: Kartenbereich auswählen und die Pfeiltasten verwenden.</p>
+<figure>
+<div id="pane" role="region" aria-label="Verschiebbarer Kartenbereich" aria-describedby="help" tabindex="0">
+<img id="relief" src="relief.png" alt="Weltkarte Surface topography mit Farbskala" hidden>
+<img id="density" src="density.png" alt="Weltkarte Population density mit Farbskala" hidden>
+</div>
+<figcaption id="credits"></figcaption>
+</figure></section>
+<noscript>Zum Wechseln und Vergrössern der Karten muss JavaScript aktiviert sein.</noscript>
+<template id="relief-credit"><strong>Surface topography</strong> · Fabio Crameri, 01.09.2021. Mollweide-Projektion. Datenmodell ETOPO1, Amante und Eakins (2009), 1 Bogenminute. Grafik nach <a href="https://doi.org/10.1038/s41467-020-19160-7">Crameri, Shephard und Heron (2020)</a>. Unveränderte Grafik von <a href="https://s-ink.org/surface-topography">s-Ink</a> · <a href="https://s-ink.org/wp-content/uploads/2021/08/SurfaceTopography_mollweid_lon0_bukavu_Crameri.png">Originalbild</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</template>
+<template id="density-credit"><strong>Population density</strong> · Eivind O. Straume, 01.06.2022. Bevölkerungsdichte für 2020, Raster A mit 2,5 Bogenminuten. Daten: <a href="https://doi.org/10.7927/H46T0JKB">GPWv4, Population Density, Beta Release (NASA SEDAC)</a>. Unveränderte Grafik von <a href="https://s-ink.org/population-density">s-Ink</a> · <a href="https://i0.wp.com/s-ink.org/wp-content/uploads/GPWv4_population_density_2020.png?resize=1200,587&amp;ssl=1">Originalbild</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</template>
+</main><script src="viewer.js"></script>
+</html>
